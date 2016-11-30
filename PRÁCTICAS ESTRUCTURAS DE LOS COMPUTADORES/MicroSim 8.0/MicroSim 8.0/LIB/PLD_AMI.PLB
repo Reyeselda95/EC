@@ -1,0 +1,371 @@
+*version 6.3 70660916
+@index
+symloc PEEL153PC-30:A153-02 0 34
+symloc PEEL173PC-30:A173-00 34 34
+symloc PEEL18CV8JC-10:P18CV8-00 68 38
+symloc PEEL18CV8JC-15:P18CV8-00 106 38
+symloc PEEL18CV8JC-25:P18CV8-00 144 38
+symloc PEEL18CV8JC-7:P18CV8-00 182 37
+symloc PEEL18CV8PC-10:P18CV8-01 219 38
+symloc PEEL18CV8PC-15:P18CV8-01 257 38
+symloc PEEL18CV8PC-25:P18CV8-01 295 38
+symloc PEEL18CV8PC-7:P18CV8-01 333 37
+symloc PEEL18CV8SC-10:P18CV8-03 370 38
+symloc PEEL18CV8SC-15:P18CV8-03 408 38
+symloc PEEL18CV8SC-25:P18CV8-03 446 38
+symloc PEEL18CV8SC-7:P18CV8-03 484 37
+symloc PEEL20CG10JC-25:P20CG10-00 521 40
+symloc PEEL20CG10PC-25:P20CG10-01 561 40
+symloc PEEL22CV10JC-10:P22V10-03 601 39
+symloc PEEL22CV10JC-15:P22V10-03 640 39
+symloc PEEL22CV10JC-25:P22V10-03 679 39
+symloc PEEL22CV10PC-10:P22V10-04 718 39
+symloc PEEL22CV10PC-15:P22V10-04 757 39
+symloc PEEL22CV10PC-25:P22V10-04 796 39
+symloc PEEL253PC-30:A253-00 835 34
+symloc PEEL273PC-30:A273-00 869 34
+symloc A153-02 903 231
+symloc A173-00 1134 265
+symloc P18CV8-00 1399 235
+symloc P18CV8-01 1634 234
+symloc P18CV8-03 1868 234
+symloc P20CG10-00 2102 274
+symloc P20CG10-01 2376 271
+symloc P22V10-03 2647 272
+symloc P22V10-04 2919 269
+symloc A253-00 3188 231
+symloc A273-00 3419 265
+*package PEEL153PC-30 ako A153-02
+*package PEEL173PC-30 ako A173-00
+*package PEEL18CV8JC-10 ako P18CV8-00
+*package PEEL18CV8JC-15 ako P18CV8-00
+*package PEEL18CV8JC-25 ako P18CV8-00
+*package PEEL18CV8JC-7 ako P18CV8-00
+*package PEEL18CV8PC-10 ako P18CV8-01
+*package PEEL18CV8PC-15 ako P18CV8-01
+*package PEEL18CV8PC-25 ako P18CV8-01
+*package PEEL18CV8PC-7 ako P18CV8-01
+*package PEEL18CV8SC-10 ako P18CV8-03
+*package PEEL18CV8SC-15 ako P18CV8-03
+*package PEEL18CV8SC-25 ako P18CV8-03
+*package PEEL18CV8SC-7 ako P18CV8-03
+*package PEEL20CG10JC-25 ako P20CG10-00
+*package PEEL20CG10PC-25 ako P20CG10-01
+*package PEEL22CV10JC-10 ako P22V10-03
+*package PEEL22CV10JC-15 ako P22V10-03
+*package PEEL22CV10JC-25 ako P22V10-03
+*package PEEL22CV10PC-10 ako P22V10-04
+*package PEEL22CV10PC-15 ako P22V10-04
+*package PEEL22CV10PC-25 ako P22V10-04
+*package PEEL253PC-30 ako A253-00
+*package PEEL273PC-30 ako A273-00
+*package A153-02
+@types 1
+g 1
+@pinout
+t   DIP20
+g 1
+p I0 1
+p I1 2
+p I2 3
+p I3 4
+p I4 5
+p I5 6
+p I6 7
+p I7 8
+p I/O0 9
+p GND_10 10
+p I/O1 11
+p I/O2 12
+p I/O3 13
+p I/O4 14
+p I/O5 15
+p I/O6 16
+p I/O7 17
+p I/O8 18
+p I/O9 19
+p Vcc_20 20
+*package A173-00
+@types 1
+g 1
+@pinout
+t   DIP24
+g 1
+p I0 1
+p I1 2
+p I2 3
+p I3 4
+p I4 5
+p I5 6
+p I6 7
+p I7 8
+p I8 9
+p I9 10
+p I10 11
+p GND_12 12
+p I11 13
+p I/O0 14
+p I/O1 15
+p I/O2 16
+p I/O3 17
+p I/O4 18
+p I/O5 19
+p I/O6 20
+p I/O7 21
+p I/O8 22
+p I/O9 23
+p Vcc_24 24
+*package P18CV8-00
+@types 1
+g 1
+@pinout
+t   PLCC20
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p GND_10 10
+p I/OE 11
+p I/O0 12
+p I/O1 13
+p I/O2 14
+p I/O3 15
+p I/O4 16
+p I/O5 17
+p I/O6 18
+p I/O7 19
+p Vcc_20 20
+*package P18CV8-01
+@types 1
+g 1
+@pinout
+t   DIP20
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p GND_10 10
+p I/OE 11
+p I/O0 12
+p I/O1 13
+p I/O2 14
+p I/O3 15
+p I/O4 16
+p I/O5 17
+p I/O6 18
+p I/O7 19
+p Vcc_20 20
+*package P18CV8-03
+@types 1
+g 1
+@pinout
+t   SOP20
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p GND_10 10
+p I/OE 11
+p I/O0 12
+p I/O1 13
+p I/O2 14
+p I/O3 15
+p I/O4 16
+p I/O5 17
+p I/O6 18
+p I/O7 19
+p Vcc_20 20
+*package P20CG10-00
+@types 1
+g 1
+@pinout
+t   PLCC28
+g 1
+p I/CLK 2
+p I0 3
+p I1 4
+p I2 5
+p I3 6
+p I4 7
+p I5 9
+p I6 10
+p I7 11
+p I8 12
+p I9 13
+p GND_14 14
+p I/OE 16
+p I/O0 17
+p I/O1 18
+p I/O2 19
+p I/O3 20
+p I/O4 21
+p I/O5 23
+p I/O6 24
+p I/O7 25
+p I/O8 26
+p I/O9 27
+p Vcc_28 28
+*package P20CG10-01
+@types 1
+g 1
+@pinout
+t   DIP24
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p I8 10
+p I9 11
+p GND_12 12
+p I/OE 13
+p I/O0 14
+p I/O1 15
+p I/O2 16
+p I/O3 17
+p I/O4 18
+p I/O5 19
+p I/O6 20
+p I/O7 21
+p I/O8 22
+p I/O9 23
+p Vcc_24 24
+*package P22V10-03
+@types 1
+g 1
+@pinout
+t   PLCC28
+g 1
+p I/CLK 2
+p I0 3
+p I1 4
+p I2 5
+p I3 6
+p I4 7
+p I5 9
+p I6 10
+p I7 11
+p I8 12
+p I9 13
+p GND_14 14
+p I10 16
+p I/O0 17
+p I/O1 18
+p I/O2 19
+p I/O3 20
+p I/O4 21
+p I/O5 23
+p I/O6 24
+p I/O7 25
+p I/O8 26
+p I/O9 27
+p Vcc_28 28
+*package P22V10-04
+@types 1
+g 1
+@pinout
+t   DIP24
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p I8 10
+p I9 11
+p GND_12 12
+p I10 13
+p I/O0 14
+p I/O1 15
+p I/O2 16
+p I/O3 17
+p I/O4 18
+p I/O5 19
+p I/O6 20
+p I/O7 21
+p I/O8 22
+p I/O9 23
+p Vcc_24 24
+*package A253-00
+@types 1
+g 1
+@pinout
+t   DIP20
+g 1
+p I0 1
+p I1 2
+p I2 3
+p I3 4
+p I4 5
+p I5 6
+p I6 7
+p I7 8
+p I/O0 9
+p GND_10 10
+p I/O1 11
+p I/O2 12
+p I/O3 13
+p I/O4 14
+p I/O5 15
+p I/O6 16
+p I/O7 17
+p I/O8 18
+p I/O9 19
+p Vcc_20 20
+*package A273-00
+@types 1
+g 1
+@pinout
+t   DIP24
+g 1
+p I0 1
+p I1 2
+p I2 3
+p I3 4
+p I4 5
+p I5 6
+p I6 7
+p I7 8
+p I8 9
+p I9 10
+p I10 11
+p GND_12 12
+p I11 13
+p I/O0 14
+p I/O1 15
+p I/O2 16
+p I/O3 17
+p I/O4 18
+p I/O5 19
+p I/O6 20
+p I/O7 21
+p I/O8 22
+p I/O9 23
+p Vcc_24 24

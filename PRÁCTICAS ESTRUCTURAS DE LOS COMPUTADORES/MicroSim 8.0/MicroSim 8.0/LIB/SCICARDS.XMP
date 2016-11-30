@@ -1,0 +1,14 @@
+# Part Mapping file for SCICARDS PCB Package
+
+# Copyright 1992,1993 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+# The following is an example of changing the the default rule:
+# Default rule: (mapped/unmapped package type, part as info
+#
+# DEFAULT               ?`pkgtype|@`pkgtype,||@pkgtype,|?component|@component||@part|
+#
+#
+#
+

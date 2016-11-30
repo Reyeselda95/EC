@@ -1,0 +1,16302 @@
+*version 6.2 69923060
+@index
+symloc DS1000 0 452
+symloc DS1000-100 452 127
+symloc DS1000-125 579 127
+symloc DS1000-150 706 127
+symloc DS1000-175 833 127
+symloc DS1000-200 960 127
+symloc DS1000-25 1087 126
+symloc DS1000-250 1213 127
+symloc DS1000-30 1340 126
+symloc DS1000-35 1466 126
+symloc DS1000-350 1592 127
+symloc DS1000-40 1719 126
+symloc DS1000-45 1845 126
+symloc DS1000-50 1971 126
+symloc DS1000-500 2097 127
+symloc DS1000-60 2224 126
+symloc DS1000-75 2350 126
+symloc DS1000G-100 2476 130
+symloc DS1000G-125 2606 130
+symloc DS1000G-150 2736 130
+symloc DS1000G-175 2866 130
+symloc DS1000G-200 2996 130
+symloc DS1000G-25 3126 129
+symloc DS1000G-250 3255 130
+symloc DS1000G-30 3385 129
+symloc DS1000G-35 3514 129
+symloc DS1000G-350 3643 130
+symloc DS1000G-40 3773 129
+symloc DS1000G-45 3902 129
+symloc DS1000G-50 4031 129
+symloc DS1000G-500 4160 130
+symloc DS1000G-60 4290 129
+symloc DS1000G-75 4419 129
+symloc DS1000H-100 4548 126
+symloc DS1000H-125 4674 126
+symloc DS1000H-150 4800 126
+symloc DS1000H-175 4926 126
+symloc DS1000H-200 5052 126
+symloc DS1000H-25 5178 125
+symloc DS1000H-250 5303 126
+symloc DS1000H-30 5429 125
+symloc DS1000H-35 5554 125
+symloc DS1000H-350 5679 126
+symloc DS1000H-40 5805 125
+symloc DS1000H-45 5930 125
+symloc DS1000H-50 6055 125
+symloc DS1000H-500 6180 126
+symloc DS1000H-60 6306 125
+symloc DS1000H-75 6431 125
+symloc DS1000K-100 6556 128
+symloc DS1000K-125 6684 128
+symloc DS1000K-150 6812 128
+symloc DS1000K-175 6940 128
+symloc DS1000K-200 7068 128
+symloc DS1000K-25 7196 127
+symloc DS1000K-250 7323 128
+symloc DS1000K-30 7451 127
+symloc DS1000K-35 7578 127
+symloc DS1000K-350 7705 128
+symloc DS1000K-40 7833 127
+symloc DS1000K-45 7960 127
+symloc DS1000K-50 8087 127
+symloc DS1000K-500 8214 128
+symloc DS1000K-60 8342 127
+symloc DS1000K-75 8469 127
+symloc DS1000M-100 8596 124
+symloc DS1000M-125 8720 124
+symloc DS1000M-150 8844 124
+symloc DS1000M-175 8968 124
+symloc DS1000M-200 9092 124
+symloc DS1000M-25 9216 123
+symloc DS1000M-250 9339 124
+symloc DS1000M-30 9463 123
+symloc DS1000M-35 9586 123
+symloc DS1000M-350 9709 124
+symloc DS1000M-40 9833 123
+symloc DS1000M-45 9956 123
+symloc DS1000M-50 10079 123
+symloc DS1000M-500 10202 124
+symloc DS1000M-60 10326 123
+symloc DS1000M-75 10449 123
+symloc DS1000S-100 10572 128
+symloc DS1000S-125 10700 128
+symloc DS1000S-150 10828 128
+symloc DS1000S-175 10956 128
+symloc DS1000S-200 11084 128
+symloc DS1000S-25 11212 127
+symloc DS1000S-250 11339 128
+symloc DS1000S-30 11467 127
+symloc DS1000S-35 11594 127
+symloc DS1000S-350 11721 128
+symloc DS1000S-40 11849 127
+symloc DS1000S-45 11976 127
+symloc DS1000S-50 12103 127
+symloc DS1000S-500 12230 128
+symloc DS1000S-60 12358 127
+symloc DS1000S-75 12485 127
+symloc DS1000Z-100 12612 123
+symloc DS1000Z-125 12735 123
+symloc DS1000Z-150 12858 123
+symloc DS1000Z-175 12981 123
+symloc DS1000Z-200 13104 123
+symloc DS1000Z-25 13227 122
+symloc DS1000Z-250 13349 123
+symloc DS1000Z-30 13472 122
+symloc DS1000Z-35 13594 122
+symloc DS1000Z-350 13716 123
+symloc DS1000Z-40 13839 122
+symloc DS1000Z-45 13961 122
+symloc DS1000Z-50 14083 122
+symloc DS1000Z-500 14205 123
+symloc DS1000Z-60 14328 122
+symloc DS1000Z-75 14450 122
+symloc DS1005 14572 451
+symloc DS1005-100 15023 127
+symloc DS1005-125 15150 127
+symloc DS1005-150 15277 127
+symloc DS1005-175 15404 127
+symloc DS1005-200 15531 127
+symloc DS1005-250 15658 127
+symloc DS1005-350 15785 127
+symloc DS1005-500 15912 127
+symloc DS1005-60 16039 126
+symloc DS1005-75 16165 126
+symloc DS1005G-100 16291 130
+symloc DS1005G-125 16421 130
+symloc DS1005G-150 16551 130
+symloc DS1005G-175 16681 130
+symloc DS1005G-200 16811 130
+symloc DS1005G-250 16941 130
+symloc DS1005G-350 17071 130
+symloc DS1005G-500 17201 130
+symloc DS1005G-60 17331 129
+symloc DS1005G-75 17460 129
+symloc DS1005H-100 17589 126
+symloc DS1005H-125 17715 126
+symloc DS1005H-150 17841 126
+symloc DS1005H-175 17967 126
+symloc DS1005H-200 18093 126
+symloc DS1005H-250 18219 126
+symloc DS1005H-350 18345 126
+symloc DS1005H-500 18471 126
+symloc DS1005H-60 18597 125
+symloc DS1005H-75 18722 125
+symloc DS1005K-100 18847 128
+symloc DS1005K-125 18975 128
+symloc DS1005K-150 19103 128
+symloc DS1005K-175 19231 128
+symloc DS1005K-200 19359 128
+symloc DS1005K-250 19487 128
+symloc DS1005K-350 19615 128
+symloc DS1005K-500 19743 128
+symloc DS1005K-60 19871 127
+symloc DS1005K-75 19998 127
+symloc DS1005M-100 20125 124
+symloc DS1005M-125 20249 124
+symloc DS1005M-150 20373 124
+symloc DS1005M-175 20497 124
+symloc DS1005M-200 20621 124
+symloc DS1005M-250 20745 124
+symloc DS1005M-350 20869 124
+symloc DS1005M-500 20993 124
+symloc DS1005M-60 21117 123
+symloc DS1005M-75 21240 123
+symloc DS1005S-100 21363 128
+symloc DS1005S-125 21491 128
+symloc DS1005S-150 21619 128
+symloc DS1005S-175 21747 128
+symloc DS1005S-200 21875 128
+symloc DS1005S-250 22003 128
+symloc DS1005S-350 22131 128
+symloc DS1005S-500 22259 128
+symloc DS1005S-60 22387 127
+symloc DS1005S-75 22514 127
+symloc DS1007 22641 348
+symloc DS1007-1 22989 196
+symloc DS1007-10 23185 197
+symloc DS1007-11 23382 197
+symloc DS1007-12 23579 197
+symloc DS1007-13 23776 197
+symloc DS1007-14 23973 197
+symloc DS1007-2 24170 196
+symloc DS1007-3 24366 196
+symloc DS1007-4 24562 196
+symloc DS1007-5 24758 196
+symloc DS1007-6 24954 196
+symloc DS1007-7 25150 196
+symloc DS1007-8 25346 196
+symloc DS1007-9 25542 196
+symloc DS1007S-1 25738 197
+symloc DS1007S-10 25935 198
+symloc DS1007S-11 26133 198
+symloc DS1007S-12 26331 198
+symloc DS1007S-13 26529 198
+symloc DS1007S-14 26727 198
+symloc DS1007S-2 26925 197
+symloc DS1007S-3 27122 197
+symloc DS1007S-4 27319 197
+symloc DS1007S-5 27516 197
+symloc DS1007S-6 27713 197
+symloc DS1007S-7 27910 197
+symloc DS1007S-8 28107 197
+symloc DS1007S-9 28304 197
+symloc DS1010 28501 436
+symloc DS1010-100 28937 175
+symloc DS1010-125 29112 175
+symloc DS1010-150 29287 175
+symloc DS1010-175 29462 175
+symloc DS1010-200 29637 175
+symloc DS1010-250 29812 175
+symloc DS1010-300 29987 175
+symloc DS1010-350 30162 175
+symloc DS1010-400 30337 175
+symloc DS1010-450 30512 175
+symloc DS1010-50 30687 174
+symloc DS1010-500 30861 175
+symloc DS1010-60 31036 174
+symloc DS1010-75 31210 174
+symloc DS1010G-100 31384 178
+symloc DS1010G-125 31562 178
+symloc DS1010G-150 31740 178
+symloc DS1010G-175 31918 178
+symloc DS1010G-200 32096 178
+symloc DS1010G-250 32274 178
+symloc DS1010G-300 32452 178
+symloc DS1010G-350 32630 178
+symloc DS1010G-400 32808 178
+symloc DS1010G-450 32986 178
+symloc DS1010G-50 33164 177
+symloc DS1010G-500 33341 178
+symloc DS1010G-60 33519 177
+symloc DS1010G-75 33696 177
+symloc DS1010S-100 33873 177
+symloc DS1010S-125 34050 177
+symloc DS1010S-150 34227 177
+symloc DS1010S-175 34404 177
+symloc DS1010S-200 34581 177
+symloc DS1010S-250 34758 177
+symloc DS1010S-300 34935 177
+symloc DS1010S-350 35112 177
+symloc DS1010S-400 35289 177
+symloc DS1010S-450 35466 177
+symloc DS1010S-50 35643 176
+symloc DS1010S-500 35819 177
+symloc DS1010S-60 35996 176
+symloc DS1010S-75 36172 176
+symloc DS1013 36348 364
+symloc DS1013-10 36712 125
+symloc DS1013-100 36837 126
+symloc DS1013-12 36963 125
+symloc DS1013-15 37088 125
+symloc DS1013-150 37213 126
+symloc DS1013-25 37339 125
+symloc DS1013-30 37464 125
+symloc DS1013-35 37589 125
+symloc DS1013-40 37714 125
+symloc DS1013-45 37839 125
+symloc DS1013-50 37964 125
+symloc DS1013-55 38089 125
+symloc DS1013-60 38214 125
+symloc DS1013-65 38339 125
+symloc DS1013-70 38464 125
+symloc DS1013-75 38589 125
+symloc DS1013-80 38714 125
+symloc DS1013-90 38839 125
+symloc DS1013G-10 38964 128
+symloc DS1013G-100 39092 129
+symloc DS1013G-12 39221 128
+symloc DS1013G-15 39349 128
+symloc DS1013G-150 39477 129
+symloc DS1013G-25 39606 128
+symloc DS1013G-30 39734 128
+symloc DS1013G-35 39862 128
+symloc DS1013G-40 39990 128
+symloc DS1013G-45 40118 128
+symloc DS1013G-50 40246 128
+symloc DS1013G-55 40374 128
+symloc DS1013G-60 40502 128
+symloc DS1013G-65 40630 128
+symloc DS1013G-70 40758 128
+symloc DS1013G-75 40886 128
+symloc DS1013G-80 41014 128
+symloc DS1013G-90 41142 128
+symloc DS1013H-10 41270 124
+symloc DS1013H-100 41394 125
+symloc DS1013H-12 41519 124
+symloc DS1013H-15 41643 124
+symloc DS1013H-150 41767 125
+symloc DS1013H-25 41892 124
+symloc DS1013H-30 42016 124
+symloc DS1013H-35 42140 124
+symloc DS1013H-40 42264 124
+symloc DS1013H-45 42388 124
+symloc DS1013H-50 42512 124
+symloc DS1013H-55 42636 124
+symloc DS1013H-60 42760 124
+symloc DS1013H-65 42884 124
+symloc DS1013H-70 43008 124
+symloc DS1013H-75 43132 124
+symloc DS1013H-80 43256 124
+symloc DS1013H-90 43380 124
+symloc DS1013K-10 43504 126
+symloc DS1013K-12 43630 126
+symloc DS1013K-15 43756 126
+symloc DS1013K-25 43882 126
+symloc DS1013K-30 44008 126
+symloc DS1013K-50 44134 126
+symloc DS1013K-55 44260 126
+symloc DS1013M-10 44386 122
+symloc DS1013M-100 44508 123
+symloc DS1013M-12 44631 122
+symloc DS1013M-15 44753 122
+symloc DS1013M-150 44875 123
+symloc DS1013M-25 44998 122
+symloc DS1013M-30 45120 122
+symloc DS1013M-35 45242 122
+symloc DS1013M-40 45364 122
+symloc DS1013M-45 45486 122
+symloc DS1013M-50 45608 122
+symloc DS1013M-55 45730 122
+symloc DS1013M-60 45852 122
+symloc DS1013M-65 45974 122
+symloc DS1013M-70 46096 122
+symloc DS1013M-75 46218 122
+symloc DS1013M-80 46340 122
+symloc DS1013M-90 46462 122
+symloc DS1200 46584 112
+symloc DS1200N 46696 113
+symloc DS1200S 46809 114
+symloc DS1200SN 46923 115
+symloc DS1202 47038 108
+symloc DS1202N 47146 106
+symloc DS1202S 47252 110
+symloc DS1202SN 47362 114
+symloc DS1203S-B1 47476 113
+symloc DS1206 47589 188
+symloc DS1206N 47777 189
+symloc DS1206S 47966 190
+symloc DS1206SN 48156 191
+symloc DS1210 48347 124
+symloc DS1210N 48471 125
+symloc DS1210S 48596 129
+symloc DS1210SN 48725 130
+symloc DS1211 48855 234
+symloc DS1211N 49089 235
+symloc DS1211S 49324 235
+symloc DS1211SN 49559 236
+symloc DS1212 49795 336
+symloc DS1212N 50131 337
+symloc DS1212Q 50468 337
+symloc DS1212QN 50805 338
+symloc DS1215 51143 201
+symloc DS1215N 51344 199
+symloc DS1215S 51543 199
+symloc DS1220 51742 255
+symloc DS1220AB 51997 257
+symloc DS1220AB-100 52254 261
+symloc DS1220AB-100-IND 52515 265
+symloc DS1220AB-120 52780 261
+symloc DS1220AB-150 53041 261
+symloc DS1220AB-IND 53302 261
+symloc DS1220AD 53563 257
+symloc DS1220AD-100 53820 261
+symloc DS1220AD-100-IND 54081 265
+symloc DS1220AD-120 54346 261
+symloc DS1220AD-150 54607 261
+symloc DS1220AD-IND 54868 261
+symloc DS1220Y 55129 256
+symloc DS1220Y-100 55385 260
+symloc DS1220Y-100-IND 55645 264
+symloc DS1220Y-120 55909 260
+symloc DS1220Y-150 56169 260
+symloc DS1220Y-IND 56429 260
+symloc DS1221 56689 203
+symloc DS1221N 56892 201
+symloc DS1221S 57093 201
+symloc DS1221SN 57294 205
+symloc DS1222 57499 163
+symloc DS1222N 57662 164
+symloc DS1222S 57826 164
+symloc DS1222SN 57990 165
+symloc DS1223 58155 244
+symloc DS1225 58399 273
+symloc DS1225AB 58672 275
+symloc DS1225AB-150 58947 279
+symloc DS1225AB-150-IND 59226 283
+symloc DS1225AB-170 59509 279
+symloc DS1225AB-IND 59788 279
+symloc DS1225AD 60067 275
+symloc DS1225AD-150 60342 279
+symloc DS1225AD-150-IND 60621 283
+symloc DS1225AD-170 60904 279
+symloc DS1225AD-IND 61183 279
+symloc DS1225D-100 61462 278
+symloc DS1225D-120 61740 278
+symloc DS1225D-120-IND 62018 282
+symloc DS1225D-70 62300 277
+symloc DS1225D-70-IND 62577 281
+symloc DS1225DE-85 62858 278
+symloc DS1225E-100 63136 278
+symloc DS1225E-120 63414 278
+symloc DS1225E-120-IND 63692 282
+symloc DS1225E-70 63974 277
+symloc DS1225E-70-IND 64251 281
+symloc DS1225E-85 64532 277
+symloc DS1225Y 64809 274
+symloc DS1225Y-150 65083 278
+symloc DS1225Y-150-IND 65361 282
+symloc DS1225Y-170 65643 278
+symloc DS1225Y-IND 65921 278
+symloc DS1227 66199 279
+symloc DS1227N 66478 280
+symloc DS1227S 66758 280
+symloc DS1227SN 67038 281
+symloc DS1228 67319 197
+symloc DS1228S 67516 198
+symloc DS1229 67714 239
+symloc DS1229S 67953 237
+symloc DS1230 68190 290
+symloc DS1230AB 68480 292
+symloc DS1230AB-100 68772 296
+symloc DS1230AB-120 69068 296
+symloc DS1230AB-120-IND 69364 300
+symloc DS1230AB-150 69664 296
+symloc DS1230AB-70 69960 295
+symloc DS1230AB-70-IND 70255 299
+symloc DS1230AB-85 70554 295
+symloc DS1230AB-85-IND 70849 299
+symloc DS1230AB-IND 71148 296
+symloc DS1230Y 71444 291
+symloc DS1230Y-100 71735 295
+symloc DS1230Y-120 72030 295
+symloc DS1230Y-120-IND 72325 299
+symloc DS1230Y-150 72624 295
+symloc DS1230Y-70 72919 294
+symloc DS1230Y-70-IND 73213 298
+symloc DS1230Y-85 73511 294
+symloc DS1230Y-85-IND 73805 298
+symloc DS1230Y-IND 74103 295
+symloc DS1231 74398 209
+symloc DS1231-20 74607 119
+symloc DS1231-35 74726 122
+symloc DS1231-50 74848 122
+symloc DS1231G-20 74970 122
+symloc DS1231G-35 75092 125
+symloc DS1231G-50 75217 125
+symloc DS1231GN-20 75342 126
+symloc DS1231GN-35 75468 126
+symloc DS1231GN-50 75594 126
+symloc DS1231N-20 75720 123
+symloc DS1231N-35 75843 123
+symloc DS1231N-50 75966 123
+symloc DS1231S-20 76089 127
+symloc DS1231S-35 76216 127
+symloc DS1231S-50 76343 127
+symloc DS1231SN-20 76470 128
+symloc DS1231SN-35 76598 128
+symloc DS1231SN-50 76726 128
+symloc DS1232 76854 121
+symloc DS1232G 76975 121
+symloc DS1232GN 77096 125
+symloc DS1232LP 77221 123
+symloc DS1232LPN 77344 124
+symloc DS1232LPS 77468 128
+symloc DS1232LPS-2 77596 125
+symloc DS1232LPSN 77721 129
+symloc DS1232N 77850 122
+symloc DS1232S 77972 126
+symloc DS1232SN 78098 127
+symloc DS1234 78225 169
+symloc DS1234S 78394 171
+symloc DS1235 78565 290
+symloc DS1235AB-120 78855 296
+symloc DS1235AB-200 79151 296
+symloc DS1235ABW 79447 293
+symloc DS1235ABW-150 79740 297
+symloc DS1235Y-120 80037 295
+symloc DS1235Y-150 80332 295
+symloc DS1235Y-200 80627 295
+symloc DS1235YW 80922 292
+symloc DS1235YW-120 81214 296
+symloc DS1235YW-150 81510 296
+symloc DS1236 81806 204
+symloc DS1236-5 82010 206
+symloc DS1236N 82216 205
+symloc DS1236N-5 82421 207
+symloc DS1236S 82628 205
+symloc DS1236S-5 82833 207
+symloc DS1236SN 83040 206
+symloc DS1236SN-5 83246 208
+symloc DS1237 83454 370
+symloc DS1237-1 83824 207
+symloc DS1237-2 84031 207
+symloc DS1237-3 84238 207
+symloc DS1237-4 84445 207
+symloc DS1237-5 84652 207
+symloc DS1237-6 84859 207
+symloc DS1237-7 85066 207
+symloc DS1237-8 85273 207
+symloc DS1237S-1 85480 208
+symloc DS1237S-2 85688 208
+symloc DS1237S-3 85896 208
+symloc DS1237S-4 86104 208
+symloc DS1237S-5 86312 208
+symloc DS1237S-6 86520 208
+symloc DS1237S-7 86728 208
+symloc DS1237S-8 86936 208
+symloc DS1243 87144 283
+symloc DS1243Y 87427 284
+symloc DS1243Y-120 87711 288
+symloc DS1243Y-150 87999 288
+symloc DS1245 88287 309
+symloc DS1245AB-100 88596 315
+symloc DS1245AB-120 88911 315
+symloc DS1245AB-120-IND 89226 319
+symloc DS1245AB-70 89545 314
+symloc DS1245AB-70-IND 89859 318
+symloc DS1245AB-85 90177 314
+symloc DS1245AB-85-IND 90491 318
+symloc DS1245Y-100 90809 314
+symloc DS1245Y-120 91123 314
+symloc DS1245Y-120-IND 91437 318
+symloc DS1245Y-70 91755 313
+symloc DS1245Y-70-IND 92068 317
+symloc DS1245Y-85 92385 313
+symloc DS1245Y-85-IND 92698 317
+symloc DS1259 93015 158
+symloc DS1259N 93173 156
+symloc DS1259S 93329 156
+symloc DS1259SN 93485 160
+symloc DS1275 93645 112
+symloc DS1275N 93757 113
+symloc DS1275S 93870 112
+symloc DS1275SN 93982 113
+symloc DS1280_44PIN 94095 418
+symloc DS1280_80PIN 94513 705
+symloc DS1280FP-44 95218 417
+symloc DS1280FP-80 95635 704
+symloc DS1280FPN-44 96339 418
+symloc DS1280FPN-80 96757 705
+symloc DS1284 97462 301
+symloc DS1284Q 97763 302
+symloc DS1284QN 98065 303
+symloc DS1285 98368 259
+symloc DS1285Q 98627 261
+symloc DS1285S 98888 259
+symloc DS1286 99147 256
+symloc DS1287 99403 214
+symloc DS1287A 99617 227
+symloc DS1290 99844 166
+symloc DS1291 100010 182
+symloc DS1291N 100192 183
+symloc DS1292 100375 230
+symloc DS1293 100605 246
+symloc DS1293N 100851 247
+symloc DS2009 101098 294
+symloc DS2009-35 101392 297
+symloc DS2009-50 101689 297
+symloc DS2009-65 101986 297
+symloc DS2009-80 102283 297
+symloc DS2009D 102580 294
+symloc DS2009D-35 102874 297
+symloc DS2009D-50 103171 297
+symloc DS2009D-65 103468 297
+symloc DS2009D-80 103765 297
+symloc DS2009DN 104062 295
+symloc DS2009DN-35 104357 298
+symloc DS2009DN-50 104655 298
+symloc DS2009DN-65 104953 298
+symloc DS2009DN-80 105251 298
+symloc DS2009N 105549 295
+symloc DS2009N-35 105844 298
+symloc DS2009N-50 106142 298
+symloc DS2009N-65 106440 298
+symloc DS2009N-80 106738 298
+symloc DS2009R 107036 299
+symloc DS2009R-35 107335 302
+symloc DS2009R-50 107637 302
+symloc DS2009R-65 107939 302
+symloc DS2009R-80 108241 302
+symloc DS2009RN 108543 300
+symloc DS2009RN-35 108843 303
+symloc DS2009RN-50 109146 303
+symloc DS2009RN-65 109449 303
+symloc DS2009RN-80 109752 303
+symloc DS2010 110055 294
+symloc DS2010-50 110349 297
+symloc DS2010-65 110646 297
+symloc DS2010-80 110943 297
+symloc DS2010D 111240 294
+symloc DS2010D-50 111534 297
+symloc DS2010D-65 111831 297
+symloc DS2010D-80 112128 297
+symloc DS2010DN 112425 295
+symloc DS2010DN-50 112720 298
+symloc DS2010DN-65 113018 298
+symloc DS2010DN-80 113316 298
+symloc DS2010N 113614 295
+symloc DS2010N-50 113909 298
+symloc DS2010N-65 114207 298
+symloc DS2010N-80 114505 298
+symloc DS2010R 114803 299
+symloc DS2010R-50 115102 302
+symloc DS2010R-65 115404 302
+symloc DS2010R-80 115706 302
+symloc DS2010RN 116008 300
+symloc DS2010RN-50 116308 303
+symloc DS2010RN-65 116611 303
+symloc DS2010RN-80 116914 303
+symloc DS2011 117217 294
+symloc DS2011-50 117511 297
+symloc DS2011-65 117808 297
+symloc DS2011-80 118105 297
+symloc DS2011D 118402 294
+symloc DS2011D-50 118696 297
+symloc DS2011D-65 118993 297
+symloc DS2011D-80 119290 297
+symloc DS2011DN 119587 295
+symloc DS2011DN-50 119882 298
+symloc DS2011DN-65 120180 298
+symloc DS2011DN-80 120478 298
+symloc DS2011N 120776 295
+symloc DS2011N-50 121071 298
+symloc DS2011N-65 121369 298
+symloc DS2011N-80 121667 298
+symloc DS2011R 121965 299
+symloc DS2011R-50 122264 302
+symloc DS2011R-65 122566 302
+symloc DS2011R-80 122868 302
+symloc DS2011RN 123170 300
+symloc DS2011RN-50 123470 303
+symloc DS2011RN-65 123773 303
+symloc DS2011RN-80 124076 303
+symloc DS2012 124379 290
+symloc DS2012-50 124669 290
+symloc DS2012-65 124959 293
+symloc DS2012-80 125252 293
+symloc DS2012N 125545 291
+symloc DS2012N-50 125836 294
+symloc DS2012N-65 126130 294
+symloc DS2012N-80 126424 294
+symloc DS2012R 126718 295
+symloc DS2012R-50 127013 298
+symloc DS2012R-65 127311 298
+symloc DS2012R-80 127609 298
+symloc DS2012RN 127907 296
+symloc DS2012RN-50 128203 299
+symloc DS2012RN-65 128502 299
+symloc DS2012RN-80 128801 299
+symloc DS2015 129100 225
+symloc DS5000 129325 436
+symloc DS500032-12 129761 441
+symloc DS500032-16 130202 441
+symloc DS500032-8 130643 440
+symloc DS50008-12 131083 440
+symloc DS50008-16 131523 440
+symloc DS50008-8 131963 439
+symloc DS5000FP 132402 838
+symloc DS5000FP-12 133240 841
+symloc DS5000FP-16 134081 841
+symloc DS5000FP-8 134922 840
+symloc DS5000FPN-12 135762 842
+symloc DS5000FPN-16 136604 842
+symloc DS5000FPN-8 137446 841
+symloc DS5000T32-12 138287 442
+symloc DS5000T32-16 138729 442
+symloc DS5000T32-8 139171 441
+symloc DS5000T8-12 139612 441
+symloc DS5000T8-16 140053 441
+symloc DS5000T8-8 140494 440
+symloc DS1203SN-B1 140934 114
+*package DS1000
+@types 1
+g 1
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+t DIP8,SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-100 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-125 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-150 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-175 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-200 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-25 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-250 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-30 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-35 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-350 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-40 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-45 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-50 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-500 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-60 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000-75 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-100 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-125 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-150 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-175 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-200 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-25 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-250 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-30 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-35 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-350 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-40 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-45 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-50 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-500 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-60 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000G-75 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000H-100 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-125 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-150 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-175 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-200 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-25 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-250 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-30 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-35 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-350 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-40 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-45 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-50 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-500 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-60 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000H-75 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000K-100 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-125 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-150 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-175 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-200 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-25 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-250 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-30 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-35 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-350 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-40 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-45 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-50 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-500 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-60 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000K-75 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1000M-100 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-125 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-150 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-175 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-200 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-25 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-250 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-30 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-35 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-350 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-40 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-45 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-50 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-500 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-60 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000M-75 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000S-100 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-125 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-150 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-175 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-200 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-25 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-250 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-30 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-35 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-350 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-40 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-45 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-50 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-500 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-60 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000S-75 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1000Z-100 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-125 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-150 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-175 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-200 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-25 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-250 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-30 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-35 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-350 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-40 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-45 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-50 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-500 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-60 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1000Z-75 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005-100 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005-125 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005-150 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005-175 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005-200 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005-250 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005-350 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005-500 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005-60 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005-75 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005G-100 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005G-125 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005G-150 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005G-175 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005G-200 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005G-250 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005G-350 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005G-500 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005G-60 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005G-75 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005H-100 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005H-125 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005H-150 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005H-175 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005H-200 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005H-250 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005H-350 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005H-500 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005H-60 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005H-75 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005K-100 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005K-125 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005K-150 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005K-175 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005K-200 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005K-250 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005K-350 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005K-500 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005K-60 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005K-75 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN 1
+p TAP1 12
+p TAP2 4
+p TAP3 10
+p TAP4 6
+p TAP5 8
+p Vcc 14
+p GND 7
+*package DS1005M-100 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005M-125 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005M-150 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005M-175 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005M-200 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005M-250 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005M-350 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005M-500 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005M-60 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005M-75 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p TAP1 7
+p TAP2 2
+p TAP3 6
+p TAP4 3
+p TAP5 5
+p Vcc 8
+p GND 4
+*package DS1005S-100 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1005S-125 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1005S-150 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1005S-175 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1005S-200 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1005S-250 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1005S-350 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1005S-500 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1005S-60 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1005S-75 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 1
+p TAP1 13
+p TAP2 4
+p TAP3 11
+p TAP4 6
+p TAP5 9
+p Vcc 16
+p GND 8
+*package DS1007 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-1 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-10 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-11 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-12 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-13 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-14 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-2 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-3 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-4 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-5 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-6 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-7 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-8 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007-9 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-1 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-10 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-11 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-12 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-13 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-14 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-2 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-3 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-4 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-5 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-6 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-7 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-8 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1007S-9 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN1 1
+p IN2 3
+p IN3 16
+p IN4 14
+p IN5 6
+p IN6 8
+p IN7 10
+p OUT7 11
+p OUT6 9
+p OUT5 7
+p OUT4 13
+p OUT3 15
+p OUT2 4
+p OUT1 2
+p Vcc 5
+p GND 12
+*package DS1010 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-100 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-125 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-150 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-175 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-200 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-250 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-300 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-350 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-400 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-450 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-50 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-500 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-60 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010-75 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-100 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-125 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-150 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-175 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-200 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-250 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-300 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-350 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-400 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-450 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-50 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-500 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-60 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010G-75 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p TAP1 13
+p TAP2 3
+p TAP3 12
+p TAP4 4
+p TAP5 11
+p TAP6 5
+p TAP7 10
+p TAP8 6
+p TAP9 9
+p TAP10 8
+p Vcc 14
+p GND 7
+p IN 1
+*package DS1010S-100 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-125 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-150 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-175 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-200 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-250 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-300 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-350 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-400 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-450 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-50 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-500 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-60 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1010S-75 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p TAP1 14
+p TAP2 4
+p TAP3 13
+p TAP4 5
+p TAP5 12
+p TAP6 6
+p TAP7 11
+p TAP8 7
+p TAP9 10
+p TAP10 9
+p Vcc 16
+p GND 8
+p IN 1
+*package DS1013 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-10 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-100 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-12 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-15 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-150 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-25 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-30 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-35 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-40 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-45 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-50 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-55 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-60 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-65 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-70 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-75 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-80 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013-90 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-10 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-100 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-12 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-15 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-150 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-25 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-30 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-35 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-40 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-45 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-50 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-55 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-60 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-65 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-70 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-75 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-80 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013G-90 b
+@types 1
+g 1 
+@pinout
+t DIPSM14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013H-10 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-100 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-12 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-15 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-150 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-25 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-30 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-35 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-40 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-45 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-50 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-55 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-60 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-65 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-70 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-75 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-80 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013H-90 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013K-10 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013K-12 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013K-15 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013K-25 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013K-30 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013K-50 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013K-55 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p IN1 1
+p IN2 3
+p IN3 5
+p OUT1 12
+p OUT2 10
+p OUT3 8
+p Vcc 14
+p GND 7
+*package DS1013M-10 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-100 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-12 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-15 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-150 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-25 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-30 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-35 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-40 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-45 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-50 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-55 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-60 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-65 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-70 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-75 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-80 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1013M-90 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN1 1
+p IN2 2
+p IN3 3
+p OUT1 7
+p OUT2 6
+p OUT3 5
+p Vcc 8
+p GND 4
+*package DS1200 b
+@types 1
+g 1 
+@pinout
+t DIP10
+g 1
+p \RST\ 2
+p CLK 4
+p GND1 5
+p DQ 3
+p Vbat 6
+p GND2 8
+p Vcc 1
+*package DS1200N b
+@types 1
+g 1 
+@pinout
+t DIP10
+g 1
+p \RST\ 2
+p CLK 4
+p GND1 5
+p DQ 3
+p Vbat 6
+p GND2 8
+p Vcc 1
+*package DS1200S b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p \RST\ 3
+p CLK 6
+p GND1 8
+p DQ 4
+p Vbat 9
+p GND2 13
+p Vcc 1
+*package DS1200SN b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p \RST\ 3
+p CLK 6
+p GND1 8
+p DQ 4
+p Vbat 9
+p GND2 13
+p Vcc 1
+*package DS1202 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p \RST\ 5
+p I/O 6
+p GND 4
+p SCLK 7
+p X2 3
+p X1 2
+p Vcc 8
+*package DS1202N
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p \RST\ 5
+p I/O 6
+p GND 4
+p SCLK 7
+p X2 3
+p X1 2
+p Vcc 8
+*package DS1202S
+@types 1
+g 1
+@pinout
+t SO16W
+g 1
+p \RST\ 9
+p I/O 12
+p GND 8
+p SCLK 14
+p X2 5
+p X1 3
+p Vcc 16
+*package DS1202SN b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p \RST\ 9
+p I/O 12
+p GND 8
+p SCLK 14
+p X2 5
+p X1 3
+p Vcc 16
+*package DS1203S-B1 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p FI 1
+p EI 2
+p A+ 7
+p A- 6
+p OUT 3
+p CO 4
+p Vcc 8
+p GND 5
+*package DS1206 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p A0 5
+p A1 4
+p A2 3
+p A3 2
+p \RST\ 13
+p \CE\/\CAS\In 10
+p \RAS\/\OE\In 8
+p GND 7
+p \CE\/\CAS\Out 9
+p DQ 12
+p DQout 6
+p CLK 11
+p Vcc 14
+*package DS1206N b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p A0 5
+p A1 4
+p A2 3
+p A3 2
+p \RST\ 13
+p \CE\/\CAS\In 10
+p \RAS\/\OE\In 8
+p GND 7
+p \CE\/\CAS\Out 9
+p DQ 12
+p DQout 6
+p CLK 11
+p Vcc 14
+*package DS1206S b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 5
+p A1 4
+p A2 3
+p A3 1
+p \RST\ 15
+p \CE\/\CAS\In 12
+p \RAS\/\OE\In 9
+p GND 8
+p \CE\/\CAS\Out 11
+p DQ 14
+p DQout 6
+p CLK 13
+p Vcc 16
+*package DS1206SN b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 5
+p A1 4
+p A2 3
+p A3 1
+p \RST\ 15
+p \CE\/\CAS\In 12
+p \RAS\/\OE\In 9
+p GND 8
+p \CE\/\CAS\Out 11
+p DQ 14
+p DQout 6
+p CLK 13
+p Vcc 16
+*package DS1210 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p VCCO 1
+p Vbat1 2
+p TOL 3
+p GND 4
+p VCCI 8
+p Vbat2 7
+p \CEO\ 6
+p \CE\ 5
+*package DS1210N b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p VCCO 1
+p Vbat1 2
+p TOL 3
+p GND 4
+p VCCI 8
+p Vbat2 7
+p \CEO\ 6
+p \CE\ 5
+*package DS1210S b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p VCCO 2
+p Vbat1 4
+p TOL 6
+p GND 8
+p VCCI 15
+p Vbat2 13
+p \CEO\ 11
+p \CE\ 9
+*package DS1210SN b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p VCCO 2
+p Vbat1 4
+p TOL 6
+p GND 8
+p VCCI 15
+p Vbat2 13
+p \CEO\ 11
+p \CE\ 9
+*package DS1211 b
+@types 1
+g 1 
+@pinout
+t DIP20
+g 1
+p Vbat1 1
+p Vbat2 19
+p TOL 3
+p \P.F.\ 4
+p A 9
+p B 8
+p C 7
+p \CE\ 18
+p \CE7\ 5
+p \CE6\ 6
+p \CE5\ 11
+p \CE4\ 12
+p \CE0\ 17
+p \CE1\ 16
+p \CE2\ 15
+p \CE3\ 14
+p VCCO 2
+p VCCI 20
+p GND 10
+*package DS1211N b
+@types 1
+g 1 
+@pinout
+t DIP20
+g 1
+p Vbat1 1
+p Vbat2 19
+p TOL 3
+p \P.F.\ 4
+p A 9
+p B 8
+p C 7
+p \CE\ 18
+p \CE7\ 5
+p \CE6\ 6
+p \CE5\ 11
+p \CE4\ 12
+p \CE0\ 17
+p \CE1\ 16
+p \CE2\ 15
+p \CE3\ 14
+p VCCO 2
+p VCCI 20
+p GND 10
+*package DS1211S b
+@types 1
+g 1 
+@pinout
+t SO20W
+g 1
+p Vbat1 1
+p Vbat2 19
+p TOL 3
+p \P.F.\ 4
+p A 9
+p B 8
+p C 7
+p \CE\ 18
+p \CE7\ 5
+p \CE6\ 6
+p \CE5\ 11
+p \CE4\ 12
+p \CE0\ 17
+p \CE1\ 16
+p \CE2\ 15
+p \CE3\ 14
+p VCCO 2
+p VCCI 20
+p GND 10
+*package DS1211SN b
+@types 1
+g 1 
+@pinout
+t SO20W
+g 1
+p Vbat1 1
+p Vbat2 19
+p TOL 3
+p \P.F.\ 4
+p A 9
+p B 8
+p C 7
+p \CE\ 18
+p \CE7\ 5
+p \CE6\ 6
+p \CE5\ 11
+p \CE4\ 12
+p \CE0\ 17
+p \CE1\ 16
+p \CE2\ 15
+p \CE3\ 14
+p VCCO 2
+p VCCI 20
+p GND 10
+*package DS1212 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p VCCO 2
+p VCCI 28
+p Vbat1 1
+p Vbat2 27
+p \P.F.\ 4
+p \CE\ 26
+p A 13
+p B 12
+p C 11
+p \CE0\ 25
+p \CE1\ 24
+p \CE2\ 23
+p \CE3\ 22
+p \CE4\ 21
+p \CE5\ 20
+p \CE6\ 19
+p \CE7\ 18
+p \CE8\ 17
+p \CE9\ 16
+p \CE10\ 15
+p \CE11\ 9
+p \CE12\ 8
+p \CE13\ 7
+p \CE14\ 6
+p \CE15\ 5
+p TOL 3
+p D 10
+p GND 14
+*package DS1212N b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p VCCO 2
+p VCCI 28
+p Vbat1 1
+p Vbat2 27
+p \P.F.\ 4
+p \CE\ 26
+p A 13
+p B 12
+p C 11
+p \CE0\ 25
+p \CE1\ 24
+p \CE2\ 23
+p \CE3\ 22
+p \CE4\ 21
+p \CE5\ 20
+p \CE6\ 19
+p \CE7\ 18
+p \CE8\ 17
+p \CE9\ 16
+p \CE10\ 15
+p \CE11\ 9
+p \CE12\ 8
+p \CE13\ 7
+p \CE14\ 6
+p \CE15\ 5
+p TOL 3
+p D 10
+p GND 14
+*package DS1212Q b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p VCCO 2
+p VCCI 28
+p Vbat1 1
+p Vbat2 27
+p \P.F.\ 4
+p \CE\ 26
+p A 13
+p B 12
+p C 11
+p \CE0\ 25
+p \CE1\ 24
+p \CE2\ 23
+p \CE3\ 22
+p \CE4\ 21
+p \CE5\ 20
+p \CE6\ 19
+p \CE7\ 18
+p \CE8\ 17
+p \CE9\ 16
+p \CE10\ 15
+p \CE11\ 9
+p \CE12\ 8
+p \CE13\ 7
+p \CE14\ 6
+p \CE15\ 5
+p TOL 3
+p D 10
+p GND 14
+*package DS1212QN b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p VCCO 2
+p VCCI 28
+p Vbat1 1
+p Vbat2 27
+p \P.F.\ 4
+p \CE\ 26
+p A 13
+p B 12
+p C 11
+p \CE0\ 25
+p \CE1\ 24
+p \CE2\ 23
+p \CE3\ 22
+p \CE4\ 21
+p \CE5\ 20
+p \CE6\ 19
+p \CE7\ 18
+p \CE8\ 17
+p \CE9\ 16
+p \CE10\ 15
+p \CE11\ 9
+p \CE12\ 8
+p \CE13\ 7
+p \CE14\ 6
+p \CE15\ 5
+p TOL 3
+p D 10
+p GND 14
+*package DS1215 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p VCCI 16
+p BAT1 4
+p BAT2 14
+p X1 1
+p VCCO 15
+p X2 2
+p \RST\ 13
+p \CEI\ 11
+p D 6
+p ROM/\RAM\ 9
+p \OE\ 12
+p \CEO\ 10
+p \WE\ 3
+p GND1 8
+p GND2 5
+p Q 7
+*package DS1215N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p VCCI 16
+p BAT1 4
+p BAT2 14
+p X1 1
+p VCCO 15
+p X2 2
+p \RST\ 13
+p \CEI\ 11
+p D 6
+p ROM/\RAM\ 9
+p \OE\ 12
+p \CEO\ 10
+p \WE\ 3
+p GND1 8
+p GND2 5
+p Q 7
+*package DS1215S
+@types 1
+g 1
+@pinout
+t SO16W
+g 1
+p VCCI 16
+p BAT1 4
+p BAT2 14
+p X1 1
+p VCCO 15
+p X2 2
+p \RST\ 13
+p \CEI\ 11
+p D 6
+p ROM/\RAM\ 9
+p \OE\ 12
+p \CEO\ 10
+p \WE\ 3
+p GND1 8
+p GND2 5
+p Q 7
+*package DS1220 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AB b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AB-100 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AB-100-IND b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AB-120 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AB-150 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AB-IND b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AD b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AD-100 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AD-100-IND b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AD-120 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AD-150 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220AD-IND b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220Y b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220Y-100 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220Y-100-IND b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220Y-120 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220Y-150 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1220Y-IND b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 19
+p DQ0 9
+p DQ1 10
+p DQ2 11
+p DQ3 13
+p DQ4 14
+p DQ5 15
+p DQ6 16
+p DQ7 17
+p GND1 12
+p \CE\ 18
+p \OE\ 20
+p \WE\ 21
+p Vcc 24
+*package DS1221 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p \CE\ 14
+p \CE0\ 13
+p \CE1\ 12
+p \CE2\ 11
+p \CE3\ 10
+p A 4
+p B 5
+p \RST\ 3
+p \WE\ 7
+p D/Q 9
+p \RD\ 6
+p VCCO 1
+p VCCI 16
+p Vbat1 2
+p Vbat2 15
+p GND1 8
+*package DS1221N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p \CE\ 14
+p \CE0\ 13
+p \CE1\ 12
+p \CE2\ 11
+p \CE3\ 10
+p A 4
+p B 5
+p \RST\ 3
+p \WE\ 7
+p D/Q 9
+p \RD\ 6
+p VCCO 1
+p VCCI 16
+p Vbat1 2
+p Vbat2 15
+p GND1 8
+*package DS1221S
+@types 1
+g 1
+@pinout
+t SO16W
+g 1
+p \CE\ 14
+p \CE0\ 13
+p \CE1\ 12
+p \CE2\ 11
+p \CE3\ 10
+p A 4
+p B 5
+p \RST\ 3
+p \WE\ 7
+p D/Q 9
+p \RD\ 6
+p VCCO 1
+p VCCI 16
+p Vbat1 2
+p Vbat2 15
+p GND1 8
+*package DS1221SN b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p \CE\ 14
+p \CE0\ 13
+p \CE1\ 12
+p \CE2\ 11
+p \CE3\ 10
+p A 4
+p B 5
+p \RST\ 3
+p \WE\ 7
+p D/Q 9
+p \RD\ 6
+p VCCO 1
+p VCCI 16
+p Vbat1 2
+p Vbat2 15
+p GND1 8
+*package DS1222 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p AW 3
+p AX 4
+p AY 5
+p AZ 6
+p \CEI\ 1
+p \CEO\ 13
+p VCC 14
+p \PFI\ 2
+p BS1 12
+p BS2 11
+p BS3 10
+p GND 7
+p BS4 9
+*package DS1222N b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p AW 3
+p AX 4
+p AY 5
+p AZ 6
+p \CEI\ 1
+p \CEO\ 13
+p VCC 14
+p \PFI\ 2
+p BS1 12
+p BS2 11
+p BS3 10
+p GND 7
+p BS4 9
+*package DS1222S b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p AW 4
+p AX 5
+p AY 6
+p AZ 7
+p \CEI\ 1
+p \CEO\ 15
+p VCC 16
+p \PFI\ 3
+p BS1 13
+p BS2 12
+p BS3 11
+p GND 8
+p BS4 9
+*package DS1222SN b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p AW 4
+p AX 5
+p AY 6
+p AZ 7
+p \CEI\ 1
+p \CEO\ 15
+p VCC 16
+p \PFI\ 3
+p BS1 13
+p BS2 12
+p BS3 11
+p GND 8
+p BS4 9
+*package DS1223 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p I0 1
+p I1 2
+p I2 3
+p I3 4
+p I4 5
+p I5 6
+p I6 7
+p I7 8
+p I8 9
+p I9 10
+p I10 13
+p I11 14
+p I12 15
+p I14 19
+p I15 20
+p VCC 24
+p DQ 11
+p \M\ 23
+p \ST\ 22
+p \RST\ 17
+p GND 12
+p CLK 21
+p I13 16
+*package DS1225 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225AB b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225AB-150 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225AB-150-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225AB-170 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225AB-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225AD b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225AD-150 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225AD-150-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225AD-170 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225AD-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225D-100 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225D-120 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225D-120-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225D-70 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225D-70-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225DE-85 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225E-100 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225E-120 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225E-120-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225E-70 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225E-70-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225E-85 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225Y b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225Y-150 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225Y-150-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225Y-170 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1225Y-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+*package DS1227 b
+@types 1
+g 1 
+@pinout
+t DIP20
+g 1
+p VDCI 6
+p \BOOST\ 15
+p \ON1\ 14
+p \OFF1\ 9
+p \ON2/OFF2\ 10
+p \ON3/OFF3\ 8
+p \ON4\ 13
+p SENSE 18
+p RXIN 12
+p GND 7
+p VDCO 5
+p VCCO1 3
+p VCCO2 1
+p VCCO3 2
+p VCCO4 20
+p \PWRON1\ 4
+p RXOUT 11
+p OSCEXT 16
+p \INT/TACK\ 17
+p MODE 19
+*package DS1227N b
+@types 1
+g 1 
+@pinout
+t DIP20
+g 1
+p VDCI 6
+p \BOOST\ 15
+p \ON1\ 14
+p \OFF1\ 9
+p \ON2/OFF2\ 10
+p \ON3/OFF3\ 8
+p \ON4\ 13
+p SENSE 18
+p RXIN 12
+p GND 7
+p VDCO 5
+p VCCO1 3
+p VCCO2 1
+p VCCO3 2
+p VCCO4 20
+p \PWRON1\ 4
+p RXOUT 11
+p OSCEXT 16
+p \INT/TACK\ 17
+p MODE 19
+*package DS1227S b
+@types 1
+g 1 
+@pinout
+t SO20W
+g 1
+p VDCI 6
+p \BOOST\ 15
+p \ON1\ 14
+p \OFF1\ 9
+p \ON2/OFF2\ 10
+p \ON3/OFF3\ 8
+p \ON4\ 13
+p SENSE 18
+p RXIN 12
+p GND 7
+p VDCO 5
+p VCCO1 3
+p VCCO2 1
+p VCCO3 2
+p VCCO4 20
+p \PWRON1\ 4
+p RXOUT 11
+p OSCEXT 16
+p \INT/TACK\ 17
+p MODE 19
+*package DS1227SN b
+@types 1
+g 1 
+@pinout
+t SO20W
+g 1
+p VDCI 6
+p \BOOST\ 15
+p \ON1\ 14
+p \OFF1\ 9
+p \ON2/OFF2\ 10
+p \ON3/OFF3\ 8
+p \ON4\ 13
+p SENSE 18
+p RXIN 12
+p GND 7
+p VDCO 5
+p VCCO1 3
+p VCCO2 1
+p VCCO3 2
+p VCCO4 20
+p \PWRON1\ 4
+p RXOUT 11
+p OSCEXT 16
+p \INT/TACK\ 17
+p MODE 19
+*package DS1228 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p C1+ 1
+p C1- 3
+p C2+ 4
+p C2- 5
+p T1IN 11
+p T2IN 10
+p R1IN 13
+p R2IN 8
+p GND 15
+p T1OUT 14
+p T2OUT 7
+p R1OUT 12
+p R2OUT 9
+p VCC 16
+p V+ 2
+p V- 6
+*package DS1228S b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p C1+ 1
+p C1- 3
+p C2+ 4
+p C2- 5
+p T1IN 11
+p T2IN 10
+p R1IN 13
+p R2IN 8
+p GND 15
+p T1OUT 14
+p T2OUT 7
+p R1OUT 12
+p R2OUT 9
+p VCC 16
+p V+ 2
+p V- 6
+*package DS1229 b
+@types 1
+g 1 
+@pinout
+t DIP20
+g 1
+p C1+ 1
+p C1- 3
+p C2+ 4
+p C2- 5
+p T1IN 15
+p T2IN 14
+p R1IN 17
+p R2IN 8
+p GND 19
+p T1OUT 18
+p T2OUT 7
+p R1OUT 16
+p R2OUT 13
+p VCC 20
+p V+ 2
+p V- 6
+p T3IN 12
+p R3IN 10
+p T3OUT 9
+p R3OUT 11
+*package DS1229S
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p C1+ 1
+p C1- 3
+p C2+ 4
+p C2- 5
+p T1IN 15
+p T2IN 14
+p R1IN 17
+p R2IN 8
+p GND 19
+p T1OUT 18
+p T2OUT 7
+p R1OUT 16
+p R2OUT 13
+p VCC 20
+p V+ 2
+p V- 6
+p T3IN 12
+p R3IN 10
+p T3OUT 9
+p R3OUT 11
+*package DS1230 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230AB b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230AB-100 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230AB-120 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230AB-120-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230AB-150 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230AB-70 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230AB-70-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230AB-85 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230AB-85-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230AB-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230Y b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230Y-100 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230Y-120 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230Y-120-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230Y-150 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230Y-70 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230Y-70-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230Y-85 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230Y-85-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1230Y-IND b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1231 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 2
+p MODE 4
+p TOL 6
+p GND 8
+p VCC 15
+p \NMI\ 13
+p \RST\ 11
+p RST 9
+t DIP8,DIPSM8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231-20
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231-35 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231-50 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231G-20
+@types 1
+g 1
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231G-35 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231G-50 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231GN-20 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231GN-35 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231GN-50 b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231N-20 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231N-35 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231N-50 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p IN 1
+p MODE 2
+p TOL 3
+p GND 4
+p VCC 8
+p \NMI\ 7
+p \RST\ 6
+p RST 5
+*package DS1231S-20 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 2
+p MODE 4
+p TOL 6
+p GND 8
+p VCC 15
+p \NMI\ 13
+p \RST\ 11
+p RST 9
+*package DS1231S-35 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 2
+p MODE 4
+p TOL 6
+p GND 8
+p VCC 15
+p \NMI\ 13
+p \RST\ 11
+p RST 9
+*package DS1231S-50 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 2
+p MODE 4
+p TOL 6
+p GND 8
+p VCC 15
+p \NMI\ 13
+p \RST\ 11
+p RST 9
+*package DS1231SN-20 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 2
+p MODE 4
+p TOL 6
+p GND 8
+p VCC 15
+p \NMI\ 13
+p \RST\ 11
+p RST 9
+*package DS1231SN-35 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 2
+p MODE 4
+p TOL 6
+p GND 8
+p VCC 15
+p \NMI\ 13
+p \RST\ 11
+p RST 9
+*package DS1231SN-50 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p IN 2
+p MODE 4
+p TOL 6
+p GND 8
+p VCC 15
+p \NMI\ 13
+p \RST\ 11
+p RST 9
+*package DS1232 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p \PBRST\ 1
+p TD 2
+p TOL 3
+p GND 4
+p VCC 8
+p \RST\ 6
+p RST 5
+p \ST\ 7
+*package DS1232G
+@types 1
+g 1
+@pinout
+t DIPSM8
+g 1
+p \PBRST\ 1
+p TD 2
+p TOL 3
+p GND 4
+p VCC 8
+p \RST\ 6
+p RST 5
+p \ST\ 7
+*package DS1232GN b
+@types 1
+g 1 
+@pinout
+t DIPSM8
+g 1
+p \PBRST\ 1
+p TD 2
+p TOL 3
+p GND 4
+p VCC 8
+p \RST\ 6
+p RST 5
+p \ST\ 7
+*package DS1232LP b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p \PBRST\ 1
+p TD 2
+p TOL 3
+p GND 4
+p VCC 8
+p \RST\ 6
+p RST 5
+p \ST\ 7
+*package DS1232LPN b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p \PBRST\ 1
+p TD 2
+p TOL 3
+p GND 4
+p VCC 8
+p \RST\ 6
+p RST 5
+p \ST\ 7
+*package DS1232LPS b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p \PBRST\ 2
+p TD 4
+p TOL 6
+p GND 8
+p VCC 15
+p \RST\ 11
+p RST 9
+p \ST\ 13
+*package DS1232LPS-2 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p \PBRST\ 1
+p TD 2
+p TOL 3
+p GND 4
+p VCC 8
+p \RST\ 6
+p RST 5
+p \ST\ 7
+*package DS1232LPSN b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p \PBRST\ 2
+p TD 4
+p TOL 6
+p GND 8
+p VCC 15
+p \RST\ 11
+p RST 9
+p \ST\ 13
+*package DS1232N b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p \PBRST\ 1
+p TD 2
+p TOL 3
+p GND 4
+p VCC 8
+p \RST\ 6
+p RST 5
+p \ST\ 7
+*package DS1232S b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p \PBRST\ 2
+p TD 4
+p TOL 6
+p GND 8
+p VCC 15
+p \RST\ 11
+p RST 9
+p \ST\ 13
+*package DS1232SN b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p \PBRST\ 2
+p TD 4
+p TOL 6
+p GND 8
+p VCC 15
+p \RST\ 11
+p RST 9
+p \ST\ 13
+*package DS1234 b
+@types 1
+g 1 
+@pinout
+t DIP14
+g 1
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p \CEI\ 3
+p \WEI\ 4
+p Vbat 13
+p VCCI 14
+p VCCO 1
+p \PF\ 8
+p \CEO\ 5
+p \WEO\ 6
+p GND 7
+*package DS1234S b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 10
+p A1 11
+p A2 12
+p A3 13
+p \CEI\ 4
+p \WEI\ 5
+p Vbat 15
+p VCCI 16
+p VCCO 1
+p \PF\ 9
+p \CEO\ 6
+p \WEO\ 7
+p GND 8
+*package DS1235 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1235AB-120 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1235AB-200 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1235ABW b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1235ABW-150 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1235Y-120 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1235Y-150 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1235Y-200 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1235YW b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1235YW-120 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1235YW-150 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p A14 1
+p A13 26
+*package DS1236 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p Vbat 1
+p \PBRST\ 14
+p RC 8
+p IN 9
+p \NMI\ 10
+p \ST\ 11
+p GND 4
+p VCC 3
+p VCCO 2
+p PF 5
+p \PF\ 6
+p \RST\ 15
+p RST 16
+p \CEO\ 12
+p \CEI\ 13
+p WC/\SC\ 7
+*package DS1236-5 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p Vbat 1
+p \PBRST\ 14
+p RC 8
+p IN 9
+p \NMI\ 10
+p \ST\ 11
+p GND 4
+p VCC 3
+p VCCO 2
+p PF 5
+p \PF\ 6
+p \RST\ 15
+p RST 16
+p \CEO\ 12
+p \CEI\ 13
+p WC/\SC\ 7
+*package DS1236N b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p Vbat 1
+p \PBRST\ 14
+p RC 8
+p IN 9
+p \NMI\ 10
+p \ST\ 11
+p GND 4
+p VCC 3
+p VCCO 2
+p PF 5
+p \PF\ 6
+p \RST\ 15
+p RST 16
+p \CEO\ 12
+p \CEI\ 13
+p WC/\SC\ 7
+*package DS1236N-5 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p Vbat 1
+p \PBRST\ 14
+p RC 8
+p IN 9
+p \NMI\ 10
+p \ST\ 11
+p GND 4
+p VCC 3
+p VCCO 2
+p PF 5
+p \PF\ 6
+p \RST\ 15
+p RST 16
+p \CEO\ 12
+p \CEI\ 13
+p WC/\SC\ 7
+*package DS1236S b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p Vbat 1
+p \PBRST\ 14
+p RC 8
+p IN 9
+p \NMI\ 10
+p \ST\ 11
+p GND 4
+p VCC 3
+p VCCO 2
+p PF 5
+p \PF\ 6
+p \RST\ 15
+p RST 16
+p \CEO\ 12
+p \CEI\ 13
+p WC/\SC\ 7
+*package DS1236S-5 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p Vbat 1
+p \PBRST\ 14
+p RC 8
+p IN 9
+p \NMI\ 10
+p \ST\ 11
+p GND 4
+p VCC 3
+p VCCO 2
+p PF 5
+p \PF\ 6
+p \RST\ 15
+p RST 16
+p \CEO\ 12
+p \CEI\ 13
+p WC/\SC\ 7
+*package DS1236SN b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p Vbat 1
+p \PBRST\ 14
+p RC 8
+p IN 9
+p \NMI\ 10
+p \ST\ 11
+p GND 4
+p VCC 3
+p VCCO 2
+p PF 5
+p \PF\ 6
+p \RST\ 15
+p RST 16
+p \CEO\ 12
+p \CEI\ 13
+p WC/\SC\ 7
+*package DS1236SN-5 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p Vbat 1
+p \PBRST\ 14
+p RC 8
+p IN 9
+p \NMI\ 10
+p \ST\ 11
+p GND 4
+p VCC 3
+p VCCO 2
+p PF 5
+p \PF\ 6
+p \RST\ 15
+p RST 16
+p \CEO\ 12
+p \CEI\ 13
+p WC/\SC\ 7
+*package DS1237 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+t DIP16
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237-1 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237-2 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237-3 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237-4 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237-5 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237-6 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237-7 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237-8 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237S-1 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237S-2 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237S-3 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237S-4 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237S-5 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237S-6 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237S-7 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1237S-8 b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p A0 1
+p A1 2
+p A2 3
+p \WEI\ 6
+p \CASI\ 4
+p BKUP 14
+p TOL 13
+p \BC\ 11
+p \RASI\ 9
+p VCCI 16
+p \CASO\ 5
+p \WEO\ 7
+p VCCO 15
+p \RASO\ 10
+p VSS 8
+p \PF\ 12
+*package DS1243 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p \RST\ 1
+*package DS1243Y b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p \RST\ 1
+*package DS1243Y-120 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p \RST\ 1
+*package DS1243Y-150 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p A6 4
+p A7 3
+p A8 25
+p A9 24
+p A10 21
+p A11 23
+p A12 2
+p VCC 28
+p \WE\ 27
+p \CE\ 20
+p \OE\ 22
+p DQ0 11
+p GND 14
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p \RST\ 1
+*package DS1245 b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245AB-100 b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245AB-120 b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245AB-120-IND b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245AB-70 b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245AB-70-IND b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245AB-85 b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245AB-85-IND b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245Y-100 b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245Y-120 b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245Y-120-IND b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245Y-70 b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245Y-70-IND b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245Y-85 b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1245Y-85-IND b
+@types 1
+g 1 
+@pinout
+t DAC-32P
+g 1
+p A0 12
+p A1 11
+p A2 10
+p A3 9
+p A4 8
+p A5 7
+p A6 6
+p A7 5
+p A8 27
+p A9 26
+p A10 23
+p A11 25
+p A12 4
+p A13 28
+p A14 3
+p A15 31
+p A16 2
+p VCC 32
+p \CE\ 22
+p \WE\ 29
+p \OE\ 24
+p DQ0 13
+p DQ1 14
+p DQ2 15
+p DQ3 17
+p DQ4 18
+p DQ5 19
+p DQ6 20
+p DQ7 21
+p GND 16
+*package DS1259 b
+@types 1
+g 1 
+@pinout
+t DIP16
+g 1
+p Vbat 2
+p BAT 5
+p VCCO1 13
+p VCCO2 12
+p \PF\ 11
+p RST 6
+p VCCI1 15
+p VCCI2 16
+p GND1 7
+p GND2 8
+p \BF\ 3
+*package DS1259N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p Vbat 2
+p BAT 5
+p VCCO1 13
+p VCCO2 12
+p \PF\ 11
+p RST 6
+p VCCI1 15
+p VCCI2 16
+p GND1 7
+p GND2 8
+p \BF\ 3
+*package DS1259S
+@types 1
+g 1
+@pinout
+t SO16W
+g 1
+p Vbat 2
+p BAT 5
+p VCCO1 13
+p VCCO2 12
+p \PF\ 11
+p RST 6
+p VCCI1 15
+p VCCI2 16
+p GND1 7
+p GND2 8
+p \BF\ 3
+*package DS1259SN b
+@types 1
+g 1 
+@pinout
+t SO16W
+g 1
+p Vbat 2
+p BAT 5
+p VCCO1 13
+p VCCO2 12
+p \PF\ 11
+p RST 6
+p VCCI1 15
+p VCCI2 16
+p GND1 7
+p GND2 8
+p \BF\ 3
+*package DS1275 b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p DIN 3
+p RXIN 7
+p VDRV 2
+p DOUT 1
+p TXOUT 5
+p GND 4
+p VCC 8
+*package DS1275N b
+@types 1
+g 1 
+@pinout
+t DIP8
+g 1
+p DIN 3
+p RXIN 7
+p VDRV 2
+p DOUT 1
+p TXOUT 5
+p GND 4
+p VCC 8
+*package DS1275S b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p DIN 3
+p RXIN 7
+p VDRV 2
+p DOUT 1
+p TXOUT 5
+p GND 4
+p VCC 8
+*package DS1275SN b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p DIN 3
+p RXIN 7
+p VDRV 2
+p DOUT 1
+p TXOUT 5
+p GND 4
+p VCC 8
+*package DS1280_44PIN b
+@types 1
+g 1 
+@pinout
+t QFP10X10-44
+g 1
+p DQOE 4
+p \RST\ 8
+p DQ 43
+p A0R 9
+p A1R 10
+p A2R 11
+p A4R 14
+p A5R 15
+p A6R 16
+p A7R 17
+p A8R 18
+p A9R 19
+p A10R 20
+p A11R 21
+p A3R 13
+p A12R 24
+p A13R 25
+p A14R 26
+p A16R 30
+p A18R 32
+p D0R 35
+p D1R 36
+p D2R 37
+p D3R 38
+p D4R 39
+p D5R 40
+p D6R 41
+p D7R 42
+p \OER\ 1
+p \CER\ 3
+p \WER\ 2
+p GND1 6
+p A15R 29
+p VCC1 5
+p CLK 7
+p A17R 31
+p GND2 27
+p VCC2 28
+*package DS1280_80PIN b
+@types 1
+g 1 
+@pinout
+t QFP14X20-80
+g 1
+p \RST\ 75
+p DQ 61
+p DQE 71
+p \CEB\ 70
+p \OEB\ 66
+p \WEB\ 68
+p A0B 77
+p A1B 79
+p A2B 1
+p A3B 6
+p A4B 8
+p A5B 10
+p A6B 12
+p A7B 14
+p A8B 16
+p A9B 18
+p A10B 20
+p A11B 25
+p A12B 27
+p A13B 29
+p A14B 31
+p A15B 35
+p A16B 37
+p A17B 39
+p A18B 41
+p D0B 46
+p \CER\ 69
+p \WER\ 67
+p \OER\ 65
+p A0R 76
+p A1R 78
+p A2R 80
+p A3R 5
+p A4R 7
+p A5R 9
+p A6R 11
+p A7R 13
+p A8R 15
+p A9R 17
+p A10R 19
+p A11R 21
+p A12R 26
+p A13R 28
+p A14R 30
+p A15R 34
+p A16R 36
+p A17R 38
+p A18R 40
+p D0R 45
+p D1R 47
+p D2R 49
+p D3R 51
+p D4R 53
+p D5R 55
+p D6R 57
+p D7R 59
+p D1B 48
+p D2B 50
+p D3B 52
+p D4B 54
+p D5B 56
+p D6B 58
+p D7B 60
+p VCC1 33
+p GND1 32
+p CLK 74
+p VCC2 72
+p GND2 73
+*package DS1280FP-44 b
+@types 1
+g 1 
+@pinout
+t QFP10X10-44
+g 1
+p DQOE 4
+p \RST\ 8
+p DQ 43
+p A0R 9
+p A1R 10
+p A2R 11
+p A4R 14
+p A5R 15
+p A6R 16
+p A7R 17
+p A8R 18
+p A9R 19
+p A10R 20
+p A11R 21
+p A3R 13
+p A12R 24
+p A13R 25
+p A14R 26
+p A16R 30
+p A18R 32
+p D0R 35
+p D1R 36
+p D2R 37
+p D3R 38
+p D4R 39
+p D5R 40
+p D6R 41
+p D7R 42
+p \OER\ 1
+p \CER\ 3
+p \WER\ 2
+p GND1 6
+p A15R 29
+p VCC1 5
+p CLK 7
+p A17R 31
+p GND2 27
+p VCC2 28
+*package DS1280FP-80 b
+@types 1
+g 1 
+@pinout
+t QFP14X20-80
+g 1
+p \RST\ 75
+p DQ 61
+p DQE 71
+p \CEB\ 70
+p \OEB\ 66
+p \WEB\ 68
+p A0B 77
+p A1B 79
+p A2B 1
+p A3B 6
+p A4B 8
+p A5B 10
+p A6B 12
+p A7B 14
+p A8B 16
+p A9B 18
+p A10B 20
+p A11B 25
+p A12B 27
+p A13B 29
+p A14B 31
+p A15B 35
+p A16B 37
+p A17B 39
+p A18B 41
+p D0B 46
+p \CER\ 69
+p \WER\ 67
+p \OER\ 65
+p A0R 76
+p A1R 78
+p A2R 80
+p A3R 5
+p A4R 7
+p A5R 9
+p A6R 11
+p A7R 13
+p A8R 15
+p A9R 17
+p A10R 19
+p A11R 21
+p A12R 26
+p A13R 28
+p A14R 30
+p A15R 34
+p A16R 36
+p A17R 38
+p A18R 40
+p D0R 45
+p D1R 47
+p D2R 49
+p D3R 51
+p D4R 53
+p D5R 55
+p D6R 57
+p D7R 59
+p D1B 48
+p D2B 50
+p D3B 52
+p D4B 54
+p D5B 56
+p D6B 58
+p D7B 60
+p VCC1 33
+p GND1 32
+p CLK 74
+p VCC2 72
+p GND2 73
+*package DS1280FPN-44 b
+@types 1
+g 1 
+@pinout
+t QFP10X10-44
+g 1
+p DQOE 4
+p \RST\ 8
+p DQ 43
+p A0R 9
+p A1R 10
+p A2R 11
+p A4R 14
+p A5R 15
+p A6R 16
+p A7R 17
+p A8R 18
+p A9R 19
+p A10R 20
+p A11R 21
+p A3R 13
+p A12R 24
+p A13R 25
+p A14R 26
+p A16R 30
+p A18R 32
+p D0R 35
+p D1R 36
+p D2R 37
+p D3R 38
+p D4R 39
+p D5R 40
+p D6R 41
+p D7R 42
+p \OER\ 1
+p \CER\ 3
+p \WER\ 2
+p GND1 6
+p A15R 29
+p VCC1 5
+p CLK 7
+p A17R 31
+p GND2 27
+p VCC2 28
+*package DS1280FPN-80 b
+@types 1
+g 1 
+@pinout
+t QFP14X20-80
+g 1
+p \RST\ 75
+p DQ 61
+p DQE 71
+p \CEB\ 70
+p \OEB\ 66
+p \WEB\ 68
+p A0B 77
+p A1B 79
+p A2B 1
+p A3B 6
+p A4B 8
+p A5B 10
+p A6B 12
+p A7B 14
+p A8B 16
+p A9B 18
+p A10B 20
+p A11B 25
+p A12B 27
+p A13B 29
+p A14B 31
+p A15B 35
+p A16B 37
+p A17B 39
+p A18B 41
+p D0B 46
+p \CER\ 69
+p \WER\ 67
+p \OER\ 65
+p A0R 76
+p A1R 78
+p A2R 80
+p A3R 5
+p A4R 7
+p A5R 9
+p A6R 11
+p A7R 13
+p A8R 15
+p A9R 17
+p A10R 19
+p A11R 21
+p A12R 26
+p A13R 28
+p A14R 30
+p A15R 34
+p A16R 36
+p A17R 38
+p A18R 40
+p D0R 45
+p D1R 47
+p D2R 49
+p D3R 51
+p D4R 53
+p D5R 55
+p D6R 57
+p D7R 59
+p D1B 48
+p D2B 50
+p D3B 52
+p D4B 54
+p D5B 56
+p D6B 58
+p D7B 60
+p VCC1 33
+p GND1 32
+p CLK 74
+p VCC2 72
+p GND2 73
+*package DS1284 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \CE\ 20
+p \OE\ 22
+p \WE\ 27
+p X1 2
+p X2 3
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p \RCLR\ 24
+p \INTA\ 1
+p \INTB\(INTB) 26
+p SQW 23
+p DQ0 11
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p GND1 14
+p GND2 21
+p VCC 28
+p Vbat 25
+*package DS1284Q b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p \CE\ 20
+p \OE\ 22
+p \WE\ 27
+p X1 2
+p X2 3
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p \RCLR\ 24
+p \INTA\ 1
+p \INTB\(INTB) 26
+p SQW 23
+p DQ0 11
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p GND1 14
+p GND2 21
+p VCC 28
+p Vbat 25
+*package DS1284QN b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p \CE\ 20
+p \OE\ 22
+p \WE\ 27
+p X1 2
+p X2 3
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p \RCLR\ 24
+p \INTA\ 1
+p \INTB\(INTB) 26
+p SQW 23
+p DQ0 11
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p GND1 14
+p GND2 21
+p VCC 28
+p Vbat 25
+*package DS1285 b
+@types 1
+g 1 
+@pinout
+t DIP24X
+g 1
+p X1 2
+p X2 3
+p MOT 1
+p \RCLR\ 21
+p \RST\ 18
+p DS 17
+p R/\W\ 15
+p AS 14
+p \CS\ 13
+p AD0 4
+p AD1 5
+p AD2 6
+p AD3 7
+p AD4 8
+p AD5 9
+p AD6 10
+p AD7 11
+p \IRQ\ 19
+p SQW 23
+p VCC 24
+p GND 12
+p GND1 16
+p Vbat 20
+*package DS1285Q b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p X1 3
+p X2 4
+p MOT 2
+p \RCLR\ 25
+p \RST\ 22
+p DS 21
+p R/\W\ 19
+p AS 17
+p \CS\ 16
+p AD0 5
+p AD1 6
+p AD2 7
+p AD3 8
+p AD4 9
+p AD5 10
+p AD6 12
+p AD7 14
+p \IRQ\ 23
+p SQW 27
+p VCC 28
+p GND 15
+p GND1 20
+p Vbat 24
+*package DS1285S b
+@types 1
+g 1 
+@pinout
+t SO24W
+g 1
+p X1 2
+p X2 3
+p MOT 1
+p \RCLR\ 21
+p \RST\ 18
+p DS 17
+p R/\W\ 15
+p AS 14
+p \CS\ 13
+p AD0 4
+p AD1 5
+p AD2 6
+p AD3 7
+p AD4 8
+p AD5 9
+p AD6 10
+p AD7 11
+p \IRQ\ 19
+p SQW 23
+p VCC 24
+p GND 12
+p GND1 16
+p Vbat 20
+*package DS1286 b
+@types 1
+g 1 
+@pinout
+t DAC-28P
+g 1
+p \CE\ 20
+p \OE\ 22
+p \WE\ 27
+p A0 10
+p A1 9
+p A2 8
+p A3 7
+p A4 6
+p A5 5
+p \INTA\ 1
+p \INTB\(INTB) 26
+p SQW 23
+p DQ0 11
+p DQ1 12
+p DQ2 13
+p DQ3 15
+p DQ4 16
+p DQ5 17
+p DQ6 18
+p DQ7 19
+p GND1 14
+p VCC 28
+*package DS1287 b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p MOT 1
+p \RST\ 18
+p DS 17
+p R/\W\ 15
+p AS 14
+p \CS\ 13
+p AD0 4
+p AD1 5
+p AD2 6
+p AD3 7
+p AD4 8
+p AD5 9
+p AD6 10
+p AD7 11
+p \IRQ\ 19
+p SQW 23
+p VCC 24
+p GND 12
+*package DS1287A b
+@types 1
+g 1 
+@pinout
+t DAC-24P
+g 1
+p MOT 1
+p \RST\ 18
+p DS 17
+p R/\W\ 15
+p AS 14
+p \CS\ 13
+p AD0 4
+p AD1 5
+p AD2 6
+p AD3 7
+p AD4 8
+p AD5 9
+p AD6 10
+p AD7 11
+p \IRQ\ 19
+p SQW 23
+p VCC 24
+p GND 12
+p \RCLR\ 21
+*package DS1290 b
+@types 1
+g 1 
+@pinout
+t DAL-16
+g 1
+p DI 3
+p \T\ 2
+p \CLEAR\ 10
+p OA 14
+p OB 13
+p OC 12
+p OD 11
+p OE 7
+p OF 6
+p OG 5
+p OH 4
+p CLK 9
+p GND 8
+p VCC 15
+*package DS1291
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p DI 3
+p \T\ 2
+p \CLEAR\ 10
+p OA 14
+p OB 13
+p OC 12
+p OD 11
+p OE 7
+p OF 6
+p OG 5
+p OH 4
+p CLK 9
+p GND1 8
+p VCC 15
+p GND2 1
+p GND3 16
+*package DS1291N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p DI 3
+p \T\ 2
+p \CLEAR\ 10
+p OA 14
+p OB 13
+p OC 12
+p OD 11
+p OE 7
+p OF 6
+p OG 5
+p OH 4
+p CLK 9
+p GND1 8
+p VCC 15
+p GND2 1
+p GND3 16
+*package DS1292 b
+@types 1
+g 1 
+@pinout
+t DAL-24
+g 1
+p DI 3
+p \T\ 2
+p \CLEAR\ 14
+p OA 22
+p OB 21
+p OC 20
+p OD 19
+p OE 18
+p OF 17
+p OG 16
+p OH 15
+p CLK 13
+p GND 12
+p VCC 23
+p OI 11
+p OJ 10
+p OK 9
+p OL 8
+p OM 7
+p ON 6
+p OO 5
+p OQ 4
+*package DS1293
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p DI 3
+p \T\ 2
+p \CLEAR\ 14
+p OA 22
+p OB 21
+p OC 20
+p OD 19
+p OE 18
+p OF 17
+p OG 16
+p OH 15
+p CLK 13
+p GND1 12
+p VCC 23
+p OI 11
+p OJ 10
+p OK 9
+p OL 8
+p OM 7
+p ON 6
+p OO 5
+p OQ 4
+p GND2 1
+p GND3 24
+*package DS1293N
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p DI 3
+p \T\ 2
+p \CLEAR\ 14
+p OA 22
+p OB 21
+p OC 20
+p OD 19
+p OE 18
+p OF 17
+p OG 16
+p OH 15
+p CLK 13
+p GND1 12
+p VCC 23
+p OI 11
+p OJ 10
+p OK 9
+p OL 8
+p OM 7
+p ON 6
+p OO 5
+p OQ 4
+p GND2 1
+p GND3 24
+*package DS2009 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009-35 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009-50 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009-65 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009-80 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009D b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009D-35 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009D-50 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009D-65 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009D-80 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009DN b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009DN-35 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009DN-50 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009DN-65 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009DN-80 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009N b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009N-35 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009N-50 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009N-65 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009N-80 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2009R b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2009R-35 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2009R-50 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2009R-65 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2009R-80 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2009RN b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2009RN-35 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2009RN-50 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2009RN-65 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2009RN-80 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2010 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010-50 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010-65 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010-80 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010D b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010D-50 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010D-65 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010D-80 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010DN b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010DN-50 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010DN-65 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010DN-80 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010N b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010N-50 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010N-65 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010N-80 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2010R b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2010R-50 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2010R-65 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2010R-80 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2010RN b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2010RN-50 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2010RN-65 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2010RN-80 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2011 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011-50 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011-65 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011-80 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011D b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011D-50 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011D-65 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011D-80 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011DN b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011DN-50 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011DN-65 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011DN-80 b
+@types 1
+g 1 
+@pinout
+t DIP28
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011N b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011N-50 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011N-65 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011N-80 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL\/\RT\ 23
+p \XO\/\HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2011R b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2011R-50 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2011R-65 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2011R-80 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2011RN b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2011RN-50 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2011RN-65 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2011RN-80 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL\/\RT\ 26
+p \XO\/\HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2012 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL/RT\ 23
+p \XO/HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2012-50
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL/RT\ 23
+p \XO/HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2012-65 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL/RT\ 23
+p \XO/HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2012-80 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL/RT\ 23
+p \XO/HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2012N b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL/RT\ 23
+p \XO/HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2012N-50 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL/RT\ 23
+p \XO/HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2012N-65 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL/RT\ 23
+p \XO/HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2012N-80 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \W\ 1
+p \R\ 15
+p \RS\ 22
+p \XI\ 7
+p \FF\ 8
+p D0 6
+p D1 5
+p D2 4
+p D3 3
+p D4 27
+p D5 26
+p D6 25
+p D7 24
+p \FL/RT\ 23
+p \XO/HF\ 20
+p \EF\ 21
+p Q0 9
+p Q1 10
+p Q2 11
+p Q3 12
+p Q4 16
+p Q5 17
+p Q6 18
+p Q7 19
+p Q8 13
+p GND 14
+p VCC 28
+p D8 2
+*package DS2012R b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL/RT\ 26
+p \XO/HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2012R-50 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL/RT\ 26
+p \XO/HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2012R-65 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL/RT\ 26
+p \XO/HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2012R-80 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL/RT\ 26
+p \XO/HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2012RN b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL/RT\ 26
+p \XO/HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2012RN-50 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL/RT\ 26
+p \XO/HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2012RN-65 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL/RT\ 26
+p \XO/HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2012RN-80 b
+@types 1
+g 1 
+@pinout
+t PLCC/R-32
+g 1
+p \W\ 2
+p \R\ 18
+p \RS\ 25
+p \XI\ 8
+p \FF\ 9
+p D0 7
+p D1 6
+p D2 5
+p D3 4
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p \FL/RT\ 26
+p \XO/HF\ 23
+p \EF\ 24
+p Q0 10
+p Q1 11
+p Q2 13
+p Q3 14
+p Q4 19
+p Q5 20
+p Q6 21
+p Q7 22
+p Q8 15
+p GND 16
+p VCC 32
+p D8 3
+*package DS2015 b
+@types 1
+g 1 
+@pinout
+t DIP18
+g 1
+p \RST0\ 1
+p \RST1\ 8
+p \RST2\ 10
+p \RST3\ 17
+p DQ0 3
+p DQ1 6
+p DQ2 12
+p DQ3 15
+p \M0\ 4
+p \M1\ 5
+p \M2\ 13
+p \M3\ 14
+p CLK0 2
+p CLK1 7
+p CLK2 11
+p CLK3 16
+p VCC 18
+p GND 9
+*package DS5000 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS500032-12 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS500032-16 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS500032-8 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS50008-12 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS50008-16 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS50008-8 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS5000FP b
+@types 1
+g 1 
+@pinout
+t SQFP10X14-80
+g 1
+p XTAL1 48
+p XTAL2 47
+p RST 34
+p EA 73
+p BA0 37
+p BA1 35
+p BA2 33
+p BA3 30
+p BA4 28
+p BA5 26
+p BA6 24
+p BA7 20
+p BA8 6
+p BA9 4
+p BA10 76
+p BA11 80
+p BA12 18
+p \BA13\ 8
+p \BA14\ 16
+p P0.0/AD0 11
+p P0.1/AD1 9
+p P0.2/AD2 7
+p P0.3/AD3 5
+p P0.4/AD4 1
+p P0.5/AD5 79
+p P0.6/AD6 77
+p P0.7/AD7 75
+p P1.0 15
+p P1.1 17
+p P1.2 19
+p P1.3 21
+p P1.4 25
+p P1.5 27
+p P1.6 29
+p P1.7 31
+p P2.0/A8 49
+p P2.1/A9 50
+p P2.2/A10 51
+p P2.3/A11 56
+p P2.4/A12 58
+p P2.5/A13 60
+p P2.6/A14 64
+p P2.7/A15 66
+p P3.0/RXD 36
+p P3.1/TXD 38
+p P3.2/INT0 39
+p P3.3/INT1 40
+p P3.4/T0 41
+p P3.5/T1 44
+p P3.6/\WR\ 45
+p P3.7/\RD\ 46
+p BD7 71
+p BD6 69
+p BD5 67
+p BD4 65
+p BD3 61
+p BD2 59
+p BD1 57
+p BD0 55
+p ALE 70
+p R/\W\ 10
+p \CE1\ 74
+p \CE2\ 78
+p VCC0 12
+p \PSEN\ 68
+p VCC1 13
+p VCC2 14
+p GND1 52
+p GND2 53
+p VLI 54
+*package DS5000FP-12 b
+@types 1
+g 1 
+@pinout
+t SQFP10X14-80
+g 1
+p XTAL1 48
+p XTAL2 47
+p RST 34
+p EA 73
+p BA0 37
+p BA1 35
+p BA2 33
+p BA3 30
+p BA4 28
+p BA5 26
+p BA6 24
+p BA7 20
+p BA8 6
+p BA9 4
+p BA10 76
+p BA11 80
+p BA12 18
+p \BA13\ 8
+p \BA14\ 16
+p P0.0/AD0 11
+p P0.1/AD1 9
+p P0.2/AD2 7
+p P0.3/AD3 5
+p P0.4/AD4 1
+p P0.5/AD5 79
+p P0.6/AD6 77
+p P0.7/AD7 75
+p P1.0 15
+p P1.1 17
+p P1.2 19
+p P1.3 21
+p P1.4 25
+p P1.5 27
+p P1.6 29
+p P1.7 31
+p P2.0/A8 49
+p P2.1/A9 50
+p P2.2/A10 51
+p P2.3/A11 56
+p P2.4/A12 58
+p P2.5/A13 60
+p P2.6/A14 64
+p P2.7/A15 66
+p P3.0/RXD 36
+p P3.1/TXD 38
+p P3.2/INT0 39
+p P3.3/INT1 40
+p P3.4/T0 41
+p P3.5/T1 44
+p P3.6/\WR\ 45
+p P3.7/\RD\ 46
+p BD7 71
+p BD6 69
+p BD5 67
+p BD4 65
+p BD3 61
+p BD2 59
+p BD1 57
+p BD0 55
+p ALE 70
+p R/\W\ 10
+p \CE1\ 74
+p \CE2\ 78
+p VCC0 12
+p \PSEN\ 68
+p VCC1 13
+p VCC2 14
+p GND1 52
+p GND2 53
+p VLI 54
+*package DS5000FP-16 b
+@types 1
+g 1 
+@pinout
+t SQFP10X14-80
+g 1
+p XTAL1 48
+p XTAL2 47
+p RST 34
+p EA 73
+p BA0 37
+p BA1 35
+p BA2 33
+p BA3 30
+p BA4 28
+p BA5 26
+p BA6 24
+p BA7 20
+p BA8 6
+p BA9 4
+p BA10 76
+p BA11 80
+p BA12 18
+p \BA13\ 8
+p \BA14\ 16
+p P0.0/AD0 11
+p P0.1/AD1 9
+p P0.2/AD2 7
+p P0.3/AD3 5
+p P0.4/AD4 1
+p P0.5/AD5 79
+p P0.6/AD6 77
+p P0.7/AD7 75
+p P1.0 15
+p P1.1 17
+p P1.2 19
+p P1.3 21
+p P1.4 25
+p P1.5 27
+p P1.6 29
+p P1.7 31
+p P2.0/A8 49
+p P2.1/A9 50
+p P2.2/A10 51
+p P2.3/A11 56
+p P2.4/A12 58
+p P2.5/A13 60
+p P2.6/A14 64
+p P2.7/A15 66
+p P3.0/RXD 36
+p P3.1/TXD 38
+p P3.2/INT0 39
+p P3.3/INT1 40
+p P3.4/T0 41
+p P3.5/T1 44
+p P3.6/\WR\ 45
+p P3.7/\RD\ 46
+p BD7 71
+p BD6 69
+p BD5 67
+p BD4 65
+p BD3 61
+p BD2 59
+p BD1 57
+p BD0 55
+p ALE 70
+p R/\W\ 10
+p \CE1\ 74
+p \CE2\ 78
+p VCC0 12
+p \PSEN\ 68
+p VCC1 13
+p VCC2 14
+p GND1 52
+p GND2 53
+p VLI 54
+*package DS5000FP-8 b
+@types 1
+g 1 
+@pinout
+t SQFP10X14-80
+g 1
+p XTAL1 48
+p XTAL2 47
+p RST 34
+p EA 73
+p BA0 37
+p BA1 35
+p BA2 33
+p BA3 30
+p BA4 28
+p BA5 26
+p BA6 24
+p BA7 20
+p BA8 6
+p BA9 4
+p BA10 76
+p BA11 80
+p BA12 18
+p \BA13\ 8
+p \BA14\ 16
+p P0.0/AD0 11
+p P0.1/AD1 9
+p P0.2/AD2 7
+p P0.3/AD3 5
+p P0.4/AD4 1
+p P0.5/AD5 79
+p P0.6/AD6 77
+p P0.7/AD7 75
+p P1.0 15
+p P1.1 17
+p P1.2 19
+p P1.3 21
+p P1.4 25
+p P1.5 27
+p P1.6 29
+p P1.7 31
+p P2.0/A8 49
+p P2.1/A9 50
+p P2.2/A10 51
+p P2.3/A11 56
+p P2.4/A12 58
+p P2.5/A13 60
+p P2.6/A14 64
+p P2.7/A15 66
+p P3.0/RXD 36
+p P3.1/TXD 38
+p P3.2/INT0 39
+p P3.3/INT1 40
+p P3.4/T0 41
+p P3.5/T1 44
+p P3.6/\WR\ 45
+p P3.7/\RD\ 46
+p BD7 71
+p BD6 69
+p BD5 67
+p BD4 65
+p BD3 61
+p BD2 59
+p BD1 57
+p BD0 55
+p ALE 70
+p R/\W\ 10
+p \CE1\ 74
+p \CE2\ 78
+p VCC0 12
+p \PSEN\ 68
+p VCC1 13
+p VCC2 14
+p GND1 52
+p GND2 53
+p VLI 54
+*package DS5000FPN-12 b
+@types 1
+g 1 
+@pinout
+t SQFP10X14-80
+g 1
+p XTAL1 48
+p XTAL2 47
+p RST 34
+p EA 73
+p BA0 37
+p BA1 35
+p BA2 33
+p BA3 30
+p BA4 28
+p BA5 26
+p BA6 24
+p BA7 20
+p BA8 6
+p BA9 4
+p BA10 76
+p BA11 80
+p BA12 18
+p \BA13\ 8
+p \BA14\ 16
+p P0.0/AD0 11
+p P0.1/AD1 9
+p P0.2/AD2 7
+p P0.3/AD3 5
+p P0.4/AD4 1
+p P0.5/AD5 79
+p P0.6/AD6 77
+p P0.7/AD7 75
+p P1.0 15
+p P1.1 17
+p P1.2 19
+p P1.3 21
+p P1.4 25
+p P1.5 27
+p P1.6 29
+p P1.7 31
+p P2.0/A8 49
+p P2.1/A9 50
+p P2.2/A10 51
+p P2.3/A11 56
+p P2.4/A12 58
+p P2.5/A13 60
+p P2.6/A14 64
+p P2.7/A15 66
+p P3.0/RXD 36
+p P3.1/TXD 38
+p P3.2/INT0 39
+p P3.3/INT1 40
+p P3.4/T0 41
+p P3.5/T1 44
+p P3.6/\WR\ 45
+p P3.7/\RD\ 46
+p BD7 71
+p BD6 69
+p BD5 67
+p BD4 65
+p BD3 61
+p BD2 59
+p BD1 57
+p BD0 55
+p ALE 70
+p R/\W\ 10
+p \CE1\ 74
+p \CE2\ 78
+p VCC0 12
+p \PSEN\ 68
+p VCC1 13
+p VCC2 14
+p GND1 52
+p GND2 53
+p VLI 54
+*package DS5000FPN-16 b
+@types 1
+g 1 
+@pinout
+t SQFP10X14-80
+g 1
+p XTAL1 48
+p XTAL2 47
+p RST 34
+p EA 73
+p BA0 37
+p BA1 35
+p BA2 33
+p BA3 30
+p BA4 28
+p BA5 26
+p BA6 24
+p BA7 20
+p BA8 6
+p BA9 4
+p BA10 76
+p BA11 80
+p BA12 18
+p \BA13\ 8
+p \BA14\ 16
+p P0.0/AD0 11
+p P0.1/AD1 9
+p P0.2/AD2 7
+p P0.3/AD3 5
+p P0.4/AD4 1
+p P0.5/AD5 79
+p P0.6/AD6 77
+p P0.7/AD7 75
+p P1.0 15
+p P1.1 17
+p P1.2 19
+p P1.3 21
+p P1.4 25
+p P1.5 27
+p P1.6 29
+p P1.7 31
+p P2.0/A8 49
+p P2.1/A9 50
+p P2.2/A10 51
+p P2.3/A11 56
+p P2.4/A12 58
+p P2.5/A13 60
+p P2.6/A14 64
+p P2.7/A15 66
+p P3.0/RXD 36
+p P3.1/TXD 38
+p P3.2/INT0 39
+p P3.3/INT1 40
+p P3.4/T0 41
+p P3.5/T1 44
+p P3.6/\WR\ 45
+p P3.7/\RD\ 46
+p BD7 71
+p BD6 69
+p BD5 67
+p BD4 65
+p BD3 61
+p BD2 59
+p BD1 57
+p BD0 55
+p ALE 70
+p R/\W\ 10
+p \CE1\ 74
+p \CE2\ 78
+p VCC0 12
+p \PSEN\ 68
+p VCC1 13
+p VCC2 14
+p GND1 52
+p GND2 53
+p VLI 54
+*package DS5000FPN-8 b
+@types 1
+g 1 
+@pinout
+t SQFP10X14-80
+g 1
+p XTAL1 48
+p XTAL2 47
+p RST 34
+p EA 73
+p BA0 37
+p BA1 35
+p BA2 33
+p BA3 30
+p BA4 28
+p BA5 26
+p BA6 24
+p BA7 20
+p BA8 6
+p BA9 4
+p BA10 76
+p BA11 80
+p BA12 18
+p \BA13\ 8
+p \BA14\ 16
+p P0.0/AD0 11
+p P0.1/AD1 9
+p P0.2/AD2 7
+p P0.3/AD3 5
+p P0.4/AD4 1
+p P0.5/AD5 79
+p P0.6/AD6 77
+p P0.7/AD7 75
+p P1.0 15
+p P1.1 17
+p P1.2 19
+p P1.3 21
+p P1.4 25
+p P1.5 27
+p P1.6 29
+p P1.7 31
+p P2.0/A8 49
+p P2.1/A9 50
+p P2.2/A10 51
+p P2.3/A11 56
+p P2.4/A12 58
+p P2.5/A13 60
+p P2.6/A14 64
+p P2.7/A15 66
+p P3.0/RXD 36
+p P3.1/TXD 38
+p P3.2/INT0 39
+p P3.3/INT1 40
+p P3.4/T0 41
+p P3.5/T1 44
+p P3.6/\WR\ 45
+p P3.7/\RD\ 46
+p BD7 71
+p BD6 69
+p BD5 67
+p BD4 65
+p BD3 61
+p BD2 59
+p BD1 57
+p BD0 55
+p ALE 70
+p R/\W\ 10
+p \CE1\ 74
+p \CE2\ 78
+p VCC0 12
+p \PSEN\ 68
+p VCC1 13
+p VCC2 14
+p GND1 52
+p GND2 53
+p VLI 54
+*package DS5000T32-12 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS5000T32-16 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS5000T32-8 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS5000T8-12 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS5000T8-16 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS5000T8-8 b
+@types 1
+g 1 
+@pinout
+t DAC-40P
+g 1
+p T1 15
+p T0 14
+p \INT0\ 12
+p \INT1\ 13
+p RXD 10
+p RST 9
+p ALE/\PROG\ 30
+p \EA\/VPP 31
+p XTAL1 19
+p XTAL2 18
+p \RD\ 17
+p \WR\ 16
+p TXD 11
+p \PSEN\ 29
+p AD0 39
+p AD1 38
+p AD2 37
+p AD4 35
+p AD5 34
+p AD6 33
+p AD7 32
+p A8 21
+p A9 22
+p A10 23
+p A11 24
+p A12 25
+p A13 26
+p A14 27
+p A15 28
+p P1.0 1
+p P1.1 2
+p P1.2 3
+p P1.3 4
+p P1.4 5
+p P1.5 6
+p P1.6 7
+p P1.7 8
+p VCC 40
+p VSS 20
+p AD3 36
+*package DS1203SN-B1 b
+@types 1
+g 1 
+@pinout
+t SO8
+g 1
+p FI 1
+p EI 2
+p A+ 7
+p A- 6
+p OUT 3
+p CO 4
+p Vcc 8
+p GND 5

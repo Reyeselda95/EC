@@ -1,0 +1,10 @@
+# Part Mapping file for PCAD PCB Package
+
+# Copyright 1992,1993,1994 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+# Default rule: package type, part as info
+DEFAULT               ?`pkgtype|@`pkgtype,|?component|@component||@part|
+
+

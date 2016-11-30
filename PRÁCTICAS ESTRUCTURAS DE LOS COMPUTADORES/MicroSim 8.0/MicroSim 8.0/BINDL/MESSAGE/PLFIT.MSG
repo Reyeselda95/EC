@@ -1,0 +1,32 @@
+#include "libfit.msg"
+#include "libprtn.msg"
+#include "libfb.msg"
+#include "libdb3.msg"
+#include "libmutil.msg"
+#include "libpi.msg"
+#include "libexpr.msg"
+#include "libCCI.msg"
+#include "libCO.msg"
+#include "libbc.msg"
+
+>F LOCK NOT INSTALLED
+=[3000] Access denied to product
+
+" main.c
+
+>F usage
+=[3001] PLFit usage:  plfit design_name
+>F No solutions to edit
+=[3002] Cannot edit solutions since PLFit has not been run previously.
+>F PLScan has not been run
+=[3003] PLScan has not been run
+>F Wrong version of PLScan run
+=[3004] Wrong version of PLScan run
+>F Errors while building the list of functions to fit
+=[3005] Errors occurred while building the output and equation lists.
+>F No outputs in design.
+=[3006] No outputs in design.
+>F .pi out of date.
+=[3007] .pi target device did not pass plscan. Please run plscan.
+>W .cst out of date.
+=[3008] The cost file (.cst) has been modified. Please run plscan.

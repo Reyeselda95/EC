@@ -1,0 +1,120 @@
+This example can be run on MicroSim PSpice or MicroSim PSpice A/D.
+
+Required symbol libraries:
+	Lin_tech.slb
+	port.slb
+	breakout.slb
+	source.slb
+	special.slb
+
+Required model libraries:
+	lin_tech.lib
+	onestage.lib - a local model library
+
+This example schematic was created using bottom-up design:  the
+filter stage was drawn first, and then the File/Symbolize command
+was used to create a hierarchical symbol from the schematic.  
+
+Let's look at how we might analyze this circuit using PSpice's
+Monte Carlo analysis feature.  This is a fourth order Chebyshev
+active filter, which is designed to have a 10KHz center frequency
+and a 1.5KHz bandwidth.  The components were rounded to the
+nearest available 1% resistor and 5% capacitor value.   In our
+analysis, we will be concerned with how the bandwidth and the
+center frequency vary when 1% resistors and 5% capacitors are
+used in the circuit.
+
+A typical application of Monte Carlo analysis is predicting 
+yields on production runs of a circuit.  Probe can be used to
+display data derived from Monte Carlo waveform families as
+histograms,  part of Probe's Performance Analysis feature.
+
+Since we are interested in varying the resistors and capacitors
+in the filter circuit, we needed to create models for these
+components on which we can set some device tolerances for Monte
+Carlo analysis.  The breakout.slb symbol library contains
+"generic" devices for just this purpose.  The resistors and
+capacitors in this schematic are the Rbreak and Cbreak symbols
+from breakout.slb.  We used the Edit/Model command to
+create/modify the models for these components as follows:
+
+.model RMOD RES(R=1 DEV=1%)
+.model CMOD CAP(C=1 DEV=5%)
+
+To analyze our filter, we set up an AC analysis.   The AC
+analysis sweeps 50 points per decade from 100Hz to 1MHz.  
+
+This Monte Carlo analysis is set up for 15 runs.  (Note that you
+can get a better - more interesting - histogram distribution in
+Probe with, say, 100 runs.)  The analysis type is AC and the
+output variable that we are interested in is V(OUT).  Select All
+in the MC Options box and Dev in the Vary box.
+
+The goal functions used to calculate the bandwidth and center
+frequency for each PSpice run as a function of the voltage output
+of the circuit in dB were set up as follows.
+
+For the bandwidth definition, we need to find the points where
+the voltage in dB is a specified level less than the maximum
+level, mark those X values (frequencies), and then take their
+difference.  We can define the first point as "search forward for
+the first point on the curve that crosses the specified dB level
+less than the maximum level on the positive going slope and save
+the point."  In search command syntax, this search function is
+
+Search forward level(max - db_level, p) !1
+
+Similarly, we can define the second point as "search forward for
+the first point on the curve that crosses the specified dB level
+less than the maximum level on the negative going slope and save
+the point".  In search command syntax, this search function is
+
+Search forward level(max - db_level, n) !2
+
+The bandwidth of our filter is the difference between the two X
+values:   x2-x1
+
+The center frequency goal function uses the same two points as
+the bandwidth goal function, but the center frequency is the
+average of the two X values:  (x1+x2)/2 
+
+Because the data file can become quite large when running a Monte
+Carlo analysis and because we are only interested in the output
+of the filter, we placed a voltage marker at the output of the
+filter and requested Data Collection At Markers Only.  
+
+To display a histogram of the distribution of the 1dB bandwidth
+for our filter, we select Trace/Add... , click on the
+Bandwidth(1, db_level) goal function, and select V(OUT).  We want
+the voltage given in dB, so we modify the Trace Command to
+reflect VdB.  We want the 1dB bandwidth, so we type 1 as the
+second argument to the goal function.
+
+If you want to change the number of histogram divisions, you can
+do so by selecting Tools/Options and changing the Number of
+Histogram Divisions.
+
+You can turn off the histogram statistics by selecting
+Tools/Options and clicking on the Display Statistics checkbox to
+remove the X.
+
+The statistics show the number of Monte Carlo runs, the number
+divisions or vertical bars that make up the histogram, mean,
+sigma, minimum, maximum, 10th percentile, median, and 90th
+percentile.  10% of the goa1 function values are less than or
+equal to the 10th percentile number, and 90% of the goal function
+values are greater than or equal to that number.  If there is
+more than one goal function value that satisfies this criteria,
+then the 10th percentile will be the midpoint of the interval
+between the goal function values that satisfy the criteria. 
+Similarly, the median and 90th percentile numbers represent goal
+function values such that 50% and 90% (respectively) of the goal
+function values are less than or equal to those numbers.   Sigma
+is the standard deviation of the goal function values.
+
+Similarly, you can look at the distribution of the center
+frequency of the filter using the CenterFreq goal function.
+
+The new histogram will replace the previous histogram.  To
+display both histograms at once, use Plot/Add Plot before
+selecting Trace/Add.

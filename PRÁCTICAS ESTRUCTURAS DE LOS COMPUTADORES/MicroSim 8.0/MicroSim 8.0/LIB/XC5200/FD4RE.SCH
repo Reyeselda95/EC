@@ -1,0 +1,248 @@
+*version 6.3 2510839871
+u 221
+XC5200 732021411
+U? 5
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3668 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 222 IF_IN 170 660 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 223 IF_IN 170 710 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+port 224 IF_IN 170 680 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 225 IF_OUT 690 520 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q2
+port 226 IF_OUT 690 640 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q3
+port 227 IF_IN 170 640 h
+a 0 s 3 0 10 8 hln 80 LABEL=D3
+port 228 IF_IN 170 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=D2
+port 229 IF_IN 170 280 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 230 IF_IN 170 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 231 IF_OUT 690 400 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+port 232 IF_OUT 690 280 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+@parts
+part 18 FDRE 370 520 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 19 FDRE 370 400 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 20 FDRE 370 280 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 21 FDRE 370 640 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U4
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 23
+s 490 400 690 400 22
+a 0 s 3 0 650 400 hln 100 LABEL=Q1
+w 31
+s 490 520 690 520 30
+a 0 s 3 0 650 520 hln 100 LABEL=Q2
+w 39
+s 490 640 690 640 38
+a 0 s 3 0 650 640 hln 100 LABEL=Q3
+w 47
+s 170 640 370 640 46
+a 0 s 3 0 180 640 hln 100 LABEL=D3
+w 55
+s 170 520 370 520 54
+a 0 s 3 0 180 520 hln 100 LABEL=D2
+w 63
+s 170 400 370 400 62
+a 0 s 3 0 180 400 hln 100 LABEL=D1
+w 71
+s 490 280 690 280 70
+a 0 s 3 0 650 280 hln 100 LABEL=Q0
+w 79
+s 170 280 370 280 78
+a 0 s 3 0 180 280 hln 100 LABEL=D0
+w 94
+s 170 660 290 660 86
+a 0 s 3 0 180 660 hln 100 LABEL=CE
+s 290 660 370 660 87
+s 290 660 290 540 93
+s 290 540 370 540 88
+s 290 540 290 420 92
+s 290 420 370 420 89
+s 290 420 290 300 91
+s 290 300 370 300 90
+w 139
+s 170 680 310 680 131
+a 0 s 3 0 180 680 hln 100 LABEL=C
+s 310 680 370 680 132
+s 310 680 310 560 138
+s 310 560 370 560 133
+s 310 560 310 440 137
+s 310 440 370 440 134
+s 310 440 310 320 136
+s 310 320 370 320 135
+w 184
+s 170 710 330 710 176
+a 0 s 3 0 180 710 hln 100 LABEL=R
+s 330 470 330 350 180
+s 330 470 370 470 178
+s 330 350 370 350 179
+s 330 590 330 470 181
+s 330 590 370 590 177
+s 330 710 330 590 182
+s 330 710 370 710 183
+@junction
+j 490 400
++ p 19 Q
++ w 23
+j 490 520
++ p 18 Q
++ w 31
+j 490 640
++ p 21 Q
++ w 39
+j 370 640
++ p 21 D
++ w 47
+j 370 520
++ p 18 D
++ w 55
+j 370 400
++ p 19 D
++ w 63
+j 490 280
++ p 20 Q
++ w 71
+j 370 280
++ p 20 D
++ w 79
+j 290 660
++ w 94
++ w 94
+j 290 540
++ w 94
++ w 94
+j 290 420
++ w 94
++ w 94
+j 370 540
++ p 18 CE
++ w 94
+j 370 420
++ p 19 CE
++ w 94
+j 370 300
++ p 20 CE
++ w 94
+j 370 660
++ p 21 CE
++ w 94
+j 310 680
++ w 139
++ w 139
+j 310 560
++ w 139
++ w 139
+j 310 440
++ w 139
++ w 139
+j 370 560
++ p 18 C
++ w 139
+j 370 440
++ p 19 C
++ w 139
+j 370 320
++ p 20 C
++ w 139
+j 370 680
++ p 21 C
++ w 139
+j 330 710
++ w 184
++ w 184
+j 330 470
++ w 184
++ w 184
+j 330 590
++ w 184
++ w 184
+j 370 590
++ p 18 R
++ w 184
+j 370 470
++ p 19 R
++ w 184
+j 370 350
++ p 20 R
++ w 184
+j 370 710
++ p 21 R
++ w 184
+j 170 660
++ s 222
++ w 94
+j 170 710
++ s 223
++ w 184
+j 170 680
++ s 224
++ w 139
+j 690 520
++ s 225
++ w 31
+j 690 640
++ s 226
++ w 39
+j 170 640
++ s 227
++ w 47
+j 170 520
++ s 228
++ w 55
+j 170 280
++ s 229
++ w 79
+j 170 400
++ s 230
++ w 63
+j 690 400
++ s 231
++ w 23
+j 690 280
++ s 232
++ w 71
+@attributes
+@text
+s 5 30 1060 hln 100 DRAWN BY KS
+s 5 30 1070 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 710 1050 hln 100 1
+s 5 710 1070 hln 100 A
+s 5 470 1050 hln 100 26TH JANUARY 1993
+s 5 510 1000 hln 100 XC5200 FAMILY FD4RE MACRO
+s 5 510 1020 hln 100 4-BIT DATA REGISTER W/
+s 5 510 1030 hln 100 CLOCK ENABLE & SYNC RESET

@@ -1,0 +1,841 @@
+*version 6.2 3522309533
+@index
+symloc 8003_DIP 0 471
+symloc 8003_PLCC 471 503
+symloc 8005 974 666
+symloc 8020 1640 434
+symloc 8023A 2074 439
+symloc DQ8003 2513 469
+symloc NE8005 2982 671
+symloc NE8005A 3653 672
+symloc NE8023A 4325 243
+symloc NQ8003 4568 500
+symloc NQ8005 5068 671
+symloc NQ8005A 5739 672
+symloc NQ8020 6411 240
+symloc NQ8023A 6651 243
+symloc PQ8003 6894 471
+symloc PQ8020 7365 239
+symloc PQ8023A 7604 239
+*package 8003_DIP b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p A2 39
+p A1 1
+p A0 2
+p \TXC\ 14
+p \TXWR\ 15
+p \RXRD\ 18
+p RXD 21
+p CSN 22
+p \RESET\ 23
+p COLL 24
+p RXC 27
+p \WR\ 36
+p \RD\ 37
+p \CS\ 38
+p TXEN 3
+p TXD 4
+p TXRET 5
+p TXRDY 16
+p RXRDY 19
+p INT 25
+p RXDC 26
+p RXTXD7 13
+p RXTXD6 12
+p RXTXD5 11
+p RXTXD4 10
+p RXTXD3 9
+p RXTXD2 8
+p RXTXD1 7
+p RXTXD0 6
+p RXTXEOF 17
+p CDST7 28
+p CDST6 29
+p CDST5 30
+p CDST3 32
+p CDST2 33
+p CDST4 31
+p CDST1 34
+p CDST0 35
+p VSS 20
+p VCC 40
+*package 8003_PLCC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p A2 43
+p A1 1
+p A0 2
+p \TXC\ 15
+p \TXWR\ 17
+p \RXRD\ 20
+p RXD 23
+p CSN 24
+p \RESET\ 25
+p COLL 26
+p RXC 31
+p \WR\ 40
+p \RD\ 41
+p \CS\ 42
+p TXEN 3
+p TXD 4
+p TXRET 5
+p TXRDY 18
+p RXRDY 21
+p INT 27
+p RXDC 28
+p RXTXD7 14
+p RXTXD6 13
+p RXTXD5 12
+p RXTXD4 11
+p RXTXD3 10
+p RXTXD2 9
+p RXTXD1 8
+p RXTXD0 6
+p RXTXEOF 19
+p CDST7 32
+p CDST6 33
+p CDST5 34
+p CDST3 36
+p CDST2 37
+p CDST4 35
+p CDST1 38
+p CDST0 39
+p VSS0 7
+p VSS1 16
+p VSS2 22
+p VSS3 29
+p VCC 44
+*package 8005
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p A3 58
+p A2 57
+p A1 56
+p A0 55
+p IACK* 54
+p CS* 52
+p IOW* 51
+p IOR* 50
+p TERMCT 48
+p DACK* 47
+p RAS* 40
+p CAS* 39
+p RXD 27
+p CLK 24
+p RXC 23
+p TXC* 22
+p COLL 20
+p CSN 19
+p BUSSIZE 18
+p BUSMODE 17
+p RESET* 16
+p AD7 38
+p AD6 37
+p AD5 36
+p AD4 34
+p AD3 33
+p AD2 32
+p AD1 31
+p AD0 30
+p D0 61
+p D1 62
+p D2 63
+p D3 64
+p D4 65
+p D5 66
+p D6 67
+p D7 68
+p D8 2
+p D9 3
+p D10 4
+p D11 5
+p D12 6
+p D13 7
+p D14 8
+p D15 9
+p DREQ 46
+p READY 45
+p EN* 44
+p W* 42
+p G* 41
+p TXEN 29
+p TXD 28
+p LPBK* 14
+p CTRLO 13
+p INT/INT* 12
+p APEN* 11
+p VCC0 1
+p VCC1 15
+p VCC2 35
+p VCC3 49
+p VSS0 10
+p VSS1 25
+p VSS2 26
+p VSS3 43
+p VSS4 59
+p VSS5 60
+*package 8020
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p MODE1 1
+p \LPBK\/WDTD 3
+p RX+ 4
+p RX- 5
+p TXD 17
+p TXEN 15
+p X1 14
+p X2 13
+p COLL+ 12
+p COLL- 11
+p CSN 6
+p COLL 7
+p RXC 8
+p RXD 9
+p \TXC\ 16
+p TX+ 19
+p TX- 18
+p VCC 20
+p VSS 10
+p GND 2
+t PLCC20
+g 1
+p MODE1 1
+p \LPBK\/WDTD 3
+p RX+ 4
+p RX- 5
+p TXD 17
+p TXEN 15
+p X1 14
+p X2 13
+p COLL+ 12
+p COLL- 11
+p CSN 6
+p COLL 7
+p RXC 8
+p RXD 9
+p \TXC\ 16
+p TX+ 19
+p TX- 18
+p VCC 20
+p VSS 10
+p GND 2
+*package 8023A
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p MODE1 1
+p \LPBK\/WDTD 3
+p RX+ 4
+p RX- 5
+p TXD 17
+p TXEN 15
+p X1 14
+p X2 13
+p COLL+ 12
+p COLL- 11
+p CSN 6
+p COLL 7
+p RXC 8
+p RXD 9
+p \TXC\ 16
+p TX+ 19
+p TX- 18
+p VCC 20
+p VSS 10
+p MODE2 2
+t PLCC20
+g 1
+p MODE1 1
+p \LPBK\/WDTD 3
+p RX+ 4
+p RX- 5
+p TXD 17
+p TXEN 15
+p X1 14
+p X2 13
+p COLL+ 12
+p COLL- 11
+p CSN 6
+p COLL 7
+p RXC 8
+p RXD 9
+p \TXC\ 16
+p TX+ 19
+p TX- 18
+p VCC 20
+p VSS 10
+p MODE2 2
+*package DQ8003 b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p A2 39
+p A1 1
+p A0 2
+p \TXC\ 14
+p \TXWR\ 15
+p \RXRD\ 18
+p RXD 21
+p CSN 22
+p \RESET\ 23
+p COLL 24
+p RXC 27
+p \WR\ 36
+p \RD\ 37
+p \CS\ 38
+p TXEN 3
+p TXD 4
+p TXRET 5
+p TXRDY 16
+p RXRDY 19
+p INT 25
+p RXDC 26
+p RXTXD7 13
+p RXTXD6 12
+p RXTXD5 11
+p RXTXD4 10
+p RXTXD3 9
+p RXTXD2 8
+p RXTXD1 7
+p RXTXD0 6
+p RXTXEOF 17
+p CDST7 28
+p CDST6 29
+p CDST5 30
+p CDST3 32
+p CDST2 33
+p CDST4 31
+p CDST1 34
+p CDST0 35
+p VSS 20
+p VCC 40
+*package NE8005 b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p A3 58
+p A2 57
+p A1 56
+p A0 55
+p IACK* 54
+p CS* 52
+p IOW* 51
+p IOR* 50
+p TERMCT 48
+p DACK* 47
+p RAS* 40
+p CAS* 39
+p RXD 27
+p CLK 24
+p RXC 23
+p TXC* 22
+p COLL 20
+p CSN 19
+p BUSSIZE 18
+p BUSMODE 17
+p RESET* 16
+p AD7 38
+p AD6 37
+p AD5 36
+p AD4 34
+p AD3 33
+p AD2 32
+p AD1 31
+p AD0 30
+p D0 61
+p D1 62
+p D2 63
+p D3 64
+p D4 65
+p D5 66
+p D6 67
+p D7 68
+p D8 2
+p D9 3
+p D10 4
+p D11 5
+p D12 6
+p D13 7
+p D14 8
+p D15 9
+p DREQ 46
+p READY 45
+p EN* 44
+p W* 42
+p G* 41
+p TXEN 29
+p TXD 28
+p LPBK* 14
+p CTRLO 13
+p INT/INT* 12
+p APEN* 11
+p VCC0 1
+p VCC1 15
+p VCC2 35
+p VCC3 49
+p VSS0 10
+p VSS1 25
+p VSS2 26
+p VSS3 43
+p VSS4 59
+p VSS5 60
+*package NE8005A b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p A3 58
+p A2 57
+p A1 56
+p A0 55
+p IACK* 54
+p CS* 52
+p IOW* 51
+p IOR* 50
+p TERMCT 48
+p DACK* 47
+p RAS* 40
+p CAS* 39
+p RXD 27
+p CLK 24
+p RXC 23
+p TXC* 22
+p COLL 20
+p CSN 19
+p BUSSIZE 18
+p BUSMODE 17
+p RESET* 16
+p AD7 38
+p AD6 37
+p AD5 36
+p AD4 34
+p AD3 33
+p AD2 32
+p AD1 31
+p AD0 30
+p D0 61
+p D1 62
+p D2 63
+p D3 64
+p D4 65
+p D5 66
+p D6 67
+p D7 68
+p D8 2
+p D9 3
+p D10 4
+p D11 5
+p D12 6
+p D13 7
+p D14 8
+p D15 9
+p DREQ 46
+p READY 45
+p EN* 44
+p W* 42
+p G* 41
+p TXEN 29
+p TXD 28
+p LPBK* 14
+p CTRLO 13
+p INT/INT* 12
+p APEN* 11
+p VCC0 1
+p VCC1 15
+p VCC2 35
+p VCC3 49
+p VSS0 10
+p VSS1 25
+p VSS2 26
+p VSS3 43
+p VSS4 59
+p VSS5 60
+*package NE8023A b
+@types 1
+g 1 
+@pinout
+t PLCC20
+g 1
+p MODE1 1
+p \LPBK\/WDTD 3
+p RX+ 4
+p RX- 5
+p TXD 17
+p TXEN 15
+p X1 14
+p X2 13
+p COLL+ 12
+p COLL- 11
+p CSN 6
+p COLL 7
+p RXC 8
+p RXD 9
+p \TXC\ 16
+p TX+ 19
+p TX- 18
+p VCC 20
+p VSS 10
+p MODE2 2
+*package NQ8003 b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p A2 43
+p A1 1
+p A0 2
+p \TXC\ 15
+p \TXWR\ 17
+p \RXRD\ 20
+p RXD 23
+p CSN 24
+p \RESET\ 25
+p COLL 26
+p RXC 31
+p \WR\ 40
+p \RD\ 41
+p \CS\ 42
+p TXEN 3
+p TXD 4
+p TXRET 5
+p TXRDY 18
+p RXRDY 21
+p INT 27
+p RXDC 28
+p RXTXD7 14
+p RXTXD6 13
+p RXTXD5 12
+p RXTXD4 11
+p RXTXD3 10
+p RXTXD2 9
+p RXTXD1 8
+p RXTXD0 6
+p RXTXEOF 19
+p CDST7 32
+p CDST6 33
+p CDST5 34
+p CDST3 36
+p CDST2 37
+p CDST4 35
+p CDST1 38
+p CDST0 39
+p VSS0 7
+p VSS1 16
+p VSS2 22
+p VSS3 29
+p VCC 44
+*package NQ8005 b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p A3 58
+p A2 57
+p A1 56
+p A0 55
+p IACK* 54
+p CS* 52
+p IOW* 51
+p IOR* 50
+p TERMCT 48
+p DACK* 47
+p RAS* 40
+p CAS* 39
+p RXD 27
+p CLK 24
+p RXC 23
+p TXC* 22
+p COLL 20
+p CSN 19
+p BUSSIZE 18
+p BUSMODE 17
+p RESET* 16
+p AD7 38
+p AD6 37
+p AD5 36
+p AD4 34
+p AD3 33
+p AD2 32
+p AD1 31
+p AD0 30
+p D0 61
+p D1 62
+p D2 63
+p D3 64
+p D4 65
+p D5 66
+p D6 67
+p D7 68
+p D8 2
+p D9 3
+p D10 4
+p D11 5
+p D12 6
+p D13 7
+p D14 8
+p D15 9
+p DREQ 46
+p READY 45
+p EN* 44
+p W* 42
+p G* 41
+p TXEN 29
+p TXD 28
+p LPBK* 14
+p CTRLO 13
+p INT/INT* 12
+p APEN* 11
+p VCC0 1
+p VCC1 15
+p VCC2 35
+p VCC3 49
+p VSS0 10
+p VSS1 25
+p VSS2 26
+p VSS3 43
+p VSS4 59
+p VSS5 60
+*package NQ8005A b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p A3 58
+p A2 57
+p A1 56
+p A0 55
+p IACK* 54
+p CS* 52
+p IOW* 51
+p IOR* 50
+p TERMCT 48
+p DACK* 47
+p RAS* 40
+p CAS* 39
+p RXD 27
+p CLK 24
+p RXC 23
+p TXC* 22
+p COLL 20
+p CSN 19
+p BUSSIZE 18
+p BUSMODE 17
+p RESET* 16
+p AD7 38
+p AD6 37
+p AD5 36
+p AD4 34
+p AD3 33
+p AD2 32
+p AD1 31
+p AD0 30
+p D0 61
+p D1 62
+p D2 63
+p D3 64
+p D4 65
+p D5 66
+p D6 67
+p D7 68
+p D8 2
+p D9 3
+p D10 4
+p D11 5
+p D12 6
+p D13 7
+p D14 8
+p D15 9
+p DREQ 46
+p READY 45
+p EN* 44
+p W* 42
+p G* 41
+p TXEN 29
+p TXD 28
+p LPBK* 14
+p CTRLO 13
+p INT/INT* 12
+p APEN* 11
+p VCC0 1
+p VCC1 15
+p VCC2 35
+p VCC3 49
+p VSS0 10
+p VSS1 25
+p VSS2 26
+p VSS3 43
+p VSS4 59
+p VSS5 60
+*package NQ8020 b
+@types 1
+g 1 
+@pinout
+t PLCC20
+g 1
+p MODE1 1
+p \LPBK\/WDTD 3
+p RX+ 4
+p RX- 5
+p TXD 17
+p TXEN 15
+p X1 14
+p X2 13
+p COLL+ 12
+p COLL- 11
+p CSN 6
+p COLL 7
+p RXC 8
+p RXD 9
+p \TXC\ 16
+p TX+ 19
+p TX- 18
+p VCC 20
+p VSS 10
+p GND 2
+*package NQ8023A b
+@types 1
+g 1 
+@pinout
+t PLCC20
+g 1
+p MODE1 1
+p \LPBK\/WDTD 3
+p RX+ 4
+p RX- 5
+p TXD 17
+p TXEN 15
+p X1 14
+p X2 13
+p COLL+ 12
+p COLL- 11
+p CSN 6
+p COLL 7
+p RXC 8
+p RXD 9
+p \TXC\ 16
+p TX+ 19
+p TX- 18
+p VCC 20
+p VSS 10
+p MODE2 2
+*package PQ8003 b
+@types 1
+g 34 
+@pinout
+t DIP40X
+g 34
+p A2 39
+p A1 1
+p A0 2
+p \TXC\ 14
+p \TXWR\ 15
+p \RXRD\ 18
+p RXD 21
+p CSN 22
+p \RESET\ 23
+p COLL 24
+p RXC 27
+p \WR\ 36
+p \RD\ 37
+p \CS\ 38
+p TXEN 3
+p TXD 4
+p TXRET 5
+p TXRDY 16
+p RXRDY 19
+p INT 25
+p RXDC 26
+p RXTXD7 13
+p RXTXD6 12
+p RXTXD5 11
+p RXTXD4 10
+p RXTXD3 9
+p RXTXD2 8
+p RXTXD1 7
+p RXTXD0 6
+p RXTXEOF 17
+p CDST7 28
+p CDST6 29
+p CDST5 30
+p CDST3 32
+p CDST2 33
+p CDST4 31
+p CDST1 34
+p CDST0 35
+p VSS 20
+p VCC 40
+*package PQ8020 b
+@types 1
+g 1 
+@pinout
+t DIP20
+g 1
+p MODE1 1
+p \LPBK\/WDTD 3
+p RX+ 4
+p RX- 5
+p TXD 17
+p TXEN 15
+p X1 14
+p X2 13
+p COLL+ 12
+p COLL- 11
+p CSN 6
+p COLL 7
+p RXC 8
+p RXD 9
+p \TXC\ 16
+p TX+ 19
+p TX- 18
+p VCC 20
+p VSS 10
+p GND 2
+*package PQ8023A
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p MODE1 1
+p \LPBK\/WDTD 3
+p RX+ 4
+p RX- 5
+p TXD 17
+p TXEN 15
+p X1 14
+p X2 13
+p COLL+ 12
+p COLL- 11
+p CSN 6
+p COLL 7
+p RXC 8
+p RXD 9
+p \TXC\ 16
+p TX+ 19
+p TX- 18
+p VCC 20
+p VSS 10
+p MODE2 2

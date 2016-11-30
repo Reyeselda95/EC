@@ -1,0 +1,87 @@
+# Part Mapping file for PADS PCB Package
+
+# Copyright 1992,1993,1994 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+# Capacitors
+# Default mapping is to 0.3" axial package
+CK06                       C
+CK62                  ako  CK06
+CM04                  ako  CK06
+CM05                  ako  CK06
+CM06                  ako  CK06
+DSKCAP1               ako  CK06
+DSKCAP2               ako  CK06
+CC0805                ako  CK06
+CC1005                ako  CK06
+CC1206                ako  CK06
+CC1210                ako  CK06
+CC1505                ako  CK06
+CC1805                ako  CK06
+CC1808                ako  CK06
+CC1812                ako  CK06
+CC1825                ako  CK06
+#
+# The following capacitors are polarized capacitors
+#
+CASE-A                ako  CK06
+CASE-AA               ako  CK06
+CASE-B                ako  CK06
+CASE-BB               ako  CK06
+CASE-C                ako  CK06
+CASE-CC               ako  CK06
+CASE-D                ako  CK06
+CASE-EE               ako  CK06
+CC3216                ako  CK06
+CC3528                ako  CK06
+CC6032                ako  CK06
+CC7243                ako  CK06
+
+
+# Inductors
+# Default mapping is to 0.5" molded
+INDUCTOR                   L
+IND-A                 ako  INDUCTOR
+IND-B                 ako  INDUCTOR
+
+# Resistors
+RC07                           R
+RC05                  ako    RC07
+RC20                  ako    RC07
+RC32                  ako    RC07
+RC42                  ako    RC07
+RC0805                ako    RC07
+RC1206                ako    RC07
+RC1210                ako    RC07
+MELF                  ako    RC07
+MLL34                 ako    RC07
+MLL41                 ako    RC07
+
+#DB Connectors
+DB9P                         DB9
+DB9S                         DB9
+DB9PA                        DB9
+DB9SA                        DB9
+DB9PR                        DB9
+DB9SR                        DB9
+DB9PRA                       DB9
+DB9SRA                       DB9
+DB25P                        DB25
+DB25S                        DB25
+DB25PA                       DB25
+DB25SA                       DB25
+DB25PR                       DB25
+DB25SR                       DB25
+DB25PRA                      DB25
+DB25SRA                      DB25
+
+# Potentiometers
+TRMPOT                       POT
+
+# Default rule
+DEFAULT
+
+
+
+

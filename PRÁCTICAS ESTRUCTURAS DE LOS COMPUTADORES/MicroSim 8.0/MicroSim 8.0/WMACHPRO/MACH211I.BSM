@@ -1,0 +1,130 @@
+-- Advanced Micro Devices MACH211 44 Pin PLCC/TQFP BSDL description
+--
+-- Written By: Martha Chan
+-- Date      : October 12, 1995
+-- Version   : 1.0
+--
+-- ****************************************************************
+-- *  Copywrite 1995 Advanced Micro Devices                       *
+-- *  All rights reserved.  No part of this program or publication*
+-- *  may be reproduced, transmitted, transcribed, stored in a    *
+-- *  retrieval system, or translated into any language or        *
+-- *  computer language, in any form or by any means without this *
+-- *  notice appearing within.                                    *
+-- *  One AMD Place Sunnyvale, CA 94086                           *
+-- ****************************************************************
+-- *  Advanced Micro Devices makes no warranty for the use of this*
+-- *  product and assumes no responsibility for any errors which  *
+-- *  may appear within.  Neither does it make a committment to   *
+-- *  update this information.                                    *
+-- ****************************************************************
+-- *  This is the template BSDL file for the MACH211 to be used   *
+-- *  for the purpose of verifying the parts compliance with the  *
+-- *  IEEE standard 1149.1-1990.  The BSDL languange is not at    *
+-- *  this time a standard and IEEE holds no opinion on it or its *
+-- *  use.  It has been submitted as a proposed addition to the   *
+-- *  standard and should be voted on by the working committee    *
+-- *  this year.                                                  *
+-- ****************************************************************
+--
+--  This file has NOT yet been verified by:
+--     Teradyne VICTORY v 2.10
+--         - Syntax Check using BSA
+--         - Test vector generation using BSA
+--
+--     Hewlett-Packard Boundary-Scan Software
+--         - Syntax Check
+--
+--     Genrad Boundary-Scan Software
+--         - Syntax Check
+--         - Physical Verification
+--
+-- ****************************************************************
+
+entity AMD_MACH211i is
+
+        generic(PHYSICAL_PIN_MAP : string := "UNDEFINED");
+
+	port    (
+		DED_IN  : in    bit_vector(0 to 5);  --  Clocks/Inputs
+		IO              : inout bit_vector(0 to 63);  --  I/O pins
+
+		TCK, TMS, TDI, TRST: in  bit;   --  JTAG inputs
+		TDO             : out bit;      --  JTAG outputs
+		ENABLEB         : linkage bit;  --  Program Enable pin
+
+		VCC             : linkage bit_vector(0 to 7);
+		GND             : linkage bit_vector(0 to 15)
+		);
+
+	use STD_1149_1_1990.all;  -- get JTAG definitions and attributes
+
+        attribute PIN_MAP of AMD_MACH211i : entity is PHYSICAL_PIN_MAP;
+
+        constant PLCC_44pin :  PIN_MAP_STRING :=
+                "DED_IN:(11,33), " &  -- Dedicated Clock/Input Pins
+                "IO:(  2,  3,  4,  5,  6,  7,  8,  9, " &  --  I/O A
+                "     14, 15, 16, 17, 18, 19, 20, 21, " &  --  I/O B
+                "     24, 25, 26, 27, 28, 29, 30, 31, " &  --  I/O C
+                "     36, 37, 38, 39, 40, 41, 42, 43)," &  --  I/O D
+                " TDI:10, TMS:32, TCK:13, TDO:35,     " &  --  JTAG
+
+                "VCC:(22,44),    " &  --  POWER
+                "GND:(1,12,23,34)";   --  GROUND PINS/END OF PIN DEFINITION
+
+        constant TQFP_44pin :  PIN_MAP_STRING :=
+                "DED_IN:( 5,27), " &  -- Dedicated Clock/Input Pins
+                "IO:( 40, 41, 42, 43, 44,  1,  2,  3, " &  --  I/O A
+                "      8,  9, 10, 11, 12, 13, 14, 15, " &  --  I/O B
+                "     18, 19, 20, 21, 22, 23, 24, 25, " &  --  I/O C
+                "     30, 31, 32, 33, 34, 35, 36, 37)," &  --  I/O D
+                " TDI: 4, TMS:26, TCK: 7, TDO:29,     " &  --  JTAG
+
+                "VCC:(16,38),    " &  --  POWER
+                "GND:(6,17,28,39)";   --  GROUND PINS/END OF PIN DEFINITION
+
+        attribute TAP_SCAN_IN    of  TDI : signal is true;
+        attribute TAP_SCAN_MODE  of  TMS : signal is true;
+        attribute TAP_SCAN_OUT   of  TDO : signal is true;
+        attribute TAP_SCAN_CLOCK of  TCK : signal is (20.0e6, BOTH);
+
+--  Instruction register definitions
+
+        attribute INSTRUCTION_LENGTH of AMD_MACH211i : entity is 6;
+        attribute INSTRUCTION_OPCODE of AMD_MACH211i : entity is
+		"BYPASS    (111111)," &
+                "EXTEST    (000000)," &
+                "SAMPLE    (000010)," &
+		"IDCODE    (000001)," &
+                "PRIVATE   (000101,000110,000111,001000,000011,000100," &
+                           "001110,001101,001111,110000,100101,100110," &
+                           "100111,101110,110011,110010)";
+
+        attribute INSTRUCTION_CAPTURE of AMD_MACH211i : entity is "000001";
+        attribute INSTRUCTION_PRIVATE of AMD_MACH211i : entity is "PRIVATE";
+
+        attribute IDCODE_REGISTER of AMD_MACH211i : entity is
+		"0000" &                        -- version number
+                "0111000001011000" &            -- part identification
+		"00000000001" &                 -- company code
+		"1";                            -- mandatory 1
+
+        attribute REGISTER_ACCESS of AMD_MACH211i : entity is
+                "BYPASS (BYPASS)," &
+                "BOUNDARY (EXTEST,SAMPLE)";
+
+-- **************************************************************
+-- *    BOUNDARY SCAN CELL REGISTER DESCRIPTION
+-- *    MACH2xx-ISP parts do not have boundary scan cells.
+-- **************************************************************
+	
+        attribute BOUNDARY_CELLS of AMD_MACH211i  : entity is "BC_3";
+        attribute BOUNDARY_LENGTH of AMD_MACH211i : entity is 1;
+
+        attribute BOUNDARY_REGISTER of AMD_MACH211i: entity is
+
+        "   0 (BC_3,  *, INTERNAL, X         )";
+
+end AMD_MACH211i;
+
+

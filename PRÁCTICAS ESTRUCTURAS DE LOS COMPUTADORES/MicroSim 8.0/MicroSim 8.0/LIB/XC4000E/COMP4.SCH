@@ -1,0 +1,198 @@
+*version 6.3 2714969863
+u 163
+XC4000E 4118103939
+U? 6
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3132 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 164 IF_IN 240 350 h
+a 0 s 3 0 10 8 hln 80 LABEL=B1
+port 165 IF_IN 240 290 h
+a 0 s 3 0 10 8 hln 80 LABEL=B0
+port 166 IF_IN 240 330 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 167 IF_IN 240 270 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 168 IF_IN 240 390 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 169 IF_IN 240 450 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+port 170 IF_IN 240 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=B2
+port 171 IF_IN 240 470 h
+a 0 s 3 0 10 8 hln 80 LABEL=B3
+port 172 IF_OUT 830 370 h
+a 0 s 3 0 20 8 hln 80 LABEL=EQ
+@parts
+part 18 AND4 620 340 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U1
+a 0 sp 11 0 10 80 hlt 100 PART=AND4
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 XNOR2 360 450 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 40 hlt 100 PART=XNOR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 24 XNOR2 360 390 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 40 hlt 100 PART=XNOR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 25 XNOR2 360 330 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=XNOR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 26 XNOR2 360 270 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 40 hlt 100 PART=XNOR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+@conn
+w 28
+s 240 390 360 390 27
+a 0 s 3 0 250 390 hln 100 LABEL=A2
+w 36
+s 240 290 360 290 35
+a 0 s 3 0 250 290 hln 100 LABEL=B0
+w 44
+s 700 370 830 370 43
+a 0 s 3 0 800 370 hln 100 LABEL=EQ
+w 52
+s 240 270 360 270 51
+a 0 s 3 0 250 270 hln 100 LABEL=A0
+w 60
+s 240 330 360 330 59
+a 0 s 3 0 250 330 hln 100 LABEL=A1
+w 68
+s 240 350 360 350 67
+a 0 s 3 0 250 350 hln 100 LABEL=B1
+w 76
+s 240 410 360 410 75
+a 0 s 3 0 250 410 hln 100 LABEL=B2
+w 84
+s 240 450 360 450 83
+a 0 s 3 0 250 450 hln 100 LABEL=A3
+w 92
+s 240 470 360 470 91
+a 0 s 3 0 250 470 hln 100 LABEL=B3
+w 102
+s 440 280 590 280 99
+a 0 s 3 0 510 280 hln 100 LABEL=AB0
+s 590 340 590 280 100
+s 590 340 620 340 101
+w 118
+s 440 340 570 340 115
+a 0 s 3 0 510 340 hln 100 LABEL=AB1
+s 570 360 570 340 116
+s 570 360 620 360 117
+w 134
+s 440 400 570 400 131
+a 0 s 3 0 510 400 hln 100 LABEL=AB2
+s 570 400 570 380 132
+s 570 380 620 380 133
+w 150
+s 440 460 590 460 147
+a 0 s 3 0 510 460 hln 100 LABEL=AB3
+s 590 460 590 400 148
+s 590 400 620 400 149
+@junction
+j 360 390
++ p 24 I1
++ w 28
+j 360 290
++ p 26 I0
++ w 36
+j 700 370
++ p 18 O
++ w 44
+j 360 270
++ p 26 I1
++ w 52
+j 360 330
++ p 25 I1
++ w 60
+j 360 350
++ p 25 I0
++ w 68
+j 360 410
++ p 24 I0
++ w 76
+j 360 450
++ p 23 I1
++ w 84
+j 360 470
++ p 23 I0
++ w 92
+j 620 340
++ p 18 I3
++ w 102
+j 440 280
++ p 26 O
++ w 102
+j 620 360
++ p 18 I2
++ w 118
+j 440 340
++ p 25 O
++ w 118
+j 620 380
++ p 18 I1
++ w 134
+j 440 400
++ p 24 O
++ w 134
+j 620 400
++ p 18 I0
++ w 150
+j 440 460
++ p 23 O
++ w 150
+j 240 350
++ s 164
++ w 68
+j 240 290
++ s 165
++ w 36
+j 240 330
++ s 166
++ w 60
+j 240 270
++ s 167
++ w 52
+j 240 390
++ s 168
++ w 28
+j 240 450
++ s 169
++ w 84
+j 240 410
++ s 170
++ w 76
+j 240 470
++ s 171
++ w 92
+j 830 370
++ s 172
++ w 44
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 750 750 hln 100 XC4000E FAMILY COMP4 MACRO
+s 5 750 770 hln 100 4-BIT IDENTITY COMPARATOR
+s 5 710 800 hln 100 12TH JANUARY 1995
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A

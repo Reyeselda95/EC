@@ -1,0 +1,29 @@
+* D:\MSIM61\EXAMPLES\SA_ADC\SA_ADC.STL written by Stimulus Editor version 6.1 -- Tue Aug 09 11:43:36 1994
+;!Stimulus Get
+;! Convert Digital Clock Digital VIN Analog
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 10us
+;!Yrange 0 8
+;!AutoUniverse
+;!XminRes 1us
+;!YminRes 100m
+;!Ok
+.STIMULUS VIN PWL
++ TIME_SCALE_FACTOR = 1
++ VALUE_SCALE_FACTOR = 1
++   ( 0, 1 )
++   ( 5e-006, 1 )
++   ( 6e-006, 7.3 )
++   ( 1e-005, 7.3 )
+.STIMULUS Clock STIM (1, 1) ;! CLOCK 5M 0.5 0 0
++ 0s 0
++ LABEL=LOOP
++ +100ns 1
++ +100ns 0
++ +100ns GOTO LOOP -1 TIMES
+.STIMULUS Convert STIM (1, 1)
++ 0s 0
++ +1us 1
++ +4us 0
++ +1us 1

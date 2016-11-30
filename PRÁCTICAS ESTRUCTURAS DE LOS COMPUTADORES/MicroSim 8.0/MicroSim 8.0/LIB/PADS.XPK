@@ -1,0 +1,25 @@
+# Pads package maps
+
+# Copyright 1992,1993 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+CC20         -CC2200
+CC*          -CC
+
+TO3                  TO-3
+TO5                  TO-5
+TO18                 TO-18
+TO39                 TO-39
+TO46                 TO-46
+TO52                 TO-52
+TO66                 TO-66
+TO72                 TO-72
+TO92A                TO-92A
+TO92B                TO-92B
+TO126                TO-126
+TO220                TO-220
+
+DEFAULT
+
+

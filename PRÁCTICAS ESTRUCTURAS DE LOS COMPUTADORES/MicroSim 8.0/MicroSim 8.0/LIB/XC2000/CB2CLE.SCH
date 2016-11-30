@@ -1,0 +1,248 @@
+*version 6.3 194740862
+u 236
+XC2000 3290633709
+U? 6
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 3895 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 237 IF_IN 170 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=L
+port 238 IF_IN 170 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=CLR
+port 239 IF_IN 170 490 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 240 IF_IN 170 470 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 241 IF_IN 170 220 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 242 IF_IN 170 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 243 IF_OUT 910 260 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 244 IF_OUT 910 450 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+port 245 IF_OUT 910 570 h
+a 0 s 3 0 20 8 hln 80 LABEL=CEO
+port 246 IF_OUT 910 500 h
+a 0 s 3 0 20 8 hln 80 LABEL=TC
+@parts
+part 14 VCC 250 260 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U1
+a 0 sp 11 0 20 10 hcn 100 PART=VCC
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 FTCLE 370 220 h
+a 0 sp 9 0 80 150 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=FTCLE
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 24 FTCLE 370 410 h
+a 0 sp 9 0 80 150 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=FTCLE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 29 AND2 740 560 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 30 AND2 740 490 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+@conn
+w 32
+s 820 570 910 570 31
+a 0 s 3 0 870 570 hln 100 LABEL=CEO
+w 43
+s 170 490 270 490 39
+a 0 s 3 0 180 490 hln 100 LABEL=C
+s 270 490 370 490 40
+s 270 490 270 300 41
+s 270 300 370 300 42
+w 63
+s 170 520 250 520 59
+a 0 s 3 0 180 520 hln 100 LABEL=CLR
+s 250 520 370 520 60
+s 250 520 250 330 61
+s 250 330 370 330 62
+w 80
+s 250 260 370 260 79
+w 94
+s 170 220 370 220 93
+a 0 s 3 0 180 220 hln 100 LABEL=D0
+w 105
+s 580 450 910 450 101
+a 0 s 3 0 880 450 hln 100 LABEL=Q1
+s 490 450 580 450 102
+s 580 510 580 450 103
+s 580 510 740 510 104
+w 122
+s 170 410 370 410 121
+a 0 s 3 0 180 410 hln 100 LABEL=D1
+w 137
+s 560 260 910 260 129
+a 0 s 3 0 880 260 hln 100 LABEL=Q0
+s 560 360 560 260 132
+s 330 360 560 360 131
+s 490 260 560 260 133
+s 560 490 560 360 134
+s 560 490 740 490 135
+s 330 450 330 360 136
+s 330 450 370 450 130
+w 170
+s 840 500 910 500 164
+a 0 s 3 0 880 500 hln 100 LABEL=TC
+s 840 540 840 500 165
+s 820 500 840 500 166
+s 730 540 840 540 167
+s 730 560 730 540 169
+s 730 560 740 560 168
+w 191
+s 170 430 310 430 187
+a 0 s 3 0 180 430 hln 100 LABEL=L
+s 310 430 310 240 189
+s 310 240 370 240 188
+s 310 430 370 430 190
+w 214
+s 170 470 290 470 208
+a 0 s 3 0 180 470 hln 100 LABEL=CE
+s 290 470 290 280 209
+s 290 280 370 280 210
+s 290 470 370 470 211
+s 290 580 290 470 212
+s 290 580 740 580 213
+@junction
+j 820 570
++ p 29 O
++ w 32
+j 270 490
++ w 43
++ w 43
+j 370 300
++ p 23 C
++ w 43
+j 370 490
++ p 24 C
++ w 43
+j 250 520
++ w 63
++ w 63
+j 370 330
++ p 23 CLR
++ w 63
+j 370 520
++ p 24 CLR
++ w 63
+j 250 260
++ p 14 VCC
++ w 80
+j 370 260
++ p 23 T
++ w 80
+j 370 220
++ p 23 D
++ w 94
+j 580 450
++ w 105
++ w 105
+j 490 450
++ p 24 Q
++ w 105
+j 740 510
++ p 30 I0
++ w 105
+j 370 410
++ p 24 D
++ w 122
+j 560 260
++ w 137
++ w 137
+j 560 360
++ w 137
++ w 137
+j 490 260
++ p 23 Q
++ w 137
+j 370 450
++ p 24 T
++ w 137
+j 740 490
++ p 30 I1
++ w 137
+j 840 500
++ w 170
++ w 170
+j 740 560
++ p 29 I1
++ w 170
+j 820 500
++ p 30 O
++ w 170
+j 310 430
++ w 191
++ w 191
+j 370 240
++ p 23 L
++ w 191
+j 370 430
++ p 24 L
++ w 191
+j 290 470
++ w 214
++ w 214
+j 370 280
++ p 23 CE
++ w 214
+j 370 470
++ p 24 CE
++ w 214
+j 740 580
++ p 29 I0
++ w 214
+j 170 430
++ s 237
++ w 191
+j 170 520
++ s 238
++ w 63
+j 170 490
++ s 239
++ w 43
+j 170 470
++ s 240
++ w 214
+j 170 220
++ s 241
++ w 94
+j 170 410
++ s 242
++ w 122
+j 910 260
++ s 243
++ w 137
+j 910 450
++ s 244
++ w 105
+j 910 570
++ s 245
++ w 32
+j 910 500
++ s 246
++ w 170
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 740 780 hln 100 COUNTER W/ CLK ENABLE & ASYNC CLR
+s 5 750 750 hln 100 XC2000 FAMILY CB2CLE MACRO
+s 5 750 770 hln 100 2-BIT LOADABLE,CASCADABLE BINARY
+s 5 710 800 hln 100 25TH FEBRUARY 1993
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A

@@ -1,0 +1,58 @@
+"fb_read.c
+>Fd Inconsistent FB major1 revcode
+=[17000] The specified .fb file is from a previous major release (%d.X) - please recompile
+&VERSION_NUMBER
+*An attempt has been made to use a .FB file from a previous release of the
+*software. This file is not binary compatible from release to MAJOR release.
+*It will be necessary to recompile the .src file and run PLOpt to create a
+*new .FB file. 
+
+>F Inconsistent FB minor1 revcode
+=[17001] The specified .fb file is from a previous release - please recompile.
+&VERSION_NUMBER
+*An attempt has been made to use a .FB file from a previous release of the
+*software. This file is not binary compatible from the previous release. 
+*It will be necessary to recompile the .src file and run PLOpt to create a
+*new .FB file. 
+
+>Fdd FB maximum symbols mismatch -- rerun PLComp
+=[17002] FB maximum symbols mismatch -- %d (%d expected) -- rerun PLComp
+&*
+>Fdd FB maximum equations mismatch -- rerun PLComp
+=[17003] FB maximum equations mismatch -- %d (%d expected) -- rerun PLComp
+&*
+>Fs Can't find FB file in path
+=[17004] Can't find FB file %s in path
+&*
+>Fs Can't open AFB file
+=[17005] Can't open AFB file %s
+&*
+>Fs Can't open FB file
+=[17006] Can't open FB file %s
+&*
+>Ws read_fb_file - invalid option name
+=[17007] Property %s is an invalid property name -- property ignored
+&PROPNAME
+*When reading the FB, an invalid PI property was found. This property
+*will be ignored during the read. 
+
+"fb_util.c
+>F PLDesigner .FB files may not be used with PLEntry
+=[17008] PLDesigner .FB files may not be used with PLEntry
+&*
+>F PLEntry .FB files may not be used with PLDesigner
+=[17009] PLEntry .FB files may not be used with PLDesigner
+&*
+
+"fb_write.c
+>Fs write_fb_file - file open error
+=[17010] Can't open FB file '%s' for writing.
+&*
+
+"fbtlb_u.c
+>F errors in pi target verify
+=[17011] Errors found while verifying available devices.
+
+"fb_symb.c
+>Fd maximum symbols exceeded
+=[17012] Exceeded number of symbol for this product exceeded: %d

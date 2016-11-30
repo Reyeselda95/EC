@@ -1,0 +1,13 @@
+.UNITS mils
+.THRU_VIA .99
+.STRUCTURE
+microstrip
+.DIELECTRIC
+T=62 ER=4.6
+air
+.ENDS
+.SIGNAL
+L=23 H=62 T=1.2
+.ENDS
+.ENDS
+

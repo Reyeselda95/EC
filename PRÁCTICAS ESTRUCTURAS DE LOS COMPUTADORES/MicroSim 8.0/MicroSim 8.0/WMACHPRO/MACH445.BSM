@@ -1,0 +1,348 @@
+-- Advanced Micro Devices MACH445 100 Pin PQFP BSDL description
+--
+-- Written By:  Mark Moyer
+-- Date:  February 1, 1994
+-- Version 1.2
+--
+-- ****************************************************************
+-- *  Copywrite 1993, Advanced Micro Devices                      *
+-- *  All rights reserved.  No part of this program or publication*
+-- *  may be reproduced, transmitted, transcribed, stored in a    *
+-- *  retrieval system, or translated into any language or        *
+-- *  computer language, in any form or by any means without this *
+-- *  notice appearing within.                                    *
+-- *  5900 E. Ben White Blvd.,  Austin, Texas 78741               *
+-- ****************************************************************
+-- *  Advanced Micro Devices makes no warranty for the use of this*
+-- *  product and assumes no responsibility for any errors which  *
+-- *  may appear within.  Neither does it make a committment to   *
+-- *  update this information.                                    *
+-- ****************************************************************
+-- *  This is the template BSDL file for the MACH445 to be used   *
+-- *  for the purpose of verifying the parts compliance with the  *
+-- *  IEEE standard 1149.1-1990.  The BSDL languange is not at    *
+-- *  this time a standard and IEEE holds no opinion on it or its *
+-- *  use.  It has been submitted as a proposed addition to the   *
+-- *  standard and should be voted on by the working committee    *
+-- *  this year.                                                  *
+-- ****************************************************************
+--
+--  This file has been verified by:
+--     Teradyne VICTORY v 2.10
+--         - Syntax Check using BSA
+--         - Test vector generation using BSA
+--
+--     Hewlett-Packard Boundary-Scan Software
+--         - Syntax Check
+--
+--     Genrad Boundary-Scan Software
+--         - Syntax Check
+--         - Physical Verification
+--
+
+entity AMD_MACH445 is
+
+	generic(PHYSICAL_PIN_MAP : string := "PQFP_100pin");
+
+	port    (
+		DED_IN  : in    bit_vector(0 to 5);  --  Clocks/Inputs
+		IO              : inout bit_vector(0 to 63);  --  I/O pins
+
+		TCK, TMS, TDI, TRST: in  bit;   --  JTAG inputs
+		TDO             : out bit;      --  JTAG outputs
+		ENABLEB         : linkage bit;  --  Program Enable pin
+
+		VCC             : linkage bit_vector(0 to 7);
+		GND             : linkage bit_vector(0 to 15)
+		);
+
+	use STD_1149_1_1990.all;  -- get JTAG definitions and attributes
+
+	attribute PIN_MAP of AMD_MACH445 : entity is PHYSICAL_PIN_MAP;
+
+	constant PQFP_100pin :  PIN_MAP_STRING :=
+		"DED_IN:(13,18,54,63,68,4), " &  -- Dedicated Clock/Input Pins
+		"IO:(93,94,95,96,97,98,99,100,  " &  --  I/O A
+		"  5,  6,  7,  8,  9, 10, 11, 12, " &  --  I/O B REV
+		" 19, 20, 21, 22, 23, 24, 25, 26, " &  --  I/O C
+		" 31, 32, 33, 34, 35, 36, 37, 38, " &  --  I/O D REV
+		" 43, 44, 45, 46, 47, 48, 49, 50, " &  --  I/O E
+		" 55, 56, 57, 58, 59, 60, 61, 62, " &  --  I/O F REV
+		" 69, 70, 71, 72, 73, 74, 75, 76, " &  --  I/O G
+		" 81, 82, 83, 84, 85, 86, 87, 88)," &  --  I/O H REV
+		"ENABLEB:53, " & 
+		"TDI:3, TMS:27, TCK:28, TRST:77, TDO:78, " &  --  JTAG
+
+		"VCC:(14,15,39,42,64,65,89,92), " &  --  POWER
+		"GND:(1,2,16,17,29,30,40,41, " &  --  GROUND PINS
+		 "51,52,66,67,79,80,90,91)";  -- END OF PIN DEFINITION
+
+	attribute TAP_SCAN_IN   of TDI : signal is true;
+	attribute TAP_SCAN_MODE of TMS : signal is true;
+	attribute TAP_SCAN_OUT  of TDO : signal is true;
+	attribute TAP_SCAN_RESET of TRST : signal is true;
+	attribute TAP_SCAN_CLOCK of TCK: signal is (20.0e6, BOTH);
+
+--  Instruction register definitions
+
+	attribute INSTRUCTION_LENGTH of AMD_MACH445 : entity is 6;
+	attribute INSTRUCTION_OPCODE of AMD_MACH445 : entity is
+		"BYPASS    (111111)," &
+		"EXTEST    (000000)," &
+		"SAMPLE    (000010)," &
+		"IDCODE    (000001)," &
+		"USERCODE  (010000)," &
+		"HIGHZ     (010001)," &
+		"REG_PRE   (001010)," &
+		"REG_OBS   (001011)," &
+		"PRIVATE   (110011,110100,110000,110010,100101,101110," &
+	               "100111,101101,001100,001101,001110,000110," &
+                  "000101,000111,001000,001001,001111,000011,000100)";
+
+	attribute INSTRUCTION_CAPTURE of AMD_MACH445 : entity is "000001";
+	attribute INSTRUCTION_DISABLE of AMD_MACH445 : entity is "HIGHZ";
+	attribute INSTRUCTION_PRIVATE of AMD_MACH445 : entity is "PRIVATE";
+
+	attribute IDCODE_REGISTER of AMD_MACH445 : entity is 
+		"0000" &                        -- version number
+		"0111010101101000" &            -- part identification
+		"00000000001" &                 -- company code
+		"1";                            -- mandatory 1
+
+   attribute USERCODE_REGISTER of AMD_MACH445 : entity is
+       "11111111111111111111111111111111";
+
+	attribute REGISTER_ACCESS of AMD_MACH445 : entity is 
+		"BYPASS (BYPASS, HIGHZ)," &
+		"BOUNDARY (EXTEST, SAMPLE, REG_PRE,  REG_OBS)";
+
+-- **************************************************************
+-- *    BOUNDARY SCAN CELL REGISTER DESCRIPTION
+-- *            THE FIRST CELL (0) IS THE CELL CLOSEST TO TDO
+-- **************************************************************
+	
+	attribute BOUNDARY_CELLS of AMD_MACH445 : entity is "BC_1";
+	attribute BOUNDARY_LENGTH of AMD_MACH445 : entity is 198;
+
+	attribute BOUNDARY_REGISTER of AMD_MACH445 : entity is 
+
+	--  1.  The order of the I/O cell is OE - OUTPUT - INPUT
+	--  2.  The output is disabled when a 0 is shifted into the
+	--        OE cell.
+	--  3.  The pictoral representation of the Boundary scan 
+	--        register is found in AMD document no. 93-009-6105-JT-01.
+	--
+	--
+
+		" 197 (BC_1, IO(0), INPUT, X)," &  
+		" 196 (BC_1, IO(0), OUTPUT3, X, 195, 0, Z)," &
+		" 195 (BC_1,     *, CONTROL, 0)," & 
+		" 194 (BC_1, IO(1), INPUT, X)," &  
+		" 193 (BC_1, IO(1), OUTPUT3, X, 192, 0, Z)," &
+		" 192 (BC_1,     *, CONTROL, 0)," & 
+		" 191 (BC_1, IO(2), INPUT, X)," &  
+		" 190 (BC_1, IO(2), OUTPUT3, X, 189, 0, Z)," &
+		" 189 (BC_1,     *, CONTROL, 0)," & 
+		" 188 (BC_1, IO(3), INPUT, X)," &  
+		" 187 (BC_1, IO(3), OUTPUT3, X, 186, 0, Z)," &
+		" 186 (BC_1,     *, CONTROL, 0)," & 
+		" 185 (BC_1, IO(4), INPUT, X)," &  
+		" 184 (BC_1, IO(4), OUTPUT3, X, 183, 0, Z)," &
+		" 183 (BC_1,     *, CONTROL, 0)," & 
+		" 182 (BC_1, IO(5), INPUT, X)," &  
+		" 181 (BC_1, IO(5), OUTPUT3, X, 180, 0, Z)," &
+		" 180 (BC_1,     *, CONTROL, 0)," & 
+		" 179 (BC_1, IO(6), INPUT, X)," &  
+		" 178 (BC_1, IO(6), OUTPUT3, X, 177, 0, Z)," &
+		" 177 (BC_1,     *, CONTROL, 0)," & 
+		" 176 (BC_1, IO(7), INPUT, X)," &  
+		" 175 (BC_1, IO(7), OUTPUT3, X, 174, 0, Z)," &
+		" 174 (BC_1,     *, CONTROL, 0)," & 
+
+		" 173 (BC_1, IO(15), INPUT, X)," &  
+		" 172 (BC_1, IO(15), OUTPUT3, X, 171, 0, Z)," &
+		" 171 (BC_1,     *, CONTROL, 0)," & 
+		" 170 (BC_1, IO(14), INPUT, X)," &  
+		" 169 (BC_1, IO(14), OUTPUT3, X, 168, 0, Z)," &
+		" 168 (BC_1,     *, CONTROL, 0)," & 
+		" 167 (BC_1, IO(13), INPUT, X)," &  
+		" 166 (BC_1, IO(13), OUTPUT3, X, 165, 0, Z)," &
+		" 165 (BC_1,     *, CONTROL, 0)," & 
+		" 164 (BC_1, IO(12), INPUT, X)," &  
+		" 163 (BC_1, IO(12), OUTPUT3, X, 162, 0, Z)," &
+		" 162 (BC_1,     *, CONTROL, 0)," & 
+		" 161 (BC_1, IO(11), INPUT, X)," &  
+		" 160 (BC_1, IO(11), OUTPUT3, X, 159, 0, Z)," &
+		" 159 (BC_1,     *, CONTROL, 0)," & 
+		" 158 (BC_1, IO(10), INPUT, X)," &  
+		" 157 (BC_1, IO(10), OUTPUT3, X, 156, 0, Z)," &
+		" 156 (BC_1,     *, CONTROL, 0)," & 
+		" 155 (BC_1, IO(9), INPUT, X),"  &  
+		" 154 (BC_1, IO(9), OUTPUT3, X,  153, 0, Z)," &
+		" 153 (BC_1,     *, CONTROL, 0)," & 
+		" 152 (BC_1, IO(8), INPUT, X),"  &  
+		" 151 (BC_1, IO(8), OUTPUT3, X,  150, 0, Z)," &
+		" 150 (BC_1,     *, CONTROL, 0)," & 
+
+		" 149 (BC_1, DED_IN(0), INPUT, X)," &
+		" 148 (BC_1, DED_IN(1), INPUT, X)," &
+
+		" 147 (BC_1, IO(16), INPUT, X)," &
+		" 146 (BC_1, IO(16), OUTPUT3, X, 145, 0, Z)," &
+		" 145 (BC_1,     *, CONTROL, 0)," &
+		" 144 (BC_1, IO(17), INPUT, X)," &
+		" 143 (BC_1, IO(17), OUTPUT3, X, 142, 0, Z)," &
+		" 142 (BC_1,     *, CONTROL, 0)," &
+		" 141 (BC_1, IO(18), INPUT, X)," &
+		" 140 (BC_1, IO(18), OUTPUT3, X, 139, 0, Z)," &
+		" 139 (BC_1,     *, CONTROL, 0)," &
+		" 138 (BC_1, IO(19), INPUT, X)," &
+		" 137 (BC_1, IO(19), OUTPUT3, X, 136, 0, Z)," &
+		" 136 (BC_1,     *, CONTROL, 0)," &
+		" 135 (BC_1, IO(20), INPUT, X)," &
+		" 134 (BC_1, IO(20), OUTPUT3, X, 133, 0, Z)," &
+		" 133 (BC_1,     *, CONTROL, 0)," &
+		" 132 (BC_1, IO(21), INPUT, X)," &
+		" 131 (BC_1, IO(21), OUTPUT3, X, 130, 0, Z)," &
+		" 130 (BC_1,     *, CONTROL, 0)," &
+		" 129 (BC_1, IO(22), INPUT, X)," &
+		" 128 (BC_1, IO(22), OUTPUT3, X, 127, 0, Z)," &
+		" 127 (BC_1,     *, CONTROL, 0)," &
+		" 126 (BC_1, IO(23), INPUT, X)," &
+		" 125 (BC_1, IO(23), OUTPUT3, X, 124, 0, Z)," &
+		" 124 (BC_1,     *, CONTROL, 0)," &
+
+		" 123 (BC_1, IO(31), INPUT, X)," &              
+		" 122 (BC_1, IO(31), OUTPUT3, X, 121, 0, Z)," & 
+		" 121 (BC_1,     *, CONTROL, 0)," &             
+		" 120 (BC_1, IO(30), INPUT, X)," &              
+		" 119 (BC_1, IO(30), OUTPUT3, X, 118, 0, Z)," & 
+		" 118 (BC_1,     *, CONTROL, 0)," &             
+		" 117 (BC_1, IO(29), INPUT, X)," &              
+		" 116 (BC_1, IO(29), OUTPUT3, X, 115, 0, Z)," & 
+		" 115 (BC_1,     *, CONTROL, 0)," &             
+		" 114 (BC_1, IO(28), INPUT, X)," &              
+		" 113 (BC_1, IO(28), OUTPUT3, X, 112, 0, Z)," & 
+		" 112 (BC_1,     *, CONTROL, 0)," &             
+		" 111 (BC_1, IO(27), INPUT, X)," &              
+		" 110 (BC_1, IO(27), OUTPUT3, X, 109, 0, Z)," & 
+		" 109 (BC_1,     *, CONTROL, 0)," &             
+		" 108 (BC_1, IO(26), INPUT, X)," &              
+		" 107 (BC_1, IO(26), OUTPUT3, X, 106, 0, Z)," & 
+		" 106 (BC_1,     *, CONTROL, 0)," &             
+		" 105 (BC_1, IO(25), INPUT, X)," &              
+		" 104 (BC_1, IO(25), OUTPUT3, X, 103, 0, Z)," & 
+		" 103 (BC_1,     *, CONTROL, 0)," &             
+		" 102 (BC_1, IO(24), INPUT, X)," &              
+		" 101 (BC_1, IO(24), OUTPUT3, X, 100, 0, Z)," & 
+		" 100 (BC_1,     *, CONTROL, 0)," &             
+
+		"  99 (BC_1, DED_IN(2), INPUT, X)," &
+
+		"  98 (BC_1, IO(32), INPUT, X)," &
+		"  97 (BC_1, IO(32), OUTPUT3, X, 96, 0, Z)," &
+		"  96 (BC_1,     *, CONTROL, 0)," &
+		"  95 (BC_1, IO(33), INPUT, X)," &
+		"  94 (BC_1, IO(33), OUTPUT3, X, 93, 0, Z)," &
+		"  93 (BC_1,     *, CONTROL, 0)," &
+		"  92 (BC_1, IO(34), INPUT, X)," &
+		"  91 (BC_1, IO(34), OUTPUT3, X, 90, 0, Z)," &
+		"  90 (BC_1,     *, CONTROL, 0)," &
+		"  89 (BC_1, IO(35), INPUT, X)," &
+		"  88 (BC_1, IO(35), OUTPUT3, X, 87, 0, Z)," &
+		"  87 (BC_1,     *, CONTROL, 0)," &
+		"  86 (BC_1, IO(36), INPUT, X)," &
+		"  85 (BC_1, IO(36), OUTPUT3, X, 84, 0, Z)," &
+		"  84 (BC_1,     *, CONTROL, 0)," &
+		"  83 (BC_1, IO(37), INPUT, X)," &
+		"  82 (BC_1, IO(37), OUTPUT3, X, 81, 0, Z)," &
+		"  81 (BC_1,     *, CONTROL, 0)," &
+		"  80 (BC_1, IO(38), INPUT, X)," &
+		"  79 (BC_1, IO(38), OUTPUT3, X, 78, 0, Z)," &
+		"  78 (BC_1,     *, CONTROL, 0)," &
+		"  77 (BC_1, IO(39), INPUT, X)," &
+		"  76 (BC_1, IO(39), OUTPUT3, X, 75, 0, Z)," &
+		"  75 (BC_1,     *, CONTROL, 0)," &
+
+		"  74 (BC_1, IO(47), INPUT, X)," &
+		"  73 (BC_1, IO(47), OUTPUT3, X, 72, 0, Z)," &
+		"  72 (BC_1,     *, CONTROL, 0)," &
+		"  71 (BC_1, IO(46), INPUT, X)," &
+		"  70 (BC_1, IO(46), OUTPUT3, X, 69, 0, Z)," &
+		"  69 (BC_1,     *, CONTROL, 0)," &
+		"  68 (BC_1, IO(45), INPUT, X)," &
+		"  67 (BC_1, IO(45), OUTPUT3, X, 66, 0, Z)," &
+		"  66 (BC_1,     *, CONTROL, 0)," &
+		"  65 (BC_1, IO(44), INPUT, X)," &
+		"  64 (BC_1, IO(44), OUTPUT3, X, 63, 0, Z)," &
+		"  63 (BC_1,     *, CONTROL, 0)," &
+		"  62 (BC_1, IO(43), INPUT, X)," &
+		"  61 (BC_1, IO(43), OUTPUT3, X, 60, 0, Z)," &
+		"  60 (BC_1,     *, CONTROL, 0)," &
+		"  59 (BC_1, IO(42), INPUT, X)," &
+		"  58 (BC_1, IO(42), OUTPUT3, X, 57, 0, Z)," &
+		"  57 (BC_1,     *, CONTROL, 0)," &
+		"  56 (BC_1, IO(41), INPUT, X)," &
+		"  55 (BC_1, IO(41), OUTPUT3, X, 54, 0, Z)," &
+		"  54 (BC_1,     *, CONTROL, 0)," &
+		"  53 (BC_1, IO(40), INPUT, X)," &
+		"  52 (BC_1, IO(40), OUTPUT3, X, 51, 0, Z)," &
+		"  51 (BC_1,     *, CONTROL, 0)," &
+
+		"  50 (BC_1, DED_IN(3), INPUT, X)," &
+		"  49 (BC_1, DED_IN(4), INPUT, X)," &
+
+		"  48 (BC_1, IO(48), INPUT, X)," &
+		"  47 (BC_1, IO(48), OUTPUT3, X, 46, 0, Z)," &
+		"  46 (BC_1,     *, CONTROL, 0)," &
+		"  45 (BC_1, IO(49), INPUT, X)," &
+		"  44 (BC_1, IO(49), OUTPUT3, X, 43, 0, Z)," &
+		"  43 (BC_1,     *, CONTROL, 0)," &
+		"  42 (BC_1, IO(50), INPUT, X)," &
+		"  41 (BC_1, IO(50), OUTPUT3, X, 40, 0, Z)," &
+		"  40 (BC_1,     *, CONTROL, 0)," &
+		"  39 (BC_1, IO(51), INPUT, X)," &
+		"  38 (BC_1, IO(51), OUTPUT3, X, 37, 0, Z)," &
+		"  37 (BC_1,     *, CONTROL, 0)," &
+		"  36 (BC_1, IO(52), INPUT, X)," &
+		"  35 (BC_1, IO(52), OUTPUT3, X, 34, 0, Z)," &
+		"  34 (BC_1,     *, CONTROL, 0)," &
+		"  33 (BC_1, IO(53), INPUT, X)," &
+		"  32 (BC_1, IO(53), OUTPUT3, X, 31, 0, Z)," &
+		"  31 (BC_1,     *, CONTROL, 0)," &
+		"  30 (BC_1, IO(54), INPUT, X)," &
+		"  29 (BC_1, IO(54), OUTPUT3, X, 28, 0, Z)," &
+		"  28 (BC_1,     *, CONTROL, 0)," &
+		"  27 (BC_1, IO(55), INPUT, X)," &
+		"  26 (BC_1, IO(55), OUTPUT3, X, 25, 0, Z)," &
+		"  25 (BC_1,     *, CONTROL, 0)," &
+
+		"  24 (BC_1, IO(63), INPUT, X)," &
+		"  23 (BC_1, IO(63), OUTPUT3, X, 22, 0, Z)," &
+		"  22 (BC_1,     *, CONTROL, 0)," &
+		"  21 (BC_1, IO(62), INPUT, X)," &
+		"  20 (BC_1, IO(62), OUTPUT3, X, 19, 0, Z)," &
+		"  19 (BC_1,     *, CONTROL, 0)," &
+		"  18 (BC_1, IO(61), INPUT, X)," &
+		"  17 (BC_1, IO(61), OUTPUT3, X, 16, 0, Z)," &
+		"  16 (BC_1,     *, CONTROL, 0)," &
+		"  15 (BC_1, IO(60), INPUT, X)," &
+		"  14 (BC_1, IO(60), OUTPUT3, X, 13, 0, Z)," &
+		"  13 (BC_1,     *, CONTROL, 0)," &
+		"  12 (BC_1, IO(59), INPUT, X)," &
+		"  11 (BC_1, IO(59), OUTPUT3, X, 10, 0, Z)," &
+		"  10 (BC_1,     *, CONTROL, 0)," &
+		"   9 (BC_1, IO(58), INPUT, X)," &
+		"   8 (BC_1, IO(58), OUTPUT3, X, 7, 0, Z)," &
+		"   7 (BC_1,     *, CONTROL, 0)," &
+		"   6 (BC_1, IO(57), INPUT, X)," &
+		"   5 (BC_1, IO(57), OUTPUT3, X, 4, 0, Z)," &
+		"   4 (BC_1,     *, CONTROL, 0)," &
+		"   3 (BC_1, IO(56), INPUT, X)," &
+		"   2 (BC_1, IO(56), OUTPUT3, X, 1, 0, Z)," &
+		"   1 (BC_1,     *, CONTROL, 0)," &
+
+		"   0 (BC_1, DED_IN(5), INPUT, X)"; 
+
+end AMD_MACH445;
+

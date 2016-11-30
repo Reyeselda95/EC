@@ -1,0 +1,33 @@
+" the initial allocation of sterm space matches the number of pterms. We should not be able
+" to have more total sterms than total pterms. I.E. the maximum number of sterms would be
+" if every pterm was also an sterm
+>Fsd BadIndex
+=[56000] %s: Attempted access using an invalid index %d
+>Fd BadForm
+=[56001] select_form: Fatal error selecting default form for function Id %d
+>Fd BadRegForm
+=[56002] select_form: Fatal error selecting register form for function Id %d
+>Fd BadControlForm
+=[56003] select_form: Fatal error selecting control form for function Id %d
+>F BadSterm
+=[56004] compareSterms: Fatal error, pterms lists must be same size
+>F TooManySterms
+=[56005] add_sterm: Too many sterms, attempted to add more than the maximum number of sterms.
+>F RedundantStermFormXref
+=[56006] add_sterm: Fatal error, attempting to cross reference sterm <--> function more than once
+>F InvalidSterm
+=[56007] NodeView: Fatal error, Sterm contains a reference to an unused pterm
+>F BadCountModifier
+=[56008] get_count: Fatal error, invalid count modifier
+>Fsdd InvalidFunctionSet
+=[56009] %s: The size of the function set %d does not match the size of the global function list %d
+>Fdd InvalidPterm
+=[56010] get_pterms: An invalid pterm reference (pterm #%d) was found in sterm %d
+>F CantNewNodeView
+=[56011] CCIcircuit: Unable to allocate nodeview
+>F CantCircuit
+=[56012] CCIcircuit: Unable to allocate the circuit
+>Fsdd boundError
+=[56013] CCIcircuit: %s - passed arguement (%d) exceeds the bounds of this object (%d)
+>Es CCIptm generic error message
+=[56014] CCIptm: %s

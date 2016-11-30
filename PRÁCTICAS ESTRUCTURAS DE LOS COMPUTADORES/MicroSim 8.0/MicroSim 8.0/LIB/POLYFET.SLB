@@ -1,0 +1,835 @@
+*version 8.0 521058515
+@index
+symloc F1007/PF:poly-nmos 0 243
+symloc F1008/PF:poly-nmos 243 163
+symloc F1072/PF:poly-nmos 406 243
+symloc F1074/PF:poly-nmos 649 164
+symloc F2001/PF:poly-nmos 813 243
+symloc F2002/PF:poly-nmos 1056 243
+symloc F2012/PF:poly-nmos 1299 243
+symloc F1020/PF 1542 536
+symloc F2021/PF:poly-nmos 2078 243
+symloc F1027/PF 2321 536
+symloc F1021 2857 700
+symloc F1022 3557 700
+symloc F1120 4257 702
+symloc F1174 4959 702
+symloc F1240 5661 701
+symloc F1260 6362 701
+symloc F2201S 7063 703
+symloc F2202S 7766 703
+symloc L2081 8469 700
+symloc L2082 9169 700
+symloc L2083 9869 700
+symloc P123 10569 697
+symloc poly-nmos 11266 532 b
+symloc copyright 11798 575 b
+*symbol F1007/PF ako poly-nmos
+d RF n-channel MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=X?
+a 0 sp 11 0 4 42 hcn 100 PART=F1007/PF
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1007/PF
+*symbol F1008/PF ako poly-nmos
+d 40W N-Channel RF Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=F1008/PF
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1008/PF
+*symbol F1072/PF ako poly-nmos
+d RF n-channel MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=X?
+a 0 sp 11 0 2 42 hcn 100 PART=F1072/PF
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1072/PF
+*symbol F1074/PF ako poly-nmos
+d 100W N-Channel RF Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=F1074/PF
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1074/PF
+*symbol F2001/PF ako poly-nmos
+d RF n-channel MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=X?
+a 0 sp 11 0 2 42 hcn 100 PART=F2001/PF
+a 0 sp 0 0 10 40 hcn 100 MODEL=F2001/PF
+*symbol F2002/PF ako poly-nmos
+d RF n-channel MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=X?
+a 0 sp 11 0 4 42 hcn 100 PART=F2002/PF
+a 0 sp 0 0 10 40 hcn 100 MODEL=F2002/PF
+*symbol F2012/PF ako poly-nmos
+d RF n-channel MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=X?
+a 0 sp 11 0 2 42 hcn 100 PART=F2012/PF
+a 0 sp 0 0 10 40 hcn 100 MODEL=F2012/PF
+*symbol F1020/PF
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=X?
+a 0 sp 11 0 4 40 hcn 100 PART=F1020/PF
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1020/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol F2021/PF ako poly-nmos
+d RF n-channel MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=X?
+a 0 sp 11 0 4 42 hcn 100 PART=F2021/PF
+a 0 sp 0 0 10 40 hcn 100 MODEL=F2021/PF
+*symbol F1027/PF
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=X?
+a 0 sp 11 0 4 40 hcn 100 PART=F1027/PF
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1027/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol F1021
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=F1021
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1021/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 1 0 31 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 1 0 1 18 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 1 0 31 -2 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol F1022
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=F1022
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1022/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 1 0 31 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 1 0 1 18 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 1 0 31 -2 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol F1120
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=F1120
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1120/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 1 0 25 42 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol F1174
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=F1174
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1174/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 1 0 25 42 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol F1240
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=F1240
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1240/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 0 0 31 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol F1260
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=F1260
+a 0 sp 0 0 10 40 hcn 100 MODEL=F1260/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 0 0 31 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol F2201S
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=F2201S
+a 0 sp 0 0 10 40 hcn 100 MODEL=F2201S/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 0 0 31 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 0 0 1 18 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 0 0 31 -2 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol F2202S
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=F2202S
+a 0 sp 0 0 10 40 hcn 100 MODEL=F2202S/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 0 0 31 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 0 0 1 18 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 0 0 31 -2 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol L2081
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=L2081
+a 0 sp 0 0 10 40 hcn 100 MODEL=L2081/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 0 0 31 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 0 0 1 18 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 0 0 31 -2 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol L2082
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=L2082
+a 0 sp 0 0 10 40 hcn 100 MODEL=L2082/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 0 0 31 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 0 0 1 18 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 0 0 31 -2 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol L2083
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=L2083
+a 0 sp 0 0 10 40 hcn 100 MODEL=L2083/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 0 0 31 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 0 0 1 18 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 0 0 31 -2 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol P123
+d Silicon RF Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 4 40 hcn 100 PART=P123
+a 0 sp 0 0 10 40 hcn 100 MODEL=P123/PF
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+a 0 u 0 0 31 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 g n 0 20 h
+a 0 u 0 0 1 18 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 0 0 31 -2 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol poly-nmos b
+d Polyfet n-channel mosfet device
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 REFDES=X?
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1996, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

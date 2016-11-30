@@ -1,0 +1,319 @@
+*version 6.3 226890855
+u 305
+XC4000 2509670567
+U? 5
+@libraries
+XC4000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 4644 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 306 IF_OUT 710 160 h
+a 0 s 3 0 20 8 hln 80 LABEL=O0
+port 307 IF_OUT 710 340 h
+a 0 s 3 0 20 8 hln 80 LABEL=O1
+port 308 IF_OUT 710 520 h
+a 0 s 3 0 20 8 hln 80 LABEL=O2
+port 309 IF_IN 150 160 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 310 IF_IN 150 340 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 311 IF_IN 150 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=D2
+port 312 IF_IN 150 720 h
+a 0 s 3 0 10 8 hln 80 LABEL=WE
+port 313 IF_IN 150 800 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+port 314 IF_IN 150 780 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 315 IF_IN 150 760 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 316 IF_IN 150 740 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 317 IF_IN 150 700 h
+a 0 s 3 0 10 8 hln 80 LABEL=D3
+port 318 IF_OUT 710 700 h
+a 0 s 3 0 20 8 hln 80 LABEL=O3
+@parts
+part 20 RAM16X1 370 700 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=RAM16X1
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 21 RAM16X1 370 340 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=RAM16X1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 22 RAM16X1 370 160 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=RAM16X1
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 23 RAM16X1 370 520 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U4
+a 0 sp 11 0 60 20 hcn 200 PART=RAM16X1
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 25
+s 150 700 370 700 24
+a 0 s 3 0 160 700 hln 100 LABEL=D3
+w 40
+s 150 800 340 800 32
+a 0 s 3 0 160 800 hln 100 LABEL=A3
+s 340 440 340 260 34
+s 340 260 370 260 33
+s 340 440 370 440 35
+s 340 620 340 440 36
+s 340 800 370 800 37
+s 340 800 340 620 38
+s 340 620 370 620 39
+w 83
+s 150 780 320 780 75
+a 0 s 3 0 160 780 hln 100 LABEL=A2
+s 320 780 370 780 80
+s 320 780 320 600 81
+s 320 420 370 420 76
+s 320 420 320 240 78
+s 320 240 370 240 77
+s 320 600 320 420 79
+s 320 600 370 600 82
+w 127
+s 150 760 300 760 119
+a 0 s 3 0 160 760 hln 100 LABEL=A1
+s 300 760 370 760 124
+s 300 760 300 580 125
+s 300 400 370 400 120
+s 300 400 300 220 122
+s 300 220 370 220 121
+s 300 580 300 400 123
+s 300 580 370 580 126
+w 171
+s 150 740 280 740 163
+a 0 s 3 0 160 740 hln 100 LABEL=A0
+s 280 380 280 200 166
+s 280 380 370 380 164
+s 280 200 370 200 165
+s 280 560 280 380 167
+s 280 740 370 740 168
+s 280 740 280 560 169
+s 280 560 370 560 170
+w 215
+s 150 720 260 720 207
+a 0 s 3 0 160 720 hln 100 LABEL=WE
+s 260 180 370 180 208
+s 260 360 260 180 209
+s 260 720 370 720 210
+s 260 720 260 540 211
+s 260 540 370 540 212
+s 260 540 260 360 213
+s 260 360 370 360 214
+w 250
+s 150 340 370 340 249
+a 0 s 3 0 160 340 hln 100 LABEL=D1
+w 258
+s 490 520 710 520 257
+a 0 s 3 0 680 520 hln 100 LABEL=O2
+w 266
+s 490 700 710 700 265
+a 0 s 3 0 680 700 hln 100 LABEL=O3
+w 274
+s 490 340 710 340 273
+a 0 s 3 0 680 340 hln 100 LABEL=O1
+w 282
+s 150 160 370 160 281
+a 0 s 3 0 160 160 hln 100 LABEL=D0
+w 290
+s 490 160 710 160 289
+a 0 s 3 0 680 160 hln 100 LABEL=O0
+w 298
+s 150 520 370 520 297
+a 0 s 3 0 160 520 hln 100 LABEL=D2
+@junction
+j 370 700
++ p 20 D
++ w 25
+j 340 800
++ w 40
++ w 40
+j 340 440
++ w 40
++ w 40
+j 340 620
++ w 40
++ w 40
+j 370 800
++ p 20 A3
++ w 40
+j 370 440
++ p 21 A3
++ w 40
+j 370 260
++ p 22 A3
++ w 40
+j 370 620
++ p 23 A3
++ w 40
+j 320 780
++ w 83
++ w 83
+j 320 600
++ w 83
++ w 83
+j 320 420
++ w 83
++ w 83
+j 370 780
++ p 20 A2
++ w 83
+j 370 420
++ p 21 A2
++ w 83
+j 370 240
++ p 22 A2
++ w 83
+j 370 600
++ p 23 A2
++ w 83
+j 300 760
++ w 127
++ w 127
+j 300 580
++ w 127
++ w 127
+j 300 400
++ w 127
++ w 127
+j 370 760
++ p 20 A1
++ w 127
+j 370 400
++ p 21 A1
++ w 127
+j 370 220
++ p 22 A1
++ w 127
+j 370 580
++ p 23 A1
++ w 127
+j 280 740
++ w 171
++ w 171
+j 280 380
++ w 171
++ w 171
+j 280 560
++ w 171
++ w 171
+j 370 740
++ p 20 A0
++ w 171
+j 370 380
++ p 21 A0
++ w 171
+j 370 200
++ p 22 A0
++ w 171
+j 370 560
++ p 23 A0
++ w 171
+j 260 720
++ w 215
++ w 215
+j 260 360
++ w 215
++ w 215
+j 260 540
++ w 215
++ w 215
+j 370 720
++ p 20 WE
++ w 215
+j 370 360
++ p 21 WE
++ w 215
+j 370 180
++ p 22 WE
++ w 215
+j 370 540
++ p 23 WE
++ w 215
+j 370 340
++ p 21 D
++ w 250
+j 490 520
++ p 23 O
++ w 258
+j 490 700
++ p 20 O
++ w 266
+j 490 340
++ p 21 O
++ w 274
+j 370 160
++ p 22 D
++ w 282
+j 490 160
++ p 22 O
++ w 290
+j 370 520
++ p 23 D
++ w 298
+j 710 160
++ s 306
++ w 290
+j 710 340
++ s 307
++ w 274
+j 710 520
++ s 308
++ w 258
+j 150 160
++ s 309
++ w 282
+j 150 340
++ s 310
++ w 250
+j 150 520
++ s 311
++ w 298
+j 150 720
++ s 312
++ w 215
+j 150 800
++ s 313
++ w 40
+j 150 780
++ s 314
++ w 83
+j 150 760
++ s 315
++ w 127
+j 150 740
++ s 316
++ w 171
+j 150 700
++ s 317
++ w 25
+j 710 700
++ s 318
++ w 266
+@attributes
+@text
+s 5 30 1060 hln 100 DRAWN BY KS
+s 5 30 1070 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 460 1050 hln 100 9TH MARCH 1993
+s 5 700 1050 hln 100 1
+s 5 700 1070 hln 100 A
+s 5 500 1000 hln 100 XC4000 FAMILY RAM16X4 MACRO
+s 5 500 1020 hln 100 16-DEEP BY 4-WIDE STATIC RAM

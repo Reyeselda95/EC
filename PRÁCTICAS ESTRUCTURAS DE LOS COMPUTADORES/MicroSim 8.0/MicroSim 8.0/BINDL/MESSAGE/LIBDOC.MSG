@@ -1,0 +1,25 @@
+>Fs No equation for onset or offset
+=[13000] Symbol %s has neither an ONSET or an OFFSET equation
+&*
+
+>Wss Name conflict in rename
+=[13001] Signal '%s' was not renamed due to a conflict with signal '%s'
+*The period character is not a valid symbol in the HDL. Internally generated
+*names may contain periods however. In attempting to recreate a .src file, 
+*all periods are converted to underscores. In this design, renaming the 
+*signal caused a conflict with an existing signal name. For this reason, 
+*the signal was NOT renamed. 
+
+>Ws Name conflict in renaming array
+=[13002] Array '%s' was not renamed since an element clashes with another symbol name
+*The period character is not a valid symbol in the HDL. Internally generated
+*names may contain periods however. In attempting to recreate a .src file, 
+*all periods are converted to underscores. In this design, renaming the 
+*specified array caused a conflict between one of the array elements and an 
+*existing signal name.  For this reason, the array was NOT renamed. 
+
+>Fs Can't open library file in doc
+=[13003] File %s not found in path for reading
+>F Library file revision changed
+=[13004] There is a new version of the device library, please rerun partitioning.
+&*

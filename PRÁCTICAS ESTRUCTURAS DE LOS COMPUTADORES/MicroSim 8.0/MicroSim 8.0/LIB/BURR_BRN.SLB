@@ -1,0 +1,4693 @@
+*version 8.0 109991695
+@index
+symloc ACF2101M/BB 0 1901
+symloc BUF600X1/BB:600/BB 1901 167
+symloc BUF600X2/BB:600/BB 2068 167
+symloc BUF601X1/BB:600/BB 2235 167
+symloc BUF601X2/BB:600/BB 2402 167
+symloc BUF634X/BB 2569 943
+symloc INA101/BB 3512 1623
+symloc INA101E/BB,INA101/BB-E:INA101/BB 5135 313
+symloc INA102/BB 5448 1379
+symloc INA102E/BB,INA102/BB-E:INA102/BB 6827 187
+symloc INA103/BB 7014 1393
+symloc INA103E/BB,INA103/BB-E:INA103/BB 8407 319
+symloc INA105/BB 8726 1112
+symloc INA105E/BB,INA105/BB-E:INA105/BB 9838 228
+symloc INA106/BB:INA105/BB 10066 180
+symloc INA106E/BB,INA106/BB-E:INA106/BB 10246 195
+symloc INA110/BB 10441 1371
+symloc INA110E/BB,INA110/BB-E:INA110/BB 11812 295
+symloc INA111/BB,INA111AP,INA111BP 12107 1390
+symloc INA111E/BB:INA111/BB 13497 186
+symloc INA114/BB 13683 1516
+symloc INA114E/BB:INA114/BB 15199 227
+symloc INA115/BB 15426 1954
+symloc INA115E/BB:INA115/BB 17380 173
+symloc INA117/BB 17553 1287
+symloc INA117E/BB,INA117/BB-E:INA117/BB 18840 220
+symloc INA118/BB:118/BB 19060 304
+symloc INA118E/BB:118/BB 19364 307
+symloc INA120/BB 19671 2599
+symloc INA120E/BB,INA120/BB-E:INA120/BB 22270 186
+symloc INA131/BB,INA131AP,INA131BP 22456 1388
+symloc INA131E/BB:INA131/BB 23844 179
+symloc ISO120X/BB 24023 2203
+symloc ISO121X/BB 26226 2594
+symloc ISO130X/BB 28820 1334
+symloc MPC100X1/BB 30154 1763
+symloc MPC100X2/BB:MPC100X1/BB 31917 165
+symloc MPC102X1/BB 32082 1718
+symloc MPC104X1/BB 33800 1098
+symloc OPA1013/BB:1013/BB 34898 167
+symloc OPA1013E/BB,OPA1013/BB-E:1013/BB 35065 183
+symloc OPA111/BB:111/BB 35248 150
+symloc OPA111E/BB,OPA111/BB-E:111/BB 35398 165
+symloc OPA121/BB:111/BB 35563 150
+symloc OPA121E/BB,OPA121/BB-E:111/BB 35713 165
+symloc OPA124/BB 35878 976
+symloc OPA124E/BB:OPA124/BB 36854 185
+symloc OPA128/BB:111/BB 37039 150
+symloc OPA128E/BB,OPA128/BB-E:111/BB 37189 165
+symloc OPA129/BB 37354 1145
+symloc OPA129E/BB:OPA129/BB 38499 190
+symloc OPA131/BB 38689 1294
+symloc OPA131E/BB 39983 1297
+symloc OPA177/BB:27/BB 41280 149
+symloc OPA177E/BB,OPA177/BB-E:27/BB 41429 164
+symloc OPA2107/BB:1013/BB 41593 154
+symloc OPA2107E/BB,OPA2107/BB-E:1013/BB 41747 170
+symloc OPA2111/BB:1013/BB 41917 154
+symloc OPA2111E/BB,OPA2111/BB-E:1013/BB 42071 170
+symloc OPA2131/BB:1013/BB 42241 185
+symloc OPA2131E/BB:1013/BB 42426 256
+symloc OPA2541/BB:2541/BB 42682 154
+symloc OPA2541E/BB,OPA2541/BB-E:2541/BB 42836 170
+symloc OPA2604/BB:1013/BB 43006 154
+symloc OPA2604E/BB,OPA2604/BB-E:1013/BB 43160 170
+symloc OPA2604M/BB:1013/BB 43330 201
+symloc OPA2658X/BB:1013/BB 43531 267
+symloc OPA27/BB:27/BB 43798 146
+symloc OPA27E/BB,OPA27/BB-E:27/BB 43944 159
+symloc OPA27M/BB:27/BB 44103 148
+symloc OPA37/BB:27/BB 44251 145
+symloc OPA37E/BB,OPA37/BB-E:27/BB 44396 160
+symloc OPA404/BB:404/BB 44556 163
+symloc OPA404E/BB,OPA404/BB-E:404/BB 44719 178
+symloc OPA4131/BB:4131/BB 44897 186
+symloc OPA4131E/BB:4131/BB 45083 189
+symloc OPA445/BB:445/BB 45272 150
+symloc OPA445E/BB,OPA445/BB-E:445/BB 45422 165
+symloc OPA4658X/BB:4131/BB 45587 204
+symloc OPA501/BB:501/BB 45791 150
+symloc OPA501E/BB,OPA501/BB-E:501/BB 45941 165
+symloc OPA502/BB:502/BB 46106 193
+symloc OPA502E/BB:502/BB 46299 196
+symloc OPA511/BB:501/BB 46495 150
+symloc OPA511E/BB,OPA511/BB-E:501/BB 46645 165
+symloc OPA512/BB:512/BB 46810 150
+symloc OPA512E/BB,OPA512/BB-E:512/BB 46960 165
+symloc OPA541/BB:541/BB 47125 150
+symloc OPA541E/BB,OPA541/BB-E:541/BB 47275 165
+symloc OPA602/BB:445/BB 47440 150
+symloc OPA602E/BB,OPA602/BB-E:445/BB 47590 165
+symloc OPA603X/BB,OPA603/BB-X:603/BB 47755 165
+symloc OPA604/BB:445/BB 47920 193
+symloc OPA604E/BB:445/BB 48113 196
+symloc OPA604M/BB:445/BB 48309 196
+symloc OPA606/BB:445/BB 48505 150
+symloc OPA606E/BB,OPA606/BB-E:445/BB 48655 165
+symloc OPA620/BB:620/BB 48820 163
+symloc OPA620E/BB,OPA620/BB-E:620/BB 48983 178
+symloc OPA620X/BB,OPA620/BB-X:620/BB 49161 178
+symloc OPA621/BB:620/BB 49339 163
+symloc OPA621E/BB,OPA621/BB-E:620/BB 49502 178
+symloc OPA621X/BB,OPA621/BB-X:620/BB 49680 178
+symloc OPA622X1/BB:622/BB 49858 313
+symloc OPA622X2/BB:622/BB 50171 313
+symloc OPA623X1/BB:623/BB 50484 281
+symloc OPA623X2/BB:623/BB 50765 281
+symloc OPA627/BB:111/BB 51046 150
+symloc OPA627E/BB,OPA627/BB-E:111/BB 51196 165
+symloc OPA628M/BB 51361 1226
+symloc OPA637/BB:111/BB 52587 150
+symloc OPA637E/BB,OPA637/BB-E:111/BB 52737 165
+symloc OPA640X/BB 52902 1260
+symloc OPA641X/BB 54162 1310
+symloc OPA642X/BB:OPA640X/BB 55472 184
+symloc OPA643X/BB:OPA640X/BB 55656 184
+symloc OPA644X/BB:OPA640X/BB 55840 192
+symloc OPA646X/BB:OPA640X/BB 56032 186
+symloc OPA648X/BB 56218 1024
+symloc OPA650X/BB 57242 1029
+symloc OPA658X/BB:OPA650X/BB 58271 342
+symloc OPA660X1/BB:660/BB 58613 296
+symloc OPA660X2/BB:660/BB 58909 296
+symloc OPA671M/BB:445/BB 59205 153
+symloc OPA675M/BB 59358 1909
+symloc OPA676M/BB 61267 1965
+symloc OPA77/BB:27/BB 63232 188
+symloc OPA77E/BB:27/BB 63420 191
+symloc OPT101/BB 63611 974
+symloc OPT201KP/BB 64585 961
+symloc OPT202/BB:202/BB 65546 316
+symloc OPT202_SIP5/BB 65862 1019
+symloc OPT209/BB:202/BB 66881 316
+symloc OPT211/BB 67197 974
+symloc UAF42/BB:42/BB 68171 154
+symloc UAF42E/BB,UAF42/BB-E:42E/BB 68325 167
+symloc VCA610M/BB 68492 1234
+symloc 1013/BB 69726 942 b
+symloc 111/BB 70668 1402 b
+symloc 118/BB 72070 1278 b
+symloc 202/BB 73348 1037 b
+symloc 2541/BB 74385 942 b
+symloc 27/BB 75327 1238 b
+symloc 404/BB 76565 942 b
+symloc 4131/BB 77507 946 b
+symloc 42/BB 78453 2031 b
+symloc 42E/BB 80484 2032 b
+symloc 445/BB 82516 1239 b
+symloc 501/BB 83755 1241 b
+symloc 502/BB 84996 1403 b
+symloc 512/BB 86399 1403 b
+symloc 541/BB 87802 1085 b
+symloc 600/BB 88887 795 b
+symloc 603/BB 89682 928 b
+symloc 620/BB 90610 928 b
+symloc 622/BB 91538 1641 b
+symloc 623/BB 93179 800 b
+symloc 660/BB 93979 1532 b
+symloc copyright 95511 575 b
+symloc INA111AU,INA111BU 96086 1452
+symloc INA114AP,INA114BP,INA114BG,INA114AG 97538 1327
+symloc INA131AU,INA131BU 98865 1452
+symloc OPA130/BB 100317 1267
+symloc OPA132/BB 101584 1258
+symloc OPA2544/BB 102842 958
+symloc OPA2650/BB 103800 964
+symloc OPA651/BB 104764 964
+symloc OPA655/BB 105728 1260
+symloc OPA2662/BB 106988 1616
+symloc OPA544/BB 108604 950
+*symbol ACF2101M/BB
+d Switched Integrator
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 48 110 hln 100 PART=ACF2101M/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=ACF2101M/BB
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %Com %SwIn %In %Cap %Out %SwOut %SwCom %Reset %Hold %Sel %V+ %V- %Gnd @MODEL
+@pins
+p 2 13 22 hln 100 COM n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 32 hln 100 SWIN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=6
+a 0 u 0 0 0 32 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 42 hln 100 IN n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=5
+a 0 u 0 0 0 42 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 CAP n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 -2 52 hln 100 ERC=i
+p 2 13 62 hln 100 RESET n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=21
+a 0 u 0 0 -2 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 72 hln 100 HOLD n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=20
+a 0 u 0 0 -2 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 82 hln 100 SEL n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=22
+a 0 u 0 0 -2 82 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 12 98 hln 100 GND n 20 110 v
+a 0 u 1 0 15 112 hcn 100 pin=2
+a 0 u 0 0 30 116 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 34 98 hln 100 V- n 40 110 v
+a 0 u 1 0 35 112 hcn 100 pin=18
+a 0 u 0 0 40 112 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 42 hrn 100 OUT n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=1
+a 0 u 0 0 82 36 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 72 hrn 100 SWOUT n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=24
+a 0 u 0 0 82 62 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 82 hrn 100 SWCOM n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=23
+a 0 u 0 0 84 68 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 36 18 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=19
+a 0 u 0 0 28 -4 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 110 0 20 10
+r 0 10 10 70 100
+*symbol BUF600X1/BB ako 600/BB
+d High-Speed Buffer Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=BUF600X1/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=BUF600X1/BB
+*symbol BUF600X2/BB ako 600/BB
+d High-Speed Buffer Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=BUF600X2/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=BUF600X2/BB
+*symbol BUF601X1/BB ako 600/BB
+d High-Speed Buffer Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=BUF601X1/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=BUF601X1/BB
+*symbol BUF601X2/BB ako 600/BB
+d High-Speed Buffer Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=BUF601X2/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=BUF601X2/BB
+*symbol BUF634X/BB
+d 250mA High-speed Buffer Amplifier
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=BUF634X/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=BUF634X/BB
+@pins
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 42 hln 100 IN n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=3
+a 0 u 0 0 -2 40 hln 100 ERC=i
+p 2 13 22 hln 100 BW n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -21 hln 100 float=u
+@graphics 80 60 0 20 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol INA101/BB
+d Very high accuracy instrumentation amplifier
+@type p
+@attributes
+a 1 sp 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %GS1 %GS2 @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA101/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA101/BB
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=1
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=4
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=10
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=5
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=8
+a 0 s 0 0 100 42 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=9
+a 0 s 0 0 34 0 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=6
+a 0 s 0 0 34 90 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 52 78 hln 100 REF n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=7
+a 0 s 0 0 54 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 32 hln 100 OS1 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 26 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 13 62 hln 100 OS2 n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 58 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 37 39 hln 100 -
+s 26 37 59 hln 100 +
+*symbol INA101E/BB,INA101/BB-E ako INA101/BB
+d Very high accuracy instrumentation amplifier
+@type p
+@attributes
+a 1 sp 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %GS1 %GS2 @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA101E/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA101E/BB
+*symbol INA102/BB
+d Low Power Instrumentation Amplifier
+@type p
+@attributes
+a 1 ap 9 0 8 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %GS1 %GS2 @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA102/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA102/BB
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=2
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=6
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=14
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=15
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=11
+a 0 s 0 0 100 42 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 0 0 45 3 hcn 100 PIN=12
+a 0 s 0 0 34 0 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 0 0 35 92 hcn 100 PIN=9
+a 0 s 0 0 34 90 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 52 78 hln 100 REF n 60 90 v
+a 0 s 0 0 55 92 hcn 100 PIN=10
+a 0 s 0 0 54 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 37 39 hln 100 -
+s 26 37 59 hln 100 +
+*symbol INA102E/BB,INA102/BB-E ako INA102/BB
+d Low Power Instrumentation Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 92 hlb 100 PART=INA102E/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA102E/BB
+*symbol INA103/BB
+d Low Noise, Low Distortion Instrumentation Amplifier
+@type p
+@attributes
+a 1 sp 9 0 8 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %GS1 %GS2 @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA103/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA103/BB
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=13
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=6
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=16
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=1
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=10
+a 0 s 0 0 100 42 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 0 0 45 3 hcn 100 PIN=9
+a 0 s 0 0 34 0 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 0 0 35 92 hcn 100 PIN=8
+a 0 s 0 0 34 90 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 52 78 hln 100 REF n 60 90 v
+a 0 s 0 0 55 92 hcn 100 PIN=7
+a 0 s 0 0 54 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 37 39 hln 100 -
+s 26 37 59 hln 100 +
+*symbol INA103E/BB,INA103/BB-E ako INA103/BB
+d Low Noise, Low Distortion Instrumentation Amplifier
+@type p
+@attributes
+a 1 sp 9 0 8 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %GS1 %GS2 @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA103E/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA103E/BB
+*symbol INA105/BB
+d Precision Unity Gain Differential Amplifier
+@type p
+@attributes
+a 1 s 9 0 70 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %SENSE @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA105/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA105/BB
+@pins
+p 2 50 20 hln 100 SENSE n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=5
+a 0 s 0 0 60 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=6
+a 0 s 0 0 100 42 hln 100 ERC=o
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=7
+a 0 s 0 0 34 0 hln 100 ERC=p
+p 2 52 78 hln 100 REF n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=1
+a 0 s 0 0 54 90 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=4
+a 0 s 0 0 34 90 hln 100 ERC=p
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 60 hln 100 ERC=i
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=i
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol INA105E/BB,INA105/BB-E ako INA105/BB
+d Precision Unity Gain Differential Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 92 hlb 100 PART=INA105E/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA105E/BB
+a 1 s 9 0 74 8 hln 100 REFDES=U?
+*symbol INA106/BB ako INA105/BB
+d Precision Fixed-Gain Differential Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 92 hlb 100 PART=INA106/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA106/BB
+*symbol INA106E/BB,INA106/BB-E ako INA106/BB
+d Precision Fixed-Gain Differential Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 92 hlb 100 PART=INA106E/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA106E/BB
+*symbol INA110/BB
+d Instrumentation Amplifier
+@type p
+@attributes
+a 1 ap 9 0 8 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %SNS1 %SNS2 @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA110/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA110/BB
+@pins
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 2 30 hln 100 ERC=i
+a 0 s 0 0 2 10 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=2
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=9
+a 0 s 0 0 100 42 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 0 0 45 3 hcn 100 PIN=8
+a 0 s 0 0 34 0 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 0 0 35 92 hcn 100 PIN=7
+a 0 s 0 0 34 90 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 52 78 hln 100 REF n 60 90 v
+a 0 s 0 0 55 92 hcn 100 PIN=6
+a 0 s 0 0 54 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 42 hln 100 SNS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=11
+a 0 s 0 0 0 38 hln 100 ERC=i
+a 0 s 0 0 0 8 hln 100 FLOAT=e
+p 2 13 62 hln 100 SNS2 n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 2 58 hln 100 ERC=i
+a 0 s 0 0 2 -2 hln 100 FLOAT=e
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 41 39 hln 100 -
+s 26 41 59 hln 100 +
+*symbol INA110E/BB,INA110/BB-E ako INA110/BB
+d Instrumentation Amplifier
+@type p
+@attributes
+a 1 sp 9 0 8 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %SNS1 %SNS2 @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA110E/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA110E/BB
+*symbol INA111/BB
+d High Speed FET-Input instrumentation amplifier
+@type p
+@attributes
+a 1 sp 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %GS1 %GS2 @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA111/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA111/BB
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=2
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=15
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=4
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=5
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=11
+a 0 s 0 0 100 40 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=13
+a 0 s 0 0 34 0 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=7
+a 0 s 0 0 34 90 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 52 78 hln 100 REF n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=10
+a 0 s 0 0 54 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 37 39 hln 100 -
+s 26 37 59 hln 100 +
+*symbol INA111E/BB ako INA111/BB
+d High Speed FET-Input Instrumentation Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 92 hlb 100 PART=INA111E/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA111E/BB
+*symbol INA114/BB
+d Very high accuracy instrumentation amplifier
+@type p
+@attributes
+a 1 sp 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %FB %REF %GS1 %GS2 @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA114/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA114/BB
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=2
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=15
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=4
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=5
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=11
+a 0 s 0 0 100 40 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=13
+a 0 s 0 0 34 0 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=7
+a 0 s 0 0 34 90 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 52 78 hln 100 REF n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=10
+a 0 s 0 0 54 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 72 hrn 100 FB n 100 70 u
+a 0 s 1 0 95 68 hln 100 PIN=12
+a 0 s 0 0 102 72 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 37 39 hln 100 -
+s 26 37 59 hln 100 +
+*symbol INA114E/BB ako INA114/BB
+d Very high accuracy Instrumentation Amplifier
+@type p
+@attributes
+a 0 sp 11 0 64 92 hlb 100 PART=INA114E/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA114E/BB
+a 0 u 0 0 0 10 hlb 100 COMPONENT=INA114/BB
+*symbol INA115/BB
+d Precision Instrumentation Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=INA115/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %FB %REF %GS1 %GS2 %SEN1 %SEN2 @MODEL
+a 1 sp 9 0 8 -6 hln 100 REFDES=U?
+a 0 sp 11 0 66 90 hlb 100 PART=INA115/BB
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=3
+a 0 s 0 0 -2 38 hln 100 ERC=i
+a 0 s 0 0 -2 -2 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=14
+a 0 s 0 0 -2 48 hln 100 ERC=i
+a 0 s 0 0 -2 -2 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=4
+a 0 s 0 0 -2 18 hln 100 ERC=i
+a 0 s 0 0 -2 -2 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=5
+a 0 s 0 0 -2 68 hln 100 ERC=i
+a 0 s 0 0 -2 -2 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=11
+a 0 s 0 0 98 38 hln 100 ERC=o
+a 0 s 0 0 -2 -2 hln 100 FLOAT=e
+p 2 32 18 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=13
+a 0 s 0 0 32 -2 hln 100 ERC=p
+a 0 s 0 0 -2 -2 hln 100 FLOAT=e
+p 2 34 76 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=7
+a 0 s 0 0 32 88 hln 100 ERC=p
+a 0 s 0 0 -2 -2 hln 100 FLOAT=e
+p 2 50 76 hln 100 REF n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=10
+a 0 s 0 0 52 88 hln 100 ERC=i
+a 0 s 0 0 -2 -2 hln 100 FLOAT=e
+p 2 87 72 hrn 100 FB n 100 70 u
+a 0 s 1 0 95 68 hln 100 PIN=12
+a 0 s 0 0 100 70 hln 100 ERC=i
+a 0 s 0 0 -2 -2 hln 100 FLOAT=e
+p 2 13 32 hln 100 SEN1 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 28 hln 100 ERC=i
+p 2 13 62 hln 100 SEN2 n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=15
+a 0 s 0 0 0 58 hln 100 ERC=i
+p 2 72 18 hln 75 VO2 n 80 0 d
+a 0 s 1 0 85 3 hcn 75 PIN=8
+a 0 s 0 0 80 0 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 52 18 hln 75 VO1 n 60 0 d
+a 0 s 1 0 65 3 hcn 75 PIN=1
+a 0 s 0 0 58 0 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 35 37 hln 100 -
+s 26 35 57 hln 100 +
+*symbol INA115E/BB ako INA115/BB
+d Precision Instrumentation Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=INA115E/BB
+a 0 sp 11 0 66 90 hlb 100 PART=INA115E/BB
+*symbol INA117/BB
+d Precision High Common-Mode Voltage Unity Gain Differential Amplifier
+@type p
+@attributes
+a 1 s 9 0 66 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REFA %REFB @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA117/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA117/BB
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=6
+a 0 s 0 0 100 42 hln 100 ERC=o
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=7
+a 0 s 0 0 34 0 hln 100 ERC=p
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=4
+a 0 s 0 0 34 90 hln 100 ERC=p
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 60 hln 100 ERC=i
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=i
+p 2 50 20 hln 100 REFA n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=5
+a 0 s 0 0 60 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 52 78 hln 100 REFB n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=1
+a 0 s 0 0 54 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 72 hln 50 COMP n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=8
+a 0 s 0 0 0 72 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 100 90 0 30 10
+r 0 10 10 90 80 d_info:,,,,,ON,0/128/0,,,,,,, 
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 +
+s 26 31 59 hln 100 -
+*symbol INA117E/BB,INA117/BB-E ako INA117/BB
+d Precision High Common-Mode Voltage Unity Gain Differential Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 92 hlb 100 PART=INA117E/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA117E/BB
+*symbol INA118/BB ako 118/BB
+d PRECISION, LOW POWER INSTRUMENTATION AMPLIFIER
+@type p
+@attributes
+a 0 sp 11 0 36 80 hln 100 PART=INA118/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=INA118/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN+ %IN- %V+ %V- %VO %REF %RG1 %RG2 @MODEL
+a 0 s 0 0 0 10 hln 100 COMPONENT=INA118
+*symbol INA118E/BB ako 118/BB
+d PRECISION, LOW POWER INSTRUMENTATION AMPLIFIER
+@type p
+@attributes
+a 0 sp 11 0 36 80 hln 100 PART=INA118E/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=INA118E/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN+ %IN- %V+ %V- %VO %REF %RG1 %RG2 @MODEL
+a 0 s 0 0 0 10 hln 100 COMPONENT=INA118
+*symbol INA120/BB
+d Precision Instrumentation Amplifier
+@type p
+@attributes
+a 1 sp 9 0 8 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %GS1 %GS2 @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=INA120/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA120/BB
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=4
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=15
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=3
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=16
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=1
+a 0 s 0 0 100 42 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=2
+a 0 s 0 0 34 0 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=17
+a 0 s 0 0 34 90 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 52 78 hln 100 REF n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=18
+a 0 s 0 0 54 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 32 hln 50 OS1 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=6
+a 0 s 0 0 0 26 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 13 62 hln 50 OS2 n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=7
+a 0 s 0 0 0 58 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 52 16 hln 50 X10 n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=11
+a 0 s 0 0 56 0 hln 100 ERC=i
+a 0 s 0 0 -4 0 hln 100 FLOAT=u
+p 2 74 16 hln 50 X1000 n 80 0 d
+a 0 s 1 0 85 3 hcn 100 PIN=9
+a 0 s 0 0 80 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 62 16 hln 50 X100 n 70 0 d
+a 0 s 1 0 75 3 hcn 100 PIN=10
+a 0 s 0 0 72 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 87 52 hrn 50 RC n 100 50 u
+a 0 s 1 0 95 48 hln 100 PIN=8
+a 0 s 0 0 100 56 hln 100 ERC=i
+a 0 s 0 0 0 20 hln 100 FLOAT=u
+p 2 87 62 hrn 50 A1OUT n 100 60 u
+a 0 s 1 0 95 58 hln 100 PIN=12
+a 0 s 0 0 100 64 hln 100 ERC=o
+a 0 s 0 0 0 10 hln 100 FLOAT=u
+p 2 87 72 hrn 50 A2OUT n 100 70 u
+a 0 s 1 0 95 68 hln 100 PIN=13
+a 0 s 0 0 102 72 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 87 22 hrn 50 SET1 n 100 20 u
+a 0 s 1 0 95 18 hln 100 PIN=5
+a 0 s 0 0 100 20 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 87 32 hrn 50 SET2 n 100 30 u
+a 0 s 1 0 95 28 hln 100 PIN=14
+a 0 s 0 0 100 30 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 37 39 hln 100 -
+s 26 37 59 hln 100 +
+*symbol INA120E/BB,INA120/BB-E ako INA120/BB
+d Precison Instrumentation Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 92 hlb 100 PART=INA120E/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=INA120E/BB
+*symbol INA131/BB
+d Precision G=100 Instrumentation Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=INA131/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %REF %GS1 %GS2 @MODEL
+a 1 sp 9 0 66 4 hln 100 REFDES=U?
+a 0 sp 11 0 70 88 hlb 100 PART=INA131/BB
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=1
+a 0 s 0 0 2 36 hln 100 ERC=i
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=8
+a 0 s 0 0 2 46 hln 100 ERC=i
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 2 16 hln 100 ERC=i
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=3
+a 0 s 0 0 2 66 hln 100 ERC=i
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=6
+a 0 s 0 0 102 36 hln 100 ERC=o
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 36 16 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=7
+a 0 s 0 0 36 -4 hln 100 ERC=p
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 38 74 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=4
+a 0 s 0 0 36 86 hln 100 ERC=p
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 54 74 hln 100 REF n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=5
+a 0 s 0 0 56 86 hln 100 ERC=i
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 39 35 hln 100 -
+s 26 39 55 hln 100 +
+*symbol INA131E/BB ako INA131/BB
+d Precision G=100 Instrumentation Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=INA131E/BB
+a 0 sp 11 0 70 88 hlb 100 PART=INA131E/BB
+*symbol ISO120X/BB
+d Precision Isolation Amplifier
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 116 120 hln 100 PART=ISO120X/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=ISO120X/BB
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+Vs1 %-Vs1 %Com2 %Out %Sense %Gnd2 %C2H %C2L %+Vs2 %-Vs2 %Com1 %Vin %Gnd1 @MODEL
+@pins
+p 2 13 52 hln 100 VIN n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=23
+a 0 s 0 0 6 50 hln 100 ERC=i
+p 2 13 72 hln 100 COM1 n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=21
+a 0 s 0 0 8 76 hln 100 ERC=i
+p 2 36 20 hln 100 +VS1 n 50 0 d
+a 0 s 1 0 55 3 hcn 100 PIN=3
+a 0 s 0 0 54 -4 hln 100 ERC=p
+p 2 10 108 hln 100 GND1 n 20 120 v
+a 0 s 1 0 15 122 hcn 100 PIN=24
+a 0 s 0 0 26 128 hln 100 ERC=p
+p 2 36 108 hln 100 -VS1 n 50 120 v
+a 0 s 1 0 45 122 hcn 100 PIN=4
+a 0 s 0 0 54 126 hln 100 ERC=p
+p 2 117 52 hrn 100 SENSE n 130 50 u
+a 0 s 1 0 125 48 hln 100 PIN=11
+a 0 s 0 0 136 52 hln 100 ERC=o
+p 2 117 92 hrn 100 COM2 n 130 90 u
+a 0 s 1 0 125 88 hln 100 PIN=9
+a 0 s 0 0 134 88 hln 100 ERC=o
+p 2 96 108 hln 100 GND2 n 110 120 v
+a 0 s 1 0 105 122 hcn 100 PIN=12
+a 0 s 0 0 132 128 hln 100 ERC=p
+p 2 66 108 hln 100 -VS2 n 80 120 v
+a 0 s 1 0 75 122 hcn 100 PIN=16
+a 0 s 0 0 82 116 hln 100 ERC=p
+p 2 117 72 hrn 100 OUT n 130 70 u
+a 0 s 1 0 125 68 hln 100 PIN=10
+a 0 s 0 0 136 62 hln 100 ERC=o
+p 2 117 32 hrn 100 C2L n 130 30 u
+a 0 s 1 0 125 28 hln 100 PIN=14
+a 0 s 0 0 122 22 hln 100 ERC=o
+p 2 117 22 hrn 100 C2H n 130 20 u
+a 0 s 1 0 125 18 hln 100 PIN=13
+a 0 s 0 0 140 4 hln 100 ERC=o
+p 2 64 20 hln 100 +VS2 n 80 0 d
+a 0 s 1 0 85 3 hcn 100 PIN=15
+a 0 s 0 0 66 -2 hln 100 ERC=p
+p 2 13 32 hln 50 EXTOSC n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=22
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 13 82 hln 50 C1H n 0 80 h
+a 0 s 1 0 5 78 hrn 100 PIN=1
+a 0 s 0 0 0 82 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 13 92 hln 50 C1L n 0 90 h
+a 0 s 1 0 5 88 hrn 100 PIN=2
+a 0 s 0 0 0 94 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 130 120 0 30 10
+r 0 10 10 120 110
+v 0 40 35
+60 45
+;
+v 0 60 75
+40 85
+;
+v 0 65 35
+65 45
+;
+v 0 65 50
+65 60
+;
+v 0 65 65
+65 75
+;
+v 0 65 85
+65 80
+;
+v 0 40 35
+40 85
+;
+v 0 60 45
+60 75
+;
+v 0 70 50
+90 60
+;
+v 0 90 60
+70 70
+;
+v 0 70 70
+70 50
+;
+s 26 42 48 hln 100 +
+s 26 42 82 hln 100 -
+*symbol ISO121X/BB
+d Precision Isolation Amplifier
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 116 120 hln 100 PART=ISO121X/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=ISO121X/BB
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+Vs1 %-Vs1 %Com2 %Out %Sense %Gnd2 %C2H %C2L %+Vs2 %-Vs2 %Com1 %Vin %Gnd1 @MODEL
+@pins
+p 2 13 52 hln 100 VIN n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=39
+a 0 s 0 0 6 50 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 72 hln 100 COM1 n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=37
+a 0 s 0 0 8 76 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 20 hln 100 +VS1 n 50 0 d
+a 0 s 1 0 55 3 hcn 100 PIN=3
+a 0 s 0 0 54 -4 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 10 108 hln 100 GND1 n 20 120 v
+a 0 s 1 0 15 122 hcn 100 PIN=40
+a 0 s 0 0 26 128 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 108 hln 100 -VS1 n 50 120 v
+a 0 s 1 0 45 122 hcn 100 PIN=4
+a 0 s 0 0 54 126 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 117 52 hrn 100 SENSE n 130 50 u
+a 0 s 1 0 125 48 hln 100 PIN=19
+a 0 s 0 0 136 52 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 117 92 hrn 100 COM2 n 130 90 u
+a 0 s 1 0 125 88 hln 100 PIN=17
+a 0 s 0 0 134 88 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 96 108 hln 100 GND2 n 110 120 v
+a 0 s 1 0 105 122 hcn 100 PIN=20
+a 0 s 0 0 132 128 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 66 108 hln 100 -VS2 n 80 120 v
+a 0 s 1 0 75 122 hcn 100 PIN=24
+a 0 s 0 0 82 116 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 117 72 hrn 100 OUT n 130 70 u
+a 0 s 1 0 125 68 hln 100 PIN=18
+a 0 s 0 0 136 62 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 117 32 hrn 100 C2L n 130 30 u
+a 0 s 1 0 125 28 hln 100 PIN=22
+a 0 s 0 0 122 22 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 117 22 hrn 100 C2H n 130 20 u
+a 0 s 1 0 125 18 hln 100 PIN=21
+a 0 s 0 0 140 4 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 64 20 hln 100 +VS2 n 80 0 d
+a 0 s 1 0 85 3 hcn 100 PIN=23
+a 0 s 0 0 66 -2 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 32 hln 50 EXTOSC n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=38
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 13 82 hln 50 C1H n 0 80 h
+a 0 s 1 0 5 78 hrn 100 PIN=1
+a 0 s 0 0 0 82 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 13 92 hln 50 C1L n 0 90 h
+a 0 s 1 0 5 88 hrn 100 PIN=2
+a 0 s 0 0 0 94 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 130 120 0 30 10
+r 0 10 10 120 110
+v 0 40 35
+60 45
+;
+v 0 60 75
+40 85
+;
+v 0 65 35
+65 45
+;
+v 0 65 50
+65 60
+;
+v 0 65 65
+65 75
+;
+v 0 65 85
+65 80
+;
+v 0 40 35
+40 85
+;
+v 0 60 45
+60 75
+;
+v 0 70 50
+90 60
+;
+v 0 90 60
+70 70
+;
+v 0 70 70
+70 50
+;
+s 26 42 48 hln 100 +
+s 26 42 82 hln 100 -
+*symbol ISO130X/BB
+d High IMR, Low Cost Isolation Amplifier
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 116 120 hln 100 PART=ISO130X/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=ISO130X/BB
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %VS1 %VIN+ %VIN- %GND1 %GND2 %VOUT- %VOUT+ %VS2 @MODEL
+@pins
+p 2 13 52 hln 100 VIN+ n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=2
+a 0 s 0 0 6 50 hln 100 ERC=i
+p 2 13 72 hln 100 VIN- n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=3
+a 0 s 0 0 8 76 hln 100 ERC=i
+p 2 42 18 hln 100 VS1 n 50 0 d
+a 0 s 1 0 55 3 hcn 100 PIN=1
+a 0 s 0 0 54 -4 hln 100 ERC=p
+p 2 40 108 hln 100 GND1 n 50 120 v
+a 0 s 1 0 45 122 hcn 100 PIN=4
+a 0 s 0 0 56 128 hln 100 ERC=p
+p 2 117 52 hrn 100 VOUT+ n 130 50 u
+a 0 s 1 0 125 48 hln 100 PIN=7
+a 0 s 0 0 136 52 hln 100 ERC=o
+p 2 66 108 hln 100 GND2 n 80 120 v
+a 0 s 1 0 75 122 hcn 100 PIN=5
+a 0 s 0 0 102 128 hln 100 ERC=p
+p 2 117 72 hrn 100 VOUT- n 130 70 u
+a 0 s 1 0 125 68 hln 100 PIN=6
+a 0 s 0 0 136 62 hln 100 ERC=o
+p 2 72 18 hln 100 VS2 n 80 0 d
+a 0 s 1 0 85 3 hcn 100 PIN=8
+a 0 s 0 0 66 -2 hln 100 ERC=p
+@graphics 130 120 0 50 10
+r 0 10 10 120 110
+v 0 40 35
+60 45
+;
+v 0 60 75
+40 85
+;
+v 0 65 35
+65 45
+;
+v 0 65 50
+65 60
+;
+v 0 65 65
+65 75
+;
+v 0 65 85
+65 80
+;
+v 0 40 35
+40 85
+;
+v 0 60 45
+60 75
+;
+v 0 70 50
+90 60
+;
+v 0 90 60
+70 70
+;
+v 0 70 70
+70 50
+;
+s 26 42 48 hln 100 +
+s 26 42 82 hln 100 -
+*symbol MPC100X1/BB
+d 4x1 Video Multiplexer
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 50 120 hln 100 PART=MPC100X1/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=MPC100X1/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %In1 %In2 %In3 %In4 %Sel4 %Sel3 %+Vcc %Vout %-Vcc %Sel2 %Sel1 @MODEL
+a 0 u 0 0 0 10 hln 100 COMPONENT=MPC100/BB
+@pins
+p 2 13 22 hln 100 IN1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 13 32 hln 100 IN2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 28 hln 100 ERC=i
+p 2 13 42 hln 100 IN3 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=5
+a 0 u 0 0 -2 36 hln 100 ERC=i
+p 2 13 52 hln 100 IN4 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=7
+a 0 u 0 0 -4 46 hln 100 ERC=i
+p 2 13 72 hln 100 SEL1 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=14
+a 0 u 0 0 -6 64 hln 100 ERC=i
+p 2 13 82 hln 100 SEL2 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=13
+a 0 u 0 0 -6 74 hln 100 ERC=i
+p 2 13 92 hln 100 SEL3 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 -8 84 hln 100 ERC=i
+p 2 13 102 hln 100 SEL4 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=8
+a 0 u 0 0 -8 96 hln 100 ERC=i
+p 2 24 108 hln 100 -VCC n 40 120 v
+a 0 u 1 0 35 122 hcn 100 pin=12
+a 0 u 0 0 38 126 hln 100 ERC=p
+p 2 57 62 hrn 100 VOUT n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=11
+a 0 u 0 0 80 62 hln 100 ERC=o
+p 2 32 20 hln 100 +VCC n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=10
+a 0 u 0 0 44 -10 hln 100 ERC=p
+p 2 57 82 hrn 50 GND1 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=2
+a 0 u 0 0 70 80 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 92 hrn 50 GND2 n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=4
+a 0 u 0 0 70 90 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 102 hrn 50 GND3 n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=6
+a 0 u 0 0 70 100 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 70 120 0 20 10
+r 0 10 10 60 110
+*symbol MPC100X2/BB ako MPC100X1/BB
+d 4x1 Video Multiplexer
+@type p
+@attributes
+a 0 sp 11 0 46 120 hln 100 PART=MPC100X2/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=MPC100X2/BB
+*symbol MPC102X1/BB
+d Wide-Bandwidth Dual 2x1 Video Multiplexer
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 50 118 hln 100 PART=MPC102X1/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=MPC102X1/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN1 %IN2 %+VCC %IN3 %IN4 %SEL4 %SEL3 %VOUT2 %-Vcc %VOUT1 %SEL2 %SEL1 @MODEL
+@pins
+p 2 13 22 hln 100 IN1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 13 32 hln 100 IN2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 28 hln 100 ERC=i
+p 2 13 42 hln 100 IN3 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=5
+a 0 u 0 0 -2 36 hln 100 ERC=i
+p 2 13 52 hln 100 IN4 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=7
+a 0 u 0 0 -4 46 hln 100 ERC=i
+p 2 13 72 hln 100 SEL1 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=14
+a 0 u 0 0 -6 64 hln 100 ERC=i
+p 2 13 82 hln 100 SEL2 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=13
+a 0 u 0 0 -6 74 hln 100 ERC=i
+p 2 13 92 hln 100 SEL3 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 -8 84 hln 100 ERC=i
+p 2 13 102 hln 100 SEL4 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=8
+a 0 u 0 0 -8 96 hln 100 ERC=i
+p 2 30 108 hln 100 -VCC n 40 120 v
+a 0 u 1 0 35 122 hcn 100 pin=11
+a 0 u 0 0 38 126 hln 100 ERC=p
+p 2 57 52 hrn 100 VOUT1 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=12
+a 0 u 0 0 80 52 hln 100 ERC=o
+p 2 32 20 hln 100 +VCC n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 44 -10 hln 100 ERC=p
+p 2 57 82 hrn 50 GND1 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=2
+a 0 u 0 0 70 80 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 92 hrn 50 GND2 n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=6
+a 0 u 0 0 70 90 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 62 hrn 100 VOUT2 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=10
+a 0 u 0 0 70 60 hln 100 ERC=o
+@graphics 70 120 0 20 10
+r 0 10 10 60 110
+*symbol MPC104X1/BB
+d Wide-Bandwidth Dual 2x1 Video Multiplexer
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 46 88 hln 100 PART=MPC104X1/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=MPC104X1/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN1 %+VCC %IN2 %SEL2 %VOUT %-VCC %SEL1 @MODEL
+@pins
+p 2 13 22 hln 100 IN1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 13 32 hln 100 IN2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 0 28 hln 100 ERC=i
+p 2 13 52 hln 100 SEL1 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=8
+a 0 u 0 0 -6 44 hln 100 ERC=i
+p 2 13 62 hln 100 SEL2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 -6 54 hln 100 ERC=i
+p 2 24 78 hln 100 -VCC n 40 90 v
+a 0 u 1 0 35 92 hcn 100 pin=11
+a 0 u 0 0 38 96 hln 100 ERC=p
+p 2 57 42 hrn 100 VOUT n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=6
+a 0 u 0 0 80 42 hln 100 ERC=o
+p 2 26 20 hln 100 +VCC n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=3
+a 0 u 0 0 44 -10 hln 100 ERC=p
+p 2 57 62 hrn 100 GND n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=2
+a 0 u 0 0 70 60 hln 100 ERC=p
+a 0 u 0 0 0 -20 hln 100 float=u
+@graphics 70 90 0 20 10
+r 0 10 10 60 80
+*symbol OPA1013/BB ako 1013/BB
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA1013/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA1013/BB
+*symbol OPA1013E/BB,OPA1013/BB-E ako 1013/BB
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=OPA1013E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA1013E/BB
+*symbol OPA111/BB ako 111/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 74 60 hcn 100 PART=OPA111/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA111/BB
+*symbol OPA111E/BB,OPA111/BB-E ako 111/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA111E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA111E/BB
+*symbol OPA121/BB ako 111/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 74 60 hcn 100 PART=OPA121/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA121/BB
+*symbol OPA121E/BB,OPA121/BB-E ako 111/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA121E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA121E/BB
+*symbol OPA124/BB
+d Low Noise Precision Difet Operational Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA124/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 9 0 14 -2 hln 100 REFDES=U?
+a 0 sp 11 0 52 70 hln 100 PART=OPA124/BB
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 2 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 2 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 2 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 2 0 hln 100 float=e
+p 2 39 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 2 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 2 0 hln 100 float=e
+p 2 39 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 2 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 2 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 2 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 2 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol OPA124E/BB ako OPA124/BB
+d Low Noise Precision Difet Operational Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA124E/BB
+a 0 sp 11 0 52 70 hln 100 PART=OPA124E/BB
+*symbol OPA128/BB ako 111/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 76 60 hcn 100 PART=OPA128/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA128/BB
+*symbol OPA128E/BB,OPA128/BB-E ako 111/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA128E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA128E/BB
+*symbol OPA129/BB
+d Ultra-Low Bias CUrrent Difet Operational Amplifier
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA129/BB
+a 0 sp 11 0 48 58 hln 100 PART=OPA129/BB
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 21 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 56 26 hrn 40 SUBSTRATE n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 84 14 hln 100 ERC=x
+a 0 u 0 0 4 -26 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+*symbol OPA129E/BB ako OPA129/BB
+d Ultra-Low Bias CUrrent Difet Operational Amplifier
+@type p
+@attributes
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA129E/BB
+a 0 sp 11 0 48 58 hln 100 PART=OPA129E/BB
+*symbol OPA131/BB
+d General Purpose Fet-Input Operational Amplifiers
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=OPA131/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA131/BB
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 59 34 hrn 50 T2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=5
+a 0 u 0 0 80 36 hln 100 ERC=i
+a 0 u 0 0 0 -14 hln 100 float=u
+p 2 52 38 hrn 50 T1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+70 40
+;
+v 0 60 40
+56 37
+;
+*symbol OPA131E/BB
+d General Purpose Fet-Input Operational Amplifiers
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=OPA131E/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA131E/BB
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 59 35 hrn 50 T2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=5
+a 0 u 0 0 80 36 hln 100 ERC=i
+a 0 u 0 0 0 -14 hln 100 float=u
+p 2 52 38 hrn 50 T1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+70 40
+;
+v 0 60 40
+56 37
+;
+*symbol OPA177/BB ako 27/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 74 60 hcn 100 PART=OPA177/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA177/BB
+*symbol OPA177E/BB,OPA177/BB-E ako 27/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA177E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA177E/BB
+*symbol OPA2107/BB ako 1013/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA2107/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2107/BB
+*symbol OPA2107E/BB,OPA2107/BB-E ako 1013/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=OPA2107E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2107E/BB
+*symbol OPA2111/BB ako 1013/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA2111/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2111/BB
+*symbol OPA2111E/BB,OPA2111/BB-E ako 1013/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA2111E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2111E/BB
+*symbol OPA2131/BB ako 1013/BB
+d General Purpose FET-Input Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA2131/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2131/BB
+*symbol OPA2131E/BB ako 1013/BB
+d General Purpose FET-Input Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA2131E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2131E/BB
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+*symbol OPA2541/BB ako 2541/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA2541/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2541/BB
+*symbol OPA2541E/BB,OPA2541/BB-E ako 2541/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=OPA2541E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2541E/BB
+*symbol OPA2604/BB ako 1013/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA2604/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2604/BB
+*symbol OPA2604E/BB,OPA2604/BB-E ako 1013/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA2604E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2604E/BB
+*symbol OPA2604M/BB ako 1013/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA2604M/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2604M/BB
+a 0 u 0 0 0 10 hcn 100 COMPONENT=OPA2604/BB
+*symbol OPA2658X/BB ako 1013/BB
+d Wideband, Low Power Current Feedback Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA2658X/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA2658X/BB
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %- %+ %V+ %V- %OUT @MODEL
+*symbol OPA27/BB ako 27/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 10 70 hcn 100 PART=OPA27/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA27/BB
+*symbol OPA27E/BB,OPA27/BB-E ako 27/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 6 68 hcn 100 PART=OPA27E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA27E/BB
+*symbol OPA27M/BB ako 27/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 4 70 hcn 100 PART=OPA27M/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA27M/BB
+*symbol OPA37/BB ako 27/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 8 70 hcn 100 PART=OPA37/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA37/BB
+*symbol OPA37E/BB,OPA37/BB-E ako 27/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 10 70 hcn 100 PART=OPA37E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA37E/BB
+*symbol OPA404/BB ako 404/BB
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 74 60 hcn 100 PART=OPA404/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA404/BB
+*symbol OPA404E/BB,OPA404/BB-E ako 404/BB
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA404E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA404E/BB
+*symbol OPA4131/BB ako 4131/BB
+d General Purpose FET Input Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=OPA4131/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA4131/BB
+*symbol OPA4131E/BB ako 4131/BB
+d General Purpose FET Input Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=OPA4131E/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA4131E/BB
+*symbol OPA445/BB ako 445/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA445/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA445/BB
+*symbol OPA445E/BB,OPA445/BB-E ako 445/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA445E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA445E/BB
+*symbol OPA4658X/BB ako 4131/BB
+d Quad Wideband, Low Power Current Feedback Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 58 hln 100 PART=OPA4658X/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA4658X/BB
+*symbol OPA501/BB ako 501/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 74 60 hcn 100 PART=OPA501/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA501/BB
+*symbol OPA501E/BB,OPA501/BB-E ako 501/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA501E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA501E/BB
+*symbol OPA502/BB ako 502/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 76 60 hcn 100 PART=OPA502/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA502/BB
+a 0 u 0 0 0 10 hcn 100 COMPONENT=OPA502/BB
+*symbol OPA502E/BB ako 502/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA502E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA502E/BB
+a 0 u 0 0 0 10 hcn 100 COMPONENT=OPA502/BB
+*symbol OPA511/BB ako 501/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 76 60 hcn 100 PART=OPA511/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA511/BB
+*symbol OPA511E/BB,OPA511/BB-E ako 501/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA511E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA511E/BB
+*symbol OPA512/BB ako 512/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA512/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA512/BB
+*symbol OPA512E/BB,OPA512/BB-E ako 512/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 76 60 hcn 100 PART=OPA512E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA512E/BB
+*symbol OPA541/BB ako 541/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA541/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA541/BB
+*symbol OPA541E/BB,OPA541/BB-E ako 541/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA541E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA541E/BB
+*symbol OPA602/BB ako 445/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 76 60 hcn 100 PART=OPA602/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA602/BB
+*symbol OPA602E/BB,OPA602/BB-E ako 445/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA602E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA602E/BB
+*symbol OPA603X/BB,OPA603/BB-X ako 603/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA603X/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA603X/BB
+*symbol OPA604/BB ako 445/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 76 60 hcn 100 PART=OPA604/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA604/BB
+a 0 u 0 0 0 10 hcn 100 COMPONENT=OPA604/BB
+*symbol OPA604E/BB ako 445/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA604E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA604E/BB
+a 0 u 0 0 0 10 hcn 100 COMPONENT=OPA604/BB
+*symbol OPA604M/BB ako 445/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA604M/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA604M/BB
+a 0 u 0 0 0 10 hcn 100 COMPONENT=OPA604/BB
+*symbol OPA606/BB ako 445/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 76 60 hcn 100 PART=OPA606/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA606/BB
+*symbol OPA606E/BB,OPA606/BB-E ako 445/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=OPA606E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA606E/BB
+*symbol OPA620/BB ako 620/BB
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=OPA620/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA620/BB
+*symbol OPA620E/BB,OPA620/BB-E ako 620/BB
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA620E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA620E/BB
+*symbol OPA620X/BB,OPA620/BB-X ako 620/BB
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA620X/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA620X/BB
+*symbol OPA621/BB ako 620/BB
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA621/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA621/BB
+*symbol OPA621E/BB,OPA621/BB-E ako 620/BB
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA621E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA621E/BB
+*symbol OPA621X/BB,OPA621/BB-X ako 620/BB
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA621X/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA621X/BB
+*symbol OPA622X1/BB ako 622/BB
+d Wide-Bandwidth Operational Amplifier
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 48 110 hln 100 PART=OPA622X1/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA622X1/BB
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IqAdj %- %+ %V- %Vout- %Buf- %Out %OTA %Vout+ %V+ %Buf+ @MODEL
+*symbol OPA622X2/BB ako 622/BB
+d Wide-Bandwidth Operational Amplifier
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 48 110 hln 100 PART=OPA622X2/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA622X2/BB
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IqAdj %- %+ %V- %Vout- %Buf- %Out %OTA %Vout+ %V+ %Buf+ @MODEL
+*symbol OPA623X1/BB ako 623/BB
+d Wide Bandwidth, Current-Feedback Opamp
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %- %+ %V- %OUT %V+ @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=OPA623X1/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA623X1/BB
+*symbol OPA623X2/BB ako 623/BB
+d Wide Bandwidth, Current-Feedback Opamp
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %- %+ %V- %OUT %V+ @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=OPA623X2/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA623X2/BB
+*symbol OPA627/BB ako 111/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=OPA627/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA627/BB
+*symbol OPA627E/BB,OPA627/BB-E ako 111/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA627E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA627E/BB
+*symbol OPA628M/BB
+d Low Distortion Wideband Operational Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA628M/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %VO+ %VO- %OUT @MODEL
+a 0 sp 9 0 14 -2 hln 100 REFDES=U?
+a 0 sp 11 0 52 70 hln 100 PART=OPA628M/BB
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 2 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 2 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 2 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 2 0 hln 100 float=e
+p 2 30 19 hcn 100 VI+ n 30 0 d
+a 0 u 0 0 -8 0 hln 100 ERC=p
+a 0 u 1 0 35 3 hcn 100 pin=8
+a 0 u 0 0 -8 0 hln 100 float=u
+p 2 31 44 hcn 100 VI- n 30 60 v
+a 0 u 0 0 -8 0 hln 100 ERC=p
+a 0 u 1 0 25 62 hcn 100 pin=4
+a 0 u 0 0 -8 0 hln 100 float=u
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 2 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 2 0 hln 100 float=e
+p 2 44 28 hln 75 VO+ n 50 0 d
+a 0 u 1 0 55 3 hcn 75 pin=7
+a 0 u 0 0 50 0 hln 100 ERC=p
+a 0 u 0 0 -10 0 hln 100 float=e
+p 2 44 38 hln 75 VO- n 50 60 v
+a 0 u 1 0 45 62 hcn 75 pin=5
+a 0 u 0 0 50 60 hln 100 ERC=p
+a 0 u 0 0 -10 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 50 10
+50 20
+;
+v 0 50 50
+50 40
+;
+*symbol OPA637/BB ako 111/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 76 60 hcn 100 PART=OPA637/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA637/BB
+*symbol OPA637E/BB,OPA637/BB-E ako 111/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=OPA637E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA637E/BB
+*symbol OPA640X/BB
+d Wideband Voltage Feedback Operational Amplifier
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 68 56 hln 100 PART=OPA640X/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA640X/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %- %+ %V- %VO- %OUT %VI+ %V+ @MODEL
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 2 2 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 2 2 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 2 2 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 2 2 hln 100 float=e
+p 2 39 24 hcn 100 V+ n 40 0 d
+a 0 u 0 0 2 2 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 2 2 hln 100 float=e
+p 2 39 43 hcn 100 V- n 40 60 v
+a 0 u 0 0 2 2 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 2 2 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 2 2 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 2 2 hln 100 float=e
+p 2 52 28 hln 50 VI+ n 60 0 d
+a 0 u 1 0 65 3 hcn 75 pin=8
+a 0 u 0 0 60 2 hln 100 ERC=p
+a 0 u 0 0 0 2 hln 100 float=e
+p 2 52 35 hln 50 VO- n 60 60 v
+a 0 u 1 0 55 62 hcn 75 pin=5
+a 0 u 0 0 60 62 hln 100 ERC=p
+a 0 u 0 0 0 2 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+60 25
+;
+v 0 60 50
+60 35
+;
+*symbol OPA641X/BB
+d WIDEBAND VOLTAGE FEEDBACK OPERATIONAL AMPLIFIER
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA641X/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %- %+ %V1- %V2- %OUT %V1+ %V2+ @MODEL
+a 0 sp 11 0 66 56 hln 100 PART=OPA641X/BB
+a 0 s 9 0 16 -4 hln 100 REFDES=U?
+a 0 s 0 0 0 10 hlb 100 COMPONENT=OPA641
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 31 20 hcn 100 V1+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 32 45 hcn 100 V1- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 47 28 hcn 100 V2+ n 60 0 d
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 1 0 65 3 hcn 100 pin=8
+a 0 u 0 0 20 0 hln 100 float=e
+p 2 47 39 hcn 100 V2- n 60 60 v
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 1 0 55 62 hcn 100 pin=5
+a 0 u 0 0 20 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 10
+50 20
+;
+*symbol OPA642X/BB ako OPA640X/BB
+d Wideband Low Distortion Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 56 hln 100 PART=OPA642X/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA642X/BB
+*symbol OPA643X/BB ako OPA640X/BB
+d Wideband Low Distortion Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 56 hln 100 PART=OPA643X/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA643X/BB
+*symbol OPA644X/BB ako OPA640X/BB
+d Low Distortion Current Feedback Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 56 hln 100 PART=OPA644X/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA644X/BB
+*symbol OPA646X/BB ako OPA640X/BB
+d Low Power, Wide Bandwidth Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 68 56 hln 100 PART=OPA646X/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA646X/BB
+*symbol OPA648X/BB
+d ULTRA-WIDEBAND CURRENT FEEDBACK OPERATIONAL AMPLIFIER
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA648X/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %- %+ %V- %OUT %V+ @MODEL
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 50 60 hln 100 PART=OPA648X/BB
+a 0 s 0 0 0 10 hln 100 COMPONENT=OPA648
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol OPA650X/BB
+d Wideband, Low Power Voltage Feedback Operational Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA650X/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %- %+ %V- %OUT %V+ @MODEL
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 50 60 hln 100 PART=OPA650X/BB
+a 0 s 0 0 0 10 hln 100 COMPONENT=OPA650
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol OPA658X/BB ako OPA650X/BB
+d Wideband, Low Power Current Feedback Operational Amplifier
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 42 58 hln 100 PART=OPA658X/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA658X/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %- %+ %V- %OUT %V+ @MODEL
+a 0 s 0 0 0 10 hln 100 COMPONENT=OPA658X/BB
+*symbol OPA660X1/BB ako 660/BB
+d Operational Transconductance Amp & Buffer
+@type p
+@attributes
+a 1 s 9 0 56 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IQADJ %E %B %V- %IN %OUT %V+ %C @MODEL
+a 0 sp 11 0 58 92 hlb 100 PART=OPA660X1/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=OPA660X1/BB
+*symbol OPA660X2/BB ako 660/BB
+d Operational Transconductance Amp & Buffer
+@type p
+@attributes
+a 1 s 9 0 56 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IQADJ %E %B %V- %IN %OUT %V+ %C @MODEL
+a 0 sp 11 0 58 92 hlb 100 PART=OPA660X2/BB
+a 0 sp 0 0 68 92 hlb 100 MODEL=OPA660X2/BB
+*symbol OPA671M/BB ako 445/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=OPA671M/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA671M/BB
+*symbol OPA675M/BB
+d Switched-Input Operational Amplifier
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 108 100 hln 100 PART=OPA675M/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA675M/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+InA %-InA %Comp %Out %+Vcc %-Vcc %+InB %-InB %CHA %\CHA\ %Com @MODEL
+@pins
+p 2 24 18 hln 100 +VCC n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 40 4 hln 100 ERC=p
+p 2 13 32 hln 100 +INA n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=1
+a 0 u 0 0 2 34 hln 100 ERC=i
+p 2 13 42 hln 100 -INA n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=2
+a 0 u 0 0 2 46 hln 100 ERC=i
+p 2 78 20 hln 100 CHA n 90 0 d
+a 0 u 1 0 95 3 hcn 100 pin=13
+a 0 u 0 0 84 0 hln 100 ERC=x
+p 2 13 62 hln 100 +INB n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=16
+a 0 u 0 0 2 72 hln 100 ERC=i
+p 2 13 72 hln 100 -INB n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=15
+a 0 u 0 0 2 86 hln 100 ERC=i
+p 2 12 88 hln 100 COM n 20 100 v
+a 0 u 1 0 15 102 hcn 100 pin=11
+a 0 u 0 0 26 106 hln 100 ERC=p
+p 2 34 88 hln 100 -VCC n 40 100 v
+a 0 u 1 0 35 102 hcn 100 pin=10
+a 0 u 0 0 48 104 hln 100 ERC=p
+p 2 90 88 hln 100 COMP n 100 100 v
+a 0 u 1 0 95 102 hcn 100 pin=5
+a 0 u 0 0 106 110 hln 100 ERC=x
+p 2 117 52 hrn 100 OUT n 130 50 u
+a 0 u 1 0 125 48 hln 100 pin=8
+a 0 u 0 0 138 38 hln 100 ERC=o
+p 2 98 20 hln 100 \CHA\ n 110 0 d
+a 0 u 1 0 115 3 hcn 100 pin=12
+a 0 u 0 0 96 -8 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 117 72 hrn 50 T1 n 130 70 u
+a 0 u 1 0 125 68 hln 100 pin=3
+a 0 u 0 0 130 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 117 82 hrn 50 T2 n 130 80 u
+a 0 u 1 0 125 78 hln 100 pin=4
+a 0 u 0 0 130 78 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 130 100 0 30 10
+r 0 10 10 120 90
+v 0 35 20
+95 50
+;
+v 0 95 50
+35 80
+;
+v 0 35 80
+35 55
+;
+v 0 35 55
+35 50
+;
+v 0 35 45
+35 20
+;
+v 0 35 45
+50 45
+;
+v 0 50 45
+50 50
+;
+v 0 50 50
+35 50
+;
+s 26 36 32 hln 100 +
+s 26 36 62 hln 100 +
+s 26 36 42 hln 100 -
+s 26 36 72 hln 100 -
+s 26 90 30 hln 100 ECL
+*symbol OPA676M/BB
+d Switched-Input Operational Amplifier
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 112 100 hln 100 PART=OPA676M/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA676M/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+InA %-InA %Comp %Out %+Vcc %-Vcc %+InB %-InB %\CHA\ %Com @MODEL
+@pins
+p 2 24 18 hln 100 +VCC n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 40 4 hln 100 ERC=p
+p 2 13 32 hln 100 +INA n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=1
+a 0 u 0 0 2 34 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 42 hln 100 -INA n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=2
+a 0 u 0 0 2 46 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 62 hln 100 +INB n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=16
+a 0 u 0 0 2 72 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 72 hln 100 -INB n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=15
+a 0 u 0 0 2 86 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 12 88 hln 100 COM n 20 100 v
+a 0 u 1 0 15 102 hcn 100 pin=11
+a 0 u 0 0 26 106 hln 100 ERC=p
+p 2 34 88 hln 100 -VCC n 40 100 v
+a 0 u 1 0 35 102 hcn 100 pin=10
+a 0 u 0 0 48 104 hln 100 ERC=p
+p 2 90 88 hln 100 COMP n 100 100 v
+a 0 u 1 0 95 102 hcn 100 pin=5
+a 0 u 0 0 106 110 hln 100 ERC=x
+p 2 117 52 hrn 100 OUT n 130 50 u
+a 0 u 1 0 125 48 hln 100 pin=8
+a 0 u 0 0 138 38 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 98 20 hln 100 \CHA\ n 110 0 d
+a 0 u 1 0 115 3 hcn 100 pin=12
+a 0 u 0 0 96 -8 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 117 82 hrn 50 T2 n 130 80 u
+a 0 u 1 0 125 78 hln 100 pin=4
+a 0 u 0 0 130 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 117 72 hrn 50 T1 n 130 70 u
+a 0 u 1 0 125 68 hln 100 pin=3
+a 0 u 0 0 130 72 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 130 100 0 30 10
+r 0 10 10 120 90
+v 0 35 20
+95 50
+;
+v 0 95 50
+35 80
+;
+v 0 35 80
+35 55
+;
+v 0 35 55
+35 50
+;
+v 0 35 45
+35 20
+;
+v 0 35 45
+50 45
+;
+v 0 50 45
+50 50
+;
+v 0 50 50
+35 50
+;
+s 26 36 32 hln 100 +
+s 26 36 62 hln 100 +
+s 26 36 42 hln 100 -
+s 26 36 72 hln 100 -
+s 26 102 30 hln 100 TTL
+*symbol OPA77/BB ako 27/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 12 70 hcn 100 PART=OPA77/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA77/BB
+a 0 u 0 0 0 10 hcn 100 COMPONENT=OPA77/BB
+*symbol OPA77E/BB ako 27/BB
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 10 70 hcn 100 PART=OPA77E/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=OPA77E/BB
+a 0 u 0 0 0 10 hcn 100 COMPONENT=OPA77/BB
+*symbol OPT101/BB
+d Monolithic Photodiode and Single-Supply Transimpedance
+@type p
+@attributes
+a 0 sp 9 0 78 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %COM %-IN %V+ %V- %OUT %1MEG @MODEL
+a 0 sp 11 0 46 88 hln 100 PART=OPT101/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=OPT101/BB
+@pins
+p 2 36 18 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=1
+a 0 s 0 0 38 0 hln 100 ERC=p
+p 2 10 18 hln 100 -IN n 10 0 d
+a 0 s 1 0 15 3 hcn 100 PIN=2
+a 0 s 0 0 10 0 hln 100 ERC=i
+p 2 32 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=3
+a 0 s 0 0 40 90 hln 100 ERC=p
+p 2 77 22 hrn 100 1MEG n 90 20 u
+a 0 s 1 0 85 18 hln 100 PIN=4
+a 0 s 0 0 90 22 hln 100 ERC=i
+p 2 77 52 hrn 100 OUT n 90 50 u
+a 0 s 1 0 85 48 hln 100 PIN=5
+a 0 s 0 0 92 52 hln 100 ERC=o
+p 2 0 78 hln 100 COM n 10 90 v
+a 0 s 1 0 5 92 hcn 100 PIN=8
+a 0 s 0 0 14 98 hln 100 ERC=p
+@graphics 90 90 10 0 10
+r 0 0 10 80 80
+v 0 20 26
+20 66
+;
+v 0 20 66
+55 46
+;
+v 0 55 46
+20 26
+;
+s 26 21 37 hln 100 +
+s 26 21 57 hln 100 -
+*symbol OPT201KP/BB
+d Integrated Photodiode and Amplifier
+@type p
+@attributes
+a 0 sp 9 0 78 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %COM %-IN %V+ %V- %OUT %1MEG @MODEL
+a 0 sp 11 0 46 88 hln 100 PART=OPT201KP/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=OPT201KP/BB
+@pins
+p 2 36 18 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=1
+a 0 s 0 0 38 0 hln 100 ERC=p
+p 2 10 18 hln 100 -IN n 10 0 d
+a 0 s 1 0 15 3 hcn 100 PIN=2
+a 0 s 0 0 10 0 hln 100 ERC=i
+p 2 32 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=3
+a 0 s 0 0 40 90 hln 100 ERC=p
+p 2 77 22 hrn 100 1MEG n 90 20 u
+a 0 s 1 0 85 18 hln 100 PIN=4
+a 0 s 0 0 90 22 hln 100 ERC=i
+p 2 77 52 hrn 100 OUT n 90 50 u
+a 0 s 1 0 85 48 hln 100 PIN=5
+a 0 s 0 0 92 52 hln 100 ERC=o
+p 2 0 78 hln 100 COM n 10 90 v
+a 0 s 1 0 5 92 hcn 100 PIN=8
+a 0 s 0 0 14 98 hln 100 ERC=p
+@graphics 90 90 10 0 10
+r 0 0 10 80 80
+v 0 20 26
+20 66
+;
+v 0 20 66
+55 46
+;
+v 0 55 46
+20 26
+;
+s 26 21 37 hln 100 +
+s 26 21 57 hln 100 -
+*symbol OPT202/BB ako 202/BB
+d PHOTODIODE WITH ON-CHIP AMPLIFIER
+@type p
+@attributes
+a 0 s 9 0 8 -2 hln 100 REFDES=U?
+a 0 sp 11 0 54 60 hln 100 PART=OPT202/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPT202/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %COM %IN- %V+ %V- %OUT %1MEG @MODEL
+a 0 s 0 0 0 10 hln 100 COMPONENT=OPT202
+*symbol OPT202_SIP5/BB
+d PHOTODIODE WITH ON-CHIP AMPLIFIER
+@type p
+@attributes
+a 0 s 9 0 -2 -2 hln 100 REFDES=U?
+a 0 sp 11 0 54 60 hln 100 PART=OPT202_SIP5/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPT202/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %COM $U^@REFDES  %V+ %V- %OUT %1MEG @MODEL \nI^@REFDES $U^@REFDES 0 0
+a 0 s 0 0 0 10 hln 100 COMPONENT=OPT202_SIP5
+@pins
+p 2 57 22 hrn 100 1MEG n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=4
+a 0 u 0 0 70 20 hln 100 ERC=i
+a 0 u 0 0 20 -20 hln 100 float=e
+p 2 2 48 hln 100 COM n 10 60 v
+a 0 u 1 0 5 62 hcn 100 pin=8
+a 0 u 0 0 10 60 hln 100 ERC=p
+a 0 u 0 0 -30 110 hln 100 float=e
+p 2 32 48 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 pin=3
+a 0 u 0 0 40 60 hln 100 ERC=p
+a 0 u 0 0 0 110 hln 100 float=e
+p 2 16 20 hln 100 V+ n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=1
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 -20 50 hln 100 float=e
+p 2 57 42 hrn 100 OUT n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=5
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 120 80 hln 100 float=e
+@graphics 70 60 20 0 10
+r 0 0 10 60 50
+*symbol OPT209/BB ako 202/BB
+d PHOTODIODE WITH ON-CHIP AMPLIFIER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 54 60 hln 100 PART=OPT209/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPT209/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %COM %IN- %V+ %V- %OUT %1MEG @MODEL
+a 0 s 0 0 0 10 hln 100 COMPONENT=OPT209
+*symbol OPT211/BB
+d Monolithic Photodiode and Single-Supply Transimpedance
+@type p
+@attributes
+a 0 sp 9 0 78 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %COM %-IN %V+ %V- %OUT %1MEG @MODEL
+a 0 sp 11 0 46 88 hln 100 PART=OPT211/BB
+a 0 sp 0 0 50 60 hln 100 MODEL=OPT211/BB
+@pins
+p 2 36 18 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=1
+a 0 s 0 0 38 0 hln 100 ERC=p
+p 2 10 18 hln 100 -IN n 10 0 d
+a 0 s 1 0 15 3 hcn 100 PIN=2
+a 0 s 0 0 10 0 hln 100 ERC=i
+p 2 32 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=3
+a 0 s 0 0 40 90 hln 100 ERC=p
+p 2 77 22 hrn 100 1MEG n 90 20 u
+a 0 s 1 0 85 18 hln 100 PIN=4
+a 0 s 0 0 90 22 hln 100 ERC=i
+p 2 77 52 hrn 100 OUT n 90 50 u
+a 0 s 1 0 85 48 hln 100 PIN=5
+a 0 s 0 0 92 52 hln 100 ERC=o
+p 2 0 78 hln 100 COM n 10 90 v
+a 0 s 1 0 5 92 hcn 100 PIN=8
+a 0 s 0 0 14 98 hln 100 ERC=p
+@graphics 90 90 10 0 10
+r 0 0 10 80 80
+v 0 20 26
+20 66
+;
+v 0 20 66
+55 46
+;
+v 0 55 46
+20 26
+;
+s 26 21 37 hln 100 +
+s 26 21 57 hln 100 -
+*symbol UAF42/BB ako 42/BB
+d Universal Active Filter
+@type p
+@attributes
+a 0 sp 11 0 74 110 hcn 100 PART=UAF42/BB
+a 0 sp 0 0 50 60 hcn 100 MODEL=UAF42/BB
+*symbol UAF42E/BB,UAF42/BB-E ako 42E/BB
+d Universal Active Filter
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=UAF42E/BB
+a 0 sp 11 0 48 110 hln 100 PART=UAF42E/BB
+*symbol VCA610M/BB
+d Wideband Voltage Controlled Amplifier
+@type p
+@attributes
+a 0 sp 11 0 76 56 hln 100 PART=VCA610M/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=VCA610M/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %GND %VC %OUT %V+ %V- %- @MODEL
+a 0 sp 9 0 16 0 hln 100 REFDES=U?
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 4 2 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 4 2 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 4 2 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=8
+a 0 u 0 0 4 2 hln 100 float=e
+p 2 41 24 hcn 100 V+ n 40 0 d
+a 0 u 0 0 4 2 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=6
+a 0 u 0 0 4 2 hln 100 float=e
+p 2 41 42 hcn 100 V- n 40 60 v
+a 0 u 0 0 4 2 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=7
+a 0 u 0 0 4 2 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 4 2 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=5
+a 0 u 0 0 4 2 hln 100 float=e
+p 2 64 46 hln 75 GND n 60 60 v
+a 0 u 1 0 55 62 hcn 75 pin=2
+a 0 u 0 0 62 62 hln 100 ERC=p
+a 0 u 0 0 2 2 hln 100 float=e
+p 2 13 32 hln 100 VC n 0 30 h
+a 0 u 0 0 6 20 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 6 20 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+60 35
+;
+*symbol 1013/BB b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 111/BB b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 58 35 hrn 50 T2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=5
+a 0 u 0 0 80 36 hln 100 ERC=i
+a 0 u 0 0 0 -14 hln 100 float=u
+p 2 52 38 hrn 50 T1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=u
+p 2 54 26 hrn 50 CASE n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 84 14 hln 100 ERC=x
+a 0 u 0 0 4 -26 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+70 40
+;
+v 0 60 40
+56 37
+;
+*symbol 118/BB b
+d
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 46 82 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN+ %IN- %V+ %V- %VO %REF %RG1 %RG2 @MODEL
+a 0 s 0 0 0 10 hln 100 COMPONENT=
+@pins
+p 2 13 22 hln 100 IN- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 -50 -20 hln 100 float=e
+p 2 13 32 hln 100 IN+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 -50 -10 hln 100 float=e
+p 2 13 42 hln 100 RG1 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 -50 0 hln 100 float=e
+p 2 13 52 hln 100 RG2 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=8
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 -50 10 hln 100 float=e
+p 2 13 62 hln 100 REF n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 -50 20 hln 100 float=e
+p 2 47 42 hrn 100 VO n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=6
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 10 0 hln 100 float=e
+p 2 30 18 hln 100 V+ n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=7
+a 0 u 0 0 30 0 hln 100 ERC=p
+a 0 u 0 0 -10 50 hln 100 float=e
+p 2 30 68 hln 100 V- n 30 80 v
+a 0 u 1 0 25 82 hcn 100 pin=4
+a 0 u 0 0 30 80 hln 100 ERC=p
+a 0 u 0 0 -10 130 hln 100 float=e
+@graphics 60 80 0 20 10
+r 0 10 10 50 70
+*symbol 202/BB b
+d
+@type p
+@attributes
+a 0 s 9 0 8 -2 hln 100 REFDES=U?
+a 0 sp 11 0 54 60 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %COM %IN- %V+ %V- %OUT %1MEG @MODEL
+a 0 s 0 0 0 10 hln 100 COMPONENT=
+@pins
+p 2 13 32 hln 100 IN- n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 -50 -10 hln 100 float=e
+p 2 67 22 hrn 100 1MEG n 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=4
+a 0 u 0 0 80 20 hln 100 ERC=i
+a 0 u 0 0 30 -20 hln 100 float=e
+p 2 12 48 hln 100 COM n 20 60 v
+a 0 u 1 0 15 62 hcn 100 pin=8
+a 0 u 0 0 20 60 hln 100 ERC=p
+a 0 u 0 0 -20 110 hln 100 float=e
+p 2 42 48 hln 100 V- n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=3
+a 0 u 0 0 50 60 hln 100 ERC=p
+a 0 u 0 0 10 110 hln 100 float=e
+p 2 26 20 hln 100 V+ n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=1
+a 0 u 0 0 30 0 hln 100 ERC=p
+a 0 u 0 0 -10 50 hln 100 float=e
+p 2 67 42 hrn 100 OUT n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=5
+a 0 u 0 0 80 40 hln 100 ERC=o
+a 0 u 0 0 130 80 hln 100 float=e
+@graphics 80 60 0 30 10
+r 0 10 10 70 50
+*symbol 2541/BB b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 27/BB b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 T2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 25 hrn 50 T1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 404/BB b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 4131/BB b
+d Operational Amplifier subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 42/BB b
+d Universal Active Filter
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 48 110 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %LPOUT %IN3 %IN2 %+ %- %OUT %BPOUT %ADJ1 %V- %V+ %GND %IN1 %HPOUT %ADJ2 @MODEL
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=4
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 32 hln 100 - n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=5
+a 0 u 0 0 0 32 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 IN2 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 0 52 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=e
+p 2 13 62 hln 100 IN3 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=2
+a 0 u 0 0 -2 62 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=e
+p 2 13 42 hln 100 IN1 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=12
+a 0 u 0 0 0 36 hln 100 ERC=i
+a 0 u 0 0 2 -24 hln 100 float=e
+p 2 13 72 hln 100 ADJ1 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=8
+a 0 u 0 0 -2 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 82 hln 100 ADJ2 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=14
+a 0 u 0 0 -2 82 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 16 98 hln 100 Gnd n 20 110 v
+a 0 u 1 0 15 112 hcn 100 pin=11
+a 0 u 0 0 30 116 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 34 98 hln 100 V- n 40 110 v
+a 0 u 1 0 35 112 hcn 100 pin=9
+a 0 u 0 0 40 112 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 42 hrn 100 OUT n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=6
+a 0 u 0 0 82 36 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 72 hrn 100 BPOUT n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=7
+a 0 u 0 0 82 62 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 82 hrn 100 HPOUT n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=13
+a 0 u 0 0 84 68 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 36 18 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=10
+a 0 u 0 0 28 -4 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 62 hrn 100 LPOUT n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=1
+a 0 u 0 0 80 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 110 0 20 10
+r 0 10 10 70 100
+*symbol 42E/BB b
+d Universal Active Filter
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %LPOUT %IN3 %IN2 %+ %- %OUT %BPOUT %ADJ1 %V- %V+ %GND %IN1 %HPOUT %ADJ2 @MODEL
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 48 110 hln 100 PART=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=4
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 32 hln 100 - n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=5
+a 0 u 0 0 0 32 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 IN2 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 0 52 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=e
+p 2 13 62 hln 100 IN3 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=2
+a 0 u 0 0 -2 62 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=e
+p 2 13 42 hln 100 IN1 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=12
+a 0 u 0 0 0 36 hln 100 ERC=i
+a 0 u 0 0 2 -24 hln 100 float=e
+p 2 13 72 hln 100 ADJ1 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=8
+a 0 u 0 0 -2 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 82 hln 100 ADJ2 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=14
+a 0 u 0 0 -2 82 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 12 98 hln 100 GND n 20 110 v
+a 0 u 1 0 15 112 hcn 100 pin=11
+a 0 u 0 0 30 116 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 34 98 hln 100 V- n 40 110 v
+a 0 u 1 0 35 112 hcn 100 pin=9
+a 0 u 0 0 40 112 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 42 hrn 100 OUT n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=6
+a 0 u 0 0 82 36 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 72 hrn 100 BPOUT n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=7
+a 0 u 0 0 82 62 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 82 hrn 100 HPOUT n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=13
+a 0 u 0 0 84 68 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 36 18 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=10
+a 0 u 0 0 28 -4 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 62 hrn 100 LPOUT n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=1
+a 0 u 0 0 80 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 110 0 20 10
+r 0 10 10 70 100
+*symbol 445/BB b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 T2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 25 hrn 50 T1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 501/BB b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 53 37 hrn 50 -CL n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 25 hrn 50 +CL n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=2
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 502/BB b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 59 35 hrn 50 OD- n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 80 36 hln 100 ERC=i
+a 0 u 0 0 0 -14 hln 100 float=u
+p 2 52 39 hrn 50 OD+ n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=2
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=u
+p 2 52 25 hrn 50 RFO n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=7
+a 0 u 0 0 84 14 hln 100 ERC=x
+a 0 u 0 0 4 -26 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+70 40
+;
+v 0 60 40
+56 37
+;
+*symbol 512/BB b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 58 35 hrn 50 -CL n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 80 36 hln 100 ERC=i
+a 0 u 0 0 0 -14 hln 100 float=u
+p 2 51 38 hrn 50 +CL n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=2
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=u
+p 2 53 25 hrn 50 RVI n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=7
+a 0 u 0 0 84 14 hln 100 ERC=x
+a 0 u 0 0 4 -26 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+70 40
+;
+v 0 60 40
+56 37
+;
+*symbol 541/BB b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 CS n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 600/BB b
+d High-speed Buffer Amplifier
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %V+ %IN %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 32 hln 100 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 -2 30 hln 100 ERC=i
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 603/BB b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 620/BB b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 622/BB b
+d Wide-Bandwidth Operational Amplifier
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 48 110 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IqAdj %- %+ %V- %Vout- %Buf- %Out %OTA %Vout+ %V+ %Buf+ @MODEL
+@pins
+p 2 13 22 hln 100 IQADJ n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 32 hln 100 - n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 32 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 42 hln 100 + n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 42 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 BUF+ n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=13
+a 0 u 0 0 2 56 hln 100 ERC=b
+p 2 67 32 hrn 100 VOUT+ n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=11
+a 0 u 0 0 78 26 hln 100 ERC=p
+a 0 u 0 0 76 86 hln 100 float=e
+p 2 67 52 hrn 100 BUF- n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 78 44 hln 100 ERC=o
+a 0 u 0 0 76 114 hln 100 float=e
+p 2 67 42 hrn 100 OTA n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=10
+a 0 u 0 0 78 30 hln 100 ERC=o
+a 0 u 0 0 76 112 hln 100 float=e
+p 2 34 68 hln 100 V- n 40 80 v
+a 0 u 1 0 35 82 hcn 100 pin=5
+a 0 u 0 0 40 82 hln 100 ERC=p
+a 0 u 0 0 0 -30 hln 100 float=e
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=9
+a 0 u 0 0 82 16 hln 100 ERC=o
+a 0 u 0 0 0 -20 hln 100 float=e
+p 2 67 62 hrn 100 VOUT- n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=6
+a 0 u 0 0 82 50 hln 100 ERC=p
+a 0 u 0 0 0 -12 hln 100 float=e
+p 2 36 18 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=12
+a 0 u 0 0 28 -4 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 80 0 20 10
+r 0 10 10 70 70
+*symbol 623/BB b
+d Wide Bandwidth, Current-Feedback Opamp
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %- %+ %V- %OUT %V+ @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 660/BB b
+d Operational Transconductance Amp & Buffer
+@type p
+@attributes
+a 1 s 9 0 56 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IQADJ %E %B %V- %IN %OUT %V+ %C @MODEL
+a 0 sp 11 0 58 92 hlb 100 PART=
+a 0 sp 0 0 68 92 hlb 100 MODEL=
+@pins
+p 2 13 32 hln 100 E n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 32 hln 100 ERC=i
+p 2 13 42 hln 100 B n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 13 22 hln 100 IQADJ n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 22 hln 100 ERC=x
+p 2 13 62 hln 100 IN n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 87 62 hrn 100 OUT n 100 60 u
+a 0 u 1 0 95 58 hln 100 pin=6
+a 0 u 0 0 98 64 hln 100 ERC=o
+p 2 48 20 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=7
+a 0 u 0 0 42 2 hln 100 ERC=p
+p 2 46 78 hln 100 V- n 50 90 v
+a 0 u 1 0 45 92 hcn 100 pin=4
+a 0 u 0 0 42 94 hln 100 ERC=p
+p 2 87 32 hrn 100 C n 100 30 u
+a 0 u 1 0 95 28 hln 100 pin=8
+a 0 u 0 0 102 34 hln 100 ERC=o
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+s 26 36 64 hln 100 +1
+v 0 35 75
+35 45
+;
+v 0 35 45
+65 60
+;
+v 0 65 60
+35 75
+;
+v 0 40 25
+45 35
+;
+v 0 35 35
+65 35
+;
+v 0 60 35
+65 25
+;
+v 0 50 40
+50 35
+;
+v 0 35 25
+35 30
+;
+v 0 35 25
+39 28
+;
+v 0 65 60
+70 60
+;
+v 0 35 60
+25 60
+;
+v 0 50 40
+20 40
+;
+v 0 40 25
+20 25
+;
+v 0 65 25
+80 25
+;
+v 0 70 20
+80 20
+;
+v 0 70 30
+80 30
+;
+v 0 80 20
+77 18
+;
+v 0 35 25
+40 35
+;
+v 0 35 30
+39 28
+;
+v 0 45 35
+45 30
+;
+v 0 45 35
+41 32
+;
+v 0 41 32
+45 30
+;
+v 0 80 20
+77 22
+;
+v 0 77 18
+77 22
+;
+v 0 70 30
+73 32
+;
+v 0 70 30
+73 28
+;
+v 0 73 32
+73 28
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1996, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60
+*symbol INA111AU
+d High Speed FET-Input instrumentation amplifier
+@type p
+@attributes
+a 1 sp 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 sp 11 0 68 92 hlb 100 PART=INA111AU
+a 0 sp 0 0 68 92 hlb 100 MODEL=
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=2
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=15
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=4
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=5
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=11
+a 0 s 0 0 100 40 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=13
+a 0 s 0 0 34 0 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=7
+a 0 s 0 0 34 90 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 52 78 hln 100 REF n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=10
+a 0 s 0 0 54 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 72 hrn 50 FB n 100 70 u
+a 0 s 1 0 95 68 hln 100 PIN=12
+a 0 s 0 0 102 72 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 37 39 hln 100 -
+s 26 37 59 hln 100 +
+*symbol INA114AP
+d Very high accuracy instrumentation amplifier
+@type p
+@attributes
+a 1 sp 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 sp 11 0 68 92 hlb 100 PART=INA114AP
+a 0 sp 0 0 68 92 hlb 100 MODEL=
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=2
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=15
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=4
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=5
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=11
+a 0 s 0 0 100 40 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=13
+a 0 s 0 0 34 0 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=7
+a 0 s 0 0 34 90 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 52 78 hln 100 REF n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=10
+a 0 s 0 0 54 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 37 39 hln 100 -
+s 26 37 59 hln 100 +
+*symbol INA131AU
+d Precision G=100 Instrumentation Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 1 sp 9 0 66 4 hln 100 REFDES=U?
+a 0 sp 11 0 70 88 hlb 100 PART=INA131AU
+@pins
+p 2 13 42 hln 100 GS1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=1
+a 0 s 0 0 2 36 hln 100 ERC=i
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 13 52 hln 100 GS2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=8
+a 0 s 0 0 2 46 hln 100 ERC=i
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 2 16 hln 100 ERC=i
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=3
+a 0 s 0 0 2 66 hln 100 ERC=i
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=6
+a 0 s 0 0 102 36 hln 100 ERC=o
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 36 16 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=7
+a 0 s 0 0 36 -4 hln 100 ERC=p
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 38 74 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=4
+a 0 s 0 0 36 86 hln 100 ERC=p
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 54 74 hln 100 REF n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=5
+a 0 s 0 0 56 86 hln 100 ERC=i
+a 0 s 0 0 2 -4 hln 100 FLOAT=e
+p 2 87 62 hrn 100 FB n 100 60 u
+a 0 s 1 0 95 58 hln 100 PIN=12
+a 0 s 0 0 102 56 hln 100 ERC=o
+a 0 s 0 0 2 16 hln 100 FLOAT=e
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 35 26
+35 66
+;
+v 0 35 66
+70 46
+;
+v 0 70 46
+35 26
+;
+s 26 39 35 hln 100 -
+s 26 39 55 hln 100 +
+*symbol OPA130/BB
+d Precision, Lo Power FET Input Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=OPA130/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA130/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 27 hrn 80 T1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 37 hrn 80 T2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol OPA132/BB
+d Hi-Speed, FET Input Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=OPA132/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA132/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 27 hrn 80 T1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 38 hrn 80 T2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=8
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol OPA2544/BB
+d Hi-Voltage, Hi-Current Dual Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 54 48 hln 100 PART=OPA2544/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA2544/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=4
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=5
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=2
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=6
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol OPA2650/BB
+d Dual Wideband, Lo-Power Feedback Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 54 48 hln 100 PART=OPA2650/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA2650X/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %- %+ %V- %OUT %V+ @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol OPA651/BB
+d Wideband, Lo-Power Voltage Feedback Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 54 48 hln 100 PART=OPA651/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA651X/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %- %+ %V- %OUT %V+ @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol OPA655/BB
+d Wideband FET Input Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=OPA655/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA655M/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %- %+ %V- %OUT %V+ @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 55 27 hrn 80 V+1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=8
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 55 37 hrn 80 V-1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol OPA2662/BB
+d Wide-Bandwidth, Dual, Power Transconductance Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 50 70 hln 100 PART=OPA2662/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA2662X1/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=x^@REFDES %B %E %C %V+ %V- %V+OUT %V-OUT %IQADJ %EN @MODEL ?VALUE/VALUE/
+a 0 up 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 EN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 IQADJ n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 26 58 hrn 100 V- n 20 70 v
+a 0 u 1 0 15 72 hcn 100 PIN=8
+a 0 u 0 0 20 70 hln 100 ERC=x
+a 0 u 0 0 20 70 hln 100 FLOAT=n
+p 2 48 58 hrn 100 GND n 40 70 v
+a 0 u 1 0 35 72 hcn 100 PIN=4
+a 0 u 0 0 40 70 hln 100 ERC=p
+a 0 u 0 0 40 70 hln 100 FLOAT=u
+p 2 77 22 hrn 100 E n 90 20 u
+a 0 u 1 0 85 18 hln 100 PIN=15
+a 0 u 0 0 90 20 hln 100 ERC=o
+a 0 u 0 0 90 20 hln 100 FLOAT=n
+p 2 77 32 hrn 100 C n 90 30 u
+a 0 u 1 0 85 28 hln 100 PIN=14
+a 0 u 0 0 90 30 hln 100 ERC=o
+a 0 u 0 0 90 30 hln 100 FLOAT=n
+p 2 77 42 hrn 100 V+OUT n 90 40 u
+a 0 u 1 0 85 38 hln 100 PIN=16
+a 0 u 0 0 90 40 hln 100 ERC=o
+a 0 u 0 0 90 40 hln 100 FLOAT=n
+p 2 77 52 hrn 100 V-OUT n 90 50 u
+a 0 u 1 0 85 48 hln 100 PIN=9
+a 0 u 0 0 90 50 hln 100 ERC=o
+a 0 u 0 0 90 50 hln 100 FLOAT=n
+p 2 36 18 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=1
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 90 70 0 20 10
+r 0 10 10 80 60
+*symbol OPA544/BB
+d Hi-Current, Hi-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 54 48 hln 100 PART=OPA544/BB
+a 0 sp 0 0 0 0 hln 100 MODEL=OPA544/BB
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=1
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=4
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=5
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=3
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;

@@ -1,0 +1,161 @@
+*version 6.3 281447064
+u 150
+XC5200 1957832128
+U? 7
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 2653 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 151 INTERFACE 570 300 u
+a 0 s 3 0 10 8 hln 80 LABEL=O
+port 152 IF_IN 110 390 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+port 153 IF_IN 110 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 154 IF_IN 110 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 155 IF_IN 110 450 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+@parts
+part 14 VCC 340 620 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U1
+a 0 sp 11 0 20 10 hcn 100 PART=VCC
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 17 GND 340 520 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U2
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 24 AND4 210 390 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 80 hlt 100 PART=AND4
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 30 CY_MUX 380 420 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U4
+a 0 sp 11 0 20 32 hln 100 PART=CY_MUX
+a 0 u 13 13 80 30 hln 100 RLOC=R0C0.LC3
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 34 CY_INIT 440 610 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U5
+a 0 sp 11 0 20 71 hln 100 PART=CY_INIT
+a 0 u 13 13 20 80 hln 100 RLOC=R0C0.LC2
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 41 FMAP 620 430 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U6
+a 0 sp 11 0 60 20 hcn 200 PART=FMAP
+a 0 u 13 13 25 127 hln 100 MAP=PUO
+a 0 u 13 13 20 140 hln 100 RLOC=R0C0.LC3
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+@conn
+w 43
+s 440 610 440 450 42
+a 0 s 3 0 440 560 hln 100 LABEL=C_IN0
+w 58
+s 340 660 370 660 56
+s 340 660 340 620 57
+w 73
+s 290 420 380 420 71
+a 0 s 3 0 300 420 hln 100 LABEL=S0
+w 74
+s 740 460 790 460 72
+a 0 s 3 0 760 460 hln 100 LABEL=S0
+w 94
+s 110 410 210 410 93
+a 0 s 3 0 120 410 hln 100 LABEL=A2
+w 102
+s 110 450 210 450 101
+a 0 s 3 0 120 450 hln 100 LABEL=A0
+w 112
+s 420 480 420 450 109
+s 340 480 420 480 110
+s 340 520 340 480 111
+w 126
+s 110 430 210 430 125
+a 0 s 3 0 120 430 hln 100 LABEL=A1
+w 135
+s 430 300 570 300 133
+a 0 s 3 0 550 300 hln 100 LABEL=O
+s 430 380 430 300 134
+w 143
+s 110 390 210 390 142
+a 0 s 3 0 120 390 hln 100 LABEL=A3
+@junction
+j 440 450
++ p 30 CI
++ w 43
+j 440 610
++ p 34 COUT
++ w 43
+j 340 620
++ p 14 VCC
++ w 58
+j 370 660
++ p 34 INIT
++ w 58
+j 290 420
++ p 24 O
++ w 73
+j 380 420
++ p 30 S
++ w 73
+j 740 460
++ p 41 O
++ w 74
+j 210 410
++ p 24 I2
++ w 94
+j 210 450
++ p 24 I0
++ w 102
+j 340 520
++ p 17 GROUND
++ w 112
+j 420 450
++ p 30 DI
++ w 112
+j 210 430
++ p 24 I1
++ w 126
+j 430 380
++ p 30 CO
++ w 135
+j 210 390
++ p 24 I3
++ w 143
+j 570 300
++ s 151
++ w 135
+j 110 390
++ s 152
++ w 143
+j 110 410
++ s 153
++ w 94
+j 110 430
++ s 154
++ w 126
+j 110 450
++ s 155
++ w 102
+@attributes
+@text
+s 5 460 1050 hln 100 1ST JUNE 1994
+s 5 500 1020 hln 100 4-BIT ACTIVE-LOW DECODER
+s 5 500 1000 hln 100 XC5200 FAMILY DECODE4 MACRO
+s 5 700 1050 hln 100 1
+s 5 700 1070 hln 100 A
+s 5 30 1070 hln 100 COPYRIGHT (C) 1994, XILINX INC.

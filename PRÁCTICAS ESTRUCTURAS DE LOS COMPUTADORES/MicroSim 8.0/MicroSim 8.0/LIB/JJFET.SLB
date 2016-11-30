@@ -1,0 +1,948 @@
+*version 8.0 2966426865
+@index
+symloc J2SJ40:pjd 0 187
+symloc J2SJ44:pjd 187 187
+symloc J2SJ45:pjd 374 187
+symloc J2SJ72:pjd 561 187
+symloc J2SJ74:pjd 748 187
+symloc J2SJ103:pjd 935 191
+symloc J2SJ104:pjd 1126 191
+symloc J2SJ105:pjd 1317 191
+symloc J2SJ106:pjd 1508 191
+symloc J2SJ107:pjd 1699 191
+symloc J2SJ108:pjd 1890 191
+symloc J2SJ109:pjd 2081 191
+symloc J2SJ125:pjd 2272 191
+symloc J2SJ129:pjd 2463 191
+symloc J2SJ144:pjd 2654 191
+symloc J2SJ145:pjd 2845 191
+symloc J2SJ163:pjd 3036 191
+symloc J2SJ164:pjd 3227 191
+symloc J2SK104:njd 3418 191
+symloc J2SK105:njd 3609 191
+symloc J2SK108:njd 3800 191
+symloc J2SK110:njd 3991 191
+symloc J2SK117:njd 4182 191
+symloc J2SK118:njd 4373 191
+symloc J2SK121:njd 4564 191
+symloc J2SK123:njd 4755 191
+symloc J2SK125:njd 4946 191
+symloc J2SK146:njd 5137 191
+symloc J2SK147:njd 5328 191
+symloc J2SK152:njd 5519 191
+symloc J2SK163:njd 5710 191
+symloc J2SK170:njd 5901 191
+symloc J2SK184:njd 6092 191
+symloc J2SK198:njd 6283 191
+symloc J2SK208:njd 6474 191
+symloc J2SK212:njd 6665 191
+symloc J2SK218:njd 6856 191
+symloc J2SK223:njd 7047 191
+symloc J2SK242:njd 7238 191
+symloc J2SK246:njd 7429 191
+symloc J2SK266:njd 7620 191
+symloc J2SK300:njd 7811 191
+symloc J2SK301:njd 8002 191
+symloc J2SK303:njd 8193 191
+symloc J2SK304:njd 8384 191
+symloc J2SK316:njd 8575 191
+symloc J2SK330:njd 8766 191
+symloc J2SK332:njd 8957 191
+symloc J2SK333:njd 9148 191
+symloc J2SK334:njd 9339 191
+symloc J2SK362:njd 9530 191
+symloc J2SK363:njd 9721 191
+symloc J2SK364:njd 9912 191
+symloc J2SK365:njd 10103 191
+symloc J2SK366:njd 10294 191
+symloc J2SK367:njd 10485 191
+symloc J2SK368:njd 10676 191
+symloc J2SK369:njd 10867 191
+symloc J2SK370:njd 11058 191
+symloc J2SK371:njd 11249 191
+symloc J2SK372:njd 11440 191
+symloc J2SK373:njd 11631 191
+symloc J2SK374:njd 11822 191
+symloc J2SK381:njd 12013 191
+symloc J2SK389:njd 12204 191
+symloc J2SK427:njd 12395 191
+symloc J2SK433:njd 12586 191
+symloc J2SK436:njd 12777 191
+symloc J2SK443:njd 12968 192
+symloc J2SK444:njd 13160 191
+symloc J2SK445:njd 13351 191
+symloc J2SK456:njd 13542 191
+symloc J2SK492:njd 13733 191
+symloc J2SK505:njd 13924 191
+symloc J2SK507:njd 14115 191
+symloc J2SK514:njd 14306 191
+symloc J2SK518:njd 14497 191
+symloc J2SK519:njd 14688 191
+symloc J2SK523:njd 14879 191
+symloc J2SK533:njd 15070 191
+symloc J2SK606:njd 15261 191
+symloc J2SK607:njd 15452 191
+symloc J2SK608:njd 15643 191
+symloc J2SK613:njd 15834 191
+symloc J2SK624:njd 16025 191
+symloc J2SK625:njd 16216 191
+symloc J2SK645:njd 16407 191
+symloc J2SK652:njd 16598 191
+symloc J2SK660:njd 16789 191
+symloc J2SK662:njd 16980 191
+symloc J2SK663:njd 17171 191
+symloc J2SK715:njd 17362 191
+symloc J2SK771:njd 17553 191
+symloc J2SK772:njd 17744 191
+symloc J2SK879:njd 17935 191
+symloc J2SK880:njd 18126 196
+symloc J2SK930:njd 18322 191
+symloc J2SK1103:njd 18513 195
+symloc J2SK1104:njd 18708 195
+symloc J2SK1216:njd 18903 195
+symloc J2SK1227:njd 19098 195
+symloc njd 19293 475 b
+symloc nje 19768 477 b
+symloc pjd 20245 475 b
+symloc pje 20720 477 b
+symloc copyright 21197 448 b
+*symbol J2SJ40 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ40
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ40
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ40
+*symbol J2SJ44 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ44
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ44
+a 0 s 0 0 0 10 hcn 100 COMPONENT=2SJ44
+*symbol J2SJ45 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ45
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ45
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ45
+*symbol J2SJ72 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ72
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ72
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ72
+*symbol J2SJ74 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ74
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ74
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ74
+*symbol J2SJ103 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ103
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ103
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ103
+*symbol J2SJ104 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ104
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ104
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ104
+*symbol J2SJ105 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ105
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ105
+a 0 s 0 0 0 10 hcn 100 COMPONENT=2SJ105
+*symbol J2SJ106 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ106
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ106
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ106
+*symbol J2SJ107 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ107
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ107
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ107
+*symbol J2SJ108 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ108
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ108
+a 0 s 0 0 0 10 hcn 100 COMPONENT=2SJ108
+*symbol J2SJ109 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ109
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ109
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ109
+*symbol J2SJ125 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ125
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ125
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ125
+*symbol J2SJ129 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ129
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ129
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ129
+*symbol J2SJ144 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ144
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ144
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ144
+*symbol J2SJ145 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ145
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ145
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ145
+*symbol J2SJ163 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ163
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ163
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ163
+*symbol J2SJ164 ako pjd
+d p-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SJ164
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SJ164
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SJ164
+*symbol J2SK104 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK104
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK104
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK104
+*symbol J2SK105 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK105
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK105
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK105
+*symbol J2SK108 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK108
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK108
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK108
+*symbol J2SK110 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK110
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK110
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK110
+*symbol J2SK117 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK117
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK117
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK117
+*symbol J2SK118 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK118
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK118
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK118
+*symbol J2SK121 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK121
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK121
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK121
+*symbol J2SK123 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK123
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK123
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK123
+*symbol J2SK125 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK125
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK125
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK125
+*symbol J2SK146 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK146
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK146
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK146
+*symbol J2SK147 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK147
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK147
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK147
+*symbol J2SK152 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK152
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK152
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK152
+*symbol J2SK163 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK163
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK163
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK163
+*symbol J2SK170 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK170
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK170
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK170
+*symbol J2SK184 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK184
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK184
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK184
+*symbol J2SK198 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK198
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK198
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK198
+*symbol J2SK208 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK208
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK208
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK208
+*symbol J2SK212 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK212
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK212
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK212
+*symbol J2SK218 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK218
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK218
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK218
+*symbol J2SK223 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK223
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK223
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK223
+*symbol J2SK242 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK242
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK242
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK242
+*symbol J2SK246 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK246
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK246
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK246
+*symbol J2SK266 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK266
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK266
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK266
+*symbol J2SK300 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK300
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK300
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK300
+*symbol J2SK301 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK301
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK301
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK301
+*symbol J2SK303 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK303
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK303
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK303
+*symbol J2SK304 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK304
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK304
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK304
+*symbol J2SK316 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK316
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK316
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK316
+*symbol J2SK330 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK330
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK330
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK330
+*symbol J2SK332 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK332
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK332
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK332
+*symbol J2SK333 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK333
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK333
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK333
+*symbol J2SK334 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK334
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK334
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK334
+*symbol J2SK362 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK362
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK362
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK362
+*symbol J2SK363 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK363
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK363
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK363
+*symbol J2SK364 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK364
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK364
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK364
+*symbol J2SK365 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK365
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK365
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK365
+*symbol J2SK366 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK366
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK366
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK366
+*symbol J2SK367 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK367
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK367
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK367
+*symbol J2SK368 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK368
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK368
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK368
+*symbol J2SK369 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK369
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK369
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK369
+*symbol J2SK370 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK370
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK370
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK370
+*symbol J2SK371 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK371
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK371
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK371
+*symbol J2SK372 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK372
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK372
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK372
+*symbol J2SK373 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK373
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK373
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK373
+*symbol J2SK374 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK374
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK374
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK374
+*symbol J2SK381 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK381
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK381
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK381
+*symbol J2SK389 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK389
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK389
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK389
+*symbol J2SK427 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK427
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK427
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK427
+*symbol J2SK433 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK433
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK433
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK433
+*symbol J2SK436 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK436
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK436
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK436
+*symbol J2SK443 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK443
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK443
+a 0 sp 0 0 0 10 hcn 100 COMPONENT=2SK443
+*symbol J2SK444 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK444
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK444
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK444
+*symbol J2SK445 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK445
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK445
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK445
+*symbol J2SK456 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK456
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK456
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK456
+*symbol J2SK492 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK492
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK492
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK492
+*symbol J2SK505 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK505
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK505
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK505
+*symbol J2SK507 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK507
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK507
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK507
+*symbol J2SK514 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK514
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK514
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK514
+*symbol J2SK518 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK518
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK518
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK518
+*symbol J2SK519 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK519
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK519
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK519
+*symbol J2SK523 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK523
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK523
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK523
+*symbol J2SK533 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK533
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK533
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK533
+*symbol J2SK606 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK606
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK606
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK606
+*symbol J2SK607 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK607
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK607
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK607
+*symbol J2SK608 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK608
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK608
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK608
+*symbol J2SK613 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK613
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK613
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK613
+*symbol J2SK624 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK624
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK624
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK624
+*symbol J2SK625 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK625
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK625
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK625
+*symbol J2SK645 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK645
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK645
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK645
+*symbol J2SK652 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK652
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK652
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK652
+*symbol J2SK660 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK660
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK660
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK660
+*symbol J2SK662 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK662
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK662
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK662
+*symbol J2SK663 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK663
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK663
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK663
+*symbol J2SK715 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK715
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK715
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK715
+*symbol J2SK771 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK771
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK771
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK771
+*symbol J2SK772 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK772
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK772
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK772
+*symbol J2SK879 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK879
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK879
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK879
+*symbol J2SK880 ako njd
+d Silicon N-Channel Junction Type
+@type p
+@attributes
+a 0 sp 11 0 52 22 hcn 100 PART=J2SK880
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK880
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK880
+*symbol J2SK930 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK930
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK930
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK930
+*symbol J2SK1103 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK1103
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK1103
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK1103
+*symbol J2SK1104 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK1104
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK1104
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK1104
+*symbol J2SK1216 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK1216
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK1216
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK1216
+*symbol J2SK1227 ako njd
+d n-channel jfet - depletion
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=J2SK1227
+a 0 sp 0 0 10 40 hcn 100 MODEL=J2SK1227
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SK1227
+*symbol njd b
+d n-channel jfet - depletion
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=J^@refdes %d %g %s @MODEL ?value/@value/
+a 0 s 9 0 5 10 hcn 100 refdes=J?
+a 0 u 0 0 0 0 hcn 100 value=
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+20 20
+;
+v 0 20 30
+30 30
+;
+v 0 20 7
+20 33
+;
+v 0 20 10
+30 10
+;
+v 0 11 18
+17 20
+11 22
+;
+*symbol nje b
+d n-channel jfet - enhancement
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=J^@refdes %d %g %s @MODEL ?value/@value/
+a 0 s 9 0 5 10 hcn 100 refdes=J?
+a 0 u 0 0 0 0 hcn 100 value=
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+20 20
+;
+v 0 20 30
+30 30
+;
+v 0 20 7
+20 33
+;
+v 0 20 10
+30 10
+;
+v 0 11 18
+17 20
+11 22
+;
+*symbol pjd b
+d p-channel jfet - depletion
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=J^@refdes %d %g %s @MODEL ?value/@value/
+a 0 s 9 0 5 10 hcn 100 refdes=J?
+a 0 u 0 0 0 0 hcn 100 value=
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+20 20
+;
+v 0 20 7
+20 33
+;
+v 0 20 10
+30 10
+;
+v 0 20 30
+30 30
+;
+v 0 17 22
+11 20
+17 18
+;
+*symbol pje b
+d p-channel jfet - enhancement
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=J^@refdes %d %g %s @MODEL ?value/@value/
+a 0 s 9 0 5 10 hcn 100 refdes=J?
+a 0 u 0 0 0 0 hcn 100 value=
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+20 20
+;
+v 0 20 7
+20 33
+;
+v 0 20 10
+30 10
+;
+v 0 20 30
+30 30
+;
+v 0 17 22
+11 20
+17 18
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1994-1996, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

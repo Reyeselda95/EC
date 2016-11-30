@@ -1,0 +1,15 @@
+# P-CAD package maps
+
+# Copyright 1992,1993 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+# The following are examples of how to map MicroSim package types
+# to P-CAD specific package types
+
+# CC20         -CC2200
+# CC*          -CC
+
+# TO3          TO-3
+
+DEFAULT

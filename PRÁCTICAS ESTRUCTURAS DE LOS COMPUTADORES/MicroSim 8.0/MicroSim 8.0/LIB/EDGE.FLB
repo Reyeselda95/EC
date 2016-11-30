@@ -1,0 +1,170 @@
+*version 7.1 662651034
+@index
+symloc EDGE26 0 1846 26 thru
+symloc EDGE40 1846 2065 40 smt
+symloc EDGE62 3911 2349 62 thru
+*footprint EDGE26 26 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.47 0.27 6 0 0.0625 0.005 0 0 0
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.47 0.27 6 0 0.0625 0.005 0 0 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.48 -0.36 6 0 0.0625 0.005 0 0 0
+@graphics
+centroid [BoundaryTop] 0.6 0.32
+line [BoundaryTop] -0.15 0.37 -0.15 -0.26 0.016 0
+line [BoundaryTop] -0.15 -0.26 1.35 -0.26 0.016 0
+line [BoundaryTop] 1.35 -0.26 1.35 0.37 0.016 0
+@pins
+pin 1 0.000000 0.000000 0.000000 oval-062x500 smtTop
+pin 2 0.100000 0.000000 0.000000 oval-062x500 smtTop
+pin 3 0.200000 0.000000 0.000000 oval-062x500 smtTop
+pin 4 0.300000 0.000000 0.000000 oval-062x500 smtTop
+pin 5 0.400000 0.000000 0.000000 oval-062x500 smtTop
+pin 6 0.500000 0.000000 0.000000 oval-062x500 smtTop
+pin 7 0.600000 0.000000 0.000000 oval-062x500 smtTop
+pin 8 0.700000 0.000000 0.000000 oval-062x500 smtTop
+pin 9 0.800000 0.000000 0.000000 oval-062x500 smtTop
+pin 10 0.900000 0.000000 0.000000 oval-062x500 smtTop
+pin 11 1.000000 0.000000 0.000000 oval-062x500 smtTop
+pin 12 1.100000 0.000000 0.000000 oval-062x500 smtTop
+pin 13 1.200000 0.000000 0.000000 oval-062x500 smtTop
+pin 14 1.200000 0.000000 0.000000 oval-062x500 smtBot
+pin 15 1.100000 0.000000 0.000000 oval-062x500 smtBot
+pin 16 1.000000 0.000000 0.000000 oval-062x500 smtBot
+pin 17 0.900000 0.000000 0.000000 oval-062x500 smtBot
+pin 18 0.800000 0.000000 0.000000 oval-062x500 smtBot
+pin 19 0.700000 0.000000 0.000000 oval-062x500 smtBot
+pin 20 0.600000 0.000000 0.000000 oval-062x500 smtBot
+pin 21 0.500000 0.000000 0.000000 oval-062x500 smtBot
+pin 22 0.400000 0.000000 0.000000 oval-062x500 smtBot
+pin 23 0.300000 0.000000 0.000000 oval-062x500 smtBot
+pin 24 0.200000 0.000000 0.000000 oval-062x500 smtBot
+pin 25 0.100000 0.000000 0.000000 oval-062x500 smtBot
+pin 26 0.000000 0.000000 0.000000 oval-062x500 smtBot
+*footprint EDGE40 40 smt
+@refdes 4
+display  [SilkTop] SilkTop 0.9 0.2 6 0 0.0625 0.005 0 0 0
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.9 0.2 6 0 0.0625 0.005 0 0 0
+@comptype 7
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.75 -0.3 6 0 0.0625 0.005 0 0 0
+@graphics
+line [BoundaryTop] -0.15 -0.2 -0.15 0.2 0.016 0
+line [BoundaryTop] -0.15 0.2 2.05 0.2 0.016 0
+line [BoundaryTop] 2.05 0.2 2.05 -0.2 0.016 0
+line [BoundaryTop] 2.05 -0.2 -0.15 -0.2 0.016 0
+line [SilkTop] -0.15 0.2 -0.15 0.3 0.016 0
+line [SilkTop] -0.15 0.3 2.05 0.3 0.016 0
+line [SilkTop] 2.05 0.3 2.05 0.2 0.016 0
+line [SilkTop] 2.05 0.2 -0.15 0.2 0.016 0
+centroid [BoundaryTop] 1 0.25
+@pins
+pin A1 0 0 0 rect-050x300 smtTop
+pin A2 0.1 0 0 rect-050x300 smtTop
+pin A3 0.2 0 0 rect-050x300 smtTop
+pin A4 0.3 0 0 rect-050x300 smtTop
+pin A5 0.4 0 0 rect-050x300 smtTop
+pin A6 0.5 0 0 rect-050x300 smtTop
+pin A7 0.6 0 0 rect-050x300 smtTop
+pin A8 0.7 0 0 rect-050x300 smtTop
+pin A9 0.8 0 0 rect-050x300 smtTop
+pin A10 0.9 0 0 rect-050x300 smtTop
+pin A11 1 0 0 rect-050x300 smtTop
+pin A12 1.1 0 0 rect-050x300 smtTop
+pin A13 1.2 0 0 rect-050x300 smtTop
+pin A14 1.3 0 0 rect-050x300 smtTop
+pin A15 1.4 0 0 rect-050x300 smtTop
+pin A16 1.5 0 0 rect-050x300 smtTop
+pin A17 1.6 0 0 rect-050x300 smtTop
+pin A18 1.7 0 0 rect-050x300 smtTop
+pin A19 1.8 0 0 rect-050x300 smtTop
+pin A20 1.9 0 0 rect-050x300 smtTop
+pin B1 1.9 0 0 rect-050x300 smtBot
+pin B2 1.8 0 0 rect-050x300 smtBot
+pin B3 1.7 0 0 rect-050x300 smtBot
+pin B4 1.6 0 0 rect-050x300 smtBot
+pin B5 1.5 0 0 rect-050x300 smtBot
+pin B6 1.4 0 0 rect-050x300 smtBot
+pin B7 1.3 0 0 rect-050x300 smtBot
+pin B8 1.2 0 0 rect-050x300 smtBot
+pin B9 1.1 0 0 rect-050x300 smtBot
+pin B10 1 0 0 rect-050x300 smtBot
+pin B11 0.9 0 0 rect-050x300 smtBot
+pin B12 0.8 0 0 rect-050x300 smtBot
+pin B13 0.7 0 0 rect-050x300 smtBot
+pin B14 0.6 0 0 rect-050x300 smtBot
+pin B15 0.5 0 0 rect-050x300 smtBot
+pin B16 0.4 0 0 rect-050x300 smtBot
+pin B17 0.3 0 0 rect-050x300 smtBot
+pin B18 0.2 0 0 rect-050x300 smtBot
+pin B19 0.1 0 0 rect-050x300 smtBot
+pin B20 0 0 0 rect-050x300 smtBot
+*footprint EDGE62 62 thru
+@refdes 4
+display  [SilkTop] SilkTop -0.3 0.175 6 0 0.0625 0.005 0 0 0
+display [SMTAssyDrwTop] SMTAssemblyTop -0.3 0.175  6 0 0.0625 0.005 0 0 0
+@comptype 7
+display [SMTAssyDrwTop] SMTAssemblyTop 3.05 0.14375  6 0 0.0625 0.005 0 0 0
+@graphics
+@pins
+pin A1 0 0 rect-050x300 smtTop
+pin A2 0.1 0 rect-050x300 smtTop
+pin A3 0.2 0 rect-050x300 smtTop
+pin A4 0.3 0 rect-050x300 smtTop
+pin A5 0.4 0 rect-050x300 smtTop
+pin A6 0.5 0 rect-050x300 smtTop
+pin A7 0.6 0 rect-050x300 smtTop
+pin A8 0.7 0 rect-050x300 smtTop
+pin A9 0.8 0 rect-050x300 smtTop
+pin A10 0.9 0 rect-050x300 smtTop
+pin A11 1 0 rect-050x300 smtTop
+pin A12 1.1 0 rect-050x300 smtTop
+pin A13 1.2 0 rect-050x300 smtTop
+pin A14 1.3 0 rect-050x300 smtTop
+pin A15 1.4 0 rect-050x300 smtTop
+pin A16 1.5 0 rect-050x300 smtTop
+pin A17 1.6 0 rect-050x300 smtTop
+pin A18 1.7 0 rect-050x300 smtTop
+pin A19 1.8 0 rect-050x300 smtTop
+pin A20 1.9 0 rect-050x300 smtTop
+pin A21 2 0 rect-050x300 smtTop
+pin A22 2.1 0 rect-050x300 smtTop
+pin A23 2.2 0 rect-050x300 smtTop
+pin A24 2.3 0 rect-050x300 smtTop
+pin A25 2.4 0 rect-050x300 smtTop
+pin A26 2.5 0 rect-050x300 smtTop
+pin A27 2.6 0 rect-050x300 smtTop
+pin A28 2.7 0 rect-050x300 smtTop
+pin A29 2.8 0 rect-050x300 smtTop
+pin A30 2.9 0 rect-050x300 smtTop
+pin A31 3 0 rect-050x300 smtTop
+pin B1 3 0 rect-050x300 smtBot
+pin B2 2.9 0 rect-050x300 smtBot
+pin B3 2.8 0 rect-050x300 smtBot
+pin B4 2.7 0 rect-050x300 smtBot
+pin B5 2.6 0 rect-050x300 smtBot
+pin B6 2.5 0 rect-050x300 smtBot
+pin B7 2.4 0 rect-050x300 smtBot
+pin B8 2.3 0 rect-050x300 smtBot
+pin B9 2.2 0 rect-050x300 smtBot
+pin B10 2.1 0 rect-050x300 smtBot
+pin B11 2 0 rect-050x300 smtBot
+pin B12 1.9 0 rect-050x300 smtBot
+pin B13 1.8 0 rect-050x300 smtBot
+pin B14 1.7 0 rect-050x300 smtBot
+pin B15 1.6 0 rect-050x300 smtBot
+pin B16 1.5 0 rect-050x300 smtBot
+pin B17 1.4 0 rect-050x300 smtBot
+pin B18 1.3 0 rect-050x300 smtBot
+pin B19 1.2 0 rect-050x300 smtBot
+pin B20 1.1 0 rect-050x300 smtBot
+pin B21 1 0 rect-050x300 smtBot
+pin B22 0.9 0 rect-050x300 smtBot
+pin B23 0.8 0 rect-050x300 smtBot
+pin B24 0.7 0 rect-050x300 smtBot
+pin B25 0.6 0 rect-050x300 smtBot
+pin B26 0.5 0 rect-050x300 smtBot
+pin B27 0.4 0 rect-050x300 smtBot
+pin B28 0.3 0 rect-050x300 smtBot
+pin B29 0.2 0 rect-050x300 smtBot
+pin B30 0.1 0 rect-050x300 smtBot
+pin B31 0 0 rect-050x300 smtBot

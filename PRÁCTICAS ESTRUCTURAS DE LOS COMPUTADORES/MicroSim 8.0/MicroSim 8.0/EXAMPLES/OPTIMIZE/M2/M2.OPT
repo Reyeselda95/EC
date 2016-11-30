@@ -1,0 +1,37 @@
+* Version 1.1
+@status
+@specs
+est 0 0
+spec "Power" 1 1
+sim "m2" 1 0 "-i(v2)*10v" ""
+isint 1
+isconstr 0
+int 2 1uw 100uw
+ext "" "" "" 1%
+spec "Gain" 1 1
+sim "m2" 0 0 "yatx(v(vout),1k)" ""
+isint 1
+isconstr 1
+int 2 20 2
+ext "" "" "" 1%
+spec "BW" 1 1
+sim "m2" 0 0 "LPBW(vdb(vout),3)" ""
+isint 1
+isconstr 1
+int 3 1Meg 100k
+ext "" "" "" 1%
+@params
+param W1 1
+val 75u 75u 10u 150u 0
+param L1 1
+val 5u 5u 2u 50u 0
+param Iref 1
+val 100uA 100uA 10uA 500uA 0
+@controls
+display "" 1 ""
+delta 1%
+threshold 0
+cutback 0.25
+maxiters 7
+opt 1
+auto 1

@@ -1,0 +1,23 @@
+#include "libfuse.msg"
+#include "libfb.msg"
+#include "libmutil.msg"
+#include "libdb3.msg"
+#include "libexpr.msg"
+#include "libpi.msg"
+
+>F LOCK NOT INSTALLED
+=[4000] Access denied to product
+
+>F usage
+=[4001] PLFuse usage:  plfuse design_name
+>W No solutions in .fb file.
+=[4002] No solutions in .fb file.
+>W No soln selected during plfit assuming solution #1.
+=[4003] No solution selected during plfit assuming solution #1.
+>Wd Invalid solution # specified assuming solution #1.
+=[4004] Invalid solution #%d specified assuming solution #1.
+&SOLUTION_NUMBER
+>Fddd Invalid device number
+=[4005] Invalid device #%d specified for solution %d (valid values - 1 to %d)
+>W plba must be run before plfuse
+=[4006] PLBA must be run before PLFuse.

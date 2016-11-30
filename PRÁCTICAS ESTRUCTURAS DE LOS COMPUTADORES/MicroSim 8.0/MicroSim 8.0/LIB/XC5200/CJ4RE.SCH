@@ -1,0 +1,261 @@
+*version 6.3 857672139
+u 261
+XC5200 906226387
+U? 6
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3871 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 262 IF_OUT 750 230 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 263 IF_OUT 750 380 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+port 264 IF_OUT 750 530 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q2
+port 265 IF_OUT 750 680 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q3
+port 266 IF_IN 90 720 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 267 IF_IN 90 700 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 268 IF_IN 90 750 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+@parts
+part 18 FDRE 490 230 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 19 FDRE 490 380 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 20 FDRE 490 680 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 21 FDRE 490 530 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U4
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 25 INV 310 230 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U5
+a 0 sp 11 0 30 14 hlt 100 PART=INV
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+@conn
+w 32
+s 650 230 750 230 26
+a 0 s 3 0 720 230 hln 100 LABEL=Q0
+s 650 320 650 230 27
+s 450 320 650 320 30
+s 450 380 490 380 28
+s 450 380 450 320 29
+s 610 230 650 230 31
+w 57
+s 90 750 430 750 49
+a 0 s 3 0 100 750 hln 100 LABEL=R
+s 430 750 490 750 50
+s 430 750 430 600 51
+s 430 600 490 600 52
+s 430 600 430 450 53
+s 430 450 490 450 54
+s 430 450 430 300 55
+s 430 300 490 300 56
+w 99
+s 90 720 410 720 91
+a 0 s 3 0 100 720 hln 100 LABEL=C
+s 410 720 490 720 92
+s 410 720 410 570 93
+s 410 420 410 270 95
+s 410 270 490 270 94
+s 410 420 490 420 96
+s 410 570 410 420 97
+s 410 570 490 570 98
+w 140
+s 650 530 750 530 134
+a 0 s 3 0 720 530 hln 100 LABEL=Q2
+s 650 620 650 530 138
+s 450 680 490 680 135
+s 450 680 450 620 136
+s 450 620 650 620 137
+s 610 530 650 530 139
+w 163
+s 650 380 750 380 157
+a 0 s 3 0 720 380 hln 100 LABEL=Q1
+s 650 470 650 380 161
+s 450 530 490 530 158
+s 450 530 450 470 159
+s 450 470 650 470 160
+s 610 380 650 380 162
+w 186
+s 650 680 750 680 180
+a 0 s 3 0 720 680 hln 100 LABEL=Q3
+s 650 780 650 680 184
+s 230 230 310 230 181
+s 230 780 230 230 182
+s 230 780 650 780 183
+s 610 680 650 680 185
+w 204
+s 380 230 490 230 203
+a 0 s 3 0 420 230 hln 100 LABEL=Q3B
+w 225
+s 90 700 390 700 217
+a 0 s 3 0 100 700 hln 100 LABEL=CE
+s 390 400 390 250 220
+s 390 400 490 400 219
+s 390 550 390 400 221
+s 390 550 490 550 218
+s 390 700 390 550 222
+s 390 700 490 700 223
+s 390 250 490 250 224
+@junction
+j 650 230
++ w 32
++ w 32
+j 610 230
++ p 18 Q
++ w 32
+j 490 380
++ p 19 D
++ w 32
+j 430 750
++ w 57
++ w 57
+j 430 600
++ w 57
++ w 57
+j 430 450
++ w 57
++ w 57
+j 490 300
++ p 18 R
++ w 57
+j 490 450
++ p 19 R
++ w 57
+j 490 750
++ p 20 R
++ w 57
+j 490 600
++ p 21 R
++ w 57
+j 410 720
++ w 99
++ w 99
+j 410 570
++ w 99
++ w 99
+j 410 420
++ w 99
++ w 99
+j 490 270
++ p 18 C
++ w 99
+j 490 420
++ p 19 C
++ w 99
+j 490 720
++ p 20 C
++ w 99
+j 490 570
++ p 21 C
++ w 99
+j 650 530
++ w 140
++ w 140
+j 490 680
++ p 20 D
++ w 140
+j 610 530
++ p 21 Q
++ w 140
+j 650 380
++ w 163
++ w 163
+j 610 380
++ p 19 Q
++ w 163
+j 490 530
++ p 21 D
++ w 163
+j 650 680
++ w 186
++ w 186
+j 610 680
++ p 20 Q
++ w 186
+j 310 230
++ p 25 I
++ w 186
+j 490 230
++ p 18 D
++ w 204
+j 380 230
++ p 25 O
++ w 204
+j 390 700
++ w 225
++ w 225
+j 390 400
++ w 225
++ w 225
+j 390 550
++ w 225
++ w 225
+j 490 250
++ p 18 CE
++ w 225
+j 490 400
++ p 19 CE
++ w 225
+j 490 700
++ p 20 CE
++ w 225
+j 490 550
++ p 21 CE
++ w 225
+j 750 230
++ s 262
++ w 32
+j 750 380
++ s 263
++ w 163
+j 750 530
++ s 264
++ w 140
+j 750 680
++ s 265
++ w 186
+j 90 720
++ s 266
++ w 99
+j 90 700
++ s 267
++ w 225
+j 90 750
++ s 268
++ w 57
+@attributes
+@text
+s 5 500 1000 hln 100 XC5200 FAMILY CJ4RE MACRO
+s 5 500 1030 hln 100 CLOCK ENABLE AND SYNC RESET
+s 5 500 1020 hln 100 4-BIT JOHNSON COUNTER WITH
+s 5 460 1050 hln 100 25TH FEBRUARY 1993
+s 5 700 1050 hln 100 1
+s 5 700 1070 hln 100 A
+s 5 30 1070 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 1060 hln 100 DRAWN BY KS

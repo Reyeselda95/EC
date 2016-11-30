@@ -1,0 +1,6517 @@
+* Library of AMP connector models.
+
+* $Revision:   1.6  $
+* $Author:   ANW  $
+* $Date:   15 Aug 1995 18:07:28  $
+*
+
+*---------------------------------------------------------------
+*  VERSION 3.00 6/1/95
+* 
+*__________________________________________________
+*_	     SINGLE LINE MODEL LIBRARY            _
+*_       COPYRIGHT 1995, BY AMP INCORPORATED      _
+*_        ALL INTERNATIONAL RIGHTS RESERVED       _
+*_  AMP DESIGN, SIMULATION AND ANALYSIS SERVICES  _
+*_     (FORMERLY AMP INTERCONNECTION SYSTEMS)     _
+*_                  717.986.7824                  _    
+*_          MULTI-LINE MODELS AVAILABLE           _
+*__________________________________________________
+*
+* 
+* 
+* ------------------------------------------------------------------
+
+* USER AGREEMENT
+* --------------
+* The information on this disk has been provided to you free of
+* charge for your use but remains the property of AMP Incorporated. 
+* While AMP has used reasonable efforts to ensure its accuracy, AMP
+* does not guarantee that it is error-free, nor does AMP make any
+* representations, warranty or guarantee that the information is
+* accurate, correct, reliable or up-to-date.  AMP expressly
+* disclaims all implied warranties regarding this disk and the
+* information on it, including but not limited to any implied
+* warranties of merchantability or fitness for a particular
+* purpose.  AMP does not warrant that the disk will work correctly
+* in your multi-user or network environment.
+* 
+* AMP will in no case be liable for your use, or the results of your
+* use, of the models and other information contained on this disk or
+* any accompanying written materials.  IT IS YOUR
+* RESPONSIBILITY TO VERIFY THE RESULTS OF YOUR USE OF THIS
+* INFORMATION IN YOUR OWN PARTICULAR ENGINEERING AND PRODUCT
+* ENVIRONMENT, AND YOU ASSUME THE ENTIRE RISK OF DOING SO OR
+* FAILING TO DO SO.  In no event will AMP or its contractors,
+* directors, officers, employees, affiliates or distributors be
+* liable for any direct, indirect, incidental or consequential
+* damages (including but not limited to damages for lost business,
+* lost profits, business interruptions and loss of information)
+* arising from your use of, or your inability to use, models,
+* product simulations and other information contained on this disk
+* --or any accompanying written materials, even if AMP has been
+* advised of the possibility of such damages.  In no event will
+* AMP's liability to you for any cause whatsoever and regardless of
+* the form of action, exceed $500.
+* 
+* No oral or written information or advice given by AMP or its
+* distributors, agents or employees will operate to create any
+* warranty or guarantee or vary any provision or information
+* herein, and you may not rely on any such information or advice. 
+* AMP reserves the right to change any portion of this data, and to
+* change the information contained on this disk, at any time without
+* notice.
+*------------------------------------------------------------------
+* 
+* ABOUT THIS DISK
+* ---------------
+* This disk does NOT contain EXECUTABLE files.
+* 
+* This disk is formatted with DOS as a data disk.
+* 
+* This disk contains Single-line connector performance models
+* expressed in SPICE text files compatible with Berkeley 2G6 SPICE,
+* Released Apr. 1983.
+* 
+* 
+* ABOUT THE SINGLE-LINE MODELS ON THIS DISK
+* -----------------------------------------
+* AMP Single Line Electrical Performance Models are intended to
+* represent the approximate electrical behavior of a connector pin
+* when all pins are wired using a reasonable signal to ground ratio
+* (1:1 to 3:1).  These single line models are intended for use at
+* signal edge rates of 1 nanosecond or greater unless stated
+* otherwise in the model file.  
+* 
+* The effects of plated-thru-holes (PTH) are significant and must
+* be added to the models.  Generally, a PTH can be represented by a
+* 0.5 to 1.5 picofarad shunt capacitor.  (1.0 pf can be used if
+* actual value is unknown)
+* 
+* Two Versions of each Model are given:
+* 
+* 	Lumped Element (R,L,C) Model - Where the R, L, and C are
+* 	the effective high frequency values for resistance, 
+* 	inductance and capacitance taking into account mutual 
+* 	inductances and skin effect.
+* 
+* 	Transmission Line (Distributed Element) (Zo, Tpd) - Where
+*        Zo is the equivalent transmission line impedance for the
+*         connector and Tpd is the propagation time thru the
+*         connector.
+* 
+* ------------------------------------------------------------------
+* 
+* 
+* MULTI-LINE CONNECTOR MODELS
+* ---------------------------
+* --Multi-line connector models which relate each pin in the
+* connector to all other adjacent pins in the connector in a matrix
+* fashion have been constructed for many products and are available
+* thru license from AMP Inc.  Multi-line models are useful in
+* determining multi-sourced crosstalk and common mode (simultaneous
+* switching) noise parameters based upon the signal-to-ground pin
+* ratio chosen. 
+*
+* Please contact your local sales representative for more
+* information on multi-line model availability and license
+* schedules.
+*
+* AMP DESIGN, SIMULATION & ANALYSIS SERVICES
+* ---------------------------------
+* AMP DESIGN, SIMULATION & ANALYSIS SERVICES is a business unit of AMP Inc.
+* which provides interconnection and system packaging services for
+* today's high performance digital systems market.  Specific
+* service capabilities of AMP DESIGN, SIMULATION & ANALYSIS SERVICES include: 
+* 
+* 	* Critical Net Simulation
+* 	* Crosstalk and Noise Margin Prediction
+* 	* Timing Verification
+* 	* Net Topology
+* 	* System Impedance Selection
+* 	* EMI/EMC Analysis and Measurement
+* 	* Backplane Layout
+* 	* PWB layout
+* 	* Thermal Analysis
+* 	* Power Distribution Analysis
+*	* Connector & Cable Recommendations
+* 	* I/0 Assignments
+* 	* First Article Fabrication and Assembly
+* 	* Production
+* 
+* AMP DESIGN, SIMULATION & ANALYSIS SERVICES can help you:
+*         1. Meet your performance goals, on time and on
+*            budget.
+*         2. Ensure system performance the First Time.
+*         3. By being your one source for design validation,
+*            analysis, testing and fabrication.  
+*           
+* For more information on AMP DESIGN, SIMULATION & ANALYSIS SERVICES and what they can do for you, please
+* call your local AMP sales representative.
+ 
+*****************************************************************************
+
+
+
+* INDEX OF CONNECTOR and BASE MODEL NAMES
+* ---------------------------------------
+*                                              AMP
+*                                 BASE      CONNECTOR
+*   CONNECTOR NAME             MODEL NAME   CATALOG NO.
+*   ==============            ===========   ===========
+* **IMPEDANCE CONTROLLED
+*    *RIGHT ANGLE---------------------
+*      STRIPLINE 100              ZPSL         65194
+*      MICROSTRIP RA              MSRA         65194
+*      MICTOR 25 RA               MI25         n/a
+*      MICTOR 50 RA               MI50         n/a
+*      J050J-II  RA               J508         n/a
+*    *PARALLEL (STACKING)-------------
+*      MICROSTRIP .43 HIGH        MS43         65194
+*      MICROSTRIP .73 HIGH        MS73         65194
+*      MICTOR 25 S .250 HIGH      MI2S20       n/a
+*      MICTOR 25 S .495 HIGH      MI2S49       n/a
+*      MICTOR 50 S .205 HIGH      MI5S20       n/a
+* 
+* **OPEN PIN FIELD
+*    *RIGHT ANGLE---------------------
+*     EUROCARD                   ETC          82721
+*      ENHANCED EUROCARD         EEC4         82950
+*      ENHANCED EUROCARD         EEC5         82882
+*      HDI 3 ROW       (RA)      HDI3         82618
+*     HDI 4 ROW       (RA)       HDI4         82618
+*      TBC 4 ROW       (RA)      TBC4         82618
+*      TBC+ 5 ROW      (RA)      TBC5         82618
+*      TBC+ 6 ROW      (RA)      TBC6         82618
+*      2mm HM 5 ROW              HM5          65079
+*      2mm HM 7 ROW              HM7          65079
+*      Z-PACK FB                 FB2M         65358
+*      CHAMP SERIES I  (RA)      CHS1         82244
+*      AJ DOCKING CONN (RA)      ADCG         82244
+*      CHAMP 050 FH 9MM	         C5FR09       82244
+*      CHAMP 050 FH 13MM	 C5FR13       82244
+*      CHAMP 050 FH 18MM	 C5FR18       82244
+*      0.8mm CHAMP LPM	         C8LM         82244
+*      PCMCIA 68 POS	         PC68         65701
+*      PCMCIA 88 POS	         PC88          n/a
+*      MODU SYST 50 	         MS5R         82178
+* 
+*    *PARALLEL (STACKING)-------------
+*      HDI 3 ROW       (ST)      HDI3S        82618
+*      HDI 4 ROW       (ST)      HDI4S        82618
+*      MODU 50/50 0.25 HIGH      MD5S25       82643
+*      MODU 50/50 0.32 HIGH      MD5S32       82643
+*      MODU 50/50 0.39 HIGH      MD5S39       82643
+*      CHAMP SERIES I  (ST)      CHS1S        82244
+*      CHAMP HD        (ST)      CHHDS        82244
+*      CHAMP 050 FH 9MM		 C5FV09       82244
+*      CHAMP 050 FH 13MM	 C5FV13       82244
+*      CHAMP 050 FH 18MM	 C5FV18       82244
+*      MODU SYST 50 THRU HOLE	 MS5VT        82178
+*      MODU SYST 50 SURF MT  	 MS5VS        82178
+*      METRISTAK 10MM		 MMS10        65790
+* 
+* **CARD EDGE
+*      ISA		 	 ISA          82619
+*      STANDARD EDGE SERIES 50   SES5         82619
+*      HIGH SPEED STANDARD EDGE  HSCE         65822
+*      DUAL RO SIMM		 DRS          82172
+* 
+* **SOCKETS
+*      TAZ PGA,.100x.100,0.35lg  TPG35        82172
+*      TAZ PGA,.050x.100,0.35lg  TPI35        82172
+*      LIF PGA,.100X.100,0.27lg  LPG27        82172
+*      LOW FORCE PGA             MEPG         101
+*                -(Mark Eyelet)
+* 
+***************************************************************************
+*    For additional information on these connector families and others    *
+*                             call the                                    *
+*                                                                         *
+*                  AMP PRODUCT INFORMATION CENTER                         *
+*                                                                         *
+*                     1-800-522-6752    anytime                           *
+*                                                                         *
+***************************************************************************                                                                        
+* 
+* 
+* NAMING CONVENTION FOR SINGLE LINE MODELS
+* ----------------------------------------
+* The Subcircuit name is given by the following:
+*                        
+* BASE MODEL NAME + letter of ROW   -OR-   "M" for Median Values  -AND-
+* 
+*      "L" for Distributed Element  -OR-   BLANK for Lumped Element 
+* 
+* 
+* EXAMPLE 1:
+* 	The STRIPLINE 100 row B Lumped Element model is subcircuit
+*         ZPSLB.
+* 
+* EXAMPLE 2: 
+* 	The STRIPLINE 100 Median Value Distributed Element Model
+*         is subcircuit ZPSLML.
+
+*****************************************************************************
+
+* * VERSION 2.0   rev 3-1-94
+* *
+* *************************************
+* *COPYRIGHT 1994, BY AMP INCORPORATED*
+* **ALL INTERNATIONAL RIGHTS RESERVED**
+* *************************************
+* *
+* **** EXAMPLE SLM TEST CIRCUIT
+* ****************************
+* .WIDTH IN=80 OUT=80
+* .TRAN 10PS 2NS
+* .PRINT TRAN V(01) V(02)
+* ****************************
+* *
+* *PLATED THROUGH HOLE CAPACITANCE
+* C1 01 00 1.0PF
+* *CALL CONNECTOR SUBCIRCUIT
+* XC1 01 02 00 ZPSLM 
+* *PLATED THROUGH HOLE CAPACITANCE
+* C2 02 00 1.0PF
+* *50 OHM TERMINATION RESISTOR
+* RT2 2 0 50
+* *CALL DRIVING SUBCIRCUIT
+* XD1 01 00 DR1
+* *
+* *
+* ***********************
+* * DRIVER SUBCIRCUIT
+* ***********************
+* *
+* ******************
+* .SUBCKT DR1  1   2
+* ************OUT*REF
+* *** ACT *** 4.8v/1.0ns/10-90%/LO>HI/0.10>4.9
+* VS1 3 2 PWL(0 0.2 0.12NS 0.4 0.24NS 1.2
+* + 1.26NS 8.8 1.38NS 9.6 1.50NS 9.8)
+* RS1 3 1 50
+* *********
+* .ENDS DR1
+* *
+* *
+* ************************* 
+* *                       *
+* *    STRIPLINE 100      *
+* *                       *
+* *************************
+* *
+* **MEDIAN VALUES****
+* *
+* *************IN*OUT*REF
+* .SUBCKT ZPSLM 1  2   3
+* **********************
+* R1 1 4 0.008
+* L4 4 5 2.12NH
+* C5 5 3 0.82PF
+* L5 5 6 2.12NH
+* C6 6 3 0.82PF
+* L6 6 7 2.12NH
+* C7 7 3 0.82PF
+* L7 7 8 2.12NH
+* R8 8 2 0.008
+* .ENDS ZPSLM
+* ***********
+* ****
+* .END
+
+*****************************************************************************
+ 
+* Revision Notes for SINGLE-LINE Models Disk
+*
+* ver 1.0   First edition, consisted of three files (README.TXT,
+*           EXAMPLE.CIR, and MODELS.SLM)
+*
+* ver 1.1   5/92
+*           Disk completely reformatted- directories added
+*           to make locating a model easier.  Number of models
+*           increased.
+*
+* ver 1.2   9/92
+*           a) Renamed EEC.SLM to EEC5.SLM; added EEC4.SLM to
+*                cover enhanced Eurocard with inside ground
+*                row only.
+*           b) Confirmed that R value of EISA connector is 7
+*                milliohms.
+*           c) The following models were renamed due to
+*                difficulty experienced running subcircuit
+*                calls whose names begin with a number:
+*                     2mmHM5 renamed to HM5
+*                     2mmHM7    "     " HM7
+*                     2MFB      "     " FB2M
+*           d) In the INDEX.TXT file; renamed Low Force PGA model
+*                name from LFPG to MEPG to be consistent in
+*                naming convention.
+*           e) Added this REVNOTES.TXT file to diskette.
+*
+* ver 1.21  5/93
+*         a) Renamed 2MFB to FB2M in the INDEX.TXT file to be
+*               consistent with name of actual model file.
+*          b) Deleted the EEC.SLM file in the OPIN_FLD\RIGHT_A
+*               directory. File was replaced by EEC5.SLM but old
+*               file was never deleted
+*          c) In OPIN_FLD\RIGHT_A directory, file EEC5, renamed
+*               all .SUBCKT files from EECx to EEC5x.  Likewise,
+*               in file EEC4, renamed all .SUBCKT files from EECx
+*               to EEC4x.
+*
+* ver 1.22  5/93
+*           a) In SOCKETS directory, TPG35.SLM file, renamed all .SUBCKT
+*                files from TPFxxx to TPGxxx to be consistent with
+*                INDEX.TXT file.
+*           b) In SOCKETS directory, TPGI35.SLM file, renamed all .SUBCKT
+*                files from TPFxxx to TPIxxx. 
+*           c) Renamed TPGI35 to TPI35 in INDEX.TXT file to agree with b)
+*                above
+*  
+* ver 2.00  3/94
+*           a) Abandon citations to Part #'s
+*           b) Abandon EISA single line model
+*           c) Added 17 new models
+*           d) Changed 3 rev 1.21 model names 
+*
+* ver 2.01  4/94
+*           a) Typographical corections in INDEX.txt file
+*                Open Pin Field R/A section:
+*                     AJDC changed to ADCG (AMP Japan docking connector) to
+*                     coordinate with SLM model name.
+*                     C5FR09.SLM changed to C5FR13.SLM
+*                     C5FR09.SLM changed to C5FR18.SLM
+*                Open Pin Field PARALLEL section:
+*                     C5FV09.SLM changed to C5VR13.SLM
+*                     C5FV09.SLM changed to C5VR18.SLM
+*             b) Index SLM model name changes from rev 1.21
+*                     MODEL NAME
+*                    Rev 1.21            Rev 2.01 (also in Rev. 2.0, but not
+*                                                   documented there)
+*                     MI25S.SLM           MI2S20.SLM
+*                     MI50S.SLM           MI5S20.SLM
+*                     TGPI35.SLM          TPI35.SLM
+*             c) Standardized text file headers and added AMP DESIGN, SIMULATION & ANALYSIS SERVICES -specific contact
+*                information for the following files
+*                     INDEX.TXT
+*                     REV_NOTE.TXT
+*                     EXAMPLE.CIR
+*                     README.TXT
+*                to the following format:
+*                     FILENAME:           filename.ext
+*                     VERSION:            2.01
+*                     REL DATE            4-1-94
+*ver 3.00  6/1/95
+*
+*	a) Changed rev 2.01 model names
+*		Rev 2.01 name		Rev. 3.0 name	
+*	       	MI2S25.SLM		MI2S20.SLM
+*
+*	b) Update group name change on Copyright notice and Rev label
+*	   from    AMP INTERCONNECTION SYSTEMS
+*	   to      AMP DESIGN, SIMULATION & ANALYSIS SERVICES
+*
+*	c) Added the following new Single Line Models (SLM)
+*        	
+*		                                     AMP
+*	                                BASE      CONNECTOR
+*	  CONNECTOR NAME             MODEL NAME   CATALOG NO.
+*	PARALLEL (STACKING)-------------
+*	    MICTOR 25 S .260 HIGH      MI2S26       n/a
+*	    MICTOR 25 S .430 HIGH      MI2S43       n/a
+*	OPEN PIN FIELD
+*	 RIGHT ANGLE---------------------
+*	    AMPLIMITE 050   (RA)       AM50
+*	CARD EDGE
+*	   *HIGH SPEED STANDARD EDGE  HSSE         65822
+*	   *(surface mount)
+*	     MEMORY CARD CONN. 		M64
+*	SOCKETS
+*	     MICROPITCH SM SOCKET       MPSM5  
+*
+*
+*__________________________________________________
+*_	     SINGLE LINE MODEL LIBRARY            _
+*_       COPYRIGHT 1995, BY AMP INCORPORATED      _
+*_        ALL INTERNATIONAL RIGHTS RESERVED       _
+*_  AMP DESIGN, SIMULATION AND ANALYSIS SERVICES  _
+*_     (FORMERLY AMP INTERCONNECTION SYSTEMS)     _
+*_                  717.986.7824                  _    
+*_          MULTI-LINE MODELS AVAILABLE           _
+*__________________________________________________
+*
+*
+*                                  
+*
+*--------------------------------------------------------------------------
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+*$
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  DOCKING CONNECTOR     *           82244
+*                        *
+**************************
+* rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 1.0NS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT ADCGM/AMP 1  2   3
+***********************
+R1 1 4 0.010
+L4 4 5 6.4NH
+C5 5 3 1.7PF
+L5 5 6 6.4NH
+R6 6 2 0.010
+.ENDS ADCGM/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT ADCGA/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 3.8NH
+C5 5 3 1.2PF
+L5 5 6 3.8NH
+R6 6 2 0.006
+.ENDS ADCGA/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT ADCGB/AMP 1  2   3
+***********************
+R1 1 4 0.009
+L4 4 5 5.4NH
+C5 5 3 1.7PF
+L5 5 6 5.4NH
+R6 6 2 0.009
+.ENDS ADCGB/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT ADCGC/AMP 1  2   3
+***********************
+R1 1 4 0.011
+L4 4 5 7.4NH
+C5 5 3 1.9PF
+L5 5 6 7.4NH
+R6 6 2 0.011
+.ENDS ADCGC/AMP
+***********
+*$
+*
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT ADCGD/AMP 1  2   3
+***********************
+R1 1 4 0.014
+L4 4 5 9.2NH
+C5 5 3 1.9PF
+L5 5 6 9.2NH
+R6 6 2 0.014
+.ENDS ADCGD/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT ADCGML/AMP 1  2   3
+************************
+R1 1 4 0.020
+T4 4 3 2 3 Z0=87 TD=146PS
+.ENDS ADCGML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT ADCGAL/AMP 1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=80 TD=95PS
+.ENDS ADCGAL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT ADCGBL/AMP 1  2   3
+************************
+R1 1 4 0.017
+T4 4 3 2 3 Z0=81 TD=134PS
+.ENDS ADCGBL/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT ADCGCL/AMP 1  2   3
+************************
+R1 1 4 0.022
+T4 4 3 2 3 Z0=88 TD=168PS
+.ENDS ADCGCL/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT ADCGDL/AMP 1  2   3
+************************
+R1 1 4 0.027
+T4 4 3 2 3 Z0=98 TD=186PS
+.ENDS ADCGDL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                        *   AMP Connector Catalog No. 82244
+*      CHAMP HD  (ST)    *
+*     .205 high          *   
+**************************
+* rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+** MEDIAN VALUES *******
+**************IN*OUT*REF
+.SUBCKT CHHDSM/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 2.2NH
+C5 5 3 1.6PF
+L5 5 6 2.2NH
+R6 6 2 0.004
+.ENDS CHHDSM/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT CHHDSA/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 2.5NH
+C5 5 3 1.6PF
+L5 5 6 2.5NH
+R6 6 2 0.004
+.ENDS CHHDSA/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT CHHDSB/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 1.9NH
+C5 5 3 1.6PF
+L5 5 6 1.9NH
+R6 6 2 0.004
+.ENDS CHHDSB/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT CHHDSC/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 1.9NH
+C5 5 3 1.6PF
+L5 5 6 1.9NH
+R6 6 2 0.004
+.ENDS CHHDSC/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT CHHDSD/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 2.5NH
+C5 5 3 1.6PF
+L5 5 6 2.5NH
+R6 6 2 0.005
+.ENDS CHHDSD/AMP
+************
+*$
+*
+** ROW E ***************
+**************IN*OUT*REF
+.SUBCKT CHHDSE/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 2.5NH
+C5 5 3 1.6PF
+L5 5 6 2.5NH
+R6 6 2 0.005
+.ENDS CHHDSE/AMP
+************
+*$
+*
+** ROW F ***************
+**************IN*OUT*REF
+.SUBCKT CHHDSF/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 1.9NH
+C5 5 3 1.6PF
+L5 5 6 1.9NH
+R6 6 2 0.004
+.ENDS CHHDSF/AMP
+************
+*$
+*
+** ROW G ***************
+**************IN*OUT*REF
+.SUBCKT CHHDSG/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 1.9NH
+C5 5 3 1.6PF
+L5 5 6 1.9NH
+R6 6 2 0.004
+.ENDS CHHDSG/AMP
+************
+*$
+*
+** ROW H ***************
+**************IN*OUT*REF
+.SUBCKT CHHDSH/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 2.5NH
+C5 5 3 1.6PF
+L5 5 6 2.5NH
+R6 6 2 0.004
+.ENDS CHHDSH/AMP
+************
+*$
+*
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES ********
+***************IN*OUT*REF
+.SUBCKT CHHDSML/AMP 1  2   3
+************************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=52 TD=74PS
+.ENDS CHHDSML/AMP
+*************
+*$
+*
+** ROW A ****************
+***************IN*OUT*REF
+.SUBCKT CHHDSAL/AMP 1  2   3
+************************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=56 TD=76PS
+.ENDS CHHDSAL/AMP
+*************
+*$
+*
+** ROW B ****************
+***************IN*OUT*REF
+.SUBCKT CHHDSBL/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=49 TD=71PS
+.ENDS CHHDSBL/AMP
+*************
+*$
+*
+** ROW C ****************
+***************IN*OUT*REF
+.SUBCKT CHHDSCL/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=49 TD=71PS
+.ENDS CHHDSCL/AMP
+*************
+*$
+*
+** ROW D ****************
+***************IN*OUT*REF
+.SUBCKT CHHDSDL/AMP 1  2   3
+************************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=55 TD=76PS
+.ENDS CHHDSDL/AMP
+*************
+*$
+*
+** ROW E ****************
+***************IN*OUT*REF
+.SUBCKT CHHDSEL/AMP 1  2   3
+************************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=55 TD=76PS
+.ENDS CHHDSEL/AMP
+*************
+*$
+*
+** ROW F ****************
+***************IN*OUT*REF
+.SUBCKT CHHDSFL/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=49 TD=71PS
+.ENDS CHHDSFL/AMP
+*************
+*$
+*
+** ROW G ****************
+***************IN*OUT*REF
+.SUBCKT CHHDSGL/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=49 TD=71PS
+.ENDS CHHDSGL/AMP
+*************
+*$
+*
+** ROW H ****************
+***************IN*OUT*REF
+.SUBCKT CHHDSHL/AMP 1  2   3
+************************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=56 TD=76PS
+.ENDS CHHDSHL/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                        *   AMP Connector Catalog No. 82244
+*  CHAMP SERIES 1 (RA)   *
+*                        *   
+**************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT CHS1M/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.9NH
+C5 5 3 1.8PF
+L5 5 6 3.9NH
+R6 6 2 0.005
+.ENDS CHS1M/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT CHS1A/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.5NH
+C5 5 3 1.7PF
+L5 5 6 3.5NH
+R6 6 2 0.005
+.ENDS CHS1A/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT CHS1B/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.3NH
+C5 5 3 1.7PF
+L5 5 6 3.3NH
+R6 6 2 0.005
+.ENDS CHS1B/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT CHS1C/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 3.9NH
+C5 5 3 1.9PF
+L5 5 6 3.9NH
+R6 6 2 0.006
+.ENDS CHS1C/AMP
+***********
+*$
+*
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT CHS1D/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 5.0NH
+C5 5 3 1.9PF
+L5 5 6 5.0NH
+R6 6 2 0.007
+.ENDS CHS1D/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT CHS1ML/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=66 TD=105PS
+.ENDS CHS1ML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT CHS1AL/AMP 1  2   3
+************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=64 TD=96PS
+.ENDS CHS1AL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT CHS1BL/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=62 TD=97PS
+.ENDS CHS1BL/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT CHS1CL/AMP 1  2   3
+************************
+R1 1 4 0.011
+T4 4 3 2 3 Z0=64 TD=108PS
+.ENDS CHS1CL/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT CHS1DL/AMP 1  2   3
+************************
+R1 1 4 0.013
+T4 4 3 2 3 Z0=73 TD=120PS
+.ENDS CHS1DL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                        *   AMP Connector Catalog No. 82244
+*  CHAMP SERIES I  (ST)  *
+*                        *   
+**************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+** MEDIAN VALUES *******
+**************IN*OUT*REF
+.SUBCKT CHS1SM/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 2.6NH
+C5 5 3 1.7PF
+L5 5 6 2.6NH
+R6 6 2 0.004
+.ENDS CHS1SM/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT CHS1SA/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.2NH
+C5 5 3 1.7PF
+L5 5 6 3.2NH
+R6 6 2 0.005
+.ENDS CHS1SA/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT CHS1SB/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 2.1NH
+C5 5 3 1.7PF
+L5 5 6 2.1NH
+R6 6 2 0.004
+.ENDS CHS1SB/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT CHS1SC/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 2.1NH
+C5 5 3 1.7PF
+L5 5 6 2.1NH
+R6 6 2 0.004
+.ENDS CHS1SC/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT CHS1SD/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.2NH
+C5 5 3 1.7PF
+L5 5 6 3.2NH
+R6 6 2 0.005
+.ENDS CHS1SD/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES ********
+***************IN*OUT*REF
+.SUBCKT CHS1SML/AMP 1  2   3
+************************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=56 TD=79PS
+.ENDS CHS1SML/AMP
+*************
+*$
+*
+** ROW A ****************
+***************IN*OUT*REF
+.SUBCKT CHS1SAL/AMP 1  2   3
+************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=61 TD=84PS
+.ENDS CHS1SAL/AMP
+*************
+*$
+*
+** ROW B ****************
+***************IN*OUT*REF
+.SUBCKT CHS1SBL/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=50 TD=73PS
+.ENDS CHS1SBL/AMP
+*************
+*$
+*
+** ROW C ****************
+***************IN*OUT*REF
+.SUBCKT CHS1SCL/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=50 TD=73PS
+.ENDS CHS1SCL/AMP
+*************
+*$
+*
+** ROW D ****************
+***************IN*OUT*REF
+.SUBCKT CHS1SDL/AMP 1  2   3
+************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=61 TD=84PS
+.ENDS CHS1SDL/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+*****************************************************
+*  DUAL READOUT SIMM    *   AMP Connector Catalog No.
+*      "DRS"            *           82172
+*                       *
+*************************
+*  rev 3/1/94
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING CARD EDGE SLM IS HEAVILY INFLUNCED BY THE
+*  CARD EDGE PADS. THE PAD VALUES INCLUDED ARE DERIVED FROM
+*  STANDARD PAD DIMENSIONS AND AN ASSUMPTION OF A GROUND
+*  PLANE LOCATED 0.013 INCH UNDER THE PADS IN FR4 WITH Er=4.7
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING RLC MODELS ARE APPROPRIATE
+*  FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+* ALL ROWS
+************IN*OUT*REF
+.SUBCKT DRSM/AMP 1  2   3
+****** load card_|  |
+****** mother board_|
+********************
+* pad elements
+R1 1 4 0.001
+C4 4 3 0.9PF
+L4 4 5 0.5NH
+* connector elements
+L5 5 6 1.9NH
+C6 6 3 1.7PF
+L6 6 7 1.9NH
+R7 7 2 0.010
+*
+.ENDS DRSM/AMP
+**********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+* ALL ROWS
+*************IN*OUT*REF
+.SUBCKT DRSML/AMP 1  2   3
+****** load card__|  |
+****** mother board__|
+**********************
+R1 1 4 0.010
+C4 4 3 0.9PF
+T4 4 3 2 3 Z0=50 TD=86PS
+.ENDS DRSML/AMP
+***********
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  CHAMP 0.050 FH (RA)   *           82244
+*     9 mm length        *
+**************************
+* rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+***************IN*OUT*REF
+.SUBCKT C5FR09M/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 4.2NH
+C5 5 3 0.9PF
+L5 5 6 4.2NH
+R6 6 2 0.006
+.ENDS C5FR09M/AMP
+*************
+*$
+*
+** ROW A **************
+***************IN*OUT*REF
+.SUBCKT C5FR09A/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.4NH
+C5 5 3 0.8PF
+L5 5 6 3.4NH
+R6 6 2 0.005
+.ENDS C5FR09A/AMP
+*************
+*$
+*
+** ROW B **************
+***************IN*OUT*REF
+.SUBCKT C5FR09B/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 3.8NH
+C5 5 3 0.9PF
+L5 5 6 3.8NH
+R6 6 2 0.006
+.ENDS C5FR09B/AMP
+*************
+*$
+*
+** ROW C **************
+***************IN*OUT*REF
+.SUBCKT C5FR09C/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 4.4NH
+C5 5 3 1.0PF
+L5 5 6 4.4NH
+R6 6 2 0.006
+.ENDS C5FR09C/AMP
+*************
+*$
+*
+** ROW D **************
+***************IN*OUT*REF
+.SUBCKT C5FR09D/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 5.1NH
+C5 5 3 1.0PF
+L5 5 6 5.1NH
+R6 6 2 0.007
+.ENDS C5FR09D/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT C5FR09ML/AMP 1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=97 TD=86PS
+.ENDS C5FR09ML/AMP
+**************
+*$
+*
+** ROW A ***************
+****************IN*OUT*REF
+.SUBCKT C5FR09AL/AMP 1  2   3
+************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=93 TD=73PS
+.ENDS C5FR09AL/AMP
+**************
+*$
+*
+** ROW B ***************
+****************IN*OUT*REF
+.SUBCKT C5FR09BL/AMP 1  2   3
+************************
+R1 1 4 0.011
+T4 4 3 2 3 Z0=94 TD=80PS
+.ENDS C5FR09BL/AMP
+**************
+*$
+*
+** ROW C ***************
+****************IN*OUT*REF
+.SUBCKT C5FR09CL/AMP 1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=96 TD=92PS
+.ENDS C5FR09CL/AMP
+**************
+*$
+*
+** ROW D ***************
+****************IN*OUT*REF
+.SUBCKT C5FR09DL/AMP 1  2   3
+************************
+R1 1 4 0.013
+T4 4 3 2 3 Z0=103 TD=99PS
+.ENDS C5FR09DL/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  CHAMP 0.050 FH (RA)   *          82244
+*     13 mm length       *
+**************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+***************IN*OUT*REF
+.SUBCKT C5FR13M/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 5.1NH
+C5 5 3 1.0PF
+L5 5 6 5.1NH
+R6 6 2 0.006
+.ENDS C5FR13M/AMP
+*************
+*$
+*
+** ROW A **************
+***************IN*OUT*REF
+.SUBCKT C5FR13A/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 4.4NH
+C5 5 3 0.9PF
+L5 5 6 4.4NH
+R6 6 2 0.006
+.ENDS C5FR13A/AMP
+*************
+*$
+*
+** ROW B **************
+***************IN*OUT*REF
+.SUBCKT C5FR13B/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 4.7NH
+C5 5 3 1.0PF
+L5 5 6 4.7NH
+R6 6 2 0.006
+.ENDS C5FR13B/AMP
+*************
+*$
+*
+** ROW C **************
+***************IN*OUT*REF
+.SUBCKT C5FR13C/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 5.3NH
+C5 5 3 1.1PF
+L5 5 6 5.3NH
+R6 6 2 0.007
+.ENDS C5FR13C/AMP
+*************
+*$
+*
+** ROW D **************
+***************IN*OUT*REF
+.SUBCKT C5FR13D/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 6.1NH
+C5 5 3 1.1PF
+L5 5 6 6.1NH
+R6 6 2 0.007
+.ENDS C5FR13D/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT C5FR13ML/AMP 1  2   3
+************************
+R1 1 4 0.013
+T4 4 3 2 3 Z0=102 TD=100PS
+.ENDS C5FR13ML/AMP
+**************
+*$
+*
+** ROW A ***************
+****************IN*OUT*REF
+.SUBCKT C5FR13AL/AMP 1  2   3
+************************
+R1 1 4 0.011
+T4 4 3 2 3 Z0=100 TD=88PS
+.ENDS C5FR13AL/AMP
+**************
+*$
+*
+** ROW B ***************
+****************IN*OUT*REF
+.SUBCKT C5FR13BL/AMP 1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=99 TD=94PS
+.ENDS C5FR13BL/AMP
+**************
+*$
+*
+** ROW C ***************
+****************IN*OUT*REF
+.SUBCKT C5FR13CL/AMP 1  2   3
+************************
+R1 1 4 0.014
+T4 4 3 2 3 Z0=101 TD=105PS
+.ENDS C5FR13CL/AMP
+**************
+*$
+*
+** ROW D ***************
+****************IN*OUT*REF
+.SUBCKT C5FR13DL/AMP 1  2   3
+************************
+R1 1 4 0.015
+T4 4 3 2 3 Z0=108 TD=113PS
+.ENDS C5FR13DL/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  CHAMP 0.050 FH (RA)   *           82244
+*     18 mm length       *
+**************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+***************IN*OUT*REF
+.SUBCKT C5FR18M/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 6.3NH
+C5 5 3 1.1PF
+L5 5 6 6.3NH
+R6 6 2 0.007
+.ENDS C5FR18M/AMP
+*************
+*$
+*
+** ROW A **************
+***************IN*OUT*REF
+.SUBCKT C5FR18A/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 5.7NH
+C5 5 3 1.0PF
+L5 5 6 5.7NH
+R6 6 2 0.006
+.ENDS C5FR18A/AMP
+*************
+*$
+*
+** ROW B **************
+***************IN*OUT*REF
+.SUBCKT C5FR18B/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 5.8NH
+C5 5 3 1.1PF
+L5 5 6 5.8NH
+R6 6 2 0.007
+.ENDS C5FR18B/AMP
+*************
+*$
+*
+** ROW C **************
+***************IN*OUT*REF
+.SUBCKT C5FR18C/AMP 1  2   3
+***********************
+R1 1 4 0.008
+L4 4 5 6.5NH
+C5 5 3 1.2PF
+L5 5 6 6.5NH
+R6 6 2 0.008
+.ENDS C5FR18C/AMP
+*************
+*$
+*
+** ROW D **************
+***************IN*OUT*REF
+.SUBCKT C5FR18D/AMP 1  2   3
+***********************
+R1 1 4 0.008
+L4 4 5 7.4NH
+C5 5 3 1.2PF
+L5 5 6 7.4NH
+R6 6 2 0.008
+.ENDS C5FR18D/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT C5FR18ML/AMP 1  2   3
+************************
+R1 1 4 0.014
+T4 4 3 2 3 Z0=107 TD=117PS
+.ENDS C5FR18ML/AMP
+**************
+*$
+*
+** ROW A ***************
+****************IN*OUT*REF
+.SUBCKT C5FR18AL/AMP 1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=107 TD=105PS
+.ENDS C5FR18AL/AMP
+**************
+*$
+*
+** ROW B ***************
+****************IN*OUT*REF
+.SUBCKT C5FR18BL/AMP 1  2   3
+************************
+R1 1 4 0.014
+T4 4 3 2 3 Z0=104 TD=111PS
+.ENDS C5FR18BL/AMP
+**************
+*$
+*
+** ROW C ***************
+****************IN*OUT*REF
+.SUBCKT C5FR18CL/AMP 1  2   3
+************************
+R1 1 4 0.015
+T4 4 3 2 3 Z0=105 TD=123PS
+.ENDS C5FR18CL/AMP
+**************
+*$
+*
+** ROW D ***************
+****************IN*OUT*REF
+.SUBCKT C5FR18DL/AMP 1  2   3
+************************
+R1 1 4 0.016
+T4 4 3 2 3 Z0=113 TD=131PS
+.ENDS C5FR18DL/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  CHAMP 0.050 FH (vert) *           82244
+*     9 mm length        *
+**************************
+*   rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+***************IN*OUT*REF
+.SUBCKT C5FV09M/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 2.5NH
+C5 5 3 0.7PF
+L5 5 6 2.5NH
+R6 6 2 0.004
+.ENDS C5FV09M/AMP
+*************
+*$
+*
+** ROW A **************
+***************IN*OUT*REF
+.SUBCKT C5FV09A/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 2.8NH
+C5 5 3 0.7PF
+L5 5 6 2.8NH
+R6 6 2 0.004
+.ENDS C5FV09A/AMP
+*************
+*$
+*
+** ROW B **************
+***************IN*OUT*REF
+.SUBCKT C5FV09B/AMP 1  2   3
+***********************
+R1 1 4 0.003
+L4 4 5 2.2NH
+C5 5 3 0.7PF
+L5 5 6 2.2NH
+R6 6 2 0.003
+.ENDS C5FV09B/AMP
+*************
+*$
+*
+** ROW C **************
+***************IN*OUT*REF
+.SUBCKT C5FV09C/AMP 1  2   3
+***********************
+R1 1 4 0.003
+L4 4 5 2.2NH
+C5 5 3 0.7PF
+L5 5 6 2.2NH
+R6 6 2 0.003
+.ENDS C5FV09C/AMP
+*************
+*$
+*
+** ROW D **************
+***************IN*OUT*REF
+.SUBCKT C5FV09D/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 2.8NH
+C5 5 3 0.7PF
+L5 5 6 2.8NH
+R6 6 2 0.004
+.ENDS C5FV09D/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT C5FV09ML/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=87 TD=57PS
+.ENDS C5FV09ML/AMP
+**************
+*$
+*
+** ROW A ***************
+****************IN*OUT*REF
+.SUBCKT C5FV09AL/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=92 TD=61PS
+.ENDS C5FV09AL/AMP
+**************
+*$
+*
+** ROW B ***************
+****************IN*OUT*REF
+.SUBCKT C5FV09BL/AMP 1  2   3
+************************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=82 TD=53PS
+.ENDS C5FV09BL/AMP
+**************
+*$
+*
+** ROW C ***************
+****************IN*OUT*REF
+.SUBCKT C5FV09CL/AMP 1  2   3
+************************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=82 TD=53PS
+.ENDS C5FV09CL/AMP
+**************
+*$
+*
+** ROW D ***************
+****************IN*OUT*REF
+.SUBCKT C5FV09DL/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=92 TD=61PS
+.ENDS C5FV09DL/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  CHAMP 0.050 FH (vert) *          82244
+*    13 mm length        *
+**************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+***************IN*OUT*REF
+.SUBCKT C5FV13M/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 3.5NH
+C5 5 3 0.8PF
+L5 5 6 3.5NH
+R6 6 2 0.004
+.ENDS C5FV13M/AMP
+*************
+*$
+*
+** ROW A **************
+***************IN*OUT*REF
+.SUBCKT C5FV13A/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.8NH
+C5 5 3 0.7PF
+L5 5 6 3.8NH
+R6 6 2 0.004
+.ENDS C5FV13A/AMP
+*************
+*$
+*
+** ROW B **************
+***************IN*OUT*REF
+.SUBCKT C5FV13B/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 3.1NH
+C5 5 3 0.7PF
+L5 5 6 3.1NH
+R6 6 2 0.004
+.ENDS C5FV13B/AMP
+*************
+*$
+*
+** ROW C **************
+***************IN*OUT*REF
+.SUBCKT C5FV13C/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 3.1NH
+C5 5 3 0.7PF
+L5 5 6 3.1NH
+R6 6 2 0.004
+.ENDS C5FV13C/AMP
+*************
+*$
+*
+** ROW D **************
+***************IN*OUT*REF
+.SUBCKT C5FV13D/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.8NH
+C5 5 3 0.8PF
+L5 5 6 3.8NH
+R6 6 2 0.004
+.ENDS C5FV13D/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT C5FV13ML/AMP 1  2   3
+************************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=96 TD=72PS
+.ENDS C5FV13ML/AMP
+**************
+*$
+*
+** ROW A ***************
+****************IN*OUT*REF
+.SUBCKT C5FV13AL/AMP 1  2   3
+************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=101 TD=76PS
+.ENDS C5FV13AL/AMP
+**************
+*$
+*
+** ROW B ***************
+****************IN*OUT*REF
+.SUBCKT C5FV13BL/AMP 1  2   3
+************************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=91 TD=68PS
+.ENDS C5FV13BL/AMP
+**************
+*$
+*
+** ROW C ***************
+****************IN*OUT*REF
+.SUBCKT C5FV13CL/AMP 1  2   3
+************************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=91 TD=68PS
+.ENDS C5FV13CL/AMP
+**************
+*$
+*
+** ROW D ***************
+****************IN*OUT*REF
+.SUBCKT C5FV13DL/AMP 1  2   3
+************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=101 TD=76PS
+.ENDS C5FV13DL/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  CHAMP 0.050 FH (vert) *         82244
+*    18 mm length        *
+**************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+***************IN*OUT*REF
+.SUBCKT C5FV18M/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 4.6NH
+C5 5 3 0.9PF
+L5 5 6 4.6NH
+R6 6 2 0.005
+.ENDS C5FV18M/AMP
+*************
+*$
+*
+** ROW A **************
+***************IN*OUT*REF
+.SUBCKT C5FV18A/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 5.1NH
+C5 5 3 0.9PF
+L5 5 6 5.1NH
+R6 6 2 0.005
+.ENDS C5FV18A/AMP
+*************
+*$
+*
+** ROW B **************
+***************IN*OUT*REF
+.SUBCKT C5FV18B/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 4.2NH
+C5 5 3 0.9PF
+L5 5 6 4.2NH
+R6 6 2 0.004
+.ENDS C5FV18B/AMP
+*************
+*$
+*
+** ROW C **************
+***************IN*OUT*REF
+.SUBCKT C5FV18C/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 4.2NH
+C5 5 3 0.9PF
+L5 5 6 4.2NH
+R6 6 2 0.004
+.ENDS C5FV18C/AMP
+*************
+*$
+*
+** ROW D **************
+***************IN*OUT*REF
+.SUBCKT C5FV18D/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 5.1NH
+C5 5 3 0.9PF
+L5 5 6 5.1NH
+R6 6 2 0.005
+.ENDS C5FV18D/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT C5FV18ML/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=104 TD=89PS
+.ENDS C5FV18ML/AMP
+**************
+*$
+*
+** ROW A ***************
+****************IN*OUT*REF
+.SUBCKT C5FV18AL/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=108 TD=94PS
+.ENDS C5FV18AL/AMP
+**************
+*$
+*
+** ROW B ***************
+****************IN*OUT*REF
+.SUBCKT C5FV18BL/AMP 1  2   3
+************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=99 TD=85PS
+.ENDS C5FV18BL/AMP
+**************
+*$
+*
+** ROW C ***************
+****************IN*OUT*REF
+.SUBCKT C5FV18CL/AMP 1  2   3
+************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=99 TD=85PS
+.ENDS C5FV18CL/AMP
+**************
+*$
+*
+** ROW D ***************
+****************IN*OUT*REF
+.SUBCKT C5FV18DL/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=108 TD=94PS
+.ENDS C5FV18DL/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  0.8mm CHAMP           *          82244
+*  LOW PROFILE METRIC    *
+*                        *
+**************************
+* rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT C8LMM/AMP 1  2   3
+***********************
+R1 1 4 0.017
+L4 4 5 3.8NH
+C5 5 3 2.5PF
+L5 5 6 3.8NH
+R6 6 2 0.017
+.ENDS C8LMM/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT C8LMA/AMP 1  2   3
+***********************
+R1 1 4 0.015
+L4 4 5 3.5NH
+C5 5 3 2.4PF
+L5 5 6 3.5NH
+R6 6 2 0.015
+.ENDS C8LMA/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT C8LMB/AMP 1  2   3
+***********************
+R1 1 4 0.019
+L4 4 5 4.2NH
+C5 5 3 2.6PF
+L5 5 6 4.2NH
+R6 6 2 0.019
+.ENDS C8LMB/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT C8LMML/AMP 1  2   3
+************************
+R1 1 4 0.034
+T4 4 3 2 3 Z0=56 TD=139PS
+.ENDS C8LMML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT C8LMAL/AMP 1  2   3
+************************
+R1 1 4 0.030
+T4 4 3 2 3 Z0=54 TD=129PS
+.ENDS C8LMAL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT C8LMBL/AMP 1  2   3
+************************
+R1 1 4 0.037
+T4 4 3 2 3 Z0=57 TD=148PS
+.ENDS C8LMBL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                           *   AMP Connector Catalog No. 82882
+*    ENHANCED EUROCARD      *
+*                           *   
+*****************************                        
+* rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+*** MEDIAN VALUES ****
+************IN*OUT*REF
+.SUBCKT EEC5M/AMP 1  2   3
+*********************
+R1 1 4 0.004
+L4 4 5 3.7NH
+C5 5 3 1.6PF
+L5 5 6 3.7NH
+R6 6 2 0.004
+.ENDS EEC5M/AMP
+**********
+*$
+*
+** ROW A *************
+************IN*OUT*REF
+.SUBCKT EEC5A/AMP 1  2   3
+*********************
+R1 1 4 0.003
+L4 4 5 2.7NH
+C5 5 3 1.4PF
+L5 5 6 2.7NH
+R6 6 2 0.003
+.ENDS EEC5A/AMP
+**********
+*$
+*
+** ROW B *************
+************IN*OUT*REF
+.SUBCKT EEC5B/AMP 1  2   3
+*********************
+R1 1 4 0.004
+L4 4 5 3.6NH
+C5 5 3 1.6PF
+L5 5 6 3.6NH
+R6 6 2 0.004
+.ENDS EEC5B/AMP
+**********
+*$
+*
+** ROW C *************
+************IN*OUT*REF
+.SUBCKT EEC5C/AMP 1  2   3
+*********************
+R1 1 4 0.004
+L4 4 5 4.7NH
+C5 5 3 1.7PF
+L5 5 6 4.7NH
+R6 6 2 0.004
+.ENDS EEC5C/AMP
+**********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES ******
+*************IN*OUT*REF
+.SUBCKT EEC5ML/AMP 1  2   3
+**********************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=68 TD=97PS
+.ENDS EEC5ML/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT EEC5AL/AMP 1  2   3
+**********************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=62 TD=79PS
+.ENDS EEC5AL/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT EEC5BL/AMP 1  2   3
+**********************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=67 TD=97PS
+.ENDS EEC5BL/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT EEC5CL/AMP 1  2   3
+**********************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=74 TD=115PS
+.ENDS EEC5CL/AMP
+***********
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                           *   AMP Connector Catalog No. 82950
+*    ENHANCED EUROCARD      *
+* short shield only loaded  *   
+*****************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+*** MEDIAN VALUES ****
+************IN*OUT*REF
+.SUBCKT EEC4M/AMP 1  2   3
+*********************
+R1 1 4 0.004
+L4 4 5 3.8NH
+C5 5 3 1.5PF
+L5 5 6 3.8NH
+R6 6 2 0.004
+.ENDS EEC4M/AMP
+**********
+*$
+*
+** ROW A *************
+************IN*OUT*REF
+.SUBCKT EEC4A/AMP 1  2   3
+*********************
+R1 1 4 0.003
+L4 4 5 2.7NH
+C5 5 3 1.4PF
+L5 5 6 2.7NH
+R6 6 2 0.003
+.ENDS EEC4A/AMP
+**********
+*$
+*
+** ROW B *************
+************IN*OUT*REF
+.SUBCKT EEC4B/AMP 1  2   3
+*********************
+R1 1 4 0.004
+L4 4 5 3.6NH
+C5 5 3 1.6PF
+L5 5 6 3.6NH
+R6 6 2 0.004
+.ENDS EEC4B/AMP
+**********
+*$
+*
+** ROW C *************
+************IN*OUT*REF
+.SUBCKT EEC4C/AMP 1  2   3
+*********************
+R1 1 4 0.004
+L4 4 5 5.0NH
+C5 5 3 1.5PF
+L5 5 6 5.0NH
+R6 6 2 0.004
+.ENDS EEC4C/AMP
+**********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES ******
+*************IN*OUT*REF
+.SUBCKT EEC4ML/AMP 1  2   3
+**********************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=70 TD=97PS
+.ENDS EEC4ML/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT EEC4AL/AMP 1  2   3
+**********************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=62 TD=79PS
+.ENDS EEC4AL/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT EEC4BL/AMP 1  2   3
+**********************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=67 TD=97PS
+.ENDS EEC4BL/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT EEC4CL/AMP 1  2   3
+**********************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=82 TD=115PS
+.ENDS EEC4CL/AMP
+***********
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                    *    AMP Connector Catalog No. 82721
+*     EUROCARD       *
+*                    *    
+**********************                          
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+*** MEDIAN VALUES ****
+************IN*OUT*REF
+.SUBCKT ETCM/AMP 1  2   3
+*********************
+R1 1 4 0.004
+L4 4 5 4.0NH
+C5 5 3 1.4PF
+L5 5 6 4.0NH
+R6 6 2 0.004
+.ENDS ETCM/AMP
+**********
+*$
+*
+** ROW A *************
+************IN*OUT*REF
+.SUBCKT ETCA/AMP 1  2   3
+*********************
+R1 1 4 0.003
+L4 4 5 3.0NH
+C5 5 3 1.2PF
+L5 5 6 3.0NH
+R6 6 2 0.003
+.ENDS ETCA/AMP
+**********
+*$
+*
+** ROW B *************
+************IN*OUT*REF
+.SUBCKT ETCB/AMP 1  2   3
+*********************
+R1 1 4 0.004
+L4 4 5 3.7NH
+C5 5 3 1.6PF
+L5 5 6 3.7NH
+R6 6 2 0.004
+.ENDS ETCB/AMP
+**********
+*$
+*
+** ROW C *************
+************IN*OUT*REF
+.SUBCKT ETCC/AMP 1  2   3
+*********************
+R1 1 4 0.004
+L4 4 5 5.2NH
+C5 5 3 1.5PF
+L5 5 6 5.2NH
+R6 6 2 0.004
+.ENDS ETCC/AMP
+**********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES ******
+*************IN*OUT*REF
+.SUBCKT ETCML/AMP 1  2   3
+**********************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=75 TD=98PS
+.ENDS ETCML/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT ETCAL/AMP 1  2   3
+**********************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=71 TD=80PS
+.ENDS ETCAL/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT ETCBL/AMP 1  2   3
+**********************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=68 TD=98PS
+.ENDS ETCBL/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT ETCCL/AMP 1  2   3
+**********************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=84 TD=115PS
+.ENDS ETCCL/AMP
+***********
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                      *   AMP Connector Catalog No. n/a
+*     Z-PACK FB        *
+*                      *   
+************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT FB2MM/AMP 1  2   3
+***********************
+R1 1 4 0.010
+L4 4 5 3.2NH
+C5 5 3 2.1PF
+L5 5 6 3.2NH
+R6 6 2 0.010
+.ENDS FB2MM/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT FB2MA/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 2.5NH
+C5 5 3 1.6PF
+L5 5 6 2.5NH
+R6 6 2 0.006
+.ENDS FB2MA/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT FB2MB/AMP 1  2   3
+***********************
+R1 1 4 0.009
+L4 4 5 2.8NH
+C5 5 3 2.1PF
+L5 5 6 2.8NH
+R6 6 2 0.009
+.ENDS FB2MB/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT FB2MC/AMP 1  2   3
+***********************
+R1 1 4 0.012
+L4 4 5 3.3NH
+C5 5 3 2.4PF
+L5 5 6 3.3NH
+R6 6 2 0.012
+.ENDS FB2MC/AMP
+***********
+*$
+*
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT FB2MD/AMP 1  2   3
+***********************
+R1 1 4 0.014
+L4 4 5 4.4NH
+C5 5 3 2.4PF
+L5 5 6 4.4NH
+R6 6 2 0.014
+.ENDS FB2MD/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT FB2MML/AMP 1  2   3
+************************
+R1 1 4 0.020
+T4 4 3 2 3 Z0=55 TD=113PS
+.ENDS FB2MML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT FB2MAL/AMP 1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=56 TD=87PS
+.ENDS FB2MAL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT FB2MBL/AMP 1  2   3
+************************
+R1 1 4 0.018
+T4 4 3 2 3 Z0=51 TD=104PS
+.ENDS FB2MBL/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT FB2MCL/AMP 1  2   3
+************************
+R1 1 4 0.023
+T4 4 3 2 3 Z0=52 TD=121PS
+.ENDS FB2MCL/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT FB2MDL/AMP 1  2   3
+************************
+R1 1 4 0.028
+T4 4 3 2 3 Z0=60 TD=138PS
+.ENDS FB2MDL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *    AMP Connector Catalog No.82618
+*    HDI 3 ROW RA       *
+*                       *    
+*************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT HDI3M/AMP 1  2   3
+**********************
+R1 1 4 0.005
+L4 4 5 4.5NH
+C5 5 3 1.6PF
+L5 5 6 4.5NH
+R6 6 2 0.005
+.ENDS HDI3M/AMP
+***********
+*$
+*
+*** ROW A *************
+*************IN*OUT*REF
+.SUBCKT HDI3A/AMP 1  2   3
+**********************
+R1 1 4 0.004
+L4 4 5 3.5NH
+C5 5 3 1.3PF
+L5 5 6 3.5NH
+R6 6 2 0.004
+.ENDS HDI3A/AMP
+***********
+*$
+*
+*** ROW B *************
+*************IN*OUT*REF
+.SUBCKT HDI3B/AMP 1  2   3
+**********************
+R1 1 4 0.005
+L4 4 5 4.5NH
+C5 5 3 1.7PF
+L5 5 6 4.5NH
+R6 6 2 0.005
+.ENDS HDI3B/AMP
+***********
+*$
+*
+*** ROW C *************
+*************IN*OUT*REF
+.SUBCKT HDI3C/AMP 1  2   3
+**********************
+R1 1 4 0.006
+L4 4 5 6.0NH
+C5 5 3 1.8PF
+L5 5 6 6.0NH
+R6 6 2 0.006
+.ENDS HDI3C/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*** MEDIAN VALUES ******
+**************IN*OUT*REF
+.SUBCKT HDI3ML/AMP 1  2   3
+***********************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=75 TD=125PS
+.ENDS HDI3ML/AMP
+************
+*$
+*
+*** ROW A **************
+**************IN*OUT*REF
+.SUBCKT HDI3AL/AMP 1  2   3
+***********************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=73 TD=100PS
+.ENDS HDI3AL/AMP
+************
+*$
+*
+*** ROW B **************
+**************IN*OUT*REF
+.SUBCKT HDI3BL/AMP 1  2   3
+***********************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=73 TD=125PS
+.ENDS HDI3BL/AMP
+************
+*$
+*
+*** ROW C **************
+**************IN*OUT*REF
+.SUBCKT HDI3CL/AMP 1  2   3
+***********************
+R1 1 4 0.011
+T4 4 3 2 3 Z0=81 TD=150PS
+.ENDS HDI3CL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. 82618
+*     HDI 3 ROW ST      *
+*                       *   
+*************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+** MEDIAN VALUES *******
+**************IN*OUT*REF
+.SUBCKT HDI3SM/AMP  1   2   3
+***********************
+R1 1 4 0.003
+L4 4 5 3.8NH
+C5 5 3 1.4PF
+L5 5 6 3.8NH
+R6 6 2 0.003
+.ENDS HDI3SM/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT HDI3SA/AMP  1   2   3
+***********************
+R1 1 4 0.003
+L4 4 5 3.9NH
+C5 5 3 1.3PF
+L5 5 6 3.9NH
+R6 6 2 0.003
+.ENDS HDI3SA/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT HDI3SB/AMP  1   2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.5NH
+C5 5 3 1.5PF
+L5 5 6 3.5NH
+R6 6 2 0.005
+.ENDS HDI3SB/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT HDI3SC/AMP  1   2   3
+***********************
+R1 1 4 0.003
+L4 4 5 3.9NH
+C5 5 3 1.3PF
+L5 5 6 3.9NH
+R6 6 2 0.003
+.ENDS HDI3SC/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES ********
+***************IN*OUT*REF
+.SUBCKT HDI3SML/AMP  1   2   3
+************************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=74 TD=100PS
+.ENDS HDI3SML/AMP
+*************
+*$
+*
+** ROW A ****************
+***************IN*OUT*REF
+.SUBCKT HDI3SAL/AMP  1   2   3
+************************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=77 TD=100PS
+.ENDS HDI3SAL/AMP
+*************
+*$
+*
+** ROW B ****************
+***************IN*OUT*REF
+.SUBCKT HDI3SBL/AMP 1 2 3
+*********************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=68 TD=110PS
+.ENDS HDI3SBL/AMP
+*************
+*$
+*
+** ROW C ****************
+***************IN*OUT*REF
+.SUBCKT HDI3SCL/AMP  1   2   3
+************************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=77 TD=100PS
+.ENDS HDI3SCL/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. 82618
+*     HDI 4 ROW RA      *
+*                       *   
+*************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT HDI4M/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 5.0NH
+C5 5 3 1.7PF
+L5 5 6 5.0NH
+R6 6 2 0.003
+.ENDS HDI4M/AMP
+***********
+*$
+*
+*** ROW A *************
+*************IN*OUT*REF
+.SUBCKT HDI4A/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 3.5NH
+C5 5 3 1.3PF
+L5 5 6 3.5NH
+R6 6 2 0.003
+.ENDS HDI4A/AMP
+***********
+*$
+*
+*** ROW B *************
+*************IN*OUT*REF
+.SUBCKT HDI4B/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 4.5NH
+C5 5 3 1.7PF
+L5 5 6 4.5NH
+R6 6 2 0.003
+.ENDS HDI4B/AMP
+***********
+*$
+*
+*** ROW C *************
+*************IN*OUT*REF
+.SUBCKT HDI4C/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 5.5NH
+C5 5 3 1.9PF
+L5 5 6 5.5NH
+R6 6 2 0.003
+.ENDS HDI4C/AMP
+***********
+*$
+*
+*** ROW D *************
+*************IN*OUT*REF
+.SUBCKT HDI4D/AMP 1  2   3
+**********************
+R1 1 4 0.004
+L4 4 5 6.5NH
+C5 5 3 2.0PF
+L5 5 6 6.5NH
+R6 6 2 0.004
+.ENDS HDI4D/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*** MEDIAN VALUES ******
+**************IN*OUT*REF
+.SUBCKT HDI4ML/AMP 1  2   3
+***********************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=77 TD=130PS
+.ENDS HDI4ML/AMP
+************
+*$
+*
+*** ROW A **************
+**************IN*OUT*REF
+.SUBCKT HDI4AL/AMP 1  2   3
+***********************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=73 TD=100PS
+.ENDS HDI4AL/AMP
+************
+*$
+*
+*** ROW B **************
+**************IN*OUT*REF
+.SUBCKT HDI4BL/AMP 1  2   3
+***********************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=73 TD=120PS
+.ENDS HDI4BL/AMP
+************
+*$
+*
+*** ROW C **************
+**************IN*OUT*REF
+.SUBCKT HDI4CL/AMP 1  2   3
+***********************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=76 TD=140PS
+.ENDS HDI4CL/AMP
+************
+*$
+*
+*** ROW D **************
+**************IN*OUT*REF
+.SUBCKT HDI4DL/AMP 1  2   3
+***********************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=81 TD=160PS
+.ENDS HDI4DL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. 82618
+*      HDI 4 ROW ST     *
+*                       *   
+*************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+** MEDIAN VALUES *******
+**************IN*OUT*REF
+.SUBCKT HDI4SM/AMP  1   2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.7NH
+C5 5 3 1.4PF
+L5 5 6 3.7NH
+R6 6 2 0.005
+.ENDS HDI4SM/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT HDI4SA/AMP  1   2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.9NH
+C5 5 3 1.3PF
+L5 5 6 3.9NH
+R6 6 2 0.005
+.ENDS HDI4SA/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT HDI4SB/AMP  1   2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.5NH
+C5 5 3 1.5PF
+L5 5 6 3.5NH
+R6 6 2 0.005
+.ENDS HDI4SB/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT HDI4SC/AMP  1   2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.5NH
+C5 5 3 1.5PF
+L5 5 6 3.5NH
+R6 6 2 0.005
+.ENDS HDI4SC/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT HDI4SD/AMP  1   2   3
+***********************
+R1 1 4 0.005
+L4 4 5 3.9NH
+C5 5 3 1.3PF
+L5 5 6 3.9NH
+R6 6 2 0.005
+.ENDS HDI4SD/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES ********
+***************IN*OUT*REF
+.SUBCKT HDI4SML/AMP  1   2   3
+************************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=73 TD=105PS
+.ENDS HDI4SML/AMP
+*************
+*$
+*
+** ROW A ****************
+***************IN*OUT*REF
+.SUBCKT HDI4SAL/AMP  1   2   3
+************************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=77 TD=100PS
+.ENDS HDI4SAL/AMP
+*************
+*$
+*
+** ROW B ****************
+***************IN*OUT*REF
+.SUBCKT HDI4SBL/AMP  1   2   3
+************************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=68 TD=110PS
+.ENDS HDI4SBL/AMP
+*************
+*$
+*
+** ROW C ****************
+***************IN*OUT*REF
+.SUBCKT HDI4SCL/AMP  1   2   3
+************************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=68 TD=110PS
+.ENDS HDI4SCL/AMP
+*************
+*$
+*
+** ROW D ****************
+***************IN*OUT*REF
+.SUBCKT HDI4SDL/AMP  1   2   3
+************************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=77 TD=100PS
+.ENDS HDI4SDL/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. 65079
+*    2mm HM 5 ROW       *
+*                       *   
+*************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+**************IN*OUT*REF
+.SUBCKT HM5M/AMP   1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 3.0NH
+C5 5 3 1.9PF
+L5 5 6 3.0NH
+R6 6 2 0.007
+.ENDS HM5M/AMP
+***********
+*$
+*
+** ROW A **************
+**************IN*OUT*REF
+.SUBCKT HM5A/AMP   1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 2.7NH
+C5 5 3 1.4PF
+L5 5 6 2.7NH
+R6 6 2 0.006
+.ENDS HM5A/AMP
+***********
+*$
+*
+** ROW B **************
+**************IN*OUT*REF
+.SUBCKT HM5B/AMP   1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 2.5NH
+C5 5 3 1.7PF
+L5 5 6 2.5NH
+R6 6 2 0.006
+.ENDS HM5B/AMP
+***********
+*$
+*
+** ROW C **************
+**************IN*OUT*REF
+.SUBCKT HM5C/AMP   1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 2.9NH
+C5 5 3 2.0PF
+L5 5 6 2.9NH
+R6 6 2 0.007
+.ENDS HM5C/AMP
+***********
+*$
+*
+** ROW D **************
+**************IN*OUT*REF
+.SUBCKT HM5D/AMP   1  2   3
+***********************
+R1 1 4 0.008
+L4 4 5 3.1NH
+C5 5 3 2.3PF
+L5 5 6 3.1NH
+R6 6 2 0.008
+.ENDS HM5D/AMP
+***********
+*$
+*
+** ROW E **************
+**************IN*OUT*REF
+.SUBCKT HM5E/AMP   1  2   3
+***********************
+R1 1 4 0.008
+L4 4 5 4.0NH
+C5 5 3 2.1PF
+L5 5 6 4.0NH
+R6 6 2 0.008
+.ENDS HM5E/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+***************IN*OUT*REF
+.SUBCKT HM5ML/AMP   1  2   3
+************************
+R1 1 4 0.014
+T4 4 3 2 3 Z0=56 TD=104PS
+.ENDS HM5ML/AMP
+************
+*$
+*
+** ROW A ***************
+***************IN*OUT*REF
+.SUBCKT HM5AL/AMP   1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=62 TD=85PS
+.ENDS HM5AL/AMP
+************
+*$
+*
+** ROW B ***************
+***************IN*OUT*REF
+.SUBCKT HM5BL/AMP   1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=54 TD=90PS
+.ENDS HM5BL/AMP
+************
+*$
+*
+** ROW C ***************
+***************IN*OUT*REF
+.SUBCKT HM5CL/AMP   1  2   3
+************************
+R1 1 4 0.013
+T4 4 3 2 3 Z0=54 TD=100PS
+.ENDS HM5CL/AMP
+************
+*$
+*
+** ROW D ***************
+***************IN*OUT*REF
+.SUBCKT HM5DL/AMP   1  2   3
+************************
+R1 1 4 0.015
+T4 4 3 2 3 Z0=52 TD=115PS
+.ENDS HM5DL/AMP
+************
+*$
+*
+** ROW E ***************
+***************IN*OUT*REF
+.SUBCKT HM5EL/AMP   1  2   3
+************************
+R1 1 4 0.016
+T4 4 3 2 3 Z0=61 TD=130PS
+.ENDS HM5EL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                      *   AMP Connector Catalog No. n/a
+*   2mm HM 7 ROW       *
+*                      *   
+************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+***** MEDIAN VALUES ****
+**************IN*OUT*REF
+.SUBCKT HM7M/AMP   1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 2.9NH
+C5 5 3 2.0PF
+L5 5 6 2.9NH
+R6 6 2 0.007
+.ENDS HM7M/AMP
+************
+*$
+*
+*** ROW A **************
+**************IN*OUT*REF
+.SUBCKT HM7A/AMP   1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 2.5NH
+C5 5 3 1.6PF
+L5 5 6 2.5NH
+R6 6 2 0.006
+.ENDS HM7A/AMP
+************
+*$
+*
+*** ROW B **************
+**************IN*OUT*REF
+.SUBCKT HM7B/AMP   1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 2.5NH
+C5 5 3 1.8PF
+L5 5 6 2.5NH
+R6 6 2 0.006
+.ENDS HM7B/AMP
+************
+*$
+*
+*** ROW C **************
+**************IN*OUT*REF
+.SUBCKT HM7C/AMP   1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 2.9NH
+C5 5 3 2.0PF
+L5 5 6 2.9NH
+R6 6 2 0.007
+.ENDS HM7C/AMP
+************
+*$
+*
+*** ROW D **************
+**************IN*OUT*REF
+.SUBCKT HM7D/AMP   1  2   3
+***********************
+R1 1 4 0.008
+L4 4 5 3.1NH
+C5 5 3 2.4PF
+L5 5 6 3.1NH
+R6 6 2 0.008
+.ENDS HM7D/AMP
+************
+*$
+*
+*** ROW E **************
+**************IN*OUT*REF
+.SUBCKT HM7E/AMP   1  2   3
+***********************
+R1 1 4 0.008
+L4 4 5 3.7NH
+C5 5 3 2.4PF
+L5 5 6 3.7NH
+R6 6 2 0.008
+.ENDS HM7E/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+***** MEDIAN VALUES *****
+***************IN*OUT*REF
+.SUBCKT HM7ML/AMP   1  2   3
+************************
+R1 1 4 0.014
+T4 4 3 2 3 Z0=53 TD=107PS
+.ENDS HM7ML/AMP
+*************
+*$
+*
+*** ROW A ***************
+***************IN*OUT*REF
+.SUBCKT HM7AL/AMP   1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=55 TD=85PS
+.ENDS HM7AL/AMP
+*************
+*$
+*
+*** ROW B ***************
+***************IN*OUT*REF
+.SUBCKT HM7BL/AMP   1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=53 TD=95PS
+.ENDS HM7BL/AMP
+*************
+*$
+*
+** ROW C ***************
+***************IN*OUT*REF
+.SUBCKT HM7CL/AMP   1  2   3
+************************
+R1 1 4 0.013
+T4 4 3 2 3 Z0=54 TD=105PS
+.ENDS HM7CL/AMP
+*************
+*$
+*
+** ROW D ***************
+***************IN*OUT*REF
+.SUBCKT HM7DL/AMP   1  2   3
+************************
+R1 1 4 0.015
+T4 4 3 2 3 Z0=50 TD=120PS
+.ENDS HM7DL/AMP
+*************
+*$
+*
+** ROW E ***************
+***************IN*OUT*REF
+.SUBCKT HM7EL/AMP   1  2   3
+************************
+R1 1 4 0.016
+T4 4 3 2 3 Z0=55 TD=130PS
+.ENDS HM7EL/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. n/a
+* HIGH SPEED CARD EDGE  *
+*                       *  
+*************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING CARD EDGE SLM IS HEAVILY INFLUNCED BY THE
+*  CARD EDGE PADS. THE PAD VALUES INCLUDED ARE DERIVED FROM
+*  STANDARD PAD DIMENSIONS AND AN ASSUMPTION OF A GROUND
+*  PLANE LOCATED 0.013 INCH UNDER THE PADS IN FR4 WITH Er=4.7
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING RLC MODELS ARE APPROPRIATE
+*  FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+* ROW A = ROW B = MEAN
+*************IN*OUT*REF
+.SUBCKT HSCEM/AMP 1  2   3
+** load card__|  |
+** mother board__|
+**********************
+* pad elements
+R1 1 4 0.001
+C4 4 3 0.6PF
+L4 4 5 0.7NH
+* pad stub
+C5 5 3 1.0PF
+* connector elements
+L5 5 6 2.0NH
+C6 6 3 1.0PF
+L6 6 7 2.0NH
+R7 7 2 0.010
+*
+.ENDS HSCEM/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEAN
+**************IN*OUT*REF
+.SUBCKT HSCEML/AMP 1  2   3
+** load card__|  |
+** mother board__|
+***********************
+R1 1 4 0.011
+C4 4 3 1.0PF
+T4 4 3 2 3 Z0=55 TD=83PS
+.ENDS HSCEML/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. 82619
+*          ISA          *
+*                       *  
+*************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING CARD EDGE SLM IS HEAVILY INFLUNCED BY THE
+*  CARD EDGE PADS. THE PAD VALUES INCLUDED ARE DERIVED FROM
+*  STANDARD PAD DIMENSIONS AND AN ASSUMPTION OF A GROUND
+*  PLANE LOCATED 0.013 INCH UNDER THE PADS IN FR4 WITH Er=4.7
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING RLC MODELS ARE APPROPRIATE
+*  FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+* ROW A = ROW B = MEAN
+************IN*OUT*REF
+.SUBCKT ISAM/AMP 1  2   3
+** load card_|  |
+** mother board_|
+********************
+* pad elements
+R1 1 4 0.001
+C4 4 3 0.8PF
+L4 4 5 0.5NH
+* pad stub
+C5 5 3 1.4PF
+* connector elements
+L5 5 6 4.0NH
+C6 6 3 1.2PF
+L6 6 7 4.0NH
+R7 7 2 0.007
+*
+.ENDS ISAM/AMP
+**********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEAN
+*************IN*OUT*REF
+.SUBCKT ISAML/AMP 1  2   3
+** load card__|  |
+** mother board__|
+**********************
+R1 1 4 0.008
+C4 4 3 2.0PF
+T4 4 3 2 3 Z0=82 TD=98PS
+.ENDS ISAML/AMP
+***********
+*$
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+*****************************************************
+*                       *   AMP Connector Catalog No.
+*    Z-PACK             *            n/a
+*    050J-II            *
+*                       *
+*************************
+*   rev 3/1/94
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*** MEDIAN VALUES *****
+*************IN*OUT*REF
+.SUBCKT J508M/AMP 1  2   3
+**********************
+R1 1 4 0.005
+L4 4 5 1.87NH
+C5 5 3 0.68PF
+L5 5 6 1.87NH
+C6 6 3 0.68PF
+L6 6 7 1.87NH
+C7 7 3 0.68PF
+L7 7 8 1.87NH
+R8 8 2 0.005
+.ENDS J508M/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT J508A/AMP 1  2   3
+**********************
+R1 1 4 0.004
+L4 4 5 1.28NH
+C5 5 3 0.53PF
+L5 5 6 1.28NH
+C6 6 3 0.53PF
+L6 6 7 1.28NH
+C7 7 3 0.53PF
+L7 7 8 1.28NH
+R8 8 2 0.004
+.ENDS J508A/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT J508B/AMP 1  2   3
+**********************
+R1 1 4 0.004
+L4 4 5 1.50NH
+C5 5 3 0.67PF
+L5 5 6 1.50NH
+C6 6 3 0.67PF
+L6 6 7 1.50NH
+C7 7 3 0.67PF
+L7 7 8 1.50NH
+R8 8 2 0.004
+.ENDS J508B/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT J508C/AMP 1  2   3
+**********************
+R1 1 4 0.005
+L4 4 5 1.48NH
+C5 5 3 0.70PF
+L5 5 6 1.48NH
+C6 6 3 0.70PF
+L6 6 7 1.48NH
+C7 7 3 0.70PF
+L7 7 8 1.48NH
+R8 8 2 0.005
+.ENDS J508C/AMP
+***********
+*$
+*
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT J508D/AMP 1  2   3
+**********************
+R1 1 4 0.005
+L4 4 5 1.75NH
+C5 5 3 0.70PF
+L5 5 6 1.75NH
+C6 6 3 0.70PF
+L6 6 7 1.75NH
+C7 7 3 0.70PF
+L7 7 8 1.75NH
+R8 8 2 0.005
+.ENDS J508D/AMP
+***********
+*$
+*
+** ROW E **************
+*************IN*OUT*REF
+.SUBCKT J508E/AMP 1  2   3
+**********************
+R1 1 4 0.005
+L4 4 5 1.80NH
+C5 5 3 0.73PF
+L5 5 6 1.80NH
+C6 6 3 0.73PF
+L6 6 7 1.80NH
+C7 7 3 0.73PF
+L7 7 8 1.80NH
+R8 8 2 0.005
+.ENDS J508E/AMP
+***********
+*$
+*
+** ROW F **************
+*************IN*OUT*REF
+.SUBCKT J508F/AMP 1  2   3
+**********************
+R1 1 4 0.005
+L4 4 5 2.05NH
+C5 5 3 0.73PF
+L5 5 6 2.05NH
+C6 6 3 0.73PF
+L6 6 7 2.05NH
+C7 7 3 0.73PF
+L7 7 8 2.05NH
+R8 8 2 0.005
+.ENDS J508F/AMP
+***********
+*$
+*
+** ROW G **************
+*************IN*OUT*REF
+.SUBCKT J508G/AMP 1  2   3
+**********************
+R1 1 4 0.006
+L4 4 5 2.13NH
+C5 5 3 0.77PF
+L5 5 6 2.13NH
+C6 6 3 0.77PF
+L6 6 7 2.13NH
+C7 7 3 0.77PF
+L7 7 8 2.13NH
+R8 8 2 0.006
+.ENDS J508G/AMP
+***********
+*$
+*
+** ROW H **************
+*************IN*OUT*REF
+.SUBCKT J508H/AMP 1  2   3
+**********************
+R1 1 4 0.006
+L4 4 5 3.00NH
+C5 5 3 0.63PF
+L5 5 6 3.00NH
+C6 6 3 0.63PF
+L6 6 7 3.00NH
+C7 7 3 0.63PF
+L7 7 8 3.00NH
+R8 8 2 0.006
+.ENDS J508H/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES *******
+**************IN*OUT*REF
+.SUBCKT J508ML/AMP 1  2   3
+***********************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=60 TD=123PS
+.ENDS J508ML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT J508AL/AMP 1  2   3
+*********************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=56 TD=90PS
+.ENDS J508AL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT J508BL/AMP 1  2   3
+***********************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=55 TD=110PS
+.ENDS J508BL/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT J508CL/AMP 1  2   3
+***********************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=53 TD=112PS
+.ENDS J508CL/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT J508DL/AMP 1  2   3
+***********************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=58 TD=121PS
+.ENDS J508DL/AMP
+************
+*$
+*
+** ROW E ***************
+**************IN*OUT*REF
+.SUBCKT J508EL/AMP 1  2   3
+*********************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=57 TD=126PS
+.ENDS J508EL/AMP
+************
+*$
+*
+** ROW F ***************
+**************IN*OUT*REF
+.SUBCKT J508FL/AMP 1  2   3
+***********************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=61 TD=135PS
+.ENDS J508FL/AMP
+************
+*$
+*
+** ROW G ***************
+**************IN*OUT*REF
+.SUBCKT J508GL/AMP 1  2   3
+***********************
+R1 1 4 0.011
+T4 4 3 2 3 Z0=61 TD=140PS
+.ENDS J508GL/AMP
+************
+*$
+*
+** ROW H ***************
+**************IN*OUT*REF
+.SUBCKT J508HL/AMP 1  2   3
+***********************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=80 TD=149PS
+.ENDS J508HL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                        *   AMP Connector Catalog No. 82172
+*      LIF PGA           *
+*   0.27 mated lgth      * 
+**************************
+*   rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+** TYPE A, INNER POS. **
+**************IN*OUT*REF
+.SUBCKT LPG27A/AMP 1  2   3
+************************
+R1 1 4 0.015
+L4 4 2 2.2NH
+C4 4 3 0.55PF
+.ENDS LPG27A/AMP
+************
+*$
+*
+** TYPE B, OUTER POS. **
+**************IN*OUT*REF
+.SUBCKT LPG27B/AMP 1  2   3
+***********************
+R1 1 4 0.015
+L4 4 2 2.4NH
+C4 4 3 0.50PF
+.ENDS LPG27B/AMP
+************
+*$
+*
+** TYPE C, CORNER POS. **
+**************IN*OUT*REF
+.SUBCKT LPG27C/AMP 1  2   3
+***********************
+R1 1 4 0.015
+L4 4 2 2.8NH
+C4 4 3 0.40PF
+.ENDS LPG27C/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** TYPE A, INNER POS. **
+***************IN*OUT*REF
+.SUBCKT LPG27AL/AMP 1  2   3
+************************
+R1 1 4 0.015
+T4 4 3 2 3 Z0=63 TD=35PS
+.ENDS LPG27AL/AMP
+*************
+*$
+*
+** TYPE B, OUTER POS. **
+***************IN*OUT*REF
+.SUBCKT LPG27BL/AMP 1  2   3
+************************
+R1 1 4 0.015
+T4 4 3 2 3 Z0=69 TD=35PS
+.ENDS LPG27BL/AMP
+*************
+*$
+*
+** TYPE C, CORNER POS. **
+***************IN*OUT*REF
+.SUBCKT LPG27CL/AMP 1  2   3
+************************
+R1 1 4 0.015
+T4 4 3 2 3 Z0=84 TD=33PS
+.ENDS LPG27CL/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                    *    AMP Connector Catalog No. 82643
+*     MODU 50/50     *
+*     0.250 HIGH     *    
+*                    *
+**********************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+*  ROW A = ROW B = MEDIAN
+** MEDIAN VALUES ********
+***************IN*OUT*REF
+.SUBCKT MD5S25M/AMP 1  2   3
+************************
+R1 1 4 0.012
+L4 4 2 2.5NH
+C4 4 3 0.6PF
+.ENDS MD5S25M/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*  ROW A = ROW B = MEDIAN
+** MEDIAN VALUES *********
+****************IN*OUT*REF
+.SUBCKT MD5S25ML/AMP 1  2   3
+*************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=65 TD=40PS
+.ENDS MD5S25ML/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                    *    AMP Connector Catalog No. 82643
+*     MODU 50/50     *
+*     0.320 HIGH     *    
+*                    *
+**********************
+*   rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+*  ROW A = ROW B = MEDIAN
+** MEDIAN VALUES ********
+***************IN*OUT*REF
+.SUBCKT MD5S32M/AMP 1  2   3
+************************
+R1 1 4 0.014
+L4 4 2 3.0NH
+C4 4 3 0.7PF
+.ENDS MD5S32M/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*  ROW A = ROW B = MEDIAN
+** MEDIAN VALUES *********
+****************IN*OUT*REF
+.SUBCKT MD5S32ML/AMP 1  2   3
+*************************
+R1 1 4 0.014
+T4 4 3 2 3 Z0=65 TD=45PS
+.ENDS MD5S32ML/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. 101
+*   LOW FORCE PGA       *
+*   (Mark Eyelet)       *   
+*************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+** TYPE A, INNER POS. **
+*************IN*OUT*REF
+.SUBCKT MEPGA/AMP 1  2   3
+**********************
+R1 1 4 0.001
+L4 4 2 1.3NH
+C4 4 3 0.64PF
+.ENDS MEPGA/AMP
+***********
+*$
+*
+** TYPE B, OUTER POS. **
+*************IN*OUT*REF
+.SUBCKT MEPGB/AMP 1  2   3
+**********************
+R1 1 4 0.001
+L4 4 2 1.5NH
+C4 4 3 0.55PF
+.ENDS MEPGB/AMP
+***********
+*$
+*
+** TYPE C, CORNER POS. **
+*************IN*OUT*REF
+.SUBCKT MEPGC/AMP 1  2   3
+**********************
+R1 1 4 0.001
+L4 4 2 1.7NH
+C4 4 3 0.42PF
+.ENDS MEPGC/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** TYPE A, INNER POS. **
+**************IN*OUT*REF
+.SUBCKT MEPGAL/AMP 1  2   3
+***********************
+R1 1 4 0.001
+T4 4 3 2 3 Z0=46 TD=33PS
+.ENDS MEPGAL/AMP
+************
+*$
+*
+** TYPE B, OUTER POS. **
+**************IN*OUT*REF
+.SUBCKT MEPGBL/AMP 1  2   3
+***********************
+R1 1 4 0.001
+T4 4 3 2 3 Z0=52 TD=32PS
+.ENDS MEPGBL/AMP
+************
+*$
+*
+** TYPE C, CORNER POS. **
+**************IN*OUT*REF
+.SUBCKT MEPGCL/AMP 1  2   3
+***********************
+R1 1 4 0.001
+T4 4 3 2 3 Z0=65 TD=30PS
+.ENDS MEPGCL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*    MICTOR 25 S         *            n/a
+*     .495 high          *
+**************************
+*  rev 3/1/94
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* ROW A = ROW B = MEDIAN
+***** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT MI2S49M/AMP  1  2   3
+*************************
+R1 1 4 0.012
+L4 4 5 2.55NH
+C5 5 3 1.1PF
+L5 5 6 2.55NH
+R6 6 2 0.012
+.ENDS MI2S49M/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEDIAN
+***** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT MI2S49ML/AMP 1  2   3
+*************************
+R1 1 4 0.023
+T4 4 3 2 3 Z0=68 TD=85PS
+.ENDS MI2S49ML/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                        *   AMP Connector Catalog No. n/a
+*     MICTOR 25 RA       *
+*                        *   
+**************************
+*  rev 3/1/94
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* ROW A = ROW B = MEDIAN
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT MI25M/AMP  1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 1.6NH
+C5 5 3 0.7PF
+L5 5 6 1.6NH
+R6 6 2 0.005
+.ENDS MI25M/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEDIAN
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT MI25ML/AMP 1  2   3
+***********************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=68 TD=60PS
+.ENDS MI25ML/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                        *   AMP Connector Catalog No. n/a
+*    MICTOR 25 S         *
+*     .205 high          *   
+**************************
+*   rev 3/1/94
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* ROW A = ROW B = MEDIAN
+***** MEDIAN VALUES *****
+***************IN*OUT*REF
+.SUBCKT MI2S20M/AMP  1  2   3
+*************************
+R1 1 4 0.005
+L4 4 5 1.6NH
+C5 5 3 0.7PF
+L5 5 6 1.6NH
+R6 6 2 0.005
+.ENDS MI2S20M/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEDIAN
+***** MEDIAN VALUES *****
+***************IN*OUT*REF
+.SUBCKT MI2S20ML/AMP 1  2   3
+*************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=68 TD=60PS
+.ENDS MI2S20ML/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                        *   AMP Connector Catalog No. n/a
+*     MICTOR 50 RA       *
+*                        *   
+**************************
+*  rev 3/1/94
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* ROW A = ROW B = MEDIAN
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT MI50M/AMP  1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 2.0NH
+C5 5 3 0.7PF
+L5 5 6 2.0NH
+R6 6 2 0.005
+.ENDS MI50M/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEDIAN
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT MI50ML/AMP 1  2   3
+***********************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=75 TD=60PS
+.ENDS MI50ML/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                        *   AMP Connector Catalog No. n/a
+*    MICTOR 50 S         *
+*     .205 high          *   
+**************************
+*  rev 3/1/94
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* ROW A = ROW B = MEDIAN
+***** MEDIAN VALUES *****
+***************IN*OUT*REF
+.SUBCKT MI5S20M/AMP 1  2   3
+************************
+R1 1 4 0.005
+L4 4 5 1.8NH
+C5 5 3 0.7PF
+L5 5 6 1.8NH
+R6 6 2 0.005
+.ENDS MI5S20M/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEDIAN
+***** MEDIAN VALUES *****
+***************IN*OUT*REF
+.SUBCKT MI5S20ML/AMP 1  2   3
+*************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=72 TD=60PS
+.ENDS MI5S20ML/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+***************************************************
+*  MODU              *    AMP Connector Catalog No.
+*  METRISTAK         *           65790
+*  VERTICAL          *
+*  10 mm lgth        *
+**********************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+*  ROW A = ROW B = MEDIAN
+**************IN*OUT*REF
+.SUBCKT MMS10M/AMP 1  2   3
+************************
+R1 1 4 0.039
+L4 4 2 2.1NH
+C4 4 3 1.8PF
+.ENDS MMS10M/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*  ROW A = ROW B = MEDIAN
+***************IN*OUT*REF
+.SUBCKT MMS10ML/AMP 1  2   3
+*************************
+R1 1 4 0.039
+T4 4 3 2 3 Z0=35 TD=62PS
+.ENDS MMS10ML/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                    *    AMP Connector Catalog No. 82643
+*     MODU 50/50     *
+*     0.390 HIGH     *    
+*                    *
+**********************
+*   rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+*  ROW A = ROW B = MEDIAN
+** MEDIAN VALUES ********
+***************IN*OUT*REF
+.SUBCKT MODU39M/AMP 1  2   3
+************************
+R1 1 4 0.016
+L4 4 2 3.7NH
+C4 4 3 0.7PF
+.ENDS MODU39M/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*  ROW A = ROW B = MEDIAN
+** MEDIAN VALUES *********
+****************IN*OUT*REF
+.SUBCKT MODU39ML/AMP 1  2   3
+*************************
+R1 1 4 0.016
+T4 4 3 2 3 Z0=72 TD=50PS
+.ENDS MODU39ML/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                      *   AMP Connector Catalog No. 65194
+*     MICROSTRIP RA    *
+*                      *  
+************************
+*  rev 3/1/94
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT MSRAM/AMP 1  2   3
+**********************
+R1 1 4 0.050
+L1 4 5 2.6NH
+C1 4 3 0.47PF
+L2 5 6 2.6NH
+C2 5 3 0.47PF
+C3 6 3 0.47PF
+R2 6 2 0.050
+.ENDS MSRAM/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT MSRAA/AMP 1  2   3
+**********************
+R1 1 4 0.048
+L1 4 5 2.25NH
+C1 4 3 0.38PF
+L2 5 6 2.25NH
+C2 5 3 0.38PF
+C3 6 3 0.38PF
+R2 6 2 0.031
+.ENDS MSRAA/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT MSRAB/AMP 1  2   3
+**********************
+R1 1 4 0.050
+L1 4 5 2.3NH
+C1 4 3 0.36PF
+L2 5 6 2.3NH
+C2 5 3 0.36PF
+C3 6 3 0.36PF
+R2 6 2 0.050
+.ENDS MSRAB/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT MSRAC/AMP 1  2   3
+**********************
+R1 1 4 0.050
+L1 4 5 3.2NH
+C1 4 3 0.58PF
+L2 5 6 3.2NH
+C2 5 3 0.58PF
+C3 6 3 0.58PF
+R2 6 2 0.050
+.ENDS MSRAC/AMP
+***********
+*$
+*
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT MSRAD/AMP 1  2   3
+**********************
+R1 1 4 0.055
+L1 4 5 2.8NH
+C1 4 3 0.53PF
+L2 5 6 2.8NH
+C2 5 3 0.53PF
+C3 6 3 0.53PF
+R2 6 2 0.055
+.ENDS MSRAD/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES *******
+**************IN*OUT*REF
+.SUBCKT MSRAML/AMP 1  2   3
+***********************
+R1 1 4 0.100
+T4 4 3 2 3 Z0=61 TD=80PS
+.ENDS MSRAML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT MSRAAL/AMP 1  2   3
+***********************
+R1 1 4 0.095
+T4 4 3 2 3 Z0=63 TD=70PS
+.ENDS MSRAAL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT MSRABL/AMP 1  2   3
+***********************
+R1 1 4 0.100
+T4 4 3 2 3 Z0=65 TD=70PS
+.ENDS MSRABL/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT MSRACL/AMP 1  2   3
+***********************
+R1 1 4 0.100
+T4 4 3 2 3 Z0=60 TD=100PS
+.ENDS MSRACL/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT MSRADL/AMP 1  2   3
+***********************
+R1 1 4 0.105
+T4 4 3 2 3 Z0=59 TD=90PS
+.ENDS MSRADL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *
+*                       *  AMP Connector Catalog No. 65194
+*       MICROSTRIP      *
+*       0.43 HIGH       *  
+*                       *
+*************************
+*   rev 3/1/94
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+** MEDIAN VALUES*******
+*************IN*OUT*REF
+.SUBCKT MS43M/AMP 1  2   3
+**********************
+R1 1 4 0.033
+L1 4 5 1.45NH
+C1 4 3 0.30PF
+L2 5 6 1.45NH
+C2 5 3 0.30PF
+C3 6 3 0.30PF
+R2 6 2 0.033
+.ENDS MS43M/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT MS43A/AMP 1  2  3
+*********************
+R1 1 4 0.033
+L1 4 5 1.50NH
+C1 4 3 0.29PF
+L2 5 6 1.50NH
+C2 5 3 0.29PF
+C3 6 3 0.29PF
+R2 6 2 0.033
+.ENDS MS43A/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT MS43B/AMP 1  2   3
+**********************
+R1 1 4 0.033
+L1 4 5 1.4NH
+C1 4 3 0.30PF
+L2 5 6 1.4NH
+C2 5 3 0.30PF
+C3 6 3 0.30PF
+R2 6 2 0.033
+.ENDS MS43B/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT MS43C/AMP 1  2   3
+**********************
+R1 1 4 0.033
+L1 4 5 1.4NH
+C1 4 3 0.30PF
+L2 5 6 1.4NH
+C2 5 3 0.30PF
+C3 6 3 0.30PF
+R2 6 2 0.033
+.ENDS MS43C/AMP
+***********
+*$
+*
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT MS43D/AMP 1  2   3
+**********************
+R1 1 4 0.033
+L1 4 5 1.50NH
+C1 4 3 0.29PF
+L2 5 6 1.50NH
+C2 5 3 0.29PF
+C3 6 3 0.29PF
+R2 6 2 0.033
+.ENDS MS43D/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES *******
+**************IN*OUT*REF
+.SUBCKT MS43ML/AMP 1  2   3
+***********************
+R1 1 4 0.065
+T4 4 3 2 3 Z0=57 TD=50PS
+.ENDS MS43ML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT MS43AL/AMP 1  2   3
+***********************
+R1 1 4 0.065
+T4 4 3 2 3 Z0=59 TD=50PS
+.ENDS MS43AL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT MS43BL/AMP 1  2   3
+***********************
+R1 1 4 0.065
+T4 4 3 2 3 Z0=56 TD=50PS
+.ENDS MS43BL/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT MS43CL/AMP 1  2   3
+***********************
+R1 1 4 0.065
+T4 4 3 2 3 Z0=56 TD=50PS
+.ENDS MS43CL/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT MS43DL/AMP 1  2   3
+***********************
+R1 1 4 0.065
+T4 4 3 2 3 Z0=59 TD=50PS
+.ENDS MS43DL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  MODU SYSTEM 50        *           82178
+*  RIGHT ANGLE           *
+*                        *
+**************************
+* rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT MS5RM/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 2.5NH
+C5 5 3 1.1PF
+L5 5 6 2.5NH
+R6 6 2 0.005
+.ENDS MS5RM/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT MS5RA/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 2.1NH
+C5 5 3 1.0PF
+L5 5 6 2.0NH
+R6 6 2 0.004
+.ENDS MS5RA/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT MS5RB/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 3.0NH
+C5 5 3 1.2PF
+L5 5 6 3.0NH
+R6 6 2 0.005
+.ENDS MS5RB/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT MS5RML/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=68 TD=75PS
+.ENDS MS5RML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT MS5RAL/AMP 1  2   3
+************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=63 TD=65PS
+.ENDS MS5RAL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT MS5RBL/AMP 1  2   3
+************************
+R1 1 4 0.011
+T4 4 3 2 3 Z0=72 TD=84PS
+.ENDS MS5RBL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+***************************************************
+*                    *    AMP Connector Catalog No.
+*  MODU SYSTEM 50    *           82178
+*  VERTICAL          *
+*  SURF. MNT         *
+**********************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+*  ROW A = ROW B = MEDIAN
+***************IN*OUT*REF
+.SUBCKT MS5VSM/AMP 1  2   3
+************************
+R1 1 4 0.009
+L4 4 2 3.9NH
+C4 4 3 1.1PF
+.ENDS MS5VSM/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*  ROW A = ROW B = MEDIAN
+****************IN*OUT*REF
+.SUBCKT MS5VSML/AMP 1  2   3
+*************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=59 TD=66PS
+.ENDS MS5VSML/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+***************************************************
+*                    *    AMP Connector Catalog No.
+*  MODU SYSTEM 50    *            82178
+*  VERTICAL          *
+*  THRU HOLE         *
+**********************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+*  ROW A = ROW B = MEDIAN
+***************IN*OUT*REF
+.SUBCKT MS5VTM/AMP 1  2   3
+************************
+R1 1 4 0.009
+L4 4 2 3.3NH
+C4 4 3 1.0PF
+.ENDS MS5VTM/AMP
+*************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*  ROW A = ROW B = MEDIAN
+****************IN*OUT*REF
+.SUBCKT MS5VTML/AMP 1  2   3
+*************************
+R1 1 4 0.009
+T4 4 3 2 3 Z0=58 TD=56PS
+.ENDS MS5VTML/AMP
+**************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                      *
+*       MICROSTRIP     *   AMP Connector Catalog No. 65194
+*       0.73 HIGH      *
+*                      *   
+************************
+*   rev 3/1/94
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+** MEDIAN VALUES ******
+*************IN*OUT*REF
+.SUBCKT MS73M/AMP 1  2   3
+**********************
+R1 1 4 0.030
+L1 4 5 3.25NH
+C1 4 3 0.83PF
+L2 5 6 3.25NH
+C2 5 3 0.83PF
+C3 6 3 0.83PF
+R2 6 2 0.030
+.ENDS MS73M/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT MS73A/AMP 1  2   3
+**********************
+R1 1 4 0.030
+L1 4 5 3.3NH
+C1 4 3 0.83PF
+L2 5 6 3.3NH
+C2 5 3 0.83PF
+C3 6 3 0.83PF
+R2 6 2 0.030
+.ENDS MS73A/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT MS73B/AMP 1  2   3
+**********************
+R1 1 4 0.030
+L1 4 5 3.2NH
+C1 4 3 0.83PF
+L2 5 6 3.2NH
+C2 5 3 0.83PF
+C3 6 3 0.83PF
+R2 6 2 0.030
+.ENDS MS73B/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT MS73C/AMP 1  2   3
+**********************
+R1 1 4 0.030
+L1 4 5 3.2NH
+C1 4 3 0.83PF
+L2 5 6 3.2NH
+C2 5 3 0.83PF
+C3 6 3 0.83PF
+R2 6 2 0.030
+.ENDS MS73C/AMP
+***********
+*$
+*
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT MS73D/AMP 1  2   3
+**********************
+R1 1 4 0.030
+L1 4 5 3.3NH
+C1 4 3 0.83PF
+L2 5 6 3.3NH
+C2 5 3 0.83PF
+C3 6 3 0.83PF
+R2 6 2 0.030
+.ENDS MS73D/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES *******
+**************IN*OUT*REF
+.SUBCKT MS73ML/AMP 1  2   3
+***********************
+R1 1 4 0.060
+T4 4 3 2 3 Z0=51 TD=90PS
+.ENDS MS73ML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT MS73AL/AMP 1  2   3
+***********************
+R1 1 4 0.060
+T4 4 3 2 3 Z0=52 TD=90PS
+.ENDS MS73AL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT MS73BL/AMP 1  2   3
+***********************
+R1 1 4 0.060
+T4 4 3 2 3 Z0=51 TD=90PS
+.ENDS MS73BL/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT MS73CL/AMP 1  2   3
+***********************
+R1 1 4 0.060
+T4 4 3 2 3 Z0=51 TD=90PS
+.ENDS MS73CL/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT MS73DL/AMP 1  2   3
+***********************
+R1 1 4 0.060
+T4 4 3 2 3 Z0=52 TD=90PS
+.ENDS MS73DL/AMP
+************
+*
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  PCMCIA 68 POS (RA)    *           65701
+*                        *
+**************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT PC68M/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 4.3NH
+C5 5 3 1.0PF
+L5 5 6 4.3NH
+R6 6 2 0.006
+.ENDS PC68M/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT PC68A/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 3.5NH
+C5 5 3 0.9PF
+L5 5 6 3.4NH
+R6 6 2 0.005
+.ENDS PC68A/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT PC68B/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 3.8NH
+C5 5 3 0.9PF
+L5 5 6 3.8NH
+R6 6 2 0.006
+.ENDS PC68B/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT PC68C/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 4.6NH
+C5 5 3 1.0PF
+L5 5 6 4.5NH
+R6 6 2 0.006
+.ENDS PC68C/AMP
+***********
+*$
+*
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT PC68D/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 5.2NH
+C5 5 3 1.1PF
+L5 5 6 5.2NH
+R6 6 2 0.007
+.ENDS PC68D/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT PC68ML/AMP 1  2   3
+************************
+R1 1 4 0.013
+T4 4 3 2 3 Z0=93 TD=93PS
+.ENDS PC68ML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT PC68AL/AMP 1  2   3
+************************
+R1 1 4 0.011
+T4 4 3 2 3 Z0=88 TD=81PS
+.ENDS PC68AL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT PC68BL/AMP 1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=90 TD=87PS
+.ENDS PC68BL/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT PC68CL/AMP 1  2   3
+************************
+R1 1 4 0.013
+T4 4 3 2 3 Z0=94 TD=98PS
+.ENDS PC68CL/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT PC68DL/AMP 1  2   3
+************************
+R1 1 4 0.014
+T4 4 3 2 3 Z0=99 TD=104PS
+.ENDS PC68DL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*  PCMCIA 88 POS (RA)    *          n/a
+*                        *
+**************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT PC88M/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 4.1NH
+C5 5 3 1.0PF
+L5 5 6 4.0NH
+R6 6 2 0.006
+.ENDS PC88M/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT PC88A/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 3.2NH
+C5 5 3 0.9PF
+L5 5 6 3.1NH
+R6 6 2 0.005
+.ENDS PC88A/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT PC88B/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 3.6NH
+C5 5 3 0.9PF
+L5 5 6 3.6NH
+R6 6 2 0.006
+.ENDS PC88B/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT PC88C/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 4.2NH
+C5 5 3 1.0PF
+L5 5 6 4.1NH
+R6 6 2 0.006
+.ENDS PC88C/AMP
+***********
+*$
+*
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT PC88D/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 5.2NH
+C5 5 3 1.0PF
+L5 5 6 5.2NH
+R6 6 2 0.007
+.ENDS PC88D/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT PC88ML/AMP 1  2   3
+************************
+R1 1 4 0.013
+T4 4 3 2 3 Z0=91 TD=89PS
+.ENDS PC88ML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT PC88AL/AMP 1  2   3
+************************
+R1 1 4 0.011
+T4 4 3 2 3 Z0=84 TD=75PS
+.ENDS PC88AL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT PC88BL/AMP 1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=88 TD=82PS
+.ENDS PC88BL/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT PC88CL/AMP 1  2   3
+************************
+R1 1 4 0.013
+T4 4 3 2 3 Z0=90 TD=93PS
+.ENDS PC88CL/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT PC88DL/AMP 1  2   3
+************************
+R1 1 4 0.014
+T4 4 3 2 3 Z0=100 TD=104PS
+.ENDS PC88DL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *  AMP Connector Catalog No. 82619
+*     STANDARD EDGE     *
+*       SERIES 50       *  
+*                       *
+*************************
+*   rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING CARD EDGE SLM IS HEAVILY INFLUNCED BY THE
+*  CARD EDGE PADS. THE PAD VALUES INCLUDED ARE DERIVED FROM
+*  STANDARD PAD DIMENSIONS AND AN ASSUMPTION OF A GROUND
+*  PLANE LOCATED 0.013 INCH UNDER THE PADS IN FR4 WITH Er=4.7
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING RLC MODELS ARE APPROPRIATE
+*  FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+* ROW A = ROW B = MEAN
+*************IN*OUT*REF
+.SUBCKT SES5M/AMP 1  2   3
+** load card__|  |
+** mother board__|
+**********************
+* pad elements
+R1 1 4 0.001
+C4 4 3 0.6PF
+L4 4 5 0.7NH
+* pad stub
+C5 5 3 1.0PF
+* connector elements
+L5 5 6 3.3NH
+C6 6 3 1.1PF
+L6 6 7 3.3NH
+R7 7 2 0.007
+*
+.ENDS SES5M/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEAN
+**************IN*OUT*REF
+.SUBCKT SES5ML/AMP 1  2   3
+** load card__|  |
+** mother board__|
+***********************
+R1 1 4 0.008
+C4 4 3 1.0PF
+T4 4 3 2 3 Z0=77 TD=85PS
+.ENDS SES5ML/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. 82618
+*     TBC 4 ROW RA      *
+*                       *   
+*************************
+*   rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT TBC4M/AMP 1  2   3
+**********************
+R1 1 4 0.002
+L4 4 5 5.0NH
+C5 5 3 1.8PF
+L5 5 6 5.0NH
+R6 6 2 0.002
+.ENDS TBC4M/AMP
+***********
+*$
+*
+*** ROW A *************
+*************IN*OUT*REF
+.SUBCKT TBC4A/AMP 1  2   3
+**********************
+R1 1 4 0.002
+L4 4 5 3.5NH
+C5 5 3 1.4PF
+L5 5 6 3.5NH
+R6 6 2 0.002
+.ENDS TBC4A/AMP
+***********
+*$
+*
+*** ROW B *************
+*************IN*OUT*REF
+.SUBCKT TBC4B/AMP 1  2   3
+**********************
+R1 1 4 0.002
+L4 4 5 4.3NH
+C5 5 3 1.8PF
+L5 5 6 4.3NH
+R6 6 2 0.002
+.ENDS TBC4B/AMP
+***********
+*$
+*
+*** ROW C *************
+*************IN*OUT*REF
+.SUBCKT TBC4C/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 5.3NH
+C5 5 3 2.0PF
+L5 5 6 5.3NH
+R6 6 2 0.003
+.ENDS TBC4C/AMP
+***********
+*$
+*
+*** ROW D *************
+*************IN*OUT*REF
+.SUBCKT TBC4D/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 7.0NH
+C5 5 3 2.0PF
+L5 5 6 7.0NH
+R6 6 2 0.003
+.ENDS TBC4D/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*** MEDIAN VALUES ******
+**************IN*OUT*REF
+.SUBCKT TBC4ML/AMP 1  2   3
+***********************
+R1 1 4 0.004
+T4 4 3 2 3 Z0=75 TD=120PS
+.ENDS TBC4ML/AMP
+************
+*$
+*
+*** ROW A **************
+**************IN*OUT*REF
+.SUBCKT TBC4AL/AMP 1  2   3
+***********************
+R1 1 4 0.003
+T4 4 3 2 3 Z0=71 TD=90PS
+.ENDS TBC4AL/AMP
+************
+*$
+*
+*** ROW B **************
+**************IN*OUT*REF
+.SUBCKT TBC4BL/AMP 1  2   3
+***********************
+R1 1 4 0.004
+T4 4 3 2 3 Z0=69 TD=110PS
+.ENDS TBC4BL/AMP
+************
+*$
+*
+*** ROW C **************
+**************IN*OUT*REF
+.SUBCKT TBC4CL/AMP 1  2   3
+***********************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=73 TD=130PS
+.ENDS TBC4CL/AMP
+************
+*$
+*
+*** ROW D **************
+**************IN*OUT*REF
+.SUBCKT TBC4DL/AMP 1  2   3
+***********************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=84 TD=150PS
+.ENDS TBC4DL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. 82618
+*    TBC 5 ROW RA       *
+*                       *   
+*************************
+*  rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT TBC5M/AMP 1  2   3
+**********************
+R1 1 4 0.002
+L4 4 5 4.0NH
+C5 5 3 2.0PF
+L5 5 6 4.0NH
+R6 6 2 0.002
+.ENDS TBC5M/AMP
+***********
+*$
+*
+*** ROW A *************
+*************IN*OUT*REF
+.SUBCKT TBC5A/AMP 1  2   3
+**********************
+R1 1 4 0.002
+L4 4 5 2.6NH
+C5 5 3 1.3PF
+L5 5 6 2.6NH
+R6 6 2 0.002
+.ENDS TBC5A/AMP
+***********
+*$
+*
+*** ROW B *************
+*************IN*OUT*REF
+.SUBCKT TBC5B/AMP 1  2   3
+**********************
+R1 1 4 0.002
+L4 4 5 2.7NH
+C5 5 3 1.8PF
+L5 5 6 2.7NH
+R6 6 2 0.002
+.ENDS TBC5B/AMP
+***********
+*$
+*
+*** ROW C *************
+*************IN*OUT*REF
+.SUBCKT TBC5C/AMP 1  2   3
+**********************
+R1 1 4 0.002
+L4 4 5 3.7NH
+C5 5 3 2.1PF
+L5 5 6 3.7NH
+R6 6 2 0.002
+.ENDS TBC5C/AMP
+***********
+*$
+*
+*** ROW D *************
+*************IN*OUT*REF
+.SUBCKT TBC5D/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 4.6NH
+C5 5 3 2.3PF
+L5 5 6 4.6NH
+R6 6 2 0.003
+.ENDS TBC5D/AMP
+***********
+*$
+*
+*** ROW E *************
+*************IN*OUT*REF
+.SUBCKT TBC5E/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 6.2NH
+C5 5 3 2.3PF
+L5 5 6 6.2NH
+R6 6 2 0.003
+.ENDS TBC5E/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*** MEDIAN VALUES ******
+**************IN*OUT*REF
+.SUBCKT TBC5ML/AMP 1  2   3
+***********************
+R1 1 4 0.004
+T4 4 3 2 3 Z0=64 TD=110PS
+.ENDS TBC5ML/AMP
+************
+*$
+*
+*** ROW A **************
+**************IN*OUT*REF
+.SUBCKT TBC5AL/AMP 1  2   3
+***********************
+R1 1 4 0.003
+T4 4 3 2 3 Z0=63 TD=70PS
+.ENDS TBC5AL/AMP
+************
+*$
+*
+*** ROW B **************
+**************IN*OUT*REF
+.SUBCKT TBC5BL/AMP 1  2   3
+***********************
+R1 1 4 0.003
+T4 4 3 2 3 Z0=55 TD=90PS
+.ENDS TBC5BL/AMP
+************
+*$
+*
+*** ROW C **************
+**************IN*OUT*REF
+.SUBCKT TBC5CL/AMP 1  2   3
+***********************
+R1 1 4 0.004
+T4 4 3 2 3 Z0=59 TD=110PS
+.ENDS TBC5CL/AMP
+************
+*$
+*
+*** ROW D **************
+**************IN*OUT*REF
+.SUBCKT TBC5DL/AMP 1  2   3
+***********************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=63 TD=130PS
+.ENDS TBC5DL/AMP
+************
+*$
+*
+*** ROW E **************
+**************IN*OUT*REF
+.SUBCKT TBC5EL/AMP 1  2   3
+***********************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=73 TD=150PS
+.ENDS TBC5EL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. 82618
+*    TBC 6 ROW RA       *
+*                       *   
+*************************
+*   rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT TBC6M/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 4.3NH
+C5 5 3 2.1PF
+L5 5 6 4.3NH
+R6 6 2 0.003
+.ENDS TBC6M/AMP
+***********
+*$
+*
+*** ROW A *************
+*************IN*OUT*REF
+.SUBCKT TBC6A/AMP 1  2   3
+**********************
+R1 1 4 0.002
+L4 4 5 2.6NH
+C5 5 3 1.3PF
+L5 5 6 2.6NH
+R6 6 2 0.002
+.ENDS TBC6A/AMP
+***********
+*$
+*
+*** ROW B *************
+*************IN*OUT*REF
+.SUBCKT TBC6B/AMP 1  2   3
+**********************
+R1 1 4 0.002
+L4 4 5 2.7NH
+C5 5 3 1.8PF
+L5 5 6 2.7NH
+R6 6 2 0.002
+.ENDS TBC6B/AMP
+***********
+*$
+*
+*** ROW C *************
+*************IN*OUT*REF
+.SUBCKT TBC6C/AMP 1  2   3
+**********************
+R1 1 4 0.002
+L4 4 5 3.7NH
+C5 5 3 2.1PF
+L5 5 6 3.7NH
+R6 6 2 0.002
+.ENDS TBC6C/AMP
+***********
+*$
+*
+*** ROW D *************
+*************IN*OUT*REF
+.SUBCKT TBC6D/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 4.6NH
+C5 5 3 2.3PF
+L5 5 6 4.6NH
+R6 6 2 0.003
+.ENDS TBC6D/AMP
+***********
+*$
+*
+*** ROW E *************
+*************IN*OUT*REF
+.SUBCKT TBC6E/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 5.6NH
+C5 5 3 2.5PF
+L5 5 6 5.6NH
+R6 6 2 0.003
+.ENDS TBC6E/AMP
+***********
+*$
+*
+*** ROW F *************
+*************IN*OUT*REF
+.SUBCKT TBC6F/AMP 1  2   3
+**********************
+R1 1 4 0.003
+L4 4 5 6.3NH
+C5 5 3 2.5PF
+L5 5 6 6.3NH
+R6 6 2 0.003
+.ENDS TBC6F/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+*** MEDIAN VALUES ******
+**************IN*OUT*REF
+.SUBCKT TBC6ML/AMP 1  2   3
+***********************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=64 TD=120PS
+.ENDS TBC6ML/AMP
+************
+*$
+*
+*** ROW A **************
+**************IN*OUT*REF
+.SUBCKT TBC6AL/AMP 1  2   3
+***********************
+R1 1 4 0.003
+T4 4 3 2 3 Z0=63 TD=70PS
+.ENDS TBC6AL/AMP
+************
+*$
+*
+*** ROW B **************
+**************IN*OUT*REF
+.SUBCKT TBC6BL/AMP 1  2   3
+***********************
+R1 1 4 0.003
+T4 4 3 2 3 Z0=55 TD=90PS
+.ENDS TBC6BL/AMP
+************
+*$
+*
+*** ROW C **************
+**************IN*OUT*REF
+.SUBCKT TBC6CL/AMP 1  2   3
+***********************
+R1 1 4 0.004
+T4 4 3 2 3 Z0=59 TD=110PS
+.ENDS TBC6CL/AMP
+************
+*$
+*
+*** ROW D **************
+**************IN*OUT*REF
+.SUBCKT TBC6DL/AMP 1  2   3
+***********************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=63 TD=130PS
+.ENDS TBC6DL/AMP
+************
+*$
+*
+*** ROW E **************
+**************IN*OUT*REF
+.SUBCKT TBC6EL/AMP 1  2   3
+***********************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=67 TD=150PS
+.ENDS TBC6EL/AMP
+************
+*$
+*
+*** ROW F **************
+**************IN*OUT*REF
+.SUBCKT TBC6FL/AMP 1  2   3
+***********************
+R1 1 4 0.005
+T4 4 3 2 3 Z0=71 TD=160PS
+.ENDS TBC6FL/AMP
+************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*      TAZ PGA           *   AMP Connector Catalog No. 82820
+*    .100 X .100         *
+*   0.35 mated lgth      *  
+**************************
+*   rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+** TYPE A, INNER POS. **
+**************IN*OUT*REF
+.SUBCKT TPG35A/AMP 1  2   3
+************************
+R1 1 4 0.010
+L4 4 2 3.8NH
+C4 4 3 0.67PF
+.ENDS TPG35A/AMP
+************
+*$
+*
+** TYPE B, OUTER POS. **
+**************IN*OUT*REF
+.SUBCKT TPG35B/AMP 1  2   3
+***********************
+R1 1 4 0.010
+L4 4 2 4.3NH
+C4 4 3 0.59PF
+.ENDS TPG35B/AMP
+************
+*$
+*
+** TYPE C, CORNER POS. **
+**************IN*OUT*REF
+.SUBCKT TPG35C/AMP 1  2   3
+***********************
+R1 1 4 0.010
+L4 4 2 5.3NH
+C4 4 3 0.48PF
+.ENDS TPG35C/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** TYPE A, INNER POS. **
+***************IN*OUT*REF
+.SUBCKT TPG35AL/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=75 TD=43PS
+.ENDS TPG35AL/AMP
+*************
+*$
+*
+** TYPE B, OUTER POS. **
+***************IN*OUT*REF
+.SUBCKT TPG35BL/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=85 TD=43PS
+.ENDS TPG35BL/AMP
+*************
+*$
+*
+** TYPE C, CORNER POS. **
+***************IN*OUT*REF
+.SUBCKT TPG35CL/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=105 TD=43PS
+.ENDS TPG35CL/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*      TAZ PGA           *   AMP Connector Catalog No. 82820
+*    .050 X .100  inter. *
+*   0.35 mated lgth      *  
+**************************
+*   rev 3/1/94
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+** TYPE A, INNER POS. **
+**************IN*OUT*REF
+.SUBCKT TPI35A/AMP 1  2   3
+************************
+R1 1 4 0.010
+L4 4 2 3.3NH
+C4 4 3 0.80PF
+.ENDS TPI35A/AMP
+************
+*$
+*
+** TYPE B, OUTER POS. **
+**************IN*OUT*REF
+.SUBCKT TPI35B/AMP 1  2   3
+***********************
+R1 1 4 0.010
+L4 4 2 4.0NH
+C4 4 3 0.67PF
+.ENDS TPI35B/AMP
+************
+*$
+*
+** TYPE C, CORNER POS. **
+**************IN*OUT*REF
+.SUBCKT TPI35C/AMP 1  2   3
+***********************
+R1 1 4 0.010
+L4 4 2 5.2NH
+C4 4 3 0.51PF
+.ENDS TPI35C/AMP
+************
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** TYPE A, INNER POS. **
+***************IN*OUT*REF
+.SUBCKT TPI35AL/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=64 TD=43PS
+.ENDS TPI35AL/AMP
+*************
+*$
+*
+** TYPE B, OUTER POS. **
+***************IN*OUT*REF
+.SUBCKT TPI35BL/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=77 TD=43PS
+.ENDS TPI35BL/AMP
+*************
+*$
+*
+** TYPE C, CORNER POS. **
+***************IN*OUT*REF
+.SUBCKT TPI35CL/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=101 TD=43PS
+.ENDS TPI35CL/AMP
+*************
+*$
+*
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+****************************************************************
+*                       *   AMP Connector Catalog No. 65194
+*    STRIPLINE 100      *
+*                       *   
+*************************
+*   rev 3/1/94
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*** MEDIAN VALUES *****
+*************IN*OUT*REF
+.SUBCKT ZPSLM/AMP 1  2   3
+**********************
+R1 1 4 0.038
+L1 4 5 2.83NH
+C1 4 3 0.61PF
+L2 5 6 2.83NH
+C2 5 3 0.61PF
+L3 6 7 2.83NH
+C3 6 3 0.61PF
+C4 7 3 0.61PF
+R2 7 2 0.038
+.ENDS ZPSLM/AMP
+***********
+*$
+*
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT ZPSLA/AMP 1  2   3
+**********************
+R1 1 4 0.031
+L1 4 5 2.26NH
+C1 4 3 0.58PF
+L2 5 6 2.26NH
+C2 5 3 0.58PF
+L3 6 7 2.26NH
+C3 6 3 0.58PF
+C4 7 3 0.58PF
+R2 7 2 0.031
+.ENDS ZPSLA/AMP
+***********
+*$
+*
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT ZPSLB/AMP 1  2   3
+**********************
+R1 1 4 0.036
+L1 4 5 2.7NH
+C1 4 3 0.6PF
+L2 5 6 2.7NH
+C2 5 3 0.6PF
+L3 6 7 2.7NH
+C3 6 3 0.6PF
+C4 7 3 0.6PF
+R2 7 2 0.036
+.ENDS ZPSLB/AMP
+***********
+*$
+*
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT ZPSLC/AMP 1  2   3
+**********************
+R1 1 4 0.040
+L1 4 5 3.1NH
+C1 4 3 0.63PF
+L2 5 6 3.1NH
+C2 5 3 0.63PF
+L3 6 7 3.1NH
+C3 6 3 0.63PF
+C4 7 3 0.63PF
+R2 7 2 0.040
+.ENDS ZPSLC/AMP
+***********
+*$
+*
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT ZPSLD/AMP 1  2   3
+**********************
+R1 1 4 0.043
+L1 4 5 3.2NH
+C1 4 3 0.65PF
+L2 5 6 3.2NH
+C2 5 3 0.65PF
+L3 6 7 3.2NH
+C3 6 3 0.65PF
+C4 7 3 0.65PF
+R2 7 2 0.043
+.ENDS ZPSLD/AMP
+***********
+*$
+*
+********** TRANSMISSION LINE MODELS **************
+*
+** MEDIAN VALUES *******
+**************IN*OUT*REF
+.SUBCKT ZPSLML/AMP 1  2   3
+***********************
+R1 1 4 0.075
+T4 4 3 2 3 Z0=59 TD=95PS
+.ENDS ZPSLML/AMP
+************
+*$
+*
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT ZPSLAL/AMP 1  2   3
+*********************
+R1 1 4 0.062
+T4 4 3 2 3 Z0=55 TD=80PS
+.ENDS ZPSLAL/AMP
+************
+*$
+*
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT ZPSLBL/AMP 1  2   3
+***********************
+R1 1 4 0.072
+T4 4 3 2 3 Z0=58 TD=90PS
+.ENDS ZPSLBL/AMP
+************
+*$
+*
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT ZPSLCL/AMP 1  2   3
+***********************
+R1 1 4 0.080
+T4 4 3 2 3 Z0=61 TD=100PS
+.ENDS ZPSLCL/AMP
+************
+*$
+*
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT ZPSLDL/AMP 1  2   3
+***********************
+R1 1 4 0.087
+T4 4 3 2 3 Z0=61 TD=110PS
+.ENDS ZPSLDL/AMP
+************
+*$
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*    MICTOR 25 S         *          n/a
+*     .260 high          *
+**************************
+*  rev 5/3/95
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* ROW A = ROW B = MEDIAN
+***** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT MI2S26M/AMP  1  2   3
+*************************
+R1 1 4 0.008
+L4 4 5 2.1NH
+C5 5 3 0.86PF
+L5 5 6 2.1NH
+R6 6 2 0.008
+.ENDS MI2S26M/AMP
+*************
+*$
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEDIAN
+***** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT MI2S26ML/AMP 1  2   3
+*************************
+R1 1 4 0.015
+T4 4 3 2 3 Z0=70 TD=60PS
+.ENDS MI2S26ML/AMP
+**************
+*$
+*************************************
+*COPYRIGHT 1995, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*                        *   AMP Connector Catalog No.
+*    MICTOR 25 S         *            n/a
+*     .430 high          *
+**************************
+*  rev 5/3/95
+****************** RLC MODELS ********************
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* ROW A = ROW B = MEDIAN
+***** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT MI2S43M/AMP  1  2   3
+*************************
+R1 1 4 0.011
+L4 4 5 4.05NH
+C5 5 3 1.7PF
+L5 5 6 4.05NH
+R6 6 2 0.011
+.ENDS MI2S43M/AMP
+*************
+*$
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEDIAN
+***** MEDIAN VALUES *****
+****************IN*OUT*REF
+.SUBCKT MI2S43ML/AMP 1  2   3
+*************************
+R1 1 4 0.022
+T4 4 3 2 3 Z0=69 TD=117PS
+.ENDS MI2S43ML/AMP
+**************
+*$
+*************************************
+*COPYRIGHT 1994, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+*********************************************************
+*                           *   AMP Connector Catalog No.
+* HIGH SPEED STANDARD EDGE  *           65822
+*     surface mount         *
+*****************************
+*  rev 5/3/95
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING CARD EDGE SLM IS HEAVILY INFLUNCED BY THE
+*  CARD EDGE PADS. THE PAD VALUES INCLUDED ARE DERIVED FROM
+*  STANDARD PAD DIMENSIONS AND AN ASSUMPTION OF A GROUND
+*  PLANE LOCATED 0.013 INCH UNDER THE PADS IN FR4 WITH Er=4.7
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING RLC MODELS ARE APPROPRIATE
+*  FOR EDGE SPEEDS OF 750PS OR SLOWER
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+* ROW A = ROW B = MEAN
+*************IN*OUT*REF
+.SUBCKT HSSEM/AMP 1  2   3
+** load card__|  |
+** mother board__|
+**********************
+* pad elements
+R1 1 4 0.001
+C4 4 3 0.6PF
+L4 4 5 0.7NH
+* pad stub
+C5 5 3 1.0PF
+* connector elements
+L5 5 6 2.9NH
+C6 6 3 1.2PF
+L6 6 7 2.9NH
+R7 7 2 0.010
+*
+.ENDS HSSEM/AMP
+***********
+*$
+********** TRANSMISSION LINE MODELS **************
+*
+* ROW A = ROW B = MEAN
+**************IN*OUT*REF
+.SUBCKT HSSEML/AMP 1  2   3
+** load card__|  |
+** mother board__|
+***********************
+R1 1 4 0.011
+C4 4 3 1.0PF
+T4 4 3 2 3 Z0=60 TD=108PS
+.ENDS HSSEML/AMP
+************
+*
+*$
+*************************************
+*COPYRIGHT 1995, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+*****************************************************
+* MEMORY CARD CONNECTOR *   AMP Connector Catalog No.
+*      "M64"            *
+*                       *
+*************************
+*  rev 5/3/95
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING CARD EDGE SLM IS HEAVILY INFLUNCED BY THE
+*  CARD EDGE PADS. THE MODEL VALUES USED HEREIN ASSUME THERE
+*  IS NO GROUND PLANE UNDER THE PADS.
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*  THE FOLLOWING RLC MODELS ARE APPROPRIATE
+*  FOR EDGE SPEEDS OF 250PS OR SLOWER
+*
+*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT  M64M/AMP 1  2   3
+***********************
+R1 1 4 0.003
+L4 4 5 1.3NH
+C5 5 3 0.7PF
+L5 5 6 1.3NH
+R6 6 2 0.003
+.ENDS  M64M/AMP
+***********
+*$
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT  M64A/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 1.4NH
+C5 5 3 0.7PF
+L5 5 6 1.4NH
+R6 6 2 0.004
+.ENDS  M64A/AMP
+***********
+*$
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT  M64B/AMP 1  2   3
+***********************
+R1 1 4 0.003
+L4 4 5 1.1NH
+C5 5 3 0.7PF
+L5 5 6 1.1NH
+R6 6 2 0.003
+.ENDS  M64B/AMP
+***********
+*$
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT  M64C/AMP 1  2   3
+***********************
+R1 1 4 0.003
+L4 4 5 1.1NH
+C5 5 3 0.7PF
+L5 5 6 1.1NH
+R6 6 2 0.003
+.ENDS  M64C/AMP
+***********
+*$
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT  M64D/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 1.4NH
+C5 5 3 0.7PF
+L5 5 6 1.4NH
+R6 6 2 0.004
+.ENDS  M64D/AMP
+***********
+*$
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT  M64ML/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=62 TD=40PS
+.ENDS  M64ML/AMP
+************
+*$
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT  M64AL/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=65 TD=42PS
+.ENDS  M64AL/AMP
+************
+*$
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT  M64BL/AMP 1  2   3
+************************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=58 TD=37PS
+.ENDS  M64BL/AMP
+************
+*$
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT  M64CL/AMP 1  2   3
+************************
+R1 1 4 0.006
+T4 4 3 2 3 Z0=58 TD=37PS
+.ENDS  M64CL/AMP
+************
+*$
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT  M64DL/AMP 1  2   3
+************************
+R1 1 4 0.007
+T4 4 3 2 3 Z0=65 TD=42PS
+.ENDS  M64DL/AMP
+************
+*$
+*************************************
+*COPYRIGHT 1995, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+******************************************************
+*  AMPLIMITE             *   AMP Connector Catalog No.
+*  050 SERIES            *
+*  RA HDR TO CABLE       *
+**************************
+* rev 5/3/95
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 1.0NS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+**** MEDIAN VALUES ****
+*************IN*OUT*REF
+.SUBCKT AM50M/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 4.5NH
+C5 5 3 2.1PF
+L5 5 6 4.5NH
+R6 6 2 0.005
+.ENDS AM50M/AMP
+***********
+*$
+** ROW A **************
+*************IN*OUT*REF
+.SUBCKT AM50A/AMP 1  2   3
+***********************
+R1 1 4 0.004
+L4 4 5 3.5NH
+C5 5 3 2.0PF
+L5 5 6 3.5NH
+R6 6 2 0.004
+.ENDS AM50A/AMP
+***********
+*$
+** ROW B **************
+*************IN*OUT*REF
+.SUBCKT AM50B/AMP 1  2   3
+***********************
+R1 1 4 0.005
+L4 4 5 4.0NH
+C5 5 3 2.0PF
+L5 5 6 4.0NH
+R6 6 2 0.005
+.ENDS AM50B/AMP
+***********
+*$
+** ROW C **************
+*************IN*OUT*REF
+.SUBCKT AM50C/AMP 1  2   3
+***********************
+R1 1 4 0.006
+L4 4 5 4.9NH
+C5 5 3 2.2PF
+L5 5 6 4.9NH
+R6 6 2 0.006
+.ENDS AM50C/AMP
+***********
+*$
+** ROW D **************
+*************IN*OUT*REF
+.SUBCKT AM50D/AMP 1  2   3
+***********************
+R1 1 4 0.007
+L4 4 5 5.6NH
+C5 5 3 2.2PF
+L5 5 6 5.6NH
+R6 6 2 0.007
+.ENDS AM50D/AMP
+***********
+*$
+********** TRANSMISSION LINE MODELS **************
+*
+**** MEDIAN VALUES *****
+**************IN*OUT*REF
+.SUBCKT AM50ML/AMP 1  2   3
+************************
+R1 1 4 0.011
+T4 4 3 2 3 Z0=66 TD=134PS
+.ENDS AM50ML/AMP
+************
+*$
+** ROW A ***************
+**************IN*OUT*REF
+.SUBCKT AM50AL/AMP 1  2   3
+************************
+R1 1 4 0.008
+T4 4 3 2 3 Z0=60 TD=118PS
+.ENDS AM50AL/AMP
+************
+*$
+** ROW B ***************
+**************IN*OUT*REF
+.SUBCKT AM50BL/AMP 1  2   3
+************************
+R1 1 4 0.010
+T4 4 3 2 3 Z0=63 TD=127PS
+.ENDS AM50BL/AMP
+************
+*$
+** ROW C ***************
+**************IN*OUT*REF
+.SUBCKT AM50CL/AMP 1  2   3
+************************
+R1 1 4 0.012
+T4 4 3 2 3 Z0=67 TD=146PS
+.ENDS AM50CL/AMP
+************
+*$
+** ROW D ***************
+**************IN*OUT*REF
+.SUBCKT AM50DL/AMP 1  2   3
+************************
+R1 1 4 0.013
+T4 4 3 2 3 Z0=72 TD=157PS
+.ENDS AM50DL/AMP
+************
+*
+*$
+*************************************
+*COPYRIGHT 1995, BY AMP INCORPORATED*
+**ALL INTERNATIONAL RIGHTS RESERVED**
+*************************************
+*****************************************************
+*   MICROPITCH          *   AMP Connector Catalog No.
+*   SM SOCKET           *
+*   0.5mm centerlines   *
+*************************
+*  rev 5/3/95
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+* THE FOLLOWING RLC MODELS ARE APPROPRIATE
+* FOR EDGE SPEEDS OF 500PS OR SLOWER
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+****************** RLC MODELS ********************
+*
+** all lines
+**************IN*OUT*REF
+.SUBCKT MPSM5A/AMP 1  2   3
+***********************
+R1 1 4 0.014
+L4 4 2 1.9NH
+C4 4 3 0.8PF
+.ENDS MPSM5A/AMP
+************
+*$
+********** TRANSMISSION LINE MODELS **************
+*
+** all lines
+***************IN*OUT*REF
+.SUBCKT MPSM5AL/AMP 1  2   3
+************************
+R1 1 4 0.014
+T4 4 3 2 3 Z0=42 TD=42PS
+.ENDS MPSM5AL/AMP
+*************
+*
+*$
+

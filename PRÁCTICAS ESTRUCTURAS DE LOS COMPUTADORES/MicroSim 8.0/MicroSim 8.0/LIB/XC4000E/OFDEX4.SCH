@@ -1,0 +1,251 @@
+*version 6.3 2393659313
+u 219
+XC4000E 979232069
+U? 5
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3771 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 220 IF_OUT 680 640 h
+a 0 s 3 0 20 8 hln 80 LABEL=O3
+port 221 IF_IN 180 640 h
+a 0 s 3 0 10 8 hln 80 LABEL=D3
+port 222 IF_IN 180 720 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 223 IF_IN 180 250 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 224 IF_IN 180 380 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 225 IF_IN 180 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=D2
+port 226 IF_OUT 680 250 h
+a 0 s 3 0 20 8 hln 80 LABEL=O0
+port 227 IF_OUT 680 380 h
+a 0 s 3 0 20 8 hln 80 LABEL=O1
+port 228 IF_OUT 680 510 h
+a 0 s 3 0 20 8 hln 80 LABEL=O2
+port 229 IF_IN 180 700 h
+a 0 s 3 0 10 8 hln 80 LABEL=E
+port 230 IF_IN 180 680 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+@parts
+part 18 OFDEX 350 610 h
+a 0 sp 9 0 80 120 hrn 100 REFDES=U1
+a 0 sp 11 0 80 20 hcn 200 PART=OFDEX
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 19 OFDEX 350 480 h
+a 0 sp 9 0 80 120 hrn 100 REFDES=U2
+a 0 sp 11 0 80 20 hcn 200 PART=OFDEX
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 20 OFDEX 350 220 h
+a 0 sp 9 0 80 120 hrn 100 REFDES=U3
+a 0 sp 11 0 80 20 hcn 200 PART=OFDEX
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 21 OFDEX 350 350 h
+a 0 sp 9 0 80 120 hrn 100 REFDES=U4
+a 0 sp 11 0 80 20 hcn 200 PART=OFDEX
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 31
+s 180 680 250 680 22
+a 0 s 3 0 190 670 hln 100 LABEL=CE
+s 250 680 250 660 23
+s 250 530 250 400 25
+s 250 400 350 400 24
+s 250 530 350 530 26
+s 250 660 250 530 27
+s 250 400 250 270 28
+s 250 660 350 660 29
+s 250 270 350 270 30
+w 67
+s 180 380 350 380 66
+a 0 s 3 0 190 380 hln 100 LABEL=D1
+w 75
+s 510 380 680 380 74
+a 0 s 3 0 650 380 hln 100 LABEL=O1
+w 83
+s 510 250 680 250 82
+a 0 s 3 0 650 250 hln 100 LABEL=O0
+w 91
+s 180 250 350 250 90
+a 0 s 3 0 190 250 hln 100 LABEL=D0
+w 99
+s 510 510 680 510 98
+a 0 s 3 0 650 510 hln 100 LABEL=O2
+w 107
+s 510 640 680 640 106
+a 0 s 3 0 650 640 hln 100 LABEL=O3
+w 115
+s 180 640 350 640 114
+a 0 s 3 0 190 640 hln 100 LABEL=D3
+w 123
+s 180 510 350 510 122
+a 0 s 3 0 190 510 hln 100 LABEL=D2
+w 139
+s 180 700 290 700 130
+a 0 s 3 0 190 700 hln 100 LABEL=E
+s 290 700 290 610 135
+s 290 350 350 350 131
+s 290 480 290 350 132
+s 290 480 350 480 133
+s 290 610 290 480 134
+s 290 610 350 610 136
+s 290 350 290 220 138
+s 290 220 350 220 137
+w 184
+s 180 720 310 720 175
+a 0 s 3 0 190 720 hln 100 LABEL=C
+s 310 420 310 290 177
+s 310 290 350 290 176
+s 310 420 350 420 178
+s 310 550 310 420 179
+s 310 550 350 550 180
+s 310 680 310 550 181
+s 310 680 350 680 182
+s 310 720 310 680 183
+@junction
+j 250 660
++ w 31
++ w 31
+j 250 530
++ w 31
++ w 31
+j 250 400
++ w 31
++ w 31
+j 350 660
++ p 18 CE
++ w 31
+j 350 530
++ p 19 CE
++ w 31
+j 350 270
++ p 20 CE
++ w 31
+j 350 400
++ p 21 CE
++ w 31
+j 350 380
++ p 21 D
++ w 67
+j 510 380
++ p 21 O
++ w 75
+j 510 250
++ p 20 O
++ w 83
+j 350 250
++ p 20 D
++ w 91
+j 510 510
++ p 19 O
++ w 99
+j 510 640
++ p 18 O
++ w 107
+j 350 640
++ p 18 D
++ w 115
+j 350 510
++ p 19 D
++ w 123
+j 290 610
++ w 139
++ w 139
+j 290 350
++ w 139
++ w 139
+j 290 480
++ w 139
++ w 139
+j 350 610
++ p 18 E
++ w 139
+j 350 480
++ p 19 E
++ w 139
+j 350 220
++ p 20 E
++ w 139
+j 350 350
++ p 21 E
++ w 139
+j 310 420
++ w 184
++ w 184
+j 310 550
++ w 184
++ w 184
+j 310 680
++ w 184
++ w 184
+j 350 680
++ p 18 C
++ w 184
+j 350 550
++ p 19 C
++ w 184
+j 350 290
++ p 20 C
++ w 184
+j 350 420
++ p 21 C
++ w 184
+j 680 640
++ s 220
++ w 107
+j 180 640
++ s 221
++ w 115
+j 180 720
++ s 222
++ w 184
+j 180 250
++ s 223
++ w 91
+j 180 380
++ s 224
++ w 67
+j 180 510
++ s 225
++ w 123
+j 680 250
++ s 226
++ w 83
+j 680 380
++ s 227
++ w 75
+j 680 510
++ s 228
++ w 99
+j 180 700
++ s 229
++ w 139
+j 180 680
++ s 230
++ w 31
+@attributes
+@text
+s 5 750 1000 hrn 100 XC4000E FAMILY OFDE4 MACRO
+s 5 460 1030 hln 100 AN ACTIVE HIGH 3-STATE OUTPUT BUFFER
+s 5 700 1070 hln 100 A
+s 5 710 1050 hrn 100 1
+s 5 770 1020 hrn 100 4-BIT OUTPUT D FLIP-FLOP W/
+s 5 640 1050 hrn 100 23RD FEBRUARY 1995
+s 5 30 1070 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 30 1060 hln 100 DRAWN BY KS

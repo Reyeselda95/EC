@@ -1,0 +1,95 @@
+#include "libfb.msg"
+#include "libdb3.msg"
+#include "libmutil.msg"
+#include "libpi.msg"
+#include "libexpr.msg"
+
+"main.c
+>Ws Unexpected FF_SYNTH arg
+=[5000] Unexpected argument for FF_SYNTH on signal %s.
+*The FF_SYNTH property must be followed by AUTO, OFF, DFF, TFF, JKFF, or
+*SRFF.  For this signal, this is not the case.
+>F usage
+=[5001] PLOpt usage:  plopt design_name
+>F LOCK NOT INSTALLED
+=[5002] Access denied to product
+>F bad .afb file
+=[5003] Bad .afb file.
+*The .afb file is unreadable to the optimizer.  Remove the .afb file and
+*rerun plcomp to regenerate it.
+>Ws File modified after compile
+=[5004] Source file '%s' has been modified since PLComp has been run
+>F no system symbols
+=[5005] The design has no system level symbols.
+*Only system level symbols (those declared outside PROCEDUREs/FUNCTIONs) will
+*become actual signals in the target devices.  If a design consists solely
+*of PROCEDUREs/FUNCTIONs then there are no actual signals to implement in
+*the target devices.  The PROCUDUREs/FUNCTIONs must be invoked at the system
+*level to create an implementable design.  The optimizer generates this
+*message when no system level signals exist in the design.
+>Ms check error file
+=CHECK '%s' FOR ERRORS.
+&LOG_FILE_NAME
+>Ms check warning file
+=CHECK '%s' FOR WARNINGS.
+&LOG_FILE_NAME
+>Ms reducing
+=   Reducing '%s'.
+>F too many symbols
+=[5009] Too many symbols in design.
+>M synthesizing and reducing
+=Synthesizing and reducing.
+*This is the phase where register synthesis and equation reduction takes
+*place.  For signal by signal reporting of activity, turn on the verbose
+*option.
+
+"collapse.c
+>M collapsing declared VIRTUALs
+=Collapsing declared VIRTUALs.
+*This is the optimization phase where signals declared to be VIRTUAL
+*in the .src file or in the .pi file are collapsed.
+>M removing unused NODEs
+=Removing unused NODEs.
+*This is the optimization phase where signals that do not contribute to
+*any OUTPUT signal are removed since they are not needed in the design.
+>M collapsing equations
+=Collapsing equations.
+*This is the optimization phase where NODEs are either collapsed or made
+*into PHYSICAL NODEs.  This is controlled by the optimizer equation
+*properties specified in the .pi file.
+>Fs combinatorial feedback
+=[5015] Combinatorial feedback collapsing '%s'.
+*The collapsing of signals involved in combinatorial feedback is postponed
+*until this phase.
+&*
+>Ms collapsing symbol
+=   Collapsing '%s'.
+>Ms removing symbol
+=   Removing '%s'.
+>Ms making physical
+=   Making '%s' be PHYSICAL NODE.
+>Ws symbol not used
+=[5020] Symbol '%s' not used by any OUTPUT.
+*The means that a signal is not needed to drive the value of any OUTPUTs
+*in the design.  This signal is not necessary to the design.
+>Ws symbol has constant equation
+=[5021] Symbol '%s' has a constant equation.
+
+" factor.c
+>M factoring
+=Factoring.
+>Md need factoring
+=   %d symbols need factoring.
+>M creating kernels
+=   Creating kernels.
+>M extracting kernels
+=   Extracting kernels.
+>M rating factors
+=   Rating factors.
+>Ms creating factor
+=   Creating factor '%s'.
+>Ws unable to factor
+=[5028] Unable to fully factor '%s'.
+
+>Fd maximum equations exceeded
+=[5029] Exceeded number of equations for this product exceeded: %d

@@ -1,0 +1,4114 @@
+*version 7.2 255494820
+@index
+symloc XC2018-100TQ100C,XC2018-100TQ100I,XC2018-130TQ100C 0 11484
+symloc XC2018-70PC84C,XC2018-70PC84I,XC2018-100PC84I,XC2018-100PC84C,XC2018-130PC84I 11484 11507
+symloc XC2018-33PG84M,XC2018-33PG84B,XC2018-50PG84B,XC2018-50PG84M,XC2018-70PG84M,XC2018-70PG84B,XC2018-70PG84I,XC2018-70PG84C,XC2018-100PG84C,XC2018-100PG84I,XC2018-130PG84C 22991 11628
+symloc XC2018-70PC68C,XC2018-70PC68I,XC2018-100PC68I,XC2018-100PC68C,XC2018-130PC68C 34619 9391
+symloc XC2018-100VQ64C,XC2018-100VQ64I,XC2018-130VQ64C 44010 8832
+symloc XC2018-70PC44C,XC2018-70PC44I,XC2018-100PC44I,XC2018-100PC44C,XC2018-130PC44C 52842 6206
+symloc XC2064-70PC44C,XC2064-70PC44I,XC2064-100PC44I,XC2064-100PC44C,XC2064-130PC44C 59048 6206
+symloc XC2064-70PC68C,XC2064-70PC68I,XC2064-100PC68I,XC2064-100PC68C,XC2064-130PC68C 65254 9391
+symloc XC2064-50PG68M,XC2064-70PG68M,XC2064-70PG68I,XC2064-70PG68C,XC2064-100PG68C,XC2064-100PG68I,XC2064-130PG68C 74645 9446
+symloc XC2018L-10VQ64C 84091 8800
+symloc XC2064L-10VQ64C 92891 8800
+symloc XC2064L-10PC68C 101691 9330
+symloc XC2018L-10PC84C 111021 11446
+symloc XC2018L-10VQ100C 122467 11450
+*symbol XC2018-100TQ100C,XC2018-100TQ100I,XC2018-130TQ100C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 106 440 hln 100 PART=XC2018-100TQ100C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=99
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=26
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=51
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=75
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=77
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=2
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=3
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=5
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=6
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=7
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=8
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=9
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=10
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=11
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=12
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=14
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=15
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=16
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=17
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=18
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=19
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=20
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=21
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=22
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=23
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=27
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=29
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=30
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=32
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=33
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 13 322 hln 100 I/O25 n 0 320 h
+a 0 u 1 0 5 318 hrn 100 PIN=34
+a 0 u 0 0 0 320 hln 100 ERC=b
+a 0 u 0 0 0 320 hln 100 FLOAT=n
+p 2 13 332 hln 100 I/O26 n 0 330 h
+a 0 u 1 0 5 328 hrn 100 PIN=35
+a 0 u 0 0 0 330 hln 100 ERC=b
+a 0 u 0 0 0 330 hln 100 FLOAT=n
+p 2 13 342 hln 100 I/O27 n 0 340 h
+a 0 u 1 0 5 338 hrn 100 PIN=36
+a 0 u 0 0 0 340 hln 100 ERC=b
+a 0 u 0 0 0 340 hln 100 FLOAT=n
+p 2 13 352 hln 100 I/O28 n 0 350 h
+a 0 u 1 0 5 348 hrn 100 PIN=37
+a 0 u 0 0 0 350 hln 100 ERC=b
+a 0 u 0 0 0 350 hln 100 FLOAT=n
+p 2 13 362 hln 100 I/O29 n 0 360 h
+a 0 u 1 0 5 358 hrn 100 PIN=39
+a 0 u 0 0 0 360 hln 100 ERC=b
+a 0 u 0 0 0 360 hln 100 FLOAT=n
+p 2 13 372 hln 100 I/O30 n 0 370 h
+a 0 u 1 0 5 368 hrn 100 PIN=40
+a 0 u 0 0 0 370 hln 100 ERC=b
+a 0 u 0 0 0 370 hln 100 FLOAT=n
+p 2 13 382 hln 100 I/O31 n 0 380 h
+a 0 u 1 0 5 378 hrn 100 PIN=41
+a 0 u 0 0 0 380 hln 100 ERC=b
+a 0 u 0 0 0 380 hln 100 FLOAT=n
+p 2 13 392 hln 100 I/O32 n 0 390 h
+a 0 u 1 0 5 388 hrn 100 PIN=42
+a 0 u 0 0 0 390 hln 100 ERC=b
+a 0 u 0 0 0 390 hln 100 FLOAT=n
+p 2 13 402 hln 100 I/O33 n 0 400 h
+a 0 u 1 0 5 398 hrn 100 PIN=43
+a 0 u 0 0 0 400 hln 100 ERC=b
+a 0 u 0 0 0 400 hln 100 FLOAT=n
+p 2 13 412 hln 100 I/O34 n 0 410 h
+a 0 u 1 0 5 408 hrn 100 PIN=45
+a 0 u 0 0 0 410 hln 100 ERC=b
+a 0 u 0 0 0 410 hln 100 FLOAT=n
+p 2 48 417 drn 100 GND0 n 50 430 v
+a 0 u 1 0 52 425 dln 100 PIN=13
+a 0 u 0 0 50 430 hln 100 ERC=p
+a 0 u 0 0 50 430 hln 100 FLOAT=n
+p 2 88 417 drn 100 GND1 n 90 430 v
+a 0 u 1 0 92 425 dln 100 PIN=63
+a 0 u 0 0 90 430 hln 100 ERC=p
+a 0 u 0 0 90 430 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ n 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=49
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O35 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=47
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O36 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=48
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O37 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=53
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O38 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=54
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O39 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=55
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O40 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=56
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O41 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=57
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O42 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=58
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O43 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=59
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 I/O44 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=60
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 I/O45 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=61
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 I/O46 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=62
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 I/O47 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=64
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O48 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=65
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O49 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=66
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 I/O50 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=67
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 I/O51 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=68
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O52 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=69
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O53 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=70
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O54 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=71
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O55 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=72
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 (XTL2)I/O56 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=73
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 (XTL1)I/O57 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=78
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O58 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=79
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O59 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=80
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O60 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=82
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O61 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=84
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O62 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=85
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O63 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=86
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 147 322 hrn 100 I/O64 n 160 320 u
+a 0 u 1 0 155 318 hln 100 PIN=87
+a 0 u 0 0 160 320 hln 100 ERC=b
+a 0 u 0 0 160 320 hln 100 FLOAT=n
+p 2 147 332 hrn 100 I/O65 n 160 330 u
+a 0 u 1 0 155 328 hln 100 PIN=89
+a 0 u 0 0 160 330 hln 100 ERC=b
+a 0 u 0 0 160 330 hln 100 FLOAT=n
+p 2 147 342 hrn 100 I/O66 n 160 340 u
+a 0 u 1 0 155 338 hln 100 PIN=90
+a 0 u 0 0 160 340 hln 100 ERC=b
+a 0 u 0 0 160 340 hln 100 FLOAT=n
+p 2 147 352 hrn 100 I/O67 n 160 350 u
+a 0 u 1 0 155 348 hln 100 PIN=91
+a 0 u 0 0 160 350 hln 100 ERC=b
+a 0 u 0 0 160 350 hln 100 FLOAT=n
+p 2 147 362 hrn 100 I/O68 n 160 360 u
+a 0 u 1 0 155 358 hln 100 PIN=92
+a 0 u 0 0 160 360 hln 100 ERC=b
+a 0 u 0 0 160 360 hln 100 FLOAT=n
+p 2 147 372 hrn 100 I/O69 n 160 370 u
+a 0 u 1 0 155 368 hln 100 PIN=93
+a 0 u 0 0 160 370 hln 100 ERC=b
+a 0 u 0 0 160 370 hln 100 FLOAT=n
+p 2 147 382 hrn 100 I/O70 n 160 380 u
+a 0 u 1 0 155 378 hln 100 PIN=95
+a 0 u 0 0 160 380 hln 100 ERC=b
+a 0 u 0 0 160 380 hln 100 FLOAT=n
+p 2 147 392 hrn 100 I/O71 n 160 390 u
+a 0 u 1 0 155 388 hln 100 PIN=96
+a 0 u 0 0 160 390 hln 100 ERC=b
+a 0 u 0 0 160 390 hln 100 FLOAT=n
+p 2 147 402 hrn 100 I/O72 n 160 400 u
+a 0 u 1 0 155 398 hln 100 PIN=97
+a 0 u 0 0 160 400 hln 100 ERC=b
+a 0 u 0 0 160 400 hln 100 FLOAT=n
+p 2 147 412 hrn 100 I/O73 n 160 410 u
+a 0 u 1 0 155 408 hln 100 PIN=98
+a 0 u 0 0 160 410 hln 100 ERC=b
+a 0 u 0 0 160 410 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=38
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=88
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 430 0 20 10
+r 0 10 10 150 420
+*symbol XC2018-70PC84C,XC2018-70PC84I,XC2018-100PC84I,XC2018-100PC84C,XC2018-130PC84I
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 106 440 hln 100 PART=XC2018-70PC84C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=74
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=12
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=32
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=54
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=55
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=2
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=3
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=4
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=5
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=6
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=7
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=8
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=9
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=10
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=11
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=13
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=14
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=15
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=16
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=17
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=18
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=19
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=20
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=21
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=23
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=24
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=25
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=26
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=27
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=28
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 13 322 hln 100 I/O25 n 0 320 h
+a 0 u 1 0 5 318 hrn 100 PIN=29
+a 0 u 0 0 0 320 hln 100 ERC=b
+a 0 u 0 0 0 320 hln 100 FLOAT=n
+p 2 13 332 hln 100 I/O26 n 0 330 h
+a 0 u 1 0 5 328 hrn 100 PIN=30
+a 0 u 0 0 0 330 hln 100 ERC=b
+a 0 u 0 0 0 330 hln 100 FLOAT=n
+p 2 13 342 hln 100 I/O27 n 0 340 h
+a 0 u 1 0 5 338 hrn 100 PIN=33
+a 0 u 0 0 0 340 hln 100 ERC=b
+a 0 u 0 0 0 340 hln 100 FLOAT=n
+p 2 13 352 hln 100 I/O28 n 0 350 h
+a 0 u 1 0 5 348 hrn 100 PIN=34
+a 0 u 0 0 0 350 hln 100 ERC=b
+a 0 u 0 0 0 350 hln 100 FLOAT=n
+p 2 13 362 hln 100 I/O29 n 0 360 h
+a 0 u 1 0 5 358 hrn 100 PIN=35
+a 0 u 0 0 0 360 hln 100 ERC=b
+a 0 u 0 0 0 360 hln 100 FLOAT=n
+p 2 13 372 hln 100 I/O30 n 0 370 h
+a 0 u 1 0 5 368 hrn 100 PIN=36
+a 0 u 0 0 0 370 hln 100 ERC=b
+a 0 u 0 0 0 370 hln 100 FLOAT=n
+p 2 13 382 hln 100 I/O31 n 0 380 h
+a 0 u 1 0 5 378 hrn 100 PIN=37
+a 0 u 0 0 0 380 hln 100 ERC=b
+a 0 u 0 0 0 380 hln 100 FLOAT=n
+p 2 13 392 hln 100 I/O32 n 0 390 h
+a 0 u 1 0 5 388 hrn 100 PIN=38
+a 0 u 0 0 0 390 hln 100 ERC=b
+a 0 u 0 0 0 390 hln 100 FLOAT=n
+p 2 13 402 hln 100 I/O33 n 0 400 h
+a 0 u 1 0 5 398 hrn 100 PIN=39
+a 0 u 0 0 0 400 hln 100 ERC=b
+a 0 u 0 0 0 400 hln 100 FLOAT=n
+p 2 13 412 hln 100 I/O34 n 0 410 h
+a 0 u 1 0 5 408 hrn 100 PIN=40
+a 0 u 0 0 0 410 hln 100 ERC=b
+a 0 u 0 0 0 410 hln 100 FLOAT=n
+p 2 48 417 drn 100 GND0 n 50 430 v
+a 0 u 1 0 52 425 dln 100 PIN=1
+a 0 u 0 0 50 430 hln 100 ERC=p
+a 0 u 0 0 50 430 hln 100 FLOAT=n
+p 2 88 417 drn 100 GND1 n 90 430 v
+a 0 u 1 0 92 425 dln 100 PIN=43
+a 0 u 0 0 90 430 hln 100 ERC=p
+a 0 u 0 0 90 430 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ n 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=31
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O35 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=41
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O36 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=42
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O37 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=44
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O38 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=45
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O39 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=46
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O40 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=47
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O41 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=48
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O42 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=49
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O43 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=50
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 I/O44 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=51
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 I/O45 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=52
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 (XTL2)I/O46 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=53
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 (XTL1)I/O47 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=56
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O48 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=57
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O49 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=58
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 I/O50 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=59
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 I/O51 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=60
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O52 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=61
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O53 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=62
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O54 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=63
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O55 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=65
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 I/O56 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=66
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 I/O57 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=67
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O58 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=68
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O59 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=69
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O60 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=70
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O61 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=71
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O62 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=72
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O63 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=73
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 147 322 hrn 100 I/O64 n 160 320 u
+a 0 u 1 0 155 318 hln 100 PIN=75
+a 0 u 0 0 160 320 hln 100 ERC=b
+a 0 u 0 0 160 320 hln 100 FLOAT=n
+p 2 147 332 hrn 100 I/O65 n 160 330 u
+a 0 u 1 0 155 328 hln 100 PIN=76
+a 0 u 0 0 160 330 hln 100 ERC=b
+a 0 u 0 0 160 330 hln 100 FLOAT=n
+p 2 147 342 hrn 100 I/O66 n 160 340 u
+a 0 u 1 0 155 338 hln 100 PIN=77
+a 0 u 0 0 160 340 hln 100 ERC=b
+a 0 u 0 0 160 340 hln 100 FLOAT=n
+p 2 147 352 hrn 100 I/O67 n 160 350 u
+a 0 u 1 0 155 348 hln 100 PIN=78
+a 0 u 0 0 160 350 hln 100 ERC=b
+a 0 u 0 0 160 350 hln 100 FLOAT=n
+p 2 147 362 hrn 100 I/O68 n 160 360 u
+a 0 u 1 0 155 358 hln 100 PIN=79
+a 0 u 0 0 160 360 hln 100 ERC=b
+a 0 u 0 0 160 360 hln 100 FLOAT=n
+p 2 147 372 hrn 100 I/O69 n 160 370 u
+a 0 u 1 0 155 368 hln 100 PIN=80
+a 0 u 0 0 160 370 hln 100 ERC=b
+a 0 u 0 0 160 370 hln 100 FLOAT=n
+p 2 147 382 hrn 100 I/O70 n 160 380 u
+a 0 u 1 0 155 378 hln 100 PIN=81
+a 0 u 0 0 160 380 hln 100 ERC=b
+a 0 u 0 0 160 380 hln 100 FLOAT=n
+p 2 147 392 hrn 100 I/O71 n 160 390 u
+a 0 u 1 0 155 388 hln 100 PIN=82
+a 0 u 0 0 160 390 hln 100 ERC=b
+a 0 u 0 0 160 390 hln 100 FLOAT=n
+p 2 147 402 hrn 100 I/O72 n 160 400 u
+a 0 u 1 0 155 398 hln 100 PIN=83
+a 0 u 0 0 160 400 hln 100 ERC=b
+a 0 u 0 0 160 400 hln 100 FLOAT=n
+p 2 147 412 hrn 100 I/O73 n 160 410 u
+a 0 u 1 0 155 408 hln 100 PIN=84
+a 0 u 0 0 160 410 hln 100 ERC=b
+a 0 u 0 0 160 410 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=22
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=64
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 430 0 20 10
+r 0 10 10 150 420
+*symbol XC2018-33PG84M,XC2018-33PG84B,XC2018-50PG84B,XC2018-50PG84M,XC2018-70PG84M,XC2018-70PG84B,XC2018-70PG84I,XC2018-70PG84C,XC2018-100PG84C,XC2018-100PG84I,XC2018-130PG84C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 106 440 hln 100 PART=XC2018-33PG84M
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=A11
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=B2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=L1
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=K10
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=J10
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=A1
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=A2
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=A3
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=A4
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=A5
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=A6
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=A7
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=A8
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=A9
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=A10
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=B1
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=B3
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=B4
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=B5
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=B6
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=B7
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=B8
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=B9
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=B10
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=B11
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=C1
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=C2
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=C5
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=C7
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=C10
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 13 322 hln 100 I/O25 n 0 320 h
+a 0 u 1 0 5 318 hrn 100 PIN=C11
+a 0 u 0 0 0 320 hln 100 ERC=b
+a 0 u 0 0 0 320 hln 100 FLOAT=n
+p 2 13 332 hln 100 I/O26 n 0 330 h
+a 0 u 1 0 5 328 hrn 100 PIN=D1
+a 0 u 0 0 0 330 hln 100 ERC=b
+a 0 u 0 0 0 330 hln 100 FLOAT=n
+p 2 13 342 hln 100 I/O27 n 0 340 h
+a 0 u 1 0 5 338 hrn 100 PIN=D2
+a 0 u 0 0 0 340 hln 100 ERC=b
+a 0 u 0 0 0 340 hln 100 FLOAT=n
+p 2 13 352 hln 100 I/O28 n 0 350 h
+a 0 u 1 0 5 348 hrn 100 PIN=D10
+a 0 u 0 0 0 350 hln 100 ERC=b
+a 0 u 0 0 0 350 hln 100 FLOAT=n
+p 2 13 362 hln 100 I/O29 n 0 360 h
+a 0 u 1 0 5 358 hrn 100 PIN=D11
+a 0 u 0 0 0 360 hln 100 ERC=b
+a 0 u 0 0 0 360 hln 100 FLOAT=n
+p 2 13 372 hln 100 I/O30 n 0 370 h
+a 0 u 1 0 5 368 hrn 100 PIN=E1
+a 0 u 0 0 0 370 hln 100 ERC=b
+a 0 u 0 0 0 370 hln 100 FLOAT=n
+p 2 13 382 hln 100 I/O31 n 0 380 h
+a 0 u 1 0 5 378 hrn 100 PIN=E2
+a 0 u 0 0 0 380 hln 100 ERC=b
+a 0 u 0 0 0 380 hln 100 FLOAT=n
+p 2 13 392 hln 100 I/O32 n 0 390 h
+a 0 u 1 0 5 388 hrn 100 PIN=E3
+a 0 u 0 0 0 390 hln 100 ERC=b
+a 0 u 0 0 0 390 hln 100 FLOAT=n
+p 2 13 402 hln 100 I/O33 n 0 400 h
+a 0 u 1 0 5 398 hrn 100 PIN=E9
+a 0 u 0 0 0 400 hln 100 ERC=b
+a 0 u 0 0 0 400 hln 100 FLOAT=n
+p 2 13 412 hln 100 I/O34 n 0 410 h
+a 0 u 1 0 5 408 hrn 100 PIN=E10
+a 0 u 0 0 0 410 hln 100 ERC=b
+a 0 u 0 0 0 410 hln 100 FLOAT=n
+p 2 48 417 drn 100 GND0 n 50 430 v
+a 0 u 1 0 52 425 dln 100 PIN=C6
+a 0 u 0 0 50 430 hln 100 ERC=p
+a 0 u 0 0 50 430 hln 100 FLOAT=n
+p 2 88 417 drn 100 GND1 n 90 430 v
+a 0 u 1 0 92 425 dln 100 PIN=J6
+a 0 u 0 0 90 430 hln 100 ERC=p
+a 0 u 0 0 90 430 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ n 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=J2
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O35 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=E11
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O36 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=F1
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O37 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=F2
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O38 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=F10
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O39 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=F11
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O40 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=G1
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O41 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=G2
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O42 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=G3
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O43 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=G9
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 I/O44 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=G10
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 I/O45 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=G11
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 I/O46 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=H1
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 I/O47 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=H2
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O48 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=H10
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O49 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=H11
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 I/O50 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=J1
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 I/O51 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=J5
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O52 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=J7
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O53 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=J11
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O54 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=K1
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O55 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=K2
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 I/O56 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=K3
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 I/O57 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=K4
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O58 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=K5
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O59 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=K6
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O60 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=K7
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O61 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=K8
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O62 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=K9
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 (XTL1)I/O63 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=K11
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 147 322 hrn 100 I/O64 n 160 320 u
+a 0 u 1 0 155 318 hln 100 PIN=L2
+a 0 u 0 0 160 320 hln 100 ERC=b
+a 0 u 0 0 160 320 hln 100 FLOAT=n
+p 2 147 332 hrn 100 I/O65 n 160 330 u
+a 0 u 1 0 155 328 hln 100 PIN=L3
+a 0 u 0 0 160 330 hln 100 ERC=b
+a 0 u 0 0 160 330 hln 100 FLOAT=n
+p 2 147 342 hrn 100 I/O66 n 160 340 u
+a 0 u 1 0 155 338 hln 100 PIN=L4
+a 0 u 0 0 160 340 hln 100 ERC=b
+a 0 u 0 0 160 340 hln 100 FLOAT=n
+p 2 147 352 hrn 100 I/O67 n 160 350 u
+a 0 u 1 0 155 348 hln 100 PIN=L5
+a 0 u 0 0 160 350 hln 100 ERC=b
+a 0 u 0 0 160 350 hln 100 FLOAT=n
+p 2 147 362 hrn 100 I/O68 n 160 360 u
+a 0 u 1 0 155 358 hln 100 PIN=L6
+a 0 u 0 0 160 360 hln 100 ERC=b
+a 0 u 0 0 160 360 hln 100 FLOAT=n
+p 2 147 372 hrn 100 I/O69 n 160 370 u
+a 0 u 1 0 155 368 hln 100 PIN=L7
+a 0 u 0 0 160 370 hln 100 ERC=b
+a 0 u 0 0 160 370 hln 100 FLOAT=n
+p 2 147 382 hrn 100 I/O70 n 160 380 u
+a 0 u 1 0 155 378 hln 100 PIN=L8
+a 0 u 0 0 160 380 hln 100 ERC=b
+a 0 u 0 0 160 380 hln 100 FLOAT=n
+p 2 147 392 hrn 100 I/O71 n 160 390 u
+a 0 u 1 0 155 388 hln 100 PIN=L9
+a 0 u 0 0 160 390 hln 100 ERC=b
+a 0 u 0 0 160 390 hln 100 FLOAT=n
+p 2 147 402 hrn 100 I/O72 n 160 400 u
+a 0 u 1 0 155 398 hln 100 PIN=L10
+a 0 u 0 0 160 400 hln 100 ERC=b
+a 0 u 0 0 160 400 hln 100 FLOAT=n
+p 2 147 412 hrn 100 (XTL2)I/O73 n 160 410 u
+a 0 u 1 0 155 408 hln 100 PIN=L11
+a 0 u 0 0 160 410 hln 100 ERC=b
+a 0 u 0 0 160 410 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=F3
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=F9
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 430 0 20 10
+r 0 10 10 150 420
+*symbol XC2018-70PC68C,XC2018-70PC68I,XC2018-100PC68I,XC2018-100PC68C,XC2018-130PC68C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 113 362 hln 100 PART=XC2018-70PC68C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=60
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=10
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=26
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=44
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=45
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=2
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=3
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=4
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=5
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=6
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=7
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=8
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=9
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=11
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=12
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=13
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=14
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=15
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=16
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=17
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=19
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=20
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=21
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=22
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=23
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=24
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=27
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=28
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=29
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=30
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 13 322 hln 100 I/O25 n 0 320 h
+a 0 u 1 0 5 318 hrn 100 PIN=31
+a 0 u 0 0 0 320 hln 100 ERC=b
+a 0 u 0 0 0 320 hln 100 FLOAT=n
+p 2 13 332 hln 100 I/O26 n 0 330 h
+a 0 u 1 0 5 328 hrn 100 PIN=32
+a 0 u 0 0 0 330 hln 100 ERC=b
+a 0 u 0 0 0 330 hln 100 FLOAT=n
+p 2 58 337 drn 100 GND0 n 60 350 v
+a 0 u 1 0 62 345 dln 100 PIN=1
+a 0 u 0 0 60 350 hln 100 ERC=p
+a 0 u 0 0 60 350 hln 100 FLOAT=n
+p 2 98 337 drn 100 GND1 n 100 350 v
+a 0 u 1 0 102 345 dln 100 PIN=35
+a 0 u 0 0 100 350 hln 100 ERC=p
+a 0 u 0 0 100 350 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ b 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=25
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O27 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=33
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O28 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=34
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O29 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=36
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O30 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=37
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O31 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=38
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O32 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=39
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O33 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=40
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O34 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=41
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O35 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=42
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 (XTL2)I/O36 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=43
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 (XTL1)I/O37 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=46
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 I/O38 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=47
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 I/O39 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=48
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O40 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=49
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O41 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=50
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 I/O42 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=51
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 I/O43 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=53
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O44 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=54
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O45 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=55
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O46 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=56
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O47 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=57
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 I/O48 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=58
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 I/O49 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=59
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O50 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=61
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O51 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=62
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O52 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=63
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O53 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=64
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O54 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=65
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O55 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=66
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 147 322 hrn 100 I/O56 n 160 320 u
+a 0 u 1 0 155 318 hln 100 PIN=67
+a 0 u 0 0 160 320 hln 100 ERC=b
+a 0 u 0 0 160 320 hln 100 FLOAT=n
+p 2 147 332 hrn 100 I/O57 n 160 330 u
+a 0 u 1 0 155 328 hln 100 PIN=68
+a 0 u 0 0 160 330 hln 100 ERC=b
+a 0 u 0 0 160 330 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=18
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=52
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 350 0 20 10
+r 0 10 10 150 340
+*symbol XC2018-100VQ64C,XC2018-100VQ64I,XC2018-130VQ64C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 116 328 hln 100 PART=XC2018-100VQ64C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=64
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=17
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=32
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=48
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=49
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=1
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=2
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=3
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=4
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=5
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=6
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=7
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=9
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=10
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=11
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=12
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=13
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=14
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=15
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=16
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=18
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=19
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=20
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=21
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=22
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=23
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=25
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=26
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=27
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=28
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 58 317 drn 100 GND0 n 60 330 v
+a 0 u 1 0 62 325 dln 100 PIN=8
+a 0 u 0 0 60 330 hln 100 ERC=p
+a 0 u 0 0 60 330 hln 100 FLOAT=n
+p 2 98 317 drn 100 GND1 n 100 330 v
+a 0 u 1 0 102 325 dln 100 PIN=41
+a 0 u 0 0 100 330 hln 100 ERC=p
+a 0 u 0 0 100 330 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ b 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=31
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O25 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=29
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O26 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=30
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O27 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=33
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O28 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=34
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O29 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=35
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O30 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=36
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O31 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=37
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O32 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=38
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O33 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=39
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 I/O34 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=40
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 I/O35 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=42
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 I/O36 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=43
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 I/O37 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=44
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O38 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=45
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O39 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=46
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 (XTL2)I/O40 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=47
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 (XTL1)I/O41 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=50
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O42 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=51
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O43 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=52
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O44 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=53
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O45 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=54
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 I/O46 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=55
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 I/O47 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=57
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O48 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=58
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O49 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=59
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O50 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=60
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O51 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=61
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O52 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=62
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O53 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=63
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=24
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=56
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 330 0 20 10
+r 0 10 10 150 320
+*symbol XC2018-70PC44C,XC2018-70PC44I,XC2018-100PC44I,XC2018-100PC44C,XC2018-130PC44C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 95 228 hln 100 PART=XC2018-70PC44C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=38
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=8
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=17
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=27
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=28
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=2
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=3
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=4
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=5
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=6
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=7
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=9
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=10
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=11
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=13
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=14
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=15
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=18
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=19
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=20
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 48 217 drn 100 GND0 n 50 230 v
+a 0 u 1 0 52 225 dln 100 PIN=1
+a 0 u 0 0 50 230 hln 100 ERC=p
+a 0 u 0 0 50 230 hln 100 FLOAT=n
+p 2 78 217 drn 100 GND1 n 80 230 v
+a 0 u 1 0 82 225 dln 100 PIN=23
+a 0 u 0 0 80 230 hln 100 ERC=p
+a 0 u 0 0 80 230 hln 100 FLOAT=n
+p 2 127 22 hrn 100 \RDATA\ b 140 20 u
+a 0 u 1 0 135 18 hln 100 PIN=16
+a 0 u 0 0 140 20 hln 100 ERC=o
+a 0 u 0 0 140 20 hln 100 FLOAT=n
+p 2 127 32 hrn 100 I/O15 n 140 30 u
+a 0 u 1 0 135 28 hln 100 PIN=21
+a 0 u 0 0 140 30 hln 100 ERC=b
+a 0 u 0 0 140 30 hln 100 FLOAT=n
+p 2 127 42 hrn 100 I/O16 n 140 40 u
+a 0 u 1 0 135 38 hln 100 PIN=22
+a 0 u 0 0 140 40 hln 100 ERC=b
+a 0 u 0 0 140 40 hln 100 FLOAT=n
+p 2 127 52 hrn 100 I/O17 n 140 50 u
+a 0 u 1 0 135 48 hln 100 PIN=24
+a 0 u 0 0 140 50 hln 100 ERC=b
+a 0 u 0 0 140 50 hln 100 FLOAT=n
+p 2 127 62 hrn 100 I/O18 n 140 60 u
+a 0 u 1 0 135 58 hln 100 PIN=25
+a 0 u 0 0 140 60 hln 100 ERC=b
+a 0 u 0 0 140 60 hln 100 FLOAT=n
+p 2 127 72 hrn 100 (XTL2)I/O19 n 140 70 u
+a 0 u 1 0 135 68 hln 100 PIN=26
+a 0 u 0 0 140 70 hln 100 ERC=b
+a 0 u 0 0 140 70 hln 100 FLOAT=n
+p 2 127 82 hrn 100 (XTL1)I/O20 n 140 80 u
+a 0 u 1 0 135 78 hln 100 PIN=29
+a 0 u 0 0 140 80 hln 100 ERC=b
+a 0 u 0 0 140 80 hln 100 FLOAT=n
+p 2 127 92 hrn 100 I/O21 n 140 90 u
+a 0 u 1 0 135 88 hln 100 PIN=30
+a 0 u 0 0 140 90 hln 100 ERC=b
+a 0 u 0 0 140 90 hln 100 FLOAT=n
+p 2 127 102 hrn 100 I/O22 n 140 100 u
+a 0 u 1 0 135 98 hln 100 PIN=31
+a 0 u 0 0 140 100 hln 100 ERC=b
+a 0 u 0 0 140 100 hln 100 FLOAT=n
+p 2 127 112 hrn 100 I/O23 n 140 110 u
+a 0 u 1 0 135 108 hln 100 PIN=32
+a 0 u 0 0 140 110 hln 100 ERC=b
+a 0 u 0 0 140 110 hln 100 FLOAT=n
+p 2 127 122 hrn 100 I/O24 n 140 120 u
+a 0 u 1 0 135 118 hln 100 PIN=34
+a 0 u 0 0 140 120 hln 100 ERC=b
+a 0 u 0 0 140 120 hln 100 FLOAT=n
+p 2 127 132 hrn 100 I/O25 n 140 130 u
+a 0 u 1 0 135 128 hln 100 PIN=35
+a 0 u 0 0 140 130 hln 100 ERC=b
+a 0 u 0 0 140 130 hln 100 FLOAT=n
+p 2 127 142 hrn 100 I/O26 n 140 140 u
+a 0 u 1 0 135 138 hln 100 PIN=36
+a 0 u 0 0 140 140 hln 100 ERC=b
+a 0 u 0 0 140 140 hln 100 FLOAT=n
+p 2 127 152 hrn 100 I/O27 n 140 150 u
+a 0 u 1 0 135 148 hln 100 PIN=37
+a 0 u 0 0 140 150 hln 100 ERC=b
+a 0 u 0 0 140 150 hln 100 FLOAT=n
+p 2 127 162 hrn 100 I/O28 n 140 160 u
+a 0 u 1 0 135 158 hln 100 PIN=39
+a 0 u 0 0 140 160 hln 100 ERC=b
+a 0 u 0 0 140 160 hln 100 FLOAT=n
+p 2 127 172 hrn 100 I/O29 n 140 170 u
+a 0 u 1 0 135 168 hln 100 PIN=40
+a 0 u 0 0 140 170 hln 100 ERC=b
+a 0 u 0 0 140 170 hln 100 FLOAT=n
+p 2 127 182 hrn 100 I/O30 n 140 180 u
+a 0 u 1 0 135 178 hln 100 PIN=41
+a 0 u 0 0 140 180 hln 100 ERC=b
+a 0 u 0 0 140 180 hln 100 FLOAT=n
+p 2 127 192 hrn 100 I/O31 n 140 190 u
+a 0 u 1 0 135 188 hln 100 PIN=42
+a 0 u 0 0 140 190 hln 100 ERC=b
+a 0 u 0 0 140 190 hln 100 FLOAT=n
+p 2 127 202 hrn 100 I/O32 n 140 200 u
+a 0 u 1 0 135 198 hln 100 PIN=43
+a 0 u 0 0 140 200 hln 100 ERC=b
+a 0 u 0 0 140 200 hln 100 FLOAT=n
+p 2 127 212 hrn 100 I/O33 n 140 210 u
+a 0 u 1 0 135 208 hln 100 PIN=44
+a 0 u 0 0 140 210 hln 100 ERC=b
+a 0 u 0 0 140 210 hln 100 FLOAT=n
+p 2 58 13 dln 100 VCC0 n 60 0 d
+a 0 u 1 0 62 5 drn 100 PIN=12
+a 0 u 0 0 60 0 hln 100 ERC=p
+a 0 u 0 0 60 0 hln 100 FLOAT=n
+p 2 78 13 dln 100 VCC1 n 80 0 d
+a 0 u 1 0 82 5 drn 100 PIN=33
+a 0 u 0 0 80 0 hln 100 ERC=p
+a 0 u 0 0 80 0 hln 100 FLOAT=n
+@graphics 140 230 0 20 10
+r 0 10 10 130 220
+*symbol XC2064-70PC44C,XC2064-70PC44I,XC2064-100PC44I,XC2064-100PC44C,XC2064-130PC44C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 95 228 hln 100 PART=XC2064-70PC44C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=38
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=8
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=17
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=27
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=28
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=2
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=3
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=4
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=5
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=6
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=7
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=9
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=10
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=11
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=13
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=14
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=15
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=18
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=19
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=20
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 48 217 drn 100 GND0 n 50 230 v
+a 0 u 1 0 52 225 dln 100 PIN=1
+a 0 u 0 0 50 230 hln 100 ERC=p
+a 0 u 0 0 50 230 hln 100 FLOAT=n
+p 2 78 217 drn 100 GND1 n 80 230 v
+a 0 u 1 0 82 225 dln 100 PIN=23
+a 0 u 0 0 80 230 hln 100 ERC=p
+a 0 u 0 0 80 230 hln 100 FLOAT=n
+p 2 127 22 hrn 100 \RDATA\ b 140 20 u
+a 0 u 1 0 135 18 hln 100 PIN=16
+a 0 u 0 0 140 20 hln 100 ERC=o
+a 0 u 0 0 140 20 hln 100 FLOAT=n
+p 2 127 32 hrn 100 I/O15 n 140 30 u
+a 0 u 1 0 135 28 hln 100 PIN=21
+a 0 u 0 0 140 30 hln 100 ERC=b
+a 0 u 0 0 140 30 hln 100 FLOAT=n
+p 2 127 42 hrn 100 I/O16 n 140 40 u
+a 0 u 1 0 135 38 hln 100 PIN=22
+a 0 u 0 0 140 40 hln 100 ERC=b
+a 0 u 0 0 140 40 hln 100 FLOAT=n
+p 2 127 52 hrn 100 I/O17 n 140 50 u
+a 0 u 1 0 135 48 hln 100 PIN=24
+a 0 u 0 0 140 50 hln 100 ERC=b
+a 0 u 0 0 140 50 hln 100 FLOAT=n
+p 2 127 62 hrn 100 I/O18 n 140 60 u
+a 0 u 1 0 135 58 hln 100 PIN=25
+a 0 u 0 0 140 60 hln 100 ERC=b
+a 0 u 0 0 140 60 hln 100 FLOAT=n
+p 2 127 72 hrn 100 (XTL2)I/O19 n 140 70 u
+a 0 u 1 0 135 68 hln 100 PIN=26
+a 0 u 0 0 140 70 hln 100 ERC=b
+a 0 u 0 0 140 70 hln 100 FLOAT=n
+p 2 127 82 hrn 100 (XTL1)I/O20 n 140 80 u
+a 0 u 1 0 135 78 hln 100 PIN=29
+a 0 u 0 0 140 80 hln 100 ERC=b
+a 0 u 0 0 140 80 hln 100 FLOAT=n
+p 2 127 92 hrn 100 I/O21 n 140 90 u
+a 0 u 1 0 135 88 hln 100 PIN=30
+a 0 u 0 0 140 90 hln 100 ERC=b
+a 0 u 0 0 140 90 hln 100 FLOAT=n
+p 2 127 102 hrn 100 I/O22 n 140 100 u
+a 0 u 1 0 135 98 hln 100 PIN=31
+a 0 u 0 0 140 100 hln 100 ERC=b
+a 0 u 0 0 140 100 hln 100 FLOAT=n
+p 2 127 112 hrn 100 I/O23 n 140 110 u
+a 0 u 1 0 135 108 hln 100 PIN=32
+a 0 u 0 0 140 110 hln 100 ERC=b
+a 0 u 0 0 140 110 hln 100 FLOAT=n
+p 2 127 122 hrn 100 I/O24 n 140 120 u
+a 0 u 1 0 135 118 hln 100 PIN=34
+a 0 u 0 0 140 120 hln 100 ERC=b
+a 0 u 0 0 140 120 hln 100 FLOAT=n
+p 2 127 132 hrn 100 I/O25 n 140 130 u
+a 0 u 1 0 135 128 hln 100 PIN=35
+a 0 u 0 0 140 130 hln 100 ERC=b
+a 0 u 0 0 140 130 hln 100 FLOAT=n
+p 2 127 142 hrn 100 I/O26 n 140 140 u
+a 0 u 1 0 135 138 hln 100 PIN=36
+a 0 u 0 0 140 140 hln 100 ERC=b
+a 0 u 0 0 140 140 hln 100 FLOAT=n
+p 2 127 152 hrn 100 I/O27 n 140 150 u
+a 0 u 1 0 135 148 hln 100 PIN=37
+a 0 u 0 0 140 150 hln 100 ERC=b
+a 0 u 0 0 140 150 hln 100 FLOAT=n
+p 2 127 162 hrn 100 I/O28 n 140 160 u
+a 0 u 1 0 135 158 hln 100 PIN=39
+a 0 u 0 0 140 160 hln 100 ERC=b
+a 0 u 0 0 140 160 hln 100 FLOAT=n
+p 2 127 172 hrn 100 I/O29 n 140 170 u
+a 0 u 1 0 135 168 hln 100 PIN=40
+a 0 u 0 0 140 170 hln 100 ERC=b
+a 0 u 0 0 140 170 hln 100 FLOAT=n
+p 2 127 182 hrn 100 I/O30 n 140 180 u
+a 0 u 1 0 135 178 hln 100 PIN=41
+a 0 u 0 0 140 180 hln 100 ERC=b
+a 0 u 0 0 140 180 hln 100 FLOAT=n
+p 2 127 192 hrn 100 I/O31 n 140 190 u
+a 0 u 1 0 135 188 hln 100 PIN=42
+a 0 u 0 0 140 190 hln 100 ERC=b
+a 0 u 0 0 140 190 hln 100 FLOAT=n
+p 2 127 202 hrn 100 I/O32 n 140 200 u
+a 0 u 1 0 135 198 hln 100 PIN=43
+a 0 u 0 0 140 200 hln 100 ERC=b
+a 0 u 0 0 140 200 hln 100 FLOAT=n
+p 2 127 212 hrn 100 I/O33 n 140 210 u
+a 0 u 1 0 135 208 hln 100 PIN=44
+a 0 u 0 0 140 210 hln 100 ERC=b
+a 0 u 0 0 140 210 hln 100 FLOAT=n
+p 2 58 13 dln 100 VCC0 n 60 0 d
+a 0 u 1 0 62 5 drn 100 PIN=12
+a 0 u 0 0 60 0 hln 100 ERC=p
+a 0 u 0 0 60 0 hln 100 FLOAT=n
+p 2 78 13 dln 100 VCC1 n 80 0 d
+a 0 u 1 0 82 5 drn 100 PIN=33
+a 0 u 0 0 80 0 hln 100 ERC=p
+a 0 u 0 0 80 0 hln 100 FLOAT=n
+@graphics 140 230 0 20 10
+r 0 10 10 130 220
+*symbol XC2064-70PC68C,XC2064-70PC68I,XC2064-100PC68I,XC2064-100PC68C,XC2064-130PC68C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 113 362 hln 100 PART=XC2064-70PC68C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=60
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=10
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=26
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=44
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=45
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=2
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=3
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=4
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=5
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=6
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=7
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=8
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=9
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=11
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=12
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=13
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=14
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=15
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=16
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=17
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=19
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=20
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=21
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=22
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=23
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=24
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=27
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=28
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=29
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=30
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 13 322 hln 100 I/O25 n 0 320 h
+a 0 u 1 0 5 318 hrn 100 PIN=31
+a 0 u 0 0 0 320 hln 100 ERC=b
+a 0 u 0 0 0 320 hln 100 FLOAT=n
+p 2 13 332 hln 100 I/O26 n 0 330 h
+a 0 u 1 0 5 328 hrn 100 PIN=32
+a 0 u 0 0 0 330 hln 100 ERC=b
+a 0 u 0 0 0 330 hln 100 FLOAT=n
+p 2 58 337 drn 100 GND0 n 60 350 v
+a 0 u 1 0 62 345 dln 100 PIN=1
+a 0 u 0 0 60 350 hln 100 ERC=p
+a 0 u 0 0 60 350 hln 100 FLOAT=n
+p 2 98 337 drn 100 GND1 n 100 350 v
+a 0 u 1 0 102 345 dln 100 PIN=35
+a 0 u 0 0 100 350 hln 100 ERC=p
+a 0 u 0 0 100 350 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ b 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=25
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O27 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=33
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O28 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=34
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O29 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=36
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O30 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=37
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O31 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=38
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O32 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=39
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O33 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=40
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O34 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=41
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O35 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=42
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 (XTL2)I/O36 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=43
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 (XTL1)I/O37 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=46
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 I/O38 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=47
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 I/O39 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=48
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O40 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=49
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O41 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=50
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 I/O42 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=51
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 I/O43 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=53
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O44 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=54
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O45 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=55
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O46 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=56
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O47 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=57
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 I/O48 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=58
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 I/O49 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=59
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O50 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=61
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O51 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=62
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O52 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=63
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O53 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=64
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O54 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=65
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O55 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=66
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 147 322 hrn 100 I/O56 n 160 320 u
+a 0 u 1 0 155 318 hln 100 PIN=67
+a 0 u 0 0 160 320 hln 100 ERC=b
+a 0 u 0 0 160 320 hln 100 FLOAT=n
+p 2 147 332 hrn 100 I/O57 n 160 330 u
+a 0 u 1 0 155 328 hln 100 PIN=68
+a 0 u 0 0 160 330 hln 100 ERC=b
+a 0 u 0 0 160 330 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=18
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=52
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 350 0 20 10
+r 0 10 10 150 340
+*symbol XC2064-50PG68M,XC2064-70PG68M,XC2064-70PG68I,XC2064-70PG68C,XC2064-100PG68C,XC2064-100PG68I,XC2064-130PG68C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 113 362 hln 100 PART=XC2064-50PG68M
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=B11
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=B2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=K1
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=K10
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=K11
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=A2
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=A3
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=A4
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=A5
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=A6
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=A7
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=A8
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=A9
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=A10
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=B1
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=B3
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=B4
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=B5
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=B7
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=B9
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=B10
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=C1
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=C2
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=C10
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=C11
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=D1
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=D2
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=D8
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=D10
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=D11
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 13 322 hln 100 I/O25 n 0 320 h
+a 0 u 1 0 5 318 hrn 100 PIN=E1
+a 0 u 0 0 0 320 hln 100 ERC=b
+a 0 u 0 0 0 320 hln 100 FLOAT=n
+p 2 13 332 hln 100 I/O26 n 0 330 h
+a 0 u 1 0 5 328 hrn 100 PIN=E2
+a 0 u 0 0 0 330 hln 100 ERC=b
+a 0 u 0 0 0 330 hln 100 FLOAT=n
+p 2 58 337 drn 100 GND0 n 60 350 v
+a 0 u 1 0 62 345 dln 100 PIN=B6
+a 0 u 0 0 60 350 hln 100 ERC=p
+a 0 u 0 0 60 350 hln 100 FLOAT=n
+p 2 78 337 drn 100 GND1 n 80 350 v
+a 0 u 1 0 82 345 dln 100 PIN=K6
+a 0 u 0 0 80 350 hln 100 ERC=p
+a 0 u 0 0 80 350 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ b 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=J1
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O27 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=E10
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O28 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=E11
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O29 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=F1
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O30 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=F11
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O31 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=G1
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O32 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=G2
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O33 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=G10
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O34 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=G11
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O35 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=H1
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 I/O36 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=H2
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 I/O37 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=H10
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 I/O38 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=H11
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 I/O39 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=J2
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 (XTL1)I/O40 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=J10
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O41 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=J11
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 I/O42 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=K2
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 I/O43 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=K3
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O44 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=K4
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O45 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=K5
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O46 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=K7
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O47 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=K8
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 I/O48 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=K9
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 I/O49 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=L2
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O50 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=L3
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O51 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=L4
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O52 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=L5
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O53 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=L6
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O54 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=L7
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O55 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=L8
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 147 322 hrn 100 I/O56 n 160 320 u
+a 0 u 1 0 155 318 hln 100 PIN=L9
+a 0 u 0 0 160 320 hln 100 ERC=b
+a 0 u 0 0 160 320 hln 100 FLOAT=n
+p 2 147 332 hrn 100 (XTL2)I/O57 n 160 330 u
+a 0 u 1 0 155 328 hln 100 PIN=L10
+a 0 u 0 0 160 330 hln 100 ERC=b
+a 0 u 0 0 160 330 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=F2
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=F10
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 350 0 20 10
+r 0 10 10 150 340
+*symbol XC2018L-10VQ64C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 116 328 hln 100 PART=XC2018L-10VQ64C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=64
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=17
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=32
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=48
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=49
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=1
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=2
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=3
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=4
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=5
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=6
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=7
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=9
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=10
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=11
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=12
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=13
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=14
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=15
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=16
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=18
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=19
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=20
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=21
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=22
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=23
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=25
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=26
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=27
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=28
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 58 317 drn 100 GND0 n 60 330 v
+a 0 u 1 0 62 325 dln 100 PIN=8
+a 0 u 0 0 60 330 hln 100 ERC=p
+a 0 u 0 0 60 330 hln 100 FLOAT=n
+p 2 98 317 drn 100 GND1 n 100 330 v
+a 0 u 1 0 102 325 dln 100 PIN=41
+a 0 u 0 0 100 330 hln 100 ERC=p
+a 0 u 0 0 100 330 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ b 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=31
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O25 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=29
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O26 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=30
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O27 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=33
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O28 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=34
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O29 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=35
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O30 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=36
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O31 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=37
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O32 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=38
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O33 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=39
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 I/O34 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=40
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 I/O35 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=42
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 I/O36 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=43
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 I/O37 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=44
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O38 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=45
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O39 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=46
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 (XTL2)I/O40 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=47
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 (XTL1)I/O41 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=50
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O42 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=51
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O43 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=52
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O44 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=53
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O45 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=54
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 I/O46 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=55
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 I/O47 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=57
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O48 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=58
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O49 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=59
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O50 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=60
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O51 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=61
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O52 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=62
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O53 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=63
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=24
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=56
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 330 0 20 10
+r 0 10 10 150 320
+*symbol XC2064L-10VQ64C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 116 328 hln 100 PART=XC2064L-10VQ64C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=64
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=17
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=32
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=48
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=49
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=1
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=2
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=3
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=4
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=5
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=6
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=7
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=9
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=10
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=11
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=12
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=13
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=14
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=15
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=16
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=18
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=19
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=20
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=21
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=22
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=23
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=25
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=26
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=27
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=28
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 58 317 drn 100 GND0 n 60 330 v
+a 0 u 1 0 62 325 dln 100 PIN=8
+a 0 u 0 0 60 330 hln 100 ERC=p
+a 0 u 0 0 60 330 hln 100 FLOAT=n
+p 2 98 317 drn 100 GND1 n 100 330 v
+a 0 u 1 0 102 325 dln 100 PIN=41
+a 0 u 0 0 100 330 hln 100 ERC=p
+a 0 u 0 0 100 330 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ b 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=31
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O25 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=29
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O26 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=30
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O27 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=33
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O28 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=34
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O29 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=35
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O30 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=36
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O31 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=37
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O32 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=38
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O33 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=39
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 I/O34 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=40
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 I/O35 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=42
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 I/O36 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=43
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 I/O37 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=44
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O38 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=45
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O39 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=46
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 (XTL2)I/O40 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=47
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 (XTL1)I/O41 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=50
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O42 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=51
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O43 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=52
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O44 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=53
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O45 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=54
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 I/O46 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=55
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 I/O47 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=57
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O48 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=58
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O49 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=59
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O50 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=60
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O51 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=61
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O52 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=62
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O53 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=63
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=24
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=56
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 330 0 20 10
+r 0 10 10 150 320
+*symbol XC2064L-10PC68C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 113 362 hln 100 PART=XC2064L-10PC68C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=60
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=10
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=26
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=44
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=45
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=2
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=3
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=4
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=5
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=6
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=7
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=8
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=9
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=11
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=12
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=13
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=14
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=15
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=16
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=17
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=19
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=20
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=21
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=22
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=23
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=24
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=27
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=28
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=29
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=30
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 13 322 hln 100 I/O25 n 0 320 h
+a 0 u 1 0 5 318 hrn 100 PIN=31
+a 0 u 0 0 0 320 hln 100 ERC=b
+a 0 u 0 0 0 320 hln 100 FLOAT=n
+p 2 13 332 hln 100 I/O26 n 0 330 h
+a 0 u 1 0 5 328 hrn 100 PIN=32
+a 0 u 0 0 0 330 hln 100 ERC=b
+a 0 u 0 0 0 330 hln 100 FLOAT=n
+p 2 58 337 drn 100 GND0 n 60 350 v
+a 0 u 1 0 62 345 dln 100 PIN=1
+a 0 u 0 0 60 350 hln 100 ERC=p
+a 0 u 0 0 60 350 hln 100 FLOAT=n
+p 2 98 337 drn 100 GND1 n 100 350 v
+a 0 u 1 0 102 345 dln 100 PIN=35
+a 0 u 0 0 100 350 hln 100 ERC=p
+a 0 u 0 0 100 350 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ b 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=25
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O27 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=33
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O28 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=34
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O29 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=36
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O30 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=37
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O31 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=38
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O32 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=39
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O33 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=40
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O34 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=41
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O35 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=42
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 (XTL2)I/O36 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=43
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 (XTL1)I/O37 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=46
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 I/O38 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=47
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 I/O39 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=48
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O40 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=49
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O41 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=50
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 I/O42 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=51
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 I/O43 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=53
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O44 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=54
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O45 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=55
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O46 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=56
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O47 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=57
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 I/O48 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=58
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 I/O49 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=59
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O50 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=61
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O51 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=62
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O52 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=63
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O53 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=64
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O54 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=65
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O55 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=66
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 147 322 hrn 100 I/O56 n 160 320 u
+a 0 u 1 0 155 318 hln 100 PIN=67
+a 0 u 0 0 160 320 hln 100 ERC=b
+a 0 u 0 0 160 320 hln 100 FLOAT=n
+p 2 147 332 hrn 100 I/O57 n 160 330 u
+a 0 u 1 0 155 328 hln 100 PIN=68
+a 0 u 0 0 160 330 hln 100 ERC=b
+a 0 u 0 0 160 330 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=18
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=52
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 350 0 20 10
+r 0 10 10 150 340
+*symbol XC2018L-10PC84C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 106 440 hln 100 PART=XC2018L-10PC84C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=74
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=12
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=32
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=54
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=55
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=2
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=3
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=4
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=5
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=6
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=7
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=8
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=9
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=10
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=11
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=13
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=14
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=15
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=16
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=17
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=18
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=19
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=20
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=21
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=23
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=24
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=25
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=26
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=27
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=28
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 13 322 hln 100 I/O25 n 0 320 h
+a 0 u 1 0 5 318 hrn 100 PIN=29
+a 0 u 0 0 0 320 hln 100 ERC=b
+a 0 u 0 0 0 320 hln 100 FLOAT=n
+p 2 13 332 hln 100 I/O26 n 0 330 h
+a 0 u 1 0 5 328 hrn 100 PIN=30
+a 0 u 0 0 0 330 hln 100 ERC=b
+a 0 u 0 0 0 330 hln 100 FLOAT=n
+p 2 13 342 hln 100 I/O27 n 0 340 h
+a 0 u 1 0 5 338 hrn 100 PIN=33
+a 0 u 0 0 0 340 hln 100 ERC=b
+a 0 u 0 0 0 340 hln 100 FLOAT=n
+p 2 13 352 hln 100 I/O28 n 0 350 h
+a 0 u 1 0 5 348 hrn 100 PIN=34
+a 0 u 0 0 0 350 hln 100 ERC=b
+a 0 u 0 0 0 350 hln 100 FLOAT=n
+p 2 13 362 hln 100 I/O29 n 0 360 h
+a 0 u 1 0 5 358 hrn 100 PIN=35
+a 0 u 0 0 0 360 hln 100 ERC=b
+a 0 u 0 0 0 360 hln 100 FLOAT=n
+p 2 13 372 hln 100 I/O30 n 0 370 h
+a 0 u 1 0 5 368 hrn 100 PIN=36
+a 0 u 0 0 0 370 hln 100 ERC=b
+a 0 u 0 0 0 370 hln 100 FLOAT=n
+p 2 13 382 hln 100 I/O31 n 0 380 h
+a 0 u 1 0 5 378 hrn 100 PIN=37
+a 0 u 0 0 0 380 hln 100 ERC=b
+a 0 u 0 0 0 380 hln 100 FLOAT=n
+p 2 13 392 hln 100 I/O32 n 0 390 h
+a 0 u 1 0 5 388 hrn 100 PIN=38
+a 0 u 0 0 0 390 hln 100 ERC=b
+a 0 u 0 0 0 390 hln 100 FLOAT=n
+p 2 13 402 hln 100 I/O33 n 0 400 h
+a 0 u 1 0 5 398 hrn 100 PIN=39
+a 0 u 0 0 0 400 hln 100 ERC=b
+a 0 u 0 0 0 400 hln 100 FLOAT=n
+p 2 13 412 hln 100 I/O34 n 0 410 h
+a 0 u 1 0 5 408 hrn 100 PIN=40
+a 0 u 0 0 0 410 hln 100 ERC=b
+a 0 u 0 0 0 410 hln 100 FLOAT=n
+p 2 48 417 drn 100 GND0 n 50 430 v
+a 0 u 1 0 52 425 dln 100 PIN=1
+a 0 u 0 0 50 430 hln 100 ERC=p
+a 0 u 0 0 50 430 hln 100 FLOAT=n
+p 2 88 417 drn 100 GND1 n 90 430 v
+a 0 u 1 0 92 425 dln 100 PIN=43
+a 0 u 0 0 90 430 hln 100 ERC=p
+a 0 u 0 0 90 430 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ n 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=31
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O35 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=41
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O36 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=42
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O37 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=44
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O38 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=45
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O39 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=46
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O40 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=47
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O41 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=48
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O42 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=49
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O43 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=50
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 I/O44 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=51
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 I/O45 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=52
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 (XTL2)I/O46 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=53
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 (XTL1)I/O47 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=56
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O48 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=57
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O49 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=58
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 I/O50 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=59
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 I/O51 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=60
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O52 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=61
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O53 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=62
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O54 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=63
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O55 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=65
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 I/O56 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=66
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 I/O57 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=67
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O58 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=68
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O59 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=69
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O60 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=70
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O61 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=71
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O62 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=72
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O63 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=73
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 147 322 hrn 100 I/O64 n 160 320 u
+a 0 u 1 0 155 318 hln 100 PIN=75
+a 0 u 0 0 160 320 hln 100 ERC=b
+a 0 u 0 0 160 320 hln 100 FLOAT=n
+p 2 147 332 hrn 100 I/O65 n 160 330 u
+a 0 u 1 0 155 328 hln 100 PIN=76
+a 0 u 0 0 160 330 hln 100 ERC=b
+a 0 u 0 0 160 330 hln 100 FLOAT=n
+p 2 147 342 hrn 100 I/O66 n 160 340 u
+a 0 u 1 0 155 338 hln 100 PIN=77
+a 0 u 0 0 160 340 hln 100 ERC=b
+a 0 u 0 0 160 340 hln 100 FLOAT=n
+p 2 147 352 hrn 100 I/O67 n 160 350 u
+a 0 u 1 0 155 348 hln 100 PIN=78
+a 0 u 0 0 160 350 hln 100 ERC=b
+a 0 u 0 0 160 350 hln 100 FLOAT=n
+p 2 147 362 hrn 100 I/O68 n 160 360 u
+a 0 u 1 0 155 358 hln 100 PIN=79
+a 0 u 0 0 160 360 hln 100 ERC=b
+a 0 u 0 0 160 360 hln 100 FLOAT=n
+p 2 147 372 hrn 100 I/O69 n 160 370 u
+a 0 u 1 0 155 368 hln 100 PIN=80
+a 0 u 0 0 160 370 hln 100 ERC=b
+a 0 u 0 0 160 370 hln 100 FLOAT=n
+p 2 147 382 hrn 100 I/O70 n 160 380 u
+a 0 u 1 0 155 378 hln 100 PIN=81
+a 0 u 0 0 160 380 hln 100 ERC=b
+a 0 u 0 0 160 380 hln 100 FLOAT=n
+p 2 147 392 hrn 100 I/O71 n 160 390 u
+a 0 u 1 0 155 388 hln 100 PIN=82
+a 0 u 0 0 160 390 hln 100 ERC=b
+a 0 u 0 0 160 390 hln 100 FLOAT=n
+p 2 147 402 hrn 100 I/O72 n 160 400 u
+a 0 u 1 0 155 398 hln 100 PIN=83
+a 0 u 0 0 160 400 hln 100 ERC=b
+a 0 u 0 0 160 400 hln 100 FLOAT=n
+p 2 147 412 hrn 100 I/O73 n 160 410 u
+a 0 u 1 0 155 408 hln 100 PIN=84
+a 0 u 0 0 160 410 hln 100 ERC=b
+a 0 u 0 0 160 410 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=22
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=64
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 430 0 20 10
+r 0 10 10 150 420
+*symbol XC2018L-10VQ100C
+d Logic Cell Array
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 106 440 hln 100 PART=XC2018L-10VQ100C
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND0)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(GND1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VCC0)=$G_DPWR
+@pins
+p 2 13 22 hln 100 CCLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=99
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 \PWRDWN\ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=26
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 RTRIG n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=51
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 \RESET\ n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=75
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 13 62 hln 100 \PROG\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 PIN=77
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 13 72 hln 100 I/O0 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 PIN=2
+a 0 u 0 0 0 70 hln 100 ERC=b
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 13 82 hln 100 I/O1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 PIN=3
+a 0 u 0 0 0 80 hln 100 ERC=b
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 13 92 hln 100 I/O2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 PIN=5
+a 0 u 0 0 0 90 hln 100 ERC=b
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 13 102 hln 100 I/O3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 PIN=6
+a 0 u 0 0 0 100 hln 100 ERC=b
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 13 112 hln 100 I/O4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 PIN=7
+a 0 u 0 0 0 110 hln 100 ERC=b
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 13 122 hln 100 I/O5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 PIN=8
+a 0 u 0 0 0 120 hln 100 ERC=b
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 13 132 hln 100 I/O6 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 PIN=9
+a 0 u 0 0 0 130 hln 100 ERC=b
+a 0 u 0 0 0 130 hln 100 FLOAT=n
+p 2 13 142 hln 100 I/O7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 PIN=10
+a 0 u 0 0 0 140 hln 100 ERC=b
+a 0 u 0 0 0 140 hln 100 FLOAT=n
+p 2 13 152 hln 100 I/O8 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 PIN=11
+a 0 u 0 0 0 150 hln 100 ERC=b
+a 0 u 0 0 0 150 hln 100 FLOAT=n
+p 2 13 162 hln 100 I/O9 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 PIN=12
+a 0 u 0 0 0 160 hln 100 ERC=b
+a 0 u 0 0 0 160 hln 100 FLOAT=n
+p 2 13 172 hln 100 I/O10 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 PIN=14
+a 0 u 0 0 0 170 hln 100 ERC=b
+a 0 u 0 0 0 170 hln 100 FLOAT=n
+p 2 13 182 hln 100 I/O11 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 PIN=15
+a 0 u 0 0 0 180 hln 100 ERC=b
+a 0 u 0 0 0 180 hln 100 FLOAT=n
+p 2 13 192 hln 100 I/O12 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 PIN=16
+a 0 u 0 0 0 190 hln 100 ERC=b
+a 0 u 0 0 0 190 hln 100 FLOAT=n
+p 2 13 202 hln 100 I/O13 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 PIN=17
+a 0 u 0 0 0 200 hln 100 ERC=b
+a 0 u 0 0 0 200 hln 100 FLOAT=n
+p 2 13 212 hln 100 I/O14 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 PIN=18
+a 0 u 0 0 0 210 hln 100 ERC=b
+a 0 u 0 0 0 210 hln 100 FLOAT=n
+p 2 13 222 hln 100 I/O15 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 PIN=19
+a 0 u 0 0 0 220 hln 100 ERC=b
+a 0 u 0 0 0 220 hln 100 FLOAT=n
+p 2 13 232 hln 100 I/O16 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 PIN=20
+a 0 u 0 0 0 230 hln 100 ERC=b
+a 0 u 0 0 0 230 hln 100 FLOAT=n
+p 2 13 242 hln 100 I/O17 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 PIN=21
+a 0 u 0 0 0 240 hln 100 ERC=b
+a 0 u 0 0 0 240 hln 100 FLOAT=n
+p 2 13 252 hln 100 I/O18 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 PIN=22
+a 0 u 0 0 0 250 hln 100 ERC=b
+a 0 u 0 0 0 250 hln 100 FLOAT=n
+p 2 13 262 hln 100 I/O19 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 PIN=23
+a 0 u 0 0 0 260 hln 100 ERC=b
+a 0 u 0 0 0 260 hln 100 FLOAT=n
+p 2 13 272 hln 100 I/O20 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 PIN=27
+a 0 u 0 0 0 270 hln 100 ERC=b
+a 0 u 0 0 0 270 hln 100 FLOAT=n
+p 2 13 282 hln 100 I/O21 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 PIN=29
+a 0 u 0 0 0 280 hln 100 ERC=b
+a 0 u 0 0 0 280 hln 100 FLOAT=n
+p 2 13 292 hln 100 I/O22 n 0 290 h
+a 0 u 1 0 5 288 hrn 100 PIN=30
+a 0 u 0 0 0 290 hln 100 ERC=b
+a 0 u 0 0 0 290 hln 100 FLOAT=n
+p 2 13 302 hln 100 I/O23 n 0 300 h
+a 0 u 1 0 5 298 hrn 100 PIN=32
+a 0 u 0 0 0 300 hln 100 ERC=b
+a 0 u 0 0 0 300 hln 100 FLOAT=n
+p 2 13 312 hln 100 I/O24 n 0 310 h
+a 0 u 1 0 5 308 hrn 100 PIN=33
+a 0 u 0 0 0 310 hln 100 ERC=b
+a 0 u 0 0 0 310 hln 100 FLOAT=n
+p 2 13 322 hln 100 I/O25 n 0 320 h
+a 0 u 1 0 5 318 hrn 100 PIN=34
+a 0 u 0 0 0 320 hln 100 ERC=b
+a 0 u 0 0 0 320 hln 100 FLOAT=n
+p 2 13 332 hln 100 I/O26 n 0 330 h
+a 0 u 1 0 5 328 hrn 100 PIN=35
+a 0 u 0 0 0 330 hln 100 ERC=b
+a 0 u 0 0 0 330 hln 100 FLOAT=n
+p 2 13 342 hln 100 I/O27 n 0 340 h
+a 0 u 1 0 5 338 hrn 100 PIN=36
+a 0 u 0 0 0 340 hln 100 ERC=b
+a 0 u 0 0 0 340 hln 100 FLOAT=n
+p 2 13 352 hln 100 I/O28 n 0 350 h
+a 0 u 1 0 5 348 hrn 100 PIN=37
+a 0 u 0 0 0 350 hln 100 ERC=b
+a 0 u 0 0 0 350 hln 100 FLOAT=n
+p 2 13 362 hln 100 I/O29 n 0 360 h
+a 0 u 1 0 5 358 hrn 100 PIN=39
+a 0 u 0 0 0 360 hln 100 ERC=b
+a 0 u 0 0 0 360 hln 100 FLOAT=n
+p 2 13 372 hln 100 I/O30 n 0 370 h
+a 0 u 1 0 5 368 hrn 100 PIN=40
+a 0 u 0 0 0 370 hln 100 ERC=b
+a 0 u 0 0 0 370 hln 100 FLOAT=n
+p 2 13 382 hln 100 I/O31 n 0 380 h
+a 0 u 1 0 5 378 hrn 100 PIN=41
+a 0 u 0 0 0 380 hln 100 ERC=b
+a 0 u 0 0 0 380 hln 100 FLOAT=n
+p 2 13 392 hln 100 I/O32 n 0 390 h
+a 0 u 1 0 5 388 hrn 100 PIN=42
+a 0 u 0 0 0 390 hln 100 ERC=b
+a 0 u 0 0 0 390 hln 100 FLOAT=n
+p 2 13 402 hln 100 I/O33 n 0 400 h
+a 0 u 1 0 5 398 hrn 100 PIN=43
+a 0 u 0 0 0 400 hln 100 ERC=b
+a 0 u 0 0 0 400 hln 100 FLOAT=n
+p 2 13 412 hln 100 I/O34 n 0 410 h
+a 0 u 1 0 5 408 hrn 100 PIN=45
+a 0 u 0 0 0 410 hln 100 ERC=b
+a 0 u 0 0 0 410 hln 100 FLOAT=n
+p 2 48 417 drn 100 GND0 n 50 430 v
+a 0 u 1 0 52 425 dln 100 PIN=13
+a 0 u 0 0 50 430 hln 100 ERC=p
+a 0 u 0 0 50 430 hln 100 FLOAT=n
+p 2 88 417 drn 100 GND1 n 90 430 v
+a 0 u 1 0 92 425 dln 100 PIN=63
+a 0 u 0 0 90 430 hln 100 ERC=p
+a 0 u 0 0 90 430 hln 100 FLOAT=n
+p 2 147 22 hrn 100 \RDATA\ n 160 20 u
+a 0 u 1 0 155 18 hln 100 PIN=49
+a 0 u 0 0 160 20 hln 100 ERC=o
+a 0 u 0 0 160 20 hln 100 FLOAT=n
+p 2 147 32 hrn 100 I/O35 n 160 30 u
+a 0 u 1 0 155 28 hln 100 PIN=47
+a 0 u 0 0 160 30 hln 100 ERC=b
+a 0 u 0 0 160 30 hln 100 FLOAT=n
+p 2 147 42 hrn 100 I/O36 n 160 40 u
+a 0 u 1 0 155 38 hln 100 PIN=48
+a 0 u 0 0 160 40 hln 100 ERC=b
+a 0 u 0 0 160 40 hln 100 FLOAT=n
+p 2 147 52 hrn 100 I/O37 n 160 50 u
+a 0 u 1 0 155 48 hln 100 PIN=53
+a 0 u 0 0 160 50 hln 100 ERC=b
+a 0 u 0 0 160 50 hln 100 FLOAT=n
+p 2 147 62 hrn 100 I/O38 n 160 60 u
+a 0 u 1 0 155 58 hln 100 PIN=54
+a 0 u 0 0 160 60 hln 100 ERC=b
+a 0 u 0 0 160 60 hln 100 FLOAT=n
+p 2 147 72 hrn 100 I/O39 n 160 70 u
+a 0 u 1 0 155 68 hln 100 PIN=55
+a 0 u 0 0 160 70 hln 100 ERC=b
+a 0 u 0 0 160 70 hln 100 FLOAT=n
+p 2 147 82 hrn 100 I/O40 n 160 80 u
+a 0 u 1 0 155 78 hln 100 PIN=56
+a 0 u 0 0 160 80 hln 100 ERC=b
+a 0 u 0 0 160 80 hln 100 FLOAT=n
+p 2 147 92 hrn 100 I/O41 n 160 90 u
+a 0 u 1 0 155 88 hln 100 PIN=57
+a 0 u 0 0 160 90 hln 100 ERC=b
+a 0 u 0 0 160 90 hln 100 FLOAT=n
+p 2 147 102 hrn 100 I/O42 n 160 100 u
+a 0 u 1 0 155 98 hln 100 PIN=58
+a 0 u 0 0 160 100 hln 100 ERC=b
+a 0 u 0 0 160 100 hln 100 FLOAT=n
+p 2 147 112 hrn 100 I/O43 n 160 110 u
+a 0 u 1 0 155 108 hln 100 PIN=59
+a 0 u 0 0 160 110 hln 100 ERC=b
+a 0 u 0 0 160 110 hln 100 FLOAT=n
+p 2 147 122 hrn 100 I/O44 n 160 120 u
+a 0 u 1 0 155 118 hln 100 PIN=60
+a 0 u 0 0 160 120 hln 100 ERC=b
+a 0 u 0 0 160 120 hln 100 FLOAT=n
+p 2 147 132 hrn 100 I/O45 n 160 130 u
+a 0 u 1 0 155 128 hln 100 PIN=61
+a 0 u 0 0 160 130 hln 100 ERC=b
+a 0 u 0 0 160 130 hln 100 FLOAT=n
+p 2 147 142 hrn 100 I/O46 n 160 140 u
+a 0 u 1 0 155 138 hln 100 PIN=62
+a 0 u 0 0 160 140 hln 100 ERC=b
+a 0 u 0 0 160 140 hln 100 FLOAT=n
+p 2 147 152 hrn 100 I/O47 n 160 150 u
+a 0 u 1 0 155 148 hln 100 PIN=64
+a 0 u 0 0 160 150 hln 100 ERC=b
+a 0 u 0 0 160 150 hln 100 FLOAT=n
+p 2 147 162 hrn 100 I/O48 n 160 160 u
+a 0 u 1 0 155 158 hln 100 PIN=65
+a 0 u 0 0 160 160 hln 100 ERC=b
+a 0 u 0 0 160 160 hln 100 FLOAT=n
+p 2 147 172 hrn 100 I/O49 n 160 170 u
+a 0 u 1 0 155 168 hln 100 PIN=66
+a 0 u 0 0 160 170 hln 100 ERC=b
+a 0 u 0 0 160 170 hln 100 FLOAT=n
+p 2 147 182 hrn 100 I/O50 n 160 180 u
+a 0 u 1 0 155 178 hln 100 PIN=67
+a 0 u 0 0 160 180 hln 100 ERC=b
+a 0 u 0 0 160 180 hln 100 FLOAT=n
+p 2 147 192 hrn 100 I/O51 n 160 190 u
+a 0 u 1 0 155 188 hln 100 PIN=68
+a 0 u 0 0 160 190 hln 100 ERC=b
+a 0 u 0 0 160 190 hln 100 FLOAT=n
+p 2 147 202 hrn 100 I/O52 n 160 200 u
+a 0 u 1 0 155 198 hln 100 PIN=69
+a 0 u 0 0 160 200 hln 100 ERC=b
+a 0 u 0 0 160 200 hln 100 FLOAT=n
+p 2 147 212 hrn 100 I/O53 n 160 210 u
+a 0 u 1 0 155 208 hln 100 PIN=70
+a 0 u 0 0 160 210 hln 100 ERC=b
+a 0 u 0 0 160 210 hln 100 FLOAT=n
+p 2 147 222 hrn 100 I/O54 n 160 220 u
+a 0 u 1 0 155 218 hln 100 PIN=71
+a 0 u 0 0 160 220 hln 100 ERC=b
+a 0 u 0 0 160 220 hln 100 FLOAT=n
+p 2 147 232 hrn 100 I/O55 n 160 230 u
+a 0 u 1 0 155 228 hln 100 PIN=72
+a 0 u 0 0 160 230 hln 100 ERC=b
+a 0 u 0 0 160 230 hln 100 FLOAT=n
+p 2 147 242 hrn 100 (XTL2)I/O56 n 160 240 u
+a 0 u 1 0 155 238 hln 100 PIN=73
+a 0 u 0 0 160 240 hln 100 ERC=b
+a 0 u 0 0 160 240 hln 100 FLOAT=n
+p 2 147 252 hrn 100 (XTL1)I/O57 n 160 250 u
+a 0 u 1 0 155 248 hln 100 PIN=78
+a 0 u 0 0 160 250 hln 100 ERC=b
+a 0 u 0 0 160 250 hln 100 FLOAT=n
+p 2 147 262 hrn 100 I/O58 n 160 260 u
+a 0 u 1 0 155 258 hln 100 PIN=79
+a 0 u 0 0 160 260 hln 100 ERC=b
+a 0 u 0 0 160 260 hln 100 FLOAT=n
+p 2 147 272 hrn 100 I/O59 n 160 270 u
+a 0 u 1 0 155 268 hln 100 PIN=80
+a 0 u 0 0 160 270 hln 100 ERC=b
+a 0 u 0 0 160 270 hln 100 FLOAT=n
+p 2 147 282 hrn 100 I/O60 n 160 280 u
+a 0 u 1 0 155 278 hln 100 PIN=82
+a 0 u 0 0 160 280 hln 100 ERC=b
+a 0 u 0 0 160 280 hln 100 FLOAT=n
+p 2 147 292 hrn 100 I/O61 n 160 290 u
+a 0 u 1 0 155 288 hln 100 PIN=84
+a 0 u 0 0 160 290 hln 100 ERC=b
+a 0 u 0 0 160 290 hln 100 FLOAT=n
+p 2 147 302 hrn 100 I/O62 n 160 300 u
+a 0 u 1 0 155 298 hln 100 PIN=85
+a 0 u 0 0 160 300 hln 100 ERC=b
+a 0 u 0 0 160 300 hln 100 FLOAT=n
+p 2 147 312 hrn 100 I/O63 n 160 310 u
+a 0 u 1 0 155 308 hln 100 PIN=86
+a 0 u 0 0 160 310 hln 100 ERC=b
+a 0 u 0 0 160 310 hln 100 FLOAT=n
+p 2 147 322 hrn 100 I/O64 n 160 320 u
+a 0 u 1 0 155 318 hln 100 PIN=87
+a 0 u 0 0 160 320 hln 100 ERC=b
+a 0 u 0 0 160 320 hln 100 FLOAT=n
+p 2 147 332 hrn 100 I/O65 n 160 330 u
+a 0 u 1 0 155 328 hln 100 PIN=89
+a 0 u 0 0 160 330 hln 100 ERC=b
+a 0 u 0 0 160 330 hln 100 FLOAT=n
+p 2 147 342 hrn 100 I/O66 n 160 340 u
+a 0 u 1 0 155 338 hln 100 PIN=90
+a 0 u 0 0 160 340 hln 100 ERC=b
+a 0 u 0 0 160 340 hln 100 FLOAT=n
+p 2 147 352 hrn 100 I/O67 n 160 350 u
+a 0 u 1 0 155 348 hln 100 PIN=91
+a 0 u 0 0 160 350 hln 100 ERC=b
+a 0 u 0 0 160 350 hln 100 FLOAT=n
+p 2 147 362 hrn 100 I/O68 n 160 360 u
+a 0 u 1 0 155 358 hln 100 PIN=92
+a 0 u 0 0 160 360 hln 100 ERC=b
+a 0 u 0 0 160 360 hln 100 FLOAT=n
+p 2 147 372 hrn 100 I/O69 n 160 370 u
+a 0 u 1 0 155 368 hln 100 PIN=93
+a 0 u 0 0 160 370 hln 100 ERC=b
+a 0 u 0 0 160 370 hln 100 FLOAT=n
+p 2 147 382 hrn 100 I/O70 n 160 380 u
+a 0 u 1 0 155 378 hln 100 PIN=95
+a 0 u 0 0 160 380 hln 100 ERC=b
+a 0 u 0 0 160 380 hln 100 FLOAT=n
+p 2 147 392 hrn 100 I/O71 n 160 390 u
+a 0 u 1 0 155 388 hln 100 PIN=96
+a 0 u 0 0 160 390 hln 100 ERC=b
+a 0 u 0 0 160 390 hln 100 FLOAT=n
+p 2 147 402 hrn 100 I/O72 n 160 400 u
+a 0 u 1 0 155 398 hln 100 PIN=97
+a 0 u 0 0 160 400 hln 100 ERC=b
+a 0 u 0 0 160 400 hln 100 FLOAT=n
+p 2 147 412 hrn 100 I/O73 n 160 410 u
+a 0 u 1 0 155 408 hln 100 PIN=98
+a 0 u 0 0 160 410 hln 100 ERC=b
+a 0 u 0 0 160 410 hln 100 FLOAT=n
+p 2 68 13 dln 100 VCC0 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=38
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=n
+p 2 88 13 dln 100 VCC1 n 90 0 d
+a 0 u 1 0 92 5 drn 100 PIN=88
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 90 0 hln 100 FLOAT=n
+@graphics 160 430 0 20 10
+r 0 10 10 150 420

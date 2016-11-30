@@ -1,0 +1,413 @@
+*version 6.3 186099457
+u 412
+XC5200 962622292
+U? 13
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 6960 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 413 IF_IN 100 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=I6
+port 414 IF_IN 100 450 h
+a 0 s 3 0 10 8 hln 80 LABEL=I5
+port 415 IF_IN 100 570 h
+a 0 s 3 0 10 8 hln 80 LABEL=I3
+port 416 IF_IN 100 470 h
+a 0 s 3 0 10 8 hln 80 LABEL=I4
+port 417 IF_IN 100 290 h
+a 0 s 3 0 10 8 hln 80 LABEL=I9
+port 418 IF_IN 100 310 h
+a 0 s 3 0 10 8 hln 80 LABEL=I8
+port 419 IF_IN 100 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=I7
+port 420 IF_IN 100 590 h
+a 0 s 3 0 10 8 hln 80 LABEL=I2
+port 421 IF_IN 100 250 h
+a 0 s 3 0 10 8 hln 80 LABEL=I11
+port 422 IF_IN 100 270 h
+a 0 s 3 0 10 8 hln 80 LABEL=I10
+port 423 IF_IN 100 610 h
+a 0 s 3 0 10 8 hln 80 LABEL=I1
+port 424 IF_IN 100 630 h
+a 0 s 3 0 10 8 hln 80 LABEL=I0
+port 425 IF_OUT 560 160 h
+a 0 s 3 0 20 8 hln 80 LABEL=O
+@parts
+part 18 FMAP 630 570 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=FMAP
+a 0 u 13 13 20 140 hln 100 RLOC=R0C0.LC1
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 19 FMAP 630 400 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=FMAP
+a 0 u 13 13 20 140 hln 100 RLOC=R0C0.LC2
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 20 FMAP 630 240 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=FMAP
+a 0 u 13 13 20 140 hln 100 RLOC=R0C0.LC3
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 24 CY_INIT 430 740 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U4
+a 0 sp 11 0 20 71 hln 100 PART=CY_INIT
+a 0 u 13 13 20 80 hln 100 RLOC=R0C0.LC0
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 30 CY_MUX 370 600 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U5
+a 0 sp 11 0 20 32 hln 100 PART=CY_MUX
+a 0 u 13 13 80 30 hln 100 RLOC=R0C0.LC1
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 31 CY_MUX 370 440 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U6
+a 0 sp 11 0 20 32 hln 100 PART=CY_MUX
+a 0 u 13 13 80 30 hln 100 RLOC=R0C0.LC2
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 32 CY_MUX 370 280 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U7
+a 0 sp 11 0 20 32 hln 100 PART=CY_MUX
+a 0 u 13 13 80 30 hln 100 RLOC=R0C0.LC3
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 35 VCC 330 770 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U8
+a 0 sp 11 0 20 10 hcn 100 PART=VCC
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+part 38 GND 330 680 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U9
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 a 0 0 0 0 hln 100 PKGREF=U9
+part 45 NOR4 200 250 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U10
+a 0 sp 11 0 10 80 hlt 100 PART=NOR4
+a 0 a 0 0 0 0 hln 100 PKGREF=U10
+part 46 NOR4 200 410 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U11
+a 0 sp 11 0 10 80 hlt 100 PART=NOR4
+a 0 a 0 0 0 0 hln 100 PKGREF=U11
+part 47 NOR4 200 570 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U12
+a 0 sp 11 0 10 80 hlt 100 PART=NOR4
+a 0 a 0 0 0 0 hln 100 PKGREF=U12
+@conn
+w 50
+s 100 290 200 290 48
+a 0 s 3 0 110 290 hln 100 LABEL=I9
+w 51
+s 580 280 630 280 49
+a 0 s 3 0 590 280 hln 100 LABEL=I9
+w 66
+s 100 450 200 450 64
+a 0 s 3 0 110 450 hln 100 LABEL=I5
+w 67
+s 580 440 630 440 65
+a 0 s 3 0 590 440 hln 100 LABEL=I5
+w 82
+s 580 260 630 260 80
+a 0 s 3 0 590 260 hln 100 LABEL=I10
+w 83
+s 100 270 200 270 81
+a 0 s 3 0 110 270 hln 100 LABEL=I10
+w 98
+s 420 160 560 160 96
+a 0 s 3 0 540 160 hln 100 LABEL=O
+s 420 240 420 160 97
+w 114
+s 330 340 410 340 105
+s 410 340 410 310 106
+s 330 500 330 340 107
+s 330 660 330 500 108
+s 330 680 330 660 109
+s 330 660 410 660 110
+s 410 660 410 630 111
+s 330 500 410 500 112
+s 410 500 410 470 113
+w 146
+s 430 740 430 630 145
+a 0 s 3 0 430 710 hln 100 LABEL=CIN
+w 161
+s 280 440 370 440 159
+a 0 s 3 0 290 440 hln 100 LABEL=S1
+w 162
+s 750 430 800 430 160
+a 0 s 3 0 770 430 hln 100 LABEL=S1
+w 183
+s 100 410 200 410 181
+a 0 s 3 0 110 410 hln 100 LABEL=I7
+w 184
+s 580 400 630 400 182
+a 0 s 3 0 590 400 hln 100 LABEL=I7
+w 199
+s 100 430 200 430 197
+a 0 s 3 0 110 430 hln 100 LABEL=I6
+w 200
+s 580 420 630 420 198
+a 0 s 3 0 590 420 hln 100 LABEL=I6
+w 215
+s 100 470 200 470 213
+a 0 s 3 0 110 470 hln 100 LABEL=I4
+w 216
+s 580 460 630 460 214
+a 0 s 3 0 590 460 hln 100 LABEL=I4
+w 231
+s 330 790 360 790 229
+s 330 790 330 770 230
+w 246
+s 100 610 200 610 244
+a 0 s 3 0 110 610 hln 100 LABEL=I1
+s 580 610 630 610 245
+a 0 s 3 0 590 610 hln 100 LABEL=I1
+w 261
+s 100 590 200 590 259
+a 0 s 3 0 110 590 hln 100 LABEL=I2
+s 580 590 630 590 260
+a 0 s 3 0 590 590 hln 100 LABEL=I2
+w 276
+s 100 570 200 570 274
+a 0 s 3 0 110 570 hln 100 LABEL=I3
+s 580 570 630 570 275
+a 0 s 3 0 590 570 hln 100 LABEL=I3
+w 291
+s 100 630 200 630 289
+a 0 s 3 0 110 630 hln 100 LABEL=I0
+s 580 630 630 630 290
+a 0 s 3 0 590 630 hln 100 LABEL=I0
+w 306
+s 280 600 370 600 304
+a 0 s 3 0 290 600 hln 100 LABEL=S0
+s 750 600 800 600 305
+a 0 s 3 0 770 600 hln 100 LABEL=S0
+w 328
+s 430 530 430 470 325
+a 0 s 3 0 430 510 hln 100 LABEL=C0
+s 420 530 430 530 326
+s 420 560 420 530 327
+w 344
+s 430 370 430 310 341
+a 0 s 3 0 430 350 hln 100 LABEL=C1
+s 420 370 430 370 343
+s 420 400 420 370 342
+w 360
+s 750 270 800 270 358
+a 0 s 3 0 770 270 hln 100 LABEL=S2
+w 361
+s 280 280 370 280 359
+a 0 s 3 0 290 280 hln 100 LABEL=S2
+w 382
+s 580 300 630 300 380
+a 0 s 3 0 590 300 hln 100 LABEL=I8
+w 383
+s 100 310 200 310 381
+a 0 s 3 0 110 310 hln 100 LABEL=I8
+w 398
+s 580 240 630 240 396
+a 0 s 3 0 590 240 hln 100 LABEL=I11
+w 399
+s 100 250 200 250 397
+a 0 s 3 0 110 250 hln 100 LABEL=I11
+@junction
+j 200 290
++ p 45 I1
++ w 50
+j 630 280
++ p 20 I2
++ w 51
+j 200 450
++ p 46 I1
++ w 66
+j 630 440
++ p 19 I2
++ w 67
+j 630 260
++ p 20 I3
++ w 82
+j 200 270
++ p 45 I2
++ w 83
+j 420 240
++ p 32 CO
++ w 98
+j 330 500
++ w 114
++ w 114
+j 330 660
++ w 114
++ w 114
+j 410 630
++ p 30 DI
++ w 114
+j 410 470
++ p 31 DI
++ w 114
+j 410 310
++ p 32 DI
++ w 114
+j 330 680
++ p 38 GROUND
++ w 114
+j 430 740
++ p 24 COUT
++ w 146
+j 430 630
++ p 30 CI
++ w 146
+j 370 440
++ p 31 S
++ w 161
+j 280 440
++ p 46 O
++ w 161
+j 750 430
++ p 19 O
++ w 162
+j 200 410
++ p 46 I3
++ w 183
+j 630 400
++ p 19 I4
++ w 184
+j 200 430
++ p 46 I2
++ w 199
+j 630 420
++ p 19 I3
++ w 200
+j 200 470
++ p 46 I0
++ w 215
+j 630 460
++ p 19 I1
++ w 216
+j 360 790
++ p 24 INIT
++ w 231
+j 330 770
++ p 35 VCC
++ w 231
+j 200 610
++ p 47 I1
++ w 246
+j 630 610
++ p 18 I2
++ w 246
+j 200 590
++ p 47 I2
++ w 261
+j 630 590
++ p 18 I3
++ w 261
+j 200 570
++ p 47 I3
++ w 276
+j 630 570
++ p 18 I4
++ w 276
+j 200 630
++ p 47 I0
++ w 291
+j 630 630
++ p 18 I1
++ w 291
+j 370 600
++ p 30 S
++ w 306
+j 280 600
++ p 47 O
++ w 306
+j 750 600
++ p 18 O
++ w 306
+j 420 560
++ p 30 CO
++ w 328
+j 430 470
++ p 31 CI
++ w 328
+j 420 400
++ p 31 CO
++ w 344
+j 430 310
++ p 32 CI
++ w 344
+j 750 270
++ p 20 O
++ w 360
+j 370 280
++ p 32 S
++ w 361
+j 280 280
++ p 45 O
++ w 361
+j 630 300
++ p 20 I1
++ w 382
+j 200 310
++ p 45 I0
++ w 383
+j 630 240
++ p 20 I4
++ w 398
+j 200 250
++ p 45 I3
++ w 399
+j 100 430
++ s 413
++ w 199
+j 100 450
++ s 414
++ w 66
+j 100 570
++ s 415
++ w 276
+j 100 470
++ s 416
++ w 215
+j 100 290
++ s 417
++ w 50
+j 100 310
++ s 418
++ w 383
+j 100 410
++ s 419
++ w 183
+j 100 590
++ s 420
++ w 261
+j 100 250
++ s 421
++ w 399
+j 100 270
++ s 422
++ w 83
+j 100 610
++ s 423
++ w 246
+j 100 630
++ s 424
++ w 291
+j 560 160
++ s 425
++ w 98
+@attributes
+@text
+s 5 460 1050 hln 100 31ST MAY 1994
+s 5 500 1020 hln 100 12-INPUT NOR GATE
+s 5 500 1000 hln 100 XC5200 FAMILY NOR12 MACRO
+s 5 700 1070 hln 100 A
+s 5 700 1050 hln 100 1
+s 5 30 1070 hln 100 COPYRIGHT (C) 1994, XILINX INC.

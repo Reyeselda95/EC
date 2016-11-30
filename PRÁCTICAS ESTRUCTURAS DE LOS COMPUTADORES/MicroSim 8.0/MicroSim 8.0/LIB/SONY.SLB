@@ -1,0 +1,4407 @@
+*version 8.0 1908586860
+@index
+symloc CXA1096M 0 3706
+symloc CXA1096P 3706 3422
+symloc CXA1106,CXA1106M,CXA1106P 7128 2537
+symloc CXB1100Q 9665 1514
+symloc CXB1101Q 11179 1492
+symloc CXB1102Q 12671 1409
+symloc CXB1103Q 14080 1352
+symloc CXB1104Q 15432 2192
+symloc CXB1105Q 17624 3008
+symloc CXB1106Q 20632 2764
+symloc CXB1107Q 23396 2081
+symloc CXB1108Q 25477 1597
+symloc CXB1109Q 27074 3449
+symloc CXB1110Q 30523 3377
+symloc CXB1111Q 33900 2494
+symloc CXB1112Q 36394 2056
+symloc CXB1113Q 38450 2736
+symloc CXB1114Q 41186 2644
+symloc CXB1115Q 43830 4573
+symloc CXB1116Q 48403 3202
+symloc CXB1130Q 51605 4457
+symloc CXB1131Q 56062 4256
+symloc CXB1132Q 60318 4438
+symloc CXB1133Q 64756 2572
+symloc CXB1134Q 67328 2700
+symloc CXB1135Q 70028 4402
+symloc CXB1136Q 74430 4136
+symloc CXB1137Q 78566 3408
+symloc CXB1138Q 81974 3368
+symloc CXB1139Q 85342 2944
+symloc CXD1172A,CXD1172AM,CXD1172AP 88286 2373
+symloc CXD1175,CXD1175M,CXD1175P 90659 3426
+symloc CXK51256,CXK51256P-35,CXK51256P-45,CXK51256P-55 94085 3360
+symloc CXK5164,CXK5164J-25,CXK5164J-30,CXK5164J-35,CXK5164P-25,CXK5164P-30,CXK5164P-35 97445 3135
+symloc CXK54256,CXK54256P-35,CXK54256P-45,CXK54256P-55 100580 3367
+symloc CXK5465,CXK5465J-25,CXK5465J-30,CXK5465J-35,CXK5465P-25,CXK5465P-30,CXK5465P-35 103947 3272
+symloc CXK581000,CXK581000M-10L,CXK581000M-10LL,CXK581000M-12L,CXK581000M-12LL:581000 107219 155
+symloc CXK581000P-10L,CXK581000M-15LL,CXK581000M-15L:CXK581000 107374 90
+symloc CXK581000P-15LL,CXK581000P-15L,CXK581000P-12LL,CXK581000P-12L,CXK581000P-10LL:CXK581000 107464 122
+symloc CXK581001,CXK581001M-70L,CXK581001M-70LL,CXK581001M-85L,CXK581001M-85LL:581000 107586 155
+symloc CXK581001P-85LL,CXK581001P-85L,CXK581001P-70LL,CXK581001P-70L:CXK581001 107741 106
+symloc CXK5816,CXK5816M-10,CXK5816M-10L,CXK5816M-12,CXK5816M-12L,CXK5816M-15,CXK5816M-15L 107847 3402
+symloc CXK5816P-15L,CXK5816P-15,CXK5816P-12L,CXK5816P-12,CXK5816P-10L,CXK5816P-10:CXK5816 111249 115
+symloc CXK58255,CXK58255AJ-25,CXK58255AJ-30,CXK58255AP-25,CXK58255AP-30:58255 111364 146
+symloc CXK58257,CXK58257AM-10L,CXK58257AM-10LL,CXK58257AM-12L,CXK58257AM-12LL:58255 111510 152
+symloc CXK58257AP-10L,CXK58257AM-85LL,CXK58257AM-85L,CXK58257AM-70LL,CXK58257AM-70L:CXK58257 111662 119
+symloc CXK58257AP-70LL,CXK58257AP-70L,CXK58257AP-12LL,CXK58257AP-12L,CXK58257AP-10LL:CXK58257 111781 120
+symloc CXK58257ASP-12L,CXK58257ASP-10LL,CXK58257ASP-10L,CXK58257AP-85LL,CXK58257AP-85L:CXK58257 111901 122
+symloc CXK58257ASP-85LL,CXK58257ASP-85L,CXK58257ASP-70LL,CXK58257ASP-70L,CXK58257ASP-12LL:CXK58257 112023 125
+symloc CXK58258,CXK58258AJ-15,CXK58258AJ-20,CXK58258AJ-25,CXK58258AJ-35,CXK58258AP-15:58255 112148 160
+symloc CXK58258AP-25,CXK58258AP-20:CXK58258 112308 70
+symloc CXK5863,CXK5863J-25,CXK5863J-30,CXK5863J-35,CXK5863M-25,CXK5863M-30,CXK5863M-35:5863 112378 158
+symloc CXK5863P-35,CXK5863P-30,CXK5863P-25:CXK5863 112536 76
+symloc CXK5864,CXK5864BM-10L,CXK5864BM-10LL,CXK5864BM-12L,CXK5864BM-12LL,CXK5864BM-70L:5863 112612 158
+symloc CXK5864BSP-10L,CXK5864BM-70LL:CXK5864 112770 70
+symloc CXK5864BSP-70LL,CXK5864BSP-70L,CXK5864BSP-12LL,CXK5864BSP-12L,CXK5864BSP-10LL:CXK5864 112840 118
+symloc CXK5971,CXK5971J-25,CXK5971J-30,CXK5971J-35,CXK5971M-25,CXK5971M-30,CXK5971M-35 112958 3915
+symloc CXK5971P-35,CXK5971P-30,CXK5971P-25:CXK5971 116873 76
+symloc 581000 116949 4229 b
+symloc 58255 121178 3841 b
+symloc 5863 125019 3708 b
+symloc copyright 128727 575 b
+symloc CXA1260Q-Z 129302 4823
+*symbol CXA1096M
+d 8-Bit 20 MSPS Flash A/D Converter
+@type p
+@attributes
+a 0 sp 11 0 101 152 hlb 100 PART=CXA1096M
+a 0 s 9 0 0 8 hlb 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+p 2 97 42 hrn 100 D0(LSB) n 110 40 u
+a 0 u 1 0 105 38 hln 100 pin=23
+a 0 u 0 0 110 40 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 97 52 hrn 100 D1 n 110 50 u
+a 0 u 1 0 105 48 hln 100 pin=22
+a 0 u 0 0 110 50 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 97 62 hrn 100 D2 n 110 60 u
+a 0 u 1 0 105 58 hln 100 pin=21
+a 0 u 0 0 110 60 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 97 72 hrn 100 D3 n 110 70 u
+a 0 u 1 0 105 68 hln 100 pin=20
+a 0 u 0 0 110 70 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 97 82 hrn 100 D4 n 110 80 u
+a 0 u 1 0 105 78 hln 100 pin=11
+a 0 u 0 0 110 80 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 97 92 hrn 100 D5 n 110 90 u
+a 0 u 1 0 105 88 hln 100 pin=10
+a 0 u 0 0 110 90 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 97 102 hrn 100 D6 n 110 100 u
+a 0 u 1 0 105 98 hln 100 pin=9
+a 0 u 0 0 110 100 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 97 112 hrn 100 D7(MSB) n 110 110 u
+a 0 u 1 0 105 108 hln 100 pin=8
+a 0 u 0 0 110 110 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 97 122 hrn 100 OR n 110 120 u
+a 0 u 1 0 105 118 hln 100 pin=16
+a 0 u 0 0 110 120 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 66 137 hln 100 DGND n 70 150 v
+a 0 u 1 0 65 152 hcn 100 pin=12
+a 0 u 0 0 70 150 hln 100 ERC=p
+a 0 u 0 0 180 20 hln 100 float=e
+p 0 94 138 hln 100 DGND1 n 90 150 v
+a 0 u 1 0 85 152 hcn 100 pin=18
+a 0 u 0 0 90 150 hln 100 ERC=p
+a 0 u 0 0 200 20 hln 100 float=e
+p 0 36 18 hln 100 VCC1 n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=17
+a 0 u 0 0 40 0 hln 100 ERC=p
+a 0 u 0 0 -70 130 hln 100 float=e
+p 2 20 20 hln 100 VCC n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=13
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 -90 130 hln 100 float=e
+p 2 22 137 hln 100 VEE n 20 150 v
+a 0 u 1 0 15 152 hcn 100 pin=14
+a 0 u 0 0 20 150 hln 100 ERC=p
+a 0 u 0 0 130 20 hln 100 float=e
+p 0 44 138 hln 100 VEE1 n 40 150 v
+a 0 u 1 0 35 152 hcn 100 pin=15
+a 0 u 0 0 40 150 hln 100 ERC=p
+a 0 u 0 0 150 20 hln 100 float=e
+p 2 13 32 hln 100 LINV n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=19
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 130 140 hln 100 float=n
+p 2 13 42 hln 100 CLK c 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=24
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 130 150 hln 100 float=n
+p 2 13 52 hln 100 VRT n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=25
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 130 160 hln 100 float=n
+p 2 13 62 hln 100 VRTS n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=27
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 130 170 hln 100 float=n
+p 2 13 72 hln 100 VRB n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=4
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 130 180 hln 100 float=n
+p 2 13 82 hln 100 VRBS n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=2
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 130 190 hln 100 float=n
+p 2 13 92 hln 100 VRM n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=5
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 66 20 hln 100 AGND n 90 0 d
+a 0 u 1 0 95 3 hcn 100 pin=3
+a 0 u 0 0 90 0 hln 100 ERC=p
+a 0 u 0 0 -20 130 hln 100 float=e
+p 2 13 102 hln 100 VIN0 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=28
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 130 210 hln 100 float=n
+p 2 13 112 hln 100 VIN1 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=1
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 122 hln 100 MINV n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=7
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 0 60 18 hln 100 AGND1 n 70 0 d
+a 0 u 1 0 75 3 hcn 100 pin=26
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 -40 130 hln 100 float=e
+@graphics 110 150 0 30 10
+r 0 10 10 100 140
+*symbol CXA1096P
+d 8-Bit 20 MSPS Flash A/D Converter
+@type p
+@attributes
+a 0 sp 11 0 99 132 hlb 100 PART=CXA1096P
+a 0 s 9 0 0 10 hlb 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+p 2 97 32 hrn 100 D7 n 110 30 u
+a 0 s 1 0 105 28 hln 100 PIN=1
+a 0 s 0 0 110 30 hln 100 ERC=o
+a 0 s 0 0 -20 0 hln 100 FLOAT=n
+p 2 97 42 hrn 100 D6 n 110 40 u
+a 0 s 1 0 105 38 hln 100 PIN=2
+a 0 s 0 0 110 40 hln 100 ERC=o
+a 0 s 0 0 -20 0 hln 100 FLOAT=n
+p 2 97 52 hrn 100 D5 n 110 50 u
+a 0 s 1 0 105 48 hln 100 PIN=3
+a 0 s 0 0 110 50 hln 100 ERC=o
+a 0 s 0 0 -20 0 hln 100 FLOAT=n
+p 2 97 62 hrn 100 D4 n 110 60 u
+a 0 s 1 0 105 58 hln 100 PIN=4
+a 0 s 0 0 110 60 hln 100 ERC=o
+a 0 s 0 0 -20 0 hln 100 FLOAT=n
+p 2 97 72 hrn 100 D3 n 110 70 u
+a 0 s 1 0 105 68 hln 100 PIN=13
+a 0 s 0 0 110 70 hln 100 ERC=o
+a 0 s 0 0 -20 0 hln 100 FLOAT=n
+p 2 97 82 hrn 100 D2 n 110 80 u
+a 0 s 1 0 105 78 hln 100 PIN=14
+a 0 s 0 0 110 80 hln 100 ERC=o
+a 0 s 0 0 -20 0 hln 100 FLOAT=n
+p 2 97 92 hrn 100 D1 n 110 90 u
+a 0 s 1 0 105 88 hln 100 PIN=15
+a 0 s 0 0 110 90 hln 100 ERC=o
+a 0 s 0 0 -20 0 hln 100 FLOAT=n
+p 2 97 102 hrn 100 D0 n 110 100 u
+a 0 s 1 0 105 98 hln 100 PIN=16
+a 0 s 0 0 110 100 hln 100 ERC=o
+a 0 s 0 0 -20 0 hln 100 FLOAT=n
+p 2 67 117 hln 100 DGND n 70 130 v
+a 0 s 1 0 65 132 hcn 100 PIN=5
+a 0 s 0 0 70 130 hln 100 ERC=p
+a 0 s 0 0 180 0 hln 100 FLOAT=e
+p 0 94 118 hln 100 DGND1 n 90 130 v
+a 0 s 1 0 85 132 hcn 100 PIN=11
+a 0 s 0 0 90 130 hln 100 ERC=p
+a 0 s 0 0 200 0 hln 100 FLOAT=e
+p 0 36 18 hln 100 VCC1 n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=10
+a 0 s 0 0 40 0 hln 100 ERC=p
+a 0 s 0 0 -70 130 hln 100 FLOAT=e
+p 2 21 19 hln 100 VCC n 20 0 d
+a 0 s 1 0 25 3 hcn 100 PIN=6
+a 0 s 0 0 20 0 hln 100 ERC=p
+a 0 s 0 0 -90 130 hln 100 FLOAT=e
+p 2 22 117 hln 100 VEE n 20 130 v
+a 0 s 1 0 15 132 hcn 100 PIN=7
+a 0 s 0 0 20 130 hln 100 ERC=p
+a 0 s 0 0 130 0 hln 100 FLOAT=e
+p 0 34 118 hln 100 VEE1 n 30 130 v
+a 0 s 1 0 25 132 hcn 100 PIN=8
+a 0 s 0 0 30 130 hln 100 ERC=p
+a 0 s 0 0 140 0 hln 100 FLOAT=e
+p 2 13 32 hln 100 LINV n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=12
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 130 140 hln 100 FLOAT=n
+p 2 13 42 hln 100 CLK c 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=17
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 130 150 hln 100 FLOAT=n
+p 2 13 52 hln 100 VRT n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=18
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 130 160 hln 100 FLOAT=n
+p 2 13 62 hln 100 VRB n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=26
+a 0 s 0 0 0 60 hln 100 ERC=i
+a 0 s 0 0 130 170 hln 100 FLOAT=n
+p 2 13 72 hln 100 VRM n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=27
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 -40 hln 100 FLOAT=n
+p 2 67 19 hln 100 AGND n 90 0 d
+a 0 s 1 0 95 3 hcn 100 PIN=25
+a 0 s 0 0 90 0 hln 100 ERC=p
+a 0 s 0 0 -20 130 hln 100 FLOAT=e
+p 2 13 82 hln 100 VIN0 n 0 80 h
+a 0 s 1 0 5 78 hrn 100 PIN=21
+a 0 s 0 0 0 80 hln 100 ERC=i
+a 0 s 0 0 130 190 hln 100 FLOAT=n
+p 2 13 92 hln 100 VIN1 n 0 90 h
+a 0 s 1 0 5 88 hrn 100 PIN=23
+a 0 s 0 0 0 90 hln 100 ERC=i
+a 0 s 0 0 0 -20 hln 100 FLOAT=n
+p 2 13 102 hln 100 MINV n 0 100 h
+a 0 s 1 0 5 98 hrn 100 PIN=28
+a 0 s 0 0 0 100 hln 100 ERC=i
+a 0 s 0 0 0 -10 hln 100 FLOAT=n
+p 0 60 18 hln 100 AGND1 n 70 0 d
+a 0 s 1 0 75 3 hcn 100 PIN=19
+a 0 s 0 0 70 0 hln 100 ERC=p
+a 0 s 0 0 -40 130 hln 100 FLOAT=e
+p 0 44 118 hln 100 VEE2 n 40 130 v
+a 0 s 1 0 35 132 hcn 100 PIN=9
+a 0 s 0 0 40 130 hln 100 ERC=p
+a 0 s 0 0 150 0 hln 100 FLOAT=e
+@graphics 110 130 0 30 10
+r 0 10 10 100 120
+*symbol CXA1106,CXA1106M,CXA1106P
+d 8-Bit 35 MSPS High Speed D/A Converter
+@type p
+@attributes
+a 0 sp 11 0 70 150 hlb 100 PART=CXA1106
+a 0 s 9 0 0 10 hlb 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+p 2 67 72 hrn 100 VREF n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=1
+a 0 u 0 0 80 70 hln 100 ERC=o
+a 0 u 0 0 -50 40 hln 100 float=n
+p 2 67 82 hrn 100 AOUT n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=4
+a 0 u 0 0 80 80 hln 100 ERC=o
+a 0 u 0 0 -50 40 hln 100 float=n
+p 2 42 138 hln 100 DGND n 50 150 v
+a 0 u 1 0 45 152 hcn 100 pin=5
+a 0 u 0 0 50 150 hln 100 ERC=p
+a 0 u 0 0 160 20 hln 100 float=e
+p 0 64 138 hln 100 DGND1 n 60 150 v
+a 0 u 1 0 55 152 hcn 100 pin=7
+a 0 u 0 0 60 150 hln 100 ERC=p
+a 0 u 0 0 170 20 hln 100 float=e
+p 2 16 18 hln 100 VCC n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=6
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 -90 130 hln 100 float=e
+p 2 18 138 hln 100 VEE n 20 150 v
+a 0 u 1 0 15 152 hcn 100 pin=23
+a 0 u 0 0 20 150 hln 100 ERC=p
+a 0 u 0 0 130 20 hln 100 float=e
+p 2 13 52 hln 100 D7 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=10
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 130 160 hln 100 float=n
+p 2 13 62 hln 100 D6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=12
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 130 170 hln 100 float=n
+p 2 13 72 hln 100 D5 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=15
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 130 180 hln 100 float=n
+p 2 13 82 hln 100 D4 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=16
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 130 190 hln 100 float=n
+p 2 13 92 hln 100 D3 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=17
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 42 18 hln 100 AGND n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=2
+a 0 u 0 0 60 0 hln 100 ERC=p
+a 0 u 0 0 -50 130 hln 100 float=e
+p 2 13 102 hln 100 D2 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=18
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 130 210 hln 100 float=n
+p 2 13 112 hln 100 D1 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=19
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 122 hln 100 D0 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=20
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 0 40 18 hln 100 AGND1 n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=3
+a 0 u 0 0 50 0 hln 100 ERC=p
+a 0 u 0 0 -60 130 hln 100 float=e
+p 2 13 42 hln 100 CLK c 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=9
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 130 150 hln 100 float=n
+p 2 13 32 hln 100 VSET n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=24
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 130 140 hln 100 float=n
+@graphics 80 150 0 30 10
+r 0 10 10 70 140
+*symbol CXB1100Q
+d Quad 3-input OR/NOR Gate
+@type p
+@attributes
+a 0 sp 9 0 -10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 32 48 hln 100 PART=CXB1100Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=$G_ECL_100K_VCC1
+@pins
+p 0 13 12 hln 100 DA n 0 10 h
+a 0 u 1 0 3 8 hrn 100 pin=15
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 DB n 0 20 h
+a 0 u 1 0 3 18 hrn 100 pin=16
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 DC n 0 30 h
+a 0 u 1 0 3 28 hrn 100 pin=17
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 37 12 hrn 100 Q n 50 10 u
+a 0 u 1 0 45 8 hln 100 pin=14
+a 0 u 0 0 50 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 37 32 hrn 100 \Q\ b 50 30 u
+a 0 u 1 0 47 28 hln 100 pin=13
+a 0 u 0 0 50 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 8 8 hln 100 VCCA1 n 10 -10 d
+a 0 u 0 0 15 -7 hcn 100 pin=10
+a 0 u 0 0 10 -10 hln 100 ERC=p
+p 0 18 8 hln 100 VCCA2 n 20 -10 d
+a 0 u 0 0 25 -7 hcn 100 pin=22
+a 0 u 0 0 20 -10 hln 100 ERC=p
+p 0 22 38 hln 100 VEE n 20 50 v
+a 0 u 0 0 15 52 hcn 100 pin=21
+a 0 u 0 0 20 50 hln 100 ERC=p
+p 0 28 8 hln 100 VCC n 30 -10 d
+a 0 u 0 0 35 -7 hcn 100 pin=9
+a 0 u 0 0 30 -10 hln 100 ERC=p
+@graphics 50 40 0 10 10
+a 0 50 20 40 10 10 0 
+a 0 10 40 40 30 50 20 
+v 0 10 0
+0 0
+;
+v 0 10 40
+0 40
+;
+a 0 0 40 10 20 0 0 
+*symbol CXB1101Q
+d Quad 3-input AND/NAND Gate
+@type p
+@attributes
+a 0 sp 9 0 -10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 30 48 hln 100 PART=CXB1101Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=$G_ECL_100K_VCC1
+@pins
+p 0 13 12 hln 100 DA n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=15
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 DB n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=16
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 DC n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=17
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 12 hrn 100 Q n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=14
+a 0 u 0 0 60 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 \Q\ b 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=13
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 10 0 hln 100 float=n
+p 0 8 8 hln 100 VCCA1 n 10 -10 d
+a 0 u 0 0 15 -7 hcn 100 pin=10
+a 0 u 0 0 10 -10 hln 100 ERC=p
+p 0 18 8 hln 100 VCCA2 n 20 -10 d
+a 0 u 0 0 25 -7 hcn 100 pin=22
+a 0 u 0 0 20 -10 hln 100 ERC=p
+p 0 22 38 hln 100 VEE n 20 50 v
+a 0 u 0 0 15 52 hcn 100 pin=21
+a 0 u 0 0 20 50 hln 100 ERC=p
+p 0 28 8 hln 100 VCC n 30 -10 d
+a 0 u 0 0 35 -7 hcn 100 pin=9
+a 0 u 0 0 30 -10 hln 100 ERC=p
+@graphics 60 40 0 10 10
+a 0 35 40 55 20 35 0
+v 0 35 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+35 40
+;
+*symbol CXB1102Q
+d Quad 2-input Exclusive OR/NOR Gate
+@type p
+@attributes
+a 0 sp 9 0 -10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 32 48 hln 100 PART=CXB1102Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+@pins
+p 0 13 12 hln 100 DA n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=15
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 DB n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=16
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 12 hrn 100 Q n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=14
+a 0 u 0 0 60 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 \Q\ b 60 30 u
+a 0 u 1 0 58 28 hln 100 pin=13
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 10 0 hln 100 float=n
+p 0 8 8 hln 100 VCCA1 n 10 -10 d
+a 0 u 0 0 15 -7 hcn 100 pin=10
+a 0 u 0 0 10 -10 hln 100 ERC=p
+p 0 18 8 hln 100 VCCA2 n 20 -10 d
+a 0 u 0 0 25 -7 hcn 100 pin=22
+a 0 u 0 0 20 -10 hln 100 ERC=p
+p 0 22 38 hln 100 VEE n 20 50 v
+a 0 u 0 0 15 52 hcn 100 pin=21
+a 0 u 0 0 20 50 hln 100 ERC=p
+p 0 28 8 hln 100 VCC n 30 -10 d
+a 0 u 0 0 35 -7 hcn 100 pin=9
+a 0 u 0 0 30 -10 hln 100 ERC=p
+@graphics 60 40 0 10 10
+a 0 60 20 50 10 20 0 
+a 0 20 40 50 30 60 20 
+v 0 20 0
+10 0
+;
+v 0 20 40
+10 40
+;
+a 0 5 40 15 20 5 0 
+a 0 2 40 12 20 2 0 
+v 0 20 0
+5 0
+;
+v 0 20 40
+5 40
+;
+*symbol CXB1103Q
+d Quad 2-input Exclusive OR/NOR Gate
+@type p
+@attributes
+a 0 sp 9 0 -10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 32 48 hln 100 PART=CXB1103Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+@pins
+p 0 13 12 hln 100 D n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=17
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 \D\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=18
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 27 12 hrn 100 Q n 40 10 u
+a 0 u 1 0 35 8 hln 100 pin=16
+a 0 u 0 0 40 10 hln 100 ERC=o
+a 0 u 0 0 -20 0 hln 100 float=n
+p 0 27 32 hrn 100 \Q\ b 40 30 u
+a 0 u 1 0 35 38 hln 100 pin=15
+a 0 u 0 0 40 30 hln 100 ERC=o
+a 0 u 0 0 -10 0 hln 100 float=n
+p 0 8 8 hln 100 VCCA n 10 -10 d
+a 0 u 1 0 15 -7 hcn 100 pin=10
+a 0 u 0 0 10 -10 hln 100 ERC=p
+p 2 25 11 hrn 50 VBB n 40 0 u
+a 0 u 1 0 35 -2 hln 100 pin=22
+a 0 u 0 0 40 0 hln 100 ERC=o
+a 0 u 0 0 10 0 hln 100 float=n
+p 0 22 38 hln 100 VEE n 20 50 v
+a 0 u 0 0 15 52 hcn 100 pin=21
+a 0 u 0 0 20 50 hln 100 ERC=p
+p 0 18 8 hln 100 VCC n 20 -10 d
+a 0 u 0 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+@graphics 40 40 0 10 10
+v 0 10 0
+10 40
+;
+v 0 10 40
+50 20
+;
+v 0 50 20
+10 0
+;
+v 0 30 0
+24 7
+;
+*symbol CXB1104Q
+d Dual D Flip-Flop w/ Set, Reset and Diff. I/O
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 42 78 hln 100 PART=CXB1104Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=$G_ECL_100K_VCC1
+@pins
+p 2 13 22 hln 100 D n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=16
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 \D\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=17
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 C n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=20
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 \C\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=19
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 S n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=15
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 R n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=14
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 37 22 hrn 100 Q n 50 20 u
+a 0 u 1 0 45 18 hln 100 pin=12
+a 0 u 0 0 50 20 hln 100 ERC=o
+a 0 u 0 0 -30 -10 hln 100 float=n
+p 2 37 32 hrn 100 \Q\ b 50 30 u
+a 0 u 1 0 45 28 hln 100 pin=11
+a 0 u 0 0 50 30 hln 100 ERC=o
+a 0 u 0 0 -30 0 hln 100 float=n
+p 2 37 52 hrn 100 VBB n 50 50 u
+a 0 u 1 0 45 48 hln 100 pin=1
+a 0 u 0 0 50 50 hln 100 ERC=o
+a 0 u 0 0 -30 20 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA1 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 42 8 hln 100 VCCA2 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 0 12 68 hln 100 VEE n 30 80 v
+a 0 u 1 0 25 82 hcn 100 pin=21
+a 0 u 0 0 30 80 hln 100 ERC=p
+a 0 u 0 0 60 0 hln 100 float=e
+p 0 37 62 hrn 100 VBB1 n 50 60 u
+a 0 u 1 0 45 58 hln 100 pin=18
+a 0 u 0 0 50 60 hln 100 ERC=o
+a 0 u 0 0 -30 30 hln 100 float=n
+@graphics 50 70 0 10 10
+r 0 10 0 40 70
+*symbol CXB1105Q
+d Triple Fan-Out Buffer w/ Com. Enab, Diff. Output
+@type p
+@attributes
+a 0 sp 9 0 -4 -2 hln 100 REFDES=U?
+a 0 sp 11 0 46 138 hln 100 PART=CXB1105Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=$G_ECL_100K_VCC1
+@pins
+p 2 13 62 hln 100 D2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=20
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 102 hln 100 D3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=23
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 122 hln 100 \E\ b 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=24
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 22 hln 100 D1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=19
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 47 12 hrn 100 Q1A n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=17
+a 0 u 0 0 60 10 hln 100 ERC=o
+a 0 u 0 0 -20 -20 hln 100 float=n
+p 2 47 22 hrn 100 Q1B n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=15
+a 0 u 0 0 60 20 hln 100 ERC=o
+a 0 u 0 0 -20 -10 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA1 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 42 8 hln 100 VCCA2 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 0 2 128 hln 100 VEE n 20 140 v
+a 0 u 1 0 15 142 hcn 100 pin=21
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 50 60 hln 100 float=e
+p 2 47 32 hrn 100 \Q1A\ b 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=16
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 -20 0 hln 100 float=n
+p 2 47 42 hrn 100 \Q1B\ b 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=14
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 47 52 hrn 100 Q2A n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=12
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+p 2 47 62 hrn 100 Q2B n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=8
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 47 72 hrn 100 \Q2A\ b 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=11
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+p 2 47 82 hrn 100 \Q2B\ b 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=7
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 92 hrn 100 Q3A n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=5
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 2 47 102 hrn 100 Q3B n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=3
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 47 112 hrn 100 \Q3A\ b 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=4
+a 0 u 0 0 60 110 hln 100 ERC=o
+a 0 u 0 0 -20 80 hln 100 float=n
+p 2 47 122 hrn 100 \Q3B\ b 60 120 u
+a 0 u 1 0 55 118 hln 100 pin=2
+a 0 u 0 0 60 120 hln 100 ERC=o
+a 0 u 0 0 -20 90 hln 100 float=n
+@graphics 60 130 0 20 10
+r 0 10 0 50 130
+*symbol CXB1106Q
+d 4-Bit Ripple Down Counter with Enable, Reset
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 46 108 hln 100 PART=CXB1106Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA3)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=$G_ECL_100K_VCC1
+@pins
+p 2 13 42 hln 100 C n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=23
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 62 hln 100 \C\ b 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=24
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 82 hln 100 \E\ b 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=20
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 22 hln 100 R n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 47 12 hrn 100 S0 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=3
+a 0 u 0 0 60 10 hln 100 ERC=o
+a 0 u 0 0 -20 -20 hln 100 float=n
+p 2 47 22 hrn 100 Q0 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=17
+a 0 u 0 0 60 20 hln 100 ERC=o
+a 0 u 0 0 -20 -10 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA1 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 42 8 hln 100 VCCA2 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=11
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 0 2 98 hln 100 VEE n 20 110 v
+a 0 u 1 0 15 112 hcn 100 pin=21
+a 0 u 0 0 20 110 hln 100 ERC=p
+a 0 u 0 0 50 30 hln 100 float=e
+p 2 47 32 hrn 100 S1 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=4
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 -20 0 hln 100 float=n
+p 2 47 42 hrn 100 Q1 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=16
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 47 52 hrn 100 S2 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=5
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+p 2 47 62 hrn 100 Q2 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=15
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 47 72 hrn 100 S3 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=6
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+p 2 47 82 hrn 100 Q3 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=14
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 92 hrn 100 VBB n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=1
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 0 52 8 hln 100 VCCA3 n 50 -10 d
+a 0 u 1 0 55 -7 hcn 100 pin=22
+a 0 u 0 0 50 -10 hln 100 ERC=p
+a 0 u 0 0 20 70 hln 100 float=e
+@graphics 60 100 0 20 10
+r 0 10 0 50 100
+*symbol CXB1107Q
+d Decision Circuit with Differential I/O
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 46 68 hln 100 PART=CXB1107Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=$G_ECL_100K_VCC1
+@pins
+p 2 13 32 hln 100 \D\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 42 hln 100 C n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 52 hln 100 \C\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 22 hln 100 D n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 47 12 hrn 100 DOUT n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=17
+a 0 u 0 0 60 10 hln 100 ERC=o
+a 0 u 0 0 -20 -20 hln 100 float=n
+p 2 47 22 hrn 100 \DOUT\ b 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=16
+a 0 u 0 0 60 20 hln 100 ERC=o
+a 0 u 0 0 -20 -10 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA1 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 58 hln 100 VEE n 20 70 v
+a 0 u 1 0 15 72 hcn 100 pin=21
+a 0 u 0 0 20 70 hln 100 ERC=p
+a 0 u 0 0 50 -10 hln 100 float=e
+p 2 47 32 hrn 100 Q n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=15
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 -20 0 hln 100 float=n
+p 2 47 42 hrn 100 \Q\ b 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=14
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 47 52 hrn 100 VBB n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=3
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+p 0 42 8 hln 100 VCCA2 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+@graphics 60 60 0 20 10
+r 0 10 0 50 60
+*symbol CXB1108Q
+d Laser Driver
+@type p
+@attributes
+a 0 sp 9 0 2 8 hln 100 REFDES=U?
+a 0 sp 11 0 78 68 hln 100 PART=CXB1108Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+p 2 13 32 hln 100 \VIN\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=15
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 42 hln 100 AMP n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 52 hln 100 BIAS n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=9
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 22 hln 100 VIN n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=14
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 77 32 hrn 100 IOUT n 90 30 u
+a 0 u 1 0 85 28 hln 100 pin=10
+a 0 u 0 0 90 30 hln 100 ERC=o
+a 0 u 0 0 10 0 hln 100 float=n
+p 2 77 42 hrn 100 VREF n 90 40 u
+a 0 u 1 0 85 38 hln 100 pin=4
+a 0 u 0 0 90 40 hln 100 ERC=o
+a 0 u 0 0 10 10 hln 100 float=n
+p 2 26 18 hln 100 VCC1 n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=11
+a 0 u 0 0 30 0 hln 100 ERC=p
+a 0 u 0 0 0 80 hln 100 float=e
+p 0 42 18 hln 100 VCC1B n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=12
+a 0 u 0 0 40 0 hln 100 ERC=p
+a 0 u 0 0 10 80 hln 100 float=e
+p 2 48 58 hln 100 VEE n 50 70 v
+a 0 u 1 0 45 72 hcn 100 pin=1
+a 0 u 0 0 50 70 hln 100 ERC=p
+a 0 u 0 0 80 -10 hln 100 float=e
+p 2 54 18 hln 100 VCC2 n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=7
+a 0 u 0 0 60 0 hln 100 ERC=p
+a 0 u 0 0 30 80 hln 100 float=e
+p 0 42 58 hln 100 VEE1 n 60 70 v
+a 0 u 1 0 55 72 hcn 100 pin=2
+a 0 u 0 0 60 70 hln 100 ERC=p
+a 0 u 0 0 90 -10 hln 100 float=e
+@graphics 90 70 0 20 10
+r 0 10 10 80 60
+*symbol CXB1109Q
+d Quad D Flip-Flop withf Master Reset, Diff. I/O
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 58 128 hln 100 PART=CXB1109Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=$G_ECL_100K_VCC1
+@pins
+p 2 13 22 hln 100 D1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=15
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 \D2\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=18
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=17
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 \D1\ b 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=16
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 12 hrn 100 \Q1\ b 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=13
+a 0 u 0 0 70 10 hln 100 ERC=o
+a 0 u 0 0 -10 -20 hln 100 float=n
+p 2 57 22 hrn 100 Q1 n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=14
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 -10 -10 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA1 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 12 118 hln 100 VEE n 30 130 v
+a 0 u 1 0 25 132 hcn 100 pin=21
+a 0 u 0 0 30 130 hln 100 ERC=p
+a 0 u 0 0 60 50 hln 100 float=e
+p 2 57 32 hrn 100 \Q2\ b 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=11
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 -10 0 hln 100 float=n
+p 2 57 42 hrn 100 Q2 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=12
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 2 57 112 hrn 100 VBB n 70 110 u
+a 0 u 1 0 65 108 hln 100 pin=23
+a 0 u 0 0 70 110 hln 100 ERC=o
+a 0 u 0 0 -10 80 hln 100 float=n
+p 0 42 8 hln 100 VCCA2 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 13 62 hln 100 D3 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=1
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 72 hln 100 \D4\ b 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=4
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 D4 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=3
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 52 hln 100 \D3\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 102 hln 100 CA c 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=19
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 112 hln 100 CB c 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=20
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 92 hln 100 MR n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=24
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 57 52 hrn 100 \Q3\ b 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=7
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 2 57 62 hrn 100 Q3 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=8
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 -10 30 hln 100 float=n
+p 2 57 72 hrn 100 \Q4\ b 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=5
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 57 82 hrn 100 Q4 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=6
+a 0 u 0 0 70 80 hln 100 ERC=o
+a 0 u 0 0 -10 50 hln 100 float=n
+@graphics 70 120 0 10 10
+r 0 10 0 60 120
+*symbol CXB1110Q
+d 16-Line to 1-Line Data Selector/Multiplexer
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 42 218 hln 100 PART=CXB1110Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+@pins
+p 2 13 22 hln 100 S2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=23
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 S1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=22
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 S0 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=20
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 S3 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=24
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 12 208 hln 100 VEE n 30 220 v
+a 0 u 1 0 25 222 hcn 100 pin=21
+a 0 u 0 0 30 220 hln 100 ERC=p
+a 0 u 0 0 60 140 hln 100 float=e
+p 2 13 62 hln 100 I14 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=18
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 72 hln 100 I13 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=17
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 I12 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=16
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 52 hln 100 I15 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=19
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 37 102 hrn 100 Z n 50 100 u
+a 0 u 1 0 45 98 hln 100 pin=11
+a 0 u 0 0 50 100 hln 100 ERC=o
+a 0 u 0 0 -30 70 hln 100 float=n
+p 2 13 102 hln 100 I10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=14
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 112 hln 100 I9 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=13
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 122 hln 100 I8 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=12
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 92 hln 100 I11 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=15
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 142 hln 100 I6 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=7
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 13 152 hln 100 I5 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=6
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 13 162 hln 100 I4 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=5
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 13 132 hln 100 I7 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=8
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 13 182 hln 100 I2 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=3
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+p 2 13 192 hln 100 I1 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 pin=2
+a 0 u 0 0 0 190 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+p 2 13 202 hln 100 I0 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 pin=1
+a 0 u 0 0 0 200 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+p 2 13 172 hln 100 I3 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=4
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+@graphics 50 210 0 10 10
+r 0 10 0 40 210
+*symbol CXB1111Q
+d 4-Bit Look Ahead Carry Generator
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 38 108 hln 100 PART=CXB1111Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+@pins
+p 2 13 22 hln 100 P3 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=5
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 P2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 P1 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=17
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 CN n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=20
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 98 hln 100 VEE n 20 110 v
+a 0 u 1 0 15 112 hcn 100 pin=21
+a 0 u 0 0 20 110 hln 100 ERC=p
+a 0 u 0 0 50 30 hln 100 float=e
+p 2 13 62 hln 100 G3 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=4
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 72 hln 100 G2 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=2
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 G1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=16
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 52 hln 100 P0 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=15
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 57 52 hrn 100 PG n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=11
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 2 13 92 hln 100 G0 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=14
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 57 62 hrn 100 CN+2 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=7
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 -10 30 hln 100 float=n
+p 2 57 72 hrn 100 CN+4 n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=8
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 57 42 hrn 100 GG n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=12
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+@graphics 70 100 0 10 10
+r 0 10 0 60 100
+*symbol CXB1112Q
+d Phase Frequency Detector w/ Differential I/O
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 40 78 hln 100 PART=CXB1112Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=
+@pins
+p 2 13 22 hln 100 \R\ b 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 V n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=6
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 \V\ b 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 R n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 68 hln 100 VEE n 20 80 v
+a 0 u 1 0 15 82 hcn 100 pin=21
+a 0 u 0 0 20 80 hln 100 ERC=p
+a 0 u 0 0 50 0 hln 100 float=e
+p 2 37 22 hrn 100 \U\ b 50 20 u
+a 0 u 1 0 45 18 hln 100 pin=16
+a 0 u 0 0 50 20 hln 100 ERC=o
+a 0 u 0 0 -30 -10 hln 100 float=n
+p 2 37 32 hrn 100 D n 50 30 u
+a 0 u 1 0 45 28 hln 100 pin=15
+a 0 u 0 0 50 30 hln 100 ERC=o
+a 0 u 0 0 -30 0 hln 100 float=n
+p 2 37 42 hrn 100 \D\ b 50 40 u
+a 0 u 1 0 45 38 hln 100 pin=14
+a 0 u 0 0 50 40 hln 100 ERC=o
+a 0 u 0 0 -30 10 hln 100 float=n
+p 2 37 12 hrn 100 U n 50 10 u
+a 0 u 1 0 45 8 hln 100 pin=17
+a 0 u 0 0 50 10 hln 100 ERC=o
+a 0 u 0 0 -30 -20 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 37 62 hrn 100 VBB n 50 60 u
+a 0 u 1 0 45 58 hln 100 pin=4
+a 0 u 0 0 50 60 hln 100 ERC=o
+a 0 u 0 0 -30 30 hln 100 float=n
+@graphics 50 70 0 10 10
+r 0 10 0 40 70
+*symbol CXB1113Q
+d 4-Bit Multiplexer
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 36 118 hln 100 PART=CXB1113Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+@pins
+p 2 13 22 hln 100 D2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=16
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 D1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=15
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D0 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=14
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 D3 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=17
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 108 hln 100 VEE n 20 120 v
+a 0 u 1 0 15 122 hcn 100 pin=21
+a 0 u 0 0 20 120 hln 100 ERC=p
+a 0 u 0 0 50 40 hln 100 float=e
+p 2 47 42 hrn 100 \Q\ b 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=11
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 47 52 hrn 100 TRIG n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=8
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+p 2 47 62 hrn 100 \TRIG\ b 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=7
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 47 32 hrn 100 Q n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=12
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 -20 0 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 47 102 hrn 100 VBB n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=1
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 13 62 hln 100 ST n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=4
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 72 hln 100 \EL\ b 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=3
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 SIN n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=20
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 52 hln 100 LS n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 102 hln 100 \C\ b 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=24
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 92 hln 100 C c 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=23
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+@graphics 60 110 0 10 10
+r 0 10 0 50 110
+*symbol CXB1114Q
+d 4-Bit Demultiplexer
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 52 118 hln 100 PART=CXB1114Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+@pins
+p 2 13 42 hln 100 \D\ b 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=17
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 52 hln 100 ST n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=15
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 62 hln 100 C c 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=20
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 32 hln 100 D n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=16
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 108 hln 100 VEE n 20 120 v
+a 0 u 1 0 15 122 hcn 100 pin=21
+a 0 u 0 0 20 120 hln 100 ERC=p
+a 0 u 0 0 50 40 hln 100 float=e
+p 2 47 22 hrn 100 Q2 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=3
+a 0 u 0 0 60 20 hln 100 ERC=o
+a 0 u 0 0 -20 -10 hln 100 float=n
+p 2 47 32 hrn 100 Q1 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=4
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 -20 0 hln 100 float=n
+p 2 47 42 hrn 100 Q0 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=5
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 47 12 hrn 100 Q3 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=2
+a 0 u 0 0 60 10 hln 100 ERC=o
+a 0 u 0 0 -20 -20 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 47 102 hrn 100 VBB n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=18
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 13 72 hln 100 \C\ b 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=19
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 47 62 hrn 100 \SOUT\ b 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=11
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 47 72 hrn 100 TRIG n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=8
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+p 2 47 82 hrn 100 \TRIG\ b 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=7
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 52 hrn 100 SOUT n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=12
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+@graphics 60 110 0 30 10
+r 0 10 0 50 110
+*symbol CXB1115Q
+d Clock Distributor w/ Enable, 10 Diff. Outputs
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 48 238 hln 100 PART=CXB1115Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=
+a 0 u 0 0 0 0 hln 100 ipin(VCCA3)=
+@pins
+p 2 13 102 hln 100 \EN2\ b 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=16
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 112 hln 100 \EN3\ b 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=28
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 122 hln 100 C c 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=12
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 92 hln 100 \EN1\ b 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=15
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=13
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 228 hln 100 VEE n 20 240 v
+a 0 u 1 0 15 242 hcn 100 pin=29
+a 0 u 0 0 20 240 hln 100 ERC=p
+a 0 u 0 0 50 160 hln 100 float=e
+p 2 47 22 hrn 100 \Q0\ b 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=18
+a 0 u 0 0 60 20 hln 100 ERC=o
+a 0 u 0 0 -20 -10 hln 100 float=n
+p 2 47 32 hrn 100 Q1 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=19
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 -20 0 hln 100 float=n
+p 2 47 42 hrn 100 \Q1\ b 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=20
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 47 12 hrn 100 Q0 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=17
+a 0 u 0 0 60 10 hln 100 ERC=o
+a 0 u 0 0 -20 -20 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=30
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 47 222 hrn 100 VBB n 60 220 u
+a 0 u 1 0 55 218 hln 100 pin=10
+a 0 u 0 0 60 220 hln 100 ERC=o
+a 0 u 0 0 -20 190 hln 100 float=n
+p 2 13 132 hln 100 \C\ b 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=11
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 47 62 hrn 100 \Q2\ b 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=23
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 47 72 hrn 100 Q3 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=24
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+p 2 47 82 hrn 100 \Q3\ b 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=25
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 52 hrn 100 Q2 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=22
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+p 2 47 102 hrn 100 \Q4\ b 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=27
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 47 112 hrn 100 Q5 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=31
+a 0 u 0 0 60 110 hln 100 ERC=o
+a 0 u 0 0 -20 80 hln 100 float=n
+p 2 47 122 hrn 100 \Q5\ b 60 120 u
+a 0 u 1 0 55 118 hln 100 pin=32
+a 0 u 0 0 60 120 hln 100 ERC=o
+a 0 u 0 0 -20 90 hln 100 float=n
+p 2 47 92 hrn 100 Q4 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=26
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 2 47 142 hrn 100 \Q6\ b 60 140 u
+a 0 u 1 0 55 138 hln 100 pin=2
+a 0 u 0 0 60 140 hln 100 ERC=o
+a 0 u 0 0 -20 110 hln 100 float=n
+p 2 47 152 hrn 100 Q7 n 60 150 u
+a 0 u 1 0 55 148 hln 100 pin=3
+a 0 u 0 0 60 150 hln 100 ERC=o
+a 0 u 0 0 -20 120 hln 100 float=n
+p 2 47 162 hrn 100 \Q7\ b 60 160 u
+a 0 u 1 0 55 158 hln 100 pin=4
+a 0 u 0 0 60 160 hln 100 ERC=o
+a 0 u 0 0 -20 130 hln 100 float=n
+p 2 47 132 hrn 100 Q6 n 60 130 u
+a 0 u 1 0 55 128 hln 100 pin=1
+a 0 u 0 0 60 130 hln 100 ERC=o
+a 0 u 0 0 -20 100 hln 100 float=n
+p 2 47 182 hrn 100 \Q8\ b 60 180 u
+a 0 u 1 0 55 178 hln 100 pin=7
+a 0 u 0 0 60 180 hln 100 ERC=o
+a 0 u 0 0 -20 150 hln 100 float=n
+p 2 47 192 hrn 100 Q9 n 60 190 u
+a 0 u 1 0 55 188 hln 100 pin=8
+a 0 u 0 0 60 190 hln 100 ERC=o
+a 0 u 0 0 -20 160 hln 100 float=n
+p 2 47 202 hrn 100 \Q9\ b 60 200 u
+a 0 u 1 0 55 198 hln 100 pin=9
+a 0 u 0 0 60 200 hln 100 ERC=o
+a 0 u 0 0 -20 170 hln 100 float=n
+p 2 47 172 hrn 100 Q8 n 60 170 u
+a 0 u 1 0 55 168 hln 100 pin=6
+a 0 u 0 0 60 170 hln 100 ERC=o
+a 0 u 0 0 -20 140 hln 100 float=n
+p 0 10 229 hln 100 VCCA2 n 30 240 v
+a 0 u 1 0 25 242 hcn 100 pin=5
+a 0 u 0 0 30 240 hln 100 ERC=x
+p 0 42 228 hln 100 VCCA3 n 40 240 v
+a 0 u 1 0 35 242 hcn 100 pin=21
+a 0 u 0 0 40 240 hln 100 ERC=x
+@graphics 60 230 0 90 10
+r 0 10 0 50 230
+*symbol CXB1116Q
+d 4-Bit Ripple Counter with Enable and Reset
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 52 108 hln 100 PART=CXB1116Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=
+@pins
+p 2 13 52 hln 100 R n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 12 hln 100 C c 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=23
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -30 hln 100 float=n
+p 2 13 42 hln 100 \E\ b 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=20
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 98 hln 100 VEE n 20 110 v
+a 0 u 1 0 15 112 hcn 100 pin=21
+a 0 u 0 0 20 110 hln 100 ERC=p
+a 0 u 0 0 50 30 hln 100 float=e
+p 2 47 22 hrn 100 \Q3\ b 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=11
+a 0 u 0 0 60 20 hln 100 ERC=o
+a 0 u 0 0 -20 -10 hln 100 float=n
+p 2 47 32 hrn 100 Q2 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=14
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 -20 0 hln 100 float=n
+p 2 47 42 hrn 100 \Q2\ b 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=13
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 47 12 hrn 100 Q3 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=12
+a 0 u 0 0 60 10 hln 100 ERC=o
+a 0 u 0 0 -20 -20 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 47 92 hrn 100 VBB n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=1
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 2 13 22 hln 100 \C\ b 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=24
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 47 62 hrn 100 \Q1\ b 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=15
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 47 72 hrn 100 Q0 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=18
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+p 2 47 82 hrn 100 \Q0\ b 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=17
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 52 hrn 100 Q1 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=16
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+p 2 13 72 hln 100 S2 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=5
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 62 hln 100 S3 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 92 hln 100 S0 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=3
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 82 hln 100 S1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=4
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 0 42 98 hln 100 VCCA2 n 40 110 v
+a 0 u 1 0 35 112 hcn 100 pin=19
+a 0 u 0 0 40 110 hln 100 ERC=x
+@graphics 60 100 0 10 10
+r 0 10 0 50 100
+*symbol CXB1130Q
+d 9,8, Dual 4-Bit Multiplexer
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 52 190 hln 100 PART=CXB1130Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=$G_ECL_100K_VCC1
+@pins
+p 2 13 12 hln 100 D8 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=25
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 162 hln 100 CIN c 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=28
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=13
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 12 178 hln 100 VEE n 30 190 v
+a 0 u 1 0 25 192 hcn 100 pin=29
+a 0 u 0 0 30 190 hln 100 ERC=p
+a 0 u 0 0 60 110 hln 100 float=e
+p 2 57 52 hrn 100 \QA\ b 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=6
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 2 57 62 hrn 100 QB n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=3
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 -10 30 hln 100 float=n
+p 2 57 72 hrn 100 \QB\ b 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=4
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 57 42 hrn 100 QA n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=5
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=30
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 57 122 hrn 100 LD n 70 120 u
+a 0 u 1 0 65 118 hln 100 pin=16
+a 0 u 0 0 70 120 hln 100 ERC=o
+a 0 u 0 0 -10 90 hln 100 float=n
+p 2 13 172 hln 100 \CIN\ b 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=27
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+p 2 57 102 hrn 100 COUT n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=2
+a 0 u 0 0 70 100 hln 100 ERC=o
+a 0 u 0 0 -10 70 hln 100 float=n
+p 2 57 112 hrn 100 \COUT\ b 70 110 u
+a 0 u 1 0 65 108 hln 100 pin=1
+a 0 u 0 0 70 110 hln 100 ERC=o
+a 0 u 0 0 -10 80 hln 100 float=n
+p 2 57 132 hrn 100 \LD\ b 70 130 u
+a 0 u 1 0 65 128 hln 100 pin=15
+a 0 u 0 0 70 130 hln 100 ERC=o
+a 0 u 0 0 -10 100 hln 100 float=n
+p 2 57 92 hrn 100 TRIG n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=7
+a 0 u 0 0 70 90 hln 100 ERC=o
+a 0 u 0 0 -10 60 hln 100 float=n
+p 2 13 32 hln 100 D6 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=23
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 22 hln 100 D7 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=24
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 52 hln 100 D4 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=21
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 42 hln 100 D5 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=22
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 62 hln 100 D3 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=20
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 D1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=18
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 72 hln 100 D2 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=19
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 102 hln 100 S2 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=32
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 92 hln 100 D0 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=17
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 112 hln 100 S1 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=31
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 132 hln 100 ST n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=10
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 122 hln 100 LS n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=11
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 142 hln 100 EL n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=12
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 2 13 152 hln 100 SIN n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=8
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 0 52 8 hln 100 VCCA2 n 50 -10 d
+a 0 u 1 0 55 -7 hcn 100 pin=9
+a 0 u 0 0 50 -10 hln 100 ERC=p
+a 0 u 0 0 20 70 hln 100 float=e
+p 2 57 152 hrn 100 VBB n 70 150 u
+a 0 u 1 0 65 148 hln 100 pin=26
+a 0 u 0 0 70 150 hln 100 ERC=o
+a 0 u 0 0 -10 120 hln 100 float=n
+@graphics 70 180 0 10 10
+r 0 10 0 60 180
+*symbol CXB1131Q
+d 9,8, Dual 4-Bit Demultiplexer
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 50 168 hln 100 PART=CXB1131Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+@pins
+p 2 13 52 hln 100 \DB\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=20
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 72 hln 100 S1 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=31
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 122 hln 100 C c 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=28
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 42 hln 100 DB n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=21
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=13
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 158 hln 100 VEE n 20 170 v
+a 0 u 1 0 15 172 hcn 100 pin=29
+a 0 u 0 0 20 170 hln 100 ERC=p
+a 0 u 0 0 50 90 hln 100 float=e
+p 2 57 22 hrn 100 Q7 n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=2
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 -10 -10 hln 100 float=n
+p 2 57 32 hrn 100 Q6 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=3
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 -10 0 hln 100 float=n
+p 2 57 42 hrn 100 Q5 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=4
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 2 57 12 hrn 100 Q8 n 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=1
+a 0 u 0 0 70 10 hln 100 ERC=o
+a 0 u 0 0 -10 -20 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=17
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 57 152 hrn 100 VBB n 70 150 u
+a 0 u 1 0 65 148 hln 100 pin=26
+a 0 u 0 0 70 150 hln 100 ERC=o
+a 0 u 0 0 -10 120 hln 100 float=n
+p 2 13 132 hln 100 \C\ b 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=27
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 57 62 hrn 100 Q3 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=6
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 -10 30 hln 100 float=n
+p 2 57 72 hrn 100 Q2 n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=7
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 57 82 hrn 100 Q1 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=8
+a 0 u 0 0 70 80 hln 100 ERC=o
+a 0 u 0 0 -10 50 hln 100 float=n
+p 2 57 52 hrn 100 Q4 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=5
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 2 57 122 hrn 100 TRIG n 70 120 u
+a 0 u 1 0 65 118 hln 100 pin=19
+a 0 u 0 0 70 120 hln 100 ERC=o
+a 0 u 0 0 -10 90 hln 100 float=n
+p 2 57 132 hrn 100 LD n 70 130 u
+a 0 u 1 0 65 128 hln 100 pin=16
+a 0 u 0 0 70 130 hln 100 ERC=o
+a 0 u 0 0 -10 100 hln 100 float=n
+p 2 57 142 hrn 100 \LD\ b 70 140 u
+a 0 u 1 0 65 138 hln 100 pin=15
+a 0 u 0 0 70 140 hln 100 ERC=o
+a 0 u 0 0 -10 110 hln 100 float=n
+p 2 57 112 hrn 100 SOUT n 70 110 u
+a 0 u 1 0 65 108 hln 100 pin=18
+a 0 u 0 0 70 110 hln 100 ERC=o
+a 0 u 0 0 -10 80 hln 100 float=n
+p 2 13 32 hln 100 \DA\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=22
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 22 hln 100 DA n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=23
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 62 hln 100 S2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=32
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 82 hln 100 LS n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=11
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 92 hln 100 ST n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 102 hln 100 EL n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=12
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 57 92 hrn 100 Q0 n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=9
+a 0 u 0 0 70 90 hln 100 ERC=o
+a 0 u 0 0 -10 60 hln 100 float=n
+p 0 52 8 hln 100 VCCA2 n 50 -10 d
+a 0 u 1 0 55 -7 hcn 100 pin=30
+a 0 u 0 0 50 -10 hln 100 ERC=p
+a 0 u 0 0 20 70 hln 100 float=e
+@graphics 70 160 0 20 10
+r 0 10 0 60 160
+*symbol CXB1132Q
+d 9,8, Dual 4-Bit Universal Shift Register
+@type p
+@attributes
+a 0 sp 9 0 0 8 hln 100 REFDES=U?
+a 0 sp 11 0 46 246 hln 100 PART=CXB1132Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+@pins
+p 2 13 52 hln 100 D7 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=18
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 202 hln 100 C c 0 200 h
+a 0 u 1 0 5 198 hrn 100 pin=28
+a 0 u 0 0 0 200 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+p 0 22 18 hln 100 VCC n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=13
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 -10 80 hln 100 float=e
+p 0 32 18 hln 100 VCCA n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=14
+a 0 u 0 0 30 0 hln 100 ERC=p
+a 0 u 0 0 0 80 hln 100 float=e
+p 0 24 218 hln 100 VEE n 30 230 v
+a 0 u 1 0 25 232 hcn 100 pin=29
+a 0 u 0 0 30 230 hln 100 ERC=p
+a 0 u 0 0 60 150 hln 100 float=e
+p 2 57 62 hrn 100 Q6 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=7
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 -10 30 hln 100 float=n
+p 2 57 72 hrn 100 Q5 n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=6
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 57 82 hrn 100 Q4 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=5
+a 0 u 0 0 70 80 hln 100 ERC=o
+a 0 u 0 0 -10 50 hln 100 float=n
+p 2 57 52 hrn 100 Q7 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=8
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 0 42 18 hln 100 VCCA1 n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=30
+a 0 u 0 0 40 0 hln 100 ERC=p
+a 0 u 0 0 10 80 hln 100 float=e
+p 2 57 142 hrn 100 VBB n 70 140 u
+a 0 u 1 0 65 138 hln 100 pin=26
+a 0 u 0 0 70 140 hln 100 ERC=o
+a 0 u 0 0 -10 110 hln 100 float=n
+p 2 13 212 hln 100 \C\ b 0 210 h
+a 0 u 1 0 5 208 hrn 100 pin=27
+a 0 u 0 0 0 210 hln 100 ERC=i
+a 0 u 0 0 0 200 hln 100 float=n
+p 2 57 102 hrn 100 Q2 n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=3
+a 0 u 0 0 70 100 hln 100 ERC=o
+a 0 u 0 0 -10 70 hln 100 float=n
+p 2 57 112 hrn 100 Q1 n 70 110 u
+a 0 u 1 0 65 108 hln 100 pin=2
+a 0 u 0 0 70 110 hln 100 ERC=o
+a 0 u 0 0 -10 80 hln 100 float=n
+p 2 57 122 hrn 100 Q0 n 70 120 u
+a 0 u 1 0 65 118 hln 100 pin=1
+a 0 u 0 0 70 120 hln 100 ERC=o
+a 0 u 0 0 -10 90 hln 100 float=n
+p 2 57 92 hrn 100 Q3 n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=4
+a 0 u 0 0 70 90 hln 100 ERC=o
+a 0 u 0 0 -10 60 hln 100 float=n
+p 2 13 62 hln 100 D6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=19
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 72 hln 100 D5 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=20
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 92 hln 100 D3 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=22
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 82 hln 100 D4 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=21
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 102 hln 100 D2 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=23
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 112 hln 100 D1 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=24
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 122 hln 100 D0 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=25
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 182 hln 100 S4 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=15
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 170 hln 100 float=n
+p 2 13 42 hln 100 D8 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=17
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 172 hln 100 S3 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=16
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+p 2 13 162 hln 100 S2 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=32
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 150 hln 100 float=n
+p 2 13 152 hln 100 S1 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=31
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 140 hln 100 float=n
+p 2 13 22 hln 100 DL89 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=10
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 142 hln 100 DR n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=11
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 57 42 hrn 100 Q8 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=9
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 2 13 32 hln 100 DL4 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=12
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 70 230 0 20 10
+r 0 10 10 60 220
+*symbol CXB1133Q
+d 22,15,7 Stage Data Scrambler with Diff. I/O
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 50 98 hln 100 PART=CXB1133Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+@pins
+p 2 13 22 hln 100 \D\ b 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=17
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 88 hln 100 VEE n 20 100 v
+a 0 u 1 0 15 102 hcn 100 pin=21
+a 0 u 0 0 20 100 hln 100 ERC=p
+a 0 u 0 0 50 20 hln 100 float=e
+p 2 57 32 hrn 100 \COUT\ b 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=7
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 -10 0 hln 100 float=n
+p 2 57 42 hrn 100 Q n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=12
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 2 57 52 hrn 100 \Q\ b 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=11
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 2 57 22 hrn 100 COUT n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=8
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 -10 -10 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 57 72 hrn 100 VBB n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=16
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 13 12 hln 100 D n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=18
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 32 hln 100 M n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=20
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 S2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=24
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 62 hln 100 CIN c 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=14
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 52 hln 100 S1 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=23
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 72 hln 100 \CIN\ b 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=15
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 TP1 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=1
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+@graphics 70 90 0 10 10
+r 0 10 0 60 90
+*symbol CXB1134Q
+d 22,15,7 Stage Data Descrambler with Diff. I/O
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 50 108 hln 100 PART=CXB1134Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+@pins
+p 2 13 22 hln 100 \D\ b 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=17
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 98 hln 100 VEE n 20 110 v
+a 0 u 1 0 15 112 hcn 100 pin=21
+a 0 u 0 0 20 110 hln 100 ERC=p
+a 0 u 0 0 50 30 hln 100 float=e
+p 2 57 32 hrn 100 \COUT\ b 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=7
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 -10 0 hln 100 float=n
+p 2 57 42 hrn 100 Q n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=12
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 2 57 52 hrn 100 \Q\ b 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=11
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 2 57 22 hrn 100 COUT n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=8
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 -10 -10 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 57 72 hrn 100 VBB n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=16
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 13 12 hln 100 D n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=18
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 32 hln 100 TP3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=20
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 S2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=24
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 82 hln 100 CIN c 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=14
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 72 hln 100 S1 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=23
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 92 hln 100 \CIN\ b 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=15
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 52 hln 100 TP1 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 42 hln 100 TP2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=19
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+@graphics 70 100 0 10 10
+r 0 10 0 60 100
+*symbol CXB1135Q
+d 8 to 16 Bit Serial Data Comparator
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 48 258 hln 100 PART=CXB1135Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+@pins
+p 2 13 12 hln 100 D15 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=18
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 232 hln 100 CIN c 0 230 h
+a 0 u 1 0 5 228 hrn 100 pin=21
+a 0 u 0 0 0 230 hln 100 ERC=i
+a 0 u 0 0 0 190 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=13
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 12 248 hln 100 VEE n 30 260 v
+a 0 u 1 0 25 262 hcn 100 pin=29
+a 0 u 0 0 30 260 hln 100 ERC=p
+a 0 u 0 0 60 180 hln 100 float=e
+p 2 57 112 hrn 100 ZS n 70 110 u
+a 0 u 1 0 65 108 hln 100 pin=6
+a 0 u 0 0 70 110 hln 100 ERC=o
+a 0 u 0 0 -10 80 hln 100 float=n
+p 2 57 122 hrn 100 ZA n 70 120 u
+a 0 u 1 0 65 118 hln 100 pin=7
+a 0 u 0 0 70 120 hln 100 ERC=o
+a 0 u 0 0 -10 90 hln 100 float=n
+p 2 57 132 hrn 100 COUT n 70 130 u
+a 0 u 1 0 65 128 hln 100 pin=5
+a 0 u 0 0 70 130 hln 100 ERC=o
+a 0 u 0 0 -10 100 hln 100 float=n
+p 2 57 102 hrn 100 Q n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=4
+a 0 u 0 0 70 100 hln 100 ERC=o
+a 0 u 0 0 -10 70 hln 100 float=n
+p 2 13 242 hln 100 \CIN\ b 0 240 h
+a 0 u 1 0 5 238 hrn 100 pin=20
+a 0 u 0 0 0 240 hln 100 ERC=i
+a 0 u 0 0 0 230 hln 100 float=n
+p 2 13 32 hln 100 D13 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=16
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 22 hln 100 D14 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=17
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 52 hln 100 D11 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=12
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 42 hln 100 D12 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=15
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 62 hln 100 D10 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=11
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 172 hln 100 DIN n 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=22
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 150 hln 100 float=n
+p 2 13 182 hln 100 ZIN n 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=8
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+p 2 13 202 hln 100 S3 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 pin=24
+a 0 u 0 0 0 200 hln 100 ERC=i
+a 0 u 0 0 0 180 hln 100 float=n
+p 2 13 192 hln 100 S4 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 pin=23
+a 0 u 0 0 0 190 hln 100 ERC=i
+a 0 u 0 0 0 180 hln 100 float=n
+p 2 57 152 hrn 100 VBB n 70 150 u
+a 0 u 1 0 65 148 hln 100 pin=19
+a 0 u 0 0 70 150 hln 100 ERC=o
+a 0 u 0 0 -10 120 hln 100 float=n
+p 2 13 82 hln 100 D8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=9
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 102 hln 100 D6 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=2
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 92 hln 100 D7 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=3
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 122 hln 100 D4 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=32
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 112 hln 100 D5 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=1
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 132 hln 100 D3 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=31
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 152 hln 100 D1 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=28
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 2 13 142 hln 100 D2 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=30
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 2 13 162 hln 100 D0 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=27
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 150 hln 100 float=n
+p 2 13 72 hln 100 D9 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=10
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 222 hln 100 S1 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 pin=26
+a 0 u 0 0 0 220 hln 100 ERC=i
+a 0 u 0 0 0 200 hln 100 float=n
+p 2 13 212 hln 100 S2 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 pin=25
+a 0 u 0 0 0 210 hln 100 ERC=i
+a 0 u 0 0 0 200 hln 100 float=n
+@graphics 70 250 0 10 10
+r 0 10 0 60 250
+*symbol CXB1136Q
+d 9,8, Dual 4-Bit Universal Shift Register
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 57 160 hln 100 PART=CXB1136Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA2)=
+@pins
+p 2 13 12 hln 100 D7 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=18
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 112 hln 100 C c 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=28
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=13
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 148 hln 100 VEE n 20 160 v
+a 0 u 1 0 15 162 hcn 100 pin=29
+a 0 u 0 0 20 160 hln 100 ERC=p
+a 0 u 0 0 50 80 hln 100 float=e
+p 2 57 42 hrn 100 Q6 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=8
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 2 57 52 hrn 100 Q5 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=7
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 2 57 62 hrn 100 Q4 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=6
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 -10 30 hln 100 float=n
+p 2 57 32 hrn 100 Q7 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=9
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 -10 0 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=30
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 57 122 hrn 100 VBB n 70 120 u
+a 0 u 1 0 65 118 hln 100 pin=26
+a 0 u 0 0 70 120 hln 100 ERC=o
+a 0 u 0 0 -10 90 hln 100 float=n
+p 2 13 122 hln 100 \C\ b 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=27
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 57 82 hrn 100 Q2 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=4
+a 0 u 0 0 70 80 hln 100 ERC=o
+a 0 u 0 0 -10 50 hln 100 float=n
+p 2 57 92 hrn 100 Q1 n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=3
+a 0 u 0 0 70 90 hln 100 ERC=o
+a 0 u 0 0 -10 60 hln 100 float=n
+p 2 57 102 hrn 100 Q0 n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=2
+a 0 u 0 0 70 100 hln 100 ERC=o
+a 0 u 0 0 -10 70 hln 100 float=n
+p 2 57 72 hrn 100 Q3 n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=5
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 13 102 hln 100 \CIN\ b 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=1
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 22 hln 100 D6 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=19
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 32 hln 100 D5 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=20
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 12 hrn 100 COUT n 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=11
+a 0 u 0 0 70 10 hln 100 ERC=o
+a 0 u 0 0 -10 -20 hln 100 float=n
+p 2 13 52 hln 100 D3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=22
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 42 hln 100 D4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=21
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 62 hln 100 D2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=23
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 72 hln 100 D1 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=24
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 D0 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=25
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 92 hln 100 MR n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=16
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 57 22 hrn 100 \COUT\ b 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=10
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 -10 -10 hln 100 float=n
+p 2 13 132 hln 100 S1 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=31
+a 0 u 0 0 0 130 hln 100 ERC=x
+p 2 13 142 hln 100 S2 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=32
+a 0 u 0 0 0 140 hln 100 ERC=x
+p 0 42 148 hln 100 VCCA2 n 40 160 v
+a 0 u 1 0 35 162 hcn 100 pin=12
+a 0 u 0 0 40 160 hln 100 ERC=x
+@graphics 70 150 0 10 10
+r 0 10 0 60 150
+*symbol CXB1137Q
+d 8-Bit Shift Matrix
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 44 148 hln 100 PART=CXB1137Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+@pins
+p 2 13 12 hln 100 D7 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 0 32 8 hln 100 VCC n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=9
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 0 2 138 hln 100 VEE n 20 150 v
+a 0 u 1 0 15 152 hcn 100 pin=21
+a 0 u 0 0 20 150 hln 100 ERC=p
+a 0 u 0 0 50 70 hln 100 float=e
+p 2 47 52 hrn 100 Z5 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=6
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+p 2 47 62 hrn 100 Z4 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=7
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 47 42 hrn 100 Z6 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=5
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=10
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+p 2 47 82 hrn 100 Z2 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=12
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 92 hrn 100 Z1 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=13
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 2 47 102 hrn 100 Z0 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=14
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 47 72 hrn 100 Z3 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=11
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+p 2 13 112 hln 100 S2 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=20
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 22 hln 100 D6 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 32 hln 100 D5 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=18
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 42 hln 100 D4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=24
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 62 hln 100 D2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=17
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 72 hln 100 D1 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=16
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 D0 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=15
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 102 hln 100 S3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=23
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 122 hln 100 S1 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=19
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 132 hln 100 M n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=22
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 47 32 hrn 100 Z7 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=4
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 -20 0 hln 100 float=n
+p 0 22 8 hln 100 VCCA n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=8
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+@graphics 60 140 0 10 10
+r 0 10 0 50 140
+*symbol CXB1138Q
+d 4-Bit Arithmetic Logic Unit
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 44 168 hln 100 PART=CXB1138Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+@pins
+p 2 13 12 hln 100 A3 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=20
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 142 hln 100 S0 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=22
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 2 158 hln 100 VEE n 20 170 v
+a 0 u 1 0 15 172 hcn 100 pin=21
+a 0 u 0 0 20 170 hln 100 ERC=p
+a 0 u 0 0 50 90 hln 100 float=e
+p 2 57 62 hrn 100 GG n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=4
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 -10 30 hln 100 float=n
+p 2 57 72 hrn 100 PG n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=6
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 57 52 hrn 100 CN+4 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=5
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 57 92 hrn 100 F2 n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=8
+a 0 u 0 0 70 90 hln 100 ERC=o
+a 0 u 0 0 -10 60 hln 100 float=n
+p 2 57 102 hrn 100 F1 n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=11
+a 0 u 0 0 70 100 hln 100 ERC=o
+a 0 u 0 0 -10 70 hln 100 float=n
+p 2 57 112 hrn 100 F0 n 70 110 u
+a 0 u 1 0 65 108 hln 100 pin=12
+a 0 u 0 0 70 110 hln 100 ERC=o
+a 0 u 0 0 -10 80 hln 100 float=n
+p 2 57 82 hrn 100 F3 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=7
+a 0 u 0 0 70 80 hln 100 ERC=o
+a 0 u 0 0 -10 50 hln 100 float=n
+p 2 13 122 hln 100 S2 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=24
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 22 hln 100 A2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=18
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 32 hln 100 A1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=16
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 B3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=19
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 42 hln 100 A0 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=14
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 62 hln 100 B2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=17
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 72 hln 100 B1 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=15
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 B0 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=13
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 112 hln 100 S3 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=1
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 132 hln 100 S1 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=23
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 13 152 hln 100 M n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=3
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 92 hln 100 CN n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=2
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+@graphics 70 160 0 10 10
+r 0 10 0 60 160
+*symbol CXB1139Q
+d 4-Bit Arithmetic Logic Unit
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 0 sp 11 0 44 118 hln 100 PART=CXB1139Q
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(VEE)=$G_ECL_100K_VEE
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA)=$G_ECL_100K_VCC1
+a 0 u 0 0 0 0 hln 100 ipin(VCCA1)=$G_ECL_100K_VCC1
+@pins
+p 2 13 22 hln 100 S4 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=8
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 0 22 8 hln 100 VCC n 20 -10 d
+a 0 u 1 0 25 -7 hcn 100 pin=9
+a 0 u 0 0 20 -10 hln 100 ERC=p
+a 0 u 0 0 -10 70 hln 100 float=e
+p 0 2 108 hln 100 VEE n 20 120 v
+a 0 u 1 0 15 122 hcn 100 pin=21
+a 0 u 0 0 20 120 hln 100 ERC=p
+a 0 u 0 0 50 40 hln 100 float=e
+p 2 57 22 hrn 100 \DOUT\ b 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=19
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 -10 -10 hln 100 float=n
+p 2 57 32 hrn 100 QD n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=18
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 -10 0 hln 100 float=n
+p 2 57 12 hrn 100 DOUT n 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=20
+a 0 u 0 0 70 10 hln 100 ERC=o
+a 0 u 0 0 -10 -20 hln 100 float=n
+p 0 32 8 hln 100 VCCA n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=10
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 57 52 hrn 100 QP n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=16
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 2 57 62 hrn 100 \QP\ b 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=15
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 -10 30 hln 100 float=n
+p 2 57 42 hrn 100 \QD\ b 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=17
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 2 13 32 hln 100 S3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=7
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 S2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=6
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 62 hln 100 S0 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=4
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 52 hln 100 S1 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 72 hln 100 DIN n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=1
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 \DIN\ b 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=2
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 57 102 hrn 100 VBB n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=3
+a 0 u 0 0 70 100 hln 100 ERC=o
+a 0 u 0 0 -10 70 hln 100 float=n
+p 2 57 72 hrn 100 QM n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=14
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 57 82 hrn 100 \QM\ b 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=13
+a 0 u 0 0 70 80 hln 100 ERC=o
+a 0 u 0 0 -10 50 hln 100 float=n
+p 0 42 8 hln 100 VCCA1 n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=22
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 10 70 hln 100 float=e
+@graphics 70 110 0 20 10
+r 0 10 0 60 110
+*symbol CXD1172A,CXD1172AM,CXD1172AP
+d 4-Bit Arithmetic Logic Unit
+@type p
+@attributes
+a 0 sp 9 0 -4 8 hln 100 REFDES=U?
+a 0 sp 11 0 54 88 hln 100 PART=CXD1172A
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(DVSS)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(DVDD1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(DVDD)=$G_DPWR
+@pins
+p 2 14 18 hln 100 AVDD n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=14
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 -10 80 hln 100 float=e
+p 2 14 78 hln 100 AVSS n 20 90 v
+a 0 u 1 0 15 92 hcn 100 pin=16
+a 0 u 0 0 20 90 hln 100 ERC=p
+a 0 u 0 0 50 10 hln 100 float=e
+p 2 57 32 hrn 100 D1 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=2
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 -10 0 hln 100 float=n
+p 2 57 42 hrn 100 D2 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=3
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 2 57 22 hrn 100 D0 n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=1
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 -10 -10 hln 100 float=n
+p 0 34 18 hln 100 DVDD n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=9
+a 0 u 0 0 40 0 hln 100 ERC=p
+a 0 u 0 0 10 80 hln 100 float=e
+p 2 57 62 hrn 100 D4 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=5
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 -10 30 hln 100 float=n
+p 2 57 72 hrn 100 D5 n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=6
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 57 52 hrn 100 D3 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=4
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 2 13 32 hln 100 CLK c 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=7
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 VRB n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=13
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 0 34 78 hln 100 DVSS n 40 90 v
+a 0 u 1 0 35 92 hcn 100 pin=8
+a 0 u 0 0 40 90 hln 100 ERC=p
+a 0 u 0 0 70 10 hln 100 float=e
+p 2 13 52 hln 100 VIN n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=12
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 62 hln 100 VRT n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=11
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 0 20 18 hln 100 AVDD1 n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=10
+a 0 u 0 0 30 0 hln 100 ERC=p
+a 0 u 0 0 0 80 hln 100 float=e
+p 0 34 18 hln 100 DVDD1 n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=15
+a 0 u 0 0 50 0 hln 100 ERC=p
+a 0 u 0 0 20 80 hln 100 float=e
+@graphics 70 90 0 30 10
+r 0 10 10 60 80
+*symbol CXD1175,CXD1175M,CXD1175P
+d 4-Bit Arithmetic Logic Unit
+@type p
+@attributes
+a 0 sp 9 0 -4 8 hln 100 REFDES=U?
+a 0 sp 11 0 60 118 hln 100 PART=CXD1175
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(DVDD1)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(DVDD)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(DVSS1)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(DVSS)=$G_DGND
+@pins
+p 2 16 18 hln 100 AVDD n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=14
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 -10 80 hln 100 float=e
+p 2 16 108 hln 100 AVSS n 20 120 v
+a 0 u 1 0 15 122 hcn 100 pin=20
+a 0 u 0 0 20 120 hln 100 ERC=p
+a 0 u 0 0 50 40 hln 100 float=e
+p 2 57 42 hrn 100 D1 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=4
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 -10 10 hln 100 float=n
+p 2 57 52 hrn 100 D2 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=5
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 -10 20 hln 100 float=n
+p 2 57 32 hrn 100 D0 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=3
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 -10 0 hln 100 float=n
+p 0 44 18 hln 100 DVDD n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=11
+a 0 u 0 0 50 0 hln 100 ERC=p
+a 0 u 0 0 20 80 hln 100 float=e
+p 2 57 72 hrn 100 D4 n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=7
+a 0 u 0 0 70 70 hln 100 ERC=o
+a 0 u 0 0 -10 40 hln 100 float=n
+p 2 57 82 hrn 100 D5 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=8
+a 0 u 0 0 70 80 hln 100 ERC=o
+a 0 u 0 0 -10 50 hln 100 float=n
+p 2 57 62 hrn 100 D3 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=6
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 -10 30 hln 100 float=n
+p 2 13 32 hln 100 CLK c 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=12
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 VRTS n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=16
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 0 44 108 hln 100 DVSS n 50 120 v
+a 0 u 1 0 45 122 hcn 100 pin=24
+a 0 u 0 0 50 120 hln 100 ERC=p
+a 0 u 0 0 80 40 hln 100 float=e
+p 2 13 52 hln 100 VRT n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=17
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 62 hln 100 VRB n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=23
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 0 20 18 hln 100 AVDD1 n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=15
+a 0 u 0 0 30 0 hln 100 ERC=p
+a 0 u 0 0 0 80 hln 100 float=e
+p 0 44 18 hln 100 DVDD1 n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=13
+a 0 u 0 0 60 0 hln 100 ERC=p
+a 0 u 0 0 30 80 hln 100 float=e
+p 2 13 82 hln 100 VIN n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=19
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 72 hln 100 VRBS n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=22
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 0 30 18 hln 100 AVDD2 n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=18
+a 0 u 0 0 40 0 hln 100 ERC=p
+a 0 u 0 0 10 80 hln 100 float=e
+p 0 24 108 hln 100 AVSS1 n 30 120 v
+a 0 u 1 0 25 122 hcn 100 pin=21
+a 0 u 0 0 30 120 hln 100 ERC=p
+a 0 u 0 0 60 40 hln 100 float=e
+p 2 57 92 hrn 100 D6 n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=9
+a 0 u 0 0 70 90 hln 100 ERC=o
+a 0 u 0 0 -10 60 hln 100 float=n
+p 2 57 102 hrn 100 D7 n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=10
+a 0 u 0 0 70 100 hln 100 ERC=o
+a 0 u 0 0 -10 70 hln 100 float=n
+p 2 13 92 hln 100 \OE\ b 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=1
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 0 34 108 hln 100 DVSS1 n 40 120 v
+a 0 u 1 0 35 122 hcn 100 pin=2
+a 0 u 0 0 40 120 hln 100 ERC=p
+a 0 u 0 0 70 40 hln 100 float=e
+@graphics 70 120 0 30 10
+r 0 10 10 60 110
+*symbol CXK51256,CXK51256P-35,CXK51256P-45,CXK51256P-55
+d 262,144-word x 1-bit High Speed CMOS SRAM
+@type p
+@attributes
+a 0 sp 9 0 -4 -2 hln 100 REFDES=U?
+a 0 sp 11 0 50 228 hln 100 PART=CXK51256
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 0 24 8 hln 100 VCC n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 13 202 hln 100 \CE\ b 0 200 h
+a 0 u 1 0 5 198 hrn 100 pin=13
+a 0 u 0 0 0 200 hln 100 ERC=i
+a 0 u 0 0 0 170 hln 100 float=n
+p 0 24 218 hln 100 GND n 30 230 v
+a 0 u 1 0 25 232 hcn 100 pin=12
+a 0 u 0 0 30 230 hln 100 ERC=p
+a 0 u 0 0 60 150 hln 100 float=e
+p 2 13 212 hln 100 \WE\ b 0 210 h
+a 0 u 1 0 5 208 hrn 100 pin=11
+a 0 u 0 0 0 210 hln 100 ERC=i
+a 0 u 0 0 0 180 hln 100 float=n
+p 2 13 82 hln 100 A10 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=16
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 92 hln 100 A9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=15
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 102 hln 100 A8 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 122 hln 100 A6 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=7
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 112 hln 100 A7 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=8
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 132 hln 100 A5 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=6
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 142 hln 100 A4 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=5
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 152 hln 100 A3 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=4
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 13 172 hln 100 A1 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=2
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 140 hln 100 float=n
+p 2 13 162 hln 100 A2 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=3
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 2 13 182 hln 100 A0 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=1
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 150 hln 100 float=n
+p 2 47 102 hrn 100 DOUT n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=10
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 13 72 hln 100 A11 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=17
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 32 hln 100 A15 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=21
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 A14 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=20
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 52 hln 100 A13 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=19
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 62 hln 100 A12 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=18
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 12 hln 100 A17 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=23
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 22 hln 100 A16 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=22
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 192 hln 100 DIN n 0 190 h
+a 0 u 1 0 5 188 hrn 100 pin=14
+a 0 u 0 0 0 190 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+@graphics 60 220 0 10 10
+r 0 10 0 50 220
+*symbol CXK5164,CXK5164J-25,CXK5164J-30,CXK5164J-35,CXK5164P-25,CXK5164P-30,CXK5164P-35
+d 65,536-word x 1-bit High Speed CMOS SRAM
+@type p
+@attributes
+a 0 sp 9 0 -4 -2 hln 100 REFDES=U?
+a 0 sp 11 0 46 208 hln 100 PART=CXK5164
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 2 47 92 hrn 100 DOUT n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=9
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 0 24 8 hln 100 VCC n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=22
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 13 192 hln 100 \CE\ b 0 190 h
+a 0 u 1 0 5 188 hrn 100 pin=12
+a 0 u 0 0 0 190 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+p 2 13 12 hln 100 A15 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=21
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 0 24 198 hln 100 GND n 30 210 v
+a 0 u 1 0 25 212 hcn 100 pin=11
+a 0 u 0 0 30 210 hln 100 ERC=p
+a 0 u 0 0 60 130 hln 100 float=e
+p 2 13 22 hln 100 A14 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=20
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 32 hln 100 A13 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=19
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 A11 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=17
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 42 hln 100 A12 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=18
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 182 hln 100 \WE\ b 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=10
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 150 hln 100 float=n
+p 2 13 62 hln 100 A10 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=16
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 72 hln 100 A9 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=15
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 A8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=14
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 102 hln 100 A6 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=7
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 92 hln 100 A7 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 112 hln 100 A5 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=6
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 122 hln 100 A4 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=5
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 132 hln 100 A3 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=4
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 152 hln 100 A1 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=2
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 13 142 hln 100 A2 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=3
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 162 hln 100 A0 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=1
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 2 13 172 hln 100 DIN n 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=13
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 140 hln 100 float=n
+@graphics 60 200 0 10 10
+r 0 10 0 50 200
+*symbol CXK54256,CXK54256P-35,CXK54256P-45,CXK54256P-55
+d 262,144-word x 1-bit High Speed CMOS SRAM
+@type p
+@attributes
+a 0 sp 9 0 -4 -2 hln 100 REFDES=U?
+a 0 sp 11 0 48 198 hln 100 PART=CXK54256
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 0 24 8 hln 100 VCC n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 13 172 hln 100 \CE\ b 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=11
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 140 hln 100 float=n
+p 0 24 188 hln 100 GND n 30 200 v
+a 0 u 1 0 25 202 hcn 100 pin=12
+a 0 u 0 0 30 200 hln 100 ERC=p
+a 0 u 0 0 60 120 hln 100 float=e
+p 2 13 182 hln 100 \WE\ b 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=13
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 150 hln 100 float=n
+p 2 13 62 hln 100 A10 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=18
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 72 hln 100 A9 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=10
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 A8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=9
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 102 hln 100 A6 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=7
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 92 hln 100 A7 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 112 hln 100 A5 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=6
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 122 hln 100 A4 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=5
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 132 hln 100 A3 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=4
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 152 hln 100 A1 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=2
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 13 142 hln 100 A2 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=3
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 162 hln 100 A0 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=1
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 2 47 92 hrn 100 I/O3 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=15
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 2 13 52 hln 100 A11 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=19
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 12 hln 100 A15 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=23
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 22 hln 100 A14 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=22
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 32 hln 100 A13 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=21
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 A12 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=20
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 47 102 hrn 100 I/O2 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 47 112 hrn 100 I/O1 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=17
+a 0 u 0 0 60 110 hln 100 ERC=o
+a 0 u 0 0 -20 80 hln 100 float=n
+p 2 47 82 hrn 100 I/O4 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=14
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+@graphics 60 190 0 10 10
+r 0 10 0 50 190
+*symbol CXK5465,CXK5465J-25,CXK5465J-30,CXK5465J-35,CXK5465P-25,CXK5465P-30,CXK5465P-35
+d 16,384-word x 4-bit High Speed CMOS SRAM
+@type p
+@attributes
+a 0 sp 9 0 -4 -2 hln 100 REFDES=U?
+a 0 sp 11 0 44 188 hln 100 PART=CXK5465
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 2 47 92 hrn 100 I/O3 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=15
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 0 24 8 hln 100 VCC n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 13 172 hln 100 \CE\ b 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=10
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 140 hln 100 float=n
+p 0 24 178 hln 100 GND n 30 190 v
+a 0 u 1 0 25 192 hcn 100 pin=12
+a 0 u 0 0 30 190 hln 100 ERC=p
+a 0 u 0 0 60 110 hln 100 float=e
+p 2 13 162 hln 100 \WE\ b 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=13
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 2 13 42 hln 100 A10 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=20
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 52 hln 100 A9 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=19
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 62 hln 100 A8 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=9
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 82 hln 100 A6 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=7
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 72 hln 100 A7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=8
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 92 hln 100 A5 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=6
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 102 hln 100 A4 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=5
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 112 hln 100 A3 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=4
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 132 hln 100 A1 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=2
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 122 hln 100 A2 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=3
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 142 hln 100 A0 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=1
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 152 hln 100 \OE\ b 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=11
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 47 82 hrn 100 I/O4 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=14
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 102 hrn 100 I/O2 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 47 112 hrn 100 I/O1 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=17
+a 0 u 0 0 60 110 hln 100 ERC=o
+a 0 u 0 0 -20 80 hln 100 float=n
+p 2 13 12 hln 100 A13 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=23
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 22 hln 100 A12 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=22
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 32 hln 100 A11 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=21
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 180 0 10 10
+r 0 10 0 50 180
+*symbol CXK581000,CXK581000M-10L,CXK581000M-10LL,CXK581000M-12L,CXK581000M-12LL ako 581000
+d 131,072-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+*symbol CXK581000P-10L,CXK581000M-15LL,CXK581000M-15L ako CXK581000
+d A kind of CXK581000
+*symbol CXK581000P-15LL,CXK581000P-15L,CXK581000P-12LL,CXK581000P-12L,CXK581000P-10LL ako CXK581000
+d A kind of CXK581000
+*symbol CXK581001,CXK581001M-70L,CXK581001M-70LL,CXK581001M-85L,CXK581001M-85LL ako 581000
+d 131,072-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+*symbol CXK581001P-85LL,CXK581001P-85L,CXK581001P-70LL,CXK581001P-70L ako CXK581001
+d A kind of CXK581001
+*symbol CXK5816,CXK5816M-10,CXK5816M-10L,CXK5816M-12,CXK5816M-12L,CXK5816M-15,CXK5816M-15L
+d 2048-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+a 0 sp 9 0 -4 -2 hln 100 REFDES=U?
+a 0 sp 11 0 44 160 hln 100 PART=CXK5816
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 2 47 92 hrn 100 I/O3 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=11
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 0 24 8 hln 100 VCC n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 13 142 hln 100 \CE\ b 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=18
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 0 24 148 hln 100 GND n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=12
+a 0 u 0 0 30 160 hln 100 ERC=p
+a 0 u 0 0 60 80 hln 100 float=e
+p 2 13 132 hln 100 \WE\ b 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=21
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 12 hln 100 A10 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=19
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 22 hln 100 A9 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=22
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 32 hln 100 A8 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=23
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 A6 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 42 hln 100 A7 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 62 hln 100 A5 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=3
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 72 hln 100 A4 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=4
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 A3 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=5
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 102 hln 100 A1 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=7
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 92 hln 100 A2 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=6
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 112 hln 100 A0 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=8
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 122 hln 100 \OE\ b 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=20
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 47 82 hrn 100 I/O4 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=13
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 102 hrn 100 I/O2 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=10
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 47 112 hrn 100 I/O1 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=9
+a 0 u 0 0 60 110 hln 100 ERC=o
+a 0 u 0 0 -20 80 hln 100 float=n
+p 2 47 52 hrn 100 I/O7 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=16
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+p 2 47 42 hrn 100 I/O8 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=17
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 -20 10 hln 100 float=n
+p 2 47 62 hrn 100 I/O6 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=15
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 47 72 hrn 100 I/O5 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=14
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol CXK5816P-15L,CXK5816P-15,CXK5816P-12L,CXK5816P-12,CXK5816P-10L,CXK5816P-10 ako CXK5816
+d A kind of CXK5816
+*symbol CXK58255,CXK58255AJ-25,CXK58255AJ-30,CXK58255AP-25,CXK58255AP-30 ako 58255
+d 32,768-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+*symbol CXK58257,CXK58257AM-10L,CXK58257AM-10LL,CXK58257AM-12L,CXK58257AM-12LL ako 58255
+d 32,768-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+*symbol CXK58257AP-10L,CXK58257AM-85LL,CXK58257AM-85L,CXK58257AM-70LL,CXK58257AM-70L ako CXK58257
+d A kind of CXK58257
+*symbol CXK58257AP-70LL,CXK58257AP-70L,CXK58257AP-12LL,CXK58257AP-12L,CXK58257AP-10LL ako CXK58257
+d A kind of CXK58257
+*symbol CXK58257ASP-12L,CXK58257ASP-10LL,CXK58257ASP-10L,CXK58257AP-85LL,CXK58257AP-85L ako CXK58257
+d A kind of CXK58257
+*symbol CXK58257ASP-85LL,CXK58257ASP-85L,CXK58257ASP-70LL,CXK58257ASP-70L,CXK58257ASP-12LL ako CXK58257
+d A kind of CXK58257
+*symbol CXK58258,CXK58258AJ-15,CXK58258AJ-20,CXK58258AJ-25,CXK58258AJ-35,CXK58258AP-15 ako 58255
+d 32,768-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+*symbol CXK58258AP-25,CXK58258AP-20 ako CXK58258
+d A kind of CXK58258
+*symbol CXK5863,CXK5863J-25,CXK5863J-30,CXK5863J-35,CXK5863M-25,CXK5863M-30,CXK5863M-35 ako 5863
+d 8192-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+*symbol CXK5863P-35,CXK5863P-30,CXK5863P-25 ako CXK5863
+d A kind of CXK5863
+*symbol CXK5864,CXK5864BM-10L,CXK5864BM-10LL,CXK5864BM-12L,CXK5864BM-12LL,CXK5864BM-70L ako 5863
+d 8192-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+*symbol CXK5864BSP-10L,CXK5864BM-70LL ako CXK5864
+d A kind of CXK5864
+*symbol CXK5864BSP-70LL,CXK5864BSP-70L,CXK5864BSP-12LL,CXK5864BSP-12L,CXK5864BSP-10LL ako CXK5864
+d A kind of CXK5864
+*symbol CXK5971,CXK5971J-25,CXK5971J-30,CXK5971J-35,CXK5971M-25,CXK5971M-30,CXK5971M-35
+d 8192-word x 9-bit High Speed CMOS SRAM
+@type p
+@attributes
+a 0 sp 9 0 -4 -2 hln 100 REFDES=U?
+a 0 sp 11 0 46 188 hln 100 PART=CXK5971
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 2 47 112 hrn 100 I/O3 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=12
+a 0 u 0 0 60 110 hln 100 ERC=o
+a 0 u 0 0 -20 80 hln 100 float=n
+p 0 24 8 hln 100 VCC n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=28
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 13 152 hln 100 \CE1\ b 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=20
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 0 24 178 hln 100 GND n 30 190 v
+a 0 u 1 0 25 192 hcn 100 pin=14
+a 0 u 0 0 30 190 hln 100 ERC=p
+a 0 u 0 0 60 110 hln 100 float=e
+p 2 13 172 hln 100 \WE\ b 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=27
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 140 hln 100 float=n
+p 2 13 32 hln 100 A10 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=21
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 A9 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=24
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 52 hln 100 A8 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=25
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 72 hln 100 A6 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=3
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 62 hln 100 A7 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=2
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 82 hln 100 A5 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=4
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 92 hln 100 A4 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=5
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 102 hln 100 A3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=6
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 122 hln 100 A1 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=8
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 112 hln 100 A2 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=7
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 132 hln 100 A0 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=9
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 162 hln 100 \OE\ b 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=22
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 2 47 102 hrn 100 I/O4 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=13
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 47 122 hrn 100 I/O2 n 60 120 u
+a 0 u 1 0 55 118 hln 100 pin=11
+a 0 u 0 0 60 120 hln 100 ERC=o
+a 0 u 0 0 -20 90 hln 100 float=n
+p 2 47 132 hrn 100 I/O1 n 60 130 u
+a 0 u 1 0 55 128 hln 100 pin=10
+a 0 u 0 0 60 130 hln 100 ERC=o
+a 0 u 0 0 -20 100 hln 100 float=n
+p 2 47 72 hrn 100 I/O7 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=17
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+p 2 47 62 hrn 100 I/O8 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=18
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 47 82 hrn 100 I/O6 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=16
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 92 hrn 100 I/O5 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=15
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 2 13 12 hln 100 A12 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 22 hln 100 A11 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=23
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 142 hln 100 CE2 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=26
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 47 52 hrn 100 I/O9 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=19
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+@graphics 60 180 0 10 10
+r 0 10 0 50 180
+*symbol CXK5971P-35,CXK5971P-30,CXK5971P-25 ako CXK5971
+d A kind of CXK5971
+*symbol 581000 b
+d 131,072-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+a 0 sp 9 0 -4 -2 hln 100 REFDES=U?
+a 0 sp 11 0 48 228 hln 100 PART=581000
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 0 24 8 hln 100 VCC n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=32
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 13 192 hln 100 \CE1\ b 0 190 h
+a 0 u 1 0 5 188 hrn 100 pin=22
+a 0 u 0 0 0 190 hln 100 ERC=i
+a 0 u 0 0 0 160 hln 100 float=n
+p 0 24 218 hln 100 GND n 30 230 v
+a 0 u 1 0 25 232 hcn 100 pin=16
+a 0 u 0 0 30 230 hln 100 ERC=p
+a 0 u 0 0 60 150 hln 100 float=e
+p 2 13 202 hln 100 \WE\ b 0 200 h
+a 0 u 1 0 5 198 hrn 100 pin=29
+a 0 u 0 0 0 200 hln 100 ERC=i
+a 0 u 0 0 0 170 hln 100 float=n
+p 2 13 72 hln 100 A10 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=23
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 82 hln 100 A9 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=26
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 92 hln 100 A8 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=27
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 112 hln 100 A6 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=6
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 102 hln 100 A7 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=5
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 122 hln 100 A5 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=7
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 132 hln 100 A4 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=8
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 142 hln 100 A3 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=9
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 162 hln 100 A1 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=11
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 2 13 152 hln 100 A2 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=10
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 13 172 hln 100 A0 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=12
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 140 hln 100 float=n
+p 2 47 122 hrn 100 I/O3 n 60 120 u
+a 0 u 1 0 55 118 hln 100 pin=15
+a 0 u 0 0 60 120 hln 100 ERC=o
+a 0 u 0 0 -20 90 hln 100 float=n
+p 2 13 62 hln 100 A11 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=25
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 32 hln 100 A14 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 A13 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=28
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 52 hln 100 A12 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 47 132 hrn 100 I/O2 n 60 130 u
+a 0 u 1 0 55 128 hln 100 pin=14
+a 0 u 0 0 60 130 hln 100 ERC=o
+a 0 u 0 0 -20 100 hln 100 float=n
+p 2 47 142 hrn 100 I/O1 n 60 140 u
+a 0 u 1 0 55 138 hln 100 pin=13
+a 0 u 0 0 60 140 hln 100 ERC=o
+a 0 u 0 0 -20 110 hln 100 float=n
+p 2 47 112 hrn 100 I/O4 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=17
+a 0 u 0 0 60 110 hln 100 ERC=o
+a 0 u 0 0 -20 80 hln 100 float=n
+p 2 47 82 hrn 100 I/O7 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=20
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 92 hrn 100 I/O6 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=19
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 2 47 102 hrn 100 I/O5 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=18
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 47 72 hrn 100 I/O8 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=21
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+p 2 13 212 hln 100 \OE\ b 0 210 h
+a 0 u 1 0 5 208 hrn 100 pin=24
+a 0 u 0 0 0 210 hln 100 ERC=i
+a 0 u 0 0 0 180 hln 100 float=n
+p 2 13 12 hln 100 A16 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 22 hln 100 A15 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=31
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 182 hln 100 CE2 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=30
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 150 hln 100 float=n
+@graphics 60 220 0 10 10
+r 0 10 0 50 220
+*symbol 58255 b
+d 32,768-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+a 0 sp 9 0 -4 -2 hln 100 REFDES=U?
+a 0 sp 11 0 46 198 hln 100 PART=58255
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 0 24 8 hln 100 VCC n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=28
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 13 162 hln 100 \CE\ b 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=20
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 0 24 188 hln 100 GND n 30 200 v
+a 0 u 1 0 25 202 hcn 100 pin=14
+a 0 u 0 0 30 200 hln 100 ERC=p
+a 0 u 0 0 60 120 hln 100 float=e
+p 2 13 172 hln 100 \WE\ b 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=27
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 140 hln 100 float=n
+p 2 13 52 hln 100 A10 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=21
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 62 hln 100 A9 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=24
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 72 hln 100 A8 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=25
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 92 hln 100 A6 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=4
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 82 hln 100 A7 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=3
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 102 hln 100 A5 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=5
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 112 hln 100 A4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=6
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 122 hln 100 A3 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=7
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 142 hln 100 A1 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=9
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+p 2 13 132 hln 100 A2 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=8
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 152 hln 100 A0 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=10
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 2 47 112 hrn 100 I/O3 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=13
+a 0 u 0 0 60 110 hln 100 ERC=o
+a 0 u 0 0 -20 80 hln 100 float=n
+p 2 13 42 hln 100 A11 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=23
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 12 hln 100 A14 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 22 hln 100 A13 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=26
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 32 hln 100 A12 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 122 hrn 100 I/O2 n 60 120 u
+a 0 u 1 0 55 118 hln 100 pin=12
+a 0 u 0 0 60 120 hln 100 ERC=o
+a 0 u 0 0 -20 90 hln 100 float=n
+p 2 47 132 hrn 100 I/O1 n 60 130 u
+a 0 u 1 0 55 128 hln 100 pin=11
+a 0 u 0 0 60 130 hln 100 ERC=o
+a 0 u 0 0 -20 100 hln 100 float=n
+p 2 47 102 hrn 100 I/O4 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=15
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 2 47 72 hrn 100 I/O7 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=18
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+p 2 47 82 hrn 100 I/O6 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=17
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 47 92 hrn 100 I/O5 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=16
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 2 47 62 hrn 100 I/O8 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=19
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 13 182 hln 100 \OE\ b 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=22
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 150 hln 100 float=n
+@graphics 60 190 0 10 10
+r 0 10 0 50 190
+*symbol 5863 b
+d 8192-word x 8-bit High Speed CMOS SRAM
+@type p
+@attributes
+a 0 sp 9 0 -4 -2 hln 100 REFDES=U?
+a 0 sp 11 0 46 188 hln 100 PART=5863
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 2 47 102 hrn 100 I/O3 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=13
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 -20 70 hln 100 float=n
+p 0 24 8 hln 100 VCC n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=28
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 70 hln 100 float=e
+p 2 13 152 hln 100 \CE1\ b 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=20
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 float=n
+p 0 24 178 hln 100 GND n 30 190 v
+a 0 u 1 0 25 192 hcn 100 pin=14
+a 0 u 0 0 30 190 hln 100 ERC=p
+a 0 u 0 0 60 110 hln 100 float=e
+p 2 13 172 hln 100 \WE\ b 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=27
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 0 140 hln 100 float=n
+p 2 13 32 hln 100 A10 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=21
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 A9 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=24
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 52 hln 100 A8 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=25
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 72 hln 100 A6 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=4
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 float=n
+p 2 13 62 hln 100 A7 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=3
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 float=n
+p 2 13 82 hln 100 A5 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=5
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 float=n
+p 2 13 92 hln 100 A4 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=6
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 float=n
+p 2 13 102 hln 100 A3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=7
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 122 hln 100 A1 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=9
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 112 hln 100 A2 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=8
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 float=n
+p 2 13 132 hln 100 A0 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=10
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 13 162 hln 100 \OE\ b 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=22
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 130 hln 100 float=n
+p 2 47 92 hrn 100 I/O4 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=15
+a 0 u 0 0 60 90 hln 100 ERC=o
+a 0 u 0 0 -20 60 hln 100 float=n
+p 2 47 112 hrn 100 I/O2 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=12
+a 0 u 0 0 60 110 hln 100 ERC=o
+a 0 u 0 0 -20 80 hln 100 float=n
+p 2 47 122 hrn 100 I/O1 n 60 120 u
+a 0 u 1 0 55 118 hln 100 pin=11
+a 0 u 0 0 60 120 hln 100 ERC=o
+a 0 u 0 0 -20 90 hln 100 float=n
+p 2 47 62 hrn 100 I/O7 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=18
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 -20 30 hln 100 float=n
+p 2 47 52 hrn 100 I/O8 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=19
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 -20 20 hln 100 float=n
+p 2 47 72 hrn 100 I/O6 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=17
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 -20 40 hln 100 float=n
+p 2 47 82 hrn 100 I/O5 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=16
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 -20 50 hln 100 float=n
+p 2 13 12 hln 100 A12 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 -20 hln 100 float=n
+p 2 13 22 hln 100 A11 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=23
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 142 hln 100 CE2 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=26
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 float=n
+@graphics 60 180 0 10 10
+r 0 10 0 50 180
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60
+*symbol CXA1260Q-Z
+d 3-Channel 8-Bit RGB D/A Converter
+@type p
+@attributes
+a 0 sp 11 0 52 320 hlb 100 PART=CXA1260Q-Z
+a 0 s 9 0 0 10 hlb 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 MODEL=*NOmodel*
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+p 2 67 122 hrn 100 ROUT n 80 120 u
+a 0 u 1 0 75 118 hln 100 pin=33
+a 0 u 0 0 80 120 hln 100 ERC=o
+a 0 u 0 0 -50 90 hln 100 float=n
+p 2 67 142 hrn 100 GOUT n 80 140 u
+a 0 u 1 0 75 138 hln 100 pin=31
+a 0 u 0 0 80 140 hln 100 ERC=o
+a 0 u 0 0 -50 100 hln 100 float=n
+p 2 44 298 hln 100 DGND n 40 310 v
+a 0 u 1 0 35 312 hcn 100 pin=19
+a 0 u 0 0 40 310 hln 100 ERC=p
+a 0 u 0 0 150 180 hln 100 float=e
+p 2 42 18 hln 100 DVCC n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=20
+a 0 u 0 0 50 0 hln 100 ERC=p
+a 0 u 0 0 -60 130 hln 100 float=e
+p 2 13 62 hln 100 R7 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=46
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 130 170 hln 100 float=n
+p 2 13 72 hln 100 R6 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=45
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 130 180 hln 100 float=n
+p 2 13 82 hln 100 R5 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=44
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 130 190 hln 100 float=n
+p 2 13 92 hln 100 R4 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=42
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 130 200 hln 100 float=n
+p 2 13 102 hln 100 R3 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=41
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 -10 hln 100 float=n
+p 2 13 112 hln 100 R2 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=40
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 130 220 hln 100 float=n
+p 2 13 122 hln 100 R1 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=39
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=n
+p 2 13 52 hln 100 R8 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=47
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 -60 hln 100 float=n
+p 2 13 42 hln 100 CLK c 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=18
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 130 150 hln 100 float=n
+p 2 13 32 hln 100 VSET n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=24
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 130 140 hln 100 float=n
+p 2 67 162 hrn 100 BOUT n 80 160 u
+a 0 u 1 0 75 158 hln 100 pin=29
+a 0 u 0 0 80 160 hln 100 ERC=o
+a 0 u 0 0 -50 120 hln 100 float=n
+p 2 67 202 hrn 100 VREF n 80 200 u
+a 0 u 1 0 75 198 hln 100 pin=25
+a 0 u 0 0 80 200 hln 100 ERC=o
+a 0 u 0 0 -50 160 hln 100 float=n
+p 2 13 142 hln 100 G7 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=7
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 130 250 hln 100 float=n
+p 2 13 152 hln 100 G6 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=6
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 130 260 hln 100 float=n
+p 2 13 162 hln 100 G5 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=5
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 130 270 hln 100 float=n
+p 2 13 172 hln 100 G4 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=4
+a 0 u 0 0 0 170 hln 100 ERC=i
+a 0 u 0 0 130 280 hln 100 float=n
+p 2 13 182 hln 100 G3 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=3
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 float=n
+p 2 13 192 hln 100 G2 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 pin=2
+a 0 u 0 0 0 190 hln 100 ERC=i
+a 0 u 0 0 130 300 hln 100 float=n
+p 2 13 202 hln 100 G1 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 pin=1
+a 0 u 0 0 0 200 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 float=n
+p 2 13 132 hln 100 G8 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=8
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=n
+p 2 13 222 hln 100 B7 n 0 220 h
+a 0 u 1 0 5 218 hrn 100 pin=15
+a 0 u 0 0 0 220 hln 100 ERC=i
+a 0 u 0 0 130 330 hln 100 float=n
+p 2 13 232 hln 100 B6 n 0 230 h
+a 0 u 1 0 5 228 hrn 100 pin=14
+a 0 u 0 0 0 230 hln 100 ERC=i
+a 0 u 0 0 130 340 hln 100 float=n
+p 2 13 242 hln 100 B5 n 0 240 h
+a 0 u 1 0 5 238 hrn 100 pin=13
+a 0 u 0 0 0 240 hln 100 ERC=i
+a 0 u 0 0 130 350 hln 100 float=n
+p 2 13 252 hln 100 B4 n 0 250 h
+a 0 u 1 0 5 248 hrn 100 pin=12
+a 0 u 0 0 0 250 hln 100 ERC=i
+a 0 u 0 0 130 360 hln 100 float=n
+p 2 13 262 hln 100 B3 n 0 260 h
+a 0 u 1 0 5 258 hrn 100 pin=11
+a 0 u 0 0 0 260 hln 100 ERC=i
+a 0 u 0 0 0 150 hln 100 float=n
+p 2 13 272 hln 100 B2 n 0 270 h
+a 0 u 1 0 5 268 hrn 100 pin=10
+a 0 u 0 0 0 270 hln 100 ERC=i
+a 0 u 0 0 130 380 hln 100 float=n
+p 2 13 282 hln 100 B1 n 0 280 h
+a 0 u 1 0 5 278 hrn 100 pin=9
+a 0 u 0 0 0 280 hln 100 ERC=i
+a 0 u 0 0 0 170 hln 100 float=n
+p 2 13 212 hln 100 B8 n 0 210 h
+a 0 u 1 0 5 208 hrn 100 pin=16
+a 0 u 0 0 0 210 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 float=n
+p 2 12 298 hln 100 AGND n 20 310 v
+a 0 u 1 0 15 312 hcn 100 pin=23
+a 0 u 0 0 20 310 hln 100 ERC=p
+a 0 u 0 0 130 180 hln 100 float=e
+p 2 12 18 hln 100 AVCC n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=27
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 -90 130 hln 100 float=e
+p 0 44 298 hln 100 DGND1 n 50 310 v
+a 0 u 1 0 45 312 hcn 100 pin=37
+a 0 u 0 0 50 310 hln 100 ERC=p
+a 0 u 0 0 160 180 hln 100 float=e
+p 0 54 298 hln 100 DGND2 n 60 310 v
+a 0 u 1 0 55 312 hcn 100 pin=43
+a 0 u 0 0 60 310 hln 100 ERC=p
+a 0 u 0 0 170 180 hln 100 float=e
+@graphics 80 310 0 30 10
+r 0 10 10 70 300

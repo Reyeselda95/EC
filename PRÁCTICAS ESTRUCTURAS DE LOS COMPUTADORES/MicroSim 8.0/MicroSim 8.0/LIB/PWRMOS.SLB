@@ -1,0 +1,4501 @@
+*version 8.0 1766545560
+@index
+symloc BSS129:nmosd 0 147
+symloc BSS139:nmosd 147 147
+symloc BSS149:nmosd 294 147
+symloc BSS229:nmosd 441 147
+symloc FR_230H3 588 2380
+symloc FRL130:nmose_x 2968 214
+symloc IRF034:nmose 3182 154
+symloc IRF035:nmose 3336 154
+symloc IRF044:nmose 3490 154
+symloc IRF045:nmose 3644 154
+symloc IRF120:nmose 3798 154
+symloc IRF121:nmose 3952 154
+symloc IRF122:nmose 4106 154
+symloc IRF123:nmose 4260 154
+symloc IRF130:nmose 4414 154
+symloc IRF131:nmose 4568 154
+symloc IRF132:nmose 4722 154
+symloc IRF133:nmose 4876 154
+symloc IRF140:nmose 5030 154
+symloc IRF141:nmose 5184 154
+symloc IRF142:nmose 5338 154
+symloc IRF143:nmose 5492 154
+symloc IRF150:nmose 5646 154
+symloc IRF151:nmose 5800 154
+symloc IRF152:nmose 5954 154
+symloc IRF153:nmose 6108 154
+symloc IRF220:nmose 6262 154
+symloc IRF221:nmose 6416 154
+symloc IRF222:nmose 6570 154
+symloc IRF223:nmose 6724 154
+symloc IRF224:nmose 6878 154
+symloc IRF225:nmose 7032 154
+symloc IRF230:nmose 7186 154
+symloc IRF231:nmose 7340 154
+symloc IRF232:nmose 7494 154
+symloc IRF233:nmose 7648 154
+symloc IRF234:nmose 7802 154
+symloc IRF235:nmose 7956 154
+symloc IRF240:nmose 8110 154
+symloc IRF241:nmose 8264 154
+symloc IRF242:nmose 8418 154
+symloc IRF243:nmose 8572 154
+symloc IRF244:nmose 8726 154
+symloc IRF245:nmose 8880 154
+symloc IRF250:nmose 9034 154
+symloc IRF251:nmose 9188 154
+symloc IRF252:nmose 9342 154
+symloc IRF253:nmose 9496 154
+symloc IRF254:nmose 9650 154
+symloc IRF255:nmose 9804 154
+symloc IRF320:nmose 9958 154
+symloc IRF321:nmose 10112 154
+symloc IRF322:nmose 10266 154
+symloc IRF323:nmose 10420 154
+symloc IRF330:nmose 10574 154
+symloc IRF331:nmose 10728 154
+symloc IRF332:nmose 10882 154
+symloc IRF333:nmose 11036 154
+symloc IRF340:nmose 11190 154
+symloc IRF341:nmose 11344 154
+symloc IRF342:nmose 11498 154
+symloc IRF343:nmose 11652 154
+symloc IRF350:nmose 11806 154
+symloc IRF351:nmose 11960 154
+symloc IRF352:nmose 12114 154
+symloc IRF353:nmose 12268 154
+symloc IRF360:nmose 12422 154
+symloc IRF362:nmose 12576 154
+symloc IRF420:nmose 12730 154
+symloc IRF421:nmose 12884 154
+symloc IRF422:nmose 13038 154
+symloc IRF423:nmose 13192 154
+symloc IRF430:nmose 13346 154
+symloc IRF431:nmose 13500 154
+symloc IRF432:nmose 13654 154
+symloc IRF433:nmose 13808 154
+symloc IRF440:nmose 13962 154
+symloc IRF441:nmose 14116 154
+symloc IRF442:nmose 14270 154
+symloc IRF443:nmose 14424 154
+symloc IRF448:nmose 14578 154
+symloc IRF449:nmose 14732 154
+symloc IRF450:nmose 14886 154
+symloc IRF451:nmose 15040 154
+symloc IRF452:nmose 15194 154
+symloc IRF453:nmose 15348 154
+symloc IRF460:nmose 15502 154
+symloc IRF462:nmose 15656 154
+symloc IRF510:nmose 15810 154
+symloc IRF511:nmose 15964 154
+symloc IRF512:nmose 16118 154
+symloc IRF513:nmose 16272 154
+symloc IRF520:nmose 16426 154
+symloc IRF521:nmose 16580 154
+symloc IRF522:nmose 16734 154
+symloc IRF523:nmose 16888 154
+symloc IRF530:nmose 17042 154
+symloc IRF531:nmose 17196 154
+symloc IRF532:nmose 17350 154
+symloc IRF533:nmose 17504 154
+symloc IRF540:nmose 17658 154
+symloc IRF541:nmose 17812 154
+symloc IRF542:nmose 17966 154
+symloc IRF543:nmose 18120 154
+symloc IRF610:nmose 18274 154
+symloc IRF611:nmose 18428 154
+symloc IRF612:nmose 18582 154
+symloc IRF613:nmose 18736 154
+symloc IRF614:nmose 18890 154
+symloc IRF615:nmose 19044 154
+symloc IRF620:nmose 19198 154
+symloc IRF621:nmose 19352 154
+symloc IRF622:nmose 19506 154
+symloc IRF623:nmose 19660 154
+symloc IRF624:nmose 19814 154
+symloc IRF625:nmose 19968 154
+symloc IRF630:nmose 20122 154
+symloc IRF631:nmose 20276 154
+symloc IRF632:nmose 20430 154
+symloc IRF633:nmose 20584 154
+symloc IRF634:nmose 20738 154
+symloc IRF635:nmose 20892 154
+symloc IRF640:nmose 21046 154
+symloc IRF641:nmose 21200 154
+symloc IRF642:nmose 21354 154
+symloc IRF643:nmose 21508 154
+symloc IRF644:nmose 21662 154
+symloc IRF645:nmose 21816 154
+symloc IRF710:nmose 21970 154
+symloc IRF711:nmose 22124 154
+symloc IRF712:nmose 22278 154
+symloc IRF713:nmose 22432 154
+symloc IRF720:nmose 22586 154
+symloc IRF721:nmose 22740 154
+symloc IRF722:nmose 22894 154
+symloc IRF723:nmose 23048 154
+symloc IRF730:nmose 23202 154
+symloc IRF731:nmose 23356 154
+symloc IRF732:nmose 23510 154
+symloc IRF733:nmose 23664 154
+symloc IRF740:nmose 23818 154
+symloc IRF741:nmose 23972 154
+symloc IRF742:nmose 24126 154
+symloc IRF743:nmose 24280 154
+symloc IRF820:nmose 24434 154
+symloc IRF821:nmose 24588 154
+symloc IRF822:nmose 24742 154
+symloc IRF823:nmose 24896 154
+symloc IRF830:nmose 25050 154
+symloc IRF831:nmose 25204 154
+symloc IRF832:nmose 25358 154
+symloc IRF833:nmose 25512 154
+symloc IRF840:nmose 25666 154
+symloc IRF841:nmose 25820 154
+symloc IRF842:nmose 25974 154
+symloc IRF843:nmose 26128 154
+symloc IRF9130:pmose 26282 218
+symloc IRF9131:pmose 26500 157
+symloc IRF9132:pmose 26657 157
+symloc IRF9133:pmose 26814 157
+symloc IRF9140:pmose 26971 157
+symloc IRF9141:pmose 27128 157
+symloc IRF9142:pmose 27285 157
+symloc IRF9143:pmose 27442 157
+symloc IRF9230:pmose 27599 157
+symloc IRF9231:pmose 27756 157
+symloc IRF9232:pmose 27913 157
+symloc IRF9233:pmose 28070 157
+symloc IRF9240:pmose 28227 157
+symloc IRF9241:pmose 28384 157
+symloc IRF9242:pmose 28541 157
+symloc IRF9243:pmose 28698 157
+symloc IRF9510:pmose 28855 157
+symloc IRF9511:pmose 29012 157
+symloc IRF9512:pmose 29169 157
+symloc IRF9513:pmose 29326 157
+symloc IRF9520:pmose 29483 157
+symloc IRF9521:pmose 29640 157
+symloc IRF9522:pmose 29797 157
+symloc IRF9523:pmose 29954 157
+symloc IRF9530:pmose 30111 157
+symloc IRF9531:pmose 30268 157
+symloc IRF9532:pmose 30425 157
+symloc IRF9533:pmose 30582 157
+symloc IRF9540:pmose 30739 157
+symloc IRF9541:pmose 30896 157
+symloc IRF9542:pmose 31053 157
+symloc IRF9543:pmose 31210 157
+symloc IRF9610:pmose 31367 157
+symloc IRF9611:pmose 31524 157
+symloc IRF9612:pmose 31681 157
+symloc IRF9613:pmose 31838 157
+symloc IRF9620:pmose 31995 157
+symloc IRF9621:pmose 32152 157
+symloc IRF9622:pmose 32309 157
+symloc IRF9623:pmose 32466 157
+symloc IRF9630:pmose 32623 157
+symloc IRF9631:pmose 32780 157
+symloc IRF9632:pmose 32937 157
+symloc IRF9633:pmose 33094 157
+symloc IRF9640:pmose 33251 157
+symloc IRF9641:pmose 33408 157
+symloc IRF9642:pmose 33565 157
+symloc IRF9643:pmose 33722 157
+symloc IRF9Z10:pmose 33879 157
+symloc IRF9Z12:pmose 34036 157
+symloc IRF9Z20:pmose 34193 157
+symloc IRF9Z22:pmose 34350 157
+symloc IRF9Z30:pmose 34507 157
+symloc IRF9Z32:pmose 34664 157
+symloc IRFAC30:nmose 34821 157
+symloc IRFAC32:nmose 34978 157
+symloc IRFAC40:nmose 35135 157
+symloc IRFAC42:nmose 35292 157
+symloc IRFAE40:nmose 35449 157
+symloc IRFAE42:nmose 35606 157
+symloc IRFAE50:nmose 35763 157
+symloc IRFAE52:nmose 35920 157
+symloc IRFAF40:nmose 36077 157
+symloc IRFAF42:nmose 36234 157
+symloc IRFAF50:nmose 36391 157
+symloc IRFAF52:nmose 36548 157
+symloc IRFAG40:nmose 36705 157
+symloc IRFAG42:nmose 36862 157
+symloc IRFAG50:nmose 37019 157
+symloc IRFAG52:nmose 37176 157
+symloc IRFBC30:nmose 37333 157
+symloc IRFBC32:nmose 37490 157
+symloc IRFBC40:nmose 37647 157
+symloc IRFBC42:nmose 37804 157
+symloc IRFD010:nmose 37961 157
+symloc IRFD012:nmose 38118 157
+symloc IRFD020:nmose 38275 157
+symloc IRFD022:nmose 38432 157
+symloc IRFD110:nmose 38589 157
+symloc IRFD113:nmose 38746 157
+symloc IRFD120:nmose 38903 157
+symloc IRFD123:nmose 39060 157
+symloc IRFD1Z0:nmose 39217 157
+symloc IRFD1Z3:nmose 39374 157
+symloc IRFD210:nmose 39531 157
+symloc IRFD213:nmose 39688 157
+symloc IRFD220:nmose 39845 157
+symloc IRFD223:nmose 40002 157
+symloc IRFD9010:pmose 40159 160
+symloc IRFD9012:pmose 40319 160
+symloc IRFD9020:pmose 40479 160
+symloc IRFD9022:pmose 40639 160
+symloc IRFD9110:pmose 40799 160
+symloc IRFD9113:pmose 40959 160
+symloc IRFD9120:pmose 41119 160
+symloc IRFD9123:pmose 41279 160
+symloc IRFD9210:pmose 41439 160
+symloc IRFD9213:pmose 41599 160
+symloc IRFD9220:pmose 41759 160
+symloc IRFD9223:pmose 41919 160
+symloc IRFF110:nmose 42079 157
+symloc IRFF110/TEMP:nmose_x 42236 274
+symloc IRFF111:nmose 42510 157
+symloc IRFF112:nmose 42667 157
+symloc IRFF113:nmose 42824 157
+symloc IRFF120:nmose 42981 157
+symloc IRFF121:nmose 43138 157
+symloc IRFF122:nmose 43295 157
+symloc IRFF123:nmose 43452 157
+symloc IRFF130:nmose 43609 157
+symloc IRFF130/TEMP:nmose_x 43766 274
+symloc IRFF131:nmose 44040 157
+symloc IRFF132:nmose 44197 157
+symloc IRFF133:nmose 44354 157
+symloc IRFF210:nmose 44511 157
+symloc IRFF211:nmose 44668 157
+symloc IRFF212:nmose 44825 157
+symloc IRFF213:nmose 44982 157
+symloc IRFF220:nmose 45139 157
+symloc IRFF221:nmose 45296 157
+symloc IRFF222:nmose 45453 157
+symloc IRFF223:nmose 45610 157
+symloc IRFF230:nmose 45767 157
+symloc IRFF231:nmose 45924 157
+symloc IRFF232:nmose 46081 157
+symloc IRFF233:nmose 46238 157
+symloc IRFF310:nmose 46395 157
+symloc IRFF311:nmose 46552 157
+symloc IRFF312:nmose 46709 157
+symloc IRFF313:nmose 46866 157
+symloc IRFF320:nmose 47023 157
+symloc IRFF321:nmose 47180 157
+symloc IRFF322:nmose 47337 157
+symloc IRFF323:nmose 47494 157
+symloc IRFF330:nmose 47651 157
+symloc IRFF331:nmose 47808 157
+symloc IRFF332:nmose 47965 157
+symloc IRFF333:nmose 48122 157
+symloc IRFF420:nmose 48279 157
+symloc IRFF421:nmose 48436 157
+symloc IRFF422:nmose 48593 157
+symloc IRFF423:nmose 48750 157
+symloc IRFF430:nmose 48907 157
+symloc IRFF431:nmose 49064 157
+symloc IRFF432:nmose 49221 157
+symloc IRFF433:nmose 49378 157
+symloc IRFF9110:pmose 49535 160
+symloc IRFF9111:pmose 49695 160
+symloc IRFF9112:pmose 49855 160
+symloc IRFF9113:pmose 50015 160
+symloc IRFF9120:pmose 50175 160
+symloc IRFF9121:pmose 50335 160
+symloc IRFF9122:pmose 50495 160
+symloc IRFF9123:pmose 50655 160
+symloc IRFF9130:pmose 50815 160
+symloc IRFF9130/TEMP:pmose_x 50975 221
+symloc IRFF9131:pmose 51196 160
+symloc IRFF9132:pmose 51356 160
+symloc IRFF9133:pmose 51516 160
+symloc IRFF9210:pmose 51676 160
+symloc IRFF9211:pmose 51836 160
+symloc IRFF9212:pmose 51996 160
+symloc IRFF9213:pmose 52156 160
+symloc IRFF9220:pmose 52316 160
+symloc IRFF9221:pmose 52476 160
+symloc IRFF9222:pmose 52636 160
+symloc IRFF9223:pmose 52796 160
+symloc IRFF9230:pmose 52956 160
+symloc IRFF9231:pmose 53116 160
+symloc IRFF9232:pmose 53276 160
+symloc IRFF9233:pmose 53436 160
+symloc IRFG110:nmose 53596 157
+symloc IRFG113:nmose 53753 157
+symloc IRFG1z0:nmose 53910 157
+symloc IRFG1z3:nmose 54067 157
+symloc IRFG9110:pmose 54224 160
+symloc IRFG9113:pmose 54384 160
+symloc IRFH150:nmose 54544 157
+symloc IRFH250:nmose 54701 157
+symloc IRFH350:nmose 54858 157
+symloc IRFH450:nmose 55015 157
+symloc IRFJ120:nmose 55172 157
+symloc IRFJ121:nmose 55329 157
+symloc IRFJ122:nmose 55486 157
+symloc IRFJ123:nmose 55643 157
+symloc IRFJ130:nmose 55800 157
+symloc IRFJ131:nmose 55957 157
+symloc IRFJ132:nmose 56114 157
+symloc IRFJ133:nmose 56271 157
+symloc IRFJ140:nmose 56428 157
+symloc IRFJ141:nmose 56585 157
+symloc IRFJ142:nmose 56742 157
+symloc IRFJ143:nmose 56899 157
+symloc IRFJ220:nmose 57056 157
+symloc IRFJ221:nmose 57213 157
+symloc IRFJ222:nmose 57370 157
+symloc IRFJ223:nmose 57527 157
+symloc IRFJ230:nmose 57684 157
+symloc IRFJ231:nmose 57841 157
+symloc IRFJ232:nmose 57998 157
+symloc IRFJ233:nmose 58155 157
+symloc IRFJ240:nmose 58312 157
+symloc IRFJ241:nmose 58469 157
+symloc IRFJ242:nmose 58626 157
+symloc IRFJ243:nmose 58783 157
+symloc IRFJ320:nmose 58940 157
+symloc IRFJ321:nmose 59097 157
+symloc IRFJ322:nmose 59254 157
+symloc IRFJ323:nmose 59411 157
+symloc IRFJ330:nmose 59568 157
+symloc IRFJ331:nmose 59725 157
+symloc IRFJ332:nmose 59882 157
+symloc IRFJ333:nmose 60039 157
+symloc IRFJ340:nmose 60196 157
+symloc IRFJ341:nmose 60353 157
+symloc IRFJ342:nmose 60510 157
+symloc IRFJ343:nmose 60667 157
+symloc IRFJ420:nmose 60824 157
+symloc IRFJ421:nmose 60981 157
+symloc IRFJ422:nmose 61138 157
+symloc IRFJ423:nmose 61295 157
+symloc IRFJ430:nmose 61452 157
+symloc IRFJ431:nmose 61609 157
+symloc IRFJ432:nmose 61766 157
+symloc IRFJ433:nmose 61923 157
+symloc IRFJ440:nmose 62080 157
+symloc IRFJ441:nmose 62237 157
+symloc IRFJ442:nmose 62394 157
+symloc IRFJ443:nmose 62551 157
+symloc IRFM040:nmose 62708 157
+symloc IRFM140:nmose 62865 157
+symloc IRFM150:nmose 63022 157
+symloc IRFM240:nmose 63179 157
+symloc IRFM250:nmose 63336 157
+symloc IRFM340:nmose 63493 157
+symloc IRFM350:nmose 63650 157
+symloc IRFM440:nmose 63807 157
+symloc IRFM450:nmose 63964 157
+symloc IRFM9140:pmose 64121 160
+symloc IRFM9240:pmose 64281 160
+symloc IRFP040:nmose 64441 157
+symloc IRFP042:nmose 64598 157
+symloc IRFP044:nmose 64755 157
+symloc IRFP045:nmose 64912 157
+symloc IRFP140:nmose 65069 157
+symloc IRFP141:nmose 65226 157
+symloc IRFP142:nmose 65383 157
+symloc IRFP143:nmose 65540 157
+symloc IRFP150:nmose 65697 157
+symloc IRFP151:nmose 65854 157
+symloc IRFP152:nmose 66011 157
+symloc IRFP153:nmose 66168 157
+symloc IRFP240:nmose 66325 157
+symloc IRFP241:nmose 66482 157
+symloc IRFP242:nmose 66639 157
+symloc IRFP243:nmose 66796 157
+symloc IRFP244:nmose 66953 157
+symloc IRFP245:nmose 67110 157
+symloc IRFP250:nmose 67267 157
+symloc IRFP251:nmose 67424 157
+symloc IRFP252:nmose 67581 157
+symloc IRFP253:nmose 67738 157
+symloc IRFP254:nmose 67895 157
+symloc IRFP255:nmose 68052 157
+symloc IRFP340:nmose 68209 157
+symloc IRFP341:nmose 68366 157
+symloc IRFP342:nmose 68523 157
+symloc IRFP343:nmose 68680 157
+symloc IRFP350:nmose 68837 157
+symloc IRFP351:nmose 68994 157
+symloc IRFP352:nmose 69151 157
+symloc IRFP353:nmose 69308 157
+symloc IRFP360:nmose 69465 157
+symloc IRFP362:nmose 69622 157
+symloc IRFP440:nmose 69779 157
+symloc IRFP441:nmose 69936 157
+symloc IRFP442:nmose 70093 157
+symloc IRFP443:nmose 70250 157
+symloc IRFP450:nmose 70407 157
+symloc IRFP451:nmose 70564 157
+symloc IRFP452:nmose 70721 157
+symloc IRFP453:nmose 70878 157
+symloc IRFP460:nmose 71035 157
+symloc IRFP462:nmose 71192 157
+symloc IRFP9140:pmose 71349 160
+symloc IRFP9141:pmose 71509 160
+symloc IRFP9142:pmose 71669 160
+symloc IRFP9143:pmose 71829 160
+symloc IRFP9240:pmose 71989 160
+symloc IRFP9241:pmose 72149 160
+symloc IRFP9242:pmose 72309 160
+symloc IRFP9243:pmose 72469 160
+symloc IRFPC40:nmose 72629 157
+symloc IRFPC42:nmose 72786 157
+symloc IRFPE40:nmose 72943 157
+symloc IRFPE42:nmose 73100 157
+symloc IRFPE50:nmose 73257 157
+symloc IRFPE52:nmose 73414 157
+symloc IRFPF40:nmose 73571 157
+symloc IRFPF42:nmose 73728 157
+symloc IRFPF50:nmose 73885 157
+symloc IRFPF52:nmose 74042 157
+symloc IRFPG40:nmose 74199 157
+symloc IRFPG42:nmose 74356 157
+symloc IRFPG50:nmose 74513 157
+symloc IRFPG52:nmose 74670 157
+symloc IRFR010:nmose 74827 157
+symloc IRFR012:nmose 74984 157
+symloc IRFR020:nmose 75141 157
+symloc IRFR022:nmose 75298 157
+symloc IRFR110:nmose 75455 157
+symloc IRFR111:nmose 75612 157
+symloc IRFR120:nmose 75769 157
+symloc IRFR121:nmose 75926 157
+symloc IRFR210:nmose 76083 157
+symloc IRFR212:nmose 76240 157
+symloc IRFR220:nmose 76397 157
+symloc IRFR222:nmose 76554 157
+symloc IRFR9010:pmose 76711 160
+symloc IRFR9012:pmose 76871 160
+symloc IRFR9020:pmose 77031 160
+symloc IRFR9022:pmose 77191 160
+symloc IRFR9110:pmose 77351 160
+symloc IRFR9111:pmose 77511 160
+symloc IRFR9120:pmose 77671 160
+symloc IRFR9121:pmose 77831 160
+symloc IRFR9210:pmose 77991 160
+symloc IRFR9212:pmose 78151 160
+symloc IRFR9220:pmose 78311 160
+symloc IRFR9222:pmose 78471 160
+symloc IRFS1Z0:nmose 78631 157
+symloc IRFS1Z3:nmose 78788 157
+symloc IRFU010:nmose 78945 157
+symloc IRFU012:nmose 79102 157
+symloc IRFU020:nmose 79259 157
+symloc IRFU022:nmose 79416 157
+symloc IRFU110:nmose 79573 157
+symloc IRFU111:nmose 79730 157
+symloc IRFU120:nmose 79887 157
+symloc IRFU121:nmose 80044 157
+symloc IRFU210:nmose 80201 157
+symloc IRFU212:nmose 80358 157
+symloc IRFU220:nmose 80515 157
+symloc IRFU222:nmose 80672 157
+symloc IRFU9010:pmose 80829 160
+symloc IRFU9012:pmose 80989 160
+symloc IRFU9020:pmose 81149 160
+symloc IRFU9022:pmose 81309 160
+symloc IRFU9110:pmose 81469 160
+symloc IRFU9111:pmose 81629 160
+symloc IRFU9120:pmose 81789 160
+symloc IRFU9121:pmose 81949 160
+symloc IRFU9210:pmose 82109 160
+symloc IRFU9212:pmose 82269 160
+symloc IRFU9220:pmose 82429 160
+symloc IRFU9222:pmose 82589 160
+symloc IRFZ10:nmose 82749 154
+symloc IRFZ12:nmose 82903 154
+symloc IRFZ14:nmose 83057 154
+symloc IRFZ15:nmose 83211 154
+symloc IRFZ20:nmose 83365 154
+symloc IRFZ22:nmose 83519 154
+symloc IRFZ30:nmose 83673 154
+symloc IRFZ32:nmose 83827 154
+symloc IRFZ34:nmose 83981 154
+symloc IRFZ35:nmose 84135 154
+symloc IRFZ40:nmose 84289 154
+symloc IRFZ42:nmose 84443 154
+symloc IRFZ44:nmose 84597 154
+symloc IRFZ45:nmose 84751 154
+symloc IRH150:nmose 84905 154
+symloc IRH254:nmose 85059 154
+symloc IRH450:nmose 85213 154
+symloc IRH450/TEMP:nmose_x 85367 270
+symloc M2N6659,2N6659:nmose 85637 298
+symloc M2N6660,2N6660:nmose 85935 298
+symloc M2N6661,2N6661:nmose 86233 298
+symloc M2N6755,2N6755:nmose 86531 205
+symloc M2N6756,2N6756:nmose 86736 205
+symloc M2N6757,2N6757:nmose 86941 205
+symloc M2N6758,2N6758:nmose 87146 205
+symloc M2N6759,2N6759:nmose 87351 205
+symloc M2N6760,2N6760:nmose 87556 205
+symloc M2N6761,2N6761:nmose 87761 205
+symloc M2N6762,2N6762:nmose 87966 205
+symloc M2N6763,2N6763:nmose 88171 205
+symloc M2N6764,2N6764:nmose 88376 205
+symloc M2N6765,2N6765:nmose 88581 205
+symloc M2N6766,2N6766:nmose 88786 205
+symloc M2N6767,2N6767:nmose 88991 205
+symloc M2N6768,2N6768:nmose 89196 205
+symloc M2N6769,2N6769:nmose 89401 205
+symloc M2N6770,2N6770:nmose 89606 205
+symloc M2N6782,2N6782:nmose 89811 205
+symloc M2N6784,2N6784:nmose 90016 205
+symloc M2N6786,2N6786:nmose 90221 205
+symloc M2N6788,2N6788:nmose 90426 205
+symloc M2N6790,2N6790:nmose 90631 205
+symloc M2N6792,2N6792:nmose 90836 205
+symloc M2N6794,2N6794:nmose 91041 205
+symloc M2N6796,2N6796:nmose 91246 205
+symloc M2N6798,2N6798:nmose 91451 205
+symloc M2N6800,2N6800:nmose 91656 205
+symloc M2N6802,2N6802:nmose 91861 205
+symloc M2N6804,2N6804:pmose 92066 205
+symloc M2N6806,2N6806:pmose 92271 205
+symloc M2N6845,2N6845:pmose 92476 205
+symloc M2N6847,2N6847:pmose 92681 205
+symloc M2N6849,2N6849:pmose 92886 205
+symloc M2N6851,2N6851:pmose 93091 205
+symloc M2N7000,2N7000:nmose 93296 298
+symloc VN0120N2:nmose 93594 159
+symloc VN1310N:nmose_x 93753 216
+symloc VP1310:pmose_x 93969 287
+symloc mosd 94256 517 b
+symloc mose 94773 528 b
+symloc nmosd 95301 492 b
+symloc nmose 95793 530 b
+symloc pmosd 96323 555 b
+symloc pmose 96878 530 b
+symloc nmose_x 97408 529 b
+symloc pmose_x 97937 529 b
+symloc copyright 98466 575 b
+*symbol BSS129 ako nmosd
+d Depletion mode N MOSFET
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=BSS129
+a 0 sp 0 0 10 40 hcn 100 MODEL=BSS129
+*symbol BSS139 ako nmosd
+d Depletion mode N MOSFET
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=BSS139
+a 0 sp 0 0 10 40 hcn 100 MODEL=BSS139
+*symbol BSS149 ako nmosd
+d Depletion mode N MOSFET
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=BSS149
+a 0 sp 0 0 10 40 hcn 100 MODEL=BSS149
+*symbol BSS229 ako nmosd
+d Depletion mode N MOSFET
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=BSS229
+a 0 sp 0 0 10 40 hcn 100 MODEL=BSS229
+*symbol FR_230H3
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 112 80 hcn 100 PART=FR_230H3
+a 0 sp 0 0 10 40 hcn 100 MODEL=FR_230H3
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d0 %g %s0 @MODEL
+a 0 s 9 0 5 7 hcn 100 refdes=M?
+@pins
+p 0 13 42 hln 100 G n 0 40 h
+a 0 u 0 0 5 38 hrn 100 pin=5
+a 0 u 0 0 1 39 hln 100 ERC=x
+p 2 13 20 hln 100 S0 n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=6
+a 0 u 0 0 24 2 hln 100 ERC=x
+p 2 28 16 hln 50 S1 n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=7
+a 0 u 0 0 34 4 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 38 16 hln 50 S2 n 40 0 d
+a 0 u 0 0 45 3 hcn 100 pin=8
+a 0 u 0 0 43 6 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 47 16 hln 50 S3 n 50 0 d
+a 0 u 0 0 55 3 hcn 100 pin=9
+a 0 u 0 0 48 8 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 56 16 hln 50 S4 n 60 0 d
+a 0 u 0 0 65 3 hcn 100 pin=10
+a 0 u 0 0 58 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 66 16 hln 50 S5 n 70 0 d
+a 0 u 0 0 75 3 hcn 100 pin=11
+a 0 u 0 0 66 12 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 76 16 hln 50 S6 n 80 0 d
+a 0 u 0 0 85 3 hcn 100 pin=12
+a 0 u 0 0 75 13 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 87 16 hln 50 S7 n 90 0 d
+a 0 u 0 0 95 3 hcn 100 pin=13
+a 0 u 0 0 82 14 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 98 16 hln 50 S8 n 100 0 d
+a 0 u 0 0 105 3 hcn 100 pin=14
+a 0 u 0 0 92 14 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 107 16 hln 50 S9 n 110 0 d
+a 0 u 0 0 115 3 hcn 100 pin=15
+a 0 u 0 0 99 14 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 12 67 hln 100 D0 n 20 80 v
+a 0 u 0 0 15 82 hcn 100 pin=1
+a 0 u 0 0 33 63 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 27 68 hln 50 D1 n 30 80 v
+a 0 u 0 0 25 82 hcn 100 pin=2
+a 0 u 0 0 41 59 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 37 68 hln 50 D2 n 40 80 v
+a 0 u 0 0 35 82 hcn 100 pin=3
+a 0 u 0 0 48 57 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 46 68 hln 50 D3 n 50 80 v
+a 0 u 0 0 45 82 hcn 100 pin=4
+a 0 u 0 0 56 55 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 56 68 hln 50 D4 n 60 80 v
+a 0 u 0 0 55 82 hcn 100 pin=16
+a 0 u 0 0 65 53 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 65 68 hln 50 D5 n 70 80 v
+a 0 u 0 0 65 82 hcn 100 pin=17
+a 0 u 0 0 76 51 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 76 68 hln 50 D6 n 80 80 v
+a 0 u 0 0 75 82 hcn 100 pin=18
+a 0 u 0 0 84 49 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 120 80 0 40 10
+r 0 10 10 120 70
+*symbol FRL130 ako nmose_x
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=FRL130
+a 0 sp 0 0 10 40 hcn 100 MODEL=FRL130
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+*symbol IRF034 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF034
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF034
+*symbol IRF035 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF035
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF035
+*symbol IRF044 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF044
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF044
+*symbol IRF045 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF045
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF045
+*symbol IRF120 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF120
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF120
+*symbol IRF121 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF121
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF121
+*symbol IRF122 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF122
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF122
+*symbol IRF123 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF123
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF123
+*symbol IRF130 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF130
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF130
+*symbol IRF131 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF131
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF131
+*symbol IRF132 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF132
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF132
+*symbol IRF133 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF133
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF133
+*symbol IRF140 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF140
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF140
+*symbol IRF141 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF141
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF141
+*symbol IRF142 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF142
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF142
+*symbol IRF143 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF143
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF143
+*symbol IRF150 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF150
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF150
+*symbol IRF151 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF151
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF151
+*symbol IRF152 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF152
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF152
+*symbol IRF153 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF153
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF153
+*symbol IRF220 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF220
+*symbol IRF221 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF221
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF221
+*symbol IRF222 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF222
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF222
+*symbol IRF223 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF223
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF223
+*symbol IRF224 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF224
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF224
+*symbol IRF225 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF225
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF225
+*symbol IRF230 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF230
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF230
+*symbol IRF231 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF231
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF231
+*symbol IRF232 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF232
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF232
+*symbol IRF233 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF233
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF233
+*symbol IRF234 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF234
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF234
+*symbol IRF235 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF235
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF235
+*symbol IRF240 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF240
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF240
+*symbol IRF241 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF241
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF241
+*symbol IRF242 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF242
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF242
+*symbol IRF243 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF243
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF243
+*symbol IRF244 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF244
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF244
+*symbol IRF245 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF245
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF245
+*symbol IRF250 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF250
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF250
+*symbol IRF251 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF251
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF251
+*symbol IRF252 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF252
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF252
+*symbol IRF253 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF253
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF253
+*symbol IRF254 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF254
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF254
+*symbol IRF255 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF255
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF255
+*symbol IRF320 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF320
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF320
+*symbol IRF321 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF321
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF321
+*symbol IRF322 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF322
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF322
+*symbol IRF323 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF323
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF323
+*symbol IRF330 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF330
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF330
+*symbol IRF331 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF331
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF331
+*symbol IRF332 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF332
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF332
+*symbol IRF333 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF333
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF333
+*symbol IRF340 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF340
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF340
+*symbol IRF341 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF341
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF341
+*symbol IRF342 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF342
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF342
+*symbol IRF343 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF343
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF343
+*symbol IRF350 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF350
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF350
+*symbol IRF351 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF351
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF351
+*symbol IRF352 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF352
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF352
+*symbol IRF353 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF353
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF353
+*symbol IRF360 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF360
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF360
+*symbol IRF362 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF362
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF362
+*symbol IRF420 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF420
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF420
+*symbol IRF421 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF421
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF421
+*symbol IRF422 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF422
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF422
+*symbol IRF423 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF423
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF423
+*symbol IRF430 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF430
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF430
+*symbol IRF431 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF431
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF431
+*symbol IRF432 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF432
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF432
+*symbol IRF433 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF433
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF433
+*symbol IRF440 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF440
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF440
+*symbol IRF441 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF441
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF441
+*symbol IRF442 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF442
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF442
+*symbol IRF443 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF443
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF443
+*symbol IRF448 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF448
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF448
+*symbol IRF449 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF449
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF449
+*symbol IRF450 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF450
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF450
+*symbol IRF451 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF451
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF451
+*symbol IRF452 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF452
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF452
+*symbol IRF453 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF453
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF453
+*symbol IRF460 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF460
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF460
+*symbol IRF462 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF462
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF462
+*symbol IRF510 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF510
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF510
+*symbol IRF511 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF511
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF511
+*symbol IRF512 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF512
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF512
+*symbol IRF513 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF513
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF513
+*symbol IRF520 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF520
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF520
+*symbol IRF521 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF521
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF521
+*symbol IRF522 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF522
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF522
+*symbol IRF523 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF523
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF523
+*symbol IRF530 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF530
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF530
+*symbol IRF531 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF531
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF531
+*symbol IRF532 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF532
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF532
+*symbol IRF533 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF533
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF533
+*symbol IRF540 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF540
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF540
+*symbol IRF541 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF541
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF541
+*symbol IRF542 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF542
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF542
+*symbol IRF543 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF543
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF543
+*symbol IRF610 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF610
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF610
+*symbol IRF611 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF611
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF611
+*symbol IRF612 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF612
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF612
+*symbol IRF613 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF613
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF613
+*symbol IRF614 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF614
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF614
+*symbol IRF615 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF615
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF615
+*symbol IRF620 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF620
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF620
+*symbol IRF621 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF621
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF621
+*symbol IRF622 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF622
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF622
+*symbol IRF623 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF623
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF623
+*symbol IRF624 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF624
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF624
+*symbol IRF625 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF625
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF625
+*symbol IRF630 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF630
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF630
+*symbol IRF631 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF631
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF631
+*symbol IRF632 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF632
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF632
+*symbol IRF633 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF633
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF633
+*symbol IRF634 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF634
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF634
+*symbol IRF635 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF635
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF635
+*symbol IRF640 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF640
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF640
+*symbol IRF641 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF641
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF641
+*symbol IRF642 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF642
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF642
+*symbol IRF643 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF643
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF643
+*symbol IRF644 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF644
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF644
+*symbol IRF645 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF645
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF645
+*symbol IRF710 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF710
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF710
+*symbol IRF711 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF711
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF711
+*symbol IRF712 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF712
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF712
+*symbol IRF713 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF713
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF713
+*symbol IRF720 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF720
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF720
+*symbol IRF721 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF721
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF721
+*symbol IRF722 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF722
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF722
+*symbol IRF723 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF723
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF723
+*symbol IRF730 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF730
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF730
+*symbol IRF731 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF731
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF731
+*symbol IRF732 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF732
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF732
+*symbol IRF733 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF733
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF733
+*symbol IRF740 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF740
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF740
+*symbol IRF741 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF741
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF741
+*symbol IRF742 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF742
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF742
+*symbol IRF743 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF743
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF743
+*symbol IRF820 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF820
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF820
+*symbol IRF821 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF821
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF821
+*symbol IRF822 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF822
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF822
+*symbol IRF823 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF823
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF823
+*symbol IRF830 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF830
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF830
+*symbol IRF831 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF831
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF831
+*symbol IRF832 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF832
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF832
+*symbol IRF833 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF833
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF833
+*symbol IRF840 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF840
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF840
+*symbol IRF841 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF841
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF841
+*symbol IRF842 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF842
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF842
+*symbol IRF843 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF843
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF843
+*symbol IRF9130 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9130
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9130
+a 1 sp 0 0 0 0 hcn 100 template=M^@refdes %d %g %s %s @MODEL
+*symbol IRF9131 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9131
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9131
+*symbol IRF9132 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9132
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9132
+*symbol IRF9133 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9133
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9133
+*symbol IRF9140 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9140
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9140
+*symbol IRF9141 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9141
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9141
+*symbol IRF9142 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9142
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9142
+*symbol IRF9143 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9143
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9143
+*symbol IRF9230 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9230
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9230
+*symbol IRF9231 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9231
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9231
+*symbol IRF9232 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9232
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9232
+*symbol IRF9233 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9233
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9233
+*symbol IRF9240 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9240
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9240
+*symbol IRF9241 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9241
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9241
+*symbol IRF9242 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9242
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9242
+*symbol IRF9243 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9243
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9243
+*symbol IRF9510 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9510
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9510
+*symbol IRF9511 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9511
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9511
+*symbol IRF9512 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9512
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9512
+*symbol IRF9513 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9513
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9513
+*symbol IRF9520 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9520
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9520
+*symbol IRF9521 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9521
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9521
+*symbol IRF9522 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9522
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9522
+*symbol IRF9523 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9523
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9523
+*symbol IRF9530 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9530
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9530
+*symbol IRF9531 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9531
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9531
+*symbol IRF9532 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9532
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9532
+*symbol IRF9533 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9533
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9533
+*symbol IRF9540 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9540
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9540
+*symbol IRF9541 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9541
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9541
+*symbol IRF9542 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9542
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9542
+*symbol IRF9543 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9543
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9543
+*symbol IRF9610 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9610
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9610
+*symbol IRF9611 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9611
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9611
+*symbol IRF9612 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9612
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9612
+*symbol IRF9613 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9613
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9613
+*symbol IRF9620 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9620
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9620
+*symbol IRF9621 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9621
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9621
+*symbol IRF9622 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9622
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9622
+*symbol IRF9623 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9623
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9623
+*symbol IRF9630 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9630
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9630
+*symbol IRF9631 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9631
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9631
+*symbol IRF9632 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9632
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9632
+*symbol IRF9633 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9633
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9633
+*symbol IRF9640 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9640
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9640
+*symbol IRF9641 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9641
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9641
+*symbol IRF9642 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9642
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9642
+*symbol IRF9643 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9643
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9643
+*symbol IRF9Z10 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9Z10
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9Z10
+*symbol IRF9Z12 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9Z12
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9Z12
+*symbol IRF9Z20 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9Z20
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9Z20
+*symbol IRF9Z22 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9Z22
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9Z22
+*symbol IRF9Z30 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9Z30
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9Z30
+*symbol IRF9Z32 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRF9Z32
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF9Z32
+*symbol IRFAC30 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAC30
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAC30
+*symbol IRFAC32 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAC32
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAC32
+*symbol IRFAC40 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAC40
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAC40
+*symbol IRFAC42 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAC42
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAC42
+*symbol IRFAE40 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAE40
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAE40
+*symbol IRFAE42 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAE42
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAE42
+*symbol IRFAE50 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAE50
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAE50
+*symbol IRFAE52 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAE52
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAE52
+*symbol IRFAF40 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAF40
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAF40
+*symbol IRFAF42 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAF42
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAF42
+*symbol IRFAF50 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAF50
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAF50
+*symbol IRFAF52 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAF52
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAF52
+*symbol IRFAG40 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAG40
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAG40
+*symbol IRFAG42 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAG42
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAG42
+*symbol IRFAG50 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAG50
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAG50
+*symbol IRFAG52 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFAG52
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFAG52
+*symbol IRFBC30 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFBC30
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFBC30
+*symbol IRFBC32 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFBC32
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFBC32
+*symbol IRFBC40 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFBC40
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFBC40
+*symbol IRFBC42 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFBC42
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFBC42
+*symbol IRFD010 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD010
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD010
+*symbol IRFD012 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD012
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD012
+*symbol IRFD020 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD020
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD020
+*symbol IRFD022 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD022
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD022
+*symbol IRFD110 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD110
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD110
+*symbol IRFD113 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD113
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD113
+*symbol IRFD120 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD120
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD120
+*symbol IRFD123 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD123
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD123
+*symbol IRFD1Z0 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD1Z0
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD1Z0
+*symbol IRFD1Z3 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD1Z3
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD1Z3
+*symbol IRFD210 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD210
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD210
+*symbol IRFD213 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD213
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD213
+*symbol IRFD220 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD220
+*symbol IRFD223 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD223
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD223
+*symbol IRFD9010 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9010
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9010
+*symbol IRFD9012 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9012
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9012
+*symbol IRFD9020 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9020
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9020
+*symbol IRFD9022 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9022
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9022
+*symbol IRFD9110 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9110
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9110
+*symbol IRFD9113 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9113
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9113
+*symbol IRFD9120 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9120
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9120
+*symbol IRFD9123 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9123
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9123
+*symbol IRFD9210 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9210
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9210
+*symbol IRFD9213 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9213
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9213
+*symbol IRFD9220 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9220
+*symbol IRFD9223 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFD9223
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFD9223
+*symbol IRFF110 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF110
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF110
+*symbol IRFF110/TEMP ako nmose_x
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 -8 40 hcn 100 PART=IRFF110/TEMP
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF110/TEMP
+a 0 s 0 0 10 40 hcn 100 COMPONENT=IRFF110
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+*symbol IRFF111 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF111
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF111
+*symbol IRFF112 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF112
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF112
+*symbol IRFF113 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF113
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF113
+*symbol IRFF120 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF120
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF120
+*symbol IRFF121 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF121
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF121
+*symbol IRFF122 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF122
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF122
+*symbol IRFF123 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF123
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF123
+*symbol IRFF130 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF130
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF130
+*symbol IRFF130/TEMP ako nmose_x
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 -9 40 hcn 100 PART=IRFF130/TEMP
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF130/TEMP
+a 0 s 0 0 10 40 hcn 100 COMPONENT=IRFF130
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+*symbol IRFF131 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF131
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF131
+*symbol IRFF132 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF132
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF132
+*symbol IRFF133 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF133
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF133
+*symbol IRFF210 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF210
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF210
+*symbol IRFF211 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF211
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF211
+*symbol IRFF212 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF212
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF212
+*symbol IRFF213 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF213
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF213
+*symbol IRFF220 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF220
+*symbol IRFF221 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF221
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF221
+*symbol IRFF222 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF222
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF222
+*symbol IRFF223 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF223
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF223
+*symbol IRFF230 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF230
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF230
+*symbol IRFF231 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF231
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF231
+*symbol IRFF232 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF232
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF232
+*symbol IRFF233 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF233
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF233
+*symbol IRFF310 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF310
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF310
+*symbol IRFF311 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF311
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF311
+*symbol IRFF312 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF312
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF312
+*symbol IRFF313 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF313
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF313
+*symbol IRFF320 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF320
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF320
+*symbol IRFF321 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF321
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF321
+*symbol IRFF322 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF322
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF322
+*symbol IRFF323 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF323
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF323
+*symbol IRFF330 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF330
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF330
+*symbol IRFF331 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF331
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF331
+*symbol IRFF332 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF332
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF332
+*symbol IRFF333 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF333
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF333
+*symbol IRFF420 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF420
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF420
+*symbol IRFF421 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF421
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF421
+*symbol IRFF422 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF422
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF422
+*symbol IRFF423 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF423
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF423
+*symbol IRFF430 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF430
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF430
+*symbol IRFF431 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF431
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF431
+*symbol IRFF432 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF432
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF432
+*symbol IRFF433 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF433
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF433
+*symbol IRFF9110 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9110
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9110
+*symbol IRFF9111 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9111
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9111
+*symbol IRFF9112 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9112
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9112
+*symbol IRFF9113 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9113
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9113
+*symbol IRFF9120 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9120
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9120
+*symbol IRFF9121 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9121
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9121
+*symbol IRFF9122 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9122
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9122
+*symbol IRFF9123 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9123
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9123
+*symbol IRFF9130 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9130
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9130
+*symbol IRFF9130/TEMP ako pmose_x
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 -10 41 hcn 100 PART=IRFF9130/TEMP
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9130/TEMP
+a 0 s 0 0 10 40 hcn 100 COMPONENT=IRFF9130
+*symbol IRFF9131 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9131
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9131
+*symbol IRFF9132 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9132
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9132
+*symbol IRFF9133 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9133
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9133
+*symbol IRFF9210 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9210
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9210
+*symbol IRFF9211 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9211
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9211
+*symbol IRFF9212 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9212
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9212
+*symbol IRFF9213 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9213
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9213
+*symbol IRFF9220 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9220
+*symbol IRFF9221 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9221
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9221
+*symbol IRFF9222 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9222
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9222
+*symbol IRFF9223 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9223
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9223
+*symbol IRFF9230 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9230
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9230
+*symbol IRFF9231 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9231
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9231
+*symbol IRFF9232 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9232
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9232
+*symbol IRFF9233 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFF9233
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFF9233
+*symbol IRFG110 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFG110
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFG110
+*symbol IRFG113 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFG113
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFG113
+*symbol IRFG1z0 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFG1Z0
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFG1Z0
+*symbol IRFG1z3 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFG1Z3
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFG1Z3
+*symbol IRFG9110 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFG9110
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFG9110
+*symbol IRFG9113 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFG9113
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFG9113
+*symbol IRFH150 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFH150
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFH150
+*symbol IRFH250 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFH250
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFH250
+*symbol IRFH350 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFH350
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFH350
+*symbol IRFH450 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFH450
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFH450
+*symbol IRFJ120 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ120
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ120
+*symbol IRFJ121 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ121
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ121
+*symbol IRFJ122 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ122
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ122
+*symbol IRFJ123 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ123
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ123
+*symbol IRFJ130 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ130
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ130
+*symbol IRFJ131 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ131
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ131
+*symbol IRFJ132 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ132
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ132
+*symbol IRFJ133 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ133
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ133
+*symbol IRFJ140 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ140
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ140
+*symbol IRFJ141 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ141
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ141
+*symbol IRFJ142 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ142
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ142
+*symbol IRFJ143 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ143
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ143
+*symbol IRFJ220 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ220
+*symbol IRFJ221 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ221
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ221
+*symbol IRFJ222 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ222
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ222
+*symbol IRFJ223 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ223
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ223
+*symbol IRFJ230 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ230
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ230
+*symbol IRFJ231 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ231
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ231
+*symbol IRFJ232 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ232
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ232
+*symbol IRFJ233 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ233
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ233
+*symbol IRFJ240 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ240
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ240
+*symbol IRFJ241 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ241
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ241
+*symbol IRFJ242 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ242
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ242
+*symbol IRFJ243 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ243
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ243
+*symbol IRFJ320 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ320
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ320
+*symbol IRFJ321 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ321
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ321
+*symbol IRFJ322 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ322
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ322
+*symbol IRFJ323 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ323
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ323
+*symbol IRFJ330 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ330
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ330
+*symbol IRFJ331 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ331
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ331
+*symbol IRFJ332 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ332
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ332
+*symbol IRFJ333 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ333
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ333
+*symbol IRFJ340 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ340
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ340
+*symbol IRFJ341 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ341
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ341
+*symbol IRFJ342 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ342
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ342
+*symbol IRFJ343 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ343
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ343
+*symbol IRFJ420 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ420
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ420
+*symbol IRFJ421 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ421
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ421
+*symbol IRFJ422 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ422
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ422
+*symbol IRFJ423 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ423
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ423
+*symbol IRFJ430 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ430
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ430
+*symbol IRFJ431 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ431
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ431
+*symbol IRFJ432 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ432
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ432
+*symbol IRFJ433 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ433
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ433
+*symbol IRFJ440 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ440
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ440
+*symbol IRFJ441 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ441
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ441
+*symbol IRFJ442 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ442
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ442
+*symbol IRFJ443 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFJ443
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFJ443
+*symbol IRFM040 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM040
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM040
+*symbol IRFM140 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM140
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM140
+*symbol IRFM150 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM150
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM150
+*symbol IRFM240 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM240
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM240
+*symbol IRFM250 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM250
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM250
+*symbol IRFM340 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM340
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM340
+*symbol IRFM350 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM350
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM350
+*symbol IRFM440 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM440
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM440
+*symbol IRFM450 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM450
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM450
+*symbol IRFM9140 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM9140
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM9140
+*symbol IRFM9240 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFM9240
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFM9240
+*symbol IRFP040 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP040
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP040
+*symbol IRFP042 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP042
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP042
+*symbol IRFP044 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP044
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP044
+*symbol IRFP045 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP045
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP045
+*symbol IRFP140 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP140
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP140
+*symbol IRFP141 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP141
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP141
+*symbol IRFP142 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP142
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP142
+*symbol IRFP143 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP143
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP143
+*symbol IRFP150 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP150
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP150
+*symbol IRFP151 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP151
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP151
+*symbol IRFP152 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP152
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP152
+*symbol IRFP153 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP153
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP153
+*symbol IRFP240 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP240
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP240
+*symbol IRFP241 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP241
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP241
+*symbol IRFP242 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP242
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP242
+*symbol IRFP243 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP243
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP243
+*symbol IRFP244 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP244
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP244
+*symbol IRFP245 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP245
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP245
+*symbol IRFP250 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP250
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP250
+*symbol IRFP251 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP251
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP251
+*symbol IRFP252 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP252
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP252
+*symbol IRFP253 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP253
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP253
+*symbol IRFP254 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP254
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP254
+*symbol IRFP255 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP255
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP255
+*symbol IRFP340 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP340
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP340
+*symbol IRFP341 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP341
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP341
+*symbol IRFP342 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP342
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP342
+*symbol IRFP343 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP343
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP343
+*symbol IRFP350 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP350
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP350
+*symbol IRFP351 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP351
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP351
+*symbol IRFP352 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP352
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP352
+*symbol IRFP353 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP353
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP353
+*symbol IRFP360 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP360
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP360
+*symbol IRFP362 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP362
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP362
+*symbol IRFP440 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP440
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP440
+*symbol IRFP441 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP441
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP441
+*symbol IRFP442 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP442
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP442
+*symbol IRFP443 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP443
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP443
+*symbol IRFP450 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP450
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP450
+*symbol IRFP451 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP451
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP451
+*symbol IRFP452 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP452
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP452
+*symbol IRFP453 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP453
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP453
+*symbol IRFP460 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP460
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP460
+*symbol IRFP462 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP462
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP462
+*symbol IRFP9140 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP9140
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP9140
+*symbol IRFP9141 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP9141
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP9141
+*symbol IRFP9142 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP9142
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP9142
+*symbol IRFP9143 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP9143
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP9143
+*symbol IRFP9240 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP9240
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP9240
+*symbol IRFP9241 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP9241
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP9241
+*symbol IRFP9242 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP9242
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP9242
+*symbol IRFP9243 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFP9243
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFP9243
+*symbol IRFPC40 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPC40
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPC40
+*symbol IRFPC42 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPC42
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPC42
+*symbol IRFPE40 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPE40
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPE40
+*symbol IRFPE42 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPE42
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPE42
+*symbol IRFPE50 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPE50
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPE50
+*symbol IRFPE52 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPE52
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPE52
+*symbol IRFPF40 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPF40
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPF40
+*symbol IRFPF42 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPF42
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPF42
+*symbol IRFPF50 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPF50
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPF50
+*symbol IRFPF52 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPF52
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPF52
+*symbol IRFPG40 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPG40
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPG40
+*symbol IRFPG42 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPG42
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPG42
+*symbol IRFPG50 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPG50
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPG50
+*symbol IRFPG52 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFPG52
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFPG52
+*symbol IRFR010 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR010
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR010
+*symbol IRFR012 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR012
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR012
+*symbol IRFR020 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR020
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR020
+*symbol IRFR022 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR022
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR022
+*symbol IRFR110 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR110
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR110
+*symbol IRFR111 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR111
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR111
+*symbol IRFR120 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR120
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR120
+*symbol IRFR121 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR121
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR121
+*symbol IRFR210 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR210
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR210
+*symbol IRFR212 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR212
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR212
+*symbol IRFR220 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR220
+*symbol IRFR222 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR222
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR222
+*symbol IRFR9010 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9010
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9010
+*symbol IRFR9012 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9012
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9012
+*symbol IRFR9020 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9020
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9020
+*symbol IRFR9022 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9022
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9022
+*symbol IRFR9110 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9110
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9110
+*symbol IRFR9111 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9111
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9111
+*symbol IRFR9120 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9120
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9120
+*symbol IRFR9121 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9121
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9121
+*symbol IRFR9210 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9210
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9210
+*symbol IRFR9212 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9212
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9212
+*symbol IRFR9220 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9220
+*symbol IRFR9222 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFR9222
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFR9222
+*symbol IRFS1Z0 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFS1Z0
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFS1Z0
+*symbol IRFS1Z3 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFS1Z3
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFS1Z3
+*symbol IRFU010 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU010
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU010
+*symbol IRFU012 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU012
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU012
+*symbol IRFU020 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU020
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU020
+*symbol IRFU022 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU022
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU022
+*symbol IRFU110 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU110
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU110
+*symbol IRFU111 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU111
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU111
+*symbol IRFU120 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU120
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU120
+*symbol IRFU121 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU121
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU121
+*symbol IRFU210 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU210
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU210
+*symbol IRFU212 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU212
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU212
+*symbol IRFU220 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU220
+*symbol IRFU222 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU222
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU222
+*symbol IRFU9010 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9010
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9010
+*symbol IRFU9012 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9012
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9012
+*symbol IRFU9020 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9020
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9020
+*symbol IRFU9022 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9022
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9022
+*symbol IRFU9110 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9110
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9110
+*symbol IRFU9111 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9111
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9111
+*symbol IRFU9120 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9120
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9120
+*symbol IRFU9121 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9121
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9121
+*symbol IRFU9210 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9210
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9210
+*symbol IRFU9212 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9212
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9212
+*symbol IRFU9220 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9220
+*symbol IRFU9222 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFU9222
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9222
+*symbol IRFZ10 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ10
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ10
+*symbol IRFZ12 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ12
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ12
+*symbol IRFZ14 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ14
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ14
+*symbol IRFZ15 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ15
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ15
+*symbol IRFZ20 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ20
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ20
+*symbol IRFZ22 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ22
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ22
+*symbol IRFZ30 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ30
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ30
+*symbol IRFZ32 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ32
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ32
+*symbol IRFZ34 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ34
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ34
+*symbol IRFZ35 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ35
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ35
+*symbol IRFZ40 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ40
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ40
+*symbol IRFZ42 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ42
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ42
+*symbol IRFZ44 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ44
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ44
+*symbol IRFZ45 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRFZ45
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFZ45
+*symbol IRH150 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRH150
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRH150
+*symbol IRH254 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRH254
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRH254
+*symbol IRH450 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=IRH450
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRH450
+*symbol IRH450/TEMP ako nmose_x
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 -6 41 hcn 100 PART=IRH450/TEMP
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRH450/TEMP
+a 0 s 0 0 10 40 hcn 100 COMPONENT=IRH450
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+*symbol M2N6659,2N6659 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=M^@refdes %d %g %s %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6659
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6659
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2N6659
+*symbol M2N6660,2N6660 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=M^@refdes %d %g %s %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6660
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6660
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2N6660
+*symbol M2N6661,2N6661 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=M^@refdes %d %g %s %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6661
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6661
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2N6661
+*symbol M2N6755,2N6755 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6755
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6755
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6755
+*symbol M2N6756,2N6756 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6756
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6756
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6756
+*symbol M2N6757,2N6757 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6757
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6757
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6757
+*symbol M2N6758,2N6758 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6758
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6758
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6758
+*symbol M2N6759,2N6759 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6759
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6759
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6759
+*symbol M2N6760,2N6760 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6760
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6760
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6760
+*symbol M2N6761,2N6761 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6761
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6761
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6761
+*symbol M2N6762,2N6762 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6762
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6762
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6762
+*symbol M2N6763,2N6763 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6763
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6763
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6763
+*symbol M2N6764,2N6764 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6764
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6764
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6764
+*symbol M2N6765,2N6765 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6765
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6765
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6765
+*symbol M2N6766,2N6766 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6766
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6766
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6766
+*symbol M2N6767,2N6767 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6767
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6767
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6767
+*symbol M2N6768,2N6768 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6768
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6768
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6768
+*symbol M2N6769,2N6769 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6769
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6769
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6769
+*symbol M2N6770,2N6770 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6770
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6770
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6770
+*symbol M2N6782,2N6782 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6782
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6782
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6782
+*symbol M2N6784,2N6784 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6784
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6784
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6784
+*symbol M2N6786,2N6786 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6786
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6786
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6786
+*symbol M2N6788,2N6788 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6788
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6788
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6788
+*symbol M2N6790,2N6790 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6790
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6790
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6790
+*symbol M2N6792,2N6792 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6792
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6792
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6792
+*symbol M2N6794,2N6794 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6794
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6794
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6794
+*symbol M2N6796,2N6796 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6796
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6796
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6796
+*symbol M2N6798,2N6798 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6798
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6798
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6798
+*symbol M2N6800,2N6800 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6800
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6800
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6800
+*symbol M2N6802,2N6802 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6802
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6802
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6802
+*symbol M2N6804,2N6804 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6804
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6804
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6804
+*symbol M2N6806,2N6806 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6806
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6806
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6806
+*symbol M2N6845,2N6845 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6845
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6845
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6845
+*symbol M2N6847,2N6847 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6847
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6847
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6847
+*symbol M2N6849,2N6849 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6849
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6849
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6849
+*symbol M2N6851,2N6851 ako pmose
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=M2N6851
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N6851
+a 0 s 0 0 10 40 hcn 100 COMPONENT=2N6851
+*symbol M2N7000,2N7000 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=M^@refdes %d %g %s %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 10 40 hcn 100 PART=M2N7000
+a 0 sp 0 0 10 40 hcn 100 MODEL=M2N7000
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2N7000
+*symbol VN0120N2 ako nmose
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 3 41 hcn 100 PART=VN0120N2
+a 0 sp 0 0 10 40 hcn 100 MODEL=VN0120N2
+*symbol VN1310N ako nmose_x
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 5 41 hcn 100 PART=VN1310N
+a 0 sp 0 0 10 40 hcn 100 MODEL=VN1310N
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+*symbol VP1310 ako pmose_x
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=VP1310
+a 0 sp 0 0 10 40 hcn 100 MODEL=VP1310
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 s 0 0 0 10 hlb 100 COMPONENT=VP1310
+*symbol mosd b
+d mosfet - depletion (3 terminals)
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=M^@refdes %d %g %s %s @MODEL
+a 0 s 9 0 5 5 hcn 100 refdes=M?
+a 0 sp 0 0 0 0 hcn 100 PART=
+a 0 sp 0 0 0 10 hcn 100 MODEL=
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 7
+20 33
+;
+v 0 20 33
+21 33
+;
+v 0 21 33
+21 7
+;
+v 0 21 7
+20 7
+;
+v 0 21 30
+30 30
+;
+v 0 21 10
+30 10
+;
+v 0 30 20
+30 30
+;
+v 0 30 20
+21 20
+;
+*symbol mose b
+d mosfet - enhancement (3 terminals)
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=M^@refdes %d %g %s %s @MODEL
+a 0 s 9 0 5 5 hcn 100 refdes=M?
+a 0 sp 0 0 0 0 hcn 100 PART=
+a 0 sp 0 0 0 30 hcn 100 MODEL=
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol nmosd b
+d n-channel mosfet - depletion
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=M^@refdes %d %g %s %s @MODEL
+a 0 s 9 0 5 10 hcn 100 REFDES=M?
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 25 10 hcn 100 d n 30 0 d
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 40 hcn 100 s n 30 40 v
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol nmose b
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=M^@refdes %d %g %s %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol pmosd b
+d p-channel mosfet - depletion
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=M^@refdes %d %g %s %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 7
+20 33
+;
+v 0 20 33
+21 33
+;
+v 0 21 33
+21 7
+;
+v 0 21 7
+20 7
+;
+v 0 21 30
+30 30
+;
+v 0 21 10
+30 10
+;
+v 0 30 20
+26 24
+;
+v 0 26 16
+30 20
+;
+v 0 21 20
+30 20
+;
+v 0 30 20
+30 30
+;
+*symbol pmose b
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=M^@refdes %d %g %s %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol nmose_x b
+d n-channel mosfet - enhancement
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol pmose_x b
+d p-channel mosfet - enhancement
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=M?
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

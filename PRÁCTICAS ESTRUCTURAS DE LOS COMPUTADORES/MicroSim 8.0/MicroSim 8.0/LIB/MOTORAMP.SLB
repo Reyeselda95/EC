@@ -1,0 +1,482 @@
+*version 7.2 1348549354
+@index
+symloc LF411/MC:411/MC 0 147
+symloc LF412/MC:412/MC 147 160
+symloc LF441/MC:411/MC 307 147
+symloc LF442/MC:412/MC 454 160
+symloc LF444/MC:444/MC 614 160
+symloc LM324/MC:444/MC 774 160
+symloc LM358/MC:412/MC 934 160
+symloc LM833/MC:412/MC 1094 160
+symloc LM2902/MC:444/MC 1254 163
+symloc LM2904/MC:412/MC 1417 163
+symloc MC33071/MC:411/MC 1580 153
+symloc MC33072/MC:412/MC 1733 166
+symloc MC33074/MC:444/MC 1899 166
+symloc MC33078/MC:412/MC 2065 166
+symloc MC33079/MC:444/MC 2231 166
+symloc MC33171/MC:411/MC 2397 153
+symloc MC33172/MC:412/MC 2550 166
+symloc MC33174/MC:444/MC 2716 166
+symloc MC33178/MC:412/MC 2882 166
+symloc MC33179/MC:444/MC 3048 166
+symloc MC33181/MC:411/MC 3214 153
+symloc MC33182/MC:412/MC 3367 166
+symloc MC33184/MC:444/MC 3533 166
+symloc MC33272/MC:412/MC 3699 166
+symloc MC33274/MC:444/MC 3865 166
+symloc MC33282/MC:412/MC 4031 166
+symloc MC33284/MC:444/MC 4197 166
+symloc MC34084/MC:34084/MC 4363 168
+symloc TL061/MC:411/MC 4531 147
+symloc TL062/MC:412/MC 4678 160
+symloc TL064/MC:444/MC 4838 160
+symloc 411/MC 4998 1253 b
+symloc 412/MC 6251 940 b
+symloc 444/MC 7191 941 b
+symloc 34084/MC 8132 943 b
+symloc op5 9075 787 b
+symloc copyright 9862 575 b
+*symbol LF411/MC ako 411/MC
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LF411/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=LF411/MC
+*symbol LF412/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LF412/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=LF412/MC
+*symbol LF441/MC ako 411/MC
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LF441/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=LF441/MC
+*symbol LF442/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LF442/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=LF442/MC
+*symbol LF444/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LF444/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=LF444/MC
+*symbol LM324/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LM324/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=LM324/MC
+*symbol LM358/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LM358/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=LM358/MC
+*symbol LM833/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LM833/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=LM833/MC
+*symbol LM2902/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LM2902/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=LM2902/MC
+*symbol LM2904/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LM2904/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=LM2904/MC
+*symbol MC33071/MC ako 411/MC
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33071/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33071/MC
+*symbol MC33072/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33072/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33072/MC
+*symbol MC33074/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33074/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33074/MC
+*symbol MC33078/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33078/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33078/MC
+*symbol MC33079/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33079/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33079/MC
+*symbol MC33171/MC ako 411/MC
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33171/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33171/MC
+*symbol MC33172/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33172/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33172/MC
+*symbol MC33174/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33174/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33174/MC
+*symbol MC33178/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33178/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33178/MC
+*symbol MC33179/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33179/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33179/MC
+*symbol MC33181/MC ako 411/MC
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33181/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33181/MC
+*symbol MC33182/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33182/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33182/MC
+*symbol MC33184/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33184/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33184/MC
+*symbol MC33272/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33272/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33272/MC
+*symbol MC33274/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33274/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33274/MC
+*symbol MC33282/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33282/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33282/MC
+*symbol MC33284/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC33284/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33284/MC
+*symbol MC34084/MC ako 34084/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=MC34084/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=MC34084/MC
+*symbol TL061/MC ako 411/MC
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=TL061/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=TL061/MC
+*symbol TL062/MC ako 412/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=TL062/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=TL062/MC
+*symbol TL064/MC ako 444/MC
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=TL064/MC
+a 0 sp 0 0 50 60 hln 100 MODEL=TL064/MC
+*symbol 411/MC b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 12 -2 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 26 hrn 50 OS1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 37 hrn 50 OS2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 412/MC b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 12 -2 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 444/MC b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 12 -2 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 34084/MC b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 12 -2 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=13
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol op5 b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 50 10 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 8 hrn 100 pin=1
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 48 hrn 100 pin=2
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 45 3 hcn 100 pin=3
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 35 62 hcn 100 pin=4
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 75 28 hln 100 pin=5
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

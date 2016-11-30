@@ -1,0 +1,46 @@
+" GRAY8
+
+PROCEDURE GRAY8 (INPUT clock, reset;
+	OUTPUT q[4] CLOCKED_BY clock);
+
+IF reset THEN
+	q = 0;
+ELSE
+	STATE_MACHINE gray STATE_BITS q STATE_VALUES GRAY_CODE;
+		STATE s1:
+			GOTO s2;
+		STATE s2:
+			GOTO s3;
+		STATE s3:
+			GOTO s4;
+		STATE s4:
+			GOTO s5;
+		STATE s5:
+			GOTO s6;
+		STATE s6:
+			GOTO s7;
+		STATE s7:
+			GOTO s8;
+		STATE s8:
+			GOTO s9;
+		STATE s9:
+			GOTO s10;
+		STATE s10:
+			GOTO s11;
+		STATE s11:
+			GOTO s12;
+		STATE s12:
+			GOTO s13;
+		STATE s13:
+			GOTO s14;
+		STATE s14:
+			GOTO s15;
+		STATE s15:
+			GOTO s16;
+		STATE s16:
+			GOTO s1;
+	END gray;
+END IF;
+
+END GRAY8;
+

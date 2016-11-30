@@ -1,0 +1,311 @@
+*version 6.3 678668845
+u 322
+XC4000E 2097213472
+U? 7
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 4645 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 323 IF_OUT 760 760 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q4
+port 324 IF_OUT 760 610 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q3
+port 325 IF_OUT 760 460 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q2
+port 326 IF_OUT 760 310 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+port 327 IF_OUT 760 160 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 328 IF_IN 100 830 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+port 329 IF_IN 100 780 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 330 IF_IN 100 800 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+@parts
+part 18 FDRE 500 760 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 19 FDRE 500 610 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 20 FDRE 500 460 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 21 FDRE 500 310 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U4
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 25 INV 320 160 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U5
+a 0 sp 11 0 30 14 hlt 100 PART=INV
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 26 FDRE 500 160 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U6
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+@conn
+w 33
+s 660 760 760 760 27
+a 0 s 3 0 730 760 hln 100 LABEL=Q4
+s 620 760 660 760 28
+s 660 860 660 760 29
+s 240 860 660 860 30
+s 240 860 240 160 31
+s 240 160 320 160 32
+w 55
+s 660 610 760 610 49
+a 0 s 3 0 730 610 hln 100 LABEL=Q3
+s 620 610 660 610 50
+s 660 700 660 610 54
+s 460 760 500 760 51
+s 460 760 460 700 52
+s 460 700 660 700 53
+w 78
+s 660 460 760 460 72
+a 0 s 3 0 730 460 hln 100 LABEL=Q2
+s 660 550 660 460 76
+s 460 610 500 610 73
+s 460 610 460 550 74
+s 460 550 660 550 75
+s 620 460 660 460 77
+w 101
+s 660 310 760 310 95
+a 0 s 3 0 730 310 hln 100 LABEL=Q1
+s 660 400 660 310 99
+s 460 460 500 460 96
+s 460 460 460 400 97
+s 460 400 660 400 98
+s 620 310 660 310 100
+w 124
+s 660 160 760 160 118
+a 0 s 3 0 730 160 hln 100 LABEL=Q0
+s 620 160 660 160 119
+s 660 250 660 160 122
+s 460 250 660 250 123
+s 460 310 500 310 120
+s 460 310 460 250 121
+w 151
+s 100 780 400 780 141
+a 0 s 3 0 110 780 hln 100 LABEL=CE
+s 400 780 400 630 143
+s 400 630 500 630 142
+s 400 780 500 780 145
+s 400 180 500 180 146
+s 400 330 400 180 147
+s 400 330 500 330 144
+s 400 480 400 330 148
+s 400 480 500 480 149
+s 400 630 400 480 150
+w 206
+s 100 800 420 800 196
+a 0 s 3 0 110 800 hln 100 LABEL=C
+s 420 800 420 650 198
+s 420 650 500 650 197
+s 420 200 500 200 201
+s 420 350 420 200 202
+s 420 350 500 350 199
+s 420 500 420 350 203
+s 420 500 500 500 200
+s 420 650 420 500 204
+s 420 800 500 800 205
+w 262
+s 100 830 440 830 252
+a 0 s 3 0 110 830 hln 100 LABEL=R
+s 440 830 440 680 254
+s 440 680 500 680 253
+s 440 680 440 530 256
+s 440 530 440 380 258
+s 440 380 500 380 255
+s 440 530 500 530 259
+s 440 830 500 830 260
+s 440 380 440 230 261
+s 440 230 500 230 257
+w 309
+s 390 160 500 160 308
+a 0 s 3 0 430 160 hln 100 LABEL=Q4B
+@junction
+j 660 760
++ w 33
++ w 33
+j 620 760
++ p 18 Q
++ w 33
+j 320 160
++ p 25 I
++ w 33
+j 660 610
++ w 55
++ w 55
+j 500 760
++ p 18 D
++ w 55
+j 620 610
++ p 19 Q
++ w 55
+j 660 460
++ w 78
++ w 78
+j 500 610
++ p 19 D
++ w 78
+j 620 460
++ p 20 Q
++ w 78
+j 660 310
++ w 101
++ w 101
+j 500 460
++ p 20 D
++ w 101
+j 620 310
++ p 21 Q
++ w 101
+j 660 160
++ w 124
++ w 124
+j 500 310
++ p 21 D
++ w 124
+j 620 160
++ p 26 Q
++ w 124
+j 400 780
++ w 151
++ w 151
+j 400 630
++ w 151
++ w 151
+j 400 330
++ w 151
++ w 151
+j 400 480
++ w 151
++ w 151
+j 500 780
++ p 18 CE
++ w 151
+j 500 630
++ p 19 CE
++ w 151
+j 500 480
++ p 20 CE
++ w 151
+j 500 330
++ p 21 CE
++ w 151
+j 500 180
++ p 26 CE
++ w 151
+j 420 800
++ w 206
++ w 206
+j 420 650
++ w 206
++ w 206
+j 420 350
++ w 206
++ w 206
+j 420 500
++ w 206
++ w 206
+j 500 800
++ p 18 C
++ w 206
+j 500 650
++ p 19 C
++ w 206
+j 500 500
++ p 20 C
++ w 206
+j 500 350
++ p 21 C
++ w 206
+j 500 200
++ p 26 C
++ w 206
+j 440 830
++ w 262
++ w 262
+j 440 680
++ w 262
++ w 262
+j 440 530
++ w 262
++ w 262
+j 440 380
++ w 262
++ w 262
+j 500 830
++ p 18 R
++ w 262
+j 500 680
++ p 19 R
++ w 262
+j 500 530
++ p 20 R
++ w 262
+j 500 380
++ p 21 R
++ w 262
+j 500 230
++ p 26 R
++ w 262
+j 390 160
++ p 25 O
++ w 309
+j 500 160
++ p 26 D
++ w 309
+j 760 760
++ s 323
++ w 33
+j 760 610
++ s 324
++ w 55
+j 760 460
++ s 325
++ w 78
+j 760 310
++ s 326
++ w 101
+j 760 160
++ s 327
++ w 124
+j 100 830
++ s 328
++ w 262
+j 100 780
++ s 329
++ w 151
+j 100 800
++ s 330
++ w 206
+@attributes
+@text
+s 5 700 1070 hln 100 A
+s 5 700 1050 hln 100 1
+s 5 500 1020 hln 100 5-BIT JOHNSON COUNTER WITH
+s 5 460 1050 hln 100 25TH FEBRUARY 1995
+s 5 500 1000 hln 100 XC4000E FAMILY CJ5RE MACRO
+s 5 500 1030 hln 100 CLOCK ENABLE & SYNC RESET
+s 5 30 1070 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 30 1060 hln 100 DRAWN BY KS

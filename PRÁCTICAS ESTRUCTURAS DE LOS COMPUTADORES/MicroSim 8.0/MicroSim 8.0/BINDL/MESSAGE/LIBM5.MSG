@@ -1,0 +1,220 @@
+" M5 fitter messages
+"
+" Warnings
+"
+>W m5 fanout with no mux
+=[35000]     Fanout with unspecified mux and specified mux_line ignored.
+"
+" Error messages
+"
+>Ess m5 section name not valid
+=[35001]         SECTION name %s is not valid for device %s.
+& SECTION_NAME DEVICE
+*The device that you have targeted in the .pi file does not have a subsection
+*that corresponds to the given TARGET of one of the SECTIONs in the .pi file.
+>Es m5 function cannot fit due to grouping needs
+=[35002]         Function %s cannot fit due to grouping constraints.
+& FUNCTION_NAME
+*Placing this function in this device also requires placing a group of
+*other functions, which could not all be placed.  This may happen because of
+*user-defined grouping in the .pi file or because of pre-enable feedback
+*restrictions.
+>M m5 attempt shrunk
+=        Attempting to fit a reduced partition.
+*Identifies an attempt to fit into an AMD Mach device after removing one 
+*or more functions from the prior fit attempt.  The fitter may repeat 
+*fitting attempts at reduced  partitions until a fit is achieved.
+>E m5 failed clock routing
+=[35004]         MACH failed to route clock signals to pal blocks.
+& PARTITION_LEVEL
+*The partitioner could not accomodate the combined clock requirements of
+*the pal blocks as partitioned (check clock polarity, clock pin assignments).
+>Es m5 Clk signal must be on clk pin
+=[35005]         MACH clock signal %s must be assigned to a clock pin
+*The clock signal has been placed on a pin other than a clock pin
+*but needs to be on a clock pin to clock one or more functions.
+& SIGNAL_NAME PIN_NUM
+*User pin assignments violate restrictions on MVP buried macrocell fanouts.
+>Es m5 pin not valid
+=[35006]         Signal %s cannot fit due to invalid pin type.
+& SIGNAL_NAME
+>Es m5 wrong clock polarity
+=[35007]    Wrong clock polarity for '%s'.
+& SIGNAL_NAME
+>Eds m5 configured to pin clock
+=[35008]    BLK_CLK %d of %s already configured to pin clock.
+& BLOCK_CLOCK_NUM BLOCK_NUM
+>Ed m5 configured to PT clock
+=[35009]    BLK_CLK %d cannot be configured as a PT clock.
+& BLOCK_CLOCK_NUM
+>Eds m5 mismatch PT clock
+=[35010]    Mismatch PT clock for BLK_CLK %d of %s.
+& BLOCK_CLOCK_NUM BLOCK_LABEL
+>Edsd m5 clock already set
+=[35011]    BLK_CLK %d of %s already set to CLOCK%d.
+& BLOCK_CLOCK_NUM BLOCK_LABEL CLOCK_NUM
+>Eds m5 mismatch CEs
+=[35012]    Mismatch clock enables for BLK_CLK %d of %s.
+& BLOCK_CLOCK_NUM BLOCK_LABEL
+>Es m5 mismatch CEs for block clock 2 and 3
+=[35013]    Mismatch clock enables for BLK_CLK 2 and 3 of %s.
+& BLOCK_LABEL
+>E m5 no CE for PT clocks
+=[35014]    PT clocks cannot have a CE.
+>Eds clock configured to PT clock
+=[35015]    BLK_CLK %d in %s already configured to PT clock.
+& BLOCK_CLOCK_NUM BLOCK_LABEL
+>Ed m5 cannot be configured as PT clock
+=[35016]    BLK_CLK %d cannot be configured as a PT clock.
+& BLOCK_CLOCK_NUM
+>Es m5 pterm 3 used as PT clock
+=[35017]    Clock term 3 of %s already used as PT clock
+& BLOCK_LABEL
+>Es m5 pterm 3 used as clock enable
+=[35018]    Clock term 3 of %s already used as a clock enable
+& BLOCK_LABEL
+>Es m5 no clock equation
+=[35019] No clock equation for '%s'.
+& SIGNAL_NAME
+>Es m5 clock not specified in PI file
+=[35020]    Block clock not specified for '%s' in PI file.
+& SIGNAL_NAME
+>Es m5 out of enable terms
+=[35021]    Out of enable terms for %s.
+& BLOCK_LABEL
+>Es m5 power level mismatch
+=[35022]    Power levels mismatch for signals in %s.
+& BLOCK_LABEL
+>Es m5 unknown power level
+=[35023]    Unknown power level value %s in PI file.
+& POWER_LEVEL
+>Es m5 unknown slew rate
+=[35024]    Unknown slew rate value %s in PI file.
+& SLEW_RATE
+>Ed m5 unknown block clock value
+=[35025]    Unknown BLOCK_CLOCK value %d in PI file.
+& BLOCK_CLOCK_NUM
+>Es m5 pin feedback already used
+=[35036]    Pin feedback %s already used.
+& PIN_NUM
+>Es m5 internal feedback already used
+=[35027]    Internal feedback %s already used.
+& PIN_NUM
+>Es m5 input signal on buried node
+=[35028]    Input signal %s cannot be placed on a buried node.
+& PIN_NUM
+>Es m5 out of latch enables
+=[35029]    Out of latch enables for %s.
+& BLOCK_LABEL
+>Es m5 out of register init terms
+=[35030]    Out of register init terms for block %s.
+& BLOCK_LABEL
+>Ess m5 out of clusters
+=[35031]    Out of clusters for function %s (block %s).
+& SIGNAL_NAME BLOCK_LABEL
+>Esd m5 dual edge clock on non dual edge clock
+=[35032]    Dual edge clock for function %s placed on BLK_CLK %d.
+& SIGNAL_NAME BLOCK_CLOCK_NUM
+>Es m5 already assigned elsewhere
+=[35033]    %s already assigned elsewhere.
+& PIN_NAME
+>Es m5 no pin/node assignment
+=[35034]   %s: no pin/node assignment.
+& SIGNAL_NAME
+>F m5 clock assignment errors
+=[35036]    Errors occurred during clock assignments.
+>F m5 placement errors
+=[35037]    Errors occurred during placement.
+>F m5 routing errors
+=[35038]    Errors occurred during routing.
+>F m5 fail to route
+=[35039]    Fail to route the design.
+>Fs m5 invalid L2 demux
+=[35040]    Invalid L2 demux %s found.
+& PIN_LABEL
+>Fss m5 fanout to invalid block
+=[35041]    %s: fanout to invalid block %s.
+& PIN_LABEL BLOCK_LABEL
+>Fsd m5 fanout exceeded
+=[35042]    Fanouts in block %s (%d) is greater than 32.
+& BLOCK_LABEL FANOUT_NUM
+>Fdd m5 intersegment fanout exceeded
+=[35043]    %d signals with intersegment fanout cannot exceed %d.
+& INTERSEGMENT_FANOUT INTERSEGMENT_LINE_NUM
+>Es dual edge clock must be a pin clock
+=[35044]    Dual edge clock for function %s is not a pin clock.
+& SIGNAL_NAME
+>Ess unassigned clock
+=[35045]    Clock for function %s (block %s) cannot be assigned.
+& SIGNAL_NAME BLOCK_LABEL
+>Fs m5 multiple signals fanout to same L1 mux
+=[35046]    Multiple signals fanout to same L1 mux %s in .pi file
+& MUX_NAME
+>Wss m5 cannot assign input to specified block
+=[35047]    Cannot assign input %s to specified block %s
+& SIGNAL_NAME BLOCK_LABEL
+>Ws m5 t register feedback is not local feedback
+=[35048]    %s: T register feedback is not local feedback
+& SIGNAL_NAME
+>F Functions in PI file exceed limit
+= Function grouping in the PI file exceeds limits.
+& SIGNAL_NAME
+>Es Pregroup in PI file exceed limits
+=[35049]    Section '%s' in PI file exceeds limits.
+& SECTION_NAME NUM_FUNCTIONS
+>E Cannot reduce utilization
+=[35050]    Cannot reduce utilization further due to PI file pre-assignments.
+&*
+>Es too many pterm clocks
+=[35051]    Too many pterm clocks in block %s
+& BLOCK_LABEL
+>Es number of devices exceed max
+=[35052]    Number of %s devices needed to fit the design exceeded.
+&*
+>Es m5 signal with fanout but no preassignment
+=[35053]    Signal %s has fanout but no preassignment specified in PI file.  
+& SIGNAL_NAME
+>F m5 pi file errors
+=[35054]    Errors in PI file.
+&*
+>Ed m5 unknown clock select
+=[35055]    Illegal block clock select #%d.
+& BLOCK_CLOCK_NUMBER
+>Eds m5 clock configured to PT clock
+=[35056]    Block clock #%d in block %s is already configured to a PT clock.
+& BLOCK_CLOCK_NUMBER BLOCK_LABEL
+>F m5 Unable to force local feedback
+=[35057]    Unable to force local feedback during routing.
+&*
+>F m5 Failed to route PI fanouts
+=[35058]    Errors in routing specified fanouts in PI file.
+&*
+>Es m5 Failed to route PI fanouts
+=[35059]    Failed to route fanouts for signal %s.
+& SIGNAL_NAME
+>W group with only inputs found
+=[35060]    Group with inputs only found. Group is ignored.
+>F m5 too many signals in group
+=[35061]    Signals in group requires more than 16 I/Os.
+&*
+>Es m5 unassigned input
+=[35062]    Unassigned input %s.
+& SIGNAL_NAME
+>F m5 fail to refit
+=[35063]    Fail to fit design with all preassigned signals.
+&*
+>Fs m5 unknown target group
+=[35064]    Unknown target group '%s' in PI file.
+&*
+>Fs m5 used signal assigned to jtag pin
+=[35065]    Signal '%s' used in source file is assigned to a JTAG pin.
+& SIGNAL_NAME
+>Fs m5 invalid unary signal
+=[35066]    Invalid unary signal %s.
+& SIGNAL_NAME
+>Fs m5 unary signal not placed on a unary output
+=[35067]    Unary signal %s not assigned to a unary output.
+& SIGNAL_NAME
+>Fs m5 unary signal not placed on a unary input
+=[35068]    Unary signal %s not assigned to a unary input.
+& SIGNAL_NAME

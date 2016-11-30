@@ -1,0 +1,161 @@
+#include "libcst.msg"
+#include "libdb3.msg"
+#include "libdoc.msg"
+#include "libfb.msg"
+#include "libmutil.msg"
+#include "libpi.msg"
+#include "libcae.msg"
+
+"  main.c message 
+>F STD Timing lock.
+=[58000] Unable to create Standard Timing Model, not authorized. 
+*The code which prevents unauthorized use of the product is not allowing
+*access to the product.  On a PC, either the hardware lock is not properly
+*installed or the authorization code given via auth.exe do not correspond
+*to the hardware lock and the product being run.  On a workstation, the
+*authorization codes given in the license.dat file do not correspond to the
+*host machine and the product being run.  See the Installation chapter of
+*the manual for more on software locking.
+
+>F ADV Timing lock.
+=[58001] Unable to create Advanced Timing Model, not authorized. 
+*The code which prevents unauthorized use of the product is not allowing
+*access to the product.  On a PC, either the hardware lock is not properly
+*installed or the authorization code given via auth.exe do not correspond
+*to the hardware lock and the product being run.  On a workstation, the
+*authorization codes given in the license.dat file do not correspond to the
+*host machine and the product being run.  See the Installation chapter of
+*the manual for more on software locking.
+
+>Ms Creating vhdl file
+= Creating vhdl file %s
+>Ms Creating test bench file
+= Creating test bench file %s
+>Ms Creating edif file
+= Creating edif file %s
+>F Edif generation for solutions with multiple devices is not supported.
+= Edif generation for solutions with multiple devices is not supported.
+>Fs Creating vhdl file
+= Can't open file %s
+>Ms Creating verilog file
+= Creating verilog file %s 
+>Ms Creating sdf file
+= Creating sdf file %s
+>F PLFuse has not been run.
+=[58003] FATAL: PLFuse has not been run.
+>F Invalid fannin id.
+=[58006]  Invalid fannin id.
+>F Invalid fanout id.
+=[58007]  Invalid fanout id.
+>F Invalid inst_and arg.
+=[58008]  Invalid inst_and arg.
+>F Invalid inst_ors arg.
+=[58009]  Invalid inst_ors arg.
+>F Invalid symbol type encountered.
+=[58011]  Invalid symbol type encountered.
+>F unknown pin type.
+=[58012]  unknown pin type.
+>Fs Can't find type <%s> in rules table.
+=[58024]  Can't find type <%s> in rules table.
+>F ... [std]=Standard timing models
+=[58025]   ... [std]=Standard timing models.
+>Fs Unable to locate %s. in device data base.
+=[58026] Unable to locate %s. in device data base.
+>F No internal pins listed for specified delay type.
+=[58027] No internal pins listed for specified delay type.
+>F Invalid component index.
+=[58028] Invalid component index.
+>Fs Component for Device not found of type %s
+=[58029] Component for Device not found of type %s
+>Ms WARNING: Unable to locate %s. in device data base.
+= WARNING: Unable to locate %s, in device data base.
+>M WARNING: Generating Standard Model.
+= WARNING: Generating Standard Model.
+>M Warning: VHDL test bench file creation option not implimented.
+= Warning: VHDL test bench file creation option not implimented.
+>M VHDL test bench will not be created.
+=          VHDL test bench will not be created.
+>Ms Creating timing report file
+= Creating timing report file %s
+>Ms Generating Standard Model for device %s.
+= Generating Standard Model for device %s.
+>F ... [std]=Standard timing models, [timoff]=generate non-timing models.
+=[58031]  ... [std]=Standard timing models, [timoff]=generate non-timing models.
+>F ... [novital]= Generate non-Vital VHDL models.
+=[58032]  ... [novital]= Generate non-Vital VHDL models.
+>M  Usage is:
+=   Usage is:
+>M  modgen <design>.fb AND the following combinations of options:
+=   modgen <design>.fb AND the following combinations of options:
+>M      Option:    : Required Option(s):     | Description:
+=       Option:    : Required Option(s):     | Description:
+>M      [vhd]      :                         | (Generate VHDL or Vital type models.)
+=       [vhd]      :                         | (Generate VHDL or Vital type models.)
+>M      [ver]      :                         | (Generate Verilog type models.)
+=       [ver]      :                         | (Generate Verilog type models.)
+>M      [dio]      : [vhd]                   | (Generate DATAIO VHDL models.)
+=       [dio]      : [vhd]                   | (Generate DATAIO VHDL models.)
+>M      [view]     : [vhd]                   | (Generate VIEWLOGIC VHDL models.)
+=       [view]     : [vhd]                   | (Generate VIEWLOGIC VHDL models.)
+>M      [vital]    :                         | (Generate VITAL/VHDL type models.)
+=       [vital]    :                         | (Generate VITAL/VHDL type models.)
+>M      [dio]      : [ver] or [vhd]          | (Generate DATAIO models.)
+=       [dio]      : [ver] or [vhd]          | (Generate DATAIO models.)
+>M      [tb]       : [ver] or [vhd]          | (Generate a test bench file.)
+=       [tb]       : [ver] or [vhd]          | (Generate a test bench file.)
+>M      [r]        : [ver] or [vhd]          | (Generate a timing report file.)
+=       [r]        : [ver] or [vhd]          | (Generate a timing report file.)
+>M      [cp]       : [ver] or [vhd], [r]     | (Clock period selection for timing report.)
+=       [cp]       : [ver] or [vhd], [r]     | (Clock period selection for timing report.)
+>M      [std]      : [ver] or [vhd]          | (Generate models with only tPD, tCO, and tS.)
+=       [std]      : [ver] or [vhd]          | (Generate models with only tPD, tCO, and tS.)
+>M      [timoff]   : [ver] or [vhd]          | (Generate functional models only.)
+=       [timoff]   : [ver] or [vhd]          | (Generate functional models only.)
+>F Invalid argument usage.
+=[58033]  Invalid argument usage.
+>M Warning clock, period not with valid range .01 ns - 1,000,000 ns.
+=  Warning clock, period not with valid range .01 ns - 1,000,000 ns.
+>M will default to 50.0
+=  will default to 50.0
+>M Warning clock, period selected but unspecified.
+=  Warning clock, period selected but unspecified.
+>M Reporting paths from primary input to primary output.
+= Reporting paths from primary input to primary output.
+>M Reporting paths from primary input to function input.
+= Reporting paths from primary input to function input.
+>M Reporting paths from function output to primary output.
+= Reporting paths from function output to primary output.
+>M Reporting paths from function output to function input.
+= Reporting paths from function output to function input.
+>M Done timing report.
+= Done timing report.
+>M Generating standard timing model.
+= Generating standard timing model.
+>M Generating advanced timing model.
+= Generating advanced timing model.
+>M      [nolib]    : [vhd]                   | (Generate models without user defined libraries.)
+=       [nolib]    : [vhd]                   | (Generate models without user defined libraries.)
+>M      [noconf]   : [vhd]                   | (Generate models without configuration usage.)
+=       [noconf]   : [vhd]                   | (Generate models without configuration usage.)
+>M      [notim]    : [ver] or [vhd]          | (Generate functional models only.)
+=       [notim]    : [ver] or [vhd]          | (Generate functional models only.)
+>M      [h]        :                         | (help with modgen arguments.)
+=       [h]        :                         | (help with modgen arguments.)
+>M Modgen execution complete.
+= Modgen execution complete.
+>Ms ERROR attempting to write in directory '%s'.
+= ERROR attempting to write in directory '%s'.
+>Fs Check permisions to create or access '%s' 
+= Check permissions to create or access '%s' 
+>Ms Creating symbol name cross-reference file
+= Creating symbol name cross-reference file %s
+>Ms Creating Timing Physical Information file
+= Creating Timing Physical Information file %s
+>M      [v]        : [r] and [ver] or [vhd]  | (Generate a verbose static timing report file.)
+=       [v]        : [r] and [ver] or [vhd]  | (Generate a verbose static timing report file.)
+>M      [xrf]      : [ver] or [vhd]          | (Generate a symbol name cross-reference file.)
+=       [xrf]      : [ver] or [vhd]          | (Generate a symbol name cross-reference file.)
+>F out of memory allocating a network path list.
+= out of memory allocating a network path list.
+>F No Authorization found for timing report generation, modgen exiting.
+= No Authorization found for timing report generation, modgen exiting.

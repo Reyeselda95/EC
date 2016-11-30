@@ -1,0 +1,94 @@
+This design will run under MicroSim PLSyn.  The text is written 
+assuming that the MACH Design Module is present, but the design
+can be fit into other devices if it is not.
+
+Required Symbol libraries:
+	source.slb
+	dig_prim.slb
+	port.slb
+	special.slb
+	abm.slb
+
+Required model libraries:
+	dig_prim.lib
+
+Here we have a Successive Approximation 12-bit Analog-to-
+Digital Converter.  The counter, for example, is most easily
+modeled using equations.  <Double-click on HB4 - the state
+counter>.  The inputs and outputs are automatically defined;
+all you have to do is type in the equations in DSL - a
+hardware description language that contains all the standard
+HDL features such as case statements, truth tables, etc.
+Here we have a D/A primitive.  The good thing about PLSyn is
+that it can handle primitives, DSL code, and 74xx gates, or
+any combination of the three, all in the same design.  This
+would be useful if you had an existing design you wanted to
+turn into a PLD.
+
+Now let's do a functional simulation.  <Analysis/Simulate>.
+We have to do a functional simulation because we haven't
+picked a device yet, so we don't have any timing.  The
+software automatically splits out each DSL block and
+compiles it separately; if you change a block, only that
+block gets recompiled - not the whole circuit.
+
+Now let's look at the results in Probe. <Tools/Display
+Control/PLSYN/Restore>.  <Zoom in around 4us>.  Note that
+the output of the comparator is 1V, which is as it should
+be.  <Scroll over to around 9us>.  Here the input goes to
+7.3V, and so does the output.  So, again, the circuit is
+working as expected.
+
+Now let's start PLSyn <Tools/PLSyn>.  It automatically loads
+the file you have compiled.  <Edit/Constraints>.  You can
+select from hundreds of different architectures, but
+typically there are only a few you are interested in working
+with.  <Device Templates/Devices>.  For example, let's
+select the MACH110, MACH210, P22V10, and P900.  You also
+have the option of selecting certain logic families,
+manufacturers, and package types, but we won't put any
+further constraints on the design.  With the partitioning
+option, you could also set the maximum number of devices
+into which you want the design partitioned.  <OK,
+Edit/Priorities>.  What we have done so far is set the
+constraints to find all parts that meet our criteria.  Now
+we can set our priorities such as price, speed, or supply
+current so that it will rank the top 10 solutions based on
+these priorities.  We will leave price ranked as the top
+priority.
+
+<Tools/Fitter/Partitioner>.  Since the design was already
+compiled when we did the functional simulation, the first
+thing PLSyn does now is optimize the design, which compacts
+the programmable logic into as few equations and nodes as
+possible.  Then it goes through the fitting process, and
+determines into which of the selected devices the design
+will fit.  In our case it fits into one P900, 3 P22V10s, one
+P22V10 and one MACH110, or other combinations.  Notice that
+it can mix architectures.  Note also that it is sorted by
+whatever priorities you picked, in this case price, with the
+cheapest solution listed first.  You can pick the solution
+you want to use <click on MACH110 and P22V10>, and the
+specific part number you want to use <double-click on a
+solution in the Solution Detail box>.  If you had chosen the
+three P22V10s, each part could have been a different
+manufacturer's part number.
+
+Once you have picked your specific devices, you can go back
+to Schematics and re-simulate.  It will now do a timing
+simulation based on the devices you have selected.  All you
+have to do is click Analysis/Simulate; you don't have to
+backannotate.  If you choose to change your solution, just
+highlight a different part in PLSyn and click Analysis/
+Simulate again.  An important feature of PSpice is that if 
+you have a solution that contains different architectures, 
+PSpice will correctly handle the timing.  <Zoom in to see 
+the propagation delays>.
+
+The next step is to create a JEDEC file and then program the
+device.  Test vectors are automatically added to the JEDEC
+file if you have set them up.  Choose Tools/Update Schematic
+to backannotate the schematic with the devices you have
+chosen.  <Tools/Update Schematic> in PLSyn.  In Schematics
+<Navigate/Next Page>.  The design is now complete and ready 
+to go.  

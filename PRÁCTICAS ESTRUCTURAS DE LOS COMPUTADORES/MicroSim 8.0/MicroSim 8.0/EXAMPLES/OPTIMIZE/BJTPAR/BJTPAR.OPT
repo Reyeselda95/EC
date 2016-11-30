@@ -1,0 +1,37 @@
+* Version 1.1
+@status
+@specs
+est 0 0
+spec "Ic" 1 1
+sim "bjtpar" 1 0 "yatx(ic(q1),!)" ""
+isint 0
+isconstr 0
+int 2 0 0.01
+ext "3055.mdp" "Vbe" "Ic" 5%
+spec "Ib" 1 1
+sim "bjtpar" 1 0 "yatx(ib(q1),!)" ""
+isint 0
+isconstr 0
+int 2 0 0.01
+ext "3055.mdp" "Vbe" "Ib" 5%
+@params
+param Is 1
+val 1.0000e-013 1.0000e-013 1.0000e-014 1.0000e-011 0
+param Ikf 1
+val 5 5 1 10 0
+param Br 1
+val 5 5 1 10 0
+param Bf 1
+val 50 50 20 200 0
+param Ise 1
+val 1.0000e-010 1.0000e-010 1.0000e-011 1.0000e-008 0
+param Ne 1
+val 1.5 1.5 1.2 2 0
+@controls
+display "icibe" 1 "bjtpar.prb"
+delta 3%
+threshold 0.001
+cutback 0.1
+maxiters 20
+opt 0
+auto 1

@@ -1,0 +1,651 @@
+*version 7.2 114386946
+@index
+symloc CONSTRAINT 0 755
+symloc DIGCAP 755 837
+symloc DELAY 1592 985
+symloc HOLD 2577 972
+symloc MAXFREQ 3549 845
+symloc MINFREQ 4394 843
+symloc PULLDOWN 5237 980
+symloc PULLDOWN_50:PULLDOWN 6217 417
+symloc PULLDOWN_75:PULLDOWN_50 6634 203
+symloc PULLDOWN_100:PULLDOWN_50 6837 208
+symloc PULLDOWN_150:PULLDOWN_50 7045 208
+symloc PULLDOWN_200:PULLDOWN_50 7253 208
+symloc PULLDOWN_220:PULLDOWN_50 7461 208
+symloc PULLDOWN_300:PULLDOWN_50 7669 208
+symloc PULLDOWN_330:PULLDOWN_50 7877 208
+symloc PULLDOWN_500:PULLDOWN_50 8085 208
+symloc PULLDOWN_1K:PULLDOWN_50 8293 203
+symloc PULLUP 8496 931
+symloc PULLUP_50:PULLUP 9427 404
+symloc PULLUP_75:PULLUP 9831 188
+symloc PULLUP_100:PULLUP_50 10019 197
+symloc PULLUP_150:PULLUP_50 10216 197
+symloc PULLUP_200:PULLUP_50 10413 197
+symloc PULLUP_220:PULLUP_50 10610 197
+symloc PULLUP_300:PULLUP_50 10807 197
+symloc PULLUP_330:PULLUP_50 11004 197
+symloc PULLUP_500:PULLUP_50 11201 197
+symloc PULLUP_1k:PULLUP_50 11398 192
+symloc RELEASE 11590 1060
+symloc SETUP 12650 979
+symloc WIDTH_HI 13629 887
+symloc WIDTH_LO 14516 886
+symloc copyright 15402 575 b
+*symbol CONSTRAINT
+d SETUP Time Constraint
+@type p
+@attributes
+a 0 u 0 0 0 20 hlb 100 MESSAGE="GENERAL Constraint Check Failed At @REFDES"
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=U^@REFDES CONSTRAINT ({ %#*SIG }) $G_DPWR $G_DGND\n+ %*SIG \n+ IO_STD\n+ GENERAL:\n+ ?MESSAGE|\n+ MESSAGE=@MESSAGE| ?ERRORLIMIT|\n+ ERRORLIMIT=@ERRORLIMIT| ?WHEN|\n+ WHEN=@WHEN|
+a 0 u 13 0 0 10 hlb 100 WHEN=
+a 0 u 0 0 0 20 hlb 100 ERRORLIMIT=
+a 0 u 0 0 0 10 hlb 100 REFID=DIG?
+a 0 sp 9 0 44 40 hln 100 REFDES=U?
+@pins
+p 2 34 59 hln 100 *SIG n 29 70 v
+a 0 u 1 0 24 72 hcn 100 pin=1
+a 0 u 0 0 30 71 hln 100 ERC=i
+@graphics 59 72 29 70 10
+v 0 29 60
+29 47
+;
+v 0 54 14
+4 14
+;
+v 0 4 23
+29 47
+;
+v 0 29 47
+54 23
+;
+s 26 4 24 hln 90 CONSTRAINT
+v 0 4 23
+4 20
+;
+v 0 4 20
+4 14
+;
+v 0 54 14
+54 23
+;
+*symbol DIGCAP
+d Digital Capacitive Load
+@type p
+@attributes
+a 0 sp 11 0 18 18 hln 100 PART=DIGCAP
+a 0 sp 0 0 18 18 hln 100 MODEL=DIGCAP
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %PWR %GND @MODEL PARAMS:\n+ CAP=@CAP  IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+a 0 u 13 0 0 10 hlb 100 CAP=10P
+@pins
+p 16 12 58 hln 100 GND n 30 50 v
+a 0 u 1 0 25 52 hcn 100 pin=8
+a 0 u 0 0 30 50 hln 100 ERC=p
+p 16 12 -10 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+p 0 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+@graphics 60 40 0 20 11
+r 0 10 0 50 40
+*symbol DELAY
+d Delay Line: Parameterized delay
+@type p
+@attributes
+a 0 sp 11 0 18 18 hln 100 PART=DELAY
+a 0 sp 0 0 18 18 hln 100 MODEL=DELAY
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %OUT %PWR %GND @MODEL PARAMS:\n+ DELAY=@DELAY TOL=@TOL IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 13 0 20 30 hlb 100 DELAY=50ns
+a 0 u 0 0 0 20 hlb 100 TOL=10
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+@pins
+p 16 12 58 hln 100 GND n 30 50 v
+a 0 u 1 0 25 52 hcn 100 pin=8
+a 0 u 0 0 30 50 hln 100 ERC=p
+p 16 12 -10 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+p 0 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 55 18 hln 100 pin=2
+a 0 u 0 0 60 20 hln 100 ERC=o
+p 0 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+@graphics 60 40 0 20 11
+r 0 10 0 50 40
+*symbol HOLD
+d HOLD Time Constraint
+@type p
+@attributes
+a 0 u 0 0 0 20 hlb 100 MESSAGE="HOLD Time (@HOLDTIME) Check Failed At @REFDES"
+a 0 sp 9 0 58 16 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=U^@REFDES CONSTRAINT ({ 1+%#*SIG }) $G_DPWR $G_DGND\n+ %REF %*SIG \n+ IO_STD\n+ SETUP_HOLD:\n+ CLOCK @ASSERTION %REF \n+ DATA (%#*SIG) %*SIG \n+ HOLDTIME=@HOLDTIME  ?MESSAGE|\n+ MESSAGE=@MESSAGE| ?ERRORLIMIT|\n+ ERRORLIMIT=@ERRORLIMIT| ?WHEN|\n+ WHEN=@WHEN|
+a 0 u 0 0 0 20 hlb 100 ERRORLIMIT=
+a 0 u 13 0 60 44 hlb 75 ASSERTION=LH
+a 0 u 0 0 0 10 hlb 100 REFID=DIG?
+a 0 u 13 13 14 2 hlb 75 HOLDTIME=
+a 0 u 0 0 0 20 hlb 100 WHEN=
+@pins
+p 2 44 39 hln 100 REF n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 40 51 hln 100 ERC=i
+p 2 13 28 hln 100 *SIG n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+@graphics 90 60 40 50 10
+v 0 40 40
+40 27
+;
+v 0 65 3
+15 3
+;
+v 0 15 3
+40 27
+;
+v 0 40 27
+65 3
+;
+s 26 26 12 hln 90 T
+v 0 10 20
+33 20
+;
+s 26 30 18 hln 100 hold
+*symbol MAXFREQ
+d Maximum Frequency Constraint
+@type p
+@attributes
+a 0 u 0 0 0 20 hlb 100 MESSAGE="Minimum Frequency (@MINFREQ) Check Failed At @REFDES"
+a 0 sp 9 0 58 16 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=U^@REFDES CONSTRAINT (1) $G_DPWR $G_DGND\n+ %SIG \n+ IO_STD\n+ FREQ:\n+ NODE = %SIG \n+ MAXFREQ=@MAXFREQ  ?MESSAGE|\n+ MESSAGE=@MESSAGE| ?ERRORLIMIT|\n+ ERRORLIMIT=@ERRORLIMIT| ?WHEN|\n+ WHEN=@WHEN|
+a 0 u 0 0 0 10 hlb 100 REFID=DIG?
+a 0 u 13 13 12 2 hlb 75 MAXFREQ=
+a 0 up 0 0 0 20 hln 100 ERRORLIMIT=
+a 0 up 0 0 0 30 hln 100 WHEN=
+a 0 sp 0 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+@pins
+p 2 44 39 hln 100 SIG n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 40 51 hln 100 ERC=i
+@graphics 90 60 40 50 10
+v 0 40 40
+40 27
+;
+v 0 65 3
+15 3
+;
+v 0 15 3
+40 27
+;
+v 0 40 27
+65 3
+;
+s 26 26 12 hln 90 F
+s 26 30 16 hln 80 max
+*symbol MINFREQ
+d Minimum Frequency Constraint
+@type p
+@attributes
+a 0 u 0 0 0 20 hlb 100 MESSAGE="Minimum Frequency (@MINFREQ) Check Failed At @REFDES"
+a 0 sp 9 0 58 16 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=U^@REFDES CONSTRAINT (1) $G_DPWR $G_DGND\n+ %SIG \n+ IO_STD\n+ FREQ:\n+ NODE = %SIG \n+ MINFREQ=@MINFREQ  ?MESSAGE|\n+ MESSAGE=@MESSAGE| ?ERRORLIMIT|\n+ ERRORLIMIT=@ERRORLIMIT| ?WHEN|\n+ WHEN=@WHEN|
+a 0 u 0 0 0 20 hlb 100 ERRORLIMIT=
+a 0 u 0 0 0 10 hlb 100 REFID=DIG?
+a 0 u 13 13 14 2 hlb 75 MINFREQ=
+a 0 u 0 0 0 20 hlb 100 WHEN=
+a 0 sp 0 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+@pins
+p 2 44 39 hln 100 SIG n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 40 51 hln 100 ERC=i
+@graphics 90 60 40 50 10
+v 0 40 40
+40 27
+;
+v 0 65 3
+15 3
+;
+v 0 15 3
+40 27
+;
+v 0 40 27
+65 3
+;
+s 26 26 12 hln 90 F
+s 26 30 16 hln 80 min
+*symbol PULLDOWN
+d Pulldown resistor: general, parameterized value
+@type p
+@attributes
+a 0 sp 11 0 22 14 hln 100 PART=PULLDOWN
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN
+a 0 sp 9 0 14 6 hln 100 REFDES=R?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 $G_DPWR %2 @MODEL PARAMS:\n+ VALUE=@VALUE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(2)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hlb 100 MNTYMXDLY=0
+a 0 u 13 0 22 36 hln 100 VALUE=300
+a 0 s 0 0 0 10 hlb 100 COMPONENT=R
+@pins
+p 0 8 12 hln 100 1 n 10 0 d
+a 0 u 0 0 15 3 hcn 100 pin=1
+a 0 u 0 0 10 0 hln 100 ERC=i
+p 2 12 58 hln 100 2 n 10 60 v
+a 0 u 0 0 5 62 hcn 100 pin=2
+a 0 u 0 0 10 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 20 50 10 0 10
+r 0 0 10 20 50
+v 0 10 10
+10 11
+;
+v 0 10 11
+14 13
+;
+v 0 14 13
+6 16
+;
+v 0 6 16
+14 19
+;
+v 0 14 19
+6 22
+;
+v 0 6 22
+14 25
+;
+v 0 14 25
+6 28
+;
+v 0 6 28
+10 30
+;
+v 0 10 30
+10 36
+;
+v 0 10 36
+18 36
+;
+v 0 18 36
+10 44
+;
+v 0 10 44
+2 36
+;
+v 0 2 36
+10 36
+;
+*symbol PULLDOWN_50 ako PULLDOWN
+d Pulldown resistor: 50 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 16 hln 100 PART=PULLDOWN_50
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN_50
+a 0 sp 9 0 14 6 hln 100 REFDES=R?
+a 0 u 0 0 0 10 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hlb 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 $G_DPWR %2 @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 13 0 22 36 hln 100 VALUE=50
+*symbol PULLDOWN_75 ako PULLDOWN_50
+d Pulldown resistor: 75 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 14 hln 100 PART=PULLDOWN_75
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN_75
+a 0 u 13 0 22 36 hln 100 VALUE=75
+*symbol PULLDOWN_100 ako PULLDOWN_50
+d Pulldown resistor: 100 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 16 hln 100 PART=PULLDOWN_100
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN_100
+a 0 u 13 0 22 36 hln 100 VALUE=100
+*symbol PULLDOWN_150 ako PULLDOWN_50
+d Pulldown resistor: 150 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 16 hln 100 PART=PULLDOWN_150
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN_150
+a 0 u 13 0 22 36 hln 100 VALUE=150
+*symbol PULLDOWN_200 ako PULLDOWN_50
+d Pulldown resistor: 200 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 16 hln 100 PART=PULLDOWN_200
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN_200
+a 0 u 13 0 22 36 hln 100 VALUE=200
+*symbol PULLDOWN_220 ako PULLDOWN_50
+d Pulldown resistor: 220 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 16 hln 100 PART=PULLDOWN_220
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN_220
+a 0 u 13 0 22 36 hln 100 VALUE=220
+*symbol PULLDOWN_300 ako PULLDOWN_50
+d Pulldown resistor: 300 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 16 hln 100 PART=PULLDOWN_300
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN_300
+a 0 u 13 0 22 36 hln 100 VALUE=300
+*symbol PULLDOWN_330 ako PULLDOWN_50
+d Pulldown resistor: 330 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 16 hln 100 PART=PULLDOWN_330
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN_330
+a 0 u 13 0 22 36 hln 100 VALUE=330
+*symbol PULLDOWN_500 ako PULLDOWN_50
+d Pulldown resistor: 500 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 16 hln 100 PART=PULLDOWN_500
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN_500
+a 0 u 13 0 22 36 hln 100 VALUE=500
+*symbol PULLDOWN_1K ako PULLDOWN_50
+d Pulldown resistor: 1K ohm
+@type p
+@attributes
+a 0 sp 11 0 22 16 hln 100 PART=PULLDOWN_1K
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLDOWN_1K
+a 0 u 13 0 22 36 hln 100 VALUE=1K
+*symbol PULLUP
+d Pullup resistor: general, parameterized value
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP
+a 1 s 9 0 12 -2 hln 100 REFDES=R?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 $G_DGND @MODEL PARAMS:\n+ VALUE=@VALUE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 13 0 22 32 hln 100 VALUE=300
+a 0 u 0 0 0 0 hln 100 ipin(2)=$G_DPWR
+a 0 s 0 0 0 10 hln 100 COMPONENT=R
+@pins
+p 0 8 38 hln 100 1 n 10 50 v
+a 0 u 0 0 5 52 hcn 100 pin=1
+a 0 u 0 0 10 50 hln 100 ERC=i
+p 0 2 -4 hln 100 2 n 10 -10 d
+a 0 u 0 0 15 -7 hcn 100 pin=2
+a 0 u 0 0 10 -10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 20 50 10 50 11
+r 0 0 0 20 40
+v 0 10 40
+10 39
+;
+v 0 10 39
+6 37
+;
+v 0 6 37
+14 34
+;
+v 0 14 34
+6 31
+;
+v 0 6 31
+14 28
+;
+v 0 14 28
+6 25
+;
+v 0 6 25
+14 22
+;
+v 0 14 22
+10 20
+;
+c 0 10 12 8
+v 0 10 16
+10 8
+;
+v 0 6 12
+14 12
+;
+*symbol PULLUP_50 ako PULLUP
+d Pullup resistor: 50 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP_50
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP_50
+a 1 s 9 0 12 -2 hln 100 REFDES=R?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 $G_DGND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 13 0 22 32 hln 100 VALUE=50
+*symbol PULLUP_75 ako PULLUP
+d Pullup resistor: 75 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP_75
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP_75
+a 0 u 13 0 22 32 hln 75 VALUE=75
+*symbol PULLUP_100 ako PULLUP_50
+d Pullup resistor: 100 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP_100
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP_100
+a 0 u 13 0 22 32 hln 100 VALUE=100
+*symbol PULLUP_150 ako PULLUP_50
+d Pullup resistor: 150 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP_150
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP_150
+a 0 u 13 0 22 32 hln 100 VALUE=150
+*symbol PULLUP_200 ako PULLUP_50
+d Pullup resistor: 200 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP_200
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP_200
+a 0 u 13 0 22 32 hln 100 VALUE=200
+*symbol PULLUP_220 ako PULLUP_50
+d Pullup resistor: 220 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP_220
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP_220
+a 0 u 13 0 22 32 hln 100 VALUE=220
+*symbol PULLUP_300 ako PULLUP_50
+d Pullup resistor: 300 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP_300
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP_300
+a 0 u 13 0 22 32 hln 100 VALUE=300
+*symbol PULLUP_330 ako PULLUP_50
+d Pullup resistor: 330 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP_330
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP_330
+a 0 u 13 0 22 32 hln 100 VALUE=330
+*symbol PULLUP_500 ako PULLUP_50
+d Pullup resistor: 500 ohm
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP_500
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP_500
+a 0 u 13 0 22 32 hln 100 VALUE=500
+*symbol PULLUP_1k ako PULLUP_50
+d Pullup resistor: 1k ohm
+@type p
+@attributes
+a 0 sp 11 0 22 6 hln 100 PART=PULLUP_1k
+a 0 sp 0 0 22 6 hln 100 MODEL=PULLUP_1k
+a 0 u 13 0 22 32 hln 100 VALUE=1K
+*symbol RELEASE
+d RELEASE Time Constraint
+@type p
+@attributes
+a 0 u 0 0 0 20 hlb 100 MESSAGE="RELEASE Time (@RELEASETIME) Check Failed At @REFDES"
+a 0 sp 9 0 58 16 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=U^@REFDES CONSTRAINT ({ 1+%#*SIG }) $G_DPWR $G_DGND\n+ %REF %*SIG \n+ IO_STD\n+ SETUP_HOLD:\n+ CLOCK @REF_ASSERTION %REF \n+ DATA (%#*SIG) %*SIG \n+ RELEASETIME?SIG_EDGE|_@SIG_EDGE|=@RELEASETIME  ?MESSAGE|\n+ MESSAGE=@MESSAGE| ?ERRORLIMIT|\n+ ERRORLIMIT=@ERRORLIMIT| ?WHEN|\n+ WHEN=@WHEN|
+a 0 u 0 0 0 10 hlb 100 REFID=DIG?
+a 0 u 13 13 10 2 hlb 75 RELEASETIME=
+a 0 u 13 0 58 48 hlb 75 REF_ASSERTION=LH
+a 0 u 13 0 20 36 hlb 75 SIG_EDGE=LH
+a 0 u 13 0 0 40 hlb 75 ERRORLIMIT=
+a 0 u 13 0 0 50 hlb 75 WHEN=
+@pins
+p 2 42 41 hln 100 REF n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 40 51 hln 100 ERC=i
+p 2 13 22 hln 100 *SIG n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+@graphics 90 60 40 50 10
+v 0 40 40
+40 27
+;
+v 0 65 3
+15 3
+;
+v 0 15 3
+40 27
+;
+v 0 40 27
+65 3
+;
+s 26 26 12 hln 90 T
+s 26 30 16 hln 60 release
+v 0 10 20
+33 20
+;
+*symbol SETUP
+d SETUP Time Constraint
+@type p
+@attributes
+a 0 u 0 0 0 20 hlb 100 MESSAGE="SETUP Time (@SETUPTIME) Check Failed At @REFDES"
+a 0 sp 9 0 58 16 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=U^@REFDES CONSTRAINT ({ 1+%#*SIG }) $G_DPWR $G_DGND\n+ %REF %*SIG \n+ IO_STD\n+ SETUP_HOLD:\n+ CLOCK @ASSERTION %REF \n+ DATA (%#*SIG) %*SIG \n+ SETUPTIME=@SETUPTIME  ?MESSAGE|\n+ MESSAGE=@MESSAGE| ?ERRORLIMIT|\n+ ERRORLIMIT=@ERRORLIMIT| ?WHEN|\n+ WHEN=@WHEN|
+a 0 u 0 0 0 10 hlb 100 WHEN=
+a 0 u 0 0 0 20 hlb 100 ERRORLIMIT=
+a 0 u 13 13 14 0 hlb 75 SETUPTIME=
+a 0 u 13 0 60 44 hlb 75 ASSERTION=LH
+a 0 u 0 0 0 10 hlb 100 REFID=DIG?
+@pins
+p 2 44 39 hln 100 REF n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 40 51 hln 100 ERC=i
+p 2 13 28 hln 100 *SIG n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+@graphics 90 60 40 50 10
+v 0 40 40
+40 27
+;
+v 0 65 3
+15 3
+;
+v 0 15 3
+40 27
+;
+v 0 40 27
+65 3
+;
+s 26 26 12 hln 90 T
+s 26 30 16 hln 80 setup
+v 0 10 20
+33 20
+;
+*symbol WIDTH_HI
+d Minimum High Pulse WIDTH Constraint
+@type p
+@attributes
+a 0 u 0 0 0 20 hlb 100 MESSAGE="Pulse WIDTH (@WIDTH) Check Failed At @REFDES"
+a 0 sp 9 0 58 16 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=U^@REFDES CONSTRAINT ( 1) $G_DPWR $G_DGND\n+ %SIG \n+ IO_STD\n+ WIDTH:\n+ NODE = %SIG \n+ MIN_@ASSERTION=@WIDTH  ?MESSAGE|\n+ MESSAGE=@MESSAGE| ?ERRORLIMIT|\n+ ERRORLIMIT=@ERRORLIMIT| ?WHEN|\n+ WHEN=@WHEN|
+a 0 u 0 0 0 10 hlb 100 WHEN=
+a 0 u 0 0 0 20 hlb 100 ERRORLIMIT=
+a 0 u 13 13 14 0 hlb 75 WIDTH=
+a 0 u 13 0 60 44 hlb 75 ASSERTION=HI
+a 0 u 0 0 0 10 hlb 100 REFID=DIG?
+a 0 sp 0 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+@pins
+p 2 44 39 hln 100 SIG n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 40 51 hln 100 ERC=i
+@graphics 90 60 40 50 10
+v 0 40 40
+40 27
+;
+v 0 65 3
+15 3
+;
+v 0 15 3
+40 27
+;
+v 0 40 27
+65 3
+;
+s 26 26 12 hln 90 T
+s 26 30 16 hln 80 width
+*symbol WIDTH_LO
+d Minimum Low Pulse WIDTH Constraint
+@type p
+@attributes
+a 0 u 0 0 0 20 hlb 100 MESSAGE="Pulse WIDTH (@WIDTH) Check Failed At @REFDES"
+a 0 sp 9 0 58 16 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=U^@REFDES CONSTRAINT ( 1) $G_DPWR $G_DGND\n+ %SIG \n+ IO_STD\n+ WIDTH:\n+ NODE = %SIG \n+ MIN_@ASSERTION=@WIDTH  ?MESSAGE|\n+ MESSAGE=@MESSAGE| ?ERRORLIMIT|\n+ ERRORLIMIT=@ERRORLIMIT| ?WHEN|\n+ WHEN=@WHEN|
+a 0 u 0 0 0 10 hlb 100 WHEN=
+a 0 u 0 0 0 20 hlb 100 ERRORLIMIT=
+a 0 u 13 13 14 0 hlb 75 WIDTH=
+a 0 u 13 0 60 44 hlb 75 ASSERTION=LO
+a 0 u 0 0 0 10 hlb 100 REFID=DIG?
+a 0 sp 0 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+@pins
+p 2 44 39 hln 100 SIG n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 40 51 hln 100 ERC=i
+@graphics 90 60 40 50 10
+v 0 40 40
+40 27
+;
+v 0 65 3
+15 3
+;
+v 0 15 3
+40 27
+;
+v 0 40 27
+65 3
+;
+s 26 26 12 hln 90 T
+s 26 30 16 hln 80 width
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

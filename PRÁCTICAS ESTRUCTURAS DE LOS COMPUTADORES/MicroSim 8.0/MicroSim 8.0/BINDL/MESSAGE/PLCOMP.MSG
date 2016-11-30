@@ -1,0 +1,574 @@
+#include "libfb.msg"
+#include "libmutil.msg"
+#include "libexpr.msg"
+#include "libpi.msg"
+#include "libdb3.msg"
+
+"group.c
+>E operation on Z
+=[1000] Illegal operation on .Z.
+>E operation on X
+=[1001] Illegal operation on .X.
+>E negation of number
+=[1002] Cannot negate a constant.
+>E cannot operate on constant and .X.
+=[1003] Illegal operation on constant and .X.
+>E mismatched group sizes
+=[1004] Mismatched group sizes.
+*This means that an operation has been performed on two arrays or groups
+*of signals that have a different number of bits from each other.
+>E multiplicative operation on non-constants
+=[1006] Can only multiply, divide, and modulo with constants.
+>E Z in expr context
+=[1007] Cannot use .Z. in this context.
+>E group in expr context
+=[1008] Cannot use group in this context.
+>E group must be number
+=[1009] Expecting constant expression.
+>E mixed reduction_off in assign expr
+=[1010] Mixed use of NO_REDUCE on members of assigned group.
+>Es symbol not assignable
+=[1011] Cannot assign to '%s'.
+>Wdd number too wide
+=[1012] %d bit number cannot be represented in %d bits.
+& N M
+
+"gram.c
+>E syntax error
+=[1013] Syntax error.
+*This is a syntax error that occurs in a context where the system
+*cannot determine a more helpful description of what is wrong.  It
+*indicates that a construct has not been legally constructed.  See
+*the manual for the proper syntax of each construct.
+>E yacc stack overflow
+=[1014] Nesting too deep.
+*This is caused by some construct or combination of constructs in the
+*source file being nested too deeply.  Make sure you have an END on
+*all constructs requiring ENDs.
+>E unexpected EOF
+=[1015] Unexpected end of file.
+*This means the end of a source file was encountered before a construct
+*that was being processing had terminated.  This is often caused by a
+*missing END on a construct requiring an END.
+>Es expecting file name after keyword
+=[1016] Expecting single quoted filename name after %s.
+& KEYWORD
+>E expecting scope name after USE file
+=[1017] Expecting function or procedure name after USE filename.
+*The syntax of a USE construct is "USE 'filename'.name;" the filename must
+*be in single quotes and the .name must be outside of the quotes.  The .name
+*is optional.
+>Es expecting name after keyword
+=[1018] Expecting name after %s.
+& KEYWORD
+>Es missing ( after name
+=[1019] Missing '(' after '%s'.
+& KEYWORD
+>Ms entering scope
+=   Compiling '%s'.
+&*
+>E expecting symbol list in declaration
+=[1021] Expecting symbol list in declaration.
+>Es control redeclaration
+=[1022] Redeclaration of %s expression.
+& CONTROL_KEYWORD
+>E can only use LATCHED_BY with D_LATCH
+=[1023] Can only use LATCHED_BY with D_LATCH.
+>E expecting =
+=[1024] Expecting '=' to follow assignment expression.
+>Es missing keyword
+=[1025] Missing '%s'.
+& KEYWORD
+>E expecting first WHEN
+=[1026] Expecting first WHEN clause after CASE expression.
+>E syntax error in statement
+=[1027] Syntax error in statement.
+*This is a syntax error that occurs when the compiler is attempting to
+*process a statement.  In this case, the compiler cannot determine a more
+*helpful description of what is wrong.
+>Ess missing keyword after keyword
+=[1028] Missing %s after %s.
+& KEYWORD1 KEYWORD2
+>W used / with LOW_TRUE
+=[1029] Declaration has low true symbol '/' in addition to LOW_TRUE keyword.
+>Es expecting number after keyword
+=[1030] Expecting number after %s.
+& KEYWORD
+>E expecting => after WHEN number
+=[1031] Expecting '=>' after WHEN number.
+>E state machine values redeclaration
+=[1032] Redeclaration of STATE_VALUES.
+>E state machine bits redeclaration
+=[1033] Redeclaration of STATE_BITS.
+>E expecting state bits after STATE_BITS
+=[1034] Expecting array name or '[signals]' to follow STATE_BITS.
+>E expecting : or value after STATE name
+=[1035] Expecting ':' or '[value]:' after STATE name.
+>E expecting : after STATE value
+=[1036] Expecting ':' after STATE value.
+>E syntax error in truth value
+=[1037] Expecting number or DONT CARE in truth table entry.
+*The TRUTH_TABLE entries to the left of the :: must be either constants
+*or .X.
+>Es expecting (expr list) after unary op
+=[1038] Expecting '(expression list)' after unary '%s'.
+& OPERATOR
+>Es expecting symbol list after keyword
+=[1039] Expecting symbol list after '%s'.
+& KEYWORD
+>E missing ;
+=[1040] Missing ';'.
+>E SIMULATION in source
+=[1041] SIMULATION must be placed in the .stm file.
+>E missing name after END
+=[1042] Missing name after END.
+>E expecting number after [
+=[1043] Expecting number after '['.
+>E expecting second number after ..
+=[1044] Expecting second number after '..' in range.
+>E expecting second identifier after ..
+=[1045] Expecting second identifier after '..'.
+>E syntax error in expression list
+=[1046] Syntax error in expression list.
+*This is a syntax error that occurs when the compiler is attempting to
+*process a list of expressions.  In this case, the compiler cannot determine
+*a more helpful description of what is wrong.
+>E different suffixes with ..
+=[1047] Different suffixes on identifiers with '..' operator.
+
+
+"lex.c
+>Es unable to open file
+=[1048] Unable to open file '%s'.
+& FILE_NAME
+*The given filename either does not exist in the current directory or the
+*file does not have read permission.
+>W HXOR not supported
+=[1049] The '[+]' operator is no longer supported.  Use '(+)'.
+*The compiler now automatically generates equations for hardware
+*exclusive-or.  There is no longer the need for the designer to specify
+*this via the hardware-exclusive-or operator.
+>Ed illegal character
+=[1050] Illegal character %d in source.
+*An illegal character appeared in the file.
+*Legal characters include all alphanumeric characters, spaces, tabs,
+*newlines, carriage returns, formfeeds, vertical tabs and the punctuation
+*characters indicated in the manual for building each operator.
+& ASCII_VALUE
+>W COMP_ON without COMP_OFF
+=[1051] Encountered COMP_ON without preceding COMP_OFF.
+>W EOF with unmatched COMP_OFF
+=[1052] Hit end of file with unmatched COMP_OFF.
+>E string missing right quote
+=[1053] Missing right quote on string.
+>E plcomp line too long
+=[1054] Source line too long.
+>E X in decimal constant
+=[1055] Illegal DONT CARE digit in decimal constant.
+>Ed illegal digit
+=[1056] Illegal digit in base %d constant.
+& NUMERICAL_BASE
+*The digit is not a valid digit in the numerical base of the constant.
+>Es missing macro argument
+=[1057] Expecting argument name for MACRO '%s'.
+& MACRO_NAME
+>Es missing ) after MACRO arguments
+=[1058] Missing ')' for argument list of MACRO '%s'.
+& MACRO_NAME
+>Ws MACRO spans multiple lines
+=[1059] MACRO '%s' spans multiple lines.
+& MACRO_NAME
+>Fs EOF in MACRO definition
+=[1060] MACRO '%s' never terminates.
+& MACRO_NAME
+*The macro is missing the terminating }.
+>Es recursive macro
+=[1061] Recursive macro definition for MACRO '%s'.
+& MACRO_NAME
+>Es missing ( in MACRO invocation
+=[1062] Expecting '(' for parameter list of MACRO '%s'.
+& MACRO_NAME
+>Fs EOF in MACRO invocation
+=[1063] Missing ')' in invocation of MACRO '%s'.
+& MACRO_NAME
+>Es ) nesting in MACRO
+=[1064] Improper nesting of ')' in parameter for MACRO '%s'.
+& MACRO_NAME
+>Es ] nesting in MACRO
+=[1065] Improper nesting of ']' in parameter for MACRO '%s'.
+& MACRO_NAME
+>Ed too many MACRO parameters
+=[1066] Cannot have more than %d macro parameters.
+& MAX_MACRO_PARAMS
+>Es wrong number of MACRO parameters
+=[1067] Wrong number of params to MACRO '%s'.
+& MACRO_NAME
+>E LOW_TRUE not supported
+=[1068] LOW_TRUE keyword not supported in this version of the compiler.
+
+"main.c
+>F usage
+=[1069] PLComp usage:  plcomp design_name
+&*
+>F locking
+=[1070] Unable to validate product authorization.
+*The code which prevents unauthorized use of the product is not allowing
+*access to the product.  On a PC, either the hardware lock is not properly
+*installed or the authorization code given via auth.exe do not correspond
+*to the hardware lock and the product being run.  On a workstation, the
+*authorization codes given in the license.dat file do not correspond to the
+*host machine and the product being run.  See the Installation chapter of
+*the manual for more on software locking.
+>M node generation on
+=Generation of NODEs for equation minimization is on.
+*By default, the compiler generates NODEs to break up the logic for
+*complicated operators such as the arithmetic operators.  This gives the
+*optimizer greater flexibility to generate efficient equations for the
+*target hardware.  This node generation can pose a problem for designers
+*trying to fix the pinout of a portion of a design while changing the
+*functionality of another portion.  This node generation can be controlled
+*from the menu.  See the Optimizing a Design chapter for more on
+*optimization.
+>M pass 1
+=Pass 1 error checking.
+*During the first pass of compilation the compiler finds all errors that
+*can be found without generating equations.  This is done to quickly report
+*errors and terminate compilation before the slower equation generation
+*is performed.
+>M pass 2
+=Pass 2 equation generation.
+*During the second pass of compilation the compiler generates the equations
+*for all of the signals in the design.  Some errors may be reported during
+*this pass if they are discovered as a result of equation generation.
+>Ms check error file
+=CHECK '%s' FOR ERRORS.
+&*
+>Ms check warning file
+=CHECK '%s' FOR WARNINGS.
+&*
+
+"stat.c
+>E duplicate WHEN values
+=[1081] Duplicate WHEN values.
+*The CASE statement has the same value in two different WHEN clauses.
+>E duplicate TRUTH_TABLE entries
+=[1082] Overlapping TRUTH_TABLE entries.
+*The TRUTH_TABLE statement has two different entries with an overlapping
+*set of conditions.  At least one of the input values of each entry must
+*be different from the corresponding input value of the other entries.
+*A .X. overlaps with any other input value.
+>E wrong number of truth table inputs
+=[1083] Number of inputs in truth table entry does not match header.
+>E wrong number of truth table outputs
+=[1084] Number of outputs in truth table entry does not match header.
+>Ess STATE_MACHINE END name mismatch
+=[1085] END name '%s' does not match STATE_MACHINE name '%s'.
+>E bad state machine default
+=[1086] STATE_MACHINE must default to 0, .X., or LAST_VALUE.
+>E partial state values given
+=[1087] State values must be given to all states or none.
+>Es bad STATE_VALUES name
+=[1088] Unknown STATE_VALUES method '%s'.
+& ALGORITHM_TYPE
+>Ess cannot give state values
+=[1089] Cannot give state values to %s state machine '%s'.
+& ALGORITHM_TYPE STATE_MACHINE_NAME
+*A state machine with a specified STATE_VALUES algorithm cannot have the
+*state value specified for individual states since the specified
+*STATE_VALUES algorithm will assign state values to all states.
+>Es duplicate state value
+=[1090] Duplicate value for STATE '%s'.
+& STATE_NAME
+*The STATE_MACHINE has two different STATES with overlapping state values.
+*A dont care digit will overlap with any other digit value.
+>Es duplicate state name
+=[1091] Duplicate STATE name '%s'.
+& STATE_NAME
+>Es bad state bits symbol type
+=[1092] STATE_BIT '%s' must be a NODE or OUTPUT.
+>E incompatible CLOCKED_BY expressions
+=[1093] STATE_BITs have incompatible CLOCKED_BY expressions.
+*The signals given in the STATE_BITS construct must all have been declared
+*with the same CLOCKED_BY expression.  If a CLOCKED_BY is given in the
+*STATE_MACHINE header then it must also match the CLOCKED_BY expression 
+*of each state bit.
+>E multiple STATE_BITS default
+=[1094] STATE_BITs have multiple DEFAULT_TO expressions.
+*The signals given in the STATE_BITS construct must all have been declared
+*with the same DEFAULT_TO expression.  If a DEFAULT_TO is given in the
+*STATE_MACHINE header then it must also match the DEFAULT_TO expression 
+*of each state bit.
+>E unrepresentable STATE values
+=[1095] Cannot represent all STATE values with given STATE_BITS.
+*This occurs when the state value given to a STATE is to large to be
+*represented with the number of bits given in the STATE_BITS construct.
+>Es bad OUTPUT parameter
+=[1096] Must pass assignable expression to OUTPUT '%s'.
+>E return of .Z.
+=[1097] Cannot RETURN .Z. from FUNCTION.
+>E RETURN outside FUNCTION
+=[1098] RETURN must be inside of FUNCTION.
+>Ws conflicting GOTOs
+=[1099] Two GOTOs active under same condition in STATE '%s'.
+& STATE_NAME
+*There can only be one STATE to go to for any condition.  An example of this
+*error is:
+*   IF a THEN
+*      GOTO st1;
+*   END IF;
+*   GOTO st2;
+*The above code says to go to st1 when 'a' is asserted, but it also says to
+*go to st2 regardless of the value of 'a'.
+>Ws partial GOTO in IF
+=[1100] IF has GOTO in only one half in STATE '%s'.
+& STATE_NAME
+*An example that would produce this warning is:
+*   IF a THEN
+*      GOTO st1;
+*   END IF;
+*The above code says to go to st1 when 'a' is asserted, but it doesn't say
+*where to go to when 'a' is not asserted.  The compiler will fall back on
+*the DEFAULT_TO values of the state bits to determine the state transition
+*when 'a' is not asserted.
+>Ws partial GOTO in CASE ELSE
+=[1101] ELSE of CASE needs a GOTO in STATE '%s'.
+& STATE_NAME
+*An example that would produce this warning is:
+*   CASE a
+*      WHEN 1:
+*         GOTO st1;
+*      WHEN 2:
+*         GOTO st2;
+*   END CASE;
+*The above code says to go to st1 when 'a' is 1 and to go to st2 when 'a'
+*is 2, but it doesn't say where to go to when 'a' has some other value.
+*The compiler will fall back on the DEFAULT_TO values of the state bits
+*to determine the state transition for other values of 'a'.
+>Ws partial GOTO in CASE
+=[1102] A WHEN clause needs a GOTO in STATE '%s'.
+& STATE_NAME
+*An example that would produce this warning is:
+*   CASE a
+*      WHEN 1:
+*         GOTO st1;
+*      WHEN 2:
+*         x = 1;
+*      ELSE
+*         GOTO st2;
+*   END CASE;
+*The above code says to go to st1 when 'a' is 1 and to go to st2 when 'a'
+*is not 1 or 2, but it doesn't say where to go to when 'a' is 2.
+*The compiler will fall back on the DEFAULT_TO values of the state bits
+*to determine the state transition when 'a' is 2.
+>Ws no GOTO in STATE
+=[1103] STATE '%s' needs a GOTO.
+& STATE_NAME
+*If no GOTO is given for a STATE then the compiler will fall back on the
+*DEFAULT_TO values of the state bits to determine the state transition.
+>Ws no GOTO to STATE
+=[1104] No GOTO to STATE '%s'.
+& STATE_NAME
+*If there is no GOTO to a particular STATE then the state may not be
+*reachable and may not be necessary to the design.
+>Es GOTO outside STATE_MACHINE
+=[1105] GOTO %s is outside of STATE_MACHINE.
+& STATE_NAME
+>Es GOTO nonexistent state
+=[1106] GOTO %s goes to nonexistent state.
+& STATE_NAME
+
+"symtab.c
+>Es undeclared symbol
+=[1107] Undeclared symbol '%s'.
+>Es index of non-array
+=[1108] Cannot index non-array '%s'.
+>Es undeclared array member
+=[1109] Undeclared array member '%s'.
+>Es symbol cannot be LOW_TRUE
+=[1110] '%s' cannot be LOW_TRUE.
+*Only INPUTs, OUTPUTs, and NODEs can be declared to be LOW_TRUE.
+>Es symbol cannot be flip-flop
+=[1111] '%s' cannot be a flip-flop.
+*Only OUTPUTs and NODEs can be declared as flip flops.
+>Es redeclaration of symbol
+=[1112] Redeclaration of symbol '%s'.
+>F too many symbols in design
+=[1113] Too many symbols in design.
+>Es zero array size
+=[1115] Array '%s' cannot have zero size.
+>Esd too large array size
+=[1116] Array '%s' cannot have >%d members.
+>Es forward referenced array
+=[1117] Array '%s' cannot be forward referenced.
+>E different array sizes in WIRED_BUS
+=[1118] Inconsistent member sizes in WIRED_BUS declaration.
+>Es redeclaration of MACRO
+=[1119] Redeclaration of MACRO '%s'.
+& MACRO_NAME
+>Es OUTPUT parameters in FUNCTION
+=[1120] Cannot have OUTPUT parameters in FUNCTION '%s'.
+& FUNCTION_NAME
+>Es too few parameters
+=[1121] Too few parameters to '%s'.
+>Es too many parameters
+=[1122] Too many parameters to '%s'.
+>M equation reduction
+=Equation reduction.
+>Ms reducing global
+=Reducing '%s'.
+&*
+>Ms reducing local
+=Reducing '%s'.
+&*
+>Es Wired bus member reference
+=[1125] Cannot reference WIRED_BUS member '%s'.
+*Any signal feeding a WIRED_BUS cannot be referenced.  Only the WIRED_BUS
+*signal itself can be referenced.  This WIRED_BUS signal and all signals
+*feeding the WIRED_BUS will have the same value since they are wired
+*together.
+>Es cannot have control
+=[1126] '%s' cannot have control information.
+*Only OUTPUTs and NODEs can be given CLOCKED_BY, ENABLED_BY, RESET_BY,
+*or PRESET_BY.
+>Es CLOCK_ENABLED_BY without CLOCKED_BY
+=[1127] '%s' has CLOCK_ENABLED_BY without CLOCKED_BY.
+>Es RESET_BY or PRESET_BY without CLOCKED_BY
+=[1128] '%s' cannot have RESET_BY or PRESET_BY without CLOCKED_BY.
+*Only a clocked register can be given RESET_BY and PRESET_BY constructs.
+*To create an SR_LATCH make the CLOCKED_BY expression be 0;
+>Es D_LATCH without LATCHED_BY
+=[1129] D_LATCH '%s' needs LATCHED_BY expression.
+>Es flip-flop without CLOCKED_BY
+=[1130] Flip-flop '%s' needs CLOCKED_BY expression.
+*In the case of dual-edge clocking this error can also indicate that
+*the flip-flop is missing the BOTH_EDGES_OF construct.
+>Es symbol cannot have default
+=[1131] '%s' cannot have a DEFAULT_TO.
+*Only OUTPUTs and NODEs can be given a DEFAULT_TO.
+>Es needs two DEFAULT_TOs
+=[1132] '%s' needs two DEFAULT_TO expressions.
+*JK_FLOPs and SR_FLOPs must be given two DEFAULT_TO expressions separated
+*by a comma.  The first expression is for the J or S.  The second expression
+*is for the K or R.
+>Es cannot have two DEFAULT_TOs
+=[1133] '%s' cannot have two DEFAULT_TO expressions.
+*Only JK_FLOPs and SR_FLOPs can be given two DEFAULT_TO expressions.
+>Es NO_REDUCE on VIRTUAL
+=[1134] Cannot have NO_REDUCE on VIRTUAL '%s'.
+>Ws nested assign to unreduced symbol
+=[1135] Nested assignment to '%s' which has NO_REDUCE.
+*A symbol declared with NO_REDUCE must be given its equation outside of
+*any IF, CASE, TRUTH_TABLE, or STATE_MACHINE statements to guarantee that
+*the equation will be implemented as given without any reduction.
+>Es assignment collision
+=[1136] Multiple conflicting assignments to '%s'.
+*A signal can only be assigned one value for any condition.  An example
+*that would produce this error is:
+*   IF a THEN
+*      x = 1;
+*   END IF;
+*   IF b THEN
+*      x = 0;
+*   END IF;
+*This example says that 'x' should be 1 when 'a' is asserted.  It also
+*says that 'x' should be 0 when 'b' is asserted.  This is a problem if
+*both 'a' and 'b' are asserted.
+>Es cannot assign Z
+=[1137] Cannot assign .Z. to '%s'.
+*The .Z. can only be assigned to OUTPUTs and NODEs since only these can
+*have an ENABLED_BY expression.
+>Es missing suffix
+=[1138] Need suffix for flip-flop '%s'.
+*The signal name for a JK_FLOP, SR_FLOP, or T_FLOP must have a suffix
+*appended to indicate which input of the flop is driven by the assigned
+*expression.
+>Es incompatible suffix
+=[1139] Incompatible suffix for flip-flop '%s'.
+>Es redeclaration
+=[1140] Redeclaration of '%s'.
+>Ess mismatched END name
+=[1141] END name '%s' does not match '%s'.
+>Es range identifier needs ending number
+=[1142] Range identifier '%s' needs to end with a number.
+& IDENT
+>Ess mismatched range identifiers
+=[1143] Range identifiers '%s' and '%s' not identical before end numbers.
+& IDENT1 IDENT2
+>Ed exceeded maximum range identifiers
+=[1144] Ranging over more that %d identifiers.
+>Ws dot in library name
+=[1145] Should not have '.' in library name '%s'.
+& FILE_NAME
+*The syntax of a USE construct is "USE 'filename'.name;" the filename must
+*be in single quotes and the .name must be outside of the quotes.  The .name
+*is optional.
+>Es file does not exist
+=[1146] File '%s.afb' does not exist.
+& FILE_NAME
+>Fs bad file format
+=[1147] Bad file format in '%s.afb'.
+& FILE_NAME
+*The .afb file has become corrupted.  Remove it and recompile the .src file
+*to recreate the .afb file.
+>F bad file format
+=[1148] Bad file format in .afb file.
+*The .afb file has become corrupted.  Remove it and recompile the .src file
+*to recreate the .afb file.
+>Ms using file
+=   File '%s'.
+&*
+>Ms using scope
+=       Using '%s'.
+&*
+>Mss using scope from file
+=   Using '%s'.%s.
+&*
+>Ess symbol not in USE file
+=[1152] Cannot find '%s' in '%s'.
+& SYMBOL_NAME FILE_NAME
+*This means that a USE construct has specified a FUNCTION or PROCEDURE that
+*cannot be found in the given file.
+>Es unknown header
+=[1153] Unknown header type '%s'.
+& HEADER_TYPE
+*The '#' that initiates a header must be followed by one of the legal
+*header types specified in the manual section on headers.
+>Es duplicate header
+=[1154] The %s header is already given.
+& HEADER_TYPE
+>W removing asterisk
+=[1155] Removing special JEDEC character '*' from header.
+*Jedec files consider an asterisk to be a special character.  Asterisks are
+*replaced by spaces in header strings to avoid creating a bad jedec file.
+>Ess undeclared scope
+=[1156] Invocation of undeclared %s '%s'.
+& FUNCTION_OR_PROCEDURE SYMBOL_NAME
+>Esss wrong kind of scope
+=[1157] Cannot invoke %s '%s' as a %s.
+& FUNCTION_OR_PROCEDURE SYMBOL_NAME PROCEDURE_OR_FUNCTION
+>Ess recursive invocation
+=[1158] Recursive invocation of %s '%s'.
+& FUNCTION_OR_PROCEDURE SYMBOL_NAME
+*A FUNCTION or PROCEDURE cannot invoke itself.
+>Fs equation too large
+=[1159] Equation too large for symbol '%s'.
+*This indicates that the design was written in a way that caused an equation
+*to exceed the internal equation size limit.  The design should probably
+*be modified to use NODEs to hold intermediate equation values to avoid
+*generating such large equations.  There are options available to raise
+*the internal equation size limit and to have the compiler automatically
+*generate NODEs for some equations.
+
+>Fd maximum equations exceeded
+=[1160] Exceeded number of equations for this product exceeded: %d
+>Es DE_CLOCK enable without DE_CLOCK
+=[1161] '%s' has either a POS_EDGE_ENABLED_BY or NEG_EDGE_ENABLED_BY without CLOCKED_BY BOTH_EDGES_OF.
+*This inidicates that you have added either a positive or negative edge
+*clock enable to a node or output that is not a dual edge clock.  If the
+*node/output has a CLOCKED_BY construct, please add the BOTH_EDGES_OF
+*construct before using {POS/NEG}_EDGE_ENABLED_BY
+
+>Es D_LATCH with DUAL_EDGE_CLOCK
+=[1162] D_LATCH '%s' needs LATCHED_BY expression.
+*This indicates you tried to assign a dual edge clock to a latch.  This
+*is not allowed.

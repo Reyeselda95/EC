@@ -1,0 +1,52 @@
+Dual-Slope Auto-Zero Digital Voltmeter Circuit
+
+This circuit demonstrates the mixed analog/digital capabilities of the
+simulator.  The design is a single page and is not hierarchical.  Markers
+have been placed on the key input and output signals and busses so that
+the traces will be displayed automatically when Probe is started.
+
+This design can be packaged for layout.
+
+Required Symbol libraries:
+	7400.slb
+	diode.slb	
+	breakout.slb
+	opamp.slb
+	source.slb
+Required model libraries:
+	7400.lib
+	diode.lib
+	breakout.lib
+	linear.lib	
+Required package libraries:
+	7400.plb
+	diode.plb
+	opamp.plb
+	
+This circuit uses ten analog switches (S1-S10), which are controlled
+by the digital sequencing logic, to configure the analog section into
+one of four modes.  The analog section consists of a voltage follower 
+(U28), an integrator (U27), and a compactor (U1).  Using the switches 
+these can be configured to: Auto-Zero mode, where the total effective
+offset voltage of all three analog gain blocks is stored on the 
+capacitor C1; Integrate Input mode, where the difference between the 
+In_Pos and In_Neg inputs is integrated onto capacitor C3; Integrate
+Positive Reference mode, where the Vref value (stored on C2) is 
+integrated onto capacitor C3; and finally, Integrate Negative Reference
+mode, where -Vref (stored on C2) is integrated onto capacitor C3.
+
+The control logic configures the analog system into Auto-Zero mode for 
+the first 8.3ms (1000 clock cycles) of the conversion cycle.  For the next 
+8.3ms (1000 clock cycles) it selects Integrate Input mode.  Then it selects 
+Integrate Positive or Negative Reference, depending on what the output of 
+the compactor is.  The counter (U19, U20, U21, and U12) counts up the 
+time it takes for the Integrate Reference mode to reach zero on the 
+integration capacitor C3.  When the compactor output indicates that C3 is 
+at zero, the counter value is latched into U25 and U26, which provide the 
+output data values (D[12:0] and Sign_Neg).  The number of counts (divided 
+by 1000) is the ratio between Vref and the input voltage.  In this example, 
+the input voltage is 1.500 volts and Vref is 1.000 volts.
+
+This design will not run under MicroSim Basics packages or the MicroSim
+Evaluation (student) version.
+	

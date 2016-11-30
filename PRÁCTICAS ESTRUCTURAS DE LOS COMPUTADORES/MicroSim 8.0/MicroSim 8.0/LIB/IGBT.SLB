@@ -1,0 +1,1931 @@
+*version 8.0 42257792
+@index
+symloc APT25GF100BN:NIGBT 0 237
+symloc APT30G100BN:NIGBT 237 232
+symloc APT30GF60BN:NIGBT 469 232
+symloc APT30GL100BN:NIGBT 701 236
+symloc APT35G50BN:NIGBT 937 228
+symloc APT35G60BN:NIGBT 1165 228
+symloc APT35GL60BN:NIGBT 1393 232
+symloc APT40GF100BN:NIGBT 1625 236
+symloc APT45G100BN:NIGBT 1861 232
+symloc APT45GF60BN:NIGBT 2093 232
+symloc APT45GL100BN:NIGBT 2325 236
+symloc APT50G50BN:NIGBT 2561 228
+symloc APT50G60BN:NIGBT 2789 228
+symloc APT50GF100BN:NIGBT 3017 236
+symloc APT50GL60BN:NIGBT 3253 232
+symloc APT55GF60BN:NIGBT 3485 232
+symloc APT65GL100BN:NIGBT 3717 236
+symloc APT75GL60BN:NIGBT 3953 232
+symloc APT90GF100JN:NIGBT 4185 276
+symloc BSM100GB100D:NIGBT 4461 283
+symloc BSM150GB100D:NIGBT 4744 283
+symloc BSM200GA120D:NIGBT 5027 283
+symloc BSM25GB100D:NIGBT 5310 279
+symloc BSM50GB100D:NIGBT 5589 279
+symloc BSM75GB100D:NIGBT 5868 279
+symloc BUK854-500IS:NIGBT 6147 236
+symloc BUK856-400IZ:NIGBT 6383 236
+symloc BUK856-450IX:NIGBT 6619 236
+symloc CM1000HA-24H:NIGBT 6855 368
+symloc CM100DY-12E:NIGBT 7223 293
+symloc CM100DY-12H:NIGBT 7516 293
+symloc CM100DY-24E:NIGBT 7809 294
+symloc CM100DY-24H:NIGBT 8103 294
+symloc CM100E3Y-12E:NIGBT 8397 300
+symloc CM100E3Y-24E:NIGBT 8697 301
+symloc CM150DY-12E:NIGBT 8998 293
+symloc CM150DY-12H:NIGBT 9291 293
+symloc CM150DY-24E:NIGBT 9584 294
+symloc CM150DY-24H:NIGBT 9878 294
+symloc CM150E3Y-12E:NIGBT 10172 300
+symloc CM150E3Y-24E:NIGBT 10472 301
+symloc CM200DY-12E:NIGBT 10773 293
+symloc CM200DY-12H:NIGBT 11066 293
+symloc CM200DY-24E:NIGBT 11359 294
+symloc CM200DY-24H:NIGBT 11653 294
+symloc CM200DY-28H:NIGBT 11947 273
+symloc CM200E3Y-12E:NIGBT 12220 300
+symloc CM200E3Y-24E:NIGBT 12520 301
+symloc CM200HA-24E:NIGBT 12821 296
+symloc CM200HA-24H:NIGBT 13117 296
+symloc CM300DY-12E:NIGBT 13413 293
+symloc CM300DY-12H:NIGBT 13706 293
+symloc CM300DY-24E:NIGBT 13999 294
+symloc CM300DY-24H:NIGBT 14293 294
+symloc CM300DY-28H:NIGBT 14587 273
+symloc CM300E3Y-12E:NIGBT 14860 300
+symloc CM300HA-12E:NIGBT 15160 295
+symloc CM300HA-12H:NIGBT 15455 295
+symloc CM300HA-24E:NIGBT 15750 296
+symloc CM300HA-24H:NIGBT 16046 296
+symloc CM400DY-12H:NIGBT 16342 293
+symloc CM400HA-12E:NIGBT 16635 295
+symloc CM400HA-12H:NIGBT 16930 295
+symloc CM400HA-24H:NIGBT 17225 296
+symloc CM400HA-28H:NIGBT 17521 273
+symloc CM400HA-34H:NIGBT 17794 273
+symloc CM50DY-12E:NIGBT 18067 288
+symloc CM50DY-12H:NIGBT 18355 288
+symloc CM50DY-24E:NIGBT 18643 289
+symloc CM50DY-24H:NIGBT 18932 289
+symloc CM50DY-28H:NIGBT 19221 287
+symloc CM50E3Y-12E:NIGBT 19508 295
+symloc CM50E3Y-24E:NIGBT 19803 296
+symloc CM600HA-12H:NIGBT 20099 295
+symloc CM600HA-24E:NIGBT 20394 296
+symloc CM600HA-24H:NIGBT 20690 296
+symloc CM600HA-28H:NIGBT 20986 274
+symloc CM75DY-12E:NIGBT 21260 288
+symloc CM75DY-12H:NIGBT 21548 288
+symloc CM75DY-24E:NIGBT 21836 289
+symloc CM75DY-24H:NIGBT 22125 289
+symloc CM75E3Y-12E:NIGBT 22414 295
+symloc CM75E3Y-24E:NIGBT 22709 296
+symloc CPU/IR 23005 2028 b
+symloc CPU165MF:CPU/IR 25033 231
+symloc CPV/IR 25264 1173 b
+symloc CPV362MF:CPV/IR 26437 230
+symloc CPV363MF:CPV/IR 26667 231
+symloc HGTD10N40F1:NIGBT 26898 187
+symloc HGTD10N50F1:NIGBT 27085 187
+symloc HGTD6N40E1:NIGBT 27272 184
+symloc HGTD6N50E1:NIGBT 27456 184
+symloc HGTG12N60D1D:NIGBT 27640 190
+symloc HGTG24N60D1D:NIGBT 27830 190
+symloc HGTG32N60E2:NIGBT 28020 187
+symloc HGTH12N40C1:NIGBT 28207 187
+symloc HGTH12N50C1:NIGBT 28394 187
+symloc HGTP10N40C1:NIGBT 28581 187
+symloc HGTP10N50C1:NIGBT 28768 187
+symloc HGTP12N60D1:NIGBT 28955 187
+symloc HGTP6N40E1D:NIGBT 29142 187
+symloc HGTP6N50E1D:NIGBT 29329 187
+symloc IRGBC20F:NIGBT 29516 220
+symloc IRGBC20S:NIGBT 29736 220
+symloc IRGBC30F:NIGBT 29956 220
+symloc IRGBC30S:NIGBT 30176 220
+symloc IRGBC40F:NIGBT 30396 261
+symloc IRGBC40S:NIGBT 30657 220
+symloc IRGPC40F:NIGBT 30877 220
+symloc IRGPC40S:NIGBT 31097 220
+symloc IRGPC50F:NIGBT 31317 220
+symloc IRGPC50S:NIGBT 31537 220
+symloc IXGH10N100:NIGBT 31757 184
+symloc IXGH10N100A:NIGBT 31941 187
+symloc IXGH10N60:NIGBT 32128 181
+symloc IXGH10N60A:NIGBT 32309 184
+symloc IXGH17N100:NIGBT 32493 184
+symloc IXGH17N100A:NIGBT 32677 187
+symloc IXGH20N60:NIGBT 32864 181
+symloc IXGH20N60A:NIGBT 33045 184
+symloc IXGH24N60A:NIGBT 33229 184
+symloc IXGH25N100:NIGBT 33413 184
+symloc IXGH25N100A:NIGBT 33597 187
+symloc IXGH30N60:NIGBT 33784 181
+symloc IXGH30N60A:NIGBT 33965 184
+symloc IXGH32N60A:NIGBT 34149 184
+symloc IXGH38N60A:NIGBT 34333 184
+symloc IXGH40N60:NIGBT 34517 181
+symloc IXGH40N60A:NIGBT 34698 184
+symloc IXGK50N60A:NIGBT 34882 228
+symloc IXGM17N100:NIGBT 35110 184
+symloc IXGM17N100A:NIGBT 35294 187
+symloc IXGM20N60:NIGBT 35481 181
+symloc IXGM20N60A:NIGBT 35662 184
+symloc IXGM25N100:NIGBT 35846 184
+symloc IXGM25N100A:NIGBT 36030 187
+symloc IXGM30N60:NIGBT 36217 181
+symloc IXGM30N60A:NIGBT 36398 184
+symloc IXGM40N60:NIGBT 36582 181
+symloc IXGM40N60A:NIGBT 36763 184
+symloc MG100H1BS1:NIGBT 36947 280
+symloc MG15H1BS1:NIGBT 37227 276
+symloc MG15N1BS1:NIGBT 37503 276
+symloc MG25H1BS1:NIGBT 37779 276
+symloc MG25N1BS1:NIGBT 38055 276
+symloc MG50H1BS1:NIGBT 38331 276
+symloc MG50N1BS1:NIGBT 38607 276
+symloc MG50N2YS9:NIGBT 38883 253
+symloc NIGBT 39136 651 b
+symloc Z1MBI30L-060:NIGBT 39787 283
+symloc Z1MBI50L-060:NIGBT 40070 283
+symloc Z1MBI75L-060:NIGBT 40353 283
+symloc Z6MBI10F-060:NIGBT 40636 283
+symloc Z6MBI10L-060:NIGBT 40919 283
+symloc Z6MBI15F-060:NIGBT 41202 283
+symloc Z6MBI15L-060:NIGBT 41485 283
+symloc Z6MBI20F-060:NIGBT 41768 283
+symloc Z6MBI20L-060:NIGBT 42051 283
+symloc Z6MBI30F-060:NIGBT 42334 283
+symloc Z6MBI30L-060:NIGBT 42617 283
+symloc GT10G101 42900 668
+symloc GT10G102 43568 668
+symloc GT15G101 44236 668
+symloc GT15J101 44904 668
+symloc GT15J102 45572 668
+symloc GT15N101 46240 668
+symloc GT15Q101 46908 668
+symloc GT80J101 47576 668
+symloc GT15J103SM 48244 674
+symloc copyright 48918 575 b
+*symbol APT25GF100BN ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 24 hln 100 PART=APT25GF100BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT25GF100BN
+a 0 sp 0 0 0 10 hln 100 COMPONENT=APT25GF100BN
+*symbol APT30G100BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT30G100BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT30G100BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT30G100BN
+*symbol APT30GF60BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 23 hln 100 PART=APT30GF60BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT30GF60BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT30GF60BN
+*symbol APT30GL100BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT30GL100BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT30GL100BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT30GL100BN
+*symbol APT35G50BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT35G50BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT35G50BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT35G50BN
+*symbol APT35G60BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT35G60BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT35G60BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT35G60BN
+*symbol APT35GL60BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT35GL60BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT35GL60BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT35GL60BN
+*symbol APT40GF100BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT40GF100BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT40GF100BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT40GF100BN
+*symbol APT45G100BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT45G100BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT45G100BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT45G100BN
+*symbol APT45GF60BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT45GF60BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT45GF60BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT45GF60BN
+*symbol APT45GL100BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT45GL100BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT45GL100BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT45GL100BN
+*symbol APT50G50BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT50G50BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT50G50BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT50G50BN
+*symbol APT50G60BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT50G60BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT50G60BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT50G60BN
+*symbol APT50GF100BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT50GF100BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT50GF100BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT50GF100BN
+*symbol APT50GL60BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT50GL60BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT50GL60BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT50GL60BN
+*symbol APT55GF60BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT55GF60BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT55GF60BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT55GF60BN
+*symbol APT65GL100BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT65GL100BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT65GL100BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT65GL100BN
+*symbol APT75GL60BN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT75GL60BN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT75GL60BN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT75GL60BN
+*symbol APT90GF100JN ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=APT90GF100JN
+a 0 sp 0 0 0 0 hln 100 MODEL=APT90GF100JN
+a 0 sp 0 0 0 0 hln 100 COMPONENT=APT90GF100JN
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol BSM100GB100D ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=BSM100GB100D
+a 0 sp 0 0 0 0 hln 100 MODEL=BSM100GB100D
+a 0 sp 0 0 0 0 hln 100 COMPONENT=BSM100GB100D
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol BSM150GB100D ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=BSM150GB100D
+a 0 sp 0 0 0 0 hln 100 MODEL=BSM150GB100D
+a 0 sp 0 0 0 0 hln 100 COMPONENT=BSM150GB100D
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol BSM200GA120D ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=BSM200GA120D
+a 0 sp 0 0 0 0 hln 100 MODEL=BSM200GA120D
+a 0 sp 0 0 0 0 hln 100 COMPONENT=BSM200GA120D
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol BSM25GB100D ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=BSM25GB100D
+a 0 sp 0 0 0 0 hln 100 MODEL=BSM25GB100D
+a 0 sp 0 0 0 0 hln 100 COMPONENT=BSM25GB100D
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol BSM50GB100D ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=BSM50GB100D
+a 0 sp 0 0 0 0 hln 100 MODEL=BSM50GB100D
+a 0 sp 0 0 0 0 hln 100 COMPONENT=BSM50GB100D
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol BSM75GB100D ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=BSM75GB100D
+a 0 sp 0 0 0 0 hln 100 MODEL=BSM75GB100D
+a 0 sp 0 0 0 0 hln 100 COMPONENT=BSM75GB100D
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol BUK854-500IS ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=BUK854-500IS
+a 0 sp 0 0 0 0 hln 100 MODEL=BUK854-500IS
+a 0 sp 0 0 0 0 hln 100 COMPONENT=BUK854-500IS
+*symbol BUK856-400IZ ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=BUK856-400IZ
+a 0 sp 0 0 0 0 hln 100 MODEL=BUK856-400IZ
+a 0 sp 0 0 0 0 hln 100 COMPONENT=BUK856-400IZ
+*symbol BUK856-450IX ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=BUK856-450IX
+a 0 sp 0 0 0 0 hln 100 MODEL=BUK856-450IX
+a 0 sp 0 0 0 0 hln 100 COMPONENT=BUK856-450IX
+*symbol CM1000HA-24H ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 26 24 hln 100 PART=CM1000HA-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM1000HA-24H
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+a 0 sp 0 0 0 10 hln 100 COMPONENT=CM1000HA-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM100DY-12E ako NIGBT
+d 100A 600V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM100DY-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM100DY-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM100DY-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM100DY-12H ako NIGBT
+d 100A 600V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM100DY-12H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM100DY-12H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM100DY-12H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM100DY-24E ako NIGBT
+d 100A 1200V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM100DY-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM100DY-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM100DY-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM100DY-24H ako NIGBT
+d 100A 1200V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM100DY-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM100DY-24H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM100DY-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM100E3Y-12E ako NIGBT
+d 100A 600V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM100E3Y-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM100E3Y-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM100E3Y-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM100E3Y-24E ako NIGBT
+d 100A 1200V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM100E3Y-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM100E3Y-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM100E3Y-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM150DY-12E ako NIGBT
+d 150A 600V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM150DY-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM150DY-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM150DY-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM150DY-12H ako NIGBT
+d 150A 600V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM150DY-12H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM150DY-12H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM150DY-12H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM150DY-24E ako NIGBT
+d 150A 1200V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM150DY-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM150DY-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM150DY-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM150DY-24H ako NIGBT
+d 150A 1200V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM150DY-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM150DY-24H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM150DY-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM150E3Y-12E ako NIGBT
+d 150A 600V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM150E3Y-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM150E3Y-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM150E3Y-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM150E3Y-24E ako NIGBT
+d 150A 1200V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM150E3Y-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM150E3Y-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM150E3Y-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM200DY-12E ako NIGBT
+d 200A 600V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM200DY-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM200DY-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM200DY-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM200DY-12H ako NIGBT
+d 200A 600V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM200DY-12H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM200DY-12H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM200DY-12H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM200DY-24E ako NIGBT
+d 200A 1200V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM200DY-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM200DY-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM200DY-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM200DY-24H ako NIGBT
+d 200A 1200V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM200DY-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM200DY-24H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM200DY-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM200DY-28H ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 24 hln 100 PART=CM200DY-28H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM200DY-28H
+a 0 sp 0 0 0 10 hln 100 COMPONENT=CM200DY-28H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM200E3Y-12E ako NIGBT
+d 200A 600V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM200E3Y-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM200E3Y-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM200E3Y-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM200E3Y-24E ako NIGBT
+d 200A 1200V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM200E3Y-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM200E3Y-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM200E3Y-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM200HA-24E ako NIGBT
+d 200A 1200V E-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM200HA-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM200HA-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM200HA-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM200HA-24H ako NIGBT
+d 200A 1200V H-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM200HA-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM200HA-24H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM200HA-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM300DY-12E ako NIGBT
+d 300A 600V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM300DY-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM300DY-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM300DY-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM300DY-12H ako NIGBT
+d 300A 600V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM300DY-12H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM300DY-12H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM300DY-12H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM300DY-24E ako NIGBT
+d 300A 1200V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM300DY-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM300DY-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM300DY-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM300DY-24H ako NIGBT
+d 300A 1200V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM300DY-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM300DY-24H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM300DY-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM300DY-28H ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=CM300DY-28H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM300DY-28H
+a 0 sp 0 0 0 10 hln 100 COMPONENT=CM300DY-28H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM300E3Y-12E ako NIGBT
+d 300A 600V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM300E3Y-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM300E3Y-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM300E3Y-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM300HA-12E ako NIGBT
+d 300A 600V E-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM300HA-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM300HA-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM300HA-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM300HA-12H ako NIGBT
+d 300A 600V H-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM300HA-12H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM300HA-12H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM300HA-12H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM300HA-24E ako NIGBT
+d 300A 1200V E-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM300HA-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM300HA-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM300HA-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM300HA-24H ako NIGBT
+d 300A 1200V H-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM300HA-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM300HA-24H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM300HA-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM400DY-12H ako NIGBT
+d 400A 600V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM400DY-12H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM400DY-12H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM400DY-12H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM400HA-12E ako NIGBT
+d 400A 600V E-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM400HA-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM400HA-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM400HA-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM400HA-12H ako NIGBT
+d 400A 600V H-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM400HA-12H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM400HA-12H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM400HA-12H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM400HA-24H ako NIGBT
+d 400A 1200V H-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM400HA-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM400HA-24H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM400HA-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM400HA-28H ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 34 24 hln 100 PART=CM400HA-28H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM400HA-28H
+a 0 sp 0 0 0 20 hln 100 COMPONENT=CM400HA-28H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM400HA-34H ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 28 24 hln 100 PART=CM400HA-34H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM400HA-34H
+a 0 sp 0 0 0 10 hln 100 COMPONENT=CM400HA-34H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM50DY-12E ako NIGBT
+d 50A 600V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM50DY-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM50DY-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM50DY-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM50DY-12H ako NIGBT
+d 50A 600V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM50DY-12H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM50DY-12H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM50DY-12H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM50DY-24E ako NIGBT
+d 50A 1200V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM50DY-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM50DY-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM50DY-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM50DY-24H ako NIGBT
+d 50A 1200V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM50DY-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM50DY-24H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM50DY-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM50DY-28H ako NIGBT
+d 50A 100V 8-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM50DY-28H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM50DY-28H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM50DY-28
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM50E3Y-12E ako NIGBT
+d 50A 600V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM50E3Y-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM50E3Y-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM50E3Y-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM50E3Y-24E ako NIGBT
+d 50A 1200V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM50E3Y-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM50E3Y-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM50E3Y-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM600HA-12H ako NIGBT
+d 600A 600V H-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM600HA-12H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM600HA-12H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM600HA-12H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM600HA-24E ako NIGBT
+d 600A 1200V E-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM600HA-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM600HA-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM600HA-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM600HA-24H ako NIGBT
+d 600A 1200V H-Series Single Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM600HA-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM600HA-24H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM600HA-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM600HA-28H ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 32 20 hln 100 PART=CM600HA-28H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM600HA-28H
+a 0 up 0 0 0 10 hln 100 COMPONENET=CM600HA-28H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM75DY-12E ako NIGBT
+d 75A 600V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM75DY-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM75DY-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM75DY-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM75DY-12H ako NIGBT
+d 75A 600V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM75DY-12H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM75DY-12H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM75DY-12H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM75DY-24E ako NIGBT
+d 75A 1200V E-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM75DY-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM75DY-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM75DY-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM75DY-24H ako NIGBT
+d 75A 1200V H-Series Dual Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM75DY-24H
+a 0 sp 0 0 0 0 hln 100 MODEL=CM75DY-24H
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM75DY-24H
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM75E3Y-12E ako NIGBT
+d 75A 600V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM75E3Y-12E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM75E3Y-12E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM75E3Y-12E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CM75E3Y-24E ako NIGBT
+d 75A 1200V E-Series Chopper Insulated Gate Bipolar Transistor (IGBT) Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=CM75E3Y-24E
+a 0 sp 0 0 0 0 hln 100 MODEL=CM75E3Y-24E
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CM75E3Y-24E
+a 0 sp 0 0 0 10 hln 100 SIMULATIONONLY=
+*symbol CPU/IR b
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Inverter
+@type p
+@attributes
+a 0 sp 9 0 2 -2 hln 100 REFDES=U?
+a 0 sp 11 0 -14 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 %4 %5 %6 %7 %9 %10 %11 %12 @model
+@pins
+p 0 13 52 hln 100 4 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=4
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 0 28 12 hln 100 1 n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=1
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=r
+p 0 13 102 hln 100 9 n 0 100 h
+a 0 s 1 0 5 98 hrn 100 PIN=9
+a 0 s 0 0 0 100 hln 100 ERC=x
+p 0 32 118 hln 100 11 n 30 130 v
+a 0 s 1 0 25 132 hcn 100 PIN=11
+a 0 s 0 0 30 130 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=r
+p 0 47 82 hrn 100 7 n 60 80 u
+a 0 s 1 0 55 78 hln 100 PIN=7
+a 0 s 0 0 60 80 hln 100 ERC=x
+a 0 s 0 0 10 40 hln 100 FLOAT=r
+p 0 47 72 hrn 100 6 n 60 70 u
+a 0 s 1 0 55 68 hln 100 PIN=6
+a 0 s 0 0 60 70 hln 100 ERC=x
+a 0 s 0 0 10 10 hln 100 FLOAT=r
+p 0 13 62 hln 100 5 n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=5
+a 0 s 0 0 0 60 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=r
+p 0 13 112 hln 100 10 n 0 110 h
+a 0 s 1 0 5 108 hrn 100 PIN=10
+a 0 s 0 0 0 110 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=r
+p 0 38 10 hln 100 2 n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=2
+a 0 s 0 0 40 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=r
+p 0 42 120 hln 100 12 n 40 130 v
+a 0 s 1 0 35 132 hcn 100 PIN=12
+a 0 s 0 0 40 130 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=r
+@graphics 60 130 30 0 10
+r 0 10 10 50 120
+v 0 30 80
+30 50
+;
+v 0 30 110
+30 100
+;
+v 0 10 110
+30 110
+;
+v 0 10 60
+30 60
+;
+v 0 30 80
+40 80
+;
+v 0 30 70
+40 70
+;
+v 0 30 110
+40 110
+;
+v 0 30 30
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 30 20
+40 20
+;
+v 0 30 20
+30 10
+;
+v 0 40 20
+40 10
+;
+v 0 30 120
+30 110
+;
+v 0 30 110
+40 110
+;
+v 0 40 110
+40 120
+;
+v 0 40 70
+50 70
+;
+v 0 40 80
+50 80
+;
+v 0 20 30
+20 50
+;
+v 0 17 30
+17 50
+;
+v 0 10 50
+17 50
+;
+v 0 30 30
+20 35
+;
+v 0 20 45
+30 50
+;
+v 0 21 48
+28 49
+23 44
+;
+v 0 20 80
+20 100
+;
+v 0 17 80
+17 100
+;
+v 0 10 100
+17 100
+;
+v 0 30 80
+20 85
+;
+v 0 20 95
+30 100
+;
+v 0 21 98
+28 99
+23 94
+;
+*symbol CPU165MF ako CPU/IR
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Inverter
+@type p
+@attributes
+a 0 sp 11 0 52 34 hln 100 PART=CPU165MF
+a 0 sp 0 0 0 0 hln 100 MODEL=CPU165MF
+a 0 sp 0 0 0 10 hln 100 COMPONENT=CPU165MF
+*symbol CPV/IR b
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Inverter
+@type p
+@attributes
+a 0 sp 9 0 2 -2 hln 100 REFDES=U?
+a 0 sp 11 0 -14 42 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C1 %G1 %E1 %G2 %E2 @model
+@pins
+p 0 13 42 hln 100 G1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=3
+a 0 s 0 0 0 40 hln 100 ERC=x
+p 0 28 12 hln 100 C1 n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=1
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=r
+p 0 13 82 hln 100 G2 n 0 80 h
+a 0 s 1 0 5 78 hrn 100 PIN=8
+a 0 s 0 0 0 80 hln 100 ERC=x
+p 0 32 88 hln 100 E2 n 30 100 v
+a 0 s 1 0 25 102 hcn 100 PIN=7
+a 0 s 0 0 30 100 hln 100 ERC=x
+a 0 s 0 0 0 -10 hln 100 FLOAT=r
+p 0 37 52 hrn 100 E1 n 50 50 u
+a 0 s 1 0 45 48 hln 100 PIN=4
+a 0 s 0 0 50 50 hln 100 ERC=x
+a 0 s 0 0 0 -10 hln 100 FLOAT=r
+@graphics 50 100 30 0 10
+r 0 10 10 40 90
+v 0 30 50
+40 50
+;
+v 0 30 20
+30 10
+;
+v 0 30 10
+30 20
+;
+v 0 30 90
+30 80
+;
+v 0 30 60
+30 40
+;
+v 0 20 20
+20 40
+;
+v 0 17 20
+17 40
+;
+v 0 10 40
+17 40
+;
+v 0 30 20
+20 25
+;
+v 0 20 35
+30 40
+;
+v 0 21 38
+28 39
+23 34
+;
+v 0 20 60
+20 80
+;
+v 0 17 60
+17 80
+;
+v 0 10 80
+17 80
+;
+v 0 30 60
+20 65
+;
+v 0 20 75
+30 80
+;
+v 0 21 78
+28 79
+23 74
+;
+*symbol CPV362MF ako CPV/IR
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Inverter
+@type p
+@attributes
+a 0 sp 11 0 42 29 hln 100 PART=CPV362MF
+a 0 sp 0 0 0 0 hln 100 MODEL=CPV362MF
+a 0 sp 0 0 0 0 hln 100 COMPONENT=CPV362MF
+*symbol CPV363MF ako CPV/IR
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Inverter
+@type p
+@attributes
+a 0 sp 11 0 40 30 hln 100 PART=CPV363MF
+a 0 sp 0 0 0 0 hln 100 MODEL=CPV363MF
+a 0 sp 0 0 0 10 hln 100 COMPONENT=CPV363MF
+*symbol HGTD10N40F1 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 22 hln 100 PART=HGTD10N40F1
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTD10N40F1
+*symbol HGTD10N50F1 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 24 hln 100 PART=HGTD10N50F1
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTD10N50F1
+*symbol HGTD6N40E1 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 32 24 hln 100 PART=HGTD6N40E1
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTD6N40E1
+*symbol HGTD6N50E1 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 22 hln 100 PART=HGTD6N50E1
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTD6N50E1
+*symbol HGTG12N60D1D ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 28 22 hln 100 PART=HGTG12N60D1D
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTG12N60D1D
+*symbol HGTG24N60D1D ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=HGTG24N60D1D
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTG24N60D1D
+*symbol HGTG32N60E2 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=HGTG32N60E2
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTG32N60E2
+*symbol HGTH12N40C1 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 22 hln 100 PART=HGTH12N40C1
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTH12N40C1
+*symbol HGTH12N50C1 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 22 hln 100 PART=HGTH12N50C1
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTH12N50C1
+*symbol HGTP10N40C1 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 32 22 hln 100 PART=HGTP10N40C1
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTP10N40C1
+*symbol HGTP10N50C1 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 32 22 hln 100 PART=HGTP10N50C1
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTP10N50C1
+*symbol HGTP12N60D1 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 22 hln 100 PART=HGTP12N60D1
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTP12N60D1
+*symbol HGTP6N40E1D ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 22 hln 100 PART=HGTP6N40E1D
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTP6N40E1D
+*symbol HGTP6N50E1D ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 24 hln 100 PART=HGTP6N50E1D
+a 0 sp 0 0 0 0 hln 100 MODEL=HGTP6N50E1D
+*symbol IRGBC20F ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=IRGBC20F
+a 0 sp 0 0 0 0 hln 100 MODEL=IRGBC20F
+a 0 sp 0 0 0 0 hln 100 COMPONENT=IRGBC20F
+*symbol IRGBC20S ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=IRGBC20S
+a 0 sp 0 0 0 0 hln 100 MODEL=IRGBC20S
+a 0 sp 0 0 0 0 hln 100 COMPONENT=IRGBC20S
+*symbol IRGBC30F ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=IRGBC30F
+a 0 sp 0 0 0 0 hln 100 MODEL=IRGBC30F
+a 0 sp 0 0 0 0 hln 100 COMPONENT=IRGBC30F
+*symbol IRGBC30S ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=IRGBC30S
+a 0 sp 0 0 0 0 hln 100 MODEL=IRGBC30S
+a 0 sp 0 0 0 0 hln 100 COMPONENT=IRGBC30S
+*symbol IRGBC40F ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 22 hln 100 PART=IRGBC40F
+a 0 sp 0 0 0 0 hln 100 MODEL=IRGBC40F
+a 0 sp 0 0 0 10 hln 100 COMPONENT=IRGBC40F
+a 0 sp 0 0 0 20 hln 100 SIMULATIONONLY=
+*symbol IRGBC40S ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=IRGBC40S
+a 0 sp 0 0 0 0 hln 100 MODEL=IRGBC40S
+a 0 sp 0 0 0 0 hln 100 COMPONENT=IRGBC40S
+*symbol IRGPC40F ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=IRGPC40F
+a 0 sp 0 0 0 0 hln 100 MODEL=IRGPC40F
+a 0 sp 0 0 0 0 hln 100 COMPONENT=IRGPC40F
+*symbol IRGPC40S ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=IRGPC40S
+a 0 sp 0 0 0 0 hln 100 MODEL=IRGPC40S
+a 0 sp 0 0 0 0 hln 100 COMPONENT=IRGPC40S
+*symbol IRGPC50F ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=IRGPC50F
+a 0 sp 0 0 0 0 hln 100 MODEL=IRGPC50F
+a 0 sp 0 0 0 0 hln 100 COMPONENT=IRGPC50F
+*symbol IRGPC50S ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=IRGPC50S
+a 0 sp 0 0 0 0 hln 100 MODEL=IRGPC50S
+a 0 sp 0 0 0 0 hln 100 COMPONENT=IRGPC50S
+*symbol IXGH10N100 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 24 hln 100 PART=IXGH10N100
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH10N100
+*symbol IXGH10N100A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 24 hln 100 PART=IXGH10N100A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH10N100A
+*symbol IXGH10N60 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 28 24 hln 100 PART=IXGH10N60
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH10N60
+*symbol IXGH10N60A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH10N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH10N60A
+*symbol IXGH17N100 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH17N100
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH17N100
+*symbol IXGH17N100A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH17N100A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH17N100A
+*symbol IXGH20N60 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH20N60
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH20N60
+*symbol IXGH20N60A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH20N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH20N60A
+*symbol IXGH24N60A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH24N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH24N60A
+*symbol IXGH25N100 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 22 hln 100 PART=IXGH25N100
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH25N100
+*symbol IXGH25N100A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 22 hln 100 PART=IXGH25N100A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH25N100A
+*symbol IXGH30N60 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH30N60
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH30N60
+*symbol IXGH30N60A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH30N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH30N60A
+*symbol IXGH32N60A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH32N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH32N60A
+*symbol IXGH38N60A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH38N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH38N60A
+*symbol IXGH40N60 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH40N60
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH40N60
+*symbol IXGH40N60A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGH40N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGH40N60A
+*symbol IXGK50N60A ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=IXGK50N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGK50N60A
+a 0 sp 0 0 0 0 hln 100 COMPONENT=IXGK50N60A
+*symbol IXGM17N100 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGM17N100
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGM17N100
+*symbol IXGM17N100A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGM17N100A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGM17N100A
+*symbol IXGM20N60 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGM20N60
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGM20N60
+*symbol IXGM20N60A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGM20N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGM20N60A
+*symbol IXGM25N100 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGM25N100
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGM25N100
+*symbol IXGM25N100A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGM25N100A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGM25N100A
+*symbol IXGM30N60 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGM30N60
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGM30N60
+*symbol IXGM30N60A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGM30N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGM30N60A
+*symbol IXGM40N60 ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGM40N60
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGM40N60
+*symbol IXGM40N60A ako NIGBT
+d N-channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 26 22 hln 100 PART=IXGM40N60A
+a 0 sp 0 0 0 0 hln 100 MODEL=IXGM40N60A
+*symbol MG100H1BS1 ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Power Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=MG100H1BS1
+a 0 sp 0 0 0 0 hln 100 MODEL=MG100H1BS1
+a 0 sp 0 0 0 0 hln 100 COMPONENT=MG100H1BS1
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol MG15H1BS1 ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Power Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=MG15H1BS1
+a 0 sp 0 0 0 0 hln 100 MODEL=MG15H1BS1
+a 0 sp 0 0 0 0 hln 100 COMPONENT=MG15H1BS1
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol MG15N1BS1 ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Power Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=MG15N1BS1
+a 0 sp 0 0 0 0 hln 100 MODEL=MG15N1BS1
+a 0 sp 0 0 0 0 hln 100 COMPONENT=MG15N1BS1
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol MG25H1BS1 ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Power Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=MG25H1BS1
+a 0 sp 0 0 0 0 hln 100 MODEL=MG25H1BS1
+a 0 sp 0 0 0 0 hln 100 COMPONENT=MG25H1BS1
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol MG25N1BS1 ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Power Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=MG25N1BS1
+a 0 sp 0 0 0 0 hln 100 MODEL=MG25N1BS1
+a 0 sp 0 0 0 0 hln 100 COMPONENT=MG25N1BS1
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol MG50H1BS1 ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Power Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=MG50H1BS1
+a 0 sp 0 0 0 0 hln 100 MODEL=MG50H1BS1
+a 0 sp 0 0 0 0 hln 100 COMPONENT=MG50H1BS1
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol MG50N1BS1 ako NIGBT
+d N-Channel Insulated Gate Bipolar Transistor (IGBT) Power Module
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=MG50N1BS1
+a 0 sp 0 0 0 0 hln 100 MODEL=MG50N1BS1
+a 0 sp 0 0 0 0 hln 100 COMPONENT=MG50N1BS1
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol MG50N2YS9 ako NIGBT
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 34 58 hln 100 PART=MG50N2YS9
+a 0 sp 0 0 0 0 hln 100 MODEL=MG50N2YS9
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol NIGBT b
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 -14 42 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+@pins
+p 0 13 32 hln 100 G n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 28 12 hln 100 C n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 32 28 hln 100 E n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 30 40 0 30 10
+v 0 20 10
+20 30
+;
+v 0 17 10
+17 30
+;
+v 0 10 30
+17 30
+;
+v 0 30 10
+20 15
+;
+v 0 20 25
+30 30
+;
+v 0 21 28
+28 29
+23 24
+;
+*symbol Z1MBI30L-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=Z1MBI30L-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z1MBI30L-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z1MBI30L-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol Z1MBI50L-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=Z1MBI50L-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z1MBI50L-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z1MBI50L-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol Z1MBI75L-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=Z1MBI75L-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z1MBI75L-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z1MBI75L-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol Z6MBI10F-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=Z6MBI10F-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z6MBI10F-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z6MBI10F-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol Z6MBI10L-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=Z6MBI10L-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z6MBI10L-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z6MBI10L-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol Z6MBI15F-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=Z6MBI15F-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z6MBI15F-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z6MBI15F-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol Z6MBI15L-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=Z6MBI15L-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z6MBI15L-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z6MBI15L-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol Z6MBI20F-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=Z6MBI20F-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z6MBI20F-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z6MBI20F-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol Z6MBI20L-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=Z6MBI20L-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z6MBI20L-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z6MBI20L-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol Z6MBI30F-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 24 23 hln 100 PART=Z6MBI30F-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z6MBI30F-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z6MBI30F-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol Z6MBI30L-060 ako NIGBT
+d Fuji Power Module Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 11 0 30 25 hln 100 PART=Z6MBI30L-060
+a 0 sp 0 0 0 0 hln 100 MODEL=Z6MBI30L-060
+a 0 sp 0 0 0 0 hln 100 COMPONENT=Z6MBI30L-060
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+*symbol GT10G101
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 -14 42 hln 100 PART=GT10G101
+a 0 sp 0 0 0 0 hln 100 MODEL=GT10G101
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+@pins
+p 0 13 32 hln 100 G n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 28 12 hln 100 C n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 32 28 hln 100 E n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 30 40 0 30 10
+v 0 20 10
+20 30
+;
+v 0 17 10
+17 30
+;
+v 0 10 30
+17 30
+;
+v 0 30 10
+20 15
+;
+v 0 20 25
+30 30
+;
+v 0 21 28
+28 29
+23 24
+;
+*symbol GT10G102
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 -14 42 hln 100 PART=GT10G102
+a 0 sp 0 0 0 0 hln 100 MODEL=GT10G102
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+@pins
+p 0 13 32 hln 100 G n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 28 12 hln 100 C n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 32 28 hln 100 E n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 30 40 0 30 10
+v 0 20 10
+20 30
+;
+v 0 17 10
+17 30
+;
+v 0 10 30
+17 30
+;
+v 0 30 10
+20 15
+;
+v 0 20 25
+30 30
+;
+v 0 21 28
+28 29
+23 24
+;
+*symbol GT15G101
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 -14 42 hln 100 PART=GT15G101
+a 0 sp 0 0 0 0 hln 100 MODEL=GT15G101
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+@pins
+p 0 13 32 hln 100 G n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 28 12 hln 100 C n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 32 28 hln 100 E n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 30 40 0 30 10
+v 0 20 10
+20 30
+;
+v 0 17 10
+17 30
+;
+v 0 10 30
+17 30
+;
+v 0 30 10
+20 15
+;
+v 0 20 25
+30 30
+;
+v 0 21 28
+28 29
+23 24
+;
+*symbol GT15J101
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 -14 42 hln 100 PART=GT15J101
+a 0 sp 0 0 0 0 hln 100 MODEL=GT15J101
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+@pins
+p 0 13 32 hln 100 G n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 28 12 hln 100 C n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 32 28 hln 100 E n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 30 40 0 30 10
+v 0 20 10
+20 30
+;
+v 0 17 10
+17 30
+;
+v 0 10 30
+17 30
+;
+v 0 30 10
+20 15
+;
+v 0 20 25
+30 30
+;
+v 0 21 28
+28 29
+23 24
+;
+*symbol GT15J102
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 -14 42 hln 100 PART=GT15J102
+a 0 sp 0 0 0 0 hln 100 MODEL=GT15J102
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+@pins
+p 0 13 32 hln 100 G n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 28 12 hln 100 C n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 32 28 hln 100 E n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 30 40 0 30 10
+v 0 20 10
+20 30
+;
+v 0 17 10
+17 30
+;
+v 0 10 30
+17 30
+;
+v 0 30 10
+20 15
+;
+v 0 20 25
+30 30
+;
+v 0 21 28
+28 29
+23 24
+;
+*symbol GT15N101
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 -14 42 hln 100 PART=GT15N101
+a 0 sp 0 0 0 0 hln 100 MODEL=GT15N101
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+@pins
+p 0 13 32 hln 100 G n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 28 12 hln 100 C n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 32 28 hln 100 E n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 30 40 0 30 10
+v 0 20 10
+20 30
+;
+v 0 17 10
+17 30
+;
+v 0 10 30
+17 30
+;
+v 0 30 10
+20 15
+;
+v 0 20 25
+30 30
+;
+v 0 21 28
+28 29
+23 24
+;
+*symbol GT15Q101
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 -14 42 hln 100 PART=GT15Q101
+a 0 sp 0 0 0 0 hln 100 MODEL=GT15Q101
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+@pins
+p 0 13 32 hln 100 G n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 28 12 hln 100 C n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 32 28 hln 100 E n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 30 40 0 30 10
+v 0 20 10
+20 30
+;
+v 0 17 10
+17 30
+;
+v 0 10 30
+17 30
+;
+v 0 30 10
+20 15
+;
+v 0 20 25
+30 30
+;
+v 0 21 28
+28 29
+23 24
+;
+*symbol GT80J101
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 -14 42 hln 100 PART=GT80J101
+a 0 sp 0 0 0 0 hln 100 MODEL=GT80J101
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+@pins
+p 0 13 32 hln 100 G n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 28 12 hln 100 C n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 32 28 hln 100 E n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 30 40 0 30 10
+v 0 20 10
+20 30
+;
+v 0 17 10
+17 30
+;
+v 0 10 30
+17 30
+;
+v 0 30 10
+20 15
+;
+v 0 20 25
+30 30
+;
+v 0 21 28
+28 29
+23 24
+;
+*symbol GT15J103SM
+d N channel Insulated Gate Bipolar Transistor (IGBT)
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Z?
+a 0 sp 11 0 -22 43 hln 100 PART=GT15J103SM
+a 0 sp 0 0 0 0 hln 100 MODEL=GT15J103SM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Z^@REFDES %C %G %E @model
+@pins
+p 0 13 32 hln 100 G n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 28 12 hln 100 C n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 32 28 hln 100 E n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 30 40 0 30 10
+v 0 20 10
+20 30
+;
+v 0 17 10
+17 30
+;
+v 0 10 30
+17 30
+;
+v 0 30 10
+20 15
+;
+v 0 20 25
+30 30
+;
+v 0 21 28
+28 29
+23 24
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+r 0 0 0 230 60
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1994-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.

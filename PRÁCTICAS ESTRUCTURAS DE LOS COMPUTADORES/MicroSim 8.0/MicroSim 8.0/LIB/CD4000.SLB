@@ -1,0 +1,5495 @@
+*version 8.0 984960977
+@index
+symloc CD4000A:4000 0 161
+symloc CD4000B:4000 161 161
+symloc CD4000UB:4000 322 164
+symloc CD4001A:4001 486 142
+symloc CD4001B:4001 628 142
+symloc CD4001UB:4001 770 145
+symloc CD4002A:4002 915 142
+symloc CD4002B:4002 1057 142
+symloc CD4002UB:4002 1199 145
+symloc CD4009A:4009 1344 146
+symloc CD4009UB:4009 1490 149
+symloc CD4010A:4010AB 1639 169
+symloc CD4010B:4010AB 1808 169
+symloc CD4011A:4011 1977 143
+symloc CD4011B:4011 2120 143
+symloc CD4011UB:4011 2263 146
+symloc CD4012A:4012 2409 143
+symloc CD4012B:4012 2552 143
+symloc CD4012UB:4012 2695 146
+symloc CD4013A:4013 2841 163
+symloc CD4013B:4013 3004 163
+symloc CD4017A:4017 3167 182
+symloc CD4017B:4017 3349 182
+symloc CD4018A:4018 3531 153
+symloc CD4018B:4018 3684 153
+symloc CD4019A:4019 3837 151
+symloc CD4019B:4019 3988 151
+symloc CD4020A:4020 4139 158
+symloc CD4020B:4020 4297 158
+symloc CD4022B:4022 4455 186
+symloc CD4023A:4023 4641 143
+symloc CD4023B:4023 4784 143
+symloc CD4023UB:4023 4927 146
+symloc CD4024A:4024 5073 171
+symloc CD4024B:4024 5244 171
+symloc CD4025A:4025 5415 142
+symloc CD4025B:4025 5557 142
+symloc CD4025UB:4025 5699 145
+symloc CD4027A:4027 5844 169
+symloc CD4027B:4027 6013 169
+symloc CD4028A:4028 6182 150
+symloc CD4028B:4028 6332 150
+symloc CD4029A:4029 6482 177
+symloc CD4029B:4029 6659 177
+symloc CD4030A:4030 6836 142
+symloc CD4030B:4030 6978 142
+symloc CD4040B:4040 7120 172
+symloc CD4041A:4041 7292 148
+symloc CD4041UB:4041 7440 151
+symloc CD4042A:4042 7591 148
+symloc CD4042B:4042 7739 148
+symloc CD4043B:4043 7887 154
+symloc CD4044B:4044 8041 155
+symloc CD4048A:4048 8196 166
+symloc CD4048B:4048 8362 166
+symloc CD4049A:4049 8528 146
+symloc CD4049UB:4049 8674 149
+symloc CD4050A:4050 8823 167
+symloc CD4050B:4050 8990 167
+symloc CD4068B:4068 9157 147
+symloc CD4069UB:4069 9304 141
+symloc CD4070B:4070 9445 142
+symloc CD4071B:4071 9587 141
+symloc CD4072B:4072 9728 141
+symloc CD4073B:4073 9869 142
+symloc CD4075B:4075 10011 141
+symloc CD4076B:4076 10152 147
+symloc CD4077B:4077 10299 134
+symloc CD4078B:4078 10433 145
+symloc CD4081B:4081 10578 151
+symloc CD4082B:4082 10729 151
+symloc CD4085B:4085 10880 158
+symloc CD4086B:4086 11038 163
+symloc CD4093B:4093 11201 154
+symloc CD4095B:4095 11355 182
+symloc CD4096B:4096 11537 196
+symloc CD4099B:4099 11733 149
+symloc CD4502B:4502 11882 155
+symloc CD4503B:4503 12037 160
+symloc CD4508B:4508 12197 144
+symloc CD4510B:4510 12341 151
+symloc CD4512B:4512 12492 151
+symloc CD4514B:4514 12643 185
+symloc CD4515B:4515 12828 185
+symloc CD4516B:4516 13013 154
+symloc CD4518B:4518 13167 140
+symloc CD4520B:4520 13307 143
+symloc CD4532B:4532 13450 150
+symloc CD4555B:4555 13600 190
+symloc CD4556B:4556 13790 189
+symloc CD4724B:4724 13979 151
+symloc CD40102B:40102 14130 191
+symloc CD40103B:40103 14321 191
+symloc CD40106B:40106 14512 149
+symloc CD40107B:40107 14661 156
+symloc CD40108B:40108 14817 157
+symloc CD40147B:40147 14974 171
+symloc CD40160B:40160 15145 203
+symloc CD40161B:40161 15348 203
+symloc CD40162B:40162 15551 202
+symloc CD40163B:40163 15753 202
+symloc CD40174B:40174 15955 152
+symloc CD40175B:40175 16107 153
+symloc CD40192B:40192 16260 189
+symloc CD40193B:40193 16449 192
+symloc CD40208B:40208 16641 157
+symloc CD40257B:40257 16798 179
+symloc 4000 16977 1946 b
+symloc 4001 18923 1143 b
+symloc 4002 20066 1603 b
+symloc 4009 21669 984 b
+symloc 4010 22653 1046 b
+symloc 4011 23699 1126 b
+symloc 4012 24825 1357 b
+symloc 4013 26182 1476 b
+symloc 4017 27658 2539 b
+symloc 4018 30197 2528 b
+symloc 4019 32725 2458 b
+symloc 4020 35183 2522 b
+symloc 4022 37705 2299 b
+symloc 4023 40004 1241 b
+symloc 4024 41245 1883 b
+symloc 4025 43128 1261 b
+symloc 4027 44389 1616 b
+symloc 4028 46005 2448 b
+symloc 4029 48453 2549 b
+symloc 4030 51002 1165 b
+symloc 4040 52167 2533 b
+symloc 4041 54700 1087 b
+symloc 4042 55787 2495 b
+symloc 4043 58282 2336 b
+symloc 4044 60618 2338 b
+symloc 4048 62956 2467 b
+symloc 4049:4009 65423 131 b
+symloc 4050:4010 65554 152 b
+symloc 4068 65706 2074 b
+symloc 4069 67780 976 b
+symloc 4070 68756 1165 b
+symloc 4071 69921 1141 b
+symloc 4072 71062 1526 b
+symloc 4073 72588 1241 b
+symloc 4075 73829 1282 b
+symloc 4076 75111 2455 b
+symloc 4077 77566 1157 b
+symloc 4078 78723 2502 b
+symloc 4081 81225 1130 b
+symloc 4082 82355 1365 b
+symloc 4085 83720 1469 b
+symloc 4086 85189 2114 b
+symloc 4093 87303 1205 b
+symloc 4095 88508 2136 b
+symloc 4096 90644 2158 b
+symloc 4098 92802 1664 b
+symloc 4099 94466 2491 b
+symloc 4502 96957 2486 b
+symloc 4503 99443 2498 b
+symloc 4508 101941 2110 b
+symloc 4510 104051 2522 b
+symloc 4512 106573 2482 b
+symloc 4514 109055 3596 b
+symloc 4515:4514 112651 170 b
+symloc 4516 112821 2504 b
+symloc 4518 115325 1590 b
+symloc 4520:4518 116915 128 b
+symloc 4532 117043 2458 b
+symloc 4538:4098 119501 186 b
+symloc 4555 119687 1626 b
+symloc 4556 121313 1641 b
+symloc 4724 122954 2495 b
+symloc 40102 125449 2590 b
+symloc 40103:40102 128039 174 b
+symloc 40106 128213 1056 b
+symloc 40107:4011 129269 138 b
+symloc 40108 129407 3531 b
+symloc 40147 132938 2488 b
+symloc 40160 135426 2546 b
+symloc 40161:40160 137972 186 b
+symloc 40162:40160 138158 185 b
+symloc 40163:40160 138343 185 b
+symloc 40174 138528 2472 b
+symloc 40175 141000 2497 b
+symloc 40192 143497 2557 b
+symloc 40193:40192 146054 175 b
+symloc 40208 146229 3546 b
+symloc 40257 149775 2514 b
+symloc copyright 152289 575 b
+symloc 4010AB 152864 1182 b
+*symbol CD4000A ako 4000
+d Dual 3-input NOR gate plus inverter
+@type p
+@attributes
+a 0 sp 11 0 40 90 hln 100 PART=CD4000A
+a 0 sp 0 0 40 90 hln 100 MODEL=CD4000A
+*symbol CD4000B ako 4000
+d Dual 3-input NOR gate plus inverter
+@type p
+@attributes
+a 0 sp 11 0 40 90 hln 100 PART=CD4000B
+a 0 sp 0 0 40 90 hln 100 MODEL=CD4000B
+*symbol CD4000UB ako 4000
+d Dual 3-input NOR gate plus inverter
+@type p
+@attributes
+a 0 sp 11 0 40 90 hln 100 PART=CD4000UB
+a 0 sp 0 0 40 90 hln 100 MODEL=CD4000UB
+*symbol CD4001A ako 4001
+d 2-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4001A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4001A
+*symbol CD4001B ako 4001
+d 2-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4001B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4001B
+*symbol CD4001UB ako 4001
+d 2-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4001UB
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4001UB
+*symbol CD4002A ako 4002
+d 4-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4002A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4002A
+*symbol CD4002B ako 4002
+d 4-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4002B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4002B
+*symbol CD4002UB ako 4002
+d 4-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4002UB
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4002UB
+*symbol CD4009A ako 4009
+d Hex buffer/converter
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4009A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4009A
+*symbol CD4009UB ako 4009
+d Hex buffer/converter
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4009UB
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4009UB
+*symbol CD4010A ako 4010AB
+d Hex buffer/converter - non-inverting type
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4010A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4010A
+*symbol CD4010B ako 4010AB
+d Hex buffer/converter - non-inverting type
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4010B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4010B
+*symbol CD4011A ako 4011
+d 2-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4011A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4011A
+*symbol CD4011B ako 4011
+d 2-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4011B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4011B
+*symbol CD4011UB ako 4011
+d 2-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4011UB
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4011UB
+*symbol CD4012A ako 4012
+d 4-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4012A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4012A
+*symbol CD4012B ako 4012
+d 4-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4012B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4012B
+*symbol CD4012UB ako 4012
+d 4-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4012UB
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4012UB
+*symbol CD4013A ako 4013
+d D flip-flop with set/reset capability
+@type p
+@attributes
+a 0 sp 11 0 40 80 hln 100 PART=CD4013A
+a 0 sp 0 0 40 80 hln 100 MODEL=CD4013A
+*symbol CD4013B ako 4013
+d D flip-flop with set/reset capability
+@type p
+@attributes
+a 0 sp 11 0 40 80 hln 100 PART=CD4013B
+a 0 sp 0 0 40 80 hln 100 MODEL=CD4013B
+*symbol CD4017A ako 4017
+d Decade counter/divider with 10 decoded decimal outputs
+@type p
+@attributes
+a 0 sp 11 0 43 138 hln 100 PART=CD4017A
+a 0 sp 0 0 43 138 hln 100 MODEL=CD4017A
+*symbol CD4017B ako 4017
+d Decade counter/divider with 10 decoded decimal outputs
+@type p
+@attributes
+a 0 sp 11 0 43 138 hln 100 PART=CD4017B
+a 0 sp 0 0 43 138 hln 100 MODEL=CD4017B
+*symbol CD4018A ako 4018
+d Presettable divide-by-"N"
+@type p
+@attributes
+a 0 sp 11 0 60 130 hlb 100 PART=CD4018A
+a 0 sp 0 0 60 130 hlb 100 MODEL=CD4018A
+*symbol CD4018B ako 4018
+d Presettable divide-by-"N"
+@type p
+@attributes
+a 0 sp 11 0 60 130 hlb 100 PART=CD4018B
+a 0 sp 0 0 60 130 hlb 100 MODEL=CD4018B
+*symbol CD4019A ako 4019
+d Quad AND/OR select gate
+@type p
+@attributes
+a 0 sp 11 0 52 120 hln 100 PART=CD4019A
+a 0 sp 0 0 52 120 hln 100 MODEL=CD4019A
+*symbol CD4019B ako 4019
+d Quad AND/OR select gate
+@type p
+@attributes
+a 0 sp 11 0 52 120 hln 100 PART=CD4019B
+a 0 sp 0 0 52 120 hln 100 MODEL=CD4019B
+*symbol CD4020A ako 4020
+d 14-stage binary ripple counter
+@type p
+@attributes
+a 0 sp 11 0 40 140 hln 100 PART=CD4020A
+a 0 sp 0 0 40 140 hln 100 MODEL=CD4020A
+*symbol CD4020B ako 4020
+d 14-stage binary ripple counter
+@type p
+@attributes
+a 0 sp 11 0 40 140 hln 100 PART=CD4020B
+a 0 sp 0 0 40 140 hln 100 MODEL=CD4020B
+*symbol CD4022B ako 4022
+d Divide-by-8 counter/divider with 8 decoded decimal outputs
+@type p
+@attributes
+a 0 sp 11 0 62 120 hln 100 PART=CD4022B
+a 0 sp 0 0 62 120 hln 100 MODEL=CD4022B
+*symbol CD4023A ako 4023
+d 3-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4023A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4023A
+*symbol CD4023B ako 4023
+d 3-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4023B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4023B
+*symbol CD4023UB ako 4023
+d 3-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4023UB
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4023UB
+*symbol CD4024A ako 4024
+d 7-stage ripply-carry binary counter/divider
+@type p
+@attributes
+a 0 sp 11 0 40 100 hln 100 PART=CD4024A
+a 0 sp 0 0 40 100 hln 100 MODEL=CD4024A
+*symbol CD4024B ako 4024
+d 7-stage ripply-carry binary counter/divider
+@type p
+@attributes
+a 0 sp 11 0 40 100 hln 100 PART=CD4024B
+a 0 sp 0 0 40 100 hln 100 MODEL=CD4024B
+*symbol CD4025A ako 4025
+d 3-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4025A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4025A
+*symbol CD4025B ako 4025
+d 3-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4025B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4025B
+*symbol CD4025UB ako 4025
+d 3-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4025UB
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4025UB
+*symbol CD4027A ako 4027
+d J-K master-slave flip-flop with set-reset
+@type p
+@attributes
+a 0 sp 11 0 42 100 hln 100 PART=CD4027A
+a 0 sp 0 0 42 100 hln 100 MODEL=CD4027A
+*symbol CD4027B ako 4027
+d J-K master-slave flip-flop with set-reset
+@type p
+@attributes
+a 0 sp 11 0 42 100 hln 100 PART=CD4027B
+a 0 sp 0 0 42 100 hln 100 MODEL=CD4027B
+*symbol CD4028A ako 4028
+d BCD-to-decimal decoder
+@type p
+@attributes
+a 0 sp 11 0 45 120 hln 100 PART=CD4028A
+a 0 sp 0 0 45 120 hln 100 MODEL=CD4028A
+*symbol CD4028B ako 4028
+d BCD-to-decimal decoder
+@type p
+@attributes
+a 0 sp 11 0 45 120 hln 100 PART=CD4028B
+a 0 sp 0 0 45 120 hln 100 MODEL=CD4028B
+*symbol CD4029A ako 4029
+d Presettable up/down counter, binary or BCD-decade
+@type p
+@attributes
+a 0 sp 11 0 62 140 hlb 100 PART=CD4029A
+a 0 sp 0 0 62 140 hlb 100 MODEL=CD4029A
+*symbol CD4029B ako 4029
+d Presettable up/down counter, binary or BCD-decade
+@type p
+@attributes
+a 0 sp 11 0 62 140 hlb 100 PART=CD4029B
+a 0 sp 0 0 62 140 hlb 100 MODEL=CD4029B
+*symbol CD4030A ako 4030
+d 2-input xor gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4030A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4030A
+*symbol CD4030B ako 4030
+d 2-input xor gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4030B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4030B
+*symbol CD4040B ako 4040
+d 12-stage ripple-carry binary counter/divider
+@type p
+@attributes
+a 0 sp 11 0 40 140 hln 100 PART=CD4040B
+a 0 sp 0 0 40 140 hln 100 MODEL=CD4040B
+*symbol CD4041A ako 4041
+d True/Complement buffer
+@type p
+@attributes
+a 0 sp 11 0 38 50 hln 100 PART=CD4041A
+a 0 sp 0 0 38 50 hln 100 MODEL=CD4041A
+*symbol CD4041UB ako 4041
+d True/Complement buffer
+@type p
+@attributes
+a 0 sp 11 0 38 50 hln 100 PART=CD4041UB
+a 0 sp 0 0 38 50 hln 100 MODEL=CD4041UB
+*symbol CD4042A ako 4042
+d Quad clocked D latch
+@type p
+@attributes
+a 0 sp 11 0 38 110 hln 100 PART=CD4042A
+a 0 sp 0 0 38 110 hln 100 MODEL=CD4042A
+*symbol CD4042B ako 4042
+d Quad clocked D latch
+@type p
+@attributes
+a 0 sp 11 0 38 110 hln 100 PART=CD4042B
+a 0 sp 0 0 38 110 hln 100 MODEL=CD4042B
+*symbol CD4043B ako 4043
+d Quad 3-state NOR R/S latch
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=CD4043B
+a 0 sp 0 0 40 110 hln 100 MODEL=CD4043B
+*symbol CD4044B ako 4044
+d Quad 3-state NAND R/S latch
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=CD4044B
+a 0 sp 0 0 40 110 hln 100 MODEL=CD4044B
+*symbol CD4048A ako 4048
+d Multi-function expandable 8-input gate
+@type p
+@attributes
+a 0 sp 11 0 40 150 hln 100 PART=CD4048A
+a 0 sp 0 0 40 150 hln 100 MODEL=CD4048A
+*symbol CD4048B ako 4048
+d Multi-function expandable 8-input gate
+@type p
+@attributes
+a 0 sp 11 0 40 150 hln 100 PART=CD4048B
+a 0 sp 0 0 40 150 hln 100 MODEL=CD4048B
+*symbol CD4049A ako 4049
+d Hex buffer/converter
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4049A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4049A
+*symbol CD4049UB ako 4049
+d Hex buffer/converter
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4049UB
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4049UB
+*symbol CD4050A ako 4050
+d Hex buffer/converter - non-inverting type
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4050A
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4050A
+*symbol CD4050B ako 4050
+d Hex buffer/converter - non-inverting type
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4050B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4050B
+*symbol CD4068B ako 4068
+d 8-input NAND/AND gate
+@type p
+@attributes
+a 0 sp 11 0 38 78 hln 100 PART=CD4068B
+a 0 sp 0 0 38 78 hln 100 MODEL=CD4068B
+*symbol CD4069UB ako 4069
+d Hex inverter
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4069UB
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4069UB
+*symbol CD4070B ako 4070
+d 2-input xor gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4070B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4070B
+*symbol CD4071B ako 4071
+d 2-input OR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4071B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4071B
+*symbol CD4072B ako 4072
+d 4-input OR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4072B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4072B
+*symbol CD4073B ako 4073
+d 3-input AND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4073B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4073B
+*symbol CD4075B ako 4075
+d 3-input OR gate
+@type p
+@attributes
+a 0 sp 11 0 50 50 hln 100 PART=CD4075B
+a 0 sp 0 0 50 50 hln 100 MODEL=CD4075B
+*symbol CD4076B ako 4076
+d 4-bit D-type register
+@type p
+@attributes
+a 0 sp 11 0 60 90 hln 100 PART=CD4076B
+a 0 sp 0 0 60 90 hln 100 MODEL=CD4076B
+*symbol CD4077B ako 4077
+d XOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4077B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4077B
+*symbol CD4078B ako 4078
+d 8-input NOR/OR gate
+@type p
+@attributes
+a 0 sp 11 0 60 80 hlb 100 PART=CD4078B
+a 0 sp 0 0 60 80 hlb 100 MODEL=CD4078B
+*symbol CD4081B ako 4081
+d 2-input positive-and gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4081B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4081B
+*symbol CD4082B ako 4082
+d 4-input positive-and gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4082B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4082B
+*symbol CD4085B ako 4085
+d 2-input AND-OR-INVERT (AOI) gate
+@type p
+@attributes
+a 0 sp 11 0 42 70 hln 100 PART=CD4085B
+a 0 sp 0 0 42 70 hln 100 MODEL=CD4085B
+*symbol CD4086B ako 4086
+d Expandable 4-wide, 2-input AOI gate
+@type p
+@attributes
+a 0 sp 11 0 40 120 hln 100 PART=CD4086B
+a 0 sp 0 0 40 120 hln 100 MODEL=CD4086B
+*symbol CD4093B ako 4093
+d 2-input NAND schmitt trigger
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD4093B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD4093B
+*symbol CD4095B ako 4095
+d Gated J-K master-slave flip-flop, non-inverting inputs
+@type p
+@attributes
+a 0 sp 11 0 40 140 hln 100 PART=CD4095B
+a 0 sp 0 0 40 140 hln 100 MODEL=CD4095B
+*symbol CD4096B ako 4096
+d Gated J-K master-slave flip-flop, inverting and non-inverting inputs
+@type p
+@attributes
+a 0 sp 11 0 40 140 hln 100 PART=CD4096B
+a 0 sp 0 0 40 140 hln 100 MODEL=CD4096B
+*symbol CD4099B ako 4099
+d 8-bit addressable latch
+@type p
+@attributes
+a 0 sp 11 0 46 98 hln 100 PART=CD4099B
+a 0 sp 0 0 46 98 hln 100 MODEL=CD4099B
+*symbol CD4502B ako 4502
+d Strobed hex inverter/buffer
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=CD4502B
+a 0 sp 0 0 40 110 hln 100 MODEL=CD4502B
+*symbol CD4503B ako 4503
+d Hex buffer 3-state non-inverting
+@type p
+@attributes
+a 0 sp 11 0 38 120 hln 100 PART=CD4503B
+a 0 sp 0 0 38 120 hln 100 MODEL=CD4503B
+*symbol CD4508B ako 4508
+d Dual 4-bit latch
+@type p
+@attributes
+a 0 sp 11 0 38 100 hln 100 PART=CD4508B
+a 0 sp 0 0 38 100 hln 100 MODEL=CD4508B
+*symbol CD4510B ako 4510
+d BCD presettable up/down
+@type p
+@attributes
+a 0 sp 11 0 42 140 hln 100 PART=CD4510B
+a 0 sp 0 0 42 140 hln 100 MODEL=CD4510B
+*symbol CD4512B ako 4512
+d 8-channel data selector
+@type p
+@attributes
+a 0 sp 11 0 40 170 hln 100 PART=CD4512B
+a 0 sp 0 0 40 170 hln 100 MODEL=CD4512B
+*symbol CD4514B ako 4514
+d 4-bit latch/4-to-6 line decoder (output "high" on select)
+@type p
+@attributes
+a 0 sp 11 0 38 178 hln 100 PART=CD4514B
+a 0 sp 0 0 38 178 hln 100 MODEL=CD4514B
+*symbol CD4515B ako 4515
+d 4-bit latch/4-to-16 line decoder (output "low" on select)
+@type p
+@attributes
+a 0 sp 11 0 38 178 hln 100 PART=CD4515B
+a 0 sp 0 0 38 178 hln 100 MODEL=CD4515B
+*symbol CD4516B ako 4516
+d Binary presettable up/down
+@type p
+@attributes
+a 0 sp 11 0 34 130 hln 100 PART=CD4516B
+a 0 sp 0 0 34 130 hln 100 MODEL=CD4516B
+*symbol CD4518B ako 4518
+d BCD up counter
+@type p
+@attributes
+a 0 sp 11 0 40 70 hln 100 PART=CD4518B
+a 0 sp 0 0 40 70 hln 100 MODEL=CD4518B
+*symbol CD4520B ako 4520
+d Binary up counter
+@type p
+@attributes
+a 0 sp 11 0 40 70 hln 100 PART=CD4520B
+a 0 sp 0 0 40 70 hln 100 MODEL=CD4520B
+*symbol CD4532B ako 4532
+d 8-bit priority encoder
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=CD4532B
+a 0 sp 0 0 40 110 hln 100 MODEL=CD4532B
+*symbol CD4555B ako 4555
+d Binary-to-1-of-4 decoder/demultiplexer (output "high" on select)
+@type p
+@attributes
+a 0 sp 11 0 38 58 hln 100 PART=CD4555B
+a 0 sp 0 0 38 58 hln 100 MODEL=CD4555B
+*symbol CD4556B ako 4556
+d Binary-to-1-of-4 decoder/demultiplexer (output "low" on select)
+@type p
+@attributes
+a 0 sp 11 0 38 58 hln 100 PART=CD4556B
+a 0 sp 0 0 38 58 hln 100 MODEL=CD4556B
+*symbol CD4724B ako 4724
+d 8-bit addressable latch
+@type p
+@attributes
+a 0 sp 11 0 40 118 hln 100 PART=CD4724B
+a 0 sp 0 0 40 118 hln 100 MODEL=CD4724B
+*symbol CD40102B ako 40102
+d 8-stage presettable synchronous down counter (2-decade BCD)
+@type p
+@attributes
+a 0 sp 11 0 40 170 hln 100 PART=CD40102B
+a 0 sp 0 0 40 170 hln 100 MODEL=CD40102B
+*symbol CD40103B ako 40103
+d 8-stage presettable synchronous down counter (8-bit binary)
+@type p
+@attributes
+a 0 sp 11 0 40 170 hln 100 PART=CD40103B
+a 0 sp 0 0 40 170 hln 100 MODEL=CD40103B
+*symbol CD40106B ako 40106
+d Hex Schmitt Trigger
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD40106B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD40106B
+*symbol CD40107B ako 40107
+d 2-input NAND buffer/driver
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=CD40107B
+a 0 sp 0 0 40 50 hln 100 MODEL=CD40107B
+*symbol CD40108B ako 40108
+d 4-by-4 multiport register
+@type p
+@attributes
+a 0 sp 11 0 40 210 hln 100 PART=CD40108B
+a 0 sp 0 0 40 210 hln 100 MODEL=CD40108B
+*symbol CD40147B ako 40147
+d 10-line-to-14-line BCD priority encoder
+@type p
+@attributes
+a 0 sp 11 0 38 120 hln 100 PART=CD40147B
+a 0 sp 0 0 38 120 hln 100 MODEL=CD40147B
+*symbol CD40160B ako 40160
+d Synchronous programmable 4-bit counter (decade with asynchronous clear)
+@type p
+@attributes
+a 0 sp 11 0 38 150 hln 100 PART=CD40160B
+a 0 sp 0 0 38 150 hln 100 MODEL=CD40160B
+*symbol CD40161B ako 40161
+d Synchronous programmable 4-bit counter (binary with asynchronous clear)
+@type p
+@attributes
+a 0 sp 11 0 38 150 hln 100 PART=CD40161B
+a 0 sp 0 0 38 150 hln 100 MODEL=CD40161B
+*symbol CD40162B ako 40162
+d Synchronous programmable 4-bit counter (decade with synchronous clear)
+@type p
+@attributes
+a 0 sp 11 0 38 150 hln 100 PART=CD40162B
+a 0 sp 0 0 38 150 hln 100 MODEL=CD40162B
+*symbol CD40163B ako 40163
+d Synchronous programmable 4-bit counter (binary with synchronous clear)
+@type p
+@attributes
+a 0 sp 11 0 38 150 hln 100 PART=CD40163B
+a 0 sp 0 0 38 150 hln 100 MODEL=CD40163B
+*symbol CD40174B ako 40174
+d Hex D type flip-flop
+@type p
+@attributes
+a 0 sp 11 0 38 100 hln 100 PART=CD40174B
+a 0 sp 0 0 38 100 hln 100 MODEL=CD40174B
+*symbol CD40175B ako 40175
+d Quad D type flip-flop
+@type p
+@attributes
+a 0 sp 11 0 40 118 hln 100 PART=CD40175B
+a 0 sp 0 0 40 118 hln 100 MODEL=CD40175B
+*symbol CD40192B ako 40192
+d Presettable up/down counter (dual clock with reset) - BCD
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=CD40192B
+a 0 sp 0 0 40 130 hln 100 MODEL=CD40192B
+*symbol CD40193B ako 40193
+d Presettable up/down counter (dual clock with reset) - binary
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=CD40193B
+a 0 sp 0 0 40 130 hln 100 MODEL=CD40193B
+*symbol CD40208B ako 40208
+d 4-by-4 multiport register
+@type p
+@attributes
+a 0 sp 11 0 40 210 hln 100 PART=CD40208B
+a 0 sp 0 0 40 210 hln 100 MODEL=CD40208B
+*symbol CD40257B ako 40257
+d Quad 2-line-to-1-line data selector/multiplexer
+@type p
+@attributes
+a 0 sp 11 0 38 130 hln 100 PART=CD40257B
+a 0 sp 0 0 38 130 hln 100 MODEL=CD40257B
+*symbol 4000 b
+d Dual 3-input NOR gate plus inverter
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %E %F %G %H %K %L %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 11 0 40 90 hln 100 PART=
+a 0 u 0 0 40 90 hln 100 MODEL=
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 -10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=4
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 C n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=5
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=11
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 E n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=12
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 F n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=13
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 G n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=8
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 H n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=6
+a 0 u 0 0 60 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 K n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=10
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 L n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=9
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 92 hln 100 VSS n 30 90 v
+a 0 u 1 0 25 92 hcn 100 pin=7
+a 0 u 0 0 30 90 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 80 0 10 10
+r 0 10 0 50 80
+*symbol 4001 b
+d 2-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=2
+p 0 57 22 hrn 100 J b 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=3
+a 0 u 0 0 10 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+@graphics 70 40 0 10 11
+v 0 6 0
+30 0
+;
+v 0 6 40
+30 40
+;
+a 0 60 20 38 1 30 0
+a 0 30 40 38 39 60 20
+a 0 6 40 10 10 6 0
+*symbol 4002 b
+d 4-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 50 50 hln 100 PART=
+a 0 sp 0 0 50 50 hln 100 MODEL=
+a 1 s 9 0 50 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 0 0 2 -2 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 -2 hrn 100 pin=2
+p 0 13 12 hln 100 B n 0 10 h
+a 0 u 0 0 2 8 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=3
+p 16 10 0 hln 100 VSS n 40 50 v
+a 0 u 0 0 38 48 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 52 hcn 100 pin=7
+p 16 10 0 hln 100 VDD n 40 -10 d
+a 0 u 0 0 10 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 45 -7 hcn 100 pin=14
+p 0 67 22 hrn 100 J b 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=1
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 D n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=6
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 80 40 0 0 11
+v 0 16 0
+40 0
+;
+v 0 16 40
+40 40
+;
+a 0 70 20 48 1 40 0 
+a 0 40 40 48 39 70 20 
+a 0 16 40 20 10 16 0 
+v 0 10 10
+19 10
+19 10
+;
+v 0 19 10
+19 10
+19 10
+;
+v 0 10 30
+19 30
+19 30
+;
+v 0 19 30
+19 30
+19 30
+;
+v 0 10 0
+16 0
+16 0
+;
+v 0 16 0
+16 0
+16 0
+;
+v 0 15 40
+15 40
+15 40
+;
+v 0 10 40
+16 40
+16 40
+;
+v 0 16 40
+16 40
+16 40
+;
+*symbol 4009 b
+d Hex buffer/converter
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %G %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+@pins
+p 0 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 0 37 22 hrn 100 G b 50 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 45 18 hln 100 pin=2
+p 16 0 0 hln 100 VSS n 25 40 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 20 42 hcn 100 pin=8
+p 16 0 0 hln 100 VDD n 25 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 30 3 hcn 100 pin=16
+@graphics 50 40 0 20 11
+v 0 40 20
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 20
+;
+*symbol 4010 b
+d Hex buffer/converter - non-inverting type
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %G %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(DPWR)=$G_DPWR
+@pins
+p 0 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 0 37 22 hrn 100 G n 50 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 45 18 hln 100 pin=2
+p 16 0 0 hln 100 VSS n 25 40 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 20 42 hcn 100 pin=8
+p 16 0 0 hln 100 VDD n 25 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 30 3 hcn 100 pin=16
+@graphics 50 40 0 20 11
+v 0 40 20
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 20
+;
+*symbol 4011 b
+d 2-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 57 22 hrn 100 J b 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=3
+p 16 10 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 10 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=2
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 4012 b
+d 4-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 57 22 hrn 100 J b 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=1
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 -2 hrn 100 pin=2
+p 0 13 12 hln 100 B n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=3
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=4
+p 0 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 38 hrn 100 pin=5
+@graphics 70 40 0 0 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 4013 b
+d D flip-flop with set/reset capability
+@type p
+@attributes
+a 1 s 9 0 40 9 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %SET %RESET %CLK %D %Q %\Q\ %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 11 0 40 80 hln 100 PART=
+a 0 u 0 0 40 80 hln 100 MODEL=
+@pins
+p 2 22 22 hln 100 SET n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=6
+a 0 u 0 0 28 -2 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 D n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=5
+a 0 u 0 0 2 28 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 CLK c 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 2 48 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=1
+a 0 u 0 0 58 28 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 \Q\ b 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=2
+a 0 u 0 0 58 48 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 42 2 hln 100 VDD n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=14
+a 0 u 0 0 38 8 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 42 92 hln 100 VSS n 40 80 v
+a 0 u 1 0 35 82 hcn 100 pin=7
+a 0 u 0 0 38 78 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 17 68 hln 100 RESET n 30 80 v
+a 0 u 1 0 25 82 hcn 100 pin=4
+a 0 u 0 0 35 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 80 0 30 10
+r 0 10 10 50 70
+*symbol 4017 b
+d Decade counter/divider with 10 decoded decimal outputs
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %CLKINHIBIT %RESET %O0 %O1 %O2 %O3 %O4 %O5 %O6 %O7 %O8 %O9 %CARRYOUT %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 11 0 43 138 hln 100 PART=
+a 0 u 0 0 43 138 hln 100 MODEL=
+@pins
+p 2 67 12 hrn 100 O0 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=3
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 22 hrn 100 O1 n 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=2
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 32 hrn 100 O2 n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=4
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 42 hrn 100 O3 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=7
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 52 hrn 100 O4 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=10
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 62 hrn 100 O5 n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=1
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 72 hrn 100 O6 n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=5
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 82 hrn 100 O7 n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=6
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 92 hrn 100 O8 n 80 90 u
+a 0 u 1 0 75 88 hln 100 pin=9
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 102 hrn 100 O9 n 80 100 u
+a 0 u 1 0 75 98 hln 100 pin=11
+a 0 u 0 0 18 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 CLK c 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=14
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 CLKINHIBIT n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=13
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 27 126 hln 100 RESET n 40 140 v
+a 0 u 1 0 35 142 hcn 100 pin=15
+a 0 u 0 0 40 138 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 62 -2 hln 100 VDD n 60 -10 d
+a 0 u 1 0 65 -7 hcn 100 pin=16
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 62 146 hln 100 VSS n 60 140 v
+a 0 u 1 0 55 142 hcn 100 pin=8
+a 0 u 0 0 20 18 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 112 hrn 100 CARRYOUT n 80 110 u
+a 0 u 1 0 75 108 hln 100 pin=12
+a 0 u 0 0 80 110 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 80 140 0 30 10
+r 0 10 0 70 130
+*symbol 4018 b
+d Presettable divide-by-"N"
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 sp 11 0 52 130 hlb 100 PART=
+a 0 sp 0 0 52 130 hlb 100 MODEL=
+a 0 s 9 0 65 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %PSENABLE %RESET %DATA %JAM1 %JAM2 %JAM3 %JAM4 %JAM5 %\Q\1 %\Q\2 %\Q\3 %\Q\4 %\Q\5 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+@pins
+p 2 13 42 hln 100 PSENABLE n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=10
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 CLK c 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=14
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 DATA n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=1
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 27 118 hln 100 RESET n 40 130 v
+a 0 u 1 0 35 132 hcn 100 pin=15
+a 0 u 0 0 40 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 77 32 hrn 100 \Q\1 n 90 30 u
+a 0 u 1 0 85 28 hln 100 pin=5
+a 0 u 0 0 88 32 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 77 52 hrn 100 \Q\2 n 90 50 u
+a 0 u 1 0 85 48 hln 100 pin=4
+a 0 u 0 0 88 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 77 72 hrn 100 \Q\3 n 90 70 u
+a 0 u 1 0 85 68 hln 100 pin=6
+a 0 u 0 0 88 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 77 92 hrn 100 \Q\4 n 90 90 u
+a 0 u 1 0 85 88 hln 100 pin=11
+a 0 u 0 0 88 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 77 112 hrn 100 \Q\5 n 90 110 u
+a 0 u 1 0 85 108 hln 100 pin=13
+a 0 u 0 0 88 112 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 -6 0 hln 100 VDD n 10 0 d
+a 0 u 1 0 15 3 hcn 100 pin=16
+a 0 u 0 0 10 -2 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 6 138 hln 100 VSS n 20 130 v
+a 0 u 1 0 15 132 hcn 100 pin=8
+a 0 u 0 0 24 130 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 48 13 dln 100 JAM4 n 50 0 d
+a 0 u 1 0 52 5 drn 100 pin=9
+a 0 u 0 0 50 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 58 13 dln 100 JAM5 n 60 0 d
+a 0 u 1 0 62 5 drn 100 pin=12
+a 0 u 0 0 60 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 18 13 dln 100 JAM1 n 20 0 d
+a 0 u 1 0 22 5 drn 100 pin=2
+a 0 u 0 0 20 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 28 13 dln 100 JAM2 n 30 0 d
+a 0 u 1 0 32 5 drn 100 pin=3
+a 0 u 0 0 30 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 38 13 dln 100 JAM3 n 40 0 d
+a 0 u 1 0 42 5 drn 100 pin=7
+a 0 u 0 0 40 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 90 130 0 40 10
+r 0 10 10 80 120
+*symbol 4019 b
+d Quad AND/OR select gate
+@type p
+@attributes
+a 1 s 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %KA %KB %A1 %A2 %A3 %A4 %B1 %B2 %B3 %B4 %D1 %D2 %D3 %D4 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 s 11 0 52 120 hln 100 PART=
+a 0 s 0 0 52 120 hln 100 MODEL=
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 2 18 20 hln 100 KA n 20 0 d
+a 0 s 1 0 25 3 hcn 100 PIN=9
+a 0 s 0 0 20 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 40 20 hln 100 KB n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=14
+a 0 s 0 0 40 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 102 hln 100 B1 n 0 100 h
+a 0 s 1 0 5 98 hrn 100 PIN=7
+a 0 s 0 0 -2 104 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 82 hln 100 B2 n 0 80 h
+a 0 s 1 0 5 78 hrn 100 PIN=5
+a 0 s 0 0 -2 86 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 62 hln 100 B3 n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 -2 64 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 42 hln 100 B4 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=1
+a 0 s 0 0 -2 42 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 92 hln 100 A1 n 0 90 h
+a 0 s 1 0 5 88 hrn 100 PIN=6
+a 0 s 0 0 0 92 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 72 hln 100 A2 n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=4
+a 0 s 0 0 -2 72 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 52 hln 100 A3 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=2
+a 0 s 0 0 -2 52 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 32 hln 100 A4 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=15
+a 0 s 0 0 -2 32 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 57 92 hrn 100 D1 n 70 90 u
+a 0 s 1 0 65 88 hln 100 PIN=10
+a 0 s 0 0 68 92 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 57 72 hrn 100 D2 n 70 70 u
+a 0 s 1 0 65 68 hln 100 PIN=11
+a 0 s 0 0 70 72 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 57 52 hrn 100 D3 n 70 50 u
+a 0 s 1 0 65 48 hln 100 PIN=12
+a 0 s 0 0 70 54 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 57 32 hrn 100 D4 n 70 30 u
+a 0 s 1 0 65 28 hln 100 PIN=13
+a 0 s 0 0 68 34 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 52 -2 hln 100 VDD n 50 0 d
+a 0 s 1 0 55 3 hcn 100 PIN=16
+a 0 s 0 0 52 0 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 52 130 hln 100 VSS n 50 120 v
+a 0 s 1 0 45 122 hcn 100 PIN=8
+a 0 s 0 0 48 120 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+@graphics 70 110 0 30 10
+r 0 10 10 60 110
+*symbol 4020 b
+d 14-stage binary ripple counter
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %INPUT %RESET %Q1 %Q4 %Q5 %Q6 %Q7 %Q8 %Q9 %Q10 %Q11 %Q12 %Q13 %Q14 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 11 0 40 140 hln 100 PART=
+a 0 u 0 0 40 140 hln 100 MODEL=
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+@pins
+p 2 57 12 hrn 100 Q1 n 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=3
+a 0 u 0 0 70 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 22 hrn 100 Q4 n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=7
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 32 hrn 100 Q5 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=5
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 42 hrn 100 Q6 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=4
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 52 hrn 100 Q7 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=6
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 62 hrn 100 Q8 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=13
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 72 hrn 100 Q9 n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=12
+a 0 u 0 0 65 65 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 82 hrn 100 Q10 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=14
+a 0 u 0 0 70 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 92 hrn 100 Q11 n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=15
+a 0 u 0 0 70 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 102 hrn 100 Q12 n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=1
+a 0 u 0 0 70 100 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 112 hrn 100 Q13 n 70 110 u
+a 0 u 1 0 65 108 hln 100 pin=2
+a 0 u 0 0 70 110 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 122 hrn 100 Q14 n 70 120 u
+a 0 u 1 0 65 118 hln 100 pin=3
+a 0 u 0 0 70 120 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 INPUT n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=10
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 11 128 hln 100 RESET n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=11
+a 0 u 0 0 30 140 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 43 147 hln 100 VSS n 40 140 v
+a 0 u 1 0 35 142 hcn 100 pin=8
+a 0 u 0 0 40 140 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 32 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 30 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 70 140 0 20 10
+r 0 10 0 60 130
+*symbol 4022 b
+d Divide-by-8 counter/divider with 8 decoded decimal outputs
+@type p
+@attributes
+a 1 s 9 0 50 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %CLKINHIBIT %RESET %O0 %O1 %O2 %O3 %O4 %O5 %O6 %O7 %CARRYOUT %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 11 0 62 120 hln 100 PART=
+a 0 u 0 0 62 120 hln 100 MODEL=
+@pins
+p 2 67 12 hrn 100 O0 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=2
+a 0 u 0 0 80 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 22 hrn 100 O1 n 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=1
+a 0 u 0 0 80 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 32 hrn 100 O2 n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=3
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 42 hrn 100 O3 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=7
+a 0 u 0 0 80 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 52 hrn 100 O4 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=11
+a 0 u 0 0 80 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 62 hrn 100 O5 n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=4
+a 0 u 0 0 80 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 72 hrn 100 O6 n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=5
+a 0 u 0 0 80 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 82 hrn 100 O7 n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=10
+a 0 u 0 0 80 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 92 hrn 100 CARRYOUT n 80 90 u
+a 0 u 1 0 75 88 hln 100 pin=12
+a 0 u 0 0 80 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 CLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=14
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 80 CLKINHIBIT n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=13
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 27 108 hln 100 RESET n 40 120 v
+a 0 u 1 0 35 122 hcn 100 pin=15
+a 0 u 0 0 40 120 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 42 -10 hln 100 VDD n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=16
+a 0 u 0 0 42 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 62 128 hlb 100 VSS n 60 120 v
+a 0 u 1 0 55 122 hcn 100 pin=8
+a 0 u 0 0 62 120 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 80 120 0 20 10
+r 0 10 0 70 110
+*symbol 4023 b
+d 3-input NAND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 57 22 hrn 100 J b 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=9
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=8
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 4024 b
+d 7-stage ripply-carry binary counter/divider
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %INPUT %RESET %Q1 %Q2 %Q3 %Q4 %Q5 %Q6 %Q7 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 11 0 40 100 hln 100 PART=
+a 0 u 0 0 40 100 hln 100 MODEL=
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 2 11 23 hln 100 INPUT n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 17 88 hln 100 RESET n 30 100 v
+a 0 u 1 0 25 102 hcn 100 pin=2
+a 0 u 0 0 30 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 50 12 hrn 100 Q1 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=12
+a 0 u 0 0 60 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 50 22 hrn 100 Q2 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=11
+a 0 u 0 0 60 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 50 32 hrn 100 Q3 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=9
+a 0 u 0 0 60 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 50 42 hrn 100 Q4 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=6
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 50 52 hrn 100 Q5 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=5
+a 0 u 0 0 60 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 50 62 hrn 100 Q6 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=4
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 50 72 hrn 100 Q7 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=3
+a 0 u 0 0 60 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 43 -7 hln 100 VDD n 40 -10 d
+a 0 u 1 0 45 -7 hcn 100 pin=14
+a 0 u 0 0 40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 42 108 hln 100 VSS n 40 100 v
+a 0 u 1 0 35 102 hcn 100 pin=7
+a 0 u 0 0 45 100 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 100 0 20 10
+r 0 10 0 50 90
+*symbol 4025 b
+d 3-input NOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=8
+p 0 57 22 hrn 100 J b 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=9
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+@graphics 70 40 0 10 11
+v 0 6 0
+30 0
+;
+v 0 6 40
+30 40
+;
+a 0 60 20 38 1 30 0
+a 0 30 40 38 39 60 20
+a 0 6 40 10 10 6 0
+*symbol 4027 b
+d J-K master-slave flip-flop with set-reset
+@type p
+@attributes
+a 1 s 9 0 40 10 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %SET %RESET %CLK %J %K %Q %\Q\ %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 11 0 42 100 hln 100 PART=
+a 0 u 0 0 42 100 hln 100 MODEL=
+@pins
+p 2 22 22 hln 100 SET n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=9
+a 0 u 0 0 28 -2 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 J n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=10
+a 0 u 0 0 2 28 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 K n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=11
+a 0 u 0 0 2 28 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 CLK c 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=13
+a 0 u 0 0 2 48 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=15
+a 0 u 0 0 58 28 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 \Q\ b 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=14
+a 0 u 0 0 58 48 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 42 2 hln 100 VDD n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=16
+a 0 u 0 0 38 8 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 42 110 hln 100 VSS n 40 100 v
+a 0 u 1 0 35 102 hcn 100 pin=8
+a 0 u 0 0 38 78 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 20 88 hln 100 RESET n 30 100 v
+a 0 u 1 0 25 102 hcn 100 pin=12
+a 0 u 0 0 32 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 100 0 30 10
+r 0 10 10 50 90
+*symbol 4028 b
+d BCD-to-decimal decoder
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %O0 %O1 %O2 %O3 %O4 %O5 %O6 %O7 %O8 %O9 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 11 0 45 120 hln 100 PART=
+a 0 u 0 0 45 120 hln 100 MODEL=
+@pins
+p 2 67 12 hrn 100 O0 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=3
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 22 hrn 100 O1 n 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=14
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 32 hrn 100 O2 n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=2
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 42 hrn 100 O3 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=15
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 52 hrn 100 O4 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 62 hrn 100 O5 n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=6
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 72 hrn 100 O6 n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=7
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 82 hrn 100 O7 n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=4
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 92 hrn 100 O8 n 80 90 u
+a 0 u 1 0 75 88 hln 100 pin=5
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 102 hrn 100 O9 n 80 100 u
+a 0 u 1 0 75 98 hln 100 pin=9
+a 0 u 0 0 20 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 A n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=10
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 B n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=13
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 C n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=12
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 D n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=11
+a 0 u 0 0 0 88 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 62 -2 hln 100 VDD n 60 -10 d
+a 0 u 1 0 65 -7 hcn 100 pin=16
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 62 128 hln 100 VSS n 60 120 v
+a 0 u 1 0 55 122 hcn 100 pin=8
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 80 120 0 30 10
+r 0 10 0 70 110
+*symbol 4029 b
+d Presettable up/down counter, binary or BCD-decade
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 sp 11 0 62 130 hlb 100 PART=
+a 0 sp 0 0 62 130 hlb 100 MODEL=
+a 0 s 9 0 65 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %UP/DOWN %BIN/DEC %\CIN\ %PSEN %JAM1 %JAM2 %JAM3 %JAM4 %Q1 %Q2 %Q3 %Q4 %\COUT\ %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+@pins
+p 2 13 72 hln 100 \CIN\ n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=5
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 CLK c 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=15
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 BIN/DEC n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=9
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 22 hrn 100 Q1 n 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=6
+a 0 u 0 0 78 22 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 32 hrn 100 Q2 n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=11
+a 0 u 0 0 78 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 42 hrn 100 Q3 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=14
+a 0 u 0 0 78 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 52 hrn 100 Q4 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=2
+a 0 u 0 0 78 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 112 hrn 100 \COUT\ b 80 110 u
+a 0 u 1 0 75 108 hln 100 pin=7
+a 0 u 0 0 78 112 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 48 -8 hln 100 VDD n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=16
+a 0 u 0 0 58 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 44 138 hln 100 VSS n 60 130 v
+a 0 u 1 0 55 132 hcn 100 pin=8
+a 0 u 0 0 62 130 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 UP/DOWN n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 JAM1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=4
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 JAM2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=12
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 JAM3 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=13
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 JAM4 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 26 118 hln 100 PSEN n 40 130 v
+a 0 u 1 0 35 132 hcn 100 pin=1
+a 0 u 0 0 40 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 90 130 0 20 10
+r 0 10 10 70 120
+*symbol 4030 b
+d 2-input xor gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=1
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 57 22 hrn 100 J n 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=3
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=2
+@graphics 70 40 0 10 11
+v 0 10 0
+30 0
+;
+v 0 10 40
+30 40
+;
+a 0 60 20 38 1 30 0
+a 0 30 40 38 39 60 20
+a 0 6 40 10 10 6 0
+a 0 10 40 14 10 10 0
+*symbol 4040 b
+d 12-stage ripple-carry binary counter/divider
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %INPUT %RESET %Q1 %Q2 %Q3 %Q4 %Q5 %Q6 %Q7 %Q8 %Q9 %Q10 %Q11 %Q12 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 11 0 40 140 hln 100 PART=
+a 0 u 0 0 40 140 hln 100 MODEL=
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+@pins
+p 2 57 12 hrn 100 Q1 n 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=9
+a 0 u 0 0 70 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 22 hrn 100 Q2 n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=7
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 32 hrn 100 Q3 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=6
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 42 hrn 100 Q4 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=5
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 52 hrn 100 Q5 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=3
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 62 hrn 100 Q6 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=2
+a 0 u 0 0 70 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 72 hrn 100 Q7 n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=4
+a 0 u 0 0 65 65 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 82 hrn 100 Q8 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=13
+a 0 u 0 0 70 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 92 hrn 100 Q9 n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=12
+a 0 u 0 0 70 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 102 hrn 100 Q10 n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=14
+a 0 u 0 0 70 100 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 112 hrn 100 Q11 n 70 110 u
+a 0 u 1 0 65 108 hln 100 pin=15
+a 0 u 0 0 70 110 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 122 hrn 100 Q12 n 70 120 u
+a 0 u 1 0 65 118 hln 100 pin=1
+a 0 u 0 0 70 120 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 INPUT n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=10
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 17 128 hln 100 RESET n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=11
+a 0 u 0 0 30 140 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 32 -12 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 43 147 hln 100 VSS n 40 140 v
+a 0 u 1 0 35 142 hcn 100 pin=8
+a 0 u 0 0 33 140 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 80 140 0 20 10
+r 0 10 0 60 130
+*symbol 4041 b
+d True/Complement buffer
+@type p
+@attributes
+a 0 sp 11 0 38 50 hln 100 PART=
+a 0 sp 0 0 38 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %E %F %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 54 hln 100 VSS n 30 50 v
+a 0 u 1 0 25 52 hcn 100 pin=7
+a 0 u 0 0 30 52 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 A n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 24 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 12 hrn 100 E n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=1
+a 0 u 0 0 56 12 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 F n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=2
+a 0 u 0 0 60 28 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 40 0 20 11
+r 0 10 0 50 40
+*symbol 4042 b
+d Quad clocked D latch
+@type p
+@attributes
+a 0 sp 11 0 38 110 hln 100 PART=
+a 0 sp 0 0 38 110 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %POLARITY %D1 %D2 %D3 %D4 %Q1 %\Q\1 %Q2 %\Q\2 %Q3 %\Q\3 %Q4 %\Q\4 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 32 120 hln 100 VSS n 30 110 v
+a 0 u 1 0 25 112 hcn 100 pin=7
+a 0 u 0 0 30 112 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 32 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 12 hrn 100 Q1 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=2
+a 0 u 0 0 64 12 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q2 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=3
+a 0 u 0 0 64 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q3 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=4
+a 0 u 0 0 64 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 72 hrn 100 Q4 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=5
+a 0 u 0 0 64 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 \Q\1 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=8
+a 0 u 0 0 60 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 \Q\2 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=9
+a 0 u 0 0 64 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 \Q\3 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=10
+a 0 u 0 0 64 58 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 \Q\4 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=11
+a 0 u 0 0 62 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 D1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=6
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 D2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=12
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=13
+a 0 u 0 0 0 46 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 D4 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=15
+a 0 u 0 0 0 68 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 CLK c 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=16
+a 0 u 0 0 0 82 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 POLARITY n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=17
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 100 0 10 11
+r 0 10 0 50 100
+*symbol 4043 b
+d Quad 3-state NOR R/S latch
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=
+a 0 sp 0 0 40 110 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %S1 %S2 %S3 %S4 %R1 %R2 %R3 %R4 %EN %Q1 %Q2 %Q3 %Q4 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 114 hln 100 VSS n 30 110 v
+a 0 u 1 0 25 112 hcn 100 pin=8
+a 0 u 0 0 30 112 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 S1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 S2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=6
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 S3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=12
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 S4 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=14
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 R1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 R2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=7
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 R3 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=11
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 R4 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=15
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 EN n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=5
+a 0 u 0 0 0 88 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 Q1 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=2
+a 0 u 0 0 46 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q2 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=9
+a 0 u 0 0 46 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 Q3 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=10
+a 0 u 0 0 46 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 Q4 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=1
+a 0 u 0 0 46 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 100 0 10 11
+r 0 10 0 50 100
+*symbol 4044 b
+d Quad 3-state NAND R/S latch
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=
+a 0 sp 0 0 40 110 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %S1 %S2 %S3 %S4 %R1 %R2 %R3 %R4 %EN %Q1 %Q2 %Q3 %Q4 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 114 hln 100 VSS n 30 110 v
+a 0 u 1 0 25 112 hcn 100 pin=8
+a 0 u 0 0 30 112 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 S1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 S2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=7
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 S3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=11
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 S4 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=15
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 R1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=4
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 R2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=6
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 R3 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=12
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 R4 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=14
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 EN n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=5
+a 0 u 0 0 0 88 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 Q1 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=13
+a 0 u 0 0 46 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q2 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=9
+a 0 u 0 0 46 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 Q3 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=10
+a 0 u 0 0 46 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 Q4 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=1
+a 0 u 0 0 46 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 100 0 10 11
+r 0 10 0 50 100
+*symbol 4048 b
+d Multi-function expandable 8-input gate
+@type p
+@attributes
+a 0 sp 11 0 40 150 hln 100 PART=
+a 0 sp 0 0 40 150 hln 100 MODEL=
+a 0 s 9 0 60 8 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %KA %KB %KC %KD %EXPAND %A %B %C %D %E %F %G %H %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 32 160 hln 100 VSS n 30 150 v
+a 0 u 1 0 25 152 hcn 100 pin=8
+a 0 u 0 0 30 152 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 60 -4 hln 100 VDD n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=16
+a 0 u 0 0 -10 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 10 18 hln 100 KA n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=10
+a 0 u 0 0 16 12 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 22 24 hln 100 KB n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=7
+a 0 u 0 0 24 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 46 26 hln 100 KD n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=9
+a 0 u 0 0 44 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 36 18 hln 100 KC n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=2
+a 0 u 0 0 32 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 A n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=14
+a 0 u 0 0 2 32 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 B n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=13
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 C n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=12
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 D n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=11
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 EXPAND n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=15
+a 0 u 0 0 2 82 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 E n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=6
+a 0 u 0 0 2 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 112 hln 100 F n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=5
+a 0 u 0 0 0 112 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 122 hln 100 G n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=4
+a 0 u 0 0 2 122 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 132 hln 100 H n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=3
+a 0 u 0 0 2 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 82 hrn 100 J n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=1
+a 0 u 0 0 62 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 70 140 0 30 11
+r 0 10 10 60 140
+*symbol 4049 b ako 4009
+d Hex buffer/converter
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+*symbol 4050 b ako 4010
+d Hex buffer/converter - non-inverting type
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+*symbol 4068 b
+d 8-input NAND/AND gate
+@type p
+@attributes
+a 0 sp 11 0 38 78 hln 100 PART=
+a 0 sp 0 0 38 78 hln 100 MODEL=
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %E %F %G %H %J %K %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 0 0 hln 100 VDD n 30 10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 13 hcn 100 pin=14
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 -2 hrn 100 pin=2
+p 0 13 12 hln 100 B n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=3
+p 0 13 22 hln 100 C n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 18 hrn 100 pin=4
+p 0 13 32 hln 100 D n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=5
+p 0 13 52 hln 100 E n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 48 hrn 100 pin=9
+p 0 13 62 hln 100 F n 0 60 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 58 hrn 100 pin=10
+p 0 13 72 hln 100 G n 0 70 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 68 hrn 100 pin=11
+p 0 13 82 hln 100 H n 0 80 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 78 hrn 100 pin=12
+p 16 0 0 hln 100 VSS n 30 70 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 72 hcn 100 pin=7
+p 0 57 42 hrn 100 J b 70 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 38 hln 100 pin=13
+p 0 57 22 hrn 100 K n 70 20 u
+a 0 u 0 0 70 22 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=1
+@graphics 70 80 0 0 11
+v 0 40 20
+10 20
+;
+v 0 10 20
+10 60
+;
+v 0 10 60
+40 60
+;
+a 0 40 60 60 40 40 20
+v 0 10 0
+10 20
+;
+v 0 10 60
+10 80
+;
+v 0 60 20
+60 20
+;
+v 0 60 20
+60 20
+;
+v 0 60 20
+55 27
+;
+v 0 55 27
+55 27
+;
+*symbol 4069 b
+d Hex inverter
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %G %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+@pins
+p 0 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 0 37 22 hrn 100 G b 50 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 45 18 hln 100 pin=2
+p 16 0 0 hln 100 VSS n 25 40 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 20 42 hcn 100 pin=7
+p 16 0 0 hln 100 VDD n 25 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 30 3 hcn 100 pin=14
+@graphics 50 40 0 20 11
+v 0 40 20
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 20
+;
+*symbol 4070 b
+d 2-input xor gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=2
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 57 22 hrn 100 J n 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=3
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=1
+@graphics 70 40 0 10 11
+v 0 10 0
+30 0
+;
+v 0 10 40
+30 40
+;
+a 0 60 20 38 1 30 0
+a 0 30 40 38 39 60 20
+a 0 6 40 10 10 6 0
+a 0 10 40 14 10 10 0
+*symbol 4071 b
+d 2-input OR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=2
+p 0 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=1
+p 0 57 22 hrn 100 J n 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=3
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+@graphics 70 40 0 10 11
+v 0 6 0
+30 0
+;
+v 0 6 40
+30 40
+;
+a 0 60 20 38 1 30 0
+a 0 30 40 38 39 60 20
+a 0 6 40 10 10 6 0
+*symbol 4072 b
+d 4-input OR gate
+@type p
+@attributes
+a 0 sp 11 0 50 50 hln 100 PART=
+a 0 sp 0 0 50 50 hln 100 MODEL=
+a 0 s 9 0 50 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 -2 hrn 100 pin=2
+p 0 13 12 hln 100 B n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=3
+p 0 67 22 hrn 100 J n 80 20 u
+a 0 u 0 0 10 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 75 18 hln 100 pin=1
+p 16 10 0 hln 100 VDD n 40 -10 d
+a 0 u 0 0 10 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 45 -7 hcn 100 pin=14
+p 16 10 0 hln 100 VSS n 40 50 v
+a 0 u 0 0 10 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 52 hcn 100 pin=7
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 D n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 80 40 0 0 11
+v 0 16 0
+40 0
+;
+v 0 16 40
+40 40
+;
+a 0 70 20 48 1 40 0
+a 0 40 40 48 39 70 20
+a 0 16 40 20 10 16 0
+v 0 10 0
+20 0
+;
+v 0 20 0
+20 0
+;
+v 0 10 10
+20 10
+;
+v 0 20 10
+20 10
+;
+v 0 10 30
+20 30
+;
+v 0 20 30
+20 30
+;
+v 0 10 40
+20 40
+;
+v 0 20 40
+20 40
+;
+*symbol 4073 b
+d 3-input AND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 0 0 0 -10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 -2 hrn 100 pin=1
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 42 hln 100 C n 0 40 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 38 hrn 100 pin=8
+p 0 57 22 hrn 100 J n 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=9
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 18 hrn 100 pin=2
+@graphics 70 40 0 0 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 4075 b
+d 3-input OR gate
+@type p
+@attributes
+a 0 sp 11 0 50 50 hln 100 PART=
+a 0 sp 0 0 50 50 hln 100 MODEL=
+a 0 s 9 0 50 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 23 12 hln 100 A n 10 10 h
+a 0 u 0 0 10 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 15 8 hrn 100 pin=8
+p 0 23 32 hln 100 C n 10 30 h
+a 0 u 0 0 10 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 15 28 hrn 100 pin=2
+p 0 67 22 hrn 100 J n 80 20 u
+a 0 u 0 0 10 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 75 18 hln 100 pin=9
+p 16 10 0 hln 100 VDD n 40 -10 d
+a 0 u 0 0 10 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 45 -7 hcn 100 pin=14
+p 16 10 0 hln 100 VSS n 40 50 v
+a 0 u 0 0 10 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 52 hcn 100 pin=7
+p 0 23 22 hln 100 B n 10 20 h
+a 0 u 1 0 15 18 hrn 100 pin=1
+a 0 u 0 0 10 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 80 40 10 10 11
+v 0 16 0
+40 0
+;
+v 0 16 40
+40 40
+;
+a 0 70 20 48 1 40 0 
+a 0 40 40 48 39 70 20 
+a 0 16 40 20 10 16 0 
+*symbol 4076 b
+d 4-bit D-type register
+@type p
+@attributes
+a 0 sp 11 0 60 90 hln 100 PART=
+a 0 sp 0 0 60 90 hln 100 MODEL=
+a 0 s 9 0 64 10 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %RESET %G1 %G2 %D1 %D2 %D3 %D4 %M %N %Q1 %Q2 %Q3 %Q4 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 92 hln 100 VSS n 30 90 v
+a 0 u 1 0 25 92 hcn 100 pin=8
+a 0 u 0 0 30 90 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 D1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=14
+a 0 u 0 0 -6 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=13
+a 0 u 0 0 -8 42 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=12
+a 0 u 0 0 -6 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 D4 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=11
+a 0 u 0 0 4 62 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 CLK c 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 4 72 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 34 78 hln 100 RESET n 40 90 v
+a 0 u 1 0 35 92 hcn 100 pin=15
+a 0 u 0 0 42 86 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 32 hrn 100 Q1 n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=3
+a 0 u 0 0 78 28 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 42 hrn 100 Q2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=4
+a 0 u 0 0 78 38 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 52 hrn 100 Q3 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 78 48 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 62 hrn 100 Q4 n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=6
+a 0 u 0 0 78 58 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 14 20 hln 100 G1 n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=9
+a 0 u 0 0 22 -2 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 54 2 hln 100 VDD n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=16
+a 0 u 0 0 -28 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 26 20 hln 100 G2 n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=10
+a 0 u 0 0 32 -2 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 54 8 hln 100 N n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=2
+a 0 u 0 0 62 -2 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 48 18 hln 100 M n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=1
+a 0 u 0 0 52 -4 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 80 90 0 30 11
+r 0 10 10 70 80
+*symbol 4077 b
+d XOR gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 57 22 hrn 100 J b 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=3
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=2
+@graphics 70 40 0 10 11
+v 0 10 0
+30 0
+;
+v 0 10 40
+30 40
+;
+a 0 60 20 38 1 30 0
+a 0 30 40 38 39 60 20
+a 0 6 40 10 10 6 0
+a 0 10 40 14 10 10 0
+*symbol 4078 b
+d 8-input NOR/OR gate
+@type p
+@attributes
+a 1 s 9 0 60 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %E %F %G %H %J %K %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 11 0 60 80 hlb 100 PART=
+a 0 u 0 0 60 80 hlb 100 MODEL=
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 0 0 0 20 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 30 hlb 100 IO_LEVEL=0
+@pins
+p 16 32 -4 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 36 70 hln 100 VSS n 30 70 v
+a 0 u 0 0 0 20 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 72 hcn 100 pin=7
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 1 0 5 -2 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 12 hln 100 B n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 C n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=4
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 D n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=5
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 E n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=9
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 F n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=10
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 G n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=11
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 H n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=12
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 77 42 hrn 100 J b 90 40 u
+a 0 u 1 0 85 38 hln 100 pin=13
+a 0 u 0 0 78 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 69 37 hrn 100 K n 90 20 u
+a 0 u 1 0 85 18 hln 100 pin=1
+a 0 u 0 0 80 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 90 80 0 0 10
+v 0 20 20
+50 20
+;
+v 0 50 20
+50 20
+;
+v 0 40 20
+40 20
+;
+v 0 40 20
+40 20
+;
+v 0 20 60
+50 60
+;
+v 0 50 60
+50 60
+;
+v 0 50 60
+50 60
+;
+v 0 50 60
+50 60
+;
+v 0 80 20
+70 30
+;
+v 0 70 30
+70 30
+;
+a 0 20 60 30 40 20 20 
+a 0 80 40 70 30 50 20 
+a 0 50 60 70 50 80 40 
+v 0 10 80
+20 80
+;
+v 0 20 80
+20 80
+;
+v 0 20 80
+20 0
+;
+v 0 20 0
+20 0
+;
+v 0 20 0
+10 0
+;
+v 0 10 0
+10 0
+;
+v 0 10 0
+10 0
+;
+v 0 10 0
+10 0
+;
+v 0 10 10
+20 10
+;
+v 0 20 10
+20 10
+;
+v 0 10 20
+20 20
+;
+v 0 20 20
+20 20
+;
+v 0 10 30
+20 30
+;
+v 0 20 30
+20 30
+;
+v 0 10 50
+20 50
+;
+v 0 20 50
+20 50
+;
+v 0 10 60
+20 60
+;
+v 0 20 60
+20 60
+;
+v 0 10 70
+20 70
+;
+v 0 20 70
+20 70
+;
+*symbol 4081 b
+d 2-input positive-AND gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=2
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 57 22 hrn 100 J n 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=3
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 4082 b
+d 4-input positive-and gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 -2 hrn 100 pin=5
+p 0 13 12 hln 100 B n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=4
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=3
+p 0 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 38 hrn 100 pin=2
+p 0 57 22 hrn 100 J n 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=1
+@graphics 70 40 0 0 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 4085 b
+d 2-input AND-OR-INVERT (AOI) gate
+@type p
+@attributes
+a 0 sp 11 0 42 70 hln 100 PART=
+a 0 sp 0 0 42 70 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %INHIBIT %A %B %C %D %E %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 72 hln 100 VSS n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=7
+a 0 s 0 0 30 70 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 s 1 0 35 -7 hcn 100 PIN=14
+a 0 s 0 0 -40 -10 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 12 hln 100 INHIBIT n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=10
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 22 hln 100 A n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 32 hln 100 B n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 42 hln 100 C n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=12
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 13 52 hln 100 D n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=13
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 47 32 hrn 100 E n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=3
+a 0 s 0 0 54 30 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+@graphics 60 60 0 10 10
+r 0 10 0 50 60
+*symbol 4086 b
+d Expandable 4-wide, 2-input AOI gate
+@type p
+@attributes
+a 0 sp 11 0 40 120 hln 100 PART=
+a 0 sp 0 0 40 120 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %INHIBIT/\EXP\ %ENABLE/EXP %A %B %C %D %E %F %G %H %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 122 hln 100 VSS n 30 120 v
+a 0 u 1 0 25 122 hcn 100 pin=7
+a 0 u 0 0 30 120 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 52 hrn 100 J b 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=3
+a 0 u 0 0 80 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 INHIBIT/\EXP\ n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=10
+a 0 u 0 0 2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 A n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 2 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 B n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 2 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 C n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=12
+a 0 u 0 0 2 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=13
+a 0 u 0 0 2 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 E n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 2 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 F n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=6
+a 0 u 0 0 2 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 G n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 2 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 H n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 2 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 ENABLE/EXP n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 2 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 80 110 0 10 11
+r 0 10 0 70 110
+*symbol 4093 b
+d 2-input NAND schmitt trigger
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %J %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=2
+p 16 0 0 hln 100 VSS n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 16 0 0 hln 100 VDD n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 0 57 22 hrn 100 J b 70 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=3
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+v 0 16 10
+30 10
+;
+v 0 30 30
+45 30
+;
+v 0 23 10
+30 30
+;
+v 0 30 10
+37 30
+;
+*symbol 4095 b
+d Gated J-K master-slave flip-flop, non-inverting inputs
+@type p
+@attributes
+a 0 sp 11 0 40 140 hln 100 PART=
+a 0 sp 0 0 40 140 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %SET %RESET %CLK %J1 %J2 %J3 %K1 %K2 %K3 %Q %\Q\ %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 52 142 hln 100 VSS n 40 140 v
+a 0 u 1 0 35 142 hcn 100 pin=7
+a 0 u 0 0 40 140 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 54 2 hln 100 VDD n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=14
+a 0 u 0 0 -28 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 22 20 hln 100 SET n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=13
+a 0 u 0 0 30 2 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 J1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 2 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 J2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 2 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 J3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 2 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 CLK c 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=12
+a 0 u 0 0 2 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 K1 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=11
+a 0 u 0 0 2 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 K2 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 2 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 112 hln 100 K3 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=9
+a 0 u 0 0 2 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=8
+a 0 u 0 0 52 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 102 hrn 100 \Q\ b 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=6
+a 0 u 0 0 52 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 18 126 hln 100 RESET n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=2
+a 0 u 0 0 30 140 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 140 0 30 11
+r 0 10 10 50 130
+*symbol 4096 b
+d Gated J-K master-slave flip-flop, inverting and non-inverting inputs
+@type p
+@attributes
+a 0 sp 11 0 40 140 hln 100 PART=
+a 0 sp 0 0 40 140 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %SET %RESET %CLK %J1 %J2 %\J3\ %K1 %K2 %\K3\ %Q %\Q\ %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 52 142 hln 100 VSS n 40 140 v
+a 0 u 1 0 35 142 hcn 100 pin=7
+a 0 u 0 0 40 140 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 54 2 hln 100 VDD n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=14
+a 0 u 0 0 -28 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 22 20 hln 100 SET n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=13
+a 0 u 0 0 30 2 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 J1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 2 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 J2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 2 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 \J3\ b 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 2 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 CLK c 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=12
+a 0 u 0 0 2 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 K1 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=11
+a 0 u 0 0 2 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 K2 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 2 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 112 hln 100 \K3\ b 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=9
+a 0 u 0 0 2 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=8
+a 0 u 0 0 52 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 102 hrn 100 \Q\ b 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=6
+a 0 u 0 0 52 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 18 126 hln 100 RESET n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=2
+a 0 u 0 0 30 140 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 140 0 30 11
+r 0 10 10 50 130
+*symbol 4098 b
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 34 80 hln 100 PART=
+a 0 sp 0 0 34 80 hln 100 MODEL=
+a 0 s 9 0 32 -2 hln 100 REFDES=U?
+a 0 u 13 13 34 90 hln 100 PULSE=1us
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %RESET %TR+ %TR- %CX %RXCX %Q %\Q\ %VDD %VSS @MODEL PARAMS:\n+ PULSE=@PULSE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 2 88 hln 100 VSS n 20 80 v
+a 0 u 1 0 15 82 hcn 100 pin=8
+a 0 u 0 0 20 80 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 12 -10 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 TR+ n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 TR- n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 18 68 hln 100 RESET b 30 80 v
+a 0 u 1 0 25 82 hcn 100 pin=3
+a 0 u 0 0 32 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=6
+a 0 u 0 0 54 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 \Q\ b 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=7
+a 0 u 0 0 54 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 CX n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=10
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 22 hln 100 RXCX n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 60 80 0 10 11
+r 0 10 0 50 70
+*symbol 4099 b
+d 8-bit addressable latch
+@type p
+@attributes
+a 0 sp 11 0 46 98 hln 100 PART=
+a 0 sp 0 0 46 98 hln 100 MODEL=
+a 0 s 9 0 46 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %WDISABLE %RESET %DATA %A0 %A1 %A2 %Q0 %Q1 %Q2 %Q3 %Q4 %Q5 %Q6 %Q7 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 44 100 hln 100 VSS n 30 100 v
+a 0 u 1 0 25 102 hcn 100 pin=8
+a 0 u 0 0 32 98 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 WDISABLE n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 DATA n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 A0 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 A1 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=6
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 A2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=7
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 22 88 hln 100 RESET n 40 100 v
+a 0 u 1 0 35 102 hcn 100 pin=2
+a 0 u 0 0 30 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 22 hrn 100 Q1 n 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=10
+a 0 u 0 0 66 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 12 hrn 100 Q0 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=9
+a 0 u 0 0 66 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 42 hrn 100 Q3 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=12
+a 0 u 0 0 66 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 32 hrn 100 Q2 n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=11
+a 0 u 0 0 66 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 52 hrn 100 Q4 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=13
+a 0 u 0 0 66 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 62 hrn 100 Q5 n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=14
+a 0 u 0 0 66 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 72 hrn 100 Q6 n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=15
+a 0 u 0 0 66 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 67 82 hrn 100 Q7 n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=1
+a 0 u 0 0 66 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 80 100 0 10 11
+r 0 10 0 70 90
+*symbol 4502 b
+d Strobed hex inverter/buffer
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=
+a 0 sp 0 0 40 110 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %DISABLE %INHIBIT %D1 %D2 %D3 %D4 %D5 %D6 %Q1 %Q2 %Q3 %Q4 %Q5 %Q6 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 112 hln 100 VSS n 30 110 v
+a 0 u 1 0 25 112 hcn 100 pin=8
+a 0 u 0 0 30 110 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 DISABLE n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 INHIBIT n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=12
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D1 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 D3 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=1
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D2 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=6
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 D4 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=10
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 D5 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=13
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 D6 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=15
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q1 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=5
+a 0 u 0 0 46 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 Q3 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=2
+a 0 u 0 0 46 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q2 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=7
+a 0 u 0 0 46 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 72 hrn 100 Q4 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=9
+a 0 u 0 0 46 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 Q5 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=11
+a 0 u 0 0 46 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 92 hrn 100 Q6 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=14
+a 0 u 0 0 46 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 100 0 10 11
+r 0 10 0 50 100
+*symbol 4503 b
+d Hex buffer 3-state non-inverting
+@type p
+@attributes
+a 0 sp 11 0 38 120 hln 100 PART=
+a 0 sp 0 0 38 120 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %DISABLEA %DISABLEB %D1 %D2 %D3 %D4 %D5 %D6 %Q1 %Q2 %Q3 %Q4 %Q5 %Q6 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 122 hln 100 VSS n 30 120 v
+a 0 u 1 0 25 122 hcn 100 pin=8
+a 0 u 0 0 30 120 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 80 DISABLEA n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 D1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=6
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 D4 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=10
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 D5 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=12
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 80 DISABLEB n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=15
+a 0 u 0 0 10 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q1 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=3
+a 0 u 0 0 74 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q2 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=5
+a 0 u 0 0 74 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q3 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=7
+a 0 u 0 0 74 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 Q4 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=9
+a 0 u 0 0 74 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 72 hrn 100 Q5 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=11
+a 0 u 0 0 74 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 Q6 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=13
+a 0 u 0 0 74 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 D6 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=14
+a 0 u 0 0 12 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 110 0 10 11
+r 0 10 0 50 110
+*symbol 4508 b
+d Dual 4-bit latch
+@type p
+@attributes
+a 0 sp 11 0 38 100 hln 100 PART=
+a 0 sp 0 0 38 100 hln 100 MODEL=
+a 0 s 9 0 40 8 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %STROBE %RESET %D0 %D1 %D2 %D3 %OUTDISABLE %Q0 %Q1 %Q2 %Q3 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 32 102 hln 100 VSS n 20 100 v
+a 0 u 1 0 15 102 hcn 100 pin=12
+a 0 u 0 0 20 100 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 32 2 hln 100 VDD n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=24
+a 0 u 0 0 -50 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 12 18 hln 80 OUTDISABLE n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=3
+a 0 u 0 0 30 -6 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 D0 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D1 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=6
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D2 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=8
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 D3 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=10
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 STROBE n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=2
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 20 88 hln 100 RESET n 30 100 v
+a 0 u 1 0 25 102 hcn 100 pin=1
+a 0 u 0 0 22 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 42 hrn 100 Q1 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=7
+a 0 u 0 0 60 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 32 hrn 100 Q0 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=5
+a 0 u 0 0 60 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 52 hrn 100 Q2 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=9
+a 0 u 0 0 60 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 62 hrn 100 Q3 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=11
+a 0 u 0 0 60 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 70 100 0 30 11
+r 0 10 10 60 90
+*symbol 4510 b
+d BCD presettable up/down
+@type p
+@attributes
+a 0 sp 11 0 42 140 hln 100 PART=
+a 0 sp 0 0 42 140 hln 100 MODEL=
+a 0 s 9 0 40 8 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %PS_EN %RESET %CLK %UP/DOWN %\CARRYIN\ %P1 %P2 %P3 %P4 %\CARRYOUT\ %Q1 %Q2 %Q3 %Q4 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 32 2 hln 100 VDD n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=16
+a 0 u 0 0 -50 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 32 142 hln 100 VSS n 20 140 v
+a 0 u 1 0 15 142 hcn 100 pin=8
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 P1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 P2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=12
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 P3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=13
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 P4 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=3
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 CLK c 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=15
+a 0 u 0 0 2 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 UP/DOWN n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 \CARRYIN\ b 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=5
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 20 18 hln 100 PS_EN n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=1
+a 0 u 0 0 30 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 20 126 hln 100 RESET n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=9
+a 0 u 0 0 22 140 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 112 hrn 100 \CARRYOUT\ b 70 110 u
+a 0 u 1 0 65 108 hln 100 pin=7
+a 0 u 0 0 68 108 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 32 hrn 100 Q1 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=6
+a 0 u 0 0 60 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 42 hrn 100 Q2 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=11
+a 0 u 0 0 60 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 52 hrn 100 Q3 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=14
+a 0 u 0 0 60 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 62 hrn 100 Q4 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=2
+a 0 u 0 0 60 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 70 140 0 30 11
+r 0 10 10 60 130
+*symbol 4512 b
+d 8-channel data selector
+@type p
+@attributes
+a 0 sp 11 0 40 170 hln 100 PART=
+a 0 sp 0 0 40 170 hln 100 MODEL=
+a 0 s 9 0 38 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %D0 %D1 %D2 %D3 %D4 %D5 %D6 %D7 %A %B %C %INHIBIT %DISABLE %OUT %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 172 hln 100 VSS n 30 170 v
+a 0 u 1 0 25 172 hcn 100 pin=8
+a 0 u 0 0 30 170 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 INHIBIT n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=10
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 DISABLE n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=13
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D0 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D1 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 D2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=3
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 D3 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=4
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 D5 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=6
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 D4 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=5
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 112 hln 100 D7 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=9
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 D6 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=7
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 132 hln 100 A n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=11
+a 0 u 0 0 2 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 142 hln 100 B n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=12
+a 0 u 0 0 2 140 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 152 hln 100 C n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=13
+a 0 u 0 0 2 150 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 OUT n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=14
+a 0 u 0 0 46 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 160 0 10 11
+r 0 10 0 50 160
+*symbol 4514 b
+d 4-bit latch/4-to-6 line decoder (output "high" on select)
+@type p
+@attributes
+a 0 sp 11 0 38 178 hln 100 PART=
+a 0 sp 0 0 38 178 hln 100 MODEL=
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %STROBE %INHIBIT %DATA1 %DATA2 %DATA3 %DATA4 %S0 %S1 %S2 %S3 %S4 %S5 %S6 %S7 %S8 %S9 %S10 %S11 %S12 %S13 %S14 %S15 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 182 hln 100 VSS n 30 180 v
+a 0 u 1 0 25 182 hcn 100 pin=12
+a 0 u 0 0 30 180 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 DATA1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 DATA2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 DATA3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=21
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 DATA4 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=22
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 STROBE n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=1
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 132 hln 80 INHIBIT n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=23
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 12 hrn 100 S0 n 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=11
+a 0 u 0 0 58 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 22 hrn 100 S1 n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=9
+a 0 u 0 0 58 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 32 hrn 100 S2 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=10
+a 0 u 0 0 58 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 42 hrn 100 S3 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=8
+a 0 u 0 0 58 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 52 hrn 100 S4 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=7
+a 0 u 0 0 58 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 62 hrn 100 S5 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=6
+a 0 u 0 0 58 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 72 hrn 100 S6 n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=5
+a 0 u 0 0 58 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 82 hrn 100 S7 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=4
+a 0 u 0 0 58 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 92 hrn 100 S8 n 70 90 u
+a 0 u 1 0 65 88 hln 100 pin=18
+a 0 u 0 0 58 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 102 hrn 100 S9 n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=17
+a 0 u 0 0 58 100 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 112 hrn 100 S10 n 70 110 u
+a 0 u 1 0 65 108 hln 100 pin=20
+a 0 u 0 0 54 110 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 122 hrn 100 S11 n 70 120 u
+a 0 u 1 0 65 118 hln 100 pin=19
+a 0 u 0 0 54 120 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 132 hrn 100 S12 n 70 130 u
+a 0 u 1 0 65 128 hln 100 pin=14
+a 0 u 0 0 54 130 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 142 hrn 100 S13 n 70 140 u
+a 0 u 1 0 65 138 hln 100 pin=13
+a 0 u 0 0 54 140 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 152 hrn 100 S14 n 70 150 u
+a 0 u 1 0 65 148 hln 100 pin=16
+a 0 u 0 0 54 150 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 162 hrn 100 S15 n 70 160 u
+a 0 u 1 0 65 158 hln 100 pin=15
+a 0 u 0 0 54 160 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 70 170 0 10 11
+r 0 10 0 60 170
+*symbol 4515 b ako 4514
+d 4-bit latch/4-to-16 line decoder (output "low" on select)
+@type p
+@attributes
+a 0 sp 11 0 38 178 hln 100 PART=
+a 0 sp 0 0 38 178 hln 100 MODEL=
+*symbol 4516 b
+d Binary presettable up/down
+@type p
+@attributes
+a 0 sp 11 0 34 130 hln 100 PART=
+a 0 sp 0 0 34 130 hln 100 MODEL=
+a 0 s 9 0 40 8 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %PS_EN %RESET %CLK %UP/DOWN %\CIN\ %P1 %P2 %P3 %P4 %\COUT\ %Q1 %Q2 %Q3 %Q4 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 2 0 hln 100 VDD n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=16
+a 0 u 0 0 -50 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 2 140 hln 100 VSS n 20 130 v
+a 0 u 1 0 15 132 hcn 100 pin=8
+a 0 u 0 0 20 130 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 20 18 hln 100 PS_EN n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=1
+a 0 u 0 0 22 12 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 P1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 P2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=12
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 P3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=13
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 P4 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=3
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 CLK c 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=15
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 UP/DOWN n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 \CIN\ b 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=5
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q1 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=6
+a 0 u 0 0 46 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q2 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=11
+a 0 u 0 0 46 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q3 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=14
+a 0 u 0 0 46 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 Q4 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=2
+a 0 u 0 0 46 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 72 hrn 100 \COUT\ b 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=7
+a 0 u 0 0 46 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 18 118 hln 100 RESET n 30 130 v
+a 0 u 1 0 25 132 hcn 100 pin=9
+a 0 u 0 0 26 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 130 0 30 11
+r 0 10 10 50 120
+*symbol 4518 b
+d BCD up counter
+@type p
+@attributes
+a 0 sp 11 0 40 70 hln 100 PART=
+a 0 sp 0 0 40 70 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %RESET %EN %Q1 %Q2 %Q3 %Q4 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 2 13 22 hln 100 CLK c 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 EN n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=2
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 22 58 hln 100 RESET n 30 70 v
+a 0 u 1 0 25 72 hcn 100 pin=7
+a 0 u 0 0 20 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 12 hrn 100 Q1 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=3
+a 0 u 0 0 48 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 Q2 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=4
+a 0 u 0 0 48 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q3 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=5
+a 0 u 0 0 48 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q4 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=6
+a 0 u 0 0 48 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 32 72 hln 100 VSS n 20 70 v
+a 0 u 1 0 15 72 hcn 100 pin=8
+a 0 u 0 0 20 70 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 70 0 20 11
+r 0 10 0 50 60
+*symbol 4520 b ako 4518
+d Binary up counter
+@type p
+@attributes
+a 0 sp 11 0 40 70 hln 100 PART=
+a 0 sp 0 0 40 70 hln 100 MODEL=
+*symbol 4532 b
+d 8-bit priority encoder
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=
+a 0 sp 0 0 40 110 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %EI %D0 %D1 %D2 %D3 %D4 %D5 %D6 %D7 %Q0 %Q1 %Q2 %GS %EO %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 112 hln 100 VSS n 30 110 v
+a 0 u 1 0 25 112 hcn 100 pin=7
+a 0 u 0 0 30 110 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 D7 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 D6 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 D5 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=15
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 D2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=12
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 D1 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=11
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 D0 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=10
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 EI n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=5
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 12 hrn 100 Q2 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=6
+a 0 u 0 0 48 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q1 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=13
+a 0 u 0 0 48 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q0 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=9
+a 0 u 0 0 48 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 92 hrn 100 EO n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=16
+a 0 u 0 0 48 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 72 hrn 100 GS n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=18
+a 0 u 0 0 48 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 100 0 10 11
+r 0 10 0 50 100
+*symbol 4538 b ako 4098
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 46 48 hln 100 PART=
+a 0 sp 0 0 46 48 hln 100 MODEL=
+a 0 u 13 13 34 90 hln 100 PULSE=20us
+*symbol 4555 b
+d Binary-to-1-of-4 decoder/demultiplexer (output "high" on select)
+@type p
+@attributes
+a 0 sp 11 0 38 58 hln 100 PART=
+a 0 sp 0 0 38 58 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\E\ %A %B %Q0 %Q1 %Q2 %Q3 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 \E\ n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 12 hrn 100 Q0 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=4
+a 0 u 0 0 48 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 Q1 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=5
+a 0 u 0 0 48 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q2 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=6
+a 0 u 0 0 48 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q3 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=7
+a 0 u 0 0 48 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 62 hln 100 VSS n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=8
+a 0 u 0 0 30 60 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 50 0 10 11
+r 0 10 0 50 50
+*symbol 4556 b
+d Binary-to-1-of-4 decoder/demultiplexer (output "low" on select)
+@type p
+@attributes
+a 0 sp 11 0 38 58 hln 100 PART=
+a 0 sp 0 0 38 58 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\E\ %A %B %\Q0\ %\Q1\ %\Q2\ %\Q3\ %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 \E\ n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 12 hrn 100 \Q0\ b 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=4
+a 0 u 0 0 48 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 \Q1\ b 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=5
+a 0 u 0 0 48 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 \Q2\ b 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=6
+a 0 u 0 0 48 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 \Q3\ b 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=7
+a 0 u 0 0 48 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 62 hln 100 VSS n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=8
+a 0 u 0 0 30 60 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 50 0 10 11
+r 0 10 0 50 50
+*symbol 4724 b
+d 8-bit addressable latch
+@type p
+@attributes
+a 0 sp 11 0 40 118 hln 100 PART=
+a 0 sp 0 0 40 118 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %WDISABLE %RESET %DATA %A0 %A1 %A2 %Q0 %Q1 %Q2 %Q3 %Q4 %Q5 %Q6 %Q7 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 2 13 12 hln 100 A0 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 A1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 A2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 80 WDISABLE n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=4
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 DATA n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=13
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 18 108 hln 100 RESET n 30 120 v
+a 0 u 1 0 25 122 hcn 100 pin=15
+a 0 u 0 0 16 120 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 12 hrn 100 Q0 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=8
+a 0 u 0 0 50 14 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 Q1 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=5
+a 0 u 0 0 50 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q2 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=6
+a 0 u 0 0 50 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q3 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=12
+a 0 u 0 0 50 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q4 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=9
+a 0 u 0 0 50 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 Q5 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=10
+a 0 u 0 0 50 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 72 hrn 100 Q6 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=11
+a 0 u 0 0 50 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 Q7 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=17
+a 0 u 0 0 50 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 32 122 hln 100 VSS n 20 120 v
+a 0 u 1 0 15 122 hcn 100 pin=8
+a 0 u 0 0 20 120 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 120 0 10 11
+r 0 10 0 50 110
+*symbol 40102 b
+d 8-stage presettable synchronous down counter (2-decade BCD)
+@type p
+@attributes
+a 0 sp 11 0 40 170 hln 100 PART=
+a 0 sp 0 0 40 170 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %\CI\/\CE\ %\SPE\ %\APE\ %\CLR\ %JAM0 %JAM1 %JAM2 %JAM3 %JAM4 %JAM5 %JAM6 %JAM7 %\CO\/\ZD\ %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 2 13 12 hln 100 \SPE\ b 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=15
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 \APE\ b 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=9
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 \CI\/\CE\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 JAM0 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 JAM1 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 JAM2 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 JAM3 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 JAM4 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 JAM5 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 112 hln 100 JAM6 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=12
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 122 hln 100 JAM7 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 142 hln 100 CLK c 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=1
+a 0 u 0 0 0 140 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 132 hrn 100 \CO\/\ZD\ n 60 130 u
+a 0 u 1 0 55 128 hln 100 pin=16
+a 0 u 0 0 46 130 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 32 172 hln 100 VSS n 20 170 v
+a 0 u 1 0 15 172 hcn 100 pin=8
+a 0 u 0 0 20 170 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 22 156 hln 100 \CLR\ b 30 170 v
+a 0 u 1 0 25 172 hcn 100 pin=2
+a 0 u 0 0 24 168 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 170 0 10 11
+r 0 10 0 50 160
+*symbol 40103 b ako 40102
+d 8-stage presettable synchronous down counter (8-bit binary)
+@type p
+@attributes
+a 0 sp 11 0 40 170 hln 100 PART=
+a 0 sp 0 0 40 170 hln 100 MODEL=
+*symbol 40106 b
+d Hex Schmitt Trigger
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %G %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+@pins
+p 0 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 0 37 22 hrn 100 G b 50 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 45 18 hln 100 pin=2
+p 16 0 0 hln 100 VSS n 25 40 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 20 42 hcn 100 pin=7
+p 16 0 0 hln 100 VDD n 25 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 30 3 hcn 100 pin=14
+@graphics 50 40 0 20 11
+v 0 40 20
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 20
+;
+v 0 14 15
+22 15
+;
+v 0 18 24
+26 24
+;
+v 0 16 15
+18 24
+;
+v 0 22 15
+24 24
+;
+*symbol 40107 b ako 4011
+d 2-input NAND buffer/driver
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+*symbol 40108 b
+d 4-by-4 multiport register
+@type p
+@attributes
+a 0 sp 11 0 40 210 hln 100 PART=
+a 0 sp 0 0 40 210 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %W_EN %W0 %W1 %D0 %D1 %D2 %D3 %R0A %R1A %R0B %R1B %TRI_A %TRI_B %Q0A %Q1A %Q2A %Q3A %Q0B %Q1B %Q2B %Q3B %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 2 13 12 hln 100 TRI_A n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 W_EN n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=15
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D0 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=20
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D1 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=19
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 D2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=18
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 D3 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=17
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 W0 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 W1 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 152 hln 100 R0B n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=11
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q0A n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=4
+a 0 u 0 0 44 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q1A n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=5
+a 0 u 0 0 44 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q2A n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=6
+a 0 u 0 0 44 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 Q0B n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=22
+a 0 u 0 0 44 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 102 hrn 100 Q2B n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=2
+a 0 u 0 0 44 100 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 112 hrn 100 Q3B n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=1
+a 0 u 0 0 44 110 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 182 hln 100 CLK c 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=16
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 192 hln 100 TRI_B n 0 190 h
+a 0 u 1 0 5 188 hrn 100 pin=21
+a 0 u 0 0 0 190 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 162 hln 100 R1B n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=10
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 122 hln 100 R0A n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 132 hln 100 R1A n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 Q3A n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=7
+a 0 u 0 0 44 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 92 hrn 100 Q1B n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=23
+a 0 u 0 0 44 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 210 hln 100 VSS n 30 210 v
+a 0 u 1 0 25 212 hcn 100 pin=12
+a 0 u 0 0 30 208 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 200 0 10 11
+r 0 10 0 50 200
+*symbol 40147 b
+d 10-line-to-14-line BCD priority encoder
+@type p
+@attributes
+a 0 sp 11 0 38 120 hln 100 PART=
+a 0 sp 0 0 38 120 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN0 %IN1 %IN2 %IN3 %IN4 %IN5 %IN6 %IN7 %IN8 %IN9 %A %B %C %D %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 124 hln 100 VSS n 30 120 v
+a 0 u 1 0 25 122 hcn 100 pin=8
+a 0 u 0 0 30 122 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 IN0 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=11
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 IN1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=12
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 IN3 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 38 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 IN4 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 48 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 IN5 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=3
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 IN6 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=4
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 IN7 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=5
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 IN9 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=15
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 A n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=9
+a 0 u 0 0 52 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 B n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=7
+a 0 u 0 0 52 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 C n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=6
+a 0 u 0 0 52 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 IN2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=13
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 IN8 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 D n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=14
+a 0 u 0 0 52 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 110 0 10 11
+r 0 10 0 50 110
+*symbol 40160 b
+d Synchronous programmable 4-bit counter (decade with asynchronous clear)
+@type p
+@attributes
+a 0 sp 11 0 38 150 hln 100 PART=
+a 0 sp 0 0 38 150 hln 100 MODEL=
+a 1 s 9 0 38 8 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %PE %TE %\CLR\ %\LOAD\ %P1 %P2 %P3 %P4 %Q1 %Q2 %Q3 %Q4 %CARRYOUT %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 32 150 hln 100 VSS n 20 150 v
+a 0 u 1 0 15 152 hcn 100 pin=8
+a 0 u 0 0 20 148 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 32 2 hln 100 VDD n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=16
+a 0 u 0 0 -50 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 PE n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=7
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 TE n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=10
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 P1 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=3
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 P2 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=4
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 P3 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=5
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 P4 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=6
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 24 136 hln 100 \CLR\ b 30 150 v
+a 0 u 1 0 25 152 hcn 100 pin=1
+a 0 u 0 0 26 148 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 112 hln 100 CLK c 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=2
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 122 hrn 100 CARRYOUT n 60 120 u
+a 0 u 1 0 55 118 hln 100 pin=15
+a 0 u 0 0 50 120 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 92 hrn 100 Q4 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=11
+a 0 u 0 0 50 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 72 hrn 100 Q3 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=12
+a 0 u 0 0 50 70 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q2 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=13
+a 0 u 0 0 50 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q1 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=14
+a 0 u 0 0 50 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 22 20 hln 100 \LOAD\ b 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=9
+a 0 u 0 0 24 8 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 30 11
+r 0 10 10 50 140
+*symbol 40161 b ako 40160
+d Synchronous programmable 4-bit counter (binary with asynchronous clear)
+@type p
+@attributes
+a 0 sp 11 0 38 150 hln 100 PART=
+a 0 sp 0 0 38 150 hln 100 MODEL=
+*symbol 40162 b ako 40160
+d Synchronous programmable 4-bit counter (decade with synchronous clear)
+@type p
+@attributes
+a 0 sp 11 0 38 150 hln 100 PART=
+a 0 sp 0 0 38 150 hln 100 MODEL=
+*symbol 40163 b ako 40160
+d Synchronous programmable 4-bit counter (binary with synchronous clear)
+@type p
+@attributes
+a 0 sp 11 0 38 150 hln 100 PART=
+a 0 sp 0 0 38 150 hln 100 MODEL=
+*symbol 40174 b
+d Hex D type flip-flop
+@type p
+@attributes
+a 0 sp 11 0 38 100 hln 100 PART=
+a 0 sp 0 0 38 100 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\CLR\ %CLK %D1 %D2 %D3 %D4 %D5 %D6 %Q1 %Q2 %Q3 %Q4 %Q5 %Q6 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 32 102 hln 100 VSS n 20 100 v
+a 0 u 1 0 15 102 hcn 100 pin=8
+a 0 u 0 0 20 100 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 D1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 D2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=4
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 D3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=6
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=11
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=13
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 D6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=14
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 CLK c 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=9
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 22 88 hln 100 \CLR\ b 30 100 v
+a 0 u 1 0 25 102 hcn 100 pin=1
+a 0 u 0 0 30 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 12 hrn 100 Q1 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=2
+a 0 u 0 0 50 14 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 Q2 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=5
+a 0 u 0 0 50 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q3 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=7
+a 0 u 0 0 50 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q4 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=10
+a 0 u 0 0 50 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q5 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=12
+a 0 u 0 0 50 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 Q6 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=15
+a 0 u 0 0 50 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 100 0 10 11
+r 0 10 0 50 90
+*symbol 40175 b
+d Quad D type flip-flop
+@type p
+@attributes
+a 0 sp 11 0 40 118 hln 100 PART=
+a 0 sp 0 0 40 118 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\CLR\ %CLK %D1 %D2 %D3 %D4 %Q1 %\Q1\ %Q2 %\Q2\ %Q3 %\Q3\ %Q4 %\Q4\ %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 2 13 12 hln 100 D1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 D2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=5
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=12
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 D4 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=13
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 CLK c 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 22 108 hln 100 \CLR\ b 30 120 v
+a 0 u 1 0 25 122 hcn 100 pin=1
+a 0 u 0 0 20 120 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 12 hrn 100 Q1 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=2
+a 0 u 0 0 50 14 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q2 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=8
+a 0 u 0 0 50 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q3 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=10
+a 0 u 0 0 50 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 72 hrn 100 Q4 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=15
+a 0 u 0 0 50 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 32 122 hln 100 VSS n 20 120 v
+a 0 u 1 0 15 122 hcn 100 pin=8
+a 0 u 0 0 20 120 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 22 hrn 100 \Q1\ b 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=3
+a 0 u 0 0 50 20 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 \Q2\ b 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=6
+a 0 u 0 0 50 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 \Q3\ b 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=11
+a 0 u 0 0 50 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 \Q4\ b 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=14
+a 0 u 0 0 50 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 120 0 10 11
+r 0 10 0 50 110
+*symbol 40192 b
+d Presettable up/down counter (dual clock with reset) - BCD
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=
+a 0 sp 0 0 40 130 hln 100 MODEL=
+a 1 s 9 0 40 8 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\PS_EN\ %RESET %CLKUP %CLKDOWN %J1 %J2 %J3 %J4 %Q1 %Q2 %Q3 %Q4 %\CARRY\ %\BORROW\ %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 32 132 hln 100 VSS n 20 130 v
+a 0 u 1 0 15 132 hcn 100 pin=8
+a 0 u 0 0 20 130 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 32 2 hln 100 VDD n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=16
+a 0 u 0 0 -50 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 18 20 hln 100 \PS_EN\ b 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=11
+a 0 u 0 0 30 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 32 hln 100 J1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=15
+a 0 u 0 0 28 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 J2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 J3 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=10
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 J4 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=9
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 CLKUP c 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=5
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 CLKDOWN c 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=4
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 16 116 hln 100 RESET n 30 130 v
+a 0 u 1 0 25 132 hcn 100 pin=16
+a 0 u 0 0 30 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q1 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=3
+a 0 u 0 0 48 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q2 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=2
+a 0 u 0 0 48 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q3 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=6
+a 0 u 0 0 48 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 92 hrn 100 \BORROW\ b 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=13
+a 0 u 0 0 28 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 102 hrn 100 \CARRY\ b 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=12
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 Q4 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=7
+a 0 u 0 0 48 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 130 0 30 11
+r 0 10 10 50 120
+*symbol 40193 b ako 40192
+d Presettable up/down counter (dual clock with reset) - binary
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=
+a 0 sp 0 0 40 130 hln 100 MODEL=
+*symbol 40208 b
+d 4-by-4 multiport register
+@type p
+@attributes
+a 0 sp 11 0 40 210 hln 100 PART=
+a 0 sp 0 0 40 210 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CLK %WENABLE %W0 %W1 %D0 %D1 %D2 %D3 %R0A %R1A %R0B %R1B %3STATE_A %3STATE_B %Q0A %Q1A %Q2A %Q3A %Q0B %Q1B %Q2B %Q3B %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 2 13 12 hln 80 3STATE_A n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 80 WENABLE n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=15
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 D0 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=20
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 D1 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=19
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 D2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=18
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 D3 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=17
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 W0 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 W1 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 152 hln 100 R0B n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=10
+a 0 u 0 0 0 150 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q0A n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=4
+a 0 u 0 0 44 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 42 hrn 100 Q1A n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=5
+a 0 u 0 0 44 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 Q2A n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=6
+a 0 u 0 0 44 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 82 hrn 100 Q0B n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=22
+a 0 u 0 0 44 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 102 hrn 100 Q2B n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=2
+a 0 u 0 0 44 100 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 112 hrn 100 Q3B n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=1
+a 0 u 0 0 44 110 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 182 hln 100 CLK c 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=16
+a 0 u 0 0 0 180 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 192 hln 80 3STATE_B n 0 190 h
+a 0 u 1 0 5 188 hrn 100 pin=21
+a 0 u 0 0 0 190 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 162 hln 100 R1B n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=11
+a 0 u 0 0 0 160 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 122 hln 100 R0A n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 132 hln 100 R1A n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 62 hrn 100 Q3A n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=7
+a 0 u 0 0 44 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 92 hrn 100 Q1B n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=23
+a 0 u 0 0 44 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 210 hln 100 VSS n 30 210 v
+a 0 u 1 0 25 212 hcn 100 pin=12
+a 0 u 0 0 30 208 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 200 0 10 11
+r 0 10 0 50 200
+*symbol 40257 b
+d Quad 2-line-to-1-line data selector/multiplexer
+@type p
+@attributes
+a 0 sp 11 0 38 130 hln 100 PART=
+a 0 sp 0 0 38 130 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A1 %B1 %A2 %B2 %A3 %B3 %A4 %B4 %OUTDISABLE %SELECT %D1 %D2 %D3 %D4 %VDD %VSS @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 42 -8 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 42 132 hln 100 VSS n 30 130 v
+a 0 u 1 0 25 132 hcn 100 pin=8
+a 0 u 0 0 30 130 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 80 OUTDISABLE n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=15
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 22 hln 100 SELECT n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 A1 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=2
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 B1 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 62 hln 100 A2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 72 hln 100 B2 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 82 hln 100 A3 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=11
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 92 hln 100 B3 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 102 hln 100 A4 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=14
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 112 hln 100 B4 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=13
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 42 hrn 100 D1 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=4
+a 0 u 0 0 60 40 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 62 hrn 100 D2 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=7
+a 0 u 0 0 60 60 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 82 hrn 100 D3 n 70 80 u
+a 0 u 1 0 65 78 hln 100 pin=9
+a 0 u 0 0 60 80 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 57 102 hrn 100 D4 n 70 100 u
+a 0 u 1 0 65 98 hln 100 pin=12
+a 0 u 0 0 60 100 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 70 120 0 10 11
+r 0 10 0 60 120
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60
+*symbol 4010AB b
+d Hex buffer/converter - non-inverting type
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %G %VDD %VSS%DPWR @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+a 0 u 0 0 0 0 hln 100 ipin(DPWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+@pins
+p 0 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 0 37 22 hrn 100 G n 50 20 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 45 18 hln 100 pin=2
+p 16 16 50 hln 100 VSS n 25 40 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 20 42 hcn 100 pin=8
+p 16 7 -10 hln 100 VDD n 16 -6 d
+a 0 u 0 0 -9 -6 hln 100 ERC=p
+a 0 u 0 0 -9 -6 hln 100 float=n
+a 0 u 0 0 21 -3 hcn 100 pin=16
+p 16 21 6 hln 100 DPWR n 34 6 d
+a 0 u 0 0 9 6 hln 100 ERC=p
+a 0 u 0 0 9 6 hln 100 float=n
+a 0 u 0 0 39 9 hcn 100 pin=1
+@graphics 50 40 0 20 11
+v 0 40 20
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 20
+;

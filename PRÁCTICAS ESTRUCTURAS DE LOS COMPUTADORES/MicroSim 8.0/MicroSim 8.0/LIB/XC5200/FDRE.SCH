@@ -1,0 +1,168 @@
+*version 6.3 2180792901
+u 162
+XC5200 2040643002
+U? 5
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 2583 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 163 IF_IN 160 290 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+port 164 IF_OUT 960 430 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q
+port 165 IF_IN 160 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=D
+port 166 IF_IN 160 310 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 167 IF_IN 160 470 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+@parts
+part 17 AND3B1 380 380 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U1
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 AND3B2 380 270 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 28 OR2 520 290 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 40 hlt 100 PART=OR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 33 FD 660 430 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U4
+a 0 sp 11 0 60 20 hcn 200 PART=FD
+a 0 u 13 13 20 140 hln 100 RLOC=R0C0
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 37
+s 600 300 630 300 34
+a 0 s 3 0 610 300 hln 100 LABEL=QD
+s 630 430 630 300 36
+s 630 430 660 430 35
+w 52
+s 160 400 380 400 51
+a 0 s 3 0 170 400 hln 100 LABEL=D
+w 63
+s 160 310 350 310 59
+a 0 s 3 0 170 310 hln 100 LABEL=CE
+s 350 310 380 310 60
+s 350 380 350 310 62
+s 350 380 380 380 61
+w 81
+s 160 470 660 470 80
+a 0 s 3 0 170 470 hln 100 LABEL=C
+w 89
+s 460 290 520 290 88
+a 0 s 3 0 490 290 hln 100 LABEL=A0
+w 105
+s 490 310 520 310 102
+a 0 s 3 0 490 310 hln 100 LABEL=A1
+s 490 400 490 310 104
+s 460 400 490 400 103
+w 125
+s 810 430 960 430 119
+a 0 s 3 0 940 430 hln 100 LABEL=Q
+s 810 430 810 250 123
+s 350 270 380 270 120
+s 350 270 350 250 121
+s 350 250 810 250 122
+s 780 430 810 430 124
+w 146
+s 160 290 330 290 142
+a 0 s 3 0 170 290 hln 100 LABEL=R
+s 330 290 380 290 143
+s 330 420 330 290 144
+s 330 420 380 420 145
+@junction
+j 600 300
++ p 28 O
++ w 37
+j 660 430
++ p 33 D
++ w 37
+j 380 400
++ p 17 I1
++ w 52
+j 350 310
++ w 63
++ w 63
+j 380 380
++ p 17 I2
++ w 63
+j 380 310
++ p 23 I0
++ w 63
+j 660 470
++ p 33 C
++ w 81
+j 460 290
++ p 23 O
++ w 89
+j 520 290
++ p 28 I1
++ w 89
+j 460 400
++ p 17 O
++ w 105
+j 520 310
++ p 28 I0
++ w 105
+j 810 430
++ w 125
++ w 125
+j 380 270
++ p 23 I2
++ w 125
+j 780 430
++ p 33 Q
++ w 125
+j 330 290
++ w 146
++ w 146
+j 380 420
++ p 17 I0
++ w 146
+j 380 290
++ p 23 I1
++ w 146
+j 160 290
++ s 163
++ w 146
+j 960 430
++ s 164
++ w 125
+j 160 400
++ s 165
++ w 52
+j 160 310
++ s 166
++ w 63
+j 160 470
++ s 167
++ w 81
+@attributes
+@text
+s 5 950 820 hln 100 A
+s 5 760 770 hln 100 D FLIP-FLOP WITH CLOCK ENABLE
+s 5 950 800 hln 100 1
+s 5 710 800 hln 100 15TH DECEMBER 1992
+s 5 760 780 hln 100 & SYNCHRONOUS RESET
+s 5 750 750 hln 100 XC5200 FAMILY FDRE MACRO
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS

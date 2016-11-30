@@ -1,0 +1,176 @@
+*version 6.3 163857858
+u 170
+XC3000 737345636
+U? 5
+@libraries
+XC3000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC3000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 2833 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 171 IF_IN 130 480 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 172 IF_IN 130 380 h
+a 0 s 3 0 10 8 hln 80 LABEL=D
+port 173 IF_IN 130 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=L
+port 174 IF_OUT 960 440 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q
+port 175 IF_IN 130 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=CLR
+port 176 IF_IN 130 330 h
+a 0 s 3 0 10 8 hln 80 LABEL=T
+port 177 IF_IN 130 450 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+@parts
+part 18 FDCE 640 440 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=FDCE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 OR2 310 430 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 40 hlt 100 PART=OR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 28 XOR2 310 310 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 40 hlt 100 PART=XOR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 34 M2_1 460 360 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U4
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 36
+s 130 450 310 450 35
+a 0 s 3 0 140 450 hln 100 LABEL=CE
+w 47
+s 130 400 210 400 43
+a 0 s 3 0 140 400 hln 100 LABEL=L
+s 210 430 210 400 44
+s 210 430 310 430 45
+s 210 400 460 400 46
+w 66
+s 390 440 590 440 63
+a 0 s 3 0 400 440 hln 100 LABEL=L_CE
+s 590 460 590 440 65
+s 590 460 640 460 64
+w 81
+s 130 480 640 480 80
+a 0 s 3 0 140 480 hln 100 LABEL=C
+w 89
+s 130 380 460 380 88
+a 0 s 3 0 140 380 hln 100 LABEL=D
+w 99
+s 390 320 440 320 96
+a 0 s 3 0 410 320 hln 100 LABEL=TQ
+s 440 360 440 320 98
+s 440 360 460 360 97
+w 119
+s 790 440 960 440 113
+a 0 s 3 0 940 440 hln 100 LABEL=Q
+s 790 440 790 280 117
+s 290 280 790 280 114
+s 290 310 290 280 116
+s 290 310 310 310 115
+s 760 440 790 440 118
+w 140
+s 560 370 610 370 137
+a 0 s 3 0 590 370 hln 100 LABEL=MD
+s 610 440 610 370 139
+s 610 440 640 440 138
+w 155
+s 130 510 640 510 154
+a 0 s 3 0 140 510 hln 100 LABEL=CLR
+w 163
+s 130 330 310 330 162
+a 0 s 3 0 140 330 hln 100 LABEL=T
+@junction
+j 310 450
++ p 23 I0
++ w 36
+j 210 400
++ w 47
++ w 47
+j 310 430
++ p 23 I1
++ w 47
+j 460 400
++ p 34 S0
++ w 47
+j 640 460
++ p 18 CE
++ w 66
+j 390 440
++ p 23 O
++ w 66
+j 640 480
++ p 18 C
++ w 81
+j 460 380
++ p 34 D1
++ w 89
+j 390 320
++ p 28 O
++ w 99
+j 460 360
++ p 34 D0
++ w 99
+j 790 440
++ w 119
++ w 119
+j 760 440
++ p 18 Q
++ w 119
+j 310 310
++ p 28 I1
++ w 119
+j 640 440
++ p 18 D
++ w 140
+j 560 370
++ p 34 O
++ w 140
+j 640 510
++ p 18 CLR
++ w 155
+j 310 330
++ p 28 I0
++ w 163
+j 130 480
++ s 171
++ w 81
+j 130 380
++ s 172
++ w 89
+j 130 400
++ s 173
++ w 47
+j 960 440
++ s 174
++ w 119
+j 130 510
++ s 175
++ w 155
+j 130 330
++ s 176
++ w 163
+j 130 450
++ s 177
++ w 36
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 710 800 hln 100 15TH DECEMBER 1992
+s 5 750 770 hln 100 TOGGLE/LOADABLE FLIP-FLOP WITH
+s 5 750 750 hln 100 XC3000 FAMILY FTCLE MACRO
+s 5 670 780 hln 100 TOGGLE ENABLE,CLOCK ENABLE AND ASYNC CLR

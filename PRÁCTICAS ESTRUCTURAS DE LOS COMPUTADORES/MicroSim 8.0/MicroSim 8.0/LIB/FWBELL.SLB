@@ -1,0 +1,261 @@
+*version 7.2 366702986
+@index
+symloc BH200MAX/FWB:200/FWB 0 212
+symloc BH200MIN/FWB:200/FWB 212 212
+symloc BH200/FWB:200/FWB 424 203
+symloc BH203MAX/FWB:200/FWB 627 208
+symloc BH203MIN/FWB:200/FWB 835 208
+symloc BH203/FWB:200/FWB 1043 199
+symloc BH208MAX/FWB:200/FWB 1242 197
+symloc BH208MIN/FWB:200/FWB 1439 197
+symloc BH208/FWB:200/FWB 1636 188
+symloc BH700MAX/FWB:200/FWB 1824 224
+symloc BH700MIN/FWB:200/FWB 2048 224
+symloc BH700/FWB:200/FWB 2272 215
+symloc BH705MAX/FWB:200/FWB 2487 214
+symloc BH705MIN/FWB:200/FWB 2701 214
+symloc BH705/FWB:200/FWB 2915 205
+symloc BHA910MAX/FWB:200/FWB 3120 178
+symloc BHA910MIN/FWB:200/FWB 3298 178
+symloc BHA910/FWB:200/FWB 3476 169
+symloc BHT910MAX/FWB:200/FWB 3645 178
+symloc BHT910MIN/FWB:200/FWB 3823 178
+symloc BHT910/FWB:200/FWB 4001 169
+symloc FH301MAX/FWB:200/FWB 4170 183
+symloc FH301MIN/FWB:200/FWB 4353 183
+symloc FH301/FWB:200/FWB 4536 174
+symloc FH540MAX/FWB:200/FWB 4710 183
+symloc FH540MIN/FWB:200/FWB 4893 183
+symloc FH540/FWB:200/FWB 5076 174
+symloc GH600MAX/FWB:200/FWB 5250 188
+symloc GH600MIN/FWB:200/FWB 5438 188
+symloc GH600/FWB:200/FWB 5626 179
+symloc 200/FWB 5805 867 b
+symloc copyright 6672 575 b
+*symbol BH200MAX/FWB ako 200/FWB
+d General Purpose Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH200MAX/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH200MAX/FWB
+*symbol BH200MIN/FWB ako 200/FWB
+d General Purpose Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH200MIN/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH200MIN/FWB
+*symbol BH200/FWB ako 200/FWB
+d General Purpose Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH200/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH200/FWB
+*symbol BH203MAX/FWB ako 200/FWB
+d Ultra-thin, Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH203MAX/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH203MAX/FWB
+*symbol BH203MIN/FWB ako 200/FWB
+d Ultra-thin, Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH203MIN/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH203MIN/FWB
+*symbol BH203/FWB ako 200/FWB
+d Ultra-thin, Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH203/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH203/FWB
+*symbol BH208MAX/FWB ako 200/FWB
+d Small Axial Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH208MAX/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH208MAX/FWB
+*symbol BH208MIN/FWB ako 200/FWB
+d Small Axial Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH208MIN/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH208MIN/FWB
+*symbol BH208/FWB ako 200/FWB
+d Small Axial Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH208/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH208/FWB
+*symbol BH700MAX/FWB ako 200/FWB
+d Low Cost, General Purppose, Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH700MAX/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH700MAX/FWB
+*symbol BH700MIN/FWB ako 200/FWB
+d Low Cost, General Purppose, Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH700MIN/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH700MIN/FWB
+*symbol BH700/FWB ako 200/FWB
+d Low Cost, General Purppose, Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH700/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH700/FWB
+*symbol BH705MAX/FWB ako 200/FWB
+d General Purppose, Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH705MAX/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH705MAX/FWB
+*symbol BH705MIN/FWB ako 200/FWB
+d General Purppose, Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH705MIN/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH705MIN/FWB
+*symbol BH705/FWB ako 200/FWB
+d General Purppose, Transverse Magnetic Field Component Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BH705/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BH705/FWB
+*symbol BHA910MAX/FWB ako 200/FWB
+d High Linearity Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BHA910MAX/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BHA910MAX/FWB
+*symbol BHA910MIN/FWB ako 200/FWB
+d High Linearity Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BHA910MIN/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BHA910MIN/FWB
+*symbol BHA910/FWB ako 200/FWB
+d High Linearity Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BHA910/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BHA910/FWB
+*symbol BHT910MAX/FWB ako 200/FWB
+d High Linearity Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BHT910MAX/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BHT910MAX/FWB
+*symbol BHT910MIN/FWB ako 200/FWB
+d High Linearity Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BHT910MIN/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BHT910MIN/FWB
+*symbol BHT910/FWB ako 200/FWB
+d High Linearity Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=BHT910/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=BHT910/FWB
+*symbol FH301MAX/FWB ako 200/FWB
+d Miniature, Low Current Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=FH301MAX/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=FH301MAX/FWB
+*symbol FH301MIN/FWB ako 200/FWB
+d Miniature, Low Current Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=FH301MIN/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=FH301MIN/FWB
+*symbol FH301/FWB ako 200/FWB
+d Miniature, Low Current Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=FH301/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=FH301/FWB
+*symbol FH540MAX/FWB ako 200/FWB
+d Miniature, Low Current Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=FH540MAX/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=FH540MAX/FWB
+*symbol FH540MIN/FWB ako 200/FWB
+d Miniature, Low Current Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=FH540MIN/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=FH540MIN/FWB
+*symbol FH540/FWB ako 200/FWB
+d Miniature, Low Current Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=FH540/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=FH540/FWB
+*symbol GH600MAX/FWB ako 200/FWB
+d Miniature, High Sensitivity Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=GH600MAX/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=GH600MAX/FWB
+*symbol GH600MIN/FWB ako 200/FWB
+d Miniature, High Sensitivity Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=GH600MIN/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=GH600MIN/FWB
+*symbol GH600/FWB ako 200/FWB
+d Miniature, High Sensitivity Hall Effect Sensor
+@type p
+@attributes
+a 0 sp 11 0 84 78 hln 100 PART=GH600/FWB
+a 0 sp 0 0 0 0 hln 100 MODEL=GH600/FWB
+*symbol 200/FWB b
+d Hall Effect Magnetic Field Sensor
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 84 78 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+IC %-IC %+VH %-VH %+B %-B @MODEL
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+@pins
+p 2 13 32 hln 100 +B n 0 30 h
+a 0 u 1 0 1 28 hln 100 pin=
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 52 hln 100 -B n 0 50 h
+a 0 u 1 0 1 50 hln 100 pin=
+a 0 u 0 0 0 52 hln 100 ERC=x
+p 2 67 32 hrn 100 +VH n 80 30 u
+a 0 u 1 0 83 30 hln 100 pin=
+a 0 u 0 0 82 32 hln 100 ERC=x
+p 2 67 52 hrn 100 -VH n 80 50 u
+a 0 u 1 0 83 52 hln 100 pin=
+a 0 u 0 0 82 54 hln 100 ERC=x
+p 2 34 20 hln 100 +IC n 40 0 d
+a 0 u 1 0 42 -1 hln 100 pin=
+a 0 u 0 0 44 0 hln 100 ERC=x
+p 2 34 66 hln 100 -IC n 40 80 v
+a 0 u 1 0 42 79 hln 100 pin=
+a 0 u 0 0 44 80 hln 100 ERC=x
+@graphics 80 80 0 30 10
+r 0 10 10 70 70
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

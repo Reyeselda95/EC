@@ -1,0 +1,187 @@
+*version 6.3 1147160888
+u 128
+XC4000 2392782539
+U? 9
+@libraries
+XC4000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 2840 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 129 IF_IN 340 270 h
+a 0 s 3 0 10 8 hln 50 LABEL=O[7:0]
+@parts
+part 14 OPAD 650 520 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U1
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 15 OPAD 650 490 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U2
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 16 OPAD 650 460 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U3
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 17 OPAD 650 430 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U4
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 18 OPAD 650 400 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U5
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 19 OPAD 650 370 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U6
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 20 OPAD 650 340 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U7
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 21 OPAD 650 310 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U8
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+@conn
+b 31
+s 340 270 450 270 22
+a 0 s 3 0 340 260 hln 100 LABEL=O[7:0]
+s 450 310 450 270 23
+s 450 340 450 310 24
+s 450 370 450 340 25
+s 450 400 450 370 26
+s 450 430 450 400 27
+s 450 460 450 430 28
+s 450 490 450 460 29
+s 450 520 450 490 30
+w 33
+s 450 310 650 310 32
+a 0 s 3 0 460 310 hln 100 LABEL=O[0]
+s 450 310 450 310 34
+w 42
+s 450 340 650 340 41
+a 0 s 3 0 460 340 hln 100 LABEL=O[1]
+s 450 340 450 340 43
+w 51
+s 450 370 650 370 50
+a 0 s 3 0 460 370 hln 100 LABEL=O[2]
+s 450 370 450 370 52
+w 60
+s 450 400 650 400 59
+a 0 s 3 0 460 400 hln 100 LABEL=O[3]
+s 450 400 450 400 61
+w 69
+s 450 430 650 430 68
+a 0 s 3 0 460 430 hln 100 LABEL=O[4]
+s 450 430 450 430 70
+w 78
+s 450 460 650 460 77
+a 0 s 3 0 460 460 hln 100 LABEL=O[5]
+s 450 460 450 460 79
+w 87
+s 450 490 650 490 86
+a 0 s 3 0 460 490 hln 100 LABEL=O[6]
+s 450 490 450 490 88
+w 96
+s 450 520 650 520 95
+a 0 s 3 0 460 520 hln 100 LABEL=O[7]
+s 450 520 450 520 97
+@junction
+j 650 310
++ p 21 OPAD
++ w 33
+j 650 340
++ p 20 OPAD
++ w 42
+j 650 370
++ p 19 OPAD
++ w 51
+j 650 400
++ p 18 OPAD
++ w 60
+j 650 430
++ p 17 OPAD
++ w 69
+j 650 460
++ p 16 OPAD
++ w 78
+j 650 490
++ p 15 OPAD
++ w 87
+j 650 520
++ p 14 OPAD
++ w 96
+j 450 310
++ b 31
+O[0]
++ w 33
+j 450 340
++ b 31
+O[1]
++ w 42
+j 450 370
++ b 31
+O[2]
++ w 51
+j 450 400
++ b 31
+O[3]
++ w 60
+j 450 430
++ b 31
+O[4]
++ w 69
+j 450 460
++ b 31
+O[5]
++ w 78
+j 450 490
++ b 31
+O[6]
++ w 87
+j 450 520
++ b 31
+O[7]
++ w 96
+j 340 270
++ S 129
+O[7]
+O[6]
+O[5]
+O[4]
+O[3]
+O[2]
+O[1]
+O[0]
++ b 31
+O[7]
+O[6]
+O[5]
+O[4]
+O[3]
+O[2]
+O[1]
+O[0]
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 960 800 hrn 100 1
+s 5 950 820 hln 100 A
+s 5 1000 750 hrn 100 XC4000 FAMILY OPAD8 MACRO
+s 5 900 770 hrn 100 8-BIT INPUT PAD
+s 5 850 800 hrn 100 1ST MARCH 1993

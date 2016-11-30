@@ -1,0 +1,204 @@
+*version 6.3 534345824
+u 192
+XC4000 2395239277
+U? 5
+@libraries
+XC4000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3033 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 193 IF_IN 210 460 h
+a 0 s 3 0 10 8 hln 80 LABEL=A
+port 194 IF_IN 210 480 h
+a 0 s 3 0 10 8 hln 80 LABEL=B
+port 195 IF_OUT 850 480 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y3
+port 196 IF_OUT 850 420 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y2
+port 197 IF_OUT 850 360 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y1
+port 198 IF_OUT 850 300 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y0
+port 199 IF_IN 210 500 h
+a 0 s 3 0 10 8 hln 80 LABEL=G
+@parts
+part 17 NAND3B1 550 460 h
+a 0 sp 9 0 20 60 hrn 100 REFDES=U1
+a 0 sp 11 0 10 60 hlt 100 PART=NAND3B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 NAND3B2 550 400 h
+a 0 sp 9 0 20 60 hrn 100 REFDES=U2
+a 0 sp 11 0 10 60 hlt 100 PART=NAND3B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 24 NAND3B2 550 340 h
+a 0 sp 9 0 20 60 hrn 100 REFDES=U3
+a 0 sp 11 0 10 60 hlt 100 PART=NAND3B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 30 NAND3B3 550 280 h
+a 0 sp 9 0 20 60 hrn 100 REFDES=U4
+a 0 sp 11 0 10 60 hlt 100 PART=NAND3B3
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 39
+s 210 500 490 500 31
+a 0 s 3 0 220 500 hln 100 LABEL=G
+s 490 500 550 500 32
+s 490 500 490 440 33
+s 490 440 550 440 34
+s 490 440 490 380 35
+s 490 380 550 380 36
+s 490 380 490 320 37
+s 490 320 550 320 38
+w 81
+s 210 480 450 480 73
+a 0 s 3 0 220 480 hln 100 LABEL=B
+s 450 480 550 480 74
+s 450 480 450 400 75
+s 450 400 450 360 76
+s 450 360 450 280 77
+s 450 280 550 280 78
+s 450 360 550 360 79
+s 450 400 550 400 80
+w 123
+s 210 460 410 460 115
+a 0 s 3 0 220 460 hln 100 LABEL=A
+s 410 460 410 420 121
+s 410 420 550 420 116
+s 410 420 410 340 120
+s 410 340 550 340 117
+s 410 340 410 300 119
+s 410 300 550 300 118
+s 410 460 550 460 122
+w 161
+s 630 480 850 480 160
+a 0 s 3 0 820 480 hln 100 LABEL=Y3
+w 169
+s 630 420 850 420 168
+a 0 s 3 0 820 420 hln 100 LABEL=Y2
+w 177
+s 630 360 850 360 176
+a 0 s 3 0 820 360 hln 100 LABEL=Y1
+w 185
+s 630 300 850 300 184
+a 0 s 3 0 820 300 hln 100 LABEL=Y0
+@junction
+j 490 500
++ w 39
++ w 39
+j 490 440
++ w 39
++ w 39
+j 490 380
++ w 39
++ w 39
+j 550 500
++ p 17 I0
++ w 39
+j 550 440
++ p 23 I0
++ w 39
+j 550 380
++ p 24 I0
++ w 39
+j 550 320
++ p 30 I0
++ w 39
+j 450 480
++ w 81
++ w 81
+j 450 400
++ w 81
++ w 81
+j 450 360
++ w 81
++ w 81
+j 550 480
++ p 17 I1
++ w 81
+j 550 400
++ p 23 I2
++ w 81
+j 550 360
++ p 24 I1
++ w 81
+j 550 280
++ p 30 I2
++ w 81
+j 410 460
++ w 123
++ w 123
+j 410 420
++ w 123
++ w 123
+j 410 340
++ w 123
++ w 123
+j 550 460
++ p 17 I2
++ w 123
+j 550 420
++ p 23 I1
++ w 123
+j 550 340
++ p 24 I2
++ w 123
+j 550 300
++ p 30 I1
++ w 123
+j 630 480
++ p 17 O
++ w 161
+j 630 420
++ p 23 O
++ w 169
+j 630 360
++ p 24 O
++ w 177
+j 630 300
++ p 30 O
++ w 185
+j 210 460
++ s 193
++ w 123
+j 210 480
++ s 194
++ w 81
+j 850 480
++ s 195
++ w 161
+j 850 420
++ s 196
++ w 169
+j 850 360
++ s 197
++ w 177
+j 850 300
++ s 198
++ w 185
+j 210 500
++ s 199
++ w 39
+@attributes
+@text
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A
+s 5 750 750 hln 100 XC4000 FAMILY X74_139 MACRO
+s 5 750 770 hln 100 2-LINE TO 4-LINE DECODER/DEMUX
+s 5 660 780 hln 100 W/ ACTIVE LOW OUTPUTS & ACTIVE LOW ENABLE
+s 5 710 800 hln 100 1ST MARCH 1993
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS

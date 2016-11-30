@@ -1,0 +1,1248 @@
+*version 8.0 983551417
+@index
+symloc LIN_STG 0 744
+symloc TT_STG 744 931
+symloc AM_STG 1675 971
+symloc KHNLP 2646 872
+symloc KHNHP 3518 874
+symloc KHNBP 4392 874
+symloc SKKRCLP 5266 824
+symloc SKKRCHP 6090 817
+symloc MLFLP 6907 787
+symloc MLFAP 7694 818
+symloc MLFHP 8512 787
+symloc MLFBP 9299 786
+symloc DF 10085 835
+symloc MLFBQ 10920 948
+symloc LOQTSTG 11868 1028
+symloc HIQTSTG 12896 1026
+symloc LOQAPT 13922 1032
+symloc HIQAPT 14954 1025
+symloc LINT 15979 884
+symloc LINHPT 16863 865
+symloc LINS 17728 864
+symloc LINHPS 18592 847
+symloc LOQS 19439 992
+symloc HIQS 20431 993
+symloc LOQAPS 21424 1006
+symloc HIQAPS 22430 1004
+symloc LC1_BR 23434 570
+symloc LC2_BR 24004 564
+symloc LC3_BR 24568 589
+symloc LC4_BR 25157 592
+symloc LC5_BR 25749 658
+symloc LC6_BR 26407 664
+symloc LC7_BR 27071 662
+symloc EAMP 27733 617
+symloc FOFFPAGE 28350 226
+symloc SWPAIR 28576 851
+symloc SWPAIRB 29427 852
+symloc ISWPAIR 30279 837
+symloc ISWPAIRB 31116 839
+symloc copyright 31955 575 b
+*symbol LIN_STG
+d First Order LC Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 10 50 hln 100 PART=HLIN_STG
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 40 hlb 100 R2VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlinstg.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 28 10 hcn 100 0 n 30 -10 d
+a 0 u 13 0 35 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol TT_STG
+d Tow-Thomas Biquad Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 12 50 hln 100 PART=HTT_STG
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 40 hlb 100 R2VAL=1
+a 0 u 0 0 0 50 hlb 100 R3VAL=1
+a 0 u 0 0 0 60 hlb 100 R4VAL=1
+a 0 u 0 0 0 70 hlb 100 R5VAL=1
+a 0 u 0 0 0 80 hlb 100 R6VAL=1
+a 0 u 0 0 0 90 hlb 100 R7VAL=1
+a 0 u 0 0 0 100 hlb 100 R8VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=htt_stg.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 8 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol AM_STG
+d Akerberg-Mossberg Biquad Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 10 52 hln 100 PART=HAM_STG
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hln 100 C1VAL=1
+a 0 u 0 0 0 20 hln 100 C2VAL=1
+a 0 u 0 0 0 30 hln 100 C3VAL=1
+a 0 u 0 0 0 40 hln 100 R1VAL=1
+a 0 u 0 0 0 50 hln 100 R2VAL=1
+a 0 u 0 0 0 60 hln 100 R3VAL=1
+a 0 u 0 0 0 70 hln 100 R4VAL=1
+a 0 u 0 0 0 80 hln 100 R5VAL=1
+a 0 u 0 0 0 90 hln 100 R6VAL=1
+a 0 u 0 0 0 100 hln 100 R7VAL=1
+a 0 u 0 0 0 110 hln 100 R8VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=dam_stg.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol KHNLP
+d KHN Biquad Stage-Low Pass Case
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 14 50 hln 100 PART=KHNLP
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 40 hlb 100 R2VAL=1
+a 0 u 0 0 0 50 hlb 100 R3VAL=1
+a 0 u 0 0 0 60 hlb 100 R4VAL=1
+a 0 u 0 0 0 70 hlb 100 R5VAL=1
+a 0 u 0 0 0 80 hlb 100 R6VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hkhnlp.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 12 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol KHNHP
+d KHN Biquad Stage-High Pass Case
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 10 52 hln 100 PART=HKHNHP
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 20 hlb 100 C1VAL=1
+a 0 u 0 0 0 30 hlb 100 C2VAL=1
+a 0 u 0 0 0 40 hlb 100 R1VAL=1
+a 0 u 0 0 0 50 hlb 100 R2VAL=1
+a 0 u 0 0 0 60 hlb 100 R3VAL=1
+a 0 u 0 0 0 70 hlb 100 R4VAL=1
+a 0 u 0 0 0 80 hlb 100 R5VAL=1
+a 0 u 0 0 0 90 hlb 100 R6VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hkhnhp.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 12 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 12 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol KHNBP
+d KHN Biquad Stage-Band Pass Case
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 12 52 hln 100 PART=HKHNBP
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 50 hlb 100 R2VAL=1
+a 0 u 0 0 0 60 hlb 100 R3VAL=1
+a 0 u 0 0 0 70 hlb 100 R4VAL=1
+a 0 u 0 0 0 80 hlb 100 R5VAL=1
+a 0 u 0 0 0 90 hlb 100 R6VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hkhnbp.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol SKKRCLP
+d Low Pass Sallen-Key KRC Biquad Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 6 52 hln 100 PART=HSKKRCLP
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 40 hlb 100 R2VAL=1
+a 0 u 0 0 0 50 hlb 100 R3VAL=1
+a 0 u 0 0 0 60 hlb 100 R4VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hskkrclp.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol SKKRCHP
+d HP Sallen-Key KRC Biquad Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 6 50 hln 100 PART=HSKKRCHP
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 50 hlb 100 R2VAL=1
+a 0 u 0 0 0 60 hlb 100 R3VAL=1
+a 0 u 0 0 0 70 hlb 100 R4VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hskkrchp.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 8 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol MLFLP
+d LP Multi-Loop Feedback Biquad Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 12 50 hln 100 PART=HMLFLP
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 50 hlb 100 R2VAL=1
+a 0 u 0 0 0 60 hlb 100 R3VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hmlflp.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol MLFAP
+d AP Multi-Loop Feedback Biquad Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 12 52 hln 100 PART=HMLFAP
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 40 hlb 100 R2VAL=1
+a 0 u 0 0 0 50 hlb 100 R3VAL=1
+a 0 u 0 0 0 60 hlb 100 R4VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hmlfap.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 2 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol MLFHP
+d HP Multi-Loop Feedback Biquad Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 10 50 hln 100 PART=HMLFHP
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 C3VAL=1
+a 0 u 0 0 0 40 hlb 100 R1VAL=1
+a 0 u 0 0 0 50 hlb 100 R2VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hmlfhp.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol MLFBP
+d BP Multi-Loop Feedback Biquad Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 12 50 hln 100 PART=HMLFBP
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 40 hlb 100 R2VAL=1
+a 0 u 0 0 0 50 hlb 100 R3VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hmlfbp.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 8 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol DF
+d Deliyannis-Friend Biquad Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 20 50 hln 100 PART=HDF
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 40 hlb 100 R2VAL=1
+a 0 u 0 0 0 50 hlb 100 R3VAL=1
+a 0 u 0 0 0 60 hlb 100 R4VAL=1
+a 0 u 0 0 0 70 hlb 100 R5VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hdf.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol MLFBQ
+d General Multi-Loop Feedback Biquad Stage
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 12 50 hln 100 PART=HMLFBQ
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 R1VAL=1
+a 0 u 0 0 0 40 hlb 100 R2VAL=1
+a 0 u 0 0 0 50 hlb 100 R3VAL=1
+a 0 u 0 0 0 60 hlb 100 R4VAL=1
+a 0 u 0 0 0 70 hlb 100 R5VAL=1
+a 0 u 0 0 0 80 hlb 100 R6VAL=1
+a 0 u 0 0 0 90 hlb 100 R7VAL=1
+a 0 u 0 0 0 100 hlb 100 R8VAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hmlfbq.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol LOQTSTG
+d LO Q BIQUAD SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=LOQTSTG
+a 0 sp 0 0 0 0 hln 100 MODEL=LOQT/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %CLK[0] %CLK[1] %CLK[2] %CLK[3] %CLK[4] %CLK[5] %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1P
+a 0 u 0 0 0 20 hlb 100 C2VAL=1P
+a 0 u 0 0 0 30 hlb 100 C3VAL=1P
+a 0 u 0 0 0 40 hlb 100 C4VAL=1P
+a 0 u 0 0 0 50 hlb 100 C5VAL=1P
+a 0 u 0 0 0 60 hlb 100 C6VAL=1P
+a 0 u 0 0 0 70 hlb 100 CaVAL=10P
+a 0 u 0 0 0 80 hlb 100 CbVAL=10P
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=loqtstg.sch
+@pins
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 13 32 hln 100 CLK[0-5] n 0 30 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 8 12 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 80 40 0 10 10
+r 0 10 0 60 40
+*symbol HIQTSTG
+d HI Q BIQUAD SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=HIQT/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %CLK[0] %CLK[1] %CLK[2] %CLK[3] %CLK[4] %CLK[5] %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1P
+a 0 u 0 0 0 20 hlb 100 C2VAL=1P
+a 0 u 0 0 0 30 hlb 100 C3VAL=1P
+a 0 u 0 0 0 40 hlb 100 C4VAL=1P
+a 0 u 0 0 0 50 hlb 100 C5VAL=1P
+a 0 u 0 0 0 60 hlb 100 C6VAL=1P
+a 0 u 0 0 0 70 hlb 100 CaVAL=10P
+a 0 u 0 0 0 80 hlb 100 CbVAL=10P
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hhiqtstg.sch
+@pins
+p 2 13 32 hln 100 CLK[0-5] n 0 30 h
+a 0 u 0 0 -2 22 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 2 -10 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 14 14 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol LOQAPT
+d LO Q ALL PASS BIQUAD SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LOQAPT/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %CLK[0] %CLK[1] %CLK[2] %CLK[3] %CLK[4] %CLK[5] %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1P
+a 0 u 0 0 0 20 hlb 100 C2VAL=1P
+a 0 u 0 0 0 30 hlb 100 C3VAL=1P
+a 0 u 0 0 0 40 hlb 100 C4VAL=1P
+a 0 u 0 0 0 50 hlb 100 C5VAL=1P
+a 0 u 0 0 0 60 hlb 100 C6VAL=1P
+a 0 u 0 0 0 70 hlb 100 CaVAL=10P
+a 0 u 0 0 0 80 hlb 100 CbVAL=10P
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hloqapt.sch
+@pins
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 13 32 hln 100 CLK[0-5] n 0 30 h
+a 0 u 0 0 -2 10 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 8 12 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol HIQAPT
+d HI Q ALL-PASS SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 14 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=HIQAPT/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %CLK[0] %CLK[1] %CLK[2] %CLK[3] %CLK[4] %CLK[5] %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1P
+a 0 u 0 0 0 20 hlb 100 C2VAL=1P
+a 0 u 0 0 0 30 hlb 100 C3VAL=1P
+a 0 u 0 0 0 40 hlb 100 C4VAL=1P
+a 0 u 0 0 0 50 hlb 100 C5VAL=1P
+a 0 u 0 0 0 60 hlb 100 C6VAL=1P
+a 0 u 0 0 0 70 hlb 100 CaVAL=10P
+a 0 u 0 0 0 80 hlb 100 CbVAL=10P
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hhiqapt.sch
+@pins
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 13 32 hln 100 CLK[0-5] n 0 30 h
+a 0 u 0 0 0 12 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 10 10 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol LINT
+d FIRST ORDER LF SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 14 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LINT/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %CP[0] %CP[1] %CP[2] %CP[3] %CP[4] %CP[5] %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1P
+a 0 u 0 0 0 20 hlb 100 C2VAL=1P
+a 0 u 0 0 0 30 hlb 100 C3VAL=1P
+a 0 u 0 0 0 40 hlb 100 CaVAL=10P
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlint.sch
+@pins
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 13 32 hln 100 CP[0-5] n 0 30 h
+a 0 u 0 0 0 12 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 10 10 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol LINHPT
+d FIRST ORDER HP SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 14 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LINHPT/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %OUT %CLK[0] %CLK[1] %CLK[2] %CLK[3] %CLK[4] %CLK[5] %IN %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1P
+a 0 u 0 0 0 20 hlb 100 C2VAL=1P
+a 0 u 0 0 0 30 hlb 100 CaVAL=10P
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlinhpt.sch
+@pins
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 13 32 hln 100 CLK[0-5] n 0 30 h
+a 0 u 0 0 2 10 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 12 10 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol LINS
+d FIRST ORDER LPSCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 14 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LINS/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %CP[0] %CP[1] %CP[2] %CP[3] %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 C3VAL=1
+a 0 u 0 0 0 40 hlb 100 CaVAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlins.sch
+@pins
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 13 32 hln 100 CP[0-3] n 0 30 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 10 10 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol LINHPS
+d FIRST ORDER HP SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 14 -4 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LINHPS/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %OUT %CLK[0] %CLK[1] %CLK[2] %CLK[3] %IN %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 CaVAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlinhps.sch
+@pins
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 74 32 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 2 13 32 hln 100 CLK[0-3] n 0 30 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 58 20 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol LOQS
+d LO Q BIQUAD SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 14 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LOQS/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %CLK[0] %CLK[1] %CLK[2] %CLK[3] %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 C3VAL=1
+a 0 u 0 0 0 40 hlb 100 C4VAL=1
+a 0 u 0 0 0 50 hlb 100 C5VAL=1
+a 0 u 0 0 0 60 hlb 100 C6VAL=1
+a 0 u 0 0 0 70 hlb 100 CaVAL=1
+a 0 u 0 0 0 80 hlb 100 CbVAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hloqs.sch
+@pins
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 13 32 hln 100 CLK[0-3] n 0 30 h
+a 0 u 0 0 -2 10 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 10 10 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol HIQS
+d HI Q BIQUAD SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 14 -4 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=HIQS/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %CLK[0] %CLK[1] %CLK[2] %CLK[3] %IN %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 C3VAL=1
+a 0 u 0 0 0 40 hlb 100 C4VAL=1
+a 0 u 0 0 0 50 hlb 100 C5VAL=1
+a 0 u 0 0 0 60 hlb 100 C6VAL=1
+a 0 u 0 0 0 70 hlb 100 CaVAL=1
+a 0 u 0 0 0 80 hlb 100 CbVAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hhiqs.sch
+@pins
+p 2 13 32 hln 100 CLK[0-3] n 0 30 h
+a 0 u 0 0 0 22 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 0 -10 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 10 10 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol LOQAPS
+d LO Q ALL PASS BIQUAD SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 14 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LOQAPS/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %CLK[0] %CLK[1] %CLK[2] %CLK[3] %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 C3VAL=1
+a 0 u 0 0 0 40 hlb 100 C4VAL=1
+a 0 u 0 0 0 50 hlb 100 C5VAL=1
+a 0 u 0 0 0 60 hlb 100 C6VAL=1
+a 0 u 0 0 0 70 hlb 100 CaVAL=1
+a 0 u 0 0 0 80 hlb 100 CbVAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hloqaps.sch
+@pins
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 13 32 hln 100 CLK[0-3] n 0 30 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 12 10 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol HIQAPS
+d HI Q ALL PASS BIQUAD SCF STAGE
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=HIQAPS/STG
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %CLK[0] %CLK[1] %CLK[2] %CLK[3] %OUT %0 @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 C3VAL=1
+a 0 u 0 0 0 40 hlb 100 C4VAL=1
+a 0 u 0 0 0 50 hlb 100 C5VAL=1
+a 0 u 0 0 0 60 hlb 100 C6VAL=1
+a 0 u 0 0 0 70 hlb 100 CaVAL=1
+a 0 u 0 0 0 80 hlb 100 CbVAL=1
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hhiqaps.sch
+@pins
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 13 0 5 8 hrn 100 pin=1
+p 2 13 32 hln 100 CLK[0-3] n 0 30 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 28 hrn 100 pin=2
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 10 10 hln 100 ERC=x
+a 0 u 13 0 65 18 hln 100 pin=3
+p 0 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 25 -7 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol LC1_BR
+d Simple Capacitor ladder
+@type p
+@attributes
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 14 50 hln 100 PART=HLC1_BR
+a 0 sp 0 0 0 0 hln 100 MODEL=HLC1_BR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 RSCALE=50
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlc1_br.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 -2 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol LC2_BR
+d LC LADDER - SIMPLE INDUCTOR
+@type p
+@attributes
+a 0 s 9 0 16 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LC2/BR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT @model
+a 0 u 0 0 0 10 hlb 100 L1VAL=1
+a 0 u 0 0 0 20 hlb 100 RSCALE=50
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlc2_br.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol LC3_BR
+d Series C & L
+@type p
+@attributes
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 14 50 hln 100 PART=HLC3_BR
+a 0 sp 0 0 0 0 hln 100 MODEL=HLC3_BR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 L1VAL=1
+a 0 u 0 0 0 30 hlb 100 RSCALE=50
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlc3_br.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 12 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol LC4_BR
+d LC LADDER-PARALLEL C & L
+@type p
+@attributes
+a 0 s 9 0 14 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LC4/BR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 L1VAL=1
+a 0 u 0 0 0 30 hlb 100 RSCALE=50
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlc4_br.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol LC5_BR
+d SERIES OF TWO PARALLEL TANKS
+@type p
+@attributes
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LC5/BR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 L1VAL=1
+a 0 u 0 0 0 40 hlb 100 L2VAL=1
+a 0 u 0 0 0 50 hlb 100 RSCALE=50
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlc5_br.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol LC6_BR
+d SERIES LC IN PARALLEL WITH LC TANK
+@type p
+@attributes
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LC6_BR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 L1VAL=1
+a 0 u 0 0 0 40 hlb 100 L2VAL=1
+a 0 u 0 0 0 50 hlb 100 RSCALE=50
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlc6_br.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 12 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol LC7_BR
+d SERIES LC IN SERIES WITH LC TANK
+@type p
+@attributes
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 50 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=LC7/BR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT @model
+a 0 u 0 0 0 10 hlb 100 C1VAL=1
+a 0 u 0 0 0 20 hlb 100 C2VAL=1
+a 0 u 0 0 0 30 hlb 100 L1VAL=1
+a 0 u 0 0 0 40 hlb 100 L2VAL=1
+a 0 u 0 0 0 50 hlb 100 RSCALE=50
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=hlc7_br.sch
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 12 hln 100 ERC=x
+a 0 u 13 0 5 18 hrn 100 pin=1
+p 2 47 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 2 10 hln 100 ERC=x
+a 0 u 13 0 55 18 hln 100 pin=2
+@graphics 60 40 0 10 10
+r 0 10 0 50 40
+*symbol EAMP
+d E device - VALUE form
+@type p
+@attributes
+a 1 s 9 0 10 8 hln 100 REFDES=EAMP?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=E^@REFDES %out 0 VALUE = { @EXPR }
+a 0 sp 0 0 36 68 hln 100 PART=EAMP
+a 0 u 0 0 12 80 hln 100 EXPR=V(%+, %-)*@GAIN
+a 0 u 0 0 0 10 hln 100 GAIN=1
+@pins
+p 2 67 42 hrn 50 OUT n 80 40 u
+a 0 u 0 0 75 38 hln 100 pin=3
+a 0 u 0 0 88 42 hln 100 ERC=o
+p 2 13 22 hln 50 + n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 13 62 hln 50 - n 0 60 h
+a 0 u 0 0 5 58 hrn 100 pin=2
+a 0 u 0 0 0 60 hln 100 ERC=i
+@graphics 80 70 0 20 10
+v 0 10 10
+10 70
+;
+v 0 10 70
+70 40
+;
+v 0 70 40
+10 10
+;
+*symbol FOFFPAGE
+d Offpage connector for filtsub
+@type o
+@attributes
+a 1 s 3 0 23 8 hcn 100 LABEL=
+@pins
+p 0 37 7 hrn 100 1 n 50 5 u
+a 0 u 0 0 0 -6 hln 100 ERC=x
+a 0 u 0 0 45 3 hln 100 pin=1
+@graphics 50 10 50 5 11
+c 0 36 5 5
+*symbol SWPAIR
+d Grounded Switch Pair
+@type p
+@attributes
+a 0 s 9 0 14 8 hln 100 REFDES=X?
+a 0 sp 0 0 0 80 hln 100 PART=SWPAIR
+a 0 sp 0 0 0 0 hln 100 MODEL=SWPAIR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %AGND %CLK0 %CLK1 %CLK2 %CLK3 %CLK4 %CLK5 @MODEL
+@pins
+p 2 13 37 hln 70 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 42 58 hln 70 AGND n 40 70 v
+a 0 s 1 0 35 72 hcn 100 PIN=2
+a 0 s 0 0 40 70 hln 100 ERC=x
+p 2 57 37 hrn 70 OUT n 70 30 u
+a 0 s 1 0 65 28 hln 100 PIN=3
+a 0 s 0 0 70 30 hln 100 ERC=x
+p 0 10 74 hln 100 CLK0,CLK1,CLK2,CLK3,CLK4,CLK5 n 20 70 v
+a 0 s 1 0 15 72 hcn 100 PIN=4
+a 0 s 0 0 20 72 hln 100 ERC=x
+@graphics 70 70 10 10 10
+r 0 10 10 60 60
+v 0 10 30
+20 30
+;
+v 0 20 30
+30 20
+;
+v 0 30 30
+50 30
+;
+v 0 40 30
+40 40
+;
+v 0 40 50
+40 60
+;
+s 26 -1 57 hln 70 CLK[0-5]
+v 0 50 30
+60 30
+;
+v 0 40 40
+30 50
+;
+*symbol SWPAIRB
+d Grounded Switch Pair
+@type p
+@attributes
+a 1 s 9 0 14 8 hln 100 REFDES=X?
+a 0 sp 0 0 0 80 hln 100 PART=SWPAIR
+a 0 sp 0 0 0 0 hln 100 MODEL=SWPAIR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %AGND %CLK0 %CLK1 %CLK2 %CLK3 %CLK4 %CLK5 @MODEL
+@pins
+p 2 13 37 hln 70 OUT n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 10 58 hln 70 AGND n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=2
+a 0 s 0 0 30 70 hln 100 ERC=x
+p 2 57 37 hrn 70 IN n 70 30 u
+a 0 s 1 0 65 28 hln 100 PIN=3
+a 0 s 0 0 70 30 hln 100 ERC=x
+p 0 40 76 hln 100 CLK0,CLK1,CLK2,CLK3,CLK4,CLK5 n 50 70 v
+a 0 s 1 0 45 72 hcn 100 PIN=4
+a 0 s 0 0 50 74 hln 100 ERC=x
+@graphics 70 70 10 10 10
+r 0 10 10 60 60
+v 0 10 30
+20 30
+;
+v 0 30 50
+30 60
+;
+s 26 33 58 hln 70 CLK[0-5]
+v 0 20 50
+30 40
+;
+v 0 30 40
+30 30
+;
+v 0 40 30
+50 20
+;
+v 0 50 30
+60 30
+;
+v 0 20 30
+40 30
+;
+*symbol ISWPAIR
+d IDEAL Grounded Switch Pair
+@type p
+@attributes
+a 0 s 9 0 14 8 hln 100 REFDES=X?
+a 0 sp 0 0 0 80 hln 100 PART=ISWPAIR
+a 0 sp 0 0 0 0 hln 100 MODEL=ISWPAIR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %AGND %CLK0 %CLK1 %CLK2 %CLK3 @MODEL
+@pins
+p 2 13 37 hln 70 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 42 58 hln 70 AGND n 40 70 v
+a 0 s 1 0 35 72 hcn 100 PIN=2
+a 0 s 0 0 40 70 hln 100 ERC=x
+p 2 57 37 hrn 70 OUT n 70 30 u
+a 0 s 1 0 65 28 hln 100 PIN=3
+a 0 s 0 0 70 30 hln 100 ERC=x
+p 0 10 74 hln 100 CLK0,CLK1,CLK2,CLK3 n 20 70 v
+a 0 s 1 0 15 72 hcn 100 PIN=4
+a 0 s 0 0 20 72 hln 100 ERC=x
+@graphics 70 70 10 10 10
+r 0 10 10 60 60
+v 0 10 30
+20 30
+;
+v 0 20 30
+30 20
+;
+v 0 30 30
+50 30
+;
+v 0 40 30
+40 40
+;
+v 0 40 40
+30 50
+;
+v 0 40 50
+40 60
+;
+s 26 1 58 hln 70 CLK[0-3]
+v 0 50 30
+60 30
+;
+*symbol ISWPAIRB
+d Ideal Grounded Switch Pair
+@type p
+@attributes
+a 1 s 9 0 14 8 hln 100 REFDES=X?
+a 0 sp 0 0 0 80 hln 100 PART=ISWPAIR
+a 0 sp 0 0 0 0 hln 100 MODEL=ISWPAIR
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %AGND %CLK0 %CLK1 %CLK2 %CLK3 @MODEL
+@pins
+p 2 12 37 hln 70 OUT n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 10 58 hln 70 AGND n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=2
+a 0 s 0 0 30 70 hln 100 ERC=x
+p 2 57 37 hrn 70 IN n 70 30 u
+a 0 s 1 0 65 28 hln 100 PIN=3
+a 0 s 0 0 70 30 hln 100 ERC=x
+p 0 40 76 hln 100 CLK0,CLK1,CLK2,CLK3 n 50 70 v
+a 0 s 1 0 45 72 hcn 100 PIN=4
+a 0 s 0 0 50 74 hln 100 ERC=x
+@graphics 70 70 10 10 10
+r 0 10 10 60 60
+v 0 10 30
+20 30
+;
+v 0 30 50
+30 60
+;
+s 26 36 58 hln 70 CLK[0-3]
+v 0 20 50
+30 40
+;
+v 0 30 40
+30 30
+;
+v 0 40 30
+50 20
+;
+v 0 50 30
+60 30
+;
+v 0 20 30
+40 30
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

@@ -1,0 +1,198 @@
+*version 6.3 1006227065
+u 191
+XC3000 3423459909
+U? 5
+@libraries
+XC3000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC3000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 3003 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 192 IF_IN 160 460 h
+a 0 s 3 0 10 8 hln 80 LABEL=E
+port 193 IF_IN 160 500 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 194 IF_IN 160 480 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 195 IF_OUT 840 480 h
+a 0 s 3 0 20 8 hln 80 LABEL=D3
+port 196 IF_OUT 840 420 h
+a 0 s 3 0 20 8 hln 80 LABEL=D2
+port 197 IF_OUT 840 360 h
+a 0 s 3 0 20 8 hln 80 LABEL=D1
+port 198 IF_OUT 840 300 h
+a 0 s 3 0 20 8 hln 80 LABEL=D0
+@parts
+part 17 AND3 540 460 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U1
+a 0 sp 11 0 10 60 hlt 100 PART=AND3
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 AND3B1 540 400 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 24 AND3B1 540 340 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 30 AND3B2 540 280 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 32
+s 620 480 840 480 31
+a 0 s 3 0 810 464 hlt 100 LABEL=D3
+w 40
+s 620 420 840 420 39
+a 0 s 3 0 810 404 hlt 100 LABEL=D2
+w 48
+s 620 360 840 360 47
+a 0 s 3 0 810 344 hlt 100 LABEL=D1
+w 56
+s 620 300 840 300 55
+a 0 s 3 0 810 284 hlt 100 LABEL=D0
+w 71
+s 160 460 440 460 63
+a 0 s 3 0 170 460 hln 100 LABEL=E
+s 440 460 440 400 64
+s 440 460 540 460 65
+s 440 340 440 280 66
+s 440 400 440 340 67
+s 440 400 540 400 68
+s 440 340 540 340 69
+s 440 280 540 280 70
+w 113
+s 160 500 480 500 105
+a 0 s 3 0 170 500 hln 100 LABEL=A1
+s 480 500 540 500 106
+s 480 380 480 300 108
+s 480 300 540 300 107
+s 480 380 540 380 109
+s 480 420 480 380 110
+s 480 420 540 420 111
+s 480 500 480 420 112
+w 156
+s 160 480 460 480 148
+a 0 s 3 0 170 480 hln 100 LABEL=A0
+s 460 480 540 480 149
+s 460 480 460 440 150
+s 460 360 460 320 152
+s 460 320 540 320 151
+s 460 360 540 360 153
+s 460 440 460 360 154
+s 460 440 540 440 155
+@junction
+j 620 480
++ p 17 O
++ w 32
+j 620 420
++ p 23 O
++ w 40
+j 620 360
++ p 24 O
++ w 48
+j 620 300
++ p 30 O
++ w 56
+j 440 460
++ w 71
++ w 71
+j 440 400
++ w 71
++ w 71
+j 440 340
++ w 71
++ w 71
+j 540 460
++ p 17 I2
++ w 71
+j 540 400
++ p 23 I2
++ w 71
+j 540 340
++ p 24 I2
++ w 71
+j 540 280
++ p 30 I2
++ w 71
+j 480 500
++ w 113
++ w 113
+j 480 380
++ w 113
++ w 113
+j 480 420
++ w 113
++ w 113
+j 540 500
++ p 17 I0
++ w 113
+j 540 420
++ p 23 I1
++ w 113
+j 540 380
++ p 24 I0
++ w 113
+j 540 300
++ p 30 I1
++ w 113
+j 460 480
++ w 156
++ w 156
+j 460 440
++ w 156
++ w 156
+j 460 360
++ w 156
++ w 156
+j 540 480
++ p 17 I1
++ w 156
+j 540 440
++ p 23 I0
++ w 156
+j 540 360
++ p 24 I1
++ w 156
+j 540 320
++ p 30 I0
++ w 156
+j 160 460
++ s 192
++ w 71
+j 160 500
++ s 193
++ w 113
+j 160 480
++ s 194
++ w 156
+j 840 480
++ s 195
++ w 32
+j 840 420
++ s 196
++ w 40
+j 840 360
++ s 197
++ w 48
+j 840 300
++ s 198
++ w 56
+@attributes
+@text
+s 5 710 800 hln 100 19TH JANUARY 1993
+s 5 750 750 hln 100 XC3000 FAMILY D2_4E MACRO
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 750 780 hln 100 DEMULTIPLEXER W/ ENABLE
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 750 770 hln 100 2-LINE TO 4-LINE DECODER/

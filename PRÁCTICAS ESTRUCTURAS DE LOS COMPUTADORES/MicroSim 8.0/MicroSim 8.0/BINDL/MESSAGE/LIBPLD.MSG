@@ -1,0 +1,34 @@
+"p1800.c
+>E P1800 subgroup without target
+=[33008]         SECTION inside a PI file DEVICE targeted toward a P1800 has no target.
+*The P1800 device fitter expects PI file device SECTIONs to be targeted
+*to a specific quadrant.  Valid target strings are "Quadrant A", "Quadrant B",
+*"Quadrant C", or "Quadrant D".
+>E P1800 unfixed subgroup
+=[33009]         GROUPs are not allowed in a PI file DEVICE targeted toward a P1800.
+*The P1800 device fitter does not allow GROUPs inside a DEVICE targeted
+*to a P1800.  Use SECTIONs instead.
+>E P1800 subgroup with ill-formed target string
+=[33010]         SECTION inside PI file DEVICE targeted toward a P1800 has bad target.   Example legal target:  "Quadrant D".
+*The P1800 device fitter expects SECTIONS to be targeted
+*to a specific P1800 quadrant.  Valid target strings have the form
+*"Quadrant <quadrant_letter>", where <quadrant_letter> is A, B, C, or D.
+>E Multiple P1800 fixed subgroups for the same quadrant
+=[33011]         Multiple P1800 SECTIONs in the PI file have the same target.
+*There can be only one SECTION targeted to a given target.  If
+*you really want both groups of functions in the same quadrant, then 
+*combine the two SECTIONs into one.
+>Es P1800 output signal wo subgroup or pin assignment
+=[33012]         Output signal %s inside PI file DEVICE targeted toward a P1800 must be assigned to a pin or appear inside a SECTION.
+& SIGNAL_NAME
+*An output signal in a PI file DEVICE targeted toward a P1800 must be either 
+*assigned to a pin or appear inside a SECTION.    An output signal 
+*without a pin assignment would be ambiguous since the P1800 fitter 
+*needs to know the quadrant you had in mind. 
+>Esss Pin and quadrant assignments conflict
+=[33013]         In P1800, signal %s assignment to pin %s conflicts with assignment to quadrant %s.
+& SIGNAL_NAME PIN_NUM QUADRANT_LETTER
+*The pin you are assigning to is in a different quadrant than the quadrant
+*you are specifying in the target of the SECTION.  Please resolve
+*this contradictory information.
+

@@ -1,0 +1,1576 @@
+*version 6.3 2883577715
+@index
+symloc PEEL18CV8J-10:P18CV8-00 0 53
+symloc PEEL18CV8J-15:P18CV8-00 53 53
+symloc PEEL18CV8J-25:P18CV8-00 106 53
+symloc PEEL18CV8J-5:P18CV8-00 159 52
+symloc PEEL18CV8J-7:P18CV8-00 211 52
+symloc PEEL18CV8JI-10:P18CV8-00 263 54
+symloc PEEL18CV8JI-15:P18CV8-00 317 54
+symloc PEEL18CV8JI-25:P18CV8-00 371 54
+symloc PEEL18CV8P-10:P18CV8-01 425 53
+symloc PEEL18CV8P-15:P18CV8-01 478 53
+symloc PEEL18CV8P-25:P18CV8-01 531 53
+symloc PEEL18CV8P-7:P18CV8-01 584 52
+symloc PEEL18CV8PI-10:P18CV8-01 636 54
+symloc PEEL18CV8PI-15:P18CV8-01 690 54
+symloc PEEL18CV8PI-25:P18CV8-01 744 54
+symloc PEEL18CV8S-10:P18CV8-02 798 53
+symloc PEEL18CV8S-15:P18CV8-02 851 53
+symloc PEEL18CV8S-25:P18CV8-02 904 53
+symloc PEEL18CV8S-7:P18CV8-02 957 52
+symloc PEEL18CV8SI-10:P18CV8-02 1009 54
+symloc PEEL18CV8SI-15:P18CV8-02 1063 54
+symloc PEEL18CV8SI-25:P18CV8-02 1117 54
+symloc PEEL20CG10AJ-10:P20CG10-00 1171 57
+symloc PEEL20CG10AJ-15:P20CG10-00 1228 57
+symloc PEEL20CG10AJ-25:P20CG10-00 1285 57
+symloc PEEL20CG10AJ-5:P20CG10-00 1342 56
+symloc PEEL20CG10AJ-7:P20CG10-00 1398 56
+symloc PEEL20CG10AJI-10:P20CG10-00 1454 58
+symloc PEEL20CG10AJI-15:P20CG10-00 1512 58
+symloc PEEL20CG10AJI-25:P20CG10-00 1570 58
+symloc PEEL20CG10AJL-15:P20CG10-00 1628 58
+symloc PEEL20CG10AP-10:P20CG10-01 1686 57
+symloc PEEL20CG10AP-15:P20CG10-01 1743 57
+symloc PEEL20CG10AP-25:P20CG10-01 1800 57
+symloc PEEL20CG10AP-7:P20CG10-01 1857 56
+symloc PEEL20CG10API-10:P20CG10-01 1913 58
+symloc PEEL20CG10API-15:P20CG10-01 1971 58
+symloc PEEL20CG10API-25:P20CG10-01 2029 58
+symloc PEEL20CG10APL-15:P20CG10-01 2087 58
+symloc PEEL20CG10AS-10:P20CG10-02 2145 57
+symloc PEEL20CG10AS-15:P20CG10-02 2202 57
+symloc PEEL20CG10AS-25:P20CG10-02 2259 57
+symloc PEEL20CG10AS-7:P20CG10-02 2316 56
+symloc PEEL20CG10ASI-10:P20CG10-02 2372 58
+symloc PEEL20CG10ASI-15:P20CG10-02 2430 58
+symloc PEEL20CG10ASI-25:P20CG10-02 2488 58
+symloc PEEL20CG10ASL-15:P20CG10-02 2546 58
+symloc PEEL20V8JL-25:P20V8A-07 2604 53
+symloc PEEL20V8JQ-25:P20V8A-07 2657 53
+symloc PEEL20V8PL-25:P20V8A-04 2710 53
+symloc PEEL20V8PQ-25:P20V8A-04 2763 53
+symloc PEEL20V8SL-25:P20V8A-08 2816 53
+symloc PEEL20V8SQ-25:P20V8A-08 2869 53
+symloc PEEL22CV10AJ-10:P22V10-03 2922 55
+symloc PEEL22CV10AJ-15:P22V10-03 2977 55
+symloc PEEL22CV10AJ-25:P22V10-03 3032 55
+symloc PEEL22CV10AJ-7:P22V10-03 3087 54
+symloc PEEL22CV10AJI-10:P22V10-03 3141 56
+symloc PEEL22CV10AJI-15:P22V10-03 3197 56
+symloc PEEL22CV10AJI-25:P22V10-03 3253 56
+symloc PEEL22CV10AP-10:P22V10-04 3309 55
+symloc PEEL22CV10AP-15:P22V10-04 3364 55
+symloc PEEL22CV10AP-25:P22V10-04 3419 55
+symloc PEEL22CV10AP-7:P22V10-04 3474 54
+symloc PEEL22CV10API-10:P22V10-04 3528 56
+symloc PEEL22CV10API-15:P22V10-04 3584 56
+symloc PEEL22CV10API-25:P22V10-04 3640 56
+symloc PEEL22CV10AS-10:P22V10-07 3696 55
+symloc PEEL22CV10AS-15:P22V10-07 3751 55
+symloc PEEL22CV10AS-25:P22V10-07 3806 55
+symloc PEEL22CV10AS-7:P22V10-07 3861 54
+symloc PEEL22CV10ASI-10:P22V10-07 3915 56
+symloc PEEL22CV10ASI-15:P22V10-07 3971 56
+symloc PEEL22CV10ASI-25:P22V10-07 4027 56
+symloc copyright 4083 575 b
+symloc P18CV8-00 4658 2768 b
+symloc P18CV8-01 7426 2768 b
+symloc P18CV8-02 10194 2768 b
+symloc P20CG10-00 12962 3284 b
+symloc P20CG10-01 16246 3282 b
+symloc P20CG10-02 19528 3282 b
+symloc P20V8A-07 22810 3280 b
+symloc P20V8A-04 26090 3278 b
+symloc P20V8A-08 29368 3278 b
+symloc P22V10-03 32646 3281 b
+symloc P22V10-04 35927 3279 b
+symloc P22V10-07 39206 3279 b
+*symbol PEEL18CV8J-10 ako P18CV8-00
+d P18CV8
+@type p
+*symbol PEEL18CV8J-15 ako P18CV8-00
+d P18CV8
+@type p
+*symbol PEEL18CV8J-25 ako P18CV8-00
+d P18CV8
+@type p
+*symbol PEEL18CV8J-5 ako P18CV8-00
+d P18CV8
+@type p
+*symbol PEEL18CV8J-7 ako P18CV8-00
+d P18CV8
+@type p
+*symbol PEEL18CV8JI-10 ako P18CV8-00
+d P18CV8
+@type p
+*symbol PEEL18CV8JI-15 ako P18CV8-00
+d P18CV8
+@type p
+*symbol PEEL18CV8JI-25 ako P18CV8-00
+d P18CV8
+@type p
+*symbol PEEL18CV8P-10 ako P18CV8-01
+d P18CV8
+@type p
+*symbol PEEL18CV8P-15 ako P18CV8-01
+d P18CV8
+@type p
+*symbol PEEL18CV8P-25 ako P18CV8-01
+d P18CV8
+@type p
+*symbol PEEL18CV8P-7 ako P18CV8-01
+d P18CV8
+@type p
+*symbol PEEL18CV8PI-10 ako P18CV8-01
+d P18CV8
+@type p
+*symbol PEEL18CV8PI-15 ako P18CV8-01
+d P18CV8
+@type p
+*symbol PEEL18CV8PI-25 ako P18CV8-01
+d P18CV8
+@type p
+*symbol PEEL18CV8S-10 ako P18CV8-02
+d P18CV8
+@type p
+*symbol PEEL18CV8S-15 ako P18CV8-02
+d P18CV8
+@type p
+*symbol PEEL18CV8S-25 ako P18CV8-02
+d P18CV8
+@type p
+*symbol PEEL18CV8S-7 ako P18CV8-02
+d P18CV8
+@type p
+*symbol PEEL18CV8SI-10 ako P18CV8-02
+d P18CV8
+@type p
+*symbol PEEL18CV8SI-15 ako P18CV8-02
+d P18CV8
+@type p
+*symbol PEEL18CV8SI-25 ako P18CV8-02
+d P18CV8
+@type p
+*symbol PEEL20CG10AJ-10 ako P20CG10-00
+d P20CG10
+@type p
+*symbol PEEL20CG10AJ-15 ako P20CG10-00
+d P20CG10
+@type p
+*symbol PEEL20CG10AJ-25 ako P20CG10-00
+d P20CG10
+@type p
+*symbol PEEL20CG10AJ-5 ako P20CG10-00
+d P20CG10
+@type p
+*symbol PEEL20CG10AJ-7 ako P20CG10-00
+d P20CG10
+@type p
+*symbol PEEL20CG10AJI-10 ako P20CG10-00
+d P20CG10
+@type p
+*symbol PEEL20CG10AJI-15 ako P20CG10-00
+d P20CG10
+@type p
+*symbol PEEL20CG10AJI-25 ako P20CG10-00
+d P20CG10
+@type p
+*symbol PEEL20CG10AJL-15 ako P20CG10-00
+d P20CG10
+@type p
+*symbol PEEL20CG10AP-10 ako P20CG10-01
+d P20CG10
+@type p
+*symbol PEEL20CG10AP-15 ako P20CG10-01
+d P20CG10
+@type p
+*symbol PEEL20CG10AP-25 ako P20CG10-01
+d P20CG10
+@type p
+*symbol PEEL20CG10AP-7 ako P20CG10-01
+d P20CG10
+@type p
+*symbol PEEL20CG10API-10 ako P20CG10-01
+d P20CG10
+@type p
+*symbol PEEL20CG10API-15 ako P20CG10-01
+d P20CG10
+@type p
+*symbol PEEL20CG10API-25 ako P20CG10-01
+d P20CG10
+@type p
+*symbol PEEL20CG10APL-15 ako P20CG10-01
+d P20CG10
+@type p
+*symbol PEEL20CG10AS-10 ako P20CG10-02
+d P20CG10
+@type p
+*symbol PEEL20CG10AS-15 ako P20CG10-02
+d P20CG10
+@type p
+*symbol PEEL20CG10AS-25 ako P20CG10-02
+d P20CG10
+@type p
+*symbol PEEL20CG10AS-7 ako P20CG10-02
+d P20CG10
+@type p
+*symbol PEEL20CG10ASI-10 ako P20CG10-02
+d P20CG10
+@type p
+*symbol PEEL20CG10ASI-15 ako P20CG10-02
+d P20CG10
+@type p
+*symbol PEEL20CG10ASI-25 ako P20CG10-02
+d P20CG10
+@type p
+*symbol PEEL20CG10ASL-15 ako P20CG10-02
+d P20CG10
+@type p
+*symbol PEEL20V8JL-25 ako P20V8A-07
+d P20V8A
+@type p
+*symbol PEEL20V8JQ-25 ako P20V8A-07
+d P20V8A
+@type p
+*symbol PEEL20V8PL-25 ako P20V8A-04
+d P20V8A
+@type p
+*symbol PEEL20V8PQ-25 ako P20V8A-04
+d P20V8A
+@type p
+*symbol PEEL20V8SL-25 ako P20V8A-08
+d P20V8A
+@type p
+*symbol PEEL20V8SQ-25 ako P20V8A-08
+d P20V8A
+@type p
+*symbol PEEL22CV10AJ-10 ako P22V10-03
+d P22V10
+@type p
+*symbol PEEL22CV10AJ-15 ako P22V10-03
+d P22V10
+@type p
+*symbol PEEL22CV10AJ-25 ako P22V10-03
+d P22V10
+@type p
+*symbol PEEL22CV10AJ-7 ako P22V10-03
+d P22V10
+@type p
+*symbol PEEL22CV10AJI-10 ako P22V10-03
+d P22V10
+@type p
+*symbol PEEL22CV10AJI-15 ako P22V10-03
+d P22V10
+@type p
+*symbol PEEL22CV10AJI-25 ako P22V10-03
+d P22V10
+@type p
+*symbol PEEL22CV10AP-10 ako P22V10-04
+d P22V10
+@type p
+*symbol PEEL22CV10AP-15 ako P22V10-04
+d P22V10
+@type p
+*symbol PEEL22CV10AP-25 ako P22V10-04
+d P22V10
+@type p
+*symbol PEEL22CV10AP-7 ako P22V10-04
+d P22V10
+@type p
+*symbol PEEL22CV10API-10 ako P22V10-04
+d P22V10
+@type p
+*symbol PEEL22CV10API-15 ako P22V10-04
+d P22V10
+@type p
+*symbol PEEL22CV10API-25 ako P22V10-04
+d P22V10
+@type p
+*symbol PEEL22CV10AS-10 ako P22V10-07
+d P22V10
+@type p
+*symbol PEEL22CV10AS-15 ako P22V10-07
+d P22V10
+@type p
+*symbol PEEL22CV10AS-25 ako P22V10-07
+d P22V10
+@type p
+*symbol PEEL22CV10AS-7 ako P22V10-07
+d P22V10
+@type p
+*symbol PEEL22CV10ASI-10 ako P22V10-07
+d P22V10
+@type p
+*symbol PEEL22CV10ASI-15 ako P22V10-07
+d P22V10
+@type p
+*symbol PEEL22CV10ASI-25 ako P22V10-07
+d P22V10
+@type p
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1996, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60
+*symbol P18CV8-00 b
+d P18CV8 base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 118 hrn 100 PART=
+a 0 u 13 0 80 128 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_10)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_20)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=7
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 18 108 drn 100 GND_10 n 20 120 v
+a 0 u 1 0 22 111 dln 100 pin=10
+a 0 u 0 0 20 120 hln 100 ERC=p
+a 0 u 0 0 20 120 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/OE n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=11
+a 0 u 0 0 80 100 hln 100 ERC=i
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O0 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=12
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O1 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=13
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O2 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=14
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O3 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=15
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O4 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=16
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O5 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=17
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O6 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=18
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I/O7 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=19
+a 0 u 0 0 80 20 hln 100 ERC=b
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_20 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=20
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 120 0 20 10
+r 0 10 10 70 110
+*symbol P18CV8-01 b
+d P18CV8 base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 118 hrn 100 PART=
+a 0 u 13 0 80 128 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_10)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_20)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=7
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 18 108 drn 100 GND_10 n 20 120 v
+a 0 u 1 0 22 111 dln 100 pin=10
+a 0 u 0 0 20 120 hln 100 ERC=p
+a 0 u 0 0 20 120 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/OE n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=11
+a 0 u 0 0 80 100 hln 100 ERC=i
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O0 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=12
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O1 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=13
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O2 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=14
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O3 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=15
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O4 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=16
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O5 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=17
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O6 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=18
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I/O7 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=19
+a 0 u 0 0 80 20 hln 100 ERC=b
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_20 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=20
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 120 0 20 10
+r 0 10 10 70 110
+*symbol P18CV8-02 b
+d P18CV8 base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 118 hrn 100 PART=
+a 0 u 13 0 80 128 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_10)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_20)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=7
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 18 108 drn 100 GND_10 n 20 120 v
+a 0 u 1 0 22 111 dln 100 pin=10
+a 0 u 0 0 20 120 hln 100 ERC=p
+a 0 u 0 0 20 120 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/OE n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=11
+a 0 u 0 0 80 100 hln 100 ERC=i
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O0 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=12
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O1 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=13
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O2 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=14
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O3 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=15
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O4 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=16
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O5 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=17
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O6 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=18
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I/O7 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=19
+a 0 u 0 0 80 20 hln 100 ERC=b
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_20 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=20
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 120 0 20 10
+r 0 10 10 70 110
+*symbol P20CG10-00 b
+d P20CG10 base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 138 hrn 100 PART=
+a 0 u 13 0 80 148 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_14)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_28)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=9
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=11
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 12 112 hln 100 I8 n 0 110 h
+a 0 u 1 0 9 108 hrn 100 pin=12
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 12 122 hln 100 I9 n 0 120 h
+a 0 u 1 0 9 118 hrn 100 pin=13
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 18 128 drn 100 GND_14 n 20 140 v
+a 0 u 1 0 22 131 dln 100 pin=14
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 20 140 hln 100 FLOAT=n
+p 2 68 122 hrn 100 I/OE n 80 120 u
+a 0 u 1 0 71 118 hln 100 pin=16
+a 0 u 0 0 80 120 hln 100 ERC=i
+a 0 u 0 0 80 120 hln 100 FLOAT=n
+p 2 68 112 hrn 100 I/O0 n 80 110 u
+a 0 u 1 0 71 108 hln 100 pin=17
+a 0 u 0 0 80 110 hln 100 ERC=b
+a 0 u 0 0 80 110 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/O1 n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=18
+a 0 u 0 0 80 100 hln 100 ERC=b
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O2 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=19
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O3 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=20
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O4 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=21
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O5 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=23
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O6 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=24
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O7 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=25
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O8 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=26
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I/O9 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=27
+a 0 u 0 0 80 20 hln 100 ERC=b
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_28 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=28
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 140 0 20 10
+r 0 10 10 70 130
+*symbol P20CG10-01 b
+d P20CG10 base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 138 hrn 100 PART=
+a 0 u 13 0 80 148 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_24)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=7
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 12 112 hln 100 I8 n 0 110 h
+a 0 u 1 0 9 108 hrn 100 pin=10
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 12 122 hln 100 I9 n 0 120 h
+a 0 u 1 0 9 118 hrn 100 pin=11
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 18 128 drn 100 GND_12 n 20 140 v
+a 0 u 1 0 22 131 dln 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 20 140 hln 100 FLOAT=n
+p 2 68 122 hrn 100 I/OE n 80 120 u
+a 0 u 1 0 71 118 hln 100 pin=13
+a 0 u 0 0 80 120 hln 100 ERC=i
+a 0 u 0 0 80 120 hln 100 FLOAT=n
+p 2 68 112 hrn 100 I/O0 n 80 110 u
+a 0 u 1 0 71 108 hln 100 pin=14
+a 0 u 0 0 80 110 hln 100 ERC=b
+a 0 u 0 0 80 110 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/O1 n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=15
+a 0 u 0 0 80 100 hln 100 ERC=b
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O2 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=16
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O3 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=17
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O4 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=18
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O5 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=19
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O6 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=20
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O7 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=21
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O8 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=22
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I/O9 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=23
+a 0 u 0 0 80 20 hln 100 ERC=b
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_24 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=24
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 140 0 20 10
+r 0 10 10 70 130
+*symbol P20CG10-02 b
+d P20CG10 base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 138 hrn 100 PART=
+a 0 u 13 0 80 148 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_24)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=7
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 12 112 hln 100 I8 n 0 110 h
+a 0 u 1 0 9 108 hrn 100 pin=10
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 12 122 hln 100 I9 n 0 120 h
+a 0 u 1 0 9 118 hrn 100 pin=11
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 18 128 drn 100 GND_12 n 20 140 v
+a 0 u 1 0 22 131 dln 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 20 140 hln 100 FLOAT=n
+p 2 68 122 hrn 100 I/OE n 80 120 u
+a 0 u 1 0 71 118 hln 100 pin=13
+a 0 u 0 0 80 120 hln 100 ERC=i
+a 0 u 0 0 80 120 hln 100 FLOAT=n
+p 2 68 112 hrn 100 I/O0 n 80 110 u
+a 0 u 1 0 71 108 hln 100 pin=14
+a 0 u 0 0 80 110 hln 100 ERC=b
+a 0 u 0 0 80 110 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/O1 n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=15
+a 0 u 0 0 80 100 hln 100 ERC=b
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O2 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=16
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O3 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=17
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O4 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=18
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O5 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=19
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O6 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=20
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O7 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=21
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O8 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=22
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I/O9 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=23
+a 0 u 0 0 80 20 hln 100 ERC=b
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_24 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=24
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 140 0 20 10
+r 0 10 10 70 130
+*symbol P20V8A-07 b
+d P20V8A base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 138 hrn 100 PART=
+a 0 u 13 0 80 148 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_14)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_28)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=9
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=11
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 12 112 hln 100 I8 n 0 110 h
+a 0 u 1 0 9 108 hrn 100 pin=12
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 12 122 hln 100 I9 n 0 120 h
+a 0 u 1 0 9 118 hrn 100 pin=13
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 18 128 drn 100 GND_14 n 20 140 v
+a 0 u 1 0 22 131 dln 100 pin=14
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 20 140 hln 100 FLOAT=n
+p 2 68 122 hrn 100 I/OE n 80 120 u
+a 0 u 1 0 71 118 hln 100 pin=16
+a 0 u 0 0 80 120 hln 100 ERC=i
+a 0 u 0 0 80 120 hln 100 FLOAT=n
+p 2 68 112 hrn 100 I10 n 80 110 u
+a 0 u 1 0 71 108 hln 100 pin=17
+a 0 u 0 0 80 110 hln 100 ERC=i
+a 0 u 0 0 80 110 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/O0 n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=18
+a 0 u 0 0 80 100 hln 100 ERC=b
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O1 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=19
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O2 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=20
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O3 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=21
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O4 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=23
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O5 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=24
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O6 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=25
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O7 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=26
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I11 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=27
+a 0 u 0 0 80 20 hln 100 ERC=i
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_28 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=28
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 140 0 20 10
+r 0 10 10 70 130
+*symbol P20V8A-04 b
+d P20V8A base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 138 hrn 100 PART=
+a 0 u 13 0 80 148 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_24)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=7
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 12 112 hln 100 I8 n 0 110 h
+a 0 u 1 0 9 108 hrn 100 pin=10
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 12 122 hln 100 I9 n 0 120 h
+a 0 u 1 0 9 118 hrn 100 pin=11
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 18 128 drn 100 GND_12 n 20 140 v
+a 0 u 1 0 22 131 dln 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 20 140 hln 100 FLOAT=n
+p 2 68 122 hrn 100 I/OE n 80 120 u
+a 0 u 1 0 71 118 hln 100 pin=13
+a 0 u 0 0 80 120 hln 100 ERC=i
+a 0 u 0 0 80 120 hln 100 FLOAT=n
+p 2 68 112 hrn 100 I10 n 80 110 u
+a 0 u 1 0 71 108 hln 100 pin=14
+a 0 u 0 0 80 110 hln 100 ERC=i
+a 0 u 0 0 80 110 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/O0 n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=15
+a 0 u 0 0 80 100 hln 100 ERC=b
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O1 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=16
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O2 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=17
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O3 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=18
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O4 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=19
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O5 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=20
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O6 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=21
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O7 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=22
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I11 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=23
+a 0 u 0 0 80 20 hln 100 ERC=i
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_24 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=24
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 140 0 20 10
+r 0 10 10 70 130
+*symbol P20V8A-08 b
+d P20V8A base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 138 hrn 100 PART=
+a 0 u 13 0 80 148 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_24)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=7
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 12 112 hln 100 I8 n 0 110 h
+a 0 u 1 0 9 108 hrn 100 pin=10
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 12 122 hln 100 I9 n 0 120 h
+a 0 u 1 0 9 118 hrn 100 pin=11
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 18 128 drn 100 GND_12 n 20 140 v
+a 0 u 1 0 22 131 dln 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 20 140 hln 100 FLOAT=n
+p 2 68 122 hrn 100 I/OE n 80 120 u
+a 0 u 1 0 71 118 hln 100 pin=13
+a 0 u 0 0 80 120 hln 100 ERC=i
+a 0 u 0 0 80 120 hln 100 FLOAT=n
+p 2 68 112 hrn 100 I10 n 80 110 u
+a 0 u 1 0 71 108 hln 100 pin=14
+a 0 u 0 0 80 110 hln 100 ERC=i
+a 0 u 0 0 80 110 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/O0 n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=15
+a 0 u 0 0 80 100 hln 100 ERC=b
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O1 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=16
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O2 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=17
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O3 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=18
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O4 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=19
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O5 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=20
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O6 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=21
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O7 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=22
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I11 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=23
+a 0 u 0 0 80 20 hln 100 ERC=i
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_24 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=24
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 140 0 20 10
+r 0 10 10 70 130
+*symbol P22V10-03 b
+d P22V10 base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 138 hrn 100 PART=
+a 0 u 13 0 80 148 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_14)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_28)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=9
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=11
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 12 112 hln 100 I8 n 0 110 h
+a 0 u 1 0 9 108 hrn 100 pin=12
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 12 122 hln 100 I9 n 0 120 h
+a 0 u 1 0 9 118 hrn 100 pin=13
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 18 128 drn 100 GND_14 n 20 140 v
+a 0 u 1 0 22 131 dln 100 pin=14
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 20 140 hln 100 FLOAT=n
+p 2 68 122 hrn 100 I10 n 80 120 u
+a 0 u 1 0 71 118 hln 100 pin=16
+a 0 u 0 0 80 120 hln 100 ERC=i
+a 0 u 0 0 80 120 hln 100 FLOAT=n
+p 2 68 112 hrn 100 I/O0 n 80 110 u
+a 0 u 1 0 71 108 hln 100 pin=17
+a 0 u 0 0 80 110 hln 100 ERC=b
+a 0 u 0 0 80 110 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/O1 n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=18
+a 0 u 0 0 80 100 hln 100 ERC=b
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O2 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=19
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O3 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=20
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O4 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=21
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O5 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=23
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O6 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=24
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O7 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=25
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O8 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=26
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I/O9 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=27
+a 0 u 0 0 80 20 hln 100 ERC=b
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_28 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=28
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 140 0 20 10
+r 0 10 10 70 130
+*symbol P22V10-04 b
+d P22V10 base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 138 hrn 100 PART=
+a 0 u 13 0 80 148 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_24)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=7
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 12 112 hln 100 I8 n 0 110 h
+a 0 u 1 0 9 108 hrn 100 pin=10
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 12 122 hln 100 I9 n 0 120 h
+a 0 u 1 0 9 118 hrn 100 pin=11
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 18 128 drn 100 GND_12 n 20 140 v
+a 0 u 1 0 22 131 dln 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 20 140 hln 100 FLOAT=n
+p 2 68 122 hrn 100 I10 n 80 120 u
+a 0 u 1 0 71 118 hln 100 pin=13
+a 0 u 0 0 80 120 hln 100 ERC=i
+a 0 u 0 0 80 120 hln 100 FLOAT=n
+p 2 68 112 hrn 100 I/O0 n 80 110 u
+a 0 u 1 0 71 108 hln 100 pin=14
+a 0 u 0 0 80 110 hln 100 ERC=b
+a 0 u 0 0 80 110 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/O1 n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=15
+a 0 u 0 0 80 100 hln 100 ERC=b
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O2 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=16
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O3 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=17
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O4 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=18
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O5 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=19
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O6 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=20
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O7 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=21
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O8 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=22
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I/O9 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=23
+a 0 u 0 0 80 20 hln 100 ERC=b
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_24 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=24
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 140 0 20 10
+r 0 10 10 70 130
+*symbol P22V10-07 b
+d P22V10 base part
+@type p
+@attributes
+a 0 sp 9 0 70 8 hrn 100 REFDES=U?
+a 0 sp 9 0 80 138 hrn 100 PART=
+a 0 u 13 0 80 148 hrn 100 FUSEFILE=
+a 0 u 0 0 0 0 hln 100 ipin(GND_12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(Vcc_24)=$G_DPWR
+@pins
+p 2 12 22 hln 100 I/CLK n 0 20 h
+a 0 u 1 0 9 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 I0 n 0 30 h
+a 0 u 1 0 9 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 I1 n 0 40 h
+a 0 u 1 0 9 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 12 52 hln 100 I2 n 0 50 h
+a 0 u 1 0 9 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 12 62 hln 100 I3 n 0 60 h
+a 0 u 1 0 9 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 60 hln 100 FLOAT=n
+p 2 12 72 hln 100 I4 n 0 70 h
+a 0 u 1 0 9 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 70 hln 100 FLOAT=n
+p 2 12 82 hln 100 I5 n 0 80 h
+a 0 u 1 0 9 78 hrn 100 pin=7
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 80 hln 100 FLOAT=n
+p 2 12 92 hln 100 I6 n 0 90 h
+a 0 u 1 0 9 88 hrn 100 pin=8
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 90 hln 100 FLOAT=n
+p 2 12 102 hln 100 I7 n 0 100 h
+a 0 u 1 0 9 98 hrn 100 pin=9
+a 0 u 0 0 0 100 hln 100 ERC=i
+a 0 u 0 0 0 100 hln 100 FLOAT=n
+p 2 12 112 hln 100 I8 n 0 110 h
+a 0 u 1 0 9 108 hrn 100 pin=10
+a 0 u 0 0 0 110 hln 100 ERC=i
+a 0 u 0 0 0 110 hln 100 FLOAT=n
+p 2 12 122 hln 100 I9 n 0 120 h
+a 0 u 1 0 9 118 hrn 100 pin=11
+a 0 u 0 0 0 120 hln 100 ERC=i
+a 0 u 0 0 0 120 hln 100 FLOAT=n
+p 2 18 128 drn 100 GND_12 n 20 140 v
+a 0 u 1 0 22 131 dln 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 20 140 hln 100 FLOAT=n
+p 2 68 122 hrn 100 I10 n 80 120 u
+a 0 u 1 0 71 118 hln 100 pin=13
+a 0 u 0 0 80 120 hln 100 ERC=i
+a 0 u 0 0 80 120 hln 100 FLOAT=n
+p 2 68 112 hrn 100 I/O0 n 80 110 u
+a 0 u 1 0 71 108 hln 100 pin=14
+a 0 u 0 0 80 110 hln 100 ERC=b
+a 0 u 0 0 80 110 hln 100 FLOAT=n
+p 2 68 102 hrn 100 I/O1 n 80 100 u
+a 0 u 1 0 71 98 hln 100 pin=15
+a 0 u 0 0 80 100 hln 100 ERC=b
+a 0 u 0 0 80 100 hln 100 FLOAT=n
+p 2 68 92 hrn 100 I/O2 n 80 90 u
+a 0 u 1 0 71 88 hln 100 pin=16
+a 0 u 0 0 80 90 hln 100 ERC=b
+a 0 u 0 0 80 90 hln 100 FLOAT=n
+p 2 68 82 hrn 100 I/O3 n 80 80 u
+a 0 u 1 0 71 78 hln 100 pin=17
+a 0 u 0 0 80 80 hln 100 ERC=b
+a 0 u 0 0 80 80 hln 100 FLOAT=n
+p 2 68 72 hrn 100 I/O4 n 80 70 u
+a 0 u 1 0 71 68 hln 100 pin=18
+a 0 u 0 0 80 70 hln 100 ERC=b
+a 0 u 0 0 80 70 hln 100 FLOAT=n
+p 2 68 62 hrn 100 I/O5 n 80 60 u
+a 0 u 1 0 71 58 hln 100 pin=19
+a 0 u 0 0 80 60 hln 100 ERC=b
+a 0 u 0 0 80 60 hln 100 FLOAT=n
+p 2 68 52 hrn 100 I/O6 n 80 50 u
+a 0 u 1 0 71 48 hln 100 pin=20
+a 0 u 0 0 80 50 hln 100 ERC=b
+a 0 u 0 0 80 50 hln 100 FLOAT=n
+p 2 68 42 hrn 100 I/O7 n 80 40 u
+a 0 u 1 0 71 38 hln 100 pin=21
+a 0 u 0 0 80 40 hln 100 ERC=b
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 68 32 hrn 100 I/O8 n 80 30 u
+a 0 u 1 0 71 28 hln 100 pin=22
+a 0 u 0 0 80 30 hln 100 ERC=b
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 68 22 hrn 100 I/O9 n 80 20 u
+a 0 u 1 0 71 18 hln 100 pin=23
+a 0 u 0 0 80 20 hln 100 ERC=b
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 18 12 dln 100 Vcc_24 n 20 0 d
+a 0 u 1 0 22 9 drn 100 pin=24
+a 0 u 0 0 20 0 hln 100 ERC=p
+a 0 u 0 0 20 0 hln 100 FLOAT=n
+@graphics 80 140 0 20 10
+r 0 10 10 70 130

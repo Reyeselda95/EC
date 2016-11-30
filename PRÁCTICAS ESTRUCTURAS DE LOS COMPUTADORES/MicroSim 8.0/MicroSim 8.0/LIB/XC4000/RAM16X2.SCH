@@ -1,0 +1,187 @@
+*version 6.3 580294175
+u 159
+XC4000 74676971
+U? 3
+@libraries
+XC4000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 2711 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 160 IF_OUT 850 240 h
+a 0 s 3 0 20 8 hln 80 LABEL=O0
+port 161 IF_IN 290 240 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 162 IF_IN 290 440 h
+a 0 s 3 0 10 8 hln 80 LABEL=WE
+port 163 IF_IN 290 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+port 164 IF_IN 290 500 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 165 IF_IN 290 480 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 166 IF_IN 290 460 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 167 IF_IN 290 420 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 168 IF_OUT 850 420 h
+a 0 s 3 0 20 8 hln 80 LABEL=O1
+@parts
+part 20 RAM16X1 510 240 h
+a 0 sp 9 0 80 160 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=RAM16X1
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 21 RAM16X1 510 420 h
+a 0 sp 9 0 80 160 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=RAM16X1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+@conn
+w 23
+s 290 420 510 420 22
+a 0 s 3 0 300 420 hln 100 LABEL=D1
+w 31
+s 630 420 850 420 30
+a 0 s 3 0 820 420 hln 100 LABEL=O1
+w 42
+s 290 440 400 440 38
+a 0 s 3 0 300 440 hln 100 LABEL=WE
+s 400 440 400 260 40
+s 400 260 510 260 39
+s 400 440 510 440 41
+w 63
+s 290 460 420 460 59
+a 0 s 3 0 300 460 hln 100 LABEL=A0
+s 420 460 510 460 60
+s 420 460 420 280 62
+s 420 280 510 280 61
+w 84
+s 290 480 440 480 80
+a 0 s 3 0 300 480 hln 100 LABEL=A1
+s 440 480 510 480 81
+s 440 480 440 300 83
+s 440 300 510 300 82
+w 105
+s 290 500 460 500 101
+a 0 s 3 0 300 500 hln 100 LABEL=A2
+s 460 500 510 500 102
+s 460 500 460 320 104
+s 460 320 510 320 103
+w 126
+s 290 520 480 520 122
+a 0 s 3 0 300 520 hln 100 LABEL=A3
+s 480 520 480 340 124
+s 480 340 510 340 123
+s 480 520 510 520 125
+w 144
+s 290 240 510 240 143
+a 0 s 3 0 300 240 hln 100 LABEL=D0
+w 152
+s 630 240 850 240 151
+a 0 s 3 0 820 240 hln 100 LABEL=O0
+@junction
+j 510 420
++ p 21 D
++ w 23
+j 630 420
++ p 21 O
++ w 31
+j 400 440
++ w 42
++ w 42
+j 510 260
++ p 20 WE
++ w 42
+j 510 440
++ p 21 WE
++ w 42
+j 420 460
++ w 63
++ w 63
+j 510 280
++ p 20 A0
++ w 63
+j 510 460
++ p 21 A0
++ w 63
+j 440 480
++ w 84
++ w 84
+j 510 300
++ p 20 A1
++ w 84
+j 510 480
++ p 21 A1
++ w 84
+j 460 500
++ w 105
++ w 105
+j 510 320
++ p 20 A2
++ w 105
+j 510 500
++ p 21 A2
++ w 105
+j 480 520
++ w 126
++ w 126
+j 510 340
++ p 20 A3
++ w 126
+j 510 520
++ p 21 A3
++ w 126
+j 510 240
++ p 20 D
++ w 144
+j 630 240
++ p 20 O
++ w 152
+j 850 240
++ s 160
++ w 152
+j 290 240
++ s 161
++ w 144
+j 290 440
++ s 162
++ w 42
+j 290 520
++ s 163
++ w 126
+j 290 500
++ s 164
++ w 105
+j 290 480
++ s 165
++ w 84
+j 290 460
++ s 166
++ w 63
+j 290 420
++ s 167
++ w 23
+j 850 420
++ s 168
++ w 31
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 750 750 hln 100 XC4000 FAMILY RAM16X2 MACRO
+s 5 710 800 hln 100 9TH MARCH 1993
+s 5 750 770 hln 100 16-DEEP BY 2-WIDE STATIC RAM

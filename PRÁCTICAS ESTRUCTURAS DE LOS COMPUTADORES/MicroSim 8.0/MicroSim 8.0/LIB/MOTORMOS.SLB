@@ -1,0 +1,470 @@
+*version 8.0 616227735
+@index
+symloc MTD2955/MC:motor-pmos 0 173
+symloc MTD2N50/MC:motor-nmos 173 173
+symloc MTD4N20/MC:motor-nmos 346 173
+symloc MTD4P06/MC:motor-pmos 519 173
+symloc MTD5N06/MC:motor-nmos 692 173
+symloc MTH7N45/MC:motor-nmos 865 173
+symloc MTH8N60/MC:motor-nmos 1038 173
+symloc MTM8N60/MC:motor-nmos 1211 173
+symloc MTP2N50/MC:motor-nmos 1384 173
+symloc MTP2P50/MC:motor-pmos 1557 173
+symloc MTP4N50/MC:motor-nmos 1730 173
+symloc MTP4N85/MC:motor-nmos 1903 173
+symloc MTP6N60/MC:motor-nmos 2076 173
+symloc MTP7N20/MC:motor-nmos 2249 173
+symloc MTP8P10/MC:motor-pmos 2422 173
+symloc MTD10N05E/MC:motor-nmos 2595 179
+symloc MTD3055EL/MC:motor-nmos 2774 179
+symloc MTH13N50/MC:motor-nmos 2953 176
+symloc MTH30N20/MC:motor-nmos 3129 176
+symloc MTH40N06/MC:motor-nmos 3305 176
+symloc MTH5N100/MC:motor-nmos 3481 176
+symloc MTM10N100E/MC:motor-nmos 3657 182
+symloc MTM15N40/MC:motor-nmos 3839 176
+symloc MTM24N50E/MC:motor-nmos 4015 179
+symloc MTM26N40E/MC:motor-nmos 4194 179
+symloc MTP12P10/MC:motor-pmos 4373 176
+symloc MTP15N05E/MC:motor-nmos 4549 179
+symloc MTP15N06E/MC:motor-nmos 4728 179
+symloc MTP20P06/MC:motor-pmos 4907 176
+symloc MTP25N06/MC:motor-nmos 5083 176
+symloc MTP25N06L/MC:motor-nmos 5259 179
+symloc MTP25N10E/MC:motor-nmos 5438 179
+symloc MTP3055E/MC:motor-nmos 5617 176
+symloc MTP3055EL/MC:motor-nmos 5793 179
+symloc MTP30N08M/MC:t-nmos 5972 183
+symloc MTP35N06E/MC:motor-nmos 6155 179
+symloc MTP3N100/MC:motor-nmos 6334 176
+symloc MTP40N06M/MC:t-nmos 6510 183
+symloc MTP50N05EL/MC:motor-nmos 6693 182
+symloc MTP50N06E/MC:motor-nmos 6875 179
+symloc motor-pmos 7054 534 b
+symloc motor-nmos 7588 534 b
+symloc copyright 8122 575 b
+symloc t-nmos 8697 1070 b
+*symbol MTD2955/MC ako motor-pmos
+d Motorola p-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTD2955/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTD2955/MC
+*symbol MTD2N50/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTD2N50/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTD2N50/MC
+*symbol MTD4N20/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTD4N20/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTD4N20/MC
+*symbol MTD4P06/MC ako motor-pmos
+d Motorola p-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTD4P06/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTD4P06/MC
+*symbol MTD5N06/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTD5N06/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTD5N06/MC
+*symbol MTH7N45/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTH7N45/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTH7N45/MC
+*symbol MTH8N60/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTH8N60/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTH8N60/MC
+*symbol MTM8N60/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTM8N60/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTM8N60/MC
+*symbol MTP2N50/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP2N50/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP2N50/MC
+*symbol MTP2P50/MC ako motor-pmos
+d Motorola p-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP2P50/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP2P50/MC
+*symbol MTP4N50/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP4N50/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP4N50/MC
+*symbol MTP4N85/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP4N85/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP4N85/MC
+*symbol MTP6N60/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP6N60/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP6N60/MC
+*symbol MTP7N20/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP7N20/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP7N20/MC
+*symbol MTP8P10/MC ako motor-pmos
+d Motorola p-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP8P10/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP8P10/MC
+*symbol MTD10N05E/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTD10N05E/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTD10N05E/MC
+*symbol MTD3055EL/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTD3055EL/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTD3055EL/MC
+*symbol MTH13N50/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTH13N50/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTH13N50/MC
+*symbol MTH30N20/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTH30N20/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTH30N20/MC
+*symbol MTH40N06/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTH40N06/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTH40N06/MC
+*symbol MTH5N100/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTH5N100/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTH5N100/MC
+*symbol MTM10N100E/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTM10N100E/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTM10N100E/MC
+*symbol MTM15N40/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTM15N40/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTM15N40/MC
+*symbol MTM24N50E/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTM24N50E/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTM24N50E/MC
+*symbol MTM26N40E/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTM26N40E/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTM26N40E/MC
+*symbol MTP12P10/MC ako motor-pmos
+d Motorola p-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP12P10/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP12P10/MC
+*symbol MTP15N05E/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP15N05E/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP15N05E/MC
+*symbol MTP15N06E/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP15N06E/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP15N06E/MC
+*symbol MTP20P06/MC ako motor-pmos
+d Motorola p-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP20P06/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP20P06/MC
+*symbol MTP25N06/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP25N06/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP25N06/MC
+*symbol MTP25N06L/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP25N06L/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP25N06L/MC
+*symbol MTP25N10E/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP25N10E/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP25N10E/MC
+*symbol MTP3055E/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP3055E/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP3055E/MC
+*symbol MTP3055EL/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP3055EL/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP3055EL/MC
+*symbol MTP30N08M/MC ako t-nmos
+d Motorola N-Channel TMOS Power FET Device
+@type p
+@attributes
+a 0 sp 11 0 24 82 hcn 100 PART=MTP30N08M/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP30N08M/MC
+*symbol MTP35N06E/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 20 52 hcn 100 PART=MTP35N06E/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP35N06E/MC
+*symbol MTP3N100/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP3N100/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP3N100/MC
+*symbol MTP40N06M/MC ako t-nmos
+d Motorola N-Channel TMOS Power FET Device
+@type p
+@attributes
+a 0 sp 11 0 22 80 hcn 100 PART=MTP40N06M/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP40N06M/MC
+*symbol MTP50N05EL/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP50N05EL/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP50N05EL/MC
+*symbol MTP50N06E/MC ako motor-nmos
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 0 sp 11 0 10 40 hcn 100 PART=MTP50N06E/MC
+a 0 sp 0 0 10 40 hcn 100 MODEL=MTP50N06E/MC
+*symbol motor-pmos b
+d Motorola p-channel mosfet device
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 REFDES=X?
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol motor-nmos b
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 REFDES=X?
+a 0 sp 11 0 10 40 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60
+*symbol t-nmos b
+d Motorola n-channel mosfet device
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 REFDES=X?
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+a 0 sp 11 0 10 60 hcn 100 PART=
+@pins
+p 0 25 70 hcn 100 s n 30 70 v
+a 0 s 0 0 25 72 hcn 100 PIN=5
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 13 52 hln 100 mirror n 0 50 h
+a 0 s 0 0 5 48 hrn 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 s 0 0 35 3 hcn 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 13 42 hln 100 g n 0 40 h
+a 0 s 0 0 5 38 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 13 62 hln 100 kelvin n 0 60 h
+a 0 s 0 0 5 58 hrn 100 PIN=4
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 30 70 0 40 10
+v 0 18 43
+18 37
+;
+v 0 24 40
+24 50
+;
+v 0 30 30
+30 60
+;
+v 0 18 40
+24 40
+;
+v 0 15 10
+15 40
+;
+v 0 15 40
+10 40
+;
+v 0 24 50
+10 50
+;
+v 0 27 60
+10 60
+;
+v 0 27 60
+27 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;

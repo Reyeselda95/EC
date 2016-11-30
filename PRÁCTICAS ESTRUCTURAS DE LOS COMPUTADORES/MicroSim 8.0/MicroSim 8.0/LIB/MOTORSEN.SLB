@@ -1,0 +1,302 @@
+*version 7.2 1302530622
+@index
+symloc MPX10/MC 0 704
+symloc MPX100/MC:10/MC 704 284
+symloc MPX12/MC:10/MC 988 218
+symloc MPX200/MC:10/MC 1206 221
+symloc MPX2010/MC:10/MC 1427 251
+symloc MPX2012/MC:10/MC 1678 251
+symloc MPX2050/MC:10/MC 1929 251
+symloc MPX2051/MC:10/MC 2180 251
+symloc MPX2052/MC:10/MC 2431 251
+symloc MPX2100/MC:10/MC 2682 252
+symloc MPX2101/MC:10/MC 2934 252
+symloc MPX2200/MC:10/MC 3186 250
+symloc MPX2201/MC:10/MC 3436 250
+symloc MPX4100/MC:4100/MC 3686 210
+symloc MPX4101/MC:4100/MC 3896 210
+symloc MPX4115/MC:4100/MC 4106 250
+symloc MPX4250/MC:4100/MC 4356 248
+symloc MPX50/MC:10/MC 4604 218
+symloc MPX5050/MC:4100/MC 4822 253
+symloc MPX5100A/MC:4100/MC 5075 241
+symloc MPX5100D/MC:4100/MC 5316 241
+symloc MPX700/MC:10/MC 5557 222
+symloc MPX7050/MC:10/MC 5779 255
+symloc MPX7100/MC:10/MC 6034 255
+symloc MPX7200/MC:10/MC 6289 253
+symloc 10/MC 6542 838 b
+symloc 4100/MC 7380 714 b
+symloc copyright 8094 575 b
+*symbol MPX10/MC
+d 0 to 1.5 PSI Uncompensated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 44 34 hln 100 PART=MPX10/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX10/MC
+a 0 u 0 0 0 10 hln 100 VDIFF=0
+a 0 u 0 0 0 20 hln 100 VCOM=0
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX10
+@pins
+p 2 -14 46 hln 100 -VO n 0 60 v
+a 0 u 1 0 -5 62 hcn 100 pin=4
+a 0 u 0 0 0 60 hln 100 ERC=o
+p 2 38 46 hln 100 GND n 40 60 v
+a 0 u 1 0 35 62 hcn 100 pin=1
+a 0 u 0 0 40 60 hln 100 ERC=p
+p 2 -9 20 hln 100 VS n 0 0 d
+a 0 u 1 0 5 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=p
+p 2 52 18 hrn 100 +VO n 50 10 u
+a 0 u 1 0 45 8 hln 100 pin=2
+a 0 u 0 0 50 10 hln 100 ERC=o
+@graphics 50 60 0 0 10
+c 0 20 30 20
+v 0 0 10
+40 50
+;
+v 0 40 10
+0 50
+;
+*symbol MPX100/MC ako 10/MC
+d 0 to 14.5 PSI Uncompensated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 44 32 hln 100 PART=MPX100/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX100/MC
+a 0 u 0 0 0 10 hln 100 VDIFF=0
+a 0 u 0 0 0 20 hln 100 VCOM=0
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX100
+*symbol MPX12/MC ako 10/MC
+d 0 to 1.5 PSI Uncompensated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 48 34 hln 100 PART=MPX12/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX12/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX12
+*symbol MPX200/MC ako 10/MC
+d 0 to 29 PSI Uncompensated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 48 34 hln 100 PART=MPX200/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX200/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX200
+*symbol MPX2010/MC ako 10/MC
+d 0 to 1.5 PSI On-Chip Temp. Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 46 32 hln 100 PART=MPX2010/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX2010/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX2010
+*symbol MPX2012/MC ako 10/MC
+d 0 to 1.5 PSI On-Chip Temp. Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 48 32 hln 100 PART=MPX2012/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX2012/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX2012
+*symbol MPX2050/MC ako 10/MC
+d 0 to 7.3 PSI On-Chip Temp. Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 48 34 hln 100 PART=MPX2050/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX2050/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX2050
+*symbol MPX2051/MC ako 10/MC
+d 0 to 7.3 PSI On-Chip Temp. Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 48 34 hln 100 PART=MPX2051/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX2051/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX2051
+*symbol MPX2052/MC ako 10/MC
+d 0 to 7.3 PSI On-Chip Temp. Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 48 34 hln 100 PART=MPX2052/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX2052/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX2052
+*symbol MPX2100/MC ako 10/MC
+d 0 to 14.5 PSI On-Chip Temp. Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 46 34 hln 100 PART=MPX2100/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX2100/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX2100
+*symbol MPX2101/MC ako 10/MC
+d 0 to 14.5 PSI On-Chip Temp. Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 44 34 hln 100 PART=MPX2101/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX2101/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX2101
+*symbol MPX2200/MC ako 10/MC
+d 0 to 29 PSI On-Chip Temp. Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 46 34 hln 100 PART=MPX2200/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX2200/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX2200
+*symbol MPX2201/MC ako 10/MC
+d 0 to 29 PSI On-Chip Temp. Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 46 32 hln 100 PART=MPX2201/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX2201/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX2201
+*symbol MPX4100/MC ako 4100/MC
+d Manifold Absolute Pressure Sensor
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX4100/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX4100
+a 0 sp 11 0 28 60 hln 100 PART=MPX4100/MC
+*symbol MPX4101/MC ako 4100/MC
+d Manifold Absolute Pressure Sensor
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX4101/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX4101
+a 0 sp 11 0 28 60 hln 100 PART=MPX4101/MC
+*symbol MPX4115/MC ako 4100/MC
+d Altimeter/Barometer Pressure Sensor, Temperature Compensated & Calibrated
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX4115/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX4115
+a 0 sp 11 0 30 60 hln 100 PART=MPX4115/MC
+*symbol MPX4250/MC ako 4100/MC
+d Manifold Absolute Pressure Sensor, Temperature Compensated & Calibrated
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX4250/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX4250
+a 0 sp 11 0 28 60 hln 100 PART=MPX4250/MC
+*symbol MPX50/MC ako 10/MC
+d 0 to 7.3 PSI Uncompensated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 46 34 hln 100 PART=MPX50/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX50/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX50
+*symbol MPX5050/MC ako 4100/MC
+d 0 to 7.3 PSI On-Chip Temp. Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX5050/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX5050
+a 0 sp 11 0 26 62 hln 100 PART=MPX5050/MC
+*symbol MPX5100A/MC ako 4100/MC
+d Temperature Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX5100A/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX5100
+a 0 sp 11 0 28 60 hln 100 PART=MPX5100A/MC
+*symbol MPX5100D/MC ako 4100/MC
+d Temperature Compensated & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX5100D/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX5100
+a 0 sp 11 0 24 60 hln 100 PART=MPX5100D/MC
+*symbol MPX700/MC ako 10/MC
+d 0 to 100 PSI Uncompensated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 44 34 hln 100 PART=MPX700/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX700/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX700
+*symbol MPX7050/MC ako 10/MC
+d 0 to 7.3 PSI High Zin, On-Chip Temp. Comp. & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 44 34 hln 100 PART=MPX7050/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX7050/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX7050
+*symbol MPX7100/MC ako 10/MC
+d 0 to 14.5 PSI High Zin,On-Chip Temp. Comp. & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 46 34 hln 100 PART=MPX7100/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX7100/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX7100
+*symbol MPX7200/MC ako 10/MC
+d 0 to 29 PSI High Zin,On-Chip Temp. Comp. & Calibrated, Silicon Pressure Sensor
+@type p
+@attributes
+a 0 sp 11 0 46 34 hln 100 PART=MPX7200/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MPX7200/MC
+a 0 s 0 0 0 10 hln 100 COMPONENT=MPX7200
+*symbol 10/MC b
+d 
+@type p
+@attributes
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %GND %+VO %VS %-VO $U1^@REFDES $U2^@REFDES @MODEL \nVDIFF^@REFDES $U1^@REFDES $U2^@REFDES @VDIFF \nVCOM^@REFDES $U2^@REFDES 0 @VCOM
+a 0 u 0 0 0 10 hln 100 VDIFF=0
+a 0 u 0 0 0 20 hln 100 VCOM=0
+a 0 s 0 0 0 10 hln 100 COMPONENT=
+@pins
+p 2 -14 46 hln 100 -VO n 0 60 v
+a 0 u 1 0 -5 62 hcn 100 pin=4
+a 0 u 0 0 0 60 hln 100 ERC=o
+p 2 38 46 hln 100 GND n 40 60 v
+a 0 u 1 0 35 62 hcn 100 pin=1
+a 0 u 0 0 40 60 hln 100 ERC=p
+p 2 -9 20 hln 100 VS n 0 0 d
+a 0 u 1 0 5 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=p
+p 2 51 18 hrn 100 +VO n 50 10 u
+a 0 u 1 0 45 8 hln 100 pin=2
+a 0 u 0 0 50 10 hln 100 ERC=o
+@graphics 50 60 0 0 10
+c 0 20 30 20
+v 0 0 10
+40 50
+;
+v 0 40 10
+0 50
+;
+*symbol 4100/MC b
+d
+@type p
+@attributes
+a 0 s 9 0 30 6 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %VOUT %GND %VS $U1^@REFDES $U2^@REFDES @MODEL \nVDIFF^@REFDES $U1^@REFDES $U2^@REFDES @VDIFF \nVCOM^@REFDES $U2^@REFDES 0 @VCOM
+a 0 u 0 0 0 10 hln 100 VDIFF=0
+a 0 u 0 0 0 20 hln 100 VCOM=0
+a 0 s 0 0 0 10 hln 100 COMPONENT=
+a 0 sp 11 0 0 10 hlb 100 PART=
+@pins
+p 2 4 18 hln 100 VS n 10 0 d
+a 0 u 1 0 15 3 hcn 100 pin=3
+a 0 u 0 0 10 0 hln 100 ERC=p
+p 2 4 48 hln 100 GND n 10 60 v
+a 0 u 1 0 5 62 hcn 100 pin=2
+a 0 u 0 0 10 60 hln 100 ERC=p
+p 2 37 32 hrn 100 VOUT n 50 30 u
+a 0 u 1 0 45 28 hln 100 pin=1
+a 0 u 0 0 50 30 hln 100 ERC=o
+@graphics 50 60 10 0 10
+r 0 0 10 40 50
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

@@ -1,0 +1,69 @@
+*version 6.2 1342057518
+@index
+symloc IMS-1 0 1338 10 thru
+symloc IMS-2 1338 1499 13 thru
+*footprint IMS-1 10 thru
+@refdes 4
+display  [SilkTop] SilkTop 0 -0.15 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0 -0.15 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.6 0.15 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] -0.29 -0.06 -0.29 0.25 0.008 0
+line [SilkTop] -0.29 0.25 1.49 0.25 0.008 0
+line [SilkTop] 1.49 0.25 1.49 -0.06 0.008 0
+line [SilkTop] 1.49 -0.06 -0.29 -0.06 0.008 0
+line [AssyDrwTop] -0.29 -0.06 -0.29 0.25 0.008 0
+line [AssyDrwTop] -0.29 0.25 1.49 0.25 0.008 0
+line [AssyDrwTop] 1.49 0.25 1.49 -0.06 0.008 0
+line [AssyDrwTop] 1.49 -0.06 -0.29 -0.06 0.008 0
+line [BoundaryTop] -0.3 -0.07 -0.3 0.26 0.008 0
+line [BoundaryTop] -0.3 0.26 1.5 0.26 0.008 0
+line [BoundaryTop] 1.5 0.26 1.5 -0.07 0.008 0
+line [BoundaryTop] 1.5 -0.07 -0.3 -0.07 0.008 0
+centroid [BoundaryTop] 0.6 0.09
+@pins
+pin 2 0.100000 0.000000 0.000000 rnd-065-035 thru
+pin 3 0.300000 0.000000 0.000000 rnd-065-035 thru
+pin 4 0.400000 0.000000 0.000000 rnd-065-035 thru
+pin 5 0.500000 0.000000 0.000000 rnd-065-035 thru
+pin 6 0.600000 0.000000 0.000000 rnd-065-035 thru
+pin 7 0.800000 0.000000 0.000000 rnd-065-035 thru
+pin 8 0.900000 0.000000 0.000000 rnd-065-035 thru
+pin 9 1.000000 0.000000 0.000000 rnd-065-035 thru
+pin 10 1.100000 0.000000 0.000000 rnd-065-035 thru
+pin 1 0.000000 0.000000 0.000000 sq-065-035 thru
+*footprint IMS-2 13 thru
+@refdes 4
+display  [SilkTop] SilkTop 0 -0.15 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0 -0.15 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.9 0.15 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] -0.33 -0.06 -0.33 0.25 0.008 0
+line [SilkTop] -0.33 0.25 2.13 0.25 0.008 0
+line [SilkTop] 2.13 0.25 2.13 -0.06 0.008 0
+line [SilkTop] 2.13 -0.06 -0.33 -0.06 0.008 0
+line [AssyDrwTop] -0.33 -0.06 -0.33 0.25 0.008 0
+line [AssyDrwTop] -0.33 0.25 2.13 0.25 0.008 0
+line [AssyDrwTop] 2.13 0.25 2.13 -0.06 0.008 0
+line [AssyDrwTop] 2.13 -0.06 -0.33 -0.06 0.008 0
+line [BoundaryTop] -0.34 -0.07 -0.34 0.26 0.008 0
+line [BoundaryTop] -0.34 0.26 2.14 0.26 0.008 0
+line [BoundaryTop] 2.14 0.26 2.14 -0.07 0.008 0
+line [BoundaryTop] 2.14 -0.07 -0.34 -0.07 0.008 0
+centroid [BoundaryTop] 0.9 0.09
+@pins
+pin 3 0.300000 0.000000 0.000000 rnd-065-035 thru
+pin 1 0.000000 0.000000 0.000000 sq-065-035 thru
+pin 2 0.200000 0.000000 0.000000 rnd-065-035 thru
+pin 5 0.600000 0.000000 0.000000 rnd-065-035 thru
+pin 4 0.500000 0.000000 0.000000 rnd-065-035 thru
+pin 10 1.400000 0.000000 0.000000 rnd-065-035 thru
+pin 8 1.100000 0.000000 0.000000 rnd-065-035 thru
+pin 6 0.800000 0.000000 0.000000 rnd-065-035 thru
+pin 7 0.900000 0.000000 0.000000 rnd-065-035 thru
+pin 9 1.200000 0.000000 0.000000 rnd-065-035 thru
+pin 11 1.500000 0.000000 0.000000 rnd-065-035 thru
+pin 12 1.700000 0.000000 0.000000 rnd-065-035 thru
+pin 13 1.800000 0.000000 0.000000 rnd-065-035 thru

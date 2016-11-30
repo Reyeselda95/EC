@@ -1,0 +1,23 @@
+* DECODER.STL written by Stimulus Editor version 6.0 -- Wed Jan 19 09:29:06 1994
+.STIMULUS IN0 STIM (1, 1)
++ TIMESTEP = 100ns
++0    0
+++1c  1
+++1c  0
+++1c  1
+++1c  0
+++1c  1
+++1c  0
+++1c  1
+
+.STIMULUS IN1 STIM (1, 1)
++ TIMESTEP = 100ns
++0    0
+++2c  1
+++2c  0
+++2c  1
+
+.STIMULUS IN2 STIM (1, 1)
++ TIMESTEP = 100ns
++0    0
+++4c  1

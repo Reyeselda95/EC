@@ -1,0 +1,54 @@
+" m34 fitter messages
+>Ess m34 section name not valid
+=[34000]         SECTION name %s is not valid for device %s.
+& SECTION_NAME DEVICE
+*The device that you have targeted in the .pi file does not have a subsection
+*that corresponds to the given TARGET of one of the SECTIONs in the .pi file.
+>Es m34 function cannot fit due to grouping needs
+=[34001]         Function %s cannot fit due to grouping constraints.
+& FUNCTION_NAME
+*Placing this function in this device also requires placing a group of
+*other functions, which could not all be placed.  This may happen because of
+*user-defined grouping in the .pi file or because of pre-enable feedback
+*restrictions.
+>M m34 attempt shrunk
+=        Attempting to fit a reduced partition.
+*Identifies an attempt to fit into an AMD Mach device after removing one 
+*or more functions from the prior fit attempt.  The fitter may repeat 
+*fitting attempts at reduced  partitions until a fit is achieved.
+>E m34 failed clock routing
+=[34003]         MACH failed to route clock signals to pal blocks.
+& PARTITION_LEVEL
+*The partitioner could not accomodate the combined clock requirements of
+*the pal blocks as partitioned (check clock polarity, clock pin assignments).
+>Es m34 Clk signal must be on clk pin
+=[34004]         MACH clock signal %s must be assigned to a clock pin
+*The clock signal has been placed on a pin other than a clock pin
+*but needs to be on a clock pin to clock one or more functions.
+>Esd mach Failed to assign nodes
+=[34001]         Failed to find suitable node assignment and signal routing: %s:%d.
+>Es m34 power level mismatch
+=[34005]    Power levels mismatch for signals in block %s.
+& BLOCK_LABEL
+>Ess m34 signal power level mismatch
+=[34006]    %s  %s
+& POWER_LEVEL
+
+>Ess m34 unknown power level
+=[34007]    Unknown power of %s on signal %s in PI file.
+& POWER_LEVEL
+>Ess m34 unknown slew rate
+=[34008]    Unknown slew rate %s value %s in PI file.
+& SLEW_RATE
+
+>Ws m34 Old Low Power Property
+=[34009]    LOW_POWER property on signal %s obsolete, use POWER 'LOW'
+& POWER_LEVEL
+
+
+
+
+
+
+
+

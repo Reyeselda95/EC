@@ -1,0 +1,6303 @@
+*version 8.0 787602880
+@index
+symloc BA582/SIE 0 515
+symloc BA592/SIE 515 516
+symloc BAS116/SIE 1031 507
+symloc BAS125/SIE 1538 507
+symloc BAS16/SIE 2045 504
+symloc BAS21/SIE 2549 504
+symloc BAS40/SIE 3053 501
+symloc BAS70/SIE 3554 501
+symloc BAT18/SIE 4055 502
+symloc BAT62/SIE 4557 493
+symloc BAT64/SIE 5050 501
+symloc BAT68/SIE 5551 501
+symloc BAW56/SIE 6052 815
+symloc BAW78D/SIE 6867 504
+symloc BB804/SIE 7371 847
+symloc BB814/SIE 8218 848
+symloc BB515/SIE 9066 522
+symloc BC848C/SIE 9588 648
+symloc BC857/SIE 10236 646
+symloc BCW66G/SIE 10882 648
+symloc BCW68G/SIE 11530 649
+symloc BCX41/SIE 12179 654
+symloc BCX42/SIE 12833 655
+symloc BCX53/SIE 13488 646
+symloc BCX55/SIE 14134 645
+symloc BCX68/SIE 14779 645
+symloc BCX69/SIE 15424 646
+symloc BCX70J/SIE 16070 648
+symloc BCX71J/SIE 16718 649
+symloc BF775A/SIE 17367 648
+symloc BF799/SIE 18015 645
+symloc BFG196/SIE 18660 648
+symloc BFN22/SIE 19308 645
+symloc BFN26/SIE 19953 645
+symloc BFN23/SIE 20598 646
+symloc BFN27/SIE 21244 646
+symloc BFP180/SIE 21890 648
+symloc BFP181/SIE 22538 648
+symloc BFP182/SIE 23186 648
+symloc BFP183/SIE 23834 648
+symloc BFP193/SIE 24482 648
+symloc BFP196/SIE 25130 648
+symloc BFP405/SIE 25778 648
+symloc BFP420/SIE 26426 648
+symloc BFP450/SIE 27074 648
+symloc BFP81/SIE 27722 645
+symloc BFQ74/SIE 28367 645
+symloc BFQ82/SIE 29012 645
+symloc BFR180/SIE 29657 648
+symloc BFR181/SIE 30305 648
+symloc BFR182/SIE 30953 648
+symloc BFR183/SIE 31601 648
+symloc BFR193/SIE 32249 648
+symloc BFS17P/SIE 32897 648
+symloc BS170/SIE 33545 723
+symloc BSP125/SIE 34268 726
+symloc BSP149/SIE 34994 688
+symloc BSP171/SIE 35682 726
+symloc BSP295/SIE 36408 726
+symloc BSP299/SIE 37134 726
+symloc BSP315/SIE 37860 726
+symloc BSP316/SIE 38586 726
+symloc BSP317/SIE 39312 726
+symloc BSP318/SIE 40038 726
+symloc BSP319/SIE 40764 726
+symloc BSP88/SIE 41490 723
+symloc BSP89/SIE 42213 723
+symloc BSS100/SIE 42936 726
+symloc BSS101/SIE 43662 726
+symloc BSS110/SIE 44388 726
+symloc BSS119/SIE 45114 604
+symloc BSS125/SIE 45718 726
+symloc BSS129/SIE 46444 726
+symloc BSS135/SIE 47170 726
+symloc BSS138/SIE 47896 604
+symloc BSS145/SIE 48500 604
+symloc BSS229/SIE 49104 688
+symloc BSS295/SIE 49792 726
+symloc BSS296/SIE 50518 726
+symloc BSS297/SIE 51244 726
+symloc BSS84/SIE 51970 725
+symloc BSS87/SIE 52695 723
+symloc BSS88/SIE 53418 723
+symloc BSS89/SIE 54141 723
+symloc BSS98/SIE 54864 723
+symloc BUZ10/SIE 55587 741
+symloc BUZ100/SIE 56328 744
+symloc BUZ101/SIE 57072 744
+symloc BUZ102/SIE 57816 744
+symloc BUZ10L/SIE 58560 744
+symloc BUZ12/SIE 59304 741
+symloc BUZ12AL/SIE 60045 747
+symloc BUZ171/SIE 60792 743
+symloc BUZ173/SIE 61535 746
+symloc BUZ20/SIE 62281 744
+symloc BUZ21/SIE 63025 742
+symloc BUZ22/SIE 63767 742
+symloc BUZ271/SIE 64509 744
+symloc BUZ272/SIE 65253 745
+symloc BUZ305/SIE 65998 746
+symloc BUZ30A/SIE 66744 745
+symloc BUZ31/SIE 67489 744
+symloc BUZ310/SIE 68233 747
+symloc BUZ311/SIE 68980 747
+symloc BUZ323/SIE 69727 745
+symloc BUZ325/SIE 70472 747
+symloc BUZ326/SIE 71219 747
+symloc BUZ331/SIE 71966 744
+symloc BUZ334/SIE 72710 745
+symloc BUZ338/SIE 73455 747
+symloc BUZ341/SIE 74202 745
+symloc BUZ344/SIE 74947 745
+symloc BUZ345/SIE 75692 745
+symloc BUZ346/SIE 76437 744
+symloc BUZ350/SIE 77181 745
+symloc BUZ356/SIE 77926 746
+symloc BUZ358/SIE 78672 747
+symloc BUZ40B/SIE 79419 746
+symloc BUZ41A/SIE 80165 746
+symloc BUZ45B/SIE 80911 745
+symloc BUZ50B/SIE 81656 745
+symloc BUZ51/SIE 82401 744
+symloc BUZ53A/SIE 83145 747
+symloc BUZ60/SIE 83892 743
+symloc BUZ61A/SIE 84635 745
+symloc BUZ64/SIE 85380 744
+symloc BUZ70/SIE 86124 741
+symloc BUZ74A/SIE 86865 746
+symloc BUZ76/SIE 87611 741
+symloc BUZ77A/SIE 88352 746
+symloc BUZ78/SIE 89098 743
+symloc BUZ80A/SIE 89841 744
+symloc BUZ81/SIE 90585 741
+symloc BUZ84A/SIE 91326 744
+symloc BUZ90/SIE 92070 743
+symloc BUZ91A/SIE 92813 744
+symloc BUZ92/SIE 93557 743
+symloc SMBT2222A/SIE 94300 664
+symloc SMBT2907A/SIE 94964 664
+symloc SMBT3904/SIE 95628 661
+symloc SMBT3906/SIE 96289 661
+symloc SMBTA06/SIE 96950 652
+symloc SMBTA56/SIE 97602 651
+symloc BUZ211/SIE 98253 744
+symloc BC548C/SIE 98997 648
+symloc BC558B/SIE 99645 649
+*symbol BA582/SIE
+d DIODE, SILICON RF SWITCHING, 40V 130nS
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BA582/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BA582/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=1
+a 0 u 0 0 10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 40 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BA592/SIE
+d DIODE, SILICON RF SWITCHING, 40V 130nS
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BA592/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BA592/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=1
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BAS116/SIE
+d DIODE, SILICON LOW LEAKAGE
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BAS116/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAS116/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=3
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BAS125/SIE
+d DIODE, SILICON LOW LEAKAGE
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BAS125/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAS125/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=3
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BAS16/SIE
+d DIODE, SILICON LOW LEAKAGE
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BAS16/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAS16/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=3
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BAS21/SIE
+d DIODE, SILICON LOW LEAKAGE
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BAS21/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAS21/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=3
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BAS40/SIE
+d DIODE, SILICON SCHOTTKY
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BAS40/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAS40/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=3
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BAS70/SIE
+d DIODE, SILICON SCHOTTKY
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BAS70/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAS70/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=3
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BAT18/SIE
+d DIODE, SILICON RF SWITCH
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BAT18/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAT18/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 s 0 0 25 8 hln 100 PIN=3
+a 0 s 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 s 0 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 10 10
+12 10
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+*symbol BAT62/SIE
+d DIODE, SCHOTTKY
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 4 27 hln 100 PART=BAT62/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAT62/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 1 0 25 8 hln 100 PIN=4
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BAT64/SIE
+d DIODE, SILICON SCHOTTKY
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BAT64/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAT64/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=3
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BAT68/SIE
+d DIODE, SILICON SCHOTTKY
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BAT68/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAT68/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=3
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BAW56/SIE
+d Small Signal Dual Switching Diodes
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 6 46 hln 100 PART=BAW56/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAW56/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Da^@REFDES %CA %K1 @MODEL ?VALUE/@VALUE/\n Db^@REFDES %CA %K2 @MODEL ?value/@value/
+a 0 u 13 0 0 10 hln 100 VALUE=
+@pins
+p 0 27 32 hrn 100 K2 n 40 30 u
+a 0 s 1 0 35 28 hln 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 0 27 12 hrn 100 K1 n 40 10 u
+a 0 s 1 0 35 8 hln 100 PIN=1
+a 0 s 0 0 60 10 hln 100 ERC=x
+p 0 13 22 hln 100 CA n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=3
+a 0 s 0 0 0 20 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 20 10
+10 10
+;
+v 0 10 10
+10 30
+;
+v 0 10 30
+20 30
+;
+v 0 30 5
+30 15
+;
+v 0 20 10
+22 10
+;
+v 0 22 5
+22 15
+30 10
+22 5
+;
+v 0 30 25
+30 35
+;
+v 0 20 30
+22 30
+;
+v 0 22 25
+22 35
+30 30
+22 25
+;
+*symbol BAW78D/SIE
+d DIODE, SILICON SCHOTTKY
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 30 hln 100 PART=BAW78D/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BAW78D/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 0 0 25 8 hln 100 PIN=2
+a 0 u 0 0 -10 10 hln 100 ERC=x
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 20 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BB804/SIE
+d DIODE, SILICON VARICAP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 6 46 hln 100 PART=BB804/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BB804/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Da^@REFDES %A1 %CK @MODEL ?VALUE/@VALUE/\n Db^REFDES %A2 %CK @MODEL ?value/@value/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 13 32 hln 100 A2 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 -40 30 hln 100 ERC=x
+p 0 13 12 hln 100 A1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 20 10 hln 100 ERC=x
+p 0 27 22 hrn 100 CK n 40 20 u
+a 0 s 1 0 35 18 hln 100 PIN=3
+a 0 s 0 0 40 20 hln 100 ERC=x
+@graphics 40 40 0 10 10
+v 0 20 10
+30 10
+;
+v 0 30 10
+30 30
+;
+v 0 30 30
+20 30
+;
+v 0 20 5
+20 15
+;
+a 0 24 6 22 10 24 14 
+v 0 10 10
+12 10
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 20 25
+20 35
+;
+a 0 24 26 22 30 24 34 
+v 0 10 30
+12 30
+;
+v 0 12 25
+12 35
+20 30
+12 25
+;
+*symbol BB814/SIE
+d DIODE, SILICON VARICAP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 6 46 hln 100 PART=BB814/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BB814/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Da^@REFDES %A1 %CK @MODEL ?VALUE/@VALUE/\n Db^@REFDES %A2 %CK @MODEL ?value/@value/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 13 32 hln 100 A2 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 -40 30 hln 100 ERC=x
+p 0 13 12 hln 100 A1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 20 10 hln 100 ERC=x
+p 0 27 22 hrn 100 CK n 40 20 u
+a 0 s 1 0 35 18 hln 100 PIN=3
+a 0 s 0 0 40 20 hln 100 ERC=x
+@graphics 40 40 0 10 10
+v 0 20 10
+30 10
+;
+v 0 30 10
+30 30
+;
+v 0 30 30
+20 30
+;
+v 0 20 5
+20 15
+;
+a 0 24 6 22 10 24 14 
+v 0 10 10
+12 10
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 20 25
+20 35
+;
+a 0 24 26 22 30 24 34 
+v 0 10 30
+12 30
+;
+v 0 12 25
+12 35
+20 30
+12 25
+;
+*symbol BB515/SIE
+d DIODE, SILICON VARICAP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 3 26 hln 100 PART=BB515/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BB515/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 s 0 0 5 8 hrn 100 PIN=2
+a 0 s 0 0 -40 10 hln 100 ERC=x
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 s 0 0 25 8 hln 100 PIN=1
+a 0 s 0 0 50 10 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+a 0 24 6 22 10 24 14 
+v 0 10 10
+12 10
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+*symbol BC848C/SIE
+d TRANSISTOR, NPN AF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 14 48 hcn 100 PART=BC848C/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BC848C/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BC857/SIE
+d TRANSISTOR PNP AF
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 17 22 hln 100 PART=BC857/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BC857/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BCW66G/SIE
+d TRANSISTOR, NPN AF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 14 48 hcn 100 PART=BCW66G/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BCW66G/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BCW68G/SIE
+d TRANSISTOR PNP AF
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=BCW68G/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BCW68G/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BCX41/SIE
+d TRANSISTOR, NPN AF & SWITCH
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 16 48 hcn 100 PART=BCX41/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BCX41/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BCX42/SIE
+d TRANSISTOR PNP AF & SWITCH
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=BCX42/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BCX42/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BCX53/SIE
+d TRANSISTOR PNP AF
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=BCX53/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BCX53/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BCX55/SIE
+d TRANSISTOR, NPN AF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 34 22 hcn 100 PART=BCX55/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BCX55/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BCX68/SIE
+d TRANSISTOR, NPN AF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 34 22 hcn 100 PART=BCX68/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BCX68/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BCX69/SIE
+d TRANSISTOR PNP AF
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BCX69/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BCX69/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BCX70J/SIE
+d TRANSISTOR, NPN AF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 38 22 hcn 100 PART=BCX70J/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BCX70J/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BCX71J/SIE
+d TRANSISTOR PNP AF
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BCX71J/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BCX71J/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BF775A/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BF775A/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BF775A/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BF799/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 34 24 hcn 100 PART=BF799/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BF799/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG196/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFG196/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG196/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFN22/SIE
+d TRANSISTOR, NPN HV
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 34 22 hcn 100 PART=BFN22/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFN22/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFN26/SIE
+d TRANSISTOR, NPN HV
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 34 22 hcn 100 PART=BFN26/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFN26/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFN23/SIE
+d TRANSISTOR PNP HV
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BFN23/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BFN23/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BFN27/SIE
+d TRANSISTOR PNP HV
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BFN27/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BFN27/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BFP180/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 28 22 hcn 100 PART=BFP180/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP180/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP181/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 38 22 hcn 100 PART=BFP181/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP181/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP182/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFP182/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP182/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP183/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 38 22 hcn 100 PART=BFP183/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP183/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP193/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFP193/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP193/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP196/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFP196/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP196/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP405/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFP405/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP405/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP420/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 38 22 hcn 100 PART=BFP420/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP420/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP450/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFP450/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP450/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP81/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 34 22 hcn 100 PART=BFP81/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP81/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ74/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 34 22 hcn 100 PART=BFQ74/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ74/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ82/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 34 22 hcn 100 PART=BFQ82/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ82/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR180/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFR180/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR180/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR181/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 38 22 hcn 100 PART=BFR181/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR181/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR182/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 38 22 hcn 100 PART=BFR182/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR182/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR183/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFR183/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR183/SIE
+a 0 u 0 0 0 20 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR193/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFR193/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR193/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFS17P/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 38 22 hcn 100 PART=BFS17P/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFS17P/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BS170/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BS170/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BS170/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=1
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSP125/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 -1 46 hln 100 PART=BSP125/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP125/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSP149/SIE
+d TRANSISTOR N CHANNEL DEPLETION
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 -1 46 hln 100 PART=BSP149/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP149/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 7
+20 33
+;
+*symbol BSP171/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 -1 46 hln 100 PART=BSP171/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP171/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSP295/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 -1 46 hln 100 PART=BSP295/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP295/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSP299/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 -1 46 hln 100 PART=BSP299/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP299/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSP315/SIE
+d TRANSISTOR P-CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 22 23 hln 100 PART=BSP315/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP315/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol BSP316/SIE
+d TRANSISTOR P-CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 22 23 hln 100 PART=BSP316/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP316/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol BSP317/SIE
+d TRANSISTOR P-CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 22 23 hln 100 PART=BSP317/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP317/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol BSP318/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 24 hln 100 PART=BSP318/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP318/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSP319/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSP319/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP319/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSP88/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 24 hln 100 PART=BSP88/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP88/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSP89/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSP89/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSP89/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS100/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS100/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS100/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=1
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS101/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 24 hln 100 PART=BSS101/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS101/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=1
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS110/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS110/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS110/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=1
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS119/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %G %S %D @MODEL
+a 0 s 9 0 14 10 hcn 100 REFDES=Q?
+a 0 sp 11 0 49 22 hcn 100 PART=BSS119/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BSS119/SIE
+@pins
+p 0 15 40 hcn 100 S n 20 40 v
+a 0 s 0 0 15 42 hcn 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 D n 20 0 d
+a 0 s 0 0 25 3 hcn 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BSS125/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS125/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS125/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS129/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS129/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS129/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS135/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS135/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS135/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS138/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %G %S %D @MODEL
+a 0 s 9 0 14 10 hcn 100 REFDES=Q?
+a 0 sp 11 0 47 22 hcn 100 PART=BSS138/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BSS138/SIE
+@pins
+p 0 15 40 hcn 100 S n 20 40 v
+a 0 s 0 0 15 42 hcn 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 D n 20 0 d
+a 0 s 0 0 25 3 hcn 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BSS145/SIE
+d TRANSISTOR, NPN RF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %G %S %D @MODEL
+a 0 s 9 0 14 10 hcn 100 REFDES=Q?
+a 0 sp 11 0 49 22 hcn 100 PART=BSS145/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BSS145/SIE
+@pins
+p 0 15 40 hcn 100 S n 20 40 v
+a 0 s 0 0 15 42 hcn 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 D n 20 0 d
+a 0 s 0 0 25 3 hcn 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BSS229/SIE
+d TRANSISTOR N CHANNEL DEPLETION
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS229/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS229/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 7
+20 33
+;
+*symbol BSS295/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS295/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS295/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS296/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS296/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS296/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS297/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS297/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS297/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS84/SIE
+d TRANSISTOR, N-CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %G %S %D @MODEL
+a 0 s 9 0 14 10 hcn 100 refdes=Q?
+a 0 sp 11 0 45 22 hcn 100 PART=BSS84/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BSS84/SIE
+@pins
+p 0 25 40 hcn 100 S n 30 40 v
+a 0 u 0 0 25 42 hcn 100 pin=2
+a 0 u 0 0 10 0 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 D n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=3
+a 0 u 0 0 10 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS87/SIE
+d TRANSISTOR N-CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 22 22 hln 100 PART=BSS87/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS87/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS88/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS88/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS88/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS89/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS89/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS89/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BSS98/SIE
+d TRANSISTOR N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BSS98/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS98/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=1
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ10/SIE
+d TRANSISTOR, POWER, 50V, 23A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ10/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ10/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ100/SIE
+d TRANSISTOR, POWER, 50V, 50A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ100/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ100/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ101/SIE
+d TRANSISTOR, POWER, 50V, 29A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ101/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ101/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ102/SIE
+d TRANSISTOR, POWER, 50V, 42A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ102/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ102/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ10L/SIE
+d TRANSISTOR, POWER, 50V, 23A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ10L/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ10L/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ12/SIE
+d TRANSISTOR, POWER, 50V, 42A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ12/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ12/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ12AL/SIE
+d TRANSISTOR, POWER, 50V, 42A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 22 22 hln 100 PART=BUZ12AL/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ12AL/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ171/SIE
+d TRANSISTOR, POWER, 50V, 8A, P-CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 22 23 hln 100 PART=BUZ171/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ171/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol BUZ173/SIE
+d TRANSISTOR, POWER, 200V, 3.6A, P-CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 22 23 hln 100 PART=BUZ173/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ173/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %g %s %d @MODEL
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol BUZ20/SIE
+d TRANSISTOR, POWER, 100V, 13.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ20/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ20/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ21/SIE
+d TRANSISTOR, POWER, 100V, 21A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 -1 46 hln 100 PART=BUZ21/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ21/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ22/SIE
+d TRANSISTOR, POWER, 100V, 34A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ22/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ22/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ271/SIE
+d TRANSISTOR, POWER, 50V, 22A, P-CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 22 23 hln 100 PART=BUZ271/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ271/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol BUZ272/SIE
+d TRANSISTOR, POWER, 100V, 15A, P-CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 22 23 hln 100 PART=BUZ272/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ272/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol BUZ305/SIE
+d TRANSISTOR, POWER, 800V, 7.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ305/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ305/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ30A/SIE
+d TRANSISTOR, POWER, 200V, 21A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ30A/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ30A/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ31/SIE
+d TRANSISTOR, POWER, 200V, 13.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ31/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ31/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ310/SIE
+d TRANSISTOR, POWER, 1000V, 2.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ310/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ310/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ311/SIE
+d TRANSISTOR, POWER, 1000V, 2.3A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ311/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ311/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ323/SIE
+d TRANSISTOR, POWER, 400V, 15A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ323/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ323/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ325/SIE
+d TRANSISTOR, POWER, 400V, 12.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ325/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ325/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ326/SIE
+d TRANSISTOR, POWER, 400V, 10.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ326/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ326/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ331/SIE
+d TRANSISTOR, POWER, 500V, 8A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ331/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ331/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ334/SIE
+d TRANSISTOR, POWER, 600V, 12A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ334/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ334/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ338/SIE
+d TRANSISTOR, POWER, 500V, 13.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ338/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ338/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ341/SIE
+d TRANSISTOR, POWER, 200V, 33A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ341/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ341/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ344/SIE
+d TRANSISTOR, POWER, 100V, 50A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ344/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ344/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ345/SIE
+d TRANSISTOR, POWER, 100V, 41A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ345/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ345/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ346/SIE
+d TRANSISTOR, POWER, 50V, 58A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 24 hln 100 PART=BUZ346/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ346/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ350/SIE
+d TRANSISTOR, POWER, 200V, 22A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ350/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ350/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ356/SIE
+d TRANSISTOR, POWER, 800V, 5.3A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ356/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ356/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ358/SIE
+d TRANSISTOR, POWER, 1000V, 4.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ358/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ358/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ40B/SIE
+d TRANSISTOR, POWER, 500V, 8.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ40B/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ40B/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ41A/SIE
+d TRANSISTOR, POWER, 500V, 4.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ41A/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ41A/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ45B/SIE
+d TRANSISTOR, POWER, 500V, 10A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ45B/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ45B/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=1
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ50B/SIE
+d TRANSISTOR, POWER, 1000V, 2A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ50B/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ50B/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ51/SIE
+d TRANSISTOR, POWER, 1000V, 3.4A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ51/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ51/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ53A/SIE
+d TRANSISTOR, POWER, 1000V, 2.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 24 hln 100 PART=BUZ53A/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ53A/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=1
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ60/SIE
+d TRANSISTOR, POWER, 400V, 5.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ60/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ60/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ61A/SIE
+d TRANSISTOR, POWER, 400V, 11A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ61A/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ61A/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ64/SIE
+d TRANSISTOR, POWER, 400V, 11.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ64/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ64/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=1
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ70/SIE
+d TRANSISTOR, POWER, 60V, 12A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ70/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ70/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ74A/SIE
+d TRANSISTOR, POWER, 500V, 2.1A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ74A/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ74A/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ76/SIE
+d TRANSISTOR, POWER, 400V, 3A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ76/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ76/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ77A/SIE
+d TRANSISTOR, POWER, 600V, 2.7A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ77A/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ77A/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ78/SIE
+d TRANSISTOR, POWER, 800V, 1.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ78/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ78/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ80A/SIE
+d TRANSISTOR, POWER, 800V, 3A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ80A/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ80A/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ81/SIE
+d TRANSISTOR, POWER, 800V, 4A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ81/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ81/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ84A/SIE
+d TRANSISTOR, POWER, 800V, 6A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ84A/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ84A/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=1
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ90/SIE
+d TRANSISTOR, POWER, 600V, 4.5A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ90/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ90/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ91A/SIE
+d TRANSISTOR, POWER, 600V, 8A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ91A/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ91A/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BUZ92/SIE
+d TRANSISTOR, POWER, 600V, 3.3A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ92/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ92/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=3
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=2
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol SMBT2222A/SIE
+d TRANSISTOR, NPN SWITCHING
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 44 22 hcn 100 PART=SMBT2222A/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=SMBT2222A/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol SMBT2907A/SIE
+d TRANSISTOR, PNP SWITCHING
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 44 22 hcn 100 PART=SMBT2907A/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=SMBT2907A/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol SMBT3904/SIE
+d TRANSISTOR, NPN SWITCHING
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 42 22 hcn 100 PART=SMBT3904/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=SMBT3904/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol SMBT3906/SIE
+d TRANSISTOR, PNP SWITCHING
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 42 22 hcn 100 PART=SMBT3906/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=SMBT3906/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol SMBTA06/SIE
+d TRANSISTOR, NPN AF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VAALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 22 hcn 100 PART=SMBTA06/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=SMBTA06/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol SMBTA56/SIE
+d TRANSISTOR, PNP AF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 38 22 hcn 100 PART=SMBTA56/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=SMBTA56/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BUZ211/SIE
+d TRANSISTOR, POWER, 500V, 9A, N CHANNEL ENHANCEMENT
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 23 22 hln 100 PART=BUZ211/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BUZ211/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %G %S %D @MODEL
+@pins
+p 0 28 27 drn 100 S n 30 40 v
+a 0 u 0 0 32 35 dln 100 PIN=1
+a 0 u 0 0 30 40 hln 100 ERC=x
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 28 13 dln 100 D n 30 0 d
+a 0 u 0 0 32 5 drn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol BC548C/SIE
+d TRANSISTOR, NPN AF
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BC548C/SIE
+a 0 sp 0 0 10 40 hcn 100 MODEL=BC548C/SIE
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BC558B/SIE
+d TRANSISTOR PNP AF
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BC558B/SIE
+a 0 sp 0 0 0 0 hln 100 MODEL=BC558B/SIE
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=1
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 40 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;

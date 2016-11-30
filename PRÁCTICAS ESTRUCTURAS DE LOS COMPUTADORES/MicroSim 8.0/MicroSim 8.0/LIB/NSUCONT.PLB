@@ -1,0 +1,19262 @@
+*version 6.3 495162128
+@index
+symloc COP224C 0 294
+symloc COP224C-XXX/D 294 286
+symloc COP224C-XXX/N 580 285
+symloc COP224C-XXX/V 865 285
+symloc COP225C 1150 251
+symloc COP225C-XXX/D 1401 250
+symloc COP225C-XXX/N 1651 249
+symloc COP226C 1900 223
+symloc COP226C-XXX/D 2123 217
+symloc COP226C-XXX/N 2340 216
+symloc COP226C-XXX/WM 2556 217
+symloc COP244C 2773 294
+symloc COP244C-XXX/D 3067 286
+symloc COP244C-XXX/N 3353 285
+symloc COP244C-XXX/V 3638 285
+symloc COP245C 3923 251
+symloc COP245C-XXX/D 4174 250
+symloc COP245C-XXX/N 4424 249
+symloc COP310C 4673 257
+symloc COP310C-XXX/D 4930 250
+symloc COP310C-XXX/N 5180 249
+symloc COP310C-XXX/WM 5429 249
+symloc COP310L 5678 251
+symloc COP310L-XXX/D 5929 250
+symloc COP310L-XXX/N 6179 249
+symloc COP311C 6428 222
+symloc COP311C-XXX/D 6650 216
+symloc COP311C-XXX/N 6866 215
+symloc COP311C-XXX/WM 7081 216
+symloc COP311L 7297 216
+symloc COP311L-XXX/D 7513 216
+symloc COP311L-XXX/N 7729 215
+symloc COP313C 7944 223
+symloc COP313C-XXX/D 8167 217
+symloc COP313C-XXX/N 8384 216
+symloc COP313C-XXX/WM 8600 217
+symloc COP313CH 8817 218
+symloc COP313CH-XXX/D 9035 218
+symloc COP313CH-XXX/N 9253 217
+symloc COP313L 9470 223
+symloc COP313L-XXX/D 9693 217
+symloc COP313L-XXX/N 9910 216
+symloc COP313L-XXX/WM 10126 217
+symloc COP314L 10343 223
+symloc COP314L-XXX/D 10566 217
+symloc COP314L-XXX/N 10783 216
+symloc COP314L-XXX/WM 10999 217
+symloc COP320 11216 286
+symloc COP320-XXX/D 11502 285
+symloc COP320-XXX/N 11787 284
+symloc COP320L 12071 287
+symloc COP320L-XXX/D 12358 286
+symloc COP320L-XXX/N 12644 285
+symloc COP321 12929 256
+symloc COP321-XXX/D 13185 249
+symloc COP321-XXX/N 13434 248
+symloc COP321-XXX/WM 13682 248
+symloc COP321L 13930 257
+symloc COP321L-XXX/D 14187 250
+symloc COP321L-XXX/N 14437 249
+symloc COP321L-XXX/WM 14686 249
+symloc COP322 14935 216
+symloc COP322-XXX/D 15151 216
+symloc COP322-XXX/N 15367 215
+symloc COP322L-XXX/D 15582 217
+symloc COP322L-XXX/N 15799 216
+symloc COP322L-XXX/WM 16015 217
+symloc COP324C 16232 293
+symloc COP324C-XXX/D 16525 286
+symloc COP324C-XXX/N 16811 285
+symloc COP324C-XXX/WM 17096 285
+symloc COP325C 17381 257
+symloc COP325C-XXX/D 17638 250
+symloc COP325C-XXX/N 17888 249
+symloc COP325C-XXX/WM 18137 249
+symloc COP326C 18386 223
+symloc COP326C-XXX/D 18609 217
+symloc COP326C-XXX/N 18826 216
+symloc COP326C-XXX/WM 19042 217
+symloc COP344C 19259 293
+symloc COP344C-XXX/D 19552 286
+symloc COP344C-XXX/N 19838 285
+symloc COP344C-XXX/WM 20123 285
+symloc COP344L 20408 279
+symloc COP344L-XXX/N 20687 285
+symloc COP345C 20972 257
+symloc COP345C-XXX/D 21229 250
+symloc COP345C-XXX/N 21479 249
+symloc COP345C-XXX/WM 21728 249
+symloc COP345L 21977 243
+symloc COP345L-XXX/N 22220 249
+symloc COP401L 22469 348
+symloc COP401L-X/R 22817 320
+symloc COP401L/N 23137 350
+symloc COP401LN-R13 23487 321
+symloc COP401LN-X13 23808 321
+symloc COP402N-5 24129 394
+symloc COP404C 24523 467
+symloc COP404CN 24990 468
+symloc COP404LSN-5 25458 396
+symloc COP410C 25854 257
+symloc COP410C-XXX/D 26111 250
+symloc COP410C-XXX/N 26361 249
+symloc COP410C-XXX/WM 26610 249
+symloc COP410L 26859 251
+symloc COP410L-XXX/D 27110 250
+symloc COP410L-XXX/N 27360 249
+symloc COP411C 27609 222
+symloc COP411C-XXX/D 27831 216
+symloc COP411C-XXX/N 28047 215
+symloc COP411C-XXX/WM 28262 216
+symloc COP411L-XXX/D 28478 216
+symloc COP411L-XXX/N 28694 215
+symloc COP413C 28909 223
+symloc COP413C-XXX/D 29132 217
+symloc COP413C-XXX/N 29349 216
+symloc COP413CH-XXX/D 29565 218
+symloc COP413CH-XXX/N 29783 217
+symloc COP413L-XXX/D 30000 217
+symloc COP413L-XXX/N 30217 216
+symloc COP413L-XXX/WM 30433 217
+symloc COP414L 30650 223
+symloc COP414L-XXX/D 30873 217
+symloc COP414L-XXX/N 31090 216
+symloc COP414L-XXX/WM 31306 217
+symloc COP420 31523 286
+symloc COP420-XXX/D 31809 285
+symloc COP420-XXX/N 32094 284
+symloc COP420L 32378 287
+symloc COP420L-XXX/D 32665 286
+symloc COP420L-XXX/N 32951 285
+symloc COP420P 33236 279
+symloc COP420P-MM2716 33515 286
+symloc COP421 33801 256
+symloc COP421-XXX/D 34057 249
+symloc COP421-XXX/N 34306 248
+symloc COP421-XXX/WM 34554 248
+symloc COP421L-XXX/D 34802 250
+symloc COP421L-XXX/N 35052 249
+symloc COP421L-XXX/WM 35301 249
+symloc COP422 35550 216
+symloc COP422-XXX/D 35766 216
+symloc COP422-XXX/N 35982 215
+symloc COP422L 36197 223
+symloc COP422L-XXX/D 36420 217
+symloc COP422L-XXX/N 36637 216
+symloc COP422L-XXX/WM 36853 217
+symloc COP424C 37070 293
+symloc COP424C-XXX/D 37363 286
+symloc COP424C-XXX/N 37649 285
+symloc COP424C-XXX/WM 37934 285
+symloc COP425C 38219 257
+symloc COP425C-XXX/D 38476 250
+symloc COP425C-XXX/N 38726 249
+symloc COP425C-XXX/WM 38975 249
+symloc COP426C 39224 223
+symloc COP426C-XXX/D 39447 217
+symloc COP426C-XXX/N 39664 216
+symloc COP426C-XXX/WM 39880 217
+symloc COP444C 40097 293
+symloc COP444C-XXX/D 40390 286
+symloc COP444C-XXX/N 40676 285
+symloc COP444C-XXX/WM 40961 285
+symloc COP444CP-MM2716 41246 287
+symloc COP444L 41533 279
+symloc COP444L-XXX/N 41812 285
+symloc COP444LP-MM2716 42097 287
+symloc COP445C 42384 257
+symloc COP445C-XXX/D 42641 250
+symloc COP445C-XXX/N 42891 249
+symloc COP445C-XXX/WM 43140 249
+symloc COP445L 43389 243
+symloc COP445L-XXX/N 43632 249
+symloc COP620C 43881 295
+symloc COP620C-XXX/N 44176 301
+symloc COP622C 44477 230
+symloc COP622C-XXX/N 44707 236
+symloc COP640C 44943 295
+symloc COP640C-XXX/N 45238 301
+symloc COP642C 45539 230
+symloc COP642C-XXX/N 45769 236
+symloc COP6642C 46005 231
+symloc COP6642C-XXX/N 46236 237
+symloc COP66L20C 46473 303
+symloc COP66L20C-XXX/N 46776 303
+symloc COP66L20C-XXX/WM 47079 303
+symloc COP66L22C 47382 238
+symloc COP66L22C-XXX/N 47620 238
+symloc COP66L22C-XXX/WM 47858 239
+symloc COP66L40C 48097 303
+symloc COP66L40C-XXX/N 48400 303
+symloc COP66L40C-XXX/WM 48703 303
+symloc COP66L42C 49006 238
+symloc COP66L42C-XXX/N 49244 238
+symloc COP66L42C-XXX/WM 49482 239
+symloc COP680C 49721 702
+symloc COP680C-XXX/N 50423 376
+symloc COP680C-XXX/V 50799 376
+symloc COP681C 51175 280
+symloc COP681C-XXX/N 51455 280
+symloc COP681C-XXX/WM 51735 280
+symloc COP684 52015 279
+symloc COP684CL-XXX/N 52294 281
+symloc COP684CL-XXX/WM 52575 281
+symloc COP684CS-XXX/N 52856 281
+symloc COP684CS-XXX/WM 53137 281
+symloc COP684EG-XXX/N 53418 281
+symloc COP684EG-XXX/WM 53699 281
+symloc COP688CL-XXX/N 53980 361
+symloc COP688CL-XXX/V 54341 409
+symloc COP688_DIP40X 54750 376
+symloc COP688_PLCC44 55126 408
+symloc COP688CS-XXX/N 55534 377
+symloc COP688CS-XXX/V 55911 409
+symloc COP688EG-XXX/N 56320 377
+symloc COP688EG-XXX/V 56697 409
+symloc COP820C 57106 301
+symloc COP820C-XXX/N 57407 301
+symloc COP820C-XXX/WM 57708 301
+symloc COP820CJ 58009 330
+symloc COP820CJ-XXX/N 58339 302
+symloc COP820CJ-XXX/WM 58641 302
+symloc COP820CJMHD-1 58943 329
+symloc COP822C 59272 236
+symloc COP822C-XXX/N 59508 236
+symloc COP822C-XXX/WM 59744 237
+symloc COP822CJ 59981 264
+symloc COP822CJ-XXX/N 60245 264
+symloc COP822CJ-XXX/WM 60509 238
+symloc COP823CJ 60747 217
+symloc COP823CJ-XXX/WM 60964 224
+symloc COP840C 61188 301
+symloc COP840C-XXX/N 61489 301
+symloc COP840C-XXX/WM 61790 301
+symloc COP842C 62091 236
+symloc COP842C-XXX/N 62327 236
+symloc COP842C-XXX/WM 62563 237
+symloc COP842CMH 62800 232
+symloc COP842CMHD-1 63032 235
+symloc COP8620C 63267 302
+symloc COP8620C-XXX/N 63569 302
+symloc COP8620C-XXX/WM 63871 302
+symloc COP8622C 64173 237
+symloc COP8622C-XXX/N 64410 237
+symloc COP8640C 64647 302
+symloc COP8640C-XXX/N 64949 302
+symloc COP8640C-XXX/WM 65251 302
+symloc COP8640CMHD-1 65553 301
+symloc COP8642C 65854 231
+symloc COP8642C-XXX/N 66085 237
+symloc COP8642CMHD-1 66322 236
+symloc COP86L20C 66558 303
+symloc COP86L20C-XXX/N 66861 303
+symloc COP86L20C-XXX/WM 67164 303
+symloc COP86L22C 67467 238
+symloc COP86L22C-XXX/N 67705 238
+symloc COP86L40C 67943 303
+symloc COP86L40C-XXX/N 68246 303
+symloc COP86L40C-XXX/WM 68549 303
+symloc COP86L42C 68852 238
+symloc COP86L42C-XXX/N 69090 238
+symloc COP8780C 69328 760
+symloc COP8780CEL 70088 394
+symloc COP8780CJ 70482 394
+symloc COP8780CN 70876 393
+symloc COP8780CV 71269 393
+symloc COP8781C 71662 310
+symloc COP8781CJ 71972 298
+symloc COP8781CMC:COP8781CWM 72270 35
+symloc COP8781CN 72305 297
+symloc COP8781CWM 72602 297
+symloc COP8782C 72899 244
+symloc COP8782CJ 73143 233
+symloc COP8782CMC 73376 233
+symloc COP8782CN 73609 232
+symloc COP8782CWM 73841 233
+symloc COP880C 74074 702
+symloc COP880C-XXX/N 74776 376
+symloc COP880C-XXX/V 75152 376
+symloc COP880CMH 75528 704
+symloc COP880CMHEL 76232 374
+symloc COP881C 76606 280
+symloc COP881C-XXX/N 76886 280
+symloc COP881C-XXX/WM 77166 280
+symloc COP881CMH 77446 276
+symloc COP884CF 77722 281
+symloc COP884CFMHD 78003 278
+symloc COP884CGMHD 78281 278
+symloc COP884CL 78559 281
+symloc COP884CLMHD 78840 278
+symloc COP888CF_PLCC44 79118 455
+symloc COP888CFMHD 79573 408
+symloc COP888CFMHEL 79981 451
+symloc COP888CG_DIP40X 80432 378
+symloc COP888CG_CLCC44 80810 410
+symloc COP888CGMHEL 81220 407
+symloc COP888CGMHD 81627 374
+symloc COP888CL_DIP40X 82001 362
+symloc COP888CL_PLCC44 82363 410
+symloc COP888CLMHD 82773 358
+symloc COP888CLMHEL 83131 407
+symloc COP888CS_PLCC44 83538 410
+symloc COP888CSMHD 83948 374
+symloc COP888CSMHEL 84322 407
+symloc COP888EG_DIP40X 84729 378
+symloc COP888EG_PLCC44 85107 410
+symloc COP888EGMHD 85517 374
+symloc COP888EGMHEL 85891 407
+symloc COP888CF_DIP40X 86298 413
+symloc COP888CS_DIP40X 86711 378
+symloc COP920C 87089 301
+symloc COP920C-XXX/N 87390 301
+symloc COP920C-XXX/WM 87691 301
+symloc COP922C 87992 236
+symloc COP922C-XXX/N 88228 236
+symloc COP922C-XXX/WM 88464 237
+symloc COP940C 88701 301
+symloc COP940C-XXX/N 89002 301
+symloc COP940C-XXX/WM 89303 301
+symloc COP942C 89604 230
+symloc COP942C-XXX/N 89834 236
+symloc COP980C 90070 702
+symloc COP980C-XXX/N 90772 376
+symloc COP980C-XXX/V 91148 376
+symloc COP981C 91524 280
+symloc COP981C-XXX/N 91804 280
+symloc COP981C-XXX/WM 92084 280
+symloc COP984 92364 279
+symloc COP984CF-XXX/N 92643 281
+symloc COP984CF-XXX/WM 92924 281
+symloc COP984CL-XXX/N 93205 281
+symloc COP984CL-XXX/WM 93486 281
+symloc COP984CS-XXX/N 93767 281
+symloc COP984CS-XXX/WM 94048 281
+symloc COP988CF-XXX/N 94329 361
+symloc COP988CF-XXX/V 94690 409
+symloc COP988CL-XXX/N 95099 361
+symloc COP988CL-XXX/V 95460 409
+symloc COP988CL_DIP40X 95869 362
+symloc COP988CL_PLCC44 96231 410
+symloc COP988CS-XXX/N 96641 377
+symloc COP988CS-XXX/V 97018 409
+symloc HPC16003 97427 643
+symloc HPC16003EL20 98070 628
+symloc HPC16003EL30 98698 628
+symloc HPC16003U20 99326 632
+symloc HPC16003U30 99958 632
+symloc HPC16003V20:HPC16003EL20 100590 38
+symloc HPC16003V30 100628 627
+symloc HPC16004 101255 641
+symloc HPC16004EL20 101896 626
+symloc HPC16004EL30 102522 626
+symloc HPC16004U20 103148 630
+symloc HPC16004U30 103778 630
+symloc HPC16004V20:HPC16004EL20 104408 38
+symloc HPC16004V30 104446 625
+symloc HPC16064 105071 641
+symloc HPC16064XXX/U20 105712 634
+symloc HPC16064XXX/EL20 106346 630
+symloc HPC16064XXX/EL30 106976 630
+symloc HPC16064XXX/U30 107606 634
+symloc HPC16064XXX/V20 108240 629
+symloc HPC16064XXX/V30 108869 629
+symloc HPC16083 109498 643
+symloc HPC16083XXX/EL20 110141 632
+symloc HPC16083XXX/EL30 110773 632
+symloc HPC16083XXX/U20 111405 636
+symloc HPC16083XXX/U30 112041 636
+symloc HPC16083XXX/V20 112677 631
+symloc HPC16083XXX/V30 113308 631
+symloc HPC167064 113939 625
+symloc HPC167064/EL20 114564 630
+symloc HPC26003 115194 624
+symloc HPC26003V20 115818 627
+symloc HPC26003V30 116445 627
+symloc HPC26004 117072 624
+symloc HPC26004V20 117696 627
+symloc HPC26004V30 118323 627
+symloc HPC26064 118950 624
+symloc HPC26064XXX/V20 119574 631
+symloc HPC26064XXX/V30 120205 631
+symloc HPC26083 120836 624
+symloc HPC26083XXX/V20 121460 631
+symloc HPC26083XXX/V30 122091 631
+symloc HPC36003 122722 624
+symloc HPC36003V20 123346 627
+symloc HPC36003V30 123973 627
+symloc HPC36004 124600 624
+symloc HPC36004V20 125224 627
+symloc HPC36004V30 125851 627
+symloc HPC36064 126478 624
+symloc HPC36064XXX/V20 127102 631
+symloc HPC36064XXX/V30:HPC36064XXX/V20 127733 45
+symloc HPC36083 127778 624
+symloc HPC36083XXX/V20 128402 631
+symloc HPC36083XXX/V30:HPC36083XXX/V20 129033 45
+symloc HPC36104 129078 710
+symloc HPC36104VF20 129788 714
+symloc HPC36104VF30 130502 714
+symloc HPC36164 131216 710
+symloc HPC36164XXX/VF20 131926 718
+symloc HPC36164XXX/VF30 132644 718
+symloc HPC36400E 133362 633
+symloc HPC36400EEL20 133995 630
+symloc HPC36400EV20 134625 629
+symloc HPC46003 135254 1216
+symloc HPC46003V20 136470 627
+symloc HPC46003V30 137097 627
+symloc HPC46003VF20 137724 635
+symloc HPC46003VF30 138359 635
+symloc HPC46004_PLCC 138994 629
+symloc HPC46004_QFP 139623 664
+symloc HPC46004V20 140287 627
+symloc HPC46004V30 140914 627
+symloc HPC46004VF20 141541 664
+symloc HPC46004VF30 142205 664
+symloc HPC46064_PLCC 142869 629
+symloc HPC46064_QFP 143498 664
+symloc HPC46064XXX/VF20 144162 668
+symloc HPC46064XXX/VF30 144830 668
+symloc HPC46064XXX/V20 145498 631
+symloc HPC46083 146129 1216
+symloc HPC46083XXX/VF20 147345 639
+symloc HPC46083XXX/VF30 147984 639
+symloc HPC46083XXX/V20 148623 631
+symloc HPC46100 149254 715
+symloc HPC46104 149969 710
+symloc HPC46104VF20 150679 714
+symloc HPC46104VF30:HPC46104VF20 151393 39
+symloc HPC46164 151432 710
+symloc HPC46164XXX/VF20 152142 718
+symloc HPC46164XXX/VF30 152860 718
+symloc HPC46400E 153578 633
+symloc HPC46400EEL20 154211 630
+symloc HPC46400EV20 154841 629
+symloc HPC467064 155470 625
+symloc HPC467064/EL20 156095 630
+symloc 688_DIP40X 156725 357
+symloc COP820CJMHD-2 157082 329
+symloc COP820CJMHD-3 157411 329
+symloc COP822CJMHD-1 157740 264
+symloc COP822CJMHD-2 158004 264
+symloc COP822CJMHD-3 158268 264
+symloc COP8642CMHD-2 158532 236
+symloc COP8642CMHD-3 158768 236
+symloc COP8640CMHD-2 159004 301
+symloc COP8640CMHD-3 159305 301
+symloc COP842CMHD-2 159606 235
+symloc COP842CMHD-3 159841 235
+symloc COP444 160076 292
+symloc COP884CSMHD 160368 278
+symloc COP413C-XXX/WM 160646 217
+symloc COP688CL_DIP40X 160863 362
+*package COP224C
+@types 1
+g 1
+@pinout
+t CDIP28X,DIP28x,PLCC28
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP224C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP224C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP224C-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP225C
+@types 1
+g 1
+@pinout
+t DIP24X,CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP225C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP225C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP226C
+@types 1
+g 1
+@pinout
+t CDIP20,DIP20,SO20W
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p CKO 1
+p SK 15
+p SO 14
+p VCC 8
+p GND 20
+*package COP226C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p CKO 1
+p SK 15
+p SO 14
+p VCC 8
+p GND 20
+*package COP226C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p CKO 1
+p SK 15
+p SO 14
+p VCC 8
+p GND 20
+*package COP226C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p CKO 1
+p SK 15
+p SO 14
+p VCC 8
+p GND 20
+*package COP244C
+@types 1
+g 1
+@pinout
+t CDIP28X,DIP28X,PLCC28
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP244C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP244C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP244C-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP245C
+@types 1
+g 1
+@pinout
+t DIP24X,CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP245C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP245C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP310C
+@types 1
+g 1
+@pinout
+t DIP24X,CDIP24X,SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP310C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP310C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP310C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP310L
+@types 1
+g 1
+@pinout
+t DIP24X,CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP310L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP310L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP311C
+@types 1
+g 1
+@pinout
+t CDIP20,DIP20,SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP311C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP311C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP311C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP311L
+@types 1
+g 1
+@pinout
+t DIP20,CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP311L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP311L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313C
+@types 1
+g 1
+@pinout
+t DIP20,SO20W,CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313CH
+@types 1
+g 1
+@pinout
+t DIP20,CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313CH-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313CH-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313L
+@types 1
+g 1
+@pinout
+t DIP20,SO20W,CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP313L-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP314L
+@types 1
+g 1
+@pinout
+t DIP20,SO20W,CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP314L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP314L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP314L-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP320
+@types 1
+g 1
+@pinout
+t DIP28X,CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP320-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP320-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP320L
+@types 1
+g 1
+@pinout
+t DIP28X,CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP320L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP320L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP321
+@types 1
+g 1
+@pinout
+t DIP24X,CDIP24X,SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP321-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP321-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP321-XXX/WM
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP321L
+@types 1
+g 1
+@pinout
+t DIP24X,CDIP24X,SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP321L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP321L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP321L-XXX/WM
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP322
+@types 1
+g 1
+@pinout
+t DIP20,CDIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP322-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP322-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP322L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP322L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP322L-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP324C
+@types 1
+g 1
+@pinout
+t DIP28X,CDIP28X,SO28W
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP324C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP324C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP324C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP325C
+@types 1
+g 1
+@pinout
+t CDIP24X,DIP24X,SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP325C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP325C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP325C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP326C
+@types 1
+g 1
+@pinout
+t CDIP20,DIP20,SO20W
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP326C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP326C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP326C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP344C
+@types 1
+g 1
+@pinout
+t CDIP28X,DIP28X,SO28W
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP344C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP344C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP344C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP344L
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP344L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP345C
+@types 1
+g 1
+@pinout
+t CDIP24X,DIP24X,SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP345C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP345C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP345C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP345L
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP345L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP401L
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p SI 23
+p AD/\DATA\ 33
+p CKI 2
+p CKO 1
+p \RESET\ 4
+p L0 21
+p L1 20
+p L2 19
+p L3 18
+p L4 14
+p L5 13
+p L6 12
+p L7 11
+p G0 28
+p G1 29
+p G2 30
+p G3 31
+p GND 22
+p SO 24
+p SK 25
+p SKIP 32
+p IP0 8
+p IP1 7
+p IP2 6
+p IP3 5
+p IP4 3
+p IP5 36
+p IP6 10
+p IP7 9
+p P8 35
+p D0 40
+p D1 39
+p D2 38
+p D3 37
+p VCC 17
+*package COP401L-X/R
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p SI 23
+p AD/\DATA\ 33
+p CKI 2
+p CKO 1
+p \RESET\ 4
+p L0 21
+p L1 20
+p L2 19
+p L3 18
+p L4 14
+p L5 13
+p L6 12
+p L7 11
+p G0 28
+p G1 29
+p G2 30
+p G3 31
+p GND 22
+p SO 24
+p SK 25
+p SKIP 32
+p IP0 8
+p IP1 7
+p IP2 6
+p IP3 5
+p IP4 3
+p IP5 36
+p IP6 10
+p IP7 9
+p P8 35
+p VCC 17
+*package COP401L/N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p SI 23
+p AD/\DATA\ 33
+p CKI 2
+p CKO 1
+p \RESET\ 4
+p L0 21
+p L1 20
+p L2 19
+p L3 18
+p L4 14
+p L5 13
+p L6 12
+p L7 11
+p G0 28
+p G1 29
+p G2 30
+p G3 31
+p GND 22
+p SO 24
+p SK 25
+p SKIP 32
+p IP0 8
+p IP1 7
+p IP2 6
+p IP3 5
+p IP4 3
+p IP5 36
+p IP6 10
+p IP7 9
+p P8 35
+p D0 40
+p D1 39
+p D2 38
+p D3 37
+p VCC 17
+*package COP401LN-R13
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p SI 23
+p AD/\DATA\ 33
+p CKI 2
+p CKO 1
+p \RESET\ 4
+p L0 21
+p L1 20
+p L2 19
+p L3 18
+p L4 14
+p L5 13
+p L6 12
+p L7 11
+p G0 28
+p G1 29
+p G2 30
+p G3 31
+p GND 22
+p SO 24
+p SK 25
+p SKIP 32
+p IP0 8
+p IP1 7
+p IP2 6
+p IP3 5
+p IP4 3
+p IP5 36
+p IP6 10
+p IP7 9
+p P8 35
+p VCC 17
+*package COP401LN-X13
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p SI 23
+p AD/\DATA\ 33
+p CKI 2
+p CKO 1
+p \RESET\ 4
+p L0 21
+p L1 20
+p L2 19
+p L3 18
+p L4 14
+p L5 13
+p L6 12
+p L7 11
+p G0 28
+p G1 29
+p G2 30
+p G3 31
+p GND 22
+p SO 24
+p SK 25
+p SKIP 32
+p IP0 8
+p IP1 7
+p IP2 6
+p IP3 5
+p IP4 3
+p IP5 36
+p IP6 10
+p IP7 9
+p P8 35
+p VCC 17
+*package COP402N-5
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p P9 34
+p SI 23
+p AD/\DATA\ 33
+p CKI 2
+p CKO 1
+p \RESET\ 4
+p L0 21
+p L1 20
+p L2 19
+p L3 18
+p L4 14
+p L5 13
+p L6 12
+p L7 11
+p G0 28
+p G1 29
+p G2 30
+p G3 31
+p GND 22
+p SO 24
+p SK 25
+p SKIP 32
+p IP0 8
+p IP1 7
+p IP2 6
+p IP3 5
+p IP4 3
+p IP5 36
+p IP6 10
+p IP7 9
+p P8 35
+p D0 40
+p D1 39
+p D2 38
+p D3 37
+p VCC 17
+p IN0 26
+p IN1 15
+p IN2 16
+p IN3 27
+*package COP404C
+@types 1
+g 1
+@pinout
+t DIP48X
+g 1
+p CKI 5
+p \DUAL\ 40
+p \MB\ 46
+p CKOI 2
+p \SEL20\ 37
+p \SEL10\ 38
+p SI 26
+p L0 25
+p L1 24
+p L2 23
+p L3 22
+p L4 18
+p L5 17
+p L6 16
+p L7 15
+p I0 30
+p I1 19
+p I2 20
+p I3 31
+p G0 32
+p G1 33
+p G2 34
+p G3 35
+p D0 42
+p D1 45
+p D2 44
+p D3 43
+p A8 41
+p A9 48
+p A10 1
+p SKIP 36
+p SK 29
+p SO 27
+p AD/\DATA\ 39
+p IP0 14
+p IP1 13
+p IP2 12
+p IP3 11
+p IP4 10
+p IP5 9
+p IP6 8
+p IP7 7
+p CKOH 4
+p \RESET\ 6
+p \TIN\ 47
+p VCC 21
+p GND 3
+*package COP404CN
+@types 1
+g 1
+@pinout
+t DIP48X
+g 1
+p CKI 5
+p \DUAL\ 40
+p \MB\ 46
+p CKOI 2
+p \SEL20\ 37
+p \SEL10\ 38
+p SI 26
+p L0 25
+p L1 24
+p L2 23
+p L3 22
+p L4 18
+p L5 17
+p L6 16
+p L7 15
+p I0 30
+p I1 19
+p I2 20
+p I3 31
+p G0 32
+p G1 33
+p G2 34
+p G3 35
+p D0 42
+p D1 45
+p D2 44
+p D3 43
+p A8 41
+p A9 48
+p A10 1
+p SKIP 36
+p SK 29
+p SO 27
+p AD/\DATA\ 39
+p IP0 14
+p IP1 13
+p IP2 12
+p IP3 11
+p IP4 10
+p IP5 9
+p IP6 8
+p IP7 7
+p CKOH 4
+p \RESET\ 6
+p \TIN\ 47
+p VCC 21
+p GND 3
+*package COP404LSN-5
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p P9 34
+p SI 23
+p AD/\DATA\ 33
+p CKI 2
+p CKO 1
+p \RESET\ 4
+p L0 21
+p L1 20
+p L2 19
+p L3 18
+p L4 14
+p L5 13
+p L6 12
+p L7 11
+p G0 28
+p G1 29
+p G2 30
+p G3 31
+p GND 22
+p SO 24
+p SK 25
+p SKIP 32
+p IP0 8
+p IP1 7
+p IP2 6
+p IP3 5
+p IP4 3
+p IP5 36
+p IP6 10
+p IP7 9
+p P8 35
+p D0 40
+p D1 39
+p D2 38
+p D3 37
+p VCC 17
+p IN0 26
+p IN1 15
+p IN2 16
+p IN3 27
+*package COP410C
+@types 1
+g 1
+@pinout
+t DIP24X,CDIP24X,SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP410C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP410C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP410C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP410L
+@types 1
+g 1
+@pinout
+t DIP24X,CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP410L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP410L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p CKO 2
+p SK 16
+p SO 15
+p VCC 9
+p GND 1
+*package COP411C
+@types 1
+g 1
+@pinout
+t DIP20,CDIP20,SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP411C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP411C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP411C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP411L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP411L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p D0 15
+p D1 14
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP413C
+@types 1
+g 1
+@pinout
+t CDIP20,DIP20,SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP413C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP413C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP413CH-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP413CH-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP413L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP413L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP413L-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP414L
+@types 1
+g 1
+@pinout
+t CDIP20,DIP20,SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP414L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP414L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP414L-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP420
+@types 1
+g 1
+@pinout
+t DIP28X,CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP420-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP420-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP420L
+@types 1
+g 1
+@pinout
+t DIP28X,CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP420L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP420L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP420P
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP420P-MM2716
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP421
+@types 1
+g 1
+@pinout
+t DIP24X,CDIP24X,SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP421-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP421-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP421-XXX/WM
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP421L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP421L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP421L-XXX/WM
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP422
+@types 1
+g 1
+@pinout
+t CDIP20,DIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP422-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP422-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP422L
+@types 1
+g 1
+@pinout
+t CDIP20,DIP20,SO20W
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP422L-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP422L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP422L-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP424C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W,CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP424C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP424C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP424C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP425C
+@types 1
+g 1
+@pinout
+t DIP24X,SO24W,CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP425C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP425C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP425C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP426C
+@types 1
+g 1
+@pinout
+t CDIP20,DIP20,SO20W
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP426C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP426C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP426C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 13
+p CKI 2
+p \RESET\ 3
+p L0 12
+p L1 11
+p L2 10
+p L3 9
+p L4 7
+p L5 6
+p L6 5
+p L7 4
+p D2 19
+p D3 18
+p G2 16
+p G3 17
+p SK 15
+p SO 14
+p CKO 1
+p VCC 8
+p GND 20
+*package COP444C
+@types 1
+g 1
+@pinout
+t DIP28X,CDIP28X,SO28W
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP444C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP444C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP444C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP444CP-MM2716
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP444L
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP444L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP444LP-MM2716
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP445C
+@types 1
+g 1
+@pinout
+t DIP24X,SO24W,CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP445C-XXX/D
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP445C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP445C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP445L
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP445L-XXX/N
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p SI 14
+p CKI 3
+p \RESET\ 4
+p L0 13
+p L1 12
+p L2 11
+p L3 10
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 24
+p D1 23
+p D2 22
+p D3 21
+p G0 17
+p G1 18
+p G2 19
+p G3 20
+p SO 15
+p SK 16
+p CKO 2
+p GND 1
+p VCC 9
+*package COP620C
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP620C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP622C
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP622C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP640C
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP640C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP642C
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP642C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP6642C
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP6642C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP66L20C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP66L20C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP66L20C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP66L22C
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP66L22C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP66L22C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP66L40C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP66L40C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP66L40C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP66L42C
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP66L42C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP66L42C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP680C
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+*package COP680C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP680C-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+*package COP681C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP681C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP681C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP684
+@types 1
+g 1
+@pinout
+t SO28W,DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP684CL-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP684CL-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP684CS-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP684CS-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP684EG-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP684EG-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP688CL-XXX/N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP688CL-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP688_DIP40X
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I7 16
+p I6 15
+*package COP688_PLCC44
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP688CS-XXX/N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I7 16
+p I6 15
+*package COP688CS-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP688EG-XXX/N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I7 16
+p I6 15
+*package COP688EG-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP820C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP820C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP820C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP820CJ
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0/CMPOUT 11
+p L1/CMPIN- 12
+p L2/CMPIN+ 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7/MODOUT 18
+p GND 23
+*package COP820CJ-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP820CJ-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP820CJMHD-1
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0/CMPOUT 11
+p L1/CMPIN- 12
+p L2/CMPIN+ 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7/MODOUT 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p GND 23
+*package COP822C
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP822C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP822C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP822CJ
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0/CMPOUT 7
+p L1/CMPIN- 8
+p L2/CMPIN+ 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7MODOUT 14
+p VCC 6
+p GND 15
+*package COP822CJ-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0/CMPOUT 7
+p L1/CMPIN- 8
+p L2/CMPIN+ 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7MODOUT 14
+p VCC 6
+p GND 15
+*package COP822CJ-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP823CJ
+@types 1
+g 1
+@pinout
+t SO16W
+g 1
+p CKI 3
+p \RESET\ 14
+p L0/CMPOUT 5
+p L1/CMPIN- 6
+p L2/CMPIN+ 7
+p L3 8
+p L4 9
+p L5 10
+p L6 11
+p L7/MODOUT 12
+p G3/TIO 15
+p G5 16
+p G6/SI 1
+p G7/CKO 2
+p VCC 4
+p GND 13
+*package COP823CJ-XXX/WM
+@types 1
+g 1
+@pinout
+t SO16W
+g 1
+p CKI 3
+p \RESET\ 14
+p L0/CMPOUT 5
+p L1/CMPIN- 6
+p L2/CMPIN+ 7
+p L3 8
+p L4 9
+p L5 10
+p L6 11
+p L7/MODOUT 12
+p G3/TIO 15
+p G5 16
+p G6/SI 1
+p G7/CKO 2
+p VCC 4
+p GND 13
+*package COP840C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP840C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP840C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP842C
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP842C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP842C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP842CMH
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP842CMHD-1
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP8620C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP8620C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP8620C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP8622C
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP8622C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP8640C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP8640C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP8640C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP8640CMHD-1
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p GND 23
+*package COP8642C
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP8642C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP8642CMHD-1
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP86L20C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP86L20C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP86L20C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP86L22C
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP86L22C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP86L40C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP86L40C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP86L40C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP86L42C
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP86L42C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP8780C
+@types 1
+g 1
+@pinout
+t CLCC44,PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0/INT 39
+p G1 40
+p G2 41
+p G3/TIO 42
+p G4/SO 3
+p G5/SK 4
+p G6/SI 5
+p G7/CKO 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p I6 15
+p I7 16
+t DIP40X,CDIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0/INT 35
+p G1 36
+p G2 37
+p G3/TIO 38
+p G4/SO 3
+p G5/SK 4
+p G6/SI 5
+p G7/CKO 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I6 15
+p I7 16
+*package COP8780CEL
+@types 1
+g 1
+@pinout
+t CLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0/INT 39
+p G1 40
+p G2 41
+p G3/TIO 42
+p G4/SO 3
+p G5/SK 4
+p G6/SI 5
+p G7/CKO 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+*package COP8780CJ
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0/INT 35
+p G1 36
+p G2 37
+p G3/TIO 38
+p G4/SO 3
+p G5/SK 4
+p G6/SI 5
+p G7/CKO 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I6 15
+p I7 16
+*package COP8780CN
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0/INT 35
+p G1 36
+p G2 37
+p G3/TIO 38
+p G4/SO 3
+p G5/SK 4
+p G6/SI 5
+p G7/CKO 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I6 15
+p I7 16
+*package COP8780CV
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0/INT 39
+p G1 40
+p G2 41
+p G3/TIO 42
+p G4/SO 3
+p G5/SK 4
+p G6/SI 5
+p G7/CKO 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+*package COP8781C
+@types 1
+g 1
+@pinout
+t DIP28X,CDIP28X,SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p GND 23
+*package COP8781CJ
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p GND 23
+*package COP8781CMC ako COP8781CWM
+*package COP8781CN
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p GND 23
+*package COP8781CWM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p GND 23
+*package COP8782C
+@types 1
+g 1
+@pinout
+t CDIP20,DIP20,SO20W
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP8782CJ
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP8782CMC
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP8782CN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP8782CWM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP880C
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+*package COP880C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP880C-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+*package COP880CMH
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I6 15
+p I7 16
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p I6 15
+p I7 16
+*package COP880CMHEL
+@types 1
+g 1
+@pinout
+t CLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p I6 15
+p I7 16
+*package COP881C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP881C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP881C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP881CMH
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP884CF
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP884CFMHD
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP884CGMHD
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP884CL
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP884CLMHD
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP888CF_PLCC44
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0/ACH0 9
+p I1/ACH1 10
+p I2/ACH2 11
+p I3/ACH3 12
+p I4/ACH4 13
+p I5/ACH5 14
+p I6/ACH6 15
+p I7/ACH7 16
+p CKI 7
+p \RESET\ 38
+p +VREF 18
+p AGND 17
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP888CFMHD
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0/ACH0 9
+p I1/ACH1 10
+p I2/ACH2 11
+p I3/ACH3 12
+p I4/ACH4 13
+p I5/ACH5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p VREF 16
+p AGND 15
+*package COP888CFMHEL
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0/ACH0 9
+p I1/ACH1 10
+p I2/ACH2 11
+p I3/ACH3 12
+p I4/ACH4 13
+p I5/ACH5 14
+p I6/ACH6 15
+p I7/ACH7 16
+p CKI 7
+p \RESET\ 38
+p AGND 17
+p VREF 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP888CG_DIP40X
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I6 15
+p I7 16
+*package COP888CG_CLCC44
+@types 1
+g 1
+@pinout
+t CLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP888CGMHEL
+@types 1
+g 1
+@pinout
+t CLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP888CGMHD
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I6 15
+p I7 16
+*package COP888CL_DIP40X
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP888CL_PLCC44
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP888CLMHD
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP888CLMHEL
+@types 1
+g 1
+@pinout
+t CLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP888CS_PLCC44
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP888CSMHD
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I6 15
+p I7 16
+*package COP888CSMHEL
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP888EG_DIP40X
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I6 15
+p I7 16
+*package COP888EG_PLCC44
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP888EGMHD
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I6 15
+p I7 16
+*package COP888EGMHEL
+@types 1
+g 1
+@pinout
+t CLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP888CF_DIP40X
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0/ACH0 9
+p I1/ACH1 10
+p I2/ACH2 11
+p I3/ACH3 12
+p I4/ACH4 13
+p I5/ACH5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p +VREF 16
+p AGND 15
+*package COP888CS_DIP40X
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+p I6 15
+p I7 16
+*package COP920C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP920C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP920C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP922C
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP922C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP922C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP940C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP940C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP940C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p CKI 5
+p \RESET\ 24
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p GND 23
+*package COP942C
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP942C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p CKI 5
+p \RESET\ 16
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p VCC 6
+p GND 15
+*package COP980C
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+*package COP980C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP980C-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+*package COP981C
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP981C-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP981C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP984
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP984CF-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP984CF-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP984CL-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP984CL-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP984CS-XXX/N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP984CS-XXX/WM
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP988CF-XXX/N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP988CF-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP988CL-XXX/N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP988CL-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP988CL_DIP40X
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP988CL_PLCC44
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package COP988CS-XXX/N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I6 15
+p I7 16
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP988CS-XXX/V
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p I6 15
+p I7 16
+p CKI 7
+p \RESET\ 38
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 25
+p L5 26
+p L6 27
+p L7 28
+p D0 29
+p D1 30
+p D2 31
+p D3 32
+p D4 33
+p D5 34
+p D6 35
+p D7 36
+p G0 39
+p G1 40
+p G2 41
+p G3 42
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 43
+p C1 44
+p C2 1
+p C3 2
+p VCC 8
+p GND 37
+p C4 21
+p C5 22
+p C6 23
+p C7 24
+*package HPC16003
+@types 1
+g 1
+@pinout
+t CLCC68,PLCC68,PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16003EL20
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16003EL30
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16003U20
+@types 1
+g 1
+@pinout
+t PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16003U30
+@types 1
+g 1
+@pinout
+t PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16003V20 ako HPC16003EL20
+*package HPC16003V30
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16004
+@types 1
+g 1
+@pinout
+t CLCC68,PLCC68,PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16004EL20
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16004EL30
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16004U20
+@types 1
+g 1
+@pinout
+t PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16004U30
+@types 1
+g 1
+@pinout
+t PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16004V20 ako HPC16004EL20
+*package HPC16004V30
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16064
+@types 1
+g 1
+@pinout
+t CLCC68,PLCC68,PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16064XXX/U20
+@types 1
+g 1
+@pinout
+t PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16064XXX/EL20
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16064XXX/EL30
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16064XXX/U30
+@types 1
+g 1
+@pinout
+t PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16064XXX/V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16064XXX/V30
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p EI 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16083
+@types 1
+g 1
+@pinout
+t CLCC68,PLCC68,PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16083XXX/EL20
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16083XXX/EL30
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16083XXX/U20
+@types 1
+g 1
+@pinout
+t PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16083XXX/U30
+@types 1
+g 1
+@pinout
+t PGA68/11X11
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16083XXX/V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC16083XXX/V30
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC167064
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC167064/EL20
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26003
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26003V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26003V30
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26004
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26004V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26004V30
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26064
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26064XXX/V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26064XXX/V30
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26083
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26083XXX/V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC26083XXX/V30
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36003
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36003V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36003V30
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36004
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36004V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36004V30
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36064
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36064XXX/V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36064XXX/V30 ako HPC36064XXX/V20
+*package HPC36083
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36083XXX/V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC36083XXX/V30 ako HPC36083XXX/V20
+*package HPC36104
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC36104VF20
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC36104VF30
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC36164
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC36164XXX/VF20
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC36164XXX/VF30
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC36400E
+@types 1
+g 1
+@pinout
+t PLCC68,CLCC68
+g 1
+p \RESET\ 55
+p RDY/\HLD\ 46
+p CKI 61
+p D0 26
+p D1 25
+p D2 24
+p D3 23
+p D4 22
+p D5 20
+p D6 19
+p D7 18
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 21
+p I5 4
+p I6 8
+p I7 9
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CKO 60
+p CK2 45
+p \WO\ 63
+p ST1 57
+p ST2 56
+p R0 17
+p R1 16
+p R2 15
+p R3 14
+p R4 13
+p R5 12
+p R6 11
+p R7 10
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p GND 62
+p DGND 44
+p VCC1 5
+p VCC2 43
+*package HPC36400EEL20
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p \RESET\ 55
+p RDY/\HLD\ 46
+p CKI 61
+p D0 26
+p D1 25
+p D2 24
+p D3 23
+p D4 22
+p D5 20
+p D6 19
+p D7 18
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 21
+p I5 4
+p I6 8
+p I7 9
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CKO 60
+p CK2 45
+p \WO\ 63
+p ST1 57
+p ST2 56
+p R0 17
+p R1 16
+p R2 15
+p R3 14
+p R4 13
+p R5 12
+p R6 11
+p R7 10
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p GND 62
+p DGND 44
+p VCC1 5
+p VCC2 43
+*package HPC36400EV20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p \RESET\ 55
+p RDY/\HLD\ 46
+p CKI 61
+p D0 26
+p D1 25
+p D2 24
+p D3 23
+p D4 22
+p D5 20
+p D6 19
+p D7 18
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 21
+p I5 4
+p I6 8
+p I7 9
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CKO 60
+p CK2 45
+p \WO\ 63
+p ST1 57
+p ST2 56
+p R0 17
+p R1 16
+p R2 15
+p R3 14
+p R4 13
+p R5 12
+p R6 11
+p R7 10
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p GND 62
+p DGND 44
+p VCC1 5
+p VCC2 43
+*package HPC46003
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p \EI\ 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p CK2 4
+p ST2 15
+p ST1 16
+p CKO 19
+p \WO\ 23
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 80
+p VCC2 35
+p DGND 1
+p GND 21
+*package HPC46003V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC46003V30
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC46003VF20
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p \EI\ 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p CK2 4
+p ST2 15
+p ST1 16
+p CKO 19
+p \WO\ 23
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 80
+p VCC2 35
+p DGND 1
+p GND 21
+*package HPC46003VF30
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p \EI\ 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p CK2 4
+p ST2 15
+p ST1 16
+p CKO 19
+p \WO\ 23
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 80
+p VCC2 35
+p DGND 1
+p GND 21
+*package HPC46004_PLCC
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC46004_QFP
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 35
+p VCC2 69
+p VCC3 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46004V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC46004V30
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC46004VF20
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 35
+p VCC2 69
+p VCC3 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46004VF30
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 35
+p VCC2 69
+p VCC3 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46064_PLCC
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC46064_QFP
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 35
+p VCC2 69
+p VCC3 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46064XXX/VF20
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 35
+p VCC2 69
+p VCC3 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46064XXX/VF30
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 35
+p VCC2 69
+p VCC3 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46064XXX/V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC46083
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p \EI\ 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p CK2 4
+p ST2 15
+p ST1 16
+p CKO 19
+p \WO\ 23
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 80
+p VCC2 35
+p DGND 1
+p GND 21
+*package HPC46083XXX/VF20
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p \EI\ 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p CK2 4
+p ST2 15
+p ST1 16
+p CKO 19
+p \WO\ 23
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 80
+p VCC2 35
+p DGND 1
+p GND 21
+*package HPC46083XXX/VF30
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p \EI\ 49
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p CK2 4
+p ST2 15
+p ST1 16
+p CKO 19
+p \WO\ 23
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 80
+p VCC2 35
+p DGND 1
+p GND 21
+*package HPC46083XXX/V20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC46100
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p VREF 49
+p EXM 54
+p \EI\ 59
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p CK2 4
+p ST2 15
+p ST1 16
+p CKO 19
+p \WO\ 23
+p P0 55
+p P1 56
+p P2 57
+p PALE 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 80
+p VCC2 22
+p DGND1 1
+p GND1 21
+p DGND2 34
+p DVCC 35
+p DGND3 60
+p GND2 70
+p VCC3 69
+p AGND 41
+p AVCC 36
+p AVSS 33
+*package HPC46104
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46104VF20
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46104VF30 ako HPC46104VF20
+*package HPC46164
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46164XXX/VF20
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46164XXX/VF30
+@types 1
+g 1
+@pinout
+t QFP14X14-80
+g 1
+p RDY/\HLD\ 5
+p \RESET\ 14
+p CKI 20
+p \EXUI\ 32
+p EXM 54
+p EI 49
+p VREF 46
+p I0 18
+p I1 17
+p I2 37
+p I3 38
+p I4 39
+p I5 40
+p I6 43
+p I7 42
+p D0 44
+p D1 45
+p D2 47
+p D3 48
+p D4 50
+p D5 51
+p D6 52
+p D7 53
+p A0 13
+p A1 12
+p A2 11
+p A3 10
+p A4 9
+p A5 8
+p A6 7
+p A7 6
+p A8 79
+p A9 78
+p A10 77
+p A11 76
+p A12 75
+p A13 74
+p A14 73
+p A15 72
+p AVSS 33
+p AGND 41
+p \WO\ 23
+p CK2 4
+p ST1 16
+p ST2 15
+p CKO 19
+p P0 55
+p P1 56
+p P2 57
+p P3 58
+p B0 31
+p B1 30
+p B2 29
+p B3 28
+p B4 27
+p B5 26
+p B6 25
+p B7 24
+p B8 68
+p B9 67
+p B10 66
+p B11 65
+p B12 64
+p B13 63
+p B14 62
+p B15 61
+p VCC1 22
+p VCC2 35
+p VCC3 36
+p VCC4 69
+p VCC5 80
+p GND1 1
+p GND2 21
+p GND3 34
+p GND4 70
+*package HPC46400E
+@types 1
+g 1
+@pinout
+t PLCC68,CLCC68
+g 1
+p \RESET\ 55
+p RDY/\HLD\ 46
+p CKI 61
+p D0 26
+p D1 25
+p D2 24
+p D3 23
+p D4 22
+p D5 20
+p D6 19
+p D7 18
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 21
+p I5 4
+p I6 8
+p I7 9
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CKO 60
+p CK2 45
+p \WO\ 63
+p ST1 57
+p ST2 56
+p R0 17
+p R1 16
+p R2 15
+p R3 14
+p R4 13
+p R5 12
+p R6 11
+p R7 10
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p GND 62
+p DGND 44
+p VCC1 5
+p VCC2 43
+*package HPC46400EEL20
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p \RESET\ 55
+p RDY/\HLD\ 46
+p CKI 61
+p D0 26
+p D1 25
+p D2 24
+p D3 23
+p D4 22
+p D5 20
+p D6 19
+p D7 18
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 21
+p I5 4
+p I6 8
+p I7 9
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CKO 60
+p CK2 45
+p \WO\ 63
+p ST1 57
+p ST2 56
+p R0 17
+p R1 16
+p R2 15
+p R3 14
+p R4 13
+p R5 12
+p R6 11
+p R7 10
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p GND 62
+p DGND 44
+p VCC1 5
+p VCC2 43
+*package HPC46400EV20
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p \RESET\ 55
+p RDY/\HLD\ 46
+p CKI 61
+p D0 26
+p D1 25
+p D2 24
+p D3 23
+p D4 22
+p D5 20
+p D6 19
+p D7 18
+p I0 59
+p I1 58
+p I2 6
+p I3 7
+p I4 21
+p I5 4
+p I6 8
+p I7 9
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CKO 60
+p CK2 45
+p \WO\ 63
+p ST1 57
+p ST2 56
+p R0 17
+p R1 16
+p R2 15
+p R3 14
+p R4 13
+p R5 12
+p R6 11
+p R7 10
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p GND 62
+p DGND 44
+p VCC1 5
+p VCC2 43
+*package HPC467064
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 9
+p I3 8
+p I4 7
+p I5 6
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package HPC467064/EL20
+@types 1
+g 1
+@pinout
+t CLCC68
+g 1
+p RDY/\HLD\ 46
+p \RESET\ 55
+p CKI 61
+p \EXUI\ 4
+p EXM 21
+p \EI\ 16
+p I0 59
+p I1 58
+p I2 9
+p I3 8
+p I4 7
+p I5 6
+p I6 11
+p I7 10
+p D0 12
+p D1 13
+p D2 14
+p D3 15
+p D4 17
+p D5 18
+p D6 19
+p D7 20
+p A0 54
+p A1 53
+p A2 52
+p A3 51
+p A4 50
+p A5 49
+p A6 48
+p A7 47
+p A8 42
+p A9 41
+p A10 40
+p A11 39
+p A12 38
+p A13 37
+p A14 36
+p A15 35
+p CK2 45
+p ST2 56
+p ST1 57
+p CKO 60
+p \WO\ 63
+p P0 22
+p P1 23
+p P2 24
+p P3 25
+p B0 3
+p B1 2
+p B2 1
+p B3 68
+p B4 67
+p B5 66
+p B6 65
+p B7 64
+p B8 34
+p B9 33
+p B10 32
+p B11 31
+p B12 30
+p B13 29
+p B14 28
+p B15 27
+p VCC1 43
+p VCC2 5
+p DGND 44
+p GND 62
+*package 688_DIP40X
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33
+*package COP820CJMHD-2
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0/CMPOUT 11
+p L1/CMPIN- 12
+p L2/CMPIN+ 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7/MODOUT 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p GND 23
+*package COP820CJMHD-3
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0/CMPOUT 11
+p L1/CMPIN- 12
+p L2/CMPIN+ 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7/MODOUT 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p GND 23
+*package COP822CJMHD-1
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0/CMPOUT 7
+p L1/CMPIN- 8
+p L2/CMPIN+ 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7/MODOUT 14
+p GND 15
+p VCC 6
+*package COP822CJMHD-2
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0/CMPOUT 7
+p L1/CMPIN- 8
+p L2/CMPIN+ 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7/MODOUT 14
+p GND 15
+p VCC 6
+*package COP822CJMHD-3
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0/CMPOUT 7
+p L1/CMPIN- 8
+p L2/CMPIN+ 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7/MODOUT 14
+p GND 15
+p VCC 6
+*package COP8642CMHD-2
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP8642CMHD-3
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP8640CMHD-2
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p GND 23
+*package COP8640CMHD-3
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0/INT 25
+p G1 26
+p G2 27
+p G3/TIO 28
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p VCC 6
+p GND 23
+*package COP842CMHD-2
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP842CMHD-3
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p G0/INT 17
+p G1 18
+p G2 19
+p G3/TIO 20
+p G4/SO 1
+p G5/SK 2
+p G6/SI 3
+p G7/CKO 4
+p \RESET\ 16
+p CKI 5
+p L0 7
+p L1 8
+p L2 9
+p L3 10
+p L4 11
+p L5 12
+p L6 13
+p L7 14
+p GND 15
+p VCC 6
+*package COP444
+@types 1
+g 1
+@pinout
+t DIP28X,CDIP28X,SO28W
+g 1
+p CKI 3
+p SI 16
+p \RESET\ 4
+p IN0 19
+p IN1 9
+p IN2 10
+p IN3 20
+p L0 15
+p L1 14
+p L2 13
+p L3 12
+p L4 8
+p L5 7
+p L6 6
+p L7 5
+p D0 28
+p D1 27
+p D2 26
+p D3 25
+p G0 21
+p G1 22
+p G2 23
+p G3 24
+p CKO 2
+p SO 17
+p SK 18
+p VCC 11
+p GND 1
+*package COP884CSMHD
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p I0 7
+p I1 8
+p I2 9
+p I3 10
+p L0 11
+p L1 12
+p L2 13
+p L3 14
+p L4 15
+p L5 16
+p L6 17
+p L7 18
+p \RESET\ 24
+p CKI 5
+p D0 19
+p D1 20
+p D2 21
+p D3 22
+p G0 25
+p G1 26
+p G2 27
+p G3 28
+p G4 1
+p G5 2
+p G6 3
+p G7 4
+p VCC 6
+p GND 23
+*package COP413C-XXX/WM
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p SI 7
+p CKI 16
+p \RESET\ 17
+p L0 6
+p L1 5
+p L2 4
+p L3 3
+p L4 1
+p L5 20
+p L6 19
+p L7 18
+p G3 14
+p CKO 15
+p G0 11
+p G1 12
+p G2 13
+p SK 9
+p SO 8
+p VCC 2
+p GND 10
+*package COP688CL_DIP40X
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p I0 9
+p I1 10
+p I2 11
+p I3 12
+p I4 13
+p I5 14
+p CKI 7
+p \RESET\ 34
+p L0 17
+p L1 18
+p L2 19
+p L3 20
+p L4 21
+p L5 22
+p L6 23
+p L7 24
+p D0 25
+p D1 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p G0 35
+p G1 36
+p G2 37
+p G3 38
+p G4 3
+p G5 4
+p G6 5
+p G7 6
+p C0 39
+p C1 40
+p C2 1
+p C3 2
+p VCC 8
+p GND 33

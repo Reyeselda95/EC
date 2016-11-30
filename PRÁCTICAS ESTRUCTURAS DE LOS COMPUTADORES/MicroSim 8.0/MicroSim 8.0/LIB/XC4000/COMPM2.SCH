@@ -1,0 +1,241 @@
+*version 6.3 1096523248
+u 247
+XC4000 2176935851
+U? 8
+@libraries
+XC4000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3760 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 248 IF_OUT 950 260 h
+a 0 s 3 0 20 8 hln 80 LABEL=LT
+port 249 IF_OUT 950 440 h
+a 0 s 3 0 20 8 hln 80 LABEL=GT
+port 250 IF_IN 150 460 h
+a 0 s 3 0 10 8 hln 80 LABEL=B1
+port 251 IF_IN 150 360 h
+a 0 s 3 0 10 8 hln 80 LABEL=B0
+port 252 IF_IN 150 440 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 253 IF_IN 150 320 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+@parts
+part 16 OR2 790 250 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U1
+a 0 sp 11 0 10 40 hlt 100 PART=OR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 17 OR2 790 430 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 40 hlt 100 PART=OR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 22 AND2B1 520 510 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 40 hlt 100 PART=AND2B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 23 AND2B1 520 440 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=AND2B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 29 AND3B1 520 320 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 34 XNOR2 300 240 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U6
+a 0 sp 11 0 10 40 hlt 100 PART=XNOR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 35 AND3B1 520 230 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U7
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+@conn
+w 37
+s 600 450 790 450 36
+a 0 s 3 0 670 450 hln 100 LABEL=GT_1
+w 51
+s 870 440 950 440 50
+a 0 s 3 0 920 440 hln 100 LABEL=GT
+w 59
+s 870 260 950 260 58
+a 0 s 3 0 920 260 hln 100 LABEL=LT
+w 67
+s 600 250 790 250 66
+a 0 s 3 0 670 250 hln 100 LABEL=LE0_1
+w 83
+s 630 430 790 430 80
+a 0 s 3 0 670 430 hln 100 LABEL=GE0_1
+s 630 430 630 340 82
+s 600 340 630 340 81
+w 101
+s 380 250 470 250 97
+a 0 s 3 0 400 250 hln 100 LABEL=EQ_1
+s 470 340 470 250 99
+s 470 340 520 340 98
+s 470 250 520 250 100
+w 128
+s 150 320 490 320 124
+a 0 s 3 0 160 320 hln 100 LABEL=A0
+s 490 320 490 270 125
+s 490 270 520 270 126
+s 490 320 520 320 127
+w 148
+s 150 360 450 360 144
+a 0 s 3 0 160 360 hln 100 LABEL=B0
+s 450 360 520 360 145
+s 450 360 450 230 146
+s 450 230 520 230 147
+w 171
+s 150 460 250 460 164
+a 0 s 3 0 160 460 hln 100 LABEL=B1
+s 250 460 490 460 167
+s 490 510 520 510 165
+s 490 510 490 460 166
+s 250 460 250 240 168
+s 250 240 300 240 169
+s 490 460 520 460 170
+w 204
+s 150 440 270 440 197
+a 0 s 3 0 160 440 hln 100 LABEL=A1
+s 270 440 270 260 199
+s 270 260 300 260 198
+s 270 440 470 440 200
+s 470 440 520 440 201
+s 470 530 470 440 202
+s 470 530 520 530 203
+w 233
+s 600 520 760 520 230
+a 0 s 3 0 670 520 hln 100 LABEL=LT_1
+s 760 520 760 270 232
+s 760 270 790 270 231
+@junction
+j 790 450
++ p 17 I0
++ w 37
+j 600 450
++ p 23 O
++ w 37
+j 870 440
++ p 17 O
++ w 51
+j 870 260
++ p 16 O
++ w 59
+j 790 250
++ p 16 I1
++ w 67
+j 600 250
++ p 35 O
++ w 67
+j 790 430
++ p 17 I1
++ w 83
+j 600 340
++ p 29 O
++ w 83
+j 470 250
++ w 101
++ w 101
+j 520 340
++ p 29 I1
++ w 101
+j 380 250
++ p 34 O
++ w 101
+j 520 250
++ p 35 I1
++ w 101
+j 490 320
++ w 128
++ w 128
+j 520 320
++ p 29 I2
++ w 128
+j 520 270
++ p 35 I0
++ w 128
+j 450 360
++ w 148
++ w 148
+j 520 360
++ p 29 I0
++ w 148
+j 520 230
++ p 35 I2
++ w 148
+j 250 460
++ w 171
++ w 171
+j 490 460
++ w 171
++ w 171
+j 520 510
++ p 22 I1
++ w 171
+j 520 460
++ p 23 I0
++ w 171
+j 300 240
++ p 34 I1
++ w 171
+j 270 440
++ w 204
++ w 204
+j 470 440
++ w 204
++ w 204
+j 520 530
++ p 22 I0
++ w 204
+j 520 440
++ p 23 I1
++ w 204
+j 300 260
++ p 34 I0
++ w 204
+j 790 270
++ p 16 I0
++ w 233
+j 600 520
++ p 22 O
++ w 233
+j 950 260
++ s 248
++ w 59
+j 950 440
++ s 249
++ w 51
+j 150 460
++ s 250
++ w 171
+j 150 360
++ s 251
++ w 148
+j 150 440
++ s 252
++ w 204
+j 150 320
++ s 253
++ w 128
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 750 770 hln 100 2-BIT MAGNITUDE COMPARATOR
+s 5 750 750 hln 100 XC4000 FAMILY COMPM2 MACRO
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 710 800 hln 100 12TH JANUARY 1993

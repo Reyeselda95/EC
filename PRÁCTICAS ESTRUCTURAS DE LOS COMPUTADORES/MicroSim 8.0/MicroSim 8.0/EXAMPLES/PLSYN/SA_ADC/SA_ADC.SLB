@@ -1,0 +1,99 @@
+*version 6.1 895173817
+@index
+symloc sa_all 0 2542
+symloc DAC12 2542 859
+*symbol sa_all
+d 
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 u 0 0 0 0 hln 100 ipin(Clock)=Clock
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D10)=HB1:D10
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D8)=HB1:D8
+a 0 u 0 0 0 0 hln 100 ipin(HB4:Conv)=HB4:Conv
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D3)=HB1:D3
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D7)=HB1:D7
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D11)=HB1:D11
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D2)=HB1:D2
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D6)=HB1:D6
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D4)=HB1:D4
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D0)=HB1:D0
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D9)=HB1:D9
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D5)=HB1:D5
+a 0 u 0 0 0 0 hln 100 ipin(HB1:D1)=HB1:D1
+a 0 u 0 0 0 0 hln 100 ipin(HB1:Cmp)=HB1:Cmp
+a 0 u 0 0 0 0 hln 100 ipin(HB1:CLK)=HB1:CLK
+a 0 u 0 0 0 0 hln 100 ipin($G_DGND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin($G_DPWR)=$G_DPWR
+a 0 sp 9 0 0 0 hln 100 REFDES=HS?
+a 0 sp 11 0 0 10 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %0 %Clock %HB1:D10 %HB1:D8 %HB4:Conv %HB1:D3 %HB1:D7 %HB1:D11 %HB1:D2 %HB1:D6 %HB1:D4 %HB1:D0 %HB1:D9 %HB1:D5 %HB1:D1 %HB1:Cmp %HB1:CLK %$G_DGND %$G_DPWR @model
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=D:\MSIM61\EXAMPLES\SA_ADC\SA_ADC.SCH
+@pins
+p 2 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 22 -2 hln 100 pin=1
+p 2 28 10 hcn 100 Clock n 30 -10 d
+a 0 u 13 0 32 -2 hln 100 pin=2
+p 2 38 10 hcn 100 HB1:D10 n 40 -10 d
+a 0 u 13 0 42 -2 hln 100 pin=3
+p 2 48 10 hcn 100 HB1:D8 n 50 -10 d
+a 0 u 13 0 52 -2 hln 100 pin=4
+p 2 58 10 hcn 100 HB4:Conv n 60 -10 d
+a 0 u 13 0 62 -2 hln 100 pin=5
+p 2 68 10 hcn 100 HB1:D3 n 70 -10 d
+a 0 u 13 0 72 -2 hln 100 pin=6
+p 2 78 10 hcn 100 HB1:D7 n 80 -10 d
+a 0 u 13 0 82 -2 hln 100 pin=7
+p 2 88 10 hcn 100 HB1:D11 n 90 -10 d
+a 0 u 13 0 92 -2 hln 100 pin=8
+p 2 98 10 hcn 100 HB1:D2 n 100 -10 d
+a 0 u 13 0 102 -2 hln 100 pin=9
+p 2 108 10 hcn 100 HB1:D6 n 110 -10 d
+a 0 u 13 0 112 -2 hln 100 pin=10
+p 2 18 38 hcn 100 HB1:D4 n 20 50 v
+a 0 u 13 0 22 48 hln 100 pin=11
+p 2 28 38 hcn 100 HB1:D0 n 30 50 v
+a 0 u 13 0 32 48 hln 100 pin=12
+p 2 38 38 hcn 100 HB1:D9 n 40 50 v
+a 0 u 13 0 42 48 hln 100 pin=13
+p 2 48 38 hcn 100 HB1:D5 n 50 50 v
+a 0 u 13 0 52 48 hln 100 pin=14
+p 2 58 38 hcn 100 HB1:D1 n 60 50 v
+a 0 u 13 0 62 48 hln 100 pin=15
+p 2 68 38 hcn 100 HB1:Cmp n 70 50 v
+a 0 u 13 0 72 48 hln 100 pin=16
+p 2 78 38 hcn 100 HB1:CLK n 80 50 v
+a 0 u 13 0 82 48 hln 100 pin=17
+p 2 88 38 hcn 100 $G_DGND n 90 50 v
+a 0 u 13 0 92 48 hln 100 pin=18
+p 2 98 38 hcn 100 $G_DPWR n 100 50 v
+a 0 u 13 0 102 48 hln 100 pin=19
+@graphics 130 40 0 0 10
+r 0 10 0 120 40
+*symbol DAC12
+d 12-input D-to-A with bus input
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 40 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=U^@REFDES DAC(12) $G_dpwr $G_dgnd \n+ %OUT %REF %GND \n+ %D11 %D10 %D9 \n+ %D8 %D7 %D6 \n+ %D5 %D4 %D3 \n+ %D2 %D1 %D0 \n+ M@REFDES IO_LS \n.model M@REFDES UDAC TSWTY=@Tsw_typ
+a 0 u 13 13 10 120 hln 100 Tsw_typ=50ns
+@pins
+p 2 68 24 hrn 100 OUT n 80 20 u
+a 0 u 0 0 71 18 hln 100 pin=13
+a 0 u 0 0 80 20 hln 100 ERC=x
+p 2 68 64 hrn 100 REF n 80 60 u
+a 0 u 0 0 71 58 hln 100 pin=14
+a 0 u 0 0 80 60 hln 100 ERC=x
+p 2 68 94 hrn 100 GND n 80 90 u
+a 0 u 0 0 71 88 hln 100 pin=15
+a 0 u 0 0 80 90 hln 100 ERC=x
+p 2 12 44 hln 100 D[11-0] n 0 40 h
+a 0 u 0 0 1 36 hln 100 pin=1
+a 0 u 0 0 0 38 hln 100 ERC=i
+@graphics 80 130 0 0 10
+r 0 10 0 70 110
+s 26 40 12 hcn 100 12-bit DAC

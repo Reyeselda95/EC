@@ -1,0 +1,328 @@
+*version 8.0 3915773235
+@index
+symloc BDX35:qnpn 0 157
+symloc BDX36:qnpn 157 157
+symloc BDX37:qnpn 314 157
+symloc BDX77:qnpn 471 157
+symloc BDX78:qpnp 628 157
+symloc BSS79B:qnpn 785 160
+symloc BSS79C:qnpn 945 160
+symloc BSS80B:qpnp 1105 160
+symloc BSS80C:qpnp 1265 160
+symloc BSS81B:qnpn 1425 160
+symloc BSS81C:qnpn 1585 160
+symloc BSS82B:qpnp 1745 160
+symloc BSS82C:qpnp 1905 160
+symloc BU207:qnpn 2065 157
+symloc BU208:qnpn 2222 157
+symloc BU208A:qnpn 2379 160
+symloc BU209:qnpn 2539 157
+symloc BU508:qnpn 2696 157
+symloc BU508A:qnpn 2853 160
+symloc BU508DR:qnpn 3013 163
+symloc BU705:qnpn 3176 157
+symloc BU908:qnpn 3333 157
+symloc BUV47:qnpn 3490 157
+symloc BUV47A:qnpn 3647 160
+symloc BUV48:qnpn 3807 157
+symloc BUV48A:qnpn 3964 160
+symloc BUV48T:qnpn 4124 160
+symloc BUX47:qnpn 4284 157
+symloc BUX47A:qnpn 4441 160
+symloc BUX48:qnpn 4601 157
+symloc BUX48A:qnpn 4758 160
+symloc S518T:qnpn 4918 157
+symloc SMBT2222:qnpn 5075 166
+symloc SMBT2907:qpnp 5241 166
+symloc SMBT3904:qnpn 5407 166
+symloc SMBT3906:qpnp 5573 166
+symloc qnpn 5739 454 b
+symloc qpnp 6193 454 b
+symloc copyright 6647 575 b
+*symbol BDX35 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BDX35
+a 0 sp 0 0 25 40 hln 100 MODEL=BDX35
+*symbol BDX36 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BDX36
+a 0 sp 0 0 25 40 hln 100 MODEL=BDX36
+*symbol BDX37 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BDX37
+a 0 sp 0 0 25 40 hln 100 MODEL=BDX37
+*symbol BDX77 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BDX77
+a 0 sp 0 0 25 40 hln 100 MODEL=BDX77
+*symbol BDX78 ako qpnp
+d European PNP power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BDX78
+a 0 sp 0 0 25 40 hln 100 MODEL=BDX78
+*symbol BSS79B ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BSS79B
+a 0 sp 0 0 25 40 hln 100 MODEL=BSS79B
+*symbol BSS79C ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BSS79C
+a 0 sp 0 0 25 40 hln 100 MODEL=BSS79C
+*symbol BSS80B ako qpnp
+d European PNP power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BSS80B
+a 0 sp 0 0 25 40 hln 100 MODEL=BSS80B
+*symbol BSS80C ako qpnp
+d European PNP power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BSS80C
+a 0 sp 0 0 25 40 hln 100 MODEL=BSS80C
+*symbol BSS81B ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BSS81B
+a 0 sp 0 0 25 40 hln 100 MODEL=BSS81B
+*symbol BSS81C ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BSS81C
+a 0 sp 0 0 25 40 hln 100 MODEL=BSS81C
+*symbol BSS82B ako qpnp
+d European PNP power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BSS82B
+a 0 sp 0 0 25 40 hln 100 MODEL=BSS82B
+*symbol BSS82C ako qpnp
+d European PNP power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BSS82C
+a 0 sp 0 0 25 40 hln 100 MODEL=BSS82C
+*symbol BU207 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BU207
+a 0 sp 0 0 25 40 hln 100 MODEL=BU207
+*symbol BU208 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BU208
+a 0 sp 0 0 25 40 hln 100 MODEL=BU208
+*symbol BU208A ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BU208A
+a 0 sp 0 0 25 40 hln 100 MODEL=BU208A
+*symbol BU209 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BU209
+a 0 sp 0 0 25 40 hln 100 MODEL=BU209
+*symbol BU508 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BU508
+a 0 sp 0 0 25 40 hln 100 MODEL=BU508
+*symbol BU508A ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BU508A
+a 0 sp 0 0 25 40 hln 100 MODEL=BU508A
+*symbol BU508DR ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BU508DR
+a 0 sp 0 0 25 40 hln 100 MODEL=BU508DR
+*symbol BU705 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BU705
+a 0 sp 0 0 25 40 hln 100 MODEL=BU705
+*symbol BU908 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BU908
+a 0 sp 0 0 25 40 hln 100 MODEL=BU908
+*symbol BUV47 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BUV47
+a 0 sp 0 0 25 40 hln 100 MODEL=BUV47
+*symbol BUV47A ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BUV47A
+a 0 sp 0 0 25 40 hln 100 MODEL=BUV47A
+*symbol BUV48 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BUV48
+a 0 sp 0 0 25 40 hln 100 MODEL=BUV48
+*symbol BUV48A ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BUV48A
+a 0 sp 0 0 25 40 hln 100 MODEL=BUV48A
+*symbol BUV48T ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BUV48T
+a 0 sp 0 0 25 40 hln 100 MODEL=BUV48T
+*symbol BUX47 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BUX47
+a 0 sp 0 0 25 40 hln 100 MODEL=BUX47
+*symbol BUX47A ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BUX47A
+a 0 sp 0 0 25 40 hln 100 MODEL=BUX47A
+*symbol BUX48 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BUX48
+a 0 sp 0 0 25 40 hln 100 MODEL=BUX48
+*symbol BUX48A ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BUX48A
+a 0 sp 0 0 25 40 hln 100 MODEL=BUX48A
+*symbol S518T ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=S518T
+a 0 sp 0 0 25 40 hln 100 MODEL=S518T
+*symbol SMBT2222 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=SMBT2222
+a 0 sp 0 0 25 40 hln 100 MODEL=SMBT2222
+*symbol SMBT2907 ako qpnp
+d European PNP power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=SMBT2907
+a 0 sp 0 0 25 40 hln 100 MODEL=SMBT2907
+*symbol SMBT3904 ako qnpn
+d European NPN power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=SMBT3904
+a 0 sp 0 0 25 40 hln 100 MODEL=SMBT3904
+*symbol SMBT3906 ako qpnp
+d European PNP power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=SMBT3906
+a 0 sp 0 0 25 40 hln 100 MODEL=SMBT3906
+*symbol qnpn b
+d pnp bipolar transistor
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 value=
+a 0 sp 11 0 25 40 hln 100 PART=
+a 0 sp 0 0 25 40 hln 100 MODEL=
+a 0 s 9 0 5 5 hln 100 refdes=Q?
+a 1 sp 0 0 0 0 hln 100 template=Q^@refdes %c %b %e @MODEL ?value/@value/
+@pins
+p 0 13 22 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol qpnp b
+d pnp bipolar transistor
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 value=
+a 0 sp 11 0 25 40 hln 100 PART=
+a 0 sp 0 0 25 40 hln 100 MODEL=
+a 0 s 9 0 5 5 hln 100 refdes=Q?
+a 1 sp 0 0 0 0 hln 100 template=Q^@refdes %c %b %e @MODEL ?value/@value/
+@pins
+p 0 13 22 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

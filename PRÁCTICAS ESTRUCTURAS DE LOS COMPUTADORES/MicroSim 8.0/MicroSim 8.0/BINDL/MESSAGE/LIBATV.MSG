@@ -1,0 +1,58 @@
+" atv5.c
+>Ess atv5 device %s fctn %s too many univ pterms
+=[12000] 	Device %s:  Function %s has too many universal pterms.
+& DEVICE_NAME FUNCTION_NAME
+*The function passes the check for total number of rows in the ATV5000
+*series, but has more universal pterms than can be regionalized or 
+*fit directly on the macrocell's universal rows.
+>Ess atv5 device %s fctn %s too many signals
+=[12001] 	Device %s:  Function %s needs too many signals.
+& DEVICE_NAME FUNCTION_NAME
+*The number of signals that the function requires in its control and data
+*equations exceeds the number of signals available in the universal and
+*regional buses of the ATV5000 series.
+>Ess atv5 device %s fctn %s too many device inputs
+=[12002] 	Device %s:  Function %s needs too many signals as inputs to the device.
+& DEVICE_NAME FUNCTION_NAME
+*The number of signals required by the function that must enter the 
+*device through I/O and input pins exceeds the number of I/O and input 
+*pins available in the ATV5000 series.
+
+" atv5fitr.c
+>Esds atv5 pin already assigned
+=[12003] 	Signal %s .pi assignment:  Virtual pin %d already assigned to signal '%s'
+& SIGNAL_NAME VIRTUAL_PIN SIGNAL_NAME
+*Two different signals are implied to be assigned to the pin.  This may
+*occur if there is a clock pin signal for the quadrant and a signal is also
+*assigned to the clock pin, or if there is a latched unary function
+*whose latch enable signal is different than the signal assigned to the
+*latch enable pin for the quadrant.
+
+" atv5prtn.c
+>Edds atv5 unary pin input pin conflict
+=[12004] 	Unary pin %d's input pin (pin %d) assigned to conflicting signal '%s'.
+*The single signal input to the function assigned to the indicated unary pin
+*must be placed on the indicated I/O pin, but cannot because another signal
+*has been assigned to the I/O pin.
+
+" atv5_com.c
+>Ess atv5 clock enable with clock by row
+=[12005] 	Device %s:  Signal '%s' has a clock enable and a CLOCK_BY_ROW property.
+& DEVICE_NAME SIGNAL_NAME
+*In the ATV5000 series, when a signal with a clock enable is fit, the
+*signal's clock signal is placed on the clock pin, and the clock enable
+*expression is placed on the clock row of the IOLMC.  Therefore, it is
+*impossible to honor the CLOCK_BY_ROW property when a signal has a
+*clock enable.
+>Ess atv5 clock pin signal not single signal
+=[12006] 	Device %s:  Clock pin signal of signal '%s' is not a single signal.
+& DEVICE_NAME SIGNAL_NAME
+*In the ATV5000 series, the clock option may be used to implement a clock
+*enable.  In this case, the signal that functions as the clock signal will
+*be placed on the clock pin, and so must be a single, non-inverted signal.
+>Ess atv5 clock pin signal inverted
+=[12007] 	Device %s:  Clock pin signal of signal '%s' is inverted.
+*In the ATV5000 series, the clock option may be used to implement a clock
+*enable.  In this case, the signal that functions as the clock signal will
+*be placed on the clock pin, and so must be a single, non-inverted signal.
+& DEVICE_NAME SIGNAL_NAME

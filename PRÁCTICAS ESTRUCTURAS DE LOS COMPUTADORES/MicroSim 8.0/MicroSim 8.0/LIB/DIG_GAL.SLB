@@ -1,0 +1,342 @@
+*version 7.2 2400305401
+@index
+symloc GAL16V8-20L 0 3154
+symloc GAL16V8-25L:GAL16V8-20L 3154 164
+symloc GAL16V8-25Q:GAL16V8-20L 3318 164
+symloc GAL16V8-30L:GAL16V8-20L 3482 164
+symloc GAL16V8-30Q:GAL16V8-20L 3646 164
+symloc GAL16V8A-10:GAL16V8-20L 3810 164
+symloc GAL16V8A-12:GAL16V8-20L 3974 164
+symloc GAL16V8A-15:GAL16V8-20L 4138 164
+symloc GAL16V8A-20:GAL16V8-20L 4302 164
+symloc GAL20V8-20L 4466 3695
+symloc GAL20V8-25L:GAL20V8-20L 8161 164
+symloc GAL20V8-25Q:GAL20V8-20L 8325 164
+symloc GAL20V8-30L:GAL20V8-20L 8489 164
+symloc GAL20V8-30Q:GAL20V8-20L 8653 164
+symloc GAL20V8A-10:GAL20V8-20L 8817 164
+symloc GAL20V8A-12:GAL20V8-20L 8981 164
+symloc GAL20V8A-15:GAL20V8-20L 9145 164
+symloc GAL20V8A-20:GAL20V8-20L 9309 164
+symloc copyright 9473 575 b
+*symbol GAL16V8-20L
+d 20-pin GAL device
+@type p
+@attributes
+a 1 s 9 0 36 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin11 %pin12 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin10 @MODEL PARAMS: \n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin20)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(pin10)=$G_DGND
+a 0 sp 11 0 34 122 hlb 100 PART=GAL16V8-20L
+a 0 sp 0 0 34 122 hlb 100 MODEL=GAL16V8-20L
+a 0 u 0 0 0 10 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 24 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 24 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 24 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 24 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 24 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 24 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 24 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 24 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin11 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 -2 102 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin14 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=14
+a 0 u 0 0 28 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin15 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=15
+a 0 u 0 0 28 66 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin16 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=16
+a 0 u 0 0 28 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin17 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=17
+a 0 u 0 0 28 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin18 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=18
+a 0 u 0 0 28 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin19 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=19
+a 0 u 0 0 28 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 -14 hln 100 pin20 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=20
+a 0 u 0 0 24 -2 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin13 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=13
+a 0 u 0 0 28 88 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 4 128 hln 100 pin10 n 30 120 v
+a 0 u 1 0 25 122 hcn 100 pin=10
+a 0 u 0 0 32 122 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin12 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=12
+a 0 u 0 0 48 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 8 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 110 0 10 10
+r 0 10 0 50 110
+*symbol GAL16V8-25L ako GAL16V8-20L
+d 20-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=GAL16V8-25L
+a 0 sp 0 0 34 122 hlb 100 MODEL=GAL16V8-25L
+*symbol GAL16V8-25Q ako GAL16V8-20L
+d 20-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=GAL16V8-25Q
+a 0 sp 0 0 34 122 hlb 100 MODEL=GAL16V8-25Q
+*symbol GAL16V8-30L ako GAL16V8-20L
+d 20-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=GAL16V8-30L
+a 0 sp 0 0 34 122 hlb 100 MODEL=GAL16V8-30L
+*symbol GAL16V8-30Q ako GAL16V8-20L
+d 20-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=GAL16V8-30Q
+a 0 sp 0 0 34 122 hlb 100 MODEL=GAL16V8-30Q
+*symbol GAL16V8A-10 ako GAL16V8-20L
+d 20-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=GAL16V8A-10
+a 0 sp 0 0 34 122 hlb 100 MODEL=GAL16V8A-10
+*symbol GAL16V8A-12 ako GAL16V8-20L
+d 20-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=GAL16V8A-12
+a 0 sp 0 0 34 122 hlb 100 MODEL=GAL16V8A-12
+*symbol GAL16V8A-15 ako GAL16V8-20L
+d 20-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=GAL16V8A-15
+a 0 sp 0 0 34 122 hlb 100 MODEL=GAL16V8A-15
+*symbol GAL16V8A-20 ako GAL16V8-20L
+d 20-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=GAL16V8A-20
+a 0 sp 0 0 34 122 hlb 100 MODEL=GAL16V8A-20
+*symbol GAL20V8-20L
+d 24-pin GAL device
+@type p
+@attributes
+a 1 ap 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @model PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 162 hlb 100 PART=GAL20V8-20L
+a 0 sp 0 0 36 162 hlb 100 MODEL=GAL20V8-20L
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin15 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=15
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin16 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin17 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=17
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin18 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=18
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin20 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=20
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin21 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=21
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin22 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=22
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 148 hln 100 pin12 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=12
+a 0 u 0 0 20 160 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin23 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=23
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol GAL20V8-25L ako GAL20V8-20L
+d 24-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=GAL20V8-25L
+a 0 sp 0 0 36 162 hlb 100 MODEL=GAL20V8-25L
+*symbol GAL20V8-25Q ako GAL20V8-20L
+d 24-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=GAL20V8-25Q
+a 0 sp 0 0 36 162 hlb 100 MODEL=GAL20V8-25Q
+*symbol GAL20V8-30L ako GAL20V8-20L
+d 24-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=GAL20V8-30L
+a 0 sp 0 0 36 162 hlb 100 MODEL=GAL20V8-30L
+*symbol GAL20V8-30Q ako GAL20V8-20L
+d 24-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=GAL20V8-30Q
+a 0 sp 0 0 36 162 hlb 100 MODEL=GAL20V8-30Q
+*symbol GAL20V8A-10 ako GAL20V8-20L
+d 24-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=GAL20V8A-10
+a 0 sp 0 0 36 162 hlb 100 MODEL=GAL20V8A-10
+*symbol GAL20V8A-12 ako GAL20V8-20L
+d 24-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=GAL20V8A-12
+a 0 sp 0 0 36 162 hlb 100 MODEL=GAL20V8A-12
+*symbol GAL20V8A-15 ako GAL20V8-20L
+d 24-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=GAL20V8A-15
+a 0 sp 0 0 36 162 hlb 100 MODEL=GAL20V8A-15
+*symbol GAL20V8A-20 ako GAL20V8-20L
+d 24-pin GAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=GAL20V8A-20
+a 0 sp 0 0 36 162 hlb 100 MODEL=GAL20V8A-20
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

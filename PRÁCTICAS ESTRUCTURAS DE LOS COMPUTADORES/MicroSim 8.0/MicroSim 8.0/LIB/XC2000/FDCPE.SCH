@@ -1,0 +1,126 @@
+*version 6.3 1506317876
+u 104
+XC2000 836899124
+U? 3
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 1951 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 105 IF_IN 240 300 h
+a 0 s 3 0 10 8 hln 80 LABEL=PRE
+port 106 IF_IN 240 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=CLR
+port 107 IF_OUT 900 330 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q
+port 108 IF_IN 240 260 h
+a 0 s 3 0 10 8 hln 80 LABEL=D
+port 109 IF_IN 240 280 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 110 IF_IN 240 370 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+@parts
+part 18 FDCP 600 300 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 10 hcn 200 PART=FDCP
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 24 M2_1 420 240 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U2
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+@conn
+w 26
+s 240 370 600 370 25
+a 0 s 3 0 250 370 hln 100 LABEL=C
+w 34
+s 240 260 420 260 33
+a 0 s 3 0 250 260 hln 100 LABEL=D
+w 44
+s 520 250 550 250 41
+a 0 s 3 0 520 250 hln 100 LABEL=Q_D
+s 550 330 550 250 42
+s 550 330 600 330 43
+w 58
+s 240 400 600 400 57
+a 0 s 3 0 250 400 hln 100 LABEL=CLR
+w 71
+s 750 330 900 330 65
+a 0 s 3 0 880 330 hln 100 LABEL=Q
+s 750 330 750 190 68
+s 390 240 420 240 66
+s 390 240 390 190 67
+s 720 330 750 330 69
+s 390 190 750 190 70
+w 89
+s 240 280 420 280 88
+a 0 s 3 0 250 280 hln 100 LABEL=CE
+w 97
+s 240 300 600 300 96
+a 0 s 3 0 250 300 hln 100 LABEL=PRE
+@junction
+j 600 370
++ p 18 C
++ w 26
+j 420 260
++ p 24 D1
++ w 34
+j 600 330
++ p 18 D
++ w 44
+j 520 250
++ p 24 O
++ w 44
+j 600 400
++ p 18 CLR
++ w 58
+j 750 330
++ w 71
++ w 71
+j 720 330
++ p 18 Q
++ w 71
+j 420 240
++ p 24 D0
++ w 71
+j 420 280
++ p 24 S0
++ w 89
+j 600 300
++ p 18 PRE
++ w 97
+j 240 300
++ s 105
++ w 97
+j 240 400
++ s 106
++ w 58
+j 900 330
++ s 107
++ w 71
+j 240 260
++ s 108
++ w 34
+j 240 280
++ s 109
++ w 89
+j 240 370
++ s 110
++ w 26
+@attributes
+@text
+s 5 750 750 hln 100 XC2000 FAMILY FDCPE MACRO
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 750 770 hln 100 D FLIP-FLOP WITH CLOCK ENABLE &
+s 5 750 780 hln 100 ASYNC CLEAR & ASYNC PRESET
+s 5 710 800 hln 100 5TH MAY 1993

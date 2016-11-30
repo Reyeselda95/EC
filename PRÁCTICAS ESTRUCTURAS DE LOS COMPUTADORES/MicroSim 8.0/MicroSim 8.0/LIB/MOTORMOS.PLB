@@ -1,0 +1,178 @@
+*version 8.0 3244620433
+@index
+symloc MTD2955/MC:TO252AA 0 32
+symloc MTD2N50/MC:TO252AA 32 32
+symloc MTD4N20/MC:TO252AA 64 32
+symloc MTD4P06/MC:TO252AA 96 32
+symloc MTD5N06/MC:TO252AA 128 32
+symloc MTH7N45/MC:TO218AC 160 32
+symloc MTH8N60/MC:TO218AC 192 32
+symloc MTM8N60/MC:TO204AE 224 32
+symloc MTP2N50/MC:TO220AB 256 32
+symloc MTP2P50/MC:TO220AB 288 32
+symloc MTP4N50/MC:TO220AB 320 32
+symloc MTP4N85/MC:TO220AB 352 32
+symloc MTP6N60/MC:TO218AC 384 32
+symloc MTP7N20/MC:TO220AB 416 32
+symloc MTP8P10/MC:TO220AB 448 32
+symloc MTD10N05E/MC 480 76
+symloc MTD3055EL/MC:TO252AA 556 34
+symloc MTH13N50/MC:TO218AC 590 33
+symloc MTH30N20/MC:TO218AC 623 33
+symloc MTH40N06/MC:TO218AC 656 33
+symloc MTH5N100/MC:TO218AC 689 33
+symloc MTM10N100E/MC 722 77
+symloc MTM15N40/MC:TO204AE 799 33
+symloc MTM24N50E/MC 832 76
+symloc MTM26N40E/MC 908 76
+symloc MTP12P10/MC:TO220AB 984 33
+symloc MTP15N05E/MC:TO220AB 1017 34
+symloc MTP15N06E/MC:TO220AB 1051 34
+symloc MTP20P06/MC:TO220AB 1085 33
+symloc MTP25N06/MC:TO220AB 1118 33
+symloc MTP25N06L/MC:TO220AB 1151 34
+symloc MTP25N10E/MC:TO220AB 1185 34
+symloc MTP3055E/MC:TO220AB 1219 33
+symloc MTP3055EL/MC:TO220AB 1252 34
+symloc MTP35N06E/MC:TO220AB 1286 34
+symloc MTP3N100/MC:TO220AB 1320 33
+symloc MTP50N05EL/MC:TO220AB 1353 35
+symloc MTP50N06E/MC:TO220AB 1388 34
+symloc TO204AE 1422 85 b
+symloc TO218AC 1507 85 b
+symloc TO220AB 1592 85 b
+symloc TO252AA 1677 85 b
+symloc MTP30N08M/MC 1762 101
+symloc MTP40N06M/MC 1863 101
+*package MTD2955/MC ako TO252AA
+*package MTD2N50/MC ako TO252AA
+*package MTD4N20/MC ako TO252AA
+*package MTD4P06/MC ako TO252AA
+*package MTD5N06/MC ako TO252AA
+*package MTH7N45/MC ako TO218AC
+*package MTH8N60/MC ako TO218AC
+*package MTM8N60/MC ako TO204AE
+*package MTP2N50/MC ako TO220AB
+*package MTP2P50/MC ako TO220AB
+*package MTP4N50/MC ako TO220AB
+*package MTP4N85/MC ako TO220AB
+*package MTP6N60/MC ako TO218AC
+*package MTP7N20/MC ako TO220AB
+*package MTP8P10/MC ako TO220AB
+*package MTD10N05E/MC
+@types 1
+g 1
+@pinout
+t TO-252AA
+g 1
+p D 4
+p G 1
+p S 3
+*package MTD3055EL/MC ako TO252AA
+*package MTH13N50/MC ako TO218AC
+*package MTH30N20/MC ako TO218AC
+*package MTH40N06/MC ako TO218AC
+*package MTH5N100/MC ako TO218AC
+*package MTM10N100E/MC
+@types 1
+g 1
+@pinout
+t TO-204AE
+g 1
+p D 3
+p G 2
+p S 1
+*package MTM15N40/MC ako TO204AE
+*package MTM24N50E/MC
+@types 1
+g 1
+@pinout
+t TO-204AE
+g 1
+p D 3
+p G 2
+p S 1
+*package MTM26N40E/MC
+@types 1
+g 1
+@pinout
+t TO-204AA
+g 1
+p D 3
+p G 2
+p S 1
+*package MTP12P10/MC ako TO220AB
+*package MTP15N05E/MC ako TO220AB
+*package MTP15N06E/MC ako TO220AB
+*package MTP20P06/MC ako TO220AB
+*package MTP25N06/MC ako TO220AB
+*package MTP25N06L/MC ako TO220AB
+*package MTP25N10E/MC ako TO220AB
+*package MTP3055E/MC ako TO220AB
+*package MTP3055EL/MC ako TO220AB
+*package MTP35N06E/MC ako TO220AB
+*package MTP3N100/MC ako TO220AB
+*package MTP50N05EL/MC ako TO220AB
+*package MTP50N06E/MC ako TO220AB
+*package TO204AE b
+@types 1
+g 1
+@attributes
+@pinout
+t TO-204AA
+g 1
+p D 3
+p G 1
+p S 2
+*package TO218AC b
+@types 1
+g 1
+@attributes
+@pinout
+t TO-218AC
+g 1
+p D 2
+p G 1
+p S 3
+*package TO220AB b
+@types 1
+g 1
+@attributes
+@pinout
+t TO-220AB
+g 1
+p D 2
+p G 1
+p S 3
+*package TO252AA b
+@types 1
+g 1
+@attributes
+@pinout
+t TO-252AA
+g 1
+p D 2
+p G 1
+p S 3
+*package MTP30N08M/MC
+@types 1
+g 1
+@pinout
+t TO-220/ZIP5
+g 1
+p S 5
+p MIRROR 2
+p D 3
+p G 1
+p KELVIN 4
+*package MTP40N06M/MC
+@types 1
+g 1
+@pinout
+t TO-220/ZIP5
+g 1
+p S 5
+p MIRROR 2
+p D 3
+p G 1
+p KELVIN 4

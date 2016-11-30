@@ -1,0 +1,3990 @@
+*version 8.0 3401001353
+@index
+symloc 68HC11_DIP48 0 690 b
+symloc 68HC11_PLCC52 690 743 b
+symloc MC146818AP 1433 275
+symloc MC146818P 1708 254
+symloc MC146823 1962 433
+symloc MC146823FN 2395 428
+symloc MC146823P 2823 427
+symloc MC6800 3250 381
+symloc MC68000 3631 1274
+symloc MC68000FN 4905 663
+symloc MC68000P 5568 643
+symloc MC68000R 6211 671
+symloc MC68008FN 6882 529
+symloc MC68008P 7411 492
+symloc MC6800P 7903 382
+symloc MC6801 8285 412
+symloc MC68010 8697 642
+symloc MC68010FN 9339 663
+symloc MC68010P 10002 643
+symloc MC6801P1 10645 414
+symloc MC6802 11059 400
+symloc MC68020FC 11459 1214
+symloc MC68020FE 12673 1214
+symloc MC68020RC 13887 1194
+symloc MC68020RP:MC68020RC 15081 33
+symloc MC6802P 15114 401
+symloc MC6803:MC6801 15515 27
+symloc MC6803P 15542 403
+symloc MC6805P2 15945 313
+symloc MC6805P2FN 16258 308
+symloc MC6805P2P 16566 307
+symloc MC6805P6 16873 313
+symloc MC6805P6FN 17186 308
+symloc MC6805P6P 17494 307
+symloc MC6805R2FN 17801 428
+symloc MC6805R2P 18229 415
+symloc MC6805R3FN:MC6805R2FN 18644 35
+symloc MC6805R3P:MC6805R2P 18679 33
+symloc MC6805S2P 18712 306
+symloc MC6805S3P:MC6805S2P 19018 33
+symloc MC6805U2FN:MC6805R2FN 19051 35
+symloc MC6805U2P:MC6805R2P 19086 33
+symloc MC6805U3FN 19119 428
+symloc MC6805U3P 19547 415
+symloc MC6821 19962 410
+symloc MC6821P 20372 406
+symloc MC6840 20778 296
+symloc MC6840P 21074 297
+symloc MC6845 21371 403
+symloc MC6845P 21774 404
+symloc MC68488P 22178 449
+symloc MC6850 22627 268
+symloc MC6850P 22895 269
+symloc MC6852 23164 274
+symloc MC6852CP 23438 276
+symloc MC6852CS 23714 277
+symloc MC6852P 23991 275
+symloc MC6852S 24266 276
+symloc MC6854 24542 314
+symloc MC6854P 24856 315
+symloc MC68701 25171 422
+symloc MC68701S 25593 423
+symloc MC68705R3CFN 26016 461
+symloc MC68705R3P 26477 447
+symloc MC68705R5CFN:MC68705R3CFN 26924 39
+symloc MC68705R5P:MC68705R3P 26963 35
+symloc MC68705S3S 26998 397
+symloc MC68705U3S:MC68705U5S 27395 35
+symloc MC68705U5S 27430 424
+symloc MC6875A 27854 222
+symloc MC6875AL 28076 223
+symloc MC68A52CP:MC6852CP 28299 32
+symloc MC68A52CS:MC6852S 28331 31
+symloc MC68A52P:MC6852CP 28362 31
+symloc MC68A52S:MC6852S 28393 30
+symloc MC68B00:MC6800 28423 28
+symloc MC68B00P 28451 383
+symloc MC68B52S:MC6852S 28834 30
+symloc MC68HC05B4FN 28864 553
+symloc MC68HC05B4P 29417 525
+symloc MC68HC05B6FN:MC68HC05B4FN 29942 39
+symloc MC68HC05B6P:MC68HC05B4P 29981 37
+symloc MC68HC05C4 30018 828
+symloc MC68HC05C4FN 30846 437
+symloc MC68HC05C4P 31283 435
+symloc MC68HC05C8FN:MC68HC05C4FN 31718 39
+symloc MC68HC05C8P:MC68HC05C4P 31757 37
+symloc MC68HC05L6 31794 684
+symloc MC68HC05L6FN 32478 686
+symloc MC68HC05P1 33164 317
+symloc MC68HC05P1DW 33481 312
+symloc MC68HC05P1P 33793 312
+symloc MC68HC11A0FN:68HC11_PLCC52 34105 40
+symloc MC68HC11A0P:68HC11_DIP48 34145 38
+symloc MC68HC11A1FN:68HC11_PLCC52 34183 40
+symloc MC68HC11A1P:68HC11_DIP48 34223 38
+symloc MC68HC11A8FN1:68HC11_PLCC52 34261 41
+symloc MC68HC11A8P1:68HC11_DIP48 34302 39
+symloc MC68HC11E9FN:68HC11_PLCC52 34341 40
+symloc MC68HC24 34381 792
+symloc MC68HC24FN 35173 418
+symloc MC68HC24P 35591 416
+symloc MC68HC705C8FN:MC68HC05C4FN 36007 40
+symloc MC68HC705C8P:MC68HC05C4P 36047 38
+symloc MC68HC805B6FN 36085 574
+symloc MC68HC805C4 36659 451
+symloc MC68HC805C4P:MC68HC805C4 37110 38
+symloc MC68HC811E2FN:68HC11_PLCC52 37148 41
+symloc MC68HCL05C4:MC68HC05C4 37189 36
+symloc MC68HCL05C4FN:MC68HC05C4FN 37225 40
+symloc MC68HCL05C4P:MC68HC05C4P 37265 38
+symloc MC68HCL05C8FN:MC68HC05C4FN 37303 40
+symloc MC68HCL05C8P:MC68HC05C4P 37343 38
+symloc MC68HSC05C4FN:MC68HC05C4FN 37381 40
+symloc MC68HSC05C4P:MC68HC05C4P 37421 38
+symloc MC68HSC05C8FN:MC68HC05C8FN 37459 40
+symloc MC68HSC05C8P:MC68HC05C4P 37499 38
+*package 68HC11_DIP48 b
+@types 1
+g 1
+@pinout
+t DIP48X
+g 1
+p VSS 23
+p MODB/VSTDBY 24
+p MODA/\LIR\ 25
+p STRA/AS 26
+p E 27
+p STRB/R/\W\ 28
+p EXTAL 29
+p XTAL 30
+p PC0/A0/D0 31
+p PC1/A1/D1 32
+p PC2/A2/D2 33
+p PC3/A3/D3 34
+p PC4/A4/D4 35
+p PC5/A5/D5 36
+p PC6/A6/D6 37
+p PC7/A7/D7 38
+p \RESET\ 39
+p \XIRQ\ 40
+p \IRQ\ 41
+p PD0/RxD 42
+p PD1/TxD 43
+p PD2/MISO 44
+p PD3/MOSI 45
+p PD4/SCK 46
+p PD5/\SS\ 47
+p VDD 48
+p PA7/PAI/OC1 1
+p PA6/OC2/OC1 2
+p PA5/OC3/OC1 3
+p PA4/OC4/OC1 4
+p PA3/OC5/OC1 5
+p PA2/IC1 6
+p PA1/IC2 7
+p PA0/IC3 8
+p PB7/A15 9
+p PB6/A14 10
+p PB5/A13 11
+p PB4/A12 12
+p PB3/A11 13
+p PB2/A10 14
+p PB1/A9 15
+p PB0/A8 16
+p PE0/AN0 17
+p PE1/AN1 18
+p PE2/AN2 19
+p PE3/AN3 20
+p VRL 21
+p VRH 22
+*package 68HC11_PLCC52 b
+@types 1
+g 1
+@pinout
+t PLCC52
+g 1
+p VSS 1
+p MODB/VSTDBY 2
+p MODA/\LIR\ 3
+p STRA/AS 4
+p E 5
+p STRB/R/\W\ 6
+p EXTAL 7
+p XTAL 8
+p PC0/A0/D0 9
+p PC1/A1/D1 10
+p PC2/A2/D2 11
+p PC3/A3/D3 12
+p PC4/A4/D4 13
+p PC5/A5/D5 14
+p PC6/A6/D6 15
+p PC7/A7/D7 16
+p \RESET\ 17
+p \XIRQ\ 18
+p \IRQ\ 19
+p PD0/RxD 20
+p PD1/TxD 21
+p PD2/MISO 22
+p PD3/MOSI 23
+p PD4/SCK 24
+p PD5/\SS\ 25
+p VDD 26
+p PA7/PAI/OC1 27
+p PA6/OC2/OC1 28
+p PA5/OC3/OC1 29
+p PA4/OC4/OC1 30
+p PA3/OC5/OC1 31
+p PA2/IC1 32
+p PA1/IC2 33
+p PA0/IC3 34
+p PB7/A15 35
+p PB6/A14 36
+p PB5/A13 37
+p PB4/A12 38
+p PB3/A11 39
+p PB2/A10 40
+p PB1/A9 41
+p PB0/A8 42
+p PE0/AN0 43
+p PE4/AN4 44
+p PE1/AN1 45
+p PE5/AN5 46
+p PE2/AN2 47
+p PE6/AN6 48
+p PE3/AN3 49
+p PE7/AN7 50
+p VRL 51
+p VRH 52
+*package MC146818AP
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p VDD 24
+p VSS 12
+p AD7 11
+p AD6 10
+p AD5 9
+p AD4 8
+p AD3 7
+p AD2 6
+p AD0 4
+p AD1 5
+p CKOUT 21
+p \CS\ 13
+p DS 17
+p R/\W\ 15
+p AS 14
+p SQW 23
+p \IRQ\ 19
+p CKFS 20
+p \RESET\ 18
+p PS 22
+p MOT 1
+p \STBY\ 16
+p OSC2 3
+p OSC1 2
+*package MC146818P
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p VDD 24
+p VSS 12
+p AD7 11
+p AD6 10
+p AD5 9
+p AD4 8
+p AD3 7
+p AD2 6
+p AD0 4
+p AD1 5
+p CKOUT 21
+p \CE\ 13
+p DS 17
+p R/\W\ 15
+p AS 14
+p SQW 23
+p \IRQ\ 19
+p CKFS 20
+p \RESET\ 18
+p PS 22
+p OSC1 2
+p OSC2 3
+*package MC146823
+@types 1
+g 1
+@pinout
+t DIP40X,PLCC44
+g 1
+p VDD 40
+p VSS 20
+p AD7 19
+p AD6 18
+p AD5 17
+p AD4 16
+p AD3 15
+p AD2 14
+p AD0 12
+p AD1 13
+p \CE\ 21
+p DS 24
+p R/\W\ 23
+p AS 22
+p \IRQ\ 26
+p \RESET\ 25
+p PA7 11
+p PA6 10
+p PA5 9
+p PA4 8
+p PA3 7
+p PA2 6
+p PA0 4
+p PA1 5
+p PB7 27
+p PB6 28
+p PB5 29
+p PB4 30
+p PB3 31
+p PB2 32
+p PB0 34
+p PB1 33
+p PC7/CB2 35
+p PC6/CB1 36
+p PC5/CA2 37
+p PC4/CA1 38
+p PC3 39
+p PC2 1
+p PC0 3
+p PC1 2
+*package MC146823FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p VDD 40
+p VSS 20
+p AD7 19
+p AD6 18
+p AD5 17
+p AD4 16
+p AD3 15
+p AD2 14
+p AD0 12
+p AD1 13
+p \CE\ 21
+p DS 24
+p R/\W\ 23
+p AS 22
+p \IRQ\ 26
+p \RESET\ 25
+p PA7 11
+p PA6 10
+p PA5 9
+p PA4 8
+p PA3 7
+p PA2 6
+p PA0 4
+p PA1 5
+p PB7 27
+p PB6 28
+p PB5 29
+p PB4 30
+p PB3 31
+p PB2 32
+p PB0 34
+p PB1 33
+p PC7/CB2 35
+p PC6/CB1 36
+p PC5/CA2 37
+p PC4/CA1 38
+p PC3 39
+p PC2 1
+p PC0 3
+p PC1 2
+*package MC146823P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VDD 40
+p VSS 20
+p AD7 19
+p AD6 18
+p AD5 17
+p AD4 16
+p AD3 15
+p AD2 14
+p AD0 12
+p AD1 13
+p \CE\ 21
+p DS 24
+p R/\W\ 23
+p AS 22
+p \IRQ\ 26
+p \RESET\ 25
+p PA7 11
+p PA6 10
+p PA5 9
+p PA4 8
+p PA3 7
+p PA2 6
+p PA0 4
+p PA1 5
+p PB7 27
+p PB6 28
+p PB5 29
+p PB4 30
+p PB3 31
+p PB2 32
+p PB0 34
+p PB1 33
+p PC7/CB2 35
+p PC6/CB1 36
+p PC5/CA2 37
+p PC4/CA1 38
+p PC3 39
+p PC2 1
+p PC0 3
+p PC1 2
+*package MC6800
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \HALT\ 2
+p VSS0 1
+p \IRQ\ 4
+p CLK1 3
+p VMA 5
+p \NMI\ 6
+p BA 7
+p VCC 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p VSS1 21
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D7 26
+p D6 27
+p D5 28
+p D4 29
+p D3 30
+p D2 31
+p D1 32
+p D0 33
+p R/\W\ 34
+p DBE 36
+p CLK2 37
+p TSC 39
+p \RESET\ 40
+*package MC68000
+@types 1
+g 1
+@pinout
+t DIP64XX
+g 1
+p D15 54
+p D14 55
+p D13 56
+p D12 57
+p D11 58
+p D10 59
+p D9 60
+p D8 61
+p D7 62
+p D6 63
+p D5 64
+p D4 1
+p D3 2
+p D2 3
+p D1 4
+p D0 5
+p A20 48
+p A19 47
+p A18 46
+p A17 45
+p A16 44
+p A15 43
+p A14 42
+p A13 41
+p A12 40
+p A11 39
+p A10 38
+p A9 37
+p A8 36
+p A7 35
+p A4 32
+p A6 34
+p A5 33
+p A3 31
+p A2 30
+p A1 29
+p \AS\ 6
+p R/\W\ 9
+p \UDS\ 7
+p \LDS\ 8
+p E 20
+p \VMA\ 19
+p \BG\ 11
+p FC0 28
+p FC2 26
+p FC1 27
+p CLK 15
+p \VPA\ 21
+p \RESET\ 18
+p \HALT\ 17
+p \IPL2\ 23
+p \IPL1\ 24
+p \IPL0\ 25
+p \BERR\ 22
+p \BGACK\ 12
+p \BR\ 13
+p \DTACK\ 10
+p VCC0 14
+p VCC1 49
+p GND0 16
+p GND1 53
+p A21 50
+p A22 51
+p A23 52
+t PGA68/CASE765A-05
+g 1
+p D15 B10
+p D14 B9
+p D13 C8
+p D12 A10
+p D11 B8
+p D10 A9
+p D9 B7
+p D8 A8
+p D7 A7
+p D6 B6
+p D5 A6
+p D4 A5
+p D3 B5
+p D2 A4
+p D1 A3
+p D0 B4
+p A20 E10
+p A19 F10
+p A18 F9
+p A17 G10
+p A16 H10
+p A15 G9
+p A14 J10
+p A13 H8
+p A12 H9
+p A11 J9
+p A10 J8
+p A9 K9
+p A8 J7
+p A7 K8
+p A4 K6
+p A6 K7
+p A5 J6
+p A3 K5
+p A2 J5
+p A1 K4
+p \AS\ A2
+p R/\W\ C3
+p \UDS\ B3
+p \LDS\ B2
+p E H1
+p \VMA\ G1
+p \BG\ C2
+p FC0 K3
+p FC2 K2
+p FC1 J3
+p CLK E1
+p \VPA\ G2
+p \RESET\ F2
+p \HALT\ F1
+p \IPL2\ H2
+p \IPL1\ H3
+p \IPL0\ J2
+p \BERR\ J1
+p \BGACK\ C1
+p \BR\ D1
+p \DTACK\ B1
+p VCC0 D2
+p VCC1 E9
+p GND0 E2
+p GND1 D9
+p A21 D10
+p A22 C10
+p A23 C9
+*package MC68000FN
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p D15 58
+p D14 59
+p D13 60
+p D12 61
+p D11 62
+p D10 63
+p D9 64
+p D8 65
+p D7 66
+p D6 67
+p D5 68
+p D4 1
+p D3 2
+p D2 3
+p D1 4
+p D0 5
+p A20 51
+p A19 50
+p A18 49
+p A17 48
+p A16 47
+p A15 46
+p A14 45
+p A13 44
+p A12 43
+p A11 42
+p A10 41
+p A9 40
+p A8 39
+p A7 38
+p A4 35
+p A6 37
+p A5 36
+p A3 34
+p A2 33
+p A1 32
+p \AS\ 6
+p R/\W\ 9
+p \UDS\ 7
+p \LDS\ 8
+p E 22
+p \VMA\ 21
+p \BG\ 11
+p FC0 30
+p FC2 28
+p FC1 29
+p CLK 15
+p \VPA\ 23
+p \RESET\ 20
+p \HALT\ 19
+p \IPL2\ 25
+p \IPL1\ 26
+p \IPL0\ 27
+p \BERR\ 24
+p \BGACK\ 12
+p \BR\ 13
+p \DTACK\ 10
+p VCC0 14
+p VCC1 52
+p GND0 16
+p GND2 56
+p A21 53
+p A22 54
+p A23 55
+p GND1 17
+p GND3 57
+*package MC68000P
+@types 1
+g 1
+@pinout
+t DIP64XX
+g 1
+p D15 54
+p D14 55
+p D13 56
+p D12 57
+p D11 58
+p D10 59
+p D9 60
+p D8 61
+p D7 62
+p D6 63
+p D5 64
+p D4 1
+p D3 2
+p D2 3
+p D1 4
+p D0 5
+p A20 48
+p A19 47
+p A18 46
+p A17 45
+p A16 44
+p A15 43
+p A14 42
+p A13 41
+p A12 40
+p A11 39
+p A10 38
+p A9 37
+p A8 36
+p A7 35
+p A4 32
+p A6 34
+p A5 33
+p A3 31
+p A2 30
+p A1 29
+p \AS\ 6
+p R/\W\ 9
+p \UDS\ 7
+p \LDS\ 8
+p E 20
+p \VMA\ 19
+p \BG\ 11
+p FC0 28
+p FC2 26
+p FC1 27
+p CLK 15
+p \VPA\ 21
+p \RESET\ 18
+p \HALT\ 17
+p \IPL2\ 23
+p \IPL1\ 24
+p \IPL0\ 25
+p \BERR\ 22
+p \BGACK\ 12
+p \BR\ 13
+p \DTACK\ 10
+p VCC0 14
+p VCC1 49
+p GND0 16
+p GND1 53
+p A21 50
+p A22 51
+p A23 52
+*package MC68000R
+@types 1
+g 1
+@pinout
+t PGA68/CASE765A-05
+g 1
+p D15 B10
+p D14 B9
+p D13 C8
+p D12 A10
+p D11 B8
+p D10 A9
+p D9 B7
+p D8 A8
+p D7 A7
+p D6 B6
+p D5 A6
+p D4 A5
+p D3 B5
+p D2 A4
+p D1 A3
+p D0 B4
+p A20 E10
+p A19 F10
+p A18 F9
+p A17 G10
+p A16 H10
+p A15 G9
+p A14 J10
+p A13 H8
+p A12 H9
+p A11 J9
+p A10 J8
+p A9 K9
+p A8 J7
+p A7 K8
+p A4 K6
+p A6 K7
+p A5 J6
+p A3 K5
+p A2 J5
+p A1 K4
+p \AS\ A2
+p R/\W\ C3
+p \UDS\ B3
+p \LDS\ B2
+p E H1
+p \VMA\ G1
+p \BG\ C2
+p FC0 K3
+p FC2 K2
+p FC1 J3
+p CLK E1
+p \VPA\ G2
+p \RESET\ F2
+p \HALT\ F1
+p \IPL2\ H2
+p \IPL1\ H3
+p \IPL0\ J2
+p \BERR\ J1
+p \BGACK\ C1
+p \BR\ D1
+p \DTACK\ B1
+p VCC0 D2
+p VCC1 E9
+p GND0 E2
+p GND1 D9
+p A21 D10
+p A22 C10
+p A23 C9
+*package MC68008FN
+@types 1
+g 1
+@pinout
+t PLCC52
+g 1
+p D7 23
+p D6 24
+p D5 25
+p D4 26
+p D3 27
+p D2 28
+p D1 29
+p D0 30
+p A20 22
+p A19 21
+p A18 20
+p A17 19
+p A16 18
+p A15 16
+p A14 14
+p A13 12
+p A12 11
+p A11 10
+p A10 9
+p A9 8
+p A8 7
+p A7 6
+p A4 3
+p A6 5
+p A5 4
+p A3 2
+p A2 1
+p A1 52
+p A0 51
+p \AS\ 31
+p R/\W\ 33
+p \DS\ 32
+p E 42
+p \BG\ 35
+p FC0 50
+p FC2 48
+p FC1 49
+p CLK 38
+p \VPA\ 43
+p \RESET\ 41
+p \HALT\ 40
+p \IPL2\ 46
+p \IPL1\ 45
+p \IPL0\ 47
+p \BERR\ 44
+p \BGACK\ 36
+p \BR\ 37
+p \DTACK\ 34
+p VCC 15
+p GND0 17
+p GND1 39
+p A21 13
+*package MC68008P
+@types 1
+g 1
+@pinout
+t DIP48X
+g 1
+p D7 20
+p D6 21
+p D5 22
+p D4 23
+p D3 24
+p D2 25
+p D1 26
+p D0 27
+p A19 19
+p A18 18
+p A17 17
+p A16 16
+p A15 14
+p A14 12
+p A13 11
+p A12 10
+p A11 9
+p A10 8
+p A9 7
+p A8 6
+p A7 5
+p A6 4
+p A5 3
+p A4 2
+p A3 1
+p A2 48
+p A1 47
+p A0 46
+p \AS\ 28
+p R/\W\ 30
+p \DS\ 29
+p E 38
+p \BG\ 32
+p FC0 45
+p FC2 43
+p FC1 44
+p CLK 34
+p \VPA\ 39
+p \RESET\ 37
+p \HALT\ 36
+p \IPL2\/\IPL0\ 42
+p \IPL1\ 41
+p \BERR\ 40
+p \BR\ 33
+p \DTACK\ 31
+p VCC 13
+p GND0 15
+p GND1 35
+*package MC6800P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \HALT\ 2
+p VSS0 1
+p \IRQ\ 4
+p CLK1 3
+p VMA 5
+p \NMI\ 6
+p BA 7
+p VCC 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p VSS1 21
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D7 26
+p D6 27
+p D5 28
+p D4 29
+p D3 30
+p D2 31
+p D1 32
+p D0 33
+p R/\W\ 34
+p DBE 36
+p CLK2 37
+p TSC 39
+p \RESET\ 40
+*package MC6801
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VCC1 7
+p VCC 21
+p VSS 1
+p XTAL 2
+p EXTAL 3
+p \RESET\ 6
+p P37 30
+p P36 31
+p P35 32
+p P34 33
+p P33 34
+p P32 35
+p P31 36
+p P30 37
+p P47 22
+p P46 23
+p P44 25
+p P45 24
+p P43 26
+p P42 27
+p P41 28
+p P40 29
+p \NMI\ 4
+p \IRQ1\ 5
+p SC1 39
+p SC2 38
+p E 40
+p P20 8
+p P21 9
+p P22 10
+p P23 11
+p P24 12
+p P11 14
+p P12 15
+p P13 16
+p P14 17
+p P15 18
+p P16 19
+p P17 20
+p P10 13
+*package MC68010
+@types 1
+g 1
+@pinout
+t DIP64XX
+g 1
+p D15 54
+p D14 55
+p D13 56
+p D12 57
+p D11 58
+p D10 59
+p D9 60
+p D8 61
+p D7 62
+p D6 63
+p D5 64
+p D4 1
+p D3 2
+p D2 3
+p D1 4
+p D0 5
+p A20 48
+p A19 47
+p A18 46
+p A17 45
+p A16 44
+p A15 43
+p A14 42
+p A13 41
+p A12 40
+p A11 39
+p A10 38
+p A9 37
+p A8 36
+p A7 35
+p A4 32
+p A6 34
+p A5 33
+p A3 31
+p A2 30
+p A1 29
+p \AS\ 6
+p R/\W\ 9
+p \UDS\ 7
+p \LDS\ 8
+p E 20
+p \VMA\ 19
+p \BG\ 11
+p FC0 28
+p FC2 26
+p FC1 27
+p CLK 15
+p \VPA\ 21
+p \RESET\ 18
+p \HALT\ 17
+p \IPL2\ 23
+p \IPL1\ 24
+p \IPL0\ 25
+p \BERR\ 22
+p \BGACK\ 12
+p \BR\ 13
+p \DTACK\ 10
+p VCC0 14
+p VCC1 49
+p GND0 16
+p GND1 53
+p A21 50
+p A22 51
+p A23 52
+*package MC68010FN
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p D15 58
+p D14 59
+p D13 60
+p D12 61
+p D11 62
+p D10 63
+p D9 64
+p D8 65
+p D7 66
+p D6 67
+p D5 68
+p D4 1
+p D3 2
+p D2 3
+p D1 4
+p D0 5
+p A20 51
+p A19 50
+p A18 49
+p A17 48
+p A16 47
+p A15 46
+p A14 45
+p A13 44
+p A12 43
+p A11 42
+p A10 41
+p A9 40
+p A8 39
+p A7 38
+p A4 35
+p A6 37
+p A5 36
+p A3 34
+p A2 33
+p A1 32
+p \AS\ 6
+p R/\W\ 9
+p \UDS\ 7
+p \LDS\ 8
+p E 22
+p \VMA\ 21
+p \BG\ 11
+p FC0 30
+p FC2 28
+p FC1 29
+p CLK 15
+p \VPA\ 23
+p \RESET\ 20
+p \HALT\ 19
+p \IPL2\ 25
+p \IPL1\ 26
+p \IPL0\ 27
+p \BERR\ 24
+p \BGACK\ 12
+p \BR\ 13
+p \DTACK\ 10
+p VCC0 14
+p VCC1 52
+p GND0 16
+p GND2 56
+p A21 53
+p A22 54
+p A23 55
+p GND1 17
+p GND3 57
+*package MC68010P
+@types 1
+g 1
+@pinout
+t DIP64XX
+g 1
+p D15 54
+p D14 55
+p D13 56
+p D12 57
+p D11 58
+p D10 59
+p D9 60
+p D8 61
+p D7 62
+p D6 63
+p D5 64
+p D4 1
+p D3 2
+p D2 3
+p D1 4
+p D0 5
+p A20 48
+p A19 47
+p A18 46
+p A17 45
+p A16 44
+p A15 43
+p A14 42
+p A13 41
+p A12 40
+p A11 39
+p A10 38
+p A9 37
+p A8 36
+p A7 35
+p A4 32
+p A6 34
+p A5 33
+p A3 31
+p A2 30
+p A1 29
+p \AS\ 6
+p R/\W\ 9
+p \UDS\ 7
+p \LDS\ 8
+p E 20
+p \VMA\ 19
+p \BG\ 11
+p FC0 28
+p FC2 26
+p FC1 27
+p CLK 15
+p \VPA\ 21
+p \RESET\ 18
+p \HALT\ 17
+p \IPL2\ 23
+p \IPL1\ 24
+p \IPL0\ 25
+p \BERR\ 22
+p \BGACK\ 12
+p \BR\ 13
+p \DTACK\ 10
+p VCC0 14
+p VCC1 49
+p GND0 16
+p GND1 53
+p A21 50
+p A22 51
+p A23 52
+*package MC6801P1
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VCC1 7
+p VCC 21
+p VSS 1
+p XTAL 2
+p EXTAL 3
+p \RESET\ 6
+p P37 30
+p P36 31
+p P35 32
+p P34 33
+p P33 34
+p P32 35
+p P31 36
+p P30 37
+p P47 22
+p P46 23
+p P44 25
+p P45 24
+p P43 26
+p P42 27
+p P41 28
+p P40 29
+p \NMI\ 4
+p \IRQ1\ 5
+p SC1 39
+p SC2 38
+p E 40
+p P20 8
+p P21 9
+p P22 10
+p P23 11
+p P24 12
+p P11 14
+p P12 15
+p P13 16
+p P14 17
+p P15 18
+p P16 19
+p P17 20
+p P10 13
+*package MC6802
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p E 37
+p VCC 8
+p VSS0 1
+p MR 3
+p RE 36
+p \RESET\ 40
+p D7 26
+p D6 27
+p D5 28
+p D4 29
+p D3 30
+p D2 31
+p D1 32
+p D0 33
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p A7 16
+p A6 15
+p A4 13
+p A5 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p VSS1 21
+p R/\W\ 34
+p \NMI\ 6
+p \IRQ\ 4
+p EXTAL 39
+p \HALT\ 2
+p VMA 5
+p BA 7
+p XTAL 38
+p VCCSTBY 35
+*package MC68020FC
+@types 1
+g 1
+@pinout
+t PQFP132-M
+g 1
+p D31 115
+p D30 114
+p D29 113
+p D28 112
+p D27 111
+p D26 110
+p D25 109
+p D24 108
+p D23 107
+p D22 106
+p D21 105
+p D20 104
+p D19 103
+p D18 102
+p D17 101
+p D16 100
+p D15 95
+p D14 94
+p D13 93
+p D12 92
+p D11 91
+p D10 90
+p D9 89
+p D8 88
+p D7 87
+p D6 86
+p D5 81
+p D4 76
+p D3 75
+p D2 74
+p D1 73
+p D0 72
+p A31 23
+p A30 24
+p A29 25
+p A28 26
+p A27 27
+p A26 28
+p A25 29
+p A24 30
+p A23 31
+p A22 32
+p A21 33
+p A20 34
+p A19 35
+p A18 36
+p A17 37
+p A16 42
+p A15 43
+p A14 44
+p A13 45
+p A12 46
+p A11 47
+p A10 48
+p A9 54
+p A8 55
+p A7 56
+p A6 57
+p A5 58
+p A4 59
+p A3 60
+p A2 61
+p A1 22
+p A0 21
+p FC0 5
+p FC2 3
+p FC1 4
+p CLK 10
+p \AVEC\ 129
+p \RESET\ 9
+p \HALT\ 123
+p \IPL2\ 69
+p \IPL1\ 70
+p \IPL0\ 71
+p \BERR\ 126
+p \BGACK\ 19
+p \BR\ 20
+p VCC0 7
+p VCC1 8
+p GND0 11
+p GND1 12
+p VCC2 13
+p VCC3 38
+p VCC4 39
+p VCC5 65
+p VCC6 66
+p VCC7 79
+p VCC8 80
+p VCC9 96
+p \AS\ 122
+p R/\W\ 118
+p \DSACK0\ 128
+p \BG\ 14
+p \ECS\ 131
+p \OCS\ 63
+p \RMC\ 6
+p \DBEN\ 132
+p \IPEND\ 64
+p GND2 15
+p GND3 40
+p GND4 41
+p GND5 62
+p GND6 67
+p GND7 68
+p GND8 77
+p GND9 78
+p GND10 98
+p GND11 99
+p GND12 119
+p \DSACK1\ 127
+p \DS\ 121
+p SIZ1 1
+p SIZ0 2
+p \CDIS\ 130
+p VCC10 97
+p GND13 120
+p GND14 124
+p GND15 125
+*package MC68020FE
+@types 1
+g 1
+@pinout
+t CQFP132-M
+g 1
+p D31 115
+p D30 114
+p D29 113
+p D28 112
+p D27 111
+p D26 110
+p D25 109
+p D24 108
+p D23 107
+p D22 106
+p D21 105
+p D20 104
+p D19 103
+p D18 102
+p D17 101
+p D16 100
+p D15 95
+p D14 94
+p D13 93
+p D12 92
+p D11 91
+p D10 90
+p D9 89
+p D8 88
+p D7 87
+p D6 86
+p D5 81
+p D4 76
+p D3 75
+p D2 74
+p D1 73
+p D0 72
+p A31 23
+p A30 24
+p A29 25
+p A28 26
+p A27 27
+p A26 28
+p A25 29
+p A24 30
+p A23 31
+p A22 32
+p A21 33
+p A20 34
+p A19 35
+p A18 36
+p A17 37
+p A16 42
+p A15 43
+p A14 44
+p A13 45
+p A12 46
+p A11 47
+p A10 48
+p A9 54
+p A8 55
+p A7 56
+p A6 57
+p A5 58
+p A4 59
+p A3 60
+p A2 61
+p A1 22
+p A0 21
+p FC0 5
+p FC2 3
+p FC1 4
+p CLK 10
+p \AVEC\ 129
+p \RESET\ 9
+p \HALT\ 123
+p \IPL2\ 69
+p \IPL1\ 70
+p \IPL0\ 71
+p \BERR\ 126
+p \BGACK\ 19
+p \BR\ 20
+p VCC0 7
+p VCC1 8
+p GND0 11
+p GND1 12
+p VCC2 13
+p VCC3 38
+p VCC4 39
+p VCC5 65
+p VCC6 66
+p VCC7 79
+p VCC8 80
+p VCC9 96
+p \AS\ 122
+p R/\W\ 118
+p \DSACK0\ 128
+p \BG\ 14
+p \ECS\ 131
+p \OCS\ 63
+p \RMC\ 6
+p \DBEN\ 132
+p \IPEND\ 64
+p GND2 15
+p GND3 40
+p GND4 41
+p GND5 62
+p GND6 67
+p GND7 68
+p GND8 77
+p GND9 78
+p GND10 98
+p GND11 99
+p GND12 119
+p \DSACK1\ 127
+p \DS\ 121
+p SIZ1 1
+p SIZ0 2
+p \CDIS\ 130
+p VCC10 97
+p GND13 120
+p GND14 124
+p GND15 125
+*package MC68020RC
+@types 1
+g 1
+@pinout
+t CPGA114/MO-067AE
+g 1
+p D31 N1
+p D30 L3
+p D29 M2
+p D28 N2
+p D27 L4
+p D26 M3
+p D25 N3
+p D24 M4
+p D23 L5
+p D22 N4
+p D21 M5
+p D20 N5
+p D19 L6
+p D18 M6
+p D17 N6
+p D16 M7
+p D15 L8
+p D14 N9
+p D13 M9
+p D12 N10
+p D11 L9
+p D10 M10
+p D9 N11
+p D8 N12
+p D7 L10
+p D6 M11
+p D5 M12
+p D4 M13
+p D3 L12
+p D2 L13
+p D1 K12
+p D0 K13
+p A31 A3
+p A30 B4
+p A29 C5
+p A28 A4
+p A27 B5
+p A26 A5
+p A25 C6
+p A24 B6
+p A23 A6
+p A22 A7
+p A21 C7
+p A20 B7
+p A19 A8
+p A18 B8
+p A17 C8
+p A16 C9
+p A15 B10
+p A14 A11
+p A13 B11
+p A12 C10
+p A11 A12
+p A10 B12
+p A9 C11
+p A8 A13
+p A7 C12
+p A6 B13
+p A5 C13
+p A4 D12
+p A3 D13
+p A2 E12
+p A1 A2
+p A0 C4
+p FC0 E1
+p FC2 F2
+p FC1 F3
+p CLK C2
+p \AVEC\ H2
+p \RESET\ C1
+p \HALT\ K2
+p \IPL2\ H12
+p \IPL1\ J13
+p \IPL0\ J12
+p \BERR\ J2
+p \BGACK\ A1
+p \BR\ B3
+p VCC0 A9
+p VCC1 D1
+p GND0 A10
+p GND1 B1
+p VCC2 D2
+p VCC3 D3
+p VCC4 E3
+p VCC5 G11
+p VCC6 G13
+p VCC7 M8
+p VCC8 N8
+p VCC9 N13
+p \AS\ L1
+p R/\W\ L2
+p \DSACK0\ H3
+p \BG\ B2
+p \ECS\ G1
+p \OCS\ E13
+p \RMC\ E2
+p \DBEN\ G3
+p \IPEND\ F13
+p GND2 B9
+p GND3 C3
+p GND4 F12
+p GND5 G12
+p GND6 H13
+p GND7 J3
+p GND8 K1
+p GND9 K3
+p GND10 L7
+p GND11 L11
+p GND12 N7
+p \DSACK1\ J1
+p \DS\ M1
+p SIZ1 G2
+p SIZ0 F1
+p \CDIS\ H1
+*package MC68020RP ako MC68020RC
+*package MC6802P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p E 37
+p VCC 8
+p VSS0 1
+p MR 3
+p RE 36
+p \RESET\ 40
+p D7 26
+p D6 27
+p D5 28
+p D4 29
+p D3 30
+p D2 31
+p D1 32
+p D0 33
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p A7 16
+p A6 15
+p A4 13
+p A5 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p VSS1 21
+p R/\W\ 34
+p \NMI\ 6
+p \IRQ\ 4
+p EXTAL 39
+p \HALT\ 2
+p VMA 5
+p BA 7
+p XTAL 38
+p VCCSTBY 35
+*package MC6803 ako MC6801
+*package MC6803P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VCC 7
+p VSS 1
+p XTAL 2
+p EXTAL 3
+p \RESET\ 6
+p P37 30
+p P36 31
+p P35 32
+p P34 33
+p P33 34
+p P32 35
+p P31 36
+p P30 37
+p P47 22
+p P46 23
+p P44 25
+p P45 24
+p P43 26
+p P42 27
+p P41 28
+p P40 29
+p \NMI\ 4
+p \IRQ1\ 5
+p SC1 39
+p SC2 38
+p E 40
+p P20 8
+p P21 9
+p P22 10
+p P23 11
+p P24 12
+p P11 14
+p P12 15
+p P13 16
+p P14 17
+p P15 18
+p P16 19
+p P17 20
+p P10 13
+*package MC6805P2
+@types 1
+g 1
+@pinout
+t DIP28X,PLCC28
+g 1
+p PB7 19
+p PB6 18
+p PB5 17
+p PB4 16
+p PB3 15
+p PB2 14
+p PB1 13
+p PB0 12
+p PC3 11
+p PC2 10
+p PC1 9
+p PC0 8
+p VCC 3
+p VSS 1
+p EXTAL 4
+p XTAL 5
+p \RESET\ 28
+p \INT\ 2
+p TIMER 7
+p PA7 27
+p PA6 26
+p PA5 25
+p PA4 24
+p PA3 23
+p PA2 22
+p PA1 21
+p PA0 20
+p NUM 6
+*package MC6805P2FN
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p PB7 19
+p PB6 18
+p PB5 17
+p PB4 16
+p PB3 15
+p PB2 14
+p PB1 13
+p PB0 12
+p PC3 11
+p PC2 10
+p PC1 9
+p PC0 8
+p VCC 3
+p VSS 1
+p EXTAL 4
+p XTAL 5
+p \RESET\ 28
+p \INT\ 2
+p TIMER 7
+p PA7 27
+p PA6 26
+p PA5 25
+p PA4 24
+p PA3 23
+p PA2 22
+p PA1 21
+p PA0 20
+p NUM 6
+*package MC6805P2P
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p PB7 19
+p PB6 18
+p PB5 17
+p PB4 16
+p PB3 15
+p PB2 14
+p PB1 13
+p PB0 12
+p PC3 11
+p PC2 10
+p PC1 9
+p PC0 8
+p VCC 3
+p VSS 1
+p EXTAL 4
+p XTAL 5
+p \RESET\ 28
+p \INT\ 2
+p TIMER 7
+p PA7 27
+p PA6 26
+p PA5 25
+p PA4 24
+p PA3 23
+p PA2 22
+p PA1 21
+p PA0 20
+p NUM 6
+*package MC6805P6
+@types 1
+g 1
+@pinout
+t DIP28X,PLCC28
+g 1
+p PB7 19
+p PB6 18
+p PB5 17
+p PB4 16
+p PB3 15
+p PB2 14
+p PB1 13
+p PB0 12
+p PC3 11
+p PC2 10
+p PC1 9
+p PC0 8
+p VCC 3
+p VSS 1
+p EXTAL 4
+p XTAL 5
+p \RESET\ 28
+p \INT\ 2
+p TIMER 7
+p PA7 27
+p PA6 26
+p PA5 25
+p PA4 24
+p PA3 23
+p PA2 22
+p PA1 21
+p PA0 20
+p NUM 6
+*package MC6805P6FN
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p PB7 19
+p PB6 18
+p PB5 17
+p PB4 16
+p PB3 15
+p PB2 14
+p PB1 13
+p PB0 12
+p PC3 11
+p PC2 10
+p PC1 9
+p PC0 8
+p VCC 3
+p VSS 1
+p EXTAL 4
+p XTAL 5
+p \RESET\ 28
+p \INT\ 2
+p TIMER 7
+p PA7 27
+p PA6 26
+p PA5 25
+p PA4 24
+p PA3 23
+p PA2 22
+p PA1 21
+p PA0 20
+p NUM 6
+*package MC6805P6P
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p PB7 19
+p PB6 18
+p PB5 17
+p PB4 16
+p PB3 15
+p PB2 14
+p PB1 13
+p PB0 12
+p PC3 11
+p PC2 10
+p PC1 9
+p PC0 8
+p VCC 3
+p VSS 1
+p EXTAL 4
+p XTAL 5
+p \RESET\ 28
+p \INT\ 2
+p TIMER 7
+p PA7 27
+p PA6 26
+p PA5 25
+p PA4 24
+p PA3 23
+p PA2 22
+p PA1 21
+p PA0 20
+p NUM 6
+*package MC6805R2FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p PB7 35
+p PB6 34
+p PB5 33
+p PB4 32
+p PB3 31
+p PB2 30
+p PB1 29
+p PB0 28
+p PC3 13
+p PC2 12
+p PC1 11
+p PC0 10
+p VCC 4
+p VSS0 1
+p VSS1 23
+p EXTAL 5
+p XTAL 7
+p \RESET\ 2
+p \INT\ 3
+p TIMER 9
+p PA7 44
+p PA6 43
+p PA5 42
+p PA4 41
+p PA3 39
+p PA2 38
+p PA1 37
+p PA0 36
+p NUM 8
+p PC7 18
+p PC6 17
+p PC5 15
+p PC4 14
+p PD3 24
+p PD2 25
+p PD1 26
+p PD0 27
+p PD7 19
+p PD6 20
+p PD5 21
+p PD4 22
+*package MC6805R2P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p PB7 32
+p PB6 31
+p PB5 30
+p PB4 29
+p PB3 28
+p PB2 27
+p PB1 26
+p PB0 25
+p PC3 12
+p PC2 11
+p PC1 10
+p PC0 9
+p VCC 4
+p VSS 1
+p EXTAL 5
+p XTAL 6
+p \RESET\ 2
+p \INT\ 3
+p TIMER 8
+p PA7 40
+p PA6 39
+p PA5 38
+p PA4 37
+p PA3 36
+p PA2 35
+p PA1 34
+p PA0 33
+p NUM 7
+p PC7 16
+p PC6 15
+p PC5 14
+p PC4 13
+p PD3 21
+p PD2 22
+p PD1 23
+p PD0 24
+p PD7 17
+p PD6 18
+p PD5 19
+p PD4 20
+*package MC6805R3FN ako MC6805R2FN
+*package MC6805R3P ako MC6805R2P
+*package MC6805S2P
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p PD3 7
+p PD2 8
+p PD1 9
+p PD0 10
+p PB3 14
+p PB2 13
+p PB1 12
+p PB0 11
+p VDD 24
+p VSS 1
+p EXTAL 27
+p XTAL 26
+p \RESET\ 23
+p \INT1\ 25
+p PA7 22
+p PA6 21
+p PA5 20
+p PA4 19
+p PA3 18
+p PA2 17
+p PA1 16
+p PA0 15
+p NUM 28
+p PD6 4
+p PD5 5
+p PD4 6
+p PC1 3
+p PC0 2
+*package MC6805S3P ako MC6805S2P
+*package MC6805U2FN ako MC6805R2FN
+*package MC6805U2P ako MC6805R2P
+*package MC6805U3FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p NUM 8
+p PB7 35
+p PB6 34
+p PB5 33
+p PB4 32
+p PB3 31
+p PB2 30
+p PB1 29
+p PB0 28
+p PC3 13
+p PC2 12
+p PC1 11
+p PC0 10
+p VCC 4
+p VSS0 1
+p VSS1 23
+p EXTAL 5
+p XTAL 7
+p \RESET\ 2
+p \INT\ 3
+p TIMER 9
+p PA7 44
+p PA6 43
+p PA5 42
+p PA4 41
+p PA3 39
+p PA2 38
+p PA1 37
+p PA0 36
+p PC7 18
+p PC6 17
+p PC5 15
+p PC4 14
+p PD3 24
+p PD2 25
+p PD1 26
+p PD0 27
+p PD7 19
+p PD6 20
+p PD5 21
+p PD4 22
+*package MC6805U3P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p NUM 7
+p PB7 32
+p PB6 31
+p PB5 30
+p PB4 29
+p PB3 28
+p PB2 27
+p PB1 26
+p PB0 25
+p PC3 12
+p PC2 11
+p PC1 10
+p PC0 9
+p VCC 4
+p VSS 1
+p EXTAL 5
+p XTAL 6
+p \RESET\ 2
+p \INT\ 3
+p TIMER 8
+p PA7 40
+p PA6 39
+p PA5 38
+p PA4 37
+p PA3 36
+p PA2 35
+p PA1 34
+p PA0 33
+p PC7 16
+p PC6 15
+p PC5 14
+p PC4 13
+p PD3 21
+p PD2 22
+p PD1 23
+p PD0 24
+p PD7 17
+p PD6 18
+p PD5 19
+p PD4 20
+*package MC6821
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VSS 1
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CB1 18
+p CB2 19
+p VCC 20
+p R/\W\ 21
+p CS0 22
+p \CS2\ 23
+p CS1 24
+p ENABLE 25
+p D7 26
+p D6 27
+p D5 28
+p D4 29
+p D3 30
+p D2 31
+p D1 32
+p D0 33
+p \RESET\ 34
+p RS1 35
+p RS0 36
+p \IRQB\ 37
+p \IRQA\ 38
+p CA2 39
+p CA1 40
+*package MC6821P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VSS 1
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CB1 18
+p CB2 19
+p VCC 20
+p R/\W\ 21
+p CS0 22
+p \CS2\ 23
+p CS1 24
+p E 25
+p D7 26
+p D6 27
+p D5 28
+p D4 29
+p D3 30
+p D2 31
+p D1 32
+p D0 33
+p \RESET\ 34
+p RS1 35
+p RS0 36
+p \IRQB\ 37
+p \IRQA\ 38
+p CA2 39
+p CA1 40
+*package MC6840
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p R/\W\ 13
+p VCC 14
+p VSS 1
+p D7 18
+p D6 19
+p D5 20
+p D4 21
+p D3 22
+p D2 23
+p D1 24
+p D0 25
+p RS0 10
+p RS1 11
+p RS2 12
+p \IRQ\ 9
+p O1 27
+p O2 3
+p O3 6
+p \G1\ 26
+p \C1\ 28
+p \G2\ 2
+p \C2\ 4
+p \G3\ 5
+p \C3\ 7
+p \RESET\ 8
+p E 17
+p CS1 16
+p \CS0\ 15
+*package MC6840P
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p R/\W\ 13
+p VCC 14
+p VSS 1
+p D7 18
+p D6 19
+p D5 20
+p D4 21
+p D3 22
+p D2 23
+p D1 24
+p D0 25
+p RS0 10
+p RS1 11
+p RS2 12
+p \IRQ\ 9
+p O1 27
+p O2 3
+p O3 6
+p \G1\ 26
+p \C1\ 28
+p \G2\ 2
+p \C2\ 4
+p \G3\ 5
+p \C3\ 7
+p \RESET\ 8
+p E 17
+p CS1 16
+p \CS0\ 15
+*package MC6845
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VCC 20
+p GND 1
+p \RESET\ 2
+p D7 26
+p D6 27
+p D5 28
+p D4 29
+p D3 30
+p D2 31
+p D1 32
+p D0 33
+p MA13 17
+p MA12 16
+p MA11 15
+p MA10 14
+p MA9 13
+p MA8 12
+p MA7 11
+p MA6 10
+p MA4 8
+p MA5 9
+p MA3 7
+p MA2 6
+p MA1 5
+p MA0 4
+p R/\W\ 22
+p E 23
+p RA4 34
+p RA3 35
+p RA2 36
+p RA1 37
+p \CS\ 25
+p LPSTB 3
+p RS 24
+p VS 40
+p HS 39
+p DE 18
+p CURSOR 19
+p CLK 21
+p RA0 38
+*package MC6845P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VCC 20
+p GND 1
+p \RESET\ 2
+p D7 26
+p D6 27
+p D5 28
+p D4 29
+p D3 30
+p D2 31
+p D1 32
+p D0 33
+p MA13 17
+p MA12 16
+p MA11 15
+p MA10 14
+p MA9 13
+p MA8 12
+p MA7 11
+p MA6 10
+p MA4 8
+p MA5 9
+p MA3 7
+p MA2 6
+p MA1 5
+p MA0 4
+p R/\W\ 22
+p E 23
+p RA4 34
+p RA3 35
+p RA2 36
+p RA1 37
+p \CS\ 25
+p LPSTB 3
+p RS 24
+p VS 40
+p HS 39
+p DE 18
+p CURSOR 19
+p CLK 21
+p RA0 38
+*package MC68488P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p DB7 14
+p DB6 13
+p DB5 12
+p DB4 11
+p DB3 10
+p DB2 9
+p DB1 8
+p DB0 7
+p RS0 37
+p RS1 38
+p RS2 39
+p \IB1\ 35
+p \IB0\ 36
+p \IB3\ 33
+p \IB4\ 32
+p \IB5\ 31
+p \IB6\ 30
+p \IB7\ 29
+p \IB2\ 34
+p E 6
+p R/\W\ 5
+p \CS\ 3
+p \RESET\ 19
+p DMAG 2
+p \IRQ\ 40
+p DMAR 15
+p \ASE\ 4
+p TRIG 24
+p DAC 17
+p \ATN\ 26
+p RFD 18
+p \DAV\ 16
+p VSS 1
+p VCC 20
+p \EOI\ 25
+p \SRQ\ 23
+p \REN\ 22
+p \IFC\ 21
+p T/\R\1 28
+p T/\R\2 27
+*package MC6850
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p D0 22
+p D1 21
+p D2 20
+p D3 19
+p D4 18
+p D5 17
+p D6 16
+p D7 15
+p VSS 1
+p VCC 12
+p R/\W\ 13
+p \CS2\ 9
+p CS1 10
+p CS0 8
+p RS 11
+p E 14
+p TXCLK 4
+p RXCLK 3
+p RXDATA 2
+p \CTS\ 24
+p \DCD\ 23
+p TXDATA 6
+p \IRQ\ 7
+p \RTS\ 5
+*package MC6850P
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p D0 22
+p D1 21
+p D2 20
+p D3 19
+p D4 18
+p D5 17
+p D6 16
+p D7 15
+p VSS 1
+p VCC 12
+p R/\W\ 13
+p \CS2\ 9
+p CS1 10
+p CS0 8
+p RS 11
+p E 14
+p TXCLK 4
+p RXCLK 3
+p RXDATA 2
+p \CTS\ 24
+p \DCD\ 23
+p TXDATA 6
+p \IRQ\ 7
+p \RTS\ 5
+*package MC6852
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p D0 22
+p D1 21
+p D2 20
+p D3 19
+p D4 18
+p D5 17
+p D6 16
+p D7 15
+p VSS 1
+p VCC 12
+p \RESET\ 9
+p E 14
+p R/\W\ 13
+p \CS\ 10
+p RS 11
+p RXDATA 2
+p RXCLK 3
+p TXDATA 6
+p TXCLK 4
+p TUF 8
+p \CTS\ 24
+p \DCD\ 23
+p \IRQ\ 7
+p SM/\DTR\ 5
+*package MC6852CP
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p D0 22
+p D1 21
+p D2 20
+p D3 19
+p D4 18
+p D5 17
+p D6 16
+p D7 15
+p VSS 1
+p VCC 12
+p \RESET\ 9
+p E 14
+p R/\W\ 13
+p \CS\ 10
+p RS 11
+p RXDATA 2
+p RXCLK 3
+p TXDATA 6
+p TXCLK 4
+p TUF 8
+p \CTS\ 24
+p \DCD\ 23
+p \IRQ\ 7
+p SM/\DTR\ 5
+*package MC6852CS
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p D0 22
+p D1 21
+p D2 20
+p D3 19
+p D4 18
+p D5 17
+p D6 16
+p D7 15
+p VSS 1
+p VCC 12
+p \RESET\ 9
+p E 14
+p R/\W\ 13
+p \CS\ 10
+p RS 11
+p RXDATA 2
+p RXCLK 3
+p TXDATA 6
+p TXCLK 4
+p TUF 8
+p \CTS\ 24
+p \DCD\ 23
+p \IRQ\ 7
+p SM/\DTR\ 5
+*package MC6852P
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p D0 22
+p D1 21
+p D2 20
+p D3 19
+p D4 18
+p D5 17
+p D6 16
+p D7 15
+p VSS 1
+p VCC 12
+p \RESET\ 9
+p E 14
+p R/\W\ 13
+p \CS\ 10
+p RS 11
+p RXDATA 2
+p RXCLK 3
+p TXDATA 6
+p TXCLK 4
+p TUF 8
+p \CTS\ 24
+p \DCD\ 23
+p \IRQ\ 7
+p SM/\DTR\ 5
+*package MC6852S
+@types 1
+g 1
+@pinout
+t CDIP24X
+g 1
+p D0 22
+p D1 21
+p D2 20
+p D3 19
+p D4 18
+p D5 17
+p D6 16
+p D7 15
+p VSS 1
+p VCC 12
+p \RESET\ 9
+p E 14
+p R/\W\ 13
+p \CS\ 10
+p RS 11
+p RXDATA 2
+p RXCLK 3
+p TXDATA 6
+p TXCLK 4
+p TUF 8
+p \CTS\ 24
+p \DCD\ 23
+p \IRQ\ 7
+p SM/\DTR\ 5
+*package MC6854
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p \RTS\ 2
+p \LOC\/\DTR\ 26
+p D0 22
+p D1 21
+p D2 20
+p D3 19
+p D4 18
+p D5 17
+p D6 16
+p D7 15
+p VSS 1
+p VCC 14
+p R/\W\ 12
+p \RESET\ 8
+p \CS\ 9
+p RS1 11
+p E 13
+p RXD 3
+p \CTS\ 28
+p \DCD\ 27
+p TXD 6
+p \IRQ\ 7
+p RS0 10
+p TDSR 24
+p RDSR 23
+p RXC 4
+p \FLAGDET\ 25
+p TXC 5
+*package MC6854P
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p \RTS\ 2
+p \LOC\/\DTR\ 26
+p D0 22
+p D1 21
+p D2 20
+p D3 19
+p D4 18
+p D5 17
+p D6 16
+p D7 15
+p VSS 1
+p VCC 14
+p R/\W\ 12
+p \RESET\ 8
+p \CS\ 9
+p RS1 11
+p E 13
+p RXD 3
+p \CTS\ 28
+p \DCD\ 27
+p TXD 6
+p \IRQ\ 7
+p RS0 10
+p TDSR 24
+p RDSR 23
+p RXC 4
+p \FLAGDET\ 25
+p TXC 5
+*package MC68701
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p VCCSTDBY 21
+p VCC 7
+p VSS 1
+p XTAL 2
+p EXTAL 3
+p \RESET\/VPP 6
+p P37 30
+p P36 31
+p P35 32
+p P34 33
+p P33 34
+p P32 35
+p P31 36
+p P30 37
+p P47 22
+p P46 23
+p P44 25
+p P45 24
+p P43 26
+p P42 27
+p P41 28
+p P40 29
+p \NMI\ 4
+p \IRQ1\ 5
+p SC1 39
+p SC2 38
+p E 40
+p P20 8
+p P21 9
+p P22 10
+p P23 11
+p P24 12
+p P11 14
+p P12 15
+p P13 16
+p P14 17
+p P15 18
+p P16 19
+p P17 20
+p P10 13
+*package MC68701S
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p VCCSTDBY 21
+p VCC 7
+p VSS 1
+p XTAL 2
+p EXTAL 3
+p \RESET\/VPP 6
+p P37 30
+p P36 31
+p P35 32
+p P34 33
+p P33 34
+p P32 35
+p P31 36
+p P30 37
+p P47 22
+p P46 23
+p P44 25
+p P45 24
+p P43 26
+p P42 27
+p P41 28
+p P40 29
+p \NMI\ 4
+p \IRQ1\ 5
+p SC1 39
+p SC2 38
+p E 40
+p P20 8
+p P21 9
+p P22 10
+p P23 11
+p P24 12
+p P11 14
+p P12 15
+p P13 16
+p P14 17
+p P15 18
+p P16 19
+p P17 20
+p P10 13
+*package MC68705R3CFN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p PB7 35
+p PB6 34
+p PB5 33
+p PB4 32
+p PB3 31
+p PB2 30
+p PB1 29
+p PB0 28
+p PC3 13
+p PC2 12
+p PC1 11
+p PC0 10
+p VCC 4
+p VSS0 1
+p VSS1 23
+p EXTAL 5
+p XTAL 7
+p \RESET\ 2
+p \INT\ 3
+p TIMER 9
+p PA7 44
+p PA6 43
+p PA5 42
+p PA4 41
+p PA3 39
+p PA2 38
+p PA1 37
+p PA0 36
+p VPP 8
+p PC7 18
+p PC6 17
+p PC5 15
+p PC4 14
+p PD3/AN3 24
+p PD2/AN2 25
+p PD1/AN1 26
+p PD0/AN0 27
+p PD7 19
+p PD6/\INT2\ 20
+p PD5/VRH 21
+p PD4/VRL 22
+*package MC68705R3P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p PB7 32
+p PB6 31
+p PB5 30
+p PB4 29
+p PB3 28
+p PB2 27
+p PB1 26
+p PB0 25
+p PC3 12
+p PC2 11
+p PC1 10
+p PC0 9
+p VCC 4
+p VSS 1
+p EXTAL 5
+p XTAL 6
+p \RESET\ 2
+p \INT\ 3
+p TIMER 8
+p PA7 40
+p PA6 39
+p PA5 38
+p PA4 37
+p PA3 36
+p PA2 35
+p PA1 34
+p PA0 33
+p VPP 7
+p PC7 16
+p PC6 15
+p PC5 14
+p PC4 13
+p PD3/AN3 21
+p PD2/AN2 22
+p PD1/AN1 23
+p PD0/AN0 24
+p PD7 17
+p PD6/\INT2\ 18
+p PD5/VRH 19
+p PD4/VRL 20
+*package MC68705R5CFN ako MC68705R3CFN
+*package MC68705R5P ako MC68705R3P
+*package MC68705S3S
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p AN3/PD3 7
+p AN2/PD2 8
+p AN1/PD1 9
+p AN0/PD0 10
+p SPID/PB3 14
+p SPID/PB2 13
+p SPICL/PB1 12
+p SPISS/PB0 11
+p VDD 24
+p VSS 1
+p EXTAL 27
+p XTAL 26
+p \RESET\/VPP 23
+p \INT1\ 25
+p PA7 22
+p PA6 21
+p PA5 20
+p PA4 19
+p PA3 18
+p PA2 17
+p PA1 16
+p PA0 15
+p NUM 28
+p VSTBY/AN4/\INT2\/PD6 4
+p VRH/PD5 5
+p VRL/PD4 6
+p PRESCALER2/PC1 3
+p PRESCALER1/PC0 2
+*package MC68705U3S ako MC68705U5S
+*package MC68705U5S
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p PB7 32
+p PB6 31
+p PB5 30
+p PB4 29
+p PB3 28
+p PB2 27
+p PB1 26
+p PB0 25
+p PC3 12
+p PC2 11
+p PC1 10
+p PC0 9
+p VCC 4
+p VSS 1
+p EXTAL 5
+p XTAL 6
+p \RESET\ 2
+p \INT\ 3
+p TIMER 8
+p PA7 40
+p PA6 39
+p PA5 38
+p PA4 37
+p PA3 36
+p PA2 35
+p PA1 34
+p PA0 33
+p VPP 7
+p PC7 16
+p PC6 15
+p PC5 14
+p PC4 13
+p PD3 21
+p PD2 22
+p PD1 23
+p PD0 24
+p PD7 17
+p PD6/\INT2\ 18
+p PD5 19
+p PD4 20
+*package MC6875A
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p X1 1
+p X2 2
+p EXT_IN 3
+p MR 6
+p \DMA/RFRQ\ 10
+p \RES_OUT\ 14
+p GND 8
+p BUS_2 7
+p MPU_2 13
+p MPU_1 15
+p MEM_CLK 9
+p VCC 16
+p 4XF0 4
+p 2XF0 5
+p DMA/REFG 11
+p \POW_RES\ 12
+*package MC6875AL
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p X1 1
+p X2 2
+p EXT_IN 3
+p MR 6
+p \DMA/RFRQ\ 10
+p \RES_OUT\ 14
+p GND 8
+p BUS_2 7
+p MPU_2 13
+p MPU_1 15
+p MEM_CLK 9
+p VCC 16
+p 4XF0 4
+p 2XF0 5
+p DMA/REFG 11
+p \POW_RES\ 12
+*package MC68A52CP ako MC6852CP
+*package MC68A52CS ako MC6852S
+*package MC68A52P ako MC6852CP
+*package MC68A52S ako MC6852S
+*package MC68B00 ako MC6800
+*package MC68B00P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \HALT\ 2
+p VSS0 1
+p \IRQ\ 4
+p CLK1 3
+p VMA 5
+p \NMI\ 6
+p BA 7
+p VCC 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p VSS1 21
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D7 26
+p D6 27
+p D5 28
+p D4 29
+p D3 30
+p D2 31
+p D1 32
+p D0 33
+p R/\W\ 34
+p DBE 36
+p CLK2 37
+p TSC 39
+p \RESET\ 40
+*package MC68B52S ako MC6852S
+*package MC68HC05B4FN
+@types 1
+g 1
+@pinout
+t PLCC52
+g 1
+p TCMP1 2
+p TCMP2 1
+p PD7/AN7 3
+p PD6/AN6 4
+p PD5/AN5 5
+p VRL 7
+p VRH 8
+p PD4/AN4 9
+p VDD 10
+p PD3/AN3 11
+p PD2/AN2 12
+p PD1/AN1 13
+p PD0/AN0 14
+p OSC1 16
+p OSC2 17
+p \RESET\ 18
+p \IRQ\ 19
+p PLMA_D/A 20
+p PLMB_D/A 21
+p TCAP1 22
+p TCAP2 23
+p PA7 24
+p PA6 25
+p PA5 26
+p PA4 27
+p PA3 28
+p PA2 29
+p PA1 30
+p PA0 31
+p PB7 32
+p PB6 33
+p PB5 34
+p PB4 35
+p PB3 36
+p PB2 37
+p PB1 38
+p PB0 39
+p VSS 41
+p PC7 42
+p PC6 43
+p PC5 44
+p PC4 45
+p PC3 46
+p PC2/ECLK 47
+p PC1 48
+p PC0 49
+p RDI 50
+p SCLK 51
+p TDO 52
+*package MC68HC05B4P
+@types 1
+g 1
+@pinout
+t DIP48X
+g 1
+p TCMP1 3
+p TCMP2 2
+p PD5/AN5 4
+p VRL 5
+p VRH 6
+p PD4/AN4 7
+p VDD 8
+p PD3/AN3 9
+p PD2/AN2 10
+p PD1/AN1 11
+p PD0/AN0 12
+p OSC1 13
+p OSC2 14
+p \RESET\ 15
+p \IRQ\ 16
+p PLMA_D/A 17
+p PLMB_D/A 18
+p TCAP1 19
+p TCAP2 20
+p PA7 21
+p PA6 22
+p PA5 23
+p PA4 24
+p PA3 25
+p PA2 26
+p PA1 27
+p PA0 28
+p PB7 29
+p PB6 30
+p PB5 31
+p PB4 32
+p PB3 33
+p PB2 34
+p PB1 35
+p PB0 36
+p VSS 38
+p PC7 39
+p PC6 40
+p PC5 41
+p PC4 42
+p PC3 43
+p PC2/ECLK 44
+p PC1 45
+p PC0 46
+p RDI 47
+p SCLK 48
+p TDO 1
+*package MC68HC05B6FN ako MC68HC05B4FN
+*package MC68HC05B6P ako MC68HC05B4P
+*package MC68HC05C4
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p PB7 21
+p PB6 20
+p PB5 19
+p PB4 17
+p PB3 16
+p PB2 15
+p PB1 14
+p PB0 13
+p PC7 24
+p PC6 25
+p PC5 26
+p PC4 27
+p PC3 28
+p PC2 29
+p PC1 30
+p PC0 31
+p TCMP 38
+p VDD 44
+p VSS 22
+p OSC1 43
+p OSC2 42
+p \RESET\ 1
+p \IRQ\ 2
+p PA7 5
+p PA6 6
+p PA5 7
+p PA4 8
+p PA3 9
+p PA2 10
+p PA1 11
+p PA0 12
+p PD7 39
+p PD0/RDI 32
+p PD1/TDO 33
+p PD2/MISO 34
+p PD3/MOSI 35
+p PD5/\SS\ 37
+p PD4/SCK 36
+p TCAP 41
+t DIP40X
+g 1
+p PB7 19
+p PB6 18
+p PB5 17
+p PB4 16
+p PB3 15
+p PB2 14
+p PB1 13
+p PB0 12
+p PC7 21
+p PC6 22
+p PC5 23
+p PC4 24
+p PC3 25
+p PC2 26
+p PC1 27
+p PC0 28
+p TCMP 35
+p VDD 40
+p VSS 20
+p OSC1 39
+p OSC2 38
+p \RESET\ 1
+p \IRQ\ 2
+p PA7 4
+p PA6 5
+p PA5 6
+p PA4 7
+p PA3 8
+p PA2 9
+p PA1 10
+p PA0 11
+p PD7 36
+p PD0/RDI 29
+p PD1/TDO 30
+p PD2/MISO 31
+p PD3/MOSI 32
+p PD4/SCK 33
+p PD5/\SS\ 34
+p TCAP 37
+*package MC68HC05C4FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p PB7 21
+p PB6 20
+p PB5 19
+p PB4 17
+p PB3 16
+p PB2 15
+p PB1 14
+p PB0 13
+p PC7 24
+p PC6 25
+p PC5 26
+p PC4 27
+p PC3 28
+p PC2 29
+p PC1 30
+p PC0 31
+p TCMP 38
+p VDD 44
+p VSS 22
+p OSC1 43
+p OSC2 42
+p \RESET\ 1
+p \IRQ\ 2
+p PA7 5
+p PA6 6
+p PA5 7
+p PA4 8
+p PA3 9
+p PA2 10
+p PA1 11
+p PA0 12
+p PD7 39
+p PD0/RDI 32
+p PD1/TDO 33
+p PD2/MISO 34
+p PD3/MOSI 35
+p PD5/\SS\ 37
+p PD4/SCK 36
+p TCAP 41
+*package MC68HC05C4P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p PB7 19
+p PB6 18
+p PB5 17
+p PB4 16
+p PB3 15
+p PB2 14
+p PB1 13
+p PB0 12
+p PC7 21
+p PC6 22
+p PC5 23
+p PC4 24
+p PC3 25
+p PC2 26
+p PC1 27
+p PC0 28
+p TCMP 35
+p VDD 40
+p VSS 20
+p OSC1 39
+p OSC2 38
+p \RESET\ 1
+p \IRQ\ 2
+p PA7 4
+p PA6 5
+p PA5 6
+p PA4 7
+p PA3 8
+p PA2 9
+p PA1 10
+p PA0 11
+p PD7 36
+p PD0/RDI 29
+p PD1/TDO 30
+p PD2/MISO 31
+p PD3/MOSI 32
+p PD4/SCK 33
+p PD5/\SS\ 34
+p TCAP 37
+*package MC68HC05C8FN ako MC68HC05C4FN
+*package MC68HC05C8P ako MC68HC05C4P
+*package MC68HC05L6
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p PB7 23
+p PB6 22
+p PB5 21
+p PB4 20
+p PB3 19
+p PB2 18
+p PB1 17
+p PB0 16
+p PC7 24
+p PC6 25
+p PC5 26
+p PC4 27
+p PC3 28
+p PC2 29
+p PC1 30
+p PC0 31
+p VDD 1
+p VSS 32
+p OSC1 4
+p OSC2 5
+p \RESET\ 3
+p \IRQ\ 2
+p PA7 8
+p PA6 9
+p PA5 10
+p PA4 11
+p PA3 12
+p PA2 13
+p PA1 14
+p PA0 15
+p PD0/MISO 63
+p PD1/MOSI 64
+p PD2/SCK 65
+p PD3/\SS\ 66
+p TCAP 6
+p TCMP 7
+p ALRT 34
+p BP1 62
+p BP2 61
+p BP3 60
+p BP4 59
+p FP24 58
+p FP23 57
+p FP21 55
+p FP22 56
+p FP20 54
+p FP19 53
+p FP17 51
+p FP18 52
+p FP16 50
+p FP14 48
+p FP15 49
+p FP13 47
+p FP12 46
+p FP11 45
+p FP10 44
+p FP8 42
+p FP9 43
+p FP7 41
+p FP6 40
+p FP5 39
+p FP3 37
+p FP4 38
+p FP2 36
+p FP1 35
+p VLL 68
+*package MC68HC05L6FN
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p PB7 23
+p PB6 22
+p PB5 21
+p PB4 20
+p PB3 19
+p PB2 18
+p PB1 17
+p PB0 16
+p PC7 24
+p PC6 25
+p PC5 26
+p PC4 27
+p PC3 28
+p PC2 29
+p PC1 30
+p PC0 31
+p VDD 1
+p VSS 32
+p OSC1 4
+p OSC2 5
+p \RESET\ 3
+p \IRQ\ 2
+p PA7 8
+p PA6 9
+p PA5 10
+p PA4 11
+p PA3 12
+p PA2 13
+p PA1 14
+p PA0 15
+p PD0/MISO 63
+p PD1/MOSI 64
+p PD2/SCK 65
+p PD3/\SS\ 66
+p TCAP 6
+p TCMP 7
+p ALRT 34
+p BP1 62
+p BP2 61
+p BP3 60
+p BP4 59
+p FP24 58
+p FP23 57
+p FP21 55
+p FP22 56
+p FP20 54
+p FP19 53
+p FP17 51
+p FP18 52
+p FP16 50
+p FP14 48
+p FP15 49
+p FP13 47
+p FP12 46
+p FP11 45
+p FP10 44
+p FP8 42
+p FP9 43
+p FP7 41
+p FP6 40
+p FP5 39
+p FP3 37
+p FP4 38
+p FP2 36
+p FP1 35
+p VLL 68
+*package MC68HC05P1
+@types 1
+g 1
+@pinout
+t DIP28X,SO28W
+g 1
+p PC3 19
+p PC2 20
+p PC1 21
+p PC0 22
+p PB7 13
+p PB6 12
+p PB5 11
+p VDD 28
+p VSS 14
+p OSC2 26
+p OSC1 27
+p \RESET\ 1
+p \IRQ\ 2
+p PA7 3
+p PA6 4
+p PA5 5
+p PA4 6
+p PA3 7
+p PA2 8
+p PA1 9
+p PA0 10
+p PC6 16
+p PC5 17
+p PC4 18
+p PD7/TCAP 25
+p PD5 23
+p TCMP 24
+p PC7 15
+*package MC68HC05P1DW
+@types 1
+g 1
+@pinout
+t SO28W
+g 1
+p PC3 19
+p PC2 20
+p PC1 21
+p PC0 22
+p PB7 13
+p PB6 12
+p PB5 11
+p VDD 28
+p VSS 14
+p OSC2 26
+p OSC1 27
+p \RESET\ 1
+p \IRQ\ 2
+p PA7 3
+p PA6 4
+p PA5 5
+p PA4 6
+p PA3 7
+p PA2 8
+p PA1 9
+p PA0 10
+p PC6 16
+p PC5 17
+p PC4 18
+p PD7/TCAP 25
+p PD5 23
+p TCMP 24
+p PC7 15
+*package MC68HC05P1P
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p PC3 19
+p PC2 20
+p PC1 21
+p PC0 22
+p PB7 13
+p PB6 12
+p PB5 11
+p VDD 28
+p VSS 14
+p OSC2 26
+p OSC1 27
+p \RESET\ 1
+p \IRQ\ 2
+p PA7 3
+p PA6 4
+p PA5 5
+p PA4 6
+p PA3 7
+p PA2 8
+p PA1 9
+p PA0 10
+p PC6 16
+p PC5 17
+p PC4 18
+p PD7/TCAP 25
+p PD5 23
+p TCMP 24
+p PC7 15
+*package MC68HC11A0FN ako 68HC11_PLCC52
+*package MC68HC11A0P ako 68HC11_DIP48
+*package MC68HC11A1FN ako 68HC11_PLCC52
+*package MC68HC11A1P ako 68HC11_DIP48
+*package MC68HC11A8FN1 ako 68HC11_PLCC52
+*package MC68HC11A8P1 ako 68HC11_DIP48
+*package MC68HC11E9FN ako 68HC11_PLCC52
+*package MC68HC24
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p IOTEST 2
+p PB7 19
+p PB6 20
+p PB5 21
+p PB4 22
+p PB3 24
+p PB2 25
+p PB1 26
+p PB0 27
+p PC3 11
+p PC2 10
+p PC1 9
+p PC0 8
+p VDD 17
+p VSS 29
+p MODE 43
+p A15 3
+p \RESET\ 39
+p E 41
+p AS 42
+p AD7 30
+p AD6 31
+p AD5 32
+p AD4 33
+p AD3 35
+p AD2 36
+p AD1 37
+p AD0 38
+p PC7 16
+p PC6 15
+p PC5 14
+p PC4 13
+p A14 4
+p A13 5
+p A12 6
+p R/\W\ 40
+p \CS\ 44
+p STRA 7
+p STRB 18
+p \IRQ\ 28
+t DIP40X
+g 1
+p IOTEST 1
+p PB7 17
+p PB6 18
+p PB5 19
+p PB4 20
+p PB3 21
+p PB2 22
+p PB1 23
+p PB0 24
+p PC3 10
+p PC2 9
+p PC1 8
+p PC0 7
+p VDD 15
+p VSS 26
+p MODE 39
+p A15 2
+p \RESET\ 35
+p E 37
+p AS 38
+p AD7 27
+p AD6 28
+p AD5 29
+p AD4 30
+p AD3 31
+p AD2 32
+p AD1 33
+p AD0 34
+p PC7 14
+p PC6 13
+p PC5 12
+p PC4 11
+p A14 3
+p A13 4
+p A12 5
+p R/\W\ 36
+p \CS\ 40
+p STRA 6
+p STRB 16
+p \IRQ\ 25
+*package MC68HC24FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p IOTEST 2
+p PB7 19
+p PB6 20
+p PB5 21
+p PB4 22
+p PB3 24
+p PB2 25
+p PB1 26
+p PB0 27
+p PC3 11
+p PC2 10
+p PC1 9
+p PC0 8
+p VDD 17
+p VSS 29
+p MODE 43
+p A15 3
+p \RESET\ 39
+p E 41
+p AS 42
+p AD7 30
+p AD6 31
+p AD5 32
+p AD4 33
+p AD3 35
+p AD2 36
+p AD1 37
+p AD0 38
+p PC7 16
+p PC6 15
+p PC5 14
+p PC4 13
+p A14 4
+p A13 5
+p A12 6
+p R/\W\ 40
+p \CS\ 44
+p STRA 7
+p STRB 18
+p \IRQ\ 28
+*package MC68HC24P
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p IOTEST 1
+p PB7 17
+p PB6 18
+p PB5 19
+p PB4 20
+p PB3 21
+p PB2 22
+p PB1 23
+p PB0 24
+p PC3 10
+p PC2 9
+p PC1 8
+p PC0 7
+p VDD 15
+p VSS 26
+p MODE 39
+p A15 2
+p \RESET\ 35
+p E 37
+p AS 38
+p AD7 27
+p AD6 28
+p AD5 29
+p AD4 30
+p AD3 31
+p AD2 32
+p AD1 33
+p AD0 34
+p PC7 14
+p PC6 13
+p PC5 12
+p PC4 11
+p A14 3
+p A13 4
+p A12 5
+p R/\W\ 36
+p \CS\ 40
+p STRA 6
+p STRB 16
+p \IRQ\ 25
+*package MC68HC705C8FN ako MC68HC05C4FN
+*package MC68HC705C8P ako MC68HC05C4P
+*package MC68HC805B6FN
+@types 1
+g 1
+@pinout
+t PLCC52
+g 1
+p TCMP1 2
+p TCMP2 1
+p PD7/AN7 3
+p PD6/AN6 4
+p PD5/AN5 5
+p VRL 7
+p VRH 8
+p PD4/AN4 9
+p VDD 10
+p PD3/AN3 11
+p PD2/AN2 12
+p PD1/AN1 13
+p VPP6 15
+p PD0/AN0 14
+p OSC1 16
+p OSC2 17
+p \RESET\ 18
+p \IRQ\ 19
+p PLMA_D/A 20
+p PLMB_D/A 21
+p TCAP1 22
+p TCAP2 23
+p PA7 24
+p PA6 25
+p PA5 26
+p PA4 27
+p PA3 28
+p PA2 29
+p PA1 30
+p PA0 31
+p PB7 32
+p PB6 33
+p PB5 34
+p PB4 35
+p PB3 36
+p PB2 37
+p PB1 38
+p VPP1 40
+p PB0 39
+p VSS 41
+p PC7 42
+p PC6 43
+p PC5 44
+p PC4 45
+p PC3 46
+p PC2/ECLK 47
+p PC1 48
+p PC0 49
+p RDI 50
+p SCLK 51
+p TDO 52
+*package MC68HC805C4
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VPP 3
+p PB7 19
+p PB6 18
+p PB5 17
+p PB4 16
+p PB3 15
+p PB2 14
+p PB1 13
+p PB0 12
+p PC7 21
+p PC6 22
+p PC5 23
+p PC4 24
+p PC3 25
+p PC2 26
+p PC1 27
+p PC0 28
+p TCMP 35
+p VDD 40
+p VSS 20
+p OSC1 39
+p OSC2 38
+p \RESET\/\MATCH\ 1
+p \IRQ\ 2
+p PA7 4
+p PA6 5
+p PA5 6
+p PA4 7
+p PA3 8
+p PA2 9
+p PA1 10
+p PA0 11
+p PD7 36
+p PD0/RDI 29
+p PD1/TDO 30
+p PD2/MISO 31
+p PD3/MOSI 32
+p PD4/SCK 33
+p PD5/\SS\ 34
+p TCAP 37
+*package MC68HC805C4P ako MC68HC805C4
+*package MC68HC811E2FN ako 68HC11_PLCC52
+*package MC68HCL05C4 ako MC68HC05C4
+*package MC68HCL05C4FN ako MC68HC05C4FN
+*package MC68HCL05C4P ako MC68HC05C4P
+*package MC68HCL05C8FN ako MC68HC05C4FN
+*package MC68HCL05C8P ako MC68HC05C4P
+*package MC68HSC05C4FN ako MC68HC05C4FN
+*package MC68HSC05C4P ako MC68HC05C4P
+*package MC68HSC05C8FN ako MC68HC05C8FN
+*package MC68HSC05C8P ako MC68HC05C4P

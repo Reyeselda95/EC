@@ -1,0 +1,4143 @@
+*version 8.0 3674064
+@index
+symloc BD157:qnpn 0 148
+symloc BD158:qnpn 148 148
+symloc BD159:qnpn 296 148
+symloc BD185:qnpn 444 148
+symloc BD186:qpnp 592 148
+symloc BD187:qnpn 740 148
+symloc BD188:qpnp 888 148
+symloc BD189:qnpn 1036 148
+symloc BD190:qpnp 1184 148
+symloc BD201:qnpn 1332 148
+symloc BD202:qpnp 1480 148
+symloc BD203:qnpn 1628 148
+symloc BD204:qpnp 1776 148
+symloc BD220:qnpn 1924 148
+symloc BD221:qnpn 2072 148
+symloc BD222:qnpn 2220 148
+symloc BD223:qpnp 2368 148
+symloc BD224:qpnp 2516 148
+symloc BD225:qpnp 2664 148
+symloc BD233:qnpn 2812 148
+symloc BD234:qpnp 2960 148
+symloc BD235:qnpn 3108 148
+symloc BD236:qpnp 3256 148
+symloc BD237:qnpn 3404 148
+symloc BD238:qpnp 3552 148
+symloc BD239:qnpn 3700 148
+symloc BD239A:qnpn 3848 151
+symloc BD239B:qnpn 3999 151
+symloc BD239C:qnpn 4150 151
+symloc BD240:qpnp 4301 148
+symloc BD240A:qpnp 4449 151
+symloc BD240B:qpnp 4600 151
+symloc BD240C:qpnp 4751 151
+symloc BD241:qnpn 4902 148
+symloc BD241A:qnpn 5050 151
+symloc BD241B:qnpn 5201 151
+symloc BD241C:qnpn 5352 151
+symloc BD242:qpnp 5503 148
+symloc BD242A:qpnp 5651 151
+symloc BD242B:qpnp 5802 151
+symloc BD242C:qpnp 5953 151
+symloc BD243:qnpn 6104 148
+symloc BD243A:qnpn 6252 151
+symloc BD243B:qnpn 6403 151
+symloc BD243C:qnpn 6554 151
+symloc BD244:qpnp 6705 148
+symloc BD244A:qpnp 6853 151
+symloc BD244B:qpnp 7004 151
+symloc BD244C:qpnp 7155 151
+symloc BD346:qpnp 7306 148
+symloc BD347:qnpn 7454 148
+symloc BD433:qnpn 7602 148
+symloc BD434:qpnp 7750 148
+symloc BD435:qnpn 7898 148
+symloc BD436:qpnp 8046 148
+symloc BD437:qnpn 8194 148
+symloc BD438:qpnp 8342 148
+symloc BD439:qnpn 8490 148
+symloc BD440:qpnp 8638 148
+symloc BD441:qnpn 8786 148
+symloc BD442:qpnp 8934 148
+symloc BD533:qnpn 9082 148
+symloc BD534:qpnp 9230 148
+symloc BD535:qnpn 9378 148
+symloc BD536:qpnp 9526 148
+symloc BD537:qnpn 9674 148
+symloc BD538:qpnp 9822 148
+symloc BD633:qnpn 9970 148
+symloc BD634:qpnp 10118 148
+symloc BD635:qnpn 10266 148
+symloc BD636:qpnp 10414 148
+symloc BD637:qnpn 10562 148
+symloc BD638:qpnp 10710 148
+symloc BD733:qnpn 10858 148
+symloc BD734:qpnp 11006 148
+symloc BD735:qnpn 11154 148
+symloc BD736:qpnp 11302 148
+symloc BD737:qnpn 11450 148
+symloc BD738:qpnp 11598 148
+symloc BD795:qnpn 11746 148
+symloc BD796:qpnp 11894 148
+symloc BD797:qnpn 12042 148
+symloc BD798:qpnp 12190 148
+symloc BD799:qnpn 12338 148
+symloc BD800:qpnp 12486 148
+symloc BD801:qnpn 12634 148
+symloc BD802:qpnp 12782 148
+symloc BUW40:qnpn 12930 146
+symloc BUW40A:qnpn 13076 149
+symloc BUW40B:qnpn 13225 149
+symloc BUW41:qnpn 13374 146
+symloc BUW41A:qnpn 13520 149
+symloc BUW41B:qnpn 13669 149
+symloc BUW64A:qnpn 13818 149
+symloc BUW64B:qnpn 13967 149
+symloc BUW64C:qnpn 14116 149
+symloc BUX11A:qnpn 14265 149
+symloc BUX14:qnpn 14414 146
+symloc BUX21:qnpn 14560 146
+symloc BUX32:qnpn 14706 146
+symloc BUX32A:qnpn 14852 149
+symloc BUX32B:qnpn 15001 149
+symloc BUX33:qnpn 15150 146
+symloc BUX33A:qnpn 15296 149
+symloc BUX33B:qnpn 15445 149
+symloc BUY69A:qnpn 15594 149
+symloc BUY69B:qnpn 15743 149
+symloc BUY69C:qnpn 15892 149
+symloc D40C1:qnpn 16041 146
+symloc D40C4:qnpn 16187 146
+symloc D40C7:qnpn 16333 146
+symloc D40D1:qnpn 16479 146
+symloc D40D2:qnpn 16625 146
+symloc D40D4:qnpn 16771 146
+symloc D40D5:qnpn 16917 146
+symloc D40D7:qnpn 17063 146
+symloc D40D8:qnpn 17209 146
+symloc D40E1:qnpn 17355 146
+symloc D40E5:qnpn 17501 146
+symloc D40E7:qnpn 17647 146
+symloc D40K1:qnpn 17793 146
+symloc D40K2:qnpn 17939 146
+symloc D40K3:qnpn 18085 146
+symloc D40K4:qnpn 18231 146
+symloc D40V1:qnpn 18377 146
+symloc D40V2:qnpn 18523 146
+symloc D40V3:qnpn 18669 146
+symloc D40V4:qnpn 18815 146
+symloc D40V5:qnpn 18961 146
+symloc D40V6:qnpn 19107 146
+symloc D41D1:qpnp 19253 148
+symloc D41D2:qpnp 19401 148
+symloc D41D4:qpnp 19549 148
+symloc D41D5:qpnp 19697 148
+symloc D41D7:qpnp 19845 148
+symloc D41D8:qpnp 19993 148
+symloc D41E1:qpnp 20141 148
+symloc D41E5:qpnp 20289 148
+symloc D41E7:qpnp 20437 148
+symloc D41K1:qpnp 20585 148
+symloc D41K2:qpnp 20733 148
+symloc D41K3:qpnp 20881 148
+symloc D41K4:qpnp 21029 148
+symloc D42C1:qnpn 21177 146
+symloc D42C2:qnpn 21323 146
+symloc D42C3:qnpn 21469 146
+symloc D42C4:qnpn 21615 146
+symloc D42C5:qnpn 21761 146
+symloc D42C6:qnpn 21907 146
+symloc D42C7:qnpn 22053 146
+symloc D42C8:qnpn 22199 146
+symloc D42C9:qnpn 22345 146
+symloc D42C10:qnpn 22491 149
+symloc D42C11:qnpn 22640 149
+symloc D42C12:qnpn 22789 149
+symloc D43C1:qpnp 22938 148
+symloc D43C2:qpnp 23086 148
+symloc D43C3:qpnp 23234 148
+symloc D43C4:qpnp 23382 148
+symloc D43C5:qpnp 23530 148
+symloc D43C6:qpnp 23678 148
+symloc D43C7:qpnp 23826 148
+symloc D43C8:qpnp 23974 148
+symloc D43C9:qpnp 24122 148
+symloc D43C10:qpnp 24270 151
+symloc D43C11:qpnp 24421 151
+symloc D43C12:qpnp 24572 151
+symloc D44C2:qnpn 24723 146
+symloc D44C3:qnpn 24869 146
+symloc D44C5:qnpn 25015 146
+symloc D44C6:qnpn 25161 146
+symloc D44C8:qnpn 25307 146
+symloc D44H1:qnpn 25453 146
+symloc D44H2:qnpn 25599 146
+symloc D44H4:qnpn 25745 146
+symloc D44H5:qnpn 25891 146
+symloc D44H7:qnpn 26037 146
+symloc D44H8:qnpn 26183 146
+symloc D44H10:qnpn 26329 149
+symloc D44H11:qnpn 26478 149
+symloc D44Q1:qnpn 26627 146
+symloc D44Q3:qnpn 26773 146
+symloc D44Q5:qnpn 26919 146
+symloc D44T1:qnpn 27065 146
+symloc D44T2:qnpn 27211 146
+symloc D44T3:qnpn 27357 146
+symloc D44T4:qnpn 27503 146
+symloc MJE29:qnpn 27649 148
+symloc MJE29A:qnpn 27797 151
+symloc MJE29B:qnpn 27948 151
+symloc MJE29C:qnpn 28099 151
+symloc MJE30:qpnp 28250 148
+symloc MJE30A:qpnp 28398 151
+symloc MJE30B:qpnp 28549 151
+symloc MJE30C:qpnp 28700 151
+symloc MJE33:qnpn 28851 148
+symloc MJE33A:qnpn 28999 151
+symloc MJE33B:qnpn 29150 151
+symloc MJE33C:qnpn 29301 151
+symloc MJE34:qpnp 29452 148
+symloc MJE34A:qpnp 29600 151
+symloc MJE34B:qpnp 29751 151
+symloc MJE34C:qpnp 29902 151
+symloc MJE41:qnpn 30053 148
+symloc MJE41A:qnpn 30201 151
+symloc MJE41B:qnpn 30352 151
+symloc MJE41C:qnpn 30503 151
+symloc MJE42:qpnp 30654 148
+symloc MJE42A:qpnp 30802 151
+symloc MJE42B:qpnp 30953 151
+symloc MJE42C:qpnp 31104 151
+symloc MJE340:qnpn 31255 151
+symloc MJE341:qnpn 31406 151
+symloc MJE344:qnpn 31557 151
+symloc MJE345:qnpn 31708 151
+symloc MJE370:qpnp 31859 151
+symloc MJE371:qpnp 32010 151
+symloc MJE482:qnpn 32161 151
+symloc MJE483:qnpn 32312 151
+symloc MJE484:qnpn 32463 151
+symloc MJE492:qnpn 32614 151
+symloc MJE493:qpnp 32765 151
+symloc MJE494:qpnp 32916 151
+symloc MJE520:qnpn 33067 151
+symloc MJE520K:qnpn 33218 154
+symloc MJE521:qnpn 33372 151
+symloc MJE521K:qnpn 33523 154
+symloc MJE2371:qpnp 33677 154
+symloc MJE2480:qnpn 33831 154
+symloc MJE2481:qpnp 33985 154
+symloc MJE2482:qnpn 34139 154
+symloc MJE2483:qnpn 34293 154
+symloc MJE2801T:qnpn 34447 157
+symloc MJE2901K:qpnp 34604 157
+symloc MJE2901T:qpnp 34761 157
+symloc MJE2955:qpnp 34918 154
+symloc MJE2955K:qpnp 35072 157
+symloc MJE2955T:qpnp 35229 157
+symloc MJE3055:qnpn 35386 154
+symloc MJE3055K:qnpn 35540 157
+symloc MJE3055T:qnpn 35697 157
+symloc MJE3370:qpnp 35854 154
+symloc MJE3371:qpnp 36008 154
+symloc MJE3439:qnpn 36162 154
+symloc MJE3440:qnpn 36316 154
+symloc MJE3520:qnpn 36470 154
+symloc MJE3521:qnpn 36624 154
+symloc MJE4918:qpnp 36778 154
+symloc MJE4919:qpnp 36932 154
+symloc MJE4920:qpnp 37086 154
+symloc MJE4921:qnpn 37240 154
+symloc MJE4922:qnpn 37394 154
+symloc MJE4923:qnpn 37548 154
+symloc MJE5190:qnpn 37702 154
+symloc MJE5190J:qnpn 37856 157
+symloc MJE5191:qnpn 38013 154
+symloc MJE5191J:qnpn 38167 157
+symloc MJE5192:qnpn 38324 154
+symloc MJE5192J:qnpn 38478 157
+symloc MJE5193:qpnp 38635 154
+symloc MJE5194:qpnp 38789 154
+symloc MJE5195:qpnp 38943 154
+symloc MRH1240N:qnpn 39097 156
+symloc MRH1240N/-55C:qnpn 39253 219
+symloc MRH1240N/125C:qnpn 39472 219
+symloc MRH1240N/27C:qnpn 39691 215
+symloc MRH1240N/27C/RAD1:qnpn 39906 246
+symloc MRH1240N/27C/RAD2:qnpn 40152 246
+symloc MRH240N:qnpn 40398 153
+symloc MRH240N/-55C:qnpn 40551 215
+symloc MRH240N/125C:qnpn 40766 215
+symloc MRH240N/27C:qnpn 40981 211
+symloc MRH240N/27C/RAD1:qnpn 41192 242
+symloc MRH240N/27C/RAD2:qnpn 41434 242
+symloc MRH240N/27C/RAD3:qnpn 41676 242
+symloc MRH240P:qpnp 41918 153
+symloc MRH240P/-55C:qpnp 42071 215
+symloc MRH240P/125C:qpnp 42286 215
+symloc MRH240P/27C:qpnp 42501 211
+symloc MRH240P/27C/RAD1:qpnp 42712 242
+symloc MRH240P/27C/RAD2:qpnp 42954 242
+symloc MRH640N:qnpn 43196 153
+symloc MRH640N/-55C:qnpn 43349 215
+symloc MRH640N/125C:qnpn 43564 215
+symloc MRH640N/27C:qnpn 43779 211
+symloc MRH640N/27C/RAD1:qnpn 43990 242
+symloc MRH640N/27C/RAD2:qnpn 44232 242
+symloc MRH640P:qpnp 44474 153
+symloc MRH640P/-55C:qpnp 44627 215
+symloc MRH640P/125C:qpnp 44842 215
+symloc MRH640P/27C:qpnp 45057 211
+symloc MRH640P/27C/RAD1:qpnp 45268 242
+symloc MRH640P/27C/RAD2:qpnp 45510 242
+symloc Q2N1893,2N1893:qnpn 45752 199
+symloc Q2N2405,2N2405:qnpn 45951 199
+symloc Q2N3055,2N3055:qnpn 46150 202
+symloc Q2N3700/-55C:qnpn 46352 214
+symloc Q2N3700/-55C/RAD:qnpn 46566 241
+symloc Q2N3700/125C:qnpn 46807 214
+symloc Q2N3700/27C:qnpn 47021 210
+symloc Q2N3700/27C/RAD1:qnpn 47231 241
+symloc Q2N3700/27C/RAD2:qnpn 47472 241
+symloc Q2N3700/27C/RAD3:qnpn 47713 241
+symloc Q2N3700/27C/RAD4:qnpn 47954 241
+symloc Q2N3700/75C:qnpn 48195 210
+symloc Q2N3700/TEMP:qnpn 48405 220
+symloc Q2N3716,2N3716:qnpn 48625 200
+symloc Q2N3716/-55C:qnpn 48825 214
+symloc Q2N3716/125C:qnpn 49039 214
+symloc Q2N3716/27C:qnpn 49253 210
+symloc Q2N3716/27C/RAD:qnpn 49463 238
+symloc Q2N3716/75C:qnpn 49701 210
+symloc Q2N4063,2N4063:qnpn 49911 202
+symloc Q2N4064,2N4064:qnpn 50113 202
+symloc Q2N4918,2N4918:qpnp 50315 202
+symloc Q2N4919,2N4919:qpnp 50517 202
+symloc Q2N4920,2N4920:qpnp 50719 202
+symloc Q2N4921,2N4921:qnpn 50921 202
+symloc Q2N4922,2N4922:qnpn 51123 202
+symloc Q2N4923,2N4923:qnpn 51325 202
+symloc Q2N5154,2N5154:qnpn 51527 200
+symloc Q2N5190,2N5190:qnpn 51727 202
+symloc Q2N5191,2N5191:qnpn 51929 202
+symloc Q2N5192,2N5192:qnpn 52131 202
+symloc Q2N5193,2N5193:qpnp 52333 202
+symloc Q2N5194,2N5194:qpnp 52535 202
+symloc Q2N5195,2N5195:qpnp 52737 202
+symloc Q2N5294,2N5294:qnpn 52939 202
+symloc Q2N5296,2N5296:qnpn 53141 202
+symloc Q2N5298,2N5298:qnpn 53343 202
+symloc Q2N5339,2N5339:qnpn 53545 200
+symloc Q2N5339/-55C:qnpn 53745 214
+symloc Q2N5339/125C:qnpn 53959 214
+symloc Q2N5339/27C:qnpn 54173 210
+symloc Q2N5339/27C/RAD:qnpn 54383 238
+symloc Q2N5490,2N5490:qnpn 54621 202
+symloc Q2N5492,2N5492:qnpn 54823 202
+symloc Q2N5494,2N5494:qnpn 55025 202
+symloc Q2N5496,2N5496:qnpn 55227 202
+symloc Q2N5655,2N5655:qnpn 55429 202
+symloc Q2N5656,2N5656:qnpn 55631 202
+symloc Q2N5657,2N5657:qnpn 55833 202
+symloc Q2N5980,2N5980:qpnp 56035 202
+symloc Q2N5981,2N5981:qpnp 56237 202
+symloc Q2N5982,2N5982:qpnp 56439 202
+symloc Q2N5983,2N5983:qnpn 56641 202
+symloc Q2N5984,2N5984:qnpn 56843 202
+symloc Q2N5985,2N5985:qnpn 57045 202
+symloc Q2N6021,2N6021:qpnp 57247 202
+symloc Q2N6022,2N6022:qpnp 57449 202
+symloc Q2N6023,2N6023:qpnp 57651 202
+symloc Q2N6024,2N6024:qpnp 57853 202
+symloc Q2N6025,2N6025:qpnp 58055 202
+symloc Q2N6026,2N6026:qpnp 58257 202
+symloc Q2N6098,2N6098:qnpn 58459 202
+symloc Q2N6099,2N6099:qnpn 58661 202
+symloc Q2N6100,2N6100:qnpn 58863 202
+symloc Q2N6101,2N6101:qnpn 59065 202
+symloc Q2N6102,2N6102:qnpn 59267 202
+symloc Q2N6103,2N6103:qnpn 59469 202
+symloc Q2N6106,2N6106:qpnp 59671 202
+symloc Q2N6107,2N6107:qpnp 59873 202
+symloc Q2N6108,2N6108:qpnp 60075 202
+symloc Q2N6109,2N6109:qpnp 60277 202
+symloc Q2N6110,2N6110:qpnp 60479 202
+symloc Q2N6111,2N6111:qpnp 60681 202
+symloc Q2N6121,2N6121:qnpn 60883 202
+symloc Q2N6122,2N6122:qnpn 61085 202
+symloc Q2N6123,2N6123:qnpn 61287 202
+symloc Q2N6124,2N6124:qpnp 61489 202
+symloc Q2N6125,2N6125:qpnp 61691 202
+symloc Q2N6126,2N6126:qpnp 61893 202
+symloc Q2N6129,2N6129:qnpn 62095 202
+symloc Q2N6130,2N6130:qnpn 62297 202
+symloc Q2N6131,2N6131:qnpn 62499 202
+symloc Q2N6132,2N6132:qpnp 62701 202
+symloc Q2N6133,2N6133:qpnp 62903 202
+symloc Q2N6134,2N6134:qpnp 63105 202
+symloc Q2N6175,2N6175:qnpn 63307 202
+symloc Q2N6176,2N6176:qnpn 63509 202
+symloc Q2N6177,2N6177:qnpn 63711 202
+symloc Q2N6193,2N6193:qpnp 63913 200
+symloc Q2N6193/-55C:qpnp 64113 214
+symloc Q2N6193/125C:qpnp 64327 214
+symloc Q2N6193/27C:qpnp 64541 210
+symloc Q2N6193/27C/RAD:qpnp 64751 238
+symloc Q2N6193/75C:qpnp 64989 210
+symloc Q2N6288,2N6288:qnpn 65199 202
+symloc Q2N6290,2N6290:qnpn 65401 202
+symloc Q2N6292,2N6292:qnpn 65603 202
+symloc Q2N6465,2N6465:qnpn 65805 202
+symloc Q2N6473,2N6473:qnpn 66007 202
+symloc Q2N6474,2N6474:qnpn 66209 202
+symloc Q2N6475,2N6475:qpnp 66411 202
+symloc Q2N6476,2N6476:qpnp 66613 202
+symloc Q2N6486,2N6486:qnpn 66815 202
+symloc Q2N6487,2N6487:qnpn 67017 202
+symloc Q2N6488,2N6488:qnpn 67219 202
+symloc Q2N6489,2N6489:qpnp 67421 202
+symloc Q2N6490,2N6490:qpnp 67623 202
+symloc Q2N6491,2N6491:qpnp 67825 202
+symloc Q2N6542,2N6542:qnpn 68027 199
+symloc Q2N6544,2N6544:qnpn 68226 199
+symloc Q2N6545,2N6545:qnpn 68425 199
+symloc Q2N6546,2N6546:qnpn 68624 199
+symloc Q2N6591,2N6591:qnpn 68823 202
+symloc Q2N6592,2N6592:qnpn 69025 202
+symloc Q2N6593,2N6593:qnpn 69227 202
+symloc Q2N6671,2N6671:qnpn 69429 199
+symloc Q2N6672,2N6672:qnpn 69628 199
+symloc Q2N6673,2N6673:qnpn 69827 199
+symloc Q2N6674,2N6674:qnpn 70026 199
+symloc Q2N6675,2N6675:qnpn 70225 199
+symloc Q2N6676,2N6676:qnpn 70424 199
+symloc Q2N6677,2N6677:qnpn 70623 199
+symloc Q2N6678,2N6678:qnpn 70822 199
+symloc Q2N6686,2N6686:qnpn 71021 199
+symloc Q2N6687,2N6687:qnpn 71220 199
+symloc Q2N6688,2N6688:qnpn 71419 199
+symloc Q2N6702,2N6702:qnpn 71618 199
+symloc Q2N6703,2N6703:qnpn 71817 199
+symloc Q2N6704,2N6704:qnpn 72016 199
+symloc Q2N6720,2N6720:qnpn 72215 202
+symloc Q2N6721,2N6721:qnpn 72417 202
+symloc Q2N6722,2N6722:qnpn 72619 202
+symloc Q2N6723,2N6723:qnpn 72821 202
+symloc Q2N6738,2N6738:qnpn 73023 199
+symloc Q2N6739,2N6739:qnpn 73222 199
+symloc Q2N6740,2N6740:qnpn 73421 199
+symloc Q2N6751,2N6751:qnpn 73620 199
+symloc Q2N6752,2N6752:qnpn 73819 199
+symloc Q2N6753,2N6753:qnpn 74018 199
+symloc Q2N6754,2N6754:qnpn 74217 199
+symloc Q2N6771,2N6771:qnpn 74416 199
+symloc Q2N6772,2N6772:qnpn 74615 199
+symloc Q2N6773,2N6773:qnpn 74814 199
+symloc Q2SA496,2SA496:qpnp 75013 202
+symloc Q2SA505,2SA505:qpnp 75215 202
+symloc Q40513,40513:qnpn 75417 197
+symloc Q40514,40514:qnpn 75614 197
+symloc Q40613,40613:qnpn 75811 197
+symloc Q40618,40618:qnpn 76008 197
+symloc Q40621,40621:qnpn 76205 197
+symloc Q40622,40622:qnpn 76402 197
+symloc Q40624,40624:qnpn 76599 197
+symloc Q40627,40627:qnpn 76796 197
+symloc Q40629,40629:qnpn 76993 197
+symloc Q40630,40630:qnpn 77190 197
+symloc Q40631,40631:qnpn 77387 197
+symloc Q40632,40632:qnpn 77584 197
+symloc Q40871,40871:qnpn 77781 197
+symloc Q40872,40872:qpnp 77978 197
+symloc Q40873,40873:qnpn 78175 197
+symloc Q40874,40874:qnpn 78372 197
+symloc Q40875,40875:qnpn 78569 197
+symloc Q40876,40876:qnpn 78766 197
+symloc Q41500,41500:qnpn 78963 197
+symloc Q41504,41504:qnpn 79160 197
+symloc RCA1C05:qnpn 79357 154
+symloc RCA1C06:qpnp 79511 154
+symloc RCA1C07:qnpn 79665 154
+symloc RCA1C08:qpnp 79819 154
+symloc RCA1C09:qnpn 79973 154
+symloc RCA1C10:qnpn 80127 154
+symloc RCA1C11:qpnp 80281 154
+symloc RCA1C14:qnpn 80435 154
+symloc RCA29:qnpn 80589 148
+symloc RCA29A:qnpn 80737 151
+symloc RCA29B:qnpn 80888 151
+symloc RCA29C:qnpn 81039 151
+symloc RCA30:qpnp 81190 148
+symloc RCA30A:qpnp 81338 151
+symloc RCA30B:qpnp 81489 151
+symloc RCA30C:qpnp 81640 151
+symloc RCA31:qnpn 81791 148
+symloc RCA31A:qnpn 81939 151
+symloc RCA31B:qnpn 82090 151
+symloc RCA31C:qnpn 82241 151
+symloc RCA32:qpnp 82392 148
+symloc RCA32A:qpnp 82540 151
+symloc RCA32B:qpnp 82691 151
+symloc RCA32C:qpnp 82842 151
+symloc RCA41:qnpn 82993 148
+symloc RCA41A:qnpn 83141 151
+symloc RCA41B:qnpn 83292 151
+symloc RCA41C:qnpn 83443 151
+symloc RCA42:qpnp 83594 148
+symloc RCA42A:qpnp 83742 151
+symloc RCA42B:qpnp 83893 151
+symloc RCA42C:qpnp 84044 151
+symloc RCA3054:qnpn 84195 154
+symloc RCA3055:qnpn 84349 154
+symloc RCP115:qnpn 84503 151
+symloc RCP117:qnpn 84654 151
+symloc RCP131A:qnpn 84805 154
+symloc RCP131B:qnpn 84959 154
+symloc RCP133A:qnpn 85113 154
+symloc RCP133B:qnpn 85267 154
+symloc RJH6674:qnpn 85421 152
+symloc RJH6675:qnpn 85573 152
+symloc RJH6676:qnpn 85725 152
+symloc RJH6677:qnpn 85877 152
+symloc RJH6678:qnpn 86029 152
+symloc RJH6686:qnpn 86181 152
+symloc RJH6687:qnpn 86333 152
+symloc RJH6688:qnpn 86485 152
+symloc TIP29:qnpn 86637 148
+symloc TIP29A:qnpn 86785 151
+symloc TIP29B:qnpn 86936 151
+symloc TIP29C:qnpn 87087 151
+symloc TIP30:qpnp 87238 148
+symloc TIP30A:qpnp 87386 151
+symloc TIP30B:qpnp 87537 151
+symloc TIP30C:qpnp 87688 151
+symloc TIP31:qnpn 87839 148
+symloc TIP31A:qnpn 87987 151
+symloc TIP31B:qnpn 88138 151
+symloc TIP31C:qnpn 88289 151
+symloc TIP32:qpnp 88440 148
+symloc TIP32A:qpnp 88588 151
+symloc TIP32B:qpnp 88739 151
+symloc TIP32C:qpnp 88890 151
+symloc TIP33:qnpn 89041 148
+symloc TIP33A:qnpn 89189 151
+symloc TIP33B:qnpn 89340 151
+symloc TIP33C:qnpn 89491 151
+symloc TIP34:qpnp 89642 148
+symloc TIP34A:qpnp 89790 151
+symloc TIP34B:qpnp 89941 151
+symloc TIP34C:qpnp 90092 151
+symloc TIP41:qnpn 90243 148
+symloc TIP41A:qnpn 90391 151
+symloc TIP41B:qnpn 90542 151
+symloc TIP41C:qnpn 90693 151
+symloc TIP42:qpnp 90844 148
+symloc TIP42A:qpnp 90992 151
+symloc TIP42B:qpnp 91143 151
+symloc TIP42C:qpnp 91294 151
+symloc TIP61:qnpn 91445 148
+symloc TIP61A:qnpn 91593 151
+symloc TIP61B:qnpn 91744 151
+symloc TIP61C:qnpn 91895 151
+symloc TIP62:qpnp 92046 148
+symloc TIP62A:qpnp 92194 151
+symloc TIP62B:qpnp 92345 151
+symloc TIP62C:qpnp 92496 151
+symloc TIP73:qnpn 92647 148
+symloc TIP73A:qnpn 92795 151
+symloc TIP73B:qnpn 92946 151
+symloc TIP74:qpnp 93097 148
+symloc TIP74A:qpnp 93245 151
+symloc TIP74B:qpnp 93396 151
+symloc TIP2955:qpnp 93547 154
+symloc TIP3055:qnpn 93701 154
+symloc qnpn 93855 422 b
+symloc qpnp 94277 422 b
+symloc copyright 94699 575 b
+*symbol BD157 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD157
+a 0 sp 0 0 25 40 hln 100 MODEL=BD157
+*symbol BD158 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD158
+a 0 sp 0 0 25 40 hln 100 MODEL=BD158
+*symbol BD159 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD159
+a 0 sp 0 0 25 40 hln 100 MODEL=BD159
+*symbol BD185 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD185
+a 0 sp 0 0 25 40 hln 100 MODEL=BD185
+*symbol BD186 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD186
+a 0 sp 0 0 25 40 hln 100 MODEL=BD186
+*symbol BD187 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD187
+a 0 sp 0 0 25 40 hln 100 MODEL=BD187
+*symbol BD188 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD188
+a 0 sp 0 0 25 40 hln 100 MODEL=BD188
+*symbol BD189 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD189
+a 0 sp 0 0 25 40 hln 100 MODEL=BD189
+*symbol BD190 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD190
+a 0 sp 0 0 25 40 hln 100 MODEL=BD190
+*symbol BD201 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD201
+a 0 sp 0 0 25 40 hln 100 MODEL=BD201
+*symbol BD202 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD202
+a 0 sp 0 0 25 40 hln 100 MODEL=BD202
+*symbol BD203 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD203
+a 0 sp 0 0 25 40 hln 100 MODEL=BD203
+*symbol BD204 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD204
+a 0 sp 0 0 25 40 hln 100 MODEL=BD204
+*symbol BD220 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD220
+a 0 sp 0 0 25 40 hln 100 MODEL=BD220
+*symbol BD221 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD221
+a 0 sp 0 0 25 40 hln 100 MODEL=BD221
+*symbol BD222 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD222
+a 0 sp 0 0 25 40 hln 100 MODEL=BD222
+*symbol BD223 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD223
+a 0 sp 0 0 25 40 hln 100 MODEL=BD223
+*symbol BD224 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD224
+a 0 sp 0 0 25 40 hln 100 MODEL=BD224
+*symbol BD225 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD225
+a 0 sp 0 0 25 40 hln 100 MODEL=BD225
+*symbol BD233 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD233
+a 0 sp 0 0 25 40 hln 100 MODEL=BD233
+*symbol BD234 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD234
+a 0 sp 0 0 25 40 hln 100 MODEL=BD234
+*symbol BD235 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD235
+a 0 sp 0 0 25 40 hln 100 MODEL=BD235
+*symbol BD236 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD236
+a 0 sp 0 0 25 40 hln 100 MODEL=BD236
+*symbol BD237 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD237
+a 0 sp 0 0 25 40 hln 100 MODEL=BD237
+*symbol BD238 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD238
+a 0 sp 0 0 25 40 hln 100 MODEL=BD238
+*symbol BD239 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD239
+a 0 sp 0 0 25 40 hln 100 MODEL=BD239
+*symbol BD239A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD239A
+a 0 sp 0 0 25 40 hln 100 MODEL=BD239A
+*symbol BD239B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD239B
+a 0 sp 0 0 25 40 hln 100 MODEL=BD239B
+*symbol BD239C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD239C
+a 0 sp 0 0 25 40 hln 100 MODEL=BD239C
+*symbol BD240 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD240
+a 0 sp 0 0 25 40 hln 100 MODEL=BD240
+*symbol BD240A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD240A
+a 0 sp 0 0 25 40 hln 100 MODEL=BD240A
+*symbol BD240B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD240B
+a 0 sp 0 0 25 40 hln 100 MODEL=BD240B
+*symbol BD240C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD240C
+a 0 sp 0 0 25 40 hln 100 MODEL=BD240C
+*symbol BD241 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD241
+a 0 sp 0 0 25 40 hln 100 MODEL=BD241
+*symbol BD241A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD241A
+a 0 sp 0 0 25 40 hln 100 MODEL=BD241A
+*symbol BD241B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD241B
+a 0 sp 0 0 25 40 hln 100 MODEL=BD241B
+*symbol BD241C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD241C
+a 0 sp 0 0 25 40 hln 100 MODEL=BD241C
+*symbol BD242 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD242
+a 0 sp 0 0 25 40 hln 100 MODEL=BD242
+*symbol BD242A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD242A
+a 0 sp 0 0 25 40 hln 100 MODEL=BD242A
+*symbol BD242B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD242B
+a 0 sp 0 0 25 40 hln 100 MODEL=BD242B
+*symbol BD242C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD242C
+a 0 sp 0 0 25 40 hln 100 MODEL=BD242C
+*symbol BD243 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD243
+a 0 sp 0 0 25 40 hln 100 MODEL=BD243
+*symbol BD243A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD243A
+a 0 sp 0 0 25 40 hln 100 MODEL=BD243A
+*symbol BD243B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD243B
+a 0 sp 0 0 25 40 hln 100 MODEL=BD243B
+*symbol BD243C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD243C
+a 0 sp 0 0 25 40 hln 100 MODEL=BD243C
+*symbol BD244 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD244
+a 0 sp 0 0 25 40 hln 100 MODEL=BD244
+*symbol BD244A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD244A
+a 0 sp 0 0 25 40 hln 100 MODEL=BD244A
+*symbol BD244B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD244B
+a 0 sp 0 0 25 40 hln 100 MODEL=BD244B
+*symbol BD244C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD244C
+a 0 sp 0 0 25 40 hln 100 MODEL=BD244C
+*symbol BD346 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD346
+a 0 sp 0 0 25 40 hln 100 MODEL=BD346
+*symbol BD347 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD347
+a 0 sp 0 0 25 40 hln 100 MODEL=BD347
+*symbol BD433 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD433
+a 0 sp 0 0 25 40 hln 100 MODEL=BD433
+*symbol BD434 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD434
+a 0 sp 0 0 25 40 hln 100 MODEL=BD434
+*symbol BD435 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD435
+a 0 sp 0 0 25 40 hln 100 MODEL=BD435
+*symbol BD436 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD436
+a 0 sp 0 0 25 40 hln 100 MODEL=BD436
+*symbol BD437 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD437
+a 0 sp 0 0 25 40 hln 100 MODEL=BD437
+*symbol BD438 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD438
+a 0 sp 0 0 25 40 hln 100 MODEL=BD438
+*symbol BD439 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD439
+a 0 sp 0 0 25 40 hln 100 MODEL=BD439
+*symbol BD440 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD440
+a 0 sp 0 0 25 40 hln 100 MODEL=BD440
+*symbol BD441 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD441
+a 0 sp 0 0 25 40 hln 100 MODEL=BD441
+*symbol BD442 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD442
+a 0 sp 0 0 25 40 hln 100 MODEL=BD442
+*symbol BD533 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD533
+a 0 sp 0 0 25 40 hln 100 MODEL=BD533
+*symbol BD534 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD534
+a 0 sp 0 0 25 40 hln 100 MODEL=BD534
+*symbol BD535 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD535
+a 0 sp 0 0 25 40 hln 100 MODEL=BD535
+*symbol BD536 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD536
+a 0 sp 0 0 25 40 hln 100 MODEL=BD536
+*symbol BD537 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD537
+a 0 sp 0 0 25 40 hln 100 MODEL=BD537
+*symbol BD538 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD538
+a 0 sp 0 0 25 40 hln 100 MODEL=BD538
+*symbol BD633 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD633
+a 0 sp 0 0 25 40 hln 100 MODEL=BD633
+*symbol BD634 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD634
+a 0 sp 0 0 25 40 hln 100 MODEL=BD634
+*symbol BD635 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD635
+a 0 sp 0 0 25 40 hln 100 MODEL=BD635
+*symbol BD636 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD636
+a 0 sp 0 0 25 40 hln 100 MODEL=BD636
+*symbol BD637 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD637
+a 0 sp 0 0 25 40 hln 100 MODEL=BD637
+*symbol BD638 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD638
+a 0 sp 0 0 25 40 hln 100 MODEL=BD638
+*symbol BD733 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD733
+a 0 sp 0 0 25 40 hln 100 MODEL=BD733
+*symbol BD734 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD734
+a 0 sp 0 0 25 40 hln 100 MODEL=BD734
+*symbol BD735 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD735
+a 0 sp 0 0 25 40 hln 100 MODEL=BD735
+*symbol BD736 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD736
+a 0 sp 0 0 25 40 hln 100 MODEL=BD736
+*symbol BD737 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD737
+a 0 sp 0 0 25 40 hln 100 MODEL=BD737
+*symbol BD738 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD738
+a 0 sp 0 0 25 40 hln 100 MODEL=BD738
+*symbol BD795 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD795
+a 0 sp 0 0 25 40 hln 100 MODEL=BD795
+*symbol BD796 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD796
+a 0 sp 0 0 25 40 hln 100 MODEL=BD796
+*symbol BD797 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD797
+a 0 sp 0 0 25 40 hln 100 MODEL=BD797
+*symbol BD798 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD798
+a 0 sp 0 0 25 40 hln 100 MODEL=BD798
+*symbol BD799 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD799
+a 0 sp 0 0 25 40 hln 100 MODEL=BD799
+*symbol BD800 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD800
+a 0 sp 0 0 25 40 hln 100 MODEL=BD800
+*symbol BD801 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD801
+a 0 sp 0 0 25 40 hln 100 MODEL=BD801
+*symbol BD802 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=BD802
+a 0 sp 0 0 25 40 hln 100 MODEL=BD802
+*symbol BUW40 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUW40
+a 0 sp 0 0 5 40 hln 100 MODEL=BUW40
+*symbol BUW40A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUW40A
+a 0 sp 0 0 5 40 hln 100 MODEL=BUW40A
+*symbol BUW40B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUW40B
+a 0 sp 0 0 5 40 hln 100 MODEL=BUW40B
+*symbol BUW41 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUW41
+a 0 sp 0 0 5 40 hln 100 MODEL=BUW41
+*symbol BUW41A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUW41A
+a 0 sp 0 0 5 40 hln 100 MODEL=BUW41A
+*symbol BUW41B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUW41B
+a 0 sp 0 0 5 40 hln 100 MODEL=BUW41B
+*symbol BUW64A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUW64A
+a 0 sp 0 0 5 40 hln 100 MODEL=BUW64A
+*symbol BUW64B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUW64B
+a 0 sp 0 0 5 40 hln 100 MODEL=BUW64B
+*symbol BUW64C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUW64C
+a 0 sp 0 0 5 40 hln 100 MODEL=BUW64C
+*symbol BUX11A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUX11A
+a 0 sp 0 0 5 40 hln 100 MODEL=BUX11A
+*symbol BUX14 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUX14
+a 0 sp 0 0 5 40 hln 100 MODEL=BUX14
+*symbol BUX21 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUX21
+a 0 sp 0 0 5 40 hln 100 MODEL=BUX21
+*symbol BUX32 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUX32
+a 0 sp 0 0 5 40 hln 100 MODEL=BUX32
+*symbol BUX32A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUX32A
+a 0 sp 0 0 5 40 hln 100 MODEL=BUX32A
+*symbol BUX32B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUX32B
+a 0 sp 0 0 5 40 hln 100 MODEL=BUX32B
+*symbol BUX33 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUX33
+a 0 sp 0 0 5 40 hln 100 MODEL=BUX33
+*symbol BUX33A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUX33A
+a 0 sp 0 0 5 40 hln 100 MODEL=BUX33A
+*symbol BUX33B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUX33B
+a 0 sp 0 0 5 40 hln 100 MODEL=BUX33B
+*symbol BUY69A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUY69A
+a 0 sp 0 0 5 40 hln 100 MODEL=BUY69A
+*symbol BUY69B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUY69B
+a 0 sp 0 0 5 40 hln 100 MODEL=BUY69B
+*symbol BUY69C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=BUY69C
+a 0 sp 0 0 5 40 hln 100 MODEL=BUY69C
+*symbol D40C1 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40C1
+a 0 sp 0 0 5 40 hln 100 MODEL=D40C1
+*symbol D40C4 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40C4
+a 0 sp 0 0 5 40 hln 100 MODEL=D40C4
+*symbol D40C7 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40C7
+a 0 sp 0 0 5 40 hln 100 MODEL=D40C7
+*symbol D40D1 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40D1
+a 0 sp 0 0 5 40 hln 100 MODEL=D40D1
+*symbol D40D2 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40D2
+a 0 sp 0 0 5 40 hln 100 MODEL=D40D2
+*symbol D40D4 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40D4
+a 0 sp 0 0 5 40 hln 100 MODEL=D40D4
+*symbol D40D5 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40D5
+a 0 sp 0 0 5 40 hln 100 MODEL=D40D5
+*symbol D40D7 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40D7
+a 0 sp 0 0 5 40 hln 100 MODEL=D40D7
+*symbol D40D8 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40D8
+a 0 sp 0 0 5 40 hln 100 MODEL=D40D8
+*symbol D40E1 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40E1
+a 0 sp 0 0 5 40 hln 100 MODEL=D40E1
+*symbol D40E5 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40E5
+a 0 sp 0 0 5 40 hln 100 MODEL=D40E5
+*symbol D40E7 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40E7
+a 0 sp 0 0 5 40 hln 100 MODEL=D40E7
+*symbol D40K1 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40K1
+a 0 sp 0 0 5 40 hln 100 MODEL=D40K1
+*symbol D40K2 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40K2
+a 0 sp 0 0 5 40 hln 100 MODEL=D40K2
+*symbol D40K3 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40K3
+a 0 sp 0 0 5 40 hln 100 MODEL=D40K3
+*symbol D40K4 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40K4
+a 0 sp 0 0 5 40 hln 100 MODEL=D40K4
+*symbol D40V1 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40V1
+a 0 sp 0 0 5 40 hln 100 MODEL=D40V1
+*symbol D40V2 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40V2
+a 0 sp 0 0 5 40 hln 100 MODEL=D40V2
+*symbol D40V3 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40V3
+a 0 sp 0 0 5 40 hln 100 MODEL=D40V3
+*symbol D40V4 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40V4
+a 0 sp 0 0 5 40 hln 100 MODEL=D40V4
+*symbol D40V5 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40V5
+a 0 sp 0 0 5 40 hln 100 MODEL=D40V5
+*symbol D40V6 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D40V6
+a 0 sp 0 0 5 40 hln 100 MODEL=D40V6
+*symbol D41D1 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41D1
+a 0 sp 0 0 25 40 hln 100 MODEL=D41D1
+*symbol D41D2 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41D2
+a 0 sp 0 0 25 40 hln 100 MODEL=D41D2
+*symbol D41D4 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41D4
+a 0 sp 0 0 25 40 hln 100 MODEL=D41D4
+*symbol D41D5 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41D5
+a 0 sp 0 0 25 40 hln 100 MODEL=D41D5
+*symbol D41D7 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41D7
+a 0 sp 0 0 25 40 hln 100 MODEL=D41D7
+*symbol D41D8 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41D8
+a 0 sp 0 0 25 40 hln 100 MODEL=D41D8
+*symbol D41E1 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41E1
+a 0 sp 0 0 25 40 hln 100 MODEL=D41E1
+*symbol D41E5 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41E5
+a 0 sp 0 0 25 40 hln 100 MODEL=D41E5
+*symbol D41E7 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41E7
+a 0 sp 0 0 25 40 hln 100 MODEL=D41E7
+*symbol D41K1 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41K1
+a 0 sp 0 0 25 40 hln 100 MODEL=D41K1
+*symbol D41K2 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41K2
+a 0 sp 0 0 25 40 hln 100 MODEL=D41K2
+*symbol D41K3 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41K3
+a 0 sp 0 0 25 40 hln 100 MODEL=D41K3
+*symbol D41K4 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D41K4
+a 0 sp 0 0 25 40 hln 100 MODEL=D41K4
+*symbol D42C1 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C1
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C1
+*symbol D42C2 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C2
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C2
+*symbol D42C3 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C3
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C3
+*symbol D42C4 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C4
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C4
+*symbol D42C5 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C5
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C5
+*symbol D42C6 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C6
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C6
+*symbol D42C7 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C7
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C7
+*symbol D42C8 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C8
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C8
+*symbol D42C9 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C9
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C9
+*symbol D42C10 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C10
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C10
+*symbol D42C11 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C11
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C11
+*symbol D42C12 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D42C12
+a 0 sp 0 0 5 40 hln 100 MODEL=D42C12
+*symbol D43C1 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C1
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C1
+*symbol D43C2 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C2
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C2
+*symbol D43C3 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C3
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C3
+*symbol D43C4 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C4
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C4
+*symbol D43C5 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C5
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C5
+*symbol D43C6 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C6
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C6
+*symbol D43C7 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C7
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C7
+*symbol D43C8 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C8
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C8
+*symbol D43C9 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C9
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C9
+*symbol D43C10 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C10
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C10
+*symbol D43C11 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C11
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C11
+*symbol D43C12 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=D43C12
+a 0 sp 0 0 25 40 hln 100 MODEL=D43C12
+*symbol D44C2 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44C2
+a 0 sp 0 0 5 40 hln 100 MODEL=D44C2
+*symbol D44C3 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44C3
+a 0 sp 0 0 5 40 hln 100 MODEL=D44C3
+*symbol D44C5 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44C5
+a 0 sp 0 0 5 40 hln 100 MODEL=D44C5
+*symbol D44C6 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44C6
+a 0 sp 0 0 5 40 hln 100 MODEL=D44C6
+*symbol D44C8 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44C8
+a 0 sp 0 0 5 40 hln 100 MODEL=D44C8
+*symbol D44H1 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44H1
+a 0 sp 0 0 5 40 hln 100 MODEL=D44H1
+*symbol D44H2 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44H2
+a 0 sp 0 0 5 40 hln 100 MODEL=D44H2
+*symbol D44H4 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44H4
+a 0 sp 0 0 5 40 hln 100 MODEL=D44H4
+*symbol D44H5 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44H5
+a 0 sp 0 0 5 40 hln 100 MODEL=D44H5
+*symbol D44H7 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44H7
+a 0 sp 0 0 5 40 hln 100 MODEL=D44H7
+*symbol D44H8 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44H8
+a 0 sp 0 0 5 40 hln 100 MODEL=D44H8
+*symbol D44H10 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44H10
+a 0 sp 0 0 5 40 hln 100 MODEL=D44H10
+*symbol D44H11 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44H11
+a 0 sp 0 0 5 40 hln 100 MODEL=D44H11
+*symbol D44Q1 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44Q1
+a 0 sp 0 0 5 40 hln 100 MODEL=D44Q1
+*symbol D44Q3 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44Q3
+a 0 sp 0 0 5 40 hln 100 MODEL=D44Q3
+*symbol D44Q5 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44Q5
+a 0 sp 0 0 5 40 hln 100 MODEL=D44Q5
+*symbol D44T1 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44T1
+a 0 sp 0 0 5 40 hln 100 MODEL=D44T1
+*symbol D44T2 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44T2
+a 0 sp 0 0 5 40 hln 100 MODEL=D44T2
+*symbol D44T3 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44T3
+a 0 sp 0 0 5 40 hln 100 MODEL=D44T3
+*symbol D44T4 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=D44T4
+a 0 sp 0 0 5 40 hln 100 MODEL=D44T4
+*symbol MJE29 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE29
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE29
+*symbol MJE29A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE29A
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE29A
+*symbol MJE29B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE29B
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE29B
+*symbol MJE29C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE29C
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE29C
+*symbol MJE30 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE30
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE30
+*symbol MJE30A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE30A
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE30A
+*symbol MJE30B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE30B
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE30B
+*symbol MJE30C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE30C
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE30C
+*symbol MJE33 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE33
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE33
+*symbol MJE33A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE33A
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE33A
+*symbol MJE33B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE33B
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE33B
+*symbol MJE33C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE33C
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE33C
+*symbol MJE34 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE34
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE34
+*symbol MJE34A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE34A
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE34A
+*symbol MJE34B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE34B
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE34B
+*symbol MJE34C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE34C
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE34C
+*symbol MJE41 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE41
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE41
+*symbol MJE41A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE41A
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE41A
+*symbol MJE41B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE41B
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE41B
+*symbol MJE41C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE41C
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE41C
+*symbol MJE42 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE42
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE42
+*symbol MJE42A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE42A
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE42A
+*symbol MJE42B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE42B
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE42B
+*symbol MJE42C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE42C
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE42C
+*symbol MJE340 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE340
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE340
+*symbol MJE341 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE341
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE341
+*symbol MJE344 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE344
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE344
+*symbol MJE345 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE345
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE345
+*symbol MJE370 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE370
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE370
+*symbol MJE371 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE371
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE371
+*symbol MJE482 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE482
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE482
+*symbol MJE483 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE483
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE483
+*symbol MJE484 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE484
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE484
+*symbol MJE492 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE492
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE492
+*symbol MJE493 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE493
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE493
+*symbol MJE494 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE494
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE494
+*symbol MJE520 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE520
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE520
+*symbol MJE520K ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE520K
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE520K
+*symbol MJE521 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE521
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE521
+*symbol MJE521K ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE521K
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE521K
+*symbol MJE2371 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2371
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2371
+*symbol MJE2480 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2480
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2480
+*symbol MJE2481 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2481
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2481
+*symbol MJE2482 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2482
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2482
+*symbol MJE2483 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2483
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2483
+*symbol MJE2801T ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2801T
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2801T
+*symbol MJE2901K ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2901K
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2901K
+*symbol MJE2901T ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2901T
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2901T
+*symbol MJE2955 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2955
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2955
+*symbol MJE2955K ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2955K
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2955K
+*symbol MJE2955T ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE2955T
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE2955T
+*symbol MJE3055 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE3055
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE3055
+*symbol MJE3055K ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE3055K
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE3055K
+*symbol MJE3055T ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE3055T
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE3055T
+*symbol MJE3370 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE3370
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE3370
+*symbol MJE3371 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE3371
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE3371
+*symbol MJE3439 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE3439
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE3439
+*symbol MJE3440 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE3440
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE3440
+*symbol MJE3520 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE3520
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE3520
+*symbol MJE3521 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE3521
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE3521
+*symbol MJE4918 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE4918
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE4918
+*symbol MJE4919 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE4919
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE4919
+*symbol MJE4920 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE4920
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE4920
+*symbol MJE4921 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE4921
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE4921
+*symbol MJE4922 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE4922
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE4922
+*symbol MJE4923 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE4923
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE4923
+*symbol MJE5190 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE5190
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE5190
+*symbol MJE5190J ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE5190J
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE5190J
+*symbol MJE5191 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE5191
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE5191
+*symbol MJE5191J ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE5191J
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE5191J
+*symbol MJE5192 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE5192
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE5192
+*symbol MJE5192J ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE5192J
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE5192J
+*symbol MJE5193 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE5193
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE5193
+*symbol MJE5194 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE5194
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE5194
+*symbol MJE5195 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MJE5195
+a 0 sp 0 0 25 40 hln 100 MODEL=MJE5195
+*symbol MRH1240N ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH1240N
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH1240N
+*symbol MRH1240N/-55C ako qnpn
+d npn power bipolar transistor @-55C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH1240N/-55C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH1240N/-55C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH1240N
+*symbol MRH1240N/125C ako qnpn
+d npn power bipolar transistor @125C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH1240N/125C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH1240N/125C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH1240N
+*symbol MRH1240N/27C ako qnpn
+d npn power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH1240N/27C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH1240N/27C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH1240N
+*symbol MRH1240N/27C/RAD1 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH1240N/27C/RAD1
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH1240N/27C/RAD1
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH1240N
+*symbol MRH1240N/27C/RAD2 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH1240N/27C/RAD2
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH1240N/27C/RAD2
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH1240N
+*symbol MRH240N ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240N
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240N
+*symbol MRH240N/-55C ako qnpn
+d npn power bipolar transistor @-55C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240N/-55C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240N/-55C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240N
+*symbol MRH240N/125C ako qnpn
+d npn power bipolar transistor @125C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240N/125C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240N/125C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240N
+*symbol MRH240N/27C ako qnpn
+d npn power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240N/27C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240N/27C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240N
+*symbol MRH240N/27C/RAD1 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240N/27C/RAD1
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240N/27C/RAD1
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240N
+*symbol MRH240N/27C/RAD2 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240N/27C/RAD2
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240N/27C/RAD2
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240N
+*symbol MRH240N/27C/RAD3 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240N/27C/RAD3
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240N/27C/RAD3
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240N
+*symbol MRH240P ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240P
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240P
+*symbol MRH240P/-55C ako qpnp
+d pnp power bipolar transistor @-55C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240P/-55C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240P/-55C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240P
+*symbol MRH240P/125C ako qpnp
+d pnp power bipolar transistor @125C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240P/125C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240P/125C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240P
+*symbol MRH240P/27C ako qpnp
+d pnp power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240P/27C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240P/27C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240P
+*symbol MRH240P/27C/RAD1 ako qpnp
+d pnp power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240P/27C/RAD1
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240P/27C/RAD1
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240P
+*symbol MRH240P/27C/RAD2 ako qpnp
+d pnp power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH240P/27C/RAD2
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH240P/27C/RAD2
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH240P
+*symbol MRH640N ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640N
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640N
+*symbol MRH640N/-55C ako qnpn
+d npn power bipolar transistor @-55C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640N/-55C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640N/-55C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH640N
+*symbol MRH640N/125C ako qnpn
+d npn power bipolar transistor @125C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640N/125C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640N/125C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH640N
+*symbol MRH640N/27C ako qnpn
+d npn power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640N/27C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640N/27C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH640N
+*symbol MRH640N/27C/RAD1 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640N/27C/RAD1
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640N/27C/RAD1
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH640N
+*symbol MRH640N/27C/RAD2 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640N/27C/RAD2
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640N/27C/RAD2
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH640N
+*symbol MRH640P ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640P
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640P
+*symbol MRH640P/-55C ako qpnp
+d pnp power bipolar transistor @-55C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640P/-55C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640P/-55C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH640P
+*symbol MRH640P/125C ako qpnp
+d pnp power bipolar transistor @125C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640P/125C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640P/125C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH640P
+*symbol MRH640P/27C ako qpnp
+d pnp power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640P/27C
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640P/27C
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH640P
+*symbol MRH640P/27C/RAD1 ako qpnp
+d pnp power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640P/27C/RAD1
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640P/27C/RAD1
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH640P
+*symbol MRH640P/27C/RAD2 ako qpnp
+d pnp power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRH640P/27C/RAD2
+a 0 sp 0 0 5 40 hln 100 MODEL=MRH640P/27C/RAD2
+a 0 s 0 0 5 40 hln 100 COMPONENT=MRH640P
+*symbol Q2N1893,2N1893 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N1893
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N1893
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N1893
+*symbol Q2N2405,2N2405 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N2405
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N2405
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N2405
+*symbol Q2N3055,2N3055 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3055
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N3055
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N3055
+*symbol Q2N3700/-55C ako qnpn
+d npn power bipolar transistor @-55C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3700/-55C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3700/-55C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3700
+*symbol Q2N3700/-55C/RAD ako qnpn
+d npn power bipolar transistor Radiatin model @-55C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3700/-55C/RAD
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3700/-55C/RAD
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3700
+*symbol Q2N3700/125C ako qnpn
+d npn power bipolar transistor @125C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3700/125C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3700/125C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3700
+*symbol Q2N3700/27C ako qnpn
+d npn power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3700/27C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3700/27C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3700
+*symbol Q2N3700/27C/RAD1 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3700/27C/RAD1
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3700/27C/RAD1
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3700
+*symbol Q2N3700/27C/RAD2 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3700/27C/RAD2
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3700/27C/RAD2
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3700
+*symbol Q2N3700/27C/RAD3 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3700/27C/RAD3
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3700/27C/RAD3
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3700
+*symbol Q2N3700/27C/RAD4 ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3700/27C/RAD4
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3700/27C/RAD4
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3700
+*symbol Q2N3700/75C ako qnpn
+d npn power bipolar transistor @75C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3700/75C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3700/75C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3700
+*symbol Q2N3700/TEMP ako qnpn
+d npn power bipolar transistor Temp. model
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3700/TEMP
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3700/TEMP
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3700
+*symbol Q2N3716,2N3716 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3716
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3716
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3716
+*symbol Q2N3716/-55C ako qnpn
+d npn power bipolar transistor @-55C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3716/-55C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3716/-55C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3716
+*symbol Q2N3716/125C ako qnpn
+d npn power bipolar transistor @125C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3716/125C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3716/125C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3716
+*symbol Q2N3716/27C ako qnpn
+d npn power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3716/27C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3716/27C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3716
+*symbol Q2N3716/27C/RAD ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3716/27C/RAD
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3716/27C/RAD
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3716
+*symbol Q2N3716/75C ako qnpn
+d npn power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N3716/75C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N3716/75C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N3716
+*symbol Q2N4063,2N4063 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N4063
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N4063
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N4063
+*symbol Q2N4064,2N4064 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N4064
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N4064
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N4064
+*symbol Q2N4918,2N4918 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N4918
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N4918
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N4918
+*symbol Q2N4919,2N4919 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N4919
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N4919
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N4919
+*symbol Q2N4920,2N4920 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N4920
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N4920
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N4920
+*symbol Q2N4921,2N4921 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N4921
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N4921
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N4921
+*symbol Q2N4922,2N4922 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N4922
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N4922
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N4922
+*symbol Q2N4923,2N4923 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N4923
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N4923
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N4923
+*symbol Q2N5154,2N5154 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5154
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N5154
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N5154
+*symbol Q2N5190,2N5190 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5190
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5190
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5190
+*symbol Q2N5191,2N5191 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5191
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5191
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5191
+*symbol Q2N5192,2N5192 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5192
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5192
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5192
+*symbol Q2N5193,2N5193 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5193
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5193
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5193
+*symbol Q2N5194,2N5194 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5194
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5194
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5194
+*symbol Q2N5195,2N5195 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5195
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5195
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5195
+*symbol Q2N5294,2N5294 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5294
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5294
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5294
+*symbol Q2N5296,2N5296 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5296
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5296
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5296
+*symbol Q2N5298,2N5298 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5298
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5298
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5298
+*symbol Q2N5339,2N5339 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5339
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N5339
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N5339
+*symbol Q2N5339/-55C ako qnpn
+d npn power bipolar transistor @-55C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5339/-55C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N5339/-55C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N5339
+*symbol Q2N5339/125C ako qnpn
+d npn power bipolar transistor @125C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5339/125C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N5339/125C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N5339
+*symbol Q2N5339/27C ako qnpn
+d npn power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5339/27C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N5339/27C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N5339
+*symbol Q2N5339/27C/RAD ako qnpn
+d npn power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5339/27C/RAD
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N5339/27C/RAD
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N5339
+*symbol Q2N5490,2N5490 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5490
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5490
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5490
+*symbol Q2N5492,2N5492 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5492
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5492
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5492
+*symbol Q2N5494,2N5494 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5494
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5494
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5494
+*symbol Q2N5496,2N5496 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5496
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5496
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5496
+*symbol Q2N5655,2N5655 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5655
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5655
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5655
+*symbol Q2N5656,2N5656 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5656
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5656
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5656
+*symbol Q2N5657,2N5657 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5657
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5657
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5657
+*symbol Q2N5980,2N5980 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5980
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5980
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5980
+*symbol Q2N5981,2N5981 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5981
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5981
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5981
+*symbol Q2N5982,2N5982 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5982
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5982
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5982
+*symbol Q2N5983,2N5983 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5983
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5983
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5983
+*symbol Q2N5984,2N5984 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5984
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5984
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5984
+*symbol Q2N5985,2N5985 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N5985
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N5985
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N5985
+*symbol Q2N6021,2N6021 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6021
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6021
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6021
+*symbol Q2N6022,2N6022 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6022
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6022
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6022
+*symbol Q2N6023,2N6023 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6023
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6023
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6023
+*symbol Q2N6024,2N6024 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6024
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6024
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6024
+*symbol Q2N6025,2N6025 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6025
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6025
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6025
+*symbol Q2N6026,2N6026 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6026
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6026
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6026
+*symbol Q2N6098,2N6098 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6098
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6098
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6098
+*symbol Q2N6099,2N6099 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6099
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6099
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6099
+*symbol Q2N6100,2N6100 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6100
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6100
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6100
+*symbol Q2N6101,2N6101 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6101
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6101
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6101
+*symbol Q2N6102,2N6102 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6102
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6102
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6102
+*symbol Q2N6103,2N6103 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6103
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6103
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6103
+*symbol Q2N6106,2N6106 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6106
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6106
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6106
+*symbol Q2N6107,2N6107 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6107
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6107
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6107
+*symbol Q2N6108,2N6108 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6108
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6108
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6108
+*symbol Q2N6109,2N6109 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6109
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6109
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6109
+*symbol Q2N6110,2N6110 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6110
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6110
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6110
+*symbol Q2N6111,2N6111 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6111
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6111
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6111
+*symbol Q2N6121,2N6121 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6121
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6121
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6121
+*symbol Q2N6122,2N6122 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6122
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6122
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6122
+*symbol Q2N6123,2N6123 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6123
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6123
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6123
+*symbol Q2N6124,2N6124 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6124
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6124
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6124
+*symbol Q2N6125,2N6125 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6125
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6125
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6125
+*symbol Q2N6126,2N6126 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6126
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6126
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6126
+*symbol Q2N6129,2N6129 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6129
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6129
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6129
+*symbol Q2N6130,2N6130 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6130
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6130
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6130
+*symbol Q2N6131,2N6131 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6131
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6131
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6131
+*symbol Q2N6132,2N6132 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6132
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6132
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6132
+*symbol Q2N6133,2N6133 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6133
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6133
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6133
+*symbol Q2N6134,2N6134 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6134
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6134
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6134
+*symbol Q2N6175,2N6175 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6175
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6175
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6175
+*symbol Q2N6176,2N6176 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6176
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6176
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6176
+*symbol Q2N6177,2N6177 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6177
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6177
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6177
+*symbol Q2N6193,2N6193 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6193
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6193
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6193
+*symbol Q2N6193/-55C ako qpnp
+d pnp power bipolar transistor @-55C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6193/-55C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6193/-55C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6193
+*symbol Q2N6193/125C ako qpnp
+d pnp power bipolar transistor @125C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6193/125C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6193/125C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6193
+*symbol Q2N6193/27C ako qpnp
+d pnp power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6193/27C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6193/27C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6193
+*symbol Q2N6193/27C/RAD ako qpnp
+d pnp power bipolar transistor Radiation model @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6193/27C/RAD
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6193/27C/RAD
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6193
+*symbol Q2N6193/75C ako qpnp
+d pnp power bipolar transistor @27C
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6193/75C
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6193/75C
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6193
+*symbol Q2N6288,2N6288 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6288
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6288
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6288
+*symbol Q2N6290,2N6290 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6290
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6290
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6290
+*symbol Q2N6292,2N6292 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6292
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6292
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6292
+*symbol Q2N6465,2N6465 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6465
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6465
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6465
+*symbol Q2N6473,2N6473 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6473
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6473
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6473
+*symbol Q2N6474,2N6474 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6474
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6474
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6474
+*symbol Q2N6475,2N6475 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6475
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6475
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6475
+*symbol Q2N6476,2N6476 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6476
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6476
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6476
+*symbol Q2N6486,2N6486 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6486
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6486
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6486
+*symbol Q2N6487,2N6487 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6487
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6487
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6487
+*symbol Q2N6488,2N6488 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6488
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6488
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6488
+*symbol Q2N6489,2N6489 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6489
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6489
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6489
+*symbol Q2N6490,2N6490 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6490
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6490
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6490
+*symbol Q2N6491,2N6491 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6491
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6491
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6491
+*symbol Q2N6542,2N6542 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6542
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6542
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6542
+*symbol Q2N6544,2N6544 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6544
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6544
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6544
+*symbol Q2N6545,2N6545 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6545
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6545
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6545
+*symbol Q2N6546,2N6546 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6546
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6546
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6546
+*symbol Q2N6591,2N6591 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6591
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6591
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6591
+*symbol Q2N6592,2N6592 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6592
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6592
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6592
+*symbol Q2N6593,2N6593 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6593
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6593
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6593
+*symbol Q2N6671,2N6671 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6671
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6671
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6671
+*symbol Q2N6672,2N6672 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6672
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6672
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6672
+*symbol Q2N6673,2N6673 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6673
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6673
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6673
+*symbol Q2N6674,2N6674 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6674
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6674
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6674
+*symbol Q2N6675,2N6675 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6675
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6675
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6675
+*symbol Q2N6676,2N6676 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6676
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6676
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6676
+*symbol Q2N6677,2N6677 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6677
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6677
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6677
+*symbol Q2N6678,2N6678 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6678
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6678
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6678
+*symbol Q2N6686,2N6686 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6686
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6686
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6686
+*symbol Q2N6687,2N6687 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6687
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6687
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6687
+*symbol Q2N6688,2N6688 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6688
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6688
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6688
+*symbol Q2N6702,2N6702 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6702
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6702
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6702
+*symbol Q2N6703,2N6703 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6703
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6703
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6703
+*symbol Q2N6704,2N6704 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6704
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6704
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6704
+*symbol Q2N6720,2N6720 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6720
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6720
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6720
+*symbol Q2N6721,2N6721 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6721
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6721
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6721
+*symbol Q2N6722,2N6722 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6722
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6722
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6722
+*symbol Q2N6723,2N6723 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2N6723
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2N6723
+a 0 s 0 0 25 40 hln 100 COMPONENT=2N6723
+*symbol Q2N6738,2N6738 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6738
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6738
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6738
+*symbol Q2N6739,2N6739 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6739
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6739
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6739
+*symbol Q2N6740,2N6740 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6740
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6740
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6740
+*symbol Q2N6751,2N6751 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6751
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6751
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6751
+*symbol Q2N6752,2N6752 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6752
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6752
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6752
+*symbol Q2N6753,2N6753 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6753
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6753
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6753
+*symbol Q2N6754,2N6754 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6754
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6754
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6754
+*symbol Q2N6771,2N6771 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6771
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6771
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6771
+*symbol Q2N6772,2N6772 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6772
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6772
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6772
+*symbol Q2N6773,2N6773 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=Q2N6773
+a 0 sp 0 0 5 40 hln 100 MODEL=Q2N6773
+a 0 s 0 0 5 40 hln 100 COMPONENT=2N6773
+*symbol Q2SA496,2SA496 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA496
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA496
+a 0 s 0 0 25 40 hln 100 COMPONENT=2SA496
+*symbol Q2SA505,2SA505 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA505
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA505
+a 0 s 0 0 25 40 hln 100 COMPONENT=2SA505
+*symbol Q40513,40513 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40513
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40513
+a 0 s 0 0 25 40 hln 100 COMPONENT=40513
+*symbol Q40514,40514 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40514
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40514
+a 0 s 0 0 25 40 hln 100 COMPONENT=40514
+*symbol Q40613,40613 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40613
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40613
+a 0 s 0 0 25 40 hln 100 COMPONENT=40613
+*symbol Q40618,40618 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40618
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40618
+a 0 s 0 0 25 40 hln 100 COMPONENT=40618
+*symbol Q40621,40621 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40621
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40621
+a 0 s 0 0 25 40 hln 100 COMPONENT=40621
+*symbol Q40622,40622 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40622
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40622
+a 0 s 0 0 25 40 hln 100 COMPONENT=40622
+*symbol Q40624,40624 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40624
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40624
+a 0 s 0 0 25 40 hln 100 COMPONENT=40624
+*symbol Q40627,40627 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40627
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40627
+a 0 s 0 0 25 40 hln 100 COMPONENT=40627
+*symbol Q40629,40629 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40629
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40629
+a 0 s 0 0 25 40 hln 100 COMPONENT=40629
+*symbol Q40630,40630 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40630
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40630
+a 0 s 0 0 25 40 hln 100 COMPONENT=40630
+*symbol Q40631,40631 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40631
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40631
+a 0 s 0 0 25 40 hln 100 COMPONENT=40631
+*symbol Q40632,40632 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40632
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40632
+a 0 s 0 0 25 40 hln 100 COMPONENT=40632
+*symbol Q40871,40871 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40871
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40871
+a 0 s 0 0 25 40 hln 100 COMPONENT=40871
+*symbol Q40872,40872 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40872
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40872
+a 0 s 0 0 25 40 hln 100 COMPONENT=40872
+*symbol Q40873,40873 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40873
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40873
+a 0 s 0 0 25 40 hln 100 COMPONENT=40873
+*symbol Q40874,40874 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40874
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40874
+a 0 s 0 0 25 40 hln 100 COMPONENT=40874
+*symbol Q40875,40875 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40875
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40875
+a 0 s 0 0 25 40 hln 100 COMPONENT=40875
+*symbol Q40876,40876 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q40876
+a 0 sp 0 0 25 40 hln 100 MODEL=Q40876
+a 0 s 0 0 25 40 hln 100 COMPONENT=40876
+*symbol Q41500,41500 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q41500
+a 0 sp 0 0 25 40 hln 100 MODEL=Q41500
+a 0 s 0 0 25 40 hln 100 COMPONENT=41500
+*symbol Q41504,41504 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q41504
+a 0 sp 0 0 25 40 hln 100 MODEL=Q41504
+a 0 s 0 0 25 40 hln 100 COMPONENT=41504
+*symbol RCA1C05 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA1C05
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA1C05
+*symbol RCA1C06 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA1C06
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA1C06
+*symbol RCA1C07 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA1C07
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA1C07
+*symbol RCA1C08 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA1C08
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA1C08
+*symbol RCA1C09 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA1C09
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA1C09
+*symbol RCA1C10 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA1C10
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA1C10
+*symbol RCA1C11 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA1C11
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA1C11
+*symbol RCA1C14 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA1C14
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA1C14
+*symbol RCA29 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA29
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA29
+*symbol RCA29A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA29A
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA29A
+*symbol RCA29B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA29B
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA29B
+*symbol RCA29C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA29C
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA29C
+*symbol RCA30 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA30
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA30
+*symbol RCA30A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA30A
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA30A
+*symbol RCA30B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA30B
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA30B
+*symbol RCA30C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA30C
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA30C
+*symbol RCA31 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA31
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA31
+*symbol RCA31A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA31A
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA31A
+*symbol RCA31B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA31B
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA31B
+*symbol RCA31C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA31C
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA31C
+*symbol RCA32 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA32
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA32
+*symbol RCA32A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA32A
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA32A
+*symbol RCA32B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA32B
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA32B
+*symbol RCA32C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA32C
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA32C
+*symbol RCA41 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA41
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA41
+*symbol RCA41A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA41A
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA41A
+*symbol RCA41B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA41B
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA41B
+*symbol RCA41C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA41C
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA41C
+*symbol RCA42 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA42
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA42
+*symbol RCA42A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA42A
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA42A
+*symbol RCA42B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA42B
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA42B
+*symbol RCA42C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA42C
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA42C
+*symbol RCA3054 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA3054
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA3054
+*symbol RCA3055 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCA3055
+a 0 sp 0 0 25 40 hln 100 MODEL=RCA3055
+*symbol RCP115 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCP115
+a 0 sp 0 0 25 40 hln 100 MODEL=RCP115
+*symbol RCP117 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCP117
+a 0 sp 0 0 25 40 hln 100 MODEL=RCP117
+*symbol RCP131A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCP131A
+a 0 sp 0 0 25 40 hln 100 MODEL=RCP131A
+*symbol RCP131B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCP131B
+a 0 sp 0 0 25 40 hln 100 MODEL=RCP131B
+*symbol RCP133A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCP133A
+a 0 sp 0 0 25 40 hln 100 MODEL=RCP133A
+*symbol RCP133B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=RCP133B
+a 0 sp 0 0 25 40 hln 100 MODEL=RCP133B
+*symbol RJH6674 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=RJH6674
+a 0 sp 0 0 5 40 hln 100 MODEL=RJH6674
+*symbol RJH6675 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=RJH6675
+a 0 sp 0 0 5 40 hln 100 MODEL=RJH6675
+*symbol RJH6676 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=RJH6676
+a 0 sp 0 0 5 40 hln 100 MODEL=RJH6676
+*symbol RJH6677 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=RJH6677
+a 0 sp 0 0 5 40 hln 100 MODEL=RJH6677
+*symbol RJH6678 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=RJH6678
+a 0 sp 0 0 5 40 hln 100 MODEL=RJH6678
+*symbol RJH6686 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=RJH6686
+a 0 sp 0 0 5 40 hln 100 MODEL=RJH6686
+*symbol RJH6687 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=RJH6687
+a 0 sp 0 0 5 40 hln 100 MODEL=RJH6687
+*symbol RJH6688 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 5 40 hln 100 PART=RJH6688
+a 0 sp 0 0 5 40 hln 100 MODEL=RJH6688
+*symbol TIP29 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP29
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP29
+*symbol TIP29A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP29A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP29A
+*symbol TIP29B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP29B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP29B
+*symbol TIP29C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP29C
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP29C
+*symbol TIP30 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP30
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP30
+*symbol TIP30A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP30A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP30A
+*symbol TIP30B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP30B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP30B
+*symbol TIP30C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP30C
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP30C
+*symbol TIP31 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP31
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP31
+*symbol TIP31A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP31A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP31A
+*symbol TIP31B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP31B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP31B
+*symbol TIP31C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP31C
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP31C
+*symbol TIP32 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP32
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP32
+*symbol TIP32A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP32A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP32A
+*symbol TIP32B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP32B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP32B
+*symbol TIP32C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP32C
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP32C
+*symbol TIP33 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP33
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP33
+*symbol TIP33A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP33A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP33A
+*symbol TIP33B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP33B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP33B
+*symbol TIP33C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP33C
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP33C
+*symbol TIP34 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP34
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP34
+*symbol TIP34A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP34A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP34A
+*symbol TIP34B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP34B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP34B
+*symbol TIP34C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP34C
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP34C
+*symbol TIP41 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP41
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP41
+*symbol TIP41A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP41A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP41A
+*symbol TIP41B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP41B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP41B
+*symbol TIP41C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP41C
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP41C
+*symbol TIP42 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP42
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP42
+*symbol TIP42A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP42A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP42A
+*symbol TIP42B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP42B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP42B
+*symbol TIP42C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP42C
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP42C
+*symbol TIP61 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP61
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP61
+*symbol TIP61A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP61A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP61A
+*symbol TIP61B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP61B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP61B
+*symbol TIP61C ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP61C
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP61C
+*symbol TIP62 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP62
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP62
+*symbol TIP62A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP62A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP62A
+*symbol TIP62B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP62B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP62B
+*symbol TIP62C ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP62C
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP62C
+*symbol TIP73 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP73
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP73
+*symbol TIP73A ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP73A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP73A
+*symbol TIP73B ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP73B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP73B
+*symbol TIP74 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP74
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP74
+*symbol TIP74A ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP74A
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP74A
+*symbol TIP74B ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP74B
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP74B
+*symbol TIP2955 ako qpnp
+d pnp power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP2955
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP2955
+*symbol TIP3055 ako qnpn
+d npn power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=TIP3055
+a 0 sp 0 0 25 40 hln 100 MODEL=TIP3055
+*symbol qnpn b
+d npn power power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=
+a 0 sp 0 0 25 40 hln 100 MODEL=
+a 0 s 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL
+@pins
+p 0 13 22 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol qpnp b
+d pnp power power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=
+a 0 sp 0 0 25 40 hln 100 MODEL=
+a 0 s 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL
+@pins
+p 0 13 22 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

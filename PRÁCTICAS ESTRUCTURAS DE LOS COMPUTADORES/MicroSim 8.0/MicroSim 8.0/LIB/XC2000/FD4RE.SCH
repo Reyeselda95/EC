@@ -1,0 +1,242 @@
+*version 6.3 168598690
+u 221
+XC2000 2655167085
+U? 5
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 3680 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 222 IF_OUT 690 280 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 223 IF_OUT 690 400 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+port 224 IF_IN 170 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 225 IF_IN 170 280 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 226 IF_IN 170 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=D2
+port 227 IF_IN 170 640 h
+a 0 s 3 0 10 8 hln 80 LABEL=D3
+port 228 IF_OUT 690 640 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q3
+port 229 IF_OUT 690 520 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q2
+port 230 IF_IN 170 680 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 231 IF_IN 170 710 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+port 232 IF_IN 170 660 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+@parts
+part 18 FDRE 370 520 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 19 FDRE 370 400 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 20 FDRE 370 640 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 21 FDRE 370 280 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U4
+a 0 sp 11 0 60 20 hcn 200 PART=FDRE
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 23
+s 170 640 370 640 22
+a 0 s 3 0 180 640 hln 100 LABEL=D3
+w 31
+s 490 400 690 400 30
+a 0 s 3 0 650 400 hln 100 LABEL=Q1
+w 39
+s 490 520 690 520 38
+a 0 s 3 0 650 520 hln 100 LABEL=Q2
+w 47
+s 490 640 690 640 46
+a 0 s 3 0 650 640 hln 100 LABEL=Q3
+w 55
+s 490 280 690 280 54
+a 0 s 3 0 650 280 hln 100 LABEL=Q0
+w 70
+s 170 660 290 660 62
+a 0 s 3 0 180 660 hln 100 LABEL=CE
+s 290 660 370 660 63
+s 290 660 290 540 69
+s 290 540 370 540 64
+s 290 540 290 420 68
+s 290 420 370 420 65
+s 290 420 290 300 67
+s 290 300 370 300 66
+w 115
+s 170 680 310 680 107
+a 0 s 3 0 180 680 hln 100 LABEL=C
+s 310 680 370 680 108
+s 310 680 310 560 114
+s 310 560 370 560 109
+s 310 560 310 440 113
+s 310 440 370 440 110
+s 310 440 310 320 112
+s 310 320 370 320 111
+w 160
+s 170 710 330 710 152
+a 0 s 3 0 180 710 hln 100 LABEL=R
+s 330 470 330 350 156
+s 330 470 370 470 154
+s 330 350 370 350 155
+s 330 590 330 470 157
+s 330 590 370 590 153
+s 330 710 330 590 158
+s 330 710 370 710 159
+w 198
+s 170 280 370 280 197
+a 0 s 3 0 180 280 hln 100 LABEL=D0
+w 206
+s 170 520 370 520 205
+a 0 s 3 0 180 520 hln 100 LABEL=D2
+w 214
+s 170 400 370 400 213
+a 0 s 3 0 180 400 hln 100 LABEL=D1
+@junction
+j 370 640
++ p 20 D
++ w 23
+j 490 400
++ p 19 Q
++ w 31
+j 490 520
++ p 18 Q
++ w 39
+j 490 640
++ p 20 Q
++ w 47
+j 490 280
++ p 21 Q
++ w 55
+j 290 660
++ w 70
++ w 70
+j 290 540
++ w 70
++ w 70
+j 290 420
++ w 70
++ w 70
+j 370 540
++ p 18 CE
++ w 70
+j 370 420
++ p 19 CE
++ w 70
+j 370 660
++ p 20 CE
++ w 70
+j 370 300
++ p 21 CE
++ w 70
+j 310 680
++ w 115
++ w 115
+j 310 560
++ w 115
++ w 115
+j 310 440
++ w 115
++ w 115
+j 370 560
++ p 18 C
++ w 115
+j 370 440
++ p 19 C
++ w 115
+j 370 680
++ p 20 C
++ w 115
+j 370 320
++ p 21 C
++ w 115
+j 330 710
++ w 160
++ w 160
+j 330 470
++ w 160
++ w 160
+j 330 590
++ w 160
++ w 160
+j 370 590
++ p 18 R
++ w 160
+j 370 470
++ p 19 R
++ w 160
+j 370 710
++ p 20 R
++ w 160
+j 370 350
++ p 21 R
++ w 160
+j 370 280
++ p 21 D
++ w 198
+j 370 520
++ p 18 D
++ w 206
+j 370 400
++ p 19 D
++ w 214
+j 690 280
++ s 222
++ w 55
+j 690 400
++ s 223
++ w 31
+j 170 400
++ s 224
++ w 214
+j 170 280
++ s 225
++ w 198
+j 170 520
++ s 226
++ w 206
+j 170 640
++ s 227
++ w 23
+j 690 640
++ s 228
++ w 47
+j 690 520
++ s 229
++ w 39
+j 170 680
++ s 230
++ w 115
+j 170 710
++ s 231
++ w 160
+j 170 660
++ s 232
++ w 70
+@attributes
+@text
+s 5 30 1060 hln 100 DRAWN BY KS
+s 5 30 1070 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 710 1050 hln 100 1
+s 5 710 1070 hln 100 A
+s 5 470 1050 hln 100 26TH JANUARY 1993
+s 5 510 1000 hln 100 XC2000 FAMILY FD4RE MACRO
+s 5 510 1020 hln 100 4-BIT DATA REGISTER W/
+s 5 510 1030 hln 100 CLOCK ENABLE & SYNC RESET

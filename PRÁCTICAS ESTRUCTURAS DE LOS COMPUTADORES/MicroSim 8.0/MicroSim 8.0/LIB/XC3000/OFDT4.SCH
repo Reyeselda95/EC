@@ -1,0 +1,208 @@
+*version 6.3 105341159
+u 173
+XC3000 853300642
+U? 5
+@libraries
+XC3000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC3000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 3246 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 174 IF_IN 180 720 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 175 IF_IN 180 640 h
+a 0 s 3 0 10 8 hln 80 LABEL=D3
+port 176 IF_IN 180 250 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 177 IF_IN 180 380 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 178 IF_IN 180 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=D2
+port 179 IF_OUT 680 640 h
+a 0 s 3 0 20 8 hln 80 LABEL=O3
+port 180 IF_OUT 680 250 h
+a 0 s 3 0 20 8 hln 80 LABEL=O0
+port 181 IF_OUT 680 380 h
+a 0 s 3 0 20 8 hln 80 LABEL=O1
+port 182 IF_OUT 680 510 h
+a 0 s 3 0 20 8 hln 80 LABEL=O2
+port 183 IF_IN 180 700 h
+a 0 s 3 0 10 8 hln 80 LABEL=T
+@parts
+part 17 OFDT 350 220 h
+a 0 sp 9 0 80 120 hrn 100 REFDES=U1
+a 0 sp 11 0 80 20 hcn 200 PART=OFDT
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 18 OFDT 350 610 h
+a 0 sp 9 0 80 120 hrn 100 REFDES=U2
+a 0 sp 11 0 80 20 hcn 200 PART=OFDT
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 19 OFDT 350 350 h
+a 0 sp 9 0 80 120 hrn 100 REFDES=U3
+a 0 sp 11 0 80 20 hcn 200 PART=OFDT
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 20 OFDT 350 480 h
+a 0 sp 9 0 80 120 hrn 100 REFDES=U4
+a 0 sp 11 0 80 20 hcn 200 PART=OFDT
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 22
+s 180 510 350 510 21
+a 0 s 3 0 190 510 hln 100 LABEL=D2
+w 30
+s 510 510 680 510 29
+a 0 s 3 0 650 510 hln 100 LABEL=O2
+w 38
+s 510 380 680 380 37
+a 0 s 3 0 650 380 hln 100 LABEL=O1
+w 46
+s 180 380 350 380 45
+a 0 s 3 0 190 380 hln 100 LABEL=D1
+w 54
+s 180 640 350 640 53
+a 0 s 3 0 190 640 hln 100 LABEL=D3
+w 62
+s 510 640 680 640 61
+a 0 s 3 0 650 640 hln 100 LABEL=O3
+w 78
+s 180 720 310 720 69
+a 0 s 3 0 190 720 hln 100 LABEL=C
+s 310 720 310 680 70
+s 310 680 350 680 71
+s 310 680 310 550 72
+s 310 550 350 550 73
+s 310 550 310 420 74
+s 310 420 350 420 75
+s 310 420 310 290 76
+s 310 290 350 290 77
+w 113
+s 180 250 350 250 112
+a 0 s 3 0 190 250 hln 100 LABEL=D0
+w 121
+s 510 250 680 250 120
+a 0 s 3 0 650 250 hln 100 LABEL=O0
+w 137
+s 180 700 290 700 128
+a 0 s 3 0 190 700 hln 100 LABEL=T
+s 290 700 290 610 132
+s 290 350 290 220 129
+s 290 220 350 220 130
+s 290 610 350 610 131
+s 290 610 290 480 133
+s 290 480 350 480 134
+s 290 480 290 350 135
+s 290 350 350 350 136
+@junction
+j 350 510
++ p 20 D
++ w 22
+j 510 510
++ p 20 O
++ w 30
+j 510 380
++ p 19 O
++ w 38
+j 350 380
++ p 19 D
++ w 46
+j 350 640
++ p 18 D
++ w 54
+j 510 640
++ p 18 O
++ w 62
+j 310 680
++ w 78
++ w 78
+j 310 550
++ w 78
++ w 78
+j 310 420
++ w 78
++ w 78
+j 350 290
++ p 17 C
++ w 78
+j 350 680
++ p 18 C
++ w 78
+j 350 420
++ p 19 C
++ w 78
+j 350 550
++ p 20 C
++ w 78
+j 350 250
++ p 17 D
++ w 113
+j 510 250
++ p 17 O
++ w 121
+j 290 610
++ w 137
++ w 137
+j 290 350
++ w 137
++ w 137
+j 290 480
++ w 137
++ w 137
+j 350 220
++ p 17 T
++ w 137
+j 350 610
++ p 18 T
++ w 137
+j 350 350
++ p 19 T
++ w 137
+j 350 480
++ p 20 T
++ w 137
+j 180 720
++ s 174
++ w 78
+j 180 640
++ s 175
++ w 54
+j 180 250
++ s 176
++ w 113
+j 180 380
++ s 177
++ w 46
+j 180 510
++ s 178
++ w 22
+j 680 640
++ s 179
++ w 62
+j 680 250
++ s 180
++ w 121
+j 680 380
++ s 181
++ w 38
+j 680 510
++ s 182
++ w 30
+j 180 700
++ s 183
++ w 137
+@attributes
+@text
+s 5 470 1030 hln 100 AN ACTIVE LOW 3-STATE OUTPUT BUFFER
+s 5 640 1050 hrn 100 23RD FEBRUARY 1993
+s 5 770 1020 hrn 100 4-BIT OUTPUT D FLIP-FLOP W/
+s 5 750 1000 hrn 100 XC3000 FAMILY OFDT4 MACRO
+s 5 700 1070 hln 100 A
+s 5 710 1050 hrn 100 1
+s 5 30 1070 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 1060 hln 100 DRAWN BY KS

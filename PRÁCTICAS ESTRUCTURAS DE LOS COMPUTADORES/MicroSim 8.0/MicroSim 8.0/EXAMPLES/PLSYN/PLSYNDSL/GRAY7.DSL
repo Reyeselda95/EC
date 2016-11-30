@@ -1,0 +1,46 @@
+" GRAY7
+
+PROCEDURE GRAY7 (INPUT clock, reset;
+	OUTPUT q[4] CLOCKED_BY clock);
+
+IF reset THEN
+	q = 0;
+ELSE
+	STATE_MACHINE gray STATE_BITS q;
+		STATE s1[0000b]:
+			GOTO s2;
+		STATE s2[0001b]:
+			GOTO s3;
+		STATE s3[0011b]:
+			GOTO s4;
+		STATE s4[0010b]:
+			GOTO s5;
+		STATE s5[0110b]:
+			GOTO s6;
+		STATE s6[0111b]:
+			GOTO s7;
+		STATE s7[0101b]:
+			GOTO s8;
+		STATE s8[0100b]:
+			GOTO s9;
+		STATE s9[1100b]:
+			GOTO s10;
+		STATE s10[1101b]:
+			GOTO s11;
+		STATE s11[1111b]:
+			GOTO s12;
+		STATE s12[1110b]:
+			GOTO s13;
+		STATE s13[1010b]:
+			GOTO s14;
+		STATE s14[1011b]:
+			GOTO s15;
+		STATE s15[1001b]:
+			GOTO s16;
+		STATE s16[1000b]:
+			GOTO s1;
+	END gray;
+END IF;
+
+END GRAY7;
+

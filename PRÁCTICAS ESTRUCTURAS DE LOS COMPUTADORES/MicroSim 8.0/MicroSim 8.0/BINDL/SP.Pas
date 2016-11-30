@@ -1,0 +1,12 @@
+00000000      ViewBase   MS.C1.NT    7.0           12/31/9999 uzSW1sqLskLMC6
+00000000      Route2     MS.C1.NT    7.0           12/31/9999 ZmWen6SLBKycsw
+00000000      Route4P    MS.C1.NT    7.0           12/31/9999 zc4P2pTEHRzFqJ
+00000000      RouteBase  MS.C1.NT    7.0           12/31/9999 Wusvm8uXjxwafR
+00000000      RouteADV   MS.C1.NT    7.0           12/31/9999 S1MLfwACLGe7wV
+00000000      RouteDFM   MS.C1.NT    7.0           12/31/9999 yssRc8xkeSkwek
+00000000      RouteHYB   MS.C1.NT    7.0           12/31/9999 X0k1nkgVFVG03E
+00000000      RouteFST   MS.C1.NT    7.0           12/31/9999 yCaSG1SZdj0Abw
+00000000      PlaceBase  MS.C1.NT    7.0           12/31/9999 HxJSt520RvEV3u
+00000000      IPlaceBase MS.C1.NT    7.0           12/31/9999 YRR2xQknujz3Bc
+00000000      EditBase   MS.C1.NT    7.0           12/31/9999 Ygj0X070SDLGcE
+00000000      EditFST    MS.C1.NT    7.0           12/31/9999 PHcw3HsfxjZEaG

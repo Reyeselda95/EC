@@ -1,0 +1,375 @@
+*version 7.1 2405799373
+lib "d:\msim70\lib\xc4000\XC4000.slb" 56631439
+lib "d:\msim70\lib\xblox\XBLOX.slb" 1026086760
+u 242
+U? 18
+R? 7
+@libraries
+XC4000 [.slb]
+XBLOX [.slb]
+@analysis
+@targets
+@attributes
+a IMPL=XILINX
+a FAMILY=XC4000
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 6607 
+@status
+c 96:07:17:11:37:54;840307074
+c 96:07:17:13:58:56;840315536
+c 96:07:17:14:03:15;840315795
+c 96:07:17:14:07:06;840316026
+c 96:07:17:15:28:25;840320905
+c 96:07:18:17:40:34;840415234
+*page 1 0 1520 970 iB
+@ports
+port 2 IF_OUT 450 140 h
+a 1 sr 3 0 31 8 hcn 100 LABEL=ZERO[15:0]
+@parts
+part 165 GND 50 300 h
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+a 0 ap 0 0 0 0 hln 100 REFDES=U2
+part 171 GND 110 300 h
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+a 0 ap 0 0 0 0 hln 100 REFDES=U8
+part 180 GND 200 300 h
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U17
+a 0 ap 0 0 0 0 hln 100 REFDES=U17
+part 174 GND 140 300 h
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U11
+a 0 ap 0 0 0 0 hln 100 REFDES=U11
+part 168 GND 80 300 h
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+a 0 ap 0 0 0 0 hln 100 REFDES=U5
+part 166 GND 60 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+a 0 ap 0 0 0 0 hln 100 REFDES=U3
+a 0 sp 11 0 7 48 hln 100 PART=GND
+part 172 GND 120 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U9
+a 0 ap 0 0 0 0 hln 100 REFDES=U9
+a 0 sp 11 0 3 48 hln 100 PART=GND
+part 175 GND 150 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U12
+a 0 ap 0 0 0 0 hln 100 REFDES=U12
+a 0 sp 11 0 5 48 hln 100 PART=GND
+part 177 GND 170 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U14
+a 0 ap 0 0 0 0 hln 100 REFDES=U14
+a 0 sp 11 0 5 40 hln 100 PART=GND
+part 167 GND 70 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+a 0 ap 0 0 0 0 hln 100 REFDES=U4
+a 0 sp 11 0 7 56 hln 100 PART=GND
+part 170 GND 100 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+a 0 ap 0 0 0 0 hln 100 REFDES=U7
+a 0 sp 11 0 5 56 hln 100 PART=GND
+part 169 GND 90 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+a 0 ap 0 0 0 0 hln 100 REFDES=U6
+a 0 sp 11 0 5 48 hln 100 PART=GND
+part 173 GND 130 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U10
+a 0 ap 0 0 0 0 hln 100 REFDES=U10
+a 0 sp 11 0 7 56 hln 100 PART=GND
+part 176 GND 160 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U13
+a 0 ap 0 0 0 0 hln 100 REFDES=U13
+a 0 sp 11 0 7 56 hln 100 PART=GND
+part 178 GND 180 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U15
+a 0 ap 0 0 0 0 hln 100 REFDES=U15
+a 0 sp 11 0 5 48 hln 100 PART=GND
+part 179 GND 190 300 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U16
+a 0 ap 0 0 0 0 hln 100 REFDES=U16
+a 0 sp 11 0 5 56 hln 100 PART=GND
+part 1 titleblk 1520 970 h
+a 1 s 13 0 350 10 hcn 100 PageSize=B
+a 1 s 13 0 180 60 hcn 100 PageTitle=
+a 1 s 13 0 340 95 hrn 100 PageCount=1
+a 1 s 13 0 300 95 hrn 100 PageNO=1
+@conn
+w 50
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO15
+s 300 290 200 290 49
+a 0 sr 3 0 240 288 hln 100 LABEL=ZERO15
+s 200 300 200 290 103
+w 44
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO13
+s 300 270 180 270 43
+a 0 sr 3 0 240 268 hln 100 LABEL=ZERO13
+s 180 300 180 270 109
+w 38
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO11
+s 300 250 160 250 37
+a 0 sr 3 0 240 248 hln 100 LABEL=ZERO11
+s 160 300 160 250 117
+w 32
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO9
+s 300 230 140 230 31
+a 0 sr 3 0 240 228 hln 100 LABEL=ZERO9
+s 140 300 140 230 125
+w 26
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO7
+s 300 210 120 210 25
+a 0 sr 3 0 240 208 hln 100 LABEL=ZERO7
+s 120 300 120 210 133
+w 20
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO5
+s 300 190 100 190 19
+a 0 sr 3 0 240 188 hln 100 LABEL=ZERO5
+s 100 300 100 190 141
+w 14
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO3
+s 300 170 80 170 13
+a 0 sr 3 0 240 168 hln 100 LABEL=ZERO3
+s 80 300 80 170 149
+w 47
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO14
+s 300 280 190 280 46
+a 0 sr 3 0 240 278 hln 100 LABEL=ZERO14
+s 190 280 190 300 107
+w 41
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO12
+s 300 260 170 260 40
+a 0 sr 3 0 240 258 hln 100 LABEL=ZERO12
+s 170 300 170 260 113
+w 35
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO10
+s 300 240 150 240 34
+a 0 sr 3 0 240 238 hln 100 LABEL=ZERO10
+s 150 300 150 240 121
+w 29
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO8
+s 300 220 130 220 28
+a 0 sr 3 0 240 218 hln 100 LABEL=ZERO8
+s 130 300 130 220 129
+w 23
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO6
+s 300 200 110 200 22
+a 0 sr 3 0 240 198 hln 100 LABEL=ZERO6
+s 110 300 110 200 137
+w 5
+a 0 sr 0 0 185 138 hln 100 LABEL=ZERO0
+s 50 140 300 140 4
+a 0 sr 3 0 240 138 hln 100 LABEL=ZERO0
+s 50 300 50 140 161
+w 8
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO1
+s 300 150 60 150 7
+a 0 sr 3 0 240 148 hln 100 LABEL=ZERO1
+s 60 300 60 150 157
+w 11
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO2
+s 300 160 70 160 10
+a 0 sr 3 0 240 158 hln 100 LABEL=ZERO2
+s 70 300 70 160 153
+w 17
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO4
+s 300 180 90 180 16
+a 0 sr 3 0 240 178 hln 100 LABEL=ZERO4
+s 90 300 90 180 145
+b 53
+a 0 sr 0 0 0 0 hln 100 LABEL=ZERO[15:0]
+s 450 140 300 140 100
+a 0 sr 3 0 375 138 hln 100 LABEL=ZERO[15:0]
+s 300 140 300 150 52
+s 300 150 300 160 55
+s 300 160 300 170 58
+s 300 170 300 180 61
+s 300 180 300 190 64
+s 300 190 300 200 67
+s 300 200 300 210 70
+s 300 210 300 220 73
+s 300 220 300 230 76
+s 300 230 300 240 79
+s 300 240 300 250 82
+s 300 250 300 260 85
+s 300 260 300 270 88
+s 300 270 300 280 91
+s 300 280 300 290 94
+s 300 290 300 300 97
+@junction
+j 450 140
++ S 2
+ZERO[15]
+ZERO[14]
+ZERO[13]
+ZERO[12]
+ZERO[11]
+ZERO[10]
+ZERO[9]
+ZERO[8]
+ZERO[7]
+ZERO[6]
+ZERO[5]
+ZERO[4]
+ZERO[3]
+ZERO[2]
+ZERO[1]
+ZERO[0]
++ b 53
+ZERO[15]
+ZERO[14]
+ZERO[13]
+ZERO[12]
+ZERO[11]
+ZERO[10]
+ZERO[9]
+ZERO[8]
+ZERO[7]
+ZERO[6]
+ZERO[5]
+ZERO[4]
+ZERO[3]
+ZERO[2]
+ZERO[1]
+ZERO[0]
+j 300 150
++ w 8
++ b 53
+ZERO[1]
+j 300 160
++ w 11
++ b 53
+ZERO[2]
+j 300 170
++ w 14
++ b 53
+ZERO[3]
+j 300 180
++ w 17
++ b 53
+ZERO[4]
+j 300 190
++ w 20
++ b 53
+ZERO[5]
+j 300 200
++ w 23
++ b 53
+ZERO[6]
+j 300 210
++ w 26
++ b 53
+ZERO[7]
+j 300 220
++ w 29
++ b 53
+ZERO[8]
+j 300 230
++ w 32
++ b 53
+ZERO[9]
+j 300 240
++ w 35
++ b 53
+ZERO[10]
+j 300 250
++ w 38
++ b 53
+ZERO[11]
+j 300 260
++ w 41
++ b 53
+ZERO[12]
+j 300 270
++ w 44
++ b 53
+ZERO[13]
+j 300 280
++ w 47
++ b 53
+ZERO[14]
+j 300 290
++ w 50
++ b 53
+ZERO[15]
+j 60 300
++ p 166 GROUND
++ w 8
+j 70 300
++ p 167 GROUND
++ w 11
+j 90 300
++ p 169 GROUND
++ w 17
+j 100 300
++ p 170 GROUND
++ w 20
+j 110 300
++ p 171 GROUND
++ w 23
+j 120 300
++ p 172 GROUND
++ w 26
+j 130 300
++ p 173 GROUND
++ w 29
+j 150 300
++ p 175 GROUND
++ w 35
+j 160 300
++ p 176 GROUND
++ w 38
+j 170 300
++ p 177 GROUND
++ w 41
+j 180 300
++ p 178 GROUND
++ w 44
+j 190 300
++ p 179 GROUND
++ w 47
+j 200 300
++ p 180 GROUND
++ w 50
+j 140 300
++ p 174 GROUND
++ w 32
+j 80 300
++ p 168 GROUND
++ w 14
+j 300 140
++ w 5
++ b 53
+ZERO[0]
+j 50 300
++ p 165 GROUND
++ w 5
+@attributes
+a 0 s 0 0 0 0 hln 100 PAGETITLE=
+a 0 s 0 0 0 0 hln 100 PAGENO=1
+a 0 s 0 0 0 0 hln 100 PAGESIZE=B
+a 0 s 0 0 0 0 hln 100 PAGECOUNT=1
+@text

@@ -1,0 +1,136 @@
+*version 6.3 628538529
+u 108
+XC5200 3230692063
+U? 4
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 2135 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 109 IF_IN 110 450 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 110 IF_IN 110 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 111 IF_IN 110 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 112 IF_IN 110 390 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+port 113 IF_IN 110 590 h
+a 0 s 3 0 10 8 hln 50 LABEL=C_IN
+port 114 INTERFACE 570 300 u
+a 0 s 3 0 10 8 hln 80 LABEL=O
+@parts
+part 17 CY_MUX 380 420 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U1
+a 0 sp 11 0 20 32 hln 100 PART=CY_MUX
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 20 GND 340 520 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U2
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 27 AND4 210 390 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 80 hlt 100 PART=AND4
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+@conn
+w 29
+s 110 410 210 410 28
+a 0 s 3 0 120 410 hln 100 LABEL=A2
+w 37
+s 110 450 210 450 36
+a 0 s 3 0 120 450 hln 100 LABEL=A0
+w 47
+s 420 480 420 450 44
+s 340 480 420 480 45
+s 340 520 340 480 46
+w 61
+s 110 430 210 430 60
+a 0 s 3 0 120 430 hln 100 LABEL=A1
+w 69
+s 290 420 380 420 68
+a 0 s 3 0 300 420 hln 100 LABEL=S0
+w 84
+s 430 300 570 300 82
+a 0 s 3 0 550 300 hln 100 LABEL=O
+s 430 380 430 300 83
+w 92
+s 110 390 210 390 91
+a 0 s 3 0 120 390 hln 100 LABEL=A3
+w 101
+s 110 590 440 590 99
+a 0 s 3 0 120 590 hln 100 LABEL=C_IN
+s 440 590 440 450 100
+@junction
+j 210 410
++ p 27 I2
++ w 29
+j 210 450
++ p 27 I0
++ w 37
+j 420 450
++ p 17 DI
++ w 47
+j 340 520
++ p 20 GROUND
++ w 47
+j 210 430
++ p 27 I1
++ w 61
+j 380 420
++ p 17 S
++ w 69
+j 290 420
++ p 27 O
++ w 69
+j 430 380
++ p 17 CO
++ w 84
+j 210 390
++ p 27 I3
++ w 92
+j 440 450
++ p 17 CI
++ w 101
+j 110 450
++ s 109
++ w 37
+j 110 430
++ s 110
++ w 61
+j 110 410
++ s 111
++ w 29
+j 110 390
++ s 112
++ w 92
+j 110 590
++ s 113
++ w 101
+j 570 300
++ s 114
++ w 84
+@attributes
+@text
+s 5 110 670 hln 100 PREVIOUS DECODE STAGE.
+s 5 460 1050 hln 100 1ST JUNE 1994
+s 5 500 1020 hln 100 4-BIT ACTIVE-LOW DECODER
+s 5 700 1050 hln 100 1
+s 5 700 1070 hln 100 A
+s 5 30 1070 hln 100 COPYRIGHT (C) 1994, XILINX INC.
+s 5 110 630 hln 100 THE C_IN PIN CAN ONLY BE INITIALIZED
+s 5 110 650 hln 100 BY A CY_INIT OR BY THE OUTPUT OF A
+s 5 500 1000 hln 100 XC5200 FAMILY DEC_CC4 MACRO

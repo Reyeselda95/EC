@@ -1,0 +1,1181 @@
+*version 8.0 902502422
+@index
+symloc CD4016MJ,CD4016MW,CD4016CJ,CD4016CN 0 835
+symloc DG300A,DG300ACK,DG300ACJ,DG300ABA 835 933
+symloc DG301A,DG301ACK,DG301ACJ,DG301ABA 1768 1214
+symloc DG303A,DG303ACK,DG303ACJ,DG303ACY 2982 1227
+symloc DG304,DG304CJ,DG304CWE,DG304CK,DG304BA 4209 1021
+symloc DG305,DG305CJ,DG305CWE,DG305CK,DG305BA 5230 1212
+symloc DG307,DG307CJ,DG307CK,DG307CWE 6442 1210
+symloc DG381,DG381CJ,DG381CWE,DG381CK,DG381BA 7652 1039
+symloc DG387,DG387CJ,DG387CWE,DG387CK,DG387BA 8691 1211
+symloc DG390,DG390CJ,DG390CK,DG390CWE 9902 1214
+symloc SD5000,SD5000N,SD5000J 11116 747
+symloc IH5022,IH5022CDD,IH5022CPA,IH5022MDD,IH5022MPA 11863 1445
+symloc CD4016B,CD4016BD,CD4016BF,CD4016BK 13308 813
+symloc IH5010,IH5010CDD,IH5010CPD,IH5010MPD,IH5010MDD 14121 2127
+symloc IH5012,IH5012CDE,IH5012CPE,IH5012MPE,IH5012MDE 16248 2377
+symloc IH5020,IH5020CDE,IH5020CPA,IH5020MPA,IH5020MDE 18625 1337
+symloc HCF4016B,HCF4016BEY,HCF4016BM1,HCF4016BC1 19962 816
+symloc 54HC4016J 20778 839
+symloc 54HC4066J 21617 839
+symloc TLC4016IN,TLC4016ID 22456 837
+symloc TLC4066ID 23293 837
+*symbol CD4016MJ
+d CMOS Quad Bilateral Switch
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=CD4016A
+a 1 sp 9 0 8 6 hln 100 REFDES=U?
+a 0 sp 11 0 36 70 hln 100 PART=CD4016MJ
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=x^@refdes %in %out %vc %vdd %vss @model
+@pins
+p 2 13 36 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 36 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=2
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=13
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 28 12 hct 100 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 30 60 hcb 100 VSS n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=7
+a 0 s 0 0 30 70 hln 100 ERC=x
+@graphics 60 70 0 30 10
+r 0 10 10 50 60
+v 0 10 30
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 40 30
+40 28
+;
+v 0 40 28
+42 30
+;
+v 0 20 30
+40 24
+;
+*symbol DG300A
+d TTL Compatable CMOS Analog Switch
+@type p
+@attributes
+a 0 sp 9 0 11 6 hln 100 REFDES=U?
+a 0 sp 11 0 66 80 hrn 100 PART=DG300A
+a 0 sp 0 0 0 0 hln 100 MODEL=DG300
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %VC %VDD %VSS %GND @model
+@pins
+p 2 13 37 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 37 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=1
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=3
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 28 12 hct 100 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=10
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 30 70 hcb 100 VSS n 30 80 v
+a 0 s 1 0 25 82 hcn 100 PIN=6
+a 0 s 0 0 30 80 hln 100 ERC=x
+p 2 47 52 hrn 100 GND n 60 50 u
+a 0 s 1 0 55 48 hln 100 PIN=5
+a 0 s 0 0 60 50 hln 100 ERC=x
+@graphics 60 80 0 30 10
+r 0 10 10 50 70
+v 0 10 30
+20 30
+;
+v 0 20 30
+40 28
+;
+v 0 40 28
+40 30
+;
+v 0 40 30
+50 30
+;
+v 0 40 28
+42 30
+;
+*symbol DG301A
+d TTL Compatable CMOS Analog Switch
+@type p
+@attributes
+a 0 sp 9 0 10 7 hln 100 REFDES=U?
+a 0 sp 11 0 39 90 hln 100 PART=DG301A
+a 0 sp 0 0 0 0 hln 100 MODEL=DG301
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN1 %OUT1 %VC %VDD %VSS %GND %IN2 %OUT2 @model
+@pins
+p 2 11 57 hln 80 IN2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=11
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 50 57 hrn 80 OUT2 n 60 50 u
+a 0 s 1 0 55 48 hln 100 PIN=13
+a 0 s 0 0 60 50 hln 100 ERC=x
+p 2 13 72 hln 80 VC n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=6
+a 0 s 0 0 0 70 hln 100 ERC=x
+p 2 29 11 hct 80 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 30 79 hcb 80 VSS n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=8
+a 0 s 0 0 30 90 hln 100 ERC=x
+p 2 49 72 hrn 80 GND n 60 70 u
+a 0 s 1 0 55 68 hln 100 PIN=7
+a 0 s 0 0 60 70 hln 100 ERC=x
+p 2 11 37 hln 80 IN1 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=4
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 50 37 hrn 80 OUT1 n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=2
+a 0 s 0 0 60 30 hln 100 ERC=x
+@graphics 60 90 0 30 10
+r 0 10 10 50 80
+v 0 10 30
+20 30
+;
+v 0 20 30
+40 28
+;
+v 0 40 28
+40 30
+;
+v 0 40 30
+50 30
+;
+v 0 40 28
+42 30
+;
+v 0 10 50
+20 50
+;
+v 0 40 50
+50 50
+;
+v 0 40 50
+40 48
+;
+v 0 40 48
+42 50
+;
+v 0 20 50
+40 44
+;
+*symbol DG303A
+d TTL Compatable CMOS Analog Switch
+@type p
+@attributes
+a 0 sp 9 0 2 6 hln 100 REFDES=U?
+a 0 sp 11 0 72 90 hrn 100 PART=DG303A
+a 0 sp 0 0 0 0 hln 100 MODEL=DG303
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=x^@refdes %in1 %out1 %vc %vdd %vss %GND %in2 %out2 @model
+@pins
+p 2 11 56 hln 80 IN1 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=5
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 49 56 hrn 80 OUT1 n 60 50 u
+a 0 s 1 0 55 48 hln 100 PIN=4
+a 0 s 0 0 60 50 hln 100 ERC=x
+p 2 13 72 hln 80 VC n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=6
+a 0 s 0 0 0 70 hln 100 ERC=x
+p 2 29 11 hct 80 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 30 80 hcb 80 VSS n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=8
+a 0 s 0 0 30 90 hln 100 ERC=x
+p 2 47 72 hrn 80 GND n 60 70 u
+a 0 s 1 0 55 68 hln 100 PIN=7
+a 0 s 0 0 60 70 hln 100 ERC=x
+p 2 11 36 hln 80 IN2 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 49 36 hrn 80 OUT2 n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=3
+a 0 s 0 0 60 30 hln 100 ERC=x
+@graphics 60 90 0 30 10
+r 0 10 10 50 80
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 50
+50 50
+;
+v 0 10 30
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 40 48
+20 50
+;
+v 0 40 48
+40 50
+;
+v 0 40 48
+42 50
+;
+v 0 40 28
+40 30
+;
+v 0 40 28
+42 30
+;
+v 0 10 50
+20 50
+;
+*symbol DG304
+d CMOS Analog Switch
+@type p
+@attributes
+a 0 sp 9 0 9 7 hln 100 REFDES=U?
+a 0 sp 11 0 42 72 hln 100 PART=DG304
+a 0 sp 0 0 0 0 hln 100 MODEL=DG304
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %VC %VDD %VSS %GND @model
+@pins
+p 2 11 37 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=4
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 49 37 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=2
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=6
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 28 12 hct 100 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 29 62 hcb 100 VSS n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=8
+a 0 s 0 0 30 70 hln 100 ERC=x
+p 2 48 52 hrn 100 GND n 60 50 u
+a 0 s 1 0 55 48 hln 100 PIN=7
+a 0 s 0 0 60 50 hln 100 ERC=x
+@graphics 60 70 0 30 10
+r 0 10 10 50 60
+r 0 10 10 10 10
+v 0 40 30
+50 30
+;
+v 0 40 28
+20 30
+;
+v 0 40 28
+40 30
+;
+v 0 40 30
+40 28
+;
+v 0 40 28
+40 30
+;
+v 0 40 30
+40 28
+;
+v 0 40 28
+40 30
+;
+v 0 40 30
+40 28
+;
+v 0 40 28
+42 30
+;
+v 0 10 30
+20 30
+;
+*symbol DG305
+d CMOS Analog Switch
+@type p
+@attributes
+a 0 sp 9 0 5 7 hln 100 REFDES=U?
+a 0 sp 11 0 38 91 hln 100 PART=DG305
+a 0 sp 0 0 0 0 hln 100 MODEL=DG305
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN1 %OUT1 %VC %VDD %VSS %GND %IN2 %OUT2 @model
+@pins
+p 2 13 56 hln 80 IN1 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=4
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 47 56 hrn 80 OUT1 n 60 50 u
+a 0 s 1 0 55 48 hln 100 PIN=2
+a 0 s 0 0 60 50 hln 100 ERC=x
+p 2 13 72 hln 80 VC n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=6
+a 0 s 0 0 0 70 hln 100 ERC=x
+p 2 29 11 hct 80 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 30 81 hcb 80 VSS n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=8
+a 0 s 0 0 30 90 hln 100 ERC=x
+p 2 47 72 hrn 80 GND n 60 70 u
+a 0 s 1 0 55 68 hln 100 PIN=7
+a 0 s 0 0 60 70 hln 100 ERC=x
+p 2 13 36 hln 80 IN2 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=11
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 36 hrn 80 OUT2 n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=13
+a 0 s 0 0 60 30 hln 100 ERC=x
+@graphics 60 90 0 30 10
+r 0 10 10 50 80
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 50
+50 50
+;
+v 0 10 30
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 40 48
+20 50
+;
+v 0 40 48
+40 50
+;
+v 0 40 48
+42 50
+;
+v 0 40 28
+40 30
+;
+v 0 40 28
+42 30
+;
+v 0 20 50
+10 50
+;
+*symbol DG307
+d CMOS Analog Switch
+@type p
+@attributes
+a 0 sp 9 0 2 6 hln 100 REFDES=U?
+a 0 sp 11 0 41 91 hln 100 PART=DG307
+a 0 sp 0 0 0 0 hln 100 MODEL=DG307
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN1 %OUT1 %VC %VDD %VSS %GND %IN2 %OUT2 @model
+@pins
+p 2 13 56 hln 80 IN1 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=5
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 47 56 hrn 80 OUT1 n 60 50 u
+a 0 s 1 0 55 48 hln 100 PIN=4
+a 0 s 0 0 60 50 hln 100 ERC=x
+p 2 13 72 hln 80 VC n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=6
+a 0 s 0 0 0 70 hln 100 ERC=x
+p 2 28 12 hct 80 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 30 81 hcb 80 VSS n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=8
+a 0 s 0 0 30 90 hln 100 ERC=x
+p 2 47 72 hrn 80 GND n 60 70 u
+a 0 s 1 0 55 68 hln 100 PIN=7
+a 0 s 0 0 60 70 hln 100 ERC=x
+p 2 13 36 hln 80 IN2 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 36 hrn 80 OUT2 n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=3
+a 0 s 0 0 60 30 hln 100 ERC=x
+@graphics 60 90 0 30 10
+r 0 10 10 50 80
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 50
+50 50
+;
+v 0 10 30
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 40 48
+20 50
+;
+v 0 40 48
+40 50
+;
+v 0 40 48
+42 50
+;
+v 0 40 28
+40 30
+;
+v 0 40 28
+42 30
+;
+v 0 10 50
+20 50
+;
+*symbol DG381
+d CMOS Analog Switch
+@type p
+@attributes
+a 0 sp 9 0 10 6 hln 100 REFDES=U?
+a 0 sp 11 0 39 71 hln 100 PART=DG381
+a 0 sp 0 0 0 0 hln 100 MODEL=DG381
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %VC %VDD %VSS %GND @model
+@pins
+p 2 13 37 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 37 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=2
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=5
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 29 11 hct 100 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=6
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 30 60 hcb 100 VSS n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=9
+a 0 s 0 0 30 70 hln 100 ERC=x
+p 2 47 52 hrn 100 GND n 60 50 u
+a 0 s 1 0 55 48 hln 100 PIN=8
+a 0 s 0 0 60 50 hln 100 ERC=x
+@graphics 60 70 0 30 10
+r 0 10 10 50 60
+r 0 10 10 10 10
+v 0 40 30
+50 30
+;
+v 0 40 28
+40 30
+;
+v 0 40 30
+40 28
+;
+v 0 40 28
+40 30
+;
+v 0 40 30
+40 28
+;
+v 0 40 28
+40 30
+;
+v 0 40 30
+40 28
+;
+v 0 40 28
+42 30
+;
+v 0 38 22
+20 30
+;
+v 0 20 30
+38 22
+;
+v 0 20 30
+10 30
+;
+*symbol DG387
+d CMOS Analog Switch
+@type p
+@attributes
+a 0 sp 9 0 5 7 hln 100 REFDES=U?
+a 0 sp 11 0 38 90 hln 100 PART=DG387
+a 0 sp 0 0 0 0 hln 100 MODEL=DG387
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN1 %OUT1 %VC %VDD %VSS %GND %IN2 %OUT2 @model
+@pins
+p 2 13 56 hln 80 IN1 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=4
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 47 56 hrn 80 OUT1 n 60 50 u
+a 0 s 1 0 55 48 hln 100 PIN=3
+a 0 s 0 0 60 50 hln 100 ERC=x
+p 2 13 72 hln 80 VC n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=5
+a 0 s 0 0 0 70 hln 100 ERC=x
+p 2 29 11 hct 80 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=6
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 30 79 hcb 80 VSS n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=9
+a 0 s 0 0 30 90 hln 100 ERC=x
+p 2 47 72 hrn 80 GND n 60 70 u
+a 0 s 1 0 55 68 hln 100 PIN=8
+a 0 s 0 0 60 70 hln 100 ERC=x
+p 2 13 36 hln 80 IN2 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=11
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 36 hrn 80 OUT2 n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=12
+a 0 s 0 0 60 30 hln 100 ERC=x
+@graphics 60 90 0 30 10
+r 0 10 10 50 80
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 50
+50 50
+;
+v 0 10 30
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 40 48
+20 50
+;
+v 0 40 48
+40 50
+;
+v 0 40 48
+42 50
+;
+v 0 40 28
+40 30
+;
+v 0 40 28
+42 30
+;
+v 0 10 50
+20 50
+;
+*symbol DG390
+d CMOS Analog Switch
+@type p
+@attributes
+a 0 sp 9 0 2 6 hln 100 REFDES=U?
+a 0 sp 11 0 38 90 hln 100 PART=DG390
+a 0 sp 0 0 0 0 hln 100 MODEL=DG390
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN1 %OUT1 %VC %VDD %VSS %GND %IN2 %OUT2 @model
+@pins
+p 2 13 56 hln 80 IN1 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=16
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 47 56 hrn 80 OUT1 n 60 50 u
+a 0 s 1 0 55 48 hln 100 PIN=1
+a 0 s 0 0 60 50 hln 100 ERC=x
+p 2 13 72 hln 80 VC n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=15
+a 0 s 0 0 0 70 hln 100 ERC=x
+p 2 28 12 hct 80 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=11
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 30 81 hcb 80 VSS n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=14
+a 0 s 0 0 30 90 hln 100 ERC=x
+p 2 47 72 hrn 80 GND n 60 70 u
+a 0 s 1 0 55 68 hln 100 PIN=13
+a 0 s 0 0 60 70 hln 100 ERC=x
+p 2 13 36 hln 80 IN2 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=4
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 36 hrn 80 OUT2 n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=3
+a 0 s 0 0 60 30 hln 100 ERC=x
+@graphics 60 90 0 30 10
+r 0 10 10 50 80
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 50
+50 50
+;
+v 0 10 30
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 40 48
+20 50
+;
+v 0 40 48
+40 50
+;
+v 0 40 48
+42 50
+;
+v 0 40 28
+40 30
+;
+v 0 40 28
+42 30
+;
+v 0 10 50
+20 50
+;
+*symbol SD5000
+d N-Channel High Speed, DMOS, Quad, FET, Analog Switch Array
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=SD5000
+a 0 sp 9 0 10 7 hln 100 REFDES=U?
+a 0 sp 11 0 40 71 hln 100 PART=SD5000
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=x^@refdes %IN %OUT %VC %SUB @model
+@pins
+p 2 12 37 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=4
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 37 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=1
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=3
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 31 60 hcb 100 SUB n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=2
+a 0 s 0 0 30 70 hln 100 ERC=x
+@graphics 60 70 0 30 10
+r 0 10 10 50 60
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 20 30
+10 30
+;
+*symbol IH5022
+d VIRTUAL GROUND ANALOG SWITCH
+@type p
+@attributes
+a 0 sp 9 0 12 -5 hln 100 REFDES=U?
+a 0 sp 11 0 13 47 hln 100 PART=IH5022
+a 0 sp 0 0 0 0 hln 100 MODEL=IH5022
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %S1 %GND %VC %S2 %VGND @model
+@pins
+p 2 13 8 hln 100 S1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=2
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 0 10 hln 100 FLOAT=n
+p 2 11 28 hln 90 GND n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=3
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 0 30 hln 100 FLOAT=n
+p 2 58 38 hrn 100 VC n 60 50 v
+a 0 s 1 0 55 52 hcn 100 PIN=1
+a 0 s 0 0 60 50 hln 100 ERC=i
+a 0 s 0 0 60 50 hln 100 FLOAT=n
+p 2 127 8 hrn 100 S2 n 140 10 u
+a 0 s 1 0 135 8 hln 100 PIN=4
+a 0 s 0 0 140 10 hln 100 ERC=o
+a 0 s 0 0 140 10 hln 100 FLOAT=n
+p 2 127 28 hrn 100 VGND n 140 30 u
+a 0 s 1 0 135 28 hln 100 PIN=5
+a 0 s 0 0 140 30 hln 100 ERC=o
+a 0 s 0 0 140 30 hln 100 FLOAT=n
+@graphics 140 50 0 10 10
+r 0 10 0 130 40
+v 0 10 10
+50 10
+;
+v 0 50 10
+70 5
+;
+v 0 10 30
+20 30
+;
+v 0 25 30
+25 25
+;
+v 0 25 25
+25 35
+;
+v 0 25 35
+25 30
+;
+v 0 25 30
+35 25
+;
+v 0 35 25
+35 35
+;
+v 0 35 35
+25 30
+;
+v 0 35 30
+40 30
+;
+v 0 40 30
+40 10
+;
+v 0 70 10
+85 10
+;
+v 0 85 10
+85 15
+;
+v 0 100 15
+100 10
+;
+v 0 83 15
+102 15
+;
+v 0 105 10
+130 10
+;
+v 0 130 10
+100 10
+;
+v 0 110 15
+110 20
+;
+v 0 110 20
+110 10
+;
+v 0 110 10
+110 20
+;
+v 0 110 20
+95 20
+;
+v 0 95 20
+93 20
+;
+v 0 93 20
+93 15
+;
+v 0 60 40
+60 35
+;
+v 0 60 30
+60 25
+;
+v 0 60 20
+60 15
+;
+v 0 130 30
+75 30
+;
+v 0 75 30
+75 10
+;
+v 0 20 30
+25 30
+;
+*symbol CD4016B
+d CMOS Quad Bilateral Switch
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=CD4016B
+a 1 sp 9 0 8 6 hln 100 REFDES=U?
+a 0 sp 11 0 36 71 hln 100 PART=CD4016B
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=x^@refdes %in %out %vc %vdd %vss @model
+@pins
+p 2 13 37 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 37 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=2
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=13
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 28 12 hct 100 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 29 61 hcb 100 VSS n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=7
+a 0 s 0 0 30 70 hln 100 ERC=x
+@graphics 60 70 0 30 10
+r 0 10 10 50 60
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 20 30
+10 30
+;
+*symbol IH5010
+d VIRTUAL GROUND ANALOG CURRENT SWITCHES
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 80 112 hln 100 PART=IH5010
+a 0 sp 0 0 0 0 hln 100 MODEL=IH5010
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN1 %IN2 %IN3 %IN4 %S1 %S2 %S3 %S4 %O %V %COM1 %COM2 %COM3 %COM4 @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 IN1 n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 -50 -20 hln 100 FLOAT=n
+p 2 13 32 hln 100 IN2 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=6
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 -50 -10 hln 100 FLOAT=n
+p 2 13 42 hln 100 IN3 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=9
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 -50 0 hln 100 FLOAT=n
+p 2 13 52 hln 100 IN4 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=13
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 -50 10 hln 100 FLOAT=n
+p 2 13 62 hln 100 S1 n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=1
+a 0 s 0 0 0 60 hln 100 ERC=i
+a 0 s 0 0 -50 20 hln 100 FLOAT=n
+p 2 13 72 hln 100 S2 n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=7
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 -50 30 hln 100 FLOAT=n
+p 2 13 82 hln 100 S3 n 0 80 h
+a 0 s 1 0 5 78 hrn 100 PIN=8
+a 0 s 0 0 0 80 hln 100 ERC=i
+a 0 s 0 0 -50 40 hln 100 FLOAT=n
+p 2 13 92 hln 100 S4 n 0 90 h
+a 0 s 1 0 5 88 hrn 100 PIN=14
+a 0 s 0 0 0 90 hln 100 ERC=i
+a 0 s 0 0 -50 50 hln 100 FLOAT=n
+p 2 67 52 hrn 100 O n 80 50 u
+a 0 s 1 0 75 48 hln 100 PIN=11
+a 0 s 0 0 80 50 hln 100 ERC=o
+a 0 s 0 0 30 10 hln 100 FLOAT=n
+p 2 40 16 hln 100 V n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=4
+a 0 s 0 0 40 0 hln 100 ERC=p
+a 0 s 0 0 0 50 hln 100 FLOAT=e
+p 2 -4 98 hln 100 COM1 n 10 110 v
+a 0 s 1 0 5 112 hcn 100 PIN=3
+a 0 s 0 0 10 110 hln 100 ERC=p
+a 0 s 0 0 -30 160 hln 100 FLOAT=e
+p 2 16 98 hln 100 COM2 n 20 110 v
+a 0 s 1 0 15 112 hcn 100 PIN=5
+a 0 s 0 0 20 110 hln 100 ERC=p
+a 0 s 0 0 -20 160 hln 100 FLOAT=e
+p 2 38 98 hln 100 COM3 n 50 110 v
+a 0 s 1 0 45 112 hcn 100 PIN=10
+a 0 s 0 0 50 110 hln 100 ERC=p
+a 0 s 0 0 10 160 hln 100 FLOAT=e
+p 2 60 98 hln 100 COM4 n 70 110 v
+a 0 s 1 0 65 112 hcn 100 PIN=12
+a 0 s 0 0 70 110 hln 100 ERC=p
+a 0 s 0 0 30 160 hln 100 FLOAT=e
+@graphics 80 110 0 20 10
+r 0 10 10 70 100
+*symbol IH5012
+d ANALOG CURRENT SWITCHES
+@type p
+@attributes
+a 0 sp 9 0 12 7 hln 100 REFDES=U?
+a 0 sp 11 0 65 108 hln 100 PART=IH5012
+a 0 sp 0 0 0 0 hln 100 MODEL=IH5012
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN1 %IN2 %IN3 %IN4 %S1 %S2 %S3 %S4 %O1 %COM1 %COM2 %COM3 %COM4 %O2 %O3 %O4 @MODEL ?VALUE/@VALUE/
+a 0 up 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 IN1 n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=3
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 -50 -20 hln 100 FLOAT=n
+p 2 13 32 hln 100 IN2 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=6
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 -50 -10 hln 100 FLOAT=n
+p 2 13 42 hln 100 IN3 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=11
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 -50 0 hln 100 FLOAT=n
+p 2 13 52 hln 100 IN4 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=14
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 -50 10 hln 100 FLOAT=n
+p 2 13 62 hln 100 S1 n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=2
+a 0 s 0 0 0 60 hln 100 ERC=i
+a 0 s 0 0 -50 20 hln 100 FLOAT=n
+p 2 13 72 hln 100 S2 n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=7
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 -50 30 hln 100 FLOAT=n
+p 2 13 82 hln 100 S3 n 0 80 h
+a 0 s 1 0 5 78 hrn 100 PIN=10
+a 0 s 0 0 0 80 hln 100 ERC=i
+a 0 s 0 0 -50 40 hln 100 FLOAT=n
+p 2 13 92 hln 100 S4 n 0 90 h
+a 0 s 1 0 5 88 hrn 100 PIN=15
+a 0 s 0 0 0 90 hln 100 ERC=i
+a 0 s 0 0 -50 50 hln 100 FLOAT=n
+p 2 57 42 hrn 100 O1 n 70 40 u
+a 0 s 1 0 65 38 hln 100 PIN=1
+a 0 s 0 0 70 40 hln 100 ERC=o
+a 0 s 0 0 20 0 hln 100 FLOAT=n
+p 2 -4 98 hln 100 COM1 n 10 110 v
+a 0 s 1 0 5 112 hcn 100 PIN=4
+a 0 s 0 0 10 110 hln 100 ERC=p
+a 0 s 0 0 -30 160 hln 100 FLOAT=e
+p 2 16 98 hln 100 COM2 n 20 110 v
+a 0 s 1 0 15 112 hcn 100 PIN=5
+a 0 s 0 0 20 110 hln 100 ERC=p
+a 0 s 0 0 -20 160 hln 100 FLOAT=e
+p 2 36 98 hln 100 COM3 n 50 110 v
+a 0 s 1 0 45 112 hcn 100 PIN=12
+a 0 s 0 0 50 110 hln 100 ERC=p
+a 0 s 0 0 10 160 hln 100 FLOAT=e
+p 2 56 98 hln 100 COM4 n 60 110 v
+a 0 s 1 0 55 112 hcn 100 PIN=13
+a 0 s 0 0 60 110 hln 100 ERC=p
+a 0 s 0 0 20 160 hln 100 FLOAT=e
+p 2 57 52 hrn 100 O2 n 70 50 u
+a 0 s 1 0 65 48 hln 100 PIN=8
+a 0 s 0 0 70 50 hln 100 ERC=o
+a 0 s 0 0 20 10 hln 100 FLOAT=n
+p 2 57 62 hrn 100 O3 n 70 60 u
+a 0 s 1 0 65 58 hln 100 PIN=9
+a 0 s 0 0 70 60 hln 100 ERC=o
+a 0 s 0 0 20 20 hln 100 FLOAT=n
+p 2 57 72 hrn 100 O4 n 70 70 u
+a 0 s 1 0 65 68 hln 100 PIN=16
+a 0 s 0 0 70 70 hln 100 ERC=o
+a 0 s 0 0 20 30 hln 100 FLOAT=n
+@graphics 70 110 0 20 10
+r 0 10 10 60 100
+*symbol IH5020
+d VIRTUAL GROUND ANALOG SWITCH
+@type p
+@attributes
+a 0 sp 9 0 10 -3 hln 100 REFDES=U?
+a 0 sp 11 0 49 60 hln 100 PART=IH5020
+a 0 sp 0 0 0 0 hln 100 MODEL=IH5020
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN1 %IN2 %S1 %S2 %O1 %O2 %COM1 %COM2 @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 IN1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=3
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 -40 -20 hln 100 FLOAT=n
+p 2 13 22 hln 100 IN2 n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=6
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 -40 -10 hln 100 FLOAT=n
+p 2 13 32 hln 100 S1 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 -40 0 hln 100 FLOAT=n
+p 2 13 42 hln 100 S2 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=7
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 -40 10 hln 100 FLOAT=n
+p 2 47 22 hrn 100 O1 n 60 20 u
+a 0 s 1 0 55 18 hln 100 PIN=1
+a 0 s 0 0 60 20 hln 100 ERC=o
+a 0 s 0 0 20 -10 hln 100 FLOAT=n
+p 2 47 32 hrn 100 O2 n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=8
+a 0 s 0 0 60 30 hln 100 ERC=o
+a 0 s 0 0 20 0 hln 100 FLOAT=n
+p 2 12 50 hln 100 COM1 n 20 60 v
+a 0 s 1 0 15 62 hcn 100 PIN=4
+a 0 s 0 0 20 60 hln 100 ERC=p
+a 0 s 0 0 -10 100 hln 100 FLOAT=e
+p 2 32 50 hln 100 COM2 n 40 60 v
+a 0 s 1 0 35 62 hcn 100 PIN=5
+a 0 s 0 0 40 60 hln 100 ERC=p
+a 0 s 0 0 10 100 hln 100 FLOAT=e
+@graphics 60 60 0 10 10
+r 0 10 0 50 50
+*symbol HCF4016B
+d CMOS Quad Bilateral Switch
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=HCF4016B
+a 1 sp 9 0 8 6 hln 100 REFDES=U?
+a 0 sp 11 0 42 70 hln 100 PART=HCF4016B
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=x^@refdes %in %out %vc %vdd %vss @model
+@pins
+p 2 13 37 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 37 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=2
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=13
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 28 12 hct 100 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 29 60 hcb 100 VSS n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=7
+a 0 s 0 0 30 70 hln 100 ERC=x
+@graphics 60 70 0 30 10
+r 0 10 10 50 60
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 10 30
+20 30
+;
+*symbol 54HC4016J
+d SILICON-GATE CMOS QUAD BILATERAL ANALOG SWITCH
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=54HC4016
+a 0 sp 9 0 10 6 hln 100 REFDES=U?
+a 0 sp 11 0 80 70 hrn 100 PART=54HC4016J
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %VC %VDD %VSS @model
+@pins
+p 2 13 37 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 37 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=2
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=13
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 28 12 hct 100 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 31 59 hcb 100 VSS n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=7
+a 0 s 0 0 30 70 hln 100 ERC=x
+@graphics 60 70 0 30 10
+r 0 10 10 50 60
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 20 30
+10 30
+;
+*symbol 54HC4066J
+d SILICON-GATE CMOS QUAD BILATERAL ANALOG SWITCH
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=54HC4066
+a 0 sp 9 0 10 6 hln 100 REFDES=U?
+a 0 sp 11 0 80 70 hrn 100 PART=54HC4066J
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %VC %VDD %VSS @model
+@pins
+p 2 13 37 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 37 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=2
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=13
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 28 12 hct 100 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 32 58 hcb 100 VSS n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=7
+a 0 s 0 0 30 70 hln 100 ERC=x
+@graphics 60 70 0 30 10
+r 0 10 10 50 60
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 10 30
+20 30
+;
+*symbol TLC4016IN
+d SILICON-GATE CMOS QUAD BILATERAL ANALOG SWITCH
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC4016
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 83 71 hrn 100 PART=TLC4016IN
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %VC %VDD %VSS @model
+@pins
+p 2 12 37 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 47 37 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=2
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=13
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 28 12 hct 100 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 31 61 hcb 100 VSS n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=7
+a 0 s 0 0 30 70 hln 100 ERC=x
+@graphics 60 70 0 30 10
+r 0 10 10 50 60
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 20 30
+10 30
+;
+*symbol TLC4066ID
+d SILICON-GATE CMOS QUAD BILATERAL ANALOG SWITCH
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC4066
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 83 70 hrn 100 PART=TLC4066ID
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %VC %VDD %VSS @model
+@pins
+p 2 11 37 hln 100 IN n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=1
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 48 37 hrn 100 OUT n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=2
+a 0 s 0 0 60 30 hln 100 ERC=x
+p 2 13 52 hln 100 VC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=13
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 28 12 hct 100 VDD n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 30 0 hln 100 ERC=x
+p 2 29 60 hcb 100 VSS n 30 70 v
+a 0 s 1 0 25 72 hcn 100 PIN=7
+a 0 s 0 0 30 70 hln 100 ERC=x
+@graphics 60 70 0 30 10
+r 0 10 10 50 60
+r 0 10 10 10 10
+v 0 40 20
+20 30
+;
+v 0 40 30
+50 30
+;
+v 0 20 30
+10 30
+;

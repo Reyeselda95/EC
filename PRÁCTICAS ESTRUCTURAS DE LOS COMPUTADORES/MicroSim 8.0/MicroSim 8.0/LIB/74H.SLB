@@ -1,0 +1,2357 @@
+*version 7.2 958760022
+@index
+symloc 74H00:00 0 144
+symloc 74H01:01 144 171
+symloc 74H04:04 315 126
+symloc 74H05:05 441 153
+symloc 74H10:10 594 144
+symloc 74H11:11 738 143
+symloc 74H15:15 881 170
+symloc 74H20:20 1051 144
+symloc 74H21:21 1195 143
+symloc 74H22:22 1338 166
+symloc 74H30:30 1504 146
+symloc 74H40:40 1650 146
+symloc 74H50:50 1796 180
+symloc 74H51:51 1976 136
+symloc 74H52:52 2112 149
+symloc 74H53 2261 2063
+symloc 74H54 4324 1833
+symloc 74H55 6157 1985
+symloc 74H60:60 8142 134
+symloc 74H61:61 8276 170
+symloc 74H62:62 8446 142
+symloc 74H71:71 8588 171
+symloc 74H72:72 8759 178
+symloc 74H73:73 8937 141
+symloc 74H74:74 9078 180
+symloc 74H76:76 9258 153
+symloc 74H78 9411 2171
+symloc 74H87:87 11582 157
+symloc 74H101:101 11739 185
+symloc 74H102:102 11924 192
+symloc 74H103:103 12116 174
+symloc 74H106:106 12290 185
+symloc 74H108:108 12475 209
+symloc 74H183:183 12684 148
+symloc 00 12832 1089 b
+symloc 01 13921 1116 b
+symloc 04 15037 932 b
+symloc 05 15969 959 b
+symloc 10 16928 1210 b
+symloc 11 18138 1209 b
+symloc 15 19347 1237 b
+symloc 20 20584 1324 b
+symloc 21 21908 1323 b
+symloc 22 23231 1346 b
+symloc 30 24577 1808 b
+symloc 40 26385 1326 b
+symloc 50 27711 2213 b
+symloc 51 29924 1318 b
+symloc 52 31242 1972 b
+symloc 56 33214 1383 b
+symloc 60 34597 1440 b
+symloc 61 36037 1204 b
+symloc 62 37241 2091 b
+symloc 64 39332 2126 b
+symloc 68 41458 2319 b
+symloc 71 43777 2180 b
+symloc 72 45957 2116 b
+symloc 73 48073 1417 b
+symloc 74 49490 1455 b
+symloc 76 50945 1567 b
+symloc 87 52512 1903 b
+symloc 101 54415 2196 b
+symloc 102 56611 2069 b
+symloc 103 58680 1417 b
+symloc 106 60097 1565 b
+symloc 108 61662 2233 b
+symloc 183 63895 1299 b
+symloc copyright 65194 575 b
+*symbol 74H00 ako 00
+d 2-input positive-nand gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=74H00
+a 0 sp 0 0 40 50 hln 100 MODEL=74H00
+*symbol 74H01 ako 01
+d 2-input positive-nand gate with open-collector output
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=74H01
+a 0 sp 0 0 40 50 hln 100 MODEL=74H01
+*symbol 74H04 ako 04
+d inverter
+@type p
+@attributes
+a 0 sp 11 0 31 36 hln 100 PART=74H04
+a 0 sp 0 0 40 40 hln 100 MODEL=74H04
+*symbol 74H05 ako 05
+d inverter with open-collector output
+@type p
+@attributes
+a 0 sp 11 0 29 36 hln 100 PART=74H05
+a 0 sp 0 0 40 40 hln 100 MODEL=74H05
+*symbol 74H10 ako 10
+d 3-input positive-nand gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=74H10
+a 0 sp 0 0 40 50 hln 100 MODEL=74H10
+*symbol 74H11 ako 11
+d 3-input positive-and gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=74H11
+a 0 sp 0 0 40 50 hln 100 MODEL=74H11
+*symbol 74H15 ako 15
+d 3-input positive-and gate with open-collector output
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=74H15
+a 0 sp 0 0 40 50 hln 100 MODEL=74H15
+*symbol 74H20 ako 20
+d 4-input positive-nand gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=74H20
+a 0 sp 0 0 40 50 hln 100 MODEL=74H20
+*symbol 74H21 ako 21
+d 4-input positive-and gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=74H21
+a 0 sp 0 0 40 50 hln 100 MODEL=74H21
+*symbol 74H22 ako 22
+d 4-input positive-nand with open-collector output
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=74H22
+a 0 sp 0 0 40 50 hln 100 MODEL=74H22
+*symbol 74H30 ako 30
+d 8-input positive-nand gate
+@type p
+@attributes
+a 0 sp 11 0 40 100 hln 100 PART=74H30
+a 0 sp 0 0 40 100 hln 100 MODEL=74H30
+*symbol 74H40 ako 40
+d 4-input positive-nand buffer
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=74H40
+a 0 sp 0 0 40 50 hln 100 MODEL=74H40
+*symbol 74H50 ako 50
+d Dual 2-wide 2-input and-or-invert gate (one gate expandable)
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=74H50
+a 0 sp 0 0 40 130 hln 100 MODEL=74H50
+*symbol 74H51 ako 51
+d And-or-invert gate
+@type p
+@attributes
+a 0 sp 11 0 40 60 hln 100 PART=74H51
+a 0 sp 0 0 40 60 hln 100 MODEL=74H51
+*symbol 74H52 ako 52
+d Expandable 4-wide and-or gate
+@type p
+@attributes
+a 0 sp 11 0 40 120 hln 100 PART=74H52
+a 0 sp 0 0 40 120 hln 100 MODEL=74H52
+*symbol 74H53
+d Expandable 4-wide and-or-invert gate
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=74H53
+a 0 sp 0 0 40 130 hln 100 MODEL=74H53
+a 0 s 9 0 40 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %E %F %G %H %I %X %\X\ %Y %PWR %GND @MODEL
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=13
+p 2 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=2
+p 2 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=3
+p 2 13 52 hln 100 E n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+p 2 13 62 hln 100 F n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=5
+p 2 13 72 hln 100 G n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=6
+p 2 13 82 hln 100 H n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=9
+p 2 13 92 hln 100 I n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=10
+p 2 47 52 hrn 100 Y b 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=8
+p 2 13 102 hln 100 X n 0 100 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 98 hrn 100 pin=11
+p 2 13 112 hln 100 \X\ b 0 110 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 108 hrn 100 pin=12
+p 16 20 -2 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 8 132 hcn 100 GND n 30 130 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 132 hcn 100 pin=7
+@graphics 60 120 0 10 11
+r 0 10 0 50 120
+*symbol 74H54
+d 4-wide and-or-invert gate
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=74H54
+a 0 sp 0 0 40 110 hln 100 MODEL=74H54
+a 0 s 9 0 40 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %E %F %G %H %I %Y %PWR %GND @MODEL
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 s 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=13
+p 2 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=2
+p 2 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=3
+p 2 13 52 hln 100 E n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+p 2 13 62 hln 100 F n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=5
+p 2 13 72 hln 100 G n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=6
+p 2 13 82 hln 100 H n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=9
+p 2 13 92 hln 100 I n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=10
+p 2 47 42 hrn 100 Y b 60 40 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 38 hln 100 pin=8
+p 16 20 -2 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 14 110 hcn 100 GND n 30 110 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 112 hcn 100 pin=7
+@graphics 60 100 0 10 11
+r 0 10 0 50 100
+*symbol 74H55
+d 2-wide 4-input and-or-invert gate (expandable)
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=74H55
+a 0 sp 0 0 40 130 hln 100 MODEL=74H55
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %E %F %G %H %X %\X\ %Y %PWR %GND @MODEL
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 s 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=3
+p 2 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=4
+p 2 13 52 hln 100 E n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=10
+p 2 13 62 hln 100 F n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=11
+p 2 13 72 hln 100 G n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=12
+p 2 13 82 hln 100 H n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=13
+p 2 47 52 hrn 100 Y b 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=8
+p 2 13 102 hln 100 X n 0 100 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 98 hrn 100 pin=5
+p 2 13 112 hln 100 \X\ b 0 110 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 108 hrn 100 pin=9
+p 16 36 10 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 32 116 hcn 100 GND n 30 130 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 132 hcn 100 pin=7
+@graphics 60 120 0 10 11
+r 0 10 0 50 120
+*symbol 74H60 ako 60
+d 4-input expander
+@type p
+@attributes
+a 0 sp 11 0 40 70 hln 100 PART=74H60
+a 0 sp 0 0 40 70 hln 100 MODEL=74H60
+*symbol 74H61 ako 61
+d 3-input positive-and gate with open-collector output
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=74H61
+a 0 sp 0 0 40 50 hln 100 MODEL=74H61
+*symbol 74H62 ako 62
+d 4-wide and-or expander
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=74H62
+a 0 sp 0 0 40 130 hln 100 MODEL=74H62
+*symbol 74H71 ako 71
+d AND-OR GATED JK MASTER-SLAVE FLIP-FLOPS WITH PRESET
+@type p
+@attributes
+a 0 sp 11 0 38 128 hln 100 PART=74H71
+a 0 sp 0 0 40 120 hln 100 MODEL=74H71
+*symbol 74H72 ako 72
+d AND-gated jk master-slave flip-flops with preset and clear
+@type p
+@attributes
+a 0 sp 11 0 40 118 hln 100 PART=74H72
+a 0 sp 0 0 40 110 hln 100 MODEL=74H72
+*symbol 74H73 ako 73
+d JK flip-flop with clear
+@type p
+@attributes
+a 0 sp 11 0 40 80 hln 100 PART=74H73
+a 0 sp 0 0 40 60 hln 100 MODEL=74H73
+*symbol 74H74 ako 74
+d D-type positive-edge-triggered flip-flop with preset and clear
+@type p
+@attributes
+a 0 sp 11 0 40 80 hln 100 PART=74H74
+a 0 sp 0 0 40 80 hln 100 MODEL=74H74
+*symbol 74H76 ako 76
+d JK flip-flop with preset and clear
+@type p
+@attributes
+a 0 sp 11 0 41 100 hln 100 PART=74H76
+a 0 sp 0 0 40 70 hln 100 MODEL=74H76
+*symbol 74H78
+d Dual JK flip-flop with preset, common clock, and common clear
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=74H78
+a 0 sp 0 0 40 110 hln 100 MODEL=74H78
+a 1 s 9 0 40 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %CLK %\CLR\ %1\PRE\ %1J %1K %1Q %1\Q\ %2\PRE\ %2J %2K %2Q %2\Q\ %PWR %GND @MODEL
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 s 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 12 hln 100 CLK c 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=9
+p 2 13 22 hln 100 \CLR\ b 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=12
+p 2 13 42 hln 100 1\PRE\ b 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=13
+p 2 13 52 hln 100 1J n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+p 2 13 62 hln 100 1K n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=1
+p 2 13 72 hln 100 2\PRE\ b 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=10
+p 2 13 82 hln 100 2J n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=11
+p 2 13 92 hln 100 2K n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=8
+p 2 47 52 hrn 100 1Q n 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=2
+p 2 47 62 hrn 100 1\Q\ b 60 60 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 58 hln 100 pin=3
+p 2 47 82 hrn 100 2Q n 60 80 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 78 hln 100 pin=6
+p 2 47 92 hrn 100 2\Q\ b 60 90 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 88 hln 100 pin=5
+p 16 20 -2 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 18 110 hcn 100 GND n 30 110 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 112 hcn 100 pin=7
+@graphics 60 100 0 10 11
+r 0 10 0 50 100
+*symbol 74H87 ako 87
+d 4-bit true/complement, zero/one element
+@type p
+@attributes
+a 0 sp 11 0 40 80 hln 100 PART=74H87
+a 0 sp 0 0 40 80 hln 100 MODEL=74H87
+*symbol 74H101 ako 101
+d and-or-gated JK negative-edge-triggered flip-flop with preset
+@type p
+@attributes
+a 0 sp 11 0 40 131 hln 100 PART=74H101
+a 0 sp 0 0 40 131 hln 100 MODEL=74H101
+*symbol 74H102 ako 102
+d and-gated JK negative-edge-triggered flip-flop with preset and clear
+@type p
+@attributes
+a 0 sp 11 0 40 120 hln 100 PART=74H102
+a 0 sp 0 0 40 120 hln 100 MODEL=74H102
+*symbol 74H103 ako 103
+d dual JK negative-edge-triggered flip-flop with clear
+@type p
+@attributes
+a 0 sp 11 0 40 68 hln 100 PART=74H103
+a 0 sp 0 0 40 68 hln 100 MODEL=74H103
+*symbol 74H106 ako 106
+d Dual JK negative-edge-triggered flip-flop with preset and clear
+@type p
+@attributes
+a 0 sp 11 0 40 78 hln 100 PART=74H106
+a 0 sp 0 0 40 78 hln 100 MODEL=74H106
+*symbol 74H108 ako 108
+d Dual JK negative-edge-triggered flip-flop with preset, common clear, and common clock
+@type p
+@attributes
+a 0 sp 11 0 45 119 hln 100 PART=74H108
+a 0 sp 0 0 40 100 hln 100 MODEL=74H108
+*symbol 74H183 ako 183
+d Dual carry-save full adder
+@type p
+@attributes
+a 0 sp 11 0 36 70 hln 100 PART=74H183
+a 0 sp 0 0 36 70 hln 100 MODEL=74H183
+*symbol 00 b
+d 2-input positive-nand gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 10 -4 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=2
+p 0 57 22 hrn 100 Y b 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=3
+p 16 40 48 hcn 100 GND n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 16 31 8 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 -7 hcn 100 pin=14
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 01 b
+d 2-input positive-nand gate with open-collector output
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 10 -4 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+p 0 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=3
+p 16 40 48 hcn 100 GND n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 16 30 7 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 0 57 22 hrn 100 Y b 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=1
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 04 b
+d inverter
+@type p
+@attributes
+a 0 sp 11 0 40 40 hln 100 PART=
+a 0 sp 0 0 40 40 hln 100 MODEL=
+a 0 s 9 0 28 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 0 37 22 hrn 100 Y b 50 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 45 18 hln 100 pin=2
+p 16 25 48 hcn 100 GND n 25 40 v
+a 0 u 0 0 -5 0 hln 100 ERC=p
+a 0 u 0 0 20 42 hcn 100 pin=7
+p 16 25 -2 hcn 100 PWR n 25 0 d
+a 0 u 0 0 -5 0 hln 100 ERC=p
+a 0 u 0 0 30 3 hcn 100 pin=14
+@graphics 50 40 0 20 11
+v 0 40 20
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 20
+;
+*symbol 05 b
+d inverter with open-collector output
+@type p
+@attributes
+a 0 sp 11 0 40 40 hln 100 PART=
+a 0 sp 0 0 40 40 hln 100 MODEL=
+a 0 s 9 0 28 6 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 0 37 22 hrn 100 Y b 50 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=c
+a 0 u 1 0 45 18 hln 100 pin=2
+p 16 27 50 hcn 100 GND n 25 40 v
+a 0 u 0 0 -5 0 hln 100 ERC=p
+a 0 u 0 0 20 42 hcn 100 pin=7
+p 16 17 -2 hcn 100 PWR n 25 0 d
+a 0 u 0 0 -5 0 hln 100 ERC=p
+a 0 u 0 0 30 3 hcn 100 pin=14
+@graphics 50 40 0 20 11
+v 0 40 20
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 20
+;
+*symbol 10 b
+d 3-input positive-nand gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 12 -3 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 57 22 hrn 100 Y b 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=12
+p 16 31 8 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 40 48 hcn 100 GND n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=13
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 11 b
+d 3-input positive-and gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 12 -3 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 57 22 hrn 100 Y n 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=12
+p 16 32 8 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 40 48 hcn 100 GND n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=13
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 15 b
+d 3-input positive-and gate with open-collector output
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 10 -3 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 57 22 hrn 100 Y n 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=c
+a 0 u 1 0 65 18 hln 100 pin=12
+p 16 32 10 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 40 48 hcn 100 GND n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=13
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 20 b
+d 4-input positive-nand gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 10 -3 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 57 22 hrn 100 Y b 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=6
+p 16 30 7 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 40 48 hcn 100 GND n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 -2 hrn 100 pin=1
+p 0 13 12 hln 100 B n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=4
+p 0 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=5
+@graphics 70 40 0 0 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 21 b
+d 4-input positive-and gate
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 10 -4 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 57 22 hrn 100 Y n 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=6
+p 16 29 7 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 40 48 hcn 100 GND n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 -2 hrn 100 pin=1
+p 0 13 12 hln 100 B n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=4
+p 0 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=5
+@graphics 70 40 0 0 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 22 b
+d 4-input positive-nand with open-collector output
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 12 -3 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 57 22 hrn 100 Y b 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=6
+p 16 31 8 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 40 48 hcn 100 GND n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 -2 hrn 100 pin=1
+p 0 13 12 hln 100 B n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=4
+p 0 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=5
+@graphics 70 40 0 0 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 30 b
+d 8-input positive-nand gate
+@type p
+@attributes
+a 0 sp 11 0 40 100 hln 100 PART=
+a 0 sp 0 0 40 100 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %E %F %G %H %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=3
+p 2 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=4
+p 2 13 52 hln 100 E n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+p 2 13 62 hln 100 F n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=6
+p 2 13 72 hln 100 G n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=11
+p 2 13 82 hln 100 H n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=12
+p 2 47 42 hrn 100 Y b 60 40 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 38 hln 100 pin=8
+p 16 20 -10 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 20 108 hcn 100 GND n 30 100 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 102 hcn 100 pin=7
+@graphics 60 90 0 10 11
+v 0 10 0
+50 0
+;
+v 0 50 0
+50 90
+;
+v 0 50 90
+10 90
+;
+v 0 10 90
+10 0
+;
+*symbol 40 b
+d 4-input positive-nand buffer
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 12 -4 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 0 57 22 hrn 100 Y b 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=6
+p 16 29 9 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 40 48 hcn 100 GND n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 2 hln 100 A n 0 0 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 -2 hrn 100 pin=1
+p 0 13 12 hln 100 B n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=4
+p 0 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=5
+@graphics 70 40 0 0 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 50 b
+d Dual 2-wide 2-input and-or-invert gate (one gate expandable)
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=
+a 0 sp 0 0 40 130 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %1A %1B %1C %1D %1X %1\X\ %1Y %2A %2B %2C %2D %2Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 12 hln 100 1A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 2 13 22 hln 100 1B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=13
+p 2 13 32 hln 100 1C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=9
+p 2 13 42 hln 100 1D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=10
+p 2 13 52 hln 100 1X n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=11
+p 2 13 62 hln 100 1\X\ b 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=12
+p 2 13 82 hln 100 2A n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=2
+p 2 13 92 hln 100 2B n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=3
+p 2 13 102 hln 100 2C n 0 100 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 98 hrn 100 pin=4
+p 2 13 112 hln 100 2D n 0 110 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 108 hrn 100 pin=5
+p 2 47 32 hrn 100 1Y b 60 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 28 hln 100 pin=8
+p 2 47 102 hrn 100 2Y b 60 100 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 98 hln 100 pin=6
+p 16 20 -2 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 44 132 hcn 100 GND n 30 130 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 132 hcn 100 pin=7
+@graphics 60 120 0 10 11
+v 0 10 0
+50 0
+;
+v 0 50 0
+50 120
+;
+v 0 50 120
+10 120
+;
+v 0 10 120
+10 0
+;
+*symbol 51 b
+d And-or-invert gate
+@type p
+@attributes
+a 0 sp 11 0 40 60 hln 100 PART=
+a 0 sp 0 0 40 60 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=13
+p 2 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=9
+p 2 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=10
+p 2 47 22 hrn 100 Y b 60 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 18 hln 100 pin=8
+p 16 20 -2 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 42 62 hcn 100 GND n 30 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 62 hcn 100 pin=7
+@graphics 60 50 0 10 11
+v 0 10 0
+50 0
+;
+v 0 50 0
+50 50
+;
+v 0 50 50
+10 50
+;
+v 0 10 50
+10 0
+;
+*symbol 52 b
+d Expandable 4-wide and-or gate
+@type p
+@attributes
+a 0 sp 11 0 40 120 hln 100 PART=
+a 0 sp 0 0 40 120 hln 100 MODEL=
+a 0 s 9 0 40 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %E %F %G %H %I %X %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=3
+p 2 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=4
+p 2 13 52 hln 100 E n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+p 2 13 62 hln 100 F n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=10
+p 2 13 72 hln 100 G n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=11
+p 2 13 82 hln 100 H n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=12
+p 2 13 92 hln 100 I n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=13
+p 2 47 52 hrn 100 Y n 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=8
+p 2 13 102 hln 100 X n 0 100 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 98 hrn 100 pin=9
+p 16 20 -10 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 22 130 hcn 100 GND n 30 120 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 122 hcn 100 pin=7
+@graphics 60 110 0 10 11
+r 0 10 0 50 110
+*symbol 56 b
+d Frequency divider
+@type p
+@attributes
+a 0 sp 11 0 40 70 hln 100 PART=
+a 0 sp 0 0 40 70 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %CLR %CLKA %CLKB %QA %QB %QC %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 22 hln 85 CLKA k 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=5
+p 2 13 42 hln 85 CLKB k 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=1
+p 2 28 58 hcn 85 CLR n 30 70 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 -24 76 hln 100 ERC=i
+a 0 u 1 0 25 72 hcn 100 pin=6
+p 2 47 12 hrn 85 QA n 60 10 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 8 hln 100 pin=3
+p 2 47 32 hrn 85 QB n 60 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 28 hln 100 pin=7
+p 2 47 52 hrn 85 QC n 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=8
+p 16 24 -10 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=2
+p 16 14 80 hcn 100 GND n 20 70 v
+a 0 u 0 0 -10 0 hln 100 ERC=p
+a 0 u 1 0 15 72 hcn 100 pin=4
+@graphics 60 70 0 20 11
+r 0 10 0 50 60
+*symbol 60 b
+d 4-input expander
+@type p
+@attributes
+a 0 sp 11 0 40 70 hln 100 PART=
+a 0 sp 0 0 40 70 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %X %\X\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 16 12 -6 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 42 70 hcn 100 GND n 30 70 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 72 hcn 100 pin=7
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=13
+p 2 13 52 hln 100 \X\ b 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 5 48 hrn 100 pin=12
+p 2 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=3
+p 2 47 22 hrn 100 X b 60 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 18 hln 100 pin=11
+@graphics 60 60 0 10 11
+v 0 10 0
+50 0
+;
+v 0 50 0
+50 60
+;
+v 0 50 60
+10 60
+;
+v 0 10 60
+10 0
+;
+*symbol 61 b
+d 3-input positive-and gate with open-collector output
+@type p
+@attributes
+a 0 sp 11 0 40 50 hln 100 PART=
+a 0 sp 0 0 40 50 hln 100 MODEL=
+a 0 s 9 0 9 -3 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %X %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 16 29 7 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 -7 hcn 100 pin=14
+p 16 40 48 hcn 100 GND n 30 50 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 25 52 hcn 100 pin=7
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 0 57 22 hrn 100 X n 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=9
+p 0 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=3
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol 62 b
+d 4-wide and-or expander
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=
+a 0 sp 0 0 40 130 hln 100 MODEL=
+a 0 s 9 0 40 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %E %F %G %H %I %J %X %\X\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 16 22 -10 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 22 136 hcn 100 GND n 30 130 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 132 hcn 100 pin=7
+p 2 47 62 hrn 100 X n 60 60 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 58 hln 100 pin=8
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=3
+p 2 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=4
+p 2 13 52 hln 100 E n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+p 2 13 62 hln 100 F n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=9
+p 2 13 72 hln 100 G n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=10
+p 2 13 82 hln 100 H n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=11
+p 2 13 92 hln 100 I n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=12
+p 2 13 102 hln 100 J n 0 100 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 98 hrn 100 pin=13
+p 2 13 112 hln 100 \X\ b 0 110 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 108 hrn 100 pin=6
+@graphics 60 120 0 10 11
+r 0 10 0 50 120
+*symbol 64 b
+d 4-2-3-2 input and-or-invert gate
+@type p
+@attributes
+a 0 sp 11 0 40 130 hln 100 PART=
+a 0 sp 0 0 40 130 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %B %C %D %E %F %G %H %I %J %K %Y %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 16 22 -8 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 24 136 hcn 100 GND n 30 130 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 132 hcn 100 pin=7
+p 2 13 112 hln 100 K n 0 110 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 108 hrn 100 pin=10
+p 2 47 62 hrn 100 Y b 60 60 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 58 hln 100 pin=8
+p 2 13 32 hln 100 C n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=12
+p 2 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=11
+p 2 13 62 hln 100 F n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=3
+p 2 13 42 hln 100 D n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=13
+p 2 13 52 hln 100 E n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+p 2 13 72 hln 100 G n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=4
+p 2 13 82 hln 100 H n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=5
+p 2 13 92 hln 100 I n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=6
+p 2 13 102 hln 100 J n 0 100 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 98 hrn 100 pin=9
+@graphics 60 120 0 10 11
+r 0 10 0 50 120
+*symbol 68 b
+d dual 4-bit decade counter
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=
+a 0 sp 0 0 40 110 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %1\CLR\ %1CLKA %1CLKB %1QA %1QB %1QC %1QD %2\CLR\ %2CLK %2QA %2QB %2QC %2QD %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 12 hln 85 1\CLR\ n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=4
+p 2 13 62 hln 85 2\CLR\ n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=11
+p 2 13 82 hln 85 2CLK c 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=9
+p 2 57 12 hrn 85 1QA n 70 10 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 10 0 hln 100 ERC=o
+a 0 u 1 0 65 8 hln 100 pin=14
+p 2 57 22 hrn 85 1QB n 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 8 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=2
+p 2 57 32 hrn 85 1QC n 70 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 10 0 hln 100 ERC=o
+a 0 u 1 0 65 28 hln 100 pin=13
+p 2 57 62 hrn 85 2QA n 70 60 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 10 0 hln 100 ERC=o
+a 0 u 1 0 65 58 hln 100 pin=7
+p 2 57 72 hrn 85 2QB n 70 70 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 10 0 hln 100 ERC=o
+a 0 u 1 0 65 68 hln 100 pin=10
+p 2 57 82 hrn 85 2QC n 70 80 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 10 0 hln 100 ERC=o
+a 0 u 1 0 65 78 hln 100 pin=5
+p 2 57 92 hrn 85 2QD n 70 90 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 10 0 hln 100 ERC=o
+a 0 u 1 0 65 88 hln 100 pin=12
+p 2 13 42 hln 85 1CLKB k 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=15
+p 2 13 32 hln 85 1CLKA k 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=1
+p 2 57 42 hrn 85 1QD n 70 40 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 10 0 hln 100 ERC=o
+a 0 u 1 0 65 38 hln 100 pin=3
+p 2 16 116 hln 100 GND n 30 110 v
+a 0 u 1 0 25 112 hcn 100 pin=8
+a 0 u 0 0 30 110 hln 100 ERC=p
+p 2 8 -2 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 30 -10 hln 100 ERC=p
+@graphics 70 100 0 10 11
+r 0 10 0 60 100
+*symbol 71 b
+d AND-OR GATED JK MASTER-SLAVE FLIP-FLOPS WITH PRESET
+@type p
+@attributes
+a 0 sp 11 0 40 120 hln 100 PART=
+a 0 sp 0 0 40 120 hln 100 MODEL=
+a 0 s 9 0 40 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %\PRE\ %CLK %J1A %J1B %J2A %J2B %K1A %K1B %K2A %K2B %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 30 21 hcn 100 \PRE\ b 30 0 d
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 42 -4 hln 100 ERC=i
+a 0 u 1 0 35 3 hcn 100 pin=5
+p 2 13 32 hln 100 J1A n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=1
+p 2 13 42 hln 100 J1B n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=2
+p 2 13 52 hln 100 J2A n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=3
+p 2 13 62 hln 100 J2B n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=4
+p 2 13 72 hln 100 CLK c 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=13
+p 2 13 82 hln 100 K1A n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=9
+p 2 13 92 hln 100 K1B n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=10
+p 2 13 102 hln 100 K2A n 0 100 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 98 hrn 100 pin=11
+p 2 13 112 hln 100 K2B n 0 110 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 108 hrn 100 pin=12
+p 2 47 52 hrn 100 Q n 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=6
+p 16 12 -2 hcn 100 PWR n 20 0 d
+a 0 u 0 0 -10 10 hln 100 ERC=p
+a 0 u 1 0 25 3 hcn 100 pin=14
+p 16 16 130 hcn 100 GND n 30 130 v
+a 0 u 0 0 2 8 hln 100 ERC=p
+a 0 u 1 0 25 132 hcn 100 pin=7
+p 2 47 82 hrn 100 \Q\ b 60 80 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 78 hln 100 pin=8
+@graphics 60 120 0 30 11
+r 0 10 10 50 120
+*symbol 72 b
+d AND-GATED JK MASTER-SLAVE FLIP-FLOPS WITH PRESET AND CLEAR
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=
+a 0 sp 0 0 40 110 hln 100 MODEL=
+a 0 s 9 0 49 7 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %\PRE\ %\CLR\ %CLK %J1 %J2 %J3 %K1 %K2 %K3 %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 30 21 hcn 100 \PRE\ b 30 0 d
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 42 -4 hln 100 ERC=i
+a 0 u 1 0 35 3 hcn 100 pin=13
+p 2 13 32 hln 100 J1 n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=3
+p 2 13 42 hln 100 J2 n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=4
+p 2 13 52 hln 100 J3 n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+p 2 13 62 hln 100 CLK c 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=12
+p 2 13 72 hln 100 K1 n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=9
+p 2 13 82 hln 100 K2 n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=10
+p 2 13 92 hln 100 K3 n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=11
+p 2 30 105 hcn 100 \CLR\ b 30 120 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 -62 130 hln 100 ERC=i
+a 0 u 1 0 25 122 hcn 100 pin=2
+p 2 47 42 hrn 100 Q n 60 40 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 38 hln 100 pin=8
+p 2 47 82 hrn 100 \Q\ b 60 80 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 78 hln 100 pin=6
+p 16 2 16 hcn 100 PWR n 20 0 d
+a 0 u 0 0 -8 8 hln 100 ERC=p
+a 0 u 1 0 25 3 hcn 100 pin=14
+p 16 14 126 hcn 100 GND n 20 120 v
+a 0 u 0 0 -8 10 hln 100 ERC=p
+a 0 u 1 0 15 122 hcn 100 pin=7
+@graphics 60 120 0 30 11
+v 0 10 10
+50 10
+;
+v 0 50 10
+50 110
+;
+v 0 50 110
+10 110
+;
+v 0 10 110
+10 10
+;
+*symbol 73 b
+d JK flip-flop with clear
+@type p
+@attributes
+a 0 sp 11 0 40 60 hln 100 PART=
+a 0 sp 0 0 40 60 hln 100 MODEL=
+a 0 s 9 0 8 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %CLK %\CLR\ %J %K %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 12 hln 100 J n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=14
+p 2 13 32 hln 100 CLK k 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=1
+p 2 13 52 hln 100 K n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=3
+p 2 30 67 hcn 100 \CLR\ b 30 80 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 -12 92 hln 100 ERC=i
+a 0 u 1 0 25 82 hcn 100 pin=2
+p 2 47 12 hrn 100 Q n 60 10 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 8 hln 100 pin=12
+p 2 47 52 hrn 100 \Q\ b 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 6 20 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=13
+p 16 22 -10 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=4
+p 16 14 88 hcn 100 GND n 20 80 v
+a 0 u 0 0 -8 24 hln 100 ERC=p
+a 0 u 1 0 15 82 hcn 100 pin=11
+@graphics 60 80 0 10 11
+r 0 10 0 50 70
+*symbol 74 b
+d D-type positive-edge-triggered flip-flop with preset and clear
+@type p
+@attributes
+a 0 sp 11 0 40 80 hln 100 PART=
+a 0 sp 0 0 40 80 hln 100 MODEL=
+a 0 s 9 0 40 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %\CLR\ %D %CLK %\PRE\ %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 52 hln 100 CLK c 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=3
+p 2 30 67 hcn 100 \CLR\ b 30 80 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 25 82 hcn 100 pin=1
+p 2 13 32 hln 100 D n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=2
+p 2 30 21 hcn 100 \PRE\ b 30 0 d
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 3 hcn 100 pin=4
+p 2 47 32 hrn 100 Q n 60 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 28 hln 100 pin=5
+p 16 10 0 hcn 100 PWR n 20 0 d
+a 0 u 0 0 -24 0 hln 100 ERC=p
+a 0 u 1 0 25 3 hcn 100 pin=14
+p 16 8 86 hcn 100 GND n 20 80 v
+a 0 u 0 0 -26 -2 hln 100 ERC=p
+a 0 u 1 0 15 82 hcn 100 pin=7
+p 2 47 52 hrn 100 \Q\ b 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=6
+@graphics 60 80 0 30 11
+r 0 10 10 50 70
+*symbol 76 b
+d JK flip-flop with preset and clear
+@type p
+@attributes
+a 0 sp 11 0 40 90 hln 100 PART=
+a 0 sp 0 0 40 90 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %CLK %\PRE\ %\CLR\ %J %K %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 30 21 hcn 100 \PRE\ b 30 0 d
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 42 -4 hln 100 ERC=i
+a 0 u 1 0 35 3 hcn 100 pin=2
+p 2 13 32 hln 100 J n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=4
+p 2 13 52 hln 100 CLK k 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=1
+p 2 13 72 hln 100 K n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=16
+p 2 30 85 hcn 100 \CLR\ b 30 100 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 -22 110 hln 100 ERC=i
+a 0 u 1 0 25 102 hcn 100 pin=3
+p 2 47 32 hrn 100 Q n 60 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 28 hln 100 pin=15
+p 2 47 72 hrn 100 \Q\ b 60 70 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 6 30 hln 100 ERC=o
+a 0 u 1 0 55 68 hln 100 pin=14
+p 16 12 0 hcn 100 PWR n 20 0 d
+a 0 u 0 0 -10 4 hln 100 ERC=p
+a 0 u 1 0 25 3 hcn 100 pin=5
+p 16 14 106 hcn 100 GND n 20 100 v
+a 0 u 0 0 -6 38 hln 100 ERC=p
+a 0 u 1 0 15 102 hcn 100 pin=13
+@graphics 60 100 0 30 11
+r 0 10 10 50 90
+*symbol 87 b
+d 4-bit true/complement, zero/one element
+@type p
+@attributes
+a 0 sp 11 0 40 80 hln 100 PART=
+a 0 sp 0 0 40 80 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A1 %A2 %A3 %A4 %B %C %Y1 %Y2 %Y3 %Y4 %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 2 13 12 hln 100 A4 n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=13
+p 2 13 22 hln 100 A3 n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=10
+p 2 13 32 hln 100 A2 n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=5
+p 2 13 42 hln 100 A1 n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=2
+p 2 13 52 hln 100 B n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=8
+p 2 13 62 hln 100 C n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=1
+p 2 47 12 hrn 100 Y4 n 60 10 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 8 hln 100 pin=12
+p 2 47 22 hrn 100 Y3 n 60 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 18 hln 100 pin=9
+p 2 47 32 hrn 100 Y2 n 60 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 28 hln 100 pin=6
+p 2 47 42 hrn 100 Y1 n 60 40 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 55 38 hln 100 pin=3
+p 16 24 -8 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 24 86 hcn 100 GND n 30 80 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 25 82 hcn 100 pin=7
+@graphics 60 70 0 10 11
+r 0 10 0 50 70
+*symbol 101 b
+d and-or-gated JK negative-edge-triggered flip-flop with preset
+@type p
+@attributes
+a 0 sp 11 0 40 120 hln 100 PART=
+a 0 sp 0 0 40 120 hln 100 MODEL=
+a 0 s 9 0 40 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %\PRE\ %CLK %J1A %J1B %J2A %J2B %K1A %K1B %K2A %K2B %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 22 21 hln 100 \PRE\ b 30 0 d
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 8 -4 hln 100 ERC=i
+a 0 u 1 0 35 3 hcn 100 pin=5
+p 2 13 32 hln 100 J1A n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=1
+p 2 13 42 hln 100 J1B n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=2
+p 2 13 52 hln 100 J2A n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=3
+p 2 13 62 hln 100 J2B n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=4
+p 2 13 72 hln 100 CLK k 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=13
+p 2 13 82 hln 100 K1A n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=9
+p 2 13 92 hln 100 K1B n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=10
+p 2 13 102 hln 100 K2A n 0 100 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 98 hrn 100 pin=11
+p 2 13 112 hln 100 K2B n 0 110 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 108 hrn 100 pin=12
+p 2 47 52 hrn 100 Q n 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 -4 -6 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=6
+p 2 47 102 hrn 100 \Q\ b 60 100 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 -2 16 hln 100 ERC=o
+a 0 u 1 0 55 98 hln 100 pin=8
+p 16 -14 6 hcn 100 PWR n 20 0 d
+a 0 u 0 0 -14 -4 hln 100 ERC=p
+a 0 u 1 0 25 3 hcn 100 pin=14
+p 16 20 140 hcn 100 GND n 30 130 v
+a 0 u 0 0 0 10 hln 100 ERC=p
+a 0 u 1 0 25 132 hcn 100 pin=7
+@graphics 60 130 0 30 11
+r 0 10 10 50 120
+*symbol 102 b
+d and-gated JK negative-edge-triggered flip-flop with preset and clear
+@type p
+@attributes
+a 0 sp 11 0 40 110 hln 100 PART=
+a 0 sp 0 0 40 110 hln 100 MODEL=
+a 0 s 9 0 40 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %CLK %\PRE\ %\CLR\ %J1 %J2 %J3 %K1 %K2 %K3 %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 22 21 hln 100 \PRE\ b 30 0 d
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 30 -20 hln 100 ERC=i
+a 0 u 1 0 35 3 hcn 100 pin=13
+p 2 13 32 hln 100 J1 n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=3
+p 2 13 42 hln 100 J2 n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=4
+p 2 13 52 hln 100 J3 n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+p 2 13 62 hln 100 CLK k 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=12
+p 2 13 72 hln 100 K1 n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=9
+p 2 13 82 hln 100 K2 n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=10
+p 2 13 92 hln 100 K3 n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=11
+p 2 22 107 hln 100 \CLR\ b 30 120 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 26 24 hln 100 ERC=i
+a 0 u 1 0 25 122 hcn 100 pin=2
+p 2 47 52 hrn 100 Q n 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=8
+p 2 47 72 hrn 100 \Q\ b 60 70 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 68 hln 100 pin=6
+p 16 12 -2 hcn 100 PWR n 20 0 d
+a 0 u 0 0 -6 0 hln 100 ERC=p
+a 0 u 1 0 25 3 hcn 100 pin=14
+p 16 10 126 hcn 100 GND n 20 120 v
+a 0 u 0 0 -10 0 hln 100 ERC=p
+a 0 u 1 0 15 122 hcn 100 pin=7
+@graphics 60 120 0 30 11
+r 0 10 10 50 110
+*symbol 103 b
+d dual JK negative-edge-triggered flip-flop with clear
+@type p
+@attributes
+a 0 sp 11 0 40 60 hln 100 PART=
+a 0 sp 0 0 40 60 hln 100 MODEL=
+a 0 s 9 0 40 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %CLK %\CLR\ %J %K %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 12 hln 100 J n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=14
+p 2 13 52 hln 100 K n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=3
+p 2 13 32 hln 100 CLK k 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=1
+p 2 24 58 hln 100 \CLR\ b 30 70 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 25 72 hcn 100 pin=2
+p 2 47 22 hrn 100 Q n 60 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 18 hln 100 pin=12
+p 2 47 42 hrn 100 \Q\ b 60 40 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 38 hln 100 pin=13
+p 16 20 -2 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=4
+p 16 0 70 hcn 100 GND n 20 70 v
+a 0 u 0 0 -20 10 hln 100 ERC=p
+a 0 u 1 0 15 72 hcn 100 pin=11
+@graphics 60 71 0 10 11
+r 0 10 0 50 60
+*symbol 106 b
+d Dual JK negative-edge-triggered flip-flop with preset and clear
+@type p
+@attributes
+a 0 sp 11 0 40 70 hln 100 PART=
+a 0 sp 0 0 40 70 hln 100 MODEL=
+a 0 s 9 0 40 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %CLK %\PRE\ %\CLR\ %J %K %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 22 hln 100 J n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 -4 -8 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=4
+p 2 13 42 hln 100 CLK k 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 38 hrn 100 pin=1
+p 2 13 62 hln 100 K n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=16
+p 2 32 67 hcn 100 \CLR\ b 30 80 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 30 20 hln 100 ERC=i
+a 0 u 1 0 25 82 hcn 100 pin=3
+p 2 47 32 hrn 100 Q n 60 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 28 hln 100 pin=15
+p 2 47 52 hrn 100 \Q\ b 60 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=o
+a 0 u 1 0 55 48 hln 100 pin=14
+p 16 12 -2 hcn 100 PWR n 20 0 d
+a 0 u 0 0 -18 10 hln 100 ERC=p
+a 0 u 1 0 25 3 hcn 100 pin=5
+p 16 12 86 hcn 100 GND n 20 80 v
+a 0 u 0 0 -20 10 hln 100 ERC=p
+a 0 u 1 0 15 82 hcn 100 pin=13
+p 2 30 20 hcn 100 \PRE\ b 30 0 d
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 30 -20 hln 100 ERC=i
+a 0 u 1 0 35 3 hcn 100 pin=2
+@graphics 60 80 0 20 11
+r 0 10 10 50 70
+*symbol 108 b
+d Dual JK negative-edge-triggered flip-flop with preset, common clear, and common clock
+@type p
+@attributes
+a 0 sp 11 0 40 118 hln 100 PART=
+a 0 sp 0 0 40 118 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %CLK %\CLR\ %1\PRE\ %1J %1K %1Q %1\Q\ %2\PRE\ %2J %2K %2Q %2\Q\ %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 1 u 0 0 0 0 hcn 100 IO_LEVEL=0
+a 1 u 0 0 0 0 hcn 100 MNTYMXDLY=0
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 52 hln 100 CLK k 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=9
+p 2 24 106 hln 100 \CLR\ b 30 120 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 8 120 hln 100 ERC=i
+a 0 u 1 0 25 122 hcn 100 pin=12
+p 2 13 12 hln 100 1\PRE\ b 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 -20 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=13
+p 2 13 22 hln 100 1J n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 -20 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=4
+p 2 13 32 hln 100 1K n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 -20 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=1
+p 2 13 72 hln 100 2\PRE\ b 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=10
+p 2 13 82 hln 100 2J n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 78 hrn 100 pin=11
+p 2 13 92 hln 100 2K n 0 90 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 88 hrn 100 pin=8
+p 2 47 22 hrn 100 1Q n 60 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 8 -20 hln 100 ERC=o
+a 0 u 1 0 55 18 hln 100 pin=2
+p 2 47 82 hrn 100 2Q n 60 80 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 8 10 hln 100 ERC=o
+a 0 u 1 0 55 78 hln 100 pin=6
+p 2 47 92 hrn 100 2\Q\ b 60 90 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 8 10 hln 100 ERC=o
+a 0 u 1 0 55 88 hln 100 pin=5
+p 16 20 -2 hcn 100 PWR n 30 -10 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 -7 hcn 100 pin=14
+p 16 2 120 hcn 100 GND n 20 120 v
+a 0 u 0 0 -12 20 hln 100 ERC=p
+a 0 u 1 0 15 122 hcn 100 pin=7
+p 2 47 32 hrn 100 1\Q\ b 60 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 8 -20 hln 100 ERC=o
+a 0 u 1 0 55 28 hln 100 pin=3
+@graphics 60 120 0 10 11
+r 0 10 0 50 110
+*symbol 183 b
+d Dual carry-save full adder
+@type p
+@attributes
+a 0 sp 11 0 36 70 hln 100 PART=
+a 0 sp 0 0 36 70 hln 100 MODEL=
+a 0 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CN %B %A %SUM %CN+1 %PWR %GND @MODEL PARAMS:\n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0 0 0 10 hlb 100 IMPL=
+@pins
+p 16 22 72 hln 100 GND n 30 70 v
+a 0 u 1 0 25 72 hcn 100 pin=7
+a 0 u 0 0 30 70 hln 100 ERC=p
+p 16 22 -8 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+p 2 13 12 hln 100 CN n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 2 10 hln 100 ERC=i
+p 2 13 32 hln 100 B n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 2 30 hln 100 ERC=i
+p 2 13 52 hln 100 A n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 2 50 hln 100 ERC=i
+p 2 47 22 hrn 100 CN+1 n 60 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 55 18 hln 100 pin=5
+a 0 u 0 0 52 20 hln 100 ERC=o
+p 2 47 42 hrn 100 SUM n 60 40 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 55 38 hln 100 pin=6
+a 0 u 0 0 52 40 hln 100 ERC=o
+@graphics 60 60 0 10 11
+r 0 10 0 50 60
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

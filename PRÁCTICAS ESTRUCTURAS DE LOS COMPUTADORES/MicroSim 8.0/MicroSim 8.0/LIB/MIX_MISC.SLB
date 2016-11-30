@@ -1,0 +1,459 @@
+*version 8.0 858897947
+@index
+symloc BLDCMTR 0 2016
+symloc Relay_DPDT_b:Relay_DPDT_nb 2016 511
+symloc Relay_DPDT_nb 2527 2365
+symloc Relay_SPDT_b:Relay_SPDT_nb 4892 461
+symloc Relay_SPDT_nb 5353 1709
+symloc NO_BOUNCE 7062 1226
+symloc BOUNCE 8288 1284
+symloc copyright 9572 575 b
+*symbol BLDCMTR
+d 3-Phase Brushless DC Motor, Wye Configuration
+@type p
+@attributes
+a 1 sp 0 0 0 10 hlb 100 TEMPLATE=X^@REFDES %PHASE_1 %PHASE_2 %PHASE_3 %SHAFTSPEED %SHAFTANGLE @MODEL \n+ PARAMS: J=@Inertia B=@Damping F=@Friction D=@Detent A=@Rtr_Pole_Pairs Cl=@Inductance Cr=@Resistance Cc=@Capacitance Cm=@Mutual_Ind Cb=@BackEMF Ct=@Torque_Const
+a 0 sp 0 0 0 20 hlb 100 PART=BLDCMTR
+a 1 s 0 0 0 10 hlb 100 REFDES=M?
+a 0 u 0 0 0 10 hlb 100 Inertia=0.30_g*cm*sec*sec
+a 0 u 0 0 0 10 hlb 100 Damping=0.36_g*cm*sec/rad
+a 0 u 0 0 0 20 hlb 100 Friction=0.72_g*cm
+a 0 u 0 0 0 30 hlb 100 Detent=2.9_g*cm
+a 0 u 0 0 0 40 hlb 100 Rtr_Pole_pairs=2
+a 0 u 0 0 0 50 hlb 100 Inductance=3mH
+a 0 u 0 0 0 60 hlb 100 Resistance=6ohm
+a 0 u 0 0 0 70 hlb 100 Capacitance=0.001uF
+a 0 u 0 0 0 80 hlb 100 Mutual_Ind=0.5
+a 0 u 0 0 0 90 hlb 100 BackEMF=0.12_Volt*sec/rev
+a 0 u 0 0 0 100 hlb 100 Torque_Const=300_g*cm/amp
+a 0 sp 0 0 0 0 hlb 100 MODEL=BLDCMTR_WYE
+@pins
+p 1 200 66 hln 100 Phase_3 n 220 120 v
+a 0 u 1 0 215 122 hcn 100 pin=3
+a 0 u 0 0 214 110 hln 100 ERC=x
+p 1 154 96 hln 100 Phase_2 n 140 120 v
+a 0 u 1 0 135 122 hcn 100 pin=2
+a 0 u 0 0 134 112 hln 100 ERC=x
+p 1 139 34 hln 100 Phase_1 n 180 0 d
+a 0 u 1 0 185 3 hcn 100 pin=1
+a 0 u 0 0 174 -2 hln 100 ERC=x
+p 1 22 58 hln 100 ShaftSpeed n 10 40 d
+a 0 u 0 0 15 43 hcn 100 pin=4
+a 0 u 0 0 12 44 hln 100 ERC=x
+p 1 22 68 hln 100 ShaftAngle n 10 80 v
+a 0 u 0 0 5 82 hcn 100 pin=5
+a 0 u 0 0 8 72 hln 100 ERC=x
+@graphics 320 120 10 40 10
+a 0 200 80 200 70 190 70
+a 0 210 90 210 80 200 80
+a 0 220 100 220 90 210 90
+a 0 170 70 160 70 160 80
+a 0 160 80 150 80 150 90
+a 0 150 90 140 90 140 100
+v 0 180 60
+180 50
+;
+v 0 170 70
+180 60
+;
+v 0 190 70
+180 60
+;
+c 0 90 60 50
+a 0 220 110 270 60 220 10
+a 0 90 70 100 60 90 50
+c 0 10 60 10
+v 0 10 70
+90 70
+;
+v 0 10 50
+90 50
+;
+s 26 36 2 hln 100 3-Phase Brushless DC Motor
+a 0 180 30 188 25 179 20
+a 0 180 40 188 35 180 30
+a 0 180 50 188 45 180 40
+v 0 180 10
+180 20
+;
+v 0 220 100
+220 110
+;
+v 0 140 100
+140 110
+;
+v 0 90 10
+220 10
+;
+v 0 90 110
+220 110
+;
+*symbol Relay_DPDT_b ako Relay_DPDT_nb
+d DPDT Relay with bounce
+@type p
+@attributes
+a 0 sp 11 0 14 138 hln 100 PART=Relay_DPDT_b
+a 0 sp 0 0 0 0 hln 100 MODEL=Relay_Dpdt_Bhv_bounce
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %NO1 %NC1 %COM1 %NO2 %NC2 %COM2 @MODEL PARAMS:\n+ T_make=@T_make\n+ T_break=@T_break\n+ T_bounce=@T_bounce\n+ I_pull=@I_pull\n+ I_drop=@I_drop\n+ R_coil=@R_coil\n+ L_coil=@L_coil\n+ R_open=@R_open\n+ R_close=@R_close\n+Contact_match=@Contact_match
+a 0 u 0 0 0 10 hlb 100 T_bounce=5m
+*symbol Relay_DPDT_nb
+d DPDT relay without bounce
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 14 138 hln 100 PART=Relay_DPDT_nb
+a 0 sp 0 0 0 0 hln 100 MODEL=Relay_Dpdt_Bhv
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %NO1 %NC1 %COM1 %NO2 %NC2 %COM2 @MODEL PARAMS:\n+ T_make=@T_make\n+ T_break=@T_break\n+ I_pull=@I_pull\n+ I_drop=@I_drop\n+ R_coil=@R_coil\n+ L_coil=@L_coil\n+ R_open=@R_open\n+ R_close=@R_close\n+Contact_match=@Contact_match
+a 0 u 0 0 0 10 hlb 100 T_make=20m
+a 0 u 0 0 0 20 hlb 100 T_break=10m
+a 0 u 0 0 0 40 hlb 100 I_pull=35ma
+a 0 u 0 0 0 50 hlb 100 I_drop=25ma
+a 0 u 0 0 0 60 hlb 100 R_coil=100
+a 0 u 0 0 0 70 hlb 100 L_coil=5mH
+a 0 u 0 0 0 80 hlb 100 R_open=100MEG
+a 0 u 0 0 0 90 hlb 100 R_close=.05
+a 0 u 0 0 0 10 hlb 100 Contact_match=0.95
+a 0 s 0 0 0 20 hlb 100 SIMULATIONONLY=
+@pins
+p 2 12 26 hln 70 COM1 n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=5
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 2 13 87 hln 100 A n 0 80 h
+a 0 s 0 0 5 78 hrn 100 PIN=1
+a 0 s 0 0 0 80 hln 100 ERC=x
+p 2 13 127 hln 100 B n 0 120 h
+a 0 s 0 0 5 118 hrn 100 PIN=2
+a 0 s 0 0 0 120 hln 100 ERC=x
+p 2 47 8 hrn 70 NC1 n 60 10 u
+a 0 s 0 0 55 8 hln 100 PIN=4
+a 0 s 0 0 46 10 hln 100 ERC=x
+p 2 47 36 hrn 70 NO1 n 60 30 u
+a 0 s 0 0 55 28 hln 100 PIN=3
+a 0 s 0 0 46 30 hln 100 ERC=x
+p 2 13 66 hln 70 COM2 n 0 60 h
+a 0 s 0 0 5 58 hrn 100 PIN=8
+a 0 s 0 0 -2 58 hln 100 ERC=x
+p 2 47 48 hrn 70 NC2 n 60 50 u
+a 0 s 0 0 55 48 hln 100 PIN=7
+a 0 s 0 0 44 48 hln 100 ERC=x
+p 2 47 76 hrn 70 NO2 n 60 70 u
+a 0 s 0 0 55 68 hln 100 PIN=6
+a 0 s 0 0 44 68 hln 100 ERC=x
+@graphics 60 130 0 20 10
+r 0 10 0 50 130
+a 0 20 120 25 115 20 110 
+a 0 20 110 25 105 20 100 
+a 0 20 100 25 95 20 90 
+a 0 20 90 25 85 20 80 
+v 0 28 80
+28 120
+;
+v 0 28 120
+28 120
+;
+v 0 32 80
+32 120
+;
+v 0 32 120
+32 120
+;
+v 0 40 10
+40 15
+;
+v 0 40 30
+40 25
+;
+v 0 20 20
+40 15
+;
+v 0 40 15
+42 13
+;
+v 0 40 15
+38 13
+;
+v 0 40 25
+42 27
+;
+v 0 40 25
+38 27
+;
+v 0 30 76
+30 74
+;
+v 0 30 72
+30 70
+;
+v 0 30 68
+30 66
+;
+v 0 30 64
+30 62
+;
+v 0 10 20
+20 20
+;
+v 0 10 80
+20 80
+;
+v 0 10 120
+20 120
+;
+v 0 40 10
+50 10
+;
+v 0 40 30
+50 30
+;
+v 0 40 50
+40 55
+;
+v 0 40 70
+40 65
+;
+v 0 20 60
+40 55
+;
+v 0 40 55
+42 53
+;
+v 0 40 55
+38 53
+;
+v 0 40 65
+42 67
+;
+v 0 40 65
+38 67
+;
+v 0 10 60
+20 60
+;
+v 0 40 50
+50 50
+;
+v 0 40 70
+50 70
+;
+v 0 30 46
+30 44
+;
+v 0 30 42
+30 40
+;
+v 0 30 38
+30 36
+;
+v 0 30 34
+30 32
+;
+v 0 30 30
+30 28
+;
+v 0 30 26
+30 24
+;
+v 0 30 52
+30 50
+;
+*symbol Relay_SPDT_b ako Relay_SPDT_nb
+d SPDT Relay with bounce
+@type p
+@attributes
+a 0 sp 11 0 12 110 hln 100 PART=Relay_SPDT_b
+a 0 sp 0 0 0 0 hln 100 MODEL=Relay_Spdt_Bhv_Bounce
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %NO %NC %COM @MODEL PARAMS:\n+ T_make=@T_make\n+ T_break=@T_break\n+ T_bounce=@T_bounce\n+ I_pull=@I_pull\n+ I_drop=@I_drop\n+ R_coil=@R_coil\n+ L_coil=@L_coil\n+ R_open=@R_open\n+ R_close=@R_close
+a 0 u 0 0 0 10 hlb 100 T_bounce=5m
+*symbol Relay_SPDT_nb
+d SPDT relay without bounce
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 12 110 hln 100 PART=Relay_SPDT_nb
+a 0 sp 0 0 0 0 hln 100 MODEL=Relay_Spdt_Bhv
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %NO %NC %COM @MODEL PARAMS:\n+ T_make=@T_make\n+ T_break=@T_break\n+ I_pull=@I_pull\n+ I_drop=@I_drop\n+ R_coil=@R_coil\n+ L_coil=@L_coil\n+ R_open=@R_open\n+ R_close=@R_close
+a 0 u 0 0 0 10 hlb 100 T_make=20m
+a 0 u 0 0 0 20 hlb 100 T_break=10m
+a 0 u 0 0 0 40 hlb 100 I_pull=35ma
+a 0 u 0 0 0 50 hlb 100 I_drop=25ma
+a 0 u 0 0 0 60 hlb 100 R_coil=100
+a 0 u 0 0 0 70 hlb 100 L_coil=5mH
+a 0 u 0 0 0 80 hlb 100 R_open=100MEG
+a 0 u 0 0 0 90 hlb 100 R_close=.05
+a 0 s 0 0 0 20 hlb 100 SIMULATIONONLY=
+@pins
+p 2 12 26 hln 70 COM n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=5
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 2 12 57 hln 100 A n 0 50 h
+a 0 s 0 0 5 48 hrn 100 PIN=1
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 12 97 hln 100 B n 0 90 h
+a 0 s 0 0 5 88 hrn 100 PIN=2
+a 0 s 0 0 0 90 hln 100 ERC=x
+p 2 48 8 hrn 70 NC n 60 10 u
+a 0 s 0 0 55 8 hln 100 PIN=4
+a 0 s 0 0 46 10 hln 100 ERC=x
+p 2 47 36 hrn 70 NO n 60 30 u
+a 0 s 0 0 55 28 hln 100 PIN=3
+a 0 s 0 0 46 30 hln 100 ERC=x
+@graphics 60 100 0 20 10
+r 0 10 0 50 100
+a 0 20 90 25 85 20 80 
+a 0 20 80 25 75 20 70 
+a 0 20 70 25 65 20 60 
+a 0 20 60 25 55 20 50 
+v 0 28 50
+28 90
+;
+v 0 28 90
+28 90
+;
+v 0 32 50
+32 90
+;
+v 0 32 90
+32 90
+;
+v 0 40 10
+40 15
+;
+v 0 40 30
+40 25
+;
+v 0 20 20
+40 15
+;
+v 0 40 15
+42 13
+;
+v 0 40 15
+38 13
+;
+v 0 40 25
+42 27
+;
+v 0 40 25
+38 27
+;
+v 0 10 20
+20 20
+;
+v 0 10 50
+20 50
+;
+v 0 10 90
+20 90
+;
+v 0 40 10
+50 10
+;
+v 0 40 30
+50 30
+;
+v 0 30 46
+30 44
+;
+v 0 30 42
+30 40
+;
+v 0 30 38
+30 36
+;
+v 0 30 34
+30 32
+;
+v 0 30 30
+30 28
+;
+v 0 30 26
+30 24
+;
+*symbol NO_BOUNCE
+d Relay which calls "bounce" subcircuit
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 10 90 hln 100 PART=No_Bounce
+a 0 sp 0 0 0 0 hln 100 MODEL=Relay_Spdt_Bhv
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %NO %NC %COM @MODEL PARAMS:\n+ T_make=@T_make\n+ T_break=@T_break\n+ I_pull=@I_pull\n+ I_drop=@I_drop\n+ R_coil=@R_coil\n+ L_coil=@L_coil\n+ R_open=@R_open\n+ R_close=@R_close
+a 0 u 0 0 0 10 hlb 100 T_make=20m
+a 0 u 0 0 0 20 hlb 100 T_break=10m
+a 0 u 0 0 0 40 hlb 100 I_pull=35ma
+a 0 u 0 0 0 50 hlb 100 I_drop=25ma
+a 0 u 0 0 0 60 hlb 100 R_coil=100
+a 0 u 0 0 0 70 hlb 100 L_coil=5mH
+a 0 u 0 0 0 80 hlb 100 R_open=100MEG
+a 0 u 0 0 0 90 hlb 100 R_close=.05
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+@pins
+p 2 13 22 hln 100 COM n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 52 hln 100 A n 0 50 h
+a 0 u 0 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 72 hln 100 B n 0 70 h
+a 0 u 0 0 5 68 hrn 100 pin=3
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 47 12 hrn 100 NC n 60 10 u
+a 0 u 0 0 55 8 hln 100 pin=4
+a 0 u 0 0 46 10 hln 100 ERC=x
+p 2 47 32 hrn 100 NO n 60 30 u
+a 0 u 0 0 55 28 hln 100 pin=5
+a 0 u 0 0 46 30 hln 100 ERC=x
+@graphics 60 80 0 20 10
+r 0 10 0 50 80
+*symbol BOUNCE
+d Relay which calls "bounce" subcircuit
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 10 90 hln 100 PART=Bounce
+a 0 sp 0 0 0 0 hln 100 MODEL=Relay_Spdt_Bhv_Bounce
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %NO %NC %COM @MODEL PARAMS:\n+ T_make=@T_make\n+ T_break=@T_break\n+ T_bounce=@T_bounce\n+ I_pull=@I_pull\n+ I_drop=@I_drop\n+ R_coil=@R_coil\n+ L_coil=@L_coil\n+ R_open=@R_open\n+ R_close=@R_close
+a 0 u 0 0 0 10 hlb 100 T_make=20m
+a 0 u 0 0 0 20 hlb 100 T_break=10m
+a 0 u 0 0 0 30 hlb 100 T_bounce=5m
+a 0 u 0 0 0 40 hlb 100 I_pull=35ma
+a 0 u 0 0 0 50 hlb 100 I_drop=25ma
+a 0 u 0 0 0 60 hlb 100 R_coil=100
+a 0 u 0 0 0 70 hlb 100 L_coil=5mH
+a 0 u 0 0 0 80 hlb 100 R_open=100MEG
+a 0 u 0 0 0 90 hlb 100 R_close=.05
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+@pins
+p 2 13 22 hln 100 COM n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 52 hln 100 A n 0 50 h
+a 0 u 0 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 72 hln 100 B n 0 70 h
+a 0 u 0 0 5 68 hrn 100 pin=3
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 47 12 hrn 100 NC n 60 10 u
+a 0 u 0 0 55 8 hln 100 pin=4
+a 0 u 0 0 46 10 hln 100 ERC=x
+p 2 47 32 hrn 100 NO n 60 30 u
+a 0 u 0 0 55 28 hln 100 pin=5
+a 0 u 0 0 46 30 hln 100 ERC=x
+@graphics 60 80 0 20 10
+r 0 10 0 50 80
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+r 0 0 0 230 60
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1994, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.

@@ -1,0 +1,183 @@
+*version 6.3 3009104509
+u 145
+XC3000 2513002789
+U? 6
+@libraries
+XC3000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC3000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 2930 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 146 IF_IN 300 300 h
+a 0 s 3 0 10 8 hln 80 LABEL=E
+port 147 IF_IN 300 320 h
+a 0 s 3 0 10 8 hln 80 LABEL=I0
+port 148 IF_OUT 770 320 h
+a 0 s 3 0 20 8 hln 80 LABEL=O0
+port 149 IF_IN 300 440 h
+a 0 s 3 0 10 8 hln 80 LABEL=I3
+port 150 IF_OUT 770 440 h
+a 0 s 3 0 20 8 hln 80 LABEL=O3
+port 151 IF_IN 300 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=I2
+port 152 IF_OUT 770 400 h
+a 0 s 3 0 20 8 hln 80 LABEL=O2
+port 153 IF_IN 300 360 h
+a 0 s 3 0 10 8 hln 80 LABEL=I1
+port 154 IF_OUT 770 360 h
+a 0 s 3 0 20 8 hln 80 LABEL=O1
+@parts
+part 16 BUFT 500 420 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U1
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 17 BUFT 500 340 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U2
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 18 BUFT 500 380 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U3
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 22 INV 380 300 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U4
+a 0 sp 11 0 30 14 hlt 100 PART=INV
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 23 BUFT 500 300 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U5
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+@conn
+w 25
+s 300 300 380 300 24
+a 0 s 3 0 310 300 hln 100 LABEL=E
+w 33
+s 570 320 770 320 32
+a 0 s 3 0 730 320 hln 100 LABEL=O0
+w 41
+s 300 320 500 320 40
+a 0 s 3 0 310 320 hln 100 LABEL=I0
+w 49
+s 570 360 770 360 48
+a 0 s 3 0 730 360 hln 100 LABEL=O1
+w 57
+s 300 360 500 360 56
+a 0 s 3 0 310 360 hln 100 LABEL=I1
+w 65
+s 300 400 500 400 64
+a 0 s 3 0 310 400 hln 100 LABEL=I2
+w 73
+s 570 400 770 400 72
+a 0 s 3 0 730 400 hln 100 LABEL=O2
+w 81
+s 300 440 500 440 80
+a 0 s 3 0 310 440 hln 100 LABEL=I3
+w 89
+s 570 440 770 440 88
+a 0 s 3 0 730 440 hln 100 LABEL=O3
+w 104
+s 450 300 470 300 96
+a 0 s 3 0 450 300 hln 100 LABEL=T
+s 470 340 470 300 97
+s 470 420 470 380 99
+s 470 420 500 420 98
+s 470 380 500 380 100
+s 470 380 470 340 101
+s 470 340 500 340 102
+s 470 300 500 300 103
+@junction
+j 380 300
++ p 22 I
++ w 25
+j 570 320
++ p 23 O
++ w 33
+j 500 320
++ p 23 I
++ w 41
+j 570 360
++ p 17 O
++ w 49
+j 500 360
++ p 17 I
++ w 57
+j 500 400
++ p 18 I
++ w 65
+j 570 400
++ p 18 O
++ w 73
+j 500 440
++ p 16 I
++ w 81
+j 570 440
++ p 16 O
++ w 89
+j 470 300
++ w 104
++ w 104
+j 470 340
++ w 104
++ w 104
+j 470 380
++ w 104
++ w 104
+j 500 420
++ p 16 T
++ w 104
+j 500 340
++ p 17 T
++ w 104
+j 500 380
++ p 18 T
++ w 104
+j 450 300
++ p 22 O
++ w 104
+j 500 300
++ p 23 T
++ w 104
+j 300 300
++ s 146
++ w 25
+j 300 320
++ s 147
++ w 41
+j 770 320
++ s 148
++ w 33
+j 300 440
++ s 149
++ w 81
+j 770 440
++ s 150
++ w 89
+j 300 400
++ s 151
++ w 65
+j 770 400
++ s 152
++ w 73
+j 300 360
++ s 153
++ w 57
+j 770 360
++ s 154
++ w 49
+@attributes
+@text
+s 5 950 820 hln 100 A
+s 5 960 800 hrn 100 1
+s 5 890 800 hrn 100 23RD FEBRUARY 1993
+s 5 1000 750 hrn 100 XC3000 FAMILY BUFE4 MACRO
+s 5 950 770 hrn 100 4-BIT 3-STATE BUFFER
+s 5 750 780 hln 100 W/ AN ACTIVE HIGH ENABLE
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS

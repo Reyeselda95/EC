@@ -1,0 +1,226 @@
+*version 7.2 2272557689
+@index
+symloc CMLSCCM 0 872
+symloc CMSSCCM 872 1019
+symloc QRLSZCS 1891 932
+symloc VMCCMDCM 2823 875
+symloc VMLSCCM 3698 777
+symloc VMLSDCM 4475 861
+symloc VMSSCCM 5336 990
+symloc copyright 6326 575 b
+*symbol CMLSCCM
+d Current mode large signal continuous conduction mode
+@type p
+@attributes
+a 1 s 9 0 38 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %P %C %VC @MODEL \n +PARAMS: SE=@SE FS=@FS LFIL=@LFIL RI=@RI PI=@PI
+a 0 sp 11 0 34 60 hlb 100 PART=CMLSCCM
+a 0 sp 0 0 34 60 hlb 100 MODEL=CMLSCCM
+a 0 u 0 0 0 10 hln 100 SE=1e5
+a 0 u 0 0 0 30 hln 100 FS=100k
+a 0 u 0 0 0 50 hln 100 LFIL=5u
+a 0 u 0 0 0 80 hln 100 RI=.01
+a 0 u 0 0 0 90 hln 100 PI=3.14159
+@pins
+p 2 13 32 hln 100 A n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 26 48 hln 100 C n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=3
+a 0 u 0 0 24 60 hln 100 ERC=x
+p 2 47 32 hrn 100 P n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=2
+a 0 u 0 0 60 30 hln 100 ERC=x
+p 2 24 18 hln 100 VC n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=4
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 60 60 0 30 10
+r 0 10 10 50 50
+*symbol CMSSCCM
+d Current mode small signal continuous conduction mode
+@type p
+@attributes
+a 1 s 9 0 38 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %P %C %VC @MODEL \n +PARAMS: SE=@SE SN=@SN FS=@FS D=@D LFIL=@LFIL IC=@IC VAP=@VAP RI=@RI PI=@PI
+a 0 sp 11 0 34 60 hlb 100 PART=CMSSCCM
+a 0 sp 0 0 34 60 hlb 100 MODEL=CMSSCCM
+a 0 u 0 0 0 10 hln 100 SE=1e5
+a 0 u 0 0 0 20 hln 100 SN=1e5
+a 0 u 0 0 0 30 hln 100 FS=100k
+a 0 u 0 0 0 40 hln 100 D=.75
+a 0 u 0 0 0 50 hln 100 LFIL=5u
+a 0 u 0 0 0 60 hln 100 IC=100
+a 0 u 0 0 0 70 hln 100 VAP=20
+a 0 u 0 0 0 80 hln 100 RI=.01
+a 0 u 0 0 0 90 hln 100 PI=3.14159
+@pins
+p 2 13 32 hln 100 A n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 26 48 hln 100 C n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=3
+a 0 u 0 0 24 60 hln 100 ERC=x
+p 2 47 32 hrn 100 P n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=2
+a 0 u 0 0 60 30 hln 100 ERC=x
+p 2 24 18 hln 100 VC n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=4
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 60 60 0 30 10
+r 0 10 10 50 50
+*symbol QRLSZCS
+d Quasi-resonant large signal zero current switched
+@type p
+@attributes
+a 1 s 9 0 38 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %P %C %VC @MODEL \n+ PARAMS: VCOCOEFF=@VCOCOEFF LO=@LO CO=@CO N=@N PI=@PI FSOFFSET=@FSOFFSET
+a 0 sp 11 0 34 60 hlb 100 PART=QRLSZCS
+a 0 sp 0 0 34 60 hlb 100 MODEL=QRLSZCS
+a 0 u 0 0 0 10 hln 100 VCOCOEFF=20k
+a 0 u 0 0 0 20 hln 100 LO=20n
+a 0 u 0 0 0 30 hln 100 CO=.1u
+a 0 u 0 0 0 40 hln 100 N=2
+a 0 u 0 0 0 50 hln 100 PI=3.14159
+a 0 u 0 0 0 60 hln 100 FSOFFSET=280k
+@pins
+p 2 13 32 hln 100 A n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 26 48 hln 100 C n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=3
+a 0 u 0 0 24 60 hln 100 ERC=x
+p 2 47 32 hrn 100 P n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=2
+a 0 u 0 0 60 30 hln 100 ERC=x
+p 2 24 18 hln 100 VC n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=4
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 60 60 0 30 10
+r 0 10 10 50 50
+*symbol VMCCMDCM
+d Voltage mode large signal continuous/discontinuous conduction mode
+@type p
+@attributes
+a 1 s 9 0 38 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %P %C %VC @MODEL \n+ PARAMS: RMPHITE=@RMPHITE VALLEYV=@VALLEYV LFIL=@LFIL FS=@FS
+a 0 sp 11 0 34 60 hlb 100 PART=VMCCMDCM
+a 0 sp 0 0 34 60 hlb 100 MODEL=VMCCMDCM
+a 0 u 0 0 0 20 hln 100 RMPHITE=2
+a 0 u 0 0 0 30 hln 100 VALLEYV=1
+a 0 u 0 0 0 10 hln 100 LFIL=500u
+a 0 u 0 0 0 20 hln 100 FS=50k
+@pins
+p 2 13 32 hln 100 A n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 26 48 hln 100 C n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=3
+a 0 u 0 0 24 60 hln 100 ERC=x
+p 2 47 32 hrn 100 P n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=2
+a 0 u 0 0 60 30 hln 100 ERC=x
+p 2 24 18 hln 100 VC n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=4
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 60 60 0 30 10
+r 0 10 10 50 50
+*symbol VMLSCCM
+d Voltage mode large signal continuous conduction mode
+@type p
+@attributes
+a 1 s 9 0 38 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %P %C %VC @MODEL \n+ PARAMS: RMPHITE=@RMPHITE VALLEYV=@VALLEYV
+a 0 sp 11 0 34 60 hlb 100 PART=VMLSCCM
+a 0 sp 0 0 34 60 hlb 100 MODEL=VMLSCCM
+a 0 u 0 0 0 20 hln 100 RMPHITE=2
+a 0 u 0 0 0 30 hln 100 VALLEYV=1
+@pins
+p 2 13 32 hln 100 A n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 26 48 hln 100 C n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=3
+a 0 u 0 0 24 60 hln 100 ERC=x
+p 2 47 32 hrn 100 P n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=2
+a 0 u 0 0 60 30 hln 100 ERC=x
+p 2 24 18 hln 100 VC n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=4
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 60 60 0 30 10
+r 0 10 10 50 50
+*symbol VMLSDCM
+d Voltage mode large signal discontinuous conduction mode
+@type p
+@attributes
+a 1 s 9 0 38 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %P %C %VC @MODEL \n+ PARAMS: RMPHITE=@RMPHITE VALLEYV=@VALLEYV LFIL=@LFIL FS=@FS
+a 0 sp 11 0 34 60 hlb 100 PART=VMLSDCM
+a 0 sp 0 0 34 60 hlb 100 MODEL=VMLSDCM
+a 0 u 0 0 0 20 hln 100 RMPHITE=2
+a 0 u 0 0 0 30 hln 100 VALLEYV=1
+a 0 u 0 0 0 10 hln 100 LFIL=500u
+a 0 u 0 0 0 20 hln 100 FS=50k
+@pins
+p 2 13 32 hln 100 A n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 26 48 hln 100 C n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=3
+a 0 u 0 0 24 60 hln 100 ERC=x
+p 2 47 32 hrn 100 P n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=2
+a 0 u 0 0 60 30 hln 100 ERC=x
+p 2 24 18 hln 100 VC n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=4
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 60 60 0 30 10
+r 0 10 10 50 50
+*symbol VMSSCCM
+d Voltage mode small signal continuous conduction mode
+@type p
+@attributes
+a 1 s 9 0 38 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %P %C %VC @MODEL \n+ PARAMS: RMPHITE=@RMPHITE D=@D IC=@IC VAP=@VAP RSW=@RSW RD=@RD RE=@RE RM=@RM
+a 0 sp 11 0 34 60 hlb 100 PART=VMSSCCM
+a 0 sp 0 0 34 60 hlb 100 MODEL=VMSSCCM
+a 0 u 0 0 0 20 hln 100 RMPHITE=2
+a 0 u 0 0 0 10 hln 100 D=0.4
+a 0 u 0 0 0 20 hln 100 IC=1
+a 0 u 0 0 0 30 hln 100 VAP=20
+a 0 u 0 0 0 40 hln 100 RSW=1e-6
+a 0 u 0 0 0 50 hln 100 RD=1e-6
+a 0 u 0 0 0 60 hln 100 RE=1e-6
+a 0 u 0 0 0 70 hln 100 RM=1e-6
+@pins
+p 2 13 32 hln 100 A n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=1
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 26 48 hln 100 C n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=3
+a 0 u 0 0 24 60 hln 100 ERC=x
+p 2 47 32 hrn 100 P n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=2
+a 0 u 0 0 60 30 hln 100 ERC=x
+p 2 24 18 hln 100 VC n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=4
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 60 60 0 30 10
+r 0 10 10 50 50
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

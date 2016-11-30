@@ -1,0 +1,4363 @@
+*version 8.0 146565428
+@index
+symloc LF155/NS:155/NS 0 146
+symloc LF156/NS:155/NS 146 146
+symloc LF157/NS:155/NS 292 146
+symloc LF255/NS:155/NS 438 146
+symloc LF256/NS:155/NS 584 146
+symloc LF257/NS:155/NS 730 146
+symloc LF351/NS:155/NS 876 146
+symloc LF353/NS:353/NS 1022 159
+symloc LF355/NS:155/NS 1181 146
+symloc LF356/NS:155/NS 1327 146
+symloc LF357/NS:155/NS 1473 146
+symloc LF411/NS:155/NS 1619 146
+symloc LF412/NS:353/NS 1765 159
+symloc LF441/NS:155/NS 1924 251
+symloc LF441A/NS:155/NS 2175 252
+symloc LF442/NS:353/NS 2427 195
+symloc LF442A/NS:353/NS 2622 197
+symloc LF444/NS:124/NS 2819 195
+symloc LF444A/NS:124/NS 3014 197
+symloc LF451/NS:155/NS 3211 146
+symloc LF453/NS:353/NS 3357 159
+symloc LM118/NS:118/NS 3516 146
+symloc LM124/NS:124/NS 3662 159
+symloc LM13600/NS:13600/NS 3821 187
+symloc LM13700/NS:13600/NS 4008 187
+symloc LM158/NS:353/NS 4195 194
+symloc LM218/NS:118/NS 4389 146
+symloc LM224/NS:124/NS 4535 159
+symloc LM258/NS:353/NS 4694 194
+symloc LM2902/NS:124/NS 4888 162
+symloc LM2904/NS:353/NS 5050 162
+symloc LM318/NS:118/NS 5212 146
+symloc LM324/NS:124/NS 5358 159
+symloc LM358/NS:353/NS 5517 159
+symloc LM359/NS 5676 1435
+symloc LM4250/NS 7111 1381
+symloc LM6118/NS:353/NS 8492 162
+symloc LM6121/NS 8654 848
+symloc LM6142A/NS:124/NS 9502 256
+symloc LM6142B/NS:124/NS 9758 256
+symloc LM6161/NS:6161/NS 10014 150
+symloc LM6162/NS:6161/NS 10164 150
+symloc LM6164/NS:6161/NS 10314 150
+symloc LM6165/NS:6161/NS 10464 150
+symloc LM6181/NS:6041/NS 10614 185
+symloc LM6218/NS:353/NS 10799 162
+symloc LM6261/NS:6161/NS 10961 150
+symloc LM6262/NS:6161/NS 11111 150
+symloc LM6264/NS:6161/NS 11261 150
+symloc LM6265/NS:6161/NS 11411 150
+symloc LM6361/NS:6161/NS 11561 150
+symloc LM6362/NS:6161/NS 11711 150
+symloc LM6364/NS:6161/NS 11861 150
+symloc LM6365/NS:6161/NS 12011 150
+symloc LM7131A/NS:6041/NS 12161 263
+symloc LM7131B/NS:6041/NS 12424 229
+symloc LM741/NS:741/NS 12653 146
+symloc LMC6001B/NS:op5 12799 176
+symloc LMC6001A/NS:op5 12975 176
+symloc LMC6022/NS:353/NS 13151 200
+symloc LMC6024/NS:124/NS 13351 199
+symloc LMC6032/NS:353/NS 13550 200
+symloc LMC6034/NS:124/NS 13750 199
+symloc LMC6041/NS:6041/NS 13949 167
+symloc LMC6041A/NS:6041/NS 14116 192
+symloc LMC6042/NS:353/NS 14308 201
+symloc LMC6042A/NS:353/NS 14509 203
+symloc LMC6044/NS:124/NS 14712 200
+symloc LMC6044A/NS:124/NS 14912 202
+symloc LMC6061/NS:6041/NS 15114 189
+symloc LMC6061A/NS:6041/NS 15303 191
+symloc LMC6062/NS:353/NS 15494 201
+symloc LMC6062A/NS:353/NS 15695 203
+symloc LMC6064/NS:124/NS 15898 200
+symloc LMC6064A/NS:124/NS 16098 202
+symloc LMC6081/NS:6041/NS 16300 189
+symloc LMC6081A/NS 16489 952
+symloc LMC6082/NS:353/NS 17441 201
+symloc LMC6082A/NS:353/NS 17642 203
+symloc LMC6084/NS:124/NS 17845 200
+symloc LMC6084A/NS:124/NS 18045 202
+symloc LMC6462A/NS:353/NS 18247 288
+symloc LMC6462B/NS:353/NS 18535 254
+symloc LMC6464A/NS:353/NS 18789 254
+symloc LMC6464B/NS:353/NS 19043 254
+symloc LMC6482A/NS:353/NS 19297 203
+symloc LMC6484A/NS:124/NS 19500 202
+symloc LMC6492A/NS:353/NS 19702 201
+symloc LMC6492B/NS:353/NS 19903 201
+symloc LMC6494A/NS:353/NS 20104 201
+symloc LMC6494B/NS:353/NS 20305 201
+symloc LMC6582A/NS:353/NS 20506 255
+symloc LMC6582B/NS:353/NS 20761 255
+symloc LMC6584A/NS:353/NS 21016 255
+symloc LMC6584B/NS:353/NS 21271 255
+symloc LMC660/NS:124/NS 21526 163
+symloc LMC660A/NS:124/NS 21689 200
+symloc LMC662/NS:353/NS 21889 163
+symloc LMC662A/NS:353/NS 22052 200
+symloc LMC6681A/NS:6681/NS 22252 258
+symloc LMC6681B/NS:6681/NS 22510 258
+symloc LMC6682A/NS:6682/NS 22768 256
+symloc LMC6682B/NS:6682/NS 23024 256
+symloc LMC6684A/NS:6682/NS 23280 256
+symloc LMC6684B/NS:6682/NS 23536 256
+symloc LMC7101A/NS:6041/NS 23792 253
+symloc LMC7101B/NS:6041/NS 24045 253
+symloc LPC660B/NS:124/NS 24298 165
+symloc LPC660A/NS:124/NS 24463 199
+symloc LPC661B/NS:6041/NS 24662 188
+symloc LPC661A/NS:6041/NS 24850 188
+symloc LPC662B/NS:353/NS 25038 165
+symloc LPC662A/NS:353/NS 25203 200
+symloc LF441CM,LF441CN,LF441MH/883 25403 1275
+symloc LF442CN,LF442MH/883 26678 974
+symloc LF444CN,LF444MD/883,LF444CM 27652 984
+symloc LM111W/883,LM111E/883,LM111J/883,LM111J-8/883,LM111J-8 28636 1417
+symloc LM6152ACN,LM6152ACM 30053 989
+symloc LM6152BCN,LM6152BCM 31042 989
+symloc LM6171AIN,LM6171AIM 32031 999
+symloc LM6171BIN,LM6171BIM 33030 999
+symloc LM6310IN,LM6310IM 34029 1177
+symloc LM6311IN,LM6311IM 35206 1178
+symloc LM6317IN,LM6317IM 36384 997
+symloc LM7171AIN,LM7171AIM,LM7171AIWM 37381 1023
+symloc LM7171BIN,LM7171BIM,LM7171BIWM 38404 1023
+symloc LMC6001BIN,LMC6001BIH 39427 990
+symloc LM6132AIN,LM6132AIM 40417 988
+symloc LM6132BIN,LM6132BIM 41405 988
+symloc LMC6041IN,LMC6041IM 42393 983
+symloc LMC6042IN,LMC6042IM 43376 979
+symloc LMC6044IN,LMC6044IM 44355 980
+symloc LMC6061IN,LMC6061IM 45335 993
+symloc LMC6062IN,LMC6062IM 46328 989
+symloc LMC6064IN,LMC6064IM 47317 990
+symloc LMC6081IN,LMC6081IM 48307 982
+symloc LMC6082IN,LMC6082IM 49289 979
+symloc LMC6084IN,LMC6084IM 50268 980
+symloc LMC6482AIN,LMC6482AIM 51248 988
+symloc LMC6484AIN,LMC6484AIM 52236 989
+symloc LMC6492AEN,LMC6492AEM 53225 988
+symloc LMC6492BEN,LMC6492BEM 54213 988
+symloc LMC6494AEN,LMC6494AEM 55201 989
+symloc LMC6494BEN,LMC6494BEM 56190 989
+symloc LMC6572AIN,LMC6572AIM 57179 978
+symloc LMC6572BIN,LMC6572BIM 58157 978
+symloc LMC6574AIN,LMC6574AIM 59135 979
+symloc LMC6574BIN,LMC6574BIM 60114 978
+symloc LMC660CN,LMC660CM,LMC660EM,LMC660EN 61092 983
+symloc LMC662CN,LMC662EM,LMC662EN,LMC662CM 62075 982
+symloc LMC6762AIN,LMC6762AIM 63057 1003
+symloc LMC6762BIN,LMC6762BIM 64060 1003
+symloc LMC6772AIN,LMC6772AIM 65063 1015
+symloc LMC6772BIN,LMC6772BIM 66078 1015
+symloc LMC7111AIN,LMC7111AIM5 67093 985
+symloc LMC7111BIN,LMC7111BIM5 68078 985
+symloc LMC7211AIN,LMC7211AIM,LMC7211AIM5 69063 987
+symloc LMC7211BIN,LMC7211BIM,LMC7211BIM5 70050 987
+symloc LMC7221AIN,LMC7221AIM5 71037 1005
+symloc LMC7221BIN,LMC7221BIM5 72042 1004
+symloc LPC662IN,LPC662IM 73046 976
+symloc LM7121IN,LM7121IM,LM7121IM5X 74022 1015
+symloc LM6172IN,LM6172IM 75037 1008
+symloc 118/NS 76045 1381 b
+symloc 124/NS 77426 940 b
+symloc 13600/NS 78366 1861 b
+symloc 155/NS 80227 1243 b
+symloc 353/NS 81470 939 b
+symloc 400/NS 82409 1386 b
+symloc 4161/NS 83795 1229 b
+symloc 6041/NS 85024 927 b
+symloc 607/NS 85951 1384 b
+symloc 6161/NS 87335 1248 b
+symloc 6681/NS 88583 1085 b
+symloc 6682/NS 89668 1087 b
+symloc 741/NS 90755 1245 b
+symloc op5 92000 937 b
+symloc copyright 92937 575 b
+*symbol LF155/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF155/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF155/NS
+*symbol LF156/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF156/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF156/NS
+*symbol LF157/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF157/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF157/NS
+*symbol LF255/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF255/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF255/NS
+*symbol LF256/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF256/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF256/NS
+*symbol LF257/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF257/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF257/NS
+*symbol LF351/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF351/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF351/NS
+*symbol LF353/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF353/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF353/NS
+*symbol LF355/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF355/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF355/NS
+*symbol LF356/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF356/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF356/NS
+*symbol LF357/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF357/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF357/NS
+*symbol LF411/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF411/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF411/NS
+*symbol LF412/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF412/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF412/NS
+*symbol LF441/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 32 74 hln 100 PART=LF441/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LF441B/NS
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+*symbol LF441A/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LF441A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LF441A/NS
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+*symbol LF442/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LF442/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LF442B/NS
+*symbol LF442A/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LF442A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LF442A/NS
+*symbol LF444/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 50 60 hln 100 PART=LF444/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LF444B/NS
+*symbol LF444A/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 50 60 hln 100 PART=LF444A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LF444A/NS
+*symbol LF451/NS ako 155/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF451/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF451/NS
+*symbol LF453/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LF453/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LF453/NS
+*symbol LM118/NS ako 118/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM118/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM118/NS
+*symbol LM124/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM124/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM124/NS
+*symbol LM13600/NS ako 13600/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 2 72 hln 100 PART=LM13600/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LM13600/NS
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol LM13700/NS ako 13600/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 2 70 hln 100 PART=LM13700/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LM13700/NS
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol LM158/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM158/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LM158/NS
+*symbol LM218/NS ako 118/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM218/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM218/NS
+*symbol LM224/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM224/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM224/NS
+*symbol LM258/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM258/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LM258/NS
+*symbol LM2902/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM2902/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM2902/NS
+*symbol LM2904/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM2904/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM2904/NS
+*symbol LM318/NS ako 118/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM318/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM318/NS
+*symbol LM324/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM324/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM324/NS
+*symbol LM358/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM358/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM358/NS
+*symbol LM359/NS
+d Dual, High Speed, Programmable, Current Mode (Norton) Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=LM359/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %GND %- %OUT %V+ %COMP %IOUT %IIN @MODEL
+a 0 s 9 0 6 -6 hln 100 REFDES=U?
+a 0 sp 11 0 62 54 hln 100 PART=LM359/NS
+a 0 s 0 0 62 56 hln 100 COMPONENT=LM359
+@pins
+p 2 13 12 hln 90 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 90 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 27 16 hcn 90 V+ n 30 0 d
+a 0 u 0 0 -10 0 hln 100 ERC=p
+a 0 u 1 0 35 3 hcn 100 pin=12
+a 0 u 0 0 -10 0 hln 100 float=e
+p 2 46 39 hcn 80 GND n 50 60 v
+a 0 u 0 0 10 0 hln 100 ERC=p
+a 0 u 1 0 45 62 hcn 100 pin=4
+a 0 u 0 0 10 0 hln 100 float=e
+p 0 67 32 hrn 90 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 28 46 hcn 80 COMP n 30 60 v
+a 0 u 0 0 -10 0 hln 100 ERC=i
+a 0 u 1 0 25 62 hcn 100 pin=3
+a 0 u 0 0 -10 0 hln 100 float=e
+p 2 36 23 hcn 80 IIN n 40 0 d
+a 0 u 0 0 80 60 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 80 60 hln 100 float=e
+p 2 47 30 hcn 80 IOUT n 60 0 d
+a 0 u 0 0 100 60 hln 100 ERC=i
+a 0 u 1 0 65 3 hcn 100 pin=1
+a 0 u 0 0 100 60 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 50 50
+50 40
+;
+v 0 40 10
+40 15
+;
+v 0 60 10
+54 22
+;
+*symbol LM4250/NS
+d Programmable Op Amp
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %QCS @MODEL
+a 0 sp 11 0 -24 68 hln 100 PART=LM4250/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LM4250/NS
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 41 39 hln 50 VOS1 n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=1
+a 0 u 0 0 52 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 58 34 hrn 50 VOS2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 80 48 hln 100 ERC=i
+a 0 u 0 0 20 110 hln 100 float=u
+p 2 56 27 hrn 50 QCS n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 60 12 hln 100 ERC=i
+a 0 u 0 0 120 -50 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 50
+50 40
+;
+v 0 58 36
+70 50
+;
+v 0 58 24
+70 10
+;
+*symbol LM6118/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6118/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6118/NS
+*symbol LM6121/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %Vin %V+ %OUT %V- @MODEL
+a 0 sp 0 0 50 60 hln 100 MODEL=LM6121/NS
+a 0 sp 13 0 -18 68 hln 100 PART=LM6121/NS
+@pins
+p 2 13 32 hln 100 Vin n 0 30 h
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=8
+a 0 u 0 0 0 20 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM6142A/NS ako 124/NS
+d Dual High Speed/Low Power 17Mhz Rail-to-Rail Input-Output Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LM6142A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LM6142A/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LM6142
+*symbol LM6142B/NS ako 124/NS
+d Dual High Speed/Low Power 17Mhz Rail-to-Rail Input-Output Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LM6142B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LM6142B/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LM6142
+*symbol LM6161/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6161/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6161/NS
+*symbol LM6162/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6162/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6162/NS
+*symbol LM6164/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6164/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6164/NS
+*symbol LM6165/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6165/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6165/NS
+*symbol LM6181/NS ako 6041/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6181/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LM6181/NS
+*symbol LM6218/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6218/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6218/NS
+*symbol LM6261/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6261/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6261/NS
+*symbol LM6262/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6262/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6262/NS
+*symbol LM6264/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6264/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6264/NS
+*symbol LM6265/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6265/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6265/NS
+*symbol LM6361/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6361/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6361/NS
+*symbol LM6362/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6362/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6362/NS
+*symbol LM6364/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6364/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6364/NS
+*symbol LM6365/NS ako 6161/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM6365/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM6365/NS
+*symbol LM7131A/NS ako 6041/NS
+d Tiny High Speed Single Supply Operational Amplifier
+@type p
+@attributes
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 54 56 hln 100 PART=LM7131A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LM7131A/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LM7131
+*symbol LM7131B/NS ako 6041/NS
+d Tiny High Speed Single Supply Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 58 hln 100 PART=LM7131B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LM7131B/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LM7131
+*symbol LM741/NS ako 741/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM741/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM741/NS
+*symbol LMC6001B/NS ako op5
+d Ultra Ultra-Low Input Current Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LMC6001B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6001B/NS
+*symbol LMC6001A/NS ako op5
+d Ultra Ultra-Low Input Current Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=LMC6001A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6001A/NS
+*symbol LMC6022/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6022/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6022/NS
+*symbol LMC6024/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 72 hln 100 PART=LMC6024/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6024/NS
+*symbol LMC6032/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6032/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6032/NS
+*symbol LMC6034/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 72 hln 100 PART=LMC6034/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6034/NS
+*symbol LMC6041/NS ako 6041/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LMC6041/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LMC6041B/NS
+*symbol LMC6041A/NS ako 6041/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 50 56 hln 100 PART=LMC6041A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6041A/NS
+*symbol LMC6042/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6042/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6042B/NS
+*symbol LMC6042A/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6042A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6042A/NS
+*symbol LMC6044/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 72 hln 100 PART=LMC6044/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6044B/NS
+*symbol LMC6044A/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 72 hln 100 PART=LMC6044A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6044A/NS
+*symbol LMC6061/NS ako 6041/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6061/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6061B/NS
+*symbol LMC6061A/NS ako 6041/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6061A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6061A/NS
+*symbol LMC6062/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6062/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6062B/NS
+*symbol LMC6062A/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6062A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6062A/NS
+*symbol LMC6064/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 2 72 hln 100 PART=LMC6064/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6064B/NS
+*symbol LMC6064A/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 74 hln 100 PART=LMC6064A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6064A/NS
+*symbol LMC6081/NS ako 6041/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6081/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6081B/NS
+*symbol LMC6081A/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=LMC6081A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6081A/NS
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6082/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6082/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6082B/NS
+*symbol LMC6082A/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6082A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6082A/NS
+*symbol LMC6084/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 2 70 hln 100 PART=LMC6084/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6084B/NS
+*symbol LMC6084A/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 72 hln 100 PART=LMC6084A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6084A/NS
+*symbol LMC6462A/NS ako 353/NS
+d Dual Micropower, Rail-to-Rail Input and Output CMOS Operational Amplifier
+@type p
+@attributes
+a 0 s 9 0 14 -4 hln 100 REFDES=U?
+a 0 sp 11 0 48 56 hln 100 PART=LMC6462A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6462A/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6462
+*symbol LMC6462B/NS ako 353/NS
+d Dual Micropower, Rail-to-Rail Input and Output CMOS Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 48 58 hln 100 PART=LMC6462B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6462B/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6462
+*symbol LMC6464A/NS ako 353/NS
+d Quad Micropower, Rail-to-Rail Input and Output CMOS Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 58 hln 100 PART=LMC6464A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6464A/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6464
+*symbol LMC6464B/NS ako 353/NS
+d Quad Micropower, Rail-to-Rail Input and Output CMOS Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 52 56 hln 100 PART=LMC6464B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6464B/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6464
+*symbol LMC6482A/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6482A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6482A/NS
+*symbol LMC6484A/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6484A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6484A/NS
+*symbol LMC6492A/NS ako 353/NS
+d Dual CMOS Rail-to-Rail Input and Output Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 58 hln 100 PART=LMC6492A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6492A/NS
+*symbol LMC6492B/NS ako 353/NS
+d Dual CMOS Rail-to-Rail Input and Output Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 58 hln 100 PART=LMC6492B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6492B/NS
+*symbol LMC6494A/NS ako 353/NS
+d Quad CMOS Rail-to-Rail Input and Output Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 56 hln 100 PART=LMC6494A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6494A/NS
+*symbol LMC6494B/NS ako 353/NS
+d Quad CMOS Rail-to-Rail Input and Output Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 50 56 hln 100 PART=LMC6494B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6494B/NS
+*symbol LMC6582A/NS ako 353/NS
+d Dual Low Voltage, Rail-to-Rail Input and Output CMOS Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 48 56 hln 100 PART=LMC6582A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6582A/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6582
+*symbol LMC6582B/NS ako 353/NS
+d Dual Low Voltage, Rail-to-Rail Input and Output CMOS Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 46 58 hln 100 PART=LMC6582B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6582B/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6582
+*symbol LMC6584A/NS ako 353/NS
+d Quad Low Voltage, Rail-to-Rail Input and Output CMOS Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 48 58 hln 100 PART=LMC6584A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6584A/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6584
+*symbol LMC6584B/NS ako 353/NS
+d Quad Low Voltage, Rail-to-Rail Input and Output CMOS Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 46 56 hln 100 PART=LMC6584B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC6584B/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6584
+*symbol LMC660/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LMC660/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LMC660B/NS
+*symbol LMC660A/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 50 60 hln 100 PART=LMC660A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC660A/NS
+*symbol LMC662/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LMC662/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LMC662B/NS
+*symbol LMC662A/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC662A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC662A/NS
+*symbol LMC6681A/NS ako 6681/NS
+d Single Low Voltage, Rail-to-Rail Input and Output CMOS Amplifier with Shutdown
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6681A/NS
+a 0 sp 11 0 70 56 hln 100 PART=LMC6681A/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6681
+*symbol LMC6681B/NS ako 6681/NS
+d Single Low Voltage, Rail-to-Rail Input and Output CMOS Amplifier with Shutdown
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6681B/NS
+a 0 sp 11 0 68 56 hln 100 PART=LMC6681B/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6681
+*symbol LMC6682A/NS ako 6682/NS
+d Dual Low Voltage, Rail-to-Rail Input and Output CMOS Amplifier with Shutdown
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6682A/NS
+a 0 sp 11 0 72 48 hln 100 PART=LMC6682A/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6682
+*symbol LMC6682B/NS ako 6682/NS
+d Dual Low Voltage, Rail-to-Rail Input and Output CMOS Amplifier with Shutdown
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6682B/NS
+a 0 sp 11 0 68 46 hln 100 PART=LMC6682B/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6682
+*symbol LMC6684A/NS ako 6682/NS
+d Quad Low Voltage, Rail-to-Rail Input and Output CMOS Amplifier with Shutdown
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6684A/NS
+a 0 sp 11 0 66 46 hln 100 PART=LMC6684A/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6684
+*symbol LMC6684B/NS ako 6682/NS
+d Quad Low Voltage, Rail-to-Rail Input and Output CMOS Amplifier with Shutdown
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6684B/NS
+a 0 sp 11 0 62 44 hln 100 PART=LMC6684B/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC6684
+*symbol LMC7101A/NS ako 6041/NS
+d Tiny Low Power Operational Amplifier with Rail-to-Rail Input and Output
+@type p
+@attributes
+a 0 sp 11 0 50 56 hln 100 PART=LMC7101A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC7101A/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC7101
+*symbol LMC7101B/NS ako 6041/NS
+d Tiny Low Power Operational Amplifier with Rail-to-Rail Input and Output
+@type p
+@attributes
+a 0 sp 11 0 48 56 hln 100 PART=LMC7101B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LMC7101B/NS
+a 0 s 0 0 0 10 hln 100 COMPONENT=LMC7101
+*symbol LPC660B/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LPC660B/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LPC660B/NS
+*symbol LPC660A/NS ako 124/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LPC660A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LPC660A/NS
+*symbol LPC661B/NS ako 6041/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LPC661B/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LPC661B/NS
+*symbol LPC661A/NS ako 6041/NS
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LPC661A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LPC661A/NS
+*symbol LPC662B/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LPC662B/NS
+a 0 sp 0 0 50 60 hcn 100 MODEL=LPC662B/NS
+*symbol LPC662A/NS ako 353/NS
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -4 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LPC662A/NS
+a 0 sp 0 0 50 60 hln 100 MODEL=LPC662A/NS
+*symbol LF441CM,LF441CN,LF441MH/883
+d OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LF441CM
+a 0 sp 0 0 0 0 hln 100 MODEL=LF441B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 29 45 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 29 20 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 2 52 27 hrn 80 B0 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 80 10 hln 100 FLOAT=u
+p 2 52 37 hrn 80 B1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=8
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol LF442CN,LF442MH/883
+d DUAL LOW POWER JFET OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LF442CN
+a 0 sp 0 0 0 0 hln 100 MODEL=LF442B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LF444CN,LF444MD/883,LF444CM
+d QUAD LOW POWER JFET OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 62 48 hln 100 PART=LF444CN
+a 0 sp 0 0 0 0 hln 100 MODEL=LF444B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM111W/883,LM111E/883,LM111J/883,LM111J-8/883,LM111J-8
+d VOLTAGE COMPARATOR
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM111W/883
+a 0 sp 0 0 0 0 hln 100 MODEL=LM111/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- %GND @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=3
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=2
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 34 43 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=5
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=9
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 34 22 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=10
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 2 56 27 hrn 50 BAL/S n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=7
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 80 10 hln 100 FLOAT=u
+p 2 52 37 hrn 50 BAL n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=6
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 24 48 hln 60 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=1
+a 0 u 0 0 30 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+v 0 40 10
+40 15
+;
+v 0 40 45
+40 51
+;
+*symbol LM6152ACN,LM6152ACM
+d DUAL HIGH SPEED LOW POWER 45MHZ OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6152ACN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM6152A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM6152BCN,LM6152BCM
+d DUAL HIGH SPEED LOW POWER 45MHZ OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6152BCN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM6152B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM6171AIN,LM6171AIM
+d VOLTAGE FEEDBACK LOW DISTORTION LOW POWER OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6171AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM6171A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 29 45 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 29 22 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM6171BIN,LM6171BIM
+d VOLTAGE FEEDBACK LOW DISTOETION LOW POWER OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6171BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM6171B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 33 43 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 33 22 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM6310IN,LM6310IM
+d HIGH SPEED LOW POWER TRI-STATE OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6310IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM6310/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- %\DISABLE\ @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 30 45 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 30 21 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 2 55 27 hrn 50 \DISABLE\ n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=8
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 80 10 hln 100 FLOAT=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 60 10
+50 20
+;
+v 0 60 10
+70 10
+;
+v 0 40 50
+40 44
+;
+v 0 40 10
+40 16
+;
+v 0 40 16
+40 10
+;
+*symbol LM6311IN,LM6311IM
+d LOW NOISE HIGH SPEED VOLTAGE FEEDBACK OP AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6311IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM6311/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- %EXCOMP @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 32 44 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 2 57 27 hrn 50 EXCOMP n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=5
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 80 10 hln 100 FLOAT=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 60 10
+50 20
+;
+v 0 60 10
+70 10
+;
+v 0 40 50
+40 44
+;
+v 0 40 10
+40 16
+;
+v 0 40 16
+40 10
+;
+*symbol LM6317IN,LM6317IM
+d 120MHZ FAST SETTING LOW POWER VOLTAGE FEEDBACK AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6317IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM6317/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 33 41 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 33 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM7171AIN,LM7171AIM,LM7171AIWM
+d TINY VERY HIGH SPEED HIGH OUTPUT CURRENT VOLTAGE FEEDBACK AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM7171AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM7171A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 33 43 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 33 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM7171BIN,LM7171BIM,LM7171BIWM
+d TINY VERY HIGH SPEED HIGH OUTPUT CURRENT VOLTAGE FEEDBACK AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM7171BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM7171B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 31 43 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 31 22 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6001BIN,LMC6001BIH
+d ULTRA ULTRA - LOW INPUT CURRENT AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6001BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6001B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 33 41 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 33 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM6132AIN,LM6132AIM
+d DUAL HIGH SPEED LOW POWER 7MHZ OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6132AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM6132A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM6132BIN,LM6132BIM
+d DUAL HIGH SPEED LOW POWER 7MHZ OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6132BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM6132B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6041IN,LMC6041IM
+d CMOS SINGLE MICROPOWER OP - AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6041IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6041B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 33 43 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 33 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6042IN,LMC6042IM
+d CMOS DUAL MICROPOWER OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6042IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6042B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6044IN,LMC6044IM
+d CMOS QUAD MICROPOWER OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6044IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6044B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6061IN,LMC6061IM
+d PRECISION CMOS SINGLE MICROPOWER OP - AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6061IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6061B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 33 41 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 33 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6062IN,LMC6062IM
+d PRECISION CMOS DUAL MICROPOWER OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6062IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6062B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6064IN,LMC6064IM
+d PRECISION CMOS QUAD MICROPOWER OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6064IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6064B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6081IN,LMC6081IM
+d PRECISION CMOS SINGLE OP - AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6081IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6081B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 41 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6082IN,LMC6082IM
+d PRECISION CMOS DUAL  OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6082IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6082B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6084IN,LMC6084IM
+d PRECISION CMOS QUAD  OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6084IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6084B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6482AIN,LMC6482AIM
+d CMOS DUAL INPUT AND OUTPUT OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6482AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6482A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6484AIN,LMC6484AIM
+d CMOS QUAD INPUT AND OUTPUT OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6484AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6484A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6492AEN,LMC6492AEM
+d CMOS DUAL INPUT AND OUTPUT OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6492AEN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6492A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6492BEN,LMC6492BEM
+d CMOS DUAL INPUT AND OUTPUT OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6492BEN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6492B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6494AEN,LMC6494AEM
+d CMOS QUAD INPUT AND OUTPUT OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6494AEN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6494A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6494BEN,LMC6494BEM
+d CMOS QUAD INPUT AND OUTPUT OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6494BEN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6494B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6572AIN,LMC6572AIM
+d DUAL LOW VOLTAGE OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6572AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6572A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6572BIN,LMC6572BIM
+d DUAL LOW VOLTAGE OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6572BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6572B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6574AIN,LMC6574AIM
+d QUAD LOW VOLTAGE OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6574AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6574A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6574BIN,LMC6574BIM
+d QUAD LOW VOLTAGE OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6574BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6574B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC660CN,LMC660CM,LMC660EM,LMC660EN
+d CMOS QUAD OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC660CN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC660B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC662CN,LMC662EM,LMC662EN,LMC662CM
+d CMOS DUAL OP-AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC662CN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC662B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6762AIN,LMC6762AIM
+d CMOS DUAL MICROPOWER INPUT AND OUTPUT COMPARATOR
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6762AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6762A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6762BIN,LMC6762BIM
+d CMOS DUAL MICROPOWER INPUT AND OUTPUT COMPARATOR
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6762BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6762B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6772AIN,LMC6772AIM
+d DUAL MICRO-POWER INPUT AND OPEN DRAIN OUTPUT CMOS COMPARATOR
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6772AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6772A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC6772BIN,LMC6772BIM
+d DUAL MICRO-POWER INPUT AND OPEN DRAIN OUTPUT CMOS COMPARATOR
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC6772BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC6772B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC7111AIN,LMC7111AIM5
+d TINY CMOS OP-AMP INPUT OUTPUT
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC7111AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC7111A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC7111BIN,LMC7111BIM5
+d TINY CMOS OP-AMP INPUT OUTPUT
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC7111BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC7111B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC7211AIN,LMC7211AIM,LMC7211AIM5
+d TINY CMOS COMPARATOR
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC7211AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC7211A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC7211BIN,LMC7211BIM,LMC7211BIM5
+d TINY CMOS COMPARATOR
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC7211BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC7211B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC7221AIN,LMC7221AIM5
+d TINY CMOS COMPARATOR INPUT AND OPEN DRAIN OUTPUT
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC7221AIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC7221A/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V-  @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LMC7221BIN,LMC7221BIM5
+d TINY CMOS COMPARATOR INPUT AND OPEN DRAIN OUTPUT
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LMC7221BIN
+a 0 sp 0 0 0 0 hln 100 MODEL=LMC7221B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LPC662IN,LPC662IM
+d LOW POWER CMOS DUAL OP - AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LPC662IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LPC662B/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM7121IN,LM7121IM,LM7121IM5X
+d TINY VERY HIGH SPEED LOW POWER VOLTAGE FEEDBACK AMPLIFIER
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM7121IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM7121/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 33 43 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 33 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM6172IN,LM6172IM
+d DUAL HIGH SPEED LOW POWER LOW DISTORTION VOLTAGE FEEDBACK AMP
+@type p
+@attributes
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=LM6172IN
+a 0 sp 0 0 0 0 hln 100 MODEL=LM6172/NS
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 35 42 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 118/NS b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 58 34 hrn 50 C2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+p 2 45 38 hln 50 C3 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=5
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 110 -10 hln 100 float=u
+p 2 51 25 hrn 50 C1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+56 37
+;
+v 0 60 40
+70 40
+;
+v 0 60 10
+70 10
+;
+*symbol 124/NS b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 13600/NS b
+d Opamp subcircuit
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %ABI %DB %+ %- %OUT %V- %BI %BO %V+ @MODEL
+a 0 sp 11 0 2 184 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+@pins
+p 2 10 12 hln 100 + n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=3
+a 0 s 0 0 0 10 hln 100 ERC=x
+p 2 10 52 hln 100 - n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=4
+a 0 s 0 0 0 50 hln 100 ERC=x
+p 2 34 46 hln 100 ABI n 50 60 v
+a 0 s 1 0 45 62 hcn 100 PIN=1
+a 0 s 0 0 46 58 hln 100 ERC=x
+p 2 13 32 hln 100 DB n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 1 28 hln 100 ERC=x
+p 2 105 48 hln 100 BO n 120 60 v
+a 0 s 1 0 115 62 hcn 100 PIN=8
+a 0 s 0 0 115 50 hln 100 ERC=x
+p 2 19 40 hln 100 V- n 30 60 v
+a 0 s 1 0 25 62 hcn 100 PIN=6
+a 0 s 0 0 25 62 hln 100 ERC=x
+p 2 17 24 hln 100 V+ n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=11
+a 0 s 0 0 33 -4 hln 100 ERC=x
+p 2 52 46 hln 100 OUT n 70 60 v
+a 0 s 1 0 65 62 hcn 100 PIN=5
+a 0 s 0 0 70 60 hln 100 ERC=x
+p 2 80 48 hln 100 BI n 90 60 v
+a 0 s 1 0 85 62 hcn 100 PIN=7
+a 0 s 0 0 90 56 hln 100 ERC=x
+@graphics 120 60 0 10 10
+v 0 50 50
+50 39
+;
+v 0 5 15
+15 15
+;
+v 0 5 45
+15 45
+;
+v 0 10 20
+10 40
+;
+v 0 100 35
+110 35
+;
+v 0 100 20
+100 10
+;
+v 0 100 10
+120 10
+;
+v 0 120 10
+120 30
+;
+v 0 60 30
+70 30
+;
+v 0 70 30
+70 50
+;
+v 0 10 5
+10 15
+;
+v 0 10 45
+10 55
+;
+v 0 10 55
+40 30
+;
+v 0 10 5
+40 30
+;
+v 0 50 39
+50 35
+;
+c 0 46 30 6
+c 0 54 30 6
+v 0 90 30
+95 30
+;
+v 0 95 25
+95 35
+;
+v 0 95 30
+100 35
+;
+v 0 95 30
+100 25
+;
+v 0 115 30
+115 40
+;
+v 0 115 35
+120 30
+;
+v 0 115 35
+120 40
+;
+v 0 110 35
+115 35
+;
+v 0 100 20
+100 25
+;
+v 0 120 40
+120 45
+;
+v 0 90 30
+90 50
+;
+v 0 120 45
+120 50
+;
+v 0 99 34
+99 32
+;
+v 0 99 34
+97 34
+;
+v 0 119 39
+119 37
+;
+v 0 119 39
+117 39
+;
+v 0 30 10
+100 10
+;
+v 0 30 10
+30 20
+;
+v 0 30 50
+30 40
+;
+v 0 30 20
+30 22
+;
+v 0 30 40
+30 38
+;
+v 0 10 15
+15 20
+5 20
+10 15
+;
+v 0 10 45
+15 40
+5 40
+10 45
+;
+a 0 46 36 52 29 46 24 
+*symbol 155/NS b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 37 hrn 50 B2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 20 100 hln 100 float=u
+p 2 52 25 hrn 50 B1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 80 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+70 50
+;
+v 0 50 20
+60 10
+;
+v 0 60 10
+70 10
+;
+v 0 50 40
+60 50
+;
+*symbol 353/NS b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 14 -4 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 400/NS b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 40 38 hln 50 ADJ1 n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=1
+a 0 u 0 0 52 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 52 hrn 50 ADJ2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 80 48 hln 100 ERC=i
+a 0 u 0 0 20 110 hln 100 float=u
+p 2 67 12 hrn 50 RAW n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 82 8 hln 100 ERC=o
+a 0 u 0 0 80 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 50
+50 40
+;
+v 0 50 20
+60 10
+;
+v 0 60 10
+70 10
+;
+v 0 70 50
+60 40
+;
+v 0 60 40
+56 36
+;
+*symbol 4161/NS b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 40 38 hln 50 VOS1 n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=1
+a 0 u 0 0 52 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 52 hrn 50 VOS2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 80 48 hln 100 ERC=i
+a 0 u 0 0 20 110 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 50
+50 40
+;
+v 0 70 50
+60 40
+;
+v 0 60 40
+56 36
+;
+*symbol 6041/NS b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 607/NS b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 40 38 hln 50 ADJ1 n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=1
+a 0 u 0 0 52 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 52 hrn 50 ADJ2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 80 48 hln 100 ERC=i
+a 0 u 0 0 20 110 hln 100 float=u
+p 2 67 12 hrn 50 C n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 82 8 hln 100 ERC=o
+a 0 u 0 0 80 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 50
+50 40
+;
+v 0 50 20
+60 10
+;
+v 0 60 10
+70 10
+;
+v 0 70 50
+60 40
+;
+v 0 60 40
+56 36
+;
+*symbol 6161/NS b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 53 37 hrn 50 ADJ2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 80 48 hln 100 ERC=i
+a 0 u 0 0 20 110 hln 100 float=u
+p 2 53 27 hrn 50 ADJ1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 82 8 hln 100 ERC=o
+a 0 u 0 0 80 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 20
+60 10
+;
+v 0 60 10
+70 10
+;
+v 0 50 40
+60 50
+;
+v 0 60 50
+70 50
+;
+*symbol 6681/NS b
+d
+@type p
+@attributes
+a 0 s 9 0 10 -4 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %PD @MODEL
+a 0 sp 11 0 2 70 hln 100 PART=
+a 0 s 0 0 0 10 hln 100 COMPONENT=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 51 36 hcn 100 PD n 60 60 v
+a 0 u 0 0 20 0 hln 100 ERC=i
+a 0 u 1 0 55 62 hcn 100 pin=5
+a 0 u 0 0 20 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+52 39
+;
+*symbol 6682/NS b
+d
+@type p
+@attributes
+a 0 s 9 0 10 -4 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %PD @MODEL
+a 0 sp 11 0 2 70 hln 100 PART=
+a 0 s 0 0 0 10 hln 100 COMPONENT=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=14
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 51 36 hcn 100 PD n 60 60 v
+a 0 u 0 0 20 0 hln 100 ERC=i
+a 0 u 1 0 55 62 hcn 100 pin=10
+a 0 u 0 0 20 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+52 39
+;
+*symbol 741/NS b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 OS2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 80 48 hln 100 ERC=i
+a 0 u 0 0 20 110 hln 100 float=u
+p 2 52 25 hrn 50 OS1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 82 8 hln 100 ERC=o
+a 0 u 0 0 80 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 20
+60 10
+;
+v 0 60 10
+70 10
+;
+v 0 50 40
+60 50
+;
+v 0 60 50
+70 50
+;
+*symbol op5 b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

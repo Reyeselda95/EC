@@ -1,0 +1,31 @@
+# Part Mapping file for PROTEL PCB Package
+
+# Copyright 1992,1993 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+# Capacitors
+# Default mapping is to 0.3" axial package
+C           AXIAL0.3\n@value?tolerance|,@tolerance|
+
+# Radial lead electrolytic, 0.2" pin spacing, 0.4" diameter
+CRAD        RB.2.4\n@value?tolerance|,@tolerance|
+
+# Inductors
+# Default mapping is to 0.4" axial package
+L           AXIAL0.4\n@value?tolerance|,@tolerance|
+
+# Resistors
+# Default mapping is to 0.4" axial package
+R           AXIAL0.4\n@value?tolerance|,@tolerance|
+
+# Potentiometer
+POT         VR1\n@value
+
+# Crystal (example only)
+QZP100K     XTAL1\n100kHz
+
+# Default rule (mapped/unmapped package type + component or part)
+DEFAULT     ?`pkgtype|@`pkgtype||@pkgtype|\n?component|@component||@part|
+
+

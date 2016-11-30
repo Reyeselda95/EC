@@ -1,0 +1,206 @@
+*version 6.3 1801114372
+u 199
+XC2000 951070159
+U? 6
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 3242 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 200 IF_OUT 910 490 h
+a 0 s 3 0 20 8 hln 80 LABEL=TC
+port 201 IF_IN 170 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=CLR
+port 202 IF_IN 170 480 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 203 IF_IN 170 460 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 204 IF_OUT 910 560 h
+a 0 s 3 0 20 8 hln 80 LABEL=CEO
+port 205 IF_OUT 910 440 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+port 206 IF_OUT 910 260 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+@parts
+part 14 VCC 250 260 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U1
+a 0 sp 11 0 20 10 hcn 100 PART=VCC
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 21 FTCE 370 260 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=FTCE
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 22 FTCE 370 440 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=FTCE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 27 AND2 740 480 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 28 AND2 740 550 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+@conn
+w 35
+s 170 460 290 460 29
+a 0 s 3 0 180 460 hln 100 LABEL=CE
+s 290 570 290 460 31
+s 290 570 740 570 30
+s 290 460 370 460 32
+s 290 460 290 280 34
+s 290 280 370 280 33
+w 67
+s 560 260 910 260 59
+a 0 s 3 0 880 260 hln 100 LABEL=Q0
+s 490 260 560 260 60
+s 560 360 560 260 61
+s 560 480 560 360 63
+s 560 480 740 480 62
+s 310 360 560 360 64
+s 310 440 310 360 65
+s 310 440 370 440 66
+w 97
+s 170 480 270 480 93
+a 0 s 3 0 180 480 hln 100 LABEL=C
+s 270 480 370 480 94
+s 270 480 270 300 95
+s 270 300 370 300 96
+w 117
+s 170 510 250 510 113
+a 0 s 3 0 180 510 hln 100 LABEL=CLR
+s 250 510 250 330 114
+s 250 510 370 510 115
+s 250 330 370 330 116
+w 137
+s 580 440 910 440 133
+a 0 s 3 0 880 440 hln 100 LABEL=Q1
+s 580 500 580 440 135
+s 580 500 740 500 134
+s 490 440 580 440 136
+w 155
+s 250 260 370 260 154
+w 174
+s 840 490 910 490 168
+a 0 s 3 0 880 490 hln 100 LABEL=TC
+s 840 530 840 490 171
+s 820 490 840 490 172
+s 730 530 840 530 173
+s 730 550 740 550 169
+s 730 550 730 530 170
+w 192
+s 820 560 910 560 191
+a 0 s 3 0 870 560 hln 100 LABEL=CEO
+@junction
+j 290 460
++ w 35
++ w 35
+j 370 280
++ p 21 CE
++ w 35
+j 370 460
++ p 22 CE
++ w 35
+j 740 570
++ p 28 I0
++ w 35
+j 560 260
++ w 67
++ w 67
+j 560 360
++ w 67
++ w 67
+j 490 260
++ p 21 Q
++ w 67
+j 370 440
++ p 22 T
++ w 67
+j 740 480
++ p 27 I1
++ w 67
+j 270 480
++ w 97
++ w 97
+j 370 300
++ p 21 C
++ w 97
+j 370 480
++ p 22 C
++ w 97
+j 250 510
++ w 117
++ w 117
+j 370 330
++ p 21 CLR
++ w 117
+j 370 510
++ p 22 CLR
++ w 117
+j 580 440
++ w 137
++ w 137
+j 490 440
++ p 22 Q
++ w 137
+j 740 500
++ p 27 I0
++ w 137
+j 250 260
++ p 14 VCC
++ w 155
+j 370 260
++ p 21 T
++ w 155
+j 840 490
++ w 174
++ w 174
+j 820 490
++ p 27 O
++ w 174
+j 740 550
++ p 28 I1
++ w 174
+j 820 560
++ p 28 O
++ w 192
+j 910 490
++ s 200
++ w 174
+j 170 510
++ s 201
++ w 117
+j 170 480
++ s 202
++ w 97
+j 170 460
++ s 203
++ w 35
+j 910 560
++ s 204
++ w 192
+j 910 440
++ s 205
++ w 137
+j 910 260
++ s 206
++ w 67
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 750 750 hln 100 XC2000 FAMILY CB2CE MACRO
+s 5 750 770 hln 100 2-BIT CASCADABLE BINARY COUNTER
+s 5 750 780 hln 100 WITH CLOCK ENABLE & ASYNC CLEAR
+s 5 710 800 hln 100 1ST MARCH 1993

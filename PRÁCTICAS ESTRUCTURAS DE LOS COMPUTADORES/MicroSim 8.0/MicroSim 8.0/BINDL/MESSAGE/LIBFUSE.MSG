@@ -1,0 +1,33 @@
+>Ms libfuse tick message
+=%s ...
+&*
+>Fss Can't open file
+=[19001]  Can't open %s file %s
+&FILE_TYPE FILE_NAME
+>F PLFit has not been run
+=[19002]  PLFit has not been run
+>F Wrong version of PLFit run
+=[19003]  Wrong version of PLFit run
+>Fs Can't open group file 
+=[19004]  Can't open NPI file %s
+&FILE_NAME
+>Fs Can't open BSDL file
+=[19005] Can't open BSDL file %s
+&FILE_NAME
+>Fs Can't open POF file
+=[19006] Can't open POF file %s
+&FILE_NAME
+>Es XNF file not found
+=[10907] File %s does not exist - rerun PLFit with netlisting ON
+&FILE_NAME
+>Ms XNF already optimized
+=  XNF file %s has already been optimized
+&FILE_NAME
+>W PLA fitter args with no name
+=[19009] PLA_FITTER_ARGS was found w/o a PLA_FITTER_NAME property - fix and rerun PLFit
+&The PLA_FITTER_ARGS property is used to specify command line arguments to
+&a PLA fitter. No PLA_FITTER_NAME property was specified however.
+>F Can't open library file in plfuse
+=[19010] File minclib.lib not found in path for reading
+>F Wrong number of pins detected
+=[19011] Wrong number of pins detected. Run plscan and plfit again.

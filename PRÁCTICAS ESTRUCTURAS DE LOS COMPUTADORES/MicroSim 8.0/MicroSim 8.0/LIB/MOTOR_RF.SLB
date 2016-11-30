@@ -1,0 +1,211 @@
+*version 8.0 70648750
+@index
+symloc BFS17/MC:qnpn 0 222
+symloc MMBR521/MC:qnpn 222 228
+symloc MMBR571/MC:qnpn 450 228
+symloc MMBR901/MC:qnpn 678 228
+symloc MMBR931/MC:qnpn 906 228
+symloc MMBR941/MC:qnpn 1134 239
+symloc MMBR951/MC:qnpn 1373 239
+symloc MRF5711/MC:qnpn 1612 228
+symloc MRF5812/MC:qnpn 1840 228
+symloc MRF9011/MC:qnpn 2068 228
+symloc MRF9411/MC:qnpn 2296 215
+symloc MRF947/MC:qnpn 2511 236
+symloc MRF9511/MC:qnpn 2747 215
+symloc MRF9331LT1 2962 626
+symloc qnpn 3588 410 b
+symloc qpnp 3998 410 b
+symloc copyright 4408 575 b
+*symbol BFS17/MC ako qnpn
+d NPN Silicon High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 22 36 hln 100 PART=BFS17/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=BFS17/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MMBR521/MC ako qnpn
+d NPN Silicon High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 24 28 hln 100 PART=MMBR521/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MMBR521/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MMBR571/MC ako qnpn
+d NPN Silicon High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 24 28 hln 100 PART=MMBR571/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MMBR571/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MMBR901/MC ako qnpn
+d NPN Silicon High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 24 28 hln 100 PART=MMBR901/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MMBR901/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MMBR931/MC ako qnpn
+d NPN Silicon High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 26 28 hln 100 PART=MMBR931/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MMBR931/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MMBR941/MC ako qnpn
+d NPN Silicon Low-Noise, High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 26 28 hln 100 PART=MMBR941/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MMBR941/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MMBR951/MC ako qnpn
+d NPN Silicon Low-Noise, High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 24 28 hln 100 PART=MMBR951/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MMBR951/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MRF5711/MC ako qnpn
+d NPN Silicon High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 28 28 hln 100 PART=MRF5711/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MRF5711/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MRF5812/MC ako qnpn
+d NPN Silicon High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 26 28 hln 100 PART=MRF5812/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MRF5812/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MRF9011/MC ako qnpn
+d NPN Silicon High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 26 28 hln 100 PART=MRF9011/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MRF9011/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MRF9411/MC ako qnpn
+d npn bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRF9411/MC
+a 0 sp 0 0 25 40 hln 100 MODEL=MRF9411/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MRF947/MC ako qnpn
+d NPN Silicon Low-Noise, High Frequency Transistor
+@type p
+@attributes
+a 0 sp 11 0 24 30 hln 100 PART=MRF947/MC
+a 0 sp 0 0 0 0 hln 100 MODEL=MRF947/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MRF9511/MC ako qnpn
+d npn bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=MRF9511/MC
+a 0 sp 0 0 25 40 hln 100 MODEL=MRF9511/MC
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %c %b %e @MODEL
+*symbol MRF9331LT1
+d NPN SILICON HIGH-FREQUENCY TRANSISTOR
+@type p
+@attributes
+a 1 sp 9 0 -2 0 hln 100 REFDES=Q?
+a 0 sp 11 0 -16 50 hln 100 PART=MRF9331LT1
+a 0 sp 0 0 0 0 hln 100 MODEL=MRF9331/MC
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %C %B %E @MODEL
+@pins
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=4
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 24 48 hln 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+p 0 12 -4 hln 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 20 0 hln 100 ERC=x
+@graphics 28 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol qnpn b
+d npn bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=
+a 0 sp 0 0 25 40 hln 100 MODEL=
+a 0 s 9 0 5 5 hln 100 refdes=Q?
+a 1 sp 0 0 0 0 hln 100 template=Q^@refdes %c %b %e @MODEL
+@pins
+p 0 13 22 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol qpnp b
+d pnp bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=
+a 0 sp 0 0 25 40 hln 100 MODEL=
+a 0 s 9 0 5 5 hln 100 refdes=Q?
+a 1 sp 0 0 0 0 hln 100 template=Q^@refdes %c %b %e @MODEL
+@pins
+p 0 13 22 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1996, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

@@ -1,0 +1,231 @@
+*version 6.3 3611652443
+u 179
+XC4000E 1464384018
+U? 9
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3802 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 180 IF_IN 260 590 h
+a 0 s 3 0 10 8 hln 80 LABEL=A7
+port 181 IF_IN 260 550 h
+a 0 s 3 0 10 8 hln 80 LABEL=A6
+port 182 IF_IN 260 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=A5
+port 183 IF_IN 260 470 h
+a 0 s 3 0 10 8 hln 80 LABEL=A4
+port 184 INTERFACE 690 310 u
+a 0 s 3 0 10 8 hln 80 LABEL=O
+port 185 IF_IN 260 310 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 186 IF_IN 260 350 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 187 IF_IN 260 390 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 188 IF_IN 260 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+@parts
+part 15 WAND1 380 390 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U1
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 16 WAND1 380 350 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U2
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 17 WAND1 380 310 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U3
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 18 WAND1 380 430 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U4
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 19 WAND1 380 470 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U5
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 20 WAND1 380 510 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U6
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 21 WAND1 380 550 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U7
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 22 WAND1 380 590 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U8
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+@conn
+w 24
+s 260 590 380 590 23
+a 0 s 3 0 270 590 hln 100 LABEL=A7
+w 32
+s 260 510 380 510 31
+a 0 s 3 0 270 510 hln 100 LABEL=A5
+w 40
+s 260 470 380 470 39
+a 0 s 3 0 270 470 hln 100 LABEL=A4
+w 48
+s 260 350 380 350 47
+a 0 s 3 0 270 350 hln 100 LABEL=A1
+w 56
+s 260 310 380 310 55
+a 0 s 3 0 270 310 hln 100 LABEL=A0
+w 64
+s 260 550 380 550 63
+a 0 s 3 0 270 550 hln 100 LABEL=A6
+w 87
+s 570 310 690 310 71
+a 0 s 3 0 670 310 hln 100 LABEL=O
+s 450 310 570 310 78
+s 570 350 570 310 79
+s 450 350 570 350 77
+s 570 390 570 350 80
+s 450 390 570 390 76
+s 570 430 570 390 81
+s 450 430 570 430 75
+s 570 470 570 430 82
+s 450 470 570 470 74
+s 570 510 570 470 83
+s 450 510 570 510 73
+s 570 550 570 510 84
+s 450 550 570 550 72
+s 570 590 570 550 85
+s 450 590 570 590 86
+w 164
+s 260 390 380 390 163
+a 0 s 3 0 270 390 hln 100 LABEL=A2
+w 172
+s 260 430 380 430 171
+a 0 s 3 0 270 430 hln 100 LABEL=A3
+@junction
+j 380 590
++ p 22 I
++ w 24
+j 380 510
++ p 20 I
++ w 32
+j 380 470
++ p 19 I
++ w 40
+j 380 350
++ p 16 I
++ w 48
+j 380 310
++ p 17 I
++ w 56
+j 380 550
++ p 21 I
++ w 64
+j 570 310
++ w 87
++ w 87
+j 570 350
++ w 87
++ w 87
+j 570 390
++ w 87
++ w 87
+j 570 430
++ w 87
++ w 87
+j 570 470
++ w 87
++ w 87
+j 570 510
++ w 87
++ w 87
+j 570 550
++ w 87
++ w 87
+j 450 390
++ p 15 O
++ w 87
+j 450 350
++ p 16 O
++ w 87
+j 450 310
++ p 17 O
++ w 87
+j 450 430
++ p 18 O
++ w 87
+j 450 470
++ p 19 O
++ w 87
+j 450 510
++ p 20 O
++ w 87
+j 450 550
++ p 21 O
++ w 87
+j 450 590
++ p 22 O
++ w 87
+j 380 390
++ p 15 I
++ w 164
+j 380 430
++ p 18 I
++ w 172
+j 260 590
++ s 180
++ w 24
+j 260 550
++ s 181
++ w 64
+j 260 510
++ s 182
++ w 32
+j 260 470
++ s 183
++ w 40
+j 690 310
++ s 184
++ w 87
+j 260 310
++ s 185
++ w 56
+j 260 350
++ s 186
++ w 48
+j 260 390
++ s 187
++ w 164
+j 260 430
++ s 188
++ w 172
+@attributes
+@text
+s 5 30 1060 hln 100 DRAWN BY KS
+s 5 30 1070 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 700 1070 hln 100 A
+s 5 700 1050 hln 100 1
+s 5 460 1050 hln 100 30TH MARCH 1995
+s 5 500 1020 hln 100 8-INPUT ACTIVE-LOW DECODER
+s 5 500 1000 hln 100 XC4000E FAMILY DECODE8 MACRO

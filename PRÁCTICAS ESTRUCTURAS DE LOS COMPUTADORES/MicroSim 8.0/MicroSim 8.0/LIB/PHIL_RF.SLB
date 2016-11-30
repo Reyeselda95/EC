@@ -1,0 +1,3699 @@
+*version 8.0 808981261
+@index
+symloc BF547/PLP 0 661
+symloc BFC505/PLP 661 952
+symloc BF547W/PLP 1613 664
+symloc BFC520/PLP 2277 951
+symloc BFC540/PLP 3228 951
+symloc BFE505/PLP 4179 1085
+symloc BFE520/PLP 5264 1085
+symloc BFE540/PLP 6349 1085
+symloc BFG10/PLP 7434 658
+symloc BFG10/X/PLP 8092 663
+symloc BFG10W/X/PLP 8755 664
+symloc BFG11/PLP 9419 657
+symloc BFG11/X/PLP 10076 663
+symloc BFG11W/X/PLP 10739 671
+symloc BFG16A/PLP 11410 663
+symloc BFG25AW/PLP 12073 666
+symloc BFG25AW/X/PLP 12739 672
+symloc BFG25AW/XR/PLP 13411 675
+symloc BFG31/PLP 14086 660
+symloc BFG35/PLP 14746 661
+symloc BFG67/PLP 15407 661
+symloc BFG67/X/PLP 16068 667
+symloc BFG67/XR/PLP 16735 670
+symloc BFG67W/PLP 17405 664
+symloc BFG67W/X/PLP 18069 669
+symloc BFG92A/PLP 18738 664
+symloc BFG92A/X/PLP 19402 669
+symloc BFG92A/XR/PLP 20071 673
+symloc BFG92AW/PLP 20744 667
+symloc BFG92AW/X/PLP 21411 672
+symloc BFG92AW/XR/PLP 22083 675
+symloc BFG93A/PLP 22758 663
+symloc BFG93A/XR/PLP 23421 673
+symloc BFG93AW/PLP 24094 667
+symloc BFG93AW/X/PLP 24761 673
+symloc BFG93AW/XR/PLP 25434 675
+symloc BFG94/PLP 26109 660
+symloc BFG97/PLP 26769 660
+symloc BFG135/PLP 27429 663
+symloc BFG197/PLP 28092 663
+symloc BFG197/X/PLP 28755 669
+symloc BFG197W/PLP 29424 667
+symloc BFG197W/X/PLP 30091 672
+symloc BFG197W/XR/PLP 30763 676
+symloc BFG198/PLP 31439 663
+symloc BFG505/PLP 32102 664
+symloc BFG505/X/PLP 32766 670
+symloc BFG505/XR/PLP 33436 672
+symloc BFG505W/PLP 34108 666
+symloc BFG505W/X/PLP 34774 672
+symloc BFG505W/XR/PLP 35446 675
+symloc BFG520/PLP 36121 663
+symloc BFG520/X/PLP 36784 669
+symloc BFG520/XR/PLP 37453 672
+symloc BFG520W/PLP 38125 666
+symloc BFG520W/X/PLP 38791 672
+symloc BFG520W/XR/PLP 39463 675
+symloc BFG540/PLP 40138 663
+symloc BFG540/X/PLP 40801 669
+symloc BFG540/XR/PLP 41470 672
+symloc BFG540W/PLP 42142 666
+symloc BFG540W/X/PLP 42808 672
+symloc BFG541/PLP 43480 663
+symloc BFG590/PLP 44143 663
+symloc BFG590/X/PLP 44806 669
+symloc BFG590/XR/PLP 45475 672
+symloc BFG590W/PLP 46147 666
+symloc BFG590W/X/PLP 46813 672
+symloc BFG540W/XR/PLP 47485 675
+symloc BFG591/PLP 48160 663
+symloc BFP91A/PLP 48823 663
+symloc BFP96/PLP 49486 660
+symloc BFQ17/PLP 50146 660
+symloc BFQ18A/PLP 50806 663
+symloc BFQ19/PLP 51469 660
+symloc BFQ66/PLP 52129 660
+symloc BFQ67/PLP 52789 660
+symloc BFQ67W/PLP 53449 663
+symloc BFQ135/PLP 54112 665
+symloc BFQ149/PLP 54777 665
+symloc BFQ270/PLP 55442 663
+symloc BFQ621/PLP 56105 663
+symloc BFR92A/PLP 56768 663
+symloc BFR92AW/PLP 57431 666
+symloc BFR93A/PLP 58097 663
+symloc BFR93AW/PLP 58760 666
+symloc BFR95/PLP 59426 663
+symloc BFR106/PLP 60089 664
+symloc BFR505/PLP 60753 663
+symloc BFR520/PLP 61416 663
+symloc BFR540/PLP 62079 663
+symloc BFS17/PLP 62742 660
+symloc BFS17W/PLP 63402 663
+symloc BFS25A/PLP 64065 663
+symloc BFS505/PLP 64728 663
+symloc BFS520/PLP 65391 663
+symloc BFS540/PLP 66054 663
+symloc BFT25A/PLP 66717 663
+symloc BFT92/PLP 67380 663
+symloc BFT92W/PLP 68043 666
+symloc BFT93/PLP 68709 663
+symloc BFT93W/PLP 69372 666
+symloc BFW16A/PLP 70038 663
+*symbol BF547/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 1 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 34 22 hcn 100 PART=BF547/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BF547/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFC505/PLP
+d TRANSISTOR, NPN WIDEBAND CASCODE
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %C1 %B1 %E1 %C2 %B2 @MODEL ?VALUE/@VALUE/
+a 0 sp 11 0 -10 43 hcn 100 PART=BFC505/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFC505/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+a 0 s 9 0 1 4 hcn 100 REFDES=Q?
+@pins
+p 0 13 22 hln 100 B2 n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C2 n 20 0 d
+a 0 s 0 0 25 3 hcn 100 PIN=5
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 80 hcn 100 E1 n 20 80 v
+a 0 s 0 0 15 82 hcn 100 PIN=2
+a 0 s 0 0 0 40 hln 100 ERC=x
+p 0 13 62 hln 100 B1 n 0 60 h
+a 0 s 0 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 40 hln 100 ERC=x
+p 0 17 42 hrn 100 C1 n 30 40 u
+a 0 s 0 0 25 38 hln 100 PIN=4
+a 0 s 0 0 30 40 hln 100 ERC=x
+@graphics 30 80 0 20 10
+v 0 20 30
+20 50
+;
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 50
+10 70
+;
+v 0 20 50
+10 55
+;
+v 0 20 70
+10 65
+;
+v 0 11 68
+18 69
+13 64
+;
+*symbol BF547W/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 1 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 37 22 hcn 100 PART=BF547W/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BF547W/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFC520/PLP
+d TRANSISTOR, NPN WIDEBAND CASCODE
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %C1 %B1 %E1 %C2 %B2 @MODEL ?VALUE/@VALUE/
+a 0 sp 11 0 -6 43 hcn 100 PART=BFC520/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFC520/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+a 0 s 9 0 1 4 hcn 100 REFDES=Q?
+@pins
+p 0 13 22 hln 100 B2 n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C2 n 20 0 d
+a 0 s 0 0 25 3 hcn 100 PIN=5
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 80 hcn 100 E1 n 20 80 v
+a 0 s 0 0 15 82 hcn 100 PIN=2
+a 0 s 0 0 0 40 hln 100 ERC=x
+p 0 13 62 hln 100 B1 n 0 60 h
+a 0 s 0 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 40 hln 100 ERC=x
+p 0 17 42 hrn 100 C1 n 30 40 u
+a 0 s 0 0 25 38 hln 100 PIN=4
+a 0 s 0 0 30 40 hln 100 ERC=x
+@graphics 30 80 0 20 10
+v 0 20 30
+20 50
+;
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 50
+10 70
+;
+v 0 20 50
+10 55
+;
+v 0 20 70
+10 65
+;
+v 0 11 68
+18 69
+13 64
+;
+*symbol BFC540/PLP
+d TRANSISTOR, NPN WIDEBAND CASCODE
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %C1 %B1 %E1 %C2 %B2 @MODEL ?VALUE/@VALUE/
+a 0 sp 11 0 -6 41 hcn 100 PART=BFC540/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFC540/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+a 0 s 9 0 1 4 hcn 100 REFDES=Q?
+@pins
+p 0 13 22 hln 100 B2 n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C2 n 20 0 d
+a 0 s 0 0 25 3 hcn 100 PIN=5
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 80 hcn 100 E1 n 20 80 v
+a 0 s 0 0 15 82 hcn 100 PIN=2
+a 0 s 0 0 0 40 hln 100 ERC=x
+p 0 13 62 hln 100 B1 n 0 60 h
+a 0 s 0 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 40 hln 100 ERC=x
+p 0 17 42 hrn 100 C1 n 30 40 u
+a 0 s 0 0 25 38 hln 100 PIN=4
+a 0 s 0 0 30 40 hln 100 ERC=x
+@graphics 30 80 0 20 10
+v 0 20 30
+20 50
+;
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 50
+10 70
+;
+v 0 20 50
+10 55
+;
+v 0 20 70
+10 65
+;
+v 0 11 68
+18 69
+13 64
+;
+*symbol BFE505/PLP
+d TRANSISTOR, RF WIDEBAND,DIFFERENTIAL, NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %C1 %B1 %E %C2 %B2 @MODEL ?VALUE/@VALUE/
+a 0 sp 11 0 60 48 hcn 100 PART=BFE505/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFE505/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+a 0 s 9 0 8 8 hcn 100 REFDES=Q?
+@pins
+p 0 25 50 hcn 100 E n 30 50 v
+a 0 s 0 0 25 52 hcn 100 PIN=2
+a 0 s 0 0 10 10 hln 100 ERC=x
+p 0 13 22 hln 100 B1 n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C1 n 20 0 d
+a 0 s 0 0 25 3 hcn 100 PIN=5
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 47 22 hrn 100 B2 n 60 20 u
+a 0 s 0 0 55 18 hln 100 PIN=3
+a 0 s 0 0 40 0 hln 100 ERC=x
+p 0 21 -30 hct 100 C2 n 40 0 d
+a 0 s 0 0 45 3 hcn 100 PIN=4
+a 0 s 0 0 40 0 hln 100 ERC=x
+@graphics 60 50 0 20 10
+v 0 20 30
+20 35
+;
+v 0 40 35
+40 30
+;
+v 0 20 40
+30 40
+;
+v 0 30 40
+40 40
+;
+v 0 40 35
+40 30
+;
+v 0 20 35
+20 30
+;
+v 0 20 40
+20 35
+;
+v 0 40 35
+40 40
+;
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 50 10
+50 30
+;
+v 0 40 10
+50 15
+;
+v 0 40 30
+50 25
+;
+v 0 49 28
+42 29
+47 24
+;
+*symbol BFE520/PLP
+d TRANSISTOR, RF WIDEBAND,DIFFERENTIAL, NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %C1 %B1 %E %C2 %B2 @MODEL ?VALUE/@VALUE/
+a 0 sp 11 0 60 50 hcn 100 PART=BFE520/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFE520/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+a 0 s 9 0 8 8 hcn 100 REFDES=Q?
+@pins
+p 0 25 50 hcn 100 E n 30 50 v
+a 0 s 0 0 25 52 hcn 100 PIN=2
+a 0 s 0 0 10 10 hln 100 ERC=x
+p 0 13 22 hln 100 B1 n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C1 n 20 0 d
+a 0 s 0 0 25 3 hcn 100 PIN=5
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 47 22 hrn 100 B2 n 60 20 u
+a 0 s 0 0 55 18 hln 100 PIN=3
+a 0 s 0 0 40 0 hln 100 ERC=x
+p 0 21 -30 hct 100 C2 n 40 0 d
+a 0 s 0 0 45 3 hcn 100 PIN=4
+a 0 s 0 0 40 0 hln 100 ERC=x
+@graphics 60 50 0 20 10
+v 0 20 30
+20 35
+;
+v 0 40 35
+40 30
+;
+v 0 20 40
+30 40
+;
+v 0 30 40
+40 40
+;
+v 0 40 35
+40 30
+;
+v 0 20 35
+20 30
+;
+v 0 20 40
+20 35
+;
+v 0 40 35
+40 40
+;
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 50 10
+50 30
+;
+v 0 40 10
+50 15
+;
+v 0 40 30
+50 25
+;
+v 0 49 28
+42 29
+47 24
+;
+*symbol BFE540/PLP
+d TRANSISTOR, RF WIDEBAND,DIFFERENTIAL, NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %C1 %B1 %E %C2 %B2 @MODEL ?VALUE/@VALUE/
+a 0 sp 11 0 60 50 hcn 100 PART=BFE540/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFE540/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+a 0 s 9 0 8 8 hcn 100 REFDES=Q?
+@pins
+p 0 25 50 hcn 100 E n 30 50 v
+a 0 s 0 0 25 52 hcn 100 PIN=2
+a 0 s 0 0 10 10 hln 100 ERC=x
+p 0 13 22 hln 100 B1 n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C1 n 20 0 d
+a 0 s 0 0 25 3 hcn 100 PIN=5
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 47 22 hrn 100 B2 n 60 20 u
+a 0 s 0 0 55 18 hln 100 PIN=3
+a 0 s 0 0 40 0 hln 100 ERC=x
+p 0 21 -30 hct 100 C2 n 40 0 d
+a 0 s 0 0 45 3 hcn 100 PIN=4
+a 0 s 0 0 40 0 hln 100 ERC=x
+@graphics 60 50 0 20 10
+v 0 20 30
+20 35
+;
+v 0 40 35
+40 30
+;
+v 0 20 40
+30 40
+;
+v 0 30 40
+40 40
+;
+v 0 40 35
+40 30
+;
+v 0 20 35
+20 30
+;
+v 0 20 40
+20 35
+;
+v 0 40 35
+40 40
+;
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 50 10
+50 30
+;
+v 0 40 10
+50 15
+;
+v 0 40 30
+50 25
+;
+v 0 49 28
+42 29
+47 24
+;
+*symbol BFG10/PLP
+d TRANSISTOR, RF POWER, NPN 2 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFG10/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG10/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG10/X/PLP
+d TRANSISTOR, RF POWER, NPN 2 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 41 23 hcn 100 PART=BFG10/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG10/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG10W/X/PLP
+d TRANSISTOR, RF UHF POWER, NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 44 22 hcn 100 PART=BFG10W/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG10W/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG11/PLP
+d TRANSISTOR, RF POWER, NPN 2 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFG11/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG11/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG11/X/PLP
+d TRANSISTOR, RF POWER, NPN 2 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 43 23 hcn 100 PART=BFG11/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG11/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG11W/X/PLP
+d TRANSISTOR, RF DECT POWER, NPN 2 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 44 22 hcn 100 PART=BFG11W/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG11W/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG16A/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 2 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 22 hcn 100 PART=BFG16A/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG16A/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG25AW/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 40 23 hcn 100 PART=BFG25AW/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG25AW/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG25AW/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 47 22 hcn 100 PART=BFG25AW/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG25AW/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG25AW/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 48 22 hcn 100 PART=BFG25AW/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG25AW/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG31/PLP
+d TRANSISTOR, WIDEBAND, PNP 5 GHZ
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BFG31/PLP
+a 0 sp 0 0 0 0 hln 100 MODEL=BFG31/PLP
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=4
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BFG35/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 34 22 hcn 100 PART=BFG35/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG35/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG67/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 8 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFG67/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG67/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG67/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 8 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 41 22 hcn 100 PART=BFG67/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG67/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG67/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 8 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 41 22 hcn 100 PART=BFG67/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG67/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG67W/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 8 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 37 22 hcn 100 PART=BFG67W/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG67W/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG67W/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 8 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 44 22 hcn 100 PART=BFG67W/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG67W/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG92A/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 39 23 hcn 100 PART=BFG92A/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG92A/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG92A/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 45 23 hcn 100 PART=BFG92A/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG92A/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG92A/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 47 23 hcn 100 PART=BFG92A/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG92A/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG92AW/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 6 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 39 23 hcn 100 PART=BFG92AW/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG92AW/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG92AW/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 6 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 45 22 hcn 100 PART=BFG92AW/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG92AW/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG92AW/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 6 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 47 22 hcn 100 PART=BFG92AW/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG92AW/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG93A/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 6 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 39 23 hcn 100 PART=BFG93A/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG93A/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG93A/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 6 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 46 23 hcn 100 PART=BFG93A/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG93A/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG93AW/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 39 23 hcn 100 PART=BFG93AW/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG93AW/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG93AW/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 45 22 hcn 100 PART=BFG93AW/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG93AW/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG93AW/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 47 22 hcn 100 PART=BFG93AW/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG93AW/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG94/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 6 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 35 23 hcn 100 PART=BFG94/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG94/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG97/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 37 23 hcn 100 PART=BFG97/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG97/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG135/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 39 23 hcn 100 PART=BFG135/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG135/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG197/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 37 23 hcn 100 PART=BFG197/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG197/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG197/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 43 23 hcn 100 PART=BFG197/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG197/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG197W/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 41 23 hcn 100 PART=BFG197W/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG197W/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG197W/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 46 23 hcn 100 PART=BFG197W/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG197W/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG197W/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 48 23 hcn 100 PART=BFG197W/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG197W/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG198/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 8 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 39 23 hcn 100 PART=BFG198/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG198/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG505/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 39 23 hcn 100 PART=BFG505/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG505/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG505/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 45 23 hcn 100 PART=BFG505/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG505/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG505/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 46 23 hcn 100 PART=BFG505/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG505/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG505W/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 41 23 hcn 100 PART=BFG505W/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG505W/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG505W/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 47 23 hcn 100 PART=BFG505W/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG505W/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG505W/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 49 23 hcn 100 PART=BFG505W/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG505W/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG520/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 37 23 hcn 100 PART=BFG520/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG520/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG520/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 43 23 hcn 100 PART=BFG520/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG520/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG520/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 47 22 hcn 100 PART=BFG520/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG520/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG520W/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 43 23 hcn 100 PART=BFG520W/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG520W/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG520W/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 46 22 hcn 100 PART=BFG520W/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG520W/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG520W/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 49 22 hcn 100 PART=BFG520W/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG520W/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG540/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 37 23 hcn 100 PART=BFG540/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG540/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG540/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 43 23 hcn 100 PART=BFG540/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG540/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG540/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 45 22 hcn 100 PART=BFG540/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG540/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG540W/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 41 23 hcn 100 PART=BFG540W/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG540W/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG540W/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 46 22 hcn 100 PART=BFG540W/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG540W/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG541/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 39 23 hcn 100 PART=BFG541/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG541/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG590/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 37 23 hcn 100 PART=BFG590/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG590/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG590/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 43 23 hcn 100 PART=BFG590/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG590/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG590/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 47 22 hcn 100 PART=BFG590/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG590/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG590W/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 41 23 hcn 100 PART=BFG590W/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG590W/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG590W/X/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 44 22 hcn 100 PART=BFG590W/X/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG590W/X/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG540W/XR/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 48 22 hcn 100 PART=BFG540W/XR/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG540W/XR/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFG591/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 37 23 hcn 100 PART=BFG591/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFG591/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP91A/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 6 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 39 23 hcn 100 PART=BFP91A/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP91A/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFP96/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 35 23 hcn 100 PART=BFP96/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFP96/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ17/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 1 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 37 23 hcn 100 PART=BFQ17/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ17/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ18A/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 4 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 39 23 hcn 100 PART=BFQ18A/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ18A/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ19/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 35 23 hcn 100 PART=BFQ19/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ19/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ66/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 8 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 35 23 hcn 100 PART=BFQ66/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ66/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ67/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 8 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 9 8 hcn 100 refdes=Q?
+a 0 sp 11 0 36 22 hcn 100 PART=BFQ67/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ67/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ67W/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 8 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFQ67W/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ67W/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ135/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 6.5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFQ135/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ135/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ149/PLP
+d TRANSISTOR, RF WIDEBAND PNP 5 GHZ
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BFQ149/PLP
+a 0 sp 0 0 0 0 hln 100 MODEL=BFQ149/PLP
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BFQ270/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 6 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFQ270/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ270/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFQ621/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 7 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 40 23 hcn 100 PART=BFQ621/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFQ621/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR92A/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 40 23 hcn 100 PART=BFR92A/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR92A/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR92AW/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 40 23 hcn 100 PART=BFR92AW/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR92AW/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR93A/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 6 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFR93A/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR93A/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR93AW/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 40 23 hcn 100 PART=BFR93AW/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR93AW/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR95/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 3.5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 36 23 hcn 100 PART=BFR95/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR95/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR106/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 23 hcn 100 PART=BFR106/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR106/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR505/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFR505/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR505/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR520/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFR520/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR520/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFR540/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFR540/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFR540/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFS17/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 1 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFS17/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFS17/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFS17W/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 1 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 40 23 hcn 100 PART=BFS17W/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFS17W/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFS25A/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 40 23 hcn 100 PART=BFS25A/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFS25A/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFS505/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFS505/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFS505/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFS520/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFS520/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFS520/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFS540/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 9 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFS540/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFS540/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFT25A/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 5 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 36 23 hcn 100 PART=BFT25A/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFT25A/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BFT92/PLP
+d TRANSISTOR, RF WIDEBAND, PNP 5 GHZ
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BFT92/PLP
+a 0 sp 0 0 0 0 hln 100 MODEL=BFT92/PLP
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BFT92W/PLP
+d TRANSISTOR, RF WIDEBAND, PNP 4 GHZ
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BFT92W/PLP
+a 0 sp 0 0 0 0 hln 100 MODEL=BFT92W/PLP
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BFT93/PLP
+d TRANSISTOR, RF WIDEBAND, PNP 5 GHZ
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BFT93/PLP
+a 0 sp 0 0 0 0 hln 100 MODEL=BFT93/PLP
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BFT93W/PLP
+d TRANSISTOR, RF WIDEBAND, PNP 4 GHZ
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 12 22 hln 100 PART=BFT93W/PLP
+a 0 sp 0 0 0 0 hln 100 MODEL=BFT93W/PLP
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BFW16A/PLP
+d TRANSISTOR, RF WIDEBAND, NPN 1 GHZ
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 7 8 hcn 100 refdes=Q?
+a 0 sp 11 0 38 23 hcn 100 PART=BFW16A/PLP
+a 0 sp 0 0 10 40 hcn 100 MODEL=BFW16A/PLP
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;

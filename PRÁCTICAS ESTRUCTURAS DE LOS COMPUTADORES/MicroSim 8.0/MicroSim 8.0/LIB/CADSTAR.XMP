@@ -1,0 +1,18 @@
+# Part Mapping file for CADSTAR PCB Package
+
+# Copyright 1992,1993 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+# Capacitors (eg. 10PF-5%, 0.1" x 0.5"): 
+C                     @value?tolerance|-@tolerance|:?`pkgtype|@`pkgtype||7400|
+
+# Resistors  (eg. 10K-1%-TR4, 0.1" x 0.5"):
+R                     @value?tolerance|-@tolerance|-TR4:?`pkgtype|@`pkgtype||5240|
+
+# Inductor:
+L                     @value:?`pkgtype|@`pkgtype||3001|
+
+# Default rule works for TTL, etc:
+DEFAULT               ?component|@component||@part|:@`pkgtype
+

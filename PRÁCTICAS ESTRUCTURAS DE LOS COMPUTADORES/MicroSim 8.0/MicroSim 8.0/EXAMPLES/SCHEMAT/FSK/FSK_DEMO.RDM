@@ -1,0 +1,174 @@
+FSK Receiver - Hierarchy with Views
+===================================
+
+This design will run under MicroSim PSpice and Microsim PSpice A/D.
+
+Required symbol libraries:
+	fsk.slb
+	port.slb
+	abm.slb
+	analog.slb
+	bipolar.slb
+
+Required model libraries:
+	bipolar.lib
+
+Required special files:
+	fsk32.inc
+
+
+This example illustrates the use of hierachy in Schematics.
+
+The example will look at modeling and simulating a Frequency
+Shift Keyed (FSK) receiver.  FSK systems use distinct frequencies
+to represent states.  This system uses two frequencies.
+
+Top Level Schematic
+===================
+To begin our design, we use a top-down approach.
+For our top-level view of the system we have three blocks,
+connected together by wires and pins.  Blocks are similar to
+other symbols except that they can be resized and pins can
+be dynamically added, removed (deleted) and renamed.
+
+On this diagram we have 3 blocks showing [R to L] an FSK
+demodulator, a bandpass filter, and a test source.
+
+A block represents (or "contains") a schematic.  This is
+where the principle of hierarchy enters the picture.  To look
+inside a block, select it [the Test Source one] and select
+the Navigate/Push command.  [On the Sun, PIN the menu down.]
+
+Test Source
+===========
+The Test Source for this example consists of four stimuli,
+an adder and an attenuator.
+
+The top source is a simple VCO that is switched between the
+"1" and "0" frequencies of the FSK system - 45MHz and 55MHZ in
+this example.  The middle two blocks represent interference
+sources (frequencies of 35MHz and 65MHz).  The bottom source
+is used to inject a signal for AC analysis.
+
+This schematic also contains examples of hierarchy: [push into
+VCO block] when we push into the VCO block, we see that it 
+contains a schematic with a pulse source and a simple VCO circuit.
+The Navigate/Where command tells us where we are in our design.
+[Navigate/Where]  
+We can return up one level by selecting Navigate/Pop.  
+[Navigate/Pop]
+The Summer shows an example of a Hierarchical Symbol.  
+Hierarchical Symbols, just like blocks, have an associated 
+schematic.  The differences are that symbols have graphics, 
+whereas a block is a simple rectangle; and pins can be changed 
+"on the fly" on a block but not on a symbol.
+
+You can nest blocks inside symbols, symbols inside blocks, etc.
+
+You can pass attribute values "into" a level of hierarchy.  This
+technique is used here on the Attenuator [dB=40] to pass the
+desired attenuation through to the schematic implementing the
+attenuator.
+
+[back to top level schematic]
+
+Demodulator
+===========
+Now let's take a look at the Demodulator [select and Push].
+
+The type of demodulator used for this example is a simple
+delay-line/flipflop setup (construct).  A comparator squares off
+the incoming analog signal to produce TTL-compatible levels.  The
+flipflop has the comparator output applied to its Clock pin, and 
+the comparator output delayed by 20ns applied to its input (D) pin.
+
+The input data will be high when the clock edge rises if the
+period of the input signal is slightly greater than 20ns (ie.
+a frequency of just less than 50MHz).  The input data will be
+low when the clock edge rises if the input period is slightly
+less than 20ns (ie. a frequency of just greater than 50MHz).
+
+So an input frequency of 45MHz will cause the Q output of the
+flipflop to be high, and an input frequency of 55MHz will cause
+the output to be low.
+
+[select Navigate/Top]
+Now let's look at the remaining component of the system, the
+Bandpass Filter.  A filter is used in this system to remove
+interfering ("out-of-band") signals and noise.
+
+When we are designing a system like this, we don't want to
+be concerned with the details of filter implementation.  Later
+in the design cycle, we may be much more interested in filter
+details.  Hierarchical Views provide a convenient mechanism
+for handling this:
+
+[select Bandpass Filter box & Navigate/Push]
+This time when we select Push, a dialog appears, indicating that
+more than one schematic - or "View" - is associated with this block.
+I am using a simple naming scheme here, so that subschematics of
+block 1 start with "fsk1", the subschematics of block 2 (our current
+block) start with "fsk2", etc.
+
+Let's select the BEHAVIORAL view.
+
+This schematic contains a single PSpice frequency lookup table
+device.  The table here [below] consists of entries for
+magnitude and phase at each specified frequency.  This simple
+ideal filter allows us to test whether the system as a whole
+operates properly without spending too much time on the design
+of the filter itself.
+
+The other View of the bandpass filter [Pop, Push, select the
+Bandpass Filter and select TRANSISTOR; click OK] is a TRANSISTOR 
+view. This schematic is a simple common-base transistor amplifier.
+Stagger-tuning of the resonant circuits provides a bandpass
+frequency response.
+
+[back to the top level schematic]
+
+Simulating the System
+=====================
+Simulating a system with multiple views requires that we
+choose which view is to be used.  Here, we have configured
+the PSpice netlister to use the BEHAVIORAL View.  Any
+blocks that don't have a BEHAVIORAL view will use their
+DEFAULT view.
+
+We have performed a simulation where the input signal is
+55MHz for the first 200ns, 45MHz for the second 200ns.
+
+On this Probe display we can see the output signal of the
+bandpass filter and the outputs representing logic "1" and "0".
+
+[PC]
+These traces correspond to the Probe markers.
+
+[SUN - NO MARKERS]
+These traces correspond to the output of the bp filter and the 
+outputs of the demodulator on our top-level schematic.
+
+Now we could go on to look at using the transistor version
+of the bandpass filter, the effect of changing the length
+of the delay line, and so on.
+
+Summary
+=======
+Hierarchical Views in Schematics provide a fast and convenient
+way to develop systems.
+
+Starting with Blocks at the top level, each block is associated
+with one or more schematics - or "Views".  A view could be a
+behavioral model, a transistor-level model, a gate-level model,
+a digital expression model ... whatever level of detail is
+relevant to a particular phase of the design cycle.
+
+Although we haven't shown it here, Schematics also supports 
+bottom-up development, where existing schematics are turned 
+into Hierarchical Symbols.  These symbols are then used as 
+building blocks by higher levels of the design.
+
+The combination of Schematics, PSpice and Probe allows complex 
+systems to be designed and analyzed at different levels of detail.
+
+

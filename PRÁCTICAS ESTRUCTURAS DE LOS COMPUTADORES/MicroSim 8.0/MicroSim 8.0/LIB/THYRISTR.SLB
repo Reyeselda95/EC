@@ -1,0 +1,3512 @@
+*version 8.0 33736510
+@index
+symloc 2N1595:scr 0 125
+symloc 2N1595/75C:scr 125 197
+symloc 2N1596:scr 322 125
+symloc 2N1597:scr 447 125
+symloc 2N1599:scr 572 125
+symloc 2N2573:scr 697 125
+symloc 2N2574:scr 822 125
+symloc 2N2575:scr 947 125
+symloc 2N2576:scr 1072 125
+symloc 2N2577:scr 1197 125
+symloc 2N2578:scr 1322 125
+symloc 2N2579:scr 1447 125
+symloc 2N2646:UJT 1572 142
+symloc 2N2647:UJT 1714 142
+symloc 2N3668:scr 1856 125
+symloc 2N3669:scr 1981 125
+symloc 2N3670:scr 2106 125
+symloc 2N3870:scr 2231 125
+symloc 2N3871:scr 2356 125
+symloc 2N3872:scr 2481 125
+symloc 2N3873:scr 2606 125
+symloc 2N3896:scr 2731 125
+symloc 2N3897:scr 2856 125
+symloc 2N3898:scr 2981 125
+symloc 2N3899:scr 3106 125
+symloc 2N3980:UJT 3231 142
+symloc 2N4103:scr 3373 125
+symloc 2N4167:scr 3498 125
+symloc 2N4168:scr 3623 125
+symloc 2N4169:scr 3748 125
+symloc 2N4170:scr 3873 125
+symloc 2N4171:scr 3998 125
+symloc 2N4172:scr 4123 125
+symloc 2N4173:scr 4248 125
+symloc 2N4174:scr 4373 125
+symloc 2N4183:scr 4498 125
+symloc 2N4184:scr 4623 125
+symloc 2N4185:scr 4748 125
+symloc 2N4186:scr 4873 125
+symloc 2N4187:scr 4998 125
+symloc 2N4188:scr 5123 125
+symloc 2N4189:scr 5248 125
+symloc 2N4190:scr 5373 125
+symloc 2N4199:scr 5498 125
+symloc 2N4200:scr 5623 125
+symloc 2N4201:scr 5748 125
+symloc 2N4202:scr 5873 125
+symloc 2N4203:scr 5998 125
+symloc 2N4204:scr 6123 125
+symloc 2N4441:scr 6248 125
+symloc 2N4442:scr 6373 125
+symloc 2N4443:scr 6498 125
+symloc 2N4444:scr 6623 125
+symloc 2N4851:UJT 6748 142
+symloc 2N4852:UJT 6890 174
+symloc 2N4853:UJT 7064 142
+symloc 2N4870:UJT 7206 142
+symloc 2N4871:UJT 7348 142
+symloc 2N5060:scr 7490 125
+symloc 2N5061:scr 7615 125
+symloc 2N5062:scr 7740 125
+symloc 2N5063:scr 7865 125
+symloc 2N5064:scr 7990 125
+symloc 2N5168:scr 8115 125
+symloc 2N5169:scr 8240 125
+symloc 2N5170:scr 8365 125
+symloc 2N5171:scr 8490 125
+symloc 2N5431:UJT 8615 142
+symloc 2N5444:triac 8757 129
+symloc 2N5445:triac 8886 129
+symloc 2N5446:triac 9015 129
+symloc 2N5567:triac 9144 129
+symloc 2N5568:triac 9273 129
+symloc 2N5571:triac 9402 129
+symloc 2N5572:triac 9531 129
+symloc 2N6145:triac 9660 129
+symloc 2N6146:triac 9789 129
+symloc 2N6147:triac 9918 129
+symloc 2N6157:triac 10047 129
+symloc 2N6158:triac 10176 129
+symloc 2N6159:triac 10305 129
+symloc 2N6160:triac 10434 129
+symloc 2N6161:triac 10563 129
+symloc 2N6162:triac 10692 129
+symloc 2N6163:triac 10821 129
+symloc 2N6164:triac 10950 129
+symloc 2N6165:triac 11079 129
+symloc 2N6167:scr 11208 125
+symloc 2N6168:scr 11333 125
+symloc 2N6169:scr 11458 125
+symloc 2N6170:scr 11583 125
+symloc 2N6171:scr 11708 125
+symloc 2N6172:scr 11833 125
+symloc 2N6173:scr 11958 125
+symloc 2N6174:scr 12083 125
+symloc 2N6342:triac 12208 129
+symloc 2N6342A:triac 12337 132
+symloc 2N6343:triac 12469 129
+symloc 2N6343A:triac 12598 132
+symloc 2N6344:triac 12730 129
+symloc 2N6344A:triac 12859 132
+symloc 2N6345:triac 12991 129
+symloc 2N6345A:triac 13120 132
+symloc 2N6346:triac 13252 129
+symloc 2N6346A:triac 13381 132
+symloc 2N6347:triac 13513 129
+symloc 2N6347A:triac 13642 132
+symloc 2N6348:triac 13774 129
+symloc 2N6348A:triac 13903 132
+symloc 2N6349:triac 14035 129
+symloc 2N6349A:triac 14164 132
+symloc 2N6394:scr 14296 125
+symloc 2N6395:scr 14421 125
+symloc 2N6396:scr 14546 125
+symloc 2N6397:scr 14671 125
+symloc 2N6398:scr 14796 125
+symloc 2N6399:scr 14921 125
+symloc 2N6400:scr 15046 125
+symloc 2N6401:scr 15171 125
+symloc 2N6402:scr 15296 125
+symloc 2N6403:scr 15421 125
+symloc 2N6404:scr 15546 125
+symloc 2N6405:scr 15671 125
+symloc C228A:scr 15796 122
+symloc C228A3:scr 15918 125
+symloc C228B:scr 16043 122
+symloc C228B3:scr 16165 125
+symloc C228D:scr 16290 122
+symloc C228D3:scr 16412 125
+symloc C228M:scr 16537 122
+symloc C228M3:scr 16659 125
+symloc C232A:scr 16784 122
+symloc C232B:scr 16906 122
+symloc C232D:scr 17028 122
+symloc C232F:scr 17150 122
+symloc C232M:scr 17272 122
+symloc C233A:scr 17394 122
+symloc C233B:scr 17516 122
+symloc C233D:scr 17638 122
+symloc C233F:scr 17760 122
+symloc C233M:scr 17882 122
+symloc GA201A:scr 18004 144
+symloc MAC15-10:triac 18148 135
+symloc MAC15-10FP:triac 18283 141
+symloc MAC15-4:triac 18424 132
+symloc MAC15-4FP:triac 18556 138
+symloc MAC15-6:triac 18694 132
+symloc MAC15-6FP:triac 18826 138
+symloc MAC15-8:triac 18964 132
+symloc MAC15-8FP:triac 19096 138
+symloc MAC15A10:triac 19234 135
+symloc MAC15A10FP:triac 19369 141
+symloc MAC15A4:triac 19510 132
+symloc MAC15A4FP:triac 19642 138
+symloc MAC15A6:triac 19780 132
+symloc MAC15A6FP:triac 19912 138
+symloc MAC15A8:triac 20050 132
+symloc MAC15A8FP:triac 20182 138
+symloc MAC97-4:triac 20320 132
+symloc MAC97-6:triac 20452 132
+symloc MAC97-8:triac 20584 132
+symloc MAC97A4:triac 20716 132
+symloc MAC97A6:triac 20848 132
+symloc MAC97A8:triac 20980 132
+symloc MAC210-10:triac 21112 138
+symloc MAC210-10FP:triac 21250 144
+symloc MAC210-4:triac 21394 135
+symloc MAC210-4FP:triac 21529 141
+symloc MAC210-6:triac 21670 135
+symloc MAC210-6FP:triac 21805 141
+symloc MAC210-8:triac 21946 135
+symloc MAC210-8FP:triac 22081 141
+symloc MAC210A10:triac 22222 138
+symloc MAC210A10FP:triac 22360 144
+symloc MAC210A4:triac 22504 135
+symloc MAC210A4FP:triac 22639 141
+symloc MAC210A6:triac 22780 135
+symloc MAC210A6FP:triac 22915 141
+symloc MAC210A8:triac 23056 135
+symloc MAC210A8FP:triac 23191 141
+symloc MAC212-10:triac 23332 138
+symloc MAC212-10FP:triac 23470 144
+symloc MAC212-4:triac 23614 135
+symloc MAC212-4FP:triac 23749 141
+symloc MAC212-6:triac 23890 135
+symloc MAC212-6FP:triac 24025 141
+symloc MAC212-8:triac 24166 135
+symloc MAC212-8FP:triac 24301 141
+symloc MAC212A10:triac 24442 138
+symloc MAC212A10FP:triac 24580 144
+symloc MAC212A4:triac 24724 135
+symloc MAC212A4FP:triac 24859 141
+symloc MAC212A6:triac 25000 135
+symloc MAC212A6FP:triac 25135 141
+symloc MAC212A8:triac 25276 135
+symloc MAC212A8FP:triac 25411 141
+symloc MAC213-10:triac 25552 138
+symloc MAC213-4:triac 25690 135
+symloc MAC213-6:triac 25825 135
+symloc MAC213-8:triac 25960 135
+symloc MAC223-10:triac 26095 138
+symloc MAC223-10FP:triac 26233 144
+symloc MAC223-4:triac 26377 135
+symloc MAC223-4FP:triac 26512 141
+symloc MAC223-6:triac 26653 135
+symloc MAC223-6FP:triac 26788 141
+symloc MAC223-8:triac 26929 135
+symloc MAC223-8FP:triac 27064 141
+symloc MAC223A10:triac 27205 138
+symloc MAC223A10FP:triac 27343 144
+symloc MAC223A4:triac 27487 135
+symloc MAC223A4FP:triac 27622 141
+symloc MAC223A6:triac 27763 135
+symloc MAC223A6FP:triac 27898 141
+symloc MAC223A8:triac 28039 135
+symloc MAC223A8FP:triac 28174 141
+symloc MAC224-10:triac 28315 138
+symloc MAC224-4:triac 28453 135
+symloc MAC224-6:triac 28588 135
+symloc MAC224-8:triac 28723 135
+symloc MAC224A10:triac 28858 138
+symloc MAC224A4:triac 28996 135
+symloc MAC224A6:triac 29131 135
+symloc MAC224A8:triac 29266 135
+symloc MAC228-10:triac 29401 138
+symloc MAC228-10FP:triac 29539 144
+symloc MAC228-4:triac 29683 135
+symloc MAC228-4FP:triac 29818 141
+symloc MAC228-6:triac 29959 135
+symloc MAC228-6FP:triac 30094 141
+symloc MAC228-8:triac 30235 135
+symloc MAC228-8FP:triac 30370 141
+symloc MAC228A10:triac 30511 138
+symloc MAC228A10FP:triac 30649 144
+symloc MAC228A4:triac 30793 135
+symloc MAC228A4FP:triac 30928 141
+symloc MAC228A6:triac 31069 135
+symloc MAC228A6FP:triac 31204 141
+symloc MAC228A8:triac 31345 135
+symloc MAC228A8FP:triac 31480 141
+symloc MAC229-10:triac 31621 138
+symloc MAC229-10FP:triac 31759 144
+symloc MAC229-4:triac 31903 135
+symloc MAC229-4FP:triac 32038 141
+symloc MAC229-6:triac 32179 135
+symloc MAC229-6FP:triac 32314 141
+symloc MAC229-8:triac 32455 135
+symloc MAC229-8FP:triac 32590 141
+symloc MAC229A10:triac 32731 138
+symloc MAC229A10FP:triac 32869 144
+symloc MAC229A4:triac 33013 135
+symloc MAC229A4FP:triac 33148 141
+symloc MAC229A6:triac 33289 135
+symloc MAC229A6FP:triac 33424 141
+symloc MAC229A8:triac 33565 135
+symloc MAC229A8FP:triac 33700 141
+symloc MAC310-4:triac 33841 135
+symloc MAC310-6:triac 33976 135
+symloc MAC310-8:triac 34111 135
+symloc MAC310A4:triac 34246 135
+symloc MAC310A6:triac 34381 135
+symloc MAC310A8:triac 34516 135
+symloc MAC320-10:triac 34651 138
+symloc MAC320-10FP:triac 34789 144
+symloc MAC320-4:triac 34933 135
+symloc MAC320-4FP:triac 35068 141
+symloc MAC320-6:triac 35209 135
+symloc MAC320-6FP:triac 35344 141
+symloc MAC320-8:triac 35485 135
+symloc MAC320-8FP:triac 35620 141
+symloc MAC320A10:triac 35761 138
+symloc MAC320A10FP:triac 35899 144
+symloc MAC320A4:triac 36043 135
+symloc MAC320A4FP:triac 36178 141
+symloc MAC320A6:triac 36319 135
+symloc MAC320A6FP:triac 36454 141
+symloc MAC320A8:triac 36595 135
+symloc MAC320A8FP:triac 36730 141
+symloc MAC321-10:triac 36871 138
+symloc MAC321-4:triac 37009 135
+symloc MAC321-6:triac 37144 135
+symloc MAC321-8:triac 37279 135
+symloc MAC625-4:triac 37414 135
+symloc MAC625-6:triac 37549 135
+symloc MAC625-8:triac 37684 135
+symloc MAC635-4:triac 37819 135
+symloc MAC635-6:triac 37954 135
+symloc MAC635-8:triac 38089 135
+symloc MAC4110M:triac 38224 135
+symloc MAC4111M:triac 38359 135
+symloc MAC4120B:triac 38494 135
+symloc MAC4120D:triac 38629 135
+symloc MAC4120M:triac 38764 135
+symloc MAC4120N:triac 38899 135
+symloc MAC4121B:triac 39034 135
+symloc MAC4121D:triac 39169 135
+symloc MAC4121M:triac 39304 135
+symloc MAC4121N:triac 39439 135
+symloc MAC5441:triac 39574 132
+symloc MAC5442:triac 39706 132
+symloc MAC5443:triac 39838 132
+symloc MAC5569:triac 39970 132
+symloc MAC5570:triac 40102 132
+symloc MAC5573:triac 40234 132
+symloc MAC5574:triac 40366 132
+symloc MAC6400B:triac 40498 135
+symloc MAC6400D:triac 40633 135
+symloc MAC6400M:triac 40768 135
+symloc MAC6400N:triac 40903 135
+symloc MAC6401B:triac 41038 135
+symloc MAC6401D:triac 41173 135
+symloc MAC6401M:triac 41308 135
+symloc MAC6401N:triac 41443 135
+symloc MCR22-2:scr 41578 128
+symloc MCR22-3:scr 41706 128
+symloc MCR22-4:scr 41834 128
+symloc MCR22-6:scr 41962 128
+symloc MCR22-8:scr 42090 128
+symloc MCR218-10FP:scr 42218 140
+symloc MCR218-2FP:scr 42358 137
+symloc MCR218-4FP:scr 42495 137
+symloc MCR218-6FP:scr 42632 137
+symloc MCR218-8FP:scr 42769 137
+symloc MCR220-5:scr 42906 131
+symloc MCR220-7:scr 43037 131
+symloc MCR220-9:scr 43168 131
+symloc MCR221-5:scr 43299 131
+symloc MCR221-7:scr 43430 131
+symloc MCR221-9:scr 43561 131
+symloc MCR225-10FP:scr 43692 140
+symloc MCR225-2FP:scr 43832 137
+symloc MCR225-4FP:scr 43969 137
+symloc MCR225-6FP:scr 44106 137
+symloc MCR225-8FP:scr 44243 137
+symloc MCR229A:scr 44380 128
+symloc MCR229B:scr 44508 128
+symloc MCR229D:scr 44636 128
+symloc MCR229M:scr 44764 128
+symloc MCR230A:scr 44892 128
+symloc MCR230A3:scr 45020 131
+symloc MCR230B:scr 45151 128
+symloc MCR230B3:scr 45279 131
+symloc MCR230D:scr 45410 128
+symloc MCR230D3:scr 45538 131
+symloc MCR230F:scr 45669 128
+symloc MCR230F3:scr 45797 131
+symloc MCR230M:scr 45928 128
+symloc MCR230M3:scr 46056 131
+symloc MCR231A:scr 46187 128
+symloc MCR231A3:scr 46315 131
+symloc MCR231B:scr 46446 128
+symloc MCR231B3:scr 46574 131
+symloc MCR231D:scr 46705 128
+symloc MCR231D3:scr 46833 131
+symloc MCR231F:scr 46964 128
+symloc MCR231F3:scr 47092 131
+symloc MCR231M:scr 47223 128
+symloc MCR231M3:scr 47351 131
+symloc MCR649AP1:scr 47482 134
+symloc MCR649AP10:scr 47616 137
+symloc MCR649AP2:scr 47753 134
+symloc MCR649AP3:scr 47887 134
+symloc MCR649AP4:scr 48021 134
+symloc MCR649AP5:scr 48155 134
+symloc MCR649AP6:scr 48289 134
+symloc MCR649AP7:scr 48423 134
+symloc MCR649AP8:scr 48557 134
+symloc MCR649AP9:scr 48691 134
+symloc MCR729-10:scr 48825 134
+symloc MCR729-5:scr 48959 131
+symloc MCR729-6:scr 49090 131
+symloc MCR729-7:scr 49221 131
+symloc MCR729-8:scr 49352 131
+symloc MCR729-9:scr 49483 131
+symloc MCR1906-2:scr 49614 134
+symloc MCR1906-3:scr 49748 134
+symloc MCR1906-4:scr 49882 134
+symloc MCR1906-6:scr 50016 134
+symloc MCR1906-8:scr 50150 134
+symloc MCR3818-10:scr 50284 137
+symloc MCR3818-2:scr 50421 134
+symloc MCR3818-3:scr 50555 134
+symloc MCR3818-4:scr 50689 134
+symloc MCR3818-6:scr 50823 134
+symloc MCR3818-8:scr 50957 134
+symloc MCR3835-1:scr 51091 134
+symloc MCR3835-10:scr 51225 137
+symloc MCR3835-2:scr 51362 134
+symloc MCR3835-3:scr 51496 134
+symloc MCR3835-4:scr 51630 134
+symloc MCR3835-5:scr 51764 134
+symloc MCR3835-6:scr 51898 134
+symloc MCR3835-7:scr 52032 134
+symloc MCR3835-8:scr 52166 134
+symloc MCR3835-9:scr 52300 134
+symloc MCR3896:scr 52434 128
+symloc MCR3897:scr 52562 128
+symloc MCR3898:scr 52690 128
+symloc MCR3899:scr 52818 128
+symloc MCR3918-10A:scr 52946 140
+symloc MCR3918-2A:scr 53086 137
+symloc MCR3918-3A:scr 53223 137
+symloc MCR3918-4A:scr 53360 137
+symloc MCR3918-6A:scr 53497 137
+symloc MCR3918-8A:scr 53634 137
+symloc MCR3935-1:scr 53771 134
+symloc MCR3935-10:scr 53905 137
+symloc MCR3935-10A:scr 54042 140
+symloc MCR3935-2:scr 54182 134
+symloc MCR3935-2A:scr 54316 137
+symloc MCR3935-3:scr 54453 134
+symloc MCR3935-3A:scr 54587 137
+symloc MCR3935-4:scr 54724 134
+symloc MCR3935-4A:scr 54858 137
+symloc MCR3935-5:scr 54995 134
+symloc MCR3935-6:scr 55129 134
+symloc MCR3935-6A:scr 55263 137
+symloc MCR3935-7:scr 55400 134
+symloc MCR3935-8:scr 55534 134
+symloc MCR3935-8A:scr 55668 137
+symloc MCR3935-9:scr 55805 134
+symloc MCR5164:scr 55939 128
+symloc MCR5165:scr 56067 128
+symloc MCR5166:scr 56195 128
+symloc MCR5167:scr 56323 128
+symloc MU10:UJT 56451 136
+symloc MU20:UJT 56587 136
+symloc MU4891:UJT 56723 142
+symloc MU4892:UJT 56865 142
+symloc MU4893:UJT 57007 142
+symloc MU4894:UJT 57149 142
+symloc S2800A:scr 57291 125
+symloc S2800B:scr 57416 125
+symloc S2800D:scr 57541 125
+symloc S2800F:scr 57666 125
+symloc S2800M:scr 57791 125
+symloc S2800N:scr 57916 125
+symloc T2500B:triac 58041 129
+symloc T2500BFP:triac 58170 135
+symloc T2500D:triac 58305 129
+symloc T2500DFP:triac 58434 135
+symloc T2500M:triac 58569 129
+symloc T2500MFP:triac 58698 135
+symloc T2500N:triac 58833 129
+symloc T2500NFP:triac 58962 135
+symloc T2800B:triac 59097 129
+symloc T2800D:triac 59226 129
+symloc T2800M:triac 59355 129
+symloc T2801B:triac 59484 129
+symloc T2801D:triac 59613 129
+symloc T2801M:triac 59742 129
+symloc T2801N:triac 59871 129
+symloc T2802B:triac 60000 129
+symloc T2802D:triac 60129 129
+symloc T2802M:triac 60258 129
+symloc T4100M:triac 60387 129
+symloc T4101M:triac 60516 129
+symloc T6410B:triac 60645 129
+symloc T6410D:triac 60774 129
+symloc T6410M:triac 60903 129
+symloc T6410N:triac 61032 129
+symloc T6411B:triac 61161 129
+symloc T6411D:triac 61290 129
+symloc T6411M:triac 61419 129
+symloc T6411N:triac 61548 129
+symloc T6420B:triac 61677 129
+symloc T6420D:triac 61806 129
+symloc T6420M:triac 61935 129
+symloc T6420N:triac 62064 129
+symloc T6421B:triac 62193 129
+symloc T6421D:triac 62322 129
+symloc T6421M:triac 62451 129
+symloc T6421N:triac 62580 129
+symloc W1890/-55C:scr 62709 197
+symloc W1890/125C:scr 62906 197
+symloc W1890/25C/RAD:scr 63103 207
+symloc W1890/75C:scr 63310 193
+symloc W1890/27C:scr 63503 193
+symloc W2238S/-55C:scr 63696 194
+symloc W2238S/27C:scr 63890 190
+symloc W2238S/125C:scr 64080 194
+symloc UJT 64274 599 b
+symloc scr 64873 585 b
+symloc triac 65458 626 b
+symloc copyright 66084 575 b
+*symbol 2N1595 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N1595
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N1595
+*symbol 2N1595/75C ako scr
+d SCR Pre-rad model @75C
+@type p
+@attributes
+a 0 sp 11 0 27 28 hrn 100 PART=2N1595/75C
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N1595/75C
+a 0 s 0 0 29 30 hrn 100 COMPONENT=2N1595
+*symbol 2N1596 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N1596
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N1596
+*symbol 2N1597 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N1597
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N1597
+*symbol 2N1599 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N1599
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N1599
+*symbol 2N2573 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2573
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N2573
+*symbol 2N2574 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2574
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N2574
+*symbol 2N2575 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2575
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N2575
+*symbol 2N2576 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2576
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N2576
+*symbol 2N2577 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2577
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N2577
+*symbol 2N2578 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2578
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N2578
+*symbol 2N2579 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2579
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N2579
+*symbol 2N2646 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=2N2646
+a 0 sp 11 0 0 38 hln 100 PART=2N2646
+*symbol 2N2647 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=2N2647
+a 0 sp 11 0 0 40 hln 100 PART=2N2647
+*symbol 2N3668 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3668
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3668
+*symbol 2N3669 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3669
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3669
+*symbol 2N3670 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3670
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3670
+*symbol 2N3870 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3870
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3870
+*symbol 2N3871 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3871
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3871
+*symbol 2N3872 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3872
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3872
+*symbol 2N3873 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3873
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3873
+*symbol 2N3896 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3896
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3896
+*symbol 2N3897 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3897
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3897
+*symbol 2N3898 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3898
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3898
+*symbol 2N3899 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N3899
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N3899
+*symbol 2N3980 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=2N3980
+a 0 sp 11 0 2 38 hln 100 PART=2N3980
+*symbol 2N4103 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4103
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4103
+*symbol 2N4167 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4167
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4167
+*symbol 2N4168 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4168
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4168
+*symbol 2N4169 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4169
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4169
+*symbol 2N4170 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4170
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4170
+*symbol 2N4171 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4171
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4171
+*symbol 2N4172 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4172
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4172
+*symbol 2N4173 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4173
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4173
+*symbol 2N4174 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4174
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4174
+*symbol 2N4183 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4183
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4183
+*symbol 2N4184 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4184
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4184
+*symbol 2N4185 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4185
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4185
+*symbol 2N4186 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4186
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4186
+*symbol 2N4187 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4187
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4187
+*symbol 2N4188 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4188
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4188
+*symbol 2N4189 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4189
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4189
+*symbol 2N4190 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4190
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4190
+*symbol 2N4199 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4199
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4199
+*symbol 2N4200 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4200
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4200
+*symbol 2N4201 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4201
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4201
+*symbol 2N4202 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4202
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4202
+*symbol 2N4203 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4203
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4203
+*symbol 2N4204 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4204
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4204
+*symbol 2N4441 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4441
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4441
+*symbol 2N4442 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4442
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4442
+*symbol 2N4443 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4443
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4443
+*symbol 2N4444 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N4444
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N4444
+*symbol 2N4851 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=2N4851
+a 0 sp 11 0 2 38 hln 100 PART=2N4851
+*symbol 2N4852 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=2N4852
+a 1 s 9 0 3 8 hln 100 refdes=X?
+a 0 sp 11 0 0 38 hln 100 PART=2N4852
+*symbol 2N4853 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=2N4853
+a 0 sp 11 0 0 42 hln 100 PART=2N4853
+*symbol 2N4870 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=2N4870
+a 0 sp 11 0 2 38 hln 100 PART=2N4870
+*symbol 2N4871 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=2N4871
+a 0 sp 11 0 0 40 hln 100 PART=2N4871
+*symbol 2N5060 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5060
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5060
+*symbol 2N5061 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5061
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5061
+*symbol 2N5062 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5062
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5062
+*symbol 2N5063 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5063
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5063
+*symbol 2N5064 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5064
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5064
+*symbol 2N5168 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5168
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5168
+*symbol 2N5169 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5169
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5169
+*symbol 2N5170 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5170
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5170
+*symbol 2N5171 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5171
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5171
+*symbol 2N5431 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=2N5431
+a 0 sp 11 0 0 38 hln 100 PART=2N5431
+*symbol 2N5444 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5444
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5444
+*symbol 2N5445 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5445
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5445
+*symbol 2N5446 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5446
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5446
+*symbol 2N5567 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5567
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5567
+*symbol 2N5568 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5568
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5568
+*symbol 2N5571 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5571
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5571
+*symbol 2N5572 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N5572
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N5572
+*symbol 2N6145 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6145
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6145
+*symbol 2N6146 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6146
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6146
+*symbol 2N6147 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6147
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6147
+*symbol 2N6157 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6157
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6157
+*symbol 2N6158 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6158
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6158
+*symbol 2N6159 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6159
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6159
+*symbol 2N6160 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6160
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6160
+*symbol 2N6161 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6161
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6161
+*symbol 2N6162 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6162
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6162
+*symbol 2N6163 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6163
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6163
+*symbol 2N6164 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6164
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6164
+*symbol 2N6165 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6165
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6165
+*symbol 2N6167 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6167
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6167
+*symbol 2N6168 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6168
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6168
+*symbol 2N6169 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6169
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6169
+*symbol 2N6170 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6170
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6170
+*symbol 2N6171 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6171
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6171
+*symbol 2N6172 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6172
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6172
+*symbol 2N6173 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6173
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6173
+*symbol 2N6174 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6174
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6174
+*symbol 2N6342 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6342
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6342
+*symbol 2N6342A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6342A
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6342A
+*symbol 2N6343 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6343
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6343
+*symbol 2N6343A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6343A
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6343A
+*symbol 2N6344 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6344
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6344
+*symbol 2N6344A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6344A
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6344A
+*symbol 2N6345 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6345
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6345
+*symbol 2N6345A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6345A
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6345A
+*symbol 2N6346 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6346
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6346
+*symbol 2N6346A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6346A
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6346A
+*symbol 2N6347 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6347
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6347
+*symbol 2N6347A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6347A
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6347A
+*symbol 2N6348 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6348
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6348
+*symbol 2N6348A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6348A
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6348A
+*symbol 2N6349 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6349
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6349
+*symbol 2N6349A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6349A
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6349A
+*symbol 2N6394 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6394
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6394
+*symbol 2N6395 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6395
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6395
+*symbol 2N6396 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6396
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6396
+*symbol 2N6397 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6397
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6397
+*symbol 2N6398 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6398
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6398
+*symbol 2N6399 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6399
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6399
+*symbol 2N6400 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6400
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6400
+*symbol 2N6401 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6401
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6401
+*symbol 2N6402 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6402
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6402
+*symbol 2N6403 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6403
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6403
+*symbol 2N6404 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6404
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6404
+*symbol 2N6405 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6405
+a 0 sp 0 0 29 30 hrn 100 MODEL=2N6405
+*symbol C228A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C228A
+a 0 sp 0 0 29 30 hrn 100 MODEL=C228A
+*symbol C228A3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C228A3
+a 0 sp 0 0 29 30 hrn 100 MODEL=C228A3
+*symbol C228B ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C228B
+a 0 sp 0 0 29 30 hrn 100 MODEL=C228B
+*symbol C228B3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C228B3
+a 0 sp 0 0 29 30 hrn 100 MODEL=C228B3
+*symbol C228D ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C228D
+a 0 sp 0 0 29 30 hrn 100 MODEL=C228D
+*symbol C228D3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C228D3
+a 0 sp 0 0 29 30 hrn 100 MODEL=C228D3
+*symbol C228M ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C228M
+a 0 sp 0 0 29 30 hrn 100 MODEL=C228M
+*symbol C228M3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C228M3
+a 0 sp 0 0 29 30 hrn 100 MODEL=C228M3
+*symbol C232A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C232A
+a 0 sp 0 0 29 30 hrn 100 MODEL=C232A
+*symbol C232B ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C232B
+a 0 sp 0 0 29 30 hrn 100 MODEL=C232B
+*symbol C232D ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C232D
+a 0 sp 0 0 29 30 hrn 100 MODEL=C232D
+*symbol C232F ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C232F
+a 0 sp 0 0 29 30 hrn 100 MODEL=C232F
+*symbol C232M ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C232M
+a 0 sp 0 0 29 30 hrn 100 MODEL=C232M
+*symbol C233A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C233A
+a 0 sp 0 0 29 30 hrn 100 MODEL=C233A
+*symbol C233B ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C233B
+a 0 sp 0 0 29 30 hrn 100 MODEL=C233B
+*symbol C233D ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C233D
+a 0 sp 0 0 29 30 hrn 100 MODEL=C233D
+*symbol C233F ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C233F
+a 0 sp 0 0 29 30 hrn 100 MODEL=C233F
+*symbol C233M ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C233M
+a 0 sp 0 0 29 30 hrn 100 MODEL=C233M
+*symbol GA201A ako scr
+d SCR Pre-rad model @27C
+@type p
+@attributes
+a 0 sp 11 0 27 28 hrn 100 PART=GA201A
+a 0 sp 0 0 29 30 hrn 100 MODEL=GA201A
+*symbol MAC15-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15-10
+*symbol MAC15-10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15-10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15-10FP
+*symbol MAC15-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15-4
+*symbol MAC15-4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15-4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15-4FP
+*symbol MAC15-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15-6
+*symbol MAC15-6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15-6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15-6FP
+*symbol MAC15-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15-8
+*symbol MAC15-8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15-8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15-8FP
+*symbol MAC15A10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15A10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15A10
+*symbol MAC15A10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15A10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15A10FP
+*symbol MAC15A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15A4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15A4
+*symbol MAC15A4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15A4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15A4FP
+*symbol MAC15A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15A6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15A6
+*symbol MAC15A6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15A6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15A6FP
+*symbol MAC15A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15A8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15A8
+*symbol MAC15A8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC15A8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC15A8FP
+*symbol MAC97-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC97-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC97-4
+*symbol MAC97-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC97-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC97-6
+*symbol MAC97-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC97-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC97-8
+*symbol MAC97A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC97A4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC97A4
+*symbol MAC97A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC97A6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC97A6
+*symbol MAC97A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC97A8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC97A8
+*symbol MAC210-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210-10
+*symbol MAC210-10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210-10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210-10FP
+*symbol MAC210-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210-4
+*symbol MAC210-4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210-4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210-4FP
+*symbol MAC210-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210-6
+*symbol MAC210-6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210-6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210-6FP
+*symbol MAC210-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210-8
+*symbol MAC210-8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210-8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210-8FP
+*symbol MAC210A10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210A10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210A10
+*symbol MAC210A10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210A10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210A10FP
+*symbol MAC210A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210A4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210A4
+*symbol MAC210A4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210A4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210A4FP
+*symbol MAC210A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210A6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210A6
+*symbol MAC210A6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210A6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210A6FP
+*symbol MAC210A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210A8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210A8
+*symbol MAC210A8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC210A8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC210A8FP
+*symbol MAC212-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212-10
+*symbol MAC212-10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212-10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212-10FP
+*symbol MAC212-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212-4
+*symbol MAC212-4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212-4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212-4FP
+*symbol MAC212-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212-6
+*symbol MAC212-6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212-6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212-6FP
+*symbol MAC212-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212-8
+*symbol MAC212-8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212-8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212-8FP
+*symbol MAC212A10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212A10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212A10
+*symbol MAC212A10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212A10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212A10FP
+*symbol MAC212A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212A4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212A4
+*symbol MAC212A4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212A4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212A4FP
+*symbol MAC212A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212A6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212A6
+*symbol MAC212A6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212A6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212A6FP
+*symbol MAC212A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212A8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212A8
+*symbol MAC212A8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC212A8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC212A8FP
+*symbol MAC213-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC213-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC213-10
+*symbol MAC213-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC213-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC213-4
+*symbol MAC213-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC213-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC213-6
+*symbol MAC213-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC213-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC213-8
+*symbol MAC223-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223-10
+*symbol MAC223-10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223-10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223-10FP
+*symbol MAC223-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223-4
+*symbol MAC223-4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223-4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223-4FP
+*symbol MAC223-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223-6
+*symbol MAC223-6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223-6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223-6FP
+*symbol MAC223-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223-8
+*symbol MAC223-8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223-8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223-8FP
+*symbol MAC223A10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223A10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223A10
+*symbol MAC223A10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223A10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223A10FP
+*symbol MAC223A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223A4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223A4
+*symbol MAC223A4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223A4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223A4FP
+*symbol MAC223A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223A6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223A6
+*symbol MAC223A6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223A6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223A6FP
+*symbol MAC223A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223A8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223A8
+*symbol MAC223A8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC223A8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC223A8FP
+*symbol MAC224-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC224-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC224-10
+*symbol MAC224-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC224-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC224-4
+*symbol MAC224-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC224-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC224-6
+*symbol MAC224-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC224-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC224-8
+*symbol MAC224A10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC224A10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC224A10
+*symbol MAC224A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC224A4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC224A4
+*symbol MAC224A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC224A6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC224A6
+*symbol MAC224A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC224A8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC224A8
+*symbol MAC228-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228-10
+*symbol MAC228-10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228-10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228-10FP
+*symbol MAC228-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228-4
+*symbol MAC228-4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228-4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228-4FP
+*symbol MAC228-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228-6
+*symbol MAC228-6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228-6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228-6FP
+*symbol MAC228-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228-8
+*symbol MAC228-8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228-8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228-8FP
+*symbol MAC228A10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228A10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228A10
+*symbol MAC228A10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228A10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228A10FP
+*symbol MAC228A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228A4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228A4
+*symbol MAC228A4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228A4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228A4FP
+*symbol MAC228A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228A6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228A6
+*symbol MAC228A6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228A6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228A6FP
+*symbol MAC228A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228A8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228A8
+*symbol MAC228A8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC228A8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC228A8FP
+*symbol MAC229-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229-10
+*symbol MAC229-10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229-10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229-10FP
+*symbol MAC229-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229-4
+*symbol MAC229-4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229-4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229-4FP
+*symbol MAC229-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229-6
+*symbol MAC229-6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229-6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229-6FP
+*symbol MAC229-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229-8
+*symbol MAC229-8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229-8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229-8FP
+*symbol MAC229A10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229A10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229A10
+*symbol MAC229A10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229A10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229A10FP
+*symbol MAC229A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229A4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229A4
+*symbol MAC229A4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229A4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229A4FP
+*symbol MAC229A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229A6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229A6
+*symbol MAC229A6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229A6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229A6FP
+*symbol MAC229A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229A8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229A8
+*symbol MAC229A8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC229A8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC229A8FP
+*symbol MAC310-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC310-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC310-4
+*symbol MAC310-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC310-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC310-6
+*symbol MAC310-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC310-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC310-8
+*symbol MAC310A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC310A4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC310A4
+*symbol MAC310A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC310A6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC310A6
+*symbol MAC310A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC310A8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC310A8
+*symbol MAC320-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320-10
+*symbol MAC320-10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320-10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320-10FP
+*symbol MAC320-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320-4
+*symbol MAC320-4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320-4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320-4FP
+*symbol MAC320-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320-6
+*symbol MAC320-6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320-6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320-6FP
+*symbol MAC320-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320-8
+*symbol MAC320-8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320-8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320-8FP
+*symbol MAC320A10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320A10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320A10
+*symbol MAC320A10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320A10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320A10FP
+*symbol MAC320A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320A4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320A4
+*symbol MAC320A4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320A4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320A4FP
+*symbol MAC320A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320A6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320A6
+*symbol MAC320A6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320A6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320A6FP
+*symbol MAC320A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320A8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320A8
+*symbol MAC320A8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC320A8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC320A8FP
+*symbol MAC321-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC321-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC321-10
+*symbol MAC321-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC321-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC321-4
+*symbol MAC321-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC321-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC321-6
+*symbol MAC321-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC321-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC321-8
+*symbol MAC625-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC625-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC625-4
+*symbol MAC625-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC625-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC625-6
+*symbol MAC625-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC625-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC625-8
+*symbol MAC635-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC635-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC635-4
+*symbol MAC635-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC635-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC635-6
+*symbol MAC635-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC635-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC635-8
+*symbol MAC4110M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC4110M
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC4110M
+*symbol MAC4111M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC4111M
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC4111M
+*symbol MAC4120B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC4120B
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC4120B
+*symbol MAC4120D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC4120D
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC4120D
+*symbol MAC4120M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC4120M
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC4120M
+*symbol MAC4120N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC4120N
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC4120N
+*symbol MAC4121B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC4121B
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC4121B
+*symbol MAC4121D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC4121D
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC4121D
+*symbol MAC4121M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC4121M
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC4121M
+*symbol MAC4121N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC4121N
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC4121N
+*symbol MAC5441 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC5441
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC5441
+*symbol MAC5442 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC5442
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC5442
+*symbol MAC5443 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC5443
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC5443
+*symbol MAC5569 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC5569
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC5569
+*symbol MAC5570 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC5570
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC5570
+*symbol MAC5573 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC5573
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC5573
+*symbol MAC5574 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC5574
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC5574
+*symbol MAC6400B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC6400B
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC6400B
+*symbol MAC6400D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC6400D
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC6400D
+*symbol MAC6400M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC6400M
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC6400M
+*symbol MAC6400N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC6400N
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC6400N
+*symbol MAC6401B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC6401B
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC6401B
+*symbol MAC6401D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC6401D
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC6401D
+*symbol MAC6401M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC6401M
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC6401M
+*symbol MAC6401N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC6401N
+a 0 sp 0 0 29 30 hrn 100 MODEL=MAC6401N
+*symbol MCR22-2 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR22-2
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR22-2
+*symbol MCR22-3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR22-3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR22-3
+*symbol MCR22-4 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR22-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR22-4
+*symbol MCR22-6 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR22-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR22-6
+*symbol MCR22-8 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR22-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR22-8
+*symbol MCR218-10FP ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR218-10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR218-10FP
+*symbol MCR218-2FP ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR218-2FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR218-2FP
+*symbol MCR218-4FP ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR218-4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR218-4FP
+*symbol MCR218-6FP ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR218-6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR218-6FP
+*symbol MCR218-8FP ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR218-8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR218-8FP
+*symbol MCR220-5 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR220-5
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR220-5
+*symbol MCR220-7 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR220-7
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR220-7
+*symbol MCR220-9 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR220-9
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR220-9
+*symbol MCR221-5 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR221-5
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR221-5
+*symbol MCR221-7 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR221-7
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR221-7
+*symbol MCR221-9 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR221-9
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR221-9
+*symbol MCR225-10FP ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR225-10FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR225-10FP
+*symbol MCR225-2FP ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR225-2FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR225-2FP
+*symbol MCR225-4FP ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR225-4FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR225-4FP
+*symbol MCR225-6FP ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR225-6FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR225-6FP
+*symbol MCR225-8FP ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR225-8FP
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR225-8FP
+*symbol MCR229A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR229A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR229A
+*symbol MCR229B ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR229B
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR229B
+*symbol MCR229D ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR229D
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR229D
+*symbol MCR229M ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR229M
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR229M
+*symbol MCR230A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR230A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR230A
+*symbol MCR230A3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR230A3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR230A3
+*symbol MCR230B ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR230B
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR230B
+*symbol MCR230B3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR230B3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR230B3
+*symbol MCR230D ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR230D
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR230D
+*symbol MCR230D3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR230D3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR230D3
+*symbol MCR230F ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR230F
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR230F
+*symbol MCR230F3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR230F3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR230F3
+*symbol MCR230M ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR230M
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR230M
+*symbol MCR230M3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR230M3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR230M3
+*symbol MCR231A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR231A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR231A
+*symbol MCR231A3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR231A3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR231A3
+*symbol MCR231B ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR231B
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR231B
+*symbol MCR231B3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR231B3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR231B3
+*symbol MCR231D ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR231D
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR231D
+*symbol MCR231D3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR231D3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR231D3
+*symbol MCR231F ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR231F
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR231F
+*symbol MCR231F3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR231F3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR231F3
+*symbol MCR231M ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR231M
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR231M
+*symbol MCR231M3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR231M3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR231M3
+*symbol MCR649AP1 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR649AP1
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR649AP1
+*symbol MCR649AP10 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR649AP10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR649AP10
+*symbol MCR649AP2 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR649AP2
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR649AP2
+*symbol MCR649AP3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR649AP3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR649AP3
+*symbol MCR649AP4 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR649AP4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR649AP4
+*symbol MCR649AP5 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR649AP5
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR649AP5
+*symbol MCR649AP6 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR649AP6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR649AP6
+*symbol MCR649AP7 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR649AP7
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR649AP7
+*symbol MCR649AP8 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR649AP8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR649AP8
+*symbol MCR649AP9 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR649AP9
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR649AP9
+*symbol MCR729-10 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR729-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR729-10
+*symbol MCR729-5 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR729-5
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR729-5
+*symbol MCR729-6 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR729-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR729-6
+*symbol MCR729-7 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR729-7
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR729-7
+*symbol MCR729-8 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR729-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR729-8
+*symbol MCR729-9 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR729-9
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR729-9
+*symbol MCR1906-2 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR1906-2
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR1906-2
+*symbol MCR1906-3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR1906-3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR1906-3
+*symbol MCR1906-4 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR1906-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR1906-4
+*symbol MCR1906-6 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR1906-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR1906-6
+*symbol MCR1906-8 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR1906-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR1906-8
+*symbol MCR3818-10 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3818-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3818-10
+*symbol MCR3818-2 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3818-2
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3818-2
+*symbol MCR3818-3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3818-3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3818-3
+*symbol MCR3818-4 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3818-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3818-4
+*symbol MCR3818-6 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3818-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3818-6
+*symbol MCR3818-8 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3818-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3818-8
+*symbol MCR3835-1 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3835-1
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3835-1
+*symbol MCR3835-10 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3835-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3835-10
+*symbol MCR3835-2 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3835-2
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3835-2
+*symbol MCR3835-3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3835-3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3835-3
+*symbol MCR3835-4 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3835-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3835-4
+*symbol MCR3835-5 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3835-5
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3835-5
+*symbol MCR3835-6 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3835-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3835-6
+*symbol MCR3835-7 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3835-7
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3835-7
+*symbol MCR3835-8 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3835-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3835-8
+*symbol MCR3835-9 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3835-9
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3835-9
+*symbol MCR3896 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3896
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3896
+*symbol MCR3897 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3897
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3897
+*symbol MCR3898 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3898
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3898
+*symbol MCR3899 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3899
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3899
+*symbol MCR3918-10A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3918-10A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3918-10A
+*symbol MCR3918-2A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3918-2A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3918-2A
+*symbol MCR3918-3A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3918-3A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3918-3A
+*symbol MCR3918-4A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3918-4A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3918-4A
+*symbol MCR3918-6A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3918-6A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3918-6A
+*symbol MCR3918-8A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3918-8A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3918-8A
+*symbol MCR3935-1 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-1
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-1
+*symbol MCR3935-10 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-10
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-10
+*symbol MCR3935-10A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-10A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-10A
+*symbol MCR3935-2 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-2
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-2
+*symbol MCR3935-2A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-2A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-2A
+*symbol MCR3935-3 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-3
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-3
+*symbol MCR3935-3A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-3A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-3A
+*symbol MCR3935-4 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-4
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-4
+*symbol MCR3935-4A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-4A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-4A
+*symbol MCR3935-5 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-5
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-5
+*symbol MCR3935-6 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-6
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-6
+*symbol MCR3935-6A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-6A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-6A
+*symbol MCR3935-7 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-7
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-7
+*symbol MCR3935-8 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-8
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-8
+*symbol MCR3935-8A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-8A
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-8A
+*symbol MCR3935-9 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR3935-9
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR3935-9
+*symbol MCR5164 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR5164
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR5164
+*symbol MCR5165 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR5165
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR5165
+*symbol MCR5166 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR5166
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR5166
+*symbol MCR5167 ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR5167
+a 0 sp 0 0 29 30 hrn 100 MODEL=MCR5167
+*symbol MU10 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=MU10
+a 0 sp 11 0 2 38 hln 100 PART=MU10
+*symbol MU20 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=MU20
+a 0 sp 11 0 0 40 hln 100 PART=MU20
+*symbol MU4891 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=MU4891
+a 0 sp 11 0 0 40 hln 100 PART=MU4891
+*symbol MU4892 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=MU4892
+a 0 sp 11 0 0 40 hln 100 PART=MU4892
+*symbol MU4893 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=MU4893
+a 0 sp 11 0 0 40 hln 100 PART=MU4893
+*symbol MU4894 ako UJT
+d Unijunction transistor
+@type p
+@attributes
+a 0 sp 0 0 0 40 hln 100 model=MU4894
+a 0 sp 11 0 0 40 hln 100 PART=MU4894
+*symbol S2800A ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=S2800A
+a 0 sp 0 0 29 30 hrn 100 MODEL=S2800A
+*symbol S2800B ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=S2800B
+a 0 sp 0 0 29 30 hrn 100 MODEL=S2800B
+*symbol S2800D ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=S2800D
+a 0 sp 0 0 29 30 hrn 100 MODEL=S2800D
+*symbol S2800F ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=S2800F
+a 0 sp 0 0 29 30 hrn 100 MODEL=S2800F
+*symbol S2800M ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=S2800M
+a 0 sp 0 0 29 30 hrn 100 MODEL=S2800M
+*symbol S2800N ako scr
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=S2800N
+a 0 sp 0 0 29 30 hrn 100 MODEL=S2800N
+*symbol T2500B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2500B
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2500B
+*symbol T2500BFP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2500BFP
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2500BFP
+*symbol T2500D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2500D
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2500D
+*symbol T2500DFP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2500DFP
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2500DFP
+*symbol T2500M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2500M
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2500M
+*symbol T2500MFP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2500MFP
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2500MFP
+*symbol T2500N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2500N
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2500N
+*symbol T2500NFP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2500NFP
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2500NFP
+*symbol T2800B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2800B
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2800B
+*symbol T2800D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2800D
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2800D
+*symbol T2800M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2800M
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2800M
+*symbol T2801B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2801B
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2801B
+*symbol T2801D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2801D
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2801D
+*symbol T2801M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2801M
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2801M
+*symbol T2801N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2801N
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2801N
+*symbol T2802B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2802B
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2802B
+*symbol T2802D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2802D
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2802D
+*symbol T2802M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2802M
+a 0 sp 0 0 29 30 hrn 100 MODEL=T2802M
+*symbol T4100M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T4100M
+a 0 sp 0 0 29 30 hrn 100 MODEL=T4100M
+*symbol T4101M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T4101M
+a 0 sp 0 0 29 30 hrn 100 MODEL=T4101M
+*symbol T6410B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6410B
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6410B
+*symbol T6410D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6410D
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6410D
+*symbol T6410M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6410M
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6410M
+*symbol T6410N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6410N
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6410N
+*symbol T6411B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6411B
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6411B
+*symbol T6411D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6411D
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6411D
+*symbol T6411M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6411M
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6411M
+*symbol T6411N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6411N
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6411N
+*symbol T6420B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6420B
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6420B
+*symbol T6420D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6420D
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6420D
+*symbol T6420M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6420M
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6420M
+*symbol T6420N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6420N
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6420N
+*symbol T6421B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6421B
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6421B
+*symbol T6421D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6421D
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6421D
+*symbol T6421M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6421M
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6421M
+*symbol T6421N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T6421N
+a 0 sp 0 0 29 30 hrn 100 MODEL=T6421N
+*symbol W1890/-55C ako scr
+d SCR Pre-rad model @-55C
+@type p
+@attributes
+a 0 sp 11 0 27 28 hrn 100 PART=W1890/-55C
+a 0 sp 0 0 29 30 hrn 100 MODEL=W1890/-55C
+a 0 s 0 0 29 30 hrn 100 COMPONENT=W1890
+*symbol W1890/125C ako scr
+d SCR Pre-rad model @125C
+@type p
+@attributes
+a 0 sp 11 0 27 28 hrn 100 PART=W1890/125C
+a 0 sp 0 0 29 30 hrn 100 MODEL=W1890/125C
+a 0 s 0 0 29 30 hrn 100 COMPONENT=W1890
+*symbol W1890/25C/RAD ako scr
+d SCR Radiation model @25C
+@type p
+@attributes
+a 0 sp 11 0 27 28 hrn 100 PART=W1890/25C/RAD
+a 0 sp 0 0 29 30 hrn 100 MODEL=W1890/25C/RAD
+a 0 s 0 0 29 30 hrn 100 COMPONENT=W1890
+*symbol W1890/75C ako scr
+d SCR Pre-rad model @75C
+@type p
+@attributes
+a 0 sp 11 0 27 28 hrn 100 PART=W1890/75C
+a 0 sp 0 0 29 30 hrn 100 MODEL=W1890/75C
+a 0 s 0 0 29 30 hrn 100 COMPONENT=W1890
+*symbol W1890/27C ako scr
+d SCR Pre-rad model @27C
+@type p
+@attributes
+a 0 sp 11 0 27 28 hrn 100 PART=W1890/27C
+a 0 sp 0 0 29 30 hrn 100 MODEL=W1890/27C
+a 0 s 0 0 29 30 hrn 100 COMPONENT=W1890
+*symbol W2238S/-55C ako scr
+d SCR  model @-55C
+@type p
+@attributes
+a 0 sp 11 0 27 28 hrn 100 PART=W2238S/-55C
+a 0 sp 0 0 29 30 hrn 100 MODEL=W2238S/-55C
+a 0 s 0 0 29 30 hrn 100 COMPONENT=W2238S
+*symbol W2238S/27C ako scr
+d SCR  model @27C
+@type p
+@attributes
+a 0 sp 11 0 27 28 hrn 100 PART=W2238S/27C
+a 0 sp 0 0 29 30 hrn 100 MODEL=W2238S/27C
+a 0 s 0 0 29 30 hrn 100 COMPONENT=W2238S
+*symbol W2238S/125C ako scr
+d SCR  model @125C
+@type p
+@attributes
+a 0 sp 11 0 27 28 hrn 100 PART=W2238S/125C
+a 0 sp 0 0 29 30 hrn 100 MODEL=W2238S/125C
+a 0 s 0 0 29 30 hrn 100 COMPONENT=W2238S
+*symbol UJT b
+d Unijunction transistor
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %B2 %E %B1 @model
+a 1 s 9 0 1 8 hln 100 REFDES=X?
+a 0 sp 0 0 0 40 hln 100 MODEL=
+a 0 sp 11 0 0 42 hln 100 PART=
+@pins
+p 0 13 12 hln 100 E n 0 10 h
+a 0 s 0 0 5 8 hrn 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hln 100 B2 n 30 0 d
+a 0 s 0 0 35 3 hcn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 25 40 hln 100 B1 n 30 40 v
+a 0 s 0 0 25 42 hcn 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 10 10
+v 0 20 30
+30 30
+;
+v 0 20 7
+20 33
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+10 10
+;
+v 0 11 14
+15 15
+14 11
+;
+*symbol scr b
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=
+a 0 sp 0 0 29 30 hrn 100 MODEL=
+a 0 s 9 0 15 0 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %A %G %K @MODEL
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 5 8 hrn 100 PIN=4
+p 0 27 12 hrn 100 K n 40 10 u
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 35 8 hln 100 PIN=10
+p 0 35 25 hln 100 G n 30 30 v
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 25 32 hcn 100 PIN=1
+@graphics 40 30 0 10 10
+v 0 20 5
+20 15
+;
+v 0 30 10
+20 10
+;
+v 0 20 10
+30 20
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol triac b
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=
+a 0 sp 0 0 29 30 hrn 100 MODEL=
+a 0 s 9 0 15 0 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %MT2 %G %MT1 @MODEL
+@pins
+p 0 13 12 hln 100 MT2 n 0 10 h
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 5 8 hrn 100 PIN=0
+p 0 27 12 hrn 100 MT1 n 40 10 u
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 35 8 hln 100 PIN=0
+p 0 35 25 hln 100 G n 30 30 v
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 25 32 hcn 100 PIN=0
+@graphics 40 30 0 10 10
+v 0 10 0
+10 10
+;
+v 0 20 20
+20 10
+;
+v 0 20 10
+30 10
+;
+v 0 20 15
+30 20
+;
+v 0 10 10
+20 15
+10 20
+10 10
+;
+v 0 20 10
+10 5
+20 0
+20 10
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

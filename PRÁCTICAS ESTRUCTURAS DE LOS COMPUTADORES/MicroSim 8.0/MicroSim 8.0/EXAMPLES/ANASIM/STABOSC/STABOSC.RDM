@@ -1,0 +1,39 @@
+Phase-shift oscillator schematic contained in "stabosc.sch"
+
+Phase-Shift Oscillator
+Tutorial Circuit (STABOSC)
+
+STABOSC is a phase-shift oscillator circuit contained in the file
+"stabosc.sch."  The output is peak detected and filtered; the mean DC level 
+then controls the channel conductance of the FET used in one of the phase 
+shift networks.
+
+This design is a single page and non-hierarchical.  Markers have been placed
+on nodes of interest so that they will be displayed when the data file is 
+loaded into Probe.
+
+Symbol libraries required:
+	special.slb 
+	source.slb
+	port.slb
+	analog.slb
+	diode.slb
+	opamp.slb
+	jfet.slb
+
+Model libraries required:
+	linear.lib
+	jfet.lib
+        diode.lib
+      
+Package libraries required:
+	diode.plb
+        opamp.plb
+        jfet.plb
+
+This circuit can be simulated using the analog or analog/digital version
+of MicroSim PSpice, MicroSim Basics, or MicroSim Basic+.  It cannot
+be simulated using the MicroSim Evaluation (student) version.
+
+This design can be packaged for layout.
+

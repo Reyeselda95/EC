@@ -1,0 +1,120 @@
+*version 6.3 714266409
+u 96
+XBLOX 3423463061
+U? 5
+@libraries
+XBLOX [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XBLOX
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 1830 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 97 IF_IN 140 600 h
+a 0 s 3 0 10 8 hln 80 LABEL=X
+port 98 IF_IN 600 600 h
+a 0 s 3 0 10 8 hln 50 LABEL=B[3:0]
+@parts
+part 15 ELEMENT 270 420 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U1
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=3
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 16 ELEMENT 270 540 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U2
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 17 ELEMENT 270 600 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U3
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=0
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 18 ELEMENT 270 480 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U4
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+b 20
+s 600 600 650 600 19
+a 0 s 3 0 590 590 hln 100 LABEL=B[3:0]
+b 29
+s 140 600 250 600 21
+a 0 s 3 0 150 590 hln 100 LABEL=X
+s 250 600 250 540 27
+s 250 540 270 540 22
+s 250 540 250 480 23
+s 250 480 270 480 24
+s 250 480 250 420 25
+s 250 420 270 420 26
+s 250 600 270 600 28
+w 65
+s 420 600 540 600 64
+a 0 s 3 0 440 600 hln 100 LABEL=B[0]
+w 73
+s 420 540 540 540 72
+a 0 s 3 0 440 540 hln 100 LABEL=B[1]
+w 81
+s 420 420 540 420 80
+a 0 s 3 0 440 420 hln 100 LABEL=B[3]
+w 89
+s 420 480 540 480 88
+a 0 s 3 0 440 480 hln 100 LABEL=B[2]
+@junction
+j 250 600
++ b 29
++ b 29
+j 250 540
++ b 29
++ b 29
+j 250 480
++ b 29
++ b 29
+j 270 420
++ p 15 XBLOX_BUS
++ b 29
+j 270 540
++ p 16 XBLOX_BUS
++ b 29
+j 270 600
++ p 17 XBLOX_BUS
++ b 29
+j 270 480
++ p 18 XBLOX_BUS
++ b 29
+j 420 600
++ p 17 ELEM
++ w 65
+j 420 540
++ p 16 ELEM
++ w 73
+j 420 420
++ p 15 ELEM
++ w 81
+j 420 480
++ p 18 ELEM
++ w 89
+j 140 600
++ s 97
++ b 29
+j 600 600
++ S 98
+B[3]
+B[2]
+B[1]
+B[0]
++ b 20
+B[3]
+B[2]
+B[1]
+B[0]
+@attributes
+@text
+s 5 630 1000 hln 100 BUS_IF04
+s 5 742 1000 hln 100 7/21/93

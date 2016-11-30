@@ -1,0 +1,1234 @@
+*version 8.0 1062675742
+@index
+symloc COAX 0 1028
+symloc RG6/U:COAX 1028 149
+symloc RG6A/U:COAX 1177 152
+symloc RG8/U:COAX 1329 149
+symloc RG8A/U:COAX 1478 152
+symloc RG8/U+:COAX 1630 152
+symloc RG9B/U:COAX 1782 152
+symloc RG11/U:COAX 1934 152
+symloc RG11A/U:COAX 2086 155
+symloc RG11/U+:COAX 2241 155
+symloc RG12A/U:COAX 2396 155
+symloc RG22B/U:COAX 2551 155
+symloc RG55/U:COAX 2706 152
+symloc RG55B/U:COAX 2858 155
+symloc RG58/U:COAX 3013 152
+symloc RG58A/U:COAX 3165 155
+symloc RG58C/U:COAX 3320 155
+symloc RG58/U+:COAX 3475 155
+symloc RG59/U:COAX 3630 152
+symloc RG59B/U:COAX 3782 155
+symloc RG59/U+:COAX 3937 155
+symloc RG62/U:COAX 4092 152
+symloc RG62A/U:COAX 4244 155
+symloc RG63B/U:COAX 4399 155
+symloc RG71B/U:COAX 4554 155
+symloc RG174/U:COAX 4709 155
+symloc RG178B/U:COAX 4864 158
+symloc RG179B/U:COAX 5022 158
+symloc RG180B/U:COAX 5180 158
+symloc RG187A/U:COAX 5338 158
+symloc RG188A/U:COAX 5496 158
+symloc RG195A/U:COAX 5654 158
+symloc RG196A/U:COAX 5812 158
+symloc RG212/U:COAX 5970 155
+symloc RG213/U:COAX 6125 155
+symloc RG214/U:COAX 6280 155
+symloc RG215/U:COAX 6435 155
+symloc RG217/U:COAX 6590 155
+symloc RG218/U:COAX 6745 155
+symloc RG219/U:COAX 6900 155
+symloc RG223/U:COAX 7055 155
+symloc TWSTPAIR 7210 999
+symloc TP19AWG:TWSTPAIR 8209 316
+symloc TP22AWG:TWSTPAIR 8525 316
+symloc TP24AWG:TWSTPAIR 8841 316
+symloc TP26AWG:TWSTPAIR 9157 316
+symloc TLUMP1 9473 1010
+symloc TLUMP2:TLUMP1 10483 183
+symloc TLUMP4:TLUMP1 10666 183
+symloc TLUMP8:TLUMP1 10849 183
+symloc TLUMP16:TLUMP1 11032 188
+symloc TLUMP32:TLUMP1 11220 188
+symloc TLUMP64:TLUMP1 11408 188
+symloc TLUMP128:TLUMP1 11596 193
+symloc TLURC1 11789 943
+symloc TLURC2:TLURC1 12732 186
+symloc TLURC4:TLURC1 12918 186
+symloc TLURC8:TLURC1 13104 186
+symloc TLURC16:TLURC1 13290 191
+symloc TLURC32:TLURC1 13481 191
+symloc TLURC64:TLURC1 13672 191
+symloc TLURC128:TLURC1 13863 196
+symloc T2coupled 14059 917
+symloc T3coupled 14976 1110
+symloc T4coupled 16086 1302
+symloc T5coupled 17388 1496
+symloc T2coupledX 18884 1105
+symloc T3coupledX 19989 1697
+symloc T4coupledX 21686 2396
+symloc T5coupledX 24082 3210
+symloc Kcouple2 27292 449
+symloc Kcouple3 27741 749
+symloc Kcouple4 28490 1147
+symloc Kcouple5 29637 1663
+symloc copyright 31300 575 b
+*symbol COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 s 9 0 20 10 hln 100 REFDES=T?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=?FRQ/X//T/^@REFDES %A+ %A- %B+ %B- @MODEL ?FRQ/PARAMS: FRQ=@FRQ/ ?LEN/LEN=@LEN/
+a 0 sp 11 0 78 38 hrn 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 u 0 0 0 10 hln 100 LEN=
+a 0 u 0 0 0 10 hlb 100 FRQ=100Meg
+@pins
+p 0 13 22 hln 100 A+ n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 5 18 hrn 100 pin=1
+p 0 13 42 hln 100 A- n 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 5 38 hrn 100 pin=2
+p 0 87 22 hrn 100 B+ n 100 20 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 95 18 hln 100 pin=3
+p 0 87 42 hrn 100 B- n 100 40 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 95 38 hln 100 pin=4
+@graphics 100 40 0 20 10
+c 0 20 20 10
+a 0 80 30 90 20 80 10
+v 0 20 20
+10 20
+;
+v 0 20 30
+20 40
+;
+v 0 20 40
+10 40
+;
+v 0 80 30
+80 40
+;
+v 0 80 40
+90 40
+;
+v 0 20 10
+50 10
+;
+v 0 20 30
+50 30
+;
+v 0 60 10
+80 10
+;
+v 0 60 30
+80 30
+;
+a 0 63 5 59 12 60 20
+a 0 53 5 49 12 50 20
+a 0 47 34 50 30 50 20
+a 0 57 34 60 30 60 20
+s 26 62 28 hln 80 COAX
+*symbol RG6/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG6/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG6/U
+*symbol RG6A/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG6A/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG6A/U
+*symbol RG8/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG8/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG8/U
+*symbol RG8A/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG8A/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG8A/U
+*symbol RG8/U+ ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG8/U+
+a 0 sp 0 0 0 0 hln 100 MODEL=RG8/U+
+*symbol RG9B/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG9B/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG9B/U
+*symbol RG11/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG11/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG11/U
+*symbol RG11A/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG11A/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG11A/U
+*symbol RG11/U+ ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG11/U+
+a 0 sp 0 0 0 0 hln 100 MODEL=RG11/U+
+*symbol RG12A/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG12A/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG12A/U
+*symbol RG22B/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG22B/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG22B/U
+*symbol RG55/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG55/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG55/U
+*symbol RG55B/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG55B/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG55B/U
+*symbol RG58/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG58/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG58/U
+*symbol RG58A/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG58A/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG58A/U
+*symbol RG58C/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG58C/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG58C/U
+*symbol RG58/U+ ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG58/U+
+a 0 sp 0 0 0 0 hln 100 MODEL=RG58/U+
+*symbol RG59/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG59/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG59/U
+*symbol RG59B/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG59B/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG59B/U
+*symbol RG59/U+ ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG59/U+
+a 0 sp 0 0 0 0 hln 100 MODEL=RG59/U+
+*symbol RG62/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG62/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG62/U
+*symbol RG62A/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG62A/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG62A/U
+*symbol RG63B/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG63B/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG63B/U
+*symbol RG71B/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG71B/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG71B/U
+*symbol RG174/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG174/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG174/U
+*symbol RG178B/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG178B/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG178B/U
+*symbol RG179B/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG179B/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG179B/U
+*symbol RG180B/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG180B/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG180B/U
+*symbol RG187A/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG187A/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG187A/U
+*symbol RG188A/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG188A/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG188A/U
+*symbol RG195A/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG195A/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG195A/U
+*symbol RG196A/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG196A/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG196A/U
+*symbol RG212/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG212/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG212/U
+*symbol RG213/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG213/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG213/U
+*symbol RG214/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG214/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG214/U
+*symbol RG215/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG215/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG215/U
+*symbol RG217/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG217/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG217/U
+*symbol RG218/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG218/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG218/U
+*symbol RG219/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG219/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG219/U
+*symbol RG223/U ako COAX
+d Coaxial cable transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=RG223/U
+a 0 sp 0 0 0 0 hln 100 MODEL=RG223/U
+*symbol TWSTPAIR
+d Twisted pair transmission line
+@type p
+@attributes
+a 0 s 9 0 20 10 hln 100 REFDES=T?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A+ %A- %B+ %B- @MODEL ?LEN/PARAMS: LEN=@LEN/
+a 0 sp 11 0 78 38 hrn 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 u 0 0 0 10 hln 100 LEN=
+@pins
+p 0 13 22 hln 100 A+ n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 5 18 hrn 100 pin=1
+p 0 13 42 hln 100 A- n 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 5 38 hrn 100 pin=2
+p 0 87 22 hrn 100 B+ n 100 20 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 95 18 hln 100 pin=3
+p 0 87 42 hrn 100 B- n 100 40 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 95 38 hln 100 pin=4
+@graphics 100 40 0 20 10
+c 0 20 20 10
+a 0 80 30 90 20 80 10
+v 0 20 20
+10 20
+;
+v 0 20 30
+20 40
+;
+v 0 20 40
+10 40
+;
+v 0 80 30
+80 40
+;
+v 0 80 40
+90 40
+;
+v 0 20 10
+50 10
+;
+v 0 20 30
+50 30
+;
+v 0 60 10
+80 10
+;
+v 0 60 30
+80 30
+;
+a 0 63 5 59 12 60 20
+a 0 53 5 49 12 50 20
+a 0 47 34 50 30 50 20
+a 0 57 34 60 30 60 20
+s 26 62 28 hln 70 PAIR
+s 26 60 22 hln 70 TWISTED
+*symbol TP19AWG ako TWSTPAIR
+d Twisted pair transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=TP19AWG
+a 0 sp 0 0 0 0 hln 100 MODEL=TP19AWG
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A+ %A- %B+ %B- ?FRQ/@MODEL\_SLL/ ~FRQ/@MODEL/ PARAMS: ?FRQ/FRQ=@FRQ/ ?LEN/ LEN=@LEN/
+a 0 u 0 0 0 10 hln 100 FRQ=5k
+*symbol TP22AWG ako TWSTPAIR
+d Twisted pair transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=TP22AWG
+a 0 sp 0 0 0 0 hln 100 MODEL=TP22AWG
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A+ %A- %B+ %B- ?FRQ/@MODEL\_SLL/ ~FRQ/@MODEL/ PARAMS: ?FRQ/FRQ=@FRQ/ ?LEN/ LEN=@LEN/
+a 0 u 0 0 0 10 hln 100 FRQ=5k
+*symbol TP24AWG ako TWSTPAIR
+d Twisted pair transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=TP24AWG
+a 0 sp 0 0 0 0 hln 100 MODEL=TP24AWG
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A+ %A- %B+ %B- ?FRQ/@MODEL\_SLL/ ~FRQ/@MODEL/ PARAMS: ?FRQ/FRQ=@FRQ/ ?LEN/ LEN=@LEN/
+a 0 u 0 0 0 10 hln 100 FRQ=5k
+*symbol TP26AWG ako TWSTPAIR
+d Twisted pair transmission line
+@type p
+@attributes
+a 0 sp 11 0 78 38 hrn 100 PART=TP26AWG
+a 0 sp 0 0 0 0 hln 100 MODEL=TP26AWG
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A+ %A- %B+ %B- ?FRQ/@MODEL\_SLL/ ~FRQ/@MODEL/ PARAMS: ?FRQ/FRQ=@FRQ/ ?LEN/ LEN=@LEN/
+a 0 u 0 0 0 10 hlb 100 FRQ=5k
+*symbol TLUMP1
+d Lumped Model Lossy Transmission Line
+@type p
+@attributes
+a 0 s 9 0 20 10 hln 100 REFDES=T?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %OUT %GND @MODEL PARAMS: LEN=@LEN R=@R L=@L G=@G C=@C
+a 0 u 0 0 0 10 hln 100 LEN=1
+a 0 u 0 0 0 20 hln 100 R=0
+a 0 u 0 0 0 30 hln 100 L=1
+a 0 u 0 0 0 40 hln 100 G=0
+a 0 u 0 0 0 50 hln 100 C=1
+a 0 sp 11 0 62 8 hln 100 PART=TLUMP1
+a 0 sp 0 0 62 8 hln 100 MODEL=TLUMP1
+@pins
+p 0 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 5 18 hrn 100 pin=1
+p 0 10 50 hln 100 GND n 50 50 v
+a 0 u 0 0 10 50 hln 100 ERC=x
+a 0 u 0 0 45 52 hcn 100 pin=3
+p 0 87 22 hrn 100 OUT n 100 20 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 95 18 hln 100 pin=2
+@graphics 100 50 0 20 10
+c 0 20 20 10
+a 0 80 30 90 20 80 10
+v 0 20 20
+10 20
+;
+v 0 20 30
+20 40
+;
+v 0 80 30
+80 40
+;
+v 0 20 10
+50 10
+;
+v 0 20 30
+50 30
+;
+v 0 60 10
+80 10
+;
+v 0 60 30
+80 30
+;
+a 0 63 5 59 12 60 20
+a 0 53 5 49 12 50 20
+a 0 47 34 50 30 50 20
+a 0 57 34 60 30 60 20
+v 0 20 40
+80 40
+;
+s 26 22 38 hln 80 LUMPED
+*symbol TLUMP2 ako TLUMP1
+d 2 lumped segment lossy line
+@type p
+@attributes
+a 0 u 13 0 72 38 hln 100 NLUMP=2
+a 0 sp 11 0 62 8 hln 100 PART=TLUMP2
+a 0 sp 0 0 62 8 hln 100 MODEL=TLUMP2
+*symbol TLUMP4 ako TLUMP1
+d 4 lumped segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=4
+a 0 sp 11 0 62 8 hln 100 PART=TLUMP4
+a 0 sp 0 0 62 8 hln 100 MODEL=TLUMP4
+*symbol TLUMP8 ako TLUMP1
+d 8 lumped segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=8
+a 0 sp 11 0 62 8 hln 100 PART=TLUMP8
+a 0 sp 0 0 62 8 hln 100 MODEL=TLUMP8
+*symbol TLUMP16 ako TLUMP1
+d 16 lumped segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=16
+a 0 sp 11 0 62 8 hln 100 PART=TLUMP16
+a 0 sp 0 0 62 8 hln 100 MODEL=TLUMP16
+*symbol TLUMP32 ako TLUMP1
+d 32 lumped segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=32
+a 0 sp 11 0 62 8 hln 100 PART=TLUMP32
+a 0 sp 0 0 62 8 hln 100 MODEL=TLUMP32
+*symbol TLUMP64 ako TLUMP1
+d 64 lumped segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=64
+a 0 sp 11 0 62 8 hln 100 PART=TLUMP64
+a 0 sp 0 0 62 8 hln 100 MODEL=TLUMP64
+*symbol TLUMP128 ako TLUMP1
+d 128 lumped segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=128
+a 0 sp 11 0 62 8 hln 100 PART=TLUMP128
+a 0 sp 0 0 62 8 hln 100 MODEL=TLUMP128
+*symbol TLURC1
+d Lumped RC Lossy Transmission Line
+@type p
+@attributes
+a 0 s 9 0 20 10 hln 100 REFDES=T?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %OUT %GND @MODEL PARAMS: LEN=@LEN R=@R C=@C
+a 0 u 0 0 0 10 hln 100 LEN=1
+a 0 u 0 0 0 20 hln 100 R=1
+a 0 u 0 0 0 50 hln 100 C=1
+a 0 sp 11 0 62 8 hln 100 PART=TLURC1
+a 0 sp 0 0 62 8 hln 100 MODEL=TLURC1
+@pins
+p 0 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 5 18 hrn 100 pin=1
+p 0 10 50 hln 100 GND n 50 50 v
+a 0 u 0 0 10 50 hln 100 ERC=x
+a 0 u 0 0 45 52 hcn 100 pin=3
+p 0 87 22 hrn 100 OUT n 100 20 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 95 18 hln 100 pin=2
+@graphics 100 50 0 20 10
+c 0 20 20 10
+a 0 80 30 90 20 80 10
+v 0 20 20
+10 20
+;
+v 0 20 30
+20 40
+;
+v 0 80 30
+80 40
+;
+v 0 20 10
+50 10
+;
+v 0 20 30
+50 30
+;
+v 0 60 10
+80 10
+;
+v 0 60 30
+80 30
+;
+a 0 63 5 59 12 60 20
+a 0 53 5 49 12 50 20
+a 0 47 34 50 30 50 20
+a 0 57 34 60 30 60 20
+v 0 20 40
+80 40
+;
+s 26 22 38 hln 80 LUMPED
+*symbol TLURC2 ako TLURC1
+d 2 lumped RC segment lossy line
+@type p
+@attributes
+a 0 u 13 0 72 38 hln 100 NLUMP=2
+a 0 sp 11 0 62 8 hln 100 PART=TLURC2
+a 0 sp 0 0 62 8 hln 100 MODEL=TLURC2
+*symbol TLURC4 ako TLURC1
+d 4 lumped RC segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=4
+a 0 sp 11 0 62 8 hln 100 PART=TLURC4
+a 0 sp 0 0 62 8 hln 100 MODEL=TLURC4
+*symbol TLURC8 ako TLURC1
+d 8 lumped RC segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=8
+a 0 sp 11 0 62 8 hln 100 PART=TLURC8
+a 0 sp 0 0 62 8 hln 100 MODEL=TLURC8
+*symbol TLURC16 ako TLURC1
+d 16 lumped RC segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=16
+a 0 sp 11 0 62 8 hln 100 PART=TLURC16
+a 0 sp 0 0 62 8 hln 100 MODEL=TLURC16
+*symbol TLURC32 ako TLURC1
+d 32 lumped RC segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=32
+a 0 sp 11 0 62 8 hln 100 PART=TLURC32
+a 0 sp 0 0 62 8 hln 100 MODEL=TLURC32
+*symbol TLURC64 ako TLURC1
+d 64 lumped RC segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=64
+a 0 sp 11 0 62 8 hln 100 PART=TLURC64
+a 0 sp 0 0 62 8 hln 100 MODEL=TLURC64
+*symbol TLURC128 ako TLURC1
+d 128 lumped RC segment lossy line
+@type p
+@attributes
+a 0 u 13 0 78 38 hrn 100 NLUMP=128
+a 0 sp 11 0 62 8 hln 100 PART=TLURC128
+a 0 sp 0 0 62 8 hln 100 MODEL=TLURC128
+*symbol T2coupled
+d 2 symmetric coupled lossy lines
+@type p
+@attributes
+a 1 s 9 0 10 -2 hln 100 REFDES=T?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %in1 %in2 %out1 %out2 @MODEL \n+ PARAMS: R=@R L=@L G=@G C=@C LM=@LM CM=@CM LEN=@LEN
+a 0 sp 11 0 12 38 hln 100 PART=T2coupled
+a 0 sp 0 0 12 38 hln 100 MODEL=T2coupled
+a 0 u 0 0 0 10 hlb 100 LEN=-1
+a 0 u 0 0 0 20 hlb 100 R=0
+a 0 u 0 0 0 30 hlb 100 L=-1
+a 0 u 0 0 0 40 hlb 100 G=0
+a 0 u 0 0 0 50 hlb 100 C=-1
+a 0 u 0 0 0 60 hlb 100 LM=0
+a 0 u 0 0 0 70 hlb 100 CM=0
+@pins
+p 2 13 22 hln 100 in2 n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 57 12 hrn 100 out1 n 70 10 u
+a 0 u 0 0 65 8 hln 100 pin=3
+a 0 u 0 0 60 10 hln 100 ERC=x
+p 2 13 12 hln 100 in1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 2 57 22 hrn 100 out2 n 70 20 u
+a 0 u 0 0 65 18 hln 100 pin=4
+a 0 u 0 0 60 20 hln 100 ERC=x
+@graphics 70 30 0 10 10
+r 0 10 0 60 30
+*symbol T3coupled
+d 3 symmetric coupled lossy lines
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %in1 %in2 %in3 %out1 %out2 %out3 @MODEL \n+ PARAMS: R=@R L=@L G=@G C=@C LM=@LM CM=@CM LEN=@LEN
+a 0 sp 11 0 12 48 hln 100 PART=T3coupled
+a 0 sp 0 0 12 48 hln 100 MODEL=T3coupled
+a 0 u 0 0 0 10 hlb 100 LEN=-1
+a 0 u 0 0 0 20 hlb 100 R=0
+a 0 u 0 0 0 30 hlb 100 L=-1
+a 0 u 0 0 0 40 hlb 100 G=0
+a 0 u 0 0 0 50 hlb 100 C=-1
+a 0 u 0 0 0 60 hlb 100 LM=0
+a 0 u 0 0 0 70 hlb 100 CM=0
+a 0 sp 0 0 0 10 hln 100 REFDES=T?
+@pins
+p 2 13 22 hln 100 in2 n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 57 12 hrn 100 out1 n 70 10 u
+a 0 u 0 0 65 8 hln 100 pin=4
+a 0 u 0 0 60 10 hln 100 ERC=x
+p 2 13 12 hln 100 in1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 2 57 22 hrn 100 out2 n 70 20 u
+a 0 u 0 0 65 18 hln 100 pin=5
+a 0 u 0 0 60 20 hln 100 ERC=x
+p 2 57 32 hrn 100 out3 n 70 30 u
+a 0 u 0 0 65 28 hln 100 pin=6
+a 0 u 0 0 50 30 hln 100 ERC=x
+p 2 13 32 hln 100 in3 n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol T4coupled
+d 4 symmetric coupled lossy lines
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %in1 %in2 %in3 %in4 %out1 %out2 %out3 %out4 @MODEL \n+ PARAMS: R=@R L=@L G=@G C=@C LM=@LM CM=@CM LEN=@LEN
+a 0 sp 11 0 10 60 hln 100 PART=T4coupled
+a 0 sp 0 0 10 60 hln 100 MODEL=T4coupled
+a 0 u 0 0 0 10 hlb 100 LEN=-1
+a 0 u 0 0 0 20 hlb 100 R=0
+a 0 u 0 0 0 30 hlb 100 L=-1
+a 0 u 0 0 0 40 hlb 100 G=0
+a 0 u 0 0 0 50 hlb 100 C=-1
+a 0 u 0 0 0 60 hlb 100 LM=0
+a 0 u 0 0 0 70 hlb 100 CM=0
+a 0 s 0 0 0 10 hlb 100 REFDES=T?
+@pins
+p 2 13 22 hln 100 in2 n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 57 12 hrn 100 out1 n 70 10 u
+a 0 u 0 0 65 8 hln 100 pin=5
+a 0 u 0 0 60 10 hln 100 ERC=x
+p 2 13 12 hln 100 in1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 2 57 22 hrn 100 out2 n 70 20 u
+a 0 u 0 0 65 18 hln 100 pin=6
+a 0 u 0 0 60 20 hln 100 ERC=x
+p 2 13 32 hln 100 in3 n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 42 hln 100 in4 n 0 40 h
+a 0 u 0 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=x
+p 2 57 32 hrn 100 out3 n 70 30 u
+a 0 u 0 0 65 28 hln 100 pin=7
+a 0 u 0 0 50 30 hln 100 ERC=x
+p 2 57 42 hrn 100 out4 n 70 40 u
+a 0 u 0 0 65 38 hln 100 pin=8
+a 0 u 0 0 50 40 hln 100 ERC=x
+@graphics 70 50 0 10 10
+r 0 10 0 60 50
+*symbol T5coupled
+d 5 symmetric coupled lossy lines
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %in1 %in2 %in3 %in4 %in5 %out1 %out2 %out3 %out4 %out5 @MODEL \n+ PARAMS: R=@R L=@L G=@G C=@C LM=@LM CM=@CM LEN=@LEN
+a 0 sp 11 0 10 68 hln 100 PART=T5coupled
+a 0 sp 0 0 10 68 hln 100 MODEL=T5coupled
+a 0 u 0 0 0 10 hlb 100 LEN=-1
+a 0 u 0 0 0 20 hlb 100 R=0
+a 0 u 0 0 0 30 hlb 100 L=-1
+a 0 u 0 0 0 40 hlb 100 G=0
+a 0 u 0 0 0 50 hlb 100 C=-1
+a 0 u 0 0 0 60 hlb 100 LM=0
+a 0 u 0 0 0 70 hlb 100 CM=0
+a 0 s 0 0 0 10 hlb 100 REFDES=T?
+@pins
+p 2 13 22 hln 100 in2 n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 57 12 hrn 100 out1 n 70 10 u
+a 0 u 0 0 65 8 hln 100 pin=6
+a 0 u 0 0 60 10 hln 100 ERC=x
+p 2 13 12 hln 100 in1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 2 57 22 hrn 100 out2 n 70 20 u
+a 0 u 0 0 65 18 hln 100 pin=7
+a 0 u 0 0 60 20 hln 100 ERC=x
+p 2 13 32 hln 100 in3 n 0 30 h
+a 0 u 0 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 42 hln 100 in4 n 0 40 h
+a 0 u 0 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=x
+p 2 57 32 hrn 100 out3 n 70 30 u
+a 0 u 0 0 65 28 hln 100 pin=8
+a 0 u 0 0 50 30 hln 100 ERC=x
+p 2 57 42 hrn 100 out4 n 70 40 u
+a 0 u 0 0 65 38 hln 100 pin=9
+a 0 u 0 0 50 40 hln 100 ERC=x
+p 2 57 52 hrn 100 out5 n 70 50 u
+a 0 u 0 0 65 48 hln 100 pin=10
+a 0 u 0 0 50 50 hln 100 ERC=x
+p 2 13 52 hln 100 in5 n 0 50 h
+a 0 u 0 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=x
+@graphics 70 60 0 10 10
+r 0 10 0 60 60
+*symbol T2coupledX
+d 2 asymmetric coupled lossy lines
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=T1^@REFDES %in1 0 %out1 0 LEN=@LEN R=@R1 L=@L1 G=@G1 C=@C1 \nT2^@REFDES %in2 0 %out2 0 LEN=@LEN R=@R2 L=@L2 G=@G2 C=@C2 \nK12^@REFDES T1^@REFDES T2^@REFDES LM=@LM CM=@CM
+a 0 sp 11 0 12 38 hln 100 PART=T2coupledX
+a 0 u 0 0 0 10 hlb 100 LEN=-1
+a 0 u 0 0 0 60 hlb 100 LM=0
+a 0 u 0 0 0 70 hlb 100 CM=0
+a 0 u 0 0 0 10 hlb 100 R1=0
+a 0 u 0 0 0 20 hlb 100 L1=-1
+a 0 u 0 0 0 30 hlb 100 G1=0
+a 0 u 0 0 0 40 hlb 100 C1=-1
+a 0 u 0 0 0 50 hlb 100 R2=0
+a 0 u 0 0 0 60 hlb 100 L2=-1
+a 0 u 0 0 0 70 hlb 100 G2=0
+a 0 u 0 0 0 80 hlb 100 C2=-1
+a 1 s 9 0 10 -2 hln 100 REFDES=T?
+a 0 sp 13 0 0 10 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 in1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 2 13 22 hln 100 in2 n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 57 12 hrn 100 out1 n 70 10 u
+a 0 u 0 0 65 8 hln 100 PIN=3
+a 0 u 0 0 70 10 hln 100 ERC=x
+p 2 57 22 hrn 100 out2 n 70 20 u
+a 0 u 0 0 65 18 hln 100 PIN=4
+a 0 u 0 0 70 20 hln 100 ERC=x
+@graphics 70 30 0 10 10
+r 0 10 0 60 30
+*symbol T3coupledX
+d 3 asymmetric coupled lossy lines
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=T1^@REFDES %in1 0 %out1 0 LEN=@LEN R=@R1 L=@L1 G=@G1 C=@C1 \nT2^@REFDES %in2 0 %out2 0 LEN=@LEN R=@R2 L=@L2 G=@G2 C=@C2 \nT3^@REFDES %in3 0 %out3 0 LEN=@LEN R=@R3 L=@L3 G=@G3 C=@C3 \nK12^@REFDES T1^@REFDES T2^@REFDES LM=@LM12 CM=@CM12 \nK13^@REFDES T1^@REFDES T3^@REFDES LM=@LM13 CM=@CM13 \nK23^@REFDES T2^@REFDES T3^@REFDES LM=@LM23 CM=@CM23
+a 0 sp 11 0 12 48 hln 100 PART=T3coupledX
+a 0 u 0 0 0 10 hlb 100 LEN=-1
+a 0 u 0 0 0 60 hlb 100 LM12=0
+a 0 u 0 0 0 70 hlb 100 CM12=0
+a 0 u 0 0 0 60 hlb 100 LM13=0
+a 0 u 0 0 0 70 hlb 100 CM13=0
+a 0 u 0 0 0 60 hlb 100 LM23=0
+a 0 u 0 0 0 70 hlb 100 CM23=0
+a 0 u 0 0 0 10 hlb 100 R1=0
+a 0 u 0 0 0 20 hlb 100 L1=-1
+a 0 u 0 0 0 30 hlb 100 G1=0
+a 0 u 0 0 0 40 hlb 100 C1=-1
+a 0 u 0 0 0 50 hlb 100 R2=0
+a 0 u 0 0 0 60 hlb 100 L2=-1
+a 0 u 0 0 0 70 hlb 100 G2=0
+a 0 u 0 0 0 80 hlb 100 C2=-1
+a 0 u 0 0 0 10 hlb 100 R3=0
+a 0 u 0 0 0 20 hlb 100 L3=-1
+a 0 u 0 0 0 30 hlb 100 G3=0
+a 0 u 0 0 0 40 hlb 100 C3=-1
+a 0 sp 0 0 12 48 hln 100 MODEL=
+a 1 sp 9 0 0 0 hln 100 REFDES=T?
+@pins
+p 2 13 12 hln 100 in1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 2 13 22 hln 100 in2 n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 in3 n 0 30 h
+a 0 u 0 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 57 12 hrn 100 out1 n 70 10 u
+a 0 u 0 0 65 8 hln 100 PIN=4
+a 0 u 0 0 70 10 hln 100 ERC=x
+p 2 57 22 hrn 100 out2 n 70 20 u
+a 0 u 0 0 65 18 hln 100 PIN=5
+a 0 u 0 0 70 20 hln 100 ERC=x
+p 2 57 32 hrn 100 out3 n 70 30 u
+a 0 u 0 0 65 28 hln 100 PIN=6
+a 0 u 0 0 70 30 hln 100 ERC=x
+@graphics 70 40 0 10 10
+r 0 10 0 60 40
+*symbol T4coupledX
+d 4 asymmetric coupled lossy lines
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=T1^@REFDES %in1 0 %out1 0 LEN=@LEN R=@R1 L=@L1 G=@G1 C=@C1 \nT2^@REFDES %in2 0 %out2 0 LEN=@LEN R=@R2 L=@L2 G=@G2 C=@C2 \nT3^@REFDES %in3 0 %out3 0 LEN=@LEN R=@R3 L=@L3 G=@G3 C=@C3 \nT4^@REFDES %in4 0 %out4 0 LEN=@LEN R=@R4 L=@L4 G=@G4 C=@C4 \nK12^@REFDES T1^@REFDES T2^@REFDES LM=@LM12 CM=@CM12 \nK13^@REFDES T1^@REFDES T3^@REFDES LM=@LM13 CM=@CM13 \nK14^@REFDES T1^@REFDES T4^@REFDES LM=@LM14 CM=@CM14 \nK23^@REFDES T2^@REFDES T3^@REFDES LM=@LM23 CM=@CM23 \nK24^@REFDES T2^@REFDES T4^@REFDES LM=@LM24 CM=@CM24 \nK34^@REFDES T3^@REFDES T4^@REFDES LM=@LM34 CM=@CM34
+a 0 sp 11 0 12 58 hln 100 PART=T4coupledX
+a 0 u 0 0 0 10 hlb 100 LEN=-1
+a 0 u 0 0 0 60 hlb 100 LM12=0
+a 0 u 0 0 0 70 hlb 100 CM12=0
+a 0 u 0 0 0 60 hlb 100 LM13=0
+a 0 u 0 0 0 70 hlb 100 CM13=0
+a 0 u 0 0 0 60 hlb 100 LM14=0
+a 0 u 0 0 0 70 hlb 100 CM14=0
+a 0 u 0 0 0 60 hlb 100 LM23=0
+a 0 u 0 0 0 70 hlb 100 CM23=0
+a 0 u 0 0 0 60 hlb 100 LM24=0
+a 0 u 0 0 0 70 hlb 100 CM24=0
+a 0 u 0 0 0 60 hlb 100 LM34=0
+a 0 u 0 0 0 70 hlb 100 CM34=0
+a 0 u 0 0 0 10 hlb 100 R1=0
+a 0 u 0 0 0 20 hlb 100 L1=-1
+a 0 u 0 0 0 30 hlb 100 G1=0
+a 0 u 0 0 0 40 hlb 100 C1=-1
+a 0 u 0 0 0 50 hlb 100 R2=0
+a 0 u 0 0 0 60 hlb 100 L2=-1
+a 0 u 0 0 0 70 hlb 100 G2=0
+a 0 u 0 0 0 80 hlb 100 C2=-1
+a 0 u 0 0 0 10 hlb 100 R3=0
+a 0 u 0 0 0 20 hlb 100 L3=-1
+a 0 u 0 0 0 30 hlb 100 G3=0
+a 0 u 0 0 0 40 hlb 100 C3=-1
+a 0 u 0 0 0 10 hlb 100 R4=0
+a 0 u 0 0 0 20 hlb 100 L4=-1
+a 0 u 0 0 0 30 hlb 100 G4=0
+a 0 u 0 0 0 40 hlb 100 C4=-1
+a 0 sp 0 0 10 60 hln 100 MODEL=
+a 1 sp 9 0 0 0 hln 100 REFDES=T?
+@pins
+p 2 13 12 hln 100 in1 n 0 10 h
+a 0 s 0 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=x
+p 2 13 22 hln 100 in2 n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 in3 n 0 30 h
+a 0 s 0 0 5 28 hrn 100 PIN=3
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 13 42 hln 100 in4 n 0 40 h
+a 0 s 0 0 5 38 hrn 100 PIN=4
+a 0 s 0 0 0 40 hln 100 ERC=x
+p 2 57 12 hrn 100 out1 n 70 10 u
+a 0 s 0 0 65 8 hln 100 PIN=5
+a 0 s 0 0 70 10 hln 100 ERC=x
+p 2 57 22 hrn 100 out2 n 70 20 u
+a 0 s 0 0 65 18 hln 100 PIN=6
+a 0 s 0 0 70 20 hln 100 ERC=x
+p 2 57 32 hrn 100 out3 n 70 30 u
+a 0 s 0 0 65 28 hln 100 PIN=7
+a 0 s 0 0 70 30 hln 100 ERC=x
+p 2 57 42 hrn 100 out4 n 70 40 u
+a 0 s 0 0 65 38 hln 100 PIN=8
+a 0 s 0 0 70 40 hln 100 ERC=x
+@graphics 70 50 0 10 10
+r 0 10 0 60 50
+*symbol T5coupledX
+d 5 asymmetric coupled lossy lines
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=T1^@REFDES %in1 0 %out1 0 LEN=@LEN R=@R1 L=@L1 G=@G1 C=@C1 \nT2^@REFDES %in2 0 %out2 0 LEN=@LEN R=@R2 L=@L2 G=@G2 C=@C2 \nT3^@REFDES %in3 0 %out3 0 LEN=@LEN R=@R3 L=@L3 G=@G3 C=@C3 \nT4^@REFDES %in4 0 %out4 0 LEN=@LEN R=@R4 L=@L4 G=@G4 C=@C4 \nT5^@REFDES %in5 0 %out5 0 LEN=@LEN R=@R5 L=@L5 G=@G5 C=@C5 \nK12^@REFDES T1^@REFDES T2^@REFDES LM=@LM12 CM=@CM12 \nK13^@REFDES T1^@REFDES T3^@REFDES LM=@LM13 CM=@CM13 \nK14^@REFDES T1^@REFDES T4^@REFDES LM=@LM14 CM=@CM14 \nK15^@REFDES T1^@REFDES T5^@REFDES LM=@LM15 CM=@CM15 \nK23^@REFDES T2^@REFDES T3^@REFDES LM=@LM23 CM=@CM23 \nK24^@REFDES T2^@REFDES T4^@REFDES LM=@LM24 CM=@CM24 \nK25^@REFDES T2^@REFDES T5^@REFDES LM=@LM25 CM=@CM25 \nK34^@REFDES T3^@REFDES T4^@REFDES LM=@LM34 CM=@CM34 \nK35^@REFDES T3^@REFDES T5^@REFDES LM=@LM35 CM=@CM35 \nK45^@REFDES T4^@REFDES T5^@REFDES LM=@LM45 CM=@CM45
+a 0 sp 11 0 12 68 hln 100 PART=T5coupledX
+a 0 u 0 0 0 10 hlb 100 LEN=-1
+a 0 u 0 0 0 60 hlb 100 LM12=0
+a 0 u 0 0 0 70 hlb 100 CM12=0
+a 0 u 0 0 0 60 hlb 100 LM13=0
+a 0 u 0 0 0 70 hlb 100 CM13=0
+a 0 u 0 0 0 60 hlb 100 LM14=0
+a 0 u 0 0 0 70 hlb 100 CM14=0
+a 0 u 0 0 0 60 hlb 100 LM15=0
+a 0 u 0 0 0 70 hlb 100 CM15=0
+a 0 u 0 0 0 60 hlb 100 LM23=0
+a 0 u 0 0 0 70 hlb 100 CM23=0
+a 0 u 0 0 0 60 hlb 100 LM24=0
+a 0 u 0 0 0 70 hlb 100 CM24=0
+a 0 u 0 0 0 60 hlb 100 LM25=0
+a 0 u 0 0 0 70 hlb 100 CM25=0
+a 0 u 0 0 0 60 hlb 100 LM34=0
+a 0 u 0 0 0 70 hlb 100 CM34=0
+a 0 u 0 0 0 60 hlb 100 LM35=0
+a 0 u 0 0 0 70 hlb 100 CM35=0
+a 0 u 0 0 0 60 hlb 100 LM45=0
+a 0 u 0 0 0 70 hlb 100 CM45=0
+a 0 u 0 0 0 10 hlb 100 R1=0
+a 0 u 0 0 0 20 hlb 100 L1=-1
+a 0 u 0 0 0 30 hlb 100 G1=0
+a 0 u 0 0 0 40 hlb 100 C1=-1
+a 0 u 0 0 0 50 hlb 100 R2=0
+a 0 u 0 0 0 60 hlb 100 L2=-1
+a 0 u 0 0 0 70 hlb 100 G2=0
+a 0 u 0 0 0 80 hlb 100 C2=-1
+a 0 u 0 0 0 10 hlb 100 R3=0
+a 0 u 0 0 0 20 hlb 100 L3=-1
+a 0 u 0 0 0 30 hlb 100 G3=0
+a 0 u 0 0 0 40 hlb 100 C3=-1
+a 0 u 0 0 0 10 hlb 100 R4=0
+a 0 u 0 0 0 20 hlb 100 L4=-1
+a 0 u 0 0 0 30 hlb 100 G4=0
+a 0 u 0 0 0 40 hlb 100 C4=-1
+a 0 u 0 0 0 10 hlb 100 R5=0
+a 0 u 0 0 0 20 hlb 100 L5=-1
+a 0 u 0 0 0 30 hlb 100 G5=0
+a 0 u 0 0 0 40 hlb 100 C5=-1
+a 0 sp 0 0 10 68 hln 100 MODEL=
+a 1 sp 9 0 0 0 hln 100 REFDES=T?
+@pins
+p 2 13 12 hln 100 in1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 PIN=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 2 13 22 hln 100 in2 n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 in3 n 0 30 h
+a 0 u 0 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 42 hln 100 in4 n 0 40 h
+a 0 u 0 0 5 38 hrn 100 PIN=4
+a 0 u 0 0 0 40 hln 100 ERC=x
+p 2 13 52 hln 100 in5 n 0 50 h
+a 0 u 0 0 5 48 hrn 100 PIN=5
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 57 12 hrn 100 out1 n 70 10 u
+a 0 u 0 0 65 8 hln 100 PIN=6
+a 0 u 0 0 70 10 hln 100 ERC=x
+p 2 57 22 hrn 100 out2 n 70 20 u
+a 0 u 0 0 65 18 hln 100 PIN=7
+a 0 u 0 0 70 20 hln 100 ERC=x
+p 2 57 32 hrn 100 out3 n 70 30 u
+a 0 u 0 0 65 28 hln 100 PIN=8
+a 0 u 0 0 70 30 hln 100 ERC=x
+p 2 57 42 hrn 100 out4 n 70 40 u
+a 0 u 0 0 65 38 hln 100 PIN=9
+a 0 u 0 0 70 40 hln 100 ERC=x
+p 2 57 52 hrn 100 out5 n 70 50 u
+a 0 u 0 0 65 48 hln 100 PIN=10
+a 0 u 0 0 70 50 hln 100 ERC=x
+@graphics 70 60 0 10 10
+r 0 10 60 60 0
+*symbol Kcouple2
+d Asymmetric coupling matrices
+@type p
+@attributes
+a 1 sp 9 0 0 40 hln 100 REFDES=K?
+a 0 sp 11 0 0 30 hln 100 PART=Kcouple2
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=K^@REFDES T^@T1 T^@T2 LM=@LM CM=@CM
+a 0 u 13 0 2 8 hln 50 T1=T1
+a 0 u 13 0 22 18 hln 50 T2=T2
+a 0 u 13 0 22 8 hln 50 LM=LM
+a 0 u 13 0 2 18 hln 50 CM=CM
+@pins
+@graphics 40 20 0 0 10
+r 0 0 0 40 20
+v 0 20 0
+20 20
+;
+v 0 0 10
+40 10
+;
+s 26 0 -2 hln 100 Lm->
+s 26 -2 30 vln 100 <-Cm
+*symbol Kcouple3
+d Asymmetric coupling matrices
+@type p
+@attributes
+a 1 sp 9 0 0 50 hln 100 REFDES=K?
+a 0 sp 11 0 0 40 hln 100 PART=Kcouple3
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=K12^@REFDES T^@T1 T^@T2 LM=@LM12 CM=@CM21 \nK13^@REFDES T^@T1 T^@T3 LM=@LM13 CM=@CM31 \nK23^@REFDES T^@T2 T^@T3 LM=@LM23 CM=@CM32
+a 0 u 13 0 2 8 hln 50 T1=T1
+a 0 u 13 0 22 18 hln 50 T2=T2
+a 0 u 13 0 42 28 hln 50 T3=T3
+a 0 u 13 0 22 8 hln 50 LM12=LM12
+a 0 u 13 0 2 18 hln 50 CM21=CM21
+a 0 u 13 0 42 8 hlb 50 LM13=LM13
+a 0 u 13 0 2 28 hln 50 CM31=CM31
+a 0 u 13 0 42 18 hlb 50 LM23=LM23
+a 0 u 13 0 22 28 hln 50 CM32=CM32
+@pins
+@graphics 60 30 0 0 10
+s 26 0 -2 hln 100 Lm->
+s 26 -2 30 vln 100 <-Cm
+r 0 0 0 60 30
+v 0 0 10
+60 10
+;
+v 0 0 20
+60 20
+;
+v 0 20 0
+20 30
+;
+v 0 40 0
+40 30
+;
+*symbol Kcouple4
+d Asymmetric coupling matrices
+@type p
+@attributes
+a 1 sp 9 0 0 60 hln 100 REFDES=K?
+a 0 sp 11 0 0 50 hln 100 PART=Kcouple4
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=K12^@REFDES T^@T1 T^@T2 LM=@LM12 CM=@CM21 \nK13^@REFDES T^@T1 T^@T3 LM=@LM13 CM=@CM31 \nK14^@REFDES T^@T1 T^@T4 LM=@LM14 CM=@CM41 \nK23^@REFDES T^@T2 T^@T3 LM=@LM23 CM=@CM32 \nK24^@REFDES T^@T2 T^@T4 LM=@LM24 CM=@CM42 \nK34^@REFDES T^@T3 T^@T4 LM=@LM34 CM=@CM43
+a 0 u 13 0 2 8 hln 50 T1=T1
+a 0 u 13 0 22 18 hln 50 T2=T2
+a 0 u 13 0 42 28 hln 50 T3=T3
+a 0 u 13 0 62 38 hln 50 T4=T4
+a 0 u 13 0 22 8 hln 50 LM12=LM12
+a 0 u 13 0 2 18 hln 50 CM21=CM21
+a 0 u 13 0 42 8 hln 50 LM13=LM13
+a 0 u 13 0 2 28 hln 50 CM31=CM31
+a 0 u 13 0 62 8 hln 50 LM14=LM14
+a 0 u 13 0 2 38 hln 50 CM41=CM41
+a 0 u 13 0 42 18 hln 50 LM23=LM23
+a 0 u 13 0 22 28 hln 50 CM32=CM32
+a 0 u 13 0 62 18 hln 50 LM24=LM24
+a 0 u 13 0 22 38 hln 50 CM42=CM42
+a 0 u 13 0 62 28 hln 50 LM34=LM34
+a 0 u 13 0 42 38 hln 50 CM43=CM43
+@pins
+@graphics 80 40 0 0 10
+s 26 0 -2 hln 100 Lm->
+s 26 -2 30 vln 100 <-Cm
+r 0 0 0 80 40
+v 0 0 10
+80 10
+;
+v 0 0 20
+80 20
+;
+v 0 0 30
+80 30
+;
+v 0 40 0
+40 40
+;
+v 0 20 0
+20 40
+;
+v 0 60 0
+60 40
+;
+*symbol Kcouple5
+d Asymmetric coupling matrices
+@type p
+@attributes
+a 1 sp 9 0 0 70 hln 100 REFDES=K?
+a 0 sp 11 0 0 60 hln 100 PART=Kcouple5
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=K12^@REFDES T^@T1 T^@T2 LM=@LM12 CM=@CM21 \nK13^@REFDES T^@T1 T^@T3 LM=@LM13 CM=@CM31 \nK14^@REFDES T^@T1 T^@T4 LM=@LM14 CM=@CM41 \nK15^@REFDES T^@T1 T^@T5 LM=@LM15 CM=@CM51 \nK23^@REFDES T^@T2 T^@T3 LM=@LM23 CM=@CM32 \nK24^@REFDES T^@T2 T^@T4 LM=@LM24 CM=@CM42 \nK25^@REFDES T^@T2 T^@T5 LM=@LM25 CM=@CM52 \nK34^@REFDES T^@T3 T^@T4 LM=@LM34 CM=@CM43 \nK35^@REFDES T^@T3 T^@T5 LM=@LM35 CM=@CM53 \nK45^@REFDES T^@T4 T^@T5 LM=@LM45 CM=@CM54
+a 0 u 13 0 2 8 hln 50 T1=T1
+a 0 u 13 0 22 18 hln 50 T2=T2
+a 0 u 13 0 42 28 hln 50 T3=T3
+a 0 u 13 0 62 38 hln 50 T4=T4
+a 0 u 13 0 82 48 hln 50 T5=T5
+a 0 u 13 0 22 8 hln 50 LM12=LM12
+a 0 u 13 0 2 18 hln 50 CM21=CM21
+a 0 u 13 0 42 8 hln 50 LM13=LM13
+a 0 u 13 0 2 28 hln 50 CM31=CM31
+a 0 u 13 0 62 8 hln 50 LM14=LM14
+a 0 u 13 0 2 38 hln 50 CM41=CM41
+a 0 u 13 0 82 8 hln 50 LM15=LM15
+a 0 u 13 0 2 48 hln 50 CM51=CM51
+a 0 u 13 0 42 18 hln 50 LM23=LM23
+a 0 u 13 0 22 28 hln 50 CM32=CM32
+a 0 u 13 0 62 18 hln 50 LM24=LM24
+a 0 u 13 0 22 38 hln 50 CM42=CM42
+a 0 u 13 0 82 18 hln 50 LM25=LM25
+a 0 u 13 0 22 48 hln 50 CM52=CM52
+a 0 u 13 0 82 28 hln 50 LM35=LM35
+a 0 u 13 0 42 48 hln 50 CM53=CM53
+a 0 u 13 0 62 28 hln 50 LM34=LM34
+a 0 u 13 0 42 38 hln 50 CM43=CM43
+a 0 u 13 0 82 38 hln 50 LM45=LM45
+a 0 u 13 0 62 48 hln 50 CM54=CM54
+@pins
+@graphics 100 50 0 0 10
+s 26 0 -2 hln 100 Lm->
+s 26 -2 30 vln 100 <-Cm
+r 0 0 0 100 50
+v 0 80 0
+80 50
+;
+v 0 0 40
+100 40
+;
+v 0 20 0
+20 50
+;
+v 0 40 0
+40 50
+;
+v 0 60 0
+60 50
+;
+v 0 0 20
+100 20
+;
+v 0 0 30
+100 30
+;
+v 0 0 10
+100 10
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

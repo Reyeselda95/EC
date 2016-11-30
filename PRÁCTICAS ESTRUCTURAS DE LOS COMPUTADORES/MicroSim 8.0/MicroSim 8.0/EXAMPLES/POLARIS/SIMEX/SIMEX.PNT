@@ -1,0 +1,45 @@
+* Schematics Netlist *
+
+
+
+V_Vsrc   $N_0001 0  
++PULSE 0v 5v 0 10ns 10ns 30ns 100ns
+R_Rsrc   $N_0001 drive 50 
+R_Rpar   0 drive 92 
+R_Rser   $$P004 drive 39 
+R_Rterm1  0 D 68 
+R_Rterm2  $$P002 0 68 
+R_Rterm3  0 V 68 
+
+** Polaris Parasitics **
+
+
+** Coupled Lines
+X_P_002 $$P005 $$P006 $$P007 $$P008 p/t2c
++ params: len=2.780E-001 l=7.351E-007 c=2.748E-011 r=2.222E+000 g=0.000E+000 lm=3.774E-007 cm=2.249E-011
+
+
+
+** Uncoupled Lines
+X_P_003 $$P006 $$P002 p/ls
++ params: len=1.397E-003 l=7.439E-007 c=3.873E-011 r=2.222E+000 g=0.000E+000
+X_P_004 $$P008 V p/ls
++ params: len=1.270E-003 l=7.439E-007 c=3.873E-011 r=2.222E+000 g=0.000E+000
+X_P_005 $$P004 $$P005 p/ls
++ params: len=1.651E-003 l=7.439E-007 c=3.873E-011 r=2.222E+000 g=0.000E+000
+X_P_006 D $$P007 p/ls
++ params: len=2.032E-003 l=7.439E-007 c=3.873E-011 r=2.222E+000 g=0.000E+000
+
+
+** Vias **
+C__PV_001 V 0 1E-012
+C__PV_002 $$P002 0 1E-012
+C__PV_003 D 0 1E-012
+C__PV_004 $$P004 0 1E-012
+
+
+** Dummy Resistors **
+R__PD_001 V 0 1E9
+R__PD_002 $$P002 0 1E9
+R__PD_003 D 0 1E9
+R__PD_004 $$P004 0 1E9

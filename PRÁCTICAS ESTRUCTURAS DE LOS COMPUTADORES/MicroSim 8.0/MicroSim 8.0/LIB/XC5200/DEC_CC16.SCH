@@ -1,0 +1,287 @@
+*version 6.3 407677706
+u 224
+XC5200 601529500
+U? 5
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 4601 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 225 IF_IN 240 810 h
+a 0 s 3 0 10 8 hln 50 LABEL=C_IN
+port 226 IF_IN 240 790 h
+a 0 s 3 0 10 8 hln 80 LABEL=A15
+port 227 IF_IN 240 770 h
+a 0 s 3 0 10 8 hln 80 LABEL=A14
+port 228 IF_IN 240 750 h
+a 0 s 3 0 10 8 hln 80 LABEL=A13
+port 229 IF_IN 240 730 h
+a 0 s 3 0 10 8 hln 80 LABEL=A12
+port 230 IF_IN 240 610 h
+a 0 s 3 0 10 8 hln 80 LABEL=A11
+port 231 IF_IN 240 590 h
+a 0 s 3 0 10 8 hln 80 LABEL=A10
+port 232 IF_IN 240 570 h
+a 0 s 3 0 10 8 hln 80 LABEL=A9
+port 233 IF_IN 240 550 h
+a 0 s 3 0 10 8 hln 80 LABEL=A8
+port 234 IF_IN 240 250 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+port 235 IF_IN 240 230 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 236 IF_IN 240 210 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 237 INTERFACE 620 250 u
+a 0 s 3 0 10 8 hln 80 LABEL=O
+port 238 IF_IN 240 370 h
+a 0 s 3 0 10 8 hln 80 LABEL=A4
+port 239 IF_IN 240 390 h
+a 0 s 3 0 10 8 hln 80 LABEL=A5
+port 240 IF_IN 240 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=A6
+port 241 IF_IN 240 190 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 242 IF_IN 240 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=A7
+@parts
+part 19 DEC_CC4 370 190 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=DEC_CC4
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 20 DEC_CC4 370 370 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=DEC_CC4
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 21 DEC_CC4 370 550 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=DEC_CC4
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 22 DEC_CC4 370 730 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U4
+a 0 sp 11 0 60 20 hcn 200 PART=DEC_CC4
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 28
+s 345 320 515 320 23
+s 515 430 515 320 25
+s 490 430 515 430 24
+s 345 320 345 270 27
+s 345 270 370 270 26
+w 48
+s 345 500 515 500 43
+s 345 500 345 450 45
+s 345 450 370 450 44
+s 515 610 515 500 46
+s 490 610 515 610 47
+w 63
+s 240 790 370 790 62
+a 0 s 3 0 250 790 hln 100 LABEL=A15
+w 71
+s 240 770 370 770 70
+a 0 s 3 0 250 770 hln 100 LABEL=A14
+w 79
+s 240 750 370 750 78
+a 0 s 3 0 250 750 hln 100 LABEL=A13
+w 87
+s 240 730 370 730 86
+a 0 s 3 0 250 730 hln 100 LABEL=A12
+w 95
+s 240 610 370 610 94
+a 0 s 3 0 250 610 hln 100 LABEL=A11
+w 103
+s 240 590 370 590 102
+a 0 s 3 0 250 590 hln 100 LABEL=A10
+w 111
+s 240 570 370 570 110
+a 0 s 3 0 250 570 hln 100 LABEL=A9
+w 119
+s 240 550 370 550 118
+a 0 s 3 0 250 550 hln 100 LABEL=A8
+w 131
+s 345 680 345 630 126
+s 345 680 515 680 127
+s 515 790 515 680 128
+s 490 790 515 790 129
+s 345 630 370 630 130
+w 145
+s 240 190 370 190 144
+a 0 s 3 0 250 190 hln 100 LABEL=A0
+w 153
+s 490 250 620 250 152
+a 0 s 3 0 605 250 hln 100 LABEL=O
+w 161
+s 240 210 370 210 160
+a 0 s 3 0 250 210 hln 100 LABEL=A1
+w 169
+s 240 230 370 230 168
+a 0 s 3 0 250 230 hln 100 LABEL=A2
+w 177
+s 240 250 370 250 176
+a 0 s 3 0 250 250 hln 100 LABEL=A3
+w 185
+s 240 370 370 370 184
+a 0 s 3 0 250 370 hln 100 LABEL=A4
+w 193
+s 240 390 370 390 192
+a 0 s 3 0 250 390 hln 100 LABEL=A5
+w 201
+s 240 410 370 410 200
+a 0 s 3 0 250 410 hln 100 LABEL=A6
+w 209
+s 240 430 370 430 208
+a 0 s 3 0 250 430 hln 100 LABEL=A7
+w 217
+s 240 810 370 810 216
+a 0 s 3 0 250 810 hln 100 LABEL=C_IN
+@junction
+j 370 270
++ p 19 C_IN
++ w 28
+j 490 430
++ p 20 O
++ w 28
+j 370 450
++ p 20 C_IN
++ w 48
+j 490 610
++ p 21 O
++ w 48
+j 370 790
++ p 22 A3
++ w 63
+j 370 770
++ p 22 A2
++ w 71
+j 370 750
++ p 22 A1
++ w 79
+j 370 730
++ p 22 A0
++ w 87
+j 370 610
++ p 21 A3
++ w 95
+j 370 590
++ p 21 A2
++ w 103
+j 370 570
++ p 21 A1
++ w 111
+j 370 550
++ p 21 A0
++ w 119
+j 370 630
++ p 21 C_IN
++ w 131
+j 490 790
++ p 22 O
++ w 131
+j 370 190
++ p 19 A0
++ w 145
+j 490 250
++ p 19 O
++ w 153
+j 370 210
++ p 19 A1
++ w 161
+j 370 230
++ p 19 A2
++ w 169
+j 370 250
++ p 19 A3
++ w 177
+j 370 370
++ p 20 A0
++ w 185
+j 370 390
++ p 20 A1
++ w 193
+j 370 410
++ p 20 A2
++ w 201
+j 370 430
++ p 20 A3
++ w 209
+j 370 810
++ p 22 C_IN
++ w 217
+j 240 810
++ s 225
++ w 217
+j 240 790
++ s 226
++ w 63
+j 240 770
++ s 227
++ w 71
+j 240 750
++ s 228
++ w 79
+j 240 730
++ s 229
++ w 87
+j 240 610
++ s 230
++ w 95
+j 240 590
++ s 231
++ w 103
+j 240 570
++ s 232
++ w 111
+j 240 550
++ s 233
++ w 119
+j 240 250
++ s 234
++ w 177
+j 240 230
++ s 235
++ w 169
+j 240 210
++ s 236
++ w 161
+j 620 250
++ s 237
++ w 153
+j 240 370
++ s 238
++ w 185
+j 240 390
++ s 239
++ w 193
+j 240 410
++ s 240
++ w 201
+j 240 190
++ s 241
++ w 145
+j 240 430
++ s 242
++ w 209
+@attributes
+@text
+s 5 500 1020 hln 100 16-INPUT ACTIVE-LOW DECODER
+s 5 700 1050 hln 100 1
+s 5 700 1070 hln 100 A
+s 5 500 1000 hln 100 XC5200 FAMILY DEC_CC16 MACRO
+s 5 460 1050 hln 100 1ST JUNE 1994
+s 5 30 1070 hln 100 COPYRIGHT (C) 1994, XILINX INC.
+s 5 230 900 hln 100 BY A CY_INIT OR BY THE OUTPUT OF A
+s 5 230 880 hln 100 THE C_IN PIN CAN ONLY BE INITIALIZED
+s 5 230 920 hln 100 PREVIOUS DECODE STAGE.

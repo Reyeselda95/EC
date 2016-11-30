@@ -1,0 +1,266 @@
+*version 6.3 74476358
+u 281
+XC5200 478369831
+U? 8
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 4163 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 282 IF_IN 80 500 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 283 IF_OUT 1010 480 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q
+port 284 IF_IN 80 450 h
+a 0 s 3 0 10 8 hln 80 LABEL=S
+port 285 IF_IN 80 380 h
+a 0 s 3 0 10 8 hln 80 LABEL=J
+port 286 IF_IN 80 480 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+port 287 IF_IN 80 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 288 IF_IN 80 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=K
+@parts
+part 16 AND2B1 560 310 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U1
+a 0 sp 11 0 10 40 hlt 100 PART=AND2B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 21 OR2 560 480 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 40 hlt 100 PART=OR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 28 FDSE 710 450 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U3
+a 0 sp 11 0 60 10 hcn 200 PART=FDSE
+a 0 u 13 13 20 140 hln 100 RLOC=R0C0
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 29 AND2B1 300 380 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=AND2B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 35 OR3 440 290 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 60 hlt 100 PART=OR3
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 41 AND3B1 300 290 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U6
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 47 AND3B2 300 220 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U7
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+@conn
+w 52
+s 80 480 530 480 48
+a 0 s 3 0 90 480 hln 100 LABEL=R
+s 530 480 530 330 49
+s 530 330 560 330 50
+s 530 480 560 480 51
+w 69
+s 80 500 560 500 68
+a 0 s 3 0 90 500 hln 100 LABEL=CE
+w 77
+s 80 520 710 520 76
+a 0 s 3 0 90 520 hln 100 LABEL=C
+w 87
+s 660 500 710 500 84
+a 0 s 3 0 660 500 hln 100 LABEL=R_CE
+s 660 500 660 490 85
+s 640 490 660 490 86
+w 106
+s 80 380 270 380 100
+a 0 s 3 0 90 380 hln 100 LABEL=J
+s 270 380 300 380 101
+s 270 380 270 290 102
+s 270 290 300 290 103
+s 270 290 270 260 104
+s 270 260 300 260 105
+w 137
+s 80 400 250 400 131
+a 0 s 3 0 90 400 hln 100 LABEL=K
+s 250 400 300 400 132
+s 250 400 250 310 133
+s 250 310 300 310 134
+s 250 310 250 240 135
+s 250 240 300 240 136
+w 163
+s 80 450 710 450 162
+a 0 s 3 0 90 450 hln 100 LABEL=S
+w 178
+s 860 480 1010 480 170
+a 0 s 3 0 990 480 hln 100 LABEL=Q
+s 860 480 860 200 172
+s 230 200 860 200 171
+s 830 480 860 480 173
+s 230 220 230 200 174
+s 230 220 300 220 175
+s 230 330 230 220 176
+s 230 330 300 330 177
+w 207
+s 640 320 680 320 204
+a 0 s 3 0 640 320 hln 100 LABEL=AD_R
+s 680 480 680 320 206
+s 680 480 710 480 205
+w 222
+s 520 310 560 310 221
+a 0 s 3 0 530 310 hln 100 LABEL=AD
+w 236
+s 380 310 440 310 235
+a 0 s 3 0 410 310 hln 100 LABEL=A1
+w 252
+s 410 290 440 290 249
+a 0 s 3 0 410 290 hln 100 LABEL=A0
+s 410 290 410 240 250
+s 380 240 410 240 251
+w 268
+s 410 330 440 330 265
+a 0 s 3 0 410 330 hln 100 LABEL=A2
+s 410 390 410 330 266
+s 380 390 410 390 267
+@junction
+j 530 480
++ w 52
++ w 52
+j 560 330
++ p 16 I0
++ w 52
+j 560 480
++ p 21 I1
++ w 52
+j 560 500
++ p 21 I0
++ w 69
+j 710 520
++ p 28 C
++ w 77
+j 640 490
++ p 21 O
++ w 87
+j 710 500
++ p 28 CE
++ w 87
+j 270 380
++ w 106
++ w 106
+j 270 290
++ w 106
++ w 106
+j 300 380
++ p 29 I1
++ w 106
+j 300 290
++ p 41 I2
++ w 106
+j 300 260
++ p 47 I0
++ w 106
+j 250 400
++ w 137
++ w 137
+j 250 310
++ w 137
++ w 137
+j 300 400
++ p 29 I0
++ w 137
+j 300 310
++ p 41 I1
++ w 137
+j 300 240
++ p 47 I1
++ w 137
+j 710 450
++ p 28 S
++ w 163
+j 860 480
++ w 178
++ w 178
+j 230 220
++ w 178
++ w 178
+j 830 480
++ p 28 Q
++ w 178
+j 300 330
++ p 41 I0
++ w 178
+j 300 220
++ p 47 I2
++ w 178
+j 640 320
++ p 16 O
++ w 207
+j 710 480
++ p 28 D
++ w 207
+j 560 310
++ p 16 I1
++ w 222
+j 520 310
++ p 35 O
++ w 222
+j 440 310
++ p 35 I1
++ w 236
+j 380 310
++ p 41 O
++ w 236
+j 440 290
++ p 35 I2
++ w 252
+j 380 240
++ p 47 O
++ w 252
+j 380 390
++ p 29 O
++ w 268
+j 440 330
++ p 35 I0
++ w 268
+j 80 500
++ s 282
++ w 69
+j 1010 480
++ s 283
++ w 178
+j 80 450
++ s 284
++ w 163
+j 80 380
++ s 285
++ w 106
+j 80 480
++ s 286
++ w 52
+j 80 520
++ s 287
++ w 77
+j 80 400
++ s 288
++ w 137
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 710 800 hln 100 24TH FEBRUARY 1993
+s 5 760 770 hln 100 J-K FLIP-FLOP WITH CLOCK ENABLE,
+s 5 760 780 hln 100 & SYNCHRONOUS SET & RESET
+s 5 760 750 hln 100 XC5200 FAMILY FJKSRE MACRO
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A

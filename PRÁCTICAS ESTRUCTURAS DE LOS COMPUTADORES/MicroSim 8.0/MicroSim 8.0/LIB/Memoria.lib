@@ -1,0 +1,604 @@
+* libreria memoria.lib
+* creada por Angel Grediaga y Francisco Brotons
+* fecha: septiembre 98
+
+
+
+*****************************************************************************
+* Este el el modelo de una RAM de 16Kbytes
+*****************************************************************************
+
+.SUBCKT RAM16x8
++               A13 A12 A11 A10 A9 A8 A7 A6 A5 A4 A3 A2 A1 A0
++               IO7 IO6 IO5 IO4 IO3 IO2 IO1 IO0
++		CSBAR WBAR OEBAR	
++               OPTIONAL: DPWR=$G_DPWR DGND=$G_DGND
++               PARAMS: MNTYMXDLY=0 IO_LEVEL=0 
++               TEXT: FICHERO_HEX="FICHERO.HEX"
+
+
+U1 RAM(14,8) DPWR DGND LEER RT
++            A13 A12 A11 A10 A9 A8 A7 A6 A5 A4 A3 A2 A1 A0
++            W7 W6 W5 W4 W3W W2 W1 W0
++            R7 R6 R5 R4 R3 R2 R1 R0
++            RAM8Kx8_TIMING IO_STD
++            MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
++            FILE=|FICHERO_HEX|
+*+           DATA=
+
+.MODEL 	RAM8Kx8_TIMING URAM
+
+U2 INVA(3) DPWR DGND CSBAR WBAR OEBAR CS W OE
++		MODELTIEMPO IO_STD
++               MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+.MODEL MODELTIEMPO UGATE
+
+U3 AND(3) DPWR DGND CS WBAR OE LEER
++		MODELTIEMPO IO_STD
++               MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+U4 AND(2) DPWR DGND CS W ESCRI
++		MODELTIEMPO IO_STD
++               MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+U5 SRFF(1) DPWR DGND 
++		$D_HI ESCRI
++		ESCRI
++		ST RT RT ST 
++		MODELTIEMPO4 IO_STD
++               MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+.MODEL MODELTIEMPO4 UGFF (
++	tpgqlhty=100ns
++	tpdqlhty=20ns
++	tpdqhlty=3ns
+				)
+*He acortado el tiempo a nivel alto haciendo tpdqhlty más pequeño que tpdqlh. Con
+*esto lo que consigo es que como el ciclo se inicia con el nivel alto y se realiza
+*con el flanco de bajada el tiempo necesario para la escritura se ve reducido al máximo.
+
+
+U8 BUF3A(8) DPWR DGND R7 R6 R5 R4 R3 R2 R1 R0 LEER IO7 IO6 IO5 IO4 IO3 IO2 IO1 IO0
++		MODELTIEMPO3 IO_STD
++               MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+U9 BUF3A(8) DPWR DGND IO7 IO6 IO5 IO4 IO3 IO2 IO1 IO0 RT W7 W6 W5 W4 W3W W2 W1 W0 
++		MODELTIEMPO3 IO_STD
++           MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+.MODEL MODELTIEMPO3 UTGATE
+
+.ENDS RAM16x8
+
+
+*****************************************************************************
+* Este el el modelo de una RAM  de 64Kbytes
+*****************************************************************************
+
+
+.SUBCKT RAM64x8
++               A15 A14 A13 A12 A11 A10 A9 A8 A7 A6 A5 A4 A3 A2 A1 A0
++               IO7 IO6 IO5 IO4 IO3 IO2 IO1 IO0
++		CSBAR WBAR OEBAR	
++               OPTIONAL: DPWR=$G_DPWR DGND=$G_DGND
++               PARAMS: MNTYMXDLY=0 IO_LEVEL=0 
++               TEXT: FICHERO_HEX="RAM.HEX"
+
+
+U1 RAM(16,8) DPWR DGND LEER RT
++            A15 A14 A13 A12 A11 A10 A9 A8 A7 A6 A5 A4 A3 A2 A1 A0
++            W7 W6 W5 W4 W3W W2 W1 W0
++            R7 R6 R5 R4 R3 R2 R1 R0
++            RAM8Kx8_TIMING IO_STD
++            MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
++            FILE=|FICHERO_HEX|
+*+           DATA=
+
+.MODEL 	RAM8Kx8_TIMING URAM
+
+U2 INVA(3) DPWR DGND CSBAR WBAR OEBAR CS W OE
++		MODELTIEMPO IO_STD
++               MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+.MODEL MODELTIEMPO UGATE
+
+U3 AND(3) DPWR DGND CS WBAR OE LEER
++		MODELTIEMPO IO_STD
++               MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+U4 AND(2) DPWR DGND CS W ESCRI
++		MODELTIEMPO IO_STD
++               MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+U5 SRFF(1) DPWR DGND 
++		$D_HI ESCRI
++		ESCRI
++		ST RT RT ST 
++		MODELTIEMPO4 IO_STD
++               MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+.MODEL MODELTIEMPO4 UGFF (
++	tpgqlhty=25ns
++	tpdqlhty=4ns
++	tpdqhlty=2ns
+				)
+*He acortado el tiempo a nivel alto haciendo tpdqhlty más pequeño que tpdqlh. Con
+*esto lo que consigo es que como el ciclo se inicia con el nivel alto y se realiza
+*con el flanco de bajada el tiempo necesario para la escritura se ve reducido al máximo.
+
+
+U8 BUF3A(8) DPWR DGND R7 R6 R5 R4 R3 R2 R1 R0 LEER IO7 IO6 IO5 IO4 IO3 IO2 IO1 IO0
++		MODELTIEMPO3 IO_STD
++               MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+U9 BUF3A(8) DPWR DGND IO7 IO6 IO5 IO4 IO3 IO2 IO1 IO0 RT W7 W6 W5 W4 W3W W2 W1 W0 
++		MODELTIEMPO3 IO_STD
++           MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+.MODEL MODELTIEMPO3 UTGATE
+
+.ENDS RAM64x8
+
+
+****************************************************************
+* Schematics Subcircuit *
+* Este subcircuito está hecho con el esquema regHL.SCH
+***************************************************************
+
+.SUBCKT regHL Shl LdirL LdirH BD0 BD1 BD2 BD3 BD4 BD5 BD6 BD7 HL0 HL1 HL2 HL3
++  HL4 HL5 HL6 HL7 HL8 HL9 HL10 HL11 HL12 HL13 HL14 HL15 
+
+X_U1         Shl LdirL BD0 BD1 BD2 BD3 BD4 BD5 BD6 BD7 HL0 HL1 HL2 HL3 HL4
++  HL5 HL6 HL7 $G_DPWR $G_DGND 74ALS573B PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2         Shl LdirH BD0 BD1 BD2 BD3 BD4 BD5 BD6 BD7 HL8 HL9 HL10 HL11 HL12
++  HL13 HL14 HL15 $G_DPWR $G_DGND 74ALS573B PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+
+.ENDS    regHL
+
+
+**************************************************************
+* Este es el modelo de una or de cuatro entradas
+**************************************************************
+
+.subckt OR_4  A B C D Y
++	optional: DPWR=$G_DPWR DGND=$G_DGND
++	params: MNTYMXDLY=0 IO_LEVEL=0
+U1 or(4) DPWR DGND
++	A B C D   Y 
++	D_ACT02 IO_ACT MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL} 
+.ends
+*$
+
+
+***************************************************************
+* Este es el modelo de una PROM DE 512X8
+***************************************************************
+
+.SUBCKT R29621 
++		A8 A7 A6 A5 A4 A3 A2 A1 A0
++		O7 O6 O5 O4 O3 O2 O1 O0
++		GBAR	
++		OPTIONAL: DPWR=$G_DPWR DGND=$G_DGND
++		PARAMS: MNTYMXDLY=0 IO_LEVEL=0 
++		TEXT: FICHERO_HEX="ROM.HEX"
+
+
+U1 ROM(9,8) DPWR DGND GBAR
++           A8 A7 A6 A5 A4 A3 A2 A1 A0
++           O7 O6 O5 O4 O3 O2 O1 O0
++           PROM29621 IO_S
++           MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
++           FILE=|FICHERO_HEX|
+*+          DATA=
+
+.MODEL 	PROM29621 UROM
+.ENDS R29621
+*$
+
+
+*******************************************************************
+* Este es el modelo del 74als869 (contador de 8 bit)
+*******************************************************************
+
+.subckt 74ALS869
++ 	CLK_I ENPBAR_I ENTBAR_I S0_I S1_I A_I B_I C_I D_I E_I F_I G_I H_I
++ 	QA_O QB_O QC_O QD_O QE_O QF_O QG_O QH_O RCOBAR_O
++ 	OPTIONAL: DPWR=$G_DPWR DGND=$G_DGND
++ 	PARAMS: MNTYMXDLY=0 IO_LEVEL=0
+
+U1 DFF(8) DPWR DGND $D_HI $D_HI CLK
++ 	DA DB DC DD DE DF DG DH
++ 	QA QB QC QD QE QF QG QH
++ 	QABAR QBBAR QCBAR QDBAR QEBAR QFBAR QGBAR QHBAR
++ 	D0_EFF IO_ALS00
+
+UALS869LOG LOGICEXP(29,26) DPWR DGND
++ 	CLK_I ENPBAR_I ENTBAR_I S0_I S1_I A_I B_I C_I D_I E_I F_I G_I H_I
++ 	QA QB QC QD QE QF QG QH QABAR QBBAR QCBAR QDBAR QEBAR QFBAR QGBAR QHBAR
++ 	CLK ENPBAR ENTBAR S0 S1 A B C D E F G H DA DB DC DD DE DF DG DH RCOBAR IEN ILD UP DN
++ 	D0_GATE IO_ALS00
++	LOGIC:
++		CLK = { CLK_I }
++		S0 = { S0_I }
++		S1 = { S1_I }
++		ENPBAR = { ENPBAR_I }
++		ENTBAR = { ENTBAR_I }
++		A = { A_I }
++		B = { B_I }
++		C = { C_I }
++		D = { D_I }
++		E = { E_I }
++		F = { F_I }
++		G = { G_I }
++		H = { H_I }
++		CLR = { ~(S1 | S0) }
++		UP = { S1 & S0 }
++		DN = { ~S1 & S0 }
++		ILD = { S1 & ~S0 }
++		IEN = { ~ (ENPBAR | ENTBAR | ILD) }
++		IA1 = { (QA & ~ILD) ^ IEN }
++		IA2 = { ~((UP & QABAR) | (DN & QA)) }
++		IB1 = { (QB & ~ILD) ^ (IEN & IA2) }
++		IB2 = { ~((UP & QBBAR) | (DN & QB)) }
++		IC1 = { (QC & ~ILD) ^ (IEN & IA2 & IB2) }
++		IC2 = { ~((UP & QCBAR) | (DN & QC)) }
++		ID1 = { (QD & ~ILD) ^ (IEN & IA2 & IB2 & IC2) }
++		ID2 = { ~((UP & QDBAR) | (DN & QD)) }
++		IE1 = { (QE & ~ILD) ^ (IEN & IA2 & IB2 & IC2 & ID2) }
++		IE2 = { ~((UP & QEBAR) | (DN & QE)) }
++		IF1 = { (QF & ~ILD) ^ (IEN & IA2 & IB2 & IC2 & ID2 & IE2) }
++		IF2 = { ~((UP & QFBAR) | (DN & QF)) }
++		IG1 = { (QG & ~ILD) ^ (IEN & IA2 & IB2 & IC2 & ID2 & IE2 & IF2) }
++		IG2 = { ~((UP & QGBAR) | (DN & QG)) }
++		IH1 = { (QH & ~ILD) ^ (IEN & IA2 & IB2 & IC2 & ID2 & IE2 & IF2 & IG2) }
++		IH2 = { ~((UP & QHBAR) | (DN & QH)) }
++		DA = { (IA1 | (ILD & A)) & ~CLR }
++		DB = { (IB1 | (ILD & B)) & ~CLR }
++		DC = { (IC1 | (ILD & C)) & ~CLR }
++		DD = { (ID1 | (ILD & D)) & ~CLR }
++		DE = { (IE1 | (ILD & E)) & ~CLR }
++		DF = { (IF1 | (ILD & F)) & ~CLR }
++		DG = { (IG1 | (ILD & G)) & ~CLR }
++		DH = { (IH1 | (ILD & H)) & ~CLR }
++		IR1 = { UP & ~ENTBAR & IA2 & IB2 & IC2 & ID2 & IE2 & IF2 & IG2 & IH2 }
++		IR2 = { DN & ~ENTBAR & IA2 & IB2 & IC2 & ID2 & IE2 & IF2 & IG2 & IH2 }
++		RCOBAR = { ~(IR1 | IR2) }
+*
+
+UALS869DLY PINDLY (9,0,17) DPWR DGND
++ 	QA QB QC QD QE QF QG QH RCOBAR
++ 	CLK ENTBAR ENPBAR S0 S1 A B C D E F G H IEN ILD UP DN
++ 	QA_O QB_O QC_O QD_O QE_O QF_O QG_O QH_O RCOBAR_O
++ 	IO_ALS00 MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
++ 	BOOLEAN:
++		CLOCK = { CHANGED_LH(CLK,0) }
++ 	PINDLY:
++		QA_O QB_O QC_O QD_O QE_O QF_O QG_O QH_O = 
++     	{
++	   		CASE (
++            			CLOCK & TRN_LH, DELAY(1NS,-1,2NS),
++           			DELAY(1NS,-1,2NS)
++             		)
++     	}
++       	RCOBAR_O = 
++     	{
++          		CASE(
++            		CHANGED(ENTBAR,0) & TRN_LH, DELAY(1NS,-1,6NS),
++ 	           		CHANGED(ENTBAR,0) & TRN_HL, DELAY(1.5NS,-1,8NS),
++		            CHANGED(ILD,0), DELAY(2NS,-1,4NS),
++           		CLOCK & TRN_LH, DELAY(1NS,-1,2NS),
++   			      CLOCK & TRN_HL, DELAY(1NS,-1,2NS),
++     		      DELAY(1NS,-1,2NS)
++          			)
++     	}
++ 	BOOLEAN:
++   		NOTLOADING = { ILD!='0 ^ CHANGED(ILD,0) }
++   		ENABLE = { (ENPBAR!='1 ^ CHANGED(ENPBAR,0)) & (ENTBAR!='1 ^ CHANGED(ENTBAR,0)) }
++ 	FREQ:
++   		NODE = CLK
++   		MAXFREQ = 100MEG
++ 	WIDTH:
++   		NODE = CLK
++   		MIN_LO = 2.5NS
++		MIN_HI = 2.5NS
++ 	SETUP_HOLD:
++   		DATA(8) = A B C D E F G H
++   		CLOCK LH = CLK
++   		SETUPTIME = 5NS
++   		WHEN = { ILD!='1 ^ CHANGED(ILD,0) }
++ 	SETUP_HOLD:
++   		DATA(2) = ENPBAR ENTBAR
++   		CLOCK LH = CLK
++   		SETUPTIME = 5NS
++   		WHEN = { NOTLOADING & CHANGED(IEN,15NS) }
++ 	SETUP_HOLD:
++   		DATA(1) = ILD
++   		CLOCK LH = CLK
++   		SETUPTIME = 5NS
++ 	SETUP_HOLD:
++   		DATA(2) = UP DN
++   		CLOCK LH = CLK
++   		SETUPTIME = 5NS
++   		WHEN = { NOTLOADING & ENABLE }
+*
+.ENDS 74ALS869
+
+*---------
+* 74F181B  ALU / FUNCTION GENERATOR
+*
+* IC15 FAST TTL LOGIC SERIES, 1990, PHILIPS SEMICONDUCTORS
+* JLS   9-4-92   REMODELED USING LOGICEXP, PINDLY, AND CONSTRAINT DEVICES
+* NOTICE: IN THE DATABOOK, THE LOGIC FOR THE 74F181 WAS DIAGRAMMED WITH A
+* NOT-AND GATE INSTEAD OF AN XOR GATE AS IN THE OTHER FAMILIES.  BOTH VERSIONS
+* ARE FUNCTIONALLY CORRECT.  HOWEVER, THE F181 WAS MODELLED HERE WITH AN XOR.
+
+.SUBCKT 74F181   A0BAR_I A1BAR_I A2BAR_I A3BAR_I B0BAR_I B1BAR_I B2BAR_I
++ B3BAR_I S0_I S1_I S2_I S3_I M_I CN_I F0BAR_O F1BAR_O F2BAR_O F3BAR_O
++ AEQUALB_O PBAR_O GBAR_O CN+4_O
++ OPTIONAL: DPWR=$G_DPWR DGND=$G_DGND
++ PARAMS: MNTYMXDLY=0 IO_LEVEL=0
+
+UF181LOG LOGICEXP (14,22) DPWR DGND
++ A0BAR_I A1BAR_I A2BAR_I A3BAR_I B0BAR_I B1BAR_I B2BAR_I B3BAR_I
++ S0_I S1_I S2_I S3_I M_I CN_I
++ A0BAR   A1BAR   A2BAR   A3BAR   B0BAR   B1BAR   B2BAR   B3BAR
++ S0   S1   S2   S3   M   CN
++ F0BAR   F1BAR   F2BAR   F3BAR   AEQUALB PBAR    GBAR    CN+4
++ D0_GATE IO_F
++ IO_LEVEL={IO_LEVEL}
++
++ LOGIC:
++   A0BAR   = { A0BAR_I }
++   A1BAR   = { A1BAR_I }
++   A2BAR   = { A2BAR_I }
++   A3BAR   = { A3BAR_I }
++   B0BAR   = { B0BAR_I }
++   B1BAR   = { B1BAR_I }
++   B2BAR   = { B2BAR_I }
++   B3BAR   = { B3BAR_I }
++   S0      = { S0_I }
++   S1      = { S1_I }
++   S2      = { S2_I }
++   S3      = { S3_I }
++   M       = { M_I }
++   CN      = { CN_I }
++
++   TOP3    = { ~( (A3BAR & B3BAR & S3) | (A3BAR & ~B3BAR & S2) ) }
++   BOT3    = { ~(        (~B3BAR & S1) |  A3BAR | (B3BAR & S0) ) }
++   TOP2    = { ~( (A2BAR & B2BAR & S3) | (A2BAR & ~B2BAR & S2) ) }
++   BOT2    = { ~(        (~B2BAR & S1) |  A2BAR | (B2BAR & S0) ) }
++   TOP1    = { ~( (A1BAR & B1BAR & S3) | (A1BAR & ~B1BAR & S2) ) }
++   BOT1    = { ~(        (~B1BAR & S1) |  A1BAR | (B1BAR & S0) ) }
++   TOP0    = { ~( (A0BAR & B0BAR & S3) | (A0BAR & ~B0BAR & S2) ) }
++   BOT0    = { ~(        (~B0BAR & S1) |  A0BAR | (B0BAR & S0) ) }
++   MBAR    = { ~M }
++
++   F3BAR   = { (TOP3 ^ BOT3) ^ ~( (  CN & MBAR & TOP2 & TOP1 & TOP0) |
++                                  (BOT0 & MBAR & TOP2 & TOP1) |
++                                  (BOT1 & MBAR & TOP2) |
++                                  (BOT2 & MBAR) ) }
++   F2BAR   = { (TOP2 ^ BOT2) ^ ~( (  CN & MBAR & TOP1 & TOP0) |
++                                  (BOT0 & MBAR & TOP1) |
++                                  (BOT1 & MBAR) ) }
++   F1BAR   = { (TOP1 ^ BOT1) ^ ~( (  CN & MBAR & TOP0) |
++                                  (BOT0 & MBAR) ) }
++   F0BAR   = { (TOP0 ^ BOT0) ^ ~(    CN & MBAR) }
++   AEQUALB = { F3BAR & F2BAR & F1BAR & F0BAR }
++   PBAR    = { ~(         TOP3 & TOP2 & TOP1 & TOP0) }
++   GBAR    = { ~( (BOT0 & TOP3 & TOP2 & TOP1) |
++                  (BOT1 & TOP3 & TOP2) |
++                  (BOT2 & TOP3) | 
++                   BOT3 ) }
++   CN+4    = { ~GBAR | (~PBAR & CN) }
+
+UF181DLY PINDLY (7,0,14) DPWR DGND
++ F0BAR   F1BAR   F2BAR   F3BAR   PBAR   GBAR   CN+4
++ A0BAR A1BAR A2BAR A3BAR B0BAR B1BAR B2BAR B3BAR S0 S1 S2 S3 M CN
++ F0BAR_O F1BAR_O F2BAR_O F3BAR_O PBAR_O GBAR_O CN+4_O
++ IO_F
++ MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
++
++ BOOLEAN:
++   NOTM     = { M=='0 }
++   CARRY    = { CHANGED(CN,0) & NOTM }
++   MODE     = { CHANGED(S3,0) | CHANGED(S2,0) |
++                CHANGED(S1,0) | CHANGED(S0,0) }
++   SUM      = { S0=='1 & S1=='0 & S2=='0 & S3=='1 }
++   DIF      = { S0=='0 & S1=='1 & S2=='1 & S3=='0 }
++   LOGLHSUM = { CHANGED_LH(M,0) & SUM }
++   LOGHLSUM = { CHANGED_HL(M,0) & SUM }
++   LOGLHDIF = { CHANGED_LH(M,0) & DIF }
++   LOGHLDIF = { CHANGED_HL(M,0) & DIF }
++   SUMNOTM  = { SUM & NOTM }
++   DIFNOTM  = { DIF & NOTM }
++   OPER3    = { CHANGED(A3BAR,0) | CHANGED(B3BAR,0) }
++   OPER2    = { CHANGED(A2BAR,0) | CHANGED(B2BAR,0) }
++   OPER1    = { CHANGED(A1BAR,0) | CHANGED(B1BAR,0) }
++   OPER0    = { CHANGED(A0BAR,0) | CHANGED(B0BAR,0) }
++   OPER     = { OPER3 | OPER2 | OPER1 | OPER0 }
++
++ PINDLY:
++   F3BAR_O = {
++     CASE (
++       CARRY           & TRN_LH, DELAY(3.0NS,5.0NS, 9.0NS),
++       CARRY           & TRN_HL, DELAY(2.5NS,5.0NS, 9.0NS),
++       MODE                    , DELAY(3.0NS,5.5NS, 9.5NS),
++       LOGLHSUM        & TRN_LH, DELAY(4.5NS,7.0NS,11.0NS),
++       LOGHLSUM        & TRN_HL, DELAY(4.0NS,6.0NS,10.0NS),
++       LOGHLSUM        & TRN_LH, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHSUM        & TRN_HL, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHDIF        & TRN_LH, DELAY(4.0NS,7.0NS,11.5NS),
++       LOGHLDIF        & TRN_HL, DELAY(4.0NS,6.0NS,10.0NS),
++       LOGHLDIF        & TRN_LH, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHDIF        & TRN_HL, DELAY(3.5NS,6.0NS, 9.5NS),
++       OPER3 & SUMNOTM & TRN_LH, DELAY(2.5NS,4.5NS, 8.5NS),
++       OPER3 & SUMNOTM & TRN_HL, DELAY(3.0NS,4.5NS, 8.5NS),
++       OPER3 & DIFNOTM & TRN_LH, DELAY(2.5NS,4.5NS, 9.0NS),
++       OPER3 & DIFNOTM & TRN_HL, DELAY(3.0NS,5.0NS, 9.0NS),
++       OPER  & SUMNOTM & TRN_LH, DELAY(3.0NS,6.0NS,11.0NS),
++       OPER  & SUMNOTM & TRN_HL, DELAY(3.0NS,5.5NS,10.0NS),
++       OPER  & DIFNOTM & TRN_LH, DELAY(3.5NS,6.5NS,11.0NS),
++       OPER  & DIFNOTM & TRN_HL, DELAY(4.5NS,7.0NS,11.0NS),
++       OPER  & M=='1   & TRN_LH, DELAY(3.0NS,5.5NS, 9.5NS),
++       OPER  & M=='1   & TRN_HL, DELAY(3.0NS,5.5NS,10.5NS),
++       DELAY(4.5NS,7.0NS,11.5NS)
++       )
++     }
++   F2BAR_O = {
++     CASE (
++       CARRY           & TRN_LH, DELAY(3.0NS,5.0NS, 9.0NS),
++       CARRY           & TRN_HL, DELAY(2.5NS,5.0NS, 9.0NS),
++       MODE                    , DELAY(3.0NS,5.5NS, 9.5NS),
++       LOGLHSUM        & TRN_LH, DELAY(4.5NS,7.0NS,11.0NS),
++       LOGHLSUM        & TRN_HL, DELAY(4.0NS,6.0NS,10.0NS),
++       LOGHLSUM        & TRN_LH, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHSUM        & TRN_HL, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHDIF        & TRN_LH, DELAY(4.0NS,7.0NS,11.5NS),
++       LOGHLDIF        & TRN_HL, DELAY(4.0NS,6.0NS,10.0NS),
++       LOGHLDIF        & TRN_LH, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHDIF        & TRN_HL, DELAY(3.5NS,6.0NS, 9.5NS),
++       OPER2 & SUMNOTM & TRN_LH, DELAY(2.5NS,4.5NS, 8.5NS),
++       OPER2 & SUMNOTM & TRN_HL, DELAY(3.0NS,4.5NS, 8.5NS),
++       OPER2 & DIFNOTM & TRN_LH, DELAY(2.5NS,4.5NS, 9.0NS),
++       OPER2 & DIFNOTM & TRN_HL, DELAY(3.0NS,5.0NS, 9.0NS),
++       OPER  & SUMNOTM & TRN_LH, DELAY(3.0NS,6.0NS,11.0NS),
++       OPER  & SUMNOTM & TRN_HL, DELAY(3.0NS,5.5NS,10.0NS),
++       OPER  & DIFNOTM & TRN_LH, DELAY(3.5NS,6.5NS,11.0NS),
++       OPER  & DIFNOTM & TRN_HL, DELAY(4.5NS,7.0NS,11.0NS),
++       OPER  & M=='1   & TRN_LH, DELAY(3.0NS,5.5NS, 9.5NS),
++       OPER  & M=='1   & TRN_HL, DELAY(3.0NS,5.5NS,10.5NS),
++       DELAY(4.5NS,7.0NS,11.5NS)
++       )
++     }
++   F1BAR_O = {
++     CASE (
++       CARRY           & TRN_LH, DELAY(3.0NS,5.0NS, 9.0NS),
++       CARRY           & TRN_HL, DELAY(2.5NS,5.0NS, 9.0NS),
++       MODE                    , DELAY(3.0NS,5.5NS, 9.5NS),
++       LOGLHSUM        & TRN_LH, DELAY(4.5NS,7.0NS,11.0NS),
++       LOGHLSUM        & TRN_HL, DELAY(4.0NS,6.0NS,10.0NS),
++       LOGHLSUM        & TRN_LH, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHSUM        & TRN_HL, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHDIF        & TRN_LH, DELAY(4.0NS,7.0NS,11.5NS),
++       LOGHLDIF        & TRN_HL, DELAY(4.0NS,6.0NS,10.0NS),
++       LOGHLDIF        & TRN_LH, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHDIF        & TRN_HL, DELAY(3.5NS,6.0NS, 9.5NS),
++       OPER1 & SUMNOTM & TRN_LH, DELAY(2.5NS,4.5NS, 8.5NS),
++       OPER1 & SUMNOTM & TRN_HL, DELAY(3.0NS,4.5NS, 8.5NS),
++       OPER1 & DIFNOTM & TRN_LH, DELAY(2.5NS,4.5NS, 9.0NS),
++       OPER1 & DIFNOTM & TRN_HL, DELAY(3.0NS,5.0NS, 9.0NS),
++       OPER  & SUMNOTM & TRN_LH, DELAY(3.0NS,6.0NS,11.0NS),
++       OPER  & SUMNOTM & TRN_HL, DELAY(3.0NS,5.5NS,10.0NS),
++       OPER  & DIFNOTM & TRN_LH, DELAY(3.5NS,6.5NS,11.0NS),
++       OPER  & DIFNOTM & TRN_HL, DELAY(4.5NS,7.0NS,11.0NS),
++       OPER  & M=='1   & TRN_LH, DELAY(3.0NS,5.5NS, 9.5NS),
++       OPER  & M=='1   & TRN_HL, DELAY(3.0NS,5.5NS,10.5NS),
++       DELAY(4.5NS,7.0NS,11.5NS)
++       )
++     }
++   F0BAR_O = {
++     CASE (
++       CARRY           & TRN_LH, DELAY(3.0NS,5.0NS, 9.0NS),
++       CARRY           & TRN_HL, DELAY(2.5NS,5.0NS, 9.0NS),
++       MODE                    , DELAY(3.0NS,5.5NS, 9.5NS),
++       LOGLHSUM        & TRN_LH, DELAY(4.5NS,7.0NS,11.0NS),
++       LOGHLSUM        & TRN_HL, DELAY(4.0NS,6.0NS,10.0NS),
++       LOGHLSUM        & TRN_LH, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHSUM        & TRN_HL, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHDIF        & TRN_LH, DELAY(4.0NS,7.0NS,11.5NS),
++       LOGHLDIF        & TRN_HL, DELAY(4.0NS,6.0NS,10.0NS),
++       LOGHLDIF        & TRN_LH, DELAY(3.5NS,6.0NS, 9.5NS),
++       LOGLHDIF        & TRN_HL, DELAY(3.5NS,6.0NS, 9.5NS),
++       OPER0 & SUMNOTM & TRN_LH, DELAY(2.5NS,4.5NS, 8.5NS),
++       OPER0 & SUMNOTM & TRN_HL, DELAY(3.0NS,4.5NS, 8.5NS),
++       OPER0 & DIFNOTM & TRN_LH, DELAY(2.5NS,4.5NS, 9.0NS),
++       OPER0 & DIFNOTM & TRN_HL, DELAY(3.0NS,5.0NS, 9.0NS),
++       OPER  & SUMNOTM & TRN_LH, DELAY(3.0NS,6.0NS,11.0NS),
++       OPER  & SUMNOTM & TRN_HL, DELAY(3.0NS,5.5NS,10.0NS),
++       OPER  & DIFNOTM & TRN_LH, DELAY(3.5NS,6.5NS,11.0NS),
++       OPER  & DIFNOTM & TRN_HL, DELAY(4.5NS,7.0NS,11.0NS),
++       OPER  & M=='1   & TRN_LH, DELAY(3.0NS,5.5NS, 9.5NS),
++       OPER  & M=='1   & TRN_HL, DELAY(3.0NS,5.5NS,10.5NS),
++       DELAY(4.5NS,7.0NS,11.5NS)
++       )
++     }
++   PBAR_O = {
++     CASE (
++       OPER & SUM  & TRN_LH, DELAY(2.0NS,4.0NS,7.5NS),
++       OPER & SUM  & TRN_HL, DELAY(2.5NS,4.5NS,8.0NS),
++       OPER & DIF  & TRN_LH, DELAY(2.0NS,4.0NS,8.0NS),
++       OPER & DIF  & TRN_HL, DELAY(2.5NS,5.0NS,9.0NS),
++       MODE        & TRN_LH, DELAY(2.5NS,4.0NS,7.0NS),
++       MODE        & TRN_HL, DELAY(2.5NS,4.5NS,8.0NS),
++       DELAY(2.5NS,5.0NS,9.0NS)
++       )
++     }
++   GBAR_O = {
++     CASE (
++       OPER & SUM  & TRN_LH, DELAY(2.5NS,5.0NS,8.0NS),
++       OPER & SUM  & TRN_HL, DELAY(2.5NS,5.0NS,8.0NS),
++       OPER & DIF  & TRN_LH, DELAY(2.5NS,4.5NS,9.0NS),
++       OPER & DIF  & TRN_HL, DELAY(2.5NS,5.0NS,9.5NS),
++       MODE        & TRN_LH, DELAY(2.5NS,5.0NS,8.0NS),
++       MODE        & TRN_HL, DELAY(2.5NS,4.0NS,8.0NS),
++       DELAY(2.5NS,5.0NS,9.5NS)
++       )
++     }
++   CN+4_O = {
++     CASE (
++       CARRY       & TRN_LH, DELAY(3.0NS,5.0NS, 8.5NS),
++       CARRY       & TRN_HL, DELAY(2.5NS,5.0NS, 8.5NS),
++       OPER & SUM  & TRN_LH, DELAY(5.0NS,9.0NS,13.0NS),
++       OPER & SUM  & TRN_HL, DELAY(5.0NS,8.0NS,12.5NS),
++       OPER & DIF  & TRN_LH, DELAY(5.0NS,9.5NS,14.0NS),
++       OPER & DIF  & TRN_HL, DELAY(5.0NS,8.0NS,12.5NS),
++       MODE        & TRN_LH, DELAY(3.0NS,7.0NS,12.5NS),
++       MODE        & TRN_HL, DELAY(2.5NS,5.5NS,10.0NS),
++       DELAY(5.0NS,9.5NS,14.0NS)
++       )
++     }
+
+UF181DLY_OC PINDLY (1,0,13) DPWR DGND
++ AEQUALB
++ A0BAR A1BAR A2BAR A3BAR B0BAR B1BAR B2BAR B3BAR S0 S1 S2 S3 M
++ AEQUALB_O
++ IO_F_OC
++ MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
++
++ BOOLEAN:
++   LOGLH = { CHANGED_LH(M,0) }
++   LOGHL = { CHANGED_HL(M,0) }
++   MODE  = { CHANGED(S3,0) | CHANGED(S2,0) | CHANGED(S1,0) | CHANGED(S0,0) }
++   OPER  = { CHANGED(A3BAR,0) | CHANGED(B3BAR,0) |
++             CHANGED(A2BAR,0) | CHANGED(B2BAR,0) |
++             CHANGED(A1BAR,0) | CHANGED(B1BAR,0) |
++             CHANGED(A0BAR,0) | CHANGED(B0BAR,0) }
++   NOTM  = { M=='0 }
++   SUM   = { NOTM & S0=='1 & S1=='0 & S2=='0 & S3=='1 }
++   DIF   = { NOTM & S0=='0 & S1=='1 & S2=='1 & S3=='0 }
++
++ PINDLY:
++   AEQUALB_O = {
++     CASE (
++       OPER         & TRN_LH, DELAY( 9.5NS,14.0NS,20.5NS),
++       OPER         & TRN_HL, DELAY( 5.5NS, 8.5NS,12.5NS),
++       MODE         & TRN_LH, DELAY(10.5NS,16.5NS,24.0NS),
++       MODE         & TRN_HL, DELAY( 6.0NS, 8.5NS,13.5NS),
++       SUM  & LOGHL & TRN_LH, DELAY(11.0NS,16.0NS,22.0NS),
++       SUM  & LOGLH & TRN_HL, DELAY( 6.0NS, 8.0NS,11.0NS),
++       SUM  & LOGLH & TRN_LH, DELAY(12.0NS,17.0NS,24.0NS),
++       SUM  & LOGHL & TRN_HL, DELAY( 6.0NS, 8.0NS,11.5NS),
++       DIF  & LOGHL & TRN_LH, DELAY(10.5NS,16.0NS,22.0NS),
++       DIF  & LOGLH & TRN_HL, DELAY( 6.0NS, 8.0NS,11.0NS),
++       DIF  & LOGLH & TRN_LH, DELAY(12.5NS,17.0NS,24.0NS),
++       DIF  & LOGHL & TRN_HL, DELAY( 6.0NS, 8.0NS,11.5NS),
++       DELAY(12.5NS,17.0NS,24.0NS)
++       )
++     }
+
+.ENDS
+
+*$

@@ -1,0 +1,24 @@
+#include "libdoc.msg"
+#include "libdb3.msg"
+#include "libfb.msg"
+#include "libmutil.msg" 
+#include "libpi.msg"
+
+>F usage
+=[2000] PLDoc usage:  pldoc design_name
+>F LOCK NOT INSTALLED
+=[2001] Access denied to product
+>F PLDoc -- file open error
+=[2002] PLDoc  - file open error
+
+>Fs PLDoc -- new src file open error
+=[2003] Can't open new "src" file '%s' for writing
+&FILENAME
+*When using the PLDoc option to generate the reduced equations in .src HDL
+*format, the file "design.src" is created to hold the information. When PLDoc
+*attempted to open this file in write mode, it was unable. Most probable cause
+*of the error is file or directory permissions. 
+
+>M PLDoc message
+= Print.
+&*

@@ -1,0 +1,11 @@
+ARCHITECTURE ContaNBits OF contador IS
+BEGIN
+	PROCESS(CLK, rst)
+	BEGIN
+		IF rst='1'THEN
+			Q<=(OTHERS=>'0');
+		ELSIF CLK='1' AND CLK'EVENT THEN
+			Q<=Q+1;
+		END IF;
+	END PROCESS;
+END ContaNBits; 

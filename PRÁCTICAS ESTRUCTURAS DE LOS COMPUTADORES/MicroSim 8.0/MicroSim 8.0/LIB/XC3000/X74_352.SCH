@@ -1,0 +1,343 @@
+*version 6.3 3348586785
+u 326
+XC3000 855685129
+U? 11
+@libraries
+XC3000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC3000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 5730 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 327 IF_OUT 930 250 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y1
+port 328 IF_OUT 930 450 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y2
+port 329 IF_IN 190 560 h
+a 0 s 3 0 10 8 hln 80 LABEL=G2
+port 330 IF_IN 190 340 h
+a 0 s 3 0 10 8 hln 80 LABEL=G1
+port 331 IF_IN 190 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=A
+port 332 IF_IN 190 500 h
+a 0 s 3 0 10 8 hln 50 LABEL=I2C3
+port 333 IF_IN 190 400 h
+a 0 s 3 0 10 8 hln 50 LABEL=I2C0
+port 334 IF_IN 190 200 h
+a 0 s 3 0 10 8 hln 50 LABEL=I1C0
+port 335 IF_IN 190 220 h
+a 0 s 3 0 10 8 hln 50 LABEL=I1C1
+port 336 IF_IN 190 280 h
+a 0 s 3 0 10 8 hln 50 LABEL=I1C2
+port 337 IF_IN 190 300 h
+a 0 s 3 0 10 8 hln 50 LABEL=I1C3
+port 338 IF_IN 190 420 h
+a 0 s 3 0 10 8 hln 50 LABEL=I2C1
+port 339 IF_IN 190 480 h
+a 0 s 3 0 10 8 hln 50 LABEL=I2C2
+port 340 IF_IN 190 540 h
+a 0 s 3 0 10 8 hln 80 LABEL=B
+@parts
+part 17 M2_1 390 200 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U1
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 21 INV 740 450 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U2
+a 0 sp 11 0 30 14 hlt 100 PART=INV
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 28 M2_1E 590 440 h
+a 0 sp 9 0 70 70 hrn 100 REFDES=U3
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1E
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 29 INV 390 560 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U4
+a 0 sp 11 0 30 14 hlt 100 PART=INV
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 30 M2_1E 590 240 h
+a 0 sp 9 0 70 70 hrn 100 REFDES=U5
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1E
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 31 INV 740 250 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U6
+a 0 sp 11 0 30 14 hlt 100 PART=INV
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 32 INV 390 340 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U7
+a 0 sp 11 0 30 14 hlt 100 PART=INV
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 33 M2_1 390 400 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U8
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+part 34 M2_1 390 280 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U9
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U9
+part 35 M2_1 390 480 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U10
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U10
+@conn
+w 37
+s 190 560 390 560 36
+a 0 s 3 0 200 560 hln 100 LABEL=G2
+w 45
+s 810 450 930 450 44
+a 0 s 3 0 900 450 hln 100 LABEL=Y2
+w 53
+s 690 450 740 450 52
+a 0 s 3 0 700 450 hln 100 LABEL=Y2B
+w 67
+s 190 500 390 500 66
+a 0 s 3 0 200 500 hln 100 LABEL=I2C3
+w 75
+s 190 420 390 420 74
+a 0 s 3 0 200 420 hln 100 LABEL=I2C1
+w 83
+s 190 400 390 400 82
+a 0 s 3 0 200 400 hln 100 LABEL=I2C0
+w 93
+s 520 460 590 460 90
+a 0 s 3 0 520 460 hln 100 LABEL=M2C23
+s 520 490 520 460 92
+s 490 490 520 490 91
+w 108
+s 190 480 390 480 107
+a 0 s 3 0 200 480 hln 100 LABEL=I2C2
+w 118
+s 520 440 590 440 115
+a 0 s 3 0 520 440 hln 100 LABEL=M2C01
+s 520 440 520 410 117
+s 490 410 520 410 116
+w 135
+s 460 560 560 560 132
+a 0 s 3 0 470 560 hln 100 LABEL=G2B
+s 560 560 560 500 134
+s 560 500 590 500 133
+w 150
+s 190 220 390 220 149
+a 0 s 3 0 200 220 hln 100 LABEL=I1C1
+w 160
+s 520 260 590 260 157
+a 0 s 3 0 520 260 hln 100 LABEL=M1C23
+s 520 290 520 260 158
+s 490 290 520 290 159
+w 174
+s 190 300 390 300 173
+a 0 s 3 0 200 300 hln 100 LABEL=I1C3
+w 182
+s 190 200 390 200 181
+a 0 s 3 0 200 200 hln 100 LABEL=I1C0
+w 190
+s 190 280 390 280 189
+a 0 s 3 0 200 280 hln 100 LABEL=I1C2
+w 198
+s 690 250 740 250 197
+a 0 s 3 0 700 250 hln 100 LABEL=Y1B
+w 212
+s 810 250 930 250 211
+a 0 s 3 0 900 250 hln 100 LABEL=Y1
+w 222
+s 460 340 560 340 219
+a 0 s 3 0 470 340 hln 100 LABEL=G1B
+s 560 340 560 300 220
+s 560 300 590 300 221
+w 236
+s 190 340 390 340 235
+a 0 s 3 0 200 340 hln 100 LABEL=G1
+w 251
+s 190 520 360 520 243
+a 0 s 3 0 200 520 hln 100 LABEL=A
+s 360 520 390 520 244
+s 360 520 360 440 245
+s 360 440 390 440 246
+s 360 440 360 320 247
+s 360 320 360 240 249
+s 360 240 390 240 248
+s 360 320 390 320 250
+w 289
+s 520 240 590 240 286
+a 0 s 3 0 520 240 hln 100 LABEL=M1C01
+s 520 240 520 210 288
+s 490 210 520 210 287
+w 308
+s 190 540 540 540 303
+a 0 s 3 0 200 540 hln 100 LABEL=B
+s 540 540 540 480 305
+s 540 480 590 480 304
+s 540 480 540 280 307
+s 540 280 590 280 306
+@junction
+j 390 560
++ p 29 I
++ w 37
+j 810 450
++ p 21 O
++ w 45
+j 740 450
++ p 21 I
++ w 53
+j 690 450
++ p 28 O
++ w 53
+j 390 500
++ p 35 D1
++ w 67
+j 390 420
++ p 33 D1
++ w 75
+j 390 400
++ p 33 D0
++ w 83
+j 590 460
++ p 28 D1
++ w 93
+j 490 490
++ p 35 O
++ w 93
+j 390 480
++ p 35 D0
++ w 108
+j 590 440
++ p 28 D0
++ w 118
+j 490 410
++ p 33 O
++ w 118
+j 590 500
++ p 28 E
++ w 135
+j 460 560
++ p 29 O
++ w 135
+j 390 220
++ p 17 D1
++ w 150
+j 590 260
++ p 30 D1
++ w 160
+j 490 290
++ p 34 O
++ w 160
+j 390 300
++ p 34 D1
++ w 174
+j 390 200
++ p 17 D0
++ w 182
+j 390 280
++ p 34 D0
++ w 190
+j 690 250
++ p 30 O
++ w 198
+j 740 250
++ p 31 I
++ w 198
+j 810 250
++ p 31 O
++ w 212
+j 590 300
++ p 30 E
++ w 222
+j 460 340
++ p 32 O
++ w 222
+j 390 340
++ p 32 I
++ w 236
+j 360 520
++ w 251
++ w 251
+j 360 440
++ w 251
++ w 251
+j 360 320
++ w 251
++ w 251
+j 390 240
++ p 17 S0
++ w 251
+j 390 440
++ p 33 S0
++ w 251
+j 390 320
++ p 34 S0
++ w 251
+j 390 520
++ p 35 S0
++ w 251
+j 490 210
++ p 17 O
++ w 289
+j 590 240
++ p 30 D0
++ w 289
+j 540 480
++ w 308
++ w 308
+j 590 480
++ p 28 S0
++ w 308
+j 590 280
++ p 30 S0
++ w 308
+j 930 250
++ s 327
++ w 212
+j 930 450
++ s 328
++ w 45
+j 190 560
++ s 329
++ w 37
+j 190 340
++ s 330
++ w 236
+j 190 520
++ s 331
++ w 251
+j 190 500
++ s 332
++ w 67
+j 190 400
++ s 333
++ w 83
+j 190 200
++ s 334
++ w 182
+j 190 220
++ s 335
++ w 150
+j 190 280
++ s 336
++ w 190
+j 190 300
++ s 337
++ w 174
+j 190 420
++ s 338
++ w 75
+j 190 480
++ s 339
++ w 108
+j 190 540
++ s 340
++ w 308
+@attributes
+@text
+s 5 750 780 hln 100 ACTIVE-LOW ENABLES & OUTPUTS
+s 5 750 770 hln 100 DUAL 4-TO-1 MULTIPLEXERS WITH
+s 5 710 800 hln 100 29TH MARCH 1993
+s 5 1020 750 hrn 100 XC3000 FAMILY X74_352 MACRO
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1

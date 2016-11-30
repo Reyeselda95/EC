@@ -1,0 +1,344 @@
+*version 6.3 2965910231
+u 357
+XC4000E 998818963
+U? 9
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 5383 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 358 IF_OUT 1030 500 h
+a 0 s 3 0 20 8 hln 80 LABEL=TC
+port 359 IF_IN 70 580 h
+a 0 s 3 0 10 8 hln 80 LABEL=UP
+port 360 IF_IN 70 450 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 361 IF_IN 70 470 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 362 IF_IN 70 500 h
+a 0 s 3 0 10 8 hln 80 LABEL=CLR
+port 363 IF_OUT 1030 610 h
+a 0 s 3 0 20 8 hln 80 LABEL=CEO
+port 364 IF_IN 70 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=L
+port 365 IF_IN 70 200 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 366 IF_IN 70 390 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 367 IF_OUT 1030 240 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 368 IF_OUT 1030 430 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+@parts
+part 16 AND2 660 530 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U1
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 19 VCC 260 240 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U2
+a 0 sp 11 0 20 10 hcn 100 PART=VCC
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 28 FTCLE 380 200 h
+a 0 sp 9 0 80 150 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=FTCLE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 34 M2_1B1 840 280 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U4
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 40 M2_1 840 490 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U5
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 45 AND2B2 660 450 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U6
+a 0 sp 11 0 10 40 hlt 100 PART=AND2B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 46 FTCLE 380 390 h
+a 0 sp 9 0 80 150 hrn 100 REFDES=U7
+a 0 sp 11 0 60 20 hcn 200 PART=FTCLE
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 47 AND2 860 600 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U8
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+@conn
+w 54
+s 70 450 300 450 48
+a 0 s 3 0 80 450 hln 100 LABEL=CE
+s 300 620 300 450 50
+s 300 620 860 620 49
+s 300 450 380 450 51
+s 300 450 300 260 52
+s 300 260 380 260 53
+w 81
+s 70 410 320 410 77
+a 0 s 3 0 80 410 hln 100 LABEL=L
+s 320 410 320 220 79
+s 320 220 380 220 78
+s 320 410 380 410 80
+w 103
+s 70 580 810 580 98
+a 0 s 3 0 80 580 hln 100 LABEL=UP
+s 810 530 810 320 100
+s 810 530 840 530 99
+s 810 320 840 320 101
+s 810 580 810 530 102
+w 130
+s 570 240 1030 240 120
+a 0 s 3 0 1000 240 hln 100 LABEL=Q0
+s 570 450 570 300 122
+s 570 530 570 450 121
+s 570 300 840 300 123
+s 570 300 570 280 124
+s 570 280 840 280 125
+s 570 280 570 240 126
+s 500 240 570 240 127
+s 570 450 660 450 128
+s 570 530 660 530 129
+w 177
+s 740 540 790 540 174
+a 0 s 3 0 740 540 hln 100 LABEL=TC_UP
+s 790 540 790 510 176
+s 790 510 840 510 175
+w 197
+s 590 430 1030 430 191
+a 0 s 3 0 1000 430 hln 100 LABEL=Q1
+s 500 430 590 430 192
+s 590 470 590 430 193
+s 590 470 660 470 194
+s 590 550 590 470 195
+s 590 550 660 550 196
+w 227
+s 940 290 970 290 222
+a 0 s 3 0 950 290 hln 100 LABEL=T1
+s 970 340 970 290 223
+s 340 340 970 340 224
+s 340 430 340 340 225
+s 340 430 380 430 226
+w 241
+s 70 200 380 200 240
+a 0 s 3 0 80 200 hln 100 LABEL=D0
+w 249
+s 260 240 380 240 248
+w 263
+s 70 390 380 390 262
+a 0 s 3 0 80 390 hln 100 LABEL=D1
+w 274
+s 70 470 280 470 270
+a 0 s 3 0 80 470 hln 100 LABEL=C
+s 280 470 280 280 271
+s 280 280 380 280 272
+s 280 470 380 470 273
+w 294
+s 70 500 260 500 290
+a 0 s 3 0 80 500 hln 100 LABEL=CLR
+s 260 500 260 310 291
+s 260 310 380 310 292
+s 260 500 380 500 293
+w 313
+s 740 460 790 460 310
+a 0 s 3 0 740 460 hln 100 LABEL=TC_DN
+s 790 490 790 460 311
+s 790 490 840 490 312
+w 332
+s 950 500 1030 500 326
+a 0 s 3 0 1000 500 hln 100 LABEL=TC
+s 940 500 950 500 328
+s 950 580 950 500 329
+s 840 580 950 580 331
+s 840 600 860 600 327
+s 840 600 840 580 330
+w 350
+s 940 610 1030 610 349
+a 0 s 3 0 990 610 hln 100 LABEL=CEO
+@junction
+j 300 450
++ w 54
++ w 54
+j 380 260
++ p 28 CE
++ w 54
+j 380 450
++ p 46 CE
++ w 54
+j 860 620
++ p 47 I0
++ w 54
+j 320 410
++ w 81
++ w 81
+j 380 220
++ p 28 L
++ w 81
+j 380 410
++ p 46 L
++ w 81
+j 810 530
++ w 103
++ w 103
+j 840 320
++ p 34 S0
++ w 103
+j 840 530
++ p 40 S0
++ w 103
+j 570 240
++ w 130
++ w 130
+j 570 450
++ w 130
++ w 130
+j 570 300
++ w 130
++ w 130
+j 570 280
++ w 130
++ w 130
+j 660 530
++ p 16 I1
++ w 130
+j 500 240
++ p 28 Q
++ w 130
+j 840 280
++ p 34 D0
++ w 130
+j 840 300
++ p 34 D1
++ w 130
+j 660 450
++ p 45 I1
++ w 130
+j 740 540
++ p 16 O
++ w 177
+j 840 510
++ p 40 D1
++ w 177
+j 590 430
++ w 197
++ w 197
+j 590 470
++ w 197
++ w 197
+j 660 550
++ p 16 I0
++ w 197
+j 660 470
++ p 45 I0
++ w 197
+j 500 430
++ p 46 Q
++ w 197
+j 940 290
++ p 34 O
++ w 227
+j 380 430
++ p 46 T
++ w 227
+j 380 200
++ p 28 D
++ w 241
+j 260 240
++ p 19 VCC
++ w 249
+j 380 240
++ p 28 T
++ w 249
+j 380 390
++ p 46 D
++ w 263
+j 280 470
++ w 274
++ w 274
+j 380 280
++ p 28 C
++ w 274
+j 380 470
++ p 46 C
++ w 274
+j 260 500
++ w 294
++ w 294
+j 380 310
++ p 28 CLR
++ w 294
+j 380 500
++ p 46 CLR
++ w 294
+j 840 490
++ p 40 D0
++ w 313
+j 740 460
++ p 45 O
++ w 313
+j 950 500
++ w 332
++ w 332
+j 940 500
++ p 40 O
++ w 332
+j 860 600
++ p 47 I1
++ w 332
+j 940 610
++ p 47 O
++ w 350
+j 1030 500
++ s 358
++ w 332
+j 70 580
++ s 359
++ w 103
+j 70 450
++ s 360
++ w 54
+j 70 470
++ s 361
++ w 274
+j 70 500
++ s 362
++ w 294
+j 1030 610
++ s 363
++ w 350
+j 70 410
++ s 364
++ w 81
+j 70 200
++ s 365
++ w 241
+j 70 390
++ s 366
++ w 263
+j 1030 240
++ s 367
++ w 130
+j 1030 430
++ s 368
++ w 197
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 710 800 hln 100 25TH FEBRUARY 1995
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A
+s 5 750 750 hln 100 XC4000E FAMILY CB2CLED MACRO
+s 5 750 770 hln 100 2-BIT LOADABLE,CASC,DIR(UP/DWN)
+s 5 660 780 hln 100 BINARY COUNTER W/ CLK ENABLE & ASYNC CLR

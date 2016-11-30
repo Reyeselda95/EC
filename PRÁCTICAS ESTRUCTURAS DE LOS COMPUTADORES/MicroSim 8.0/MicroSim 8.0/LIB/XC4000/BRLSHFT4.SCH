@@ -1,0 +1,336 @@
+*version 6.3 4247523309
+u 330
+XC4000 4191334807
+U? 9
+@libraries
+XC4000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 5108 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 331 IF_IN 230 560 h
+a 0 s 3 0 10 8 hln 80 LABEL=S1
+port 332 IF_IN 230 540 h
+a 0 s 3 0 10 8 hln 80 LABEL=S0
+port 333 IF_IN 230 500 h
+a 0 s 3 0 10 8 hln 80 LABEL=I3
+port 334 IF_OUT 900 520 h
+a 0 s 3 0 20 8 hln 80 LABEL=O3
+port 335 IF_OUT 900 250 h
+a 0 s 3 0 20 8 hln 80 LABEL=O0
+port 336 IF_IN 230 320 h
+a 0 s 3 0 10 8 hln 80 LABEL=I1
+port 337 IF_IN 230 230 h
+a 0 s 3 0 10 8 hln 80 LABEL=I0
+port 338 IF_OUT 900 340 h
+a 0 s 3 0 20 8 hln 80 LABEL=O1
+port 339 IF_IN 230 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=I2
+port 340 IF_OUT 900 430 h
+a 0 s 3 0 20 8 hln 80 LABEL=O2
+@parts
+part 17 M2_1 380 500 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U1
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 18 M2_1 380 230 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U2
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 19 M2_1 650 330 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U3
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 20 M2_1 650 240 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U4
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 21 M2_1 650 510 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U5
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 22 M2_1 650 420 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U6
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 23 M2_1 380 320 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U7
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 24 M2_1 380 410 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U8
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+@conn
+w 29
+s 480 330 540 330 25
+a 0 s 3 0 500 330 hln 100 LABEL=M12
+s 540 330 650 330 26
+s 540 530 540 330 27
+s 540 530 650 530 28
+w 55
+s 480 510 600 510 51
+a 0 s 3 0 500 510 hln 100 LABEL=M30
+s 600 510 600 350 52
+s 600 350 650 350 53
+s 600 510 650 510 54
+w 78
+s 750 340 900 340 77
+a 0 s 3 0 870 340 hln 100 LABEL=O1
+w 93
+s 230 540 340 540 85
+a 0 s 3 0 240 540 hln 100 LABEL=S0
+s 340 540 380 540 86
+s 340 540 340 450 87
+s 340 450 340 360 88
+s 340 360 340 270 89
+s 340 270 380 270 90
+s 340 360 380 360 91
+s 340 450 380 450 92
+w 131
+s 230 500 320 500 127
+a 0 s 3 0 240 500 hln 100 LABEL=I3
+s 320 500 320 430 129
+s 320 430 380 430 128
+s 320 500 380 500 130
+w 152
+s 230 410 320 410 148
+a 0 s 3 0 240 410 hln 100 LABEL=I2
+s 320 410 320 340 150
+s 320 340 380 340 149
+s 320 410 380 410 151
+w 173
+s 230 320 320 320 169
+a 0 s 3 0 240 320 hln 100 LABEL=I1
+s 320 320 380 320 170
+s 320 320 320 250 171
+s 320 250 380 250 172
+w 193
+s 230 230 300 230 189
+a 0 s 3 0 240 230 hln 100 LABEL=I0
+s 300 520 300 230 190
+s 300 520 380 520 191
+s 300 230 380 230 192
+w 210
+s 750 250 900 250 209
+a 0 s 3 0 870 250 hln 100 LABEL=O0
+w 221
+s 480 240 560 240 217
+a 0 s 3 0 500 240 hln 100 LABEL=M01
+s 560 440 560 240 219
+s 560 440 650 440 218
+s 560 240 650 240 220
+w 248
+s 480 420 580 420 244
+a 0 s 3 0 500 420 hln 100 LABEL=M23
+s 580 420 650 420 245
+s 580 420 580 260 247
+s 580 260 650 260 246
+w 272
+s 750 520 900 520 271
+a 0 s 3 0 870 520 hln 100 LABEL=O3
+w 280
+s 750 430 900 430 279
+a 0 s 3 0 870 430 hln 100 LABEL=O2
+w 296
+s 230 560 620 560 287
+a 0 s 3 0 240 560 hln 100 LABEL=S1
+s 620 370 620 280 288
+s 620 280 650 280 289
+s 620 550 620 460 290
+s 620 460 620 370 291
+s 620 460 650 460 292
+s 620 550 650 550 293
+s 620 370 650 370 294
+s 620 560 620 550 295
+@junction
+j 540 330
++ w 29
++ w 29
+j 650 330
++ p 19 D0
++ w 29
+j 650 530
++ p 21 D1
++ w 29
+j 480 330
++ p 23 O
++ w 29
+j 600 510
++ w 55
++ w 55
+j 480 510
++ p 17 O
++ w 55
+j 650 350
++ p 19 D1
++ w 55
+j 650 510
++ p 21 D0
++ w 55
+j 750 340
++ p 19 O
++ w 78
+j 340 540
++ w 93
++ w 93
+j 340 450
++ w 93
++ w 93
+j 340 360
++ w 93
++ w 93
+j 380 540
++ p 17 S0
++ w 93
+j 380 270
++ p 18 S0
++ w 93
+j 380 360
++ p 23 S0
++ w 93
+j 380 450
++ p 24 S0
++ w 93
+j 320 500
++ w 131
++ w 131
+j 380 500
++ p 17 D0
++ w 131
+j 380 430
++ p 24 D1
++ w 131
+j 320 410
++ w 152
++ w 152
+j 380 340
++ p 23 D1
++ w 152
+j 380 410
++ p 24 D0
++ w 152
+j 320 320
++ w 173
++ w 173
+j 380 250
++ p 18 D1
++ w 173
+j 380 320
++ p 23 D0
++ w 173
+j 300 230
++ w 193
++ w 193
+j 380 520
++ p 17 D1
++ w 193
+j 380 230
++ p 18 D0
++ w 193
+j 750 250
++ p 20 O
++ w 210
+j 560 240
++ w 221
++ w 221
+j 480 240
++ p 18 O
++ w 221
+j 650 240
++ p 20 D0
++ w 221
+j 650 440
++ p 22 D1
++ w 221
+j 580 420
++ w 248
++ w 248
+j 650 260
++ p 20 D1
++ w 248
+j 650 420
++ p 22 D0
++ w 248
+j 480 420
++ p 24 O
++ w 248
+j 750 520
++ p 21 O
++ w 272
+j 750 430
++ p 22 O
++ w 280
+j 620 370
++ w 296
++ w 296
+j 620 550
++ w 296
++ w 296
+j 620 460
++ w 296
++ w 296
+j 650 370
++ p 19 S0
++ w 296
+j 650 280
++ p 20 S0
++ w 296
+j 650 550
++ p 21 S0
++ w 296
+j 650 460
++ p 22 S0
++ w 296
+j 230 560
++ s 331
++ w 296
+j 230 540
++ s 332
++ w 93
+j 230 500
++ s 333
++ w 131
+j 900 520
++ s 334
++ w 272
+j 900 250
++ s 335
++ w 210
+j 230 320
++ s 336
++ w 173
+j 230 230
++ s 337
++ w 193
+j 900 340
++ s 338
++ w 78
+j 230 410
++ s 339
++ w 152
+j 900 430
++ s 340
++ w 280
+@attributes
+@text
+s 5 760 750 hln 100 XC4000 FAMILY BRLSHFT4 MACRO
+s 5 760 770 hln 100 4-BIT BARREL SHIFTER
+s 5 720 800 hln 100 28TH JANUARY 1993
+s 5 960 800 hln 100 1
+s 5 960 820 hln 100 A
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS

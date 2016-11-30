@@ -1,0 +1,245 @@
+*version 6.3 2561441075
+u 243
+XC2000 415433992
+U? 7
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 3977 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 244 IF_IN 50 460 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 245 IF_IN 50 340 h
+a 0 s 3 0 10 8 hln 80 LABEL=B0
+port 246 IF_OUT 1050 220 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 247 IF_IN 50 500 h
+a 0 s 3 0 10 8 hln 80 LABEL=L
+port 248 IF_IN 50 380 h
+a 0 s 3 0 10 8 hln 80 LABEL=ADD
+port 249 IF_IN 50 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 250 IF_IN 50 570 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 251 IF_IN 50 540 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+port 252 IF_IN 50 260 h
+a 0 s 3 0 10 8 hln 80 LABEL=CI
+port 253 IF_OUT 1050 380 h
+a 0 s 3 0 20 8 hln 80 LABEL=CO
+@parts
+part 18 FDCE 800 460 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=FDCE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 AND2B1 590 450 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 40 hlt 100 PART=AND2B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 29 OR3 590 500 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 60 hlt 100 PART=OR3
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 37 ADSU1 180 260 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U4
+a 0 sp 11 0 60 20 hcn 200 PART=ADSU1
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 43 M2_1 390 440 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U5
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 46 GND 780 590 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U6
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+@conn
+w 50
+s 340 440 390 440 47
+a 0 s 3 0 340 440 hln 100 LABEL=S0
+s 340 440 340 320 48
+s 300 320 340 320 49
+w 67
+s 50 500 350 500 63
+a 0 s 3 0 50 500 hln 100 LABEL=L
+s 350 500 590 500 64
+s 350 500 350 480 65
+s 350 480 390 480 66
+w 84
+s 490 450 590 450 83
+a 0 s 3 0 500 450 hln 100 LABEL=SD0
+w 103
+s 920 460 950 460 97
+a 0 s 3 0 930 460 hln 100 LABEL=Q0
+s 950 460 950 220 98
+s 140 220 950 220 99
+s 140 300 140 220 100
+s 140 300 180 300 101
+s 950 220 1050 220 102
+a 0 s 3 0 1040 220 hln 100 LABEL=Q0
+w 120
+s 50 460 390 460 119
+a 0 s 3 0 50 460 hln 100 LABEL=D0
+w 128
+s 50 260 180 260 127
+a 0 s 3 0 50 260 hln 100 LABEL=CI
+w 136
+s 50 380 180 380 135
+a 0 s 3 0 50 380 hln 100 LABEL=ADD
+w 144
+s 300 380 1050 380 143
+a 0 s 3 0 1040 380 hln 100 LABEL=CO
+w 152
+s 670 460 800 460 151
+a 0 s 3 0 680 460 hln 100 LABEL=R_SD0
+w 168
+s 670 520 740 520 165
+a 0 s 3 0 680 520 hln 100 LABEL=R_L_CE
+s 740 520 740 480 166
+s 740 480 800 480 167
+w 183
+s 780 590 780 530 181
+s 780 530 800 530 182
+w 199
+s 50 570 760 570 196
+a 0 s 3 0 50 570 hln 100 LABEL=C
+s 760 570 760 500 197
+s 760 500 800 500 198
+w 207
+s 50 340 180 340 206
+a 0 s 3 0 50 340 hln 100 LABEL=B0
+w 215
+s 50 520 590 520 214
+a 0 s 3 0 50 520 hln 100 LABEL=CE
+w 226
+s 50 540 520 540 222
+a 0 s 3 0 50 540 hln 100 LABEL=R
+s 520 540 520 470 224
+s 520 470 590 470 223
+s 520 540 590 540 225
+@junction
+j 300 320
++ p 37 S0
++ w 50
+j 390 440
++ p 43 D0
++ w 50
+j 350 500
++ w 67
++ w 67
+j 590 500
++ p 29 I2
++ w 67
+j 390 480
++ p 43 S0
++ w 67
+j 590 450
++ p 23 I1
++ w 84
+j 490 450
++ p 43 O
++ w 84
+j 950 220
++ w 103
++ w 103
+j 920 460
++ p 18 Q
++ w 103
+j 180 300
++ p 37 A0
++ w 103
+j 390 460
++ p 43 D1
++ w 120
+j 180 260
++ p 37 CI
++ w 128
+j 180 380
++ p 37 ADD
++ w 136
+j 300 380
++ p 37 CO
++ w 144
+j 800 460
++ p 18 D
++ w 152
+j 670 460
++ p 23 O
++ w 152
+j 800 480
++ p 18 CE
++ w 168
+j 670 520
++ p 29 O
++ w 168
+j 800 530
++ p 18 CLR
++ w 183
+j 780 590
++ p 46 GROUND
++ w 183
+j 800 500
++ p 18 C
++ w 199
+j 180 340
++ p 37 B0
++ w 207
+j 590 520
++ p 29 I1
++ w 215
+j 520 540
++ w 226
++ w 226
+j 590 470
++ p 23 I0
++ w 226
+j 590 540
++ p 29 I0
++ w 226
+j 50 460
++ s 244
++ w 120
+j 50 340
++ s 245
++ w 207
+j 1050 220
++ s 246
++ w 103
+j 50 500
++ s 247
++ w 67
+j 50 380
++ s 248
++ w 136
+j 50 520
++ s 249
++ w 215
+j 50 570
++ s 250
++ w 199
+j 50 540
++ s 251
++ w 226
+j 50 260
++ s 252
++ w 128
+j 1050 380
++ s 253
++ w 144
+@attributes
+@text
+s 5 750 770 hln 100 1-BIT LOADABLE ACCUMATOR W/ CI &
+s 5 750 750 hln 100 XC2000 FAMILY ACC1 MACRO
+s 5 710 800 hln 100 12TH APRIL 1993
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 750 780 hln 100 CO, SYNC RESET & CLOCK ENABLE

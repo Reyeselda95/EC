@@ -1,0 +1,12 @@
+# Part Mapping file for EDIF PCB Netlister
+
+# Copyright 1992-1994 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+# Default rule: use COMPONENT if there, else PART
+# Note: all mapping for PCAD should result in lower case names
+
+
+DEFAULT               ?component|@component||@part|
+

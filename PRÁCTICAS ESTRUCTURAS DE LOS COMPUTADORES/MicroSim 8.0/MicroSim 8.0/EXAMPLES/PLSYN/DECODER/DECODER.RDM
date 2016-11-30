@@ -1,0 +1,25 @@
+This design is intended as a tutorial on using MicroSim PLSyn, the 
+Programmable Logic Synthesis program.  It and the tutorials associated
+with it can be found in the PLSyn User's Guide.
+
+This design is intended to be used with MicroSim PSpice AD with the 
+PLSyn option, or with MicroSim DesignLab.  While not intended for 
+packaging, it can be packaged if an example is desired.  Decoder.sch 
+will not run under MicroSim Basics or the MicroSim Evaluation 
+(student) version.
+
+Required Symbol libraries:
+	source.slb
+	port.slb
+	74ls.slb or dig_prim.slb
+
+Required model libraries:
+	74ls.lib
+
+Required package libraries:
+	74ls.plb
+
+Other required files:
+	Decoder.stl - Stimulus file generated using StmEd.
+
+ 

@@ -1,0 +1,579 @@
+
+" debugf.c
+
+" fctn.c
+>Es Unknown demorgan property argument
+=[18000] Illegal argument '%s' for demorgan property.
+&STRING
+*The legal arguments for the DEMORGAN_SYNTH property are AUTO, FORCE, and OFF.
+>Es NOREDUCE conflicts with PI demorgan properties
+=[18001] PI demorganization property for '%s' conflicts with the NOREDUCE option.
+&SIGNAL_NAME
+*Demorganization is turned off if the NOREDUCE option is set, so the only legal
+*argument for the DEMORGAN_SYNTH property is OFF.
+>Es Unknown xor synth property argument
+=[18002] Illegal argument '%s' for xor synthesis property.
+&STRING
+*The legal arguments for the XOR_TO_SOP_SYNTH property are AUTO, FORCE, and OFF.
+>Es Unknown ff synth property argument
+=[18003] Illegal argument '%s' for flip-flop synthesis property.
+&STRING
+*The legal arguments for the FF_SYNTH property are AUTO and OFF.
+>Es No remaining data equations for function
+=[18004] No remaining data equations for output signal '%s'.
+&SIGNAL_NAME
+*The DEMORGAN_SYNTH, XOR_TO_SOP_SYNTH, and FF_SYNTH properties remove equations
+*from consideration.  If other equations were already removed due to their size,
+*then there may be no equations left to implement the output signal's functionality.
+>Es No device with latch and clk enable
+=[18005] No device supports the construct of a latch with a CLOCK_ENABLED_BY (%s).
+&SIGNAL_NAME
+*There is no device known to PLFit which has a clock enable for a latch.
+>Es Missing oe eqn for open_drain
+=[18006] Output signal '%s' with the OPEN_DRAIN property has no enable equation.
+&SIGNAL_NAME
+*For an output fit with OPEN_DRAIN, the enable equation must tri-state the output
+*when the output usually would be high.  This output does not even have an enable
+*equation.
+>Es Unsuitable OE eqn for open_drain
+=[18007] Output signal '%s' with the OPEN_DRAIN property does not have an appropriate enable.
+&SIGNAL_NAME
+*For an output fit with OPEN_DRAIN, the enable equation must tri-state the output
+*when the output usually would be high.  The enable equation for this output
+*does not meet this condition.
+
+" fctnlist.c
+>Fdd Too many symbols in fit
+=[18008] Too many symbols in PLFit (%d symbols seen, but maximum is %d).
+&NUMBER MAXIMUM
+*PLFit has a maximum number of symbols.  If you hit this limit, your design
+*is bigger than PLFit can handle.  Consider ways of breaking-up or otherwise
+*reducing the size of the design.
+>Es Failed to find fit_with signal
+=[18009] Failed to find fit_with signal '%s'.
+&SIGNAL_NAME
+*The FIT_WITH property indicated two signals should be fit together.  However,
+*the second signal could not be found.  The signal must exist in the original
+*design.
+>Ess Failed to find fit_with partner
+=[18010] Failed to find '%s' for fitting with '%s'.
+&SIGNAL_NAME SIGNAL_NAME
+*The FIT_WITH property indicated two signals should be fit together.  However,
+*the second signal could not be found as an output or node signal.  The signal
+*must exist in the original design as a output or non-virtual node.
+>Ess Fit_with and no_collapse properties conflict
+=[18011] The NO_COLLAPSE property on '%s' conflicts with the FIT_WITH property on '%s'.
+&SIGNAL_NAME SIGNAL_NAME
+*If two signals are to be fit together, neither of them can have the NO_COLLAPSE
+*property.
+>Ess Cannot fit with
+=[18012] Output signal '%s' cannot be fit with '%s'.
+&SIGNAL_NAME SIGNAL_NAME
+*The FIT_WITH property indicated these two signals should be fit together, but
+*for some reason they CANNOT fit together.  The feeding signal must be the only
+*signal in the other signals equation.  The feeding signal cannot be inverted.
+*The feeding signal must be a node.  The receiving signal cannot be registered
+*or latched.  Both signals cannot be enabled.
+>F Errors occurred while comprehending fit_with properties
+=[18013] Errors occurred while comprehending the fit_with properties.
+*Errors that must be corrected were found while implementing the
+*requirements of the FIT_WITH property.
+>Es Failed to find CORF signal
+=[18014] Failed to find COMB_OUT_REG_FB signal '%s'.
+&SIGNAL_NAME
+*The COMB_OUT_REG_FB property indicated two signals should be fit together,
+*with the second signal being the registered feedback.  However,
+*the second signal could not be found.  The signal must exist in the original
+*design.
+>Ess Failed to find CORF partner
+=[18015] Failed to find '%s' for fitting with '%s'.
+&SIGNAL_NAME SIGNAL_NAME
+*The COMB_OUT_REG_FB property indicated two signals should be fit together.
+*However, the second signal could not be found as a node signal.  The signal
+*must exist in the original design as a non-virtual node to be the registered
+*feedback.
+>F Errors occurred while processing CORF properties
+=[18016] Errors occurred while processing the COMB_OUT_REG_FB properties.
+*Errors that must be corrected were found while implementing the
+*requirements of the COMB_OUT_REG_FB property.
+>Fss Non-feedback signal is needed elsewhere
+=[18017] Signal %s is needed by '%s' but it has no feedback.
+*The fit system has configured the first signal such that it has no feedback,
+*and yet it is needed by the second signal.  To correct this problem, the
+*was signals are being combined needs to changed, probably in regards to the
+*COMB_OUT_REG_FB property, so that there is feedback available.
+
+"fit_f.c
+>Esd Unfittable group
+=[18018]         Fitting signal '%s' on virtual pin %d implies fitting an unfittable group of signals
+&SIGNAL_NAME PIN_NUMBER
+*The signal being fit has some feedback internal to the part, either because it
+*is a node or there is pre-enable feedback.  The signals needing to use this
+*feedback must therefore be fit on this same part.  There are not enough device
+*resources, however, to have all those signals fit on this part.
+>Esd Cannot fit fixed input pin
+=[18019]         Symbol '%s', set in the PI file, cannot fit on virtual input pin %d
+&SIGNAL_NAME PIN_NUMBER
+>Esd Cannot fit fixed input on biput pin
+=[18020]         Symbol '%s', set in the PI file, cannot fit on virtual biput pin %d
+&SIGNAL_NAME PIN_NUMBER
+>E Cannot fit accumulated inputs on device
+=[18021]         Cannot fit accumulated inputs on the device
+*The output signals in a group from the PI file require a certain set of
+*inputs.  The complete set of inputs, however, could not be fit.
+>E Cannot fit function group
+=[18022]         Cannot fit signal group formed by fixed output signals
+*The output signals, unassigned to a pin, from a group formed by signals
+*in a GROUP or DEVICE in the PI file could NOT all be fit on this device.
+>E Cannot fit auxiliary functions
+=[18023]         Cannot fit auxiliary signals needed for fixed signal group
+*After fitting the original group of required signals from a GROUP or
+*DEVICE in the PI file, other output signals were needed on this device.  
+*These other output signals must be fit either as output or brought in 
+*on input pins.  The limits of this device, however, prevented the fitter 
+*from resolving the need for these auxiliary outputs.
+
+"fiterr.c
+>Ess fiterr signal device
+=[18024]         Signal '%s' in device '%s' failed:
+&SIGNAL_NAME DEVICE_NAME
+*The device fitter/partitioner could not place the output signal
+* in the device.  The reason for the failure follows on the next line.
+>Esds fiterr signal pin device
+=[18025]         Signal '%s' on virtual pin %d of device '%s' failed:
+&SIGNAL_NAME PIN_NUMBER DEVICE_NAME
+*The device fitter/partitioner could not place the output signal on the output
+* or biput pin.  The reason for the failure follows on the next line.
+>E <<--->>
+=[18026]                 Reason undisclosed
+*The reason for not fitting the signal is unstated, but could be a number of
+*contributing problems or a problem that cannot be easily described.
+>E Can't make output registered
+=[18027]                 Cannot make output registered
+*The output macrocell cannot be made registered.  An example of a macrocell
+*that cannot be registered is an output of the P16L8.
+>E Can't make output combinatorial
+=[18028]                 Cannot make output combinatorial
+*The output macrocell cannot be made combinatorial.  An example of a macrocell
+*that cannot be combinatorial is an output of the P16R8.
+>E Not enough inputs available on device
+=[18029]                 Not enough inputs available on device
+*The number of inputs required to fit this output exceeds the available number
+*of input and biputs of this device.
+>E Can't assign output enable
+=[18030]                 Cannot assign output enable
+*Cannot assign the output enable expression for this output to this macrocell.
+>E Pin is not an output pin
+=[18031]                 Pin is not an output pin
+*The pin in this configuration is not an output pin.  You cannot assign an
+*output signal to this type of pin.
+>E Can't assign clock to register
+=[18032]                 Cannot assign clock to register
+*Cannot assign the clock expression for this output to this macrocell.
+>E Not enough or-rows for this function
+=[18033]                 Not enough rows feeding the OR gate for this output signal
+*This device does not have enough AND rows feeding the OR gate.  The various
+*data equations are all too large given the number of AND rows available.
+>E Not enough columns for this function
+=[18034]                 Not enough columns for this output signal
+*This device, probably a PLA, does not have enough AND columns.  The various
+*data equations are all too large given the remaining number of columns
+*available.
+>E Can't make low-true output
+=[18035]                 Cannot make low-true output
+*The macrocell does not have the capability to assign a low-true output signal
+*to this pin.
+>E Can't make high-true output
+=[18036]                 Cannot make high-true output
+*The macrocell does not have the capability to assign a high-true output signal
+*to this pin.
+>E Can't assign preset
+=[18037]                 Cannot assign preset
+*Cannot assign the preset equation for this output.
+>E Can't assign reset
+=[18038]                 Cannot assign reset
+*Cannot assign the reset equation for this output.
+>E Can't assign clock enable
+=[18039]                 Cannot assign clock enable
+*Cannot assign the clock enable equation for this output.
+>E Wrong output register type
+=[18040]                 Wrong output register type
+*The register type of this output macrocell does not match the types
+*of equations available.
+>E Input has wrong ff/latch type
+=[18041]                 Input has wrong ff/latch type
+*The input pin has the wrong configuration for fitting this unary
+*signal.
+>E Can't make output hidden
+=[18042]                 Cannot make output hidden
+*The hidden node of this device cannot accept a node signal, or a signal
+*which for some reason must be visible.
+>E Pin is not available
+=[18043]                 Pin is not available
+*This pin has already been assigned or is otherwise unavailable.
+>E No clock expression
+=[18044]                 No clock expression
+*This signal is registered, but the clock expression is unavailable,
+*probably because this equation earlier was deemed too large.
+>E Can't set up feedback
+=[18045]                 Cannot set up feedback
+*The feedback required to properly fit this signal is not available.
+>E Can't set up XOR
+=[18046]                 Cannot set up XOR
+*There are not XOR rows available on this pin to fit this signal.
+>E Function is not a unary function
+=[18047]                 Function is not a unary function
+*The function does not qualify as a unary function for fitting on a
+*unary node of this device.
+>E Can't meet output utilization
+=[18048]                 Can't fit output without exceeding output utilization limit"
+*The user has specified a limit for the utilization of PDL outputs.  Fitting
+*this output would exceed this limit.
+>E Cannot assign CORF
+=[18049]                 Can't assign a combinatorial output with registered feedback.
+*The user has specified this output should have registered feedback, but
+*this device does not support that configuration of the output macrocell.
+
+" fitmap.c
+>Ess Cannot fit fixed pin
+=[18050]         Symbol '%s', set in the PI file, cannot fit on pin '%s'.  Either you
+&SIGNAL_NAME PIN_NAME
+*The signal cannot be fit on the pin that it is assigned to in
+*the physical information file.  This can happen if the signal
+*type (input or output) does not match the pin type or if the signal 
+*has an equation that requires device resources that are unavailable.
+*See the .log file for possible fitter error output.
+>E Cannot fit fixed pin 2
+=[18051]         have set it to a non-output pin OR one of the above failures applies.
+
+" fixed.c
+>W Inputs within an unfixed group are ignored
+=[18052] Inputs within a GROUP in the PI file are ignored.
+*Since PLFit will automatically fit all of the input signals that
+*a GROUP requires, there is no need to mention input signals.
+>Es Wired bus in output list
+=[18053] WIRED_BUS symbol %s is not allowed in the outputs of any PI file DEVICE.
+&SYMBOL_NAME
+*A wired bus cannot be fit as an OUTPUT of any device.  Even the Xilinx
+FPGAs only fit the WIRED_BUS internal when needed.  If you intended
+*to fit a component signal of the WIRED_BUS on this part, then
+*use the component signal name and not the WIRED_BUS name.
+>Es No functions fit into device
+=[18054] No functions in design fit into target device '%s'.
+*The device was targeted to fit a group of functions in the physical
+*information file, but was not able to fit any of the functions in
+*the design.
+>Es Fuse assignment with footprint
+=[18055] Fuse assignment in PI file DEVICE with footprint target '%s'.
+&TARGET_STRING
+*A DEVICE targeted toward a footprint will potentially be fit into
+*many different device architectures.  Since fuse numbers and fuse
+*configurations depend on the device architecture, a fuse assignment
+*in a DEVICE targeted toward a footprint may have radically
+*different and unexpected effects when implemented in different devices.
+>E Cannot merge fixed subgroups for single level device
+=[18056] Single level device targeted, but SECTIONs were given in the PI file.
+*Fitting a single level device such as a P22V10 implies that the
+*DEVICE information must also be single level; i.e. no SECTIONs
+*(which the system cannot merge into a single-level 
+*description) may be present.  SECTIONs inside a DEVICE
+*are useful in fitting a multi-level device, such as the P1800.
+>Ess Illegal pin value for part
+=[18057] Illegal pin name '%s' for template '%s'.
+&PIN_NAME TEMPLATE_NAME
+*The pin name given for a pin assignment in the physical information
+*file was not a valid pin name for the device.
+>Esss Cannot assign to no-connect pin
+=[18058] Cannot assign '%s' to no-connect pin '%s' of template '%s'.
+&SIGNAL_NAME PIN_NAME
+*No signals may be assigned to pins of the device that are not connected.
+>Esss Cannot assign to ground pin
+=[18059] Cannot assign '%s' to ground pin '%s' of template '%s'.
+&SIGNAL_NAME PIN_NAME
+*No signals may be assigned to ground pins of the device.
+>Esss Cannot assign to power pin
+=[18060] Cannot assign '%s' to power pin '%s' of template '%s'.
+&SIGNAL_NAME PIN_NAME
+*No signals may be assigned to power pins of the device.
+>Ess Cannot assign as input on output pin
+=[18061] Cannot assign '%s' as an input signal on the output pin '%s'.
+&SIGNAL_NAME PIN_NAME
+*A signal given as an input signal in the pi file may not be assigned
+*to an output pin.
+>Ess Cannot assign as output on non-output pin
+=[18062] Cannot assign '%s' as an output signal on the non-output pin '%s'.
+&SIGNAL_NAME PIN_NAME
+*A signal given as an output signal in the pi file may not be assigned
+*to a non-output pin; i.e. a pin that is not an output pin, biput pin,
+*or a node.
+>E Errors in pin assignments
+=[18063] Errors found in pin assignments.
+*Errors were found in the pin assignments in the physical information
+*file.
+>F Errors in fixed groups
+=[18064] Errors found while comprehending PI file DEVICEs.
+*Errors that must be corrected were found while the system was
+*understanding the DEVICEs in the physical information file.
+
+"lib_list.c
+>F No templates match criteria in create_lib_list()
+=[18065] No templates match criteria after execution of PLScan.
+*PLScan, after screening out parts based on your criteria and
+*authorization, has left NO parts for PLFit to use.
+
+"pnode.c
+
+"fusemap.c
+>Eddd SetFuseWord Bits out of bounds
+=[18066] The minimum number of bits needed to represent the number %d is equal to %d, which is greater than the maximum number of bits specified %d.
+
+Fusemap address %d is out of the fusemap bounds [0..%d].
+>Edd Fusemap address out of bounds
+=[18067] Fusemap address %d is out of the fusemap bonds [0..%d].
+>Ed Invalid fuse value
+=[18068] Invalid fuse value %d, it must be 0 or 1.
+>Ed Invalid fuse word
+=[18069] Invalid fuse word %d, it must be a positive number.
+
+"ptermlst.c
+>Es Bad token in lex_pterm
+=[18070] Unexpected token '%s' found by pterm string parser.
+&STRING
+*Legal tokens in a pterm string are '*', '/', and legal signal names.
+>Es Syntax error in pterm string parser
+=[18071] Syntax error in pterm string parser near '%s'.
+&STRING
+*The syntax for a pterm string is a series of signal names, optionally
+*inverted with a '/', and separated with '*'s.  White space is allowed.
+>Es Unknown signal found by pterm string parser
+=[18072] Unknown signal '%s' found by the pterm string parser.
+&SIGNAL_NAME
+*Only signals declared in the design are allowed in this pterm string.
+>F Errors found by the pterm string parser
+=[18073] Errors found by the pterm string parser.
+*Errors that must be corrected were found while parsing the pterm string.
+
+"util.c
+>Ws Unassigned input from .pi file was ignored
+=[18074] Unneeded input signal '%s' was ignored.
+*Since PLFit will automatically fit all of the input signals that
+*output signals require, an input signal in a PI file DEVICE that is not
+*assigned to a pin will only be fit on the device if one of the functions
+*that is fit in the device requires it.
+>Esss can't add to group
+=[18075] Signal '%s', an internal version of '%s', is fed to '%s', but these signals are not assigned to the same device or device quadrant.
+&SIGNAL_NAME SIGNAL_NAME SIGNAL_NAME
+*The two signals must be fit together because one signal uses the internal
+*feedback of the other signal, but they cannot be fit so that the internal
+*feedback is visible to the signal that uses it.  Possible reasons for this
+*include:  the signals are assigned to different sections of a P1800 or
+*the signals are assigned to different devices.  One possible workaround is
+*to attach the NO_COLLAPSE property to the second signal of this message.
+>F errors while making internal feedback groups
+=[18076] Errors found while creating internal feedback groups.
+*Errors that must be corrected were found while the system was
+*creating groups of signals that depend on internal feedback.
+
+"template.c
+>Fs Unable to open lib file
+=[18077] Unable to open file %s for reading.
+
+" fio.c
+>M User hit abort
+=Abort button selected.  Saving possible solutions and exiting.
+*(Workstation products only)  When you press the Abort button in the Solutions
+*menu, PLFit saves the solutions it has generated so far (if any), then 
+*terminates.
+>M Received SIGHUP
+=Received hangup signal.  Saving possible solutions and exiting. 
+*(Workstation products only)  When PLFit receives a hangup signal,
+*it saves the solutions it has generated so far (if any), then terminates.
+*One common way for a PLFit to receive a hangup signal is by the user
+*logging out while PLFit is running.
+>M Received SIGINT
+=Received interrupt signal.  Saving possible solutions and exiting.
+*(Workstation products only)  When PLFit receives an interrupt signal,
+*it saves the solutions it has generated so far (if any), then terminates.
+*An interrupt signal can be generated by the user typing ^C (control-C)
+*or by the operating system.
+
+
+" fit.c
+>M Out of memory, attempting to save solutions
+=Out of memory, attempting to save solutions ...
+*When PLFit detects the system no longer has memory available, PLFit frees some
+*memory to get room to work, and then attempts to save solution in order.
+>F Out of memory, no solutions
+=[18082] Out of memory before any solution could be found.
+*PLFit has detected there is no remaining memory, and the solution search
+*was interrupted before any solution could be found.
+>F Out of memory in fit.c
+=[18083] Out of memory, and NO alternative memory actions were available.
+*After attempting alternative memory actions, there still is no memory
+*available.  PLFit can no longer proceed.
+>F No valid devices
+=[18084] No valid devices
+*There are no device architectures available for fitting.
+>Fsss Could not fit fixed group
+=[18085] Failed to fit DEVICE %s from PI file on %s.  See %s
+*The DEVICEs given in the PI file must be fit successfully before
+*any solution can be given.  The PI file DEVICE indicated, however,
+*could not be fit.  Refer to the .log file.
+>Msss Warnings while fitting fixed group
+=Warnings fitting DEVICE %s from PI on %s.  See %s
+&*
+>M Fitting
+=  fitting ...
+&*
+" Messages regarding failed to fit equations.
+>E CR
+=[18088] 
+>E fit fail, functions never fit
+=[18089] Partitioning failed to EVER place the following output signals:
+>Es fit fail, function
+=[18090]     %s
+&*
+>Ed fit fail
+=[18091] After %d device attempts, no solution could be found.  Possible reasons are:
+&*
+>Ed fit fail num devices
+=[18092]     No solution could be found using %d or less devices.
+&*
+>E fit fail groups
+=[18093]     Output signals must be fit as a group, and the group is too large.
+&*
+>E fit fail groups 2
+=[18094]        Groups can be user groups (from the PI) or groups for internal feedback.
+&*
+>E fit fail auxs
+=[18095]     Output signals require more inputs than are available on any device.
+&*
+>E fit fail aggregate
+=[18100]     The design as a whole required more resources than could be provided. 
+&*
+>E fit fail combination
+=[18101]     Some combination of the above reasons.
+&*
+>Fs Failed to fit equations
+=[18102] Failed to fit design.  See %s
+*Your design cannot be fit.  Refer to the .log file for the reasons for this
+*failure.  The .log file will state which functions could NEVER be fit, and
+*also how many device attempts occurred.  There are a large number of factors
+*which contribute to a design being unfittable, and often these factors
+*compound.  Areas to examine are how signals are fit as a group, how much
+*I/O is required for the design, and also how FPGAs are being used.
+
+" soln.c
+>Mdd Partial solution save
+=Memory exhausted, %d of the %d solutions are saved.
+*When PLFit detects the system no longer has memory available, PLFit frees some
+*memory to get room to work, and then saves in order as many solutions as
+*possible.
+>F Cannot edit solution with new pi information
+=[18104] Cannot edit solution with because physical information file (.pi) has changed.
+*If the .pi file has changed since the last time solutions were generated in plfit,
+*then the user cannot edit solutions.  Removing the .pi file will let the plfit
+*proceed from this point.  Alternatively, the user can run plfuse -soln:<soln_num>.
+" task.c
+>Mds Attempting template
+=Attempting device %d, template %s ...
+&*
+>Mdsd Attempting arch
+=Attempting device %d, template %s, heuristic %d ...
+
+&*
+>Mdsd Attempting heur
+=Attempting device %d, template %s, architecture %d ...
+&*
+>Mdsdd Attempting arch/heur
+=Attempting device %d, template %s, architecture %d, heuristic %d ...
+&*
+>M Failed to fit any functions on this device
+=    No outputs were fit at all on this device, probably due to blocked pins.
+*This device is capable of fitting outputs of your design.  For some reason,
+*however, no outputs were fit on this attempt.  Perhaps you have blocked
+*access to the outputs pins, or some other combination of circumstances have
+*prevented a fit of some outputs.  As a next step, try assigning an output
+*to this device to obtain more specific information.
+
+"global.c
+>Ws Skipping Bad template
+=[18110] Skipping Bad template: %s found in available file.
+&*
+"     tick message
+>Ms plfit tick message
+=  %s ...
+&*
+>Fs No available devices ...
+=[18112] No devices available that fit an output.  See %s
+&LOG_FILE_NAME
+>M Attempting to find at least one part/fctn
+=Attempting to find at least one part that can fit any output signal.
+*PLFit will attempt screen the parts which cannot fit ANY signals.  If
+*no parts can fit any signals, then this is a fatal error.
+*PLFit will attempt screen the parts which cannot fit ANY signals.  No
+*parts can fit any signals, and therefore PLFit could not continue.
+>M Attempting to find any device pin that can fit the signals
+=Attempting to find any device pin that can fit the following signals:
+*PLFit will attempt to find AT LEAST ONE place a signal can fit.
+>Fs Functions cannot fit into the target device
+=[18115] Signals cannot fit into the targeted devices.  See %s
+&LOG_FILE_NAME
+*Signals were targeted to certain devices, but some signal could not
+*be fit in their targeted device.
+>Fs Functions cannot fit into any device
+=[18116] Signals cannot fit into any device.  See %s
+&LOG_FILE_NAME
+*PLFit will attempt to find AT LEAST ONE place a signal can fit.  In
+*this case, signals could not fit anywhere on any device.
+>E Cannot assign dual edge clock
+=[18117] Cannot assign a dual edge clock.
+>E Cannot assign dual edge clock, positive edge enable
+=[18118] Cannot assign a dual edge clock.
+>E Cannot assign dual edge clock, negative edge enable
+=[18119] Cannot assign a dual edge clock.
+
+" multi-use messages
+>Md devs attempt at utilization
+=        Attempting to fit at %d percent utilization.
+& UTILIZATION_VALUE
+*Identifies an attempt to fit into a device at the indicated utilization.
+*The fitter may repeat fitting attempts at lower utilizations until a 
+*fit is achieved.
+>Ess devs failed type partitioning
+=[18120]         %s failed %s partitioning
+& DEVICE PARTITION_LEVEL
+*The partitioner cannot divide the functions into the required number of
+*partitions while remaining within the current limits.
+>Ess devs type partitioning exceeds limits
+=[18121]         %s %s partitioning exceeds limits
+& DEVICE PARTITION_LEVEL
+*The partition cannot be reduced to the current limit due to a group
+*of functions placed in a PI file DEVICE or internal feedback grouping.
+>M devs repeat results
+=        Repeated results of last partition.
+*A particular partition attempt which is partitioned at a lower 
+*utilization is discarded because it exactly repeats the prior 
+*failed partition.
+>Ess devs failed type pre-partitioning
+=[18122]         %s failed %s pre-partitioning
+& DEVICE PARTITION_LEVEL
+*The partitioner cannot divide the functions into the required number of
+*partitions while remaining within the current limits.
+>Eds devs Cannot fit fixed group
+=[18123]         DEVICE number %d in the PI file contains functions which cannot be fit by %s.
+& DEVICE_NUM DEVICE_NAME
+*The .pi file DEVICE contains functions which are not fittable by the
+*indicated device.
+>Es devs No functions available to fit
+=[18124]         No functions are remaining which can fit into a %s.
+& DEVICE
+*No functions are remaining which can fit into the indicated device.
+>Ess devs Signal assigned to multiple pins
+=[18125]         Signal %s is assigned to multiple pins in device %s.
+& SIGNAL_NAME DEVICE
+*The partitioner for this device does not allow a signal to be assigned
+*to more than one pin.
+>Ws No-connect vcc or ground
+=[18126] Signal %s is a GND or VCC on the no-connect list.
+

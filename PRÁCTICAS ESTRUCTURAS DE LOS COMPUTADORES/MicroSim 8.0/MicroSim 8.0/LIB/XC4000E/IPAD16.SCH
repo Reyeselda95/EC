@@ -1,0 +1,329 @@
+*version 6.3 1309056808
+u 240
+XC4000E 1048060008
+U? 17
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 5220 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 241 IF_OUT 640 260 h
+a 0 s 3 0 20 8 hln 50 LABEL=I[15:0]
+@parts
+part 14 IPAD 330 300 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U1
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 15 IPAD 330 330 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U2
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 16 IPAD 330 360 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U3
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 17 IPAD 330 390 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U4
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 18 IPAD 330 510 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U5
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 19 IPAD 330 480 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U6
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 20 IPAD 330 450 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U7
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 21 IPAD 330 420 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U8
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+part 22 IPAD 330 660 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U9
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U9
+part 23 IPAD 330 690 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U10
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U10
+part 24 IPAD 330 720 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U11
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U11
+part 25 IPAD 330 630 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U12
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U12
+part 26 IPAD 330 600 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U13
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U13
+part 27 IPAD 330 570 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U14
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U14
+part 28 IPAD 330 540 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U15
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U15
+part 29 IPAD 330 750 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U16
+a 0 sp 11 0 0 0 hln 100 PART=IPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U16
+@conn
+b 47
+s 530 260 640 260 30
+a 0 s 3 0 570 250 hln 100 LABEL=I[15:0]
+s 530 300 530 260 31
+s 530 330 530 300 32
+s 530 360 530 330 33
+s 530 390 530 360 34
+s 530 420 530 390 35
+s 530 450 530 420 36
+s 530 480 530 450 37
+s 530 510 530 480 38
+s 530 540 530 510 39
+s 530 570 530 540 40
+s 530 600 530 570 41
+s 530 630 530 600 42
+s 530 660 530 630 43
+s 530 690 530 660 44
+s 530 720 530 690 45
+s 530 750 530 720 46
+w 49
+s 330 300 530 300 48
+a 0 s 3 0 490 300 hln 100 LABEL=I[0]
+s 530 300 530 300 50
+w 58
+s 330 330 530 330 57
+a 0 s 3 0 490 330 hln 100 LABEL=I[1]
+s 530 330 530 330 59
+w 67
+s 330 360 530 360 66
+a 0 s 3 0 490 360 hln 100 LABEL=I[2]
+s 530 360 530 360 68
+w 76
+s 330 390 530 390 75
+a 0 s 3 0 490 390 hln 100 LABEL=I[3]
+s 530 390 530 390 77
+w 85
+s 330 420 530 420 84
+a 0 s 3 0 490 420 hln 100 LABEL=I[4]
+s 530 420 530 420 86
+w 94
+s 330 450 530 450 93
+a 0 s 3 0 490 450 hln 100 LABEL=I[5]
+s 530 450 530 450 95
+w 103
+s 330 480 530 480 102
+a 0 s 3 0 490 480 hln 100 LABEL=I[6]
+s 530 480 530 480 104
+w 112
+s 330 510 530 510 111
+a 0 s 3 0 490 510 hln 100 LABEL=I[7]
+s 530 510 530 510 113
+w 121
+s 330 540 530 540 120
+a 0 s 3 0 490 540 hln 100 LABEL=I[8]
+s 530 540 530 540 122
+w 130
+s 330 570 530 570 129
+a 0 s 3 0 490 570 hln 100 LABEL=I[9]
+s 530 570 530 570 131
+w 139
+s 330 600 530 600 138
+a 0 s 3 0 490 600 hln 100 LABEL=I[10]
+s 530 600 530 600 140
+w 148
+s 330 630 530 630 147
+a 0 s 3 0 490 630 hln 100 LABEL=I[11]
+s 530 630 530 630 149
+w 157
+s 330 660 530 660 156
+a 0 s 3 0 490 660 hln 100 LABEL=I[12]
+s 530 660 530 660 158
+w 166
+s 330 690 530 690 165
+a 0 s 3 0 490 690 hln 100 LABEL=I[13]
+s 530 690 530 690 167
+w 175
+s 330 720 530 720 174
+a 0 s 3 0 490 720 hln 100 LABEL=I[14]
+s 530 720 530 720 176
+w 184
+s 330 750 530 750 183
+a 0 s 3 0 490 750 hln 100 LABEL=I[15]
+s 530 750 530 750 185
+@junction
+j 330 300
++ p 14 IPAD
++ w 49
+j 330 330
++ p 15 IPAD
++ w 58
+j 330 360
++ p 16 IPAD
++ w 67
+j 330 390
++ p 17 IPAD
++ w 76
+j 330 420
++ p 21 IPAD
++ w 85
+j 330 450
++ p 20 IPAD
++ w 94
+j 330 480
++ p 19 IPAD
++ w 103
+j 330 510
++ p 18 IPAD
++ w 112
+j 330 540
++ p 28 IPAD
++ w 121
+j 330 570
++ p 27 IPAD
++ w 130
+j 330 600
++ p 26 IPAD
++ w 139
+j 330 630
++ p 25 IPAD
++ w 148
+j 330 660
++ p 22 IPAD
++ w 157
+j 330 690
++ p 23 IPAD
++ w 166
+j 330 720
++ p 24 IPAD
++ w 175
+j 330 750
++ p 29 IPAD
++ w 184
+j 530 300
++ b 47
+I[0]
++ w 49
+j 530 330
++ b 47
+I[1]
++ w 58
+j 530 360
++ b 47
+I[2]
++ w 67
+j 530 390
++ b 47
+I[3]
++ w 76
+j 530 420
++ b 47
+I[4]
++ w 85
+j 530 450
++ b 47
+I[5]
++ w 94
+j 530 480
++ b 47
+I[6]
++ w 103
+j 530 510
++ b 47
+I[7]
++ w 112
+j 530 540
++ b 47
+I[8]
++ w 121
+j 530 570
++ b 47
+I[9]
++ w 130
+j 530 600
++ b 47
+I[10]
++ w 139
+j 530 630
++ b 47
+I[11]
++ w 148
+j 530 660
++ b 47
+I[12]
++ w 157
+j 530 690
++ b 47
+I[13]
++ w 166
+j 530 720
++ b 47
+I[14]
++ w 175
+j 530 750
++ b 47
+I[15]
++ w 184
+j 640 260
++ S 241
+I[15]
+I[14]
+I[13]
+I[12]
+I[11]
+I[10]
+I[9]
+I[8]
+I[7]
+I[6]
+I[5]
+I[4]
+I[3]
+I[2]
+I[1]
+I[0]
++ b 47
+I[15]
+I[14]
+I[13]
+I[12]
+I[11]
+I[10]
+I[9]
+I[8]
+I[7]
+I[6]
+I[5]
+I[4]
+I[3]
+I[2]
+I[1]
+I[0]
+@attributes
+@text
+s 5 660 1020 hrn 100 16-BIT INPUT PAD
+s 5 640 1050 hrn 100 23RD FEBRUARY 1995
+s 5 700 1070 hln 100 A
+s 5 710 1050 hrn 100 1
+s 5 760 1000 hrn 100 XC4000E FAMILY IPAD16 MACRO

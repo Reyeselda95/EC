@@ -1,0 +1,239 @@
+*version 5.3 0
+@index
+symloc PAL10H8:P20 0 25
+symloc PAL10H8A:P20 25 26
+symloc PAL10H8A2:P20 51 27
+symloc PAL10L8:P20 78 25
+symloc PAL10L8A:P20 103 26
+symloc PAL10L8A2:P20 129 27
+symloc PAL12H6:P20 156 25
+symloc PAL12H6A:P20 181 26
+symloc PAL12H6A2:P20 207 27
+symloc PAL12L6A:P20 234 26
+symloc PAL12L10:P24 260 26
+symloc PAL12L10A:P24 286 27
+symloc PAL12L6:P20 313 52
+symloc PAL12L6A2:P20 365 27
+symloc PAL14H4:P20 392 25
+symloc PAL14H4A:P20 417 26
+symloc PAL14H4A2:P20 443 27
+symloc PAL14L4:P20 470 25
+symloc PAL14L4A:P20 495 26
+symloc PAL14L4A2:P20 521 27
+symloc PAL14L8:P24 548 25
+symloc PAL14L8A:P24 573 26
+symloc PAL16C1:P20 599 25
+symloc PAL16C1A:P20 624 26
+symloc PAL16C1A2:P20 650 27
+symloc PAL16H2:P20 677 25
+symloc PAL16H2A:P20 702 26
+symloc PAL16H2A2:P20 728 27
+symloc PAL16L2:P20 755 25
+symloc PAL16L2A:P20 780 26
+symloc PAL16L2A2:P20 806 27
+symloc PAL16L6:P24 833 25
+symloc PAL16L6A:P24 858 26
+symloc PAL16L8:P20 884 25
+symloc PAL16L8A:P20 909 26
+symloc PAL16L8A2:P20 935 27
+symloc PAL16L8B:P20 962 26
+symloc PAL16L8B2:P20 988 27
+symloc PAL16L8D:P20 1015 26
+symloc PAL16R4:P20 1041 25
+symloc PAL16R4A:P20 1066 26
+symloc PAL16R4A2:P20 1092 27
+symloc PAL16R4B:P20 1119 26
+symloc PAL16R4B2:P20 1145 27
+symloc PAL16R4D:P20 1172 26
+symloc PAL16R6:P20 1198 25
+symloc PAL16R6A:P20 1223 26
+symloc PAL16R6A2:P20 1249 27
+symloc PAL16R6B:P20 1276 26
+symloc PAL16R6B2:P20 1302 27
+symloc PAL16R6D:P20 1329 26
+symloc PAL16R8:P20 1355 25
+symloc PAL16R8A:P20 1380 26
+symloc PAL16R8A2:P20 1406 27
+symloc PAL16R8B:P20 1433 26
+symloc PAL16R8B2:P20 1459 27
+symloc PAL16R8D:P20 1486 26
+symloc PAL18L4:P24 1512 25
+symloc PAL18L4A:P24 1537 26
+symloc PAL20C1:P24 1563 25
+symloc PAL20C1A:P24 1588 26
+symloc PAL20L10:P24 1614 26
+symloc PAL20L10A:P24 1640 27
+symloc PAL20L2:P24 1667 25
+symloc PAL20L2A:P24 1692 26
+symloc PAL20L8:P24 1718 25
+symloc PAL20L8A:P24 1743 26
+symloc PAL20L8B:P24 1769 26
+symloc PAL20L8D:P24 1795 26
+symloc PAL20P8B:P24 1821 26
+symloc PAL20R4A:P24 1847 26
+symloc PAL20R4B:P24 1873 26
+symloc PAL20R4D:P24 1899 26
+symloc PAL20R6A:P24 1925 26
+symloc PAL20R6B:P24 1951 26
+symloc PAL20R6D:P24 1977 26
+symloc PAL20R8A:P24 2003 26
+symloc PAL20R8B:P24 2029 26
+symloc PAL20R8D:P24 2055 26
+symloc PAL20RP4B:P24 2081 27
+symloc PAL20RP6B:P24 2108 27
+symloc PAL20RP8B:P24 2135 27
+symloc PAL20X10:P24 2162 26
+symloc PAL20X10A:P24 2188 27
+symloc PAL20X4:P24 2215 25
+symloc PAL20X4A:P24 2240 26
+symloc PAL20X8:P24 2266 25
+symloc PAL20X8A:P24 2291 26
+symloc P20 2317 269
+symloc P24 2586 313
+*package PAL10H8 ako P20
+*package PAL10H8A ako P20
+*package PAL10H8A2 ako P20
+*package PAL10L8 ako P20
+*package PAL10L8A ako P20
+*package PAL10L8A2 ako P20
+*package PAL12H6 ako P20
+*package PAL12H6A ako P20
+*package PAL12H6A2 ako P20
+*package PAL12L6A ako P20
+*package PAL12L10 ako P24
+*package PAL12L10A ako P24
+*package PAL12L6 ako P20
+*packahe PAL12L6A  ako P20
+*package PAL12L6A2 ako P20
+*package PAL14H4 ako P20
+*package PAL14H4A ako P20
+*package PAL14H4A2 ako P20
+*package PAL14L4 ako P20
+*package PAL14L4A ako P20
+*package PAL14L4A2 ako P20
+*package PAL14L8 ako P24
+*package PAL14L8A ako P24
+*package PAL16C1 ako P20
+*package PAL16C1A ako P20
+*package PAL16C1A2 ako P20
+*package PAL16H2 ako P20
+*package PAL16H2A ako P20
+*package PAL16H2A2 ako P20
+*package PAL16L2 ako P20
+*package PAL16L2A ako P20
+*package PAL16L2A2 ako P20
+*package PAL16L6 ako P24
+*package PAL16L6A ako P24
+*package PAL16L8 ako P20
+*package PAL16L8A ako P20
+*package PAL16L8A2 ako P20
+*package PAL16L8B ako P20
+*package PAL16L8B2 ako P20
+*package PAL16L8D ako P20
+*package PAL16R4 ako P20
+*package PAL16R4A ako P20
+*package PAL16R4A2 ako P20
+*package PAL16R4B ako P20
+*package PAL16R4B2 ako P20
+*package PAL16R4D ako P20
+*package PAL16R6 ako P20
+*package PAL16R6A ako P20
+*package PAL16R6A2 ako P20
+*package PAL16R6B ako P20
+*package PAL16R6B2 ako P20
+*package PAL16R6D ako P20
+*package PAL16R8 ako P20
+*package PAL16R8A ako P20
+*package PAL16R8A2 ako P20
+*package PAL16R8B ako P20
+*package PAL16R8B2 ako P20
+*package PAL16R8D ako P20
+*package PAL18L4 ako P24
+*package PAL18L4A ako P24
+*package PAL20C1 ako P24
+*package PAL20C1A ako P24
+*package PAL20L10 ako P24
+*package PAL20L10A ako P24
+*package PAL20L2 ako P24
+*package PAL20L2A ako P24
+*package PAL20L8 ako P24
+*package PAL20L8A ako P24
+*package PAL20L8B ako P24
+*package PAL20L8D ako P24
+*package PAL20P8B ako P24
+*package PAL20R4A ako P24
+*package PAL20R4B ako P24
+*package PAL20R4D ako P24
+*package PAL20R6A ako P24
+*package PAL20R6B ako P24
+*package PAL20R6D ako P24
+*package PAL20R8A ako P24
+*package PAL20R8B ako P24
+*package PAL20R8D ako P24
+*package PAL20RP4B ako P24
+*package PAL20RP6B ako P24
+*package PAL20RP8B ako P24
+*package PAL20X10 ako P24
+*package PAL20X10A ako P24
+*package PAL20X4 ako P24
+*package PAL20X4A ako P24
+*package PAL20X8 ako P24
+*package PAL20X8A ako P24
+*package P20
+@types 1
+g 1
+@attributes
+@pinout
+t DIP20
+g 1
+p PIN1  1
+p PIN2  2
+p PIN3  3
+p PIN4  4
+p PIN5  5
+p PIN6  6
+p PIN7  7
+p PIN8  8
+p PIN9  9
+p PIN11 11
+p PIN12 12
+p PIN13 13
+p PIN14 14
+p PIN15 15
+p PIN16 16
+p PIN17 17
+p PIN18 18
+p PIN19 19
+p PIN20 20
+p PIN10 10
+*package P24
+@types 1
+g 1
+@attributes
+@pinout
+t DIP24
+g 1
+p PIN1  1
+p PIN2  2
+p PIN3  3
+p PIN4  4
+p PIN5  5
+p PIN6  6
+p PIN7  7
+p PIN8  8
+p PIN9  9
+p PIN10 10
+p PIN11 11
+p PIN13 13
+p PIN14 14
+p PIN15 15
+p PIN16 16
+p PIN17 17
+p PIN18 18
+p PIN19 19
+p PIN20 20
+p PIN21 21
+p PIN22 22
+p PIN23 23
+p PIN24 24
+p PIN12 12

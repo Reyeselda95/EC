@@ -1,0 +1,158 @@
+*version 6.3 3107615151
+u 117
+XC3000 997448379
+U? 3
+@libraries
+XC3000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC3000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 2414 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 118 IF_OUT 770 400 h
+a 0 s 3 0 20 8 hln 80 LABEL=O
+port 119 IF_IN 330 360 h
+a 0 s 3 0 10 8 hln 80 LABEL=I4
+port 120 IF_IN 330 340 h
+a 0 s 3 0 10 8 hln 80 LABEL=I5
+port 121 IF_IN 330 440 h
+a 0 s 3 0 10 8 hln 80 LABEL=I0
+port 122 IF_IN 330 280 h
+a 0 s 3 0 10 8 hln 80 LABEL=I8
+port 123 IF_IN 330 300 h
+a 0 s 3 0 10 8 hln 80 LABEL=I7
+port 124 IF_IN 330 380 h
+a 0 s 3 0 10 8 hln 80 LABEL=I3
+port 125 IF_IN 330 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=I2
+port 126 IF_IN 330 420 h
+a 0 s 3 0 10 8 hln 80 LABEL=I1
+port 127 IF_IN 330 320 h
+a 0 s 3 0 10 8 hln 80 LABEL=I6
+@parts
+part 19 XOR5 420 280 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U1
+a 0 sp 11 0 10 100 hlt 100 PART=XOR5
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 20 XOR5 600 360 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 100 hlt 100 PART=XOR5
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+@conn
+w 22
+s 330 340 420 340 21
+a 0 s 3 0 340 340 hln 100 LABEL=I5
+w 30
+s 330 320 420 320 29
+a 0 s 3 0 340 320 hln 100 LABEL=I6
+w 38
+s 330 300 420 300 37
+a 0 s 3 0 340 300 hln 100 LABEL=I7
+w 46
+s 330 280 420 280 45
+a 0 s 3 0 340 280 hln 100 LABEL=I8
+w 54
+s 330 360 420 360 53
+a 0 s 3 0 340 360 hln 100 LABEL=I4
+w 64
+s 500 320 560 320 61
+a 0 s 3 0 530 320 hln 100 LABEL=I48
+s 560 360 560 320 62
+s 560 360 600 360 63
+w 78
+s 330 380 600 380 77
+a 0 s 3 0 340 380 hln 100 LABEL=I3
+w 86
+s 330 400 600 400 85
+a 0 s 3 0 340 400 hln 100 LABEL=I2
+w 94
+s 330 420 600 420 93
+a 0 s 3 0 340 420 hln 100 LABEL=I1
+w 102
+s 330 440 600 440 101
+a 0 s 3 0 340 440 hln 100 LABEL=I0
+w 110
+s 680 400 770 400 109
+a 0 s 3 0 750 400 hln 100 LABEL=O
+@junction
+j 420 340
++ p 19 I1
++ w 22
+j 420 320
++ p 19 I2
++ w 30
+j 420 300
++ p 19 I3
++ w 38
+j 420 280
++ p 19 I4
++ w 46
+j 420 360
++ p 19 I0
++ w 54
+j 500 320
++ p 19 O
++ w 64
+j 600 360
++ p 20 I4
++ w 64
+j 600 380
++ p 20 I3
++ w 78
+j 600 400
++ p 20 I2
++ w 86
+j 600 420
++ p 20 I1
++ w 94
+j 600 440
++ p 20 I0
++ w 102
+j 680 400
++ p 20 O
++ w 110
+j 770 400
++ s 118
++ w 110
+j 330 360
++ s 119
++ w 54
+j 330 340
++ s 120
++ w 22
+j 330 440
++ s 121
++ w 102
+j 330 280
++ s 122
++ w 46
+j 330 300
++ s 123
++ w 38
+j 330 380
++ s 124
++ w 78
+j 330 400
++ s 125
++ w 86
+j 330 420
++ s 126
++ w 94
+j 330 320
++ s 127
++ w 30
+@attributes
+@text
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 710 800 hln 100 20TH APRIL 1993
+s 5 750 750 hln 100 XC3000 FAMILY XOR9 MACRO
+s 5 750 770 hln 100 9-INPUT XOR

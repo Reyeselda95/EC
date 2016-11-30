@@ -1,0 +1,1064 @@
+*version 8.0 24682817
+@index
+symloc SOP10 0 1711 10 SMT
+symloc SOP12 1711 1836 12 SMT
+symloc SOP14 3547 1941 14 SMT
+symloc SOP16 5488 2052 16 SMT
+symloc SOP18 7540 2157 18 SMT
+symloc SOP20 9697 2270 20 SMT
+symloc SOP22 11967 2377 22 SMT
+symloc SOP24 14344 2488 24 SMT
+symloc SOP28 16832 2708 28 SMT
+symloc SOP28X 19540 2194 28 SMT
+symloc SOP30 21734 2817 30 SMT
+symloc SOP32 24551 2930 32 SMT
+symloc SOP32S 27481 2559 32 SMT
+symloc SOP36 30040 3150 36 SMT
+symloc SOP40 33190 3370 40 SMT
+symloc SOP40S 36560 2771 40 SMT
+symloc SOP42 39331 3478 42 SMT
+symloc SOP44 42809 3592 44 SMT
+symloc SOP6 46401 1504 6 SMT
+symloc SOP8 47905 1613 8 SMT
+*footprint SOP10 10 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.04 0.11 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.11 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.1 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.16 0.008 0
+line [SilkTop] -0.024 0.16 0.224 0.16 0.008 0
+line [SilkTop] 0.224 0.16 0.224 0.054 0.008 0
+line [SilkTop] 0.224 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.106 -0.024 0.12 0.008 0
+line [SilkTop] 0 0.106 -0.024 0.092 0.008 0
+arc [SilkTop] 0 0.075 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.16 0.008 0
+line [SMTAssyDrwTop] -0.024 0.16 0.224 0.16 0.008 0
+line [SMTAssyDrwTop] 0.224 0.16 0.224 0.054 0.008 0
+line [SMTAssyDrwTop] 0.224 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.106 -0.024 0.12 0.008 0
+line [SMTAssyDrwTop] 0 0.106 -0.024 0.092 0.008 0
+arc [SMTAssyDrwTop] 0 0.075 0.005 0 0 0.008
+centroid [BoundaryTop] 0.1 0.106299
+line [BoundaryTop] -0.024 -0.052 -0.024 0.266 0.008 0
+line [BoundaryTop] -0.024 0.266 0.224 0.266 0.008 0
+line [BoundaryTop] 0.224 0.266 0.224 -0.052 0.008 0
+line [BoundaryTop] 0.224 -0.052 -0.024 -0.052 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.200000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 7 0.150000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 8 0.100000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 9 0.050000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 10 0.000000 0.212598 0.000000 rect-.70x2.20 smtTop
+*footprint SOP12 12 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.045 0.115 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.045 0.115 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.13 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.158 0.008 0
+line [SilkTop] -0.024 0.158 0.274 0.158 0.008 0
+line [SilkTop] 0.274 0.158 0.274 0.054 0.008 0
+line [SilkTop] 0.274 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.106 -0.024 0.12 0.008 0
+line [SilkTop] 0 0.106 -0.024 0.092 0.008 0
+arc [SilkTop] 0 0.075 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.158 0.008 0
+line [SMTAssyDrwTop] -0.024 0.158 0.274 0.158 0.008 0
+line [SMTAssyDrwTop] 0.274 0.158 0.274 0.054 0.008 0
+line [SMTAssyDrwTop] 0.274 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.106 -0.024 0.12 0.008 0
+line [SMTAssyDrwTop] 0 0.106 -0.024 0.092 0.008 0
+arc [SMTAssyDrwTop] 0 0.075 0.005 0 0 0.008
+centroid [BoundaryTop] 0.125 0.106299
+line [BoundaryTop] -0.024 -0.052 -0.024 0.266 0.008 0
+line [BoundaryTop] -0.024 0.266 0.274 0.266 0.008 0
+line [BoundaryTop] 0.274 0.266 0.274 -0.052 0.008 0
+line [BoundaryTop] 0.274 -0.052 -0.024 -0.052 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.250000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 8 0.200000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 9 0.150000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 10 0.100000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 11 0.050000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 12 0.000000 0.212598 0.000000 rect-.70x2.20 smtTop
+*footprint SOP14 14 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.04 0.11 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.11 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.15 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.158 0.008 0
+line [SilkTop] -0.024 0.158 0.324 0.158 0.008 0
+line [SilkTop] 0.324 0.158 0.324 0.054 0.008 0
+line [SilkTop] 0.324 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.106 -0.024 0.12 0.008 0
+line [SilkTop] 0 0.106 -0.024 0.092 0.008 0
+arc [SilkTop] 0 0.075 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.158 0.008 0
+line [SMTAssyDrwTop] -0.024 0.158 0.324 0.158 0.008 0
+line [SMTAssyDrwTop] 0.324 0.158 0.324 0.054 0.008 0
+line [SMTAssyDrwTop] 0.324 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.106 -0.024 0.12 0.008 0
+line [SMTAssyDrwTop] 0 0.106 -0.024 0.092 0.008 0
+arc [SMTAssyDrwTop] 0 0.075 0.005 0 0 0.008
+centroid [BoundaryTop] 0.15 0.106299
+line [BoundaryTop] -0.024 -0.054 -0.024 0.266 0.008 0
+line [BoundaryTop] -0.024 0.266 0.324 0.266 0.008 0
+line [BoundaryTop] 0.324 0.266 0.324 -0.054 0.008 0
+line [BoundaryTop] 0.324 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.300000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 9 0.250000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 10 0.200000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 11 0.150000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 12 0.100000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 13 0.050000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 14 0.000000 0.212598 0.000000 rect-.70x2.20 smtTop
+*footprint SOP16 16 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.04 0.15 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.15 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.18 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.238 0.008 0
+line [SilkTop] -0.024 0.238 0.374 0.238 0.008 0
+line [SilkTop] 0.374 0.238 0.374 0.054 0.008 0
+line [SilkTop] 0.374 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.146 -0.024 0.16 0.008 0
+line [SilkTop] 0 0.146 -0.024 0.132 0.008 0
+arc [SilkTop] 0 0.075 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.238 0.008 0
+line [SMTAssyDrwTop] -0.024 0.238 0.374 0.238 0.008 0
+line [SMTAssyDrwTop] 0.374 0.238 0.374 0.054 0.008 0
+line [SMTAssyDrwTop] 0.374 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.146 -0.024 0.16 0.008 0
+line [SMTAssyDrwTop] 0 0.146 -0.024 0.132 0.008 0
+arc [SMTAssyDrwTop] 0 0.075 0.005 0 0 0.008
+centroid [BoundaryTop] 0.175 0.145669
+line [BoundaryTop] -0.024 -0.054 -0.024 0.344 0.008 0
+line [BoundaryTop] -0.024 0.344 0.374 0.344 0.008 0
+line [BoundaryTop] 0.374 0.344 0.374 -0.054 0.008 0
+line [BoundaryTop] 0.374 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.350000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 10 0.300000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 11 0.250000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 12 0.200000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 13 0.150000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 14 0.100000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 15 0.050000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 16 0.000000 0.291339 0.000000 rect-.70x2.20 smtTop
+*footprint SOP18 18 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.04 0.15 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.15 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.2 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.238 0.008 0
+line [SilkTop] -0.024 0.238 0.424 0.238 0.008 0
+line [SilkTop] 0.424 0.238 0.424 0.054 0.008 0
+line [SilkTop] 0.424 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.146 -0.024 0.16 0.008 0
+line [SilkTop] 0 0.146 -0.024 0.132 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.238 0.008 0
+line [SMTAssyDrwTop] -0.024 0.238 0.424 0.238 0.008 0
+line [SMTAssyDrwTop] 0.424 0.238 0.424 0.054 0.008 0
+line [SMTAssyDrwTop] 0.424 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.146 -0.024 0.16 0.008 0
+line [SMTAssyDrwTop] 0 0.146 -0.024 0.132 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.2 0.145669
+line [BoundaryTop] -0.024 -0.054 -0.024 0.344 0.008 0
+line [BoundaryTop] -0.024 0.344 0.424 0.344 0.008 0
+line [BoundaryTop] 0.424 0.344 0.424 -0.054 0.008 0
+line [BoundaryTop] 0.424 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.400000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 11 0.350000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 12 0.300000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 13 0.250000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 14 0.200000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 15 0.150000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 16 0.100000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 17 0.050000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 18 0.000000 0.291339 0.000000 rect-.70x2.20 smtTop
+*footprint SOP20 20 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.04 0.15 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.15 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.23 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.238 0.008 0
+line [SilkTop] -0.024 0.238 0.474 0.238 0.008 0
+line [SilkTop] 0.474 0.238 0.474 0.054 0.008 0
+line [SilkTop] 0.474 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.146 -0.024 0.16 0.008 0
+line [SilkTop] 0 0.146 -0.024 0.132 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.238 0.008 0
+line [SMTAssyDrwTop] -0.024 0.238 0.474 0.238 0.008 0
+line [SMTAssyDrwTop] 0.474 0.238 0.474 0.054 0.008 0
+line [SMTAssyDrwTop] 0.474 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.146 -0.024 0.16 0.008 0
+line [SMTAssyDrwTop] 0 0.146 -0.024 0.132 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.225 0.145669
+line [BoundaryTop] -0.024 -0.054 -0.024 0.344 0.008 0
+line [BoundaryTop] -0.024 0.344 0.474 0.344 0.008 0
+line [BoundaryTop] 0.474 0.344 0.474 -0.054 0.008 0
+line [BoundaryTop] 0.474 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.450000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 11 0.450000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 12 0.400000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 13 0.350000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 14 0.300000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 15 0.250000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 16 0.200000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 17 0.150000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 18 0.100000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 19 0.050000 0.291339 0.000000 rect-.70x2.20 smtTop
+pin 20 0.000000 0.291339 0.000000 rect-.70x2.20 smtTop
+*footprint SOP22 22 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.04 0.18 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.18 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.24 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.308 0.008 0
+line [SilkTop] -0.024 0.308 0.524 0.308 0.008 0
+line [SilkTop] 0.524 0.308 0.524 0.054 0.008 0
+line [SilkTop] 0.524 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.18 -0.024 0.194 0.008 0
+line [SilkTop] 0 0.18 -0.024 0.166 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.308 0.008 0
+line [SMTAssyDrwTop] -0.024 0.308 0.524 0.308 0.008 0
+line [SMTAssyDrwTop] 0.524 0.308 0.524 0.054 0.008 0
+line [SMTAssyDrwTop] 0.524 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.18 -0.024 0.194 0.008 0
+line [SMTAssyDrwTop] 0 0.18 -0.024 0.166 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.25 0.181102
+line [BoundaryTop] -0.024 -0.054 -0.024 0.416 0.008 0
+line [BoundaryTop] -0.024 0.416 0.524 0.416 0.008 0
+line [BoundaryTop] 0.524 0.416 0.524 -0.054 0.008 0
+line [BoundaryTop] 0.524 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.450000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 11 0.500000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 12 0.500000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 13 0.450000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 14 0.400000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 15 0.350000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 16 0.300000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 17 0.250000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 18 0.200000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 19 0.150000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 20 0.100000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 21 0.050000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 22 0.000000 0.362205 0.000000 rect-.70x2.20 smtTop
+*footprint SOP24 24 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.04 0.19 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.19 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.28 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.308 0.008 0
+line [SilkTop] -0.024 0.308 0.574 0.308 0.008 0
+line [SilkTop] 0.574 0.308 0.574 0.054 0.008 0
+line [SilkTop] 0.574 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.18 -0.024 0.194 0.008 0
+line [SilkTop] 0 0.18 -0.024 0.166 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.308 0.008 0
+line [SMTAssyDrwTop] -0.024 0.308 0.574 0.308 0.008 0
+line [SMTAssyDrwTop] 0.574 0.308 0.574 0.054 0.008 0
+line [SMTAssyDrwTop] 0.574 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.18 -0.024 0.194 0.008 0
+line [SMTAssyDrwTop] 0 0.18 -0.024 0.166 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.275 0.181102
+line [BoundaryTop] -0.024 -0.054 -0.024 0.416 0.008 0
+line [BoundaryTop] -0.024 0.416 0.574 0.416 0.008 0
+line [BoundaryTop] 0.574 0.416 0.574 -0.054 0.008 0
+line [BoundaryTop] 0.574 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.450000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 11 0.500000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 12 0.550000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 13 0.550000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 14 0.500000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 15 0.450000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 16 0.400000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 17 0.350000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 18 0.300000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 19 0.250000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 20 0.200000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 21 0.150000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 22 0.100000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 23 0.050000 0.362205 0.000000 rect-.70x2.20 smtTop
+pin 24 0.000000 0.362205 0.000000 rect-.70x2.20 smtTop
+*footprint SOP28 28 smt
+@refdes 4
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.05 0.22 4 90 0.06 0.008 0
+display  [SilkTop] SilkTop -0.05 0.22 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.32 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.388 0.008 0
+line [SilkTop] -0.024 0.388 0.674 0.388 0.008 0
+line [SilkTop] 0.674 0.388 0.674 0.054 0.008 0
+line [SilkTop] 0.674 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.22 -0.024 0.234 0.008 0
+line [SilkTop] 0 0.22 -0.024 0.206 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.388 0.008 0
+line [SMTAssyDrwTop] -0.024 0.388 0.674 0.388 0.008 0
+line [SMTAssyDrwTop] 0.674 0.388 0.674 0.054 0.008 0
+line [SMTAssyDrwTop] 0.674 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.22 -0.024 0.234 0.008 0
+line [SMTAssyDrwTop] 0 0.22 -0.024 0.206 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.325 0.220472
+line [BoundaryTop] -0.024 -0.054 -0.024 0.494 0.008 0
+line [BoundaryTop] -0.024 0.494 0.674 0.494 0.008 0
+line [BoundaryTop] 0.674 0.494 0.674 -0.054 0.008 0
+line [BoundaryTop] 0.674 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.450000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 11 0.500000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 12 0.550000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 13 0.600000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 14 0.650000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 15 0.650000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 16 0.600000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 17 0.550000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 18 0.500000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 19 0.450000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 20 0.400000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 21 0.350000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 22 0.300000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 23 0.250000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 24 0.200000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 25 0.150000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 26 0.100000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 27 0.050000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 28 0.000000 0.440945 0.000000 rect-.70x2.20 smtTop
+*footprint SOP28X 28 SMT
+@refdes 4
+display  [SilkTop] SilkTop -0.08 0.22 4 90 0.06 0.008 0 0 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.08 0.22 4 90 0.06 0.008 0 0 0
+@comptype 7
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.33 -0.13 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] -0.05 0.23 -0.01 0.205 0.008 0
+line [SilkTop] -0.01 0.205 -0.05 0.185 0.008 0
+line [SilkTop] -0.05 0.05 -0.05 0.36 0.008 0
+line [SilkTop] -0.05 0.36 0.7 0.36 0.008 0
+line [SilkTop] 0.7 0.36 0.7 0.05 0.008 0
+line [SilkTop] 0.7 0.05 -0.05 0.05 0.008 0
+arc [SilkTop] 0 0.08 0.01 0 0 0.008
+line [SMTAssyDrwTop] -0.05 0.23 -0.01 0.205 0.008 0
+line [SMTAssyDrwTop] -0.01 0.205 -0.05 0.185 0.008 0
+line [SMTAssyDrwTop] -0.05 0.05 -0.05 0.36 0.008 0
+line [SMTAssyDrwTop] -0.05 0.36 0.7 0.36 0.008 0
+line [SMTAssyDrwTop] 0.7 0.36 0.7 0.05 0.008 0
+line [SMTAssyDrwTop] 0.7 0.05 -0.05 0.05 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.01 0 0 0.008
+centroid [BoundaryTop] 0.325 0.205
+line [BoundaryTop] -0.06 -0.05 -0.06 0.46 0.008 0
+line [BoundaryTop] -0.06 0.46 0.71 0.46 0.008 0
+line [BoundaryTop] 0.71 0.46 0.71 -0.05 0.008 0
+line [BoundaryTop] 0.71 -0.05 -0.06 -0.05 0.008 0
+@pins
+pin 1 0 0 0 rect-.80x2.20 smtTop
+pin 2 0.05 0 0 rect-.80x2.20 smtTop
+pin 3 0.1 0 0 rect-.80x2.20 smtTop
+pin 4 0.15 0 0 rect-.80x2.20 smtTop
+pin 5 0.2 0 0 rect-.80x2.20 smtTop
+pin 6 0.25 0 0 rect-.80x2.20 smtTop
+pin 7 0.3 0 0 rect-.80x2.20 smtTop
+pin 8 0.35 0 0 rect-.80x2.20 smtTop
+pin 9 0.4 0 0 rect-.80x2.20 smtTop
+pin 10 0.45 0 0 rect-.80x2.20 smtTop
+pin 11 0.5 0 0 rect-.80x2.20 smtTop
+pin 12 0.55 0 0 rect-.80x2.20 smtTop
+pin 13 0.6 0 0 rect-.80x2.20 smtTop
+pin 14 0.65 0 0 rect-.80x2.20 smtTop
+pin 15 0.65 0.41 0 rect-.80x2.20 smtTop
+pin 16 0.6 0.41 0 rect-.80x2.20 smtTop
+pin 17 0.55 0.41 0 rect-.80x2.20 smtTop
+pin 18 0.5 0.41 0 rect-.80x2.20 smtTop
+pin 19 0.45 0.41 0 rect-.80x2.20 smtTop
+pin 20 0.4 0.41 0 rect-.80x2.20 smtTop
+pin 21 0.35 0.41 0 rect-.80x2.20 smtTop
+pin 22 0.3 0.41 0 rect-.80x2.20 smtTop
+pin 23 0.25 0.41 0 rect-.80x2.20 smtTop
+pin 24 0.2 0.41 0 rect-.80x2.20 smtTop
+pin 25 0.15 0.41 0 rect-.80x2.20 smtTop
+pin 26 0.1 0.41 0 rect-.80x2.20 smtTop
+pin 27 0.05 0.41 0 rect-.80x2.20 smtTop
+pin 28 0 0.41 0 rect-.80x2.20 smtTop
+*footprint SOP30 30 smt
+@refdes 4
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.21 4 90 0.06 0.008 0
+display  [SilkTop] SilkTop -0.04 0.21 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.35 -0.14 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.388 0.008 0
+line [SilkTop] -0.024 0.388 0.724 0.388 0.008 0
+line [SilkTop] 0.724 0.388 0.724 0.054 0.008 0
+line [SilkTop] 0.724 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.22 -0.024 0.234 0.008 0
+line [SilkTop] 0 0.22 -0.024 0.206 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.388 0.008 0
+line [SMTAssyDrwTop] -0.024 0.388 0.724 0.388 0.008 0
+line [SMTAssyDrwTop] 0.724 0.388 0.724 0.054 0.008 0
+line [SMTAssyDrwTop] 0.724 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.22 -0.024 0.234 0.008 0
+line [SMTAssyDrwTop] 0 0.22 -0.024 0.206 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.35 0.220472
+line [BoundaryTop] -0.024 -0.054 -0.024 0.496 0.008 0
+line [BoundaryTop] -0.024 0.496 0.724 0.496 0.008 0
+line [BoundaryTop] 0.724 0.496 0.724 -0.054 0.008 0
+line [BoundaryTop] 0.724 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.450000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 11 0.500000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 12 0.550000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 13 0.600000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 14 0.650000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 15 0.700000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 16 0.700000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 17 0.650000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 18 0.600000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 19 0.550000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 20 0.500000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 21 0.450000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 22 0.400000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 23 0.350000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 24 0.300000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 25 0.250000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 26 0.200000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 27 0.150000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 28 0.100000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 29 0.050000 0.440945 0.000000 rect-.70x2.20 smtTop
+pin 30 0.000000 0.440945 0.000000 rect-.70x2.20 smtTop
+*footprint SOP32 32 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.05 0.26 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.05 0.26 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.37 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.458 0.008 0
+line [SilkTop] -0.024 0.458 0.774 0.458 0.008 0
+line [SilkTop] 0.774 0.458 0.774 0.054 0.008 0
+line [SilkTop] 0.774 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.256 -0.024 0.27 0.008 0
+line [SilkTop] 0 0.256 -0.024 0.242 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.458 0.008 0
+line [SMTAssyDrwTop] -0.024 0.458 0.774 0.458 0.008 0
+line [SMTAssyDrwTop] 0.774 0.458 0.774 0.054 0.008 0
+line [SMTAssyDrwTop] 0.774 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.256 -0.024 0.27 0.008 0
+line [SMTAssyDrwTop] 0 0.256 -0.024 0.242 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.375 0.255906
+line [BoundaryTop] -0.024 -0.054 -0.024 0.566 0.008 0
+line [BoundaryTop] -0.024 0.566 0.774 0.566 0.008 0
+line [BoundaryTop] 0.774 0.566 0.774 -0.054 0.008 0
+line [BoundaryTop] 0.774 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.450000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 11 0.500000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 12 0.550000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 13 0.600000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 14 0.650000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 15 0.700000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 16 0.750000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 17 0.750000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 18 0.700000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 19 0.650000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 20 0.600000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 21 0.550000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 22 0.500000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 23 0.450000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 24 0.400000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 25 0.350000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 26 0.300000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 27 0.250000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 28 0.200000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 29 0.150000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 30 0.100000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 31 0.050000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 32 0.000000 0.511811 0.000000 rect-.70x2.20 smtTop
+*footprint SOP32S 32 SMT
+@refdes 4
+display  [SilkTop] SilkTop -0.04 0.268031 4 90 0.06 0.008 0 0 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.268031 4 90 0.06 0.008 0 0 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.39 -0.13 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] 0 0.274031 -0.024 0.288031 0.008 0
+line [SilkTop] 0 0.274031 -0.024 0.260031 0.008 0
+arc [SilkTop] 0 0.0780315 0.005 0 0 0.008
+line [SMTAssyDrwTop] 0 0.274031 -0.024 0.288031 0.008 0
+line [SMTAssyDrwTop] 0 0.274031 -0.024 0.260031 0.008 0
+arc [SMTAssyDrwTop] 0 0.0780315 0.005 0 0 0.008
+line [SilkTop] -0.03 0.0580315 0.78 0.0580315 0.008 0
+line [SilkTop] 0.78 0.0580315 0.78 0.468031 0.008 0
+line [SilkTop] 0.78 0.468031 -0.03 0.468031 0.008 0
+line [SilkTop] -0.03 0.468031 -0.03 0.0580315 0.008 0
+line [SMTAssyDrwTop] -0.03 0.0580315 0.78 0.0580315 0.008 0
+line [SMTAssyDrwTop] 0.78 0.0580315 0.78 0.468031 0.008 0
+line [SMTAssyDrwTop] 0.78 0.468031 -0.03 0.468031 0.008 0
+line [SMTAssyDrwTop] -0.03 0.468031 -0.03 0.0580315 0.008 0
+line [BoundaryTop] -0.03 -0.06 0.78 -0.06 0.008 0
+line [BoundaryTop] 0.78 -0.06 0.78 0.59 0.008 0
+line [BoundaryTop] 0.78 0.59 -0.03 0.59 0.008 0
+line [BoundaryTop] -0.03 0.59 -0.03 -0.06 0.008 0
+centroid [BoundaryTop] 0.375 0.262598
+@pins
+pin 1 0 0 0 rect-.70x2.20 smtTop
+pin 2 0.05 0 0 rect-.70x2.20 smtTop
+pin 3 0.1 0 0 rect-.70x2.20 smtTop
+pin 4 0.15 0 0 rect-.70x2.20 smtTop
+pin 5 0.2 0 0 rect-.70x2.20 smtTop
+pin 6 0.25 0 0 rect-.70x2.20 smtTop
+pin 7 0.3 0 0 rect-.70x2.20 smtTop
+pin 8 0.35 0 0 rect-.70x2.20 smtTop
+pin 9 0.4 0 0 rect-.70x2.20 smtTop
+pin 10 0.45 0 0 rect-.70x2.20 smtTop
+pin 11 0.5 0 0 rect-.70x2.20 smtTop
+pin 12 0.55 0 0 rect-.70x2.20 smtTop
+pin 13 0.6 0 0 rect-.70x2.20 smtTop
+pin 14 0.65 0 0 rect-.70x2.20 smtTop
+pin 15 0.7 0 0 rect-.70x2.20 smtTop
+pin 16 0.75 0 0 rect-.70x2.20 smtTop
+pin 21 0.55 0.52519685 0 rect-.70x2.20 smtTop
+pin 22 0.5 0.52519685 0 rect-.70x2.20 smtTop
+pin 23 0.45 0.52519685 0 rect-.70x2.20 smtTop
+pin 24 0.4 0.52519685 0 rect-.70x2.20 smtTop
+pin 25 0.35 0.52519685 0 rect-.70x2.20 smtTop
+pin 26 0.3 0.52519685 0 rect-.70x2.20 smtTop
+pin 27 0.25 0.52519685 0 rect-.70x2.20 smtTop
+pin 28 0.2 0.52519685 0 rect-.70x2.20 smtTop
+pin 29 0.15 0.52519685 0 rect-.70x2.20 smtTop
+pin 30 0.1 0.52519685 0 rect-.70x2.20 smtTop
+pin 31 0.05 0.52519685 0 rect-.70x2.20 smtTop
+pin 32 0 0.52519685 0 rect-.70x2.20 smtTop
+pin 20 0.6 0.52519685 0 rect-.70x2.20 smtTop
+pin 19 0.65 0.52519685 0 rect-.70x2.20 smtTop
+pin 18 0.7 0.52519685 0 rect-.70x2.20 smtTop
+pin 17 0.75 0.52519685 0 rect-.70x2.20 smtTop
+*footprint SOP36 36 smt
+@refdes 4
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.26 4 90 0.06 0.008 0
+display  [SilkTop] SilkTop -0.04 0.26 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.42 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.458 0.008 0
+line [SilkTop] -0.024 0.458 0.874 0.458 0.008 0
+line [SilkTop] 0.874 0.458 0.874 0.054 0.008 0
+line [SilkTop] 0.874 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.256 -0.024 0.27 0.008 0
+line [SilkTop] 0 0.256 -0.024 0.242 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.458 0.008 0
+line [SMTAssyDrwTop] -0.024 0.458 0.874 0.458 0.008 0
+line [SMTAssyDrwTop] 0.874 0.458 0.874 0.054 0.008 0
+line [SMTAssyDrwTop] 0.874 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.256 -0.024 0.27 0.008 0
+line [SMTAssyDrwTop] 0 0.256 -0.024 0.242 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.425 0.255906
+line [BoundaryTop] -0.024 -0.054 -0.024 0.566 0.008 0
+line [BoundaryTop] -0.024 0.566 0.874 0.566 0.008 0
+line [BoundaryTop] 0.874 0.566 0.874 -0.054 0.008 0
+line [BoundaryTop] 0.874 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.450000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 11 0.500000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 12 0.550000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 13 0.600000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 14 0.650000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 15 0.700000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 16 0.750000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 17 0.800000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 18 0.850000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 19 0.850000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 20 0.800000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 21 0.750000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 22 0.700000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 23 0.650000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 24 0.600000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 25 0.550000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 26 0.500000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 27 0.450000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 28 0.400000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 29 0.350000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 30 0.300000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 31 0.250000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 32 0.200000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 33 0.150000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 34 0.100000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 35 0.050000 0.511811 0.000000 rect-.70x2.20 smtTop
+pin 36 0.000000 0.511811 0.000000 rect-.70x2.20 smtTop
+*footprint SOP40 40 smt
+@refdes 4
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.05 0.31 4 90 0.06 0.008 0
+display  [SilkTop] SilkTop -0.05 0.31 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.46 -0.14 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.538 0.008 0
+line [SilkTop] -0.024 0.538 0.974 0.538 0.008 0
+line [SilkTop] 0.974 0.538 0.974 0.054 0.008 0
+line [SilkTop] 0.974 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.296 -0.024 0.31 0.008 0
+line [SilkTop] 0 0.296 -0.024 0.282 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.538 0.008 0
+line [SMTAssyDrwTop] -0.024 0.538 0.974 0.538 0.008 0
+line [SMTAssyDrwTop] 0.974 0.538 0.974 0.054 0.008 0
+line [SMTAssyDrwTop] 0.974 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.296 -0.024 0.31 0.008 0
+line [SMTAssyDrwTop] 0 0.296 -0.024 0.282 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.475 0.295276
+line [BoundaryTop] -0.024 -0.054 -0.024 0.644 0.008 0
+line [BoundaryTop] -0.024 0.644 0.974 0.644 0.008 0
+line [BoundaryTop] 0.974 0.644 0.974 -0.054 0.008 0
+line [BoundaryTop] 0.974 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.450000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 11 0.500000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 12 0.550000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 13 0.600000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 14 0.650000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 15 0.700000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 16 0.750000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 17 0.800000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 18 0.850000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 19 0.900000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 20 0.950000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 21 0.950000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 22 0.900000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 23 0.850000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 24 0.800000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 25 0.750000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 26 0.700000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 27 0.650000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 28 0.600000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 29 0.550000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 30 0.500000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 31 0.450000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 32 0.400000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 33 0.350000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 34 0.300000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 35 0.250000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 36 0.200000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 37 0.150000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 38 0.100000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 39 0.050000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 40 0.000000 0.590551 0.000000 rect-.70x2.20 smtTop
+*footprint SOP40S 40 SMT
+@refdes 4
+display  [SilkTop] SilkTop -0.04 0.27 4 90 0.06 0.008 0 0 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.04 0.27 4 90 0.06 0.008 0 0 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.49 -0.13 4 0 0.06 0.008 0 0 0
+@graphics
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+line [SilkTop] -0.02 0.06 0.97 0.06 0.008 0
+line [SilkTop] 0.97 0.06 0.97 0.46 0.008 0
+line [SilkTop] 0.97 0.46 -0.02 0.46 0.008 0
+line [SilkTop] -0.02 0.46 -0.02 0.06 0.008 0
+line [SMTAssyDrwTop] -0.02 0.06 0.97 0.06 0.008 0
+line [SMTAssyDrwTop] 0.97 0.06 0.97 0.46 0.008 0
+line [SMTAssyDrwTop] 0.97 0.46 -0.02 0.46 0.008 0
+line [SMTAssyDrwTop] -0.02 0.46 -0.02 0.06 0.008 0
+centroid [BoundaryTop] 0.475 0.262598
+line [BoundaryTop] -0.02 -0.06 0.97 -0.06 0.008 0
+line [BoundaryTop] 0.97 -0.06 0.97 0.58 0.008 0
+line [BoundaryTop] 0.97 0.58 -0.02 0.58 0.008 0
+line [BoundaryTop] -0.02 0.58 -0.02 -0.06 0.008 0
+line [SilkTop] -0.02 0.3 0.02 0.26 0.008 0
+line [SilkTop] 0.02 0.26 -0.02 0.22 0.008 0
+line [SMTAssyDrwTop] -0.02 0.3 0.02 0.26 0.008 0
+line [SMTAssyDrwTop] 0.02 0.26 -0.02 0.22 0.008 0
+@pins
+pin 1 0 0 0 rect-.70x2.20 smtTop
+pin 2 0.05 0 0 rect-.70x2.20 smtTop
+pin 3 0.1 0 0 rect-.70x2.20 smtTop
+pin 4 0.15 0 0 rect-.70x2.20 smtTop
+pin 5 0.2 0 0 rect-.70x2.20 smtTop
+pin 6 0.25 0 0 rect-.70x2.20 smtTop
+pin 7 0.3 0 0 rect-.70x2.20 smtTop
+pin 8 0.35 0 0 rect-.70x2.20 smtTop
+pin 9 0.4 0 0 rect-.70x2.20 smtTop
+pin 10 0.45 0 0 rect-.70x2.20 smtTop
+pin 11 0.5 0 0 rect-.70x2.20 smtTop
+pin 12 0.55 0 0 rect-.70x2.20 smtTop
+pin 13 0.6 0 0 rect-.70x2.20 smtTop
+pin 14 0.65 0 0 rect-.70x2.20 smtTop
+pin 15 0.7 0 0 rect-.70x2.20 smtTop
+pin 16 0.75 0 0 rect-.70x2.20 smtTop
+pin 17 0.8 0 0 rect-.70x2.20 smtTop
+pin 18 0.85 0 0 rect-.70x2.20 smtTop
+pin 19 0.9 0 0 rect-.70x2.20 smtTop
+pin 20 0.95 0 0 rect-.70x2.20 smtTop
+pin 21 0.95 0.52519685 0 rect-.70x2.20 smtTop
+pin 22 0.9 0.52519685 0 rect-.70x2.20 smtTop
+pin 23 0.85 0.52519685 0 rect-.70x2.20 smtTop
+pin 24 0.8 0.52519685 0 rect-.70x2.20 smtTop
+pin 25 0.75 0.52519685 0 rect-.70x2.20 smtTop
+pin 26 0.7 0.52519685 0 rect-.70x2.20 smtTop
+pin 27 0.65 0.52519685 0 rect-.70x2.20 smtTop
+pin 28 0.6 0.52519685 0 rect-.70x2.20 smtTop
+pin 29 0.55 0.52519685 0 rect-.70x2.20 smtTop
+pin 30 0.5 0.52519685 0 rect-.70x2.20 smtTop
+pin 31 0.45 0.52519685 0 rect-.70x2.20 smtTop
+pin 32 0.4 0.52519685 0 rect-.70x2.20 smtTop
+pin 33 0.35 0.52519685 0 rect-.70x2.20 smtTop
+pin 34 0.3 0.52519685 0 rect-.70x2.20 smtTop
+pin 35 0.25 0.52519685 0 rect-.70x2.20 smtTop
+pin 36 0.2 0.52519685 0 rect-.70x2.20 smtTop
+pin 37 0.15 0.52519685 0 rect-.70x2.20 smtTop
+pin 38 0.1 0.52519685 0 rect-.70x2.20 smtTop
+pin 39 0.05 0.52519685 0 rect-.70x2.20 smtTop
+pin 40 0 0.52519685 0 rect-.70x2.20 smtTop
+*footprint SOP42 42 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.05 0.31 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.05 0.31 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.49 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.536 0.008 0
+line [SilkTop] -0.024 0.536 1.024 0.536 0.008 0
+line [SilkTop] 1.024 0.536 1.024 0.054 0.008 0
+line [SilkTop] 1.024 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.296 -0.024 0.31 0.008 0
+line [SilkTop] 0 0.296 -0.024 0.282 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.536 0.008 0
+line [SMTAssyDrwTop] -0.024 0.536 1.024 0.536 0.008 0
+line [SMTAssyDrwTop] 1.024 0.536 1.024 0.054 0.008 0
+line [SMTAssyDrwTop] 1.024 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.296 -0.024 0.31 0.008 0
+line [SMTAssyDrwTop] 0 0.296 -0.024 0.282 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.5 0.295276
+line [BoundaryTop] -0.024 -0.054 -0.024 0.644 0.008 0
+line [BoundaryTop] -0.024 0.644 1.024 0.644 0.008 0
+line [BoundaryTop] 1.024 0.644 1.024 -0.054 0.008 0
+line [BoundaryTop] 1.024 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.450000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 11 0.500000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 12 0.550000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 13 0.600000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 14 0.650000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 15 0.700000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 16 0.750000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 17 0.800000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 18 0.850000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 19 0.900000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 20 0.950000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 21 1.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 22 1.000000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 23 0.950000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 24 0.900000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 25 0.850000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 26 0.800000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 27 0.750000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 28 0.700000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 29 0.650000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 30 0.600000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 31 0.550000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 32 0.500000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 33 0.450000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 34 0.400000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 35 0.350000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 36 0.300000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 37 0.250000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 38 0.200000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 39 0.150000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 40 0.100000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 41 0.050000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 42 0.000000 0.590551 0.000000 rect-.70x2.20 smtTop
+*footprint SOP44 44 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.045 0.31 4 90 0.06 0.008 0
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.045 0.31 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.51 -0.13 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.536 0.008 0
+line [SilkTop] -0.024 0.536 1.074 0.536 0.008 0
+line [SilkTop] 1.074 0.536 1.074 0.054 0.008 0
+line [SilkTop] 1.074 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.296 -0.024 0.31 0.008 0
+line [SilkTop] 0 0.296 -0.024 0.282 0.008 0
+arc [SilkTop] 0 0.08 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.536 0.008 0
+line [SMTAssyDrwTop] -0.024 0.536 1.074 0.536 0.008 0
+line [SMTAssyDrwTop] 1.074 0.536 1.074 0.054 0.008 0
+line [SMTAssyDrwTop] 1.074 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.296 -0.024 0.31 0.008 0
+line [SMTAssyDrwTop] 0 0.296 -0.024 0.282 0.008 0
+arc [SMTAssyDrwTop] 0 0.08 0.005 0 0 0.008
+centroid [BoundaryTop] 0.525 0.295276
+line [BoundaryTop] -0.024 -0.054 -0.024 0.644 0.008 0
+line [BoundaryTop] -0.024 0.644 1.074 0.644 0.008 0
+line [BoundaryTop] 1.074 0.644 1.074 -0.054 0.008 0
+line [BoundaryTop] 1.074 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.200000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 6 0.250000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 7 0.300000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 8 0.350000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 9 0.400000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 10 0.450000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 11 0.500000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 12 0.550000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 13 0.600000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 15 0.700000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 14 0.650000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 16 0.750000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 17 0.800000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 18 0.850000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 19 0.900000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 20 0.950000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 21 1.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 22 1.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 44 0.000000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 43 0.050000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 42 0.100000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 41 0.150000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 39 0.250000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 40 0.200000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 38 0.300000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 37 0.350000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 36 0.400000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 35 0.450000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 34 0.500000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 33 0.550000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 32 0.600000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 31 0.650000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 30 0.700000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 29 0.750000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 28 0.800000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 27 0.850000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 26 0.900000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 25 0.950000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 24 1.000000 0.590551 0.000000 rect-.70x2.20 smtTop
+pin 23 1.050000 0.590551 0.000000 rect-.70x2.20 smtTop
+*footprint SOP6 6 smt
+@refdes 4
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.045 0.11 4 90 0.06 0.008 0
+display  [SilkTop] SilkTop -0.045 0.11 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.05 -0.14 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.158 0.008 0
+line [SilkTop] -0.024 0.158 0.124 0.158 0.008 0
+line [SilkTop] 0.124 0.158 0.124 0.054 0.008 0
+line [SilkTop] 0.124 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.106 -0.024 0.12 0.008 0
+line [SilkTop] 0 0.106 -0.024 0.092 0.008 0
+arc [SilkTop] 0 0.075 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.158 0.008 0
+line [SMTAssyDrwTop] -0.024 0.158 0.124 0.158 0.008 0
+line [SMTAssyDrwTop] 0.124 0.158 0.124 0.054 0.008 0
+line [SMTAssyDrwTop] 0.124 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.106 -0.024 0.12 0.008 0
+line [SMTAssyDrwTop] 0 0.106 -0.024 0.092 0.008 0
+arc [SMTAssyDrwTop] 0 0.075 0.005 0 0 0.008
+centroid [BoundaryTop] 0.05 0.106299
+line [BoundaryTop] -0.024 -0.054 -0.024 0.266 0.008 0
+line [BoundaryTop] -0.024 0.266 0.124 0.266 0.008 0
+line [BoundaryTop] 0.124 0.266 0.124 -0.054 0.008 0
+line [BoundaryTop] 0.124 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.100000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 5 0.050000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 6 0.000000 0.212598 0.000000 rect-.70x2.20 smtTop
+*footprint SOP8 8 smt
+@refdes 4
+display  [SMTAssyDrwTop] SMTAssemblyTop -0.045 0.12 4 90 0.06 0.008 0
+display  [SilkTop] SilkTop -0.045 0.12 4 90 0.06 0.008 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.07 -0.14 4 0 0.06 0.008 0
+@graphics
+line [SilkTop] -0.024 0.054 -0.024 0.158 0.008 0
+line [SilkTop] -0.024 0.158 0.174 0.158 0.008 0
+line [SilkTop] 0.174 0.158 0.174 0.054 0.008 0
+line [SilkTop] 0.174 0.054 -0.024 0.054 0.008 0
+line [SilkTop] 0 0.106 -0.024 0.12 0.008 0
+line [SilkTop] 0 0.106 -0.024 0.092 0.008 0
+arc [SilkTop] 0 0.075 0.005 0 0 0.008
+line [SMTAssyDrwTop] -0.024 0.054 -0.024 0.158 0.008 0
+line [SMTAssyDrwTop] -0.024 0.158 0.174 0.158 0.008 0
+line [SMTAssyDrwTop] 0.174 0.158 0.174 0.054 0.008 0
+line [SMTAssyDrwTop] 0.174 0.054 -0.024 0.054 0.008 0
+line [SMTAssyDrwTop] 0 0.106 -0.024 0.12 0.008 0
+line [SMTAssyDrwTop] 0 0.106 -0.024 0.092 0.008 0
+arc [SMTAssyDrwTop] 0 0.075 0.005 0 0 0.008
+centroid [BoundaryTop] 0.075 0.106299
+line [BoundaryTop] -0.024 -0.054 -0.024 0.266 0.008 0
+line [BoundaryTop] -0.024 0.266 0.174 0.266 0.008 0
+line [BoundaryTop] 0.174 0.266 0.174 -0.054 0.008 0
+line [BoundaryTop] 0.174 -0.054 -0.024 -0.054 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 2 0.050000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 3 0.100000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 4 0.150000 0.000000 0.000000 rect-.70x2.20 smtTop
+pin 5 0.150000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 6 0.100000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 7 0.050000 0.212598 0.000000 rect-.70x2.20 smtTop
+pin 8 0.000000 0.212598 0.000000 rect-.70x2.20 smtTop

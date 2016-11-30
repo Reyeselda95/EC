@@ -1,0 +1,17 @@
+#include "libcst.msg"
+#include "libdb3.msg"
+#include "libdoc.msg"
+#include "libfb.msg"
+#include "libmutil.msg"
+#include "libpi.msg"
+
+>F init_caeutil reentered
+=[99999] Attempt to reenter init_caeutil with doing an end_caeutil first.
+*This indicates that a user is attempting to reenter the cae utilities
+*initialize routine without first doing an end_caeutil to free the
+*old structures.
+
+>Wds cae_get_tim_sigrt_info: no specific timing information, general timing will be used for function %d, <%s>
+= cae_get_tim_sigrt_info: no specific timing information, general timing will be used for function %d, <%s>
+>Wds No specific timing information, general timing will be used for function %d:%s
+= No specific timing information, general timing will be used for function %d:%s

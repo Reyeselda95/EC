@@ -1,0 +1,255 @@
+*version 6.3 763024216
+u 236
+XC5200 620382310
+U? 10
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 4335 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 237 IF_IN 100 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+port 238 IF_IN 100 530 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 239 IF_IN 100 550 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 240 IF_IN 100 570 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 241 INTERFACE 560 210 u
+a 0 s 3 0 10 8 hln 80 LABEL=O
+port 242 IF_IN 100 360 h
+a 0 s 3 0 10 8 hln 80 LABEL=A4
+port 243 IF_IN 100 340 h
+a 0 s 3 0 10 8 hln 80 LABEL=A5
+port 244 IF_IN 100 320 h
+a 0 s 3 0 10 8 hln 80 LABEL=A6
+port 245 IF_IN 100 300 h
+a 0 s 3 0 10 8 hln 80 LABEL=A7
+@parts
+part 14 VCC 330 740 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U1
+a 0 sp 11 0 20 10 hcn 100 PART=VCC
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 17 GND 330 640 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U2
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 24 AND4 200 510 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 80 hlt 100 PART=AND4
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 28 CY_INIT 430 730 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U4
+a 0 sp 11 0 20 71 hln 100 PART=CY_INIT
+a 0 u 13 13 20 80 hln 100 RLOC=R0C0.LC1
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 29 AND4 200 300 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 80 hlt 100 PART=AND4
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 35 CY_MUX 370 330 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U6
+a 0 sp 11 0 20 32 hln 100 PART=CY_MUX
+a 0 u 13 13 80 30 hln 100 RLOC=R0C0.LC3
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 36 CY_MUX 370 540 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U7
+a 0 sp 11 0 20 32 hln 100 PART=CY_MUX
+a 0 u 13 13 80 30 hln 100 RLOC=R0C0.LC2
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 43 FMAP 610 340 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U8
+a 0 sp 11 0 60 20 hcn 200 PART=FMAP
+a 0 u 13 13 25 127 hln 100 MAP=PUO
+a 0 u 13 13 20 140 hln 100 RLOC=R0C0.LC3
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+part 44 FMAP 610 550 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U9
+a 0 sp 11 0 60 20 hcn 200 PART=FMAP
+a 0 u 13 13 25 127 hln 100 MAP=PUO
+a 0 u 13 13 20 140 hln 100 RLOC=R0C0.LC2
+a 0 a 0 0 0 0 hln 100 PKGREF=U9
+@conn
+w 51
+s 410 390 410 360 45
+s 330 390 410 390 46
+s 410 600 410 570 49
+s 330 640 330 600 47
+s 330 600 410 600 48
+s 330 600 330 390 50
+w 77
+s 430 450 430 360 74
+a 0 s 3 0 430 430 hln 100 LABEL=C_IN1
+s 420 450 430 450 75
+s 420 500 420 450 76
+w 91
+s 430 730 430 570 90
+a 0 s 3 0 430 680 hln 100 LABEL=C_IN0
+w 106
+s 330 780 330 740 104
+s 330 780 360 780 105
+w 121
+s 280 540 370 540 119
+a 0 s 3 0 290 540 hln 100 LABEL=S0
+w 122
+s 730 580 780 580 120
+a 0 s 3 0 750 580 hln 100 LABEL=S0
+w 142
+s 100 530 200 530 141
+a 0 s 3 0 110 530 hln 100 LABEL=A2
+w 150
+s 100 570 200 570 149
+a 0 s 3 0 110 570 hln 100 LABEL=A0
+w 158
+s 100 550 200 550 157
+a 0 s 3 0 110 550 hln 100 LABEL=A1
+w 166
+s 100 510 200 510 165
+a 0 s 3 0 110 510 hln 100 LABEL=A3
+w 175
+s 420 210 560 210 173
+a 0 s 3 0 540 210 hln 100 LABEL=O
+s 420 290 420 210 174
+w 183
+s 100 300 200 300 182
+a 0 s 3 0 110 300 hln 100 LABEL=A7
+w 191
+s 100 340 200 340 190
+a 0 s 3 0 110 340 hln 100 LABEL=A5
+w 199
+s 100 320 200 320 198
+a 0 s 3 0 110 320 hln 100 LABEL=A6
+w 208
+s 280 330 370 330 206
+a 0 s 3 0 290 330 hln 100 LABEL=S1
+w 209
+s 730 370 780 370 207
+a 0 s 3 0 750 370 hln 100 LABEL=S1
+w 229
+s 100 360 200 360 228
+a 0 s 3 0 110 360 hln 100 LABEL=A4
+@junction
+j 330 600
++ w 51
++ w 51
+j 330 640
++ p 17 GROUND
++ w 51
+j 410 360
++ p 35 DI
++ w 51
+j 410 570
++ p 36 DI
++ w 51
+j 430 360
++ p 35 CI
++ w 77
+j 420 500
++ p 36 CO
++ w 77
+j 430 730
++ p 28 COUT
++ w 91
+j 430 570
++ p 36 CI
++ w 91
+j 330 740
++ p 14 VCC
++ w 106
+j 360 780
++ p 28 INIT
++ w 106
+j 280 540
++ p 24 O
++ w 121
+j 370 540
++ p 36 S
++ w 121
+j 730 580
++ p 44 O
++ w 122
+j 200 530
++ p 24 I2
++ w 142
+j 200 570
++ p 24 I0
++ w 150
+j 200 550
++ p 24 I1
++ w 158
+j 200 510
++ p 24 I3
++ w 166
+j 420 290
++ p 35 CO
++ w 175
+j 200 300
++ p 29 I3
++ w 183
+j 200 340
++ p 29 I1
++ w 191
+j 200 320
++ p 29 I2
++ w 199
+j 280 330
++ p 29 O
++ w 208
+j 370 330
++ p 35 S
++ w 208
+j 730 370
++ p 43 O
++ w 209
+j 200 360
++ p 29 I0
++ w 229
+j 100 510
++ s 237
++ w 166
+j 100 530
++ s 238
++ w 142
+j 100 550
++ s 239
++ w 158
+j 100 570
++ s 240
++ w 150
+j 560 210
++ s 241
++ w 175
+j 100 360
++ s 242
++ w 229
+j 100 340
++ s 243
++ w 191
+j 100 320
++ s 244
++ w 199
+j 100 300
++ s 245
++ w 183
+@attributes
+@text
+s 5 500 1020 hln 100 8-INPUT ACTIVE-LOW DECODER
+s 5 700 1050 hln 100 1
+s 5 700 1070 hln 100 A
+s 5 500 1000 hln 100 XC5200 FAMILY DECODE8 MACRO
+s 5 30 1070 hln 100 COPYRIGHT (C) 1994, XILINX INC.
+s 5 460 1050 hln 100 1ST JUNE 1994

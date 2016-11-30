@@ -1,0 +1,133 @@
+"
+" Cypress Flash370 fitter messages
+"
+" Messages
+"
+>Md devs attempt at utilization
+=[49]   Attempting to partition at %d utilization.
+"
+" Warnings
+"
+>Wss Placing unary on macrocell.
+=[7]    Function "%s" is being placed on output macrocell %s.
+>Wss Failed attempt to place function on resource.
+=[37]   Failed attempt to place function "%s" on "%s."
+>Ws Cannot enable non-output function
+=[45]   Internal node '%s' cannot be enabled (three-state).
+"
+" Errors
+"
+>Ess section name not valid
+=[2]    The specified target, "%s", is invalid for the %s device.
+>Ess internal pin name not on device
+=[3]    The pin name, "%s", specified in the PI file is invalid for the %s device.
+>Ess specified pin not in instance of this target
+=[4]    The pin name, "%s", specified in the PI file is invalid for the %s target.
+>Es Cannot place functions in PI file
+=[5]    Failed to place functions specified in the PI file for the %s device.
+>Es Some function(s) in some partition(s) failed to place
+=[6]    Some function(s) in some partition(s) failed to place for the %s device.
+>Esds function could not be placed on pin
+=[8]    The function, "%s", could not be placed on pin "%d" (%s).
+>Es Could not place functions in block.
+=[9]   Placement of functions failed for "%s."
+>Esss No available macrocells to place function
+=[10]   The %s function "%s" could not be placed in block "%s."
+>Es Could not place pterms in block.
+=[11]   Placement of product terms failed for "%s."
+>Essss function could not be placed on macrocell
+=[12]   The %s function, '%s', cannot be placed on the macrocell '%s'(%s).
+>Ess placement failed.
+=[13]   Placement failed for design '%s' in device '%s'.
+>Ess partition failed.
+=[14]   Partitioning failed for design '%s' in device '%s'.
+>Ess routing failed.
+=[15]   Routing failed for design '%s' in device '%s'.
+>Edsd block input signals exceed device capacity.
+=[16]   The number of signals (%d) required for functions in target (%s) exceed the block capacity (%d).
+>Esss function exceeds clock signal capacity for device.
+=[17]   The clock signal for function '%s' in '%s' exceeds the capacity of this device (%s).
+>Es low-true clock signal cannot be placed.
+=[18]   Clock signal '/%s' failed placement.
+>Es hi-true clock signal cannot be placed.
+=[19]   Clock signal '%s' failed placement.
+>Es clock signal(s) did not place in block.
+=[20]   The following clock signals failed to be placed in logic block %s.
+>Es logic block capacity exceeded.
+=[21]   The functions in the PI target for logic block '%s' exceed the block's capacity.
+>Edds block output enables exceed device capacity
+=[22]   The number of output enables (%d) exceeds the capacity (%d) for logic block (%s).
+>Edds number of unique block output enables exceed block capacity.
+=[24]   The number of unique output enables (%d) exceeds the capacity (%d) for logic block (%s).
+>Es can't fit function's oe.
+=[25]   The output enable (oe) for function '%s' uses more than one pterm - specify the oe term as a node.
+>Es functions in block partition cannot be placed for pts or oes.
+=[26]   The functions in block %s cannot be placed due to constraints for product terms or output enables.
+>Es functions in block partition were not placed for pts or oes.
+=[27]   The functions in block %s were not placed due to constraints for product terms or output enables.
+>Ess Specified pterm is not available to macrocell.
+=[28]   The pterm %s for macrocell %s was placed but cannot be programmed.
+>Edsd Clock signals exceeded for block.
+=[29]   The number of clock signals '%d' in block '%s' exceed the devices capacity '%d'
+>Es input macrocells can't have both polarities of a clock.
+=[30]   The PI file specified two functions on input macrocells with the same clock, but opposing polarity.  The %s device can not fit this.
+>Es too many fixed unaries.
+=[31]   Placement of functions on input macrocells specified in the PI file failed for the %s device, no room for clock signals.
+>Ess could not program clock for signal.
+=[32]   Clock signal '%s' could not be programmed on '%s'.
+>Ess Clock signal placed on non-clock pin.
+=[33]   Clock signal '%s' fixed on non-clock pin '%s'.
+>Edd Clock signals exceeds device capacity.
+=[34]   The number of clock signals (%d) exceeds the device capacity (%d).
+>Es indented string.
+=[35]        --- '%s'
+>Esds set term exceeds block capacity.
+=[36]   The %s term (count = %d) exceeds the logic block '%s' capacity
+>Es Some signal(s) failed to place
+=[37]   Some signals(s) failed to place for the %s device.
+>Es Could not place functions on input/clk macrocells.
+=[38]   Some function(s) failed to place for the %s device.
+>Es could not program all the unary input signals
+=[39]   Some signals failed to place on input/clock pins for the %s device.
+>Ess could not program clock for signal
+=[40]   Input/clock '%s' failed to signal/function %s.
+>Ess can't fit function's set.
+=[41]   The %s signal for function '%s' exceeds the capacity for this device.
+>Es could not program all the clock signals
+=[42]   Some clock signals failed placement on device %s 
+>Es Flash370 function cannot fit due to grouping needs
+=[43]   Function %s cannot fit due to grouping constraints.
+>Ess Failed attempt to place function on resource.
+=[44]   Function %s failed to place on %s.
+>Es Conflict in assigning logic block prtn.
+=[45]   Multiple logic block groupings have been assigned to %s.
+>Eds devs Cannot fit fixed group
+=[46]   A fixed grouping from the PI file can not be fit in device (%d) %s.
+>Es devs No functions available to fit
+=[47]   None of the remaining functions can be fit into this device (%s).
+>Ess devs failed type pre-partitioning
+=[48]   Can not build a partition for %s %s specified in PI file.
+>Ess devs failed type partitioning
+=[50]   A partition could not be generated for %s %s.
+>Ess devs type partitioning exceeds limits
+=[51]   Partition for %s %s exceeds the limits for this device.
+>M devs repeat results
+=[52]   The results of this partition pass duplicate previous results.
+>Ess devs Signal assigned to multiple pins
+=[53]   The PI file specifies that signal %s be attached to multiple pins on a %s device.
+>Es cy37x pin not valid
+=[54]   The PI file makes an invalid pin assignment for signal %s.
+>Esds function already placed on pin
+=[55]   Function "%s" already on pin "%d" (%s).
+>Esss fixed function not in partition.
+=[56]   The fixed function '%s' on '%s' is not in the partition '%s'
+>Edds more output functions than available macrocells in block.
+=[57]   There are more output functions (%d) than available macrocells (%d) in block '%s (check for no-connects)'
+>Edds more functions than available macrocells in block.
+=[58]   There are more functions (%d) than available macrocells (%d) in block '%s (check for no-connects)'
+>Es Function is not a double unary.
+=[59]   The function %s was declared DOUBLE_UNARY in the PI and does not meet the criteria.
+"
+" Fatals
+"
+

@@ -1,0 +1,3860 @@
+*version 8.0 3663793791
+@index
+symloc MAX402CPA/MXM,MAX402CSA/MXM,MAX402ESA/MXM,MAX402EPA/MXM 0 1310
+symloc MAX403CPA/MXM,MAX403CSA/MXM,MAX403ESA/MXM,MAX403EPA/MXM,MAX403MJA/MXM 1310 1324
+symloc MAX438CPA/MXM,MAX438CSA/MXM,MAX438ESA/MXM,MAX438EPA/MXM 2634 1310
+symloc MAX439CPA/MXM,MAX439CSA/MXM,MAX439ESA/MXM,MAX439EPA/MXM,MAX439MJA/MXM 3944 1324
+symloc MAX406ACPA_C/MXM,MAX406ACSA_C/MXM,MAX406AESA_C/MXM,MAX406AEPA_C/MXM,MAX406AMJA_C/MXM 5268 1462
+symloc MAX406ACPA_D/MXM,MAX406ACSA_D/MXM,MAX406AESA_D/MXM,MAX406AEPA_D/MXM,MAX406AMJA_D/MXM 6730 1462
+symloc MAX406BCPA_C/MXM,MAX406BCSA_C/MXM,MAX406BESA_C/MXM,MAX406BEPA_C/MXM,MAX406BMJA_C/MXM 8192 1462
+symloc MAX406BCPA_D/MXM,MAX406BCSA_D/MXM,MAX406BESA_D/MXM,MAX406BEPA_D/MXM,MAX406BMJA_D/MXM 9654 1462
+symloc MAX407CPA/MXM,MAX407CSA/MXM,MAX407ESA/MXM,MAX407EPA/MXM,MAX407MJA/MXM 11116 1041
+symloc MAX409ACPA/MXM,MAX409ACSA/MXM,MAX409AESA/MXM,MAX409AEPA/MXM,MAX409AMJA/MXM 12157 1331
+symloc MAX409BCPA/MXM,MAX409BCSA/MXM,MAX409BESA/MXM,MAX409BEPA/MXM,MAX409BMJA/MXM 13488 1331
+symloc MAX417CPA/MXM,MAX417CSA/MXM,MAX417ESA/MXM,MAX417EPA/MXM,MAX417MJA/MXM 14819 1041
+symloc MAX418CPD/MXM,MAX418CSD/MXM,MAX418ESD/MXM,MAX418EPD/MXM,MAX418MJD/MXM 15860 1042
+symloc MAX419CPD/MXM,MAX419CSD/MXM,MAX419ESD/MXM,MAX419EPD/MXM,MAX419MJD/MXM 16902 1042
+symloc MAX410CPA/MXM,MAX410CSA/MXM,MAX410ESA/MXM,MAX410EPA/MXM,MAX410MJA/MXM 17944 1316
+symloc MAX410BCPA/MXM,MAX410BCSA/MXM,MAX410BESA/MXM,MAX410BEPA/MXM,MAX410BMJA/MXM 19260 1331
+symloc MAX412CPA/MXM,MAX412CSA/MXM,MAX412ESA/MXM,MAX412EPA/MXM,MAX412MJA/MXM 20591 1038
+symloc MAX412BCPA/MXM,MAX412BCSA/MXM,MAX412BESA/MXM,MAX412BEPA/MXM,MAX412BMJA/MXM 21629 1046
+symloc MAX414CPD/MXM,MAX414CSD/MXM,MAX414ESD/MXM,MAX414EPD/MXM,MAX414MJD/MXM 22675 1039
+symloc MAX427CPA/MXM,MAX427CSA/MXM,MAX427ESA/MXM,MAX427EPA/MXM,MAX427MJA/MXM 23714 1324
+symloc MAX437CPA/MXM,MAX437CSA/MXM,MAX437ESA/MXM,MAX437EPA/MXM,MAX437MJA/MXM 25038 1324
+symloc MAX414BCPD/MXM,MAX414BCSD/MXM,MAX414BESD/MXM,MAX414BEPD/MXM,MAX414BMJD/MXM 26362 1046
+symloc MAX907CPA/MXM,MAX907CSA/MXM,MAX907ESA/MXM,MAX907EPA/MXM,MAX907MJA/MXM 27408 1041
+symloc MAX908CPD/MXM,MAX908CSD/MXM,MAX908ESD/MXM,MAX908EPD/MXM,MAX908MJD/MXM 28449 1052
+symloc MAX909CPA/MXM,MAX909CSA/MXM,MAX909ESA/MXM,MAX909EPA/MXM,MAX909MJA/MXM 29501 1400
+symloc MAX4100ESA/MXM 30901 998
+symloc MAX4101ESA/MXM 31899 998
+symloc MAX435CPD/MXM,MAX435CSD/MXM,MAX435ESD/MXM,MAX435EPD/MXM,MAX435MJD/MXM 32897 2003
+symloc MAX436CPD/MXM,MAX436CSD/MXM,MAX436ESD/MXM,MAX436EPD/MXM,MAX436MJD/MXM 34900 1870
+symloc MAX473CPA/MXM,MAX473CSA/MXM,MAX473ESA/MXM,MAX473EPA/MXM,MAX473MJA/MXM 36770 1331
+symloc MAX474CPA/MXM,MAX474CSA/MXM,MAX474ESA/MXM,MAX474EPA/MXM,MAX474MJA/MXM 38101 1052
+symloc MAX475CPD/MXM,MAX475CSD/MXM,MAX475ESD/MXM,MAX475EPD/MXM,MAX475MJD/MXM 39153 1039
+symloc MAX492CPA/MXM,MAX492CSA/MXM,MAX492ESA/MXM,MAX492EPA/MXM,MAX492MJA/MXM 40192 1046
+symloc MAX494CPD/MXM,MAX494CSD/MXM,MAX494ESD/MXM,MAX494EPD/MXM,MAX494MJD/MXM 41238 1047
+symloc MAX495CPA/MXM,MAX495CSA/MXM,MAX495ESA/MXM,MAX495EPA/MXM,MAX495MJA/MXM 42285 1325
+symloc MAX913CPA/MXM,MAX913CSA/MXM,MAX913ESA/MXM,MAX913EPA/MXM,MAX913MJA/MXM 43610 1379
+symloc MAX912CPE/MXM,MAX912CSE/MXM,MAX912ESE/MXM,MAX912EPE/MXM,MAX912MJE/MXM 44989 1504
+symloc MAX921CPA/MXM,MAX921CSA/MXM,MAX921ESA/MXM,MAX921EPA/MXM,MAX921MJA/MXM 46493 1390
+symloc MAX922CPA/MXM,MAX922CSA/MXM,MAX922ESA/MXM,MAX922EPA/MXM,MAX922MJA/MXM 47883 1007
+symloc MAX923CPA/MXM,MAX923CSA/MXM,MAX923ESA/MXM,MAX923EPA/MXM,MAX923MJA/MXM 48890 1399
+symloc MAX931CPA/MXM,MAX931CSA/MXM,MAX931ESA/MXM,MAX931EPA/MXM 50289 1370
+symloc MAX932CPA/MXM,MAX932CSA/MXM,MAX932ESA/MXM,MAX932EPA/MXM 51659 1397
+symloc MAX933CPA/MXM,MAX933CSA/MXM,MAX933ESA/MXM,MAX933EPA/MXM 53056 1385
+symloc MAX941CPA/MXM,MAX941CSA/MXM,MAX941ESA/MXM,MAX941EPA/MXM,MAX941MJA/MXM 54441 1337
+symloc MAX942CPA/MXM,MAX942CSA/MXM,MAX942ESA/MXM,MAX942EPA/MXM,MAX942MJA/MXM 55778 1055
+symloc MAX944CPD/MXM,MAX944CSD/MXM,MAX944ESD/MXM,MAX944EPD/MXM,MAX944MJD/MXM 56833 1053
+symloc MAX951CPA/MXM,MAX951CSA/MXM,MAX951ESA/MXM,MAX951EPA/MXM,MAX951MJA/MXM 57886 1431
+symloc MAX952CPA/MXM,MAX952CSA/MXM,MAX952ESA/MXM,MAX952EPA/MXM,MAX952MJA/MXM 59317 1430
+symloc MAX953CPA/MXM,MAX953CSA/MXM,MAX953ESA/MXM,MAX953EPA/MXM,MAX953MJA/MXM 60747 1438
+symloc MAX954CPA/MXM,MAX954CSA/MXM,MAX954ESA/MXM,MAX954EPA/MXM,MAX954MJA/MXM 62185 1438
+symloc MAX924CPE_COMP/MXM,MAX924ESE_COMP/MXM,MAX924EPE_COMP/MXM,MAX924MJE_COMP/MXM,MAX924CSE_COMP/MXM 63623 1298
+symloc MAX924CPE_REF/MXM,MAX924CSE_REF/MXM,MAX924ESE_REF/MXM,MAX924EPE_REF/MXM,MAX924MJE_REF/MXM 64921 935
+symloc MAX934CPE_COMP/MXM,MAX934CSE_COMP/MXM,MAX934ESE_COMP/MXM,MAX934EPE_COMP/MXM 65856 1279
+symloc MAX934CPE_REF/MXM,MAX934CSE_REF/MXM,MAX934ESE_REF/MXM,MAX934EPE_REF/MXM 67135 934
+symloc MAX4112/MXM 68069 986
+symloc MAX4113/MXM 69055 986
+symloc MAX478CPA_15/MXM,MAX478CSA_15/MXM,MAX478ESA_15/MXM,MAX478EPA_15/MXM 70041 1045
+symloc MAX478CPA_5/MXM,MAX478CSA_5/MXM,MAX478ESA_5/MXM,MAX478EPA_5/MXM 71086 1039
+symloc MAX478CPA_3/MXM,MAX478CSA_3/MXM,MAX478ESA_3/MXM,MAX478EPA_3/MXM 72125 1039
+symloc MAX479CPD_15/MXM,MAX479CSD_15/MXM,MAX479ESD_15/MXM,MAX479EPD_15/MXM 73164 1046
+symloc MAX479CPD_5/MXM,MAX479CSD_5/MXM,MAX479ESD_5/MXM,MAX479EPD_5/MXM 74210 1040
+symloc MAX479CPD_3/MXM,MAX479CSD_3/MXM,MAX479ESD_3/MXM,MAX479EPD_3/MXM 75250 1040
+symloc MAX477EPA/MXM 76290 989
+symloc MAX477ESA/MXM 77279 989
+symloc MAX477MJA/MXM 78268 989
+symloc MAX4178EPA/MXM 79257 1012
+symloc MAX4178ESA/MXM 80269 1012
+symloc MAX4178MJA/MXM 81281 1012
+symloc MAX4278EPA/MXM 82293 1012
+symloc MAX4278ESA/MXM 83305 1012
+symloc MAX4278MJA/MXM 84317 1012
+symloc MAX496CPE/MXM 85329 1588
+symloc MAX496CSE/MXM 86917 1588
+symloc MAX497CPE/MXM 88505 1588
+symloc MAX497CSE/MXM 90093 1588
+*symbol MAX402CPA/MXM,MAX402CSA/MXM,MAX402ESA/MXM,MAX402EPA/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX402CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX402/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 51 26 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 51 39 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX403CPA/MXM,MAX403CSA/MXM,MAX403ESA/MXM,MAX403EPA/MXM,MAX403MJA/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX403CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX403/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 26 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 38 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX438CPA/MXM,MAX438CSA/MXM,MAX438ESA/MXM,MAX438EPA/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX438CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX438/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 38 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX439CPA/MXM,MAX439CSA/MXM,MAX439ESA/MXM,MAX439EPA/MXM,MAX439MJA/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX439CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX439/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX406ACPA_C/MXM,MAX406ACSA_C/MXM,MAX406AESA_C/MXM,MAX406AEPA_C/MXM,MAX406AMJA_C/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX406ACPA_C/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX406AC/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+p 2 13 32 hln 100 BW n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=8
+a 0 u 0 0 0 30 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX406ACPA_D/MXM,MAX406ACSA_D/MXM,MAX406AESA_D/MXM,MAX406AEPA_D/MXM,MAX406AMJA_D/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX406ACPA_D/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX406AD/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+p 2 13 32 hln 100 BW n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=8
+a 0 u 0 0 0 30 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX406BCPA_C/MXM,MAX406BCSA_C/MXM,MAX406BESA_C/MXM,MAX406BEPA_C/MXM,MAX406BMJA_C/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX406BCPA_C/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX406BC/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 52 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 38 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+p 2 13 32 hln 100 BW n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=8
+a 0 u 0 0 0 30 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX406BCPA_D/MXM,MAX406BCSA_D/MXM,MAX406BESA_D/MXM,MAX406BEPA_D/MXM,MAX406BMJA_D/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX406BCPA_D/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX406BD/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 52 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+p 2 13 32 hln 100 BW n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=8
+a 0 u 0 0 0 30 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX407CPA/MXM,MAX407CSA/MXM,MAX407ESA/MXM,MAX407EPA/MXM,MAX407MJA/MXM
+d SINGLE SUPPLY OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX407CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX407/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX409ACPA/MXM,MAX409ACSA/MXM,MAX409AESA/MXM,MAX409AEPA/MXM,MAX409AMJA/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX409ACPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX409A/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 54 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 54 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX409BCPA/MXM,MAX409BCSA/MXM,MAX409BESA/MXM,MAX409BEPA/MXM,MAX409BMJA/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX409BCPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX409B/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 28 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX417CPA/MXM,MAX417CSA/MXM,MAX417ESA/MXM,MAX417EPA/MXM,MAX417MJA/MXM
+d SINGLE SUPPLY OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX417CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX417/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX418CPD/MXM,MAX418CSD/MXM,MAX418ESD/MXM,MAX418EPD/MXM,MAX418MJD/MXM
+d SINGLE SUPPLY OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX418CPD/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX418/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX419CPD/MXM,MAX419CSD/MXM,MAX419ESD/MXM,MAX419EPD/MXM,MAX419MJD/MXM
+d SINGLE SUPPLY OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX419CPD/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX419/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX410CPA/MXM,MAX410CSA/MXM,MAX410ESA/MXM,MAX410EPA/MXM,MAX410MJA/MXM
+d SINGLE 28MHZ OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX410CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX410/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 26 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 38 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=8
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX410BCPA/MXM,MAX410BCSA/MXM,MAX410BESA/MXM,MAX410BEPA/MXM,MAX410BMJA/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX410BCPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX410B/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 54 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 54 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=8
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX412CPA/MXM,MAX412CSA/MXM,MAX412ESA/MXM,MAX412EPA/MXM,MAX412MJA/MXM
+d DUAL 28MHZ OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX412CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX412/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX412BCPA/MXM,MAX412BCSA/MXM,MAX412BESA/MXM,MAX412BEPA/MXM,MAX412BMJA/MXM
+d DUAL 28MHZ  OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX412BCPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX412B/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX414CPD/MXM,MAX414CSD/MXM,MAX414ESD/MXM,MAX414EPD/MXM,MAX414MJD/MXM
+d QUAD 28MHZ OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX414CPD/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX414/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 37 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX427CPA/MXM,MAX427CSA/MXM,MAX427ESA/MXM,MAX427EPA/MXM,MAX427MJA/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX427CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX427/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 27 hrn 80 B1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 37 hrn 80 B2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=8
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX437CPA/MXM,MAX437CSA/MXM,MAX437ESA/MXM,MAX437EPA/MXM,MAX437MJA/MXM
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX437CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX437/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 27 hrn 80 B1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 38 hrn 80 B2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=8
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX414BCPD/MXM,MAX414BCSD/MXM,MAX414BESD/MXM,MAX414BEPD/MXM,MAX414BMJD/MXM
+d LO-VOLTAGE OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX414BCPD/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX414B/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 37 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX907CPA/MXM,MAX907CSA/MXM,MAX907ESA/MXM,MAX907EPA/MXM,MAX907MJA/MXM
+d SINGLE SUPPLY OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX907CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX907/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX908CPD/MXM,MAX908CSD/MXM,MAX908ESD/MXM,MAX908EPD/MXM,MAX908MJD/MXM
+d QUAD, SINGLE SUPPLY COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX908CPD/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX908/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX909CPA/MXM,MAX909CSA/MXM,MAX909ESA/MXM,MAX909EPA/MXM,MAX909MJA/MXM
+d HIGH-SPEED ULTRA LOW-POWER TTL COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 -39 59 hln 100 PART=MAX909CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX909/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %LE %GND %Q %\Q\ @MODEL ?VALUE/@VALUE/
+a 0 up 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 - n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 LE n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 30 48 hcn 100 V- n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=4
+a 0 u 0 0 30 60 hln 100 ERC=x
+a 0 u 0 0 30 60 hln 100 FLOAT=n
+p 2 49 48 hcn 100 GND n 50 60 v
+a 0 u 1 0 45 62 hcn 100 PIN=6
+a 0 u 0 0 50 60 hln 100 ERC=p
+a 0 u 0 0 50 60 hln 100 FLOAT=n
+p 2 57 22 hrn 100 Q n 70 20 u
+a 0 u 1 0 65 18 hln 100 PIN=7
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 70 20 hln 100 FLOAT=n
+p 2 57 42 hrn 100 \Q\ n 70 40 u
+a 0 u 1 0 65 38 hln 100 PIN=8
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 70 40 hln 100 FLOAT=n
+p 2 30 17 hcn 100 V+ n 30 0 d
+a 0 u 1 0 35 3 hcn 100 PIN=1
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+@graphics 70 60 0 20 10
+r 0 10 10 60 50
+*symbol MAX4100ESA/MXM
+d QUAD, SINGLE SUPPLY COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX4100ESA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4100/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 35 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX4101ESA/MXM
+d QUAD, SINGLE SUPPLY COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX4101ESA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4101/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX435CPD/MXM,MAX435CSD/MXM,MAX435ESD/MXM,MAX435EPD/MXM,MAX435MJD/MXM
+d WIDEBAND AMPLIFIER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 66 68 hln 100 PART=MAX435CPD/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX435/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %Z- %Z+ %+V0 %-V0 %OUT+ %OUT- %SET @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 Z+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 Z- n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=6
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 28 57 drn 100 -V0 n 30 70 v
+a 0 u 1 0 32 65 dln 100 PIN=7
+a 0 u 0 0 30 70 hln 100 ERC=x
+a 0 u 0 0 30 70 hln 100 FLOAT=n
+p 2 38 57 drn 100 -V1 n 40 70 v
+a 0 u 1 0 42 65 dln 100 PIN=8
+a 0 u 0 0 40 70 hln 100 ERC=x
+a 0 u 0 0 40 70 hln 100 FLOAT=u
+p 2 48 57 drn 100 -V2 n 50 70 v
+a 0 u 1 0 52 65 dln 100 PIN=10
+a 0 u 0 0 50 70 hln 100 ERC=x
+a 0 u 0 0 50 70 hln 100 FLOAT=u
+p 2 77 22 hrn 100 OUT+ n 90 20 u
+a 0 u 1 0 85 18 hln 100 PIN=13
+a 0 u 0 0 90 20 hln 100 ERC=o
+a 0 u 0 0 90 20 hln 100 FLOAT=n
+p 2 77 52 hrn 100 OUT- n 90 50 u
+a 0 u 1 0 85 48 hln 100 PIN=9
+a 0 u 0 0 90 50 hln 100 ERC=o
+a 0 u 0 0 90 50 hln 100 FLOAT=n
+p 2 77 32 hrn 100 SET n 90 30 u
+a 0 u 1 0 85 28 hln 100 PIN=11
+a 0 u 0 0 90 30 hln 100 ERC=o
+a 0 u 0 0 90 30 hln 100 FLOAT=n
+p 2 28 13 dln 100 +V0 n 30 0 d
+a 0 u 1 0 32 5 drn 100 PIN=1
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+p 2 38 13 dln 100 +V1 n 40 0 d
+a 0 u 1 0 42 5 drn 100 PIN=14
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=u
+p 2 48 13 dln 100 +V2 n 50 0 d
+a 0 u 1 0 52 5 drn 100 PIN=12
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=u
+@graphics 90 70 0 20 10
+r 0 10 10 80 60
+*symbol MAX436CPD/MXM,MAX436CSD/MXM,MAX436ESD/MXM,MAX436EPD/MXM,MAX436MJD/MXM
+d WIDEBAND AMPLIFIER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 66 68 hln 100 PART=MAX436CPD/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX436/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %Z- %Z+ %+V0 %-V0 %OUT %SET @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 Z+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 Z- n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=6
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 28 57 drn 100 -V0 n 30 70 v
+a 0 u 1 0 32 65 dln 100 PIN=7
+a 0 u 0 0 30 70 hln 100 ERC=x
+a 0 u 0 0 30 70 hln 100 FLOAT=n
+p 2 38 57 drn 100 -V1 n 40 70 v
+a 0 u 1 0 42 65 dln 100 PIN=8
+a 0 u 0 0 40 70 hln 100 ERC=x
+a 0 u 0 0 40 70 hln 100 FLOAT=u
+p 2 48 57 drn 100 -V2 n 50 70 v
+a 0 u 1 0 52 65 dln 100 PIN=10
+a 0 u 0 0 50 70 hln 100 ERC=x
+a 0 u 0 0 50 70 hln 100 FLOAT=u
+p 2 77 22 hrn 100 OUT n 90 20 u
+a 0 u 1 0 85 18 hln 100 PIN=13
+a 0 u 0 0 90 20 hln 100 ERC=o
+a 0 u 0 0 90 20 hln 100 FLOAT=n
+p 2 77 52 hrn 100 SET n 90 50 u
+a 0 u 1 0 85 48 hln 100 PIN=11
+a 0 u 0 0 90 50 hln 100 ERC=o
+a 0 u 0 0 90 50 hln 100 FLOAT=n
+p 2 28 13 dln 100 +V0 n 30 0 d
+a 0 u 1 0 32 5 drn 100 PIN=1
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+p 2 38 13 dln 100 +V1 n 40 0 d
+a 0 u 1 0 42 5 drn 100 PIN=14
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=u
+p 2 48 13 dln 100 +V2 n 50 0 d
+a 0 u 1 0 52 5 drn 100 PIN=12
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=u
+@graphics 90 70 0 20 10
+r 0 10 10 80 60
+*symbol MAX473CPA/MXM,MAX473CSA/MXM,MAX473ESA/MXM,MAX473EPA/MXM,MAX473MJA/MXM
+d SINGLE, 10MHZ SINGLE-SUPPLY OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX473CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX473/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 54 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 54 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=8
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX474CPA/MXM,MAX474CSA/MXM,MAX474ESA/MXM,MAX474EPA/MXM,MAX474MJA/MXM
+d DUAL 10MHZ SINGLE-SUPPLY OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX474CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX474/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX475CPD/MXM,MAX475CSD/MXM,MAX475ESD/MXM,MAX475EPD/MXM,MAX475MJD/MXM
+d QUAD 10MHZ OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX475CPD/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX475/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX492CPA/MXM,MAX492CSA/MXM,MAX492ESA/MXM,MAX492EPA/MXM,MAX492MJA/MXM
+d DUAL SINGLE-SUPPLY OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX492CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX492/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX494CPD/MXM,MAX494CSD/MXM,MAX494ESD/MXM,MAX494EPD/MXM,MAX494MJD/MXM
+d QUAD SINGLE-SUPPLY OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX494CPD/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX494/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX495CPA/MXM,MAX495CSA/MXM,MAX495ESA/MXM,MAX495EPA/MXM,MAX495MJA/MXM
+d SINGLE, SINGLE-SUPPLY OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX495CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX495/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX913CPA/MXM,MAX913CSA/MXM,MAX913ESA/MXM,MAX913EPA/MXM,MAX913MJA/MXM
+d SINGLE TTL COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 -39 59 hln 100 PART=MAX913CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX913/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %LE %GND %Q %\Q\ @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 - n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 LE n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 30 48 hcn 100 V- n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=4
+a 0 u 0 0 30 60 hln 100 ERC=x
+a 0 u 0 0 30 60 hln 100 FLOAT=n
+p 2 49 48 hcn 100 GND n 50 60 v
+a 0 u 1 0 45 62 hcn 100 PIN=6
+a 0 u 0 0 50 60 hln 100 ERC=p
+a 0 u 0 0 50 60 hln 100 FLOAT=n
+p 2 57 22 hrn 100 Q n 70 20 u
+a 0 u 1 0 65 18 hln 100 PIN=7
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 70 20 hln 100 FLOAT=n
+p 2 57 42 hrn 100 \Q\ n 70 40 u
+a 0 u 1 0 65 38 hln 100 PIN=8
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 70 40 hln 100 FLOAT=n
+p 2 30 17 hcn 100 V+ n 30 0 d
+a 0 u 1 0 35 3 hcn 100 PIN=1
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+@graphics 70 60 0 20 10
+r 0 10 10 60 50
+*symbol MAX912CPE/MXM,MAX912CSE/MXM,MAX912ESE/MXM,MAX912EPE/MXM,MAX912MJE/MXM
+d SINGLE TTL COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 55 7 hln 100 PART=MAX912CPE/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX912/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %LE %GND0 %Q %\Q\ @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=8
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 - n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=7
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 LE n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 38 48 hcn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=6
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 55 48 hcn 85 GND1 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 PIN=14
+a 0 u 0 0 60 60 hln 100 ERC=p
+a 0 u 0 0 60 60 hln 100 FLOAT=u
+p 2 67 22 hrn 100 Q n 80 20 u
+a 0 u 1 0 75 18 hln 100 PIN=1
+a 0 u 0 0 80 20 hln 100 ERC=o
+a 0 u 0 0 80 20 hln 100 FLOAT=n
+p 2 67 42 hrn 100 \Q\ n 80 40 u
+a 0 u 1 0 75 38 hln 100 PIN=2
+a 0 u 0 0 80 40 hln 100 ERC=o
+a 0 u 0 0 80 40 hln 100 FLOAT=n
+p 2 40 17 hcn 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=11
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 2 19 48 hcn 85 GND0 n 20 60 v
+a 0 u 1 0 15 62 hcn 100 PIN=3
+a 0 u 0 0 20 60 hln 100 ERC=p
+a 0 u 0 0 20 60 hln 100 FLOAT=n
+@graphics 80 60 0 20 10
+r 0 10 10 70 50
+*symbol MAX921CPA/MXM,MAX921CSA/MXM,MAX921ESA/MXM,MAX921EPA/MXM,MAX921MJA/MXM
+d ULTRA LOW-POWER COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 47 57 hln 100 PART=MAX921CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX921/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %HYST %REF %OUT @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 42 hln 100 - n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 42 48 hcn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=2
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 19 48 hcn 100 GND n 20 60 v
+a 0 u 1 0 15 62 hcn 100 PIN=1
+a 0 u 0 0 20 60 hln 100 ERC=p
+a 0 u 0 0 20 60 hln 100 FLOAT=u
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 1 0 65 18 hln 100 PIN=8
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 70 20 hln 100 FLOAT=n
+p 2 57 42 hrn 100 REF n 70 40 u
+a 0 u 1 0 65 38 hln 100 PIN=6
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 70 40 hln 100 FLOAT=n
+p 2 40 17 hcn 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 2 57 32 hrn 100 HYST n 70 30 u
+a 0 u 1 0 65 28 hln 100 PIN=5
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 70 30 hln 100 FLOAT=n
+@graphics 70 60 0 20 10
+r 0 10 10 60 50
+*symbol MAX922CPA/MXM,MAX922CSA/MXM,MAX922ESA/MXM,MAX922EPA/MXM,MAX922MJA/MXM
+d ULTRA LOW-POWER COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 -38 60 hln 100 PART=MAX922CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX922/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 42 hln 100 - n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 30 48 hcn 100 V- n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=2
+a 0 u 0 0 30 60 hln 100 ERC=x
+a 0 u 0 0 30 60 hln 100 FLOAT=n
+p 2 57 32 hrn 100 OUT n 70 30 u
+a 0 u 1 0 65 28 hln 100 PIN=1
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 70 30 hln 100 FLOAT=n
+p 2 30 17 hcn 100 V+ n 30 0 d
+a 0 u 1 0 35 3 hcn 100 PIN=7
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+@graphics 70 60 0 20 10
+r 0 10 10 60 50
+*symbol MAX923CPA/MXM,MAX923CSA/MXM,MAX923ESA/MXM,MAX923EPA/MXM,MAX923MJA/MXM
+d ULTRA LOW-POWER COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 45 69 hln 100 PART=MAX923CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX923/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %HYST %REF %OUTA %OUTB @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 30 58 hcn 100 V- n 30 70 v
+a 0 u 1 0 25 72 hcn 100 PIN=2
+a 0 u 0 0 30 70 hln 100 ERC=x
+a 0 u 0 0 30 70 hln 100 FLOAT=n
+p 2 57 22 hrn 100 OUTA n 70 20 u
+a 0 u 1 0 65 18 hln 100 PIN=1
+a 0 u 0 0 70 20 hln 100 ERC=p
+a 0 u 0 0 70 20 hln 100 FLOAT=n
+p 2 57 52 hrn 100 OUTB n 70 50 u
+a 0 u 1 0 65 48 hln 100 PIN=8
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 70 50 hln 100 FLOAT=n
+p 2 57 42 hrn 100 REF n 70 40 u
+a 0 u 1 0 65 38 hln 100 PIN=6
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 70 40 hln 100 FLOAT=n
+p 2 30 17 hcn 100 V+ n 30 0 d
+a 0 u 1 0 35 3 hcn 100 PIN=7
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+p 2 57 32 hrn 100 HYST n 70 30 u
+a 0 u 1 0 65 28 hln 100 PIN=5
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 70 30 hln 100 FLOAT=n
+@graphics 70 70 0 20 10
+r 0 10 10 60 60
+*symbol MAX931CPA/MXM,MAX931CSA/MXM,MAX931ESA/MXM,MAX931EPA/MXM
+d LOW-POWER COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 47 57 hln 100 PART=MAX931CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX931/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %HYST %REF %OUT @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 42 hln 100 - n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 40 48 hcn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=2
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 19 48 hcn 100 GND n 20 60 v
+a 0 u 1 0 15 62 hcn 100 PIN=1
+a 0 u 0 0 20 60 hln 100 ERC=p
+a 0 u 0 0 20 60 hln 100 FLOAT=u
+p 2 57 22 hrn 100 OUT n 70 20 u
+a 0 u 1 0 65 18 hln 100 PIN=8
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 70 20 hln 100 FLOAT=n
+p 2 57 42 hrn 100 REF n 70 40 u
+a 0 u 1 0 65 38 hln 100 PIN=6
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 70 40 hln 100 FLOAT=n
+p 2 40 17 hcn 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 2 57 32 hrn 100 HYST n 70 30 u
+a 0 u 1 0 65 28 hln 100 PIN=5
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 70 30 hln 100 FLOAT=n
+@graphics 70 60 0 20 10
+r 0 10 10 60 50
+*symbol MAX932CPA/MXM,MAX932CSA/MXM,MAX932ESA/MXM,MAX932EPA/MXM
+d ULTRA LOW-POWER COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 78 hln 100 PART=MAX932CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX932/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+INA %+INB %V+ %V- %HYST %REF %OUTA %OUTB @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 +INA n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 52 hln 100 +INB n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 40 58 hcn 100 V- n 40 70 v
+a 0 u 1 0 35 72 hcn 100 PIN=2
+a 0 u 0 0 40 70 hln 100 ERC=x
+a 0 u 0 0 40 70 hln 100 FLOAT=n
+p 2 57 52 hrn 100 OUTB n 70 50 u
+a 0 u 1 0 65 48 hln 100 PIN=8
+a 0 u 0 0 70 50 hln 100 ERC=p
+a 0 u 0 0 70 50 hln 100 FLOAT=n
+p 2 57 22 hrn 100 OUTA n 70 20 u
+a 0 u 1 0 65 18 hln 100 PIN=1
+a 0 u 0 0 70 20 hln 100 ERC=o
+a 0 u 0 0 70 20 hln 100 FLOAT=n
+p 2 57 42 hrn 100 REF n 70 40 u
+a 0 u 1 0 65 38 hln 100 PIN=6
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 70 40 hln 100 FLOAT=n
+p 2 40 17 hcn 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 2 57 32 hrn 100 HYST n 70 30 u
+a 0 u 1 0 65 28 hln 100 PIN=5
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 70 30 hln 100 FLOAT=n
+@graphics 70 70 0 20 10
+r 0 10 10 60 60
+*symbol MAX933CPA/MXM,MAX933CSA/MXM,MAX933ESA/MXM,MAX933EPA/MXM
+d ULTRA LOW-POWER COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 45 69 hln 100 PART=MAX933CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX933/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %HYST %REF %OUTA %OUTB @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 30 58 hcn 100 V- n 30 70 v
+a 0 u 1 0 25 72 hcn 100 PIN=2
+a 0 u 0 0 30 70 hln 100 ERC=x
+a 0 u 0 0 30 70 hln 100 FLOAT=n
+p 2 57 22 hrn 100 OUTA n 70 20 u
+a 0 u 1 0 65 18 hln 100 PIN=1
+a 0 u 0 0 70 20 hln 100 ERC=p
+a 0 u 0 0 70 20 hln 100 FLOAT=n
+p 2 57 52 hrn 100 OUTB n 70 50 u
+a 0 u 1 0 65 48 hln 100 PIN=8
+a 0 u 0 0 70 50 hln 100 ERC=o
+a 0 u 0 0 70 50 hln 100 FLOAT=n
+p 2 57 42 hrn 100 REF n 70 40 u
+a 0 u 1 0 65 38 hln 100 PIN=6
+a 0 u 0 0 70 40 hln 100 ERC=o
+a 0 u 0 0 70 40 hln 100 FLOAT=n
+p 2 30 17 hcn 100 V+ n 30 0 d
+a 0 u 1 0 35 3 hcn 100 PIN=7
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+p 2 57 32 hrn 100 HYST n 70 30 u
+a 0 u 1 0 65 28 hln 100 PIN=5
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 70 30 hln 100 FLOAT=n
+@graphics 70 70 0 20 10
+r 0 10 10 60 60
+*symbol MAX941CPA/MXM,MAX941CSA/MXM,MAX941ESA/MXM,MAX941EPA/MXM,MAX941MJA/MXM
+d HIGH SPEED LOW-POWER COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX941CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX941/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=7
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 21 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=1
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 54 27 hrn 50 \LATCH\ n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=5
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 38 hrn 50 \SHDN\ n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=4
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=6
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX942CPA/MXM,MAX942CSA/MXM,MAX942ESA/MXM,MAX942EPA/MXM,MAX942MJA/MXM
+d LOW-POWER SINGLE-SUPPLY COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX942CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX942/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX944CPD/MXM,MAX944CSD/MXM,MAX944ESD/MXM,MAX944EPD/MXM,MAX944MJD/MXM
+d HIGH-SPEED LOW-POWER COMPARATOR
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX944CPD/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX944/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX951CPA/MXM,MAX951CSA/MXM,MAX951ESA/MXM,MAX951EPA/MXM,MAX951MJA/MXM
+d ULTRA-LOW-POWER OP AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 60 69 hln 100 PART=MAX951CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX951/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %AMPIN+ %AMPIN- %COMPIN+ %V+ %V- %REF %AMPOUT %COMPOUT @MODEL ?VALUE/ @VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 AMPIN- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 AMPIN+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 COMPIN+ n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 REF n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=6
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 50 58 hcn 100 V- n 50 70 v
+a 0 u 1 0 45 72 hcn 100 PIN=4
+a 0 u 0 0 50 70 hln 100 ERC=x
+a 0 u 0 0 50 70 hln 100 FLOAT=n
+p 2 87 22 hrn 100 AMPOUT n 100 20 u
+a 0 u 1 0 95 18 hln 100 PIN=1
+a 0 u 0 0 100 20 hln 100 ERC=o
+a 0 u 0 0 100 20 hln 100 FLOAT=n
+p 2 87 42 hrn 100 COMPOUT n 100 40 u
+a 0 u 1 0 95 38 hln 100 PIN=7
+a 0 u 0 0 100 40 hln 100 ERC=o
+a 0 u 0 0 100 40 hln 100 FLOAT=n
+p 2 50 17 hcn 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=8
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+@graphics 100 70 0 20 10
+r 0 10 10 90 60
+*symbol MAX952CPA/MXM,MAX952CSA/MXM,MAX952ESA/MXM,MAX952EPA/MXM,MAX952MJA/MXM
+d ULTRA-LOW-POWER OP AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 58 71 hln 100 PART=MAX952CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX952/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %AMPIN+ %AMPIN- %COMPIN+ %V+ %V- %REF %AMPOUT %COMPOUT @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 AMPIN- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 AMPIN+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 COMPIN+ n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 REF n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=6
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 50 58 hcn 100 V- n 50 70 v
+a 0 u 1 0 45 72 hcn 100 PIN=4
+a 0 u 0 0 50 70 hln 100 ERC=x
+a 0 u 0 0 50 70 hln 100 FLOAT=n
+p 2 87 22 hrn 100 AMPOUT n 100 20 u
+a 0 u 1 0 95 18 hln 100 PIN=1
+a 0 u 0 0 100 20 hln 100 ERC=o
+a 0 u 0 0 100 20 hln 100 FLOAT=n
+p 2 87 42 hrn 100 COMPOUT n 100 40 u
+a 0 u 1 0 95 38 hln 100 PIN=7
+a 0 u 0 0 100 40 hln 100 ERC=o
+a 0 u 0 0 100 40 hln 100 FLOAT=n
+p 2 50 17 hcn 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=8
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+@graphics 100 70 0 20 10
+r 0 10 10 90 60
+*symbol MAX953CPA/MXM,MAX953CSA/MXM,MAX953ESA/MXM,MAX953EPA/MXM,MAX953MJA/MXM
+d ULTRA-LOW-POWER OP AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 60 69 hln 100 PART=MAX953CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX953/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %AMPIN+ %AMPIN- %COMPIN+ %COMPIN- %V+ %V- %AMPOUT %COMPOUT @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 AMPIN- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 AMPIN+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 COMPIN+ n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 COMPIN- n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=6
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 50 58 hcn 100 V- n 50 70 v
+a 0 u 1 0 45 72 hcn 100 PIN=4
+a 0 u 0 0 50 70 hln 100 ERC=x
+a 0 u 0 0 50 70 hln 100 FLOAT=n
+p 2 87 22 hrn 100 AMPOUT n 100 20 u
+a 0 u 1 0 95 18 hln 100 PIN=1
+a 0 u 0 0 100 20 hln 100 ERC=o
+a 0 u 0 0 100 20 hln 100 FLOAT=n
+p 2 87 42 hrn 100 COMPOUT n 100 40 u
+a 0 u 1 0 95 38 hln 100 PIN=7
+a 0 u 0 0 100 40 hln 100 ERC=o
+a 0 u 0 0 100 40 hln 100 FLOAT=n
+p 2 50 17 hcn 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=8
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+@graphics 100 70 0 20 10
+r 0 10 10 90 60
+*symbol MAX954CPA/MXM,MAX954CSA/MXM,MAX954ESA/MXM,MAX954EPA/MXM,MAX954MJA/MXM
+d ULTRA-LOW-POWER OP AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 60 71 hln 100 PART=MAX954CPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX954/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %AMPIN+ %AMPIN- %COMPIN+ %COMPIN- %V+ %V- %AMPOUT %COMPOUT @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 AMPIN- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 AMPIN+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 13 42 hln 100 COMPIN+ n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=5
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 13 52 hln 100 COMPIN- n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=6
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 50 58 hcn 100 V- n 50 70 v
+a 0 u 1 0 45 72 hcn 100 PIN=4
+a 0 u 0 0 50 70 hln 100 ERC=x
+a 0 u 0 0 50 70 hln 100 FLOAT=n
+p 2 87 22 hrn 100 AMPOUT n 100 20 u
+a 0 u 1 0 95 18 hln 100 PIN=1
+a 0 u 0 0 100 20 hln 100 ERC=o
+a 0 u 0 0 100 20 hln 100 FLOAT=n
+p 2 87 42 hrn 100 COMPOUT n 100 40 u
+a 0 u 1 0 95 38 hln 100 PIN=7
+a 0 u 0 0 100 40 hln 100 ERC=o
+a 0 u 0 0 100 40 hln 100 FLOAT=n
+p 2 50 17 hcn 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=8
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+@graphics 100 70 0 20 10
+r 0 10 10 90 60
+*symbol MAX924CPE_COMP/MXM,MAX924ESE_COMP/MXM,MAX924EPE_COMP/MXM,MAX924MJE_COMP/MXM,MAX924CSE_COMP/MXM
+d Ultra Low-Power, Single-/Dual-Supply Comparators
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 60 hln 100 PART=MAX924CPE_COMP/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX924/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 0 0 0 10 hln 100 COMPONENT=MAX924CPE/MXM
+a 0 s 0 0 0 10 hlb 100 GATETYPE=COMPARATOR
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=4
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 45 40 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=9
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 66 33 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=2
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 35 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=3
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 2 35 46 hrn 100 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=14
+a 0 u 0 0 30 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX924CPE_REF/MXM
+d Ultra Low-Power, Single-/Dual-Supply Comparators, 1.182V REF
+@type p
+@attributes
+a 1 sp 9 0 10 10 hln 100 REFDES=U?
+a 0 sp 11 0 -2 48 hln 100 PART=MAX924CPE_REF/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=REF/MAX924/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %V+ %V- %REF @MODEL
+a 0 sp 0 0 0 10 hln 100 COMPONENT=MAX924CPE/MXM
+a 0 sp 0 0 0 20 hln 100 GATETYPE=REF
+@pins
+p 2 67 28 hrn 100 REF n 80 30 u
+a 0 s 1 0 75 28 hln 100 PIN=8
+a 0 s 0 0 80 30 hln 100 ERC=o
+a 0 s 0 0 80 30 hln 100 FLOAT=n
+p 2 34 13 dln 100 V+ n 40 0 d
+a 0 s 1 0 42 5 drn 100 PIN=3
+a 0 s 0 0 40 0 hln 100 ERC=x
+a 0 s 0 0 40 0 hln 100 FLOAT=n
+p 2 14 28 hln 100 V- n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=9
+a 0 s 0 0 0 30 hln 100 ERC=x
+@graphics 80 40 0 30 10
+r 0 10 10 70 40
+v 0 45 30
+55 30
+;
+v 0 25 30
+35 30
+;
+v 0 55 30
+70 30
+;
+v 0 25 30
+10 30
+;
+v 0 42 23
+45 25
+;
+v 0 45 35
+48 37
+;
+v 0 45 25
+45 35
+;
+v 0 35 30
+37 30
+;
+v 0 37 25
+37 35
+45 30
+37 25
+;
+*symbol MAX934CPE_COMP/MXM,MAX934CSE_COMP/MXM,MAX934ESE_COMP/MXM,MAX934EPE_COMP/MXM
+d Ultra Low-Power, Single-/Dual-Supply Comparators
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 60 hln 100 PART=MAX934CPE_COMP/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX934/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 0 0 0 10 hln 100 COMPONENT=MAX934CPE/MXM
+a 0 s 0 0 0 10 hlb 100 GATETYPE=COMPARATOR
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=4
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=9
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=2
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 36 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=3
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 2 26 46 hcn 100 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=14
+a 0 u 0 0 30 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX934CPE_REF/MXM
+d Ultra Low-Power, Single-/Dual-Supply Comparators, 1.182V REF
+@type p
+@attributes
+a 1 sp 9 0 10 10 hln 100 REFDES=U?
+a 0 sp 11 0 0 48 hln 100 PART=MAX934CPE_REF/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=REF/MAX934/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %V+ %V- %REF @MODEL
+a 0 sp 0 0 0 10 hln 100 COMPONENT=MAX934CPE/MXM
+a 0 sp 0 0 0 20 hln 100 GATETYPE=REF
+@pins
+p 2 67 28 hrn 100 REF n 80 30 u
+a 0 s 1 0 75 28 hln 100 PIN=8
+a 0 s 0 0 80 30 hln 100 ERC=o
+a 0 s 0 0 80 30 hln 100 FLOAT=n
+p 2 36 13 dln 100 V+ n 40 0 d
+a 0 s 1 0 42 5 drn 100 PIN=3
+a 0 s 0 0 40 0 hln 100 ERC=x
+a 0 s 0 0 40 0 hln 100 FLOAT=n
+p 2 12 28 hln 100 V- n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=9
+a 0 s 0 0 0 30 hln 100 ERC=x
+@graphics 80 40 0 30 10
+r 0 10 10 70 40
+v 0 45 30
+55 30
+;
+v 0 25 30
+35 30
+;
+v 0 55 30
+70 30
+;
+v 0 25 30
+10 30
+;
+v 0 42 23
+45 25
+;
+v 0 45 35
+48 37
+;
+v 0 45 25
+45 35
+;
+v 0 35 30
+37 30
+;
+v 0 37 25
+37 35
+45 30
+37 25
+;
+*symbol MAX4112/MXM
+d 500MHZ, FEEDBACK OP AMPS
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX4112/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4112/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 35 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX4113/MXM
+d 500MHZ, FEEDBACK OP AMPS
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX4113/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4113/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 35 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX478CPA_15/MXM,MAX478CSA_15/MXM,MAX478ESA_15/MXM,MAX478EPA_15/MXM
+d DUAL PRECISION OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX478CPA_15/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX47815/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX478CPA_5/MXM,MAX478CSA_5/MXM,MAX478ESA_5/MXM,MAX478EPA_5/MXM
+d DUAL PRECISION OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX478CPA_5/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4785/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX478CPA_3/MXM,MAX478CSA_3/MXM,MAX478ESA_3/MXM,MAX478EPA_3/MXM
+d DUAL PRECISION OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX478CPA_3/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4783/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=8
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX479CPD_15/MXM,MAX479CSD_15/MXM,MAX479ESD_15/MXM,MAX479EPD_15/MXM
+d QUAD PRECISION OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX479CPD_15/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX47915/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX479CPD_5/MXM,MAX479CSD_5/MXM,MAX479ESD_5/MXM,MAX479EPD_5/MXM
+d QUAD PRECISION OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX479CPD_5/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4795/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX479CPD_3/MXM,MAX479CSD_3/MXM,MAX479ESD_3/MXM,MAX479EPD_3/MXM
+d QUAD PRECISION OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX479CPD_3/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4793/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=11
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=4
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=1
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX477EPA/MXM
+d 300MHZ HIGH-SPEED OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX477EPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX477/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX477ESA/MXM
+d 300MHZ HIGH-SPEED OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX477ESA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX477/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 36 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX477MJA/MXM
+d 300MHZ HIGH-SPEED OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 52 hln 100 PART=MAX477MJA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX477/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %v+ %v- %out @model ?value/@value/
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 2 46 42 hrn 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+a 0 u 0 0 40 60 hln 100 FLOAT=n
+p 2 37 25 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol MAX4178EPA/MXM
+d 330MHZ,GAIN +1 CLOSED-LOOP BUFFER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 47 hln 100 PART=MAX4178EPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4178/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %in %gnd %v+ %v- %out @model ?value/@value/
+@pins
+p 2 21 47 hln 100 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=2
+a 0 u 0 0 30 60 hln 100 ERC=i
+a 0 u 0 0 30 60 hln 100 FLOAT=n
+p 2 13 32 hln 100 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 51 39 hrn 100 V- n 50 60 v
+a 0 u 1 0 45 62 hcn 100 PIN=4
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 50 60 hln 100 FLOAT=n
+p 2 41 26 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=7
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 50 10
+50 20
+;
+v 0 50 40
+50 50
+;
+*symbol MAX4178ESA/MXM
+d 330MHZ,GAIN +1 CLOSED-LOOP BUFFER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 47 hln 100 PART=MAX4178ESA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4178/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %in %gnd %v+ %v- %out @model ?value/@value/
+@pins
+p 2 22 47 hln 100 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=2
+a 0 u 0 0 30 60 hln 100 ERC=i
+a 0 u 0 0 30 60 hln 100 FLOAT=n
+p 2 13 32 hln 100 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 51 39 hrn 100 V- n 50 60 v
+a 0 u 1 0 45 62 hcn 100 PIN=4
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 50 60 hln 100 FLOAT=n
+p 2 41 27 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=7
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 50 10
+50 20
+;
+v 0 50 40
+50 50
+;
+*symbol MAX4178MJA/MXM
+d 330MHZ,GAIN +1 CLOSED-LOOP BUFFER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 47 hln 100 PART=MAX4178MJA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4178/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %in %gnd %v+ %v- %out @model ?value/@value/
+@pins
+p 2 20 47 hln 100 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=2
+a 0 u 0 0 30 60 hln 100 ERC=i
+a 0 u 0 0 30 60 hln 100 FLOAT=n
+p 2 13 32 hln 100 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 51 39 hrn 100 V- n 50 60 v
+a 0 u 1 0 45 62 hcn 100 PIN=4
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 50 60 hln 100 FLOAT=n
+p 2 41 27 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=7
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 50 10
+50 20
+;
+v 0 50 40
+50 50
+;
+*symbol MAX4278EPA/MXM
+d 330MHZ,GAIN +2 CLOSED-LOOP BUFFER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 47 hln 100 PART=MAX4278EPA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4278/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %in %gnd %v+ %v- %out @model ?value/@value/
+@pins
+p 2 21 47 hln 100 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=2
+a 0 u 0 0 30 60 hln 100 ERC=i
+a 0 u 0 0 30 60 hln 100 FLOAT=n
+p 2 13 32 hln 100 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 51 39 hrn 100 V- n 50 60 v
+a 0 u 1 0 45 62 hcn 100 PIN=4
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 50 60 hln 100 FLOAT=n
+p 2 41 28 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=7
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 50 10
+50 20
+;
+v 0 50 40
+50 50
+;
+*symbol MAX4278ESA/MXM
+d 330MHZ,GAIN +2 CLOSED-LOOP BUFFER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 47 hln 100 PART=MAX4278ESA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4278/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %in %gnd %v+ %v- %out @model ?value/@value/
+@pins
+p 2 21 47 hln 100 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=2
+a 0 u 0 0 30 60 hln 100 ERC=i
+a 0 u 0 0 30 60 hln 100 FLOAT=n
+p 2 13 32 hln 100 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 51 39 hrn 100 V- n 50 60 v
+a 0 u 1 0 45 62 hcn 100 PIN=4
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 50 60 hln 100 FLOAT=n
+p 2 41 27 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=7
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 50 10
+50 20
+;
+v 0 50 40
+50 50
+;
+*symbol MAX4278MJA/MXM
+d 330MHZ,GAIN +2 CLOSED-LOOP BUFFER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 47 hln 100 PART=MAX4278MJA/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX4278/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %in %gnd %v+ %v- %out @model ?value/@value/
+@pins
+p 2 22 46 hln 100 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 100 PIN=2
+a 0 u 0 0 30 60 hln 100 ERC=i
+a 0 u 0 0 30 60 hln 100 FLOAT=n
+p 2 13 32 hln 100 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 51 39 hrn 100 V- n 50 60 v
+a 0 u 1 0 45 62 hcn 100 PIN=4
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 50 60 hln 100 FLOAT=n
+p 2 41 26 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=7
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 50 10
+50 20
+;
+v 0 50 40
+50 50
+;
+*symbol MAX496CPE/MXM
+d 375MHZ CLOSED-LOOP VIDEO BUFFER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 70 80 hln 100 PART=MAX496CPE/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX496/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %GND0 %+V0 %-V0 %OUT  @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 42 hln 100 IN n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=2
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 28 67 drn 100 GND0 n 30 80 v
+a 0 u 1 0 32 75 dln 100 PIN=1
+a 0 u 0 0 30 80 hln 100 ERC=x
+a 0 u 0 0 30 80 hln 100 FLOAT=n
+p 2 38 67 drn 100 GND1 n 40 80 v
+a 0 u 1 0 42 75 dln 100 PIN=3
+a 0 u 0 0 40 80 hln 100 ERC=x
+a 0 u 0 0 40 80 hln 100 FLOAT=u
+p 2 48 67 drn 100 GND2 n 50 80 v
+a 0 u 1 0 52 75 dln 100 PIN=5
+a 0 u 0 0 50 80 hln 100 ERC=x
+a 0 u 0 0 50 80 hln 100 FLOAT=u
+p 2 77 42 hrn 100 OUT n 90 40 u
+a 0 u 1 0 85 38 hln 100 PIN=16
+a 0 u 0 0 90 40 hln 100 ERC=o
+a 0 u 0 0 90 40 hln 100 FLOAT=n
+p 2 28 13 dln 100 +V0 n 30 0 d
+a 0 u 1 0 32 5 drn 100 PIN=9
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+p 2 38 13 dln 100 +V1 n 40 0 d
+a 0 u 1 0 42 5 drn 100 PIN=15
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=u
+p 2 48 13 dln 100 -V0 n 50 0 d
+a 0 u 1 0 52 5 drn 100 PIN=11
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=e
+p 2 58 67 drn 100 GND3 n 60 80 v
+a 0 u 1 0 62 75 dln 100 PIN=7
+a 0 u 0 0 60 80 hln 100 ERC=x
+a 0 u 0 0 -10 0 hln 100 float=u
+p 2 58 13 dln 100 -V1 n 60 0 d
+a 0 u 1 0 62 5 drn 100 PIN=13
+a 0 u 0 0 60 0 hln 100 ERC=x
+a 0 u 0 0 -10 0 hln 100 float=u
+@graphics 90 80 0 40 10
+r 0 10 10 80 70
+*symbol MAX496CSE/MXM
+d 375MHZ CLOSED-LOOP VIDEO BUFFER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 70 80 hln 100 PART=MAX496CSE/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX496/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %GND0 %+V0 %-V0 %OUT  @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 42 hln 100 IN n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=2
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 28 67 drn 100 GND0 n 30 80 v
+a 0 u 1 0 32 75 dln 100 PIN=1
+a 0 u 0 0 30 80 hln 100 ERC=x
+a 0 u 0 0 30 80 hln 100 FLOAT=n
+p 2 38 67 drn 100 GND1 n 40 80 v
+a 0 u 1 0 42 75 dln 100 PIN=3
+a 0 u 0 0 40 80 hln 100 ERC=x
+a 0 u 0 0 40 80 hln 100 FLOAT=u
+p 2 48 67 drn 100 GND2 n 50 80 v
+a 0 u 1 0 52 75 dln 100 PIN=5
+a 0 u 0 0 50 80 hln 100 ERC=x
+a 0 u 0 0 50 80 hln 100 FLOAT=u
+p 2 77 42 hrn 100 OUT n 90 40 u
+a 0 u 1 0 85 38 hln 100 PIN=16
+a 0 u 0 0 90 40 hln 100 ERC=o
+a 0 u 0 0 90 40 hln 100 FLOAT=n
+p 2 28 13 dln 100 +V0 n 30 0 d
+a 0 u 1 0 32 5 drn 100 PIN=9
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+p 2 38 13 dln 100 +V1 n 40 0 d
+a 0 u 1 0 42 5 drn 100 PIN=15
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=u
+p 2 48 13 dln 100 -V0 n 50 0 d
+a 0 u 1 0 52 5 drn 100 PIN=11
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=e
+p 2 58 67 drn 100 GND3 n 60 80 v
+a 0 u 1 0 62 75 dln 100 PIN=7
+a 0 u 0 0 60 80 hln 100 ERC=x
+a 0 u 0 0 -10 0 hln 100 float=u
+p 2 58 13 dln 100 -V1 n 60 0 d
+a 0 u 1 0 62 5 drn 100 PIN=13
+a 0 u 0 0 60 0 hln 100 ERC=x
+a 0 u 0 0 -10 0 hln 100 float=u
+@graphics 90 80 0 40 10
+r 0 10 10 80 70
+*symbol MAX497CPE/MXM
+d 375MHZ CLOSED-LOOP VIDEO BUFFER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 70 80 hln 100 PART=MAX497CPE/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX497/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %GND0 %+V0 %-V0 %OUT  @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 42 hln 100 IN n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=2
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 28 67 drn 100 GND0 n 30 80 v
+a 0 u 1 0 32 75 dln 100 PIN=1
+a 0 u 0 0 30 80 hln 100 ERC=x
+a 0 u 0 0 30 80 hln 100 FLOAT=n
+p 2 38 67 drn 100 GND1 n 40 80 v
+a 0 u 1 0 42 75 dln 100 PIN=3
+a 0 u 0 0 40 80 hln 100 ERC=x
+a 0 u 0 0 40 80 hln 100 FLOAT=u
+p 2 48 67 drn 100 GND2 n 50 80 v
+a 0 u 1 0 52 75 dln 100 PIN=5
+a 0 u 0 0 50 80 hln 100 ERC=x
+a 0 u 0 0 50 80 hln 100 FLOAT=u
+p 2 77 42 hrn 100 OUT n 90 40 u
+a 0 u 1 0 85 38 hln 100 PIN=16
+a 0 u 0 0 90 40 hln 100 ERC=o
+a 0 u 0 0 90 40 hln 100 FLOAT=n
+p 2 28 13 dln 100 +V0 n 30 0 d
+a 0 u 1 0 32 5 drn 100 PIN=9
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+p 2 38 13 dln 100 +V1 n 40 0 d
+a 0 u 1 0 42 5 drn 100 PIN=15
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=u
+p 2 48 13 dln 100 -V0 n 50 0 d
+a 0 u 1 0 52 5 drn 100 PIN=11
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=e
+p 2 58 67 drn 100 GND3 n 60 80 v
+a 0 u 1 0 62 75 dln 100 PIN=7
+a 0 u 0 0 60 80 hln 100 ERC=x
+a 0 u 0 0 -10 0 hln 100 float=u
+p 2 58 13 dln 100 -V1 n 60 0 d
+a 0 u 1 0 62 5 drn 100 PIN=13
+a 0 u 0 0 60 0 hln 100 ERC=x
+a 0 u 0 0 -10 0 hln 100 float=u
+@graphics 90 80 0 40 10
+r 0 10 10 80 70
+*symbol MAX497CSE/MXM
+d 375MHZ CLOSED-LOOP VIDEO BUFFER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 70 80 hln 100 PART=MAX497CSE/MXM
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX497/MXM
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %GND0 %+V0 %-V0 %OUT  @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 42 hln 100 IN n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=2
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 40 hln 100 FLOAT=n
+p 2 28 67 drn 100 GND0 n 30 80 v
+a 0 u 1 0 32 75 dln 100 PIN=1
+a 0 u 0 0 30 80 hln 100 ERC=x
+a 0 u 0 0 30 80 hln 100 FLOAT=n
+p 2 38 67 drn 100 GND1 n 40 80 v
+a 0 u 1 0 42 75 dln 100 PIN=3
+a 0 u 0 0 40 80 hln 100 ERC=x
+a 0 u 0 0 40 80 hln 100 FLOAT=u
+p 2 48 67 drn 100 GND2 n 50 80 v
+a 0 u 1 0 52 75 dln 100 PIN=5
+a 0 u 0 0 50 80 hln 100 ERC=x
+a 0 u 0 0 50 80 hln 100 FLOAT=u
+p 2 77 42 hrn 100 OUT n 90 40 u
+a 0 u 1 0 85 38 hln 100 PIN=16
+a 0 u 0 0 90 40 hln 100 ERC=o
+a 0 u 0 0 90 40 hln 100 FLOAT=n
+p 2 28 13 dln 100 +V0 n 30 0 d
+a 0 u 1 0 32 5 drn 100 PIN=9
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+p 2 38 13 dln 100 +V1 n 40 0 d
+a 0 u 1 0 42 5 drn 100 PIN=15
+a 0 u 0 0 40 0 hln 100 ERC=x
+a 0 u 0 0 40 0 hln 100 FLOAT=u
+p 2 48 13 dln 100 -V0 n 50 0 d
+a 0 u 1 0 52 5 drn 100 PIN=11
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=e
+p 2 58 67 drn 100 GND3 n 60 80 v
+a 0 u 1 0 62 75 dln 100 PIN=7
+a 0 u 0 0 60 80 hln 100 ERC=x
+a 0 u 0 0 -10 0 hln 100 float=u
+p 2 58 13 dln 100 -V1 n 60 0 d
+a 0 u 1 0 62 5 drn 100 PIN=13
+a 0 u 0 0 60 0 hln 100 ERC=x
+a 0 u 0 0 -10 0 hln 100 float=u
+@graphics 90 80 0 40 10
+r 0 10 10 80 70

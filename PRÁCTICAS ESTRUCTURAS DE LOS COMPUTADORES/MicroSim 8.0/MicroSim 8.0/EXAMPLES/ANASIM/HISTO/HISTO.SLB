@@ -1,0 +1,32 @@
+*version 5.4 112836748
+@index
+symloc OneStage 0 819
+*symbol OneStage
+d 
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 ipin(0)=0
+a 0 u 0 0 0 0 hln 100 ipin(V-)=V-
+a 0 u 0 0 0 0 hln 100 ipin(V+)=V+
+a 0 ap 9 0 38 -2 hln 100 REFDES=U?
+a 0 sp 0 0 32 48 hln 100 PART=OneStage
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %0 %V- %V+ @model
+a 0 u 13 13 10 60 hlb 100 Rin=100
+a 0 u 13 13 10 70 hlb 100 Rfeedback=20k
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=onestage.sch
+@pins
+p 2 12 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 0 0 3 18 hln 100 pin=1
+p 2 48 22 hrn 100 OUT n 60 20 u
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 0 0 53 18 hln 100 pin=2
+p 2 18 10 hcn 100 0 n 20 -10 d
+a 0 u 13 0 22 -2 hln 100 pin=3
+p 2 30 10 hcn 100 V- n 30 -10 d
+a 0 u 13 0 32 -2 hln 100 pin=4
+p 2 20 38 hcn 100 V+ n 20 50 v
+a 0 u 13 0 22 48 hln 100 pin=5
+@graphics 60 40 0 20 10
+r 0 10 0 50 40

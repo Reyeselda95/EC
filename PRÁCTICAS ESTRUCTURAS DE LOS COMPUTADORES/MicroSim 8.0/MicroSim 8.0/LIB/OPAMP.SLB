@@ -1,0 +1,3749 @@
+*version 7.2 3782041577
+@index
+symloc AD648A:412/OP 0 147
+symloc AD648B:412/OP 147 147
+symloc AD648C:412/OP 294 147
+symloc AD741:741/OP 441 137
+symloc CA723:vreg-pre 578 151
+symloc CA3085 729 1166
+symloc CA3085/25C 1895 1223
+symloc HA-2600 3118 1398
+symloc HA-5154 4516 955
+symloc L161 5471 919
+symloc LAS1505:1505/OP 6390 157
+symloc LAS1512:1505/OP 6547 157
+symloc LAS1515:1505/OP 6704 157
+symloc LAS1805:1805/OP 6861 157
+symloc LAS1812:1805/OP 7018 157
+symloc LAS1815:1805/OP 7175 157
+symloc LF411:411/OP 7332 148
+symloc LF412:412/OP 7480 150
+symloc LM101A:101/OP 7630 140
+symloc LM108:108/OP 7770 137
+symloc LM111:111/OP 7907 137
+symloc LM117:Vreg-adj 8044 163
+symloc LM118:118/OP 8207 137
+symloc LM119:119/OP 8344 137
+symloc LM120K-5:1805/OP 8481 160
+symloc LM124:124/OP 8641 150
+symloc LM124/TEMP:op5 8791 267
+symloc LM124A:op5 9058 214
+symloc LM129 9272 440
+symloc LM129/-55C 9712 502
+symloc LM129/125C 10214 502
+symloc LM129/27C 10716 498
+symloc LM137HVH 11214 583
+symloc LM138:Vreg-adj 11797 155
+symloc LM139:139/OP 11952 150
+symloc LM139/TEMP:139/OP 12102 225
+symloc LM140-5:7805/OP 12327 157
+symloc LM140A-5:7805/OP 12484 160
+symloc LM140-12:7805/OP 12644 160
+symloc LM140-15:7805/OP 12804 160
+symloc LM150:Vreg-adj 12964 155
+symloc LM158:412/OP 13119 150
+symloc LM185 13269 559
+symloc LM185/-55C 13828 646
+symloc LM185/125C 14474 646
+symloc LM185/27C 15120 642
+symloc LM185/27C/RAD 15762 670
+symloc LM193:412/OP 16432 150
+symloc LM196 16582 557
+symloc LM201A:101/OP 17139 140
+symloc LM208:108/OP 17279 137
+symloc LM211:111/OP 17416 137
+symloc LM218:118/OP 17553 137
+symloc LM219:119/OP 17690 137
+symloc LM224:124/OP 17827 150
+symloc LM239:139/OP 17977 150
+symloc LM258:412/OP 18127 150
+symloc LM293:412/OP 18277 150
+symloc LM301A:101/OP 18427 140
+symloc LM308:108/OP 18567 136
+symloc LM311:111/OP 18703 137
+symloc LM318:118/OP 18840 137
+symloc LM319:119/OP 18977 137
+symloc LM320K-5:1805/OP 19114 160
+symloc LM320T-5:7905/OP 19274 160
+symloc LM324:124/OP 19434 150
+symloc LM339:139/OP 19584 150
+symloc LM340-5:7805/OP 19734 157
+symloc LM340A-5:7805/OP 19891 160
+symloc LM340-12:7805/OP 20051 160
+symloc LM340-15:7805/OP 20211 160
+symloc LM358:412/OP 20371 150
+symloc LM393:412/OP 20521 150
+symloc LM675:675/OP 20671 134
+symloc LM709:709/OP 20805 137
+symloc LM709A:709/OP 20942 140
+symloc LM709C:709/OP 21082 140
+symloc LM723:vreg-pre 21222 151
+symloc LM723C:vreg-pre 21373 154
+symloc LM741:741/OP 21527 150
+symloc LM3302:139/OP 21677 153
+symloc LM7805C:7805/OP 21830 157
+symloc LM7812C:7805/OP 21987 157
+symloc LM7815C:7805/OP 22144 157
+symloc LM7905C:7905/OP 22301 157
+symloc LM7912C:7905/OP 22458 157
+symloc LM7915C:7905/OP 22615 157
+symloc LT1084C:Vreg-adj 22772 173
+symloc LM120K-12:1805/OP 22945 163
+symloc LM120K-15:1805/OP 23108 163
+symloc LM140A-12:7805/OP 23271 163
+symloc LM140A-15:7805/OP 23434 163
+symloc LM320K-12:1805/OP 23597 163
+symloc LM320K-15:1805/OP 23760 163
+symloc LM320T-12:7905/OP 23923 163
+symloc LM320T-15:7905/OP 24086 163
+symloc LM340A-12:7805/OP 24249 163
+symloc LM340A-15:7805/OP 24412 163
+symloc MC1458:412/OP 24575 154
+symloc MC1458C:412/OP 24729 157
+symloc MC1458S:412/OP 24886 157
+symloc MC1558:412/OP 25043 154
+symloc MC1558S:412/OP 25197 157
+symloc MC1709:709/OP 25354 140
+symloc MC1709A:709/OP 25494 143
+symloc MC1709C:709/OP 25637 143
+symloc MC1723C:vreg-pre 25780 157
+symloc MC1741:741/OP 25937 140
+symloc MC7805C:7805/OP 26077 157
+symloc MC7812C:7805/OP 26234 157
+symloc MC7815C:7805/OP 26391 157
+symloc MC7905C:7905/OP 26548 157
+symloc MC7912C:7905/OP 26705 157
+symloc MC7915C:7905/OP 26862 157
+symloc MC33076:412/OP 27019 157
+symloc MPR155 27176 1235
+symloc OP-07:07/OP 28411 136
+symloc OP-27:07/OP 28547 136
+symloc OP-471A:124/OP 28683 155
+symloc OP-471E:124/OP 28838 156
+symloc OP-471F:124/OP 28994 155
+symloc OP-471G:124/OP 29149 156
+symloc OPA3581J:3581/OP 29305 150
+symloc OPA3582J:3581/OP 29455 150
+symloc OPA3583:3581/OP 29605 145
+symloc OPA3584J:3584/OP 29750 152
+symloc PM-741:741/OP 29902 140
+symloc RC723:vreg-pre 30042 151
+symloc REF-02 30193 650
+symloc SG340-5:7805/OP 30843 157
+symloc SG340-12:7805/OP 31000 160
+symloc SG723C:vreg-pre 31160 154
+symloc SG7805:7805/OP 31314 264
+symloc SG7805/27C:7805/OP 31578 316
+symloc SG7812:7805/OP 31894 264
+symloc SG7812/27C:7805/OP 32158 316
+symloc SG7915:7905/OP 32474 217
+symloc SG7805C:7805/OP 32691 157
+symloc SG7812C:7805/OP 32848 157
+symloc SG7815C:7805/OP 33005 157
+symloc SG7905C:7905/OP 33162 157
+symloc SG7912C:7905/OP 33319 157
+symloc SG7915C:7905/OP 33476 157
+symloc SMX10114 33633 1241
+symloc TL082:412/OP 34874 150
+symloc TL084:124/OP 35024 150
+symloc TL780-05C:7805/OP 35174 163
+symloc TL780-12C:7805/OP 35337 163
+symloc TL780-15C:7805/OP 35500 163
+symloc SG137 35663 564
+symloc SG137/27C 36227 615
+symloc TL783C 36842 561
+symloc uA709:709/OP 37403 137
+symloc UA709A:709/OP 37540 157
+symloc UA709C:709/OP 37697 157
+symloc UA723/27C 37854 1526
+symloc UA723/TEMP 39380 1536
+symloc uA723C:vreg-pre 40916 154
+symloc uA723M:vreg-pre 41070 154
+symloc uA741:741/OP 41224 150
+symloc UA771:741/OP 41374 137
+symloc UA771A:741/OP 41511 140
+symloc UA772:412/OP 41651 142
+symloc UA772A:412/OP 41793 153
+symloc UA772L:412/OP 41946 153
+symloc UA798:412/OP 42099 142
+symloc uA7805C:7805/OP 42241 156
+symloc UA7805/TEMP 42397 618
+symloc uA7812C:7805/OP 43015 157
+symloc uA7815C:7805/OP 43172 157
+symloc UA78M05 43329 567
+symloc F78M12 43896 563
+symloc UA78M12/27C 44459 621
+symloc UA78M15 45080 565
+symloc uA7905C:7905/OP 45645 157
+symloc uA7912C:7905/OP 45802 157
+symloc uA7915C:7905/OP 45959 157
+symloc UC7805C:7805/OP 46116 157
+symloc UC7812C:7805/OP 46273 157
+symloc UC7815C:7805/OP 46430 157
+symloc UC7905C:7905/OP 46587 157
+symloc UC7912C:7905/OP 46744 157
+symloc UC7915C:7905/OP 46901 157
+symloc UPC7805:7805/OP 47058 157
+symloc UPC7812:7805/OP 47215 157
+symloc UA79M05 47372 576
+symloc UA79M15 47948 576
+symloc Vreg-adj 48524 550 b
+symloc Vreg-neg 49074 548 b
+symloc Vreg-pos 49622 548 b
+symloc vreg-pre 50170 1406 b
+symloc op5 51576 937 b
+symloc op6 52513 913 b
+symloc op7 53426 1009 b
+symloc 07/OP 54435 1243 b
+symloc 101/OP 55678 1345 b
+symloc 108/OP 57023 1209 b
+symloc 111/OP 58232 1372 b
+symloc 118/OP 59604 1381 b
+symloc 119/OP 60985 1085 b
+symloc 124/OP 62070 940 b
+symloc 139/OP 63010 940 b
+symloc 411/OP 63950 1253 b
+symloc 412/OP 65203 939 b
+symloc 675/OP 66142 939 b
+symloc 709/OP 67081 1346 b
+symloc 741/OP 68427 1244 b
+symloc 1505/OP 69671 637 b
+symloc 1805/OP 70308 637 b
+symloc 3581/OP 70945 1292 b
+symloc 3584/OP 72237 1386 b
+symloc 7805/OP 73623 637 b
+symloc 7905/OP 74260 637 b
+symloc LM12CLK 74897 954
+symloc LM317K,LM317H,LM317T 75851 578
+symloc LM385Z-1.2,LM385M-1.2 76429 625
+symloc LM759CP 77054 952
+symloc LM759CH 78006 1251
+symloc MAX402CPA,MAX402CSA,MAX402EPA,MAX402ESA 79257 1255
+symloc MAX403CPA,MAX403CSA,MAX403EPA,MAX403ESA 80512 1255
+symloc copyright 81767 575 b
+*symbol AD648A ako 412/OP
+d Low Power BiFET Op Amp
+@type p
+@attributes
+a 0 sp 11 0 44 68 hln 100 PART=AD648A
+a 0 sp 0 0 50 60 hln 100 MODEL=AD648A
+*symbol AD648B ako 412/OP
+d Low Power BiFET Op Amp
+@type p
+@attributes
+a 0 sp 11 0 44 68 hln 100 PART=AD648B
+a 0 sp 0 0 50 60 hln 100 MODEL=AD648B
+*symbol AD648C ako 412/OP
+d Low Power BiFET Op Amp
+@type p
+@attributes
+a 0 sp 11 0 44 68 hln 100 PART=AD648C
+a 0 sp 0 0 50 60 hln 100 MODEL=AD648C
+*symbol AD741 ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=AD741
+a 0 sp 0 0 50 60 hln 100 MODEL=AD741
+*symbol CA723 ako vreg-pre
+d Precision Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 76 98 hln 100 PART=CA723
+a 0 sp 0 0 76 98 hln 100 MODEL=CA723
+*symbol CA3085
+d Precision Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 8 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %OUT %CB %VIN %V- %Vref %IN- %COMP %CL 0 @MODEL
+a 0 sp 11 0 76 98 hln 100 PART=CA3085
+a 0 sp 0 0 76 98 hln 100 MODEL=CA3085
+@pins
+p 2 87 52 hrn 100 OUT n 100 50 u
+a 0 u 1 0 95 48 hln 100 pin=1
+a 0 u 0 0 100 50 hln 100 ERC=o
+p 2 35 88 hln 100 V- n 40 100 v
+a 0 u 1 0 35 102 hcn 100 pin=4
+a 0 u 0 0 32 100 hln 100 ERC=i
+p 2 62 87 hln 100 COMP n 70 100 v
+a 0 u 1 0 65 102 hcn 100 pin=7
+a 0 u 0 0 56 100 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 42 hln 100 IN- n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=6
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 13 62 hln 100 VIN n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=3
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 13 22 hln 100 CB n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 CL n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=8
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 82 hln 100 Vref n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=5
+a 0 u 0 0 0 80 hln 100 ERC=x
+@graphics 100 100 0 20 10
+r 0 10 10 90 90
+v 0 30 30
+30 70
+;
+v 0 30 30
+70 50
+;
+v 0 70 50
+30 70
+;
+s 26 32 42 hln 100 -
+s 26 32 62 hln 100 +
+*symbol CA3085/25C
+d Precision Voltage Regulator @25C
+@type p
+@attributes
+a 1 ap 9 0 16 8 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %OUT %CB %VIN %V- %Vref %IN- %COMP %CL @MODEL
+a 0 sp 11 0 76 98 hln 100 PART=CA3085/25C
+a 0 sp 0 0 76 98 hln 100 MODEL=CA3085/25C
+a 0 s 0 0 76 98 hln 100 COMPONENT=CA3085
+@pins
+p 2 87 52 hrn 100 OUT n 100 50 u
+a 0 u 1 0 95 48 hln 100 pin=1
+a 0 u 0 0 100 50 hln 100 ERC=o
+p 2 38 88 hln 100 V- n 40 100 v
+a 0 u 1 0 35 102 hcn 100 pin=4
+a 0 u 0 0 32 100 hln 100 ERC=i
+p 2 62 87 hln 100 COMP n 70 100 v
+a 0 u 1 0 65 102 hcn 100 pin=7
+a 0 u 0 0 56 100 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 42 hln 100 IN- n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=6
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 13 62 hln 100 VIN n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=3
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 13 22 hln 100 CB n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 CL n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=8
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 82 hln 100 Vref n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=5
+a 0 u 0 0 0 80 hln 100 ERC=x
+@graphics 100 100 0 20 10
+r 0 10 10 90 90
+v 0 30 30
+30 70
+;
+v 0 30 30
+70 50
+;
+v 0 70 50
+30 70
+;
+s 26 32 42 hln 100 -
+s 26 32 62 hln 100 +
+*symbol HA-2600
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT 0 @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=HA-2600
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2600
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 60 33 hrn 50 COMP n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+p 2 44 38 hln 50 B2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=5
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 110 -10 hln 100 float=u
+p 2 48 25 hrn 50 B1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+56 37
+;
+v 0 60 40
+70 40
+;
+v 0 60 10
+70 10
+;
+*symbol HA-5154
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT 0 @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=HA-5154
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5154
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol L161
+d Voltage Comparator
+@type p
+@attributes
+a 1 sp 9 0 50 10 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %ISET @MODEL
+a 0 sp 11 0 60 61 hcn 100 PART=L161
+a 0 sp 0 0 50 60 hcn 100 MODEL=L161
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=13
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+p 2 56 36 hrn 75 ISET n 80 50 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 1 0 75 48 hln 100 pin=15
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=16
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=9
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol LAS1505 ako 1505/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LAS1505
+a 0 sp 0 0 38 10 hcn 100 MODEL=LAS1505
+*symbol LAS1512 ako 1505/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LAS1512
+a 0 sp 0 0 38 10 hcn 100 MODEL=LAS1512
+*symbol LAS1515 ako 1505/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LAS1515
+a 0 sp 0 0 38 10 hcn 100 MODEL=LAS1515
+*symbol LAS1805 ako 1805/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LAS1805
+a 0 sp 0 0 38 10 hcn 100 MODEL=LAS1805
+*symbol LAS1812 ako 1805/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LAS1812
+a 0 sp 0 0 38 10 hcn 100 MODEL=LAS1812
+*symbol LAS1815 ako 1805/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LAS1815
+a 0 sp 0 0 38 10 hcn 100 MODEL=LAS1815
+*symbol LF411 ako 411/OP
+d JFET-input opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LF411
+a 0 sp 0 0 50 60 hln 100 MODEL=LF411
+*symbol LF412 ako 412/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LF412
+a 0 sp 0 0 50 60 hln 100 MODEL=LF412
+*symbol LM101A ako 101/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM101A
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM101A
+*symbol LM108 ako 108/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM108
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM108
+*symbol LM111 ako 111/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM111
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM111
+*symbol LM117 ako Vreg-adj
+d 3-Terminal Adjustable Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 38 10 hcn 100 PART=LM117
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM117
+*symbol LM118 ako 118/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LM118
+a 0 sp 0 0 50 60 hln 100 MODEL=LM118
+*symbol LM119 ako 119/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM119
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM119
+*symbol LM120K-5 ako 1805/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM120K-5
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM120K-5
+*symbol LM124 ako 124/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM124
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM124
+*symbol LM124/TEMP ako op5
+d Texas Instruments Opamp
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT 0 @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=LM124/TEMP
+a 0 sp 0 0 50 60 hln 100 MODEL=LM124/TEMP
+a 0 s 0 0 50 60 hln 100 COMPONENT=LM124
+*symbol LM124A ako op5
+d Texas Instrument Opamp
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT 0 @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=LM124A
+a 0 sp 0 0 50 60 hln 100 MODEL=LM124A
+*symbol LM129
+d Voltage Reference
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %A %C  @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=LM129
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM129
+@pins
+p 2 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 C n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM129/-55C
+d Voltage Reference @ -55C
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %A %C  @MODEL
+a 0 sp 11 0 41 50 hcn 100 PART=LM129/-55C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM129/-55C
+a 0 s 0 0 38 10 hcn 100 COMPONENT=LM129
+@pins
+p 2 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 C n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM129/125C
+d Voltage Reference @ 125C
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %A %C  @MODEL
+a 0 sp 11 0 41 50 hcn 100 PART=LM129/125C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM129/125C
+a 0 s 0 0 38 10 hcn 100 COMPONENT=LM129
+@pins
+p 2 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 C n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM129/27C
+d Voltage Reference @ 27C
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %A %C  @MODEL
+a 0 sp 11 0 41 50 hcn 100 PART=LM129/27C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM129/27C
+a 0 s 0 0 38 10 hcn 100 COMPONENT=LM129
+@pins
+p 2 13 22 hln 100 A n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 C n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM137HVH
+d 3 Terminal Adjustable Negative Voltage Regulator
+@type p
+@attributes
+a 1 ap 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %ADJ @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=LM137HVH
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM137HVH
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 30 38 hln 100 ADJ n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 37 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM138 ako Vreg-adj
+d 5A Adjustable Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 38 10 hcn 100 PART=LM138
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM138
+*symbol LM139 ako 139/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM139
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM139
+*symbol LM139/TEMP ako 139/OP
+d 5-connection opamp subcircuit - Temperature model
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM139/TEMP
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM139/TEMP
+a 0 s 0 0 50 60 hcn 100 COMPONENT=LM139
+*symbol LM140-5 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM140-5
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM140-5
+*symbol LM140A-5 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM140A-5
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM140A-5
+*symbol LM140-12 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM140-12
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM140-12
+*symbol LM140-15 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM140-15
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM140-15
+*symbol LM150 ako Vreg-adj
+d 3A Adjustable Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 38 10 hcn 100 PART=LM150
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM150
+*symbol LM158 ako 412/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LM158
+a 0 sp 0 0 50 60 hln 100 MODEL=LM158
+*symbol LM185
+d Adjustable Micropower Voltage Reference
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %ADJ %-  @MODEL
+a 0 sp 11 0 69 49 hcn 100 PART=LM185
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM185
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 67 22 hrn 100 - n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=3
+p 2 28 36 hln 100 ADJ n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 40 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM185/-55C
+d Adjustable Micropower Voltage Reference @ -55C
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %-  @MODEL
+a 0 sp 11 0 41 59 hcn 100 PART=LM185/-55C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM185/-55C
+a 0 s 0 0 38 10 hcn 100 COMPONENT=LM185
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 67 22 hrn 100 - n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=3
+p 2 38 37 drn 100 ADJ n 40 50 v
+a 0 u 1 0 42 45 dln 100 PIN=1
+a 0 u 0 0 40 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM185/125C
+d Adjustable Micropower Voltage Reference @ 125C
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %-  @MODEL
+a 0 sp 11 0 42 60 hcn 100 PART=LM185/125C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM185/125C
+a 0 s 0 0 38 10 hcn 100 COMPONENT=LM185
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 67 22 hrn 100 - n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=3
+p 2 38 37 drn 100 ADJ n 40 50 v
+a 0 u 1 0 42 45 dln 100 PIN=1
+a 0 u 0 0 40 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM185/27C
+d Adjustable Micropower Voltage Reference @ 27C
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %-  @MODEL
+a 0 sp 11 0 40 59 hcn 100 PART=LM185/27C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM185/27C
+a 0 s 0 0 38 10 hcn 100 COMPONENT=LM185
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 67 22 hrn 100 - n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=3
+p 2 38 37 drn 100 ADJ n 40 50 v
+a 0 u 1 0 42 45 dln 100 PIN=1
+a 0 u 0 0 40 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM185/27C/RAD
+d Adjustable Micropower Voltage Reference Radiation model @ 27C
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %-  @MODEL
+a 0 sp 11 0 45 59 hcn 100 PART=LM185/27C/RAD
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM185/27C/RAD
+a 0 s 0 0 38 10 hcn 100 COMPONENT=LM185
+@pins
+p 2 13 22 hln 100 + n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 67 22 hrn 100 - n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=3
+p 2 38 37 drn 100 ADJ n 40 50 v
+a 0 u 1 0 42 45 dln 100 PIN=1
+a 0 u 0 0 40 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM193 ako 412/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LM193
+a 0 sp 0 0 50 60 hln 100 MODEL=LM193
+*symbol LM196
+d 10A Adjustable Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %ADJ %OUT @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=LM196
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM196
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=1
+p 2 39 38 hcn 100 ADJ n 40 50 v
+a 0 u 0 0 0 -10 hln 100 ERC=x
+a 0 u 1 0 35 52 hcn 100 pin=2
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM201A ako 101/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM201A
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM201A
+*symbol LM208 ako 108/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM208
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM208
+*symbol LM211 ako 111/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM211
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM211
+*symbol LM218 ako 118/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LM218
+a 0 sp 0 0 50 60 hln 100 MODEL=LM218
+*symbol LM219 ako 119/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM219
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM219
+*symbol LM224 ako 124/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM224
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM224
+*symbol LM239 ako 139/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM239
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM239
+*symbol LM258 ako 412/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LM258
+a 0 sp 0 0 50 60 hln 100 MODEL=LM258
+*symbol LM293 ako 412/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LM293
+a 0 sp 0 0 50 60 hln 100 MODEL=LM293
+*symbol LM301A ako 101/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM301A
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM301A
+*symbol LM308 ako 108/OP
+d pamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM308
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM308
+*symbol LM311 ako 111/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM311
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM311
+*symbol LM318 ako 118/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LM318
+a 0 sp 0 0 50 60 hln 100 MODEL=LM318
+*symbol LM319 ako 119/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM319
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM319
+*symbol LM320K-5 ako 1805/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM320K-5
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM320K-5
+*symbol LM320T-5 ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM320T-5
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM320T-5
+*symbol LM324 ako 124/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM324
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM324
+*symbol LM339 ako 139/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM339
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM339
+*symbol LM340-5 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM340-5
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM340-5
+*symbol LM340A-5 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM340A-5
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM340A-5
+*symbol LM340-12 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM340-12
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM340-12
+*symbol LM340-15 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM340-15
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM340-15
+*symbol LM358 ako 412/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LM358
+a 0 sp 0 0 50 60 hln 100 MODEL=LM358
+*symbol LM393 ako 412/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=LM393
+a 0 sp 0 0 50 60 hln 100 MODEL=LM393
+*symbol LM675 ako 675/OP
+d Power op amp
+@type p
+@attributes
+a 0 sp 11 0 48 68 hln 100 PART=LM675
+a 0 sp 0 0 50 60 hln 100 MODEL=LM675
+*symbol LM709 ako 709/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM709
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM709
+*symbol LM709A ako 709/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM709A
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM709A
+*symbol LM709C ako 709/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM709C
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM709C
+*symbol LM723 ako vreg-pre
+d Precision Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 76 98 hln 100 PART=LM723
+a 0 sp 0 0 76 98 hln 100 MODEL=LM723
+*symbol LM723C ako vreg-pre
+d Precision Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 76 98 hln 100 PART=LM723C
+a 0 sp 0 0 76 98 hln 100 MODEL=LM723C
+*symbol LM741 ako 741/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM741
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM741
+*symbol LM3302 ako 139/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=LM3302
+a 0 sp 0 0 50 60 hcn 100 MODEL=LM3302
+*symbol LM7805C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM7805C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM7805C
+*symbol LM7812C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM7812C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM7812C
+*symbol LM7815C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM7815C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM7815C
+*symbol LM7905C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM7905C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM7905C
+*symbol LM7912C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM7912C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM7912C
+*symbol LM7915C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM7915C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM7915C
+*symbol LT1084C ako Vreg-adj
+d 5A Low Dropout Adjustable Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 38 10 hcn 100 PART=LT1084C
+a 0 sp 0 0 38 10 hcn 100 MODEL=LT1084C
+*symbol LM120K-12 ako 1805/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM120K-12
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM120K-12
+*symbol LM120K-15 ako 1805/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM120K-15
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM120K-15
+*symbol LM140A-12 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM140A-12
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM140A-12
+*symbol LM140A-15 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM140A-15
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM140A-15
+*symbol LM320K-12 ako 1805/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM320K-12
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM320K-12
+*symbol LM320K-15 ako 1805/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM320K-15
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM320K-15
+*symbol LM320T-12 ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM320T-12
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM320T-12
+*symbol LM320T-15 ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM320T-15
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM320T-15
+*symbol LM340A-12 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM340A-12
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM340A-12
+*symbol LM340A-15 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=LM340A-15
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM340A-15
+*symbol MC1458 ako 412/OP
+d 5-connection op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MC1458
+a 0 sp 0 0 50 60 hln 100 MODEL=MC1458
+*symbol MC1458C ako 412/OP
+d 5-connection op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MC1458C
+a 0 sp 0 0 50 60 hln 100 MODEL=MC1458C
+*symbol MC1458S ako 412/OP
+d 5-connection op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MC1458S
+a 0 sp 0 0 50 60 hln 100 MODEL=MC1458S
+*symbol MC1558 ako 412/OP
+d 5-connection op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MC1558
+a 0 sp 0 0 50 60 hln 100 MODEL=MC1558
+*symbol MC1558S ako 412/OP
+d 5-connection op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MC1558S
+a 0 sp 0 0 50 60 hln 100 MODEL=MC1558S
+*symbol MC1709 ako 709/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=MC1709
+a 0 sp 0 0 50 60 hcn 100 MODEL=MC1709
+*symbol MC1709A ako 709/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=MC1709A
+a 0 sp 0 0 50 60 hcn 100 MODEL=MC1709A
+*symbol MC1709C ako 709/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=MC1709C
+a 0 sp 0 0 50 60 hcn 100 MODEL=MC1709C
+*symbol MC1723C ako vreg-pre
+d Precision Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 76 98 hln 100 PART=MC1723C
+a 0 sp 0 0 76 98 hln 100 MODEL=MC1723C
+*symbol MC1741 ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MC1741
+a 0 sp 0 0 50 60 hln 100 MODEL=MC1741
+*symbol MC7805C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=MC7805C
+a 0 sp 0 0 38 10 hcn 100 MODEL=MC7805C
+*symbol MC7812C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=MC7812C
+a 0 sp 0 0 38 10 hcn 100 MODEL=MC7812C
+*symbol MC7815C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=MC7815C
+a 0 sp 0 0 38 10 hcn 100 MODEL=MC7815C
+*symbol MC7905C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=MC7905C
+a 0 sp 0 0 38 10 hcn 100 MODEL=MC7905C
+*symbol MC7912C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=MC7912C
+a 0 sp 0 0 38 10 hcn 100 MODEL=MC7912C
+*symbol MC7915C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 38 10 hcn 100 PART=MC7915C
+a 0 sp 0 0 38 10 hcn 100 MODEL=MC7915C
+*symbol MC33076 ako 412/OP
+d 5-connection op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MC33076
+a 0 sp 0 0 50 60 hln 100 MODEL=MC33076
+*symbol MPR155
+d Opamp
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT 0 @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=MPR155
+a 0 sp 0 0 50 60 hln 100 MODEL=MPR155
+a 1 sp 9 0 0 0 hln 100 REFDES=U?
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=5
+a 0 u 0 0 0 12 hln 100 ERC=x
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 51 hln 100 ERC=x
+p 2 34 43 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 39 56 hln 100 ERC=x
+p 2 34 23 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 45 3 hln 100 ERC=x
+p 2 47 25 hln 50 VC n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=3
+a 0 u 0 0 55 1 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 59 29 hrn 50 BW1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=12
+a 0 u 0 0 78 12 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 0 67 32 hrn 85 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=10
+a 0 u 0 0 78 34 hln 100 ERC=x
+p 2 52 38 hrn 50 BW2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=14
+a 0 u 0 0 81 55 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 50 10
+50 20
+;
+v 0 70 10
+60 20
+;
+v 0 10 0
+70 30
+;
+v 0 60 20
+56 24
+;
+*symbol OP-07 ako 07/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=OP-07
+a 0 sp 0 0 50 60 hcn 100 MODEL=OP-07
+*symbol OP-27 ako 07/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=OP-27
+a 0 sp 0 0 50 60 hcn 100 MODEL=OP-27
+*symbol OP-471A ako 124/OP
+d High Speed Low Noise Op Amp
+@type p
+@attributes
+a 0 sp 11 0 -6 68 hln 100 PART=OP-471A
+a 0 sp 0 0 50 60 hln 100 MODEL=OP-471A
+*symbol OP-471E ako 124/OP
+d High Speed Low Noise Op Amp
+@type p
+@attributes
+a 0 sp 11 0 -12 70 hln 100 PART=OP-471E
+a 0 sp 0 0 50 60 hln 100 MODEL=OP-471E
+*symbol OP-471F ako 124/OP
+d High Speed Low Noise Op Amp
+@type p
+@attributes
+a 0 sp 11 0 -8 68 hln 100 PART=OP-471F
+a 0 sp 0 0 50 60 hln 100 MODEL=OP-471F
+*symbol OP-471G ako 124/OP
+d High Speed Low Noise Op Amp
+@type p
+@attributes
+a 0 sp 11 0 -10 68 hln 100 PART=OP-471G
+a 0 sp 0 0 50 60 hln 100 MODEL=OP-471G
+*symbol OPA3581J ako 3581/OP
+d High Power Op Amp
+@type p
+@attributes
+a 0 sp 11 0 -12 68 hln 100 PART=OPA3581J
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA3581J
+*symbol OPA3582J ako 3581/OP
+d High Power Op Amp
+@type p
+@attributes
+a 0 sp 11 0 -10 68 hln 100 PART=OPA3582J
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA3582J
+*symbol OPA3583 ako 3581/OP
+d High Power Op Amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=OPA3583
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA3583
+*symbol OPA3584J ako 3584/OP
+d High Voltage Op Amp
+@type p
+@attributes
+a 0 sp 11 0 -12 70 hln 100 PART=OPA3584J
+a 0 sp 0 0 50 60 hln 100 MODEL=OPA3584J
+*symbol PM-741 ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=PM-741
+a 0 sp 0 0 50 60 hln 100 MODEL=PM-741
+*symbol RC723 ako vreg-pre
+d Precision Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 76 98 hln 100 PART=RC723
+a 0 sp 0 0 76 98 hln 100 MODEL=RC723
+*symbol REF-02
+d Voltage Reference
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %TEMP 0 %TRIM %OUT @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=REF-02
+a 0 sp 0 0 38 10 hcn 100 MODEL=REF-02
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=6
+p 2 24 38 hcn 100 TEMP n 20 50 v
+a 0 u 0 0 -20 -10 hln 100 ERC=x
+a 0 u 1 0 15 52 hcn 100 pin=3
+p 2 46 38 hln 100 TRIM n 60 50 v
+a 0 u 1 0 55 52 hcn 100 pin=5
+a 0 u 0 0 57 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol SG340-5 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=SG340-5
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG340-5
+*symbol SG340-12 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=SG340-12
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG340-12
+*symbol SG723C ako vreg-pre
+d Precision Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 76 98 hln 100 PART=SG723C
+a 0 sp 0 0 76 98 hln 100 MODEL=SG723C
+*symbol SG7805 ako 7805/OP
+d 3 Terminal Positive Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %COMMON @MODEL
+a 0 sp 11 0 78 50 hcn 100 PART=SG7805
+a 0 sp 13 0 38 10 hcn 100 MODEL=SG7805
+*symbol SG7805/27C ako 7805/OP
+d 3 Terminal Positive Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %COMMON @MODEL
+a 0 sp 11 0 78 50 hcn 100 PART=SG7805/27C
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG7805/27C
+a 0 s 0 0 38 10 hcn 100 COMPONENT=SG7805
+*symbol SG7812 ako 7805/OP
+d 3 Terminal Positive Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %COMMON @MODEL
+a 0 sp 11 0 78 50 hcn 100 PART=SG7812
+a 0 sp 13 0 38 10 hcn 100 MODEL=SG7812
+*symbol SG7812/27C ako 7805/OP
+d 3 Terminal Positive Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %COMMON @MODEL
+a 0 sp 11 0 78 50 hcn 100 PART=SG7812/27C
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG7812/27C
+a 0 s 0 0 38 10 hcn 100 COMPONENT=SG7812
+*symbol SG7915 ako 7905/OP
+d Negative Voltage Regulators
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=SG7915
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG7915
+a 1 s 0 0 0 0 hcn 100 template=X^@refdes %GND %OUT %IN 0 @MODEL
+*symbol SG7805C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=SG7805C
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG7805C
+*symbol SG7812C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=SG7812C
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG7812C
+*symbol SG7815C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=SG7815C
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG7815C
+*symbol SG7905C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=SG7905C
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG7905C
+*symbol SG7912C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=SG7912C
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG7912C
+*symbol SG7915C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=SG7915C
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG7915C
+*symbol SMX10114
+d Opamp
+@type p
+@attributes
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT 0 @MODEL
+a 0 sp 11 0 47 64 hln 100 PART=SMX10114
+a 0 sp 0 0 50 60 hln 100 MODEL=SMX10114
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=5
+a 0 u 0 0 0 12 hln 100 ERC=x
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 51 hln 100 ERC=x
+p 2 33 43 hln 100 V- n 40 60 v
+a 0 u 0 0 35 62 hcn 100 pin=6
+a 0 u 0 0 39 56 hln 100 ERC=x
+p 2 33 23 hln 100 V+ n 40 0 d
+a 0 u 0 0 45 3 hcn 100 pin=14
+a 0 u 0 0 45 3 hln 100 ERC=x
+p 2 47 25 hln 50 VC n 50 0 d
+a 0 u 0 0 55 3 hcn 100 pin=1
+a 0 u 0 0 55 1 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 59 29 hrn 50 BW1 n 80 10 u
+a 0 u 0 0 75 8 hln 100 pin=15
+a 0 u 0 0 78 12 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 0 67 32 hrn 85 OUT n 80 30 u
+a 0 u 0 0 75 28 hln 100 pin=13
+a 0 u 0 0 78 34 hln 100 ERC=x
+p 2 51 38 hrn 50 BW2 n 80 50 u
+a 0 u 0 0 75 48 hln 100 pin=18
+a 0 u 0 0 81 55 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 50 10
+50 20
+;
+v 0 70 10
+60 20
+;
+v 0 10 0
+70 30
+;
+v 0 60 20
+56 24
+;
+*symbol TL082 ako 412/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TL082
+a 0 sp 0 0 50 60 hln 100 MODEL=TL082
+*symbol TL084 ako 124/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=TL084
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL084
+*symbol TL780-05C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=TL780-05C
+a 0 sp 0 0 38 10 hcn 100 MODEL=TL780-05C
+*symbol TL780-12C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=TL780-12C
+a 0 sp 0 0 38 10 hcn 100 MODEL=TL780-12C
+*symbol TL780-15C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=TL780-15C
+a 0 sp 0 0 38 10 hcn 100 MODEL=TL780-15C
+*symbol SG137
+d 3 Terminal Negative Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %ADJ %OUT %IN 0 @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=SG137
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG137
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 30 38 hln 100 ADJ n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 37 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol SG137/27C
+d 3 Terminal Negative Voltage Regulator
+@type p
+@attributes
+a 1 ap 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %ADJ @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=SG137/27C
+a 0 sp 0 0 38 10 hcn 100 MODEL=SG137/27C
+a 0 s 0 0 38 10 hcn 100 COMPONENT=SG137
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 30 38 hln 100 ADJ n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 37 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol TL783C
+d High Voltage Adjustable Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %ADJ %OUT @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=TL783C
+a 0 sp 0 0 38 10 hcn 100 MODEL=TL783C
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 39 38 hcn 100 ADJ n 40 50 v
+a 0 u 0 0 0 -10 hln 100 ERC=x
+a 0 u 1 0 35 52 hcn 100 pin=1
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol uA709 ako 709/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=uA709
+a 0 sp 0 0 50 60 hcn 100 MODEL=uA709
+*symbol UA709A ako 709/OP
+d High performance opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=UA709A
+a 0 sp 0 0 50 60 hcn 100 MODEL=UA709A
+*symbol UA709C ako 709/OP
+d High performance opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=UA709C
+a 0 sp 0 0 50 60 hcn 100 MODEL=UA709C
+*symbol UA723/27C
+d Precision Voltage Regulator - Temp Model
+@type p
+@attributes
+a 1 s 9 0 16 8 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %CS %- %+ %Vref %Vcc- %OUT %Vc %Vcc+ %CL 0 @MODEL
+a 0 sp 11 0 76 98 hln 100 PART=UA723/27C
+a 0 sp 0 0 76 98 hln 100 MODEL=UA723/27C
+a 0 s 0 0 76 98 hln 100 COMPONENT=UA723
+@pins
+p 2 32 18 hln 100 Vcc+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=12
+a 0 u 0 0 34 6 hln 100 ERC=i
+p 2 64 18 hln 100 Vc n 70 0 d
+a 0 u 1 0 75 3 hcn 100 pin=11
+a 0 u 0 0 66 6 hln 100 ERC=p
+p 2 87 52 hrn 100 OUT n 100 50 u
+a 0 u 1 0 95 48 hln 100 pin=10
+a 0 u 0 0 100 50 hln 100 ERC=o
+p 2 30 88 hln 100 Vcc- n 40 100 v
+a 0 u 1 0 35 102 hcn 100 pin=7
+a 0 u 0 0 32 100 hln 100 ERC=i
+p 2 62 87 hln 50 COMP n 70 100 v
+a 0 u 1 0 65 102 hcn 100 pin=13
+a 0 u 0 0 56 100 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 42 hln 100 - n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 13 62 hln 100 + n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 13 22 hln 100 CL n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 CS n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 82 hln 100 Vref n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=6
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 13 72 hln 50 Vz n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=9
+a 0 u 0 0 0 70 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 100 100 0 20 10
+r 0 10 10 90 90
+v 0 30 30
+30 70
+;
+v 0 30 30
+70 50
+;
+v 0 70 50
+30 70
+;
+s 26 32 42 hln 100 -
+s 26 32 62 hln 100 +
+*symbol UA723/TEMP
+d Precision Voltage Regulator - Temp Model
+@type p
+@attributes
+a 1 s 9 0 16 8 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %CS %- %+ %Vref %Vcc- %OUT %Vc %Vcc+ %COMP %CL 0 @MODEL
+a 0 sp 11 0 76 98 hln 100 PART=UA723/TEMP
+a 0 sp 0 0 76 98 hln 100 MODEL=UA723/TEMP
+a 0 s 0 0 76 98 hln 100 COMPONENT=UA723
+@pins
+p 2 32 18 hln 100 Vcc+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=12
+a 0 u 0 0 34 6 hln 100 ERC=i
+p 2 64 18 hln 100 Vc n 70 0 d
+a 0 u 1 0 75 3 hcn 100 pin=11
+a 0 u 0 0 66 6 hln 100 ERC=p
+p 2 87 52 hrn 100 OUT n 100 50 u
+a 0 u 1 0 95 48 hln 100 pin=10
+a 0 u 0 0 100 50 hln 100 ERC=o
+p 2 30 88 hln 100 Vcc- n 40 100 v
+a 0 u 1 0 35 102 hcn 100 pin=7
+a 0 u 0 0 32 100 hln 100 ERC=i
+p 2 59 87 hln 100 COMP n 70 100 v
+a 0 u 1 0 65 102 hcn 100 pin=13
+a 0 u 0 0 56 100 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 42 hln 100 - n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 13 62 hln 100 + n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 13 22 hln 100 CL n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 CS n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 82 hln 100 Vref n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=6
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 13 72 hln 50 Vz n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=9
+a 0 u 0 0 0 70 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 100 100 0 20 10
+r 0 10 10 90 90
+v 0 30 30
+30 70
+;
+v 0 30 30
+70 50
+;
+v 0 70 50
+30 70
+;
+s 26 32 42 hln 100 -
+s 26 32 62 hln 100 +
+*symbol uA723C ako vreg-pre
+d Precision Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 76 98 hln 100 PART=uA723C
+a 0 sp 0 0 76 98 hln 100 MODEL=uA723C
+*symbol uA723M ako vreg-pre
+d Precision Voltage Regulator
+@type p
+@attributes
+a 0 sp 11 0 76 98 hln 100 PART=uA723M
+a 0 sp 0 0 76 98 hln 100 MODEL=uA723M
+*symbol uA741 ako 741/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=uA741
+a 0 sp 0 0 50 60 hcn 100 MODEL=uA741
+*symbol UA771 ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=UA771
+a 0 sp 0 0 50 60 hln 100 MODEL=UA771
+*symbol UA771A ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=UA771A
+a 0 sp 0 0 50 60 hln 100 MODEL=UA771A
+*symbol UA772 ako 412/OP
+d dual opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=UA772
+a 0 sp 0 0 50 60 hln 100 MODEL=UA772
+*symbol UA772A ako 412/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=UA772A
+a 0 sp 0 0 50 60 hln 100 MODEL=UA772A
+*symbol UA772L ako 412/OP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=UA772L
+a 0 sp 0 0 50 60 hln 100 MODEL=UA772L
+*symbol UA798 ako 412/OP
+d dual opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=UA798
+a 0 sp 0 0 50 60 hln 100 MODEL=UA798
+*symbol uA7805C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 8 hcn 100 PART=uA7805C
+a 0 sp 0 0 38 10 hcn 100 MODEL=uA7805C
+*symbol UA7805/TEMP
+d 3 Terminal Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %COMMON @MODEL
+a 0 sp 11 0 78 50 hcn 100 PART=UA7805/TEMP
+a 0 sp 0 0 38 10 hcn 100 MODEL=UA7805/TEMP
+a 0 s 0 0 38 10 hcn 100 COMPONENT=UA7805
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 19 38 hln 100 COMMON n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=3
+a 0 u 0 0 37 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol uA7812C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=uA7812C
+a 0 sp 0 0 38 10 hcn 100 MODEL=uA7812C
+*symbol uA7815C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=uA7815C
+a 0 sp 0 0 38 10 hcn 100 MODEL=uA7815C
+*symbol UA78M05
+d 3 Terminal Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %COMMON 0 @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=UA78M05
+a 0 sp 0 0 38 10 hcn 100 MODEL=UA78M05
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 19 38 hln 100 COMMON n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=3
+a 0 u 0 0 37 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol F78M12
+d 3 Terminal Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %COMMON @MODEL
+a 0 sp 11 0 78 49 hcn 100 PART=F78M12
+a 0 sp 13 0 38 10 hcn 100 MODEL=F78M12
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 19 38 hln 100 COMMON n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=3
+a 0 u 0 0 37 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol UA78M12/27C
+d 3 Terminal Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %COMMON 0 @MODEL
+a 0 sp 11 0 78 49 hcn 100 PART=UA78M12/27C
+a 0 sp 0 0 38 10 hcn 100 MODEL=UA78M12/27C
+a 0 s 0 0 38 10 hcn 100 COMPONENT=UA78M12
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 19 38 hln 100 COMMON n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=3
+a 0 u 0 0 37 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol UA78M15
+d 3 Terminal Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %COMMON @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=UA78M15
+a 0 sp 0 0 38 10 hcn 100 MODEL=UA78M15
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 19 38 hln 100 COMMON n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=3
+a 0 u 0 0 37 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol uA7905C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=uA7905C
+a 0 sp 0 0 38 10 hcn 100 MODEL=uA7905C
+*symbol uA7912C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=uA7912C
+a 0 sp 0 0 38 10 hcn 100 MODEL=uA7912C
+*symbol uA7915C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=uA7915C
+a 0 sp 0 0 38 10 hcn 100 MODEL=uA7915C
+*symbol UC7805C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=UC7805C
+a 0 sp 0 0 38 10 hcn 100 MODEL=UC7805C
+*symbol UC7812C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=UC7812C
+a 0 sp 0 0 38 10 hcn 100 MODEL=UC7812C
+*symbol UC7815C ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=UC7815C
+a 0 sp 0 0 38 10 hcn 100 MODEL=UC7815C
+*symbol UC7905C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 38 10 hcn 100 PART=UC7905C
+a 0 sp 0 0 38 10 hcn 100 MODEL=UC7905C
+*symbol UC7912C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=UC7912C
+a 0 sp 0 0 38 10 hcn 100 MODEL=UC7912C
+*symbol UC7915C ako 7905/OP
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=UC7915C
+a 0 sp 0 0 38 10 hcn 100 MODEL=UC7915C
+*symbol UPC7805 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=UPC7805
+a 0 sp 0 0 38 10 hcn 100 MODEL=UPC7805
+*symbol UPC7812 ako 7805/OP
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 0 sp 11 0 40 10 hcn 100 PART=UPC7812
+a 0 sp 0 0 38 10 hcn 100 MODEL=UPC7812
+*symbol UA79M05
+d 3 Terminal Negative Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %COMMON 0 @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=UA79M05
+a 0 sp 0 0 38 10 hcn 100 MODEL=UA79M05
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 19 38 hln 100 COMMON n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 37 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol UA79M15
+d 3 Terminal Negative Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %COMMON %OUT %IN 0 @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=UA79M15
+a 0 sp 0 0 38 10 hcn 100 MODEL=UA79M15
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 19 38 hln 100 COMMON n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 37 48 hln 100 ERC=x
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol Vreg-adj b
+d Voltage Regulator (adjustable)
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %ADJ %OUT @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=
+a 0 sp 0 0 38 10 hcn 100 MODEL=
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=3
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+p 2 39 38 hcn 100 ADJ n 40 50 v
+a 0 u 0 0 0 -10 hln 100 ERC=x
+a 0 u 1 0 35 52 hcn 100 pin=1
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol Vreg-neg b
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %GND @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=
+a 0 sp 0 0 38 10 hcn 100 MODEL=
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 0 0 75 18 hln 100 pin=2
+p 2 39 38 hcn 100 GND n 40 50 v
+a 0 u 0 0 0 -10 hln 100 ERC=p
+a 0 u 0 0 35 52 hcn 100 pin=3
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol Vreg-pos b
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %GND @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=
+a 0 sp 0 0 38 10 hcn 100 MODEL=
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 5 18 hrn 100 pin=1
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 0 0 75 18 hln 100 pin=2
+p 2 39 38 hcn 100 GND n 40 50 v
+a 0 u 0 0 0 -10 hln 100 ERC=p
+a 0 u 0 0 35 52 hcn 100 pin=3
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol vreg-pre b
+d Precision Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 8 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %CL %CS %- %+ %Vref %Vcc- %Vz %OUT %Vc %Vcc+ %COMP @MODEL
+a 0 sp 11 0 76 98 hln 100 PART=
+a 0 sp 0 0 76 98 hln 100 MODEL=
+@pins
+p 2 32 18 hln 100 Vcc+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=12
+a 0 u 0 0 34 6 hln 100 ERC=i
+p 2 64 18 hln 100 Vc n 70 0 d
+a 0 u 1 0 75 3 hcn 100 pin=11
+a 0 u 0 0 66 6 hln 100 ERC=p
+p 2 87 52 hrn 100 OUT n 100 50 u
+a 0 u 1 0 95 48 hln 100 pin=10
+a 0 u 0 0 100 50 hln 100 ERC=o
+p 2 30 88 hln 100 Vcc- n 40 100 v
+a 0 u 1 0 35 102 hcn 100 pin=7
+a 0 u 0 0 32 100 hln 100 ERC=i
+p 2 58 88 hln 100 COMP n 70 100 v
+a 0 u 1 0 65 102 hcn 100 pin=13
+a 0 u 0 0 56 100 hln 100 ERC=x
+p 2 13 42 hln 100 - n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 13 62 hln 100 + n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 13 22 hln 100 CL n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 CS n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 82 hln 100 Vref n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=6
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 13 72 hln 100 Vz n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=9
+a 0 u 0 0 0 70 hln 100 ERC=x
+@graphics 100 100 0 20 10
+r 0 10 10 90 90
+v 0 30 30
+30 70
+;
+v 0 30 30
+70 50
+;
+v 0 70 50
+30 70
+;
+s 26 32 42 hln 100 -
+s 26 32 62 hln 100 +
+*symbol op5 b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol op6 b
+d 6-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %6 @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 75 28 hln 100 pin=6
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 8 hrn 100 pin=3
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 48 hrn 100 pin=2
+p 0 67 52 hrn 100 6 n 80 50 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 -5 2 hln 100 pin=
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 45 3 hcn 100 pin=7
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 62 hcn 100 pin=4
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol op7 b
+d 7-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %6 %7 @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 75 28 hln 100 pin=6
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 8 hrn 100 pin=3
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 48 hrn 100 pin=2
+p 0 67 42 hrn 100 6 n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=x
+a 0 u 0 0 75 38 hln 100 pin=8
+p 0 62 48 hln 100 7 n 60 60 v
+a 0 u 0 0 55 62 hcn 100 pin=1
+a 0 u 0 0 60 60 hln 100 ERC=x
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 45 3 hcn 100 pin=7
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 62 hcn 100 pin=4
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+*symbol 07/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 37 hrn 50 OS1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 78 46 hln 100 ERC=i
+a 0 u 0 0 18 96 hln 100 float=u
+p 2 52 26 hrn 50 OS2 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 80 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 101/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 16 0 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %C1 %C2 @MODEL
+a 0 sp 11 0 0 70 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 59 34 hrn 60 C1 n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=i
+a 0 u 1 0 75 38 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 46 38 hln 60 C2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=8
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 43 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 51 25 hrn 60 B n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+v 0 70 10
+50 20
+;
+*symbol 108/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 16 0 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %C1 %C2 @MODEL
+a 0 sp 11 0 0 70 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 60 33 hrn 60 C1 n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=i
+a 0 u 1 0 75 38 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 44 38 hln 60 C2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=8
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+*symbol 111/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 18 0 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %G @MODEL
+a 0 sp 11 0 0 70 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 51 39 hrn 50 G n 80 50 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 59 29 hrn 50 B/S n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=6
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 48 25 hln 50 B n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=5
+a 0 u 0 0 52 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 50 10
+50 20
+;
+v 0 70 10
+60 20
+;
+v 0 10 0
+70 30
+;
+v 0 60 20
+56 24
+;
+*symbol 118/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 58 35 hrn 50 C2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+p 2 45 39 hln 50 C3 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=5
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 110 -10 hln 100 float=u
+p 2 51 24 hrn 50 C1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+56 37
+;
+v 0 60 40
+70 40
+;
+v 0 60 10
+70 10
+;
+*symbol 119/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 18 0 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %G @MODEL
+a 0 sp 11 0 0 70 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=12
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 37 hrn 100 G n 80 50 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 1 0 75 48 hln 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 10 0
+70 30
+;
+*symbol 124/OP b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 139/OP b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=12
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 411/OP b
+d JFET-input opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 B1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 46 hln 100 ERC=i
+a 0 u 0 0 20 96 hln 100 float=u
+p 2 52 25 hrn 50 B2 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 82 10 hln 100 ERC=i
+a 0 u 0 0 82 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 412/OP b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 675/OP b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 ap 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 709/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 16 0 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %CA %CB @MODEL
+a 0 sp 11 0 0 70 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 59 34 hrn 60 CA n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=i
+a 0 u 1 0 75 38 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 43 39 hln 60 CB n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=8
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 43 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 50 25 hrn 50 CO n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+v 0 70 10
+50 20
+;
+*symbol 741/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 53 37 hrn 50 OS1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 78 44 hln 100 ERC=i
+a 0 u 0 0 18 94 hln 100 float=u
+p 2 53 26 hrn 50 OS2 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 80 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 1505/OP b
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %GND @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=
+a 0 sp 0 0 38 10 hcn 100 MODEL=
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 39 38 hcn 100 GND n 40 50 v
+a 0 u 0 0 0 -10 hln 100 ERC=p
+a 0 u 1 0 35 52 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol 1805/OP b
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %GND @MODEL
+a 0 sp 11 0 40 10 hcn 100 PART=
+a 0 sp 0 0 38 10 hcn 100 MODEL=
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 39 38 hcn 100 GND n 40 50 v
+a 0 u 0 0 0 -10 hln 100 ERC=p
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol 3581/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 30 hln 50 OS1 n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=3
+a 0 u 0 0 56 2 hln 100 ERC=i
+a 0 u 0 0 106 62 hln 100 float=u
+p 2 42 24 hln 50 OS2 n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=4
+a 0 u 0 0 50 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 10
+50 20
+;
+v 0 60 20
+60 10
+;
+v 0 60 10
+60 20
+;
+v 0 60 20
+60 10
+;
+v 0 60 20
+60 15
+;
+v 0 60 20
+60 15
+;
+v 0 60 20
+60 25
+;
+*symbol 3584/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 44 39 hln 50 Cc n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=8
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 100 -10 hln 100 float=u
+p 2 60 29 hrn 50 OS1 n 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=3
+a 0 u 0 0 80 20 hln 100 ERC=i
+a 0 u 0 0 10 -30 hln 100 float=u
+p 2 51 25 hrn 50 OS2 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=4
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 10
+70 10
+;
+v 0 65 20
+60 25
+;
+v 0 70 20
+65 20
+;
+*symbol 7805/OP b
+d Voltage Regulator (positive)
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %GND @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=
+a 0 sp 0 0 38 10 hcn 100 MODEL=
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 39 38 hcn 100 GND n 40 50 v
+a 0 u 0 0 0 -10 hln 100 ERC=p
+a 0 u 1 0 35 52 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol 7905/OP b
+d Voltage Regulator (negative)
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %OUT %GND @MODEL
+a 0 sp 11 0 40 10 hcn 100 PART=
+a 0 sp 0 0 38 10 hcn 100 MODEL=
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 39 38 hcn 100 GND n 40 50 v
+a 0 u 0 0 0 -10 hln 100 ERC=p
+a 0 u 1 0 35 52 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM12CLK
+d 80W 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 50 hln 100 PART=LM12CLK
+a 0 sp 0 0 50 60 hln 100 MODEL=LM12
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM317K,LM317H,LM317T
+d Positive Adjustable Voltage Regulator
+@type p
+@attributes
+a 1 s 9 0 16 -2 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %IN %ADJ %OUT @MODEL
+a 0 sp 11 0 38 10 hcn 100 PART=LM317K
+a 0 sp 0 0 38 10 hcn 100 MODEL=LM317
+@pins
+p 2 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 2 67 22 hrn 100 OUT n 80 20 u
+a 0 u 0 0 4 -10 hln 100 ERC=o
+a 0 u 1 0 75 18 hln 100 pin=3
+p 2 39 38 hcn 100 ADJ n 40 50 v
+a 0 u 0 0 0 -10 hln 100 ERC=x
+a 0 u 1 0 35 52 hcn 100 pin=1
+@graphics 80 50 0 20 10
+r 0 10 0 70 40
+*symbol LM385Z-1.2,LM385M-1.2
+d zener diode
+@type p
+@attributes
+a 0 sp 11 0 -6 27 hln 100 PART=LM385Z-1.2
+a 0 sp 0 0 15 25 hln 100 MODEL=LM385
+a 0 s 9 0 11 -2 hln 100 refdes=D?
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %A %K @MODEL ~AREA|?value/@value/||@AREA|
+a 0 u 0 0 0 10 hln 100 area=
+a 0 u 0 0 0 20 hln 100 value=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 u 1 0 25 8 hln 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 20 0 10 10
+v 0 10 5
+10 15
+;
+v 0 10 15
+20 10
+;
+v 0 20 10
+10 5
+;
+v 0 17 3
+20 5
+;
+v 0 20 5
+20 15
+;
+v 0 20 15
+23 18
+;
+*symbol LM759CP
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 50 hln 100 PART=LM759CP
+a 0 sp 0 0 50 60 hln 100 MODEL=LM759C
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol LM759CH
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=LM759CH
+a 0 sp 0 0 0 0 hln 100 MODEL=LM759C
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 52 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 38 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX402CPA
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX402CPA
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX402
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 53 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol MAX403CPA
+d Hi-Speed, Lo-Voltage Op-Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=MAX403CPA
+a 0 sp 0 0 0 0 hln 100 MODEL=MAX403
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 80 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 54 27 hrn 80 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 PIN=1
+a 0 u 0 0 80 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 54 37 hrn 80 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 PIN=5
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 44 hln 80 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

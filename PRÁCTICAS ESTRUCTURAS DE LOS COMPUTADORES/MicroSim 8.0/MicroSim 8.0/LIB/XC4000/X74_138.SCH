@@ -1,0 +1,463 @@
+*version 6.3 783334507
+u 509
+XC4000 219289134
+U? 10
+@libraries
+XC4000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 6883 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 510 IF_OUT 750 670 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y7
+port 511 IF_OUT 750 590 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y6
+port 512 IF_OUT 750 510 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y5
+port 513 IF_OUT 750 430 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y4
+port 514 IF_OUT 750 350 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y3
+port 515 IF_OUT 750 270 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y2
+port 516 IF_OUT 750 190 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y1
+port 517 IF_OUT 750 110 h
+a 0 s 3 0 20 8 hln 80 LABEL=Y0
+port 518 IF_IN 150 60 h
+a 0 s 3 0 10 8 hln 80 LABEL=G1
+port 519 IF_IN 150 700 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 520 IF_IN 150 680 h
+a 0 s 3 0 10 8 hln 80 LABEL=B
+port 521 IF_IN 150 660 h
+a 0 s 3 0 10 8 hln 80 LABEL=A
+port 522 IF_IN 150 80 h
+a 0 s 3 0 10 8 hln 80 LABEL=G2A
+port 523 IF_IN 150 100 h
+a 0 s 3 0 10 8 hln 80 LABEL=G2B
+@parts
+part 17 AND3B2 300 60 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U1
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 24 NAND4B3 550 80 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 80 hlt 100 PART=NAND4B3
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 31 NAND4B2 550 160 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 80 hlt 100 PART=NAND4B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 32 NAND4B2 550 240 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 80 hlt 100 PART=NAND4B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 39 NAND4B1 550 320 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 80 hlt 100 PART=NAND4B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 40 NAND4B2 550 400 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U6
+a 0 sp 11 0 10 80 hlt 100 PART=NAND4B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 41 NAND4B1 550 480 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U7
+a 0 sp 11 0 10 80 hlt 100 PART=NAND4B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 42 NAND4B1 550 560 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U8
+a 0 sp 11 0 10 80 hlt 100 PART=NAND4B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+part 49 NAND4 550 640 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U9
+a 0 sp 11 0 10 80 hlt 100 PART=NAND4
+a 0 a 0 0 0 0 hln 100 PKGREF=U9
+@conn
+w 51
+s 630 190 750 190 50
+a 0 s 3 0 710 190 hln 100 LABEL=Y1
+w 59
+s 630 270 750 270 58
+a 0 s 3 0 710 270 hln 100 LABEL=Y2
+w 67
+s 630 350 750 350 66
+a 0 s 3 0 710 350 hln 100 LABEL=Y3
+w 75
+s 630 430 750 430 74
+a 0 s 3 0 710 430 hln 100 LABEL=Y4
+w 83
+s 630 510 750 510 82
+a 0 s 3 0 710 510 hln 100 LABEL=Y5
+w 91
+s 630 590 750 590 90
+a 0 s 3 0 710 590 hln 100 LABEL=Y6
+w 99
+s 630 670 750 670 98
+a 0 s 3 0 710 670 hln 100 LABEL=Y7
+w 122
+s 150 700 490 700 106
+a 0 s 3 0 170 700 hrn 100 LABEL=C
+s 490 700 550 700 113
+s 490 700 490 600 114
+s 490 600 550 600 112
+s 490 600 490 520 115
+s 490 520 550 520 111
+s 490 520 490 420 116
+s 490 420 550 420 110
+s 490 420 490 380 117
+s 490 380 550 380 109
+s 490 380 490 300 118
+s 490 300 550 300 108
+s 490 300 490 220 119
+s 490 220 550 220 107
+s 490 220 490 140 120
+s 490 140 550 140 121
+w 214
+s 380 80 430 80 198
+a 0 s 3 0 390 80 hln 100 LABEL=E
+s 430 160 430 80 212
+s 430 160 550 160 199
+s 430 560 550 560 203
+s 430 640 550 640 204
+s 430 240 550 240 200
+s 430 640 430 560 205
+s 430 560 430 480 206
+s 430 480 550 480 207
+s 430 480 430 400 208
+s 430 400 550 400 202
+s 430 400 430 320 209
+s 430 320 550 320 201
+s 430 320 430 240 210
+s 430 240 430 160 211
+s 430 80 550 80 213
+w 295
+s 150 80 300 80 294
+a 0 s 3 0 160 80 hln 100 LABEL=G2A
+w 303
+s 150 100 300 100 302
+a 0 s 3 0 160 100 hln 100 LABEL=G2B
+w 311
+s 150 60 300 60 310
+a 0 s 3 0 160 60 hln 100 LABEL=G1
+w 334
+s 150 680 470 680 318
+a 0 s 3 0 170 680 hrn 100 LABEL=B
+s 470 680 550 680 325
+s 470 680 470 580 326
+s 470 580 550 580 324
+s 470 580 470 540 327
+s 470 540 550 540 323
+s 470 540 470 460 328
+s 470 460 550 460 322
+s 470 460 470 340 329
+s 470 340 550 340 321
+s 470 340 470 260 330
+s 470 260 550 260 320
+s 470 260 470 200 331
+s 470 200 550 200 319
+s 470 200 470 120 332
+s 470 120 550 120 333
+w 426
+s 150 660 450 660 410
+a 0 s 3 0 170 660 hrn 100 LABEL=A
+s 450 180 550 180 411
+s 450 660 550 660 417
+s 450 660 450 620 418
+s 450 620 550 620 416
+s 450 620 450 500 419
+s 450 500 550 500 415
+s 450 500 450 440 420
+s 450 440 550 440 414
+s 450 440 450 360 421
+s 450 360 550 360 413
+s 450 360 450 280 422
+s 450 280 550 280 412
+s 450 280 450 180 423
+s 450 180 450 100 424
+s 450 100 550 100 425
+w 502
+s 630 110 750 110 501
+a 0 s 3 0 710 110 hln 100 LABEL=Y0
+@junction
+j 630 190
++ p 31 O
++ w 51
+j 630 270
++ p 32 O
++ w 59
+j 630 350
++ p 39 O
++ w 67
+j 630 430
++ p 40 O
++ w 75
+j 630 510
++ p 41 O
++ w 83
+j 630 590
++ p 42 O
++ w 91
+j 630 670
++ p 49 O
++ w 99
+j 490 700
++ w 122
++ w 122
+j 490 600
++ w 122
++ w 122
+j 490 520
++ w 122
++ w 122
+j 490 420
++ w 122
++ w 122
+j 490 380
++ w 122
++ w 122
+j 490 300
++ w 122
++ w 122
+j 490 220
++ w 122
++ w 122
+j 550 140
++ p 24 I0
++ w 122
+j 550 220
++ p 31 I0
++ w 122
+j 550 300
++ p 32 I0
++ w 122
+j 550 380
++ p 39 I0
++ w 122
+j 550 420
++ p 40 I2
++ w 122
+j 550 520
++ p 41 I1
++ w 122
+j 550 600
++ p 42 I1
++ w 122
+j 550 700
++ p 49 I0
++ w 122
+j 430 80
++ w 214
++ w 214
+j 430 160
++ w 214
++ w 214
+j 430 560
++ w 214
++ w 214
+j 430 240
++ w 214
++ w 214
+j 430 480
++ w 214
++ w 214
+j 430 400
++ w 214
++ w 214
+j 430 320
++ w 214
++ w 214
+j 380 80
++ p 17 O
++ w 214
+j 550 80
++ p 24 I3
++ w 214
+j 550 160
++ p 31 I3
++ w 214
+j 550 240
++ p 32 I3
++ w 214
+j 550 320
++ p 39 I3
++ w 214
+j 550 400
++ p 40 I3
++ w 214
+j 550 480
++ p 41 I3
++ w 214
+j 550 560
++ p 42 I3
++ w 214
+j 550 640
++ p 49 I3
++ w 214
+j 300 80
++ p 17 I1
++ w 295
+j 300 100
++ p 17 I0
++ w 303
+j 300 60
++ p 17 I2
++ w 311
+j 470 680
++ w 334
++ w 334
+j 470 580
++ w 334
++ w 334
+j 470 540
++ w 334
++ w 334
+j 470 460
++ w 334
++ w 334
+j 470 340
++ w 334
++ w 334
+j 470 260
++ w 334
++ w 334
+j 470 200
++ w 334
++ w 334
+j 550 120
++ p 24 I1
++ w 334
+j 550 200
++ p 31 I1
++ w 334
+j 550 260
++ p 32 I2
++ w 334
+j 550 340
++ p 39 I2
++ w 334
+j 550 460
++ p 40 I0
++ w 334
+j 550 540
++ p 41 I0
++ w 334
+j 550 580
++ p 42 I2
++ w 334
+j 550 680
++ p 49 I1
++ w 334
+j 450 660
++ w 426
++ w 426
+j 450 180
++ w 426
++ w 426
+j 450 620
++ w 426
++ w 426
+j 450 500
++ w 426
++ w 426
+j 450 440
++ w 426
++ w 426
+j 450 360
++ w 426
++ w 426
+j 450 280
++ w 426
++ w 426
+j 550 100
++ p 24 I2
++ w 426
+j 550 180
++ p 31 I2
++ w 426
+j 550 280
++ p 32 I1
++ w 426
+j 550 360
++ p 39 I1
++ w 426
+j 550 440
++ p 40 I1
++ w 426
+j 550 500
++ p 41 I2
++ w 426
+j 550 620
++ p 42 I0
++ w 426
+j 550 660
++ p 49 I2
++ w 426
+j 630 110
++ p 24 O
++ w 502
+j 750 670
++ s 510
++ w 99
+j 750 590
++ s 511
++ w 91
+j 750 510
++ s 512
++ w 83
+j 750 430
++ s 513
++ w 75
+j 750 350
++ s 514
++ w 67
+j 750 270
++ s 515
++ w 59
+j 750 190
++ s 516
++ w 51
+j 750 110
++ s 517
++ w 502
+j 150 60
++ s 518
++ w 311
+j 150 700
++ s 519
++ w 122
+j 150 680
++ s 520
++ w 334
+j 150 660
++ s 521
++ w 426
+j 150 80
++ s 522
++ w 295
+j 150 100
++ s 523
++ w 303
+@attributes
+@text
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A
+s 5 750 750 hln 100 XC4000 FAMILY X74_138 MACRO
+s 5 710 800 hln 100 1ST MARCH 1993
+s 5 750 770 hln 100 3-LINE TO 8-LINE DECODER/DEMUX
+s 5 660 780 hln 100 WITH ACTIVE LOW OUTPUTS AND THREE ENABLES
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS

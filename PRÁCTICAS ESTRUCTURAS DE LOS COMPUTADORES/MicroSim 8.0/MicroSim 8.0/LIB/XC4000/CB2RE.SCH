@@ -1,0 +1,233 @@
+*version 6.3 2398411285
+u 229
+XC4000 1048459003
+U? 7
+@libraries
+XC4000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3570 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 230 IF_OUT 910 560 h
+a 0 s 3 0 20 8 hln 80 LABEL=CEO
+port 231 IF_IN 170 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+port 232 IF_IN 170 480 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 233 IF_IN 170 460 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 234 IF_OUT 910 490 h
+a 0 s 3 0 20 8 hln 80 LABEL=TC
+port 235 IF_OUT 910 260 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 236 IF_OUT 910 440 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+@parts
+part 14 GND 340 520 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U1
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 19 AND2 740 550 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 20 AND2 740 480 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 28 FTRSE 370 410 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U4
+a 0 sp 11 0 60 10 hcn 200 PART=FTRSE
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 31 VCC 250 260 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U5
+a 0 sp 11 0 20 10 hcn 100 PART=VCC
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 32 FTRSE 370 230 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U6
+a 0 sp 11 0 60 10 hcn 200 PART=FTRSE
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+@conn
+w 39
+s 170 460 290 460 33
+a 0 s 3 0 180 460 hln 100 LABEL=CE
+s 290 460 290 280 35
+s 290 570 740 570 34
+s 290 280 370 280 36
+s 290 460 370 460 37
+s 290 570 290 460 38
+w 68
+s 840 490 910 490 62
+a 0 s 3 0 880 490 hln 100 LABEL=TC
+s 820 490 840 490 64
+s 840 530 840 490 65
+s 720 530 840 530 63
+s 720 550 720 530 66
+s 720 550 740 550 67
+w 89
+s 340 410 370 410 85
+s 340 410 340 230 86
+s 340 230 370 230 87
+s 340 520 340 410 88
+w 112
+s 250 260 370 260 111
+w 129
+s 580 440 910 440 125
+a 0 s 3 0 880 440 hln 100 LABEL=Q1
+s 580 500 580 440 127
+s 580 500 740 500 126
+s 490 440 580 440 128
+w 150
+s 170 510 250 510 146
+a 0 s 3 0 180 510 hln 100 LABEL=R
+s 250 510 250 330 148
+s 250 330 370 330 147
+s 250 510 370 510 149
+w 171
+s 170 480 270 480 167
+a 0 s 3 0 180 480 hln 100 LABEL=C
+s 270 480 370 480 168
+s 270 480 270 300 169
+s 270 300 370 300 170
+w 195
+s 560 260 910 260 187
+a 0 s 3 0 880 260 hln 100 LABEL=Q0
+s 560 480 560 360 191
+s 310 440 370 440 188
+s 310 440 310 360 189
+s 310 360 560 360 190
+s 560 480 740 480 192
+s 560 360 560 260 193
+s 490 260 560 260 194
+w 222
+s 820 560 910 560 221
+a 0 s 3 0 870 560 hln 100 LABEL=CEO
+@junction
+j 290 460
++ w 39
++ w 39
+j 740 570
++ p 19 I0
++ w 39
+j 370 460
++ p 28 CE
++ w 39
+j 370 280
++ p 32 CE
++ w 39
+j 840 490
++ w 68
++ w 68
+j 740 550
++ p 19 I1
++ w 68
+j 820 490
++ p 20 O
++ w 68
+j 340 410
++ w 89
++ w 89
+j 340 520
++ p 14 GROUND
++ w 89
+j 370 410
++ p 28 S
++ w 89
+j 370 230
++ p 32 S
++ w 89
+j 250 260
++ p 31 VCC
++ w 112
+j 370 260
++ p 32 T
++ w 112
+j 580 440
++ w 129
++ w 129
+j 740 500
++ p 20 I0
++ w 129
+j 490 440
++ p 28 Q
++ w 129
+j 250 510
++ w 150
++ w 150
+j 370 510
++ p 28 R
++ w 150
+j 370 330
++ p 32 R
++ w 150
+j 270 480
++ w 171
++ w 171
+j 370 480
++ p 28 C
++ w 171
+j 370 300
++ p 32 C
++ w 171
+j 560 260
++ w 195
++ w 195
+j 560 360
++ w 195
++ w 195
+j 740 480
++ p 20 I1
++ w 195
+j 370 440
++ p 28 T
++ w 195
+j 490 260
++ p 32 Q
++ w 195
+j 820 560
++ p 19 O
++ w 222
+j 910 560
++ s 230
++ w 222
+j 170 510
++ s 231
++ w 150
+j 170 480
++ s 232
++ w 171
+j 170 460
++ s 233
++ w 39
+j 910 490
++ s 234
++ w 68
+j 910 260
++ s 235
++ w 195
+j 910 440
++ s 236
++ w 129
+@attributes
+@text
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 710 800 hln 100 1ST MARCH 1993
+s 5 750 750 hln 100 XC4000 FAMILY CB2RE MACRO
+s 5 750 770 hln 100 2-BIT CASCADABLE BINARY COUNTER
+s 5 750 780 hln 100 WITH CLOCK ENABLE & SYNC RESET
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS

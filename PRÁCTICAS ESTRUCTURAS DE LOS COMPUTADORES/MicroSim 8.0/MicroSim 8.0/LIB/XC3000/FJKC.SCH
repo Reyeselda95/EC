@@ -1,0 +1,200 @@
+*version 6.3 1202989454
+u 219
+XC3000 816143092
+U? 6
+@libraries
+XC3000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC3000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 3117 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 220 IF_IN 160 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 221 IF_IN 160 460 h
+a 0 s 3 0 10 8 hln 80 LABEL=CLR
+port 222 IF_IN 160 380 h
+a 0 s 3 0 10 8 hln 80 LABEL=J
+port 223 IF_OUT 960 390 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q
+port 224 IF_IN 160 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=K
+@parts
+part 17 FDC 660 390 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=FDC
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 AND3B2 380 220 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B2
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 29 AND3B1 380 290 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 60 hlt 100 PART=AND3B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 35 OR3 520 290 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 60 hlt 100 PART=OR3
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 40 AND2B1 380 380 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 40 hlt 100 PART=AND2B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+@conn
+w 44
+s 600 310 630 310 41
+a 0 s 3 0 610 310 hln 100 LABEL=AD
+s 630 390 630 310 43
+s 630 390 660 390 42
+w 59
+s 160 460 660 460 58
+a 0 s 3 0 170 460 hln 100 LABEL=CLR
+w 67
+s 160 430 660 430 66
+a 0 s 3 0 170 430 hln 100 LABEL=C
+w 77
+s 490 330 520 330 74
+a 0 s 3 0 490 330 hln 100 LABEL=A2
+s 490 390 490 330 76
+s 460 390 490 390 75
+w 97
+s 160 380 350 380 91
+a 0 s 3 0 170 380 hln 100 LABEL=J
+s 350 380 380 380 92
+s 350 380 350 290 96
+s 350 260 380 260 93
+s 350 290 350 260 94
+s 350 290 380 290 95
+w 129
+s 160 400 330 400 123
+a 0 s 3 0 170 400 hln 100 LABEL=K
+s 330 400 380 400 124
+s 330 400 330 310 128
+s 330 240 380 240 125
+s 330 310 330 240 126
+s 330 310 380 310 127
+w 158
+s 490 290 520 290 155
+a 0 s 3 0 490 290 hln 100 LABEL=A0
+s 490 290 490 240 157
+s 460 240 490 240 156
+w 173
+s 460 310 520 310 172
+a 0 s 3 0 490 310 hln 100 LABEL=A1
+w 194
+s 810 390 960 390 186
+a 0 s 3 0 940 390 hln 100 LABEL=Q
+s 810 390 810 200 187
+s 310 330 380 330 188
+s 310 330 310 220 189
+s 310 220 380 220 190
+s 310 220 310 200 191
+s 310 200 810 200 192
+s 780 390 810 390 193
+@junction
+j 660 390
++ p 17 D
++ w 44
+j 600 310
++ p 35 O
++ w 44
+j 660 460
++ p 17 CLR
++ w 59
+j 660 430
++ p 17 C
++ w 67
+j 520 330
++ p 35 I0
++ w 77
+j 460 390
++ p 40 O
++ w 77
+j 350 380
++ w 97
++ w 97
+j 350 290
++ w 97
++ w 97
+j 380 260
++ p 23 I0
++ w 97
+j 380 290
++ p 29 I2
++ w 97
+j 380 380
++ p 40 I1
++ w 97
+j 330 400
++ w 129
++ w 129
+j 330 310
++ w 129
++ w 129
+j 380 240
++ p 23 I1
++ w 129
+j 380 310
++ p 29 I1
++ w 129
+j 380 400
++ p 40 I0
++ w 129
+j 460 240
++ p 23 O
++ w 158
+j 520 290
++ p 35 I2
++ w 158
+j 460 310
++ p 29 O
++ w 173
+j 520 310
++ p 35 I1
++ w 173
+j 810 390
++ w 194
++ w 194
+j 310 220
++ w 194
++ w 194
+j 780 390
++ p 17 Q
++ w 194
+j 380 220
++ p 23 I2
++ w 194
+j 380 330
++ p 29 I0
++ w 194
+j 160 430
++ s 220
++ w 67
+j 160 460
++ s 221
++ w 59
+j 160 380
++ s 222
++ w 97
+j 960 390
++ s 223
++ w 194
+j 160 400
++ s 224
++ w 129
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 760 780 hln 100 ASYNCHRONOUS CLEAR
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 760 750 hln 100 XC3000 FAMILY FJKC MACRO
+s 5 760 770 hln 100 J-K FLIP-FLOP WITH
+s 5 710 800 hln 100 23RD FEBRUARY 1993

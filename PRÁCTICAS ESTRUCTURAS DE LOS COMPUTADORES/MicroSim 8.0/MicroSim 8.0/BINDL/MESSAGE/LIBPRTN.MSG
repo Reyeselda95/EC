@@ -1,0 +1,87 @@
+" p_pregrp.c
+>Es prtn grouping constraints
+=        Function %s cannot fit due to grouping constraints.
+& FUNCTION_NAME
+*A signal in user specified grouping or a pin assignment violates 
+*device constraints.
+>Wsd prtn device fixed grouping
+=        Function grouping in PI file DEVICE for %s:%d exceeds limits for:
+& DEVICE DEVICE_NUM
+*Precedes one or more device constraints violated by a group of functions.
+>Wsds prtn section fixed grouping name known
+=        Function grouping in PI file SECTION for %s:%d section %s exceeds limits for:
+& DEVICE DEVICE_NUM SECTION_NAME
+*Precedes one or more device subsection constraints violated by a 
+*group of functions.
+>Wsd prtn section fixed grouping name unknown
+=        Function grouping in PI file SECTION for %s:%d exceeds limits for:
+& DEVICE DEVICE_NUM
+*Precedes one or more device subsection constraints violated by a 
+*group of functions.
+>W prtn number of functions
+=                --- Number of functions
+&*
+>W prtn number of signals
+=                --- Number of signals
+&*
+>W prtn number of clocks
+=                --- Number of clocks
+&*
+>W prtn number of latch enables
+=                --- Number of latch enables
+&*
+>E prtn number of output enables
+=                --- Number of output enables
+&*
+>W prtn number of clock enables
+=                --- Number of clock enables
+&*
+>E prtn number of resets/presets
+=                --- Number of reset and presets
+&*
+>E prtn cannot provide connectivity
+=                --- Cannot provide signal connectivity
+&*
+>W prtn number of rows
+=                --- Number of product terms
+&*
+>W prtn number of inputs
+=                --- Number of inputs
+&*
+>W prtn number of pins
+=                --- Number of pins
+&*
+>W prtn number of outputs
+=                --- Number of outputs
+&*
+>W prtn number of feedbacks
+=                --- Number of feedback paths
+&*
+>W prtn number of input registers
+=                --- Number of input registers (or invalid assignment)
+&*
+>W prtn number of power levels
+=		--- Number of power levels
+&*
+>W prtn group members
+=        The group consists of the following functions:
+*Precedes a listing of a group of functions which violates device constraints.
+>Ws prtn group function
+=                --- %s
+&*
+>Ess prtn section name not valid
+=        SECTION name %s is not valid for device %s.
+& SECTION_NAME DEVICE
+*The device that you have targeted in the .pi file does not have a subsection
+*that corresponds to the given TARGET of one of the SECTIONs in the .pi file.
+>Es prtn function cannot fit due to grouping needs
+=        Function %s cannot fit due to grouping constraints.
+& FUNCTION_NAME
+*Placing this function in this device also requires placing a group of
+*other functions, which could not all be placed.  This may happen because of
+*user-defined grouping in the .pi file or because of pre-enable feedback
+*restrictions.
+>Es prtn pin not valid
+=        Signal %s cannot fit due to invalid pin type.
+& SIGNAL_NAME
+*The user specified pin assignment places the signal on an invalid pin.

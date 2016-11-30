@@ -1,0 +1,423 @@
+*version 6.3 327502719
+u 334
+XC4000E 2152030439
+U? 17
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 7288 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 335 IF_IN 270 770 h
+a 0 s 3 0 10 8 hln 80 LABEL=A15
+port 336 IF_IN 270 730 h
+a 0 s 3 0 10 8 hln 80 LABEL=A14
+port 337 IF_IN 270 690 h
+a 0 s 3 0 10 8 hln 80 LABEL=A13
+port 338 IF_IN 270 650 h
+a 0 s 3 0 10 8 hln 80 LABEL=A12
+port 339 IF_IN 270 610 h
+a 0 s 3 0 10 8 hln 80 LABEL=A11
+port 340 IF_IN 270 570 h
+a 0 s 3 0 10 8 hln 80 LABEL=A10
+port 341 IF_IN 270 530 h
+a 0 s 3 0 10 8 hln 80 LABEL=A9
+port 342 IF_IN 270 490 h
+a 0 s 3 0 10 8 hln 80 LABEL=A8
+port 343 IF_IN 270 290 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+port 344 IF_IN 270 250 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 345 IF_IN 270 210 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 346 INTERFACE 700 170 u
+a 0 s 3 0 10 8 hln 80 LABEL=O
+port 347 IF_IN 270 330 h
+a 0 s 3 0 10 8 hln 80 LABEL=A4
+port 348 IF_IN 270 370 h
+a 0 s 3 0 10 8 hln 80 LABEL=A5
+port 349 IF_IN 270 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=A6
+port 350 IF_IN 270 170 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 351 IF_IN 270 450 h
+a 0 s 3 0 10 8 hln 80 LABEL=A7
+@parts
+part 15 WAND1 390 770 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U1
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 16 WAND1 390 730 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U2
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 17 WAND1 390 690 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U3
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 18 WAND1 390 650 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U4
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 19 WAND1 390 610 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U5
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 20 WAND1 390 570 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U6
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 21 WAND1 390 530 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U7
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 22 WAND1 390 490 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U8
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+part 23 WAND1 390 450 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U9
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U9
+part 24 WAND1 390 410 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U10
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U10
+part 25 WAND1 390 330 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U11
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U11
+part 26 WAND1 390 290 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U12
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U12
+part 27 WAND1 390 250 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U13
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U13
+part 28 WAND1 390 210 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U14
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U14
+part 29 WAND1 390 170 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U15
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U15
+part 30 WAND1 390 370 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U16
+a 0 sp 11 0 40 14 hlt 100 PART=WAND1
+a 0 u 13 13 0 40 hln 100 DECODE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U16
+@conn
+w 32
+s 270 770 390 770 31
+a 0 s 3 0 280 770 hln 100 LABEL=A15
+w 40
+s 270 730 390 730 39
+a 0 s 3 0 280 730 hln 100 LABEL=A14
+w 48
+s 270 690 390 690 47
+a 0 s 3 0 280 690 hln 100 LABEL=A13
+w 56
+s 270 650 390 650 55
+a 0 s 3 0 280 650 hln 100 LABEL=A12
+w 64
+s 270 610 390 610 63
+a 0 s 3 0 280 610 hln 100 LABEL=A11
+w 72
+s 270 570 390 570 71
+a 0 s 3 0 280 570 hln 100 LABEL=A10
+w 80
+s 270 530 390 530 79
+a 0 s 3 0 280 530 hln 100 LABEL=A9
+w 88
+s 270 490 390 490 87
+a 0 s 3 0 280 490 hln 100 LABEL=A8
+w 96
+s 270 450 390 450 95
+a 0 s 3 0 280 450 hln 100 LABEL=A7
+w 104
+s 270 410 390 410 103
+a 0 s 3 0 280 410 hln 100 LABEL=A6
+w 112
+s 270 370 390 370 111
+a 0 s 3 0 280 370 hln 100 LABEL=A5
+w 120
+s 270 330 390 330 119
+a 0 s 3 0 280 330 hln 100 LABEL=A4
+w 128
+s 270 290 390 290 127
+a 0 s 3 0 280 290 hln 100 LABEL=A3
+w 136
+s 270 250 390 250 135
+a 0 s 3 0 280 250 hln 100 LABEL=A2
+w 144
+s 270 210 390 210 143
+a 0 s 3 0 280 210 hln 100 LABEL=A1
+w 152
+s 270 170 390 170 151
+a 0 s 3 0 280 170 hln 100 LABEL=A0
+w 191
+s 580 170 700 170 159
+a 0 s 3 0 680 170 hln 100 LABEL=O
+s 580 730 580 690 163
+s 460 770 580 770 160
+s 580 770 580 730 161
+s 460 730 580 730 162
+s 460 690 580 690 164
+s 580 690 580 650 165
+s 460 650 580 650 166
+s 580 650 580 610 167
+s 460 610 580 610 168
+s 580 610 580 570 169
+s 460 570 580 570 170
+s 580 570 580 530 171
+s 460 530 580 530 172
+s 580 530 580 490 173
+s 460 490 580 490 174
+s 580 490 580 450 175
+s 460 450 580 450 176
+s 580 450 580 410 177
+s 460 410 580 410 178
+s 580 410 580 370 179
+s 460 370 580 370 180
+s 580 370 580 330 181
+s 460 330 580 330 182
+s 580 330 580 290 183
+s 460 290 580 290 184
+s 580 290 580 250 185
+s 460 250 580 250 186
+s 580 250 580 210 187
+s 460 210 580 210 188
+s 580 210 580 170 189
+s 460 170 580 170 190
+@junction
+j 390 770
++ p 15 I
++ w 32
+j 390 730
++ p 16 I
++ w 40
+j 390 690
++ p 17 I
++ w 48
+j 390 650
++ p 18 I
++ w 56
+j 390 610
++ p 19 I
++ w 64
+j 390 570
++ p 20 I
++ w 72
+j 390 530
++ p 21 I
++ w 80
+j 390 490
++ p 22 I
++ w 88
+j 390 450
++ p 23 I
++ w 96
+j 390 410
++ p 24 I
++ w 104
+j 390 370
++ p 30 I
++ w 112
+j 390 330
++ p 25 I
++ w 120
+j 390 290
++ p 26 I
++ w 128
+j 390 250
++ p 27 I
++ w 136
+j 390 210
++ p 28 I
++ w 144
+j 390 170
++ p 29 I
++ w 152
+j 580 170
++ w 191
++ w 191
+j 580 730
++ w 191
++ w 191
+j 580 690
++ w 191
++ w 191
+j 580 650
++ w 191
++ w 191
+j 580 610
++ w 191
++ w 191
+j 580 570
++ w 191
++ w 191
+j 580 530
++ w 191
++ w 191
+j 580 490
++ w 191
++ w 191
+j 580 450
++ w 191
++ w 191
+j 580 410
++ w 191
++ w 191
+j 580 370
++ w 191
++ w 191
+j 580 330
++ w 191
++ w 191
+j 580 290
++ w 191
++ w 191
+j 580 250
++ w 191
++ w 191
+j 580 210
++ w 191
++ w 191
+j 460 770
++ p 15 O
++ w 191
+j 460 730
++ p 16 O
++ w 191
+j 460 690
++ p 17 O
++ w 191
+j 460 650
++ p 18 O
++ w 191
+j 460 610
++ p 19 O
++ w 191
+j 460 570
++ p 20 O
++ w 191
+j 460 530
++ p 21 O
++ w 191
+j 460 490
++ p 22 O
++ w 191
+j 460 450
++ p 23 O
++ w 191
+j 460 410
++ p 24 O
++ w 191
+j 460 330
++ p 25 O
++ w 191
+j 460 290
++ p 26 O
++ w 191
+j 460 250
++ p 27 O
++ w 191
+j 460 210
++ p 28 O
++ w 191
+j 460 170
++ p 29 O
++ w 191
+j 460 370
++ p 30 O
++ w 191
+j 270 770
++ s 335
++ w 32
+j 270 730
++ s 336
++ w 40
+j 270 690
++ s 337
++ w 48
+j 270 650
++ s 338
++ w 56
+j 270 610
++ s 339
++ w 64
+j 270 570
++ s 340
++ w 72
+j 270 530
++ s 341
++ w 80
+j 270 490
++ s 342
++ w 88
+j 270 290
++ s 343
++ w 128
+j 270 250
++ s 344
++ w 136
+j 270 210
++ s 345
++ w 144
+j 700 170
++ s 346
++ w 191
+j 270 330
++ s 347
++ w 120
+j 270 370
++ s 348
++ w 112
+j 270 410
++ s 349
++ w 104
+j 270 170
++ s 350
++ w 152
+j 270 450
++ s 351
++ w 96
+@attributes
+@text
+s 5 710 1070 hln 100 A
+s 5 710 1050 hln 100 1
+s 5 500 1000 hln 100 XC4000E FAMILY DECODE16 MACRO
+s 5 500 1020 hln 100 16-BIT ACTIVE-LOW DECODER
+s 5 460 1050 hln 100 30TH MARCH 1995
+s 5 30 1070 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 30 1060 hln 100 DRAWN BY KS

@@ -1,0 +1,169 @@
+#include "libmutil.msg"
+
+"alloc.c
+>F out of memory
+=[59000] Out of memory.
+
+"main.c
+>Fs cannot open file
+=[59001] Cannot open '%s'.
+>F usage
+=[59002] Usage: a2dsl file.abl
+>M reading
+=Reading ABEL file.
+>M scanning
+=Building internal netlist.
+>M writing
+=Writing DSL file.
+
+>Es parse error
+=[59003] %s
+
+>F macro too many formals
+=[59004] Macro has too many formal parameters.
+
+"lex.c
+>Ed illegal character
+=[59005] Illegal character '%d'.
+>E string missing right quote
+=[59006] String missing right quote.
+>F EOF in MACRO definition
+=[59007] EOF in MACRO definition.
+>F EOF in string
+=[59008] EOF in string.
+>E Illegal DOT token
+=[59009] Illegal DOT extension
+>Ws directive ignored
+=[59010] ABEL directive %s is ignored.
+>Essd parameter mismatch expanding
+=[59011] Mismatch in parameters expanding macro %s in file %s line # %d
+" write.c
+
+>Ws signal has too many oes
+=[59012] The signal %s has too many output enables
+>Ws signal has too many ars
+=[59013] The signal %s has too many async resets
+>Ws signal has too many aps
+=[59014] The signal %s has too many async presets
+>Ws signal has too many ces
+=[59015] The signal %s has too many clock enables
+>Ws signal has too many clks
+=[59016] The signal %s has too many clocks
+
+>Wss unsupported extension
+=[59017] The dot extension %s is unsupported (used on signal %s)
+
+>E assign to signal/set
+=[59018] The target of an assignment must be a signal or a set
+
+>E expressions not allowd in tv header
+=[59019] Expressions are not allowed in a test vector header, ? substituted
+
+>W Negation ignored
+=[59020] Negation of test vector headers ignored -- this may cause errors in test results
+
+>F nest too deep
+=[59021] Nesting too deep.
+
+>Fs cant open input file
+=[59022] Can't open input file %s
+
+>F Ill formaed macro parameter
+=[59023] Ill formed macro parameter
+
+>Fs parameter not found
+=[59024] macro parameter %s not found.
+
+>Es directive unknown
+=[59025] Directive %s is unknown.
+
+>E poorly formed numeric
+=[59026] Poorly formed number.
+
+>E constant has no digits
+=[59027] numeric constant has no digits.
+
+>F eof in string
+=[59028] EOF in a string
+
+>F eof in comment
+=[59029] EOF detected in a comment.
+
+>E illegal DOT token
+=[59030] illegal DOT constant.
+
+>Ed unknown char
+=[59031] Unknown character %d
+
+>Ws new macro def
+=[59032] macro %s redefined
+
+>Es bad number
+=[59033] Constant %s is not a number.
+
+>E bad number const
+=[59034] Bad numeric constant.
+
+>E number out of range
+=[59035] Number is out of range.
+
+>E left not ident
+=[59036] Left hand side of this range is not an identifier.
+
+>E right not ident
+=[59037] Right hand side of this range is not an identifier.
+
+>E left non digit
+=[59038] Left hand side of this range does not end in a digit.
+>E right non digit
+=[59039] Right hand side of this range does not end in a digit.
+>E left no prefix
+=[59040] Left hand side of this range does not have a non-numeric prefix.
+>E right no prefix
+=[59041] Right hand side of this range does not have a non-numeric prefix.
+>E prefixes differ
+=[59042] The prefix of the left hand side of this range does not match the prefix on the right hand side.
+
+>Es signal redefined to const
+=[59043] Signal %s redefined to a constant.
+
+>E not enough const values
+=[59044] This constant declaration does not have enough constant values on the right side.
+>E not enought IDs
+=[59045] This constant declaration does not have enough constant identifiers on the left side.
+
+>Ws signal type changed
+=[59046] The type associated with %s has been changed.
+>Ws signal has too many latch enables
+=[59047] This signal %s has too many latch enables.
+
+>W bad declaration
+=[59048] Bad declaration.
+>W bad equation
+=[59049] Bad equation.
+>W bad truth table
+=[59050] Bad truth table.
+>W bad state diagram
+=[59051] Bad state diagram.
+>W bad test vector section
+=[59052] Bad test vector section.
+>W bad expression
+=[59053] Bad expression.
+
+>W error in abel file
+=[59054] Error(s) in the ABEL file.
+
+>E bad operand for REG_FB_OP
+=[59055] A .fb or .q extension is used on a non-signal.
+
+>Fs cant open dsl
+=[59056] Can't open dsl file %s
+
+>Fs cant open stm
+=[59057] Can't open stm file %s
+
+>Fs pass 1 errors
+=[59058] pass 1 errors in %s
+
+>Mss complete
+=[59059] Processing complete: %s/%s

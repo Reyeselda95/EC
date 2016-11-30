@@ -1,0 +1,242 @@
+*version 6.3 3097804851
+u 212
+XC2000 2768987921
+U? 5
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 3694 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 213 IF_OUT 690 280 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 214 IF_OUT 690 400 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+port 215 IF_IN 170 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 216 IF_IN 170 280 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 217 IF_IN 170 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=D2
+port 218 IF_IN 170 640 h
+a 0 s 3 0 10 8 hln 80 LABEL=D3
+port 219 IF_OUT 690 640 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q3
+port 220 IF_OUT 690 520 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q2
+port 221 IF_IN 170 660 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 222 IF_IN 170 710 h
+a 0 s 3 0 10 8 hln 80 LABEL=CLR
+port 223 IF_IN 170 680 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+@parts
+part 18 FDCE 370 640 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=FDCE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 19 FDCE 370 400 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=FDCE
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 20 FDCE 370 280 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=FDCE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 21 FDCE 370 520 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U4
+a 0 sp 11 0 60 20 hcn 200 PART=FDCE
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 23
+s 170 640 370 640 22
+a 0 s 3 0 180 640 hln 100 LABEL=D3
+w 38
+s 170 710 330 710 30
+a 0 s 3 0 180 710 hln 100 LABEL=CLR
+s 330 710 370 710 31
+s 330 710 330 590 32
+s 330 590 330 470 33
+s 330 470 330 350 34
+s 330 350 370 350 35
+s 330 470 370 470 36
+s 330 590 370 590 37
+w 80
+s 170 680 310 680 72
+a 0 s 3 0 180 680 hln 100 LABEL=C
+s 310 680 310 560 73
+s 310 560 310 440 74
+s 310 440 310 320 75
+s 310 320 370 320 76
+s 310 440 370 440 77
+s 310 560 370 560 78
+s 310 680 370 680 79
+w 115
+s 490 280 690 280 114
+a 0 s 3 0 650 280 hln 100 LABEL=Q0
+w 123
+s 490 640 690 640 122
+a 0 s 3 0 650 640 hln 100 LABEL=Q3
+w 131
+s 490 520 690 520 130
+a 0 s 3 0 650 520 hln 100 LABEL=Q2
+w 139
+s 490 400 690 400 138
+a 0 s 3 0 650 400 hln 100 LABEL=Q1
+w 147
+s 170 280 370 280 146
+a 0 s 3 0 180 280 hln 100 LABEL=D0
+w 155
+s 170 400 370 400 154
+a 0 s 3 0 180 400 hln 100 LABEL=D1
+w 163
+s 170 520 370 520 162
+a 0 s 3 0 180 520 hln 100 LABEL=D2
+w 178
+s 170 660 290 660 170
+a 0 s 3 0 180 660 hln 100 LABEL=CE
+s 290 660 290 540 171
+s 290 540 290 420 172
+s 290 420 290 300 173
+s 290 300 370 300 174
+s 290 420 370 420 175
+s 290 540 370 540 176
+s 290 660 370 660 177
+@junction
+j 370 640
++ p 18 D
++ w 23
+j 330 710
++ w 38
++ w 38
+j 330 590
++ w 38
++ w 38
+j 330 470
++ w 38
++ w 38
+j 370 710
++ p 18 CLR
++ w 38
+j 370 470
++ p 19 CLR
++ w 38
+j 370 350
++ p 20 CLR
++ w 38
+j 370 590
++ p 21 CLR
++ w 38
+j 310 680
++ w 80
++ w 80
+j 310 560
++ w 80
++ w 80
+j 310 440
++ w 80
++ w 80
+j 370 680
++ p 18 C
++ w 80
+j 370 440
++ p 19 C
++ w 80
+j 370 320
++ p 20 C
++ w 80
+j 370 560
++ p 21 C
++ w 80
+j 490 280
++ p 20 Q
++ w 115
+j 490 640
++ p 18 Q
++ w 123
+j 490 520
++ p 21 Q
++ w 131
+j 490 400
++ p 19 Q
++ w 139
+j 370 280
++ p 20 D
++ w 147
+j 370 400
++ p 19 D
++ w 155
+j 370 520
++ p 21 D
++ w 163
+j 290 660
++ w 178
++ w 178
+j 290 540
++ w 178
++ w 178
+j 290 420
++ w 178
++ w 178
+j 370 660
++ p 18 CE
++ w 178
+j 370 420
++ p 19 CE
++ w 178
+j 370 300
++ p 20 CE
++ w 178
+j 370 540
++ p 21 CE
++ w 178
+j 690 280
++ s 213
++ w 115
+j 690 400
++ s 214
++ w 139
+j 170 400
++ s 215
++ w 155
+j 170 280
++ s 216
++ w 147
+j 170 520
++ s 217
++ w 163
+j 170 640
++ s 218
++ w 23
+j 690 640
++ s 219
++ w 123
+j 690 520
++ s 220
++ w 131
+j 170 660
++ s 221
++ w 178
+j 170 710
++ s 222
++ w 38
+j 170 680
++ s 223
++ w 80
+@attributes
+@text
+s 5 510 1000 hln 100 XC2000 FAMILY FD4CE MACRO
+s 5 510 1020 hln 100 4-BIT DATA REGISTER W/
+s 5 510 1030 hln 100 CLOCK ENABLE & ASYNCHRONOUS CLR
+s 5 470 1050 hln 100 26TH JANUARY 1993
+s 5 710 1070 hln 100 A
+s 5 710 1050 hln 100 1
+s 5 30 1070 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 1060 hln 100 DRAWN BY KS

@@ -1,0 +1,936 @@
+*version 8.0 422480632
+@index
+symloc 3phase 0 2655
+symloc 3phaseD 2655 1821
+symloc 3phaseY 4476 1897
+symloc 555B 6373 1072
+symloc 555C 7445 1077
+symloc 555alt 8522 1080
+symloc 54HC14/ANLG 9602 1615
+symloc CA3600E 11217 1614
+symloc Relay_SPDT_phy 12831 1894
+symloc Sw_tClose 14725 715
+symloc Sw_tOpen 15440 701
+symloc YX 16141 814
+symloc ZX 16955 813
+symloc Relay_SPDT 17768 1337
+symloc copyright 19105 575 b
+*symbol 3phase
+d Three phase transformer
+@type p
+@attributes
+a 0 s 9 0 172 18 hln 100 REFDES=U?
+a 0 sp 11 0 172 68 hln 100 PART=3phase
+a 0 sp 0 0 0 0 hln 100 MODEL=THREE_PHASE_TRANSFORMER
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %P11 %P12 %P21 %P22 %P31 %P32 %S11 %S12 %S21 %S22 %S31 %S32 @MODEL \n+ PARAMS: \n+ Pri_Ind=@Pri_Ind \n+ V_ratio=@V_ratio \n+ Permeance_ratio=@Permeance_ratio \n+ Pri_R=@Pri_R \n+ Sec_R=@Sec_R \n+ K_Coef=@K_Coef
+a 0 u 0 0 0 10 hln 100 Pri_Ind=200mH
+a 0 u 0 0 0 20 hln 100 V_ratio=1
+a 0 u 0 0 0 30 hln 100 Permeance_ratio=1
+a 0 u 0 0 0 40 hln 100 Pri_R=.1
+a 0 u 0 0 0 50 hln 100 Sec_R=.1
+a 0 u 0 0 0 60 hln 100 K_Coef=.9999
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+@pins
+p 2 -10 8 hln 100 P11 n 10 0 d
+a 0 u 0 0 15 3 hcn 100 pin=1
+a 0 u 0 0 12 0 hln 100 ERC=x
+p 2 -10 60 hln 100 P12 n 10 60 v
+a 0 u 0 0 5 62 hcn 100 pin=2
+a 0 u 0 0 12 60 hln 100 ERC=x
+p 2 32 8 hln 100 S11 n 30 0 d
+a 0 u 0 0 35 3 hcn 100 pin=3
+a 0 u 0 0 32 0 hln 100 ERC=x
+p 2 32 58 hln 100 S12 n 30 60 v
+a 0 u 0 0 25 62 hcn 100 pin=4
+a 0 u 0 0 32 58 hln 100 ERC=x
+p 2 60 8 hln 100 P21 n 80 0 d
+a 0 u 0 0 85 3 hcn 100 pin=5
+a 0 u 0 0 82 -2 hln 100 ERC=x
+p 2 60 58 hln 100 P22 n 80 60 v
+a 0 u 0 0 75 62 hcn 100 pin=6
+a 0 u 0 0 82 58 hln 100 ERC=x
+p 2 102 8 hln 100 S21 n 100 0 d
+a 0 u 0 0 105 3 hcn 100 pin=7
+a 0 u 0 0 100 -2 hln 100 ERC=x
+p 2 102 58 hln 100 S22 n 100 60 v
+a 0 u 0 0 95 62 hcn 100 pin=8
+a 0 u 0 0 100 58 hln 100 ERC=x
+p 2 130 8 hln 100 P31 n 150 0 d
+a 0 u 0 0 155 3 hcn 100 pin=9
+a 0 u 0 0 148 -2 hln 100 ERC=x
+p 2 130 58 hln 100 P32 n 150 60 v
+a 0 u 0 0 145 62 hcn 100 pin=10
+a 0 u 0 0 148 58 hln 100 ERC=x
+p 2 172 8 hln 100 S31 n 170 0 d
+a 0 u 0 0 175 3 hcn 100 pin=11
+a 0 u 0 0 168 -2 hln 100 ERC=x
+p 2 172 58 hln 100 S32 n 170 60 v
+a 0 u 0 0 165 62 hcn 100 pin=12
+a 0 u 0 0 168 58 hln 100 ERC=x
+@graphics 180 70 10 0 10
+a 0 10 50 15 45 10 40
+a 0 10 40 15 35 10 30
+a 0 10 30 15 25 10 20
+a 0 10 20 15 15 10 10
+a 0 30 10 25 15 30 20
+a 0 30 20 25 25 30 30
+a 0 30 30 25 35 30 40
+a 0 30 40 25 45 30 50
+v 0 22 10
+22 50
+;
+v 0 22 50
+22 50
+;
+v 0 18 10
+18 50
+;
+v 0 18 50
+18 50
+;
+a 0 80 50 85 45 80 40
+a 0 80 40 85 35 80 30
+a 0 80 30 85 25 80 20
+a 0 80 20 85 15 80 10
+a 0 100 10 95 15 100 20
+a 0 100 20 95 25 100 30
+a 0 100 30 95 35 100 40
+a 0 100 40 95 45 100 50
+v 0 92 10
+92 50
+;
+v 0 92 50
+92 50
+;
+v 0 88 10
+88 50
+;
+v 0 88 50
+88 50
+;
+a 0 150 50 155 45 150 40
+a 0 150 40 155 35 150 30
+a 0 150 30 155 25 150 20
+a 0 150 20 155 15 150 10
+a 0 170 10 165 15 170 20
+a 0 170 20 165 25 170 30
+a 0 170 30 165 35 170 40
+a 0 170 40 165 45 170 50
+v 0 162 10
+162 50
+;
+v 0 162 50
+162 50
+;
+v 0 158 10
+158 50
+;
+v 0 158 50
+158 50
+;
+v 0 10 64
+170 64
+;
+v 0 170 68
+10 68
+;
+*symbol 3phaseD
+d 3 Phase Transformer - Delta
+@type p
+@attributes
+a 0 s 9 0 64 10 hln 100 REFDES=U?
+a 0 sp 11 0 134 68 hln 100 PART=3phaseD
+a 0 sp 0 0 134 68 hln 100 MODEL=3phaseD
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=3phase_D
+@pins
+p 0 38 24 hln 100 P11 n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=1
+a 0 u 0 0 40 4 hln 100 ERC=x
+p 0 2 36 hln 100 P21 n 0 60 v
+a 0 u 1 0 -5 62 hcn 100 pin=2
+a 0 u 0 0 0 56 hln 100 ERC=x
+p 0 82 38 hln 100 P31 n 80 60 v
+a 0 u 1 0 75 62 hcn 100 pin=3
+a 0 u 0 0 80 58 hln 100 ERC=x
+p 0 138 24 hln 100 S11 n 140 0 d
+a 0 u 1 0 145 3 hcn 100 pin=4
+a 0 u 0 0 140 4 hln 100 ERC=x
+p 0 102 82 hln 100 S21 n 100 60 v
+a 0 u 1 0 95 62 hcn 100 pin=5
+a 0 u 0 0 100 62 hln 100 ERC=x
+p 0 182 38 hln 100 S31 n 180 60 v
+a 0 u 1 0 175 62 hcn 100 pin=6
+a 0 u 0 0 180 58 hln 100 ERC=x
+@graphics 180 60 40 0 10
+a 0 20 50 25 55 30 50
+a 0 30 50 35 55 40 50
+a 0 40 50 45 55 50 50
+a 0 50 50 55 55 60 50
+a 0 52 22 54 16 44 14
+a 0 59 29 61 23 51 21
+a 0 66 36 68 30 58 28
+a 0 73 43 75 37 65 35
+v 0 40 10
+35 15
+;
+v 0 45 15
+40 10
+;
+a 0 35 15 27 16 28 22
+a 0 28 22 20 23 21 29
+a 0 21 29 13 30 14 36
+a 0 14 36 6 37 7 43
+v 0 45 15
+46 14
+;
+v 0 35 15
+34 14
+;
+v 0 0 50
+7 43
+;
+v 0 80 50
+73 43
+;
+v 0 73 43
+74 42
+;
+v 0 0 50
+20 50
+;
+v 0 60 50
+80 50
+;
+a 0 120 50 125 55 130 50
+a 0 130 50 135 55 140 50
+a 0 140 50 145 55 150 50
+a 0 150 50 155 55 160 50
+a 0 152 22 154 16 144 14
+a 0 159 29 161 23 151 21
+a 0 166 36 168 30 158 28
+a 0 173 43 175 37 165 35
+v 0 140 10
+135 15
+;
+v 0 145 15
+140 10
+;
+a 0 135 15 127 16 128 22
+a 0 128 22 120 23 121 29
+a 0 121 29 113 30 114 36
+a 0 114 36 106 37 107 43
+v 0 145 15
+146 14
+;
+v 0 135 15
+134 14
+;
+v 0 100 50
+107 43
+;
+v 0 180 50
+173 43
+;
+v 0 173 43
+174 42
+;
+v 0 100 50
+120 50
+;
+v 0 160 50
+180 50
+;
+v 0 88 12
+88 50
+;
+v 0 92 12
+92 50
+;
+*symbol 3phaseY
+d 3 Phase Transformer - Y
+@type p
+@attributes
+a 0 s 9 0 22 -2 hln 100 REFDES=U?
+a 0 sp 11 0 142 120 hln 100 PART=3phaseY
+a 0 sp 0 0 142 120 hln 100 MODEL=3phaseY
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=3phase_Y
+@pins
+p 0 -2 24 hln 100 P11 n 0 0 d
+a 0 u 1 0 5 3 hcn 100 pin=1
+a 0 u 0 0 0 4 hln 100 ERC=x
+p 0 78 22 hln 100 P21 n 80 0 d
+a 0 u 1 0 85 3 hcn 100 pin=2
+a 0 u 0 0 80 2 hln 100 ERC=x
+p 0 42 88 hln 100 P31 n 40 110 v
+a 0 u 1 0 35 112 hcn 100 pin=3
+a 0 u 0 0 40 108 hln 100 ERC=x
+p 0 98 24 hln 100 S11 n 100 0 d
+a 0 u 1 0 105 3 hcn 100 pin=4
+a 0 u 0 0 100 4 hln 100 ERC=x
+p 0 178 22 hln 100 S21 n 180 0 d
+a 0 u 1 0 185 3 hcn 100 pin=5
+a 0 u 0 0 180 2 hln 100 ERC=x
+p 0 142 88 hln 100 S31 n 140 110 v
+a 0 u 1 0 135 112 hcn 100 pin=6
+a 0 u 0 0 140 108 hln 100 ERC=x
+@graphics 180 110 0 0 10
+a 0 40 94 45 89 40 84
+a 0 40 84 45 79 40 74
+a 0 40 74 45 69 40 64
+a 0 40 64 45 59 40 54
+a 0 14 22 16 16 6 14
+a 0 21 29 23 23 13 21
+a 0 28 36 30 30 20 28
+a 0 35 43 37 37 27 35
+v 0 73 15
+78 10
+;
+v 0 40 48
+45 43
+;
+v 0 40 48
+35 43
+;
+v 0 7 15
+2 10
+;
+a 0 45 43 53 42 52 36
+a 0 52 36 60 35 59 29
+a 0 59 29 67 28 66 22
+a 0 66 22 74 21 73 15
+v 0 40 54
+40 48
+;
+v 0 40 94
+40 100
+;
+v 0 0 10
+2 10
+;
+v 0 7 15
+8 14
+;
+v 0 78 10
+80 10
+;
+v 0 35 43
+36 42
+;
+v 0 45 43
+46 44
+;
+a 0 140 94 145 89 140 84
+a 0 140 84 145 79 140 74
+a 0 140 74 145 69 140 64
+a 0 140 64 145 59 140 54
+a 0 114 22 116 16 106 14
+a 0 121 29 123 23 113 21
+a 0 128 36 130 30 120 28
+a 0 135 43 137 37 127 35
+v 0 173 15
+178 10
+;
+v 0 140 48
+145 43
+;
+v 0 140 48
+135 43
+;
+v 0 107 15
+102 10
+;
+a 0 145 43 153 42 152 36
+a 0 152 36 160 35 159 29
+a 0 159 29 167 28 166 22
+a 0 166 22 174 21 173 15
+v 0 140 54
+140 48
+;
+v 0 140 94
+140 100
+;
+v 0 100 10
+102 10
+;
+v 0 107 15
+108 14
+;
+v 0 178 10
+180 10
+;
+v 0 135 43
+136 42
+;
+v 0 145 43
+146 44
+;
+v 0 88 10
+88 100
+;
+v 0 92 100
+92 10
+;
+*symbol 555B
+d 555 [bipolar] timer
+@type p
+@attributes
+a 1 s 9 0 70 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %GND %TRIGGER %OUTPUT %RESET %CONTROL %THRESHOLD %DISCHARGE %VCC @MODEL
+a 0 sp 11 0 66 100 hlb 100 PART=555B
+a 0 sp 0 0 66 100 hlb 100 MODEL=555B
+@pins
+p 2 42 88 hln 100 GND n 50 100 v
+a 0 u 1 0 45 102 hcn 100 pin=1
+a 0 u 0 0 40 100 hln 100 ERC=x
+p 2 13 32 hln 100 TRIGGER n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 87 42 hrn 100 OUTPUT n 100 40 u
+a 0 u 1 0 95 38 hln 100 pin=3
+a 0 u 0 0 100 40 hln 100 ERC=x
+p 2 13 42 hln 100 RESET n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=x
+p 2 13 52 hln 100 CONTROL n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 62 hln 100 THRESHOLD n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=x
+p 2 13 72 hln 100 DISCHARGE n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 40 20 hln 100 VCC n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=8
+a 0 u 0 0 50 0 hln 100 ERC=x
+@graphics 100 100 0 30 10
+r 0 10 10 90 90
+*symbol 555C
+d CMOS timer [555]
+@type p
+@attributes
+a 1 s 9 0 70 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %GND %\TRIGGER\ %OUTPUT %\RESET\ %CONTROL %THRESHOLD %DISCHARGE %VCC @MODEL
+a 0 sp 11 0 66 100 hlb 100 PART=555C
+a 0 sp 0 0 66 100 hlb 100 MODEL=555C
+@pins
+p 2 42 88 hln 100 GND n 50 100 v
+a 0 u 1 0 45 102 hcn 100 pin=1
+a 0 u 0 0 40 100 hln 100 ERC=x
+p 2 87 42 hrn 100 OUTPUT n 100 40 u
+a 0 u 1 0 95 38 hln 100 pin=3
+a 0 u 0 0 100 40 hln 100 ERC=x
+p 2 13 52 hln 100 CONTROL n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 62 hln 100 THRESHOLD n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=x
+p 2 13 72 hln 100 DISCHARGE n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 40 20 hln 100 VCC n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=8
+a 0 u 0 0 50 0 hln 100 ERC=x
+p 2 13 32 hln 100 \TRIGGER\ b 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 42 hln 100 \RESET\ b 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=x
+@graphics 100 100 0 30 10
+r 0 10 10 90 90
+*symbol 555alt
+d 555 [bipolar] timer
+@type p
+@attributes
+a 1 s 9 0 70 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %GND %TRIGGER %OUTPUT %RESET %CONTROL %THRESHOLD %DISCHARGE %VCC @MODEL
+a 0 sp 11 0 66 100 hlb 100 PART=555alt
+a 0 sp 0 0 66 100 hlb 100 MODEL=555C
+@pins
+p 2 52 88 hln 100 GND n 60 100 v
+a 0 u 1 0 55 102 hcn 100 pin=1
+a 0 u 0 0 50 100 hln 100 ERC=x
+p 2 13 42 hln 80 TRIGGER n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=2
+a 0 u 0 0 0 40 hln 100 ERC=x
+p 2 13 82 hln 80 OUTPUT n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=3
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 14 20 hln 80 RESET n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=4
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 2 87 72 hrn 80 CONTROL n 100 70 u
+a 0 u 1 0 95 68 hln 100 pin=5
+a 0 u 0 0 100 70 hln 100 ERC=x
+p 2 87 52 hrn 80 THRESHOLD n 100 50 u
+a 0 u 1 0 95 48 hln 100 pin=6
+a 0 u 0 0 100 50 hln 100 ERC=x
+p 2 87 32 hrn 80 DISCHARGE n 100 30 u
+a 0 u 1 0 95 28 hln 100 pin=7
+a 0 u 0 0 100 30 hln 100 ERC=x
+p 2 50 20 hln 100 VCC n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=8
+a 0 u 0 0 60 0 hln 100 ERC=x
+@graphics 100 100 0 40 10
+r 0 10 10 90 90
+*symbol 54HC14/ANLG
+d schmitt-trigger inverter - analog model
+@type p
+@attributes
+a 0 sp 11 0 52 90 hln 100 PART=54HC14/ANLG
+a 0 sp 0 0 40 40 hln 100 MODEL=54HC14/ANLG
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES  %A1 %Y1 %A2 %Y2 %A3 %Y3 %GND %Y4 %A4 %Y5 %A5 %Y6 %A6 %PWR @MODEL
+a 0 sp 9 0 4 8 hln 100 REFDES=U?
+@pins
+p 2 13 22 hln 100 A1 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 A2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 42 hln 100 A3 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=5
+a 0 u 0 0 0 40 hln 100 ERC=x
+p 2 13 52 hln 100 A4 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=9
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 62 hln 100 A5 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=11
+a 0 u 0 0 0 60 hln 100 ERC=x
+p 2 13 72 hln 100 A6 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=13
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 29 78 hln 100 GND n 40 90 v
+a 0 u 1 0 35 92 hcn 100 pin=7
+a 0 u 0 0 40 90 hln 100 ERC=x
+p 2 26 18 hln 100 PWR n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=14
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 57 22 hrn 100 Y1 n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=2
+a 0 u 0 0 70 20 hln 100 ERC=x
+p 2 57 32 hrn 100 Y2 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=4
+a 0 u 0 0 70 30 hln 100 ERC=x
+p 2 57 42 hrn 100 Y3 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=6
+a 0 u 0 0 70 40 hln 100 ERC=x
+p 2 57 52 hrn 100 Y4 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=8
+a 0 u 0 0 70 50 hln 100 ERC=x
+p 2 57 62 hrn 100 Y5 n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=10
+a 0 u 0 0 70 60 hln 100 ERC=x
+p 2 57 72 hrn 100 Y6 n 70 70 u
+a 0 u 1 0 65 68 hln 100 pin=12
+a 0 u 0 0 70 70 hln 100 ERC=x
+@graphics 70 90 0 20 10
+r 0 10 10 60 80
+*symbol CA3600E
+d CMOS transistor array
+@type p
+@attributes
+a 1 s 9 0 32 -2 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %p01 %p02 %p03 %p04 %p05 %p06 %p07 %p08 %p09 %p10 %p11 %p12 %p13 %p14 @MODEL
+a 0 sp 11 0 28 102 hlb 100 PART=CA3600E
+a 0 sp 0 0 28 102 hlb 100 MODEL=CA3600E
+@pins
+p 2 13 12 hln 100 p01 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 2 10 hln 100 ERC=x
+p 2 13 22 hln 100 p02 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 2 20 hln 100 ERC=x
+p 2 13 32 hln 100 p03 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 2 30 hln 100 ERC=x
+p 2 13 42 hln 100 p04 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 2 40 hln 100 ERC=x
+p 2 13 52 hln 100 p05 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 2 50 hln 100 ERC=x
+p 2 57 12 hrn 100 p06 n 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=6
+a 0 u 0 0 50 10 hln 100 ERC=x
+p 2 57 22 hrn 100 p07 n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=7
+a 0 u 0 0 50 20 hln 100 ERC=x
+p 2 57 32 hrn 100 p08 n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=8
+a 0 u 0 0 50 30 hln 100 ERC=x
+p 2 57 42 hrn 100 p13 n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=13
+a 0 u 0 0 46 40 hln 100 ERC=x
+p 2 57 52 hrn 100 p14 n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=14
+a 0 u 0 0 46 50 hln 100 ERC=x
+p 2 48 77 drn 100 p09 n 50 90 v
+a 0 u 1 0 52 85 dln 100 pin=9
+a 0 u 0 0 10 88 hln 100 ERC=x
+p 2 38 77 drn 100 p10 n 40 90 v
+a 0 u 1 0 42 85 dln 100 pin=10
+a 0 u 0 0 20 88 hln 100 ERC=x
+p 2 28 77 drn 100 p11 n 30 90 v
+a 0 u 1 0 32 85 dln 100 pin=11
+a 0 u 0 0 30 88 hln 100 ERC=x
+p 2 18 77 drn 100 p12 n 20 90 v
+a 0 u 1 0 22 85 dln 100 pin=12
+a 0 u 0 0 40 88 hln 100 ERC=x
+@graphics 70 90 0 10 10
+r 0 10 0 60 80
+*symbol Relay_SPDT_phy
+d SPDT relay, physical (slow to simulate)
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 12 110 hln 100 PART=Relay_SPDT_phy
+a 0 sp 0 0 0 0 hln 100 MODEL=Relay_Spdt_Phy
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %NO %NC %COM @MODEL PARAMS:\n+ R_coil=@R_coil\n+ L_coil=@L_coil\n+ R_open=@R_open\n+ R_close=@R_close\n+ turns=@turns\n+ arm_mass=@arm_mass\n+ spr=@spr\n+ minp=@minp\n+ maxp=@maxp\n+ drag=@drag\n+ lim_k=@lim_K\n+ damping=@damping
+a 0 u 0 0 0 60 hlb 100 R_coil=10
+a 0 u 0 0 0 70 hlb 100 L_coil=5mH
+a 0 u 0 0 0 80 hlb 100 R_open=100MEG
+a 0 u 0 0 0 90 hlb 100 R_close=.05
+a 0 s 0 0 0 20 hlb 100 SIMULATIONONLY=
+a 0 u 0 0 0 40 hlb 100 turns=100
+a 0 u 0 0 0 50 hlb 100 arm_mass=0.5
+a 0 u 0 0 0 60 hlb 100 spr=40
+a 0 u 0 0 0 70 hlb 100 minp=1
+a 0 u 0 0 0 80 hlb 100 maxp=5
+a 0 u 0 0 0 90 hlb 100 drag=1
+a 0 u 0 0 0 100 hlb 100 lim_K=1e6
+a 0 u 0 0 0 110 hlb 100 damping=1e3
+@pins
+p 2 11 25 hln 70 COM n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=5
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 12 57 hln 100 A n 0 50 h
+a 0 u 0 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 11 97 hln 100 B n 0 90 h
+a 0 u 0 0 5 88 hrn 100 pin=2
+a 0 u 0 0 0 90 hln 100 ERC=x
+p 2 49 9 hrn 70 NC n 60 10 u
+a 0 u 0 0 55 8 hln 100 pin=4
+a 0 u 0 0 46 10 hln 100 ERC=x
+p 2 49 35 hrn 70 NO n 60 30 u
+a 0 u 0 0 55 28 hln 100 pin=3
+a 0 u 0 0 46 30 hln 100 ERC=x
+@graphics 60 100 0 20 10
+a 0 20 90 25 85 20 80
+a 0 20 80 25 75 20 70
+a 0 20 70 25 65 20 60
+a 0 20 60 25 55 20 50
+v 0 28 50
+28 90
+;
+v 0 28 90
+28 90
+;
+v 0 32 50
+32 90
+;
+v 0 32 90
+32 90
+;
+v 0 40 10
+40 15
+;
+v 0 40 30
+40 25
+;
+v 0 20 20
+40 15
+;
+v 0 40 15
+42 13
+;
+v 0 40 15
+38 13
+;
+v 0 40 25
+42 27
+;
+v 0 40 25
+38 27
+;
+v 0 10 20
+20 20
+;
+v 0 10 50
+20 50
+;
+v 0 10 90
+20 90
+;
+r 0 10 0 50 100
+v 0 40 10
+50 10
+;
+v 0 40 30
+50 30
+;
+v 0 30 46
+30 44
+;
+v 0 30 42
+30 40
+;
+v 0 30 38
+30 36
+;
+v 0 30 34
+30 32
+;
+v 0 30 30
+30 28
+;
+v 0 30 26
+30 24
+;
+*symbol Sw_tClose
+d Switch: closes at tClose=?
+@type p
+@attributes
+a 0 sp 9 0 0 20 hln 100 REFDES=U?
+a 0 sp 0 0 0 24 hln 100 PART=Sw_tClose
+a 0 sp 0 0 0 0 hln 100 MODEL=Sw_tClose
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL PARAMS: tClose=@tClose ttran=@ttran Rclosed=@Rclosed Ropen=@Ropen
+a 0 u 13 13 -2 -4 hln 100 tClose=0
+a 0 u 0 0 0 30 hln 100 ttran=1u
+a 0 u 0 0 0 50 hln 100 Rclosed=0.01
+a 0 u 0 0 0 70 hln 100 Ropen=1Meg
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 2 10 hln 100 ERC=x
+p 0 27 12 hrn 100 2 n 40 10 u
+a 0 u 1 0 35 8 hln 100 pin=2
+a 0 u 0 0 38 12 hln 100 ERC=x
+@graphics 40 20 0 10 10
+v 0 10 10
+30 0
+;
+a 0 25 15 25 5 15 0
+v 0 25 14
+23 11
+;
+v 0 25 14
+28 12
+;
+*symbol Sw_tOpen
+d Switch: opens at tsw=?
+@type p
+@attributes
+a 0 sp 9 0 0 20 hln 100 REFDES=U?
+a 0 sp 0 0 0 24 hln 100 PART=Sw_tOpen
+a 0 sp 0 0 0 0 hln 100 MODEL=Sw_tOpen
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL PARAMS: tOpen=@tOpen ttran=@ttran Rclosed=@Rclosed Ropen=@Ropen
+a 0 u 13 13 0 -4 hln 100 tOpen=0
+a 0 u 0 0 0 50 hln 100 ttran=1u
+a 0 u 0 0 0 60 hln 100 Rclosed=0.01
+a 0 u 0 0 0 70 hln 100 Ropen=1Meg
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 2 10 hln 100 ERC=x
+p 0 27 12 hrn 100 2 n 40 10 u
+a 0 u 1 0 35 8 hln 100 pin=2
+a 0 u 0 0 38 12 hln 100 ERC=x
+@graphics 40 20 0 10 10
+v 0 10 10
+30 0
+;
+a 0 25 15 25 5 15 0
+v 0 17 0
+20 -2
+;
+v 0 17 0
+19 3
+;
+*symbol YX
+d Variable admittance
+@type p
+@attributes
+a 1 s 9 0 0 0 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 %3 %4 %5 @MODEL
+a 0 sp 11 0 30 26 hlb 200 PART=YX
+a 0 sp 0 0 30 26 hlb 200 MODEL=YX
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 13 32 hln 100 2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 42 38 hln 100 3 n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=3
+a 0 u 0 0 40 50 hln 100 ERC=x
+p 0 67 12 hrn 100 4 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=4
+a 0 u 0 0 80 10 hln 100 ERC=x
+p 0 67 32 hrn 100 5 n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=5
+a 0 u 0 0 80 30 hln 100 ERC=x
+@graphics 80 50 0 10 10
+s 26 12 12 hln 100 +
+s 26 12 32 hln 100 -
+r 0 10 0 70 40
+s 26 22 38 hln 100 Reference
+*symbol ZX
+d Variable impedance
+@type p
+@attributes
+a 1 s 9 0 0 0 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 %3 %4 %5 @MODEL
+a 0 sp 11 0 30 26 hlb 200 PART=ZX
+a 0 sp 0 0 30 26 hlb 200 MODEL=ZX
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 13 32 hln 100 2 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 0 42 38 hln 100 3 n 40 50 v
+a 0 u 1 0 35 52 hcn 100 pin=3
+a 0 u 0 0 40 50 hln 100 ERC=x
+p 0 67 12 hrn 100 4 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=4
+a 0 u 0 0 80 10 hln 100 ERC=x
+p 0 67 32 hrn 100 5 n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=5
+a 0 u 0 0 80 30 hln 100 ERC=x
+@graphics 80 50 0 10 10
+s 26 12 12 hln 100 +
+s 26 12 32 hln 100 -
+r 0 10 0 70 40
+s 26 22 38 hln 100 Reference
+*symbol Relay_SPDT
+d Relay
+@type p
+@attributes
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 0 sp 11 0 10 110 hln 100 PART=Relay_SPDT
+a 0 sp 0 0 10 110 hln 100 MODEL=Relay_SPDT
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=SPDT_B
+a 0 u 13 0 0 0 hln 100 BOUNCE=SPDT_B
+a 0 u 13 0 0 0 hln 100 NO_BOUNCE=SPDT_NB
+@pins
+p 2 13 48 hln 100 A n 0 50 h
+a 0 u 0 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 12 88 hln 100 B n 0 90 h
+a 0 u 0 0 5 88 hrn 100 pin=2
+a 0 u 0 0 0 90 hln 100 ERC=x
+p 0 47 12 hrn 100 NC n 60 10 u
+a 0 u 0 0 55 8 hln 100 pin=3
+a 0 u 0 0 60 10 hln 100 ERC=x
+p 0 47 32 hrn 100 NO n 60 30 u
+a 0 u 0 0 55 28 hln 100 pin=4
+a 0 u 0 0 60 30 hln 100 ERC=x
+p 0 13 22 hln 100 COM n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=5
+a 0 u 0 0 2 20 hln 100 ERC=x
+@graphics 60 100 0 20 10
+a 0 20 90 25 85 20 80
+a 0 20 80 25 75 20 70
+a 0 20 70 25 65 20 60
+a 0 20 60 25 55 20 50
+v 0 28 50
+28 90
+;
+v 0 28 90
+28 90
+;
+v 0 32 50
+32 90
+;
+v 0 32 90
+32 90
+;
+v 0 40 10
+40 15
+;
+v 0 40 30
+40 25
+;
+v 0 20 20
+40 15
+;
+v 0 40 15
+42 13
+;
+v 0 40 15
+38 13
+;
+v 0 40 25
+42 27
+;
+v 0 40 25
+38 27
+;
+v 0 30 46
+30 44
+;
+v 0 30 42
+30 40
+;
+v 0 30 38
+30 36
+;
+v 0 30 34
+30 32
+;
+v 0 30 30
+30 28
+;
+v 0 30 26
+30 24
+;
+v 0 10 20
+20 20
+;
+v 0 10 50
+20 50
+;
+v 0 10 90
+20 90
+;
+r 0 10 0 50 100
+v 0 40 10
+50 10
+;
+v 0 40 30
+50 30
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+r 0 0 0 230 60
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1994, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.

@@ -1,0 +1,41 @@
+* Version 1.0
+@status
+specs 3 3
+5.000000e-001 5.000000e-001 5.000000e-001 
+-1.677800e+001 -2.878120e+000 4.810600e+000 
+-1.677800e+001 -2.878120e+000 4.810600e+000 
+-1.677800e+001 -2.878120e+000 4.810600e+000 
+@specs
+est 0 1
+spec "Fc" 1 1
+sim "bpf" 0 0 "CenterFreq(vdb(out),1)"
+isint 1
+isconstr 0
+int 2 10 0.1
+ext "" "" "" 1%
+spec "BW" 1 1
+sim "bpf" 0 0 "Bandwidth(vdb(out),3)"
+isint 1
+isconstr 0
+int 2 1 0.1
+ext "" "" "" 1%
+spec "Gain" 1 1
+sim "bpf" 0 0 "max(v(out))"
+isint 1
+isconstr 0
+int 2 10 1
+ext "" "" "" 1%
+@params
+param aFc 1
+val 0.5 0.5 0.01 1.0 0
+param aBW 1
+val 0.5 0.5 0.01 1.0 0
+param aGain 1
+val 0.5 0.5 0.01 1.0 0
+@controls
+delta 1%
+threshold 0
+cutback 0.25
+maxiters 20
+opt 0
+auto 1

@@ -1,0 +1,147 @@
+
+**** 01/31/94 09:24:37 ********* PSpice 6.0 (Jan 1994) ******** ID# 10807 ****
+
+ * S:\RELEASE\DCTR60\POLARIS\EXAMPLES\SIMEX\SIMEX.SCH - with Parasitics
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 6.0 - January 1994
+* Mon Jan 31 09:24:36 1994
+
+
+** Analysis setup **
+.tran 1ns 200ns
+
+
+* From [SCHEMATICS NETLIST] section of msim.ini:
+.lib nom.lib
+
+.INC "SIMEX.pnt"
+
+**** INCLUDING SIMEX.pnt ****
+* Schematics Netlist *
+
+
+
+V_Vsrc   $N_0001 0  
++PULSE 0v 5v 0 10ns 10ns 30ns 100ns
+R_Rsrc   $N_0001 drive 50 
+R_Rpar   0 drive 92 
+R_Rser   $$P004 drive 39 
+R_Rterm1  0 D 68 
+R_Rterm2  $$P002 0 68 
+R_Rterm3  0 V 68 
+
+** Polaris Parasitics **
+
+
+** Coupled Lines
+X_P_002 $$P005 $$P006 $$P007 $$P008 p/t2c
++ params: len=2.780E-001 l=7.351E-007 c=2.748E-011 r=2.222E+000 g=0.000E+000 lm=3.774E-007 cm=2.249E-011
+
+
+
+** Uncoupled Lines
+X_P_003 $$P006 $$P002 p/ls
++ params: len=1.397E-003 l=7.439E-007 c=3.873E-011 r=2.222E+000 g=0.000E+000
+X_P_004 $$P008 V p/ls
++ params: len=1.270E-003 l=7.439E-007 c=3.873E-011 r=2.222E+000 g=0.000E+000
+X_P_005 $$P004 $$P005 p/ls
++ params: len=1.651E-003 l=7.439E-007 c=3.873E-011 r=2.222E+000 g=0.000E+000
+X_P_006 D $$P007 p/ls
++ params: len=2.032E-003 l=7.439E-007 c=3.873E-011 r=2.222E+000 g=0.000E+000
+
+
+** Vias **
+C__PV_001 V 0 1E-012
+C__PV_002 $$P002 0 1E-012
+C__PV_003 D 0 1E-012
+C__PV_004 $$P004 0 1E-012
+
+
+** Dummy Resistors **
+R__PD_001 V 0 1E9
+R__PD_002 $$P002 0 1E9
+R__PD_003 D 0 1E9
+R__PD_004 $$P004 0 1E9
+
+**** RESUMING SIMEX.PCR ****
+.INC "SIMEX.pas"
+
+**** INCLUDING SIMEX.pas ****
+* Schematics Aliases *
+
+.ALIASES
+V_Vsrc    Vsrc(+=$N_0001 -=0 )
+R_Rsrc    Rsrc(1=$N_0001 2=drive )
+R_Rpar    Rpar(1=0 2=drive )
+R_Rser    Rser(1=$$P004 2=drive )
+R_Rterm1   Rterm1(1=0 2=D )
+R_Rterm2   Rterm2(1=$$P002 2=0 )
+R_Rterm3   Rterm3(1=0 2=V )
+_    _(drive=drive)
+_    _(D=D)
+_    _(V=V)
+.ENDALIASES
+
+
+**** RESUMING SIMEX.PCR ****
+
+
+.probe
+
+
+.END
+
+**** 01/31/94 09:24:37 ********* PSpice 6.0 (Jan 1994) ******** ID# 10807 ****
+
+ * S:\RELEASE\DCTR60\POLARIS\EXAMPLES\SIMEX\SIMEX.SCH - with Parasitics
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    D)    0.0000  (    V)    0.0000  (drive)    0.0000  ($$P002)    0.0000     
+
+($$P004)    0.0000 ($$P005)    0.0000 ($$P006)    0.0000 ($$P007)    0.0000     
+
+($$P008)    0.0000 ($N_0001)    0.0000                   (X_P_003.1)    0.0000  
+
+(X_P_003.2)    0.0000                 (X_P_004.1)    0.0000                     
+
+(X_P_004.2)    0.0000                 (X_P_005.1)    0.0000                     
+
+(X_P_005.2)    0.0000                 (X_P_006.1)    0.0000                     
+
+(X_P_006.2)    0.0000                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vsrc       0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME           10.11
+

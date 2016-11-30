@@ -1,0 +1,21 @@
+"
+>Fdd boundError
+=        [55000] BaseClass:  Bound error: maximum number of %d entries are allowed, Index used = %d
+>Fd negativeBitMapSize
+=        [55001] BaseClass:  BitMap error: a request was made to create a bitmap of size = %d
+>Fs badBitMapString
+=        [55002] BaseClass:  BitMap error: attempt to generate a bitmap from a string containing other than ones and zeros %s
+>Fsdd BitMapDiffSize
+=        [55003] BaseClass:  BitMap error: attempt to %s bitmaps of different size (size a = %d, b =  %d)
+>Fd negativeListSize
+=        [55005] BaseClass:  List error: a request was made to create a List of size = %d
+>F nullQueue
+=        [55006] BaseClass:  Queue error: an attempt was made to access a NULL queue
+>F nullUniqList
+=        [50007] BaseClass:  UniqList error: an attempt was made to access a NULL uniqList
+>F nullStack
+=        [55008] BaseClass:  Stack error: an attempt was made to access a NULL Stack
+>Fsdd boundError
+=        [55009] BaseClass: bound error in %s - maximum number of entries (%d) exceeded (%d).
+>Fd negativeListIndex
+=        [55010] BaseClass:  List error: a request was made to insert an iteger at a negaitve index(%d).

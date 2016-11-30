@@ -1,0 +1,213 @@
+*version 6.3 366979223
+u 179
+XC4000E 2362591961
+U? 5
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3211 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 180 IF_IN 170 660 h
+a 0 s 3 0 10 8 hln 80 LABEL=GE
+port 181 IF_IN 180 690 h
+a 0 s 3 0 10 8 hln 80 LABEL=G
+port 182 IF_IN 180 280 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 183 IF_OUT 640 280 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 184 IF_OUT 640 390 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+port 185 IF_OUT 640 500 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q2
+port 186 IF_OUT 640 610 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q3
+port 187 IF_IN 180 500 h
+a 0 s 3 0 10 8 hln 80 LABEL=D2
+port 188 IF_IN 180 390 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 189 IF_IN 180 610 h
+a 0 s 3 0 10 8 hln 80 LABEL=D3
+@parts
+part 17 ILDX 350 610 h
+a 0 sp 9 0 80 100 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=ILDX
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 18 ILDX 350 500 h
+a 0 sp 9 0 80 100 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=ILDX
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 19 ILDX 350 390 h
+a 0 sp 9 0 80 100 hrn 100 REFDES=U3
+a 0 sp 11 0 60 20 hcn 200 PART=ILDX
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 20 ILDX 350 280 h
+a 0 sp 9 0 80 100 hrn 100 REFDES=U4
+a 0 sp 11 0 60 20 hcn 200 PART=ILDX
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 30
+s 170 660 280 660 21
+a 0 s 3 0 180 660 hln 100 LABEL=GE
+s 280 660 280 630 23
+s 280 630 350 630 22
+s 280 630 280 520 25
+s 280 520 350 520 24
+s 280 520 280 410 27
+s 280 410 350 410 26
+s 280 410 280 300 29
+s 280 300 350 300 28
+w 69
+s 180 500 350 500 68
+a 0 s 3 0 190 500 hln 100 LABEL=D2
+w 77
+s 180 390 350 390 76
+a 0 s 3 0 190 390 hln 100 LABEL=D1
+w 85
+s 180 610 350 610 84
+a 0 s 3 0 190 610 hln 100 LABEL=D3
+w 101
+s 180 690 310 690 92
+a 0 s 3 0 190 690 hln 100 LABEL=G
+s 310 690 310 650 100
+s 310 650 350 650 93
+s 310 650 310 540 99
+s 310 540 350 540 94
+s 310 540 310 430 98
+s 310 430 350 430 95
+s 310 430 310 320 97
+s 310 320 350 320 96
+w 140
+s 470 390 640 390 139
+a 0 s 3 0 590 390 hln 100 LABEL=Q1
+w 148
+s 470 280 640 280 147
+a 0 s 3 0 590 280 hln 100 LABEL=Q0
+w 156
+s 470 500 640 500 155
+a 0 s 3 0 590 500 hln 100 LABEL=Q2
+w 164
+s 470 610 640 610 163
+a 0 s 3 0 590 610 hln 100 LABEL=Q3
+w 172
+s 180 280 350 280 171
+a 0 s 3 0 190 280 hln 100 LABEL=D0
+@junction
+j 280 630
++ w 30
++ w 30
+j 280 520
++ w 30
++ w 30
+j 280 410
++ w 30
++ w 30
+j 350 630
++ p 17 GE
++ w 30
+j 350 520
++ p 18 GE
++ w 30
+j 350 410
++ p 19 GE
++ w 30
+j 350 300
++ p 20 GE
++ w 30
+j 350 500
++ p 18 D
++ w 69
+j 350 390
++ p 19 D
++ w 77
+j 350 610
++ p 17 D
++ w 85
+j 310 650
++ w 101
++ w 101
+j 310 540
++ w 101
++ w 101
+j 310 430
++ w 101
++ w 101
+j 350 650
++ p 17 G
++ w 101
+j 350 540
++ p 18 G
++ w 101
+j 350 430
++ p 19 G
++ w 101
+j 350 320
++ p 20 G
++ w 101
+j 470 390
++ p 19 Q
++ w 140
+j 470 280
++ p 20 Q
++ w 148
+j 470 500
++ p 18 Q
++ w 156
+j 470 610
++ p 17 Q
++ w 164
+j 350 280
++ p 20 D
++ w 172
+j 170 660
++ s 180
++ w 30
+j 180 690
++ s 181
++ w 101
+j 180 280
++ s 182
++ w 172
+j 640 280
++ s 183
++ w 148
+j 640 390
++ s 184
++ w 140
+j 640 500
++ s 185
++ w 156
+j 640 610
++ s 186
++ w 164
+j 180 500
++ s 187
++ w 69
+j 180 390
++ s 188
++ w 77
+j 180 610
++ s 189
++ w 85
+@attributes
+@text
+s 5 750 1020 hrn 100 4-BIT INPUT TRANSPARENT
+s 5 710 1050 hrn 100 1
+s 5 700 1070 hln 100 A
+s 5 30 1070 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 770 1000 hrn 100 XC4000E FAMILY ILDX4  MACRO
+s 5 520 1030 hln 100 DATA LATCH WT GATE ENABLE
+s 5 630 1050 hrn 100 2ND FEBRUARY 1995

@@ -1,0 +1,142 @@
+*version 5.3 0
+@index
+symloc efreqx 0 1147
+symloc flipflop 1147 916
+symloc gfreqx 2063 1119
+symloc summer 3182 782
+*symbol efreqx
+d E device - FREQ form
+@type p
+@attributes
+a 1 s 9 0 58 0 hln 100 REFDES=E?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=E^@REFDES %OUT+ %OUT- FREQ { @EXPR } #T1| \n+ (@T1)| #T2| \n+ (@T2)| #T3| \n+ (@T3)| #T4| \n+ (@T4)| #T5| \n+ (@T5)| #T6| \n+ (@T6)| #T7| \n+ (@T7)| #T8| \n+ (@T8)| #T9| \n+ (@T9)|
+a 0 s 0 0 76 38 hln 100 PART=EFREQX
+a 0 u 0 0 -12 48 hln 100 EXPR=V(%IN+, %IN-)
+a 0 u 13 0 -20 64 hlb 200 T1=0,0,0
+a 0 u 13 0 -20 88 hlb 200 T2=0,0,0
+a 0 u 13 0 -20 112 hlb 200 T3=0,0,0
+a 0 u 13 0 78 64 hlb 200 T4=0,0,0
+a 0 u 13 0 78 88 hlb 200 T5=0,0,0
+a 0 u 13 0 78 112 hlb 200 T6=0,0,0
+a 0 u 13 0 162 64 hlb 200 T7=0,0,0
+a 0 u 13 0 162 88 hlb 200 T8=0,0,0
+a 0 u 13 0 162 112 hlb 200 T9=0,0,0
+a 0 s 0 0 0 0 hln 100 MODEL=
+@pins
+p 2 76 12 hln 50 OUT+ n 100 10 u
+a 0 u 0 0 115 10 hln 100 pin=3
+a 0 u 0 0 110 12 hln 100 ERC=o
+p 2 76 22 hln 50 OUT- n 100 20 u
+a 0 u 0 0 105 20 hln 100 pin=4
+a 0 u 0 0 100 22 hln 100 ERC=o
+p 2 62 12 hln 50 IN+ n 50 10 h
+a 0 u 0 0 57 10 hln 100 pin=1
+a 0 u 0 0 52 12 hln 100 ERC=i
+p 2 62 22 hln 50 IN- n 50 20 h
+a 0 u 0 0 57 20 hln 100 pin=2
+a 0 u 0 0 52 22 hln 100 ERC=i
+@graphics 100 30 50 10 10
+r 0 60 5 90 25
+*symbol flipflop
+d D-type positive-edge-triggered flip-flop
+@type p
+@attributes
+a 0 s 11 0 44 80 hln 100 PART=flipflop
+a 0 s 9 0 40 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %D %CLK %Q %\Q\ %PWR %GND @PART
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 s 0 0 0 0 hln 100 MODEL=
+@pins
+p 2 21 52 hcn 100 CLK c 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 4 48 hln 100 pin=3
+p 2 15 32 hcn 100 D n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 4 28 hln 100 pin=2
+p 2 45 32 hcn 100 Q n 60 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 54 28 hln 100 pin=5
+p 16 10 0 hcn 100 PWR n 20 0 d
+a 0 u 0 0 -24 0 hln 100 ERC=p
+a 0 u 1 0 8 8 hln 100 pin=14
+p 16 8 86 hcn 100 GND n 20 80 v
+a 0 u 0 0 -26 -2 hln 100 ERC=p
+a 0 u 1 0 12 78 hln 100 pin=7
+p 2 45 52 hcn 100 \Q\ b 60 50 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 56 48 hln 100 pin=6
+@graphics 60 80 0 30 11
+r 0 10 10 50 70
+*symbol gfreqx
+d G device - FREQ form
+@type p
+@attributes
+a 1 s 9 0 58 0 hln 100 REFDES=G?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=G^@REFDES %OUT+ %OUT- FREQ { @EXPR } #T1| \n+ (@T1)| #T2| \n+ (@T2)| #T3| \n+ (@T3)| #T4| \n+ (@T4)| #T5| \n+ (@T5)| #T6| \n+ (@T6)| #T7| \n+ (@T7)| #T8| \n+ (@T8)| #T9| \n+ (@T9)|
+a 0 s 11 0 84 36 hln 100 PART=GFREQX
+a 0 u 0 0 -12 48 hln 100 EXPR=V(%IN+, %IN-)
+a 0 u 13 0 -20 64 hlb 200 T1=0,0,0
+a 0 u 13 0 -20 88 hlb 200 T2=0,0,0
+a 0 u 13 0 -20 112 hlb 200 T3=0,0,0
+a 0 u 13 0 78 64 hlb 200 T4=0,0,0
+a 0 u 13 0 78 88 hlb 200 T5=0,0,0
+a 0 u 13 0 78 112 hlb 200 T6=0,0,0
+a 0 u 13 0 162 64 hlb 200 T7=0,0,0
+a 0 u 13 0 162 88 hlb 200 T8=0,0,0
+a 0 u 13 0 162 112 hlb 200 T9=0,0,0
+@pins
+p 2 76 12 hln 50 OUT+ n 100 10 u
+a 0 u 0 0 115 10 hln 100 pin=3
+a 0 u 0 0 110 12 hln 100 ERC=o
+p 2 76 22 hln 50 OUT- n 100 20 u
+a 0 u 0 0 105 20 hln 100 pin=4
+a 0 u 0 0 100 22 hln 100 ERC=o
+p 2 62 12 hln 50 IN+ n 50 10 h
+a 0 u 0 0 57 10 hln 100 pin=1
+a 0 u 0 0 52 12 hln 100 ERC=i
+p 2 62 22 hln 50 IN- n 50 20 h
+a 0 u 0 0 57 20 hln 100 pin=2
+a 0 u 0 0 52 22 hln 100 ERC=i
+@graphics 100 30 50 10 10
+r 0 60 5 90 25
+*symbol summer
+d Summer
+@type p
+@attributes
+a 0 s 9 0 2 -2 hln 100 REFDES=U?
+a 0 s 0 0 16 50 hln 100 PART=summer
+a 0 s 0 0 0 0 hln 100 MODEL=
+a 0 s 0 0 0 0 hln 100 TEMPLATE=
+@views
+a 0 u 13 0 0 0 hln 100 DEFAULT=fsk13
+@pins
+p 0 2 8 hln 100 in1 n 0 10 h
+a 0 u 0 0 3 8 hln 100 pin=1
+a 0 u 0 0 2 10 hln 100 ERC=x
+p 0 2 18 hln 100 in2 n 0 20 h
+a 0 u 0 0 3 18 hln 100 pin=2
+a 0 u 0 0 2 20 hln 100 ERC=x
+p 0 2 38 hln 100 in3 n 0 40 h
+a 0 u 0 0 5 38 hln 100 pin=3
+a 0 u 0 0 4 40 hln 100 ERC=x
+p 0 30 26 hln 100 out n 40 30 u
+a 0 u 0 0 47 28 hln 100 pin=5
+a 0 u 0 0 46 30 hln 100 ERC=x
+p 0 12 52 hln 100 in4 n 0 50 h
+a 0 u 0 0 1 48 hln 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=x
+@graphics 40 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 0
+30 10
+;
+v 0 10 60
+30 50
+;
+v 0 30 10
+30 50
+;
+s 26 18 32 hln 100 +

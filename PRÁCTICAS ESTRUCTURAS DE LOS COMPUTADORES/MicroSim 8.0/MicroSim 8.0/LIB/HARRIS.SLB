@@ -1,0 +1,4293 @@
+*version 8.0 183322236
+@index
+symloc FRK150/HA:harris-pmose 0 219
+symloc FRK250/HA:harris-nmose 219 191
+symloc FRK254/HA:harris-nmose 410 204
+symloc FRL130/HA 614 557
+symloc FRL230/HA:harris-nmose 1171 181
+symloc HA-2500/HA:2500/HA 1352 155
+symloc HA-2502/HA:2500/HA 1507 155
+symloc HA-2510/HA:2500/HA 1662 155
+symloc HA-2512/HA:2500/HA 1817 155
+symloc HA-2520/HA:2500/HA 1972 155
+symloc HA-2522/HA:2500/HA 2127 155
+symloc HA-2539/HA:2539/HA 2282 168
+symloc HA-2540/HA:2540/HA 2450 168
+symloc HA-2541/HA:2541/HA 2618 155
+symloc HA-2542/HA:2542/HA 2773 155
+symloc HA-2544/HA:2544/HA 2928 155
+symloc HA-2548/HA:2500/HA 3083 155
+symloc HA-2600/HA:2500/HA 3238 155
+symloc HA-2602/HA:2500/HA 3393 155
+symloc HA-2620/HA:2500/HA 3548 155
+symloc HA-2622/HA:2500/HA 3703 155
+symloc HA-2839/HA:2539/HA 3858 168
+symloc HA-2840/HA:2840/HA 4026 167
+symloc HA-2841/HA:2841/HA 4193 155
+symloc HA-2842/HA:2841/HA 4348 154
+symloc HA-2850/HA:2840/HA 4502 167
+symloc HA-5002/HA:5002/HA 4669 155
+symloc HA-5004/HA:5004/HA 4824 153
+symloc HA-5020/HA:5020/HA 4977 155
+symloc HA-5033/HA:5033/HA 5132 154
+symloc HA-5101/HA:2544/HA 5286 155
+symloc HA-5102/HA:5102/HA 5441 167
+symloc HA-5104/HA:5104/HA 5608 154
+symloc HA-5112/HA:5102/HA 5762 167
+symloc HA-5114/HA:5104/HA 5929 167
+symloc HA-5127/HA:5127/HA 6096 203
+symloc HA-5137/HA:5127/HA 6299 212
+symloc HA-5147/HA:5127/HA 6511 208
+symloc HA-5190/HA:2540/HA 6719 168
+symloc HA-5221/HA:5221/HA 6887 155
+symloc HA-5222/HA:5102/HA 7042 167
+symloc HC-5509B/HA 7209 3618
+symloc HFA-0001/HA:0001/HA 10827 157
+symloc HFA-0002/HA:2544/HA 10984 157
+symloc HFA-0005/HA:0001/HA 11141 157
+symloc HFA1100/HA:op5 11298 150
+symloc HFA3046/HA:3046/HA 11448 209
+symloc HFA3096/HA:3096/HA 11657 209
+symloc HFA3127/HA:3127/HA 11866 209
+symloc HFA3128/HA 12075 3030
+symloc HIP2500/HA 15105 1321
+symloc IRF130/HA:harris-nmose 16426 185
+symloc IRFU9110/HA:harris-pmose 16611 226
+symloc IRFU9120/HA:harris-pmose 16837 226
+symloc MCTA75P60E1/HA 17063 658
+symloc MCTV75P60E1/HA 17721 660
+symloc RF1K49086/HA:harris-nmose 18381 220
+symloc RF1K49088/HA:harris-nmose 18601 233
+symloc RF1K49090/HA:harris-nmose 18834 233
+symloc RF1K49092/HA 19067 1609
+symloc RF1K49093/HA:harris-pmose 20676 233
+symloc RF1K49156/HA:harris-nmose 20909 234
+symloc RF1K49157/HA:harris-nmose 21143 234
+symloc RF1S30P05/HA:harris-pmose 21377 214
+symloc RF1S30P06/HA:harris-nmose 21591 214
+symloc RF1S45N03L/HA:harris-nmose 21805 228
+symloc RF1S60P03/HA:harris-pmose 22033 213
+symloc RFA100N05E/HA 22246 1080
+symloc RFD10P03L/HA:harris-pmose 23326 226
+symloc RFD14N05/HA:harris-nmose 23552 205
+symloc RFD14N06/HA:harris-nmose 23757 205
+symloc RFD15P05/HA:harris-pmose 23962 210
+symloc RFD15P06/HA:harris-pmose 24172 210
+symloc RFD16N03L/HA:harris-nmose 24382 227
+symloc RFD16N05/HA:harris-nmose 24609 211
+symloc RFD16N05L/HA:harris-nmose 24820 200
+symloc RFD16N06LE/HA:harris-nmose 25020 241
+symloc RFD3055/HA:harris-nmose 25261 207
+symloc RFD3055LE/HA:harris-nmose 25468 213
+symloc RFD7N10LE/HA:harris-nmose 25681 236
+symloc RFD8P06E/HA:harris-pmose 25917 220
+symloc RFF60P06/HA:harris-pmose 26137 232
+symloc RFG30P05/HA:harris-pmose 26369 211
+symloc RFG30P06/HA:harris-pmose 26580 210
+symloc RFG45N06/HA:harris-nmose 26790 210
+symloc RFG50N06/HA:harris-nmose 27000 210
+symloc RFG60P03/HA:harris-pmose 27210 210
+symloc RFG60P05E/HA:harris-pmose 27420 223
+symloc RFG60P06E/HA:harris-pmose 27643 223
+symloc RFG70N06/HA:harris-nmose 27866 209
+symloc RFG75N05E/HA:harris-nmose 28075 223
+symloc RFH75N05E/HA:harris-nmose 28298 188
+symloc RFM15N06/HA:harris-nmose 28486 185
+symloc RFP10P03L/HA:harris-pmose 28671 228
+symloc RFP14N05/HA:harris-nmose 28899 201
+symloc RFP14N06/HA:harris-nmose 29100 209
+symloc RFP15N06/HA:harris-nmose 29309 185
+symloc RFP15P05/HA:harris-pmose 29494 210
+symloc RFP15P06/HA:harris-pmose 29704 210
+symloc RFP25N05/HA:harris-nmose 29914 209
+symloc RFP25N06/HA:harris-nmose 30123 210
+symloc RFP3055/HA:harris-nmose 30333 207
+symloc RFP3055LE/HA:harris-nmose 30540 236
+symloc RFP30N06LE/HA:harris-nmose 30776 240
+symloc RFP30P05/HA:harris-pmose 31016 211
+symloc RFP30P06/HA:harris-pmose 31227 210
+symloc RFP45N03L/HA:harris-nmose 31437 225
+symloc RFP45N06/HA:harris-nmose 31662 210
+symloc RFP50N06/HA:harris-nmose 31872 210
+symloc RFP60P03/HA:harris-pmose 32082 210
+symloc RFP70N03/HA:harris-nmose 32292 211
+symloc RFP70N06/HA:harris-nmose 32503 185
+symloc RFP7N10LE/HA:harris-nmose 32688 236
+symloc RFP8P06E/HA:harris-pmose 32924 220
+symloc RLD03N06CLE/HA:harris-nmose 33144 259
+symloc RLP03N06CLE/HA:harris-nmose 33403 259
+symloc RLP1N08LE/HA:harris-nmose 33662 249
+symloc FSF150D,FSF150R 33911 742
+symloc FSF250D 34653 742
+symloc FSF250R:FSF250D 35395 262
+symloc FSF254D:FSF150D 35657 263
+symloc FSF254R:FSF254D 35920 263
+symloc FSS234D:FSF250D 36183 262
+symloc FSS234R:FSS234D 36445 262
+symloc IRFU9220 36707 1018
+symloc RF1S23N06LE 37725 757
+symloc RF1S25N06:FSF250D 38482 268
+symloc RF1S30N06LE:RF1S23N06LE 38750 279
+symloc RF1S40N10LE:RF1S23N06LE 39029 279
+symloc RF1S45N06:FSF250D 39308 269
+symloc RF1S45N06LE:RF1S23N06LE 39577 280
+symloc RF1S50N06:FSF250D 39857 270
+symloc RF1S50N06LE:RF1S23N06LE 40127 279
+symloc RF1S70N03:FSF250D 40406 269
+symloc RF1S70N06:FSF250D 40675 268
+symloc RFD14N05L:FSF250D 40943 270
+symloc RFD14N06L:FSF250D 41213 269
+symloc RFD16N06:FSF250D 41482 267
+symloc RFD3N08L:FSF250D 41749 266
+symloc RFF70N06:FSF250D 42015 268
+symloc RFG40N10LE:RF1S23N06LE 42283 280
+symloc RFG45N06LE:RF1S23N06LE 42563 276
+symloc RFG50N06LE:RF1S23N06LE 42839 277
+symloc RFP14N05L:FSF250D 43116 268
+symloc RFP14N06L:FSF250D 43384 269
+symloc RFP23N06LE:RF1S23N06LE 43653 277
+symloc RFP40N10LE:RFG40N10LE 43930 276
+symloc RFP45N06LE:RF1S23N06LE 44206 277
+symloc RFP50N06LE:RF1S23N06LE 44483 276
+symloc 0001/HA 44759 1088 b
+symloc 2500/HA 45847 1381 b
+symloc 2539/HA 47228 944 b
+symloc 2540/HA 48172 944 b
+symloc 2541/HA 49116 1243 b
+symloc 2542/HA 50359 1385 b
+symloc 2544/HA 51744 1241 b
+symloc 2840/HA 52985 927 b
+symloc 2841/HA 53912 1241 b
+symloc 3046/HA 55153 2840 b
+symloc 3096/HA 57993 3032 b
+symloc 3127/HA 61025 3010 b
+symloc 3128/HA 64035 3012 b
+symloc 5002/HA 67047 1128 b
+symloc 5004/HA 68175 1850 b
+symloc 5020/HA 70025 1385 b
+symloc 5033/HA 71410 972 b
+symloc 5102/HA 72382 942 b
+symloc 5104/HA 73324 943 b
+symloc 5127/HA 74267 1256 b
+symloc 5221/HA 75523 1241 b
+symloc 5509 76764 821 b
+symloc harris-nmose 77585 545 b
+symloc harris-pmose 78130 550 b
+symloc mct 78680 808 b
+symloc op4 79488 704 b
+symloc op5 80192 788 b
+symloc op6 80980 913 b
+symloc op7 81893 1008 b
+symloc copyright 82901 575 b
+*symbol FRK150/HA ako harris-pmose
+d 10A, -30V, Avalanche Rated, Logic Level P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 60 24 hcn 100 PART=FRK150/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=FRK150/HA
+*symbol FRK250/HA ako harris-nmose
+d N-Channel Logic Level Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 60 26 hcn 100 PART=FRK250/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=FRK250/HA
+*symbol FRK254/HA ako harris-nmose
+d 70A, 30V Avalanche Rated N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 58 24 hcn 100 PART=FRK254/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=FRK254/HA
+*symbol FRL130/HA
+d Radiation-Hardened N-Channel Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 60 22 hcn 100 PART=FRL130/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=FRL130/HA
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^REFDES %D %G %S @MODEL
+a 0 s 9 0 5 10 hcn 100 REFDES=U?
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol FRL230/HA ako harris-nmose
+d Radiation-Hardened N-Channel Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 60 22 hcn 100 PART=FRL230/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=FRL230/HA
+*symbol HA-2500/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2500/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2500/HA
+*symbol HA-2502/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2502/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2502/HA
+*symbol HA-2510/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2510/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2510/HA
+*symbol HA-2512/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -26 70 hln 100 PART=HA-2512/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2512/HA
+*symbol HA-2520/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2520/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2520/HA
+*symbol HA-2522/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2522/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2522/HA
+*symbol HA-2539/HA ako 2539/HA
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2539/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2539/HA
+*symbol HA-2540/HA ako 2540/HA
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2540/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2540/HA
+*symbol HA-2541/HA ako 2541/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2541/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2541/HA
+*symbol HA-2542/HA ako 2542/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2542/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2542/HA
+*symbol HA-2544/HA ako 2544/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2544/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2544/HA
+*symbol HA-2548/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2548/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2548/HA
+*symbol HA-2600/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2600/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2600/HA
+*symbol HA-2602/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2602/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2602/HA
+*symbol HA-2620/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2620/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2620/HA
+*symbol HA-2622/HA ako 2500/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2622/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2622/HA
+*symbol HA-2839/HA ako 2539/HA
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2839/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2839/HA
+*symbol HA-2840/HA ako 2840/HA
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HA-2840/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2840/HA
+*symbol HA-2841/HA ako 2841/HA
+d opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-2841/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2841/HA
+*symbol HA-2842/HA ako 2841/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HA-2842/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2842/HA
+*symbol HA-2850/HA ako 2840/HA
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HA-2850/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-2850/HA
+*symbol HA-5002/HA ako 5002/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-5002/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5002/HA
+*symbol HA-5004/HA ako 5004/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 90 hln 100 PART=HA-5004/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5004/HA
+*symbol HA-5020/HA ako 5020/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-5020/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5020/HA
+*symbol HA-5033/HA ako 5033/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HA-5033/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5033/HA
+*symbol HA-5101/HA ako 2544/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-5101/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5101/HA
+*symbol HA-5102/HA ako 5102/HA
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HA-5102/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5102/HA
+*symbol HA-5104/HA ako 5104/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HA-5104/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5104/HA
+*symbol HA-5112/HA ako 5102/HA
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HA-5112/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5112/HA
+*symbol HA-5114/HA ako 5104/HA
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HA-5114/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5114/HA
+*symbol HA-5127/HA ako 5127/HA
+d Ultra-Low Noise Precision Opamp
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 42 60 hln 100 PART=HA-5127/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5127/HA
+*symbol HA-5137/HA ako 5127/HA
+d Ultra-Low Noise Precision Wideband Opamp
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 42 60 hln 100 PART=HA-5137/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5137/HA
+*symbol HA-5147/HA ako 5127/HA
+d Ultra-Low Noise High Slew Rate Opamp
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 0 sp 11 0 42 60 hln 100 PART=HA-5147/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5147/HA
+*symbol HA-5190/HA ako 2540/HA
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-5190/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5190/HA
+*symbol HA-5221/HA ako 5221/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 -24 70 hln 100 PART=HA-5221/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5221/HA
+*symbol HA-5222/HA ako 5102/HA
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HA-5222/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HA-5222/HA
+*symbol HC-5509B/HA
+d Subscriber Line Interface Circuit (SLIC) Spare Op-Amp
+@type p
+@attributes
+a 0 sp 11 0 46 188 hln 100 PART=HC-5509B/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HC-5509B/HA
+a 0 sp 9 0 12 8 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %AG %-IN1 %VB+ %VB- %OUT1 @MODEL
+@pins
+p 2 13 17 hln 100 AG n 0 15 h
+a 0 u 1 0 5 13 hrn 100 PIN=1
+a 0 u 0 0 0 15 hln 100 ERC=x
+p 2 13 27 hln 100 C1 n 0 25 h
+a 0 u 1 0 5 23 hrn 100 PIN=3
+a 0 u 0 0 0 25 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 37 hln 100 F1 n 0 35 h
+a 0 u 1 0 5 33 hrn 100 PIN=4
+a 0 u 0 0 0 35 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 47 hln 100 F0 n 0 45 h
+a 0 u 1 0 5 43 hrn 100 PIN=5
+a 0 u 0 0 0 45 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 57 hln 100 RS c 0 55 h
+a 0 u 1 0 5 53 hrn 100 PIN=6
+a 0 u 0 0 0 55 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 67 hln 100 \TST\ n 0 65 h
+a 0 u 1 0 5 63 hrn 100 PIN=9
+a 0 u 0 0 0 65 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 77 hln 100 ILMT n 0 75 h
+a 0 u 1 0 5 73 hrn 100 PIN=11
+a 0 u 0 0 0 75 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 87 hln 100 -IN1 n 0 85 h
+a 0 u 1 0 5 83 hrn 100 PIN=13
+a 0 u 0 0 0 85 hln 100 ERC=x
+p 2 13 97 hln 100 TIP n 0 95 h
+a 0 u 1 0 5 93 hrn 100 PIN=14
+a 0 u 0 0 0 95 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 107 hln 100 RING n 0 105 h
+a 0 u 1 0 5 103 hrn 100 PIN=15
+a 0 u 0 0 0 105 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 117 hln 100 RFS n 0 115 h
+a 0 u 1 0 5 113 hrn 100 PIN=16
+a 0 u 0 0 0 115 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 127 hln 100 VRX n 0 125 h
+a 0 u 1 0 5 123 hrn 100 PIN=17
+a 0 u 0 0 0 125 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 137 hln 100 C2 n 0 135 h
+a 0 u 1 0 5 133 hrn 100 PIN=18
+a 0 u 0 0 0 135 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 147 hln 100 PRI n 0 145 h
+a 0 u 1 0 5 143 hrn 100 PIN=20
+a 0 u 0 0 0 145 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 157 hln 100 DG n 0 155 h
+a 0 u 1 0 5 153 hrn 100 PIN=22
+a 0 u 0 0 0 155 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 167 hln 100 VFB n 0 165 h
+a 0 u 1 0 5 163 hrn 100 PIN=24
+a 0 u 0 0 0 165 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 177 hln 100 BG n 0 175 h
+a 0 u 1 0 5 173 hrn 100 PIN=28
+a 0 u 0 0 0 175 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 178 hln 100 VB- n 40 190 v
+a 0 u 1 0 35 192 hcn 100 PIN=27
+a 0 u 0 0 40 190 hln 100 ERC=x
+p 2 57 32 hrn 100 \SHD\ n 70 30 u
+a 0 u 1 0 65 28 hln 100 PIN=7
+a 0 u 0 0 70 30 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 42 hrn 100 \GKD\ n 70 40 u
+a 0 u 1 0 65 38 hln 100 PIN=8
+a 0 u 0 0 70 40 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 52 hrn 100 \ALM\ n 70 50 u
+a 0 u 1 0 65 48 hln 100 PIN=10
+a 0 u 0 0 70 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 62 hrn 100 OUT1 n 70 60 u
+a 0 u 1 0 65 58 hln 100 PIN=12
+a 0 u 0 0 70 60 hln 100 ERC=x
+p 2 57 72 hrn 100 VTX n 70 70 u
+a 0 u 1 0 65 68 hln 100 PIN=19
+a 0 u 0 0 70 70 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 82 hrn 100 \PR\ n 70 80 u
+a 0 u 1 0 65 78 hln 100 PIN=21
+a 0 u 0 0 70 80 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 92 hrn 100 \RD\ n 70 90 u
+a 0 u 1 0 65 88 hln 100 PIN=23
+a 0 u 0 0 70 90 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 102 hrn 100 TF n 70 100 u
+a 0 u 1 0 65 98 hln 100 PIN=25
+a 0 u 0 0 70 100 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 112 hrn 100 RF n 70 110 u
+a 0 u 1 0 65 108 hln 100 PIN=26
+a 0 u 0 0 70 110 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 32 18 hln 100 VB+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=2
+a 0 u 0 0 40 0 hln 100 ERC=x
+@graphics 70 190 0 15 10
+r 0 10 10 60 180
+*symbol HFA-0001/HA ako 0001/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 46 66 hln 100 PART=HFA-0001/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HFA-0001/HA
+*symbol HFA-0002/HA ako 2544/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 44 70 hln 100 PART=HFA-0002/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HFA-0002/HA
+*symbol HFA-0005/HA ako 0001/HA
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HFA-0005/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HFA-0005/HA
+*symbol HFA1100/HA ako op5
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=HFA1100/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HFA1100/HA
+*symbol HFA3046/HA ako 3046/HA
+d Ultra High Frequency Transistor Array
+@type p
+@attributes
+a 0 sp 11 0 6 138 hln 100 PART=HFA3046/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HFA3046/HA
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+*symbol HFA3096/HA ako 3096/HA
+d Ultra High Frequency Transistor Array
+@type p
+@attributes
+a 0 sp 11 0 6 150 hln 100 PART=HFA3096/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HFA3096/HA
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+*symbol HFA3127/HA ako 3127/HA
+d Ultra High Frequency Transistor Array
+@type p
+@attributes
+a 0 sp 11 0 6 138 hln 100 PART=HFA3127/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HFA3127/HA
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+*symbol HFA3128/HA
+d Ultra High Frequency Transistor Array
+@type p
+@attributes
+a 0 sp 11 0 4 138 hln 100 PART=HFA3128/HA
+a 0 sp 0 0 50 60 hln 100 MODEL=HFA3128/HA
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C1 %C2 %E2 %B2 %C3 %E3 %B3 %B4 %E4 %C4 %C5 %E5 %B5 %B1 %E1 @MODEL
+@pins
+p 2 12 8 hln 100 C1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 14 10 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 12 38 hln 100 C2 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=2
+a 0 s 0 0 14 40 hln 100 ERC=x
+a 0 s 0 0 0 10 hln 100 FLOAT=e
+p 2 12 58 hln 100 E2 n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 16 62 hln 100 ERC=x
+a 0 s 0 0 0 10 hln 100 FLOAT=e
+p 2 12 68 hln 100 B2 n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=4
+a 0 s 0 0 16 78 hln 100 ERC=x
+a 0 s 0 0 0 -20 hln 100 FLOAT=e
+p 2 12 88 hln 100 C3 n 0 90 h
+a 0 s 1 0 5 88 hrn 100 PIN=6
+a 0 s 0 0 16 98 hln 100 ERC=x
+a 0 s 0 0 0 -20 hln 100 FLOAT=e
+p 2 78 88 hrn 100 C4 n 90 90 u
+a 0 s 1 0 85 88 hln 100 PIN=11
+a 0 s 0 0 74 82 hln 100 ERC=x
+a 0 s 0 0 0 -20 hln 100 FLOAT=e
+p 2 78 108 hrn 100 E4 n 90 110 u
+a 0 s 1 0 85 108 hln 100 PIN=10
+a 0 s 0 0 72 104 hln 100 ERC=x
+a 0 s 0 0 -2 20 hln 100 FLOAT=e
+p 2 78 68 hrn 100 C5 n 90 70 u
+a 0 s 1 0 85 68 hln 100 PIN=12
+a 0 s 0 0 74 66 hln 100 ERC=x
+a 0 s 0 0 0 2 hln 100 FLOAT=e
+p 2 78 48 hrn 100 E5 n 90 50 u
+a 0 s 1 0 85 48 hln 100 PIN=13
+a 0 s 0 0 74 40 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 78 28 hrn 100 B1 n 90 30 u
+a 0 s 1 0 85 28 hln 100 PIN=15
+a 0 s 0 0 74 20 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 78 8 hrn 100 E1 n 90 10 u
+a 0 s 1 0 85 8 hln 100 PIN=16
+a 0 s 0 0 74 2 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 12 108 hln 100 E3 n 0 110 h
+a 0 s 1 0 5 108 hrn 100 PIN=7
+a 0 s 0 0 2 110 hln 100 ERC=x
+p 2 12 118 hln 100 B3 n 0 120 h
+a 0 s 1 0 5 118 hrn 100 PIN=8
+a 0 s 0 0 2 120 hln 100 ERC=x
+p 2 78 118 hrn 100 B4 n 90 120 u
+a 0 s 1 0 85 118 hln 100 PIN=9
+a 0 s 0 0 88 120 hln 100 ERC=x
+p 2 78 38 hrn 100 B5 n 90 40 u
+a 0 s 1 0 85 38 hln 100 PIN=14
+a 0 s 0 0 90 38 hln 100 ERC=x
+@graphics 90 130 0 10 10
+r 0 10 0 80 130
+v 0 30 40
+30 60
+;
+v 0 30 50
+20 40
+;
+v 0 30 50
+20 60
+;
+v 0 25 58
+25 55
+;
+v 0 22 55
+25 55
+;
+v 0 30 110
+30 90
+;
+v 0 30 100
+20 110
+;
+v 0 50 20
+30 20
+;
+v 0 40 20
+50 10
+;
+v 0 40 20
+30 10
+;
+v 0 50 110
+50 120
+;
+v 0 30 100
+20 90
+;
+v 0 23 104
+26 104
+;
+v 0 26 107
+26 104
+;
+v 0 48 15
+45 15
+;
+v 0 45 12
+45 15
+;
+v 0 60 70
+60 50
+;
+v 0 60 60
+70 70
+;
+v 0 60 60
+70 50
+;
+v 0 65 52
+65 55
+;
+v 0 68 55
+65 55
+;
+v 0 70 10
+80 10
+;
+v 0 70 30
+80 30
+;
+v 0 60 90
+60 110
+;
+v 0 60 100
+70 90
+;
+v 0 60 100
+70 110
+;
+v 0 64 107
+64 104
+;
+v 0 67 104
+64 104
+;
+v 0 50 110
+50 100
+;
+v 0 50 100
+60 100
+;
+v 0 40 30
+40 20
+;
+v 0 10 10
+30 10
+;
+v 0 50 10
+70 10
+;
+v 0 40 30
+70 30
+;
+v 0 10 40
+20 40
+;
+v 0 10 60
+20 60
+;
+v 0 30 50
+40 50
+;
+v 0 40 50
+40 70
+;
+v 0 40 70
+10 70
+;
+v 0 10 90
+20 90
+;
+v 0 10 110
+20 110
+;
+v 0 30 100
+40 100
+;
+v 0 40 100
+40 120
+;
+v 0 40 120
+10 120
+;
+v 0 50 120
+80 120
+;
+v 0 70 110
+80 110
+;
+v 0 70 90
+80 90
+;
+v 0 70 70
+80 70
+;
+v 0 70 50
+80 50
+;
+v 0 60 60
+50 60
+;
+v 0 50 60
+50 40
+;
+v 0 50 40
+80 40
+;
+*symbol HIP2500/HA
+d Half-Bridge 500VDC Driver
+@type p
+@attributes
+a 0 sp 9 0 8 -4 hln 100 REFDES=U?
+a 0 sp 11 0 10 80 hln 100 PART=HIP2500/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=HIP2500/HA
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %VDD %HIN %SD %LIN %VSS %VB %HO %VS %VCC %LO %COM @MODEL
+@pins
+p 2 13 12 hln 100 VDD n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=9
+a 0 u 0 0 0 10 hln 100 ERC=p
+p 2 13 22 hln 100 HIN n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=10
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 13 32 hln 100 SD n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=11
+a 0 u 0 0 0 30 hln 100 ERC=i
+p 2 13 42 hln 100 LIN n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=12
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 13 52 hln 100 VSS n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=13
+a 0 u 0 0 0 50 hln 100 ERC=p
+p 2 57 22 hrn 100 HO n 70 20 u
+a 0 u 1 0 65 18 hln 100 pin=7
+a 0 u 0 0 68 20 hln 100 ERC=o
+p 2 57 32 hrn 100 VS n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=5
+a 0 u 0 0 68 30 hln 100 ERC=p
+p 2 57 42 hrn 100 VCC n 70 40 u
+a 0 u 1 0 65 38 hln 100 pin=3
+a 0 u 0 0 68 40 hln 100 ERC=p
+p 2 57 52 hrn 100 LO n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=1
+a 0 u 0 0 68 52 hln 100 ERC=p
+p 2 57 62 hrn 100 COM n 70 60 u
+a 0 u 1 0 65 58 hln 100 pin=2
+a 0 u 0 0 68 62 hln 100 ERC=p
+p 2 57 12 hrn 100 VB n 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=6
+a 0 u 0 0 70 10 hln 100 ERC=p
+@graphics 70 70 0 10 10
+r 0 10 0 60 70
+*symbol IRF130/HA ako harris-nmose
+d N-Channel Power MOSFET Avalanche Energy Rated
+@type p
+@attributes
+a 0 sp 11 0 58 22 hcn 100 PART=IRF130/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRF130/HA
+*symbol IRFU9110/HA ako harris-pmose
+d 3.1A, 100V, Avalanche Rated, Logic Level P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 64 24 hcn 100 PART=IRFU9110/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9110/HA
+*symbol IRFU9120/HA ako harris-pmose
+d 5.6A, 100V, Avalanche Rated, Logic Level P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 64 24 hcn 100 PART=IRFU9120/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9120/HA
+*symbol MCTA75P60E1/HA
+d P-Type MCT
+@type p
+@attributes
+a 0 s 9 0 17 -4 hln 100 refdes=U?
+a 0 sp 11 0 22 24 hln 100 PART=MCTA75P60E1/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=MCTA75P60E1/HA
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %G %K @MODEL
+@pins
+p 0 6 3 hln 100 A n 10 0 d
+a 0 u 0 0 15 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 6 33 hln 100 G n 10 40 v
+a 0 u 0 0 5 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 -6 -8 hln 100 K n 0 0 d
+a 0 u 0 0 5 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 20 40 0 0 10
+v 0 15 15
+5 15
+;
+v 0 5 15
+10 25
+;
+v 0 10 25
+15 15
+;
+v 0 15 25
+5 25
+;
+v 0 8 13
+2 13
+;
+v 0 10 10
+10 15
+;
+v 0 10 25
+10 30
+;
+v 0 0 10
+2 13
+;
+*symbol MCTV75P60E1/HA
+d P-Type MCT
+@type p
+@attributes
+a 0 s 9 0 17 -4 hln 100 refdes=U?
+a 0 sp 11 0 22 24 hln 100 PART=MCTV75P60E1/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=MCTV75P60E1/HA
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %G %K @MODEL
+@pins
+p 0 6 3 hln 100 A n 10 0 d
+a 0 u 1 0 11 -2 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 6 33 hln 100 G n 10 40 v
+a 0 u 1 0 11 38 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 -6 -8 hln 100 K n 0 0 d
+a 0 u 1 0 -14 -5 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 20 40 0 0 10
+v 0 15 15
+5 15
+;
+v 0 5 15
+10 25
+;
+v 0 10 25
+15 15
+;
+v 0 15 25
+5 25
+;
+v 0 8 13
+2 13
+;
+v 0 10 10
+10 15
+;
+v 0 10 25
+10 30
+;
+v 0 0 10
+2 13
+;
+*symbol RF1K49086/HA ako harris-nmose
+d 3.5A, 30V, Avalanche Rated, Dual N-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RF1K49086/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RF1K49086/HA
+*symbol RF1K49088/HA ako harris-nmose
+d 3.5A, 30V, Avalanche Rated, Logic Level, Dual N-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RF1K49088/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RF1K49088/HA
+*symbol RF1K49090/HA ako harris-nmose
+d 3.5A, 12V, Avalanche Rated, Logic Level, Dual N-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RF1K49090/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RF1K49090/HA
+*symbol RF1K49092/HA
+d Harris P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %d1 %g1 %s1 %d2 %g2 %s2 @MODEL
+a 0 sp 11 0 46 98 hcn 100 PART=RF1K49092/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1K49092/HA
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+@pins
+p 0 13 62 hln 100 g2 n 0 60 h
+a 0 s 0 0 5 58 hrn 100 PIN=4
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=r
+p 0 13 82 hln 100 s2 n 0 80 h
+a 0 s 0 0 5 78 hrn 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=r
+p 0 47 52 hrn 100 d2 n 60 50 u
+a 0 s 0 0 55 48 hln 100 PIN=5
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=r
+p 0 13 42 hln 100 s1 n 0 40 h
+a 0 s 0 0 5 38 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=r
+p 0 13 22 hln 100 g1 n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=r
+p 0 47 12 hrn 100 d1 n 60 10 u
+a 0 s 0 0 55 8 hln 100 PIN=7
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=r
+@graphics 60 90 0 20 10
+r 0 10 0 50 90
+v 0 20 60
+25 60
+;
+v 0 25 50
+25 70
+;
+v 0 30 70
+40 70
+;
+v 0 30 50
+40 50
+;
+v 0 40 60
+35 64
+;
+v 0 35 56
+40 60
+;
+v 0 40 60
+30 60
+;
+v 0 40 60
+40 70
+;
+v 0 30 73
+30 67
+;
+v 0 30 63
+30 57
+;
+v 0 30 53
+30 47
+;
+v 0 20 20
+25 20
+;
+v 0 25 10
+25 30
+;
+v 0 30 30
+40 30
+;
+v 0 30 10
+40 10
+;
+v 0 30 20
+35 24
+;
+v 0 35 16
+30 20
+;
+v 0 30 20
+40 20
+;
+v 0 40 20
+40 30
+;
+v 0 30 33
+30 27
+;
+v 0 30 23
+30 17
+;
+v 0 30 13
+30 7
+;
+v 0 10 20
+20 20
+;
+v 0 10 60
+20 60
+;
+v 0 40 10
+50 10
+;
+v 0 40 50
+50 50
+;
+v 0 40 30
+40 35
+;
+v 0 40 35
+35 40
+;
+v 0 35 40
+10 40
+;
+v 0 40 70
+40 75
+;
+v 0 40 75
+35 80
+;
+v 0 35 80
+10 80
+;
+*symbol RF1K49093/HA ako harris-pmose
+d 3.5A, 12V, Avalanche Rated, Logic Level, Dual P-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RF1K49093/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RF1K49093/HA
+*symbol RF1K49156/HA ako harris-nmose
+d 6.3A, 30V, Avalanche Rated, Logic Level, Single N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 32 hln 100 PART=RF1K49156/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RF1K49156/HA
+*symbol RF1K49157/HA ako harris-nmose
+d 6.3A, 30V, Avalanche Rated, Logic Level, Single N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RF1K49157/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RF1K49157/HA
+*symbol RF1S30P05/HA ako harris-pmose
+d 30A, 50V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RF1S30P05/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RF1S30P05/HA
+*symbol RF1S30P06/HA ako harris-nmose
+d 14A, 60V, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RF1S30P06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RF1S30P06/HA
+*symbol RF1S45N03L/HA ako harris-nmose
+d 45A, 30V, Avalanche Rated N-Channel Logic Level Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RF1S45N03L/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RF1S45N03L/HA
+*symbol RF1S60P03/HA ako harris-pmose
+d 60A, 30V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 38 28 hln 100 PART=RF1S60P03/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RF1S60P03/HA
+*symbol RFA100N05E/HA
+d N-Channel Power MOSFET With Kelvin Sensing
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=RFA100N05E/HA
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %SK %G %S1 %S2 %DK %D @MODEL
+a 0 s 9 0 5 10 hcn 100 REFDES=U?
+a 0 sp 11 0 74 22 hcn 100 PART=RFA100N05E/HA
+@pins
+p 0 25 40 hcn 100 S1 n 30 40 v
+a 0 s 1 0 25 42 hcn 100 PIN=4
+a 0 s 0 0 0 0 hln 100 ERC=i
+p 0 13 22 hln 100 G n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=i
+p 0 25 10 hcn 100 D n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=6
+a 0 s 0 0 0 0 hln 100 ERC=i
+p 0 42 30 hln 100 S2 n 40 40 v
+a 0 s 1 0 35 42 hcn 100 PIN=5
+a 0 s 0 0 40 42 hln 100 ERC=i
+p 0 52 30 hln 100 SK n 50 40 v
+a 0 s 1 0 45 42 hcn 100 PIN=2
+a 0 s 0 0 50 42 hln 100 ERC=i
+p 0 38 10 hln 100 DK n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=3
+a 0 s 0 0 40 -2 hln 100 ERC=i
+@graphics 50 40 0 20 10
+v 0 30 10
+40 10
+;
+v 0 30 30
+40 30
+;
+v 0 40 30
+50 30
+;
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol RFD10P03L/HA ako harris-pmose
+d 10A, 30V, Logic-Level, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFD10P03L/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD10P03L/HA
+*symbol RFD14N05/HA ako harris-nmose
+d 14A, 50V N-Channel Avalanche Rated Enhancement-Mode Power FET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFD14N05/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD14N05/HA
+*symbol RFD14N06/HA ako harris-nmose
+d 14A, 60V N-Channel Avalanche Rated Enhancement-Mode Power FET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFD14N06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD14N06/HA
+*symbol RFD15P05/HA ako harris-pmose
+d 15A, 50V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 26 hln 100 PART=RFD15P05/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD15P05/HA
+*symbol RFD15P06/HA ako harris-pmose
+d 15A, 60V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 24 hln 100 PART=RFD15P06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD15P06/HA
+*symbol RFD16N03L/HA ako harris-nmose
+d 16A, 30V, Avalanche Rated, Logic Level, N-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 34 22 hln 100 PART=RFD16N03L/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD16N03L/HA
+*symbol RFD16N05/HA ako harris-nmose
+d 16A, 50V, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 38 28 hln 100 PART=RFD16N05/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD16N05/HA
+*symbol RFD16N05L/HA ako harris-nmose
+d N-Channel Logic Level Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 70 22 hcn 100 PART=RFD16N05L/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFD16N05L/HA
+*symbol RFD16N06LE/HA ako harris-nmose
+d 16A, 30V, Avalanche Rated, EDS Rated, Logic Level, N-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFD16N06LE/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD16N06LE/HA
+*symbol RFD3055/HA ako harris-nmose
+d 12A, 60V, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFD3055/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD3055/HA
+*symbol RFD3055LE/HA ako harris-nmose
+d 12A, 60V, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFD3055LE/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD3055LE/HA
+*symbol RFD7N10LE/HA ako harris-nmose
+d 7A, 100V, Avalanche Rated, EDS Rated, Logic Level N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 38 28 hln 100 PART=RFD7N10LE/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD7N10LE/HA
+*symbol RFD8P06E/HA ako harris-pmose
+d 8A, 60V, EDS Rated, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFD8P06E/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFD8P06E/HA
+*symbol RFF60P06/HA ako harris-pmose
+d 25A, 60V, Hermetically Packaged, Avalanche Rated P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 32 24 hln 100 PART=RFF60P06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFF60P06/HA
+*symbol RFG30P05/HA ako harris-pmose
+d 30A, 50V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFG30P05/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFG30P05/HA
+*symbol RFG30P06/HA ako harris-pmose
+d 30A, 60V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 32 28 hln 100 PART=RFG30P06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFG30P06/HA
+*symbol RFG45N06/HA ako harris-nmose
+d 45A, 60V, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 38 28 hln 100 PART=RFG45N06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFG45N06/HA
+*symbol RFG50N06/HA ako harris-nmose
+d 50A, 60V, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFG50N06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFG50N06/HA
+*symbol RFG60P03/HA ako harris-pmose
+d 60A, 30V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFG60P03/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFG60P03/HA
+*symbol RFG60P05E/HA ako harris-pmose
+d 60A, 50V, EDS Rated, Avalanche Rated P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 38 28 hln 100 PART=RFG60P05E/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFG60P05E/HA
+*symbol RFG60P06E/HA ako harris-pmose
+d 60A, 60V, EDS Rated, Avalanche Rated P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFG60P06E/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFG60P06E/HA
+*symbol RFG70N06/HA ako harris-nmose
+d 70A, 60V, Avalanche Rated N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 38 28 hln 100 PART=RFG70N06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFG70N06/HA
+*symbol RFG75N05E/HA ako harris-nmose
+d 75A, 50V, EDS Rated, Avalanche Rated N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFG75N05E/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFG75N05E/HA
+*symbol RFH75N05E/HA ako harris-nmose
+d N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 70 22 hcn 100 PART=RFH75N05E/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFH75N05E/HA
+*symbol RFM15N06/HA ako harris-nmose
+d N-Channel Enhancement Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 68 22 hcn 100 PART=RFM15N06/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFM15N06/HA
+*symbol RFP10P03L/HA ako harris-pmose
+d 10A, -30V, Avalanche Rated, Logic Level P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 68 22 hcn 100 PART=RFP10P03L/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFP10P03L/HA
+*symbol RFP14N05/HA ako harris-nmose
+d 14A, 50V N-Channel Logic-Level Enhancement-Mode Power FET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFP14N05/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP14N05/HA
+*symbol RFP14N06/HA ako harris-nmose
+d 14A, 60V, Avalanche Rated N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFP14N06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP14N06/HA
+*symbol RFP15N06/HA ako harris-nmose
+d N-Channel Enhancement Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 68 22 hcn 100 PART=RFP15N06/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFP15N06/HA
+*symbol RFP15P05/HA ako harris-pmose
+d 15A, 50V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFP15P05/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP15P05/HA
+*symbol RFP15P06/HA ako harris-pmose
+d 15A, 60V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFP15P06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP15P06/HA
+*symbol RFP25N05/HA ako harris-nmose
+d 25A, 50V, Avalanche Rated N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFP25N05/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP25N05/HA
+*symbol RFP25N06/HA ako harris-nmose
+d 25A, 60V, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFP25N06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP25N06/HA
+*symbol RFP3055/HA ako harris-nmose
+d 30A, 55V, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFP3055/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP3055/HA
+*symbol RFP3055LE/HA ako harris-nmose
+d 30A, 55V, EDS Rated, Logic-Level, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=RFP3055LE/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP3055LE/HA
+*symbol RFP30N06LE/HA ako harris-nmose
+d 30A, 60V, EDS Rated, Logic-Level, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFP30N06LE/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP30N06LE/HA
+*symbol RFP30P05/HA ako harris-pmose
+d 30A, 50V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFP30P05/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP30P05/HA
+*symbol RFP30P06/HA ako harris-pmose
+d 30A, 60V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 32 24 hln 100 PART=RFP30P06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP30P06/HA
+*symbol RFP45N03L/HA ako harris-nmose
+d 45A, 30V, Avalanche Rated N-Channel Logic Level Enhancement-Mode Power MOSFETs
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFP45N03L/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP45N03L/HA
+*symbol RFP45N06/HA ako harris-nmose
+d 45A, 60V, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFP45N06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP45N06/HA
+*symbol RFP50N06/HA ako harris-nmose
+d 50A, 60V, Avalanche Rated, N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFP50N06/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP50N06/HA
+*symbol RFP60P03/HA ako harris-pmose
+d 60A, 30V, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RFP60P03/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP60P03/HA
+*symbol RFP70N03/HA ako harris-nmose
+d 70A, 30V, Avalanche Rated N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 70 22 hcn 100 PART=RFP70N03/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFP70N03/HA
+*symbol RFP70N06/HA ako harris-nmose
+d N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 68 22 hcn 100 PART=RFP70N06/HA
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFP70N06/HA
+*symbol RFP7N10LE/HA ako harris-nmose
+d 7A, 100V, Avalanche Rated, EDS Rated, Logic Level N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RFP7N10LE/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP7N10LE/HA
+*symbol RFP8P06E/HA ako harris-pmose
+d 8A, 60V, EDS Rated, Avalanche Rated, P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 38 28 hln 100 PART=RFP8P06E/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RFP8P06E/HA
+*symbol RLD03N06CLE/HA ako harris-nmose
+d .3A, 60V, EDS Rated, Current Limited, Voltage Clamped, Logic Level N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 36 28 hln 100 PART=RLD03N06CLE/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RLD03N06CLE/HA
+*symbol RLP03N06CLE/HA ako harris-nmose
+d .3A, 60V, EDS Rated, Current Limited, Voltage Clamped, Logic Level N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 11 0 34 28 hln 100 PART=RLP03N06CLE/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RLP03N06CLE/HA
+*symbol RLP1N08LE/HA ako harris-nmose
+d Current Limited ESD Protected N-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 34 22 hln 100 PART=RLP1N08LE/HA
+a 0 sp 0 0 0 0 hln 100 MODEL=RLP1N08LE/HA
+*symbol FSF150D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 REFDES=M?
+a 0 sp 11 0 3 60 hcn 100 PART=FSF150D
+a 0 sp 0 0 10 40 hcn 100 MODEL=FSF150/HA
+@pins
+p 0 25 60 hcn 100 s n 30 60 v
+a 0 s 0 0 23 58 hln 100 PIN=
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 0 13 42 hln 100 g n 0 40 h
+a 0 s 0 0 1 38 hrn 100 PIN=
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 s 0 0 23 8 hln 100 PIN=
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 45 60 0 40 10
+v 0 10 40
+15 40
+;
+v 0 15 30
+15 50
+;
+v 0 20 50
+30 50
+;
+v 0 20 30
+30 30
+;
+v 0 20 40
+30 40
+;
+v 0 30 40
+30 50
+;
+v 0 20 27
+20 33
+;
+v 0 20 37
+20 43
+;
+v 0 20 47
+20 53
+;
+v 0 29 42
+23 40
+29 38
+;
+v 0 30 10
+30 30
+;
+*symbol FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 REFDES=M?
+a 0 sp 11 0 2 58 hcn 100 PART=FSF250D
+a 0 sp 0 0 10 40 hcn 100 MODEL=FSF250/HA
+@pins
+p 0 25 60 hcn 100 s n 30 60 v
+a 0 s 0 0 31 58 hln 100 PIN=
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 0 13 42 hln 100 g n 0 40 h
+a 0 s 0 0 1 38 hrn 100 PIN=
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 s 0 0 31 -2 hln 100 PIN=
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 48 60 0 40 10
+v 0 10 40
+15 40
+;
+v 0 15 30
+15 50
+;
+v 0 20 50
+30 50
+;
+v 0 20 30
+30 30
+;
+v 0 20 40
+30 40
+;
+v 0 30 40
+30 50
+;
+v 0 20 27
+20 33
+;
+v 0 20 37
+20 43
+;
+v 0 20 47
+20 53
+;
+v 0 29 42
+23 40
+29 38
+;
+v 0 30 30
+30 9
+;
+*symbol FSF250R ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 8 hrn 100 refdes=M?
+a 0 sp 11 0 -6 50 hcn 100 PART=FSF250R
+a 0 sp 0 0 10 40 hcn 100 MODEL=FSF250/HA
+*symbol FSF254D ako FSF150D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 10 hrn 100 refdes=M?
+a 0 sp 11 0 -4 50 hcn 100 PART=FSF254D
+a 0 sp 0 0 10 40 hcn 100 MODEL=FSF254/HA
+*symbol FSF254R ako FSF254D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 10 hrn 100 refdes=M?
+a 0 sp 11 0 -4 50 hcn 100 PART=FSF254R
+a 0 sp 0 0 10 40 hcn 100 MODEL=FSF254/HA
+*symbol FSS234D ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hcn 100 refdes=M?
+a 0 sp 11 0 -6 50 hcn 100 PART=FSS234D
+a 0 sp 0 0 10 40 hcn 100 MODEL=FSS234/HA
+*symbol FSS234R ako FSS234D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 refdes=M?
+a 0 sp 11 0 -8 50 hcn 100 PART=FSS234R
+a 0 sp 0 0 10 40 hcn 100 MODEL=FSS234/HA
+*symbol IRFU9220
+d Harris P-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 refdes=M?
+a 0 sp 11 0 -8 50 hcn 100 PART=IRFU9220
+a 0 sp 0 0 10 40 hcn 100 MODEL=IRFU9220/HA
+@pins
+p 0 25 60 hcn 100 s n 30 60 v
+a 0 u 0 0 31 58 hln 100 pin=
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 13 42 hln 100 g n 0 40 h
+a 0 u 0 0 1 38 hrn 100 pin=
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 u 0 0 31 -2 hln 100 pin=
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 45 60 0 40 10
+v 0 10 40
+15 40
+;
+v 0 15 20
+15 40
+;
+v 0 20 40
+30 40
+;
+v 0 20 20
+30 20
+;
+v 0 26 35
+30 30
+;
+v 0 26 25
+30 30
+;
+v 0 20 30
+30 30
+;
+v 0 30 30
+30 40
+;
+v 0 20 43
+20 37
+;
+v 0 20 33
+20 27
+;
+v 0 20 23
+20 17
+;
+v 0 40 35
+38 33
+;
+v 0 34 33
+32 31
+;
+v 0 38 33
+34 33
+;
+v 0 36 33
+39 27
+;
+v 0 39 27
+33 27
+;
+v 0 33 27
+36 33
+;
+v 0 36 27
+36 15
+;
+v 0 36 15
+30 15
+;
+v 0 36 33
+36 45
+;
+v 0 36 45
+30 45
+;
+v 0 30 15
+30 20
+;
+v 0 30 40
+30 45
+;
+c 0 25 30 21
+c 0 5 10 0
+v 0 30 10
+30 15
+;
+v 0 30 45
+30 50
+;
+*symbol RF1S23N06LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 REFDES=M?
+a 0 sp 11 0 -4 59 hcn 100 PART=RF1S23N06LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1S23N06LE/HA
+@pins
+p 0 25 60 hcn 100 s n 30 60 v
+a 0 s 0 0 31 58 hln 100 PIN=
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 0 13 42 hln 100 g n 0 40 h
+a 0 s 0 0 1 38 hrn 100 PIN=
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 0 25 10 hcn 100 d n 30 0 d
+a 0 s 0 0 31 -2 hln 100 PIN=
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 45 60 0 40 10
+v 0 10 40
+15 40
+;
+v 0 15 30
+15 50
+;
+v 0 20 50
+30 50
+;
+v 0 20 30
+30 30
+;
+v 0 20 40
+30 40
+;
+v 0 30 40
+30 50
+;
+v 0 20 27
+20 33
+;
+v 0 20 37
+20 43
+;
+v 0 20 47
+20 53
+;
+v 0 29 42
+23 40
+29 38
+;
+v 0 30 10
+30 30
+;
+*symbol RF1S25N06 ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 refdes=M?
+a 0 sp 11 0 0 56 hcn 100 PART=RF1S25N06
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1S25N06/HA
+*symbol RF1S30N06LE ako RF1S23N06LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 refdes=M?
+a 0 sp 11 0 -8 56 hcn 100 PART=RF1S30N06LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1S30N06LE/HA
+*symbol RF1S40N10LE ako RF1S23N06LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %G %D %S @MODEL
+a 1 s 9 0 5 6 hrn 100 refdes=M?
+a 0 sp 11 0 -6 56 hcn 100 PART=RF1S40N10LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1S40N10LE/HA
+*symbol RF1S45N06 ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 refdes=M?
+a 0 sp 11 0 -4 56 hcn 100 PART=RF1S45N06
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1S45N06/HA
+*symbol RF1S45N06LE ako RF1S23N06LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 refdes=M?
+a 0 sp 11 0 -10 56 hcn 100 PART=RF1S45N06LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1S45N06LE/HA
+*symbol RF1S50N06 ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 -4 56 hcn 100 PART=RF1S50N06
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1S50N06/HA
+*symbol RF1S50N06LE ako RF1S23N06LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 refdes=M?
+a 0 sp 11 0 -8 56 hcn 100 PART=RF1S50N06LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1S50N06LE/HA
+*symbol RF1S70N03 ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 refdes=M?
+a 0 sp 11 0 -2 56 hcn 100 PART=RF1S70N03
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1S70N03/HA
+*symbol RF1S70N06 ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hrn 100 refdes=M?
+a 0 sp 11 0 0 56 hcn 100 PART=RF1S70N06
+a 0 sp 0 0 10 40 hcn 100 MODEL=RF1S70N06/HA
+*symbol RFD14N05L ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 -4 56 hcn 100 PART=RFD14N05L
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFD14N05L/HA
+*symbol RFD14N06L ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 2 56 hcn 100 PART=RFD14N06L
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFD14N06L/HA
+*symbol RFD16N06 ako FSF250D
+d 16A, 60V N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 9 6 hrn 100 refdes=M?
+a 0 sp 11 0 0 56 hcn 100 PART=RFD16N06
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFD16N06/HA
+*symbol RFD3N08L ako FSF250D
+d 3A 80V N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 4 56 hcn 100 PART=RFD3N08L
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFD3N08L/HA
+*symbol RFF70N06 ako FSF250D
+d 25A, 60V N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 4 56 hcn 100 PART=RFF70N06
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFF70N06/HA
+*symbol RFG40N10LE ako RF1S23N06LE
+d 40A, 100V N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %G %D %S @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 -2 56 hcn 100 PART=RFG40N10LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFG40N10LE/HA
+*symbol RFG45N06LE ako RF1S23N06LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 0 56 hcn 100 PART=RFG45N06LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFG45N06LE/HA
+*symbol RFG50N06LE ako RF1S23N06LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 -2 56 hcn 100 PART=RFG50N06LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFG50N06LE/HA
+*symbol RFP14N05L ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 5 6 hcn 100 refdes=M?
+a 0 sp 11 0 0 56 hcn 100 PART=RFP14N05L
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFP14N05L/HA
+*symbol RFP14N06L ako FSF250D
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 2 56 hcn 100 PART=RFP14N06L
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFP14N06L/HA
+*symbol RFP23N06LE ako RF1S23N06LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 -2 56 hcn 100 PART=RFP23N06LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFP23N06LE/HA
+*symbol RFP40N10LE ako RFG40N10LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %G %D %S @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 -2 56 hcn 100 PART=RFP40N10LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFP40N10LE/HA
+*symbol RFP45N06LE ako RF1S23N06LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 11 6 hrn 100 refdes=M?
+a 0 sp 11 0 -2 56 hcn 100 PART=RFP45N06LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFP45N06LE/HA
+*symbol RFP50N06LE ako RF1S23N06LE
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 1 s 9 0 9 6 hrn 100 refdes=M?
+a 0 sp 11 0 -4 56 hcn 100 PART=RFP50N06LE
+a 0 sp 0 0 10 40 hcn 100 MODEL=RFP50N06LE/HA
+*symbol 0001/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 54 37 hrn 50 SENSE n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 82 48 hln 100 ERC=i
+a 0 u 0 0 12 -2 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 50
+70 50
+;
+*symbol 2500/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 57 35 hrn 50 B1 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=1
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+p 2 46 38 hln 50 B2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=5
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 110 -10 hln 100 float=u
+p 2 50 26 hrn 70 C n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+56 37
+;
+v 0 60 40
+70 40
+;
+v 0 60 10
+70 10
+;
+*symbol 2539/HA b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=14
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=10
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2540/HA b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 12 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=10
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2541/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=10
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 B2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=12
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+p 2 52 25 hrn 50 B1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=3
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 2542/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=10
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 57 35 hrn 50 B1 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=3
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+p 2 46 38 hln 50 B2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=13
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 110 -10 hln 100 float=u
+p 2 50 26 hrn 70 C n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=12
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+56 37
+;
+v 0 60 40
+70 40
+;
+v 0 60 10
+70 10
+;
+*symbol 2544/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 B2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 82 48 hln 100 ERC=i
+a 0 u 0 0 12 -2 hln 100 float=u
+p 2 52 26 hrn 50 B1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 2840/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2841/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 B2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 82 48 hln 100 ERC=i
+a 0 u 0 0 12 -2 hln 100 float=u
+p 2 52 25 hrn 50 B1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 3046/HA b
+d Ultra High Frequency Transistor Array
+@type p
+@attributes
+a 0 sp 11 0 14 138 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C1 %B1 %E1_2 %B2 %C2 %B3 %E3 %C3 %B4 %E4 %C4 %B5 %E5 %C5 @MODEL
+@pins
+p 2 13 8 hln 100 C1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 14 10 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 28 hln 100 B1 n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 14 30 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 48 hln 100 E1_2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=3
+a 0 s 0 0 16 52 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 12 69 hln 100 B2 n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=4
+a 0 s 0 0 16 78 hln 100 ERC=x
+a 0 s 0 0 0 -20 hln 100 FLOAT=e
+p 2 12 89 hln 100 C2 n 0 90 h
+a 0 s 1 0 5 88 hrn 100 PIN=5
+a 0 s 0 0 16 98 hln 100 ERC=x
+a 0 s 0 0 0 -20 hln 100 FLOAT=e
+p 2 79 78 hrn 100 E4 n 90 80 u
+a 0 s 1 0 85 78 hln 100 PIN=10
+a 0 s 0 0 74 72 hln 100 ERC=x
+a 0 s 0 0 0 -30 hln 100 FLOAT=e
+p 2 79 88 hrn 100 B4 n 90 90 u
+a 0 s 1 0 85 88 hln 100 PIN=9
+a 0 s 0 0 72 84 hln 100 ERC=x
+a 0 s 0 0 -2 0 hln 100 FLOAT=e
+p 2 79 58 hrn 100 C4 n 90 60 u
+a 0 s 1 0 85 58 hln 100 PIN=11
+a 0 s 0 0 74 54 hln 100 ERC=x
+a 0 s 0 0 0 -10 hln 100 FLOAT=e
+p 2 79 48 hrn 100 B5 n 90 50 u
+a 0 s 1 0 85 48 hln 100 PIN=12
+a 0 s 0 0 74 40 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 79 28 hrn 100 E5 n 90 30 u
+a 0 s 1 0 85 28 hln 100 PIN=13
+a 0 s 0 0 74 20 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 79 8 hrn 100 C5 n 90 10 u
+a 0 s 1 0 85 8 hln 100 PIN=14
+a 0 s 0 0 74 2 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 12 99 hln 100 B3 n 0 100 h
+a 0 s 1 0 5 98 hrn 100 PIN=6
+a 0 s 0 0 2 100 hln 100 ERC=x
+p 2 13 118 hln 100 E3 n 0 120 h
+a 0 s 1 0 5 118 hrn 100 PIN=7
+a 0 s 0 0 2 120 hln 100 ERC=x
+p 2 79 118 hrn 100 C3 n 90 120 u
+a 0 s 1 0 85 118 hln 100 PIN=8
+a 0 s 0 0 88 120 hln 100 ERC=x
+@graphics 90 130 0 10 10
+r 0 10 0 80 130
+v 0 30 20
+30 40
+;
+v 0 30 30
+40 20
+;
+v 0 40 20
+40 10
+;
+v 0 40 40
+40 50
+;
+v 0 30 30
+40 40
+;
+v 0 40 40
+40 37
+;
+v 0 40 40
+37 40
+;
+v 0 30 60
+30 80
+;
+v 0 30 70
+40 60
+;
+v 0 30 110
+50 110
+;
+v 0 40 110
+30 120
+;
+v 0 40 110
+50 120
+;
+v 0 40 60
+40 50
+;
+v 0 50 80
+50 90
+;
+v 0 30 70
+40 80
+;
+v 0 40 60
+37 60
+;
+v 0 40 60
+40 63
+;
+v 0 30 120
+33 120
+;
+v 0 30 120
+30 117
+;
+v 0 10 10
+40 10
+;
+v 0 10 30
+30 30
+;
+v 0 10 70
+30 70
+;
+v 0 10 90
+40 90
+;
+v 0 50 90
+80 90
+;
+v 0 10 50
+40 50
+;
+v 0 60 10
+60 30
+;
+v 0 60 20
+70 10
+;
+v 0 60 20
+70 30
+;
+v 0 70 30
+70 27
+;
+v 0 70 30
+67 30
+;
+v 0 70 10
+80 10
+;
+v 0 70 30
+80 30
+;
+v 0 60 20
+50 20
+;
+v 0 50 20
+50 50
+;
+v 0 50 50
+80 50
+;
+v 0 40 80
+40 90
+;
+v 0 60 60
+60 80
+;
+v 0 60 70
+70 60
+;
+v 0 60 70
+70 80
+;
+v 0 70 80
+70 77
+;
+v 0 70 80
+67 80
+;
+v 0 70 60
+80 60
+;
+v 0 70 80
+80 80
+;
+v 0 50 80
+50 70
+;
+v 0 50 70
+60 70
+;
+v 0 10 100
+40 100
+;
+v 0 40 100
+40 110
+;
+v 0 10 120
+30 120
+;
+v 0 50 120
+80 120
+;
+*symbol 3096/HA b
+d Ultra High Frequency Transistor Array
+@type p
+@attributes
+a 0 sp 11 0 82 128 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %B1 %E1 %C1 %E2 %B2 %C2 %E3 %B3 %C3 %E4 %B4 %C4 %E5 %B5 %C5 @MODEL
+@pins
+p 2 12 8 hln 100 B1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 14 10 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 12 18 hln 100 E1 n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 14 18 hln 100 ERC=x
+a 0 s 0 0 0 -12 hln 100 FLOAT=e
+p 2 12 38 hln 100 C1 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=3
+a 0 s 0 0 18 42 hln 100 ERC=x
+a 0 s 0 0 2 -10 hln 100 FLOAT=e
+p 2 12 48 hln 100 E2 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=4
+a 0 s 0 0 16 58 hln 100 ERC=x
+a 0 s 0 0 0 -40 hln 100 FLOAT=e
+p 2 12 68 hln 100 B2 n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=5
+a 0 s 0 0 16 78 hln 100 ERC=x
+a 0 s 0 0 0 -40 hln 100 FLOAT=e
+p 2 77 78 hrn 100 B4 n 90 80 u
+a 0 s 1 0 85 78 hln 100 PIN=11
+a 0 s 0 0 74 72 hln 100 ERC=x
+a 0 s 0 0 0 -30 hln 100 FLOAT=e
+p 2 77 98 hrn 100 E4 n 90 100 u
+a 0 s 1 0 85 98 hln 100 PIN=10
+a 0 s 0 0 72 94 hln 100 ERC=x
+a 0 s 0 0 -2 10 hln 100 FLOAT=e
+p 2 77 58 hrn 100 C4 n 90 60 u
+a 0 s 1 0 85 58 hln 100 PIN=12
+a 0 s 0 0 74 54 hln 100 ERC=x
+a 0 s 0 0 0 -10 hln 100 FLOAT=e
+p 2 77 48 hrn 100 E5 n 90 50 u
+a 0 s 1 0 85 48 hln 100 PIN=13
+a 0 s 0 0 74 40 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 77 28 hrn 100 B5 n 90 30 u
+a 0 s 1 0 85 28 hln 100 PIN=14
+a 0 s 0 0 74 18 hln 100 ERC=x
+a 0 s 0 0 0 -2 hln 100 FLOAT=e
+p 2 77 8 hrn 100 C5 n 90 10 u
+a 0 s 1 0 85 8 hln 100 PIN=15
+a 0 s 0 0 74 2 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 12 88 hln 100 C2 n 0 90 h
+a 0 s 1 0 5 88 hrn 100 PIN=6
+a 0 s 0 0 2 88 hln 100 ERC=x
+p 2 12 118 hln 100 B3 n 0 120 h
+a 0 s 1 0 5 118 hrn 100 PIN=8
+a 0 s 0 0 2 120 hln 100 ERC=x
+p 2 12 98 hln 100 E3 n 0 100 h
+a 0 s 1 0 5 98 hrn 100 PIN=7
+a 0 s 0 0 -2 100 hln 100 ERC=x
+p 2 77 128 hrn 100 C3 n 90 130 u
+a 0 s 1 0 85 128 hln 100 PIN=9
+a 0 s 0 0 82 132 hln 100 ERC=x
+@graphics 90 140 0 10 10
+r 0 10 0 80 140
+v 0 30 40
+30 20
+;
+v 0 30 30
+20 40
+;
+v 0 40 20
+40 10
+;
+v 0 30 30
+20 20
+;
+v 0 20 20
+20 23
+;
+v 0 20 20
+23 20
+;
+v 0 30 60
+30 80
+;
+v 0 30 70
+40 60
+;
+v 0 30 110
+30 130
+;
+v 0 30 120
+40 110
+;
+v 0 30 120
+40 130
+;
+v 0 40 60
+40 50
+;
+v 0 30 70
+40 80
+;
+v 0 40 60
+37 60
+;
+v 0 40 60
+40 63
+;
+v 0 40 110
+40 113
+;
+v 0 40 110
+37 110
+;
+v 0 10 10
+40 10
+;
+v 0 10 70
+30 70
+;
+v 0 10 90
+40 90
+;
+v 0 70 10
+80 10
+;
+v 0 70 30
+80 30
+;
+v 0 50 50
+80 50
+;
+v 0 40 80
+40 90
+;
+v 0 60 70
+60 90
+;
+v 0 60 80
+50 70
+;
+v 0 60 80
+50 90
+;
+v 0 56 87
+56 84
+;
+v 0 53 84
+56 84
+;
+v 0 80 80
+70 80
+;
+v 0 10 120
+30 120
+;
+v 0 30 30
+40 30
+;
+v 0 40 30
+40 20
+;
+v 0 10 20
+20 20
+;
+v 0 10 40
+20 40
+;
+v 0 10 50
+40 50
+;
+v 0 10 100
+40 100
+;
+v 0 40 100
+40 110
+;
+v 0 80 130
+50 130
+;
+v 0 40 130
+50 130
+;
+v 0 60 80
+70 80
+;
+v 0 50 90
+50 100
+;
+v 0 50 100
+80 100
+;
+v 0 50 70
+50 60
+;
+v 0 50 60
+80 60
+;
+v 0 60 20
+60 40
+;
+v 0 60 30
+50 20
+;
+v 0 60 30
+50 40
+;
+v 0 56 37
+56 34
+;
+v 0 53 34
+56 34
+;
+v 0 60 30
+70 30
+;
+v 0 50 20
+50 10
+;
+v 0 50 40
+50 50
+;
+v 0 70 10
+50 10
+;
+*symbol 3127/HA b
+d Ultra High Frequency Transistor Array
+@type p
+@attributes
+a 0 sp 11 0 14 138 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C1 %C2 %E2 %B2 %C3 %E3 %B3 %B4 %E4 %C4 %C5 %E5 %B5 %B1 %E1 @MODEL
+@pins
+p 2 11 8 hln 100 C1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 14 10 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 11 38 hln 100 C2 n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=2
+a 0 s 0 0 14 40 hln 100 ERC=x
+a 0 s 0 0 0 10 hln 100 FLOAT=e
+p 2 11 58 hln 100 E2 n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 16 62 hln 100 ERC=x
+a 0 s 0 0 0 10 hln 100 FLOAT=e
+p 2 11 68 hln 100 B2 n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=4
+a 0 s 0 0 16 78 hln 100 ERC=x
+a 0 s 0 0 0 -20 hln 100 FLOAT=e
+p 2 11 88 hln 100 C3 n 0 90 h
+a 0 s 1 0 5 88 hrn 100 PIN=6
+a 0 s 0 0 16 98 hln 100 ERC=x
+a 0 s 0 0 0 -20 hln 100 FLOAT=e
+p 2 80 88 hrn 100 C4 n 90 90 u
+a 0 s 1 0 85 88 hln 100 PIN=11
+a 0 s 0 0 74 82 hln 100 ERC=x
+a 0 s 0 0 0 -20 hln 100 FLOAT=e
+p 2 80 108 hrn 100 E4 n 90 110 u
+a 0 s 1 0 85 108 hln 100 PIN=10
+a 0 s 0 0 72 104 hln 100 ERC=x
+a 0 s 0 0 -2 20 hln 100 FLOAT=e
+p 2 80 68 hrn 100 C5 n 90 70 u
+a 0 s 1 0 85 68 hln 100 PIN=12
+a 0 s 0 0 74 66 hln 100 ERC=x
+a 0 s 0 0 0 2 hln 100 FLOAT=e
+p 2 80 48 hrn 100 E5 n 90 50 u
+a 0 s 1 0 85 48 hln 100 PIN=13
+a 0 s 0 0 74 40 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 80 28 hrn 100 B1 n 90 30 u
+a 0 s 1 0 85 28 hln 100 PIN=15
+a 0 s 0 0 74 20 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 80 8 hrn 100 E1 n 90 10 u
+a 0 s 1 0 85 8 hln 100 PIN=16
+a 0 s 0 0 74 2 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 11 108 hln 100 E3 n 0 110 h
+a 0 s 1 0 5 108 hrn 100 PIN=7
+a 0 s 0 0 2 110 hln 100 ERC=x
+p 2 11 118 hln 100 B3 n 0 120 h
+a 0 s 1 0 5 118 hrn 100 PIN=8
+a 0 s 0 0 2 120 hln 100 ERC=x
+p 2 80 118 hrn 100 B4 n 90 120 u
+a 0 s 1 0 85 118 hln 100 PIN=9
+a 0 s 0 0 88 120 hln 100 ERC=x
+p 2 80 38 hrn 100 B5 n 90 40 u
+a 0 s 1 0 85 38 hln 100 PIN=14
+a 0 s 0 0 90 38 hln 100 ERC=x
+@graphics 90 130 0 10 10
+r 0 10 0 80 130
+v 0 30 40
+30 60
+;
+v 0 30 50
+20 40
+;
+v 0 30 50
+20 60
+;
+v 0 20 60
+20 57
+;
+v 0 20 60
+23 60
+;
+v 0 30 110
+30 90
+;
+v 0 30 100
+20 110
+;
+v 0 50 20
+30 20
+;
+v 0 40 20
+50 10
+;
+v 0 40 20
+30 10
+;
+v 0 50 110
+50 120
+;
+v 0 30 100
+20 90
+;
+v 0 20 110
+23 110
+;
+v 0 20 110
+20 107
+;
+v 0 50 10
+47 10
+;
+v 0 50 10
+50 13
+;
+v 0 60 70
+60 50
+;
+v 0 60 60
+70 70
+;
+v 0 60 60
+70 50
+;
+v 0 70 50
+70 53
+;
+v 0 70 50
+67 50
+;
+v 0 70 10
+80 10
+;
+v 0 70 30
+80 30
+;
+v 0 60 90
+60 110
+;
+v 0 60 100
+70 90
+;
+v 0 60 100
+70 110
+;
+v 0 70 110
+70 107
+;
+v 0 70 110
+67 110
+;
+v 0 50 110
+50 100
+;
+v 0 50 100
+60 100
+;
+v 0 40 30
+40 20
+;
+v 0 10 10
+30 10
+;
+v 0 50 10
+70 10
+;
+v 0 40 30
+70 30
+;
+v 0 10 40
+20 40
+;
+v 0 10 60
+20 60
+;
+v 0 30 50
+40 50
+;
+v 0 40 50
+40 70
+;
+v 0 40 70
+10 70
+;
+v 0 10 90
+20 90
+;
+v 0 10 110
+20 110
+;
+v 0 30 100
+40 100
+;
+v 0 40 100
+40 120
+;
+v 0 40 120
+10 120
+;
+v 0 50 120
+80 120
+;
+v 0 70 110
+80 110
+;
+v 0 70 90
+80 90
+;
+v 0 70 70
+80 70
+;
+v 0 70 50
+80 50
+;
+v 0 60 60
+50 60
+;
+v 0 50 60
+50 40
+;
+v 0 50 40
+80 40
+;
+*symbol 3128/HA b
+d Ultra High Frequency Transistor Array
+@type p
+@attributes
+a 0 sp 11 0 14 138 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+a 0 s 9 0 12 -2 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %C1 %C2 %E2 %B2 %C3 %E3 %B3 %B4 %E4 %C4 %C5 %E5 %B5 %B1 %E1 @MODEL
+@pins
+p 2 13 12 hln 100 C1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 14 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 42 hln 100 C2 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=2
+a 0 u 0 0 14 40 hln 100 ERC=x
+a 0 u 0 0 0 10 hln 100 float=e
+p 2 13 62 hln 100 E2 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=3
+a 0 u 0 0 16 62 hln 100 ERC=x
+a 0 u 0 0 0 10 hln 100 float=e
+p 2 13 72 hln 100 B2 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=4
+a 0 u 0 0 16 78 hln 100 ERC=x
+a 0 u 0 0 0 -20 hln 100 float=e
+p 2 13 92 hln 100 C3 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=6
+a 0 u 0 0 16 98 hln 100 ERC=x
+a 0 u 0 0 0 -20 hln 100 float=e
+p 2 77 92 hrn 100 C4 n 90 90 u
+a 0 u 1 0 85 88 hln 100 pin=11
+a 0 u 0 0 74 82 hln 100 ERC=x
+a 0 u 0 0 0 -20 hln 100 float=e
+p 2 77 112 hrn 100 E4 n 90 110 u
+a 0 u 1 0 85 108 hln 100 pin=10
+a 0 u 0 0 72 104 hln 100 ERC=x
+a 0 u 0 0 -2 20 hln 100 float=e
+p 2 77 72 hrn 100 C5 n 90 70 u
+a 0 u 1 0 85 68 hln 100 pin=12
+a 0 u 0 0 74 66 hln 100 ERC=x
+a 0 u 0 0 0 2 hln 100 float=e
+p 2 77 52 hrn 100 E5 n 90 50 u
+a 0 u 1 0 85 48 hln 100 pin=13
+a 0 u 0 0 74 40 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 77 32 hrn 100 B1 n 90 30 u
+a 0 u 1 0 85 28 hln 100 pin=15
+a 0 u 0 0 74 20 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 77 12 hrn 100 E1 n 90 10 u
+a 0 u 1 0 85 8 hln 100 pin=16
+a 0 u 0 0 74 2 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 112 hln 100 E3 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=7
+a 0 u 0 0 2 110 hln 100 ERC=x
+p 2 13 122 hln 100 B3 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=8
+a 0 u 0 0 2 120 hln 100 ERC=x
+p 2 77 122 hrn 100 B4 n 90 120 u
+a 0 u 1 0 85 118 hln 100 pin=9
+a 0 u 0 0 88 120 hln 100 ERC=x
+p 2 77 42 hrn 100 B5 n 90 40 u
+a 0 u 1 0 85 38 hln 100 pin=14
+a 0 u 0 0 90 38 hln 100 ERC=x
+@graphics 90 130 0 10 10
+v 0 30 40
+30 60
+;
+v 0 30 50
+20 40
+;
+v 0 30 50
+20 60
+;
+v 0 25 58
+25 55
+;
+v 0 22 55
+25 55
+;
+v 0 30 110
+30 90
+;
+v 0 30 100
+20 110
+;
+v 0 50 20
+30 20
+;
+v 0 40 20
+50 10
+;
+v 0 40 20
+30 10
+;
+v 0 50 110
+50 120
+;
+v 0 30 100
+20 90
+;
+v 0 23 104
+26 104
+;
+v 0 26 107
+26 104
+;
+v 0 48 15
+45 15
+;
+v 0 45 12
+45 15
+;
+v 0 60 70
+60 50
+;
+v 0 60 60
+70 70
+;
+v 0 60 60
+70 50
+;
+v 0 65 52
+65 55
+;
+v 0 68 55
+65 55
+;
+v 0 70 10
+80 10
+;
+v 0 70 30
+80 30
+;
+v 0 60 90
+60 110
+;
+v 0 60 100
+70 90
+;
+v 0 60 100
+70 110
+;
+v 0 64 107
+64 104
+;
+v 0 67 104
+64 104
+;
+v 0 50 110
+50 100
+;
+v 0 50 100
+60 100
+;
+r 0 10 0 80 130
+v 0 40 30
+40 20
+;
+v 0 10 10
+30 10
+;
+v 0 50 10
+70 10
+;
+v 0 40 30
+70 30
+;
+v 0 10 40
+20 40
+;
+v 0 10 60
+20 60
+;
+v 0 30 50
+40 50
+;
+v 0 40 50
+40 70
+;
+v 0 40 70
+10 70
+;
+v 0 10 90
+20 90
+;
+v 0 10 110
+20 110
+;
+v 0 30 100
+40 100
+;
+v 0 40 100
+40 120
+;
+v 0 40 120
+10 120
+;
+v 0 50 120
+80 120
+;
+v 0 70 110
+80 110
+;
+v 0 70 90
+80 90
+;
+v 0 70 70
+80 70
+;
+v 0 70 50
+80 50
+;
+v 0 60 60
+50 60
+;
+v 0 50 60
+50 40
+;
+v 0 50 40
+80 40
+;
+*symbol 5002/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 1 s 9 0 10 -2 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %Vcc %Vee %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 32 hln 100 + n 0 30 h
+a 0 u 0 0 0 24 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 22 hcn 100 Vcc n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 44 hcn 100 Vee n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 V2- n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=2
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 25 hrn 50 V2+ n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=7
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 5004/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 4 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 V+ n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 22 hln 100 OUT n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 0 22 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 32 hln 100 BAL+ n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=3
+a 0 s 0 0 0 32 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 13 42 hln 100 BAL- n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=4
+a 0 s 0 0 0 44 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 13 52 hln 100 VCC n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=5
+a 0 s 0 0 0 52 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 13 62 hln 100 TOI n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=6
+a 0 s 0 0 0 60 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 13 72 hln 100 \OE\ n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=7
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 47 62 hrn 100 GND n 60 60 u
+a 0 s 1 0 55 58 hln 100 PIN=9
+a 0 s 0 0 60 62 hln 100 ERC=i
+a 0 s 0 0 60 132 hln 100 FLOAT=u
+p 2 47 52 hrn 100 \TOL\ n 60 50 u
+a 0 s 1 0 55 48 hln 100 PIN=10
+a 0 s 0 0 60 52 hln 100 ERC=i
+a 0 s 0 0 60 122 hln 100 FLOAT=u
+p 2 47 42 hrn 100 + n 60 40 u
+a 0 s 1 0 55 38 hln 100 PIN=11
+a 0 s 0 0 60 44 hln 100 ERC=i
+a 0 s 0 0 60 114 hln 100 FLOAT=e
+p 2 47 32 hrn 100 - n 60 30 u
+a 0 s 1 0 55 28 hln 100 PIN=12
+a 0 s 0 0 60 36 hln 100 ERC=i
+a 0 s 0 0 60 106 hln 100 FLOAT=e
+p 2 47 22 hrn 100 VEE n 60 20 u
+a 0 s 1 0 55 18 hln 100 PIN=13
+a 0 s 0 0 60 28 hln 100 ERC=i
+a 0 s 0 0 60 98 hln 100 FLOAT=u
+p 2 47 12 hrn 100 V- n 60 10 u
+a 0 s 1 0 55 8 hln 100 PIN=14
+a 0 s 0 0 60 20 hln 100 ERC=i
+a 0 s 0 0 60 90 hln 100 FLOAT=e
+@graphics 60 80 0 10 10
+r 0 10 0 50 80
+*symbol 5020/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 57 35 hrn 50 B1 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=1
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+p 2 45 39 hln 50 B2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=5
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 110 -10 hln 100 float=u
+p 2 52 27 hrn 50 \DIS\ n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 40
+56 37
+;
+v 0 60 40
+70 40
+;
+v 0 60 10
+70 10
+;
+*symbol 5033/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 1 s 9 0 10 -2 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %Vcc %Vee %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 32 hln 100 + n 0 30 h
+a 0 u 0 0 0 24 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 22 hcn 100 Vcc n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 43 hcn 100 Vee n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 37 hrn 50 SUB n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=6
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 5102/HA b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 5104/HA b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 5127/HA b
+d Ultra-Low Noise Precision Opamp
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 B2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 82 48 hln 100 ERC=i
+a 0 u 0 0 12 -2 hln 100 float=u
+p 2 52 25 hrn 50 B1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 5221/HA b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 51 37 hrn 50 B+ n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 82 48 hln 100 ERC=i
+a 0 u 0 0 12 -2 hln 100 float=u
+p 2 51 24 hrn 50 B- n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 10 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 60 50
+50 40
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 5509 b
+d 5-connection opamp subcircuit for HC-5509\HA
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %AG %-IN1 %VB+ %VB- %OUT1 @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 AG n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 2 13 52 hln 100 -IN1 n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=13
+p 2 39 24 hcn 100 VB+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=2
+p 2 39 42 hcn 100 VB- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=27
+p 0 67 32 hrn 100 OUT1 n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=12
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol harris-nmose b
+d Harris N-Channel Enhancement Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 refdes=U?
+a 0 sp 11 0 42 24 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 29 22
+23 20
+29 18
+;
+*symbol harris-pmose b
+d Harris P-Channel Enhancement-Mode Power MOSFET
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %d %g %s @MODEL
+a 0 s 9 0 5 10 hcn 100 REFDES=U?
+a 0 sp 11 0 44 24 hcn 100 PART=
+a 0 sp 0 0 10 40 hcn 100 MODEL=
+@pins
+p 0 13 22 hln 100 g n 0 20 h
+p 0 25 40 hcn 100 s n 30 40 v
+p 0 25 10 hcn 100 d n 30 0 d
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol mct b
+d MOS Controlled  Thyristor
+@type p
+@attributes
+a 0 sp 11 0 19 30 hrn 100 PART=
+a 0 sp 0 0 29 30 hrn 100 MODEL=
+a 1 sp 0 0 0 0 hln 100 template=X^@refdes %A %G %K @MODEL
+a 0 sp 9 0 0 -4 hln 100 REFDES=U?
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 5 8 hrn 100 pin=1
+p 0 37 12 hrn 100 K n 50 10 u
+a 0 u 0 0 10 0 hln 100 ERC=x
+a 0 u 0 0 45 8 hln 100 pin=3
+p 0 25 25 hln 100 G n 20 30 v
+a 0 u 0 0 -10 0 hln 100 ERC=x
+a 0 u 0 0 15 32 hcn 100 pin=2
+p 0 15 25 hln 100 GR n 10 30 v
+a 0 u 0 0 -20 0 hln 100 ERC=x
+a 0 u 0 0 5 32 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 50 30 0 10 10
+v 0 30 15
+40 10
+;
+v 0 40 10
+30 5
+;
+v 0 30 5
+30 15
+;
+v 0 28 12
+20 20
+;
+v 0 40 5
+40 15
+;
+v 0 22 16
+24 18
+;
+v 0 28 12
+28 11
+;
+v 0 20 10
+30 10
+;
+v 0 20 10
+10 10
+;
+v 0 10 10
+10 20
+;
+*symbol op4 b
+d 4-connection opamp subcircuit
+@type p
+@attributes
+a 1 s 9 0 50 10 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %Vcc %Vee %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 32 hln 100 + n 0 30 h
+a 0 u 0 0 0 24 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=4
+p 2 37 22 hcn 100 Vcc n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=5
+p 2 37 42 hcn 100 Vee n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=1
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=2
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol op5 b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol op6 b
+d 6-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %6 @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 75 28 hln 100 pin=6
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 8 hrn 100 pin=3
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 48 hrn 100 pin=2
+p 0 67 52 hrn 100 6 n 80 50 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 -5 2 hln 100 pin=
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 45 3 hcn 100 pin=7
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 35 62 hcn 100 pin=4
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol op7 b
+d 6-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %6 %7 @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 75 28 hln 100 pin=6
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 8 hrn 100 pin=3
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 48 hrn 100 pin=2
+p 0 67 42 hrn 100 6 n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=x
+a 0 u 0 0 -5 -6 hln 100 pin=
+p 0 62 48 hln 100 7 n 60 60 v
+a 0 u 0 0 55 62 hcn 100 pin=7
+a 0 u 0 0 60 60 hln 100 ERC=x
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 45 3 hcn 100 pin=7
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 35 62 hcn 100 pin=4
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1996, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

@@ -1,0 +1,324 @@
+*PADS-PCB*
+*Part*
+C1           CAP\MA20,.1
+C2           CAP\MA20,.1
+C3           CAP\MA20,.1
+C4           CAP\MA20,.1
+C5           CAP\MA20,.1
+C6           CAP\MA20,.1
+C7           CAP\MA20,.1
+C8           CAP\MA20,.1
+C9           CAP\MA20,.1
+C10          CAP\MA20,.1
+C11          CAP\MA20,.1
+C12          CAP\MA20,.1
+C13          CAP\MA20,.1
+C14          CAP\MA20,.1
+C15          CAP\MA20,.1
+C16          CAP\MA20,.1
+P1           HDR50,HDR50
+R1           R1/4W,1k
+R2           R1/4W,1k
+R3           R1/4W,1k
+R4           R1/4W,1k
+R5           R1/4W,1k
+R6           R1/4W,1k
+R7           R1/4W,1k
+R8           R1/4W,1k
+R9           R1/4W,1k
+R10          R1/4W,1k
+R11          R1/4W,1k
+R12          R1/4W,1k
+R13          R1/4W,10K
+R14          R1/4W,10K
+R15          R1/4W,10K
+R16          R1/4W,10K
+R17          R1/4W,10K
+R18          R1/4W,10K
+R19          R1/4W,510
+R20          R1/4W,510
+R21          R1/4W,510
+R22          R1/4W,510
+R23          R1/4W,510
+R24          R1/4W,510
+R25          R1/4W,510
+R26          R1/4W,510
+R27          R1/4W,10K
+R28          R1/4W,10K
+R29          R1/4W,1k
+R30          R1/4W,1k
+R31          R1/4W,1k
+R32          R1/4W,1k
+R33          R1/4W,1k
+R34          R1/4W,1k
+R35          R1/4W,1k
+R36          R1/4W,1k
+R37          R1/4W,10K
+R38          R1/4W,10K
+R39          R1/4W,10K
+R40          R1/4W,10K
+R41          R1/4W,10K
+R42          R1/4W,10K
+R43          R1/4W,510
+R44          R1/4W,510
+R45          R1/4W,510
+R46          R1/4W,510
+R47          R1/4W,510
+R48          R1/4W,510
+R49          R1/4W,510
+R50          R1/4W,510
+R51          R1/4W,10K
+R52          R1/4W,10K
+U1           74LS240
+U2           74LS240
+U3           DIP16,AM26LS32
+U4           DIP16,AM26LS31
+U5           DIP8,SN75157
+U6           DIP16,AM26LS31
+U7           DIP8,SN75157
+U8           DIP16,AM26LS32
+U9           DIP16,AM26LS31
+U10          DIP8,SN75157
+U11          74LS32
+U12          74ALS86
+U13          74ALS86
+U14          74ALS86
+U15          74ALS86
+*Net*
+*Signal*    +5V
+C1.1        C2.1        C3.1        C4.1        C5.1        C6.1        
+C7.1        C8.1        C9.1        C10.1       C11.1       C12.1       
+C13.1       C14.1       C15.1       P1.1        P1.2        P1.26       
+C16.1       R13.2       R14.2       R15.2       R16.2       R17.2       
+R18.2       R19.2       R20.2       R21.2       R22.2       R23.2       
+R24.2       R25.2       R26.2       R27.2       R28.2       R37.2       
+R38.2       R39.2       R40.2       R41.2       R42.2       R43.2       
+R44.2       R45.2       R46.2       R47.2       R48.2       R49.2       
+R50.2       R51.2       R52.2       
+*Signal*    0
+C1.2        C2.2        C3.2        C4.2        C5.2        C6.2        
+C7.2        C8.2        C9.2        C10.2       C11.2       C12.2       
+C13.2       C14.2       C15.2       P1.25       P1.24       P1.50       
+C16.2       
+*Signal*    CCLK1
+U2.18       U12.2       R19.1       
+*Signal*    CCLK2
+U2.16       U12.5       R20.1       
+*Signal*    CCLK3
+U2.14       U12.10      R21.1       
+*Signal*    CCLK4
+U2.12       U12.13      R22.1       
+*Signal*    CDAT1
+U1.9        U13.2       R23.1       
+*Signal*    CDAT2
+U1.7        U13.5       R24.1       
+*Signal*    CDAT3
+U1.5        U13.10      R25.1       
+*Signal*    CDAT4
+U1.3        U13.13      R26.1       
+*Signal*    DIG_GND
+U11.7       U1.10       U2.10       U12.7       U13.7       U3.8        
+U4.8        U5.4        U6.8        U7.4        U14.7       U15.7       
+U8.8        U9.8        U10.4       
+*Signal*    G
+P1.3        U3.4        U4.4        U6.4        U8.4        U9.4        
+*Signal*    Gbar
+U1.1        U1.19       U2.1        U2.19       P1.4        U3.12       
+U4.12       U6.12       U8.12       U9.12       
+*Signal*    NN_0001
+R1.2        U11.1       
+*Signal*    NN_0002
+R1.1        R2.2        P1.5        
+*Signal*    NN_0003
+R2.1        R3.1        P1.6        
+*Signal*    NN_0004
+R3.2        U11.2       
+*Signal*    NN_0005
+R4.2        U11.4       
+*Signal*    NN_0006
+R4.1        R5.2        P1.7        
+*Signal*    NN_0007
+R5.1        R6.1        P1.8        
+*Signal*    NN_0008
+R6.2        U11.5       
+*Signal*    NN_0009
+R7.2        U11.9       
+*Signal*    NN_0010
+R7.1        R8.2        P1.9        
+*Signal*    NN_0011
+R8.1        R9.1        P1.10       
+*Signal*    NN_0012
+R9.2        U11.10      
+*Signal*    NN_0013
+U11.3       U1.2        U2.2        
+*Signal*    NN_0014
+U11.6       U1.4        U2.4        
+*Signal*    NN_0015
+U11.8       U1.6        U2.6        
+*Signal*    NN_0016
+U1.8        U2.8        U11.11      
+*Signal*    NN_0017
+U1.11       U2.11       P1.28       
+*Signal*    NN_0018
+U1.13       U2.13       P1.29       
+*Signal*    NN_0019
+U1.15       U2.15       P1.30       
+*Signal*    NN_0020
+U1.17       U2.17       P1.31       
+*Signal*    NN_0021
+R10.2       U11.12      
+*Signal*    NN_0022
+R10.1       R11.2       P1.11       
+*Signal*    NN_0023
+R11.1       R12.1       P1.27       
+*Signal*    NN_0024
+R12.2       U11.13      
+*Signal*    NN_0025
+U12.1       R18.1       U7.1        
+*Signal*    NN_0026
+U12.3       U3.2        
+*Signal*    NN_0027
+U12.4       R17.1       U7.7        
+*Signal*    NN_0028
+U12.6       U3.6        
+*Signal*    NN_0029
+U12.9       R16.1       U7.6        
+*Signal*    NN_0030
+U12.8       U3.10       
+*Signal*    NN_0031
+U12.12      R15.1       U7.5        
+*Signal*    NN_0032
+U12.11      U3.14       
+*Signal*    NN_0033
+U13.1       R14.1       U6.1        
+*Signal*    NN_0034
+U13.3       U3.1        
+*Signal*    NN_0035
+U13.4       R13.1       U6.7        
+*Signal*    NN_0036
+U13.6       U3.7        
+*Signal*    NN_0037
+U13.9       R28.1       U6.9        
+*Signal*    NN_0038
+U13.8       U3.9        
+*Signal*    NN_0039
+U13.12      R27.1       U6.15       
+*Signal*    NN_0040
+U13.11      U3.15       
+*Signal*    NN_0041
+U3.3        P1.12       
+*Signal*    NN_0042
+U3.5        P1.13       
+*Signal*    NN_0043
+U3.11       P1.14       
+*Signal*    NN_0044
+U3.13       P1.15       
+*Signal*    NN_0045
+U4.1        R29.2       
+*Signal*    NN_0046
+U4.7        R30.2       
+*Signal*    NN_0047
+U4.9        R31.2       
+*Signal*    NN_0048
+U4.15       R32.2       
+*Signal*    NN_0049
+R29.1       P1.20       
+*Signal*    NN_0050
+R30.1       P1.21       
+*Signal*    NN_0051
+R31.1       P1.22       
+*Signal*    NN_0052
+R32.1       P1.23       
+*Signal*    NN_0053
+U5.1        R33.2       
+*Signal*    NN_0054
+U5.7        R34.2       
+*Signal*    NN_0055
+U5.6        R35.2       
+*Signal*    NN_0056
+U5.5        R36.2       
+*Signal*    NN_0057
+R33.1       P1.35       
+*Signal*    NN_0058
+R34.1       P1.36       
+*Signal*    NN_0059
+R35.1       P1.37       
+*Signal*    NN_0060
+R36.1       P1.38       
+*Signal*    NN_0061
+U14.1       R42.1       U10.1       
+*Signal*    NN_0062
+U14.3       U8.2        
+*Signal*    NN_0063
+U14.4       R41.1       U10.7       
+*Signal*    NN_0064
+U14.6       U8.6        
+*Signal*    NN_0065
+U14.9       R40.1       U10.6       
+*Signal*    NN_0066
+U14.8       U8.10       
+*Signal*    NN_0067
+U14.12      R39.1       U10.5       
+*Signal*    NN_0068
+U14.11      U8.14       
+*Signal*    NN_0069
+U15.1       R38.1       U9.1        
+*Signal*    NN_0070
+U15.3       U8.1        
+*Signal*    NN_0071
+U15.4       R37.1       U9.7        
+*Signal*    NN_0072
+U15.6       U8.7        
+*Signal*    NN_0073
+U15.9       R52.1       U9.9        
+*Signal*    NN_0074
+U15.8       U8.9        
+*Signal*    NN_0075
+R51.1       U15.12      U9.15       
+*Signal*    NN_0076
+U8.3        P1.16       
+*Signal*    NN_0077
+U8.5        P1.17       
+*Signal*    NN_0078
+U8.11       P1.18       
+*Signal*    NN_0079
+U8.13       P1.19       
+*Signal*    NN_0080
+U8.15       U15.11      
+*Signal*    NN_0081
+U9.2        P1.40       
+*Signal*    NN_0082
+U9.3        P1.42       
+*Signal*    NN_0083
+U9.6        P1.44       
+*Signal*    NN_0084
+U9.5        P1.46       
+*Signal*    NN_0085
+U9.10       P1.41       
+*Signal*    NN_0086
+U9.11       P1.43       
+*Signal*    NN_0087
+U9.14       P1.45       
+*Signal*    NN_0088
+U9.13       P1.47       
+*Signal*    OUT1
+U5.2        U7.2        U10.2       P1.32       
+*Signal*    OUT2
+U5.3        U7.3        U10.3       P1.33       
+*Signal*    Y1
+U4.2        U6.2        U14.2       R43.1       
+*Signal*    Y2
+U4.6        U6.6        U14.5       R44.1       
+*Signal*    Y3
+U4.10       U6.10       U14.10      R45.1       
+*Signal*    Y4
+U4.14       U6.14       U14.13      R46.1       
+*Signal*    Z1
+U4.3        U6.3        U15.2       R47.1       
+*Signal*    Z2
+U4.5        U6.5        U15.5       R48.1       
+*Signal*    Z3
+U4.11       U6.11       U15.10      R49.1       
+*Signal*    Z4
+U4.13       U6.13       R50.1       U15.13      
+*End*

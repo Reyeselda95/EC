@@ -1,0 +1,4476 @@
+*version 6.3 1301226310
+@index
+symloc ACCUM 0 2699
+symloc ADD_SUB 2699 1461
+symloc ANDBUS 4160 641
+symloc ANDBUS1 4801 785
+symloc ANDBUS2 5586 846
+symloc BIBUF 6432 696
+symloc BIDIR_IO 7128 1396
+symloc BUS_DEF 8524 682
+symloc BUS_IF02 9206 674
+symloc BUS_IF03 9880 673
+symloc BUS_IF04 10553 673
+symloc BUS_IF05 11226 673
+symloc BUS_IF06 11899 673
+symloc BUS_IF07 12572 673
+symloc BUS_IF08 13245 673
+symloc BUS_IF09 13918 673
+symloc BUS_IF10 14591 673
+symloc BUS_IF11 15264 674
+symloc BUS_IF12 15938 674
+symloc BUS_IF13 16612 674
+symloc BUS_IF14 17286 674
+symloc BUS_IF15 17960 674
+symloc BUS_IF16 18634 674
+symloc BUS_IF17 19308 674
+symloc BUS_IF18 19982 674
+symloc BUS_IF19 20656 674
+symloc BUS_IF20 21330 674
+symloc BUS_IF21 22004 674
+symloc BUS_IF22 22678 674
+symloc BUS_IF23 23352 674
+symloc BUS_IF24 24026 674
+symloc BUS_IF25 24700 674
+symloc BUS_IF26 25374 674
+symloc BUS_IF27 26048 674
+symloc BUS_IF28 26722 674
+symloc BUS_IF29 27396 674
+symloc BUS_IF30 28070 674
+symloc BUS_IF31 28744 674
+symloc BUS_IF32 29418 674
+symloc CAST 30092 729
+symloc CLK_DIV 30821 1047
+symloc COMPARE 31868 1288
+symloc COUNTER 33156 1519
+symloc DATA_REG 34675 1098
+symloc DECODE 35773 854
+symloc DP_RAM 36627 1130
+symloc ELEMENT 37757 838
+symloc FORCE 38595 588
+symloc INC_DEC 39183 1396
+symloc INELEM 40579 776
+symloc INSLICE 41355 1054
+symloc INVBUS 42409 640
+symloc MUXBUS 43049 1107
+symloc MUXBUS2 44156 1273
+symloc MUXBUS4 45429 1641
+symloc MUXBUS8 47070 2336
+symloc ORBUS 49406 665
+symloc ORBUS1 50071 837
+symloc ORBUS2 50908 842
+symloc OUTELEM 51750 784
+symloc OUTSLICE 52534 1056
+symloc PROM 53590 847
+symloc SHIFT 54437 1892
+symloc SLICE 56329 1104
+symloc SRAM 57433 1060
+symloc SYNC_RAM 58493 895
+symloc TRISTATE 59388 887
+symloc XORBUS 60275 659
+symloc XORBUS1 60934 803
+symloc XORBUS2 61737 836
+*symbol ACCUM
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 200 0 hrn 100 REFDES=U?
+a 0 sp 11 0 110 9 hct 120 PART=ACCUM
+a 0 u 0 0 1 271 hln 70 LIBVER=2.0.0
+a 0 u 0 0 0 280 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 159 189 hln 100 OVFL r 200 190 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 169 hln 100 CLK_EN z 0 170 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 229 hln 100 SYNC_CTRL z 0 230 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 199 107 hrn 100 Q_OUT z 200 110 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 201 108 hln 100 pin=
+p 2 1 149 hln 100 LOAD z 0 150 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 49 hln 100 C_IN z 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 189 hln 100 CLOCK z 0 190 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 120 hlt 100 B z 0 130 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 209 hln 100 ASYNC_CTRL z 0 210 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 28 hln 100 ADD_SUB z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 149 209 hln 100 C_OUT r 200 210 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 200 270 0 30 10
+v 0 170 210
+141 210
+;
+v 0 141 210
+141 183
+;
+v 0 141 183
+62 183
+;
+v 0 62 183
+62 129
+;
+v 0 170 190
+150 190
+;
+v 0 150 190
+150 177
+;
+v 0 150 177
+70 177
+;
+v 0 70 177
+70 125
+;
+v 0 40 170
+90 170
+;
+v 0 90 170
+90 140
+;
+v 0 90 140
+110 140
+;
+r 0 110 100 150 165
+v 0 40 50
+50 50
+;
+v 0 50 50
+50 85
+;
+v 0 40 30
+70 30
+;
+v 0 70 30
+70 95
+;
+v 0 40 190
+100 190
+;
+v 0 100 190
+100 155
+;
+v 0 100 155
+110 155
+;
+v 0 40 210
+120 210
+;
+v 0 120 210
+120 165
+;
+v 0 40 230
+130 230
+;
+v 0 130 230
+130 165
+;
+v 0 27 21
+54 21
+;
+v 0 20 150
+40 150
+;
+v 0 110 150
+115 155
+;
+v 0 115 155
+110 160
+;
+v 0 40 80
+40 100
+;
+v 0 40 100
+50 110
+;
+v 0 50 110
+40 120
+;
+v 0 40 120
+40 140
+;
+v 0 40 140
+80 120
+;
+v 0 80 120
+80 100
+;
+v 0 80 100
+40 80
+;
+v 0 41 150
+54 150
+;
+v 0 54 150
+54 133
+;
+v 0 40 170
+0 170
+;
+v 0 40 230
+0 230
+;
+v 0 41 150
+0 150
+;
+v 0 40 50
+0 50
+;
+v 0 40 190
+0 190
+;
+v 0 40 210
+0 210
+;
+v 0 40 30
+0 30
+;
+s 5 16 81 hln 100 A
+s 5 85 105 hln 50 FUNC
+s 5 116 158 hln 50 CLOCK
+s 5 111 138 hlt 50 CE
+s 5 144 113 hln 50 Q
+s 5 111 108 hlt 50 D
+v 0 110 109
+80 109
+;
+v 0 80 111
+110 111
+;
+v 0 150 109
+159 109
+;
+v 0 159 109
+159 71
+;
+v 0 200 109
+161 109
+;
+v 0 161 109
+161 69
+;
+v 0 150 111
+200 111
+;
+v 0 200 111
+200 109
+;
+v 0 161 69
+25 69
+;
+v 0 25 69
+25 91
+;
+v 0 25 91
+40 91
+;
+v 0 40 91
+40 89
+;
+v 0 40 89
+27 89
+;
+v 0 27 89
+27 71
+;
+v 0 27 71
+159 71
+;
+v 0 40 129
+0 129
+;
+v 0 0 129
+0 131
+;
+v 0 0 131
+40 131
+;
+*symbol ADD_SUB
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 160 0 hrn 100 REFDES=U?
+a 0 sp 11 0 77 2 hct 120 PART=ADD_SUB
+a 0 u 0 0 0 151 hln 70 LIBVER=2.0.0
+a 0 u 0 0 0 160 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 160 110 hrn 100 OVFL z 160 110 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 159 86 hrn 100 FUNC z 160 90 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 160 129 hrn 100 C_OUT z 160 130 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 49 hln 100 C_IN z 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 100 hlt 100 B z 0 110 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 29 hln 100 ADD_SUB z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 60 hlt 100 A z 0 70 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 160 150 0 30 10
+v 0 50 50
+50 65
+;
+v 0 70 75
+70 30
+;
+v 0 70 30
+60 30
+;
+v 0 29 21
+57 21
+;
+v 0 40 60
+40 80
+;
+v 0 40 80
+50 90
+;
+v 0 50 90
+40 100
+;
+v 0 40 100
+40 120
+;
+v 0 40 120
+80 100
+;
+v 0 80 100
+80 80
+;
+v 0 80 80
+40 60
+;
+v 0 70 105
+70 110
+;
+v 0 70 110
+100 110
+;
+v 0 50 115
+50 130
+;
+v 0 50 130
+100 130
+;
+v 0 100 110
+160 110
+;
+v 0 90 130
+160 130
+;
+v 0 50 50
+0 50
+;
+v 0 60 30
+0 30
+;
+v 0 80 89
+160 89
+;
+v 0 160 89
+160 91
+;
+v 0 160 91
+80 91
+;
+v 0 40 69
+0 69
+;
+v 0 0 69
+0 71
+;
+v 0 0 71
+40 71
+;
+v 0 40 109
+0 109
+;
+v 0 0 109
+0 111
+;
+v 0 0 111
+40 111
+;
+*symbol ANDBUS
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 54 0 hct 120 PART=ANDBUS
+a 0 u 0 0 0 70 hln 70 LIBVER=2.0.0
+a 0 u 0 0 0 70 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 2 28 hln 100 A z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 108 28 hrn 100 O z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 28 hln 100 pin=
+@graphics 110 60 0 30 10
+v 0 40 45
+65 45
+;
+v 0 40 15
+40 45
+;
+v 0 65 15
+40 15
+;
+a 0 65 45 80 30 65 15
+v 0 40 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+40 31
+;
+v 0 80 30
+110 30
+;
+*symbol ANDBUS1
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 58 0 hct 120 PART=ANDBUS1
+a 0 u 0 0 0 70 hln 70 LIBVER=2.0.0
+a 0 u 0 0 0 70 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 110 28 hrn 100 O z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 28 hln 100 pin=
+p 2 0 38 hln 100 B z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 0 18 hln 100 A z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 60 0 20 10
+a 0 65 45 80 30 65 15
+v 0 65 15
+40 15
+;
+v 0 40 45
+65 45
+;
+v 0 40 15
+40 45
+;
+v 0 40 20
+0 20
+;
+v 0 40 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+40 41
+;
+v 0 80 29
+110 29
+;
+v 0 110 29
+110 31
+;
+v 0 110 31
+80 31
+;
+*symbol ANDBUS2
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 0 hct 120 PART=ANDBUS2
+a 0 u 0 0 0 70 hln 70 LIBVER=2.0.0
+a 0 u 0 0 0 70 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 0 36 hln 100 B z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 38 hln 100 pin=
+p 2 0 16 hln 100 A z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 110 26 hrn 100 O z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 28 hln 100 pin=
+@graphics 110 60 0 20 10
+a 0 65 45 80 30 65 15
+v 0 65 15
+40 15
+;
+v 0 40 15
+40 45
+;
+v 0 40 45
+65 45
+;
+v 0 40 19
+0 19
+;
+v 0 0 19
+0 21
+;
+v 0 0 21
+40 21
+;
+v 0 40 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+40 41
+;
+v 0 80 31
+110 31
+;
+v 0 110 31
+110 29
+;
+v 0 110 29
+80 29
+;
+*symbol BIBUF
+d Family XILINX, Device BIBUF
+@type p
+@attributes
+a 0 sp 9 0 80 0 hrn 100 REFDES=U?
+a 0 sp 11 0 30 34 hlt 100 PART=BIBUF
+a 0 u 0 0 20 50 hln 100 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+a 0 u 0 0 0 0 hln 100 XNFDEVICE=BIBUF
+@pins
+p 0 60 30 hln 50 B1 z 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 0 0 29 hln 100 B0 n 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 80 40 0 30 10
+v 0 60 20
+60 40
+;
+v 0 60 40
+40 30
+;
+v 0 40 30
+60 20
+;
+v 0 30 30
+40 30
+;
+v 0 40 30
+40 30
+;
+v 0 10 40
+10 20
+;
+v 0 10 20
+30 30
+;
+v 0 30 30
+10 40
+;
+v 0 60 30
+80 30
+;
+s 5 40 20 hcn 80 ONLY
+s 5 40 10 hcn 80 SIMULATION
+*symbol BIDIR_IO
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 130 0 hrn 100 REFDES=U?
+a 0 sp 11 0 0 0 hlt 120 PART=BIDIR_IO
+a 0 u 0 0 0 120 hln 70 LIBVER=2.0.0
+a 0 u 13 13 0 92 hln 70 ENCODING=
+a 0 u 0 0 0 120 hln 100 DEF=BLOX
+a 0 u 13 13 0 101 hln 70 BOUNDS=
+a 0 u 13 13 0 110 hln 70 FLOAT_VAL=
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 130 56 hrn 100 INPUTS z 130 60 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 128 78 hrn 100 IE z 130 80 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 130 36 hrn 100 OUTPUTS z 130 40 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 128 18 hrn 100 OE z 130 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 130 110 130 20 10
+v 0 45 29
+45 20
+;
+c 0 45 32 3
+v 0 35 40
+55 50
+;
+v 0 55 50
+55 30
+;
+v 0 55 30
+35 40
+;
+v 0 35 50
+35 70
+;
+v 0 35 70
+55 60
+;
+v 0 55 60
+35 50
+;
+r 0 0 40 20 60
+v 0 90 80
+90 80
+;
+v 0 90 80
+90 80
+;
+v 0 90 80
+90 80
+;
+v 0 45 80
+45 65
+;
+v 0 45 65
+45 65
+;
+v 0 112 9
+127 9
+;
+v 0 45 80
+130 80
+;
+v 0 45 20
+130 20
+;
+s 5 42 28 hrn 50 ACTIVE
+s 5 37 33 hrn 50 LOW
+v 0 55 39
+130 39
+;
+v 0 130 39
+130 41
+;
+v 0 130 41
+55 41
+;
+v 0 53 61
+130 61
+;
+v 0 130 61
+130 59
+;
+v 0 130 59
+53 59
+;
+v 0 37 39
+26 39
+;
+v 0 26 39
+26 49
+;
+v 0 26 49
+20 49
+;
+v 0 20 51
+26 51
+;
+v 0 26 51
+26 61
+;
+v 0 26 61
+35 61
+;
+v 0 37 41
+28 41
+;
+v 0 28 41
+28 59
+;
+v 0 28 59
+35 59
+;
+*symbol BUS_DEF
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 124 18 hrn 100 REFDES=U?
+a 0 sp 11 0 21 9 hlt 120 PART=BUS_DEF
+a 0 u 0 0 5 77 hlt 70 LIBVER=2.0.0
+a 0 u 13 13 5 27 hlt 70 ENCODING=
+a 0 u 0 0 0 80 hln 100 DEF=BLOX
+a 0 u 13 13 5 37 hlt 70 BOUNDS=
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 44 70 hln 90 XBLOX_BUS z 40 70 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 41 68 hln 100 pin=
+@graphics 130 70 40 70 10
+v 0 5 20
+125 20
+;
+v 0 125 20
+130 35
+;
+v 0 130 35
+125 50
+;
+v 0 125 50
+5 50
+;
+v 0 5 50
+0 35
+;
+v 0 0 35
+5 20
+;
+v 0 39 60
+39 70
+;
+v 0 39 70
+41 70
+;
+v 0 41 70
+41 60
+;
+v 0 39 60
+49 50
+;
+v 0 41 60
+51 50
+;
+*symbol BUS_IF02
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 119 -1 hrn 100 REFDES=U?
+a 0 sp 11 0 58 -2 hct 120 PART=BUS_IF02
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF02
+@pins
+p 2 19 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 104 15 hrt 100 B[1:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 12 21
+0 21
+;
+v 0 0 21
+0 19
+;
+v 0 0 19
+12 19
+;
+v 0 104 19
+120 19
+;
+v 0 120 19
+120 21
+;
+v 0 120 21
+104 21
+;
+*symbol BUS_IF03
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF03
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF03
+@pins
+p 2 19 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[2:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 12 19
+0 19
+;
+v 0 0 19
+0 21
+;
+v 0 0 21
+12 21
+;
+v 0 104 19
+120 19
+;
+v 0 120 19
+120 21
+;
+v 0 120 21
+104 21
+;
+*symbol BUS_IF04
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF04
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF04
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[3:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 12 19
+0 19
+;
+v 0 0 19
+0 21
+;
+v 0 0 21
+12 21
+;
+v 0 104 19
+120 19
+;
+v 0 120 19
+120 21
+;
+v 0 120 21
+104 21
+;
+*symbol BUS_IF05
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF05
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF05
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[4:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 19
+120 19
+;
+v 0 120 19
+120 21
+;
+v 0 120 21
+104 21
+;
+*symbol BUS_IF06
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF06
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF06
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[5:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF07
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF07
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF07
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[6:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF08
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF08
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF08
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[7:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF09
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF09
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF09
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[8:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF10
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF10
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF10
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[9:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF11
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF11
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF11
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[10:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF12
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF12
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF12
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[11:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF13
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF13
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF13
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[12:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 12 21
+0 21
+;
+v 0 0 21
+0 19
+;
+v 0 0 19
+12 19
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF14
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF14
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF14
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[13:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF15
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF15
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF15
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[14:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF16
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF16
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF16
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[15:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF17
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF17
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF17
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[16:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF18
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF18
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF18
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[17:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF19
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF19
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF19
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[18:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF20
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF20
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF20
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[19:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF21
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF21
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF21
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[20:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF22
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF22
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF22
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[21:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF23
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF23
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF23
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[22:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF24
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF24
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF24
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[23:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF25
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF25
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF25
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[24:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF26
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF26
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF26
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[25:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+*symbol BUS_IF27
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF27
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF27
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[26:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF28
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF28
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF28
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[27:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF29
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF29
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF29
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[28:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF30
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF30
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF30
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[29:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF31
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF31
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF31
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[30:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol BUS_IF32
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF32
+a 0 u 0 0 -1 41 hln 50 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+a 0 u 0 0 0 0 hln 100 DEFAULT=BUS_IF32
+@pins
+p 2 18 15 hct 100 X z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 103 15 hrt 100 B[31:0] z 120 20 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 30 0 20 10
+v 0 28 14
+25 17
+;
+v 0 25 17
+31 23
+;
+v 0 31 23
+28 26
+;
+r 0 12 14 104 26
+v 0 0 19
+0 21
+;
+v 0 12 19
+0 19
+;
+v 0 0 21
+12 21
+;
+v 0 104 21
+120 21
+;
+v 0 120 21
+120 19
+;
+v 0 120 19
+104 19
+;
+*symbol CAST
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 96 17 hrn 100 REFDES=U?
+a 0 sp 11 0 40 9 hct 120 PART=CAST
+a 0 u 0 0 0 0 hln 100 LIBVER=2.0.0
+a 0 u 13 13 1 81 hln 70 B_BOUNDS=
+a 0 u 13 13 1 51 hln 70 A_ENCODING=
+a 0 u 13 13 1 61 hln 70 A_BOUNDS=
+a 0 u 13 13 1 71 hln 70 B_ENCODING=
+a 0 u 0 0 0 90 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 91 33 hln 100 B z 120 30 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 21 26 hlt 100 A z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 80 0 30 10
+r 0 20 20 100 40
+v 0 20 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+20 31
+;
+v 0 100 29
+120 29
+;
+v 0 120 29
+120 31
+;
+v 0 120 31
+100 31
+;
+*symbol CLK_DIV
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 180 0 hrn 100 REFDES=U?
+a 0 sp 11 0 80 5 hct 120 PART=CLK_DIV
+a 0 u 0 0 1 161 hln 70 LIBVER=2.0.0
+a 0 u 13 13 1 131 hln 70 SYNC_VAL=
+a 0 u 13 13 1 121 hln 70 ASYNC_VAL=
+a 0 u 13 13 1 141 hln 70 DIVIDE_BY=
+a 0 u 0 0 0 170 hln 100 DEF=BLOX
+a 0 u 13 13 1 151 hln 70 DUTY_CYCLE=
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 s 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+@pins
+p 2 160 94 hrt 100 CLK_OUT z 180 100 u
+a 0 s 0 0 0 0 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 21 34 hlt 100 ASYNC_CTRL z 0 40 h
+a 0 s 0 0 0 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 21 65 hln 100 SYNC_CTRL z 0 60 h
+a 0 s 0 0 0 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 21 74 hlt 100 EN z 0 80 h
+a 0 s 0 0 0 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 26 94 hlt 100 CLOCK z 0 100 h
+a 0 s 0 0 0 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+@graphics 180 160 0 40
+r 0 20 110 160 20
+v 0 20 95
+25 100
+20 105
+;
+v 0 160 100
+180 100
+;
+v 0 20 40
+0 40
+;
+v 0 20 60
+0 60
+;
+v 0 20 80
+0 80
+;
+v 0 20 100
+0 100
+;
+*symbol COMPARE
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 140 0 hrn 100 REFDES=U?
+a 0 sp 11 0 70 4 hct 120 PART=COMPARE
+a 0 u 0 0 1 181 hln 70 LIBVER=2.0.0
+a 0 u 0 0 0 190 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 125 34 hrt 100 A_EQ_B z 140 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 125 54 hrt 100 A_NE_B z 140 60 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 125 74 hrt 100 A_LT_B z 140 80 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 125 94 hrt 100 A_GT_B z 140 100 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 125 114 hrt 100 A_LE_B z 140 120 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 125 134 hrt 100 A_GE_B z 140 140 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 20 34 hlt 100 A z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 20 74 hlt 100 B z 0 80 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 140 180 0 40 10
+r 0 20 20 125 160
+v 0 125 40
+140 40
+;
+v 0 125 60
+140 60
+;
+v 0 125 80
+140 80
+;
+v 0 125 100
+140 100
+;
+v 0 125 120
+140 120
+;
+v 0 125 140
+140 140
+;
+v 0 20 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+20 41
+;
+v 0 20 79
+0 79
+;
+v 0 0 79
+0 81
+;
+v 0 0 81
+20 81
+;
+*symbol COUNTER
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 160 0 hrn 100 REFDES=U?
+a 0 sp 11 0 80 5 hct 120 PART=COUNTER
+a 0 u 0 0 1 231 hln 70 LIBVER=2.0.0
+a 0 u 0 0 0 230 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 139 34 hrt 100 Q_OUT z 160 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 161 38 hln 100 pin=
+p 2 21 34 hlt 100 D_IN z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 21 74 hlt 100 UP_DN z 0 80 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 21 94 hlt 100 ASYNC_CTRL z 0 100 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 21 114 hlt 100 SYNC_CTRL z 0 120 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 21 54 hlt 100 LOAD z 0 60 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 26 154 hlt 100 CLOCK z 0 160 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 21 134 hlt 100 CLK_EN z 0 140 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 139 154 hrt 100 TERM_CNT z 160 160 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 161 158 hln 100 pin=
+@graphics 160 180 0 40 10
+v 0 40 72
+58 72
+;
+r 0 20 20 140 180
+v 0 20 155
+25 160
+;
+v 0 25 160
+20 165
+;
+v 0 20 80
+0 80
+;
+v 0 20 100
+0 100
+;
+v 0 20 120
+0 120
+;
+v 0 20 60
+0 60
+;
+v 0 20 160
+0 160
+;
+v 0 20 140
+0 140
+;
+v 0 140 160
+160 160
+;
+v 0 20 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+20 41
+;
+v 0 140 39
+160 39
+;
+v 0 160 39
+160 41
+;
+v 0 160 41
+140 41
+;
+*symbol DATA_REG
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 150 0 hrn 100 REFDES=U?
+a 0 sp 11 0 75 5 hct 120 PART=DATA_REG
+a 0 u 0 0 0 171 hln 70 LIBVER=2.0.0
+a 0 u 0 0 0 170 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 20 94 hlt 100 CLK_EN z 0 100 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 20 34 hlt 100 D_IN z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 20 54 hlt 100 ASYNC_CTRL z 0 60 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 130 34 hrt 100 Q_OUT z 150 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 20 74 hlt 100 SYNC_CTRL z 0 80 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 26 125 hln 100 CLOCK z 0 120 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 150 160 0 40 10
+r 0 20 20 130 140
+v 0 20 115
+25 120
+;
+v 0 25 120
+20 125
+;
+v 0 20 100
+0 100
+;
+v 0 20 60
+0 60
+;
+v 0 20 80
+0 80
+;
+v 0 20 120
+0 120
+;
+v 0 20 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+20 41
+;
+v 0 130 41
+150 41
+;
+v 0 150 41
+150 39
+;
+v 0 150 39
+130 39
+;
+*symbol DECODE
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 130 0 hrn 100 REFDES=U?
+a 0 sp 11 0 66 5 hct 120 PART=DECODE
+a 0 u 0 0 0 80 hln 100 LIBVER=2.0.0
+a 0 u 0 0 0 80 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 108 52 hrn 100 SEL_ERROR z 130 50 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 131 48 hln 100 pin=
+p 2 108 25 hrt 100 D_OUT z 130 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 21 25 hlt 100 SEL z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 21 45 hlt 100 EN z 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 130 70 0 30 10
+r 0 20 20 110 60
+v 0 110 50
+130 50
+;
+v 0 20 50
+0 50
+;
+v 0 20 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+20 31
+;
+v 0 110 31
+130 31
+;
+v 0 130 31
+130 29
+;
+v 0 130 29
+110 29
+;
+*symbol DP_RAM
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 160 0 hrn 100 REFDES=U?
+a 0 sp 11 0 80 5 hct 120 PART=DP_RAM
+a 0 u 0 0 0 160 hln 100 DEF=BLOX
+a 0 u 13 13 0 151 hln 70 DEPTH=
+a 0 u 0 0 0 161 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 s 0 0 0 0 hln 100 FAMILY=XBLOX
+@views
+@pins
+p 2 20 54 hlt 100 D_IN z 0 60 h
+a 0 s 0 0 0 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 20 34 hlt 100 WR_EN z 0 40 h
+a 0 s 0 0 0 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 20 114 hlt 100 DPRD_ADDR z 0 120 h
+a 0 s 0 0 0 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 20 94 hlt 100 ADDR z 0 100 h
+a 0 s 0 0 0 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 20 85 hln 100 WR_CLK z 0 80 h
+a 0 s 0 0 0 0 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 140 54 hrt 100 SP_OUT z 160 60 u
+a 0 s 0 0 0 0 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+p 2 140 94 hrt 100 DP_OUT z 160 100 u
+a 0 s 0 0 0 0 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+@graphics 160 160 0 40
+r 0 20 140 140 20
+v 0 20 60
+0 60
+;
+v 0 20 40
+0 40
+;
+v 0 20 120
+0 120
+;
+v 0 20 100
+0 100
+;
+v 0 20 80
+0 80
+;
+v 0 140 60
+160 60
+;
+v 0 140 100
+160 100
+;
+*symbol ELEMENT
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 150 0 hrn 100 REFDES=U?
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 0 0 0 70 hln 100 LIBVER=2.0.0
+a 0 u 0 0 0 60 hln 100 DEF=BLOX
+a 0 u 13 13 2 48 hln 70 ELEM=
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 1 27 hln 90 XBLOX_BUS z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 149 28 hrn 90 ELEM z 150 30 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 150 50 0 30 10
+v 0 90 26
+95 30
+;
+v 0 95 30
+105 30
+;
+r 0 85 22 90 38
+r 0 80 20 110 40
+v 0 96 34
+98 32
+;
+v 0 98 32
+98 33
+;
+v 0 98 33
+102 33
+;
+v 0 102 33
+102 32
+;
+v 0 102 32
+104 34
+;
+v 0 104 34
+102 36
+;
+v 0 102 36
+102 35
+;
+v 0 102 35
+98 35
+;
+v 0 98 35
+98 36
+;
+v 0 98 36
+96 34
+;
+v 0 110 30
+150 30
+;
+v 0 80 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+80 31
+;
+*symbol FORCE
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 170 0 hrn 100 REFDES=U?
+a 0 sp 11 0 80 5 hct 120 PART=FORCE
+a 0 u 13 13 4 34 hln 100 VALUE=
+a 0 u 0 0 0 50 hln 100 DEF=BLOX
+a 0 u 0 0 0 46 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 0 170 26 hrn 100 FORCE z 170 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 170 40 170 30 10
+v 0 145 20
+0 20
+;
+v 0 0 20
+0 40
+;
+v 0 0 40
+145 40
+;
+v 0 145 40
+145 40
+;
+v 0 145 20
+154 29
+;
+v 0 154 29
+170 29
+;
+v 0 170 29
+170 31
+;
+v 0 170 31
+154 31
+;
+v 0 154 31
+145 40
+;
+*symbol INC_DEC
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 120 0 hrn 100 REFDES=U?
+a 0 sp 11 0 77 2 hct 120 PART=INC_DEC
+a 0 u 0 0 10 -200 hln 150 LIBVER=2.0.0
+a 0 u 0 0 0 160 hln 100 DEF=BLOX
+a 0 u 13 13 0 145 hln 80 INC_BY=
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 2 60 hlt 100 A z 0 70 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 119 87 hrn 100 FUNC z 120 90 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 118 108 hrn 100 OVFL z 120 110 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 119 128 hrn 100 C_OUT z 120 130 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 121 128 hln 100 pin=
+p 2 1 28 hln 100 INC_DEC z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 120 150 0 30 10
+v 0 40 60
+40 80
+;
+v 0 40 80
+50 90
+;
+v 0 50 90
+40 100
+;
+v 0 40 100
+40 120
+;
+v 0 40 120
+80 100
+;
+v 0 80 100
+80 80
+;
+v 0 80 80
+40 60
+;
+v 0 59 95
+67 95
+;
+v 0 63 85
+63 93
+;
+v 0 59 89
+67 89
+;
+v 0 70 75
+70 30
+;
+v 0 70 30
+60 30
+;
+v 0 70 105
+70 110
+;
+v 0 70 110
+100 110
+;
+v 0 50 115
+50 130
+;
+v 0 100 110
+120 110
+;
+v 0 60 30
+0 30
+;
+s 5 29 102 hrt 80 INC
+s 5 28 110 hrt 80 BY
+v 0 40 69
+0 69
+;
+v 0 0 69
+0 71
+;
+v 0 0 71
+40 71
+;
+v 0 80 91
+120 91
+;
+v 0 120 91
+120 89
+;
+v 0 120 89
+80 89
+;
+v 0 40 109
+30 109
+;
+v 0 30 109
+30 111
+;
+v 0 30 111
+40 111
+;
+v 0 25 20
+45 20
+;
+v 0 50 130
+120 130
+;
+*symbol INELEM
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 150 0 hrn 100 REFDES=U?
+a 0 sp 11 0 80 0 hct 120 PART=INELEM
+a 0 u 0 0 0 70 hln 100 LIBVER=2.0.0
+a 0 u 0 0 0 60 hln 100 DEF=BLOX
+a 0 u 13 13 2 48 hln 70 ELEM=
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 149 28 hrn 90 ELEM z 150 30 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 27 hln 90 XBLOX_BUS z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 150 50 0 30 10
+v 0 90 26
+95 30
+;
+v 0 95 30
+105 30
+;
+r 0 85 22 90 38
+v 0 102 33
+98 33
+;
+v 0 98 33
+98 32
+;
+v 0 98 32
+96 34
+;
+v 0 96 34
+98 36
+;
+v 0 98 36
+98 35
+;
+v 0 98 35
+102 35
+;
+v 0 102 35
+102 33
+;
+r 0 80 20 110 40
+v 0 110 30
+150 30
+;
+v 0 80 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+80 31
+;
+*symbol INSLICE
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 55 0 hct 120 PART=INSLICE
+a 0 u 0 0 0 100 hln 100 LIBVER=2.0.0
+a 0 u 13 13 0 67 hln 70 SUB=
+a 0 u 13 13 0 77 hln 70 SUB_STARTS_AT=
+a 0 u 0 0 0 90 hln 100 DEF=BLOX
+a 0 u 13 13 0 57 hln 70 SLICE=
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 109 27 hrn 100 SUB z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 27 hln 100 MAIN z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 80 0 30 10
+r 0 45 15 75 46
+r 0 48 17 55 43
+v 0 70 32
+60 32
+;
+v 0 60 32
+55 28
+;
+v 0 70 30
+60 30
+;
+v 0 60 30
+55 26
+;
+v 0 70 28
+60 28
+;
+v 0 60 28
+55 24
+;
+v 0 55 20
+60 24
+;
+v 0 55 22
+60 26
+;
+v 0 55 32
+60 36
+;
+v 0 55 34
+60 38
+;
+v 0 55 30
+60 34
+;
+r 0 70 23 73 37
+v 0 67 39
+63 39
+;
+v 0 63 39
+63 38
+;
+v 0 63 38
+61 40
+;
+v 0 61 40
+63 42
+;
+v 0 63 42
+63 41
+;
+v 0 63 41
+67 41
+;
+v 0 67 41
+67 39
+;
+v 0 45 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+45 31
+;
+v 0 75 31
+110 31
+;
+v 0 110 31
+110 29
+;
+v 0 110 29
+75 29
+;
+*symbol INVBUS
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 55 0 hct 120 PART=INVBUS
+a 0 u 0 0 0 70 hln 100 DEF=BLOX
+a 0 u 0 0 0 70 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 109 27 hrn 100 O z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 27 hln 100 I z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 60 0 30 10
+v 0 35 15
+65 30
+;
+v 0 35 45
+65 30
+;
+v 0 35 15
+35 45
+;
+c 0 70 30 5
+v 0 35 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+35 31
+;
+v 0 75 29
+110 29
+;
+v 0 110 29
+110 31
+;
+v 0 110 31
+75 31
+;
+*symbol MUXBUS
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 55 0 hct 120 PART=MUXBUS
+a 0 u 0 0 0 130 hln 100 LIBVER=2.0.0
+a 0 u 0 0 0 120 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 86 32 hct 75 SEL_ERROR z 110 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 38 hln 100 pin=
+p 2 110 57 hrn 75 MUX_OUT z 110 60 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 58 hln 100 pin=
+p 2 -1 57 hln 75 MUX_IN z 0 60 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 58 hln 100 pin=
+p 2 0 97 hln 75 SEL z 0 100 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 98 hln 100 pin=
+@graphics 110 110 110 40 10
+v 0 30 30
+30 90
+;
+v 0 30 90
+70 70
+;
+v 0 70 70
+70 50
+;
+v 0 70 50
+30 30
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+60 45
+;
+v 0 70 40
+110 40
+;
+v 0 30 59
+0 59
+;
+v 0 0 59
+0 61
+;
+v 0 0 61
+30 61
+;
+v 0 48 81
+48 99
+;
+v 0 48 99
+0 99
+;
+v 0 0 99
+0 101
+;
+v 0 0 101
+50 101
+;
+v 0 50 101
+50 80
+;
+v 0 70 59
+110 59
+;
+v 0 110 59
+110 61
+;
+v 0 110 61
+70 61
+;
+*symbol MUXBUS2
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 55 0 hct 120 PART=MUXBUS2
+a 0 u 0 0 0 140 hln 100 LIBVER=2.0.0
+a 0 u 0 0 0 130 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 2 107 hln 75 SEL z 0 110 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 108 hln 100 pin=
+p 2 1 67 hln 75 M0 z 0 70 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 68 hln 100 pin=
+p 2 1 47 hln 75 M1 z 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 48 hln 100 pin=
+p 2 111 57 hrn 75 MUX_OUT z 110 60 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 58 hln 100 pin=
+p 2 109 38 hrn 75 SEL_ERROR z 110 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 38 hln 100 pin=
+@graphics 110 120 0 50 10
+v 0 30 30
+30 90
+;
+v 0 30 90
+70 70
+;
+v 0 70 70
+70 50
+;
+v 0 70 50
+30 30
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+60 45
+;
+v 0 70 40
+110 40
+;
+v 0 48 109
+0 109
+;
+v 0 0 109
+0 111
+;
+v 0 0 111
+50 111
+;
+v 0 70 59
+110 59
+;
+v 0 110 59
+110 61
+;
+v 0 110 61
+70 61
+;
+v 0 30 49
+0 49
+;
+v 0 0 49
+0 51
+;
+v 0 0 51
+30 51
+;
+v 0 30 69
+0 69
+;
+v 0 0 69
+0 71
+;
+v 0 0 71
+30 71
+;
+v 0 48 81
+48 109
+;
+v 0 50 111
+50 80
+;
+*symbol MUXBUS4
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 56 0 hct 120 PART=MUXBUS4
+a 0 u 0 0 0 170 hln 100 DEF=BLOX
+a 0 u 0 0 0 180 hln 100 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 86 38 hcn 75 SEL_ERROR z 110 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 38 hln 100 pin=
+p 2 110 97 hrn 75 MUX_OUT z 110 100 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 98 hln 100 pin=
+p 2 1 47 hln 75 M3 z 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 48 hln 100 pin=
+p 2 1 67 hln 75 M2 z 0 70 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 68 hln 100 pin=
+p 2 1 147 hln 75 SEL z 0 150 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 148 hln 100 pin=
+p 2 1 107 hln 75 M0 z 0 110 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 108 hln 100 pin=
+p 2 1 87 hln 75 M1 z 0 90 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 88 hln 100 pin=
+@graphics 110 160 110 40 10
+v 0 70 40
+60 40
+;
+v 0 60 40
+60 45
+;
+v 0 30 30
+30 130
+;
+v 0 30 130
+70 110
+;
+v 0 70 110
+70 50
+;
+v 0 70 50
+30 30
+;
+v 0 70 40
+110 40
+;
+v 0 30 49
+0 49
+;
+v 0 0 49
+0 51
+;
+v 0 0 51
+30 51
+;
+v 0 30 69
+0 69
+;
+v 0 0 69
+0 71
+;
+v 0 0 71
+30 71
+;
+v 0 30 89
+0 89
+;
+v 0 0 89
+0 91
+;
+v 0 0 91
+30 91
+;
+v 0 30 109
+0 109
+;
+v 0 0 109
+0 111
+;
+v 0 0 111
+30 111
+;
+v 0 48 121
+48 149
+;
+v 0 48 149
+0 149
+;
+v 0 0 149
+0 151
+;
+v 0 0 151
+49 151
+;
+v 0 49 151
+50 151
+;
+v 0 50 151
+50 120
+;
+v 0 70 101
+110 101
+;
+v 0 110 101
+110 99
+;
+v 0 110 99
+70 99
+;
+*symbol MUXBUS8
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 55 0 hct 120 PART=MUXBUS8
+a 0 u 0 0 0 260 hln 100 LIBVER=2.0.0
+a 0 u 0 0 0 250 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 1 226 hln 75 SEL z 0 230 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 228 hln 100 pin=
+p 2 1 127 hln 75 M3 z 0 130 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 128 hln 100 pin=
+p 2 1 107 hln 75 M4 z 0 110 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 108 hln 100 pin=
+p 2 1 147 hln 75 M2 z 0 150 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 148 hln 100 pin=
+p 2 1 167 hln 75 M1 z 0 170 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 168 hln 100 pin=
+p 2 1 187 hln 75 M0 z 0 190 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 188 hln 100 pin=
+p 2 1 67 hln 75 M6 z 0 70 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 68 hln 100 pin=
+p 2 1 87 hln 75 M5 z 0 90 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 88 hln 100 pin=
+p 2 1 47 hln 75 M7 z 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 48 hln 100 pin=
+p 2 111 177 hrn 75 MUX_OUT z 110 180 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 178 hln 100 pin=
+p 2 86 38 hcn 75 SEL_ERROR z 110 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 38 hln 100 pin=
+@graphics 110 240 0 50 10
+v 0 30 30
+30 210
+;
+v 0 30 210
+70 190
+;
+v 0 70 190
+70 50
+;
+v 0 70 50
+30 30
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+60 45
+;
+v 0 70 40
+110 40
+;
+v 0 30 49
+0 49
+;
+v 0 0 49
+0 51
+;
+v 0 0 51
+30 51
+;
+v 0 30 69
+0 69
+;
+v 0 0 69
+0 71
+;
+v 0 0 71
+30 71
+;
+v 0 30 89
+0 89
+;
+v 0 0 89
+0 91
+;
+v 0 0 91
+30 91
+;
+v 0 30 109
+0 109
+;
+v 0 0 109
+0 111
+;
+v 0 0 111
+30 111
+;
+v 0 30 129
+0 129
+;
+v 0 0 129
+0 131
+;
+v 0 0 131
+30 131
+;
+v 0 30 149
+0 149
+;
+v 0 0 149
+0 151
+;
+v 0 0 151
+30 151
+;
+v 0 30 169
+0 169
+;
+v 0 0 169
+0 171
+;
+v 0 0 171
+30 171
+;
+v 0 30 189
+0 189
+;
+v 0 0 189
+0 191
+;
+v 0 0 191
+30 191
+;
+v 0 48 201
+48 229
+;
+v 0 48 229
+0 229
+;
+v 0 0 229
+0 231
+;
+v 0 0 231
+49 231
+;
+v 0 49 231
+50 231
+;
+v 0 50 231
+50 200
+;
+v 0 70 181
+110 181
+;
+v 0 110 181
+110 179
+;
+v 0 110 179
+70 179
+;
+*symbol ORBUS
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 56 0 hct 120 PART=ORBUS
+a 0 u 0 0 0 70 hln 100 DEF=BLOX
+a 0 u 0 0 0 70 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 109 28 hrn 100 O z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 28 hln 100 pin=
+p 2 2 27 hln 100 A z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 60 0 30 10
+v 0 35 15
+55 15
+;
+v 0 35 45
+55 45
+;
+a 0 55 45 70 41 80 30
+a 0 80 30 70 19 55 15
+a 0 35 45 43 30 35 15
+v 0 43 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+43 31
+;
+v 0 80 30
+110 30
+;
+*symbol ORBUS1
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 56 0 hct 120 PART=ORBUS1
+a 0 u 0 0 0 70 hln 100 DEF=BLOX
+a 0 u 0 0 0 70 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 1 37 hln 100 B z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 38 hln 100 pin=
+p 2 108 27 hrn 100 O z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 28 hln 100 pin=
+p 2 1 18 hln 100 A z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 60 0 20 10
+v 0 35 45
+55 45
+;
+v 0 35 15
+55 15
+;
+v 0 40 20
+0 20
+;
+a 0 55 45 70 41 80 30
+a 0 35 45 43 30 35 15
+a 0 80 30 70 19 55 15
+v 0 40 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+39 41
+;
+v 0 79 29
+110 29
+;
+v 0 110 29
+110 31
+;
+v 0 110 31
+79 31
+;
+*symbol ORBUS2
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 56 0 hct 120 PART=ORBUS2
+a 0 u 0 0 0 70 hln 100 DEF=BLOX
+a 0 u 0 0 0 70 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 1 17 hln 100 A z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 108 27 hrn 100 O z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 28 hln 100 pin=
+p 2 1 37 hln 100 B z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 60 0 20 10
+v 0 35 15
+55 15
+;
+v 0 35 45
+55 45
+;
+a 0 55 45 70 41 80 30
+a 0 80 30 70 19 55 15
+a 0 35 45 43 30 35 15
+v 0 39 19
+0 19
+;
+v 0 0 19
+0 21
+;
+v 0 0 21
+41 21
+;
+v 0 40 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+39 41
+;
+v 0 80 29
+110 29
+;
+v 0 110 29
+110 31
+;
+v 0 110 31
+80 31
+;
+*symbol OUTELEM
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 150 0 hrn 100 REFDES=U?
+a 0 sp 11 0 80 0 hct 120 PART=OUTELEM
+a 0 u 0 0 0 70 hln 100 LIBVER=2.0.0
+a 0 u 13 13 1 48 hln 70 ELEM=
+a 0 u 0 0 0 60 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 149 28 hrn 90 ELEM z 150 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 27 hln 90 XBLOX_BUS z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 150 50 0 30 10
+r 0 85 22 90 38
+v 0 90 26
+95 30
+;
+v 0 95 30
+105 30
+;
+v 0 98 33
+102 33
+;
+v 0 102 33
+102 32
+;
+v 0 102 32
+104 34
+;
+v 0 104 34
+102 36
+;
+v 0 102 36
+102 35
+;
+v 0 102 35
+98 35
+;
+v 0 98 35
+98 33
+;
+r 0 80 20 110 40
+v 0 110 30
+150 30
+;
+v 0 80 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+80 31
+;
+*symbol OUTSLICE
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 55 0 hct 120 PART=OUTSLICE
+a 0 u 0 0 0 100 hln 100 LIBVER=2.0.0
+a 0 u 13 13 0 67 hln 70 SUB=
+a 0 u 13 13 0 77 hln 70 SUB_STARTS_AT=
+a 0 u 0 0 0 90 hln 100 DEF=BLOX
+a 0 u 13 13 0 57 hln 70 SLICE=
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 1 27 hln 100 MAIN z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 109 27 hrn 100 SUB z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 80 0 30 10
+r 0 45 15 75 46
+r 0 48 17 55 43
+v 0 70 32
+60 32
+;
+v 0 60 32
+55 28
+;
+v 0 70 30
+60 30
+;
+v 0 60 30
+55 26
+;
+v 0 70 28
+60 28
+;
+v 0 60 28
+55 24
+;
+v 0 55 20
+60 24
+;
+v 0 55 22
+60 26
+;
+v 0 55 32
+60 36
+;
+v 0 55 34
+60 38
+;
+v 0 55 30
+60 34
+;
+r 0 70 23 73 37
+v 0 63 39
+67 39
+;
+v 0 67 39
+67 38
+;
+v 0 67 38
+69 40
+;
+v 0 69 40
+67 42
+;
+v 0 67 42
+67 41
+;
+v 0 67 41
+63 41
+;
+v 0 63 41
+63 39
+;
+v 0 45 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+45 31
+;
+v 0 75 31
+110 31
+;
+v 0 110 31
+110 29
+;
+v 0 110 29
+75 29
+;
+*symbol PROM
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 160 0 hrn 100 REFDES=U?
+a 0 sp 11 0 80 5 hct 120 PART=PROM
+a 0 u 0 0 1 121 hln 70 LIBVER=2.0.0
+a 0 u 13 13 1 101 hln 70 MEMFILE=
+a 0 u 0 0 0 120 hln 100 DEF=BLOX
+a 0 u 13 13 1 111 hln 70 DEPTH=
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 138 43 hrn 100 D_OUT z 160 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 161 38 hln 100 pin=
+p 2 22 56 hlt 100 ADDR z 0 60 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 138 83 hrn 100 ADDR_ERROR z 160 80 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 161 78 hln 100 pin=
+@graphics 160 110 160 40 10
+r 0 20 20 140 90
+v 0 140 80
+160 80
+;
+v 0 20 59
+0 59
+;
+v 0 0 59
+0 61
+;
+v 0 0 61
+20 61
+;
+v 0 140 39
+160 39
+;
+v 0 160 39
+160 41
+;
+v 0 160 41
+140 41
+;
+*symbol SHIFT
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 200 0 hrn 100 REFDES=U?
+a 0 sp 11 0 98 5 hct 120 PART=SHIFT
+a 0 u 0 0 0 270 hln 100 DEF=BLOX
+a 0 u 0 0 0 260 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 23 135 hlt 100 ASYNC_CTRL z 0 140 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 23 175 hlt 100 CLK_EN z 0 180 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 26 195 hlt 100 CLOCK z 0 200 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 23 63 hln 100 LOAD z 0 60 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 23 115 hlt 100 RIGHT_LEFT z 0 120 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 23 75 hlt 100 MS_IN z 0 80 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 23 95 hlt 100 LS_IN z 0 100 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 23 155 hlt 100 SYNC_CTRL z 0 160 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 23 35 hlt 100 PAR_IN z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 178 42 hrn 100 PAR_OUT z 200 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 201 38 hln 100 pin=
+p 2 177 82 hrn 100 LS_OUT z 200 80 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 201 78 hln 100 pin=
+p 2 177 102 hrn 100 MS_OUT z 200 100 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 201 98 hln 100 pin=
+@graphics 200 260 0 40 10
+r 0 20 20 180 220
+v 0 20 195
+25 200
+;
+v 0 25 200
+20 205
+;
+v 0 20 140
+0 140
+;
+v 0 20 180
+0 180
+;
+v 0 20 200
+0 200
+;
+v 0 20 60
+0 60
+;
+v 0 20 120
+0 120
+;
+v 0 20 80
+0 80
+;
+v 0 20 100
+0 100
+;
+v 0 20 160
+0 160
+;
+v 0 180 80
+200 80
+;
+v 0 180 100
+200 100
+;
+v 0 20 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+20 41
+;
+v 0 180 39
+200 39
+;
+v 0 200 39
+200 41
+;
+v 0 200 41
+180 41
+;
+v 0 57 114
+87 114
+;
+*symbol SLICE
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 55 0 hct 120 PART=SLICE
+a 0 u 0 0 0 100 hln 100 LIBVER=2.0.0
+a 0 u 0 0 0 90 hln 100 DEF=BLOX
+a 0 u 13 13 0 77 hln 70 SUB_STARTS_AT=
+a 0 u 13 13 0 67 hln 70 SUB=
+a 0 u 13 13 0 57 hln 70 SLICE=
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 109 27 hrn 100 SUB z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 1 27 hln 100 MAIN z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 80 0 30 10
+r 0 70 23 73 37
+v 0 55 30
+60 34
+;
+v 0 55 34
+60 38
+;
+v 0 55 32
+60 36
+;
+v 0 55 22
+60 26
+;
+v 0 55 20
+60 24
+;
+v 0 70 28
+60 28
+;
+v 0 60 28
+55 24
+;
+v 0 70 30
+60 30
+;
+v 0 60 30
+55 26
+;
+v 0 70 32
+60 32
+;
+v 0 60 32
+55 28
+;
+r 0 48 17 55 43
+r 0 45 15 75 46
+v 0 61 40
+63 38
+;
+v 0 63 38
+63 39
+;
+v 0 63 39
+67 39
+;
+v 0 67 39
+67 38
+;
+v 0 67 38
+69 40
+;
+v 0 69 40
+67 42
+;
+v 0 67 42
+67 41
+;
+v 0 67 41
+63 41
+;
+v 0 63 41
+63 42
+;
+v 0 63 42
+61 40
+;
+v 0 45 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+45 31
+;
+v 0 75 31
+110 31
+;
+v 0 110 31
+110 29
+;
+v 0 110 29
+75 29
+;
+*symbol SRAM
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 160 0 hrn 100 REFDES=U?
+a 0 sp 11 0 80 5 hct 120 PART=SRAM
+a 0 u 0 0 0 120 hln 100 DEF=BLOX
+a 0 u 13 13 0 111 hln 70 DEPTH=
+a 0 u 0 0 0 121 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 138 82 hrn 100 ADDR_ERROR z 160 80 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 161 78 hln 100 pin=
+p 2 138 43 hrn 100 D_OUT z 160 40 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 161 38 hln 100 pin=
+p 2 22 36 hlt 100 D_IN z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 22 55 hlt 100 WR_EN z 0 60 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 22 75 hlt 100 ADDR z 0 80 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 160 120 0 40 10
+r 0 20 20 140 100
+v 0 140 80
+160 80
+;
+v 0 20 60
+0 60
+;
+v 0 20 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+20 41
+;
+v 0 20 79
+0 79
+;
+v 0 0 79
+0 81
+;
+v 0 0 81
+20 81
+;
+v 0 140 39
+160 39
+;
+v 0 160 39
+160 41
+;
+v 0 160 41
+140 41
+;
+*symbol SYNC_RAM
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 160 0 hrn 100 REFDES=U?
+a 0 sp 11 0 80 5 hct 120 PART=SYNC_RAM
+a 0 u 0 0 0 141 hln 70 LIBVER=2.0.0
+a 0 u 13 13 0 131 hln 70 DEPTH=
+a 0 u 0 0 0 140 hln 100 DEF=BLOX
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 22 83 hln 100 WR_CLK z 0 80 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 22 95 hlt 100 ADDR z 0 100 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 22 35 hlt 100 WR_EN z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 22 55 hlt 100 D_IN z 0 60 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 137 55 hrt 100 D_OUT z 160 60 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 160 140 0 40 10
+r 0 20 20 140 120
+v 0 20 80
+0 80
+;
+v 0 20 100
+0 100
+;
+v 0 20 40
+0 40
+;
+v 0 20 60
+0 60
+;
+v 0 140 60
+160 60
+;
+*symbol TRISTATE
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 55 0 hct 120 PART=TRISTATE
+a 0 u 0 0 0 80 hln 100 DEF=BLOX
+a 0 u 0 0 0 90 hln 100 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 107 47 hrn 100 O z 110 50 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 111 48 hln 100 pin=
+p 2 3 47 hln 100 I z 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 2 28 hln 100 OE z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+a 0 u 1 0 1 28 hln 100 pin=
+@graphics 110 70 0 30 10
+v 0 35 35
+35 65
+;
+v 0 35 35
+65 50
+;
+v 0 35 65
+65 50
+;
+c 0 46 38 2
+v 0 46 30
+46 36
+;
+v 0 2 19
+17 19
+;
+v 0 46 30
+0 30
+;
+s 5 37 29 hln 50 ACTIVE
+s 5 47 34 hln 50 LOW
+v 0 35 49
+0 49
+;
+v 0 0 49
+0 51
+;
+v 0 0 51
+35 51
+;
+v 0 63 49
+110 49
+;
+v 0 110 49
+110 51
+;
+v 0 110 51
+63 51
+;
+*symbol XORBUS
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 0 hct 120 PART=XORBUS
+a 0 u 0 0 0 70 hln 100 DEF=BLOX
+a 0 u 0 0 0 70 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 108 28 hrn 100 O z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 2 27 hln 100 A z 0 30 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 60 0 30 10
+v 0 45 45
+65 45
+;
+v 0 45 15
+65 15
+;
+v 0 90 30
+110 30
+;
+a 0 65 45 80 41 90 30
+a 0 40 45 48 30 39 15
+a 0 45 45 53 30 45 15
+a 0 90 30 80 19 65 15
+v 0 48 29
+0 29
+;
+v 0 0 29
+0 31
+;
+v 0 0 31
+48 31
+;
+*symbol XORBUS1
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 57 0 hct 120 PART=XORBUS1
+a 0 u 0 0 0 70 hln 100 DEF=BLOX
+a 0 u 0 0 0 70 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 109 27 hrn 100 O z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 2 37 hln 100 B z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 2 18 hln 100 A z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 60 0 20 10
+v 0 40 15
+60 15
+;
+v 0 40 45
+60 45
+;
+v 0 39 20
+0 20
+;
+a 0 40 45 48 30 40 15
+a 0 35 45 43 30 34 15
+a 0 60 45 75 41 85 30
+a 0 85 30 75 19 60 15
+v 0 40 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+39 41
+;
+v 0 84 29
+110 29
+;
+v 0 110 29
+110 31
+;
+v 0 110 31
+84 31
+;
+*symbol XORBUS2
+d Family XILINX
+@type p
+@attributes
+a 0 sp 9 0 110 0 hrn 100 REFDES=U?
+a 0 sp 11 0 55 0 hct 120 PART=XORBUS2
+a 0 u 0 0 0 70 hln 100 DEF=BLOX
+a 0 u 0 0 0 70 hln 70 LIBVER=2.0.0
+a 0 s 0 0 0 0 hln 100 IMPL=XILINX
+a 0 u 0 0 0 0 hln 100 FAMILY=XBLOX
+@pins
+p 2 2 37 hln 100 B z 0 40 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 108 27 hrn 100 O z 110 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+p 2 2 17 hln 100 A z 0 20 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 FLOAT=n
+@graphics 110 60 0 20 10
+v 0 34 46
+54 46
+;
+v 0 34 14
+54 14
+;
+a 0 28 46 37 30 28 14
+a 0 34 46 43 30 34 14
+a 0 80 30 72 20 54 14
+a 0 54 46 72 40 80 30
+v 0 33 19
+0 19
+;
+v 0 0 19
+0 21
+;
+v 0 0 21
+34 21
+;
+v 0 34 39
+0 39
+;
+v 0 0 39
+0 41
+;
+v 0 0 41
+33 41
+;
+v 0 110 29
+110 31
+;
+v 0 110 31
+80 31
+;
+v 0 80 29
+110 29
+;

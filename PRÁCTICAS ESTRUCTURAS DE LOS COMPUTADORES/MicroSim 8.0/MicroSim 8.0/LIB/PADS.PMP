@@ -1,0 +1,53 @@
+# Part Mapping file for PADS PCB Package
+
+# Copyright 1992,1993 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+# Capacitors
+# Default mapping is to 0.3" axial package
+CAP\\MA20                     C
+
+# Inductors
+# Default mapping is to 0.5" molded
+IND\\MOLDED                   L
+
+
+# Resistors
+R1W                           R
+R2W,R3W               ako    R1W
+R1/4W,R1/2W,R1/8W     ako    R1W
+
+#Default mapping is to 1/4W package
+R1/4W                         R
+
+# Potentiometers
+VRES                          POT
+
+# Quartz Crystal (example only)
+XTAL1,100KHz              QZP100K
+
+#Connectors
+#DIN Connector
+CON\\DIN5	     DIN5
+CON\\41612\\96	     DIN96
+#DB Connectors
+CON\\DB9HM	     DB9
+CON\\DB9HF	     DB9F
+CON\\DB9HM	     DB9M
+CON\\DB25HM	     DB25
+CON\\DB25HM          DB25M
+CON\\DB25HF	     DB25F
+#EDGE Connectors
+#These edge connector pins are on 100 mil centers
+CON\\40P\\100\\ED    EDGE40
+CON\\62P\\100\\ED    EDGE62
+
+#TTL: part & mapped package type:
+#74*                 ?component|@component||@part|&`pkgtype
+
+# Default rule: 
+DEFAULT               
+
+
+

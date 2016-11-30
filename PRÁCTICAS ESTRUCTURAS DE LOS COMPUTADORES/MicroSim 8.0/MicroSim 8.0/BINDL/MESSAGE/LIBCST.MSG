@@ -1,0 +1,40 @@
+>Fs Error in cost file
+=[10000] Error in cost file %s.
+>Wd Weight larger than 100
+=[10001] Weight %d larger than 100.
+>Wd Cost larger than 1000
+=[10002] Cost %d larger than 1000.
+
+>Fs tables.txt: failed to read integer number for:
+=[10003] tables.txt: failed to read integer number of %s.
+>Fsd tables.txt: failed to read descript. and #
+=[10004] tables.txt: failed to read %s, #%d.
+>Fss Device file missing
+=[10005] Device file missing: %s (%s)
+>Fs Can't open file
+=[10006] Can't open file %s
+
+>Fsd syntax error
+=[10007] Syntax error while parsing the .cst file near %s at %d.
+>F yacc stack overflow
+=[10008] Yacc stack overflow while parsing the .cst file.
+>Fs Unknown error message
+=[10009] Unknown error message: %s
+>F Library Locking Error
+=[10010] Library Locking Error.
+
+>Ws Unknown manufacturer
+=[10011] Unknown manufacturer: '%s' in .cst file.
+>Ws Unknown family
+=[10012] Unknown family: '%s' in .cst file.
+>Ws Unknown package
+=[10013] Unknown package: '%s' in .cst file.
+>Ws Unknown temprange
+=[10014] Unknown temprange: '%s' in .cst file.
+>Ws Unknown template
+=[10015] Unknown template: '%s' in .cst file.
+
+>Fs could not open default .cst file
+=[10016] Could not open default .cst file '%s'.
+
+

@@ -1,0 +1,279 @@
+*version 6.3 2972700811
+u 266
+XC2000 4272602577
+U? 6
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 4224 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 267 IF_OUT 690 280 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 268 IF_OUT 690 400 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+port 269 IF_IN 170 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 270 IF_IN 170 280 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 271 IF_IN 170 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=D2
+port 272 IF_IN 170 640 h
+a 0 s 3 0 10 8 hln 80 LABEL=D3
+port 273 IF_OUT 690 640 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q3
+port 274 IF_OUT 690 520 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q2
+port 275 IF_IN 170 660 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 276 IF_IN 170 710 h
+a 0 s 3 0 10 8 hln 80 LABEL=CLR
+port 277 IF_IN 170 680 h
+a 0 s 3 0 10 8 hln 80 LABEL=G
+@parts
+part 19 LDCPE 370 610 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U1
+a 0 sp 11 0 60 10 hcn 200 PART=LDCPE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 20 LDCPE 370 490 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U2
+a 0 sp 11 0 60 10 hcn 200 PART=LDCPE
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 21 LDCPE 370 370 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U3
+a 0 sp 11 0 60 10 hcn 200 PART=LDCPE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 22 LDCPE 370 250 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U4
+a 0 sp 11 0 60 10 hcn 200 PART=LDCPE
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 25 GND 350 740 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U5
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+@conn
+w 34
+s 350 610 370 610 26
+s 350 740 350 610 27
+s 350 610 350 490 29
+s 350 490 370 490 28
+s 350 490 350 370 31
+s 350 370 370 370 30
+s 350 370 350 250 32
+s 350 250 370 250 33
+w 77
+s 170 640 370 640 76
+a 0 s 3 0 180 640 hln 100 LABEL=D3
+w 92
+s 170 710 330 710 84
+a 0 s 3 0 180 710 hln 100 LABEL=CLR
+s 330 710 370 710 85
+s 330 710 330 590 86
+s 330 590 330 470 87
+s 330 470 330 350 88
+s 330 350 370 350 89
+s 330 470 370 470 90
+s 330 590 370 590 91
+w 134
+s 170 680 310 680 126
+a 0 s 3 0 180 680 hln 100 LABEL=G
+s 310 680 310 560 127
+s 310 560 310 440 128
+s 310 440 310 320 129
+s 310 320 370 320 130
+s 310 440 370 440 131
+s 310 560 370 560 132
+s 310 680 370 680 133
+w 169
+s 490 280 690 280 168
+a 0 s 3 0 650 280 hln 100 LABEL=Q0
+w 177
+s 490 640 690 640 176
+a 0 s 3 0 650 640 hln 100 LABEL=Q3
+w 185
+s 490 520 690 520 184
+a 0 s 3 0 650 520 hln 100 LABEL=Q2
+w 193
+s 490 400 690 400 192
+a 0 s 3 0 650 400 hln 100 LABEL=Q1
+w 201
+s 170 280 370 280 200
+a 0 s 3 0 180 280 hln 100 LABEL=D0
+w 209
+s 170 400 370 400 208
+a 0 s 3 0 180 400 hln 100 LABEL=D1
+w 217
+s 170 520 370 520 216
+a 0 s 3 0 180 520 hln 100 LABEL=D2
+w 232
+s 170 660 290 660 224
+a 0 s 3 0 180 660 hln 100 LABEL=CE
+s 290 660 290 540 225
+s 290 540 290 420 226
+s 290 420 290 300 227
+s 290 300 370 300 228
+s 290 420 370 420 229
+s 290 540 370 540 230
+s 290 660 370 660 231
+@junction
+j 350 610
++ w 34
++ w 34
+j 350 490
++ w 34
++ w 34
+j 350 370
++ w 34
++ w 34
+j 370 610
++ p 19 PRE
++ w 34
+j 370 490
++ p 20 PRE
++ w 34
+j 370 370
++ p 21 PRE
++ w 34
+j 370 250
++ p 22 PRE
++ w 34
+j 350 740
++ p 25 GROUND
++ w 34
+j 370 640
++ p 19 D
++ w 77
+j 330 710
++ w 92
++ w 92
+j 330 590
++ w 92
++ w 92
+j 330 470
++ w 92
++ w 92
+j 370 710
++ p 19 CLR
++ w 92
+j 370 590
++ p 20 CLR
++ w 92
+j 370 470
++ p 21 CLR
++ w 92
+j 370 350
++ p 22 CLR
++ w 92
+j 310 680
++ w 134
++ w 134
+j 310 560
++ w 134
++ w 134
+j 310 440
++ w 134
++ w 134
+j 370 680
++ p 19 G
++ w 134
+j 370 560
++ p 20 G
++ w 134
+j 370 440
++ p 21 G
++ w 134
+j 370 320
++ p 22 G
++ w 134
+j 490 280
++ p 22 Q
++ w 169
+j 490 640
++ p 19 Q
++ w 177
+j 490 520
++ p 20 Q
++ w 185
+j 490 400
++ p 21 Q
++ w 193
+j 370 280
++ p 22 D
++ w 201
+j 370 400
++ p 21 D
++ w 209
+j 370 520
++ p 20 D
++ w 217
+j 290 660
++ w 232
++ w 232
+j 290 540
++ w 232
++ w 232
+j 290 420
++ w 232
++ w 232
+j 370 660
++ p 19 CE
++ w 232
+j 370 540
++ p 20 CE
++ w 232
+j 370 420
++ p 21 CE
++ w 232
+j 370 300
++ p 22 CE
++ w 232
+j 690 280
++ s 267
++ w 169
+j 690 400
++ s 268
++ w 193
+j 170 400
++ s 269
++ w 209
+j 170 280
++ s 270
++ w 201
+j 170 520
++ s 271
++ w 217
+j 170 640
++ s 272
++ w 77
+j 690 640
++ s 273
++ w 177
+j 690 520
++ s 274
++ w 185
+j 170 660
++ s 275
++ w 232
+j 170 710
++ s 276
++ w 92
+j 170 680
++ s 277
++ w 134
+@attributes
+@text
+s 5 710 1070 hln 100 A
+s 5 710 1050 hln 100 1
+s 5 30 1070 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 1060 hln 100 DRAWN BY KS
+s 5 460 1050 hln 100 5TH MAY 1993
+s 5 500 1020 hln 100 4-BIT DATA LATCH W/
+s 5 500 1030 hln 100 CLOCK ENABLE & ASYNCHRONOUS CLR
+s 5 500 1000 hln 100 XC2000 FAMILY LD4CE MACRO

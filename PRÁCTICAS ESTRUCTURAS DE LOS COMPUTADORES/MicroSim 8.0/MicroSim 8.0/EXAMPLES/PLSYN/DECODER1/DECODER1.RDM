@@ -1,0 +1,17 @@
+
+This file is the basis of the tutorial "Creating a DSL Block" that can be 
+found in the PLSyn User's Guide.
+
+The stimuli and global ports have been provided as a starting point.  You 
+will then learn how to draw the block, create the DSL file and associate the
+file with the block.
+
+This example will work in MicroSim PSpice AD with the PLSyn option, 
+or in DesignLab.
+
+Required symbol libraries:
+	Port.slb
+	Source.slb
+
+Other required files:
+	Decoder1.stl - A stimulus file created using StmEd.

@@ -1,0 +1,361 @@
+*version 7.1 113437934
+@index
+symloc APT25GF100BN:TO-247AD 0 35
+symloc APT30G100BN:TO-247AD 35 34
+symloc APT30GF60BN:TO-247AD 69 34
+symloc APT30GL100BN:TO-247AD 103 35
+symloc APT35G50BN:TO-247AD 138 33
+symloc APT35G60BN:TO-247AD 171 33
+symloc APT35GL60BN:TO-247AD 204 34
+symloc APT40GF100BN:TO-247AD 238 35
+symloc APT45G100BN:TO-247AD 273 34
+symloc APT45GF60BN:TO-247AD 307 34
+symloc APT45GL100BN:TO-247AD 341 35
+symloc APT50G50BN:TO-247AD 376 33
+symloc APT50G60BN:TO-247AD 409 33
+symloc APT50GF100BN:TO-247AD 442 35
+symloc APT50GL60BN:TO-247AD 477 34
+symloc APT55GF60BN:TO-247AD 511 34
+symloc APT65GL100BN:TO-247AD 545 35
+symloc APT75GL60BN:TO-247AD 580 34
+symloc BUK854-500IS:TO-220AB 614 35
+symloc BUK856-400IZ:TO-220AB 649 35
+symloc BUK856-450IX:TO-220AB 684 35
+symloc CPU165MF:IMS-1 719 28
+symloc CPV362MF:IMS-2 747 28
+symloc CPV363MF:IMS-2 775 28
+symloc HGTD10N40F1:TO-251AA 803 34
+symloc HGTD10N50F1:TO-251AA 837 34
+symloc HGTD6N40E1:TO-251AA 871 33
+symloc HGTD6N50E1:TO-251AA 904 33
+symloc HGTG12N60D1D:TO-247AB 937 35
+symloc HGTG24N60D1D:TO-247AB 972 35
+symloc HGTG32N60E2:TO-247AB 1007 34
+symloc HGTH12N40C1:TO-218AC 1041 34
+symloc HGTH12N50C1:TO-218AC 1075 34
+symloc HGTP10N40C1:TO-220AB 1109 34
+symloc HGTP10N50C1:TO-220AB 1143 34
+symloc HGTP12N60D1:TO-220AB 1177 34
+symloc HGTP6N40E1D:TO-220AB 1211 34
+symloc HGTP6N50E1D:TO-220AB 1245 34
+symloc IMS-1 1279 116 b
+symloc IMS-2 1395 114 b
+symloc IRGBC20F:TO-220AB 1509 31
+symloc IRGBC20S:TO-220AB 1540 31
+symloc IRGBC30F:TO-220AB 1571 31
+symloc IRGBC30S:TO-220AB 1602 31
+symloc IRGBC40F:TO-220AB 1633 31
+symloc IRGBC40S:TO-220AB 1664 31
+symloc IRGPC40F:TO-247AC 1695 31
+symloc IRGPC40S:TO-247AC 1726 31
+symloc IRGPC50F:TO-247AC 1757 31
+symloc IRGPC50S:TO-247AC 1788 31
+symloc IXGH10N100:TO-247AD 1819 33
+symloc IXGH10N100A:TO-247AD 1852 34
+symloc IXGH10N60:TO-247AD 1886 32
+symloc IXGH10N60A:TO-247AD 1918 33
+symloc IXGH17N100:TO-247AD 1951 33
+symloc IXGH17N100A:IXGH10N100 1984 36
+symloc IXGH20N60:TO-247AD 2020 32
+symloc IXGH20N60A:TO-247AD 2052 33
+symloc IXGH24N60A:TO-247AD 2085 33
+symloc IXGH25N100:TO-247AD 2118 33
+symloc IXGH25N100A:TO-247AD 2151 34
+symloc IXGH30N60:TO-247AD 2185 32
+symloc IXGH30N60A:TO-247AD 2217 33
+symloc IXGH32N60A:TO-247AD 2250 33
+symloc IXGH38N60A:TO-247AD 2283 33
+symloc IXGH40N60:TO-247AD 2316 32
+symloc IXGH40N60A:TO-247AD 2348 33
+symloc IXGK50N60A 2381 74
+symloc IXGM17N100:TO-204AE 2455 33
+symloc IXGM17N100A:TO-204AE 2488 34
+symloc IXGM20N60:TO-204AE 2522 32
+symloc IXGM20N60A:TO-204AE 2554 33
+symloc IXGM25N100:TO-204AE 2587 33
+symloc IXGM25N100A:TO-204AE 2620 34
+symloc IXGM30N60:TO-204AE 2654 32
+symloc IXGM30N60A:TO-204AE 2686 33
+symloc IXGM40N60:TO-204AE 2719 32
+symloc IXGM40N60A:TO-204AE 2751 33
+symloc TO-204AE 2784 74 b
+symloc TO-218AC 2858 74 b
+symloc TO-220AB 2932 74 b
+symloc TO-247AB 3006 74 b
+symloc TO-247AC 3080 74 b
+symloc TO-247AD 3154 74 b
+symloc TO-251AA 3228 74 b
+symloc TO-264AA 3302 74 b
+symloc GT10G101 3376 71
+symloc GT10G102 3447 71
+symloc GT15G101 3518 71
+symloc GT15J101 3589 71
+symloc GT15J102 3660 71
+symloc GT15N101 3731 71
+symloc GT15Q101 3802 71
+symloc GT80J101 3873 71
+symloc GT15J103SM 3944 73
+*package APT25GF100BN ako TO-247AD
+*package APT30G100BN ako TO-247AD
+*package APT30GF60BN ako TO-247AD
+*package APT30GL100BN ako TO-247AD
+*package APT35G50BN ako TO-247AD
+*package APT35G60BN ako TO-247AD
+*package APT35GL60BN ako TO-247AD
+*package APT40GF100BN ako TO-247AD
+*package APT45G100BN ako TO-247AD
+*package APT45GF60BN ako TO-247AD
+*package APT45GL100BN ako TO-247AD
+*package APT50G50BN ako TO-247AD
+*package APT50G60BN ako TO-247AD
+*package APT50GF100BN ako TO-247AD
+*package APT50GL60BN ako TO-247AD
+*package APT55GF60BN ako TO-247AD
+*package APT65GL100BN ako TO-247AD
+*package APT75GL60BN ako TO-247AD
+*package BUK854-500IS ako TO-220AB
+*package BUK856-400IZ ako TO-220AB
+*package BUK856-450IX ako TO-220AB
+*package CPU165MF ako IMS-1
+*package CPV362MF ako IMS-2
+*package CPV363MF ako IMS-2
+*package HGTD10N40F1 ako TO-251AA
+*package HGTD10N50F1 ako TO-251AA
+*package HGTD6N40E1 ako TO-251AA
+*package HGTD6N50E1 ako TO-251AA
+*package HGTG12N60D1D ako TO-247AB
+*package HGTG24N60D1D ako TO-247AB
+*package HGTG32N60E2 ako TO-247AB
+*package HGTH12N40C1 ako TO-218AC
+*package HGTH12N50C1 ako TO-218AC
+*package HGTP10N40C1 ako TO-220AB
+*package HGTP10N50C1 ako TO-220AB
+*package HGTP12N60D1 ako TO-220AB
+*package HGTP6N40E1D ako TO-220AB
+*package HGTP6N50E1D ako TO-220AB
+*package IMS-1 b
+@types 1
+g 1
+@pinout
+t IMS-1
+g 1
+p 1 1
+p 2 2
+p 4 4
+p 5 5
+p 6 6
+p 7 7
+p 9 9
+p 10 10
+p 11 11
+p 12 12
+*package IMS-2 b
+@types 3
+g 1 A,B,C
+@pinout
+t IMS-2
+g 1
+p E1 4,10,16
+p G2 6,12,18
+p E2 7,13,19
+p G1 3,9,15
+s C1 1
+*package IRGBC20F ako TO-220AB
+*package IRGBC20S ako TO-220AB
+*package IRGBC30F ako TO-220AB
+*package IRGBC30S ako TO-220AB
+*package IRGBC40F ako TO-220AB
+*package IRGBC40S ako TO-220AB
+*package IRGPC40F ako TO-247AC
+*package IRGPC40S ako TO-247AC
+*package IRGPC50F ako TO-247AC
+*package IRGPC50S ako TO-247AC
+*package IXGH10N100 ako TO-247AD
+*package IXGH10N100A ako TO-247AD
+*package IXGH10N60 ako TO-247AD
+*package IXGH10N60A ako TO-247AD
+*package IXGH17N100 ako TO-247AD
+*package IXGH17N100A ako IXGH10N100
+*package IXGH20N60 ako TO-247AD
+*package IXGH20N60A ako TO-247AD
+*package IXGH24N60A ako TO-247AD
+*package IXGH25N100 ako TO-247AD
+*package IXGH25N100A ako TO-247AD
+*package IXGH30N60 ako TO-247AD
+*package IXGH30N60A ako TO-247AD
+*package IXGH32N60A ako TO-247AD
+*package IXGH38N60A ako TO-247AD
+*package IXGH40N60 ako TO-247AD
+*package IXGH40N60A ako TO-247AD
+*package IXGK50N60A
+@types 1
+g 1
+@pinout
+t TO-264AA
+g 1
+p G 1
+p C 2
+p E 3
+*package IXGM17N100 ako TO-204AE
+*package IXGM17N100A ako TO-204AE
+*package IXGM20N60 ako TO-204AE
+*package IXGM20N60A ako TO-204AE
+*package IXGM25N100 ako TO-204AE
+*package IXGM25N100A ako TO-204AE
+*package IXGM30N60 ako TO-204AE
+*package IXGM30N60A ako TO-204AE
+*package IXGM40N60 ako TO-204AE
+*package IXGM40N60A ako TO-204AE
+*package TO-204AE b
+@types 1
+g 1
+@pinout
+t TO-204AE
+g 1
+p G 1
+p C 3
+p E 2
+*package TO-218AC b
+@types 1
+g 1
+@pinout
+t TO-218AC
+g 1
+p G 1
+p C 2
+p E 3
+*package TO-220AB b
+@types 1
+g 1
+@pinout
+t TO-220AB
+g 1
+p G 1
+p C 2
+p E 3
+*package TO-247AB b
+@types 1
+g 1
+@pinout
+t TO-247AB
+g 1
+p G 1
+p C 2
+p E 3
+*package TO-247AC b
+@types 1
+g 1
+@pinout
+t TO-247AC
+g 1
+p G 1
+p C 2
+p E 3
+*package TO-247AD b
+@types 1
+g 1
+@pinout
+t TO-247AD
+g 1
+p G 1
+p C 2
+p E 3
+*package TO-251AA b
+@types 1
+g 1
+@pinout
+t TO-251AA
+g 1
+p G 1
+p C 2
+p E 3
+*package TO-264AA b
+@types 1
+g 1
+@pinout
+t TO-264AA
+g 1
+p G 1
+p C 2
+p E 3
+*package GT10G101
+@types 1
+g 1
+@pinout
+t 2-10R1C
+g 1
+p G 1
+p C 2
+p E 3
+*package GT10G102
+@types 1
+g 1
+@pinout
+t 2-10R1C
+g 1
+p G 1
+p C 2
+p E 3
+*package GT15G101
+@types 1
+g 1
+@pinout
+t 2-10R1C
+g 1
+p G 1
+p C 2
+p E 3
+*package GT15J101
+@types 1
+g 1
+@pinout
+t 2-16C1C
+g 1
+p G 1
+p C 2
+p E 3
+*package GT15J102
+@types 1
+g 1
+@pinout
+t 2-10R1C
+g 1
+p G 1
+p C 2
+p E 3
+*package GT15N101
+@types 1
+g 1
+@pinout
+t 2-16C1C
+g 1
+p G 1
+p C 2
+p E 3
+*package GT15Q101
+@types 1
+g 1
+@pinout
+t 2-16C1C
+g 1
+p G 1
+p C 2
+p E 3
+*package GT80J101
+@types 1
+g 1
+@pinout
+t 2-21F1C
+g 1
+p G 1
+p C 2
+p E 3
+*package GT15J103SM
+@types 1
+g 1
+@pinout
+t 2-10S2C
+g 1
+p G 1
+p C 2
+p E 3

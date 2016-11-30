@@ -1,0 +1,227 @@
+*version 6.3 3949881891
+u 198
+XC4000E 749533727
+U? 3
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3319 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 199 IF_IN 280 450 h
+a 0 s 3 0 10 8 hln 50 LABEL=WCLK
+port 200 IF_IN 280 550 h
+a 0 s 3 0 10 8 hln 80 LABEL=A4
+port 201 IF_IN 280 490 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 202 IF_IN 280 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 203 IF_IN 280 530 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+port 204 IF_IN 280 470 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 205 IF_IN 280 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=WE
+port 206 IF_IN 280 210 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 207 IF_IN 280 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 208 IF_OUT 840 210 h
+a 0 s 3 0 20 8 hln 80 LABEL=O0
+port 209 IF_OUT 840 430 h
+a 0 s 3 0 20 8 hln 80 LABEL=O1
+@parts
+part 22 RAM32X1S 500 190 h
+a 0 sp 9 0 80 200 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=RAM32X1S
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 RAM32X1S 500 410 h
+a 0 sp 9 0 80 200 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=RAM32X1S
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+@conn
+w 25
+s 620 430 840 430 24
+a 0 s 3 0 810 430 hln 100 LABEL=O1
+w 33
+s 620 210 840 210 32
+a 0 s 3 0 810 210 hln 100 LABEL=O0
+w 41
+s 280 210 500 210 40
+a 0 s 3 0 290 210 hln 100 LABEL=D0
+w 52
+s 280 450 370 450 48
+a 0 s 3 0 290 450 hln 100 LABEL=WCLK
+s 370 450 500 450 50
+s 370 450 370 230 51
+s 370 230 500 230 49
+w 70
+s 280 430 500 430 69
+a 0 s 3 0 290 430 hln 100 LABEL=D1
+w 81
+s 280 550 470 550 77
+a 0 s 3 0 300 540 hct 100 LABEL=A4
+s 470 550 470 330 78
+s 470 330 500 330 79
+s 470 550 500 550 80
+w 101
+s 280 510 430 510 97
+a 0 s 3 0 290 510 hln 100 LABEL=A2
+s 430 510 430 290 99
+s 430 290 500 290 98
+s 430 510 500 510 100
+w 122
+s 280 490 410 490 118
+a 0 s 3 0 290 490 hln 100 LABEL=A1
+s 410 490 500 490 119
+s 410 490 410 270 120
+s 410 270 500 270 121
+w 142
+s 280 470 390 470 138
+a 0 s 3 0 290 470 hln 100 LABEL=A0
+s 390 470 500 470 139
+s 390 470 390 250 140
+s 390 250 500 250 141
+w 162
+s 280 530 450 530 158
+a 0 s 3 0 290 530 hln 100 LABEL=A3
+s 450 530 450 310 159
+s 450 310 500 310 160
+s 450 530 500 530 161
+w 182
+s 280 410 350 410 178
+a 0 s 3 0 290 410 hln 100 LABEL=WE
+s 350 410 350 190 179
+s 350 190 500 190 180
+s 350 410 500 410 181
+@junction
+j 620 430
++ p 23 O
++ w 25
+j 620 210
++ p 22 O
++ w 33
+j 500 210
++ p 22 D
++ w 41
+j 370 450
++ w 52
++ w 52
+j 500 230
++ p 22 WCLK
++ w 52
+j 500 450
++ p 23 WCLK
++ w 52
+j 500 430
++ p 23 D
++ w 70
+j 470 550
++ w 81
++ w 81
+j 500 330
++ p 22 A4
++ w 81
+j 500 550
++ p 23 A4
++ w 81
+j 430 510
++ w 101
++ w 101
+j 500 290
++ p 22 A2
++ w 101
+j 500 510
++ p 23 A2
++ w 101
+j 410 490
++ w 122
++ w 122
+j 500 270
++ p 22 A1
++ w 122
+j 500 490
++ p 23 A1
++ w 122
+j 390 470
++ w 142
++ w 142
+j 500 250
++ p 22 A0
++ w 142
+j 500 470
++ p 23 A0
++ w 142
+j 450 530
++ w 162
++ w 162
+j 500 310
++ p 22 A3
++ w 162
+j 500 530
++ p 23 A3
++ w 162
+j 350 410
++ w 182
++ w 182
+j 500 190
++ p 22 WE
++ w 182
+j 500 410
++ p 23 WE
++ w 182
+j 280 450
++ s 199
++ w 52
+j 280 550
++ s 200
++ w 81
+j 280 490
++ s 201
++ w 122
+j 280 510
++ s 202
++ w 101
+j 280 530
++ s 203
++ w 162
+j 280 470
++ s 204
++ w 142
+j 280 410
++ s 205
++ w 182
+j 280 210
++ s 206
++ w 41
+j 280 430
++ s 207
++ w 70
+j 840 210
++ s 208
++ w 33
+j 840 430
++ s 209
++ w 25
+@attributes
+@text
+s 5 30 820 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 750 770 hln 100 32-DEEP BY 2-WIDE SYNCHRONOUS RAM
+s 5 750 750 hln 100 XC4000E FAMILY RAM32X2S MACRO
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 710 800 hln 100 30TH DECEMBER 1994

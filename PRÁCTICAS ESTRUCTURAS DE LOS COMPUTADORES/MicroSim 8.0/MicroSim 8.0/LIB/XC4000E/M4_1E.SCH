@@ -1,0 +1,177 @@
+*version 6.3 4195779349
+u 152
+XC4000E 1682611402
+U? 4
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 2668 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 153 IF_IN 250 470 h
+a 0 s 3 0 10 8 hln 80 LABEL=S1
+port 154 IF_IN 250 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=S0
+port 155 IF_OUT 900 350 h
+a 0 s 3 0 20 8 hln 80 LABEL=O
+port 156 IF_IN 250 450 h
+a 0 s 3 0 10 8 hln 80 LABEL=E
+port 157 IF_IN 250 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=D3
+port 158 IF_IN 250 390 h
+a 0 s 3 0 10 8 hln 80 LABEL=D2
+port 159 IF_IN 250 310 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 160 IF_IN 250 290 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+@parts
+part 18 M2_1E 450 390 h
+a 0 sp 9 0 70 90 hrn 100 REFDES=U1
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1E
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 19 M2_1E 450 290 h
+a 0 sp 9 0 70 90 hrn 100 REFDES=U2
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1E
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 25 M2_1 650 340 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U3
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+@conn
+w 29
+s 250 470 600 470 26
+a 0 s 3 0 260 470 hln 100 LABEL=S1
+s 600 470 600 380 27
+s 600 380 650 380 28
+w 37
+s 750 350 900 350 36
+a 0 s 3 0 880 350 hln 100 LABEL=O
+w 47
+s 580 340 650 340 44
+a 0 s 3 0 580 340 hln 100 LABEL=M01
+s 580 340 580 300 46
+s 550 300 580 300 45
+w 64
+s 580 360 650 360 61
+a 0 s 3 0 580 360 hln 100 LABEL=M23
+s 580 400 580 360 63
+s 550 400 580 400 62
+w 79
+s 250 290 450 290 78
+a 0 s 3 0 260 290 hln 100 LABEL=D0
+w 87
+s 250 310 450 310 86
+a 0 s 3 0 260 310 hln 100 LABEL=D1
+w 95
+s 250 410 450 410 94
+a 0 s 3 0 260 410 hln 100 LABEL=D3
+w 103
+s 250 390 450 390 102
+a 0 s 3 0 260 390 hln 100 LABEL=D2
+w 114
+s 250 450 430 450 110
+a 0 s 3 0 260 450 hln 100 LABEL=E
+s 430 450 450 450 111
+s 430 450 430 350 113
+s 430 350 450 350 112
+w 135
+s 250 430 410 430 131
+a 0 s 3 0 260 430 hln 100 LABEL=S0
+s 410 430 450 430 133
+s 410 430 410 330 134
+s 410 330 450 330 132
+@junction
+j 650 380
++ p 25 S0
++ w 29
+j 750 350
++ p 25 O
++ w 37
+j 550 300
++ p 19 O
++ w 47
+j 650 340
++ p 25 D0
++ w 47
+j 550 400
++ p 18 O
++ w 64
+j 650 360
++ p 25 D1
++ w 64
+j 450 290
++ p 19 D0
++ w 79
+j 450 310
++ p 19 D1
++ w 87
+j 450 410
++ p 18 D1
++ w 95
+j 450 390
++ p 18 D0
++ w 103
+j 430 450
++ w 114
++ w 114
+j 450 450
++ p 18 E
++ w 114
+j 450 350
++ p 19 E
++ w 114
+j 410 430
++ w 135
++ w 135
+j 450 430
++ p 18 S0
++ w 135
+j 450 330
++ p 19 S0
++ w 135
+j 250 470
++ s 153
++ w 29
+j 250 430
++ s 154
++ w 135
+j 900 350
++ s 155
++ w 37
+j 250 450
++ s 156
++ w 114
+j 250 410
++ s 157
++ w 95
+j 250 390
++ s 158
++ w 103
+j 250 310
++ s 159
++ w 87
+j 250 290
++ s 160
++ w 79
+@attributes
+@text
+s 5 1000 750 hrn 100 XC5200 FAMILY M4_1E MACRO
+s 5 950 800 hln 100 1
+s 5 750 770 hln 100 4-TO-1 MULTIPLEXER WITH ENABLE
+s 5 30 820 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 950 820 hln 100 B
+s 5 710 800 hln 100 1ST DECEMBER 1994

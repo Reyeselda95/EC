@@ -1,0 +1,1163 @@
+*version 8.0 289345142
+@index
+symloc 2N2323:scr 0 113
+symloc 2N2324:scr 113 112
+symloc 2N2326:scr 225 113
+symloc 2N2329:scr 338 113
+symloc 2N6027:put 451 117
+symloc 2N6028:put 568 117
+symloc 2N6071:triac 685 91
+symloc 2N6071A:triac 776 93
+symloc 2N6071B:triac 869 93
+symloc 2N6073:triac 962 91
+symloc 2N6073A:triac 1053 93
+symloc 2N6073B:triac 1146 93
+symloc 2N6075:triac 1239 91
+symloc 2N6075A:triac 1330 93
+symloc 2N6075B:triac 1423 93
+symloc 2N6237:scr 1516 112
+symloc 2N6238:scr 1628 112
+symloc 2N6239:scr 1740 112
+symloc 2N6240:scr 1852 112
+symloc 2N6241:scr 1964 112
+symloc 2N682:scr 2076 110
+symloc 2N683:scr 2186 110
+symloc 2N685:scr 2296 110
+symloc 2N688:scr 2406 110
+symloc 2N690:scr 2516 110
+symloc 2N692:scr 2626 110
+symloc C106A:scr 2736 110
+symloc C106B:scr 2846 110
+symloc C106D:scr 2956 110
+symloc C106F:scr 3066 110
+symloc C106M:scr 3176 110
+symloc C122A1:scr 3286 112
+symloc C122B1:scr 3398 112
+symloc C122D1:scr 3510 112
+symloc C122F1:scr 3622 112
+symloc C122M1:scr 3734 112
+symloc C122N1:scr 3846 112
+symloc MAC16-10:triac 3958 95
+symloc MAC16-4:triac 4053 93
+symloc MAC16-6:triac 4146 93
+symloc MAC16-8:triac 4239 93
+symloc MAC218-10:triac 4332 97
+symloc MAC218-10FP:triac 4429 101
+symloc MAC218-4:triac 4530 95
+symloc MAC218-4FP:triac 4625 99
+symloc MAC218-6:triac 4724 95
+symloc MAC218-6FP:triac 4819 99
+symloc MAC218-8:triac 4918 95
+symloc MAC218-8FP:triac 5013 99
+symloc MAC218A10:triac 5112 97
+symloc MAC218A10FP:triac 5209 101
+symloc MAC218A4:triac 5310 95
+symloc MAC218A4FP:triac 5405 99
+symloc MAC218A6:triac 5504 95
+symloc MAC218A6FP:triac 5599 99
+symloc MAC218A8:triac 5698 95
+symloc MAC218A8FP:triac 5793 99
+symloc MAC219-10:triac 5892 97
+symloc MAC219-4:triac 5989 95
+symloc MAC219-6:triac 6084 95
+symloc MAC219-8:triac 6179 95
+symloc MAC3010-15:triac 6274 99
+symloc MAC3010-25:triac 6373 99
+symloc MAC3010-4:triac 6472 97
+symloc MAC3010-40:triac 6569 99
+symloc MAC3010-8:triac 6668 97
+symloc MAC3020-15:triac 6765 99
+symloc MAC3020-25:triac 6864 99
+symloc MAC3020-4:triac 6963 97
+symloc MAC3020-40:triac 7060 99
+symloc MAC3020-8:triac 7159 97
+symloc MAC3030-15:triac 7256 99
+symloc MAC3030-25:triac 7355 99
+symloc MAC3030-4:triac 7454 97
+symloc MAC3030-40:triac 7551 99
+symloc MAC3030-40I:triac 7650 101
+symloc MAC3030-8:triac 7751 97
+symloc MAC3040-15:triac 7848 99
+symloc MAC3040-25:triac 7947 99
+symloc MAC3040-4:triac 8046 97
+symloc MAC3040-40:triac 8143 99
+symloc MAC3040-40I:triac 8242 101
+symloc MAC3040-8:triac 8343 97
+symloc MCR100-4:scr 8440 116
+symloc MCR100-6:scr 8556 116
+symloc MCR100-8:scr 8672 116
+symloc MCR102:scr 8788 112
+symloc MCR103:scr 8900 112
+symloc MCR106-2:scr 9012 116
+symloc MCR106-3:scr 9128 116
+symloc MCR106-4:scr 9244 116
+symloc MCR106-6:scr 9360 116
+symloc MCR106-8:scr 9476 116
+symloc MCR264-4:scr 9592 116
+symloc MCR264-6:scr 9708 116
+symloc MCR264-8:scr 9824 116
+symloc MCR265-10:scr 9940 118
+symloc MCR265-2:scr 10058 116
+symloc MCR265-4:scr 10174 116
+symloc MCR265-6:scr 10290 116
+symloc MCR265-8:scr 10406 116
+symloc MCR310-10:scr 10522 118
+symloc MCR310-2:scr 10640 149
+symloc MCR310-3:scr 10789 116
+symloc MCR310-4:scr 10905 116
+symloc MCR310-6:scr 11021 116
+symloc MCR310-8:scr 11137 116
+symloc MCR506-2:SCR 11253 116
+symloc MCR506-3:SCR 11369 116
+symloc MCR506-4:SCR 11485 116
+symloc MCR506-6:SCR 11601 116
+symloc MCR506-8:SCR 11717 116
+symloc MCR63-10A:scr 11833 118
+symloc MCR63-2A:scr 11951 116
+symloc MCR63-3A:scr 12067 116
+symloc MCR63-4A:scr 12183 116
+symloc MCR63-6A:scr 12299 116
+symloc MCR63-8A:scr 12415 116
+symloc MCR64-10:scr 12531 116
+symloc MCR64-2:scr 12647 114
+symloc MCR64-3:scr 12761 114
+symloc MCR64-4:scr 12875 114
+symloc MCR64-6:scr 12989 114
+symloc MCR64-8:scr 13103 114
+symloc MCR65-10:scr 13217 116
+symloc MCR65-3:scr 13333 114
+symloc MCR65-4:scr 13447 114
+symloc MCR65-6:scr 13561 114
+symloc MCR65-8:scr 13675 114
+symloc MCR68-2:scr 13789 114
+symloc MCR68-3:scr 13903 114
+symloc MCR68-6:scr 14017 114
+symloc MCR69-2:scr 14131 114
+symloc MCR69-3:scr 14245 114
+symloc MCR69-6:scr 14359 114
+symloc MCR70-2A:scr 14473 116
+symloc MCR70-3A:scr 14589 116
+symloc MCR70-6A:scr 14705 116
+symloc MCR703A:scr 14821 114
+symloc MCR704A:scr 14935 114
+symloc MCR706A:scr 15049 114
+symloc MCR708A:scr 15163 114
+symloc MCR71-2:scr 15277 114
+symloc MCR71-3:scr 15391 114
+symloc MCR71-6:scr 15505 114
+symloc MCR72-10:scr 15619 116
+symloc MCR72-2:scr 15735 114
+symloc MCR72-3:scr 15849 114
+symloc MCR72-4:scr 15963 114
+symloc MCR72-6:scr 16077 114
+symloc MCR72-8:scr 16191 114
+symloc SC141B:triac 16305 91
+symloc SC141D:triac 16396 91
+symloc SC141M:triac 16487 91
+symloc SC141N:triac 16578 91
+symloc SC143B:triac 16669 91
+symloc SC143D:triac 16760 91
+symloc SC143M:triac 16851 91
+symloc SC146B:triac 16942 91
+symloc SC146D:triac 17033 91
+symloc SC146M:triac 17124 91
+symloc SC146N:triac 17215 91
+symloc SC149B:triac 17306 91
+symloc SC149D:triac 17397 91
+symloc SC149M:triac 17488 91
+symloc T2322B:triac 17579 91
+symloc T2322D:triac 17670 91
+symloc T2322M:triac 17761 91
+symloc T2323B:triac 17852 91
+symloc T2323D:triac 17943 91
+symloc T2323M:triac 18034 91
+symloc put 18125 602 b
+symloc scr 18727 569 b
+symloc triac 19296 605 b
+symloc copyright 19901 575 b
+*symbol 2N2323 ako scr
+d Silicon Controlled Rectifiers
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2323
+*symbol 2N2324 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2324
+*symbol 2N2326 ako scr
+d Silicon Controlled Rectifiers
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2326
+*symbol 2N2329 ako scr
+d Silicon Controlled Rectifiers
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N2329
+*symbol 2N6027 ako put
+d programmed unijunction transistor
+@type p
+@attributes
+a 0 sp 11 0 67 28 hrn 100 PART=2N6027
+*symbol 2N6028 ako put
+d programmed unijunction transistor
+@type p
+@attributes
+a 0 sp 11 0 67 28 hrn 100 PART=2N6028
+*symbol 2N6071 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6071
+*symbol 2N6071A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6071A
+*symbol 2N6071B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6071B
+*symbol 2N6073 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6073
+*symbol 2N6073A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6073A
+*symbol 2N6073B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6073B
+*symbol 2N6075 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6075
+*symbol 2N6075A ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6075A
+*symbol 2N6075B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6075B
+*symbol 2N6237 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6237
+*symbol 2N6238 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6238
+*symbol 2N6239 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6239
+*symbol 2N6240 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6240
+*symbol 2N6241 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N6241
+*symbol 2N682 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N682
+*symbol 2N683 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N683
+*symbol 2N685 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N685
+*symbol 2N688 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N688
+*symbol 2N690 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N690
+*symbol 2N692 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=2N692
+*symbol C106A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C106A
+*symbol C106B ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C106B
+*symbol C106D ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C106D
+*symbol C106F ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C106F
+*symbol C106M ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C106M
+*symbol C122A1 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C122A1
+*symbol C122B1 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C122B1
+*symbol C122D1 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C122D1
+*symbol C122F1 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C122F1
+*symbol C122M1 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C122M1
+*symbol C122N1 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=C122N1
+*symbol MAC16-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC16-10
+*symbol MAC16-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC16-4
+*symbol MAC16-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC16-6
+*symbol MAC16-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC16-8
+*symbol MAC218-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218-10
+*symbol MAC218-10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218-10FP
+*symbol MAC218-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218-4
+*symbol MAC218-4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218-4FP
+*symbol MAC218-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218-6
+*symbol MAC218-6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218-6FP
+*symbol MAC218-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218-8
+*symbol MAC218-8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218-8FP
+*symbol MAC218A10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218A10
+*symbol MAC218A10FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218A10FP
+*symbol MAC218A4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218A4
+*symbol MAC218A4FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218A4FP
+*symbol MAC218A6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218A6
+*symbol MAC218A6FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218A6FP
+*symbol MAC218A8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218A8
+*symbol MAC218A8FP ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC218A8FP
+*symbol MAC219-10 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC219-10
+*symbol MAC219-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC219-4
+*symbol MAC219-6 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC219-6
+*symbol MAC219-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC219-8
+*symbol MAC3010-15 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3010-15
+*symbol MAC3010-25 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3010-25
+*symbol MAC3010-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3010-4
+*symbol MAC3010-40 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3010-40
+*symbol MAC3010-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3010-8
+*symbol MAC3020-15 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3020-15
+*symbol MAC3020-25 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3020-25
+*symbol MAC3020-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3020-4
+*symbol MAC3020-40 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3020-40
+*symbol MAC3020-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3020-8
+*symbol MAC3030-15 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3030-15
+*symbol MAC3030-25 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3030-25
+*symbol MAC3030-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3030-4
+*symbol MAC3030-40 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3030-40
+*symbol MAC3030-40I ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3030-40I
+*symbol MAC3030-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3030-8
+*symbol MAC3040-15 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3040-15
+*symbol MAC3040-25 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3040-25
+*symbol MAC3040-4 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3040-4
+*symbol MAC3040-40 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3040-40
+*symbol MAC3040-40I ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3040-40I
+*symbol MAC3040-8 ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MAC3040-8
+*symbol MCR100-4 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR100-4
+*symbol MCR100-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR100-6
+*symbol MCR100-8 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR100-8
+*symbol MCR102 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR102
+*symbol MCR103 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR103
+*symbol MCR106-2 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR106-2
+*symbol MCR106-3 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR106-3
+*symbol MCR106-4 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR106-4
+*symbol MCR106-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR106-6
+*symbol MCR106-8 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR106-8
+*symbol MCR264-4 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR264-4
+*symbol MCR264-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR264-6
+*symbol MCR264-8 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR264-8
+*symbol MCR265-10 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR265-10
+*symbol MCR265-2 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR265-2
+*symbol MCR265-4 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR265-4
+*symbol MCR265-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR265-6
+*symbol MCR265-8 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR265-8
+*symbol MCR310-10 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR310-10
+*symbol MCR310-2 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR310-2
+a 1 sp 0 0 0 0 hln 100 template=
+*symbol MCR310-3 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR310-3
+*symbol MCR310-4 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR310-4
+*symbol MCR310-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR310-6
+*symbol MCR310-8 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR310-8
+*symbol MCR506-2 ako SCR
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR506-2
+*symbol MCR506-3 ako SCR
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR506-3
+*symbol MCR506-4 ako SCR
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR506-4
+*symbol MCR506-6 ako SCR
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR506-6
+*symbol MCR506-8 ako SCR
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR506-8
+*symbol MCR63-10A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR63-10A
+*symbol MCR63-2A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR63-2A
+*symbol MCR63-3A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR63-3A
+*symbol MCR63-4A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR63-4A
+*symbol MCR63-6A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR63-6A
+*symbol MCR63-8A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR63-8A
+*symbol MCR64-10 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR64-10
+*symbol MCR64-2 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR64-2
+*symbol MCR64-3 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR64-3
+*symbol MCR64-4 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR64-4
+*symbol MCR64-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR64-6
+*symbol MCR64-8 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR64-8
+*symbol MCR65-10 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR65-10
+*symbol MCR65-3 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR65-3
+*symbol MCR65-4 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR65-4
+*symbol MCR65-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR65-6
+*symbol MCR65-8 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR65-8
+*symbol MCR68-2 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR68-2
+*symbol MCR68-3 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR68-3
+*symbol MCR68-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR68-6
+*symbol MCR69-2 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR69-2
+*symbol MCR69-3 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR69-3
+*symbol MCR69-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR69-6
+*symbol MCR70-2A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR70-2A
+*symbol MCR70-3A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR70-3A
+*symbol MCR70-6A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR70-6A
+*symbol MCR703A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR703A
+*symbol MCR704A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR704A
+*symbol MCR706A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR706A
+*symbol MCR708A ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR708A
+*symbol MCR71-2 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR71-2
+*symbol MCR71-3 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR71-3
+*symbol MCR71-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR71-6
+*symbol MCR72-10 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR72-10
+*symbol MCR72-2 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR72-2
+*symbol MCR72-3 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR72-3
+*symbol MCR72-4 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR72-4
+*symbol MCR72-6 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR72-6
+*symbol MCR72-8 ako scr
+d Silicon Controlled Rectifier
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=MCR72-8
+*symbol SC141B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC141B
+*symbol SC141D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC141D
+*symbol SC141M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC141M
+*symbol SC141N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC141N
+*symbol SC143B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC143B
+*symbol SC143D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC143D
+*symbol SC143M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC143M
+*symbol SC146B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC146B
+*symbol SC146D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC146D
+*symbol SC146M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC146M
+*symbol SC146N ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC146N
+*symbol SC149B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC149B
+*symbol SC149D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC149D
+*symbol SC149M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=SC149M
+*symbol T2322B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2322B
+*symbol T2322D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2322D
+*symbol T2322M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2322M
+*symbol T2323B ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2323B
+*symbol T2323D ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2323D
+*symbol T2323M ako triac
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=T2323M
+*symbol put b
+d Programmable unijunction transistor
+@type p
+@attributes
+a 0 sp 11 0 67 28 hrn 100 PART=
+a 0 sp 0 0 29 30 hrn 100 MODEL=*NOmodel*
+a 0 s 9 0 15 0 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 5 8 hrn 100 PIN=0
+p 0 27 12 hrn 100 K n 40 10 u
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 35 8 hln 100 PIN=0
+p 0 15 25 hln 100 G n 10 30 v
+a 0 s 0 0 -20 0 hln 100 ERC=x
+a 0 s 0 0 5 32 hcn 100 PIN=0
+@graphics 40 30 0 10 10
+v 0 28 5
+28 15
+;
+v 0 20 10
+10 10
+;
+v 0 20 10
+10 20
+;
+v 0 28 10
+20 5
+20 15
+28 10
+;
+v 0 28 10
+30 10
+;
+*symbol scr b
+d scr
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=
+a 0 sp 0 0 29 30 hrn 100 MODEL=*NOmodel*
+a 0 s 9 0 15 0 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 5 8 hrn 100 PIN=0
+p 0 27 12 hrn 100 K n 40 10 u
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 35 8 hln 100 PIN=0
+p 0 35 25 hln 100 G n 30 30 v
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 25 32 hcn 100 PIN=0
+@graphics 40 30 0 10 10
+v 0 20 5
+20 15
+;
+v 0 30 10
+20 10
+;
+v 0 20 10
+30 20
+;
+v 0 20 10
+12 5
+12 15
+20 10
+;
+v 0 10 10
+12 10
+;
+*symbol triac b
+d triac
+@type p
+@attributes
+a 0 sp 11 0 29 30 hrn 100 PART=
+a 0 sp 0 0 29 30 hrn 100 MODEL=*NOmodel*
+a 0 s 9 0 15 0 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+p 0 13 12 hln 100 MT2 n 0 10 h
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 5 8 hrn 100 PIN=0
+p 0 27 12 hrn 100 MT1 n 40 10 u
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 35 8 hln 100 PIN=0
+p 0 35 25 hln 100 G n 30 30 v
+a 0 s 0 0 0 0 hln 100 ERC=x
+a 0 s 0 0 25 32 hcn 100 PIN=0
+@graphics 40 30 0 10 10
+v 0 20 10
+30 10
+;
+v 0 20 15
+30 20
+;
+v 0 20 10
+20 20
+;
+v 0 10 10
+10 0
+;
+v 0 10 5
+20 10
+20 0
+10 5
+;
+v 0 20 15
+10 10
+10 20
+20 15
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

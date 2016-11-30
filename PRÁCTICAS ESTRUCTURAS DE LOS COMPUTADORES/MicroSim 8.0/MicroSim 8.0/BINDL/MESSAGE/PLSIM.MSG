@@ -1,0 +1,236 @@
+#include "libfb.msg"
+#include "libdb3.msg"
+#include "libpi.msg"
+#include "libmutil.msg"
+
+"gram.c
+>E syntax error
+=[8000] Syntax error.
+*This is a syntax error that occurs in a context where the system
+*cannot determine a more helpful description of what is wrong.  It
+*indicates that a construct has not been legally constructed.  See
+*the manual for the proper syntax of each construct.
+>E yacc stack overflow
+=[8001] Nesting too deep.
+*This is caused by some construct or combination of constructs in the
+*source file being nested too deeply.  Make sure you have an END on
+*all constructs requiring ENDs.
+>E unexpected EOF
+=[8002] Unexpected end of file.
+*This means the end of a source file was encountered before a construct
+*that was being processing had terminated.  This is often caused by a
+*missing END on a construct requiring an END.
+>Es expecting file name after keyword
+=[8003] Expecting quoted file name after %s.
+& KEYWORD
+>Es expecting name after keyword
+=[8004] Expecting name after %s.
+& KEYWORD
+>E expecting symbol list in declaration
+=[8005] Expecting symbol list in declaration.
+>Es missing keyword
+=[8006] Missing '%s'.
+& KEYWORD
+>Ess missing keyword after keyword
+=[8007] Missing %s after %s.
+& KEYWORD1 KEYWORD2
+>Es expecting number after keyword
+=[8008] Expecting number after %s.
+& KEYWORD
+>E expecting : after WHEN number
+=[8009] Expecting ':' after WHEN number.
+>Es syntax error in declaration
+=[8010] Syntax error in %s declaration.
+& DECLARATION_TYPE
+>E expecting = in INITIAL statement
+=[8011] Expecting '=' in INITIAL statement.
+>E syntax error in SET
+=[8012] Syntax error in SET statement.
+>E expecting variable after FOR
+=[8013] Expecting variable after FOR.
+>Es expecting = in FOR
+=[8014] Expecting '=' after 'FOR %s'.
+& VAR_NAME
+>E syntax error in simulation statement
+=[8015] Syntax error in simulation statement.
+>E syntax error in MESSAGE
+=[8016] Syntax error in MESSAGE. (May have used " instead of ')
+>E expecting = in SET statement
+=[8017] Expecting '=' in SET statement.
+>Es expecting symbol list after keyword
+=[8018] Expecting symbol list after '%s'.
+& KEYWORD
+>E missing TEST_VECTORS
+=[8019] Missing TEST_VECTORS keyword on simulation vector table.
+>E missing ;
+=[8020] Missing ';'.
+>E expecting number after [
+=[8021] Expecting number after '['.
+>E expecting second number after ..
+=[8022] Expecting second number after '..' in range.
+>E expecting second identifier after ..
+=[8023] Expecting second identifier after '..'.
+>Fs proc not avail
+=[8024] Procedure/function %s not in design.
+& SYMBOL_NAME
+>F system missing
+=[8025] No system area in design.
+>W multiple step
+=[8026] Redeclared step size, new value used.
+
+
+"lex.c
+>Es unable to open file
+=[8027] Unable to open file '%s'.
+& FILE_NAME
+*The given filename either does not exist in the current directory or the
+*file does not have read permission.
+>Ed illegal character
+=[8028] Illegal character %d in source.
+& ASCII_VALUE
+*An illegal character appeared in the file.
+*Legal characters include all alphanumeric characters, spaces, tabs,
+*newlines, carriage returns, formfeeds, vertical tabs and the punctuation
+*characters indicated in the manual for building each operator.
+>W COMP_ON without COMP_OFF
+=[8029] Encountered COMP_ON without preceding COMP_OFF.
+>W EOF with unmatched COMP_OFF
+=[8030] Hit end of file with unmatched COMP_OFF.
+>E string missing right quote
+=[8031] Missing right quote on string.
+>E X in decimal constant
+=[8032] Illegal DONT CARE digit in decimal constant.
+>Ed illegal digit
+=[8033] Illegal digit in base %d constant.
+& NUMERICAL_BASE
+*The digit is not a valid digit in the numerical base of the constant.
+>Es missing macro argument
+=[8034] Expecting argument name for MACRO '%s'.
+& MACRO_NAME
+>Es missing ) after MACRO arguments
+=[8035] Missing ')' for argument list of MACRO '%s'.
+& MACRO_NAME
+>Ws MACRO spans multiple lines
+=[8036] MACRO '%s' spans multiple lines.
+& MACRO_NAME
+>Fs EOF in MACRO definition
+=[8037] MACRO '%s' never terminates.
+& MACRO_NAME
+*The macro is missing the terminating }.
+>Es missing ( in MACRO invocation
+=[8038] Expecting '(' for parameter list of MACRO '%s'.
+& MACRO_NAME
+>Fs EOF in MACRO invocation
+=[8039] Missing ')' in invocation of MACRO '%s'.
+& MACRO_NAME
+>Es ) nesting in MACRO
+=[8040] Improper nesting of ')' in parameter for MACRO '%s'.
+& MACRO_NAME
+>Es ] nesting in MACRO
+=[8041] Improper nesting of ']' in parameter for MACRO '%s'.
+& MACRO_NAME
+>Ed too many MACRO parameters
+=[8042] Cannot have more than %d macro parameters.
+& MAX_MACRO_PARAMS
+>Es wrong number of MACRO parameters
+=[8043] Wrong number of params to MACRO '%s'.
+& MACRO_NAME
+>Wdd number too wide
+=[8044] A %d bit number cannot be represented in %d bits.
+& BIT_WIDTH BIT_WIDTH
+
+"main.c
+>F usage
+=[8045] PLSim usage:  plsim design_name [ stimulus_file ]
+>F locking
+=[8046] Hardware locking device NOT installed.
+>M pass 1
+=Simulating.
+>Ms check error file
+=CHECK '%s' FOR ERRORS.
+&*
+>Ms check warning file
+=CHECK '%s' FOR WARNINGS.
+&*
+>M No stimulus file.
+=No stimulus file.
+
+"number.c
+>E illegal .X. number
+=[8051] Cannot have DONT CARE digits in this constant.
+>E number too large
+=[8052] Constant too large.
+>E illegal operation on .X. number
+=[8053] Cannot operate on number with DONT CAREs.
+>E produced negative number
+=[8054] Operation produced negative number.
+>E divide by zero
+=[8055] Divide by zero.
+
+"simstat.c
+>Es bad assignment to VAR
+=[8056] Cannot assign .C., .S., .X., or .Z. to VAR '%s'.
+>Es bad assignment to INPUT
+=[8057] Cannot assign .S. or .X. to INPUT '%s'.
+>E wrong number of vectors
+=[8058] Number of test vector entries does not match header.
+>E duplicate WHEN values
+=[8059] Duplicate WHEN values.
+*The CASE statement has the same value in two different WHEN clauses.
+>E numbers out of order in range
+=[8060] Numbers out of order in range.
+
+"symtab.c
+>Es undeclared symbol
+=[8061] Undeclared symbol '%s'.
+>Es undeclared VAR
+=[8062] Reference of undeclared VAR '%s'.
+>Es index of non-array
+=[8063] Cannot index non-array '%s'.
+>Es redeclaration of MACRO
+=[8064] Redeclaration of MACRO '%s'.
+& MACRO_NAME
+>Es redeclaration of VAR
+=[8065] Redeclaration of VAR '%s'.
+& VAR_NAME
+>Es range identifier needs ending number
+=[8066] Range identifier '%s' needs to end with a number.
+& IDENT 
+>Ess mismatched range identifiers
+=[8067] Range identifiers '%s' and '%s' not identical before end numbers.
+& IDENT1 IDENT2
+>F bad flip-flop type in .fb file
+=[8068] Bad flip-flop type in .fb file.
+>Es undeclared array member
+=[8069] Undeclared array member '%s'.
+
+"varexpr.c
+>E division by 0
+=[8070] Division by 0.
+>E modulo by 0
+=[8071] Modulo by 0.
+
+"simsd.c
+>Fs cant open sd file
+=[8072] Cannot open simulation data file '%s'.
+& FILE_NAME
+
+"simeval.c
+>Fs sym not in section
+=[8073] Symbol %s not in this simulation section.
+>Wd too many messages
+=[8074] At %d ns: more than one message defined during this step.
+& TIME
+>Ms errors during simulation
+=Warnings during simulation, see %s.
+& FILE_NAME
+
+"simprt.c
+>Fs cannot open sim listing
+=[8076] Cannot open simulation listing file '%s'.
+& FILE_NAME
+
+"simtv.c
+>Fs cant open tv file
+=[8077] Cannot open test vector file '%s'.
+& FILE_NAME

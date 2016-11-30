@@ -1,0 +1,189 @@
+*version 6.3 2207409341
+u 192
+XC2000 762596514
+U? 6
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 2955 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 193 IF_OUT 890 450 h
+a 0 s 3 0 20 8 hln 80 LABEL=S0
+port 194 IF_IN 230 300 h
+a 0 s 3 0 10 8 hln 80 LABEL=B0
+port 195 IF_IN 230 280 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 196 IF_OUT 890 470 h
+a 0 s 3 0 20 8 hln 80 LABEL=CO
+port 197 IF_IN 230 350 h
+a 0 s 3 0 10 8 hln 80 LABEL=CI
+@parts
+part 17 OR3 610 320 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U1
+a 0 sp 11 0 10 60 hlt 100 PART=OR3
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 XOR3 470 430 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 60 hlt 100 PART=XOR3
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 28 AND2 470 280 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 29 AND2 470 380 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 30 AND2 470 330 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+@conn
+w 34
+s 740 470 890 470 31
+a 0 s 3 0 860 470 hln 100 LABEL=CO
+s 740 470 740 340 33
+s 690 340 740 340 32
+w 48
+s 230 300 440 300 42
+a 0 s 3 0 240 300 hln 100 LABEL=B0
+s 440 300 470 300 43
+s 440 400 440 300 44
+s 440 430 440 400 46
+s 440 430 470 430 45
+s 440 400 470 400 47
+w 75
+s 550 450 890 450 74
+a 0 s 3 0 860 450 hln 100 LABEL=S0
+w 88
+s 230 280 420 280 82
+a 0 s 3 0 240 280 hln 100 LABEL=A0
+s 420 280 470 280 83
+s 420 330 420 280 84
+s 420 450 420 330 86
+s 420 450 470 450 85
+s 420 330 470 330 87
+w 120
+s 230 350 400 350 114
+a 0 s 3 0 240 350 hln 100 LABEL=CI
+s 400 350 470 350 115
+s 400 380 400 350 116
+s 400 380 470 380 117
+s 400 470 400 380 118
+s 400 470 470 470 119
+w 148
+s 550 290 590 290 145
+a 0 s 3 0 550 290 hln 100 LABEL=AB0
+s 590 320 590 290 147
+s 590 320 610 320 146
+w 163
+s 550 340 610 340 162
+a 0 s 3 0 550 340 hln 100 LABEL=A0CI
+w 179
+s 550 390 590 390 176
+a 0 s 3 0 550 390 hln 100 LABEL=B0CI
+s 590 390 590 360 177
+s 590 360 610 360 178
+@junction
+j 690 340
++ p 17 O
++ w 34
+j 440 300
++ w 48
++ w 48
+j 440 400
++ w 48
++ w 48
+j 470 430
++ p 23 I2
++ w 48
+j 470 300
++ p 28 I0
++ w 48
+j 470 400
++ p 29 I0
++ w 48
+j 550 450
++ p 23 O
++ w 75
+j 420 280
++ w 88
++ w 88
+j 420 330
++ w 88
++ w 88
+j 470 450
++ p 23 I1
++ w 88
+j 470 280
++ p 28 I1
++ w 88
+j 470 330
++ p 30 I1
++ w 88
+j 400 350
++ w 120
++ w 120
+j 400 380
++ w 120
++ w 120
+j 470 470
++ p 23 I0
++ w 120
+j 470 380
++ p 29 I1
++ w 120
+j 470 350
++ p 30 I0
++ w 120
+j 610 320
++ p 17 I2
++ w 148
+j 550 290
++ p 28 O
++ w 148
+j 610 340
++ p 17 I1
++ w 163
+j 550 340
++ p 30 O
++ w 163
+j 610 360
++ p 17 I0
++ w 179
+j 550 390
++ p 29 O
++ w 179
+j 890 450
++ s 193
++ w 75
+j 230 300
++ s 194
++ w 48
+j 230 280
++ s 195
++ w 88
+j 890 470
++ s 196
++ w 34
+j 230 350
++ s 197
++ w 120
+@attributes
+@text
+s 5 950 800 hln 100 1
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 950 820 hln 100 A
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 750 780 hln 100 AND CARRY-OUT
+s 5 750 750 hln 100 XC2000 FAMILY ADD1 MACRO
+s 5 750 770 hln 100 1-BIT FULL ADDER WITH CARRY-IN
+s 5 710 800 hln 100 21ST APRIL 1993

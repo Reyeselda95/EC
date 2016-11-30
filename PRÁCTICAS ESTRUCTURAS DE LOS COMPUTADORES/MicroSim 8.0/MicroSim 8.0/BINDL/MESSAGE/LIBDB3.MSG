@@ -1,0 +1,32 @@
+>Fs Failed to create database for file in create_dlib
+=Failed to create database: %s in create_dlib
+>Fs Error writing database in replace_index_maker
+=Error writing database %s in replace_index_maker
+>Fs Error writing database in replace_maker
+=Error writing database %s in replace_maker
+
+"db_pinmp.c
+>Fs could not open device library
+=Could not open device library: %s
+>Fs could not open part library
+=Could not open part library: %s
+>Fs could not open file
+=Could not open file '%s' for reading.
+&FILENAME
+>Fs Too few pins for label
+=Too few pins for label '%s'.
+&LABEL_NAME
+>Fs File - not found
+=File - '%s' not found
+>F Wrong number of pins detected
+=Wrong number of pins detected. Run plscan again.
+
+"db_text.c
+>F Bad database version in line 1.
+=Bad database version in line 1.
+>Fs Could not open text file
+=Could not open text file: %s
+>F Failed to find database version.
+=Failed to find database version in first line.
+>Fd Text file format error on line
+=Text file format error - line %d

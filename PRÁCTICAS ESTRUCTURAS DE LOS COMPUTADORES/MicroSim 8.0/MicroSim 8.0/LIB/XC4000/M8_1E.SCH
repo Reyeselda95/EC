@@ -1,0 +1,311 @@
+*version 6.3 3986566005
+u 291
+XC4000 3218348609
+U? 8
+@libraries
+XC4000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 4949 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 292 IF_IN 130 530 h
+a 0 s 3 0 10 8 hln 80 LABEL=S0
+port 293 IF_IN 130 550 h
+a 0 s 3 0 10 8 hln 80 LABEL=S1
+port 294 IF_IN 130 570 h
+a 0 s 3 0 10 8 hln 80 LABEL=S2
+port 295 IF_IN 130 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=D7
+port 296 IF_IN 130 490 h
+a 0 s 3 0 10 8 hln 80 LABEL=D6
+port 297 IF_IN 130 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=D5
+port 298 IF_IN 130 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=D4
+port 299 IF_IN 130 330 h
+a 0 s 3 0 10 8 hln 80 LABEL=D3
+port 300 IF_IN 130 310 h
+a 0 s 3 0 10 8 hln 80 LABEL=D2
+port 301 IF_IN 130 250 h
+a 0 s 3 0 10 8 hln 80 LABEL=D1
+port 302 IF_IN 130 230 h
+a 0 s 3 0 10 8 hln 80 LABEL=D0
+port 303 IF_OUT 980 370 h
+a 0 s 3 0 20 8 hln 80 LABEL=O
+port 304 IF_IN 130 590 h
+a 0 s 3 0 10 8 hln 80 LABEL=E
+@parts
+part 18 M2_1E 730 360 h
+a 0 sp 9 0 70 70 hrn 100 REFDES=U1
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1E
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 24 M2_1 530 450 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U2
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 25 M2_1 530 270 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U3
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 26 M2_1 330 490 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U4
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 27 M2_1 330 410 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U5
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 28 M2_1 330 310 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U6
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 29 M2_1 330 230 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U7
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+@conn
+w 33
+s 130 570 680 570 30
+a 0 s 3 0 140 570 hln 100 LABEL=S2
+s 680 570 680 400 31
+s 680 400 730 400 32
+w 43
+s 130 590 700 590 40
+a 0 s 3 0 140 590 hln 100 LABEL=E
+s 700 590 700 420 42
+s 700 420 730 420 41
+w 56
+s 130 550 500 550 51
+a 0 s 3 0 140 550 hln 100 LABEL=S1
+s 500 550 500 490 55
+s 500 490 530 490 52
+s 500 490 500 310 54
+s 500 310 530 310 53
+w 75
+s 830 370 980 370 74
+a 0 s 3 0 960 370 hln 100 LABEL=O
+w 85
+s 660 360 730 360 82
+a 0 s 3 0 660 360 hln 100 LABEL=M03
+s 660 360 660 280 84
+s 630 280 660 280 83
+w 102
+s 660 380 730 380 99
+a 0 s 3 0 660 380 hln 100 LABEL=M47
+s 660 460 660 380 101
+s 630 460 660 460 100
+w 119
+s 460 470 530 470 116
+a 0 s 3 0 460 470 hln 100 LABEL=M67
+s 460 500 460 470 118
+s 430 500 460 500 117
+w 136
+s 460 450 530 450 133
+a 0 s 3 0 460 450 hln 100 LABEL=M45
+s 460 450 460 420 135
+s 430 420 460 420 134
+w 151
+s 130 510 330 510 150
+a 0 s 3 0 140 510 hln 100 LABEL=D7
+w 159
+s 130 490 330 490 158
+a 0 s 3 0 140 490 hln 100 LABEL=D6
+w 167
+s 130 330 330 330 166
+a 0 s 3 0 140 330 hln 100 LABEL=D3
+w 175
+s 130 430 330 430 174
+a 0 s 3 0 140 430 hln 100 LABEL=D5
+w 183
+s 130 410 330 410 182
+a 0 s 3 0 140 410 hln 100 LABEL=D4
+w 191
+s 130 250 330 250 190
+a 0 s 3 0 140 250 hln 100 LABEL=D1
+w 199
+s 130 310 330 310 198
+a 0 s 3 0 140 310 hln 100 LABEL=D2
+w 207
+s 130 230 330 230 206
+a 0 s 3 0 140 230 hln 100 LABEL=D0
+w 217
+s 460 270 530 270 214
+a 0 s 3 0 460 270 hln 100 LABEL=M01
+s 460 270 460 240 215
+s 430 240 460 240 216
+w 233
+s 460 290 530 290 230
+a 0 s 3 0 460 290 hln 100 LABEL=M23
+s 460 320 460 290 231
+s 430 320 460 320 232
+w 254
+s 130 530 300 530 246
+a 0 s 3 0 140 530 hln 100 LABEL=S0
+s 300 530 300 450 252
+s 300 450 330 450 247
+s 300 450 300 350 251
+s 300 350 330 350 248
+s 300 350 300 270 250
+s 300 270 330 270 249
+s 300 530 330 530 253
+@junction
+j 730 400
++ p 18 S0
++ w 33
+j 730 420
++ p 18 E
++ w 43
+j 500 490
++ w 56
++ w 56
+j 530 490
++ p 24 S0
++ w 56
+j 530 310
++ p 25 S0
++ w 56
+j 830 370
++ p 18 O
++ w 75
+j 730 360
++ p 18 D0
++ w 85
+j 630 280
++ p 25 O
++ w 85
+j 730 380
++ p 18 D1
++ w 102
+j 630 460
++ p 24 O
++ w 102
+j 530 470
++ p 24 D1
++ w 119
+j 430 500
++ p 26 O
++ w 119
+j 530 450
++ p 24 D0
++ w 136
+j 430 420
++ p 27 O
++ w 136
+j 330 510
++ p 26 D1
++ w 151
+j 330 490
++ p 26 D0
++ w 159
+j 330 330
++ p 28 D1
++ w 167
+j 330 430
++ p 27 D1
++ w 175
+j 330 410
++ p 27 D0
++ w 183
+j 330 250
++ p 29 D1
++ w 191
+j 330 310
++ p 28 D0
++ w 199
+j 330 230
++ p 29 D0
++ w 207
+j 530 270
++ p 25 D0
++ w 217
+j 430 240
++ p 29 O
++ w 217
+j 530 290
++ p 25 D1
++ w 233
+j 430 320
++ p 28 O
++ w 233
+j 300 530
++ w 254
++ w 254
+j 300 450
++ w 254
++ w 254
+j 300 350
++ w 254
++ w 254
+j 330 530
++ p 26 S0
++ w 254
+j 330 450
++ p 27 S0
++ w 254
+j 330 350
++ p 28 S0
++ w 254
+j 330 270
++ p 29 S0
++ w 254
+j 130 530
++ s 292
++ w 254
+j 130 550
++ s 293
++ w 56
+j 130 570
++ s 294
++ w 33
+j 130 510
++ s 295
++ w 151
+j 130 490
++ s 296
++ w 159
+j 130 430
++ s 297
++ w 175
+j 130 410
++ s 298
++ w 183
+j 130 330
++ s 299
++ w 167
+j 130 310
++ s 300
++ w 199
+j 130 250
++ s 301
++ w 191
+j 130 230
++ s 302
++ w 207
+j 980 370
++ s 303
++ w 75
+j 130 590
++ s 304
++ w 43
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 750 750 hln 100 XC4000 FAMILY M8_1E MACRO
+s 5 710 800 hln 100 11TH JANUARY 1993
+s 5 750 770 hln 100 8-TO-1 MULTIPLEXER WITH ENABLE

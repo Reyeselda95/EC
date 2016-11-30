@@ -1,0 +1,608 @@
+*version 7.2 2562382143
+@index
+symloc 74121:121 0 171
+symloc 74122:122 171 159
+symloc 74123:123 330 157
+symloc 121 487 1728 b
+symloc 122 2215 1979 b
+symloc 123 4194 1595 b
+symloc 54L121:L121 5789 208
+symloc 54L122:L122 5997 196
+symloc 54L123:L123 6193 194
+symloc L121 6387 1728 b
+symloc L122 8115 1979 b
+symloc L123 10094 1595 b
+symloc 74LS122:LS122 11689 201
+symloc 74LS123:LS123 11890 199
+symloc LS122 12089 1980 b
+symloc LS123 14069 1596 b
+symloc 4098 15665 1664 b
+symloc CD4098B:4098 17329 164
+symloc 4538:4098 17493 186 b
+symloc CD4538B:4538 17679 164
+symloc copyright 17843 575 b
+*symbol 74121 ako 121
+d Monostable multivibrator with schmitt-trigger inputs
+@type p
+@attributes
+a 0 sp 11 0 42 88 hln 100 PART=74121
+a 0 sp 0 0 42 88 hln 100 MODEL=74121
+*symbol 74122 ako 122
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 108 hln 100 PART=74122
+a 0 sp 0 0 42 108 hln 100 MODEL=74122
+*symbol 74123 ako 123
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 78 hln 100 PART=74123
+a 0 sp 0 0 42 78 hln 100 MODEL=74123
+*symbol 121 b
+d Monostable multivibrator with schmitt-trigger inputs
+@type p
+@attributes
+a 0 sp 11 0 42 88 hln 100 PART=
+a 0 sp 0 0 42 88 hln 100 MODEL=
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 PULSE=30ns
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A1 %A2 %B %RINT %CEXT %REXT/CEXT %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ PULSE=@PULSE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 52 hln 100 A1 n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+p 2 13 62 hln 100 A2 n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 58 hrn 100 pin=4
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 13 72 hln 100 B n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 68 hrn 100 pin=5
+a 0 u 0 0 0 70 hln 100 ERC=i
+p 2 13 22 hln 100 RINT n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 18 hrn 100 pin=9
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 13 32 hln 100 CEXT n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 28 hrn 100 pin=10
+a 0 u 0 0 0 30 hln 100 ERC=i
+p 2 57 32 hrn 100 Q n 70 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 28 hln 100 pin=6
+a 0 u 0 0 62 30 hln 100 ERC=o
+p 2 57 52 hrn 100 \Q\ b 70 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 48 hln 100 pin=1
+a 0 u 0 0 62 50 hln 100 ERC=o
+p 2 13 12 hln 85 REXT/CEXT n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 8 hrn 100 pin=11
+a 0 u 0 0 0 10 hln 100 ERC=i
+p 16 12 98 hln 100 GND n 30 90 v
+a 0 u 1 0 25 92 hcn 100 pin=7
+a 0 u 0 0 30 90 hln 100 ERC=p
+p 16 12 -10 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+@graphics 70 80 0 10 11
+r 0 10 0 60 80
+*symbol 122 b
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 108 hln 100 PART=
+a 0 sp 0 0 42 108 hln 100 MODEL=
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 PULSE=45ns
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\CLR\ %A1 %A2 %B1 %B2 %RINT %CEXT %REXT/CEXT %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ PULSE=@PULSE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 22 hln 100 RINT n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 18 hrn 100 pin=9
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 16 2 118 hln 100 GND n 20 110 v
+a 0 u 1 0 15 112 hcn 100 pin=7
+a 0 u 0 0 20 110 hln 100 ERC=p
+p 16 12 -10 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+p 2 13 52 hln 100 A1 n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 50 hln 100 ERC=i
+p 2 13 62 hln 100 A2 n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 58 hrn 100 pin=2
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 57 52 hrn 100 \Q\ b 70 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 48 hln 100 pin=6
+a 0 u 0 0 62 50 hln 100 ERC=o
+p 2 57 32 hrn 100 Q n 70 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 28 hln 100 pin=8
+a 0 u 0 0 62 30 hln 100 ERC=o
+p 2 13 12 hln 90 REXT/CEXT n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 8 hrn 100 pin=13
+a 0 u 0 0 0 10 hln 100 ERC=i
+p 2 13 32 hln 100 CEXT n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 28 hrn 100 pin=11
+a 0 u 0 0 0 30 hln 100 ERC=i
+p 2 13 72 hln 100 B1 n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 68 hrn 100 pin=3
+a 0 u 0 0 0 70 hln 100 ERC=i
+p 2 13 82 hln 100 B2 n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 78 hrn 100 pin=4
+a 0 u 0 0 0 80 hln 100 ERC=i
+p 2 22 98 hln 100 \CLR\ b 30 110 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 25 112 hcn 100 pin=5
+a 0 u 0 0 24 110 hln 100 ERC=i
+@graphics 70 110 0 10 11
+r 0 10 0 60 100
+*symbol 123 b
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 78 hln 100 PART=
+a 0 sp 0 0 42 78 hln 100 MODEL=
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 PULSE=45ns
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\CLR\ %A %B %CEXT %REXT/CEXT %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ PULSE=@PULSE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 16 2 88 hln 100 GND n 20 80 v
+a 0 u 1 0 15 82 hcn 100 pin=8
+a 0 u 0 0 20 80 hln 100 ERC=p
+p 16 12 -10 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+p 2 57 22 hrn 100 Q n 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=13
+a 0 u 0 0 62 20 hln 100 ERC=o
+p 2 57 42 hrn 100 \Q\ b 70 40 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 38 hln 100 pin=4
+a 0 u 0 0 62 40 hln 100 ERC=o
+p 2 13 12 hln 85 REXT/CEXT n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 8 hrn 100 pin=15
+a 0 u 0 0 0 10 hln 100 ERC=i
+p 2 13 22 hln 100 CEXT n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 18 hrn 100 pin=14
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 22 68 hln 100 \CLR\ b 30 80 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 25 82 hcn 100 pin=3
+a 0 u 0 0 24 80 hln 100 ERC=i
+p 2 13 42 hln 100 A n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 13 52 hln 100 B n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 50 hln 100 ERC=i
+@graphics 70 80 0 10 11
+r 0 10 0 60 70
+*symbol 54L121 ako L121
+d Monostable multivibrator with schmitt-trigger inputs
+@type p
+@attributes
+a 0 sp 11 0 42 88 hln 100 PART=54L121
+a 0 sp 0 0 42 88 hln 100 MODEL=54L121
+a 0 u 0 0 0 0 hln 100 PULSE=35ns
+*symbol 54L122 ako L122
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 108 hln 100 PART=54L122
+a 0 sp 0 0 42 108 hln 100 MODEL=54L122
+a 0 u 0 0 0 0 hln 100 PULSE=90ns
+*symbol 54L123 ako L123
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 78 hln 100 PART=54L123
+a 0 sp 0 0 42 78 hln 100 MODEL=54L123
+a 0 u 0 0 0 0 hln 100 PULSE=90ns
+*symbol L121 b
+d Monostable multivibrator with schmitt-trigger inputs
+@type p
+@attributes
+a 0 sp 11 0 42 88 hln 100 PART=
+a 0 sp 0 0 42 88 hln 100 MODEL=
+a 1 s 9 0 6 -3 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 PULSE=30ns
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A1 %A2 %B %RINT %CEXT %REXT/CEXT %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ PULSE=@PULSE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 52 hln 100 A1 n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+p 2 13 62 hln 100 A2 n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 58 hrn 100 pin=4
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 13 72 hln 100 B n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 68 hrn 100 pin=5
+a 0 u 0 0 0 70 hln 100 ERC=i
+p 2 13 22 hln 100 RINT n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 18 hrn 100 pin=9
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 13 32 hln 100 CEXT n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 28 hrn 100 pin=10
+a 0 u 0 0 0 30 hln 100 ERC=i
+p 2 57 32 hrn 100 Q n 70 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 28 hln 100 pin=6
+a 0 u 0 0 62 30 hln 100 ERC=o
+p 2 57 52 hrn 100 \Q\ b 70 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 48 hln 100 pin=1
+a 0 u 0 0 62 50 hln 100 ERC=o
+p 2 13 12 hln 85 REXT/CEXT n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 8 hrn 100 pin=11
+a 0 u 0 0 0 10 hln 100 ERC=i
+p 16 12 98 hln 100 GND n 30 90 v
+a 0 u 1 0 25 92 hcn 100 pin=7
+a 0 u 0 0 30 90 hln 100 ERC=p
+p 16 12 -10 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+@graphics 70 80 0 10 11
+r 0 10 0 60 80
+*symbol L122 b
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 108 hln 100 PART=
+a 0 sp 0 0 42 108 hln 100 MODEL=
+a 1 s 9 0 5 -3 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 PULSE=45ns
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\CLR\ %A1 %A2 %B1 %B2 %RINT %CEXT %REXT/CEXT %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ PULSE=@PULSE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 22 hln 100 RINT n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 18 hrn 100 pin=9
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 16 2 118 hln 100 GND n 20 110 v
+a 0 u 1 0 15 112 hcn 100 pin=7
+a 0 u 0 0 20 110 hln 100 ERC=p
+p 16 12 -10 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+p 2 13 52 hln 100 A1 n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 50 hln 100 ERC=i
+p 2 13 62 hln 100 A2 n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 58 hrn 100 pin=2
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 57 52 hrn 100 \Q\ b 70 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 48 hln 100 pin=6
+a 0 u 0 0 62 50 hln 100 ERC=o
+p 2 57 32 hrn 100 Q n 70 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 28 hln 100 pin=8
+a 0 u 0 0 62 30 hln 100 ERC=o
+p 2 13 12 hln 90 REXT/CEXT n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 8 hrn 100 pin=13
+a 0 u 0 0 0 10 hln 100 ERC=i
+p 2 13 32 hln 100 CEXT n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 28 hrn 100 pin=11
+a 0 u 0 0 0 30 hln 100 ERC=i
+p 2 13 72 hln 100 B1 n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 68 hrn 100 pin=3
+a 0 u 0 0 0 70 hln 100 ERC=i
+p 2 13 82 hln 100 B2 n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 78 hrn 100 pin=4
+a 0 u 0 0 0 80 hln 100 ERC=i
+p 2 22 98 hln 100 \CLR\ b 30 110 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 25 112 hcn 100 pin=5
+a 0 u 0 0 24 110 hln 100 ERC=i
+@graphics 70 110 0 10 11
+r 0 10 0 60 100
+*symbol L123 b
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 78 hln 100 PART=
+a 0 sp 0 0 42 78 hln 100 MODEL=
+a 1 s 9 0 6 -3 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 PULSE=45ns
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\CLR\ %A %B %CEXT %REXT/CEXT %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ PULSE=@PULSE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 16 2 88 hln 100 GND n 20 80 v
+a 0 u 1 0 15 82 hcn 100 pin=8
+a 0 u 0 0 20 80 hln 100 ERC=p
+p 16 12 -10 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+p 2 57 22 hrn 100 Q n 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=13
+a 0 u 0 0 62 20 hln 100 ERC=o
+p 2 57 42 hrn 100 \Q\ b 70 40 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 38 hln 100 pin=4
+a 0 u 0 0 62 40 hln 100 ERC=o
+p 2 13 12 hln 85 REXT/CEXT n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 8 hrn 100 pin=15
+a 0 u 0 0 0 10 hln 100 ERC=i
+p 2 13 22 hln 100 CEXT n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 18 hrn 100 pin=14
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 22 68 hln 100 \CLR\ b 30 80 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 25 82 hcn 100 pin=3
+a 0 u 0 0 24 80 hln 100 ERC=i
+p 2 13 42 hln 100 A n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 13 52 hln 100 B n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 50 hln 100 ERC=i
+@graphics 70 80 0 10 11
+r 0 10 0 60 70
+*symbol 74LS122 ako LS122
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 108 hln 100 PART=74LS122
+a 0 sp 0 0 42 108 hln 100 MODEL=74LS122
+a 0 u 0 0 0 0 hln 100 PULSE=116ns
+*symbol 74LS123 ako LS123
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 78 hln 100 PART=74LS123
+a 0 sp 0 0 42 78 hln 100 MODEL=74LS123
+a 0 u 0 0 0 0 hln 100 PULSE=116ns
+*symbol LS122 b
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 108 hln 100 PART=
+a 0 sp 0 0 42 108 hln 100 MODEL=
+a 1 s 9 0 5 -4 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 PULSE=45ns
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\CLR\ %A1 %A2 %B1 %B2 %RINT %CEXT %REXT/CEXT %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ PULSE=@PULSE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 13 22 hln 100 RINT n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 18 hrn 100 pin=9
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 16 2 118 hln 100 GND n 20 110 v
+a 0 u 1 0 15 112 hcn 100 pin=7
+a 0 u 0 0 20 110 hln 100 ERC=p
+p 16 12 -10 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=14
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+p 2 13 52 hln 100 A1 n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 50 hln 100 ERC=i
+p 2 13 62 hln 100 A2 n 0 60 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 58 hrn 100 pin=2
+a 0 u 0 0 0 60 hln 100 ERC=i
+p 2 57 52 hrn 100 \Q\ b 70 50 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 48 hln 100 pin=6
+a 0 u 0 0 62 50 hln 100 ERC=o
+p 2 57 32 hrn 100 Q n 70 30 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 28 hln 100 pin=8
+a 0 u 0 0 62 30 hln 100 ERC=o
+p 2 13 12 hln 90 REXT/CEXT n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 8 hrn 100 pin=13
+a 0 u 0 0 0 10 hln 100 ERC=i
+p 2 13 32 hln 100 CEXT n 0 30 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 28 hrn 100 pin=11
+a 0 u 0 0 0 30 hln 100 ERC=i
+p 2 13 72 hln 100 B1 n 0 70 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 68 hrn 100 pin=3
+a 0 u 0 0 0 70 hln 100 ERC=i
+p 2 13 82 hln 100 B2 n 0 80 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 78 hrn 100 pin=4
+a 0 u 0 0 0 80 hln 100 ERC=i
+p 2 22 98 hln 100 \CLR\ b 30 110 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 25 112 hcn 100 pin=5
+a 0 u 0 0 24 110 hln 100 ERC=i
+@graphics 70 110 0 10 11
+r 0 10 0 60 100
+*symbol LS123 b
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 42 78 hln 100 PART=
+a 0 sp 0 0 42 78 hln 100 MODEL=
+a 1 s 9 0 6 -3 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 PULSE=45ns
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %\CLR\ %A %B %CEXT %REXT/CEXT %Q %\Q\ %PWR %GND @MODEL PARAMS:\n+ PULSE=@PULSE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(PWR)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 16 2 88 hln 100 GND n 20 80 v
+a 0 u 1 0 15 82 hcn 100 pin=8
+a 0 u 0 0 20 80 hln 100 ERC=p
+p 16 12 -10 hln 100 PWR n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+p 2 57 22 hrn 100 Q n 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 18 hln 100 pin=13
+a 0 u 0 0 62 20 hln 100 ERC=o
+p 2 57 42 hrn 100 \Q\ b 70 40 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 65 38 hln 100 pin=4
+a 0 u 0 0 62 40 hln 100 ERC=o
+p 2 13 12 hln 85 REXT/CEXT n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 8 hrn 100 pin=15
+a 0 u 0 0 0 10 hln 100 ERC=i
+p 2 13 22 hln 100 CEXT n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=u
+a 0 u 1 0 5 18 hrn 100 pin=14
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 22 68 hln 100 \CLR\ b 30 80 v
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 25 82 hcn 100 pin=3
+a 0 u 0 0 24 80 hln 100 ERC=i
+p 2 13 42 hln 100 A n 0 40 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 13 52 hln 100 B n 0 50 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 50 hln 100 ERC=i
+@graphics 70 80 0 10 11
+r 0 10 0 60 70
+*symbol 4098 b
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 34 80 hln 100 PART=
+a 0 sp 0 0 34 80 hln 100 MODEL=
+a 0 s 9 0 32 -2 hln 100 REFDES=U?
+a 0 u 13 13 34 90 hln 100 PULSE=1us
+a 0 u 0 0 0 0 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 0 hln 100 MNTYMXDLY=0
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %RESET %TR+ %TR- %CX %RXCX %Q %\Q\ %VDD %VSS @MODEL PARAMS:\n+ PULSE=@PULSE IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY
+a 0 u 0 0 0 0 hln 100 ipin(VDD)=$G_CD4000_VDD
+a 0 u 0 0 0 0 hln 100 ipin(VSS)=$G_CD4000_VSS
+@pins
+p 16 2 88 hln 100 VSS n 20 80 v
+a 0 u 1 0 15 82 hcn 100 pin=8
+a 0 u 0 0 20 80 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 16 12 -10 hln 100 VDD n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=16
+a 0 u 0 0 -40 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 42 hln 100 TR+ n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 52 hln 100 TR- n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 18 68 hln 100 RESET b 30 80 v
+a 0 u 1 0 25 82 hcn 100 pin=3
+a 0 u 0 0 32 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 32 hrn 100 Q n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=6
+a 0 u 0 0 54 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 47 52 hrn 100 \Q\ b 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=7
+a 0 u 0 0 54 50 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 2 13 12 hln 100 CX n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=10
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 22 hln 100 RXCX n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 60 80 0 10 11
+r 0 10 0 50 70
+*symbol CD4098B ako 4098
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 34 80 hln 100 PART=CD4098B
+a 0 sp 0 0 34 80 hln 100 MODEL=CD4098B
+*symbol 4538 b ako 4098
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 46 48 hln 100 PART=
+a 0 sp 0 0 46 48 hln 100 MODEL=
+a 0 u 13 13 34 90 hln 100 PULSE=20us
+*symbol CD4538B ako 4538
+d Retriggerable monostable multivibrator
+@type p
+@attributes
+a 0 sp 11 0 34 80 hln 100 PART=CD4538B
+a 0 sp 0 0 34 80 hln 100 MODEL=CD4538B
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

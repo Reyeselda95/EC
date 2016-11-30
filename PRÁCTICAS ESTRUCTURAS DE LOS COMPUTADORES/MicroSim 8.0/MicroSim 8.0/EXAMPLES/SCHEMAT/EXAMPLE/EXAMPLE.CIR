@@ -1,0 +1,24 @@
+* /release/60/skel/examples/ana/example/example.sch
+
+* Schematics Version 6.0p - November 1993
+* Fri Nov 19 09:38:28 1993
+
+
+** Analysis setup **
+.tran 20ns 1000ns
+.four 1Meg V([OUT2])
+.TEMP 35
+.OP 
+
+
+* From [SCHEMATICS NETLIST] section of msim.ini:
+.lib nom.lib
+
+.INC "example.net"
+.INC "example.als"
+
+
+.probe
+
+
+.END

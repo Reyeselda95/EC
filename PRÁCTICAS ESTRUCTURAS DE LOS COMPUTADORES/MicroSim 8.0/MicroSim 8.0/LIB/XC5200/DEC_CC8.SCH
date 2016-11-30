@@ -1,0 +1,167 @@
+*version 6.3 115733056
+u 121
+XC5200 141430933
+U? 3
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 2589 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 122 IF_IN 250 320 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 123 IF_IN 250 340 h
+a 0 s 3 0 10 8 hln 80 LABEL=A1
+port 124 IF_IN 250 360 h
+a 0 s 3 0 10 8 hln 80 LABEL=A2
+port 125 IF_IN 250 380 h
+a 0 s 3 0 10 8 hln 80 LABEL=A3
+port 126 IF_IN 250 500 h
+a 0 s 3 0 10 8 hln 80 LABEL=A4
+port 127 IF_IN 250 520 h
+a 0 s 3 0 10 8 hln 80 LABEL=A5
+port 128 IF_IN 250 540 h
+a 0 s 3 0 10 8 hln 80 LABEL=A6
+port 129 IF_IN 250 560 h
+a 0 s 3 0 10 8 hln 80 LABEL=A7
+port 130 IF_IN 250 580 h
+a 0 s 3 0 10 8 hln 50 LABEL=C_IN
+port 131 INTERFACE 630 380 u
+a 0 s 3 0 10 8 hln 80 LABEL=O
+@parts
+part 19 DEC_CC4 380 320 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=DEC_CC4
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 20 DEC_CC4 380 500 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U2
+a 0 sp 11 0 60 20 hcn 200 PART=DEC_CC4
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+@conn
+w 26
+s 355 450 525 450 21
+s 525 560 525 450 23
+s 500 560 525 560 22
+s 355 450 355 400 25
+s 355 400 380 400 24
+w 42
+s 250 320 380 320 41
+a 0 s 3 0 260 320 hln 100 LABEL=A0
+w 50
+s 500 380 630 380 49
+a 0 s 3 0 615 380 hln 100 LABEL=O
+w 58
+s 250 340 380 340 57
+a 0 s 3 0 260 340 hln 100 LABEL=A1
+w 66
+s 250 360 380 360 65
+a 0 s 3 0 260 360 hln 100 LABEL=A2
+w 74
+s 250 380 380 380 73
+a 0 s 3 0 260 380 hln 100 LABEL=A3
+w 82
+s 250 500 380 500 81
+a 0 s 3 0 260 500 hln 100 LABEL=A4
+w 90
+s 250 520 380 520 89
+a 0 s 3 0 260 520 hln 100 LABEL=A5
+w 98
+s 250 540 380 540 97
+a 0 s 3 0 260 540 hln 100 LABEL=A6
+w 106
+s 250 560 380 560 105
+a 0 s 3 0 260 560 hln 100 LABEL=A7
+w 114
+s 250 580 380 580 113
+a 0 s 3 0 260 580 hln 100 LABEL=C_IN
+@junction
+j 380 400
++ p 19 C_IN
++ w 26
+j 500 560
++ p 20 O
++ w 26
+j 380 320
++ p 19 A0
++ w 42
+j 500 380
++ p 19 O
++ w 50
+j 380 340
++ p 19 A1
++ w 58
+j 380 360
++ p 19 A2
++ w 66
+j 380 380
++ p 19 A3
++ w 74
+j 380 500
++ p 20 A0
++ w 82
+j 380 520
++ p 20 A1
++ w 90
+j 380 540
++ p 20 A2
++ w 98
+j 380 560
++ p 20 A3
++ w 106
+j 380 580
++ p 20 C_IN
++ w 114
+j 250 320
++ s 122
++ w 42
+j 250 340
++ s 123
++ w 58
+j 250 360
++ s 124
++ w 66
+j 250 380
++ s 125
++ w 74
+j 250 500
++ s 126
++ w 82
+j 250 520
++ s 127
++ w 90
+j 250 540
++ s 128
++ w 98
+j 250 560
++ s 129
++ w 106
+j 250 580
++ s 130
++ w 114
+j 630 380
++ s 131
++ w 50
+@attributes
+@text
+s 5 500 1020 hln 100 8-INPUT ACTIVE-LOW DECODER
+s 5 700 1050 hln 100 1
+s 5 700 1070 hln 100 A
+s 5 30 1070 hln 100 COPYRIGHT (C) 1994, XILINX INC.
+s 5 460 1050 hln 100 1ST JUNE 1994
+s 5 500 1000 hln 100 XC5200 FAMILY DEC_CC8 MACRO
+s 5 240 700 hln 100 PREVIOUS DECODE STAGE.
+s 5 240 660 hln 100 THE C_IN PIN CAN ONLY BE INITIALIZED
+s 5 240 680 hln 100 BY A CY_INIT OR BY THE OUTPUT OF A

@@ -1,0 +1,1250 @@
+*version 8.0 2761049805
+@index
+symloc D1N4148,1N4148:d 0 185
+symloc D1N4149,1N4149:d 185 185
+symloc D1N4151,1N4151:d 370 185
+symloc D1N4154,1N4154:d 555 185
+symloc D1N4446,1N4446:d 740 185
+symloc D1N4447,1N4447:d 925 185
+symloc D1N4448,1N4448:d 1110 185
+symloc D1N4449,1N4449:d 1295 185
+symloc BA204:d 1480 131
+symloc BA220:d 1611 131
+symloc BA221:d 1742 131
+symloc BA314:d 1873 131
+symloc BA315:d 2004 131
+symloc BA316:d 2135 131
+symloc BA317:d 2266 131
+symloc BA318:d 2397 131
+symloc BA482:d 2528 131
+symloc BA483:d 2659 131
+symloc BA484:d 2790 131
+symloc BAL74:d 2921 131
+symloc BAL99:d 3052 131
+symloc BAQ33:d 3183 131
+symloc BAQ34:d 3314 131
+symloc BAQ35:d 3445 131
+symloc BAR74:d 3576 131
+symloc BAR99:d 3707 131
+symloc BAS16:d 3838 131
+symloc BAS17:d 3969 131
+symloc BAS19:d 4100 131
+symloc BAS20:d 4231 131
+symloc BAS21:d 4362 131
+symloc BAS28:d 4493 131
+symloc BAS32:d 4624 131
+symloc BAS33:d 4755 131
+symloc BAS34:d 4886 131
+symloc BAS40-04:D-04 5017 143
+symloc BAS40-05:D-05 5160 143
+symloc BAS40-06:D-06 5303 176
+symloc BAS40:d 5479 131
+symloc BAS70-04:D-04 5610 143
+symloc BAS70-05:D-05 5753 143
+symloc BAS70-06:D-06 5896 143
+symloc BAS70:d 6039 131
+symloc BAT17-04:D-04 6170 319
+symloc BAT17-05:D-05 6489 319
+symloc BAT17-06:D-06 6808 316
+symloc BAT17:d 7124 131
+symloc BAT18:d 7255 131
+symloc BAV10:d 7386 131
+symloc BAV100:d 7517 134
+symloc BAV101:d 7651 134
+symloc BAV102:d 7785 134
+symloc BAV103:d 7919 134
+symloc BAV17:d 8053 131
+symloc BAV18:d 8184 131
+symloc BAV19:d 8315 131
+symloc BAV20:d 8446 131
+symloc BAV21:d 8577 131
+symloc BAV70:D-05 8708 207
+symloc BAV74:D-05 8915 207
+symloc BAV99:D-04 9122 207
+symloc BAW24:d 9329 131
+symloc BAW25:d 9460 131
+symloc BAW26:d 9591 131
+symloc BAW27:d 9722 131
+symloc BAW56:D-06 9853 207
+symloc BAW62:d 10060 131
+symloc BAW78A:d 10191 134
+symloc BAW78B:d 10325 134
+symloc BAW78C:d 10459 134
+symloc BAW78D:d 10593 134
+symloc BAW79A:baw 10727 136
+symloc BAW79B:baw 10863 136
+symloc BAW79C:baw 10999 136
+symloc BAW79D:baw 11135 136
+symloc BAW101:d 11271 134
+symloc BAX12:d 11405 131
+symloc BAX14:d 11536 131
+symloc BAX18:d 11667 131
+symloc BAY68:d 11798 131
+symloc BAY69:d 11929 131
+symloc BAY80:d 12060 131
+symloc BAY135:d 12191 134
+symloc BGX50A:d 12325 134
+symloc LL4148:d 12459 134
+symloc LL4150:d 12593 134
+symloc LL4151:d 12727 134
+symloc LL4154:d 12861 134
+symloc LL4448:d 12995 134
+symloc SMB914:d 13129 134
+symloc d 13263 388 b
+symloc D-04 13651 751 b
+symloc D-05 14402 751 b
+symloc D-06 15153 748 b
+symloc BAW 15901 744 b
+symloc BYV28-200 16645 600
+symloc BYV32-100 17245 872
+symloc BYV32-150 18117 872
+symloc BYV32-200 18989 872
+symloc BYV32-50 19861 869
+symloc BYV42-150 20730 890
+symloc BYW96E 21620 600
+symloc copyright 22220 575 b
+*symbol D1N4148,1N4148 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=D1N4148
+a 0 sp 0 0 15 25 hln 100 MODEL=D1N4148
+a 0 s 0 0 15 25 hln 100 COMPONENT=1N4148
+*symbol D1N4149,1N4149 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=D1N4149
+a 0 sp 0 0 15 25 hln 100 MODEL=D1N4149
+a 0 s 0 0 15 25 hln 100 COMPONENT=1N4149
+*symbol D1N4151,1N4151 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=D1N4151
+a 0 sp 0 0 15 25 hln 100 MODEL=D1N4151
+a 0 s 0 0 15 25 hln 100 COMPONENT=1N4151
+*symbol D1N4154,1N4154 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=D1N4154
+a 0 sp 0 0 15 25 hln 100 MODEL=D1N4154
+a 0 s 0 0 15 25 hln 100 COMPONENT=1N4154
+*symbol D1N4446,1N4446 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=D1N4446
+a 0 sp 0 0 15 25 hln 100 MODEL=D1N4446
+a 0 s 0 0 15 25 hln 100 COMPONENT=1N4446
+*symbol D1N4447,1N4447 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=D1N4447
+a 0 sp 0 0 15 25 hln 100 MODEL=D1N4447
+a 0 s 0 0 15 25 hln 100 COMPONENT=1N4447
+*symbol D1N4448,1N4448 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=D1N4448
+a 0 sp 0 0 15 25 hln 100 MODEL=D1N4448
+a 0 s 0 0 15 25 hln 100 COMPONENT=1N4448
+*symbol D1N4449,1N4449 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=D1N4449
+a 0 sp 0 0 15 25 hln 100 MODEL=D1N4449
+a 0 s 0 0 15 25 hln 100 COMPONENT=1N4449
+*symbol BA204 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA204
+a 0 sp 0 0 15 25 hln 100 MODEL=BA204
+*symbol BA220 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA220
+a 0 sp 0 0 15 25 hln 100 MODEL=BA220
+*symbol BA221 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA221
+a 0 sp 0 0 15 25 hln 100 MODEL=BA221
+*symbol BA314 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA314
+a 0 sp 0 0 15 25 hln 100 MODEL=BA314
+*symbol BA315 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA315
+a 0 sp 0 0 15 25 hln 100 MODEL=BA315
+*symbol BA316 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA316
+a 0 sp 0 0 15 25 hln 100 MODEL=BA316
+*symbol BA317 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA317
+a 0 sp 0 0 15 25 hln 100 MODEL=BA317
+*symbol BA318 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA318
+a 0 sp 0 0 15 25 hln 100 MODEL=BA318
+*symbol BA482 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA482
+a 0 sp 0 0 15 25 hln 100 MODEL=BA482
+*symbol BA483 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA483
+a 0 sp 0 0 15 25 hln 100 MODEL=BA483
+*symbol BA484 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BA484
+a 0 sp 0 0 15 25 hln 100 MODEL=BA484
+*symbol BAL74 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAL74
+a 0 sp 0 0 15 25 hln 100 MODEL=BAL74
+*symbol BAL99 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAL99
+a 0 sp 0 0 15 25 hln 100 MODEL=BAL99
+*symbol BAQ33 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAQ33
+a 0 sp 0 0 15 25 hln 100 MODEL=BAQ33
+*symbol BAQ34 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAQ34
+a 0 sp 0 0 15 25 hln 100 MODEL=BAQ34
+*symbol BAQ35 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAQ35
+a 0 sp 0 0 15 25 hln 100 MODEL=BAQ35
+*symbol BAR74 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAR74
+a 0 sp 0 0 15 25 hln 100 MODEL=BAR74
+*symbol BAR99 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAR99
+a 0 sp 0 0 15 25 hln 100 MODEL=BAR99
+*symbol BAS16 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS16
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS16
+*symbol BAS17 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS17
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS17
+*symbol BAS19 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS19
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS19
+*symbol BAS20 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS20
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS20
+*symbol BAS21 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS21
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS21
+*symbol BAS28 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS28
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS28
+*symbol BAS32 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS32
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS32
+*symbol BAS33 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS33
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS33
+*symbol BAS34 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS34
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS34
+*symbol BAS40-04 ako D-04
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 45 25 hln 100 PART=BAS40-04
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS40-04
+*symbol BAS40-05 ako D-05
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 41 29 hln 100 PART=BAS40-05
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS40-05
+*symbol BAS40-06 ako D-06
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 45 25 hln 100 PART=BAS40-06
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS40-06
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+*symbol BAS40 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS40
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS40
+*symbol BAS70-04 ako D-04
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 43 27 hln 100 PART=BAS70-04
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS70-04
+*symbol BAS70-05 ako D-05
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 41 27 hln 100 PART=BAS70-05
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS70-05
+*symbol BAS70-06 ako D-06
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 43 27 hln 100 PART=BAS70-06
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS70-06
+*symbol BAS70 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAS70
+a 0 sp 0 0 15 25 hln 100 MODEL=BAS70
+*symbol BAT17-04 ako D-04
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 45 27 hln 100 PART=BAT17-04
+a 0 sp 0 0 15 25 hln 100 MODEL=BAT17-04
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Da^@refdes %2 %3 @model ?VALUE/@VALUE/\nDb^@refdes %3 %1 @model ?value/@value/
+a 0 up 13 0 0 10 hln 100 value=
+*symbol BAT17-05 ako D-05
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 43 25 hln 100 PART=BAT17-05
+a 0 sp 0 0 15 25 hln 100 MODEL=BAT17-05
+a 0 sp 9 0 0 -2 hln 100 REFDES=D?
+a 0 s 0 0 0 0 hln 100 TEMPLATE=Da^@REFDES %1 %3 @MODEL ?VALUE/@VALUE/\nDb^@REFDES %2 %3 @MODEL ?value/@value/
+a 0 up 13 0 0 20 hln 100 VALUE=
+*symbol BAT17-06 ako D-06
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 45 27 hln 100 PART=BAT17-06
+a 0 sp 0 0 15 25 hln 100 MODEL=BAT17-06
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 s 0 0 0 0 hln 100 TEMPLATE=Da^@REFDES %3 %1 @MODEL ?VALUE/@VALUE/\nDb^@REFDES %3 %2 @MODEL ?value/@value/
+a 0 u 0 0 0 10 hln 100 VALUE=
+*symbol BAT17 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAT17
+a 0 sp 0 0 15 25 hln 100 MODEL=BAT17
+*symbol BAT18 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAT18
+a 0 sp 0 0 15 25 hln 100 MODEL=BAT18
+*symbol BAV10 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAV10
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV10
+*symbol BAV100 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAV100
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV100
+*symbol BAV101 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAV101
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV101
+*symbol BAV102 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAV102
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV102
+*symbol BAV103 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAV103
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV103
+*symbol BAV17 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAV17
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV17
+*symbol BAV18 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAV18
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV18
+*symbol BAV19 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAV19
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV19
+*symbol BAV20 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAV20
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV20
+*symbol BAV21 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAV21
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV21
+*symbol BAV70 ako D-05
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 17 39 hln 100 PART=BAV70
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV70
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 %3 @MODEL ?VALUE/@VALUE/
+*symbol BAV74 ako D-05
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 39 hln 100 PART=BAV74
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV74
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 %3 @MODEL ?VALUE/@VALUE/
+*symbol BAV99 ako D-04
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 17 41 hln 100 PART=BAV99
+a 0 sp 0 0 15 25 hln 100 MODEL=BAV99
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %1 %2 %3 @model ?VALUE/@VALUE/
+*symbol BAW24 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAW24
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW24
+*symbol BAW25 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAW25
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW25
+*symbol BAW26 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAW26
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW26
+*symbol BAW27 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAW27
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW27
+*symbol BAW56 ako D-06
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 41 hln 100 PART=BAW56
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW56
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 %3 @MODEL ?VALUE/@VALUE/
+*symbol BAW62 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAW62
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW62
+*symbol BAW78A ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAW78A
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW78A
+*symbol BAW78B ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAW78B
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW78B
+*symbol BAW78C ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAW78C
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW78C
+*symbol BAW78D ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAW78D
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW78D
+*symbol BAW79A ako baw
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 43 27 hln 100 PART=BAW79A
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW79A
+*symbol BAW79B ako baw
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 43 27 hln 100 PART=BAW79B
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW79B
+*symbol BAW79C ako baw
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 45 27 hln 100 PART=BAW79C
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW79C
+*symbol BAW79D ako baw
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 41 27 hln 100 PART=BAW79D
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW79D
+*symbol BAW101 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAW101
+a 0 sp 0 0 15 25 hln 100 MODEL=BAW101
+*symbol BAX12 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAX12
+a 0 sp 0 0 15 25 hln 100 MODEL=BAX12
+*symbol BAX14 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAX14
+a 0 sp 0 0 15 25 hln 100 MODEL=BAX14
+*symbol BAX18 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAX18
+a 0 sp 0 0 15 25 hln 100 MODEL=BAX18
+*symbol BAY68 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAY68
+a 0 sp 0 0 15 25 hln 100 MODEL=BAY68
+*symbol BAY69 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAY69
+a 0 sp 0 0 15 25 hln 100 MODEL=BAY69
+*symbol BAY80 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAY80
+a 0 sp 0 0 15 25 hln 100 MODEL=BAY80
+*symbol BAY135 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BAY135
+a 0 sp 0 0 15 25 hln 100 MODEL=BAY135
+*symbol BGX50A ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=BGX50A
+a 0 sp 0 0 15 25 hln 100 MODEL=BGX50A
+*symbol LL4148 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=LL4148
+a 0 sp 0 0 15 25 hln 100 MODEL=LL4148
+*symbol LL4150 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=LL4150
+a 0 sp 0 0 15 25 hln 100 MODEL=LL4150
+*symbol LL4151 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=LL4151
+a 0 sp 0 0 15 25 hln 100 MODEL=LL4151
+*symbol LL4154 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=LL4154
+a 0 sp 0 0 15 25 hln 100 MODEL=LL4154
+*symbol LL4448 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=LL4448
+a 0 sp 0 0 15 25 hln 100 MODEL=LL4448
+*symbol SMB914 ako d
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 15 25 hln 100 PART=SMB914
+a 0 sp 0 0 15 25 hln 100 MODEL=SMB914
+*symbol d b
+d diode
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 value=
+a 0 sp 11 0 15 25 hln 100 PART=
+a 0 sp 0 0 15 25 hln 100 MODEL=
+a 0 s 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@refdes %1 %2 @MODEL ?value/@value/
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+p 0 17 12 hrn 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol D-04 b
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 45 27 hln 100 PART=
+a 0 sp 0 0 15 25 hln 100 MODEL=
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Da^@refdes %2 %3 @model ?VALUE/@VALUE/\nDb^@refdes %3 %1 @model ?value/@value/
+a 0 up 13 0 0 10 hln 100 value=
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=x
+p 0 47 12 hrn 100 2 n 60 10 u
+a 0 s 1 0 55 8 hln 100 PIN=2
+a 0 s 0 0 60 10 hln 100 ERC=x
+p 0 32 18 hln 100 3 n 30 30 v
+a 0 s 1 0 25 32 hcn 100 PIN=3
+a 0 s 0 0 30 30 hln 100 ERC=x
+@graphics 60 30 0 10 10
+v 0 40 15
+40 5
+;
+v 0 10 15
+10 5
+;
+v 0 20 10
+40 10
+;
+v 0 30 10
+30 20
+;
+v 0 18 15
+18 5
+10 10
+18 15
+;
+v 0 20 10
+18 10
+;
+v 0 48 15
+48 5
+40 10
+48 15
+;
+v 0 50 10
+48 10
+;
+*symbol D-05 b
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 43 25 hln 100 PART=
+a 0 sp 0 0 15 25 hln 100 MODEL=
+a 0 sp 9 0 0 -2 hln 100 REFDES=D?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Da^@REFDES %1 %3 @MODEL ?VALUE/@VALUE/\nDb^@REFDES %2 %3 @MODEL ?value/@value/
+a 0 up 13 0 0 20 hln 100 VALUE=
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=x
+p 0 47 12 hrn 100 2 n 60 10 u
+a 0 s 1 0 55 8 hln 100 PIN=2
+a 0 s 0 0 60 10 hln 100 ERC=x
+p 0 32 18 hln 100 3 n 30 30 v
+a 0 s 1 0 25 32 hcn 100 PIN=3
+a 0 s 0 0 30 30 hln 100 ERC=x
+@graphics 60 30 0 10 10
+v 0 40 15
+40 5
+;
+v 0 20 5
+20 15
+;
+v 0 20 10
+40 10
+;
+v 0 30 10
+30 20
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 48 15
+48 5
+40 10
+48 15
+;
+v 0 50 10
+48 10
+;
+*symbol D-06 b
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 45 27 hln 100 PART=
+a 0 sp 0 0 15 25 hln 100 MODEL=
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Da^@REFDES %3 %1 @MODEL ?VALUE/@VALUE/\nDb^@REFDES %3 %2 @MODEL ?value/@value/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=x
+p 0 47 12 hrn 100 2 n 60 10 u
+a 0 s 1 0 55 8 hln 100 PIN=2
+a 0 s 0 0 62 10 hln 100 ERC=x
+p 0 32 20 hln 100 3 n 30 30 v
+a 0 s 1 0 25 32 hcn 100 PIN=3
+a 0 s 0 0 30 32 hln 100 ERC=x
+@graphics 60 30 0 10 10
+v 0 50 5
+50 15
+;
+v 0 10 15
+10 5
+;
+v 0 20 10
+40 10
+;
+v 0 30 10
+30 20
+;
+v 0 18 15
+18 5
+10 10
+18 15
+;
+v 0 20 10
+18 10
+;
+v 0 42 5
+42 15
+50 10
+42 5
+;
+v 0 40 10
+42 10
+;
+*symbol BAW b
+d European diode
+@type p
+@attributes
+a 0 sp 11 0 45 27 hln 100 PART=
+a 0 sp 0 0 15 25 hln 100 MODEL=
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Da^@refdes %1 %2 @model ?value/@value/\n Db^@refdes %3 %2 @model
+a 0 u 0 0 0 20 hln 100 value=
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 32 18 hln 100 2 n 30 30 v
+a 0 u 1 0 25 32 hcn 100 pin=2
+a 0 u 0 0 30 30 hln 100 ERC=x
+p 0 47 12 hrn 100 3 n 60 10 u
+a 0 u 1 0 55 8 hln 100 pin=3
+a 0 u 0 0 60 12 hln 100 ERC=x
+@graphics 60 30 0 10 10
+v 0 50 15
+50 5
+;
+v 0 50 5
+40 10
+;
+v 0 40 10
+50 15
+;
+v 0 40 15
+40 5
+;
+v 0 10 5
+10 15
+;
+v 0 10 15
+20 10
+;
+v 0 20 10
+10 5
+;
+v 0 20 5
+20 15
+;
+v 0 20 10
+40 10
+;
+v 0 30 10
+30 20
+;
+*symbol BYV28-200
+d RECTIFIER DIODE
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 -5 23 hln 100 PART=BYV28-200
+a 0 sp 0 0 0 0 hln 100 MODEL=BYV28-200
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %K @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 0 10 hln 100 FLOAT=n
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 s 1 0 25 8 hln 100 PIN=2
+a 0 s 0 0 30 10 hln 100 ERC=o
+a 0 s 0 0 30 10 hln 100 FLOAT=n
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol BYV32-100
+d DOUBLE RECTIFIER DIODES
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 18 0 hln 100 PART=BYV32-100
+a 0 sp 0 0 0 0 hln 100 MODEL=BYV32-100
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A1 %A2 %K @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 12 hln 100 A1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 0 10 hln 100 FLOAT=n
+p 0 47 12 hrn 100 A2 n 60 10 u
+a 0 s 1 0 55 8 hln 100 PIN=3
+a 0 s 0 0 60 10 hln 100 ERC=i
+a 0 s 0 0 60 10 hln 100 FLOAT=n
+p 0 28 17 drn 100 K n 30 30 v
+a 0 s 1 0 32 25 dln 100 PIN=2
+a 0 s 0 0 30 30 hln 100 ERC=o
+a 0 s 0 0 30 30 hln 100 FLOAT=n
+@graphics 60 30 0 10 10
+v 0 40 15
+40 5
+;
+v 0 20 5
+20 15
+;
+v 0 20 10
+30 10
+;
+v 0 30 15
+30 10
+;
+v 0 30 10
+40 10
+;
+v 0 30 15
+30 20
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 48 15
+48 5
+40 10
+48 15
+;
+v 0 50 10
+48 10
+;
+*symbol BYV32-150
+d DOUBLE RECTIFIER DIODES
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 18 0 hln 100 PART=BYV32-150
+a 0 sp 0 0 0 0 hln 100 MODEL=BYV32-150
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A1 %A2 %K @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 12 hln 100 A1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 0 10 hln 100 FLOAT=n
+p 0 47 12 hrn 100 A2 n 60 10 u
+a 0 s 1 0 55 8 hln 100 PIN=3
+a 0 s 0 0 60 10 hln 100 ERC=i
+a 0 s 0 0 60 10 hln 100 FLOAT=n
+p 0 28 17 drn 100 K n 30 30 v
+a 0 s 1 0 32 25 dln 100 PIN=2
+a 0 s 0 0 30 30 hln 100 ERC=o
+a 0 s 0 0 30 30 hln 100 FLOAT=n
+@graphics 60 30 0 10 10
+v 0 40 15
+40 5
+;
+v 0 20 5
+20 15
+;
+v 0 20 10
+30 10
+;
+v 0 30 20
+30 15
+;
+v 0 30 10
+40 10
+;
+v 0 30 10
+30 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 48 15
+48 5
+40 10
+48 15
+;
+v 0 50 10
+48 10
+;
+*symbol BYV32-200
+d DOUBLE RECTIFIER DIODES
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 18 0 hln 100 PART=BYV32-200
+a 0 sp 0 0 0 0 hln 100 MODEL=BYV32-200
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A1 %A2 %K @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 12 hln 100 A1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 0 10 hln 100 FLOAT=n
+p 0 47 12 hrn 100 A2 n 60 10 u
+a 0 s 1 0 55 8 hln 100 PIN=3
+a 0 s 0 0 60 10 hln 100 ERC=i
+a 0 s 0 0 60 10 hln 100 FLOAT=n
+p 0 28 17 drn 100 K n 30 30 v
+a 0 s 1 0 32 25 dln 100 PIN=2
+a 0 s 0 0 30 30 hln 100 ERC=o
+a 0 s 0 0 30 30 hln 100 FLOAT=n
+@graphics 60 30 0 10 10
+v 0 40 15
+40 5
+;
+v 0 20 5
+20 15
+;
+v 0 20 10
+30 10
+;
+v 0 30 20
+30 15
+;
+v 0 30 10
+40 10
+;
+v 0 30 15
+30 10
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 48 15
+48 5
+40 10
+48 15
+;
+v 0 50 10
+48 10
+;
+*symbol BYV32-50
+d DOUBLE RECTIFIER DIODES
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 18 0 hln 100 PART=BYV32-50
+a 0 sp 0 0 0 0 hln 100 MODEL=BYV32-50
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A1 %A2 %K @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 12 hln 100 A1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 0 10 hln 100 FLOAT=n
+p 0 47 12 hrn 100 A2 n 60 10 u
+a 0 s 1 0 55 8 hln 100 PIN=3
+a 0 s 0 0 60 10 hln 100 ERC=i
+a 0 s 0 0 60 10 hln 100 FLOAT=n
+p 0 28 17 drn 100 K n 30 30 v
+a 0 s 1 0 32 25 dln 100 PIN=2
+a 0 s 0 0 30 30 hln 100 ERC=o
+a 0 s 0 0 30 30 hln 100 FLOAT=n
+@graphics 60 30 0 10 10
+v 0 40 15
+40 5
+;
+v 0 20 5
+20 15
+;
+v 0 20 10
+30 10
+;
+v 0 30 20
+30 15
+;
+v 0 30 10
+40 10
+;
+v 0 30 10
+30 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 48 15
+48 5
+40 10
+48 15
+;
+v 0 50 10
+48 10
+;
+*symbol BYV42-150
+d DOUBLE RECTIFIER DIODES
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 18 0 hln 100 PART=BYV42-150
+a 0 sp 0 0 0 0 hln 100 MODEL=BYV42-150
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A1 %A2 %K @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 12 hln 100 A1 n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 0 10 hln 100 FLOAT=n
+p 0 47 12 hrn 100 A2 n 60 10 u
+a 0 s 1 0 55 8 hln 100 PIN=2
+a 0 s 0 0 60 10 hln 100 ERC=i
+a 0 s 0 0 60 10 hln 100 FLOAT=n
+p 0 28 17 drn 100 K n 30 30 v
+a 0 s 1 0 32 25 dln 100 PIN=3
+a 0 s 0 0 30 30 hln 100 ERC=o
+a 0 s 0 0 30 30 hln 100 FLOAT=n
+@graphics 60 30 0 10 10
+v 0 40 15
+40 5
+;
+v 0 20 5
+20 15
+;
+v 0 20 10
+30 10
+;
+v 0 30 20
+30 15
+;
+v 0 30 10
+40 10
+;
+v 0 40 10
+30 10
+;
+v 0 30 10
+30 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 48 15
+48 5
+40 10
+48 15
+;
+v 0 50 10
+48 10
+;
+*symbol BYW96E
+d AVALANCHE RECTIFIER DIODE
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=D?
+a 0 sp 11 0 0 25 hln 100 PART=BYW96E
+a 0 sp 0 0 0 0 hln 100 MODEL=BYW96E
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %A %K @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 s 1 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 10 hln 100 ERC=i
+a 0 s 0 0 0 10 hln 100 FLOAT=n
+p 0 17 12 hrn 100 K n 30 10 u
+a 0 s 1 0 25 8 hln 100 PIN=2
+a 0 s 0 0 30 10 hln 100 ERC=o
+a 0 s 0 0 30 10 hln 100 FLOAT=n
+@graphics 30 20 0 10 10
+v 0 20 5
+20 15
+;
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

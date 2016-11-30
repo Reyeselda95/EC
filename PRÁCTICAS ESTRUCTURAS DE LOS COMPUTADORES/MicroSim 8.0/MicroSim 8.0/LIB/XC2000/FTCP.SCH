@@ -1,0 +1,113 @@
+*version 6.3 3058055619
+u 93
+XC2000 355901205
+U? 3
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 1735 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 94 IF_OUT 960 370 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q
+port 95 IF_IN 130 340 h
+a 0 s 3 0 10 8 hln 80 LABEL=PRE
+port 96 IF_IN 130 380 h
+a 0 s 3 0 10 8 hln 80 LABEL=T
+port 97 IF_IN 130 440 h
+a 0 s 3 0 10 8 hln 80 LABEL=CLR
+port 98 IF_IN 130 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+@parts
+part 18 FDCP 640 340 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 10 hcn 200 PART=FDCP
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 XOR2 310 360 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 40 hlt 100 PART=XOR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+@conn
+w 25
+s 130 340 640 340 24
+a 0 s 3 0 140 340 hln 100 LABEL=PRE
+w 33
+s 130 440 640 440 32
+a 0 s 3 0 140 440 hln 100 LABEL=CLR
+w 41
+s 130 380 310 380 40
+a 0 s 3 0 140 380 hln 100 LABEL=T
+w 49
+s 130 410 640 410 48
+a 0 s 3 0 140 410 hln 100 LABEL=C
+w 57
+s 390 370 640 370 56
+a 0 s 3 0 410 370 hln 100 LABEL=TQ
+w 76
+s 790 370 960 370 70
+a 0 s 3 0 940 370 hln 100 LABEL=Q
+s 790 370 790 290 74
+s 290 360 310 360 71
+s 290 360 290 290 72
+s 290 290 790 290 73
+s 760 370 790 370 75
+@junction
+j 640 340
++ p 18 PRE
++ w 25
+j 640 440
++ p 18 CLR
++ w 33
+j 310 380
++ p 23 I0
++ w 41
+j 640 410
++ p 18 C
++ w 49
+j 640 370
++ p 18 D
++ w 57
+j 390 370
++ p 23 O
++ w 57
+j 790 370
++ w 76
++ w 76
+j 760 370
++ p 18 Q
++ w 76
+j 310 360
++ p 23 I1
++ w 76
+j 960 370
++ s 94
++ w 76
+j 130 340
++ s 95
++ w 25
+j 130 380
++ s 96
++ w 41
+j 130 440
++ s 97
++ w 33
+j 130 410
++ s 98
++ w 49
+@attributes
+@text
+s 5 700 780 hln 100 ENABLE AND ASYNC CLEAR & ASYNC PRESET
+s 5 750 770 hln 100 TOGGLE FLIP-FLOP WITH TOGGLE
+s 5 750 750 hln 100 XC2000 FAMILY FTCP MACRO
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 710 800 hln 100 5TH MAY 1993

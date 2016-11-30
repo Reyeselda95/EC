@@ -1,0 +1,290 @@
+*version 8.0 135972636
+@index
+symloc ZIP16-thru-socket 0 1839 16 THRU
+symloc ZIP20-thru-socket 1839 1957 20 THRU
+symloc ZIP24-thru-socket 3796 2105 24 THRU
+symloc ZIP28-thru-socket 5901 2238 28 THRU
+symloc ZIP40-thru-socket 8139 2625 40 THRU
+*footprint ZIP16-thru-socket 16 THRU
+@refdes 4
+display  [SilkTop] SilkTop -0.07 0.05 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop -0.07 0.05 4 90 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.4 -0.125 4 0 0.06 0.008 0 0 0
+@graphics
+arc [SilkTop] 0 -0.09 0.01 2.92403e-010 2.92403e-010 0.008
+line [SilkTop] -0.05 -0.05 0.75 -0.05 0.008 0
+line [SilkTop] 0.75 -0.05 0.75 0.05 0.008 0
+line [SilkTop] 0.75 0.05 0.8 0.05 0.008 0
+line [SilkTop] 0.8 0.05 0.8 0.15 0.008 0
+line [SilkTop] 0.8 0.15 0 0.15 0.008 0
+line [SilkTop] 0 0.15 0 0.05 0.008 0
+line [SilkTop] 0 0.05 -0.05 0.05 0.008 0
+line [SilkTop] -0.05 0.05 -0.05 -0.05 0.008 0
+arc [AssyDrwTop] 0 -0.09 0.01 2.92403e-010 2.92403e-010 0.008
+line [AssyDrwTop] -0.05 -0.05 0.75 -0.05 0.008 0
+line [AssyDrwTop] 0.75 -0.05 0.75 0.05 0.008 0
+line [AssyDrwTop] 0.75 0.05 0.8 0.05 0.008 0
+line [AssyDrwTop] 0.8 0.05 0.8 0.15 0.008 0
+line [AssyDrwTop] 0.8 0.15 0 0.15 0.008 0
+line [AssyDrwTop] 0 0.15 0 0.05 0.008 0
+line [AssyDrwTop] 0 0.05 -0.05 0.05 0.008 0
+line [AssyDrwTop] -0.05 0.05 -0.05 -0.05 0.008 0
+centroid [BoundaryTop] 0.375 0.05
+line [BoundaryTop] -0.06 -0.06 -0.06 0.16 0.008 0
+line [BoundaryTop] -0.06 0.16 0.81 0.16 0.008 0
+line [BoundaryTop] 0.81 0.16 0.81 -0.06 0.008 0
+line [BoundaryTop] 0.81 -0.06 -0.06 -0.06 0.008 0
+@pins
+pin 3 0.1 0 0 rnd-060-040 thru
+pin 5 0.2 0 0 rnd-060-040 thru
+pin 7 0.3 0 0 rnd-060-040 thru
+pin 9 0.4 0 0 rnd-060-040 thru
+pin 11 0.5 0 0 rnd-060-040 thru
+pin 13 0.6 0 0 rnd-060-040 thru
+pin 15 0.7 0 0 rnd-060-040 thru
+pin 2 0.05 0.1 0 rnd-060-040 thru
+pin 4 0.15 0.1 0 rnd-060-040 thru
+pin 6 0.25 0.1 0 rnd-060-040 thru
+pin 8 0.35 0.1 0 rnd-060-040 thru
+pin 10 0.45 0.1 0 rnd-060-040 thru
+pin 12 0.55 0.1 0 rnd-060-040 thru
+pin 14 0.65 0.1 0 rnd-060-040 thru
+pin 16 0.75 0.1 0 rnd-060-040 thru
+pin 1 0 0 0 sq-060-040 thru
+*footprint ZIP20-thru-socket 20 THRU
+@refdes 4
+display  [SilkTop] SilkTop -0.07 0.05 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop -0.07 0.05 4 90 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.45 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+arc [SilkTop] 0 -0.09 0.01 2.92403e-010 2.92403e-010 0.008
+line [SilkTop] 0 0.15 0 0.05 0.008 0
+line [SilkTop] 0 0.05 -0.05 0.05 0.008 0
+line [SilkTop] -0.05 0.05 -0.05 -0.05 0.008 0
+line [SilkTop] -0.05 -0.05 0.95 -0.05 0.008 0
+line [SilkTop] 0.95 -0.05 0.95 0.05 0.008 0
+line [SilkTop] 0.95 0.05 1 0.05 0.008 0
+line [SilkTop] 1 0.05 1 0.15 0.008 0
+line [SilkTop] 1 0.15 0 0.15 0.008 0
+arc [AssyDrwTop] 0 -0.09 0.01 2.92403e-010 2.92403e-010 0.008
+line [AssyDrwTop] 0 0.15 0 0.05 0.008 0
+line [AssyDrwTop] 0 0.05 -0.05 0.05 0.008 0
+line [AssyDrwTop] -0.05 0.05 -0.05 -0.05 0.008 0
+line [AssyDrwTop] -0.05 -0.05 0.95 -0.05 0.008 0
+line [AssyDrwTop] 0.95 -0.05 0.95 0.05 0.008 0
+line [AssyDrwTop] 0.95 0.05 1 0.05 0.008 0
+line [AssyDrwTop] 1 0.05 1 0.15 0.008 0
+line [AssyDrwTop] 1 0.15 0 0.15 0.008 0
+line [BoundaryTop] -0.06 -0.06 -0.06 0.16 0.008 0
+line [BoundaryTop] -0.06 0.16 1.01 0.16 0.008 0
+line [BoundaryTop] 1.01 0.16 1.01 -0.06 0.008 0
+line [BoundaryTop] 1.01 -0.06 -0.06 -0.06 0.008 0
+centroid [BoundaryTop] 0.475 0.05
+@pins
+pin 3 0.1 0 0 rnd-060-040 thru
+pin 5 0.2 0 0 rnd-060-040 thru
+pin 7 0.3 0 0 rnd-060-040 thru
+pin 9 0.4 0 0 rnd-060-040 thru
+pin 11 0.5 0 0 rnd-060-040 thru
+pin 13 0.6 0 0 rnd-060-040 thru
+pin 15 0.7 0 0 rnd-060-040 thru
+pin 2 0.05 0.1 0 rnd-060-040 thru
+pin 4 0.15 0.1 0 rnd-060-040 thru
+pin 6 0.25 0.1 0 rnd-060-040 thru
+pin 8 0.35 0.1 0 rnd-060-040 thru
+pin 10 0.45 0.1 0 rnd-060-040 thru
+pin 12 0.55 0.1 0 rnd-060-040 thru
+pin 14 0.65 0.1 0 rnd-060-040 thru
+pin 16 0.75 0.1 0 rnd-060-040 thru
+pin 1 0 0 0 sq-060-040 thru
+pin 17 0.8 0 0 rnd-060-040 thru
+pin 18 0.85 0.1 0 rnd-060-040 thru
+pin 19 0.9 0 0 rnd-060-040 thru
+pin 20 0.95 0.1 0 rnd-060-040 thru
+*footprint ZIP24-thru-socket 24 THRU
+@refdes 4
+display  [SilkTop] SilkTop -0.07 0.05 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop -0.07 0.05 4 90 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.55 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+arc [SilkTop] 0 -0.09 0.01 2.92403e-010 2.92403e-010 0.008
+line [SilkTop] 0 0.15 0 0.05 0.008 0
+line [SilkTop] 0 0.05 -0.05 0.05 0.008 0
+line [SilkTop] -0.05 0.05 -0.05 -0.05 0.008 0
+line [SilkTop] 1.15 -0.05 1.15 0.05 0.008 0
+line [SilkTop] 1.15 0.05 1.2 0.05 0.008 0
+line [SilkTop] 1.2 0.05 1.2 0.15 0.008 0
+line [SilkTop] -0.05 -0.05 1.15 -0.05 0.008 0
+line [SilkTop] 1.2 0.15 0 0.15 0.008 0
+arc [AssyDrwTop] 0 -0.09 0.01 2.92403e-010 2.92403e-010 0.008
+line [AssyDrwTop] 0 0.15 0 0.05 0.008 0
+line [AssyDrwTop] 0 0.05 -0.05 0.05 0.008 0
+line [AssyDrwTop] -0.05 0.05 -0.05 -0.05 0.008 0
+line [AssyDrwTop] 1.15 -0.05 1.15 0.05 0.008 0
+line [AssyDrwTop] 1.15 0.05 1.2 0.05 0.008 0
+line [AssyDrwTop] 1.2 0.05 1.2 0.15 0.008 0
+line [AssyDrwTop] -0.05 -0.05 1.15 -0.05 0.008 0
+line [AssyDrwTop] 1.2 0.15 0 0.15 0.008 0
+centroid [BoundaryTop] 0.575 0.05
+line [BoundaryTop] -0.06 -0.06 -0.06 0.16 0.008 0
+line [BoundaryTop] -0.06 0.16 1.21 0.16 0.008 0
+line [BoundaryTop] 1.21 0.16 1.21 -0.06 0.008 0
+line [BoundaryTop] 1.21 -0.06 -0.06 -0.06 0.008 0
+@pins
+pin 3 0.1 0 0 rnd-060-040 thru
+pin 5 0.2 0 0 rnd-060-040 thru
+pin 7 0.3 0 0 rnd-060-040 thru
+pin 9 0.4 0 0 rnd-060-040 thru
+pin 11 0.5 0 0 rnd-060-040 thru
+pin 13 0.6 0 0 rnd-060-040 thru
+pin 15 0.7 0 0 rnd-060-040 thru
+pin 2 0.05 0.1 0 rnd-060-040 thru
+pin 4 0.15 0.1 0 rnd-060-040 thru
+pin 6 0.25 0.1 0 rnd-060-040 thru
+pin 8 0.35 0.1 0 rnd-060-040 thru
+pin 10 0.45 0.1 0 rnd-060-040 thru
+pin 12 0.55 0.1 0 rnd-060-040 thru
+pin 14 0.65 0.1 0 rnd-060-040 thru
+pin 16 0.75 0.1 0 rnd-060-040 thru
+pin 1 0 0 0 sq-060-040 thru
+pin 17 0.8 0 0 rnd-060-040 thru
+pin 18 0.85 0.1 0 rnd-060-040 thru
+pin 19 0.9 0 0 rnd-060-040 thru
+pin 20 0.95 0.1 0 rnd-060-040 thru
+pin 21 1 0 0 rnd-060-040 thru
+pin 22 1.05 0.1 0 rnd-060-040 thru
+pin 23 1.1 0 0 rnd-060-040 thru
+pin 24 1.15 0.1 0 rnd-060-040 thru
+*footprint ZIP28-thru-socket 28 THRU
+@refdes 4
+display  [SilkTop] SilkTop -0.07 0.05 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop -0.07 0.05 4 90 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.7 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+arc [SilkTop] 0 -0.09 0.01 2.92403e-010 2.92403e-010 0.008
+line [SilkTop] 0 0.15 0 0.05 0.008 0
+line [SilkTop] 0 0.05 -0.05 0.05 0.008 0
+line [SilkTop] -0.05 0.05 -0.05 -0.05 0.008 0
+line [SilkTop] 1.4 0.05 1.4 0.15 0.008 0
+line [SilkTop] 1.35 0.05 1.4 0.05 0.008 0
+line [SilkTop] 1.35 -0.05 1.35 0.05 0.008 0
+line [SilkTop] -0.05 -0.05 1.35 -0.05 0.008 0
+line [SilkTop] 1.4 0.15 0 0.15 0.008 0
+arc [AssyDrwTop] 0 -0.09 0.01 2.92403e-010 2.92403e-010 0.008
+line [AssyDrwTop] 0 0.15 0 0.05 0.008 0
+line [AssyDrwTop] 0 0.05 -0.05 0.05 0.008 0
+line [AssyDrwTop] -0.05 0.05 -0.05 -0.05 0.008 0
+line [AssyDrwTop] 1.4 0.05 1.4 0.15 0.008 0
+line [AssyDrwTop] 1.35 0.05 1.4 0.05 0.008 0
+line [AssyDrwTop] 1.35 -0.05 1.35 0.05 0.008 0
+line [AssyDrwTop] -0.05 -0.05 1.35 -0.05 0.008 0
+line [AssyDrwTop] 1.4 0.15 0 0.15 0.008 0
+line [BoundaryTop] -0.06 -0.06 -0.06 0.16 0.008 0
+line [BoundaryTop] -0.06 0.16 1.41 0.16 0.008 0
+line [BoundaryTop] 1.41 0.16 1.41 -0.06 0.008 0
+line [BoundaryTop] 1.41 -0.06 -0.06 -0.06 0.008 0
+centroid [BoundaryTop] 0.675 0.05
+@pins
+pin 3 0.1 0 0 rnd-060-040 thru
+pin 5 0.2 0 0 rnd-060-040 thru
+pin 7 0.3 0 0 rnd-060-040 thru
+pin 9 0.4 0 0 rnd-060-040 thru
+pin 11 0.5 0 0 rnd-060-040 thru
+pin 13 0.6 0 0 rnd-060-040 thru
+pin 15 0.7 0 0 rnd-060-040 thru
+pin 2 0.05 0.1 0 rnd-060-040 thru
+pin 4 0.15 0.1 0 rnd-060-040 thru
+pin 6 0.25 0.1 0 rnd-060-040 thru
+pin 8 0.35 0.1 0 rnd-060-040 thru
+pin 10 0.45 0.1 0 rnd-060-040 thru
+pin 12 0.55 0.1 0 rnd-060-040 thru
+pin 14 0.65 0.1 0 rnd-060-040 thru
+pin 16 0.75 0.1 0 rnd-060-040 thru
+pin 1 0 0 0 sq-060-040 thru
+pin 17 0.8 0 0 rnd-060-040 thru
+pin 18 0.85 0.1 0 rnd-060-040 thru
+pin 19 0.9 0 0 rnd-060-040 thru
+pin 20 0.95 0.1 0 rnd-060-040 thru
+pin 21 1 0 0 rnd-060-040 thru
+pin 22 1.05 0.1 0 rnd-060-040 thru
+pin 23 1.1 0 0 rnd-060-040 thru
+pin 24 1.15 0.1 0 rnd-060-040 thru
+pin 25 1.2 0 0 rnd-060-040 thru
+pin 26 1.25 0.1 0 rnd-060-040 thru
+pin 27 1.3 0 0 rnd-060-040 thru
+pin 28 1.35 0.1 0 rnd-060-040 thru
+*footprint ZIP40-thru-socket 40 THRU
+@refdes 4
+display  [SilkTop] SilkTop -0.07 0.05 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop -0.07 0.05 4 90 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.95 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+arc [SilkTop] 0 -0.09 0.01 2.92403e-010 2.92403e-010 0.008
+line [SilkTop] 0 0.15 0 0.05 0.008 0
+line [SilkTop] 0 0.05 -0.05 0.05 0.008 0
+line [SilkTop] -0.05 0.05 -0.05 -0.05 0.008 0
+line [SilkTop] 1.95 0.05 2 0.05 0.008 0
+line [SilkTop] 2 0.05 2 0.15 0.008 0
+line [SilkTop] 1.95 -0.05 1.95 0.05 0.008 0
+line [SilkTop] -0.05 -0.05 1.95 -0.05 0.008 0
+line [SilkTop] 2 0.15 0 0.15 0.008 0
+arc [AssyDrwTop] 0 -0.09 0.01 2.92403e-010 2.92403e-010 0.008
+line [AssyDrwTop] 0 0.15 0 0.05 0.008 0
+line [AssyDrwTop] 0 0.05 -0.05 0.05 0.008 0
+line [AssyDrwTop] -0.05 0.05 -0.05 -0.05 0.008 0
+line [AssyDrwTop] 1.95 0.05 2 0.05 0.008 0
+line [AssyDrwTop] 2 0.05 2 0.15 0.008 0
+line [AssyDrwTop] 1.95 -0.05 1.95 0.05 0.008 0
+line [AssyDrwTop] -0.05 -0.05 1.95 -0.05 0.008 0
+line [AssyDrwTop] 2 0.15 0 0.15 0.008 0
+centroid [BoundaryTop] 0.975 0.05
+line [BoundaryTop] -0.06 -0.06 -0.06 0.16 0.008 0
+line [BoundaryTop] -0.06 0.16 2.01 0.16 0.008 0
+line [BoundaryTop] 2.01 0.16 2.01 -0.06 0.008 0
+line [BoundaryTop] 2.01 -0.06 -0.06 -0.06 0.008 0
+@pins
+pin 3 0.1 0 0 rnd-060-040 thru
+pin 5 0.2 0 0 rnd-060-040 thru
+pin 7 0.3 0 0 rnd-060-040 thru
+pin 9 0.4 0 0 rnd-060-040 thru
+pin 11 0.5 0 0 rnd-060-040 thru
+pin 13 0.6 0 0 rnd-060-040 thru
+pin 15 0.7 0 0 rnd-060-040 thru
+pin 2 0.05 0.1 0 rnd-060-040 thru
+pin 4 0.15 0.1 0 rnd-060-040 thru
+pin 6 0.25 0.1 0 rnd-060-040 thru
+pin 8 0.35 0.1 0 rnd-060-040 thru
+pin 10 0.45 0.1 0 rnd-060-040 thru
+pin 12 0.55 0.1 0 rnd-060-040 thru
+pin 14 0.65 0.1 0 rnd-060-040 thru
+pin 16 0.75 0.1 0 rnd-060-040 thru
+pin 1 0 0 0 sq-060-040 thru
+pin 17 0.8 0 0 rnd-060-040 thru
+pin 18 0.85 0.1 0 rnd-060-040 thru
+pin 19 0.9 0 0 rnd-060-040 thru
+pin 20 0.95 0.1 0 rnd-060-040 thru
+pin 21 1 0 0 rnd-060-040 thru
+pin 22 1.05 0.1 0 rnd-060-040 thru
+pin 23 1.1 0 0 rnd-060-040 thru
+pin 24 1.15 0.1 0 rnd-060-040 thru
+pin 25 1.2 0 0 rnd-060-040 thru
+pin 26 1.25 0.1 0 rnd-060-040 thru
+pin 27 1.3 0 0 rnd-060-040 thru
+pin 28 1.35 0.1 0 rnd-060-040 thru
+pin 29 1.4 0 0 rnd-060-040 thru
+pin 30 1.45 0.1 0 rnd-060-040 thru
+pin 31 1.5 0 0 rnd-060-040 thru
+pin 32 1.55 0.1 0 rnd-060-040 thru
+pin 33 1.6 0 0 rnd-060-040 thru
+pin 34 1.65 0.1 0 rnd-060-040 thru
+pin 35 1.7 0 0 rnd-060-040 thru
+pin 36 1.75 0.1 0 rnd-060-040 thru
+pin 37 1.8 0 0 rnd-060-040 thru
+pin 38 1.85 0.1 0 rnd-060-040 thru
+pin 39 1.9 0 0 rnd-060-040 thru
+pin 40 1.95 0.1 0 rnd-060-040 thru

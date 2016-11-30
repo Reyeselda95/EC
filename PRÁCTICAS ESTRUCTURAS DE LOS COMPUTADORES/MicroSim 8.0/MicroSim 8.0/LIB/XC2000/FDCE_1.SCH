@@ -1,0 +1,141 @@
+*version 6.3 377641198
+u 131
+XC2000 543991891
+U? 5
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 2261 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 132 IF_IN 240 330 h
+a 0 s 3 0 10 8 hln 80 LABEL=D
+port 133 IF_IN 240 370 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 134 IF_OUT 900 330 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q
+port 135 IF_IN 240 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=CLR
+port 136 IF_IN 240 350 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+@parts
+part 18 FDCP 600 300 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 10 hcn 200 PART=FDCP
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 22 INV 430 370 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U2
+a 0 sp 11 0 30 14 hlt 100 PART=INV
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 25 GND 570 430 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U3
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 31 M2_1 420 310 h
+a 0 sp 9 0 100 0 hrn 100 REFDES=U4
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 33
+s 240 370 430 370 32
+a 0 s 3 0 250 370 hln 100 LABEL=C
+w 46
+s 750 330 900 330 40
+a 0 s 3 0 880 330 hln 100 LABEL=Q
+s 750 330 750 260 41
+s 390 260 750 260 42
+s 390 310 390 260 43
+s 390 310 420 310 44
+s 720 330 750 330 45
+w 63
+s 240 350 420 350 62
+a 0 s 3 0 250 350 hln 100 LABEL=CE
+w 71
+s 240 330 420 330 70
+a 0 s 3 0 250 330 hln 100 LABEL=D
+w 81
+s 520 320 550 320 78
+a 0 s 3 0 520 320 hln 100 LABEL=Q_D
+s 550 330 550 320 79
+s 550 330 600 330 80
+w 95
+s 240 400 600 400 94
+a 0 s 3 0 250 400 hln 100 LABEL=CLR
+w 104
+s 570 430 570 300 102
+s 570 300 600 300 103
+w 118
+s 500 370 600 370 117
+a 0 s 3 0 520 370 hln 100 LABEL=CB
+@junction
+j 430 370
++ p 22 I
++ w 33
+j 750 330
++ w 46
++ w 46
+j 720 330
++ p 18 Q
++ w 46
+j 420 310
++ p 31 D0
++ w 46
+j 420 350
++ p 31 S0
++ w 63
+j 420 330
++ p 31 D1
++ w 71
+j 600 330
++ p 18 D
++ w 81
+j 520 320
++ p 31 O
++ w 81
+j 600 400
++ p 18 CLR
++ w 95
+j 600 300
++ p 18 PRE
++ w 104
+j 570 430
++ p 25 GROUND
++ w 104
+j 600 370
++ p 18 C
++ w 118
+j 500 370
++ p 22 O
++ w 118
+j 240 330
++ s 132
++ w 71
+j 240 370
++ s 133
++ w 33
+j 900 330
++ s 134
++ w 46
+j 240 400
++ s 135
++ w 95
+j 240 350
++ s 136
++ w 63
+@attributes
+@text
+s 5 750 750 hln 100 XC2000 FAMILY FDCE_1 MACRO
+s 5 710 800 hln 100 3RD MAY 1993
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 750 780 hln 100 CLK ENABLE & AN ASYNCHRONOUS CLR
+s 5 750 770 hln 100 D FLIP-FLOP WITH AN INVERTED CLK,

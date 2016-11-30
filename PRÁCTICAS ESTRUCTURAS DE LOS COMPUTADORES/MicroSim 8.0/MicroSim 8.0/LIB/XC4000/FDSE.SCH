@@ -1,0 +1,161 @@
+*version 6.3 49501999
+u 148
+XC4000 308238162
+U? 5
+@libraries
+XC4000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 2499 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 149 IF_IN 160 470 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 150 IF_IN 160 390 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 151 IF_IN 160 410 h
+a 0 s 3 0 10 8 hln 80 LABEL=D
+port 152 IF_OUT 960 430 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q
+port 153 IF_IN 160 340 h
+a 0 s 3 0 10 8 hln 80 LABEL=S
+@parts
+part 16 FD 660 430 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 20 hcn 200 PART=FD
+a 0 u 13 13 20 140 hln 100 RLOC=R0C0
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 22 OR3 520 320 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 60 hlt 100 PART=OR3
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 27 AND2B1 380 270 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 40 hlt 100 PART=AND2B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 32 AND2 380 390 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 36
+s 600 340 630 340 33
+a 0 s 3 0 600 340 hln 100 LABEL=A_S
+s 630 430 630 340 34
+s 630 430 660 430 35
+w 50
+s 160 410 380 410 49
+a 0 s 3 0 170 410 hln 100 LABEL=D
+w 58
+s 160 340 520 340 57
+a 0 s 3 0 170 340 hln 100 LABEL=S
+w 68
+s 490 320 520 320 65
+a 0 s 3 0 490 320 hln 100 LABEL=A0
+s 490 320 490 280 66
+s 460 280 490 280 67
+w 82
+s 160 470 660 470 81
+a 0 s 3 0 170 470 hln 100 LABEL=C
+w 92
+s 490 360 520 360 89
+a 0 s 3 0 490 360 hln 100 LABEL=A1
+s 490 400 490 360 90
+s 460 400 490 400 91
+w 111
+s 810 430 960 430 105
+a 0 s 3 0 940 430 hln 100 LABEL=Q
+s 810 430 810 250 106
+s 350 250 810 250 107
+s 350 270 350 250 108
+s 350 270 380 270 109
+s 780 430 810 430 110
+w 131
+s 160 390 350 390 127
+a 0 s 3 0 170 390 hln 100 LABEL=CE
+s 350 390 350 290 129
+s 350 290 380 290 128
+s 350 390 380 390 130
+@junction
+j 660 430
++ p 16 D
++ w 36
+j 600 340
++ p 22 O
++ w 36
+j 380 410
++ p 32 I0
++ w 50
+j 520 340
++ p 22 I1
++ w 58
+j 520 320
++ p 22 I2
++ w 68
+j 460 280
++ p 27 O
++ w 68
+j 660 470
++ p 16 C
++ w 82
+j 520 360
++ p 22 I0
++ w 92
+j 460 400
++ p 32 O
++ w 92
+j 810 430
++ w 111
++ w 111
+j 780 430
++ p 16 Q
++ w 111
+j 380 270
++ p 27 I1
++ w 111
+j 350 390
++ w 131
++ w 131
+j 380 290
++ p 27 I0
++ w 131
+j 380 390
++ p 32 I1
++ w 131
+j 160 470
++ s 149
++ w 82
+j 160 390
++ s 150
++ w 131
+j 160 410
++ s 151
++ w 50
+j 960 430
++ s 152
++ w 111
+j 160 340
++ s 153
++ w 58
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 710 800 hln 100 26TH JANUARY 1993
+s 5 760 780 hln 100 & SYNCHRONOUS SET
+s 5 760 750 hln 100 XC4000 FAMILY FDSE MACRO
+s 5 950 820 hln 100 A
+s 5 760 770 hln 100 D FLIP-FLOP WITH CLOCK ENABLE
+s 5 950 800 hln 100 1

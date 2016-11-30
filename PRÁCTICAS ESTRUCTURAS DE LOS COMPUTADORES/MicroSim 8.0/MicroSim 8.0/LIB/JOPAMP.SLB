@@ -1,0 +1,1427 @@
+*version 7.2 733351736
+@index
+symloc AN4558:412/OP 0 148
+symloc AN6551:551/OP 148 148
+symloc AN6552:412/OP 296 148
+symloc AN6553:412/OP 444 148
+symloc AN6554:124/OP 592 148
+symloc HA17080:080/OP 740 159
+symloc HA17082:412/OP 899 162
+symloc HA17083:083/OP 1061 159
+symloc HA17084:124/OP 1220 151
+symloc HA17558:412/OP 1371 151
+symloc HA17741:741/OP 1522 143
+symloc IR3741:741/OP 1665 140
+symloc M5216:op5 1805 160
+symloc M5220:op5 1965 156
+symloc M5228:op5 2121 155
+symloc M5238:op5 2276 190
+symloc M5260:op5 2466 167
+symloc MB3607:412/OP 2633 148
+symloc MB47082:412/OP 2781 151
+symloc MB47358:551/OP 2932 151
+symloc MB47833:412/OP 3083 158
+symloc NJM741:741/OP 3241 140
+symloc TA7272P:op6 3381 158
+symloc TA75060P:060/OP 3539 168
+symloc TA75061P:741/OP 3707 168
+symloc TA75062P:412/OP 3875 164
+symloc TA75064P:124/OP 4039 166
+symloc TA75070P:060/OP 4205 168
+symloc TA75071P:741/OP 4373 158
+symloc TA75072P:412/OP 4531 164
+symloc TA75074P:124/OP 4695 166
+symloc TA75254P:07/OP 4861 161
+symloc TA75358P:412/OP 5022 162
+symloc TA75458P:412/OP 5184 162
+symloc TA75557P:412/OP 5346 151
+symloc TA75558P:412/OP 5497 151
+symloc TA75559P:412/OP 5648 151
+symloc uPC151:741/OP 5799 140
+symloc uPC157:060/OP 5939 153
+symloc uPC258:412/OP 6092 147
+symloc uPC259:412/OP 6239 147
+symloc uPC301A:060/OP 6386 156
+symloc uPC356:741/OP 6542 154
+symloc uPC4061:741/OP 6696 156
+symloc uPC4064:124/OP 6852 162
+symloc uPC4071:741/OP 7014 156
+symloc uPC4074:124/OP 7170 163
+symloc uPC4081:741/OP 7333 143
+symloc uPC4082:412/OP 7476 161
+symloc uPC4556:412/OP 7637 161
+symloc uPC4557:412/OP 7798 161
+symloc uPC4558:412/OP 7959 150
+symloc uPC4559:412/OP 8109 161
+symloc uPC4560:412/OP 8270 150
+symloc uPC4570:412/OP 8420 161
+symloc uPC4572:412/OP 8581 161
+symloc uPC4574:124/OP 8742 162
+symloc uPC458:124/OP 8904 160
+symloc uPC4741:124/OP 9064 163
+symloc uPC55:709/OP 9227 137
+symloc uPC741C:741/OP 9364 143
+symloc uPC801:741/OP 9507 140
+symloc uPC803:412/OP 9647 158
+symloc uPC804:124/OP 9805 159
+symloc uPC811:741/OP 9964 141
+symloc uPC812:412/OP 10105 168
+symloc uPC813:741/OP 10273 153
+symloc uPC814:412/OP 10426 168
+symloc uPC815:07/OP 10594 139
+symloc uPC816:07/OP 10733 139
+symloc uPC821:741/OP 10872 153
+symloc uPC822:412/OP 11025 145
+symloc uPC824:124/OP 11170 160
+symloc uPC831:741/OP 11330 153
+symloc uPC832:412/OP 11483 145
+symloc uPC834:124/OP 11628 159
+symloc uPC842:412/OP 11787 145
+symloc uPC844:124/OP 11932 159
+symloc 060/OP 12091 1367 b
+symloc 07/OP 13458 1243 b
+symloc 080/OP 14701 1371 b
+symloc 083/OP 16072 1263 b
+symloc 119/OP 17335 1085 b
+symloc 124/OP 18420 940 b
+symloc 139/OP 19360 940 b
+symloc 411/OP 20300 1253 b
+symloc 412/OP 21553 939 b
+symloc 551/OP 22492 934 b
+symloc 709/OP 23426 1346 b
+symloc 741/OP 24772 1244 b
+symloc op5 26016 937 b
+symloc op6 26953 1096 b
+symloc op7 28049 1009 b
+symloc copyright 29058 575 b
+*symbol AN4558 ako 412/OP
+d Dual, compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=AN4558
+a 0 sp 0 0 50 60 hln 100 MODEL=AN4558
+*symbol AN6551 ako 551/OP
+d Dual, compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=AN6551
+a 0 sp 0 0 50 60 hln 100 MODEL=AN6551
+*symbol AN6552 ako 412/OP
+d Dual, compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=AN6552
+a 0 sp 0 0 50 60 hln 100 MODEL=AN6552
+*symbol AN6553 ako 412/OP
+d Dual, compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=AN6553
+a 0 sp 0 0 50 60 hln 100 MODEL=AN6553
+*symbol AN6554 ako 124/OP
+d Quad, compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=AN6554
+a 0 sp 0 0 50 60 hln 100 MODEL=AN6554
+*symbol HA17080 ako 080/OP
+d J-FET input uncompensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=HA17080
+a 0 sp 0 0 50 60 hcn 100 MODEL=HA17080
+*symbol HA17082 ako 412/OP
+d Dual, compensated, jfet input op amp
+@type p
+@attributes
+a 0 sp 11 0 48 52 hln 100 PART=HA17082
+a 0 sp 0 0 0 0 hln 100 MODEL=HA17082
+*symbol HA17083 ako 083/OP
+d Dual, compensated, 14-pin op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=HA17083
+a 0 sp 0 0 50 60 hln 100 MODEL=HA17083
+*symbol HA17084 ako 124/OP
+d Quad, compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=HA17084
+a 0 sp 0 0 50 60 hln 100 MODEL=HA17084
+*symbol HA17558 ako 412/OP
+d Dual, compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=HA17558
+a 0 sp 0 0 50 60 hln 100 MODEL=HA17558
+*symbol HA17741 ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=HA17741
+a 0 sp 0 0 50 60 hln 100 MODEL=HA17741
+*symbol IR3741 ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=IR3741
+a 0 sp 0 0 50 60 hln 100 MODEL=IR3741
+*symbol M5216 ako op5
+d Dual Large-Current Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=M5216
+a 0 sp 0 0 50 60 hln 100 MODEL=M5216
+*symbol M5220 ako op5
+d Dual Low-Noise Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=M5220
+a 0 sp 0 0 50 60 hln 100 MODEL=M5220
+*symbol M5228 ako op5
+d Quad Low-Noise Operational Amplifiers
+@type p
+@attributes
+a 0 s 11 0 50 60 hln 100 PART=M5228
+a 0 sp 0 0 50 60 hln 100 MODEL=M5228
+*symbol M5238 ako op5
+d Quad Low-Noise Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 48 58 hln 100 PART=M5238
+a 0 sp 0 0 50 60 hln 100 MODEL=M5238
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+*symbol M5260 ako op5
+d Dual High-Speed Low-Noise Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=M5260
+a 0 sp 0 0 50 60 hln 100 MODEL=M5260
+*symbol MB3607 ako 412/OP
+d Dual, compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MB3607
+a 0 sp 0 0 50 60 hln 100 MODEL=MB3607
+*symbol MB47082 ako 412/OP
+d Dual, compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MB47082
+a 0 sp 0 0 50 60 hln 100 MODEL=MB47082
+*symbol MB47358 ako 551/OP
+d Dual, compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MB47358
+a 0 sp 0 0 50 60 hln 100 MODEL=MB47358
+*symbol MB47833 ako 412/OP
+d Low noise dual opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=MB47833
+a 0 sp 0 0 50 60 hln 100 MODEL=MB47833
+*symbol NJM741 ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=NJM741
+a 0 sp 0 0 50 60 hln 100 MODEL=NJM741
+*symbol TA7272P ako op6
+d Dual Power Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 44 68 hln 100 PART=TA7272P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA7272P
+*symbol TA75060P ako 060/OP
+d J-fet input low-power opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=TA75060P
+a 0 sp 0 0 50 60 hcn 100 MODEL=TA75060P
+*symbol TA75061P ako 741/OP
+d J-fet input low-power opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75061P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75061P
+*symbol TA75062P ako 412/OP
+d J-FET input low-power, dual op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75062P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75062P
+*symbol TA75064P ako 124/OP
+d Quad op amp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75064P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75064P
+*symbol TA75070P ako 060/OP
+d J-fet input low-power opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=TA75070P
+a 0 sp 0 0 50 60 hcn 100 MODEL=TA75070P
+*symbol TA75071P ako 741/OP
+d J-FET input low-noise op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75071P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75071P
+*symbol TA75072P ako 412/OP
+d J-FET input low-power, dual op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75072P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75072P
+*symbol TA75074P ako 124/OP
+d Quad op amp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75074P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75074P
+*symbol TA75254P ako 07/OP
+d Instrumentation opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75254P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75254P
+*symbol TA75358P ako 412/OP
+d Bipolar, dual compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75358P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75358P
+*symbol TA75458P ako 412/OP
+d Bipolar, dual compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75458P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75458P
+*symbol TA75557P ako 412/OP
+d Dual low noise op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75557P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75557P
+*symbol TA75558P ako 412/OP
+d Dual low noise op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75558P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75558P
+*symbol TA75559P ako 412/OP
+d Dual low noise op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=TA75559P
+a 0 sp 0 0 50 60 hln 100 MODEL=TA75559P
+*symbol uPC151 ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC151
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC151
+*symbol uPC157 ako 060/OP
+d J-fet input op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=uPC157
+a 0 sp 0 0 50 60 hcn 100 MODEL=uPC157
+*symbol uPC258 ako 412/OP
+d Dual compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC258
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC258
+*symbol uPC259 ako 412/OP
+d Dual compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC259
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC259
+*symbol uPC301A ako 060/OP
+d J-fet input op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=uPC301A
+a 0 sp 0 0 50 60 hcn 100 MODEL=uPC301A
+*symbol uPC356 ako 741/OP
+d J-FET input compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC356
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC356
+*symbol uPC4061 ako 741/OP
+d J-FET input op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4061
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4061
+*symbol uPC4064 ako 124/OP
+d Quad opamp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4064
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4064
+*symbol uPC4071 ako 741/OP
+d J-FET input op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4071
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4071
+*symbol uPC4074 ako 124/OP
+d Quad op amp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4074
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4074
+*symbol uPC4081 ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4081
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4081
+*symbol uPC4082 ako 412/OP
+d Dual opamp 8-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4082
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4082
+*symbol uPC4556 ako 412/OP
+d Dual opamp 8-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4556
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4556
+*symbol uPC4557 ako 412/OP
+d Dual opamp 8-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4557
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4557
+*symbol uPC4558 ako 412/OP
+d Dual compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4558
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4558
+*symbol uPC4559 ako 412/OP
+d Dual opamp 8-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4559
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4559
+*symbol uPC4560 ako 412/OP
+d Dual compensated op amp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4560
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4560
+*symbol uPC4570 ako 412/OP
+d Dual opamp 8-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4570
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4570
+*symbol uPC4572 ako 412/OP
+d Dual opamp 8-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4572
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4572
+*symbol uPC4574 ako 124/OP
+d Quad opamp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4574
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4574
+*symbol uPC458 ako 124/OP
+d Quad op amp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC458
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC458
+*symbol uPC4741 ako 124/OP
+d Quad op amp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC4741
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC4741
+*symbol uPC55 ako 709/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=uPC55
+a 0 sp 0 0 50 60 hcn 100 MODEL=uPC55
+*symbol uPC741C ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC741C
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC741C
+*symbol uPC801 ako 741/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC801
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC801
+*symbol uPC803 ako 412/OP
+d Dual opamp 8-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC803
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC803
+*symbol uPC804 ako 124/OP
+d Quad opamp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC804
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC804
+*symbol uPC811 ako 741/OP
+d Op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC811
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC811
+*symbol uPC812 ako 412/OP
+d Dual j-fet input low-offset opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC812
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC812
+*symbol uPC813 ako 741/OP
+d 7-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC813
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC813
+*symbol uPC814 ako 412/OP
+d Dual j-fet input low-offset opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC814
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC814
+*symbol uPC815 ako 07/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC815
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC815
+*symbol uPC816 ako 07/OP
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC816
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC816
+*symbol uPC821 ako 741/OP
+d J-FET input op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC821
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC821
+*symbol uPC822 ako 412/OP
+d Dual opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC822
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC822
+*symbol uPC824 ako 124/OP
+d Quad op amp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC824
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC824
+*symbol uPC831 ako 741/OP
+d J-FET input op amp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC831
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC831
+*symbol uPC832 ako 412/OP
+d Dual opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC832
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC832
+*symbol uPC834 ako 124/OP
+d Quad opamp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC834
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC834
+*symbol uPC842 ako 412/OP
+d Dual opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC842
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC842
+*symbol uPC844 ako 124/OP
+d Quad opamp 14-connection subcircuit
+@type p
+@attributes
+a 0 sp 11 0 0 70 hln 100 PART=uPC844
+a 0 sp 0 0 50 60 hln 100 MODEL=uPC844
+*symbol 060/OP b
+d jfet input low-power opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 16 0 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %C1 %C2 @MODEL
+a 0 sp 11 0 0 70 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 60 33 hrn 60 C1 n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=i
+a 0 u 1 0 75 38 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 44 38 hln 60 C2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=8
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 50 25 hrn 60 OS n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+v 0 70 10
+50 20
+;
+*symbol 07/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 OS1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 78 46 hln 100 ERC=i
+a 0 u 0 0 18 96 hln 100 float=u
+p 2 52 25 hrn 50 OS2 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 80 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 080/OP b
+d J-FET input uncompensated op amp
+@type p
+@attributes
+a 0 sp 9 0 16 0 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %C1/OS1 %C2 @MODEL
+a 0 sp 11 0 0 70 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 61 33 hrn 50 C1/OS1 n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=i
+a 0 u 1 0 75 38 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 44 39 hln 50 C2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=8
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 51 24 hrn 50 OS2 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+v 0 70 10
+50 20
+;
+*symbol 083/OP b
+d Dual, compensated, 14-pin op amp
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=13
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=12
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 OS1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=14
+a 0 u 0 0 78 44 hln 100 ERC=i
+a 0 u 0 0 18 94 hln 100 float=u
+p 2 52 25 hrn 50 OS2 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=3
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 80 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 119/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 18 0 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %G @MODEL
+a 0 sp 11 0 0 70 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=12
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 52 hrn 100 G n 80 50 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 1 0 75 48 hln 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 10 0
+70 30
+;
+*symbol 124/OP b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 139/OP b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=12
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 411/OP b
+d JFET-input opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 52 hrn 50 B1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 46 hln 100 ERC=i
+a 0 u 0 0 20 96 hln 100 float=u
+p 2 67 12 hrn 50 B2 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 82 10 hln 100 ERC=i
+a 0 u 0 0 82 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol 412/OP b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 551/OP b
+d Dual, compensated op amp
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 709/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 16 0 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %C1 %C2 @MODEL
+a 0 sp 11 0 0 70 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 61 34 hrn 60 C1 n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=i
+a 0 u 1 0 75 38 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 45 39 hln 60 C2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=8
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 51 25 hrn 60 CO n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+v 0 70 10
+50 20
+;
+*symbol 741/OP b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 38 hrn 50 OS1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 78 44 hln 100 ERC=i
+a 0 u 0 0 18 94 hln 100 float=u
+p 2 52 25 hrn 50 OS2 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 80 -40 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 10
+50 20
+;
+v 0 50 40
+60 50
+;
+v 0 60 10
+70 10
+;
+v 0 60 50
+70 50
+;
+*symbol op5 b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol op6 b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 14 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 54 37 hrn 50 sense n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 40
+60 50
+;
+v 0 60 50
+70 50
+;
+*symbol op7 b
+d 6-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %6 %7 @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 75 28 hln 100 pin=6
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 8 hrn 100 pin=3
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 48 hrn 100 pin=2
+p 0 67 42 hrn 100 6 n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=x
+a 0 u 0 0 75 38 hln 100 pin=8
+p 0 62 48 hln 100 7 n 60 60 v
+a 0 u 0 0 55 62 hcn 100 pin=1
+a 0 u 0 0 60 60 hln 100 ERC=x
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 45 3 hcn 100 pin=7
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 0 0 35 62 hcn 100 pin=4
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1994-1996, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

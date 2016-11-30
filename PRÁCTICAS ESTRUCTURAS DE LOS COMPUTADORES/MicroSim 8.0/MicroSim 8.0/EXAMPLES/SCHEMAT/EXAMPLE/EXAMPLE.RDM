@@ -1,0 +1,21 @@
+This circuit is set up so you can enable and run any of the simulation 
+analysis types. You'll find more explanation of this example and the 
+different analysis types in Part 3 of your PSpice or PSpice A/D User's 
+Guide.
+
+Required Symbol libraries:
+	analog.slb
+	source.slb
+	port.slb
+	bipolar.slb
+	eval.slb (if using the evaluation version)
+
+Required model libraries:
+	bipolar.lib
+	eval.lib (if using the evaluation version)
+
+Required package libraries:
+	bipolar.plb
+	eval.plb (if using the evaluation version)
+
+Note: You can package this design for export to layout.

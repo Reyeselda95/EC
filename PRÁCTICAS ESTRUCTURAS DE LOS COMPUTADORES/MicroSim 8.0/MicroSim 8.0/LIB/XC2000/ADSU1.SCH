@@ -1,0 +1,300 @@
+*version 6.3 4063762339
+u 343
+XC2000 819048078
+U? 11
+@libraries
+XC2000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC2000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 4849 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 344 IF_OUT 1050 240 h
+a 0 s 3 0 20 8 hln 80 LABEL=S0
+port 345 IF_IN 50 300 h
+a 0 s 3 0 10 8 hln 80 LABEL=A0
+port 346 IF_IN 50 270 h
+a 0 s 3 0 10 8 hln 80 LABEL=ADD
+port 347 IF_IN 50 320 h
+a 0 s 3 0 10 8 hln 80 LABEL=B0
+port 348 IF_OUT 1050 370 h
+a 0 s 3 0 20 8 hln 80 LABEL=CO
+port 349 IF_IN 50 210 h
+a 0 s 3 0 10 8 hln 80 LABEL=CI
+@parts
+part 17 M2_1 790 360 h
+a 0 sp 9 0 60 70 hrn 100 REFDES=U1
+a 0 sp 11 0 50 20 hcn 200 PART=M2_1
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 22 AND2B1 250 300 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 40 hlt 100 PART=AND2B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 27 OR2B1 250 350 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 40 hlt 100 PART=OR2B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 32 OR2 250 400 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=OR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 37 AND2 250 450 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 38 AND2 410 410 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U6
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 39 OR2 570 420 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U7
+a 0 sp 11 0 10 40 hlt 100 PART=OR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 40 OR2 570 350 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U8
+a 0 sp 11 0 10 40 hlt 100 PART=OR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+part 47 XNOR4 790 210 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U9
+a 0 sp 11 0 10 80 hlt 100 PART=XNOR4
+a 0 a 0 0 0 0 hln 100 PKGREF=U9
+part 48 AND2 410 360 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U10
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U10
+@conn
+w 50
+s 330 360 410 360 49
+a 0 s 3 0 340 360 hln 100 LABEL=A1_0
+w 67
+s 50 270 760 270 63
+a 0 s 3 0 50 270 hln 100 LABEL=ADD
+s 760 270 790 270 64
+s 760 400 760 270 66
+s 760 400 790 400 65
+w 87
+s 650 430 720 430 84
+a 0 s 3 0 660 430 hln 100 LABEL=ADD_C0
+s 720 430 720 380 86
+s 720 380 790 380 85
+w 102
+s 650 360 790 360 101
+a 0 s 3 0 660 360 hln 100 LABEL=SUB_C0
+w 116
+s 490 370 570 370 115
+a 0 s 3 0 500 370 hln 100 LABEL=A1CI
+w 132
+s 330 460 550 460 129
+a 0 s 3 0 340 460 hln 100 LABEL=A3_0
+s 550 460 550 440 131
+s 550 440 570 440 130
+w 147
+s 330 410 410 410 146
+a 0 s 3 0 340 410 hln 100 LABEL=A2_0
+w 163
+s 330 310 550 310 160
+a 0 s 3 0 340 310 hln 100 LABEL=A0_0
+s 550 350 550 310 161
+s 550 350 570 350 162
+w 177
+s 890 370 1050 370 176
+a 0 s 3 0 1020 370 hln 100 LABEL=CO
+w 194
+s 50 320 200 320 184
+a 0 s 3 0 50 320 hln 100 LABEL=B0
+s 200 320 250 320 185
+s 200 370 200 320 191
+s 200 370 250 370 186
+s 200 420 200 370 190
+s 200 420 250 420 187
+s 200 470 200 420 189
+s 200 470 250 470 188
+s 200 320 200 230 192
+s 200 230 790 230 193
+w 247
+s 50 300 220 300 237
+a 0 s 3 0 50 300 hln 100 LABEL=A0
+s 220 300 220 250 239
+s 220 250 790 250 238
+s 220 450 220 400 241
+s 220 450 250 450 240
+s 220 400 250 400 242
+s 220 400 220 350 243
+s 220 350 250 350 244
+s 220 350 220 300 245
+s 220 300 250 300 246
+w 290
+s 870 240 1050 240 289
+a 0 s 3 0 1020 240 hln 100 LABEL=S0
+w 298
+s 490 420 570 420 297
+a 0 s 3 0 500 420 hln 100 LABEL=A2CI
+w 317
+s 50 210 380 210 311
+a 0 s 3 0 50 210 hln 100 LABEL=CI
+s 380 210 790 210 313
+s 380 380 380 210 315
+s 380 430 380 380 312
+s 380 430 410 430 314
+s 380 380 410 380 316
+@junction
+j 330 360
++ p 27 O
++ w 50
+j 410 360
++ p 48 I1
++ w 50
+j 760 270
++ w 67
++ w 67
+j 790 400
++ p 17 S0
++ w 67
+j 790 270
++ p 47 I0
++ w 67
+j 790 380
++ p 17 D1
++ w 87
+j 650 430
++ p 39 O
++ w 87
+j 790 360
++ p 17 D0
++ w 102
+j 650 360
++ p 40 O
++ w 102
+j 570 370
++ p 40 I0
++ w 116
+j 490 370
++ p 48 O
++ w 116
+j 330 460
++ p 37 O
++ w 132
+j 570 440
++ p 39 I0
++ w 132
+j 330 410
++ p 32 O
++ w 147
+j 410 410
++ p 38 I1
++ w 147
+j 330 310
++ p 22 O
++ w 163
+j 570 350
++ p 40 I1
++ w 163
+j 890 370
++ p 17 O
++ w 177
+j 200 320
++ w 194
++ w 194
+j 200 370
++ w 194
++ w 194
+j 200 420
++ w 194
++ w 194
+j 250 320
++ p 22 I0
++ w 194
+j 250 370
++ p 27 I0
++ w 194
+j 250 420
++ p 32 I0
++ w 194
+j 250 470
++ p 37 I0
++ w 194
+j 790 230
++ p 47 I2
++ w 194
+j 220 300
++ w 247
++ w 247
+j 220 400
++ w 247
++ w 247
+j 220 350
++ w 247
++ w 247
+j 250 300
++ p 22 I1
++ w 247
+j 250 350
++ p 27 I1
++ w 247
+j 250 400
++ p 32 I1
++ w 247
+j 250 450
++ p 37 I1
++ w 247
+j 790 250
++ p 47 I1
++ w 247
+j 870 240
++ p 47 O
++ w 290
+j 490 420
++ p 38 O
++ w 298
+j 570 420
++ p 39 I1
++ w 298
+j 380 210
++ w 317
++ w 317
+j 380 380
++ w 317
++ w 317
+j 410 430
++ p 38 I0
++ w 317
+j 790 210
++ p 47 I3
++ w 317
+j 410 380
++ p 48 I0
++ w 317
+j 1050 240
++ s 344
++ w 290
+j 50 300
++ s 345
++ w 247
+j 50 270
++ s 346
++ w 67
+j 50 320
++ s 347
++ w 194
+j 1050 370
++ s 348
++ w 177
+j 50 210
++ s 349
++ w 317
+@attributes
+@text
+s 5 710 800 hln 100 11TH MAY 1993
+s 5 750 780 hln 100 CARRY-IN AND CARRY-OUT
+s 5 750 770 hln 100 1-BIT FULL ADDER/SUBTRACTER WITH
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 950 820 hln 100 A
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 950 800 hln 100 1
+s 5 750 750 hln 100 XC2000 FAMILY ADSU1 MACRO

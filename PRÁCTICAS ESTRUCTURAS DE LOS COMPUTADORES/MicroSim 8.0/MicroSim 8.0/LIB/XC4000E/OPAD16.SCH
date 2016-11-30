@@ -1,0 +1,331 @@
+*version 6.3 124545006
+u 240
+XC4000E 188000568
+U? 17
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 5300 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 241 IF_IN 190 260 h
+a 0 s 3 0 10 8 hln 50 LABEL=O[15:0]
+@parts
+part 14 OPAD 500 750 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U1
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 15 OPAD 500 720 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U2
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 16 OPAD 500 690 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U3
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 17 OPAD 500 660 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U4
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 18 OPAD 500 630 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U5
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 19 OPAD 500 600 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U6
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 20 OPAD 500 570 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U7
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 21 OPAD 500 540 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U8
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+part 22 OPAD 500 510 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U9
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U9
+part 23 OPAD 500 480 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U10
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U10
+part 24 OPAD 500 450 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U11
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U11
+part 25 OPAD 500 420 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U12
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U12
+part 26 OPAD 500 390 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U13
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U13
+part 27 OPAD 500 360 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U14
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U14
+part 28 OPAD 500 330 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U15
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U15
+part 29 OPAD 500 300 h
+a 0 sp 9 0 90 0 hrn 100 REFDES=U16
+a 0 sp 11 0 0 0 hln 100 PART=OPAD
+a 0 a 0 0 0 0 hln 100 PKGREF=U16
+@conn
+b 47
+s 190 260 300 260 30
+a 0 s 3 0 190 250 hln 100 LABEL=O[15:0]
+s 300 750 300 720 31
+s 300 720 300 690 32
+s 300 690 300 660 33
+s 300 660 300 630 34
+s 300 630 300 600 35
+s 300 600 300 570 36
+s 300 570 300 540 37
+s 300 540 300 510 38
+s 300 510 300 480 39
+s 300 480 300 450 40
+s 300 450 300 420 41
+s 300 420 300 390 42
+s 300 390 300 360 43
+s 300 360 300 330 44
+s 300 330 300 300 45
+s 300 300 300 260 46
+w 49
+s 300 750 500 750 48
+a 0 s 3 0 310 750 hln 100 LABEL=O[15]
+s 300 750 300 750 50
+w 58
+s 300 720 500 720 57
+a 0 s 3 0 310 720 hln 100 LABEL=O[14]
+s 300 720 300 720 59
+w 67
+s 300 690 500 690 66
+a 0 s 3 0 310 690 hln 100 LABEL=O[13]
+s 300 690 300 690 68
+w 76
+s 300 660 500 660 75
+a 0 s 3 0 310 660 hln 100 LABEL=O[12]
+s 300 660 300 660 77
+w 85
+s 300 630 500 630 84
+a 0 s 3 0 310 630 hln 100 LABEL=O[11]
+s 300 630 300 630 86
+w 94
+s 300 600 500 600 93
+a 0 s 3 0 310 600 hln 100 LABEL=O[10]
+s 300 600 300 600 95
+w 103
+s 300 570 500 570 102
+a 0 s 3 0 310 570 hln 100 LABEL=O[9]
+s 300 570 300 570 104
+w 112
+s 300 540 500 540 111
+a 0 s 3 0 310 540 hln 100 LABEL=O[8]
+s 300 540 300 540 113
+w 121
+s 300 510 500 510 120
+a 0 s 3 0 310 510 hln 100 LABEL=O[7]
+s 300 510 300 510 122
+w 130
+s 300 480 500 480 129
+a 0 s 3 0 310 480 hln 100 LABEL=O[6]
+s 300 480 300 480 131
+w 139
+s 300 450 500 450 138
+a 0 s 3 0 310 450 hln 100 LABEL=O[5]
+s 300 450 300 450 140
+w 148
+s 300 420 500 420 147
+a 0 s 3 0 310 420 hln 100 LABEL=O[4]
+s 300 420 300 420 149
+w 157
+s 300 390 500 390 156
+a 0 s 3 0 310 390 hln 100 LABEL=O[3]
+s 300 390 300 390 158
+w 166
+s 300 360 500 360 165
+a 0 s 3 0 310 360 hln 100 LABEL=O[2]
+s 300 360 300 360 167
+w 175
+s 300 330 500 330 174
+a 0 s 3 0 310 330 hln 100 LABEL=O[1]
+s 300 330 300 330 176
+w 184
+s 300 300 500 300 183
+a 0 s 3 0 310 300 hln 100 LABEL=O[0]
+s 300 300 300 300 185
+@junction
+j 500 750
++ p 14 OPAD
++ w 49
+j 500 720
++ p 15 OPAD
++ w 58
+j 500 690
++ p 16 OPAD
++ w 67
+j 500 660
++ p 17 OPAD
++ w 76
+j 500 630
++ p 18 OPAD
++ w 85
+j 500 600
++ p 19 OPAD
++ w 94
+j 500 570
++ p 20 OPAD
++ w 103
+j 500 540
++ p 21 OPAD
++ w 112
+j 500 510
++ p 22 OPAD
++ w 121
+j 500 480
++ p 23 OPAD
++ w 130
+j 500 450
++ p 24 OPAD
++ w 139
+j 500 420
++ p 25 OPAD
++ w 148
+j 500 390
++ p 26 OPAD
++ w 157
+j 500 360
++ p 27 OPAD
++ w 166
+j 500 330
++ p 28 OPAD
++ w 175
+j 500 300
++ p 29 OPAD
++ w 184
+j 300 750
++ b 47
+O[15]
++ w 49
+j 300 720
++ b 47
+O[14]
++ w 58
+j 300 690
++ b 47
+O[13]
++ w 67
+j 300 660
++ b 47
+O[12]
++ w 76
+j 300 630
++ b 47
+O[11]
++ w 85
+j 300 600
++ b 47
+O[10]
++ w 94
+j 300 570
++ b 47
+O[9]
++ w 103
+j 300 540
++ b 47
+O[8]
++ w 112
+j 300 510
++ b 47
+O[7]
++ w 121
+j 300 480
++ b 47
+O[6]
++ w 130
+j 300 450
++ b 47
+O[5]
++ w 139
+j 300 420
++ b 47
+O[4]
++ w 148
+j 300 390
++ b 47
+O[3]
++ w 157
+j 300 360
++ b 47
+O[2]
++ w 166
+j 300 330
++ b 47
+O[1]
++ w 175
+j 300 300
++ b 47
+O[0]
++ w 184
+j 190 260
++ S 241
+O[15]
+O[14]
+O[13]
+O[12]
+O[11]
+O[10]
+O[9]
+O[8]
+O[7]
+O[6]
+O[5]
+O[4]
+O[3]
+O[2]
+O[1]
+O[0]
++ b 47
+O[15]
+O[14]
+O[13]
+O[12]
+O[11]
+O[10]
+O[9]
+O[8]
+O[7]
+O[6]
+O[5]
+O[4]
+O[3]
+O[2]
+O[1]
+O[0]
+@attributes
+@text
+s 5 30 1060 hln 100 DRAWN BY KS
+s 5 30 1070 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 710 1050 hrn 100 1
+s 5 700 1070 hln 100 A
+s 5 760 1000 hrn 100 XC4000E FAMILY OPAD16 MACRO
+s 5 670 1020 hrn 100 16-BIT OUTPUT PAD
+s 5 600 1050 hrn 100 1ST MARCH 1995

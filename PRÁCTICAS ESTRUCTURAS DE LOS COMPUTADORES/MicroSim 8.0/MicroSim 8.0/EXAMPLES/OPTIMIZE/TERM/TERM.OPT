@@ -1,0 +1,33 @@
+* Version 1.0
+@status
+specs 2 2
+4.999999e+000 4.999999e+000 
+-6.250000e+000 7.500000e+001 
+-6.250000e+000 7.500000e+001 
+-6.250000e+000 7.500000e+001 
+@specs
+est 0 1
+spec "Vc" 1 1
+sim "term" 1 0 "V(Vc)"
+isint 1
+isconstr 0
+int 2 3.75v 0.2v
+ext "" "" "" 1%
+spec "Rt" 1 1
+sim "term" 1 0 "V(Vr)"
+isint 1
+isconstr 0
+int 2 100 2
+ext "" "" "" 1%
+@params
+param R1val 1
+val 500 500 100 5k 5%
+param R2val 1
+val 500 500 100 5k 5%
+@controls
+delta 1%
+threshold 0
+cutback 0.25
+maxiters 20
+opt 0
+auto 1

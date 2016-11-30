@@ -1,0 +1,227 @@
+*version 6.3 3937334381
+u 230
+XC3000 2932873761
+U? 7
+@libraries
+XC3000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC3000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 3566 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 231 IF_OUT 910 560 h
+a 0 s 3 0 20 8 hln 80 LABEL=CEO
+port 232 IF_IN 170 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+port 233 IF_IN 170 480 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 234 IF_IN 170 460 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 235 IF_OUT 910 490 h
+a 0 s 3 0 20 8 hln 80 LABEL=TC
+port 236 IF_OUT 910 260 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 237 IF_OUT 910 440 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+@parts
+part 19 FTRSE 370 230 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U1
+a 0 sp 11 0 60 10 hcn 200 PART=FTRSE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 22 VCC 250 260 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U2
+a 0 sp 11 0 20 10 hcn 100 PART=VCC
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 23 FTRSE 370 410 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U3
+a 0 sp 11 0 60 10 hcn 200 PART=FTRSE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 28 AND2 740 550 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 29 AND2 740 480 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 32 GND 340 520 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U6
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+@conn
+w 39
+s 840 490 910 490 33
+a 0 s 3 0 880 490 hln 100 LABEL=TC
+s 840 530 840 490 37
+s 730 550 740 550 34
+s 730 550 730 530 35
+s 730 530 840 530 36
+s 820 490 840 490 38
+w 64
+s 560 260 910 260 56
+a 0 s 3 0 880 260 hln 100 LABEL=Q0
+s 490 260 560 260 57
+s 560 360 560 260 58
+s 560 480 560 360 60
+s 560 480 740 480 59
+s 310 360 560 360 61
+s 310 440 310 360 62
+s 310 440 370 440 63
+w 94
+s 170 480 270 480 90
+a 0 s 3 0 180 480 hln 100 LABEL=C
+s 270 480 270 300 92
+s 270 300 370 300 91
+s 270 480 370 480 93
+w 115
+s 170 510 250 510 111
+a 0 s 3 0 180 510 hln 100 LABEL=R
+s 250 510 370 510 112
+s 250 510 250 330 113
+s 250 330 370 330 114
+w 135
+s 580 440 910 440 131
+a 0 s 3 0 880 440 hln 100 LABEL=Q1
+s 490 440 580 440 132
+s 580 500 580 440 133
+s 580 500 740 500 134
+w 152
+s 250 260 370 260 151
+w 169
+s 340 520 340 410 165
+s 340 410 340 230 167
+s 340 230 370 230 166
+s 340 410 370 410 168
+w 198
+s 170 460 290 460 192
+a 0 s 3 0 180 460 hln 100 LABEL=CE
+s 290 570 290 460 194
+s 290 570 740 570 193
+s 290 460 370 460 195
+s 290 460 290 280 197
+s 290 280 370 280 196
+w 223
+s 820 560 910 560 222
+a 0 s 3 0 870 560 hln 100 LABEL=CEO
+@junction
+j 840 490
++ w 39
++ w 39
+j 740 550
++ p 28 I1
++ w 39
+j 820 490
++ p 29 O
++ w 39
+j 560 260
++ w 64
++ w 64
+j 560 360
++ w 64
++ w 64
+j 490 260
++ p 19 Q
++ w 64
+j 370 440
++ p 23 T
++ w 64
+j 740 480
++ p 29 I1
++ w 64
+j 270 480
++ w 94
++ w 94
+j 370 300
++ p 19 C
++ w 94
+j 370 480
++ p 23 C
++ w 94
+j 250 510
++ w 115
++ w 115
+j 370 330
++ p 19 R
++ w 115
+j 370 510
++ p 23 R
++ w 115
+j 580 440
++ w 135
++ w 135
+j 490 440
++ p 23 Q
++ w 135
+j 740 500
++ p 29 I0
++ w 135
+j 370 260
++ p 19 T
++ w 152
+j 250 260
++ p 22 VCC
++ w 152
+j 340 410
++ w 169
++ w 169
+j 370 230
++ p 19 S
++ w 169
+j 370 410
++ p 23 S
++ w 169
+j 340 520
++ p 32 GROUND
++ w 169
+j 290 460
++ w 198
++ w 198
+j 370 280
++ p 19 CE
++ w 198
+j 370 460
++ p 23 CE
++ w 198
+j 740 570
++ p 28 I0
++ w 198
+j 820 560
++ p 28 O
++ w 223
+j 910 560
++ s 231
++ w 223
+j 170 510
++ s 232
++ w 115
+j 170 480
++ s 233
++ w 94
+j 170 460
++ s 234
++ w 198
+j 910 490
++ s 235
++ w 39
+j 910 260
++ s 236
++ w 64
+j 910 440
++ s 237
++ w 135
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 750 780 hln 100 WITH CLOCK ENABLE & SYNC RESET
+s 5 750 770 hln 100 2-BIT CASCADABLE BINARY COUNTER
+s 5 750 750 hln 100 XC3000 FAMILY CB2RE MACRO
+s 5 710 800 hln 100 1ST MARCH 1993
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A

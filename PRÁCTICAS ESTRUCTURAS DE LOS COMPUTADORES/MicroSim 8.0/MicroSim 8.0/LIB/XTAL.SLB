@@ -1,0 +1,500 @@
+*version 7.2 324653595
+@index
+symloc QZP100K 0 735
+symloc QZP1MEG 735 733
+symloc QZP10MEG 1468 737
+symloc QZPCBRST 2205 736
+symloc QZS100K 2941 733
+symloc QZS1MEG 3674 731
+symloc QZS10MEG 4405 735
+symloc QZS32768 5140 733
+symloc copyright 5873 575 b
+*symbol QZP100K
+d 100KHz frequency standard, DT cut, parallel resonant, Q=20000
+@type p
+@attributes
+a 1 s 9 0 2 -6 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL
+a 0 sp 11 0 -4 32 hln 100 PART=QZP100K
+a 0 sp 0 0 -4 32 hln 100 MODEL=QZP100K
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 27 12 hrn 100 2 n 40 10 u
+a 0 u 0 0 35 8 hln 100 pin=2
+a 0 u 0 0 40 10 hln 100 ERC=x
+@graphics 40 20 0 0 10
+v 0 10 17
+10 17
+;
+v 0 29 16
+29 16
+;
+v 0 13 3
+13 16
+;
+v 0 13 16
+13 16
+;
+v 0 26 3
+26 15
+;
+v 0 26 15
+26 15
+;
+v 0 26 15
+26 16
+;
+v 0 26 16
+26 16
+;
+v 0 13 16
+13 17
+;
+v 0 13 17
+13 17
+;
+r 0 17 1 22 19
+v 0 10 10
+13 10
+;
+v 0 13 10
+13 10
+;
+v 0 26 10
+30 10
+;
+v 0 30 10
+30 10
+;
+*symbol QZP1MEG
+d 1MHz frequency standard, AT cut, parallel resonant, Q=25000
+@type p
+@attributes
+a 1 s 9 0 2 -6 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL
+a 0 sp 11 0 -4 32 hln 100 PART=QZP1MEG
+a 0 sp 0 0 -4 32 hln 100 MODEL=QZP1MEG
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 27 12 hrn 100 2 n 40 10 u
+a 0 u 0 0 35 8 hln 100 pin=2
+a 0 u 0 0 40 10 hln 100 ERC=x
+@graphics 40 20 0 0 10
+v 0 10 17
+10 17
+;
+v 0 29 16
+29 16
+;
+v 0 13 3
+13 16
+;
+v 0 13 16
+13 16
+;
+v 0 26 3
+26 15
+;
+v 0 26 15
+26 15
+;
+v 0 26 15
+26 16
+;
+v 0 26 16
+26 16
+;
+v 0 13 16
+13 17
+;
+v 0 13 17
+13 17
+;
+r 0 17 1 22 19
+v 0 10 10
+13 10
+;
+v 0 13 10
+13 10
+;
+v 0 26 10
+30 10
+;
+v 0 30 10
+30 10
+;
+*symbol QZP10MEG
+d 10MHz frequency standard, AT cut, parallel resonant, Q=25000
+@type p
+@attributes
+a 1 s 9 0 2 -6 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL
+a 0 sp 11 0 -4 32 hln 100 PART=QZP10MEG
+a 0 sp 0 0 -4 32 hln 100 MODEL=QZP10MEG
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 27 12 hrn 100 2 n 40 10 u
+a 0 u 0 0 35 8 hln 100 pin=2
+a 0 u 0 0 40 10 hln 100 ERC=x
+@graphics 40 20 0 0 10
+v 0 10 17
+10 17
+;
+v 0 29 16
+29 16
+;
+v 0 13 3
+13 16
+;
+v 0 13 16
+13 16
+;
+v 0 26 3
+26 15
+;
+v 0 26 15
+26 15
+;
+v 0 26 15
+26 16
+;
+v 0 26 16
+26 16
+;
+v 0 13 16
+13 17
+;
+v 0 13 17
+13 17
+;
+r 0 17 1 22 19
+v 0 10 10
+13 10
+;
+v 0 13 10
+13 10
+;
+v 0 26 10
+30 10
+;
+v 0 30 10
+30 10
+;
+*symbol QZPCBRST
+d 3.579545MHz color burst, AT cut, parallel resonant, Q=25000
+@type p
+@attributes
+a 1 s 9 0 2 -6 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL
+a 0 sp 11 0 -4 32 hln 100 PART=QZPCBRST
+a 0 sp 0 0 -4 32 hln 100 MODEL=QZPCBRST
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 27 12 hrn 100 2 n 40 10 u
+a 0 u 0 0 35 8 hln 100 pin=2
+a 0 u 0 0 40 10 hln 100 ERC=x
+@graphics 40 20 0 0 10
+v 0 10 17
+10 17
+;
+v 0 29 16
+29 16
+;
+v 0 13 3
+13 16
+;
+v 0 13 16
+13 16
+;
+v 0 26 3
+26 15
+;
+v 0 26 15
+26 15
+;
+v 0 26 15
+26 16
+;
+v 0 26 16
+26 16
+;
+v 0 13 16
+13 17
+;
+v 0 13 17
+13 17
+;
+r 0 17 1 22 19
+v 0 10 10
+13 10
+;
+v 0 13 10
+13 10
+;
+v 0 26 10
+30 10
+;
+v 0 30 10
+30 10
+;
+*symbol QZS100K
+d 100KHz frequency standard, DT cut, series resonant, Q=20000
+@type p
+@attributes
+a 1 s 9 0 2 -6 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL
+a 0 sp 11 0 -4 32 hln 100 PART=QZS100K
+a 0 sp 0 0 -4 32 hln 100 MODEL=QZS100K
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 27 12 hrn 100 2 n 40 10 u
+a 0 u 0 0 35 8 hln 100 pin=2
+a 0 u 0 0 40 10 hln 100 ERC=x
+@graphics 40 20 0 0 10
+v 0 10 17
+10 17
+;
+v 0 29 16
+29 16
+;
+v 0 13 3
+13 16
+;
+v 0 13 16
+13 16
+;
+v 0 26 3
+26 15
+;
+v 0 26 15
+26 15
+;
+v 0 26 15
+26 16
+;
+v 0 26 16
+26 16
+;
+v 0 13 16
+13 17
+;
+v 0 13 17
+13 17
+;
+r 0 17 1 22 19
+v 0 10 10
+13 10
+;
+v 0 13 10
+13 10
+;
+v 0 26 10
+30 10
+;
+v 0 30 10
+30 10
+;
+*symbol QZS1MEG
+d 1MHz frequency standard, AT cut, series resonant, Q=25000
+@type p
+@attributes
+a 1 s 9 0 2 -6 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL
+a 0 sp 11 0 -4 32 hln 100 PART=QZS1MEG
+a 0 sp 0 0 -4 32 hln 100 MODEL=QZS1MEG
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 27 12 hrn 100 2 n 40 10 u
+a 0 u 0 0 35 8 hln 100 pin=2
+a 0 u 0 0 40 10 hln 100 ERC=x
+@graphics 40 20 0 0 10
+v 0 10 17
+10 17
+;
+v 0 29 16
+29 16
+;
+v 0 13 3
+13 16
+;
+v 0 13 16
+13 16
+;
+v 0 26 3
+26 15
+;
+v 0 26 15
+26 15
+;
+v 0 26 15
+26 16
+;
+v 0 26 16
+26 16
+;
+v 0 13 16
+13 17
+;
+v 0 13 17
+13 17
+;
+r 0 17 1 22 19
+v 0 10 10
+13 10
+;
+v 0 13 10
+13 10
+;
+v 0 26 10
+30 10
+;
+v 0 30 10
+30 10
+;
+*symbol QZS10MEG
+d 10MHz frequency standard, AT cut, series resonant, Q=25000
+@type p
+@attributes
+a 1 s 9 0 2 -6 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL
+a 0 sp 11 0 -4 32 hln 100 PART=QZS10MEG
+a 0 sp 0 0 -4 32 hln 100 MODEL=QZS10MEG
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 27 12 hrn 100 2 n 40 10 u
+a 0 u 0 0 35 8 hln 100 pin=2
+a 0 u 0 0 40 10 hln 100 ERC=x
+@graphics 40 20 0 0 10
+v 0 10 17
+10 17
+;
+v 0 29 16
+29 16
+;
+v 0 13 3
+13 16
+;
+v 0 13 16
+13 16
+;
+v 0 26 3
+26 15
+;
+v 0 26 15
+26 15
+;
+v 0 26 15
+26 16
+;
+v 0 26 16
+26 16
+;
+v 0 13 16
+13 17
+;
+v 0 13 17
+13 17
+;
+r 0 17 1 22 19
+v 0 10 10
+13 10
+;
+v 0 13 10
+13 10
+;
+v 0 26 10
+30 10
+;
+v 0 30 10
+30 10
+;
+*symbol QZS32768
+d 32768 Hz watch crystal, XY cut, series resonant, Q=81780
+@type p
+@attributes
+a 1 s 9 0 2 -6 hln 100 REFDES=X?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL
+a 0 sp 11 0 -4 32 hln 100 PART=QZS32768
+a 0 sp 0 0 -4 32 hln 100 MODEL=QZS32768
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 u 0 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+p 0 27 12 hrn 100 2 n 40 10 u
+a 0 u 0 0 35 8 hln 100 pin=2
+a 0 u 0 0 40 10 hln 100 ERC=x
+@graphics 40 20 0 0 10
+v 0 10 17
+10 17
+;
+v 0 29 16
+29 16
+;
+v 0 13 3
+13 16
+;
+v 0 13 16
+13 16
+;
+v 0 26 3
+26 15
+;
+v 0 26 15
+26 15
+;
+v 0 26 15
+26 16
+;
+v 0 26 16
+26 16
+;
+v 0 13 16
+13 17
+;
+v 0 13 17
+13 17
+;
+r 0 17 1 22 19
+v 0 10 10
+13 10
+;
+v 0 13 10
+13 10
+;
+v 0 26 10
+30 10
+;
+v 0 30 10
+30 10
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

@@ -1,0 +1,722 @@
+*version 7.2 3405771315
+@index
+symloc ALD1701/AL:OP5/AL 0 146
+symloc ALD1701/DA/AL:OP5/AL 146 155
+symloc ALD1701/PA/AL:OP5/AL 301 155
+symloc ALD1701/SA/AL:OP5/AL 456 155
+symloc ALD1702/AL:OP5/AL 611 146
+symloc ALD1702/DA/AL:OP5/AL 757 155
+symloc ALD1702/PA/AL:OP5/AL 912 155
+symloc ALD1702/SA/AL:OP5/AL 1067 155
+symloc ALD1703/AL:OP5/AL 1222 146
+symloc ALD1703/DA/AL:OP5/AL 1368 155
+symloc ALD1703/PA/AL:OP5/AL 1523 155
+symloc ALD1703/SA/AL:OP5/AL 1678 155
+symloc ALD1704/AL:OP5/AL 1833 146
+symloc ALD1704/DA/AL:OP5/AL 1979 155
+symloc ALD1704/PA/AL:OP5/AL 2134 155
+symloc ALD1704/SA/AL:OP5/AL 2289 155
+symloc ALD1706/AL:OP5/AL 2444 146
+symloc ALD1706/DA/AL:OP5/AL 2590 155
+symloc ALD1706/PA/AL:OP5/AL 2745 155
+symloc ALD1706/SA/AL:OP5/AL 2900 155
+symloc ALD2701/DA/AL:2701 3055 153
+symloc ALD2701/PA/AL:2701 3208 153
+symloc ALD2701/SA/AL:2701 3361 153
+symloc ALD2701/SB/AL:2701B 3514 154
+symloc ALD2706/DA/AL:2701 3668 153
+symloc ALD2706/PA/AL:2701 3821 153
+symloc ALD2706/SA/AL:2701 3974 153
+symloc ALD2706/SB/AL:2701B 4127 154
+symloc ALD4701/DB/AL:4701 4281 185
+symloc ALD4701/PB/AL:4701 4466 185
+symloc ALD4701/SF/AL:4701F 4651 186
+symloc ALD4706/DB/AL:4706 4837 155
+symloc ALD4706/PB/AL:4706 4992 155
+symloc ALD4706/SF/AL:4701F 5147 186
+symloc 2701 5333 1091 b
+symloc 2701B 6424 1095 b
+symloc 4701 7519 1684 b
+symloc 4701F 9203 1689 b
+symloc 4706 10892 1684 b
+symloc OP5/AL 12576 941 b
+symloc OP4 13517 700 b
+symloc OP5 14217 788 b
+symloc OP6 15005 913 b
+symloc copyright 15918 575 b
+*symbol ALD1701/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1701/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1701/AL
+*symbol ALD1701/DA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1701/DA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1701/DA/AL
+*symbol ALD1701/PA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1701/PA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1701/PA/AL
+*symbol ALD1701/SA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1701/SA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1701/SA/AL
+*symbol ALD1702/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1702/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1702/AL
+*symbol ALD1702/DA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1702/DA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1702/DA/AL
+*symbol ALD1702/PA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1702/PA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1702/PA/AL
+*symbol ALD1702/SA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1702/SA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1702/SA/AL
+*symbol ALD1703/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1703/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1703/AL
+*symbol ALD1703/DA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1703/DA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1703/DA/AL
+*symbol ALD1703/PA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1703/PA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1703/PA/AL
+*symbol ALD1703/SA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1703/SA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1703/SA/AL
+*symbol ALD1704/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1704/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1704/AL
+*symbol ALD1704/DA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1704/DA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1704/DA/AL
+*symbol ALD1704/PA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1704/PA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1704/PA/AL
+*symbol ALD1704/SA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1704/SA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1704/SA/AL
+*symbol ALD1706/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1706/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1706/AL
+*symbol ALD1706/DA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1706/DA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1706/DA/AL
+*symbol ALD1706/PA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1706/PA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1706/PA/AL
+*symbol ALD1706/SA/AL ako OP5/AL
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=ALD1706/SA/AL
+a 0 sp 0 0 50 60 hln 100 MODEL=ALD1706/SA/AL
+*symbol ALD2701/DA/AL ako 2701
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 58 80 hln 100 PART=ALD2701/DA/AL
+a 0 sp 0 0 58 80 hln 100 MODEL=ALD2701/DA/AL
+*symbol ALD2701/PA/AL ako 2701
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 58 80 hln 100 PART=ALD2701/PA/AL
+a 0 sp 0 0 58 80 hln 100 MODEL=ALD2701/PA/AL
+*symbol ALD2701/SA/AL ako 2701
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 58 80 hln 100 PART=ALD2701/SA/AL
+a 0 sp 0 0 58 80 hln 100 MODEL=ALD2701/SA/AL
+*symbol ALD2701/SB/AL ako 2701B
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 58 80 hln 100 PART=ALD2701/SB/AL
+a 0 sp 0 0 58 80 hln 100 MODEL=ALD2701/SB/AL
+*symbol ALD2706/DA/AL ako 2701
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 58 80 hln 100 PART=ALD2706/DA/AL
+a 0 sp 0 0 58 80 hln 100 MODEL=ALD2706/DA/AL
+*symbol ALD2706/PA/AL ako 2701
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 58 80 hln 100 PART=ALD2706/PA/AL
+a 0 sp 0 0 58 80 hln 100 MODEL=ALD2706/PA/AL
+*symbol ALD2706/SA/AL ako 2701
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 58 80 hln 100 PART=ALD2706/SA/AL
+a 0 sp 0 0 58 80 hln 100 MODEL=ALD2706/SA/AL
+*symbol ALD2706/SB/AL ako 2701B
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 58 80 hln 100 PART=ALD2706/SB/AL
+a 0 sp 0 0 58 80 hln 100 MODEL=ALD2706/SB/AL
+*symbol ALD4701/DB/AL ako 4701
+d Quad micropower rail to rail CMOS opamp
+@type p
+@attributes
+a 0 sp 11 0 56 140 hln 100 PART=ALD4701/DB/AL
+a 0 sp 0 0 56 140 hln 100 MODEL=ALD4701/DB/AL
+*symbol ALD4701/PB/AL ako 4701
+d Quad micropower rail to rail CMOS opamp
+@type p
+@attributes
+a 0 sp 11 0 56 140 hln 100 PART=ALD4701/PB/AL
+a 0 sp 0 0 56 140 hln 100 MODEL=ALD4701/PB/AL
+*symbol ALD4701/SF/AL ako 4701F
+d Quad micropower rail to rail CMOS opamp
+@type p
+@attributes
+a 0 sp 11 0 56 140 hln 100 PART=ALD4701/SF/AL
+a 0 sp 0 0 56 140 hln 100 MODEL=ALD4701/SF/AL
+*symbol ALD4706/DB/AL ako 4706
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 56 140 hln 100 PART=ALD4706/DB/AL
+a 0 sp 0 0 56 140 hln 100 MODEL=ALD4706/DB/AL
+*symbol ALD4706/PB/AL ako 4706
+d ALD Opamp
+@type p
+@attributes
+a 0 sp 11 0 56 140 hln 100 PART=ALD4706/PB/AL
+a 0 sp 0 0 56 140 hln 100 MODEL=ALD4706/PB/AL
+*symbol ALD4706/SF/AL ako 4701F
+d Quad micropower rail to rail CMOS opamp
+@type p
+@attributes
+a 0 sp 11 0 56 140 hln 100 PART=ALD4706/SF/AL
+a 0 sp 0 0 56 140 hln 100 MODEL=ALD4706/SF/AL
+*symbol 2701 b
+d ALD Opamp
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %OUTA %A- %A+ %V- %B+ %B- %OUTB %V+ @MODEL
+a 0 sp 11 0 58 80 hln 100 PART=
+a 0 sp 0 0 58 80 hln 100 MODEL=
+@pins
+p 2 13 22 hln 100 A- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 A+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 52 hln 100 B- n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=6
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 62 hln 100 B+ n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=x
+p 2 48 20 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=8
+a 0 u 0 0 50 8 hln 100 ERC=x
+p 2 46 68 hln 100 V- n 50 80 v
+a 0 u 1 0 45 82 hcn 100 pin=4
+a 0 u 0 0 44 80 hln 100 ERC=x
+p 2 87 32 hrn 100 OUTA n 100 30 u
+a 0 u 1 0 95 28 hln 100 pin=1
+a 0 u 0 0 92 26 hln 100 ERC=x
+p 2 87 52 hrn 100 OUTB n 100 50 u
+a 0 u 1 0 95 48 hln 100 pin=7
+a 0 u 0 0 94 46 hln 100 ERC=x
+@graphics 100 80 0 20 10
+v 0 35 20
+35 60
+;
+v 0 35 60
+70 40
+;
+v 0 70 40
+35 20
+;
+s 26 37 33 hln 100 -
+s 26 37 53 hln 100 +
+r 0 10 10 90 70
+*symbol 2701B b
+d ALD Opamp
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %A- %A+ %V- %B+ %B- %OUTB %V+ %OUTA @MODEL
+a 0 sp 11 0 58 80 hln 100 PART=
+a 0 sp 0 0 58 80 hln 100 MODEL=
+@pins
+p 2 48 20 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=11
+a 0 u 0 0 50 8 hln 100 ERC=x
+p 2 46 68 hln 100 V- n 50 80 v
+a 0 u 1 0 45 82 hcn 100 pin=4
+a 0 u 0 0 44 80 hln 100 ERC=x
+p 2 13 22 hln 100 A- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 A+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 52 hln 100 B- n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=7
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 62 hln 100 B+ n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=x
+p 2 87 32 hrn 100 OUTA n 100 30 u
+a 0 u 1 0 95 28 hln 100 pin=12
+a 0 u 0 0 92 26 hln 100 ERC=x
+p 2 87 52 hrn 100 OUTB n 100 50 u
+a 0 u 1 0 95 48 hln 100 pin=10
+a 0 u 0 0 94 46 hln 100 ERC=x
+@graphics 100 80 0 20 10
+v 0 35 20
+35 60
+;
+v 0 35 60
+70 40
+;
+v 0 70 40
+35 20
+;
+s 26 37 33 hln 100 -
+s 26 37 53 hln 100 +
+r 0 10 10 90 70
+*symbol 4701 b
+d ALD Opamp
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %OUTA %A- %A+ %V+ %B+ %B- %OUTB %OUTD %D- %D+ %V- %C+ %C- %OUTC @MODEL
+a 0 sp 11 0 56 140 hln 100 PART=
+a 0 sp 0 0 56 140 hln 100 MODEL=
+@pins
+p 2 13 22 hln 100 A- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 A+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 52 hln 100 B- n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=6
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 62 hln 100 B+ n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=x
+p 2 87 32 hrn 100 OUTA n 100 30 u
+a 0 u 1 0 95 28 hln 100 pin=1
+a 0 u 0 0 92 26 hln 100 ERC=x
+p 2 87 62 hrn 100 OUTB n 100 60 u
+a 0 u 1 0 95 58 hln 100 pin=7
+a 0 u 0 0 94 56 hln 100 ERC=x
+p 2 48 20 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=4
+a 0 u 0 0 50 8 hln 100 ERC=x
+p 2 13 82 hln 100 C- n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=13
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 13 92 hln 100 C+ n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=12
+a 0 u 0 0 0 90 hln 100 ERC=x
+p 2 13 112 hln 100 D- n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=9
+a 0 u 0 0 0 110 hln 100 ERC=x
+p 2 13 122 hln 100 D+ n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=10
+a 0 u 0 0 0 120 hln 100 ERC=x
+p 2 87 92 hrn 100 OUTC n 100 90 u
+a 0 u 1 0 95 88 hln 100 pin=14
+a 0 u 0 0 90 90 hln 100 ERC=x
+p 2 87 122 hrn 100 OUTD n 100 120 u
+a 0 u 1 0 95 118 hln 100 pin=8
+a 0 u 0 0 90 120 hln 100 ERC=x
+p 2 46 128 hln 100 V- n 50 140 v
+a 0 u 1 0 45 142 hcn 100 pin=11
+a 0 u 0 0 50 140 hln 100 ERC=x
+@graphics 100 140 0 20 10
+v 0 35 50
+35 90
+;
+v 0 35 90
+70 70
+;
+v 0 70 70
+35 50
+;
+s 26 35 63 hln 100 -
+s 26 35 83 hln 100 +
+r 0 10 10 90 130
+*symbol 4701F b
+d ALD Opamp
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %OUTA %A- %A+ %V+ %B+ %B- %OUTB %OUTC %C- %C+ %V- %D+ %D- %OUTD @MODEL
+a 0 sp 11 0 56 140 hln 100 PART=
+a 0 sp 0 0 56 140 hln 100 MODEL=
+@pins
+p 2 87 32 hrn 100 OUTA n 100 30 u
+a 0 u 1 0 95 28 hln 100 pin=1
+a 0 u 0 0 92 26 hln 100 ERC=x
+p 2 13 22 hln 100 A- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 A+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=5
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 48 20 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=6
+a 0 u 0 0 50 8 hln 100 ERC=x
+p 2 13 62 hln 100 B+ n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=8
+a 0 u 0 0 0 60 hln 100 ERC=x
+p 2 13 52 hln 100 B- n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=10
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 87 62 hrn 100 OUTB n 100 60 u
+a 0 u 1 0 95 58 hln 100 pin=12
+a 0 u 0 0 94 56 hln 100 ERC=x
+p 2 87 122 hrn 100 OUTD n 100 120 u
+a 0 u 1 0 95 118 hln 100 pin=24
+a 0 u 0 0 90 120 hln 100 ERC=x
+p 2 13 112 hln 100 D- n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=22
+a 0 u 0 0 0 110 hln 100 ERC=x
+p 2 13 122 hln 100 D+ n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=20
+a 0 u 0 0 0 120 hln 100 ERC=x
+p 2 46 128 hln 100 V- n 50 140 v
+a 0 u 1 0 45 142 hcn 100 pin=19
+a 0 u 0 0 50 140 hln 100 ERC=x
+p 2 13 92 hln 100 C+ n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=17
+a 0 u 0 0 0 90 hln 100 ERC=x
+p 2 13 82 hln 100 C- n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=15
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 87 92 hrn 100 OUTC n 100 90 u
+a 0 u 1 0 95 88 hln 100 pin=13
+a 0 u 0 0 90 90 hln 100 ERC=x
+@graphics 100 140 0 20 10
+v 0 35 50
+35 90
+;
+v 0 35 90
+70 70
+;
+v 0 70 70
+35 50
+;
+s 26 35 63 hln 100 -
+s 26 35 83 hln 100 +
+r 0 10 10 90 130
+*symbol 4706 b
+d ALD Opamp
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %OUTA %A- %A+ %V+ %B+ %B- %OUTB %OUTC %C- %C+ %V- %D+ %D- %OUTD @MODEL
+a 0 sp 11 0 56 140 hln 100 PART=
+a 0 sp 0 0 56 140 hln 100 MODEL=
+@pins
+p 2 13 22 hln 100 A- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 2 13 32 hln 100 A+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 52 hln 100 B- n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=6
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 62 hln 100 B+ n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=x
+p 2 87 32 hrn 100 OUTA n 100 30 u
+a 0 u 1 0 95 28 hln 100 pin=1
+a 0 u 0 0 92 26 hln 100 ERC=x
+p 2 87 62 hrn 100 OUTB n 100 60 u
+a 0 u 1 0 95 58 hln 100 pin=7
+a 0 u 0 0 94 56 hln 100 ERC=x
+p 2 48 20 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=4
+a 0 u 0 0 50 8 hln 100 ERC=x
+p 2 46 128 hln 100 V- n 50 140 v
+a 0 u 1 0 45 142 hcn 100 pin=11
+a 0 u 0 0 50 140 hln 100 ERC=x
+p 2 87 92 hrn 100 OUTC n 100 90 u
+a 0 u 1 0 95 88 hln 100 pin=8
+a 0 u 0 0 90 90 hln 100 ERC=x
+p 2 13 82 hln 100 C- n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=9
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 13 92 hln 100 C+ n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=10
+a 0 u 0 0 0 90 hln 100 ERC=x
+p 2 13 122 hln 100 D+ n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=12
+a 0 u 0 0 0 120 hln 100 ERC=x
+p 2 13 112 hln 100 D- n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=13
+a 0 u 0 0 0 110 hln 100 ERC=x
+p 2 87 122 hrn 100 OUTD n 100 120 u
+a 0 u 1 0 95 118 hln 100 pin=14
+a 0 u 0 0 90 120 hln 100 ERC=x
+@graphics 100 140 0 20 10
+v 0 35 50
+35 90
+;
+v 0 35 90
+70 70
+;
+v 0 70 70
+35 50
+;
+s 26 35 63 hln 100 -
+s 26 35 83 hln 100 +
+r 0 10 10 90 130
+*symbol OP5/AL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol OP4 b
+d 4-connection opamp subcircuit
+@type p
+@attributes
+a 1 s 9 0 50 10 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 32 hln 100 + n 0 30 h
+a 0 u 0 0 0 24 hln 100 ERC=i
+a 0 u 0 0 5 28 hrn 100 pin=4
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 45 3 hcn 100 pin=5
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 35 62 hcn 100 pin=1
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 75 28 hln 100 pin=2
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol OP5 b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 8 hrn 100 pin=3
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 48 hrn 100 pin=2
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 45 3 hcn 100 pin=7
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 35 62 hcn 100 pin=4
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 75 28 hln 100 pin=6
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol OP6 b
+d 6-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %C @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 0 0 75 28 hln 100 pin=6
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 8 hrn 100 pin=3
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 5 48 hrn 100 pin=2
+p 0 67 52 hrn 100 C n 80 50 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 0 0 -5 2 hln 100 pin=
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 45 3 hcn 100 pin=7
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 0 0 35 62 hcn 100 pin=4
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

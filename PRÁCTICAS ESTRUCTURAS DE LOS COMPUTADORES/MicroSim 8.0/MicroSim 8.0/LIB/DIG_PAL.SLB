@@ -1,0 +1,3152 @@
+*version 7.2 1795036550
+@index
+symloc PAL10H8 0 3142
+symloc PAL10H8A:PAL10H8 3142 151
+symloc PAL10H8A2:PAL10H8 3293 154
+symloc PAL10L8:PAL10H8 3447 148
+symloc PAL10L8A:PAL10L8 3595 151
+symloc PAL10L8A2:PAL10L8 3746 154
+symloc PAL12H6 3900 3154
+symloc PAL12H6A:PAL12H6 7054 151
+symloc PAL12H6A2:PAL12H6 7205 154
+symloc PAL12L10 7359 3678
+symloc PAL12L10A:PAL12L10 11037 155
+symloc PAL12L6:PAL12H6 11192 148
+symloc PAL12L6A:PAL12L6 11340 151
+symloc PAL12L6A2:PAL12L6 11491 154
+symloc PAL14H4 11645 3158
+symloc PAL14H4A:PAL14H4 14803 151
+symloc PAL14H4A2:PAL14H4 14954 154
+symloc PAL14L4:PAL14H4 15108 148
+symloc PAL14L4A:PAL14L4 15256 151
+symloc PAL14L4A2:PAL14L4 15407 154
+symloc PAL14L8 15561 3682
+symloc PAL14L8A:PAL14L8 19243 151
+symloc PAL16C1:PAL16H2 19394 148
+symloc PAL16C1A:PAL16C1 19542 151
+symloc PAL16C1A2:PAL16C1 19693 154
+symloc PAL16H2 19847 3160
+symloc PAL16H2A:PAL16H2 23007 151
+symloc PAL16H2A2:PAL16H2 23158 154
+symloc PAL16L2:PAL16H2 23312 148
+symloc PAL16L2A:PAL16L2 23460 151
+symloc PAL16L2A2:PAL16L2 23611 154
+symloc PAL16L6 23765 3689
+symloc PAL16L6A:PAL16L6 27454 151
+symloc PAL16L8 27605 3143
+symloc PAL16L8A:PAL16L8 30748 151
+symloc PAL16L8A2:PAL16L8 30899 154
+symloc PAL16L8B:PAL16L8 31053 151
+symloc PAL16L8B2:PAL16L8 31204 154
+symloc PAL16L8D:PAL16L8 31358 151
+symloc PAL16R4 31509 3159
+symloc PAL16R4A:PAL16R4 34668 151
+symloc PAL16R4A2:PAL16R4 34819 154
+symloc PAL16R4B:PAL16R4 34973 151
+symloc PAL16R4B2:PAL16R4 35124 154
+symloc PAL16R4D:PAL16R4 35278 151
+symloc PAL16R6 35429 3154
+symloc PAL16R6A:PAL16R6 38583 151
+symloc PAL16R6A2:PAL16R6 38734 154
+symloc PAL16R6B:PAL16R6 38888 151
+symloc PAL16R6B2:PAL16R6 39039 154
+symloc PAL16R6D:PAL16R6 39193 151
+symloc PAL16R8 39344 3143
+symloc PAL16R8A:PAL16R8 42487 151
+symloc PAL16R8A2:PAL16R8 42638 154
+symloc PAL16R8B:PAL16R8 42792 151
+symloc PAL16R8B2:PAL16R8 42943 154
+symloc PAL16R8D:PAL16R8 43097 151
+symloc PAL18L4 43248 3694
+symloc PAL18L4A:PAL18L4 46942 151
+symloc PAL20C1:PAL20L2 47093 148
+symloc PAL20C1A:PAL20C1 47241 151
+symloc PAL20L10 47392 3678
+symloc PAL20L10A:PAL20L10 51070 155
+symloc PAL20L2 51225 3696
+symloc PAL20L2A:PAL20L2 54921 151
+symloc PAL20L8A 55072 3680
+symloc PAL20L8B:PAL20L8A 58752 152
+symloc PAL20L8D:PAL20L8A 58904 152
+symloc PAL20P8B 59056 3685
+symloc PAL20R4A 62741 3685
+symloc PAL20R4B:PAL20R4A 66426 152
+symloc PAL20R4D:PAL20R4A 66578 152
+symloc PAL20R6A 66730 3685
+symloc PAL20R6B:PAL20R6A 70415 152
+symloc PAL20R6D:PAL20R6A 70567 152
+symloc PAL20R8A 70719 3685
+symloc PAL20R8B:PAL20R8A 74404 152
+symloc PAL20R8D:PAL20R8A 74556 152
+symloc PAL20RP4B 74708 3688
+symloc PAL20RP6B 78396 3688
+symloc PAL20RP8B 82084 3688
+symloc PAL20X10 85772 3678
+symloc PAL20X10A:PAL20X10 89450 155
+symloc PAL20X4 89605 3675
+symloc PAL20X4A:PAL20X4 93280 151
+symloc PAL20X8 93431 3705
+symloc PAL20X8A:PAL20X8 97136 151
+symloc copyright 97287 575 b
+*symbol PAL10H8
+d 20-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 36 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin11 %pin12 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin10 @MODEL PARAMS: \n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin20)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(pin10)=$G_DGND
+a 0 sp 11 0 34 122 hlb 100 PART=PAL10H8
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL10H8
+a 0 u 0 0 0 10 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 24 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 24 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 24 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 24 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 24 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 24 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 24 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 24 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin11 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 -2 102 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin14 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=14
+a 0 u 0 0 28 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin15 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=15
+a 0 u 0 0 28 66 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin16 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=16
+a 0 u 0 0 28 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin17 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=17
+a 0 u 0 0 28 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin18 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=18
+a 0 u 0 0 28 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin19 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=19
+a 0 u 0 0 28 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 -14 hln 100 pin20 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=20
+a 0 u 0 0 24 -2 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin13 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=13
+a 0 u 0 0 28 88 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 4 128 hln 100 pin10 n 30 120 v
+a 0 u 1 0 25 122 hcn 100 pin=10
+a 0 u 0 0 32 122 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin12 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=12
+a 0 u 0 0 48 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 8 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 110 0 10 10
+r 0 10 0 50 110
+*symbol PAL10H8A ako PAL10H8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL10H8A
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL10H8A
+*symbol PAL10H8A2 ako PAL10H8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL10H8A2
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL10H8A2
+*symbol PAL10L8 ako PAL10H8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL10L8
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL10L8
+*symbol PAL10L8A ako PAL10L8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL10L8A
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL10L8A
+*symbol PAL10L8A2 ako PAL10L8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL10L8A2
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL10L8A2
+*symbol PAL12H6
+d 20-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 36 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin11 %pin12 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin10 @MODEL PARAMS: \n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin20)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(pin10)=$G_DGND
+a 0 sp 11 0 34 142 hlb 100 PART=PAL12H6
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL12H6
+a 0 u 0 0 0 10 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 24 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 24 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 24 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 24 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 24 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 24 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 24 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 24 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin11 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 -2 102 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin14 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=14
+a 0 u 0 0 28 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin15 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=15
+a 0 u 0 0 28 86 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin16 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=16
+a 0 u 0 0 28 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin17 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=17
+a 0 u 0 0 28 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin18 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=18
+a 0 u 0 0 28 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 -12 hln 100 pin20 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=20
+a 0 u 0 0 24 0 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 122 hrn 100 pin13 n 60 120 u
+a 0 u 1 0 55 118 hln 100 pin=13
+a 0 u 0 0 28 128 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 2 148 hln 100 pin10 n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=10
+a 0 u 0 0 30 142 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin12 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=12
+a 0 u 0 0 -2 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin19 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=19
+a 0 u 0 0 -22 124 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 130 0 10 10
+r 0 10 0 50 130
+*symbol PAL12H6A ako PAL12H6
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 142 hlb 100 PART=PAL12H6A
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL12H6A
+*symbol PAL12H6A2 ako PAL12H6
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 142 hlb 100 PART=PAL12H6A2
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL12H6A2
+*symbol PAL12L10
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 42 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 142 hlb 100 PART=PAL12L10
+a 0 sp 0 0 36 142 hlb 100 MODEL=PAL12L10
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin14 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=14
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin15 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=15
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin16 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=16
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin17 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=17
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin18 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=18
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin19 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=19
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin20 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=20
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin21 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=21
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin22 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=22
+a 0 u 0 0 36 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin23 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=23
+a 0 u 0 0 36 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 128 hln 100 pin12 n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 130 0 10 10
+r 0 10 0 50 130
+*symbol PAL12L10A ako PAL12L10
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 142 hlb 100 PART=PAL12L10A
+a 0 sp 0 0 36 142 hlb 100 MODEL=PAL12L10A
+*symbol PAL12L6 ako PAL12H6
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 142 hlb 100 PART=PAL12L6
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL12L6
+*symbol PAL12L6A ako PAL12L6
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 142 hlb 100 PART=PAL12L6A
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL12L6A
+*symbol PAL12L6A2 ako PAL12L6
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 142 hlb 100 PART=PAL12L6A2
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL12L6A2
+*symbol PAL14H4
+d 20-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 36 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin11 %pin12 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin10 @MODEL PARAMS: \n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin20)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(pin10)=$G_DGND
+a 0 sp 11 0 34 162 hlb 100 PART=PAL14H4
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL14H4
+a 0 u 0 0 0 10 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 24 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 24 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 24 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 24 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 24 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 24 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 24 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 24 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin11 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 -2 102 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin14 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=14
+a 0 u 0 0 28 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin15 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=15
+a 0 u 0 0 28 86 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin16 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=16
+a 0 u 0 0 28 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin17 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=17
+a 0 u 0 0 28 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin18 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=18
+a 0 u 0 0 -32 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin19 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=19
+a 0 u 0 0 -30 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 -14 hln 100 pin20 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=20
+a 0 u 0 0 24 -2 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 -30 128 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 2 168 hln 100 pin10 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=10
+a 0 u 0 0 30 162 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin12 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=12
+a 0 u 0 0 -12 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol PAL14H4A ako PAL14H4
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 162 hlb 100 PART=PAL14H4A
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL14H4A
+*symbol PAL14H4A2 ako PAL14H4
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 162 hlb 100 PART=PAL14H4A2
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL14H4A2
+*symbol PAL14L4 ako PAL14H4
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 162 hlb 100 PART=PAL14L4
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL14L4
+*symbol PAL14L4A ako PAL14L4
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 162 hlb 100 PART=PAL14L4A
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL14L4A
+*symbol PAL14L4A2 ako PAL14L4
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 162 hlb 100 PART=PAL14L4A2
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL14L4A2
+*symbol PAL14L8
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 162 hlb 100 PART=PAL14L8
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL14L8
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin15 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=15
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin16 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin17 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=17
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin18 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=18
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin20 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=20
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin21 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=21
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin22 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=22
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 148 hln 100 pin12 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=12
+a 0 u 0 0 20 160 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin23 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=23
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol PAL14L8A ako PAL14L8
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=PAL14L8A
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL14L8A
+*symbol PAL16C1 ako PAL16H2
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 182 hlb 100 PART=PAL16C1
+a 0 sp 0 0 34 182 hlb 100 MODEL=PAL16C1
+*symbol PAL16C1A ako PAL16C1
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 182 hlb 100 PART=PAL16C1A
+a 0 sp 0 0 34 182 hlb 100 MODEL=PAL16C1A
+*symbol PAL16C1A2 ako PAL16C1
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 182 hlb 100 PART=PAL16C1A2
+a 0 sp 0 0 34 182 hlb 100 MODEL=PAL16C1A2
+*symbol PAL16H2
+d 20-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 36 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin11 %pin12 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin10 @MODEL PARAMS: \n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin20)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(pin10)=$G_DGND
+a 0 sp 11 0 34 182 hlb 100 PART=PAL16H2
+a 0 sp 0 0 34 182 hlb 100 MODEL=PAL16H2
+a 0 u 0 0 0 10 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 24 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 24 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 24 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 24 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 24 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 24 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 24 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 24 90 hrn 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin11 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 -4 102 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin15 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=15
+a 0 u 0 0 28 96 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin16 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=16
+a 0 u 0 0 28 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 -14 hln 100 pin20 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=20
+a 0 u 0 0 24 -2 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 4 188 hln 100 pin10 n 30 180 v
+a 0 u 1 0 25 182 hcn 100 pin=10
+a 0 u 0 0 32 182 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin12 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=12
+a 0 u 0 0 -2 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 162 hln 100 pin19 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=19
+a 0 u 0 0 -22 164 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 -22 128 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 152 hln 100 pin18 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=18
+a 0 u 0 0 -22 154 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -22 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin17 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=17
+a 0 u 0 0 -22 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 170 0 10 10
+r 0 10 0 50 170
+*symbol PAL16H2A ako PAL16H2
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 182 hlb 100 PART=PAL16H2A
+a 0 sp 0 0 34 182 hlb 100 MODEL=PAL16H2A
+*symbol PAL16H2A2 ako PAL16H2
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 182 hlb 100 PART=PAL16H2A2
+a 0 sp 0 0 34 182 hlb 100 MODEL=PAL16H2A2
+*symbol PAL16L2 ako PAL16H2
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 182 hlb 100 PART=PAL16L2
+a 0 sp 0 0 34 182 hlb 100 MODEL=PAL16L2
+*symbol PAL16L2A ako PAL16L2
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 182 hlb 100 PART=PAL16L2A
+a 0 sp 0 0 34 182 hlb 100 MODEL=PAL16L2A
+*symbol PAL16L2A2 ako PAL16L2
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 182 hlb 100 PART=PAL16L2A2
+a 0 sp 0 0 34 182 hlb 100 MODEL=PAL16L2A2
+*symbol PAL16L6
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 42 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 182 hlb 100 PART=PAL16L6
+a 0 sp 0 0 36 182 hlb 100 MODEL=PAL16L6
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 -8 128 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 132 hrn 100 pin16 n 60 130 u
+a 0 u 1 0 55 128 hln 100 pin=16
+a 0 u 0 0 36 134 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin17 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=17
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin18 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=18
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin20 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=20
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin21 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=21
+a 0 u 0 0 36 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 168 hln 100 pin12 n 30 180 v
+a 0 u 1 0 25 182 hcn 100 pin=12
+a 0 u 0 0 20 180 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 162 hln 100 pin23 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=23
+a 0 u 0 0 -18 164 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin15 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=15
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 152 hln 100 pin22 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=22
+a 0 u 0 0 -24 154 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 170 0 10 10
+r 0 10 0 50 170
+*symbol PAL16L6A ako PAL16L6
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 182 hlb 100 PART=PAL16L6A
+a 0 sp 0 0 36 182 hlb 100 MODEL=PAL16L6A
+*symbol PAL16L8
+d 20-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 36 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin11 %pin12 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin10 @MODEL PARAMS: \n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin20)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(pin10)=$G_DGND
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16L8
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16L8
+a 0 u 0 0 0 10 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 24 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 24 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 24 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 24 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 24 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 24 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 24 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 24 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin11 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 -2 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin14 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=14
+a 0 u 0 0 28 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin15 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=15
+a 0 u 0 0 28 66 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin16 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=16
+a 0 u 0 0 28 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin17 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=17
+a 0 u 0 0 28 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin18 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=18
+a 0 u 0 0 28 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin19 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=19
+a 0 u 0 0 28 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 -14 hln 100 pin20 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=20
+a 0 u 0 0 24 -2 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin13 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=13
+a 0 u 0 0 28 88 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 2 128 hln 100 pin10 n 30 120 v
+a 0 u 1 0 25 122 hcn 100 pin=10
+a 0 u 0 0 30 122 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin12 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=12
+a 0 u 0 0 48 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 110 0 20 10
+r 0 10 0 50 110
+*symbol PAL16L8A ako PAL16L8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16L8A
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16L8A
+*symbol PAL16L8A2 ako PAL16L8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16L8A2
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16L8A2
+*symbol PAL16L8B ako PAL16L8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16L8B
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16L8B
+*symbol PAL16L8B2 ako PAL16L8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16L8B2
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16L8B2
+*symbol PAL16L8D ako PAL16L8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16L8D
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16L8D
+*symbol PAL16R4
+d 20-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 36 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin11 %pin12 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin10 @MODEL PARAMS: \n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin20)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(pin10)=$G_DGND
+a 0 sp 11 0 34 162 hlb 100 PART=PAL16R4
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL16R4
+a 0 u 0 0 0 10 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 24 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 24 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 24 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 24 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 24 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 24 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 24 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 24 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin11 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 -4 104 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin14 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=14
+a 0 u 0 0 28 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin15 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=15
+a 0 u 0 0 28 86 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin16 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=16
+a 0 u 0 0 28 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin17 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=17
+a 0 u 0 0 28 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin18 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=18
+a 0 u 0 0 -32 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin19 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=19
+a 0 u 0 0 -30 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 -14 hln 100 pin20 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=20
+a 0 u 0 0 24 -2 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 -30 128 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 2 168 hln 100 pin10 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=10
+a 0 u 0 0 30 162 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin12 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=12
+a 0 u 0 0 -12 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol PAL16R4A ako PAL16R4
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 162 hlb 100 PART=PAL16R4A
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL16R4A
+*symbol PAL16R4A2 ako PAL16R4
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 162 hlb 100 PART=PAL16R4A2
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL16R4A2
+*symbol PAL16R4B ako PAL16R4
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 162 hlb 100 PART=PAL16R4B
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL16R4B
+*symbol PAL16R4B2 ako PAL16R4
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 162 hlb 100 PART=PAL16R4B2
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL16R4B2
+*symbol PAL16R4D ako PAL16R4
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 162 hlb 100 PART=PAL16R4D
+a 0 sp 0 0 34 162 hlb 100 MODEL=PAL16R4D
+*symbol PAL16R6
+d 20-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 36 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin11 %pin12 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin10 @MODEL PARAMS: \n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin20)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(pin10)=$G_DGND
+a 0 sp 11 0 34 142 hlb 100 PART=PAL16R6
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL16R6
+a 0 u 0 0 0 10 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 24 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 24 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 24 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 24 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 24 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 24 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 24 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 24 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin11 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 0 102 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin14 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=14
+a 0 u 0 0 28 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin15 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=15
+a 0 u 0 0 28 86 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin16 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=16
+a 0 u 0 0 28 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin17 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=17
+a 0 u 0 0 28 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin18 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=18
+a 0 u 0 0 28 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 -14 hln 100 pin20 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=20
+a 0 u 0 0 24 -2 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 122 hrn 100 pin13 n 60 120 u
+a 0 u 1 0 55 118 hln 100 pin=13
+a 0 u 0 0 28 128 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 2 148 hln 100 pin10 n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=10
+a 0 u 0 0 30 142 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin12 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=12
+a 0 u 0 0 -2 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin19 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=19
+a 0 u 0 0 -22 124 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 130 0 10 10
+r 0 10 0 50 130
+*symbol PAL16R6A ako PAL16R6
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 142 hlb 100 PART=PAL16R6A
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL16R6A
+*symbol PAL16R6A2 ako PAL16R6
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 142 hlb 100 PART=PAL16R6A2
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL16R6A2
+*symbol PAL16R6B ako PAL16R6
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 142 hlb 100 PART=PAL16R6B
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL16R6B
+*symbol PAL16R6B2 ako PAL16R6
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 142 hlb 100 PART=PAL16R6B2
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL16R6B2
+*symbol PAL16R6D ako PAL16R6
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 142 hlb 100 PART=PAL16R6D
+a 0 sp 0 0 34 142 hlb 100 MODEL=PAL16R6D
+*symbol PAL16R8
+d 20-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 36 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin11 %pin12 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin10 @MODEL PARAMS: \n+ IO_LEVEL=@IO_LEVEL MNTYMXDLY=@MNTYMXDLY TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin20)=$G_DPWR
+a 0 u 0 0 0 0 hln 100 ipin(pin10)=$G_DGND
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16R8
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16R8
+a 0 u 0 0 0 10 hln 100 IO_LEVEL=0
+a 0 u 0 0 0 20 hln 100 MNTYMXDLY=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 24 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 24 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 24 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 24 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 24 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 24 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 24 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 24 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin11 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=11
+a 0 u 0 0 -2 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin14 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=14
+a 0 u 0 0 28 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin15 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=15
+a 0 u 0 0 28 66 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin16 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=16
+a 0 u 0 0 28 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin17 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=17
+a 0 u 0 0 28 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin18 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=18
+a 0 u 0 0 28 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin19 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=19
+a 0 u 0 0 28 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 -14 hln 100 pin20 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=20
+a 0 u 0 0 24 -2 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin13 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=13
+a 0 u 0 0 28 88 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 2 128 hln 100 pin10 n 30 120 v
+a 0 u 1 0 25 122 hcn 100 pin=10
+a 0 u 0 0 30 122 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin12 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=12
+a 0 u 0 0 48 90 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 12 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 110 0 10 10
+r 0 10 0 50 110
+*symbol PAL16R8A ako PAL16R8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16R8A
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16R8A
+*symbol PAL16R8A2 ako PAL16R8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16R8A2
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16R8A2
+*symbol PAL16R8B ako PAL16R8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16R8B
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16R8B
+*symbol PAL16R8B2 ako PAL16R8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16R8B2
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16R8B2
+*symbol PAL16R8D ako PAL16R8
+d 20-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 34 122 hlb 100 PART=PAL16R8D
+a 0 sp 0 0 34 122 hlb 100 MODEL=PAL16R8D
+*symbol PAL18L4
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 42 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 34 202 hlb 100 PART=PAL18L4
+a 0 sp 0 0 34 202 hlb 100 MODEL=PAL18L4
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 126 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 172 hrn 100 pin17 n 60 170 u
+a 0 u 1 0 55 168 hln 100 pin=17
+a 0 u 0 0 36 174 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 122 hrn 100 pin18 n 60 120 u
+a 0 u 1 0 55 118 hln 100 pin=18
+a 0 u 0 0 36 124 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin20 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=20
+a 0 u 0 0 36 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 188 hln 100 pin12 n 30 200 v
+a 0 u 1 0 25 202 hcn 100 pin=12
+a 0 u 0 0 20 200 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 182 hln 100 pin23 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=23
+a 0 u 0 0 -18 184 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin15 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=15
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 172 hln 100 pin22 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=22
+a 0 u 0 0 -24 174 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 152 hln 100 pin16 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=16
+a 0 u 0 0 -18 154 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 162 hln 100 pin21 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=21
+a 0 u 0 0 -18 164 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 190 0 20 10
+r 0 10 0 50 190
+*symbol PAL18L4A ako PAL18L4
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 202 hlb 100 PART=PAL18L4A
+a 0 sp 0 0 36 202 hlb 100 MODEL=PAL18L4A
+*symbol PAL20C1 ako PAL20L2
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 222 hlb 100 PART=PAL20C1
+a 0 sp 0 0 36 222 hlb 100 MODEL=PAL20C1
+*symbol PAL20C1A ako PAL20C1
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 222 hlb 100 PART=PAL20C1A
+a 0 sp 0 0 36 222 hlb 100 MODEL=PAL20C1A
+*symbol PAL20L10
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 42 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 142 hlb 100 PART=PAL20L10
+a 0 sp 0 0 36 142 hlb 100 MODEL=PAL20L10
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin14 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=14
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin15 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=15
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin16 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=16
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin17 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=17
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin18 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=18
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin19 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=19
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin20 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=20
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin21 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=21
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin22 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=22
+a 0 u 0 0 36 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 128 hln 100 pin12 n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin23 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=23
+a 0 u 0 0 42 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 140 0 10 10
+r 0 10 0 50 130
+*symbol PAL20L10A ako PAL20L10
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 152 hlb 100 PART=PAL20L10A
+a 0 sp 0 0 36 152 hlb 100 MODEL=PAL20L10A
+*symbol PAL20L2
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 42 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 34 222 hlb 100 PART=PAL20L2
+a 0 sp 0 0 34 222 hlb 100 MODEL=PAL20L2
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 4 136 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 142 hrn 100 pin18 n 60 140 u
+a 0 u 1 0 55 138 hln 100 pin=18
+a 0 u 0 0 34 144 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 34 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 20 208 hln 100 pin12 n 30 220 v
+a 0 u 1 0 25 222 hcn 100 pin=12
+a 0 u 0 0 18 220 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 202 hln 100 pin23 n 0 200 h
+a 0 u 1 0 5 198 hrn 100 pin=23
+a 0 u 0 0 -18 204 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin15 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=15
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 192 hln 100 pin22 n 0 190 h
+a 0 u 1 0 5 188 hrn 100 pin=22
+a 0 u 0 0 -24 194 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 152 hln 100 pin16 n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=16
+a 0 u 0 0 -18 154 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 182 hln 100 pin21 n 0 180 h
+a 0 u 1 0 5 178 hrn 100 pin=21
+a 0 u 0 0 -18 184 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 162 hln 100 pin17 n 0 160 h
+a 0 u 1 0 5 158 hrn 100 pin=17
+a 0 u 0 0 -18 164 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 172 hln 100 pin20 n 0 170 h
+a 0 u 1 0 5 168 hrn 100 pin=20
+a 0 u 0 0 -18 174 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 210 0 10 10
+r 0 10 0 50 210
+*symbol PAL20L2A ako PAL20L2
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 222 hlb 100 PART=PAL20L2A
+a 0 sp 0 0 36 222 hlb 100 MODEL=PAL20L2A
+*symbol PAL20L8A
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 42 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 152 hlb 100 PART=PAL20L8A
+a 0 sp 0 0 36 152 hlb 100 MODEL=PAL20L8A
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin15 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=15
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin16 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=16
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin17 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=17
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin18 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=18
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin19 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=19
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin20 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=20
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin21 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=21
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin22 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=22
+a 0 u 0 0 36 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 138 hln 100 pin12 n 30 150 v
+a 0 u 1 0 25 152 hcn 100 pin=12
+a 0 u 0 0 20 150 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin23 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=23
+a 0 u 0 0 -20 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -20 132 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 140 0 10 10
+r 0 10 0 50 140
+*symbol PAL20L8B ako PAL20L8A
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 152 hlb 100 PART=PAL20L8B
+a 0 sp 0 0 36 152 hlb 100 MODEL=PAL20L8B
+*symbol PAL20L8D ako PAL20L8A
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 152 hlb 100 PART=PAL20L8D
+a 0 sp 0 0 36 152 hlb 100 MODEL=PAL20L8D
+*symbol PAL20P8B
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20P8B
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20P8B
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin15 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=15
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin16 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin17 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=17
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin18 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=18
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin20 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=20
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin21 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=21
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin22 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=22
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 148 hln 100 pin12 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=12
+a 0 u 0 0 20 160 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin23 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=23
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol PAL20R4A
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20R4A
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20R4A
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin15 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=15
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin16 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin17 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=17
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin18 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=18
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin20 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=20
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin21 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=21
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin22 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=22
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 148 hln 100 pin12 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=12
+a 0 u 0 0 20 160 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin23 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=23
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol PAL20R4B ako PAL20R4A
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20R4B
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20R4B
+*symbol PAL20R4D ako PAL20R4A
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20R4D
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20R4D
+*symbol PAL20R6A
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20R6A
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20R6A
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin15 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=15
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin16 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin17 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=17
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin18 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=18
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin20 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=20
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin21 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=21
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin22 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=22
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 148 hln 100 pin12 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=12
+a 0 u 0 0 20 160 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin23 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=23
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol PAL20R6B ako PAL20R6A
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20R6B
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20R6B
+*symbol PAL20R6D ako PAL20R6A
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20R6D
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20R6D
+*symbol PAL20R8A
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20R8A
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20R8A
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin15 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=15
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin16 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin17 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=17
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin18 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=18
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin20 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=20
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin21 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=21
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin22 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=22
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 148 hln 100 pin12 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=12
+a 0 u 0 0 20 160 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin23 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=23
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol PAL20R8B ako PAL20R8A
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20R8B
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20R8B
+*symbol PAL20R8D ako PAL20R8A
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20R8D
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20R8D
+*symbol PAL20RP4B
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20RP4B
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20RP4B
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin15 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=15
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin16 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin17 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=17
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin18 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=18
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin20 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=20
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin21 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=21
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin22 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=22
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 148 hln 100 pin12 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=12
+a 0 u 0 0 20 160 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin23 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=23
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol PAL20RP6B
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20RP6B
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20RP6B
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin15 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=15
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin16 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin17 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=17
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin18 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=18
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin20 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=20
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin21 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=21
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin22 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=22
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 148 hln 100 pin12 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=12
+a 0 u 0 0 20 160 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin23 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=23
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol PAL20RP8B
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 40 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 162 hlb 100 PART=PAL20RP8B
+a 0 sp 0 0 36 162 hlb 100 MODEL=PAL20RP8B
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin15 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=15
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin16 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=16
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin17 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=17
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin18 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=18
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin19 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=19
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin20 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=20
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin21 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=21
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin22 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=22
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 148 hln 100 pin12 n 30 160 v
+a 0 u 1 0 25 162 hcn 100 pin=12
+a 0 u 0 0 20 160 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 132 hln 100 pin14 n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=14
+a 0 u 0 0 -18 134 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 142 hln 100 pin23 n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=23
+a 0 u 0 0 -18 144 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 150 0 10 10
+r 0 10 0 50 150
+*symbol PAL20X10
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 42 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 142 hlb 100 PART=PAL20X10
+a 0 sp 0 0 36 142 hlb 100 MODEL=PAL20X10
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin14 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=14
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin15 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=15
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin16 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=16
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin17 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=17
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin18 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=18
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin19 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=19
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin20 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=20
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin21 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=21
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin22 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=22
+a 0 u 0 0 36 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin23 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=23
+a 0 u 0 0 36 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 128 hln 100 pin12 n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 130 0 10 10
+r 0 10 0 50 130
+*symbol PAL20X10A ako PAL20X10
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 142 hlb 100 PART=PAL20X10A
+a 0 sp 0 0 36 142 hlb 100 MODEL=PAL20X10A
+*symbol PAL20X4
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 42 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 142 hlb 100 PART=PAL20X4
+a 0 sp 0 0 36 142 hlb 100 MODEL=PAL20X4
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin14 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=14
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin15 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=15
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin16 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=16
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin17 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=17
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin18 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=18
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin19 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=19
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin20 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=20
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin21 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=21
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin22 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=22
+a 0 u 0 0 36 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin23 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=23
+a 0 u 0 0 36 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 128 hln 100 pin12 n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 130 0 10 10
+r 0 10 0 50 130
+*symbol PAL20X4A ako PAL20X4
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 142 hlb 100 PART=PAL20X4A
+a 0 sp 0 0 36 142 hlb 100 MODEL=PAL20X4A
+*symbol PAL20X8
+d 24-pin PAL device
+@type p
+@attributes
+a 1 s 9 0 42 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %pin1 %pin2 %pin3 %pin4 %pin5 %pin6 %pin7 %pin8 %pin9 %pin10 %pin11 %pin13 %pin14 %pin15 %pin16 %pin17 %pin18 %pin19 %pin20 %pin21 %pin22 %pin23 %pin24 %pin12 @MODEL PARAMS: \n+ MNTYMXDLY=@MNTYMXDLY IO_LEVEL=@IO_LEVEL TEXT: JEDEC_FILE="@JEDEC_FILE"
+a 0 u 0 0 0 0 hln 100 ipin(pin12)=$G_DGND
+a 0 u 0 0 0 0 hln 100 ipin(pin24)=$G_DPWR
+a 0 sp 11 0 36 142 hlb 100 PART=PAL20X8
+a 0 sp 0 0 36 142 hlb 100 MODEL=PAL20X8
+a 0 u 0 0 0 10 hlb 100 MNTYMXDLY=0
+a 0 u 0 0 0 20 hlb 100 IO_LEVEL=0
+a 0 u 0 0 0 30 hln 100 JEDEC_FILE=PAL.JED
+@pins
+p 0 13 12 hln 100 pin1 n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 32 hln 100 pin3 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 42 hln 100 pin4 n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 52 hln 100 pin5 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 62 hln 100 pin6 n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 72 hln 100 pin7 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 82 hln 100 pin8 n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 92 hln 100 pin9 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 102 hln 100 pin10 n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=10
+a 0 u 0 0 -4 100 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 112 hln 100 pin11 n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=11
+a 0 u 0 0 -4 110 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 122 hln 100 pin13 n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=13
+a 0 u 0 0 0 130 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 112 hrn 100 pin14 n 60 110 u
+a 0 u 1 0 55 108 hln 100 pin=14
+a 0 u 0 0 36 114 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 102 hrn 100 pin15 n 60 100 u
+a 0 u 1 0 55 98 hln 100 pin=15
+a 0 u 0 0 36 104 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 92 hrn 100 pin16 n 60 90 u
+a 0 u 1 0 55 88 hln 100 pin=16
+a 0 u 0 0 36 94 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 82 hrn 100 pin17 n 60 80 u
+a 0 u 1 0 55 78 hln 100 pin=17
+a 0 u 0 0 36 84 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 72 hrn 100 pin18 n 60 70 u
+a 0 u 1 0 55 68 hln 100 pin=18
+a 0 u 0 0 36 74 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 62 hrn 100 pin19 n 60 60 u
+a 0 u 1 0 55 58 hln 100 pin=19
+a 0 u 0 0 36 64 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 52 hrn 100 pin20 n 60 50 u
+a 0 u 1 0 55 48 hln 100 pin=20
+a 0 u 0 0 36 54 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 42 hrn 100 pin21 n 60 40 u
+a 0 u 1 0 55 38 hln 100 pin=21
+a 0 u 0 0 36 44 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 32 hrn 100 pin22 n 60 30 u
+a 0 u 1 0 55 28 hln 100 pin=22
+a 0 u 0 0 36 34 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 47 22 hrn 100 pin23 n 60 20 u
+a 0 u 1 0 55 18 hln 100 pin=23
+a 0 u 0 0 36 24 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 22 128 hln 100 pin12 n 30 140 v
+a 0 u 1 0 25 142 hcn 100 pin=12
+a 0 u 0 0 20 140 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 10 -12 hln 100 pin24 n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 pin=24
+a 0 u 0 0 32 -10 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=n
+p 0 13 22 hln 100 pin2 n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 14 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 float=n
+@graphics 60 130 0 10 10
+r 0 10 0 50 130
+*symbol PAL20X8A ako PAL20X8
+d 24-pin PAL device
+@type p
+@attributes
+a 0 sp 11 0 36 142 hlb 100 PART=PAL20X8A
+a 0 sp 0 0 36 142 hlb 100 MODEL=PAL20X8A
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

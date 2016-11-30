@@ -1,0 +1,442 @@
+" actcheck.c
+>E Too many clock buffers for ACT1 architecture
+=[36000] Only one CLOCK BUFFER is allowed per ACT1 architecture
+>E Too many clock buffers for ACT2 architecture
+=[36001] Only two CLOCK BUFFERs are allowed per ACT2 architecture
+>E Too many clock buffers for ACT3 architecture
+=[36002] Only two CLOCK BUFFERs are allowed per ACT3 architecture
+>W Fast fanout limit exceeded
+=[36003] Fast critical net fanout limit (12) exceeded -- check after optimization
+>W Fast fanout limit warning
+=[36004] Fast critical net fanout limit (8) warning -- check after optimization
+>W Noncritical fanout limit exceeded
+=[36005] Noncritical net fanout limit (12) exceeded -- check after optimization
+>W Noncritical fanout limit warning
+=[36006] Noncritical net fanout limit (8) warning -- check after optimization
+>W Medium fanout limit exceeded
+=[36007] Medium critical net fanout limit (12) exceeded -- check after optimization
+>W Medium fanout limit warning
+=[36008] Medium critical net fanout limit (8) warning -- check after optimization
+>Es ACTEL NET w/ wrong args
+=[36009] '%s' - The ACTEL_NET property must have a single argument (FAST, MEDIUM, NONCRITICAL)
+*The only valid arguments for the ACTEL_NET property are FAST, MEDIUM, or
+*NONCRITICAL.
+>Es No TRISTATE in ACTEL BLOCK
+=[36010] Symbol %s - TRI-STATE is not available in ACTEL devices in BLOCK mode
+*The ACTEL architectures do not support INTERNAL tristates. Since the
+*device is being programmed in BLOCK mode, no I/O's are available. The 
+*specified signal is a TRISTATE signal and can not, therefore, be fit on the
+*ACTEL device.
+>Es No internal TRISTATE in ACTEL
+=[36011] Symbol %s - Internal TRI-STATE is not available in ACTEL parts
+*The ACTEL architectures do not support INTERNAL tristates. The specified
+*signal is a TRISTATE signal and can not, therefore, be fit INTERNAL to the 
+*ACTEL device.
+
+>Es No CLOCK ENABLE in Actel FPGA
+=[36012] Symbol %s - CLOCK_ENABLE is currently not supported in Actel parts
+&*
+
+>Es No Actel D-FF equation
+=[36013] Symbol %s - The Actel devices only support D and JK flip flops
+*The specified flop signal (most likely because it was defined NO_REDUCE in
+*the HDL description) does not contain a D or JK representation. The ACTEL 
+*architectures ONLY support D and JK flip flops. Modify the HDL (.src) file
+*and remove the NO_REDUCE from the specified signal.
+
+"altcheck.c
+>Ess Invalid Altera property on biput
+=[36014] Symbol %s - The %s property cannot be used on tristate signals with feedback
+&SYMBOL_NAME PROPERTY_NAME
+
+>Es No CLOCK ENABLE in Altera FPGA
+=[36015] Symbol %s - CLOCK_ENABLE is not supported in Altera devices
+&*
+
+>Es Altera RESET/PRESET with D_LAT
+=[36016] Symbol %s - Altera devices do not support SET/RESET with D latched signals
+&*
+
+>Es Altera - Too many ANDs
+=[36017] Symbol %s - No p-term may have more than 64 AND terms for Altera netlisting
+&*
+
+>Es Altera - Too many ORs
+=[36018] Symbol %s - The maximum of 64 OR terms was exceeded
+&*
+
+>Es No Internal tristate
+=[36019] Symbol %s - Altera architecture does not support Internal Tristates
+*The Altera architectures do not support INTERNAL tristates. The specified
+*signal is a TRISTATE signal and can not, therefore, be fit INTERNAL to the 
+*Altera device.
+>E Too many SCLK's
+=[36020] Only one SCLK allowed per design for Altera
+>Ess Property must be on buffer
+=[36021] Symbol %s - The %s property must be used on a buffer
+&SYMBOL_NAME PROPERTY_NAME
+>Ess Property must be on inverter
+=[36022] Symbol %s - The %s property must be used on a inverter
+&SYMBOL_NAME PROPERTY_NAME
+
+"fpgautil.c
+>Fs Cant open FPGA file for rename
+=[36023] File %s can not be opened to rename file contents
+
+"gencheck.c
+>Ess Offset equation without Onset
+=[36024] Symbol '%s' -- %s equation too large to be used
+&SYMBOL_NAME CONTROL
+*For FPGA (netlist) architectures, there is no mechanism to support OFFSET
+*control (CLOCK, RESET, PRESET, ENABLE, etc) equations. The specified signal
+*has a control equation whose onset equation can not be represented due to 
+*its size. Check the logic for the specified control equation in the HDL file.
+
+"pincheck.c 
+>Ess pgchk Too many output signals
+=[36025] Template %s - the device's output signal limit was exceeded placing signal '%s'
+&TEMPLATE_NAME SYMBOL_NAME
+*The number of output signals specified in the PI file DEVICE exceeds the number
+*of total output/biput pins on the device.
+>Ess pgchk Too many input signals
+=[36026] Template %s - the device's input signal limit was exceeded placing signal %s
+&TEMPLATE_NAME SYMBOL_NAME
+*The number of signals specified as input to the device in the PI file DEVICE
+*exceeds the number of total input pins on the device.
+>Ms Signals already placed msg
+=  List of %s signals already placed : 
+>Ms Already placed symname
+=     %s
+>Esd pgchk I/O PAD count exceeded
+=[36029] Device '%s' - I/O PAD count exceeds device limit of %d
+&DEVICE_NAME NUMPINS
+*The total number of INPUT/OUTPUT signals to be placed on the device exceeds 
+*the total number of usable pins on the device
+>Es Multiple pin assignment
+=[36030] Input signal %s is assigned to more than one pin
+*A signal can only be placed on ONE input pin of the device. The .pi file
+*specifies that the signal in error be placed on TWO or more pins of the device.
+>Esss No signal on NC pin
+=[36031] Can't assign signal %s to NC pin %s on device %s
+&SYMBOL_NAME PIN_NAME DEVICE_NAME
+*An attempt was made to assign a signal to a NO_CONNECT pin of the device.
+>Esss No signal on GND pin
+=[36032] Can't assign signal %s to ground pin %s on device %s
+&SYMBOL_NAME PIN_NAME DEVICE_NAME
+*An attempt was made to assign a signal to a GND pin of the device.
+>Esss No signal on Xilinx RESET pin
+=[36033] Can't assign signal %s to RESET pin %s on device %s
+&SYMBOL_NAME PIN_NAME DEVICE_NAME
+>Esss No signal on HIDDEN pin
+=[36034] Can't assign signal %s to hidden pin %s on device %s
+&SYMBOL_NAME PIN_NAME DEVICE_NAME
+>Esss No signal on PWR pin
+=[36035] Can't assign signal %s to power pin %s on device %s
+&SYMBOL_NAME PIN_NAME DEVICE_NAME
+*An attempt was made to assign a signal to a POWER pin of the device.
+>Esss No input on output pin
+=[36036] Can't assign INPUT signal %s to OUTPUT pin %s on device %s
+&SYMBOL_NAME PIN_NAME DEVICE_NAME
+*An attempt was made to place an INPUT signal on an OUTPUT pin
+>Ess Invalid pin value
+=[36037] Pin %s is not a valid pin for device %s
+&PIN_NAME DEVICE_NAME
+*There is no such pin for the specified device. 
+>Es Output on input pin
+=[36038] Output signal '%s' can not ALSO be placed on an input pin
+*A signal that was specified as an OUTPUT to this device was also
+*specified as an INPUT to this device. For the specified architecture, 
+*this capability is not allowed. 
+>Es No pins in blockmode
+=[36039] Signal %s has a pin assignment -- not allowed in BLOCK mode
+*Specifying BLOCK mode for a PI file DEVICE (Xilinx or Actel FPGA) indicates 
+*that the specified logic is to be used internally as PART of a larger (and
+*elsewhere defined) design. Since the design I/O will be specified elsewhere,
+*it is invalid to specify pins in this DEVICE.
+
+"xilcheck.c 
+>E OUTFFT XC2000 part invalid
+=[36040]  The OUTFFT property is not valid for the XC2000 arcitecture
+>E OUTFF XC2000 part invalid
+=[36041]  The OUTFF property is not valid for the XC2000 arcitecture
+>E INLAT XC2000 part invalid
+=[36042]  The INLAT property is not valid for the XC2000 arcitecture
+>Es Xilinx flop with negated clock
+=[36043]  Signal '%s' has a negated clock -- use a node for this capability
+>Es Xilinx latch with negated latch
+=[36044]  Signal '%s' has a negated latch -- use a node for this capability
+
+>W GTS property on non-4000
+=[36045] The XILINX_GTS property is only valid for XC4000 architecture - property ignored
+>W GSR property on non-4000
+=[36046] The XILINX_GTS property is only valid for XC4000 architecture - property ignored
+>W GR property on non-2000/3000
+=[36047] The XILINX_GR property is only valid for XC2000/XC3000 architectures - property ignored
+>Ess INFF has SET/CLR
+=[36048] Symbol %s - The %s NODE can not have a RESET or PRESET equation
+&SYMBOL_NAME PRIMITIVE_NAME
+>Es Xilinx IOB INFF/OUT1
+=[36049] Symbol %s - Attempting to place an INFF and OUTPUT/OUTFF in the same IOB.
+>E Xilinx IOB INFF/OUT2
+=[36050] This is legal but not currently supported. Use Block mode to accomplish this.
+>Es Xilinx IOB OUTFF/IN1
+=[36051] Symbol %s - Attempting to use OUTFF with external input or feedback in the same IOB.
+>E Xilinx IOB OUTFF/IN2
+=[36052] This is legal but not currently supported. Use Block mode to accomplish this.
+>Es INFF must feed DFF
+=[36053] Symbol %s - The INFF input signal must feed a D flip-flop NODE signal
+>Es INLAT must feed DLAT
+=[36053] Symbol %s - The INLAT input signal must feed a D latch NODE signal
+>Ess Invalid INFF usage #1
+=[36054] Symbol %s - '%s' INPUT can not be used in any other equations
+&SYMBOL_NAME PRIMITIVE_NAME
+>Ess Invalid INFF usage #2
+=[36055] Symbol %s - '%s' primitive requires single signal input to NODE
+>Es OUTFFZ only valid on OUTPUTs
+=[36056] Symbol '%s' -- The OUTFFT signal MUST be an OUTPUT
+>Es OUTFFZ used on non-tristate
+=[36057] Symbol %s - The OUTFFT property only applies to ENABLED outputs
+>Es OUTFFZ not fed by DFF
+=[36058] Symbol %s - OUTFFT requires an ENABLED output fed by a D flip-flop node
+>Es OUTFFZ used internal
+=[36059] Symbol %s is an internal node to the OUTFFT primitive and can't be used in the design
+>Es OUTFFZ cannot be lowtrue
+=[36060] Symbol %s is lowtrue with OUTFFT primitive and can't be used in the design
+>Es OUTFFZ has SET/CLR
+=[36061] Symbol %s, when used in an OUTFFT primitive, can't have a RESET or PRESET equation
+>Es OUTFFZ with wrong args
+=[36062] '%s' - The XILINX_OUTFFT property has no arguments or GSR
+>Es OUTFF used on non-clocked
+=[36063] Symbol %s - The OUTFF property only applies to CLOCKED D flip-flop outputs
+>Es OUTFF has SET/CLR
+=[36064] Symbol %s - The OUTFF signal can not have a RESET or PRESET equation
+>Es OUTFF with wrong args
+=[36065] '%s' - The XILINX_OUTFF property has no arguments or GSR
+>Es No CLOCK ENABLE in XC2000
+=[36066] Symbol %s - CLOCK_ENABLED_BY is not available in XC2000 devices.
+>Es No TRISTATE in XC2000 BLOCK
+=[36067] Symbol %s - TRI-STATE is not available in XC2000 devices in BLOCK mode
+>Es No internal TRISTATE in XC2000
+=[36068] Symbol %s -  TRI-STATE is not available/supported in XC2000 devices.
+>Es RESET AND PRESET on XC3K/XC4K
+=[36069] Symbol %s - The XC3000/XC4000 devices do not support reset AND preset on flops
+>Es No Xilinx D-FF equation
+=[36070] Symbol %s - The Xilinx devices only support D flip flops
+>Wss Property on non 2000
+=[36071] '%s' - Property %s only valid for XC2000 architecture - property ignored
+>Es PIN property with wrong args
+=[36072] '%s' - The XILINX_CLBCLK property must have a single argument (CPIN, GPIN or KPIN)
+>Ws PULLDOWN on non 4000
+=[36073] Symbol %s - The XILINX_PULLDOWN property is only valid on XC4000 - ignored
+>Es PULLDOWN on non I/O signal
+=[36074] '%s' - The XILINX_PULLDOWN property is only valid on INPUT or OUTPUT signals
+>Ws PULLUP on XC2000
+=[36075] Symbol %s - The XILINX_PULLUP property is only valid on XC4000 - ignored
+>Es PULLUP with wrong args
+=[36076] '%s' - The XILINX_PULLUP property either has no arguments or DOUBLE
+>Es XC3000 PULLUP on non INPUT
+=[36077] '%s' - The XILINX_PULLUP property is not valid on OUTPUTs for the XC3000 family
+>Es PULLUP on non I/O signal
+=[36078] '%s' - The XILINX_PULLUP property is only valid on INPUTs, OUTPUTs, or TRISTATE NODEs
+>Es NET property with wrong args
+=[36079] '%s' - The XILINX_NET property must have a single string argument
+>Ws OSCILLATOR with XC4000
+=[36080] Symbol %s - XILINX_OSCILLATOR not valid for XC4000 architecture -- ignored
+>Es OSCILLATOR with pin value
+=[36081] The XILINX_OSCILLATOR signal (%s) can not be assigned to a pin
+>Es OSC with wrong args
+=[36082] '%s' - The XILINX_OSC property has no arguments or ACLK 
+>E Too many GLOBAL_CLOCKs
+=[36083] Only one XILINX_GCLK is allowed per XC2000/XC3000 PI file DEVICE
+>E Too many GLOBAL_DIR_CLOCKs
+=[36084] Only one XILINX_GCLK_DIRECT is allowed per XC2000/XC3000 PI file DEVICE
+>E GLOBAL_CLOCK with GLOBAL_DIR_CLOCK
+=[36085] The XILINX_GCLK_DIRECT and XILINX_GCLK properties can not be used in the same device
+>E Too many ALT_CLOCKs
+=[36086] Only one XILINX_ACLK is allowed per XC2000/XC3000 PI file DEVICE
+>E Too many ALT_DIR_CLOCKs
+=[36087] Only one XILINX_ACLK_DIRECT is allowed per XC2000/XC3000 PI file DEVICE
+>E ALT_CLOCK with GLOBAL_ALT_CLOCK
+=[36088] The XILINX_ACLK_DIRECT and XILINX_ACLK properties can not be used in the same device
+>E Too many BUFGPs
+=[36089] Only four BUFGP signals are allowed per XC4000 PI file DEVICE
+>E Too many BUFGSs
+=[36090] Only four BUFGS signals are allowed per XC4000 PI file DEVICE
+>E Too many OSCILLATORs
+=[36091] Only one XILINX_OSCILLATOR signal is allowed per design
+>Ws BUFGS with non XC4000
+=[36092] Symbol %s - the XILINX_BUFGS property is only valid for XC4000 designs
+>Ws BUFGP with non XC4000
+=[36093] Symbol %s - the XILINX_BUFGP property is only valid for XC4000 designs
+>Ws GLOBAL_CLOCK with XC4000
+=[36093] Symbol %s - the XILINX_GCLK property is not valid for XC4000 designs
+>Ws ALT_CLOCK with XC4000
+=[36094] Symbol %s - the XILINX_ACLK property is not valid for XC4000 designs
+>Ws GCLK signal not used
+=[36095] Symbol %s was specified as the XILINX_GCLK_DIRECT signal but was unused in the PI file DEVICE
+>Es GCLK signal used as non CLOCK
+=[36096] Symbol %s - the XILINX_GCLK_DIRECT signal can only be used as a simple CLOCK signal
+>Ws ACLK signal not used
+=[36097] Symbol %s was specified as the XILINX_ACLK_DIRECT signal but was unused in the PI file DEVICE
+>Es ACLK signal used as non CLOCK
+=[36098] Symbol %s - the XILINX_ACLK_DIRECT signal can only be used as a simple CLOCK signal
+
+>Es Bad signal feeding wired bus
+=[36099] Signal %s is in a WIRED_BUS but is not an enabled, non_clocked NODE
+
+" xilinx.c
+"
+>Fsd Pad name too long
+=[36100] Pad name '%s' exceeds maximum length limit (%d)
+&*PINNAME MAX_NAME_LENGTH
+>Fs Can't open netlist file
+=[36101] File '%s' cannot be opened for writing
+&*
+
+"  altpin.c 
+>Fs Can't open pinout file
+=[36102] File %s can not be opened in write mode
+>Ws Could not open altera template file
+=[36103] File %s can not be opened in read mode
+&PINFILE_NAME
+>Ess Can't remove netlist file
+=[36104] Old %s netlist file '%s' can not be removed
+&VENDOR_NAME NETFILE_NAME
+>Fss Can't remove pinout file
+=[36105] Old %s pinout file '%s' can not be removed
+&VENDOR_NAME PINFILE_NAME
+
+
+" alt_ini.c
+>Ws MAXPLUS2.ini file not found
+=[36106]    File '%s' not found in path, File generation ignored.
+>Ws MAXPLUS2.ini file can not be read
+=[36107]    File '%s' can not be opened in read mode. File generation ignored. 
+>Ws Cant open tempfile
+=[36108]    Temporary file '%s' can not be opened in the current directory.
+>Wss Can't perform ini rename
+=[26109]    File '%s' can not be renamed TO '%s' -- perform MANUALLY
+
+"amd.c
+>Fs Cannot remove pla flow file
+=[36110] Old file '%s' cannot be removed
+&FILE_NAME
+>Ws PLA Xor specified - none exists
+=[36111] Symbol %s - Use XOR was specified in .pi, but does not exist. Property ignored.
+*In the .pi file, the signal had the XOR_TO_SOP_SYNTH OFF property. The
+*specified signal does not contain an XOR representation however. The software
+*will ignore the XOR request and represent this signal in sum of products form.
+>E No clock enable input for Lattice
+=[36112] Clock enables are not supported by the Lattice pLSI devices.
+>E No asynchronous preset input for Lattice
+=[36113] Asynchronous presets are not supported by Lattice pLSI devices.
+>E No RS_FF for Lattice
+=[36114] The Lattice pLSI fitter does not support SR flipflops.
+>E No clock enable input for Intel
+=[36115] Clock enables are not supported by the Intel FLEX fitter.
+>E No latch for Intel
+=[36116] The Intel FLEX fitter does not support D latches.
+
+
+"symutils.c
+>Fs No OFFSET found
+=[36117] Signal %s -- DEMORGAN_SYNTH FORCE was specified -- no OFFSET equation exists
+*In the .pi file, the specified signal has the DEMORGAN_SYNTH FORCE property.
+*This signal does not have an OFFSET representation (probably due to the
+*equation size) and cannot, therefore, be used as specified.
+>Fs No D, JK, or T equation
+=[36118] Signal %s has neither a D equation or an alternate flip-flop equation
+*The requested synthesized equation is not available for the specified signal
+>Wsss Symbol clash
+=[36119] Renaming array signal %s caused a clash with signal %s -- new name is %s
+&OLDNAME EXISTING_SIGNAL NEWNAME
+*Since the full character set is not supported by all FPGA manufacturers, 
+*a symbol aliasing takes place prior to outputting the vendor-specific 
+*netlist. In the case of the signal above, the rename caused a clash with 
+*an existing symbol. In order to resolve this clash, the symbol will be 
+*renamed as indicated.
+
+" fpga.c
+>E ManufPartno required for FPGA
+=[36120] PI target type of Manufacturer and PartNumber required for FPGAs
+*There are three methods of specifying a device in the PI file. Even though
+*all three are accepted as valid syntax, the FPGA architectures require the
+*Manufacturer and PartNumber syntax. This is due to the fact that the SAME
+*template can have varying pinouts and number of pins. Only by using a 
+*part NUMBER can a unique pinout/numpins be defined. This, therefore, is the
+*only allowable syntax for the FPGA (netlist) architectures.
+>Ws Unassigned FPGA input ignored
+=[36121]    Unassigned input signal '%s' from .pi file unneeded and ignored
+*An input signal was specified in the .pi file but was not needed on 
+*the device.
+>Ws Unassigned FPGA node ignored
+=[36122]    Unassigned node signal '%s' from .pi file unneeded and ignored
+*A node signal was specified in the .pi file but was not needed on the device.
+>E No FPGA outputs defined
+=[36123]         No outputs are defined for this DEVICE in the PI file.
+&*
+>W No connects ignored in FPGA
+=[36124]    No connect specification (from pi file) ignored for FPGA's
+*The NO_CONNECT construct is not supported for FPGA (netlist) architectures
+>Es Block mode not allowed
+=[36125]         BLOCK mode not allowed for '%s' architectures
+&FPGA
+*The concept of BLOCK mode (specifying a portion of a design without I/O
+*information) is not supportable for the specified FPGA architecture
+>E Fuse assignment given for FPGA
+=[36126]         Fuse assignments (from pi file) are not valid in FPGA's
+*The FUSES construct is not supported for FPGA (netlist) architectures
+>Es willfit_FPGA failure
+=[36127]         Device '%s' is not targeted in the PI file, and is therefore unusable.
+& DEVICE_NAME
+*This device architecture must be the target of a PI file DEVICE to be
+*considered as part of a solution.  Since it is not targeted, this device
+*architecture is thrown from the list of possible devices.
+>Es Unsupported device
+=[36128]         Device '%s' is not a supported FPGA architecture
+&*
+>E No OUTPUT signals assigned to FPGA group
+=[36129]         No OUTPUT signals are in this DEVICE in the PI file.
+*Each DEVICE in the PI file targeted toward an FPGA must contain at 
+*least one OUTPUT signal.
+>Es WIRED BUS fit internal yet needed
+=[36130]         Internally fit WIRED_BUS signal '%s' is needed on another device
+*In this design, the WIRED_BUS signal was fit inside of the Xilinx device. 
+*This signal was, however, needed as an INPUT on another device. You must
+*either move all signals that need the WIRED_BUS onto this Xilinx device OR
+*implement the WIRED_BUS external to the Xilinx device (by fitting each of the
+*signals comprising the WIRED_BUS on BIPUT pins).
+>E Blockmode not a valid property
+=[36131]         'BLOCKMODE' only applies to Actel and Xilinx FPGA architectures
+&*
+>Ess Errors were found in FPGA fitter
+=[36132]         Device '%s %s' failed to pass rule checks
+&*
+>Ess Errors were found in CPLD fitter
+=[36133]         Device '%s %s' failed to successfully complete 3rd party fit
+&*
+>Es Reset w/ non clocked symbol
+=[36134]         Symbol %s -- RESET not valid on combinatorial symbols in FPGA's
+*The ability to RESET combinatorial signals is not provided for FPGA's
+>Es Preset w/ non clocked symbol
+=[36135]         Symbol %s -- PRESET not valid on combinatorial symbols in FPGA's
+*The ability to PRESET combinatorial signals is not provided for FPGA's
+>Ws Signal fit internal but required
+=[36136] Signal %s will be fit INTERNAL to this device AND fit in another device
+*An output in a DEVICE in the PI file targeted toward an FPGA requires 
+*the specified signal in its equation.  The FPGA fitter will place this 
+*signal INTERNAL to the FPGA device.  The signal is, however, also required 
+*by other devices in the design.  In order to accomplish this, the signal 
+*will be fit BOTH internal to the FPGA and ALSO on another device in 
+*the system (this will require duplicate logic). If this is not desirable, 
+*you may wish to either place the signal on an OUTPUT in the FPGA (it 
+*will then be used as an INPUT elsewhere) or, place the signal as an
+*INPUT to the FPGA. 
+>Ms Fitting run recorded in ...
+=   Third party fitter output stored in %s.  Fitting cannot be interrupted.
+>Ess Lattice fitter failed to generate jedec file
+=[36138]    Lattice fitter failed to generate %s file.  Please check the log %s.
+&FILENAME &LOGNAME
+>Ess Intel fitter failed to generate jedec file
+=[36139]    Intel fitter failed to generate %s file.  Please check the log %s.
+&FILENAME &LOGNAME

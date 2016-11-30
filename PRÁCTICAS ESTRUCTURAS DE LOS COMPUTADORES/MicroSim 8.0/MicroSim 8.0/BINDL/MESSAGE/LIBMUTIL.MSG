@@ -1,0 +1,85 @@
+" These define the global message strings for all executables.
+" They are in this library since that is where the message handler is.
+#line "line"
+#warning "Warning: " 
+#fatal "Fatal: " 
+#time "Elapsed time: " 
+
+"message.c
+>Fs cannot open .log file
+=[21000] Cannot open .log file '%s' for writing.
+
+>F failed to close available file
+=[21001] Failed to close available file.
+>F out of memory
+=[21002] Out of memory
+>F Attempt to alloc < 0 bytes
+=[21003] Internal attempt to alloc < 0 bytes.
+>F Switch table not initialized
+=[21004] Switch table not initialized
+>F Illegal command line switches
+=[21005] Illegal command line switches
+>Ms Illegal Switch
+=Illegal command line switch %s found
+&SWITCH
+>Fs Expecting string switch
+=[21007] Expecting string value for switch %s
+&SWITCH
+>Fs Expecting integer switch
+=[21008] Expecting integer value for switch %s
+&SWITCH
+>F dump_buf: Too many equations
+=[21009] Too many equations
+
+"to_cmd.c
+>Ms mutil tick message
+=%s ...
+&*
+>Ed Newnames format error
+=[21011] Format error on line %d of newnames.txt -- line skipped
+&LINENO
+>Edd Newnames maxentry error
+=[21012] Max # of update entries (%d) exceeded -- processing terminated at line %d of newnames.txt
+&NUMENTRIES LINENO
+>Ed Library format error
+=[21013] Format error in library file line %d -- line skipped
+&LINENO
+>Edd Library maxentry error
+=[21014] Max # of update entries (%d) exceeded -- processing terminated at line %d of library
+&NUMENTRIES LINENO
+>W All library fields negative
+=[21015] The user1, user2, and price fields were all negative
+
+"filecopy.c
+>Wssd Rename failed
+=[21016] Unable to rename '%s' to '%s' (error code %d)
+>Essd Rename failed
+=[21017] Unable to rename '%s' to '%s' (error code %d)
+>Fssd Rename failed
+=[21018] Unable to rename '%s' to '%s' (error code %d)
+>Ws File not removed.
+=[21019] Rename failed to remove source file: '%s'.
+
+>Fs cat_file_ext - illegal file name:
+=[21020] Illegal file name '%s'
+&FILE_NAME
+>Fs option separater is used in name
+=[21021] Character '%s' used in filename.
+&OPTION_DELIMITER
+
+"vendcnf.cpp
+>F Can't find sysconf.ini file.
+=[21022] Can't find sysconf.ini file.
+>F Can't open sysconf.ini file.
+=[21023] Can't open sysconf.ini file.
+
+>E illegal .X. number
+=[23000] Cannot use DONT CARE digits in this constant.
+>E number too large
+=[23001] Number too large.
+>E illegal operation on .X. number
+=[23002] Illegal operation on DONT CARE.
+>E divide by zero
+=[23003] Divide by zero.
+>E produced negative number
+=[23004] Operation would result in negative constant.

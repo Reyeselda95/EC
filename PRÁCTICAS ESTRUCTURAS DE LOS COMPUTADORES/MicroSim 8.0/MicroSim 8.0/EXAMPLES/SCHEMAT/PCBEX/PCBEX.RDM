@@ -1,0 +1,90 @@
+PCB Design Tutorial Circuit (PCBEX)
+
+Required symbol libraries:
+	74ls.slb
+	port.slb
+	source.slb
+	dig_misc.slb
+	connect.slb
+
+Required model libraries:
+	74ls.lib
+	dig_misc.lib
+	connect.lib
+
+Required package libraries:
+	74ls.plb
+	connect.plb	
+
+Other required files:
+	pcbex.stm
+
+PCBEX is an all-digital, 32 bit pseudorandom sequence generator
+circuit demonstrating PCB design.  Its schematic, is contained in the
+file "pcbex.sch." Circuits similar to this are used to provide stimulus 
+to test devices during signature analysis and other types of testing that
+require pseudorandom vectors.  This circuit can be simulated with MicroSim 
+PSpice or MicroSim PLogic as well as netlisted for PCB board layout.    
+
+The circuit consists of four main functional sections: a shift
+register section, a summing junction section, a datapath control
+section, and a bus interface section.  The shift register section is
+implemented using four 74LS323 devices.  These devices can perform
+both serial and parallel I/O operations and can be preset.  In
+addition, the parallel I/O pins are bidirectional.  This minimizes
+the amount of board area that must be devoted to routing the input
+and output data buses.
+
+The summing junction is implemented as a set of exclusive-or gates. 
+The shift register outputs selected for feedback into the summing
+junction implement a maximal length sequence generator according to
+the polynomial for a 32 bit sequence generator.  The output of the 
+summing junction provides the serial input for the shift register and
+is input at bit 0 of the shift register.
+
+The datapath control section provides latching of the vectors as well
+as timing.  The output data latches are implemented using 74LS373
+transparent latches.  The timing is provided by two 74LS161 binary
+counters.  The counters are cleared by the RESET signal at the start
+of operation, and enabled at the same time the shift registers are
+enabled.  The counters are controlled by the same clock as the shift
+registers with the upper 4 bits of the counter being enabled by the
+rippled carry output (RCO) from the lower counter.  Through the data
+outputs from the shift register change with each clock cycle, it is
+desirable to view the vectors on every complete cycle of the shift
+register.  This means that the data from the shift register should be
+sampled every 32 clock cycles.  To ensure this, the QB output from the
+upper nibble of the counter is used to enable the latches.  Extra
+inverters are used to provide delays needed to meet setup/hold time
+constraints.  (Try removing both inverters and simulating to see what
+timing message you'll get.)
+
+The bus interface section controls the flow of information to/from the
+rest of the system.  In practice, the vector output from the latches
+in the datapath would be sent to a separate bus connected to the
+device under test.  For the purpose of this example, the output vector
+is sent to the edge connector via a set of bus drivers.  The bus
+interface is implemented using a set of 74LS240s for each direction. 
+While the component count could be minimized by using bidirectional
+drivers, we avoid possible glitches on the bus due to the drivers
+shifting direction by using unidirectional components.
+
+For simulation, a stimulus file, "pcbex.stm," is provided.  This file
+defines digital stimuli for the global signals as described below:
+
+RESET	asynchronous reset; used to clear registers and counters
+
+OE_	output enable; used to determine direction of data flow
+
+OUT[31:0]	bidirectional data bus
+
+CLK	clock
+
+S/L_0, S/L_1	shift register and counter function controls
+
+The TIMESTEP specified in the stimulus file is 40 nsec.  This sets the
+clock frequency at 12.5 MHz.  The seed vector for the sequence
+generator is applied to the bus through the stimulus file.  The OE_
+signal is then made active and the S/L_0 and S/L_1 signals are set to
+enable the shift register and counters. 
+

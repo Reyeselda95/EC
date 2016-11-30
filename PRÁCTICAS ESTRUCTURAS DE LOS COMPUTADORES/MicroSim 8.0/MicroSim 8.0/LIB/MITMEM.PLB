@@ -1,0 +1,11460 @@
+*version 6.3 493598039
+@index
+symloc M58630P 0 123
+symloc M58653P 123 114
+symloc M58655P 237 123
+symloc M58657P 360 113
+symloc M58658P 473 123
+symloc M58659P 596 123
+symloc M5G1400P 719 105
+symloc M5L27256K 824 281
+symloc M5L27256K-2 1105 283
+symloc M5L27256K-I 1388 283
+symloc M5M21C67P 1671 209
+symloc M5M21C67P-45 1880 212
+symloc M5M21C67P-55 2092 212
+symloc M5M21C68P 2304 213
+symloc M5M21C68P-45 2517 216
+symloc M5M21C68P-55 2733 216
+symloc M5M23400A 2949 777
+symloc M5M23400A-XXXFP 3726 401
+symloc M5M23400A-XXXP 4127 400
+symloc M5M23400A-XXXRV 4527 408
+symloc M5M23400A-XXXVP 4935 407
+symloc M5M23401A 5342 603
+symloc M5M23401A-XXXFP 5945 313
+symloc M5M23401A-XXXP 6258 313
+symloc M5M23401A-XXXRV 6571 322
+symloc M5M23401A-XXXVP 6893 321
+symloc M5M23C400 7214 760
+symloc M5M23C400-XXXFP 7974 411
+symloc M5M23C400-XXXP 8385 400
+symloc M5M23C401 8785 308
+symloc M5M23C401-XXXP 9093 313
+symloc M5M27256FP 9406 280
+symloc M5M27256P 9686 280
+symloc M5M27512FP 9966 284
+symloc M5M27512P 10250 284
+symloc M5M27C100K 10534 311
+symloc M5M27C100K-2 10845 313
+symloc M5M27C101JK-12 11158 321
+symloc M5M27C101JK-15 11479 321
+symloc M5M27C101JK-2 11800 320
+symloc M5M27C101K 12120 325
+symloc M5M27C101K-2 12445 313
+symloc M5M27C102J 12758 383
+symloc M5M27C102JK-12 13141 387
+symloc M5M27C102JK-15 13528 387
+symloc M5M27C102JK-2 13915 386
+symloc M5M27C102K 14301 383
+symloc M5M27C102K-12 14684 386
+symloc M5M27C102K-2 15070 385
+symloc M5M27C256AK 15455 283
+symloc M5M27C256AK-12 15738 286
+symloc M5M27C256AK-15 16024 286
+symloc M5M27C256K-I 16310 284
+symloc M5M27C256AP 16594 282
+symloc M5M27C512AFP 16876 286
+symloc M5M27C512AP 17162 286
+symloc M5M28C64AFP-15 17448 268
+symloc M5M28C64A 17716 299
+symloc M5M28C64AP-15 18015 268
+symloc M5M28C64ARV-15 18283 277
+symloc M5M28C64AVP-15 18560 276
+symloc M5M41000A 18836 502
+symloc M5M41000AJ-8 19338 210
+symloc M5M41000AL-8 19548 191
+symloc M5M41000AP-8 19739 190
+symloc M5M41001A 19929 502
+symloc M5M41001AJ-8 20431 210
+symloc M5M41001AL-8 20641 191
+symloc M5M41001AP-8 20832 190
+symloc M5M41002A 21022 499
+symloc M5M41002AJ-8 21521 209
+symloc M5M41002AL-8 21730 190
+symloc M5M41002AP-8 21920 189
+symloc M5M4256A 22109 459
+symloc M5M4256AJ 22568 184
+symloc M5M4256AP 22752 178
+symloc M5M4257A 22930 459
+symloc M5M4257AJ 23389 184
+symloc M5M4257AP 23573 178
+symloc M5M44256A 23751 571
+symloc M5M44256AJ-8 24322 233
+symloc M5M44256AL-8 24555 213
+symloc M5M44256AP-8 24768 214
+symloc M5M44258A 24982 568
+symloc M5M44258AJ-8 25550 232
+symloc M5M44258AL-8 25782 212
+symloc M5M44258AP-8 25994 213
+symloc M5M4464A 26207 374
+symloc M5M4464AJ-8 26581 209
+symloc M5M4464AL-8 26790 204
+symloc M5M4464AP-8 26994 204
+symloc M5M4C264L 27198 283
+symloc M5M4C264L-10 27481 286
+symloc M5M4C264L-12 27767 286
+symloc M5M4C264L-15 28053 286
+symloc M5M4C500L 28339 348
+symloc M5M4C500L-10 28687 351
+symloc M5M4C500L-5 29038 350
+symloc M5M4C500L-6 29388 350
+symloc M5M5165FP 29738 278
+symloc M5M5165FP-10 30016 281
+symloc M5M5165FP-10L 30297 282
+symloc M5M5165P 30579 278
+symloc M5M5178P 30857 277
+symloc M5M5178P-35 31134 280
+symloc M5M5178P-45 31414 280
+symloc M5M5178P-55 31694 280
+symloc M5M5179P 31974 285
+symloc M5M5179P-35 32259 288
+symloc M5M5179P-45 32547 288
+symloc M5M5179P-55 32835 288
+symloc M5M5187A 33123 418
+symloc M5M5187AJ-25 33541 235
+symloc M5M5187AP-25 33776 230
+symloc M5M5188A 34006 425
+symloc M5M5188AJ-25 34431 238
+symloc M5M5188AP-25 34669 234
+symloc M5M5189A 34903 250
+symloc M5M5189AJ-25 35153 248
+symloc M5M5189AP-25 35401 244
+symloc M5M5189BJ-15 35645 248
+symloc M5M5189BP-15 35893 244
+symloc M5M5255B 36137 297
+symloc M5M5255BKP-10 36434 289
+symloc M5M5255BKP-10L 36723 290
+symloc M5M5255BKP-10LL 37013 291
+symloc M5M5255BP-10L 37304 290
+symloc M5M5255BP-10LL 37594 291
+symloc M5M5255BFP-10LL 37885 291
+symloc M5M5255BFP-10 38176 289
+symloc M5M5255BFP-10L 38465 290
+symloc M5M5255BP-10 38755 289
+symloc M5M5256B 39044 298
+symloc M5M5256BKP-10 39342 290
+symloc M5M5256BKP-10L 39632 291
+symloc M5M5256BKP-10LL 39923 292
+symloc M5M5256BFP-10 40215 290
+symloc M5M5256BFP-10L 40505 291
+symloc M5M5256BFP-10LL 40796 292
+symloc M5M5256BP-10LL 41088 292
+symloc M5M5256BP-10L 41380 291
+symloc M5M5256BP-10 41671 290
+symloc M5M5257A 41961 250
+symloc M5M5257AJ-25 42211 252
+symloc M5M5257AJ-30 42463 252
+symloc M5M5257AJ-35 42715 252
+symloc M5M5257AP-25 42967 248
+symloc M5M5257AP-30 43215 252
+symloc M5M5257AP-35 43467 248
+symloc M5M5258A 43715 258
+symloc M5M5258AJ-25 43973 256
+symloc M5M5258AJ-30 44229 256
+symloc M5M5258AJ-35 44485 256
+symloc M5M5258AP-25 44741 252
+symloc M5M5258J-35 44993 255
+symloc M5M5258J-45:M5M5258J-35 45248 37
+symloc M5M5258J-55:M5M5258J-35 45285 37
+symloc M5M5257B 45322 254
+symloc M5M5260A 45576 258
+symloc M5M5260AJ-25 45834 256
+symloc M5M5260AJ-30 46090 256
+symloc M5M5260AJ-35 46346 256
+symloc M5M5260AP-25 46602 252
+symloc M6M72561J 46854 701
+symloc MH12808TNA 47555 307
+symloc MH12808TNA-10 47862 310
+symloc MH12808TNA-12 48172 310
+symloc MH12808TNA-15 48482 310
+symloc MH12808TNA-85 48792 310
+symloc MH12908TNA 49102 316
+symloc MH12908TNA-10 49418 319
+symloc MH12908TNA-12 49737 319
+symloc MH12908TNA-15 50056 319
+symloc MH12908TNA-85 50375 319
+symloc MH1M08A0 50694 276
+symloc MH1M08A0J-10 50970 274
+symloc MH1M08A0J-12 51244 274
+symloc MH1M08A0J-8 51518 273
+symloc MH1M08A0JA-10 51791 270
+symloc MH1M08A0JA-12 52061 270
+symloc MH1M08A0JA-8 52331 269
+symloc MH1M08A1 52600 276
+symloc MH1M08A1J-10 52876 274
+symloc MH1M08A1J-12 53150 274
+symloc MH1M08A1J-8 53424 273
+symloc MH1M08A1JA-10 53697 270
+symloc MH1M08A1JA-12 53967 270
+symloc MH1M08A1JA-8 54237 269
+symloc MH1M08A2 54506 275
+symloc MH1M08A2J-10 54781 273
+symloc MH1M08A2J-12 55054 273
+symloc MH1M08A2J-8 55327 272
+symloc MH1M08A2JA-10 55599 269
+symloc MH1M08A2JA-12 55868 269
+symloc MH1M08A2JA-8 56137 268
+symloc MH1M09A0 56405 304
+symloc MH1M09A0J-10 56709 302
+symloc MH1M09A0J-12 57011 302
+symloc MH1M09A0J-8 57313 301
+symloc MH1M09A0JA-10 57614 298
+symloc MH1M09A0JA-12 57912 298
+symloc MH1M09A0JA-8 58210 297
+symloc MH1M09A1 58507 304
+symloc MH1M09A1J-10 58811 302
+symloc MH1M09A1J-12 59113 302
+symloc MH1M09A1J-8 59415 301
+symloc MH1M09A1JA-10 59716 298
+symloc MH1M09A1JA-12 60014 298
+symloc MH1M09A1JA-8 60312 297
+symloc MH1M09A2 60609 302
+symloc MH1M09A2J-10 60911 300
+symloc MH1M09A2J-12 61211 300
+symloc MH1M09A2J-8 61511 299
+symloc MH1M09A2JA-10 61810 296
+symloc MH1M09A2JA-12 62106 296
+symloc MH1M09A2JA-8 62402 295
+symloc MH1M8A0DJA 62697 277
+symloc MH1M8A0DJA-10 62974 280
+symloc MH1M8A0DJA-12 63254 280
+symloc MH1M8A0DJA-8 63534 279
+symloc MH1M9A0DJA 63813 305
+symloc MH1M9A0DJA-10 64118 308
+symloc MH1M9A0DJA-12 64426 308
+symloc MH1M9A0DJA-8 64734 307
+symloc MH25608J 65041 268
+symloc MH25608J-10 65309 265
+symloc MH25608J-12 65574 265
+symloc MH25608J-15 65839 265
+symloc MH25608J-85 66104 265
+symloc MH25608JA-10 66369 261
+symloc MH25608JA-12 66630 261
+symloc MH25608JA-15 66891 261
+symloc MH25608JA-85 67152 261
+symloc MH25608S1N 67413 363
+symloc MH25608S1N-10 67776 366
+symloc MH25608S1N-12 68142 366
+symloc MH25608S1N-15 68508 366
+symloc MH25608S1N-85 68874 366
+symloc MH25608TNA 69240 315
+symloc MH25608TNA-10H 69555 319
+symloc MH25608TNA-10L 69874 319
+symloc MH25608TNA-12H 70193 319
+symloc MH25608TNA-12L 70512 319
+symloc MH25608TNA-15H 70831 319
+symloc MH25608TNA-15L 71150 319
+symloc MH25608TNA-85H 71469 319
+symloc MH25608TNA-85L 71788 319
+symloc MH25609 72107 295
+symloc MH25609J-10 72402 293
+symloc MH25609J-12 72695 293
+symloc MH25609J-15 72988 293
+symloc MH25609J-85 73281 293
+symloc MH25609JA-10 73574 289
+symloc MH25609JA-12 73863 289
+symloc MH25609JA-15 74152 289
+symloc MH25609JA-85 74441 289
+symloc MH25636AJ 74730 643
+symloc MH25636AJ-10 75373 646
+symloc MH25636AJ-12 76019 646
+symloc MH25636AJ-85 76665 646
+symloc MH25708 77311 267
+symloc MH25708J-10 77578 265
+symloc MH25708J-12 77843 265
+symloc MH25708J-15 78108 265
+symloc MH25708J-85 78373 265
+symloc MH25708JA-10 78638 261
+symloc MH25708JA-12 78899 261
+symloc MH25708JA-15 79160 261
+symloc MH25708JA-85 79421 261
+symloc MH25709 79682 295
+symloc MH25709J-10 79977 293
+symloc MH25709J-12 80270 293
+symloc MH25709J-15 80563 293
+symloc MH25709J-85 80856 293
+symloc MH25709JA-10 81149 289
+symloc MH25709JA-12 81438 289
+symloc MH25709JA-15 81727 289
+symloc MH25709JA-85 82016 289
+symloc MH51204JA 82305 252
+symloc MH51204JA-10 82557 255
+symloc MH51204JA-12 82812 255
+symloc MH51204JA-15 83067 255
+symloc MH51204JA-85 83322 255
+symloc MH51208SN 83577 493
+symloc MH51208SN-10H 84070 497
+symloc MH51208SN-10L 84567 497
+symloc MH51208SN-12H 85064 497
+symloc MH51208SN-12L 85561 497
+symloc MH51208SN-15H 86058 497
+symloc MH51208SN-15L 86555 497
+symloc MH51208SN-70H 87052 497
+symloc MH51208SN-70L 87549 497
+symloc MH51208SN-85H 88046 497
+symloc MH51208SN-85L 88543 497
+symloc MH51236AJ 89040 667
+symloc MH51236AJ-10 89707 670
+symloc MH51236AJ-12 90377 670
+symloc MH51236AJ-85 91047 670
+symloc MH51304JA 91717 252
+symloc MH51304JA-10 91969 255
+symloc MH51304JA-12 92224 255
+symloc MH51304JA-15 92479 255
+symloc MH51304JA-85 92734 255
+symloc M5M5165P-10 92989 281
+symloc M5M5165P-10L 93270 282
+symloc M5M5257 93552 249
+symloc M5M5257J-35 93801 251
+symloc M5M5257J-45 94052 251
+symloc M5M5257J-55 94303 251
+symloc M5M5257P-35 94554 247
+symloc M5M5257P-45 94801 247
+symloc M5M5257P-55 95048 247
+symloc M5M5258AP-30 95295 252
+symloc M5M5258AP-35 95547 252
+symloc M5M5258P-35 95799 251
+symloc M5M5258P-45 96050 251
+symloc M5M5258P-55 96301 251
+symloc M5M5258B 96552 258
+symloc M5M5258C 96810 258
+*package M58630P
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p C1 7
+p C2 8
+p C3 9
+p \CS\ 4
+p CLK 6
+p VGND 13
+p I/O 12
+p VSS 1
+p VGG 2
+*package M58653P
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p C1 7
+p C2 8
+p C3 9
+p CLK 6
+p VGND 13
+p I/O 12
+p VSS 1
+p VGG 2
+*package M58655P
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p C1 7
+p C2 8
+p C3 9
+p \CS\ 4
+p CLK 6
+p VGND 13
+p I/O 12
+p VSS 1
+p VGG 2
+*package M58657P
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p C1 7
+p C2 8
+p C3 9
+p CLK 6
+p VGND 4
+p I/O 12
+p VSS 1
+p VGG 2
+*package M58658P
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p C1 7
+p C2 8
+p C3 9
+p \CS\ 4
+p CLK 6
+p VGND 13
+p I/O 12
+p VSS 1
+p VGG 2
+*package M58659P
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p C1 7
+p C2 8
+p C3 9
+p \CS\ 4
+p CLK 6
+p VGND 13
+p I/O 12
+p VSS 1
+p VGG 2
+*package M5G1400P
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p C1 7
+p C2 8
+p C3 9
+p CLK 6
+p I/O 12
+p VGG 2
+p VSS 1
+*package M5L27256K
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p VPP 1
+*package M5L27256K-2
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p VPP 1
+*package M5L27256K-I
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p VPP 1
+*package M5M21C67P
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p A13 19
+p A12 18
+p A11 17
+p A10 16
+p A9 15
+p A8 14
+p A7 13
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 11
+p \W\ 9
+p D 12
+p GND 10
+p Q 8
+p VCC 20
+*package M5M21C67P-45
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p A13 19
+p A12 18
+p A11 17
+p A10 16
+p A9 15
+p A8 14
+p A7 13
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 11
+p \W\ 9
+p D 12
+p GND 10
+p Q 8
+p VCC 20
+*package M5M21C67P-55
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p A13 19
+p A12 18
+p A11 17
+p A10 16
+p A9 15
+p A8 14
+p A7 13
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 11
+p \W\ 9
+p D 12
+p GND 10
+p Q 8
+p VCC 20
+*package M5M21C68P
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p DQ4 12
+p DQ3 13
+p A11 8
+p A10 7
+p A9 6
+p A8 5
+p A7 4
+p A6 3
+p A5 2
+p A4 1
+p A3 19
+p A2 18
+p A1 17
+p A0 16
+p \S\ 9
+p \W\ 11
+p DQ2 14
+p GND 10
+p DQ1 15
+p VCC 20
+*package M5M21C68P-45
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p DQ4 12
+p DQ3 13
+p A11 8
+p A10 7
+p A9 6
+p A8 5
+p A7 4
+p A6 3
+p A5 2
+p A4 1
+p A3 19
+p A2 18
+p A1 17
+p A0 16
+p \S\ 9
+p \W\ 11
+p DQ2 14
+p GND 10
+p DQ1 15
+p VCC 20
+*package M5M21C68P-55
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p DQ4 12
+p DQ3 13
+p A11 8
+p A10 7
+p A9 6
+p A8 5
+p A7 4
+p A6 3
+p A5 2
+p A4 1
+p A3 19
+p A2 18
+p A1 17
+p A0 16
+p \S\ 9
+p \W\ 11
+p DQ2 14
+p GND 10
+p DQ1 15
+p VCC 20
+*package M5M23400A
+@types 1
+g 1
+@pinout
+t DIP40X,SOP40S
+g 1
+p A17 1
+p A16 32
+p A15 33
+p A14 34
+p A13 35
+p A12 36
+p A11 37
+p A10 38
+p A9 39
+p A8 40
+p A7 2
+p A6 3
+p A5 4
+p A4 5
+p A3 6
+p A2 7
+p A1 8
+p A0 9
+p \CE\ 10
+p \OE\ 12
+p \BYTE\ 31
+p GND0 11
+p GND1 30
+p D0 13
+p D1 15
+p D2 17
+p D3 19
+p D4 22
+p D5 24
+p D6 26
+p D7 28
+p D8 14
+p D9 16
+p D10 18
+p D11 20
+p D12 23
+p D13 25
+p D14 27
+p D15/A-1 29
+p VCC 21
+t TSOP10X14-40,TSOP10X14-40R
+g 1
+p A17 11
+p A16 2
+p A15 3
+p A14 4
+p A13 5
+p A12 6
+p A11 7
+p A10 8
+p A9 9
+p A8 10
+p A7 12
+p A6 13
+p A5 14
+p A4 15
+p A3 16
+p A2 17
+p A1 18
+p A0 19
+p \CE\ 20
+p \OE\ 22
+p \BYTE\ 1
+p GND0 21
+p GND1 40
+p D0 23
+p D1 25
+p D2 27
+p D3 29
+p D4 32
+p D5 34
+p D6 36
+p D7 38
+p D8 24
+p D9 26
+p D10 28
+p D11 30
+p D12 33
+p D13 35
+p D14 37
+p D15/A-1 39
+p VCC 31
+*package M5M23400A-XXXFP
+@types 1
+g 1
+@pinout
+t SOP40S
+g 1
+p A17 1
+p A16 32
+p A15 33
+p A14 34
+p A13 35
+p A12 36
+p A11 37
+p A10 38
+p A9 39
+p A8 40
+p A7 2
+p A6 3
+p A5 4
+p A4 5
+p A3 6
+p A2 7
+p A1 8
+p A0 9
+p \CE\ 10
+p \OE\ 12
+p \BYTE\ 31
+p GND0 11
+p GND1 30
+p D0 13
+p D1 15
+p D2 17
+p D3 19
+p D4 22
+p D5 24
+p D6 26
+p D7 28
+p D8 14
+p D9 16
+p D10 18
+p D11 20
+p D12 23
+p D13 25
+p D14 27
+p D15/A-1 29
+p VCC 21
+*package M5M23400A-XXXP
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p A17 1
+p A16 32
+p A15 33
+p A14 34
+p A13 35
+p A12 36
+p A11 37
+p A10 38
+p A9 39
+p A8 40
+p A7 2
+p A6 3
+p A5 4
+p A4 5
+p A3 6
+p A2 7
+p A1 8
+p A0 9
+p \CE\ 10
+p \OE\ 12
+p \BYTE\ 31
+p GND0 11
+p GND1 30
+p D0 13
+p D1 15
+p D2 17
+p D3 19
+p D4 22
+p D5 24
+p D6 26
+p D7 28
+p D8 14
+p D9 16
+p D10 18
+p D11 20
+p D12 23
+p D13 25
+p D14 27
+p D15/A-1 29
+p VCC 21
+*package M5M23400A-XXXRV
+@types 1
+g 1
+@pinout
+t TSOP10X14-40R
+g 1
+p A17 11
+p A16 2
+p A15 3
+p A14 4
+p A13 5
+p A12 6
+p A11 7
+p A10 8
+p A9 9
+p A8 10
+p A7 12
+p A6 13
+p A5 14
+p A4 15
+p A3 16
+p A2 17
+p A1 18
+p A0 19
+p \CE\ 20
+p \OE\ 22
+p \BYTE\ 1
+p GND0 21
+p GND1 40
+p D0 23
+p D1 25
+p D2 27
+p D3 29
+p D4 32
+p D5 34
+p D6 36
+p D7 38
+p D8 24
+p D9 26
+p D10 28
+p D11 30
+p D12 33
+p D13 35
+p D14 37
+p D15/A-1 39
+p VCC 31
+*package M5M23400A-XXXVP
+@types 1
+g 1
+@pinout
+t TSOP10X14-40
+g 1
+p A17 11
+p A16 2
+p A15 3
+p A14 4
+p A13 5
+p A12 6
+p A11 7
+p A10 8
+p A9 9
+p A8 10
+p A7 12
+p A6 13
+p A5 14
+p A4 15
+p A3 16
+p A2 17
+p A1 18
+p A0 19
+p \CE\ 20
+p \OE\ 22
+p \BYTE\ 1
+p GND0 21
+p GND1 40
+p D0 23
+p D1 25
+p D2 27
+p D3 29
+p D4 32
+p D5 34
+p D6 36
+p D7 38
+p D8 24
+p D9 26
+p D10 28
+p D11 30
+p D12 33
+p D13 35
+p D14 37
+p D15/A-1 39
+p VCC 31
+*package M5M23401A
+@types 1
+g 1
+@pinout
+t DIP32X,SOP32
+g 1
+p A18 31
+p A17 30
+p A16 2
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \CE\ 22
+p \OE\ 24
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VCC 32
+t TSOP10X14-40,TSOP10X14-40R
+g 1
+p A18 9
+p A17 8
+p A16 12
+p A15 13
+p A14 7
+p A13 6
+p A12 14
+p A11 3
+p A10 37
+p A9 4
+p A8 5
+p A7 15
+p A6 16
+p A5 17
+p A4 18
+p A3 23
+p A2 24
+p A1 25
+p A0 26
+p \CE\ 36
+p \OE\ 38
+p GND 30
+p D0 27
+p D1 28
+p D2 29
+p D3 31
+p D4 32
+p D5 33
+p D6 34
+p D7 35
+p VCC 10
+*package M5M23401A-XXXFP
+@types 1
+g 1
+@pinout
+t SOP32
+g 1
+p A18 31
+p A17 30
+p A16 2
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \CE\ 22
+p \OE\ 24
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VCC 32
+*package M5M23401A-XXXP
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A18 31
+p A17 30
+p A16 2
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \CE\ 22
+p \OE\ 24
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VCC 32
+*package M5M23401A-XXXRV
+@types 1
+g 1
+@pinout
+t TSOP10X14-40R
+g 1
+p A18 9
+p A17 8
+p A16 12
+p A15 13
+p A14 7
+p A13 6
+p A12 14
+p A11 3
+p A10 37
+p A9 4
+p A8 5
+p A7 15
+p A6 16
+p A5 17
+p A4 18
+p A3 23
+p A2 24
+p A1 25
+p A0 26
+p \CE\ 36
+p \OE\ 38
+p GND 30
+p D0 27
+p D1 28
+p D2 29
+p D3 31
+p D4 32
+p D5 33
+p D6 34
+p D7 35
+p VCC 10
+*package M5M23401A-XXXVP
+@types 1
+g 1
+@pinout
+t TSOP10X14-40
+g 1
+p A18 9
+p A17 8
+p A16 12
+p A15 13
+p A14 7
+p A13 6
+p A12 14
+p A11 3
+p A10 37
+p A9 4
+p A8 5
+p A7 15
+p A6 16
+p A5 17
+p A4 18
+p A3 23
+p A2 24
+p A1 25
+p A0 26
+p \CE\ 36
+p \OE\ 38
+p GND 30
+p D0 27
+p D1 28
+p D2 29
+p D3 31
+p D4 32
+p D5 33
+p D6 34
+p D7 35
+p VCC 10
+*package M5M23C400
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p A17 1
+p A16 32
+p A15 33
+p A14 34
+p A13 35
+p A12 36
+p A11 37
+p A10 38
+p A9 39
+p A8 40
+p A7 2
+p A6 3
+p A5 4
+p A4 5
+p A3 6
+p A2 7
+p A1 8
+p A0 9
+p \CE\ 10
+p \OE\ 12
+p \BYTE\ 31
+p GND0 11
+p GND1 30
+p D0 13
+p D1 15
+p D2 17
+p D3 19
+p D4 22
+p D5 24
+p D6 26
+p D7 28
+p D8 14
+p D9 16
+p D10 18
+p D11 20
+p D12 23
+p D13 25
+p D14 27
+p D15/A-1 29
+p VCC 21
+t QFP14X20-64
+g 1
+p A17 59
+p A16 49
+p A15 50
+p A14 51
+p A13 52
+p A12 53
+p A11 54
+p A10 55
+p A9 56
+p A8 57
+p A7 60
+p A6 61
+p A5 62
+p A4 63
+p A3 64
+p A2 1
+p A1 2
+p A0 3
+p \CE\ 4
+p \OE\ 17
+p \BYTE\ 48
+p GND0 16
+p GND1 36
+p D0 18
+p D1 20
+p D2 22
+p D3 24
+p D4 28
+p D5 30
+p D6 32
+p D7 34
+p D8 19
+p D9 21
+p D10 23
+p D11 25
+p D12 29
+p D13 31
+p D14 33
+p D15/A-1 35
+p VCC 27
+*package M5M23C400-XXXFP
+@types 1
+g 1
+@pinout
+t QFP14X20-64
+g 1
+p A17 59
+p A16 49
+p A15 50
+p A14 51
+p A13 52
+p A12 53
+p A11 54
+p A10 55
+p A9 56
+p A8 57
+p A7 60
+p A6 61
+p A5 62
+p A4 63
+p A3 64
+p A2 1
+p A1 2
+p A0 3
+p \CE\ 4
+p \OE\ 17
+p \BYTE\ 48
+p GND0 16
+p GND1 36
+p D0 18
+p D1 20
+p D2 22
+p D3 24
+p D4 28
+p D5 30
+p D6 32
+p D7 34
+p D8 19
+p D9 21
+p D10 23
+p D11 25
+p D12 29
+p D13 31
+p D14 33
+p D15/A-1 35
+p VCC 27
+*package M5M23C400-XXXP
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p A17 1
+p A16 32
+p A15 33
+p A14 34
+p A13 35
+p A12 36
+p A11 37
+p A10 38
+p A9 39
+p A8 40
+p A7 2
+p A6 3
+p A5 4
+p A4 5
+p A3 6
+p A2 7
+p A1 8
+p A0 9
+p \CE\ 10
+p \OE\ 12
+p \BYTE\ 31
+p GND0 11
+p GND1 30
+p D0 13
+p D1 15
+p D2 17
+p D3 19
+p D4 22
+p D5 24
+p D6 26
+p D7 28
+p D8 14
+p D9 16
+p D10 18
+p D11 20
+p D12 23
+p D13 25
+p D14 27
+p D15/A-1 29
+p VCC 21
+*package M5M23C401
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A18 31
+p A17 30
+p A16 2
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \CE\ 22
+p \OE\ 24
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VCC 32
+*package M5M23C401-XXXP
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A18 31
+p A17 30
+p A16 2
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \CE\ 22
+p \OE\ 24
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VCC 32
+*package M5M27256FP
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \CE\ 20
+p \OE\ 22
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p VPP 1
+*package M5M27256P
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \CE\ 20
+p \OE\ 22
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p VPP 1
+*package M5M27512FP
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \CE\ 20
+p \OE\/VPP 22
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p A15 1
+*package M5M27512P
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \CE\ 20
+p \OE\/VPP 22
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p A15 1
+*package M5M27C100K
+@types 1
+g 1
+@pinout
+t CDIP32X
+g 1
+p A16 24
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \CE\ 22
+p \OE\ 2
+p \PGM\ 31
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VPP 1
+p VCC 32
+*package M5M27C100K-2
+@types 1
+g 1
+@pinout
+t CDIP32X
+g 1
+p A16 24
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \CE\ 22
+p \OE\ 2
+p \PGM\ 31
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VPP 1
+p VCC 32
+*package M5M27C101JK-12
+@types 1
+g 1
+@pinout
+t CLCC/R-32-450
+g 1
+p A16 2
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \PGM\ 31
+p \OE\ 24
+p \CE\ 22
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VCC 32
+p VPP 1
+*package M5M27C101JK-15
+@types 1
+g 1
+@pinout
+t CLCC/R-32-450
+g 1
+p A16 2
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \PGM\ 31
+p \OE\ 24
+p \CE\ 22
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VCC 32
+p VPP 1
+*package M5M27C101JK-2
+@types 1
+g 1
+@pinout
+t CLCC/R-32-450
+g 1
+p A16 2
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \PGM\ 31
+p \OE\ 24
+p \CE\ 22
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VCC 32
+p VPP 1
+*package M5M27C101K
+@types 1
+g 1
+@pinout
+t CDIP32X,CLCC/R-32-450
+g 1
+p A16 2
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \PGM\ 31
+p \OE\ 24
+p \CE\ 22
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VCC 32
+p VPP 1
+*package M5M27C101K-2
+@types 1
+g 1
+@pinout
+t CDIP32X
+g 1
+p A16 2
+p A15 3
+p A14 29
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \PGM\ 31
+p \OE\ 24
+p \CE\ 22
+p GND 16
+p D0 13
+p D1 14
+p D2 15
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VCC 32
+p VPP 1
+*package M5M27C102J
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p A15 41
+p A14 40
+p A13 39
+p A12 38
+p A11 37
+p A10 36
+p A9 35
+p A8 32
+p A7 31
+p A6 30
+p A5 29
+p A4 28
+p A3 27
+p A2 26
+p A1 25
+p A0 24
+p \PGM\ 43
+p \OE\ 22
+p \CE\ 3
+p GND0 12
+p GND1 34
+p D0 21
+p D1 20
+p D2 19
+p D3 18
+p D4 17
+p D5 16
+p D6 15
+p D7 14
+p D8 11
+p D9 10
+p D10 9
+p D11 8
+p D12 7
+p D13 6
+p D14 5
+p D15 4
+p VCC 44
+p VPP 2
+*package M5M27C102JK-12
+@types 1
+g 1
+@pinout
+t CLCC44
+g 1
+p A15 41
+p A14 40
+p A13 39
+p A12 38
+p A11 37
+p A10 36
+p A9 35
+p A8 32
+p A7 31
+p A6 30
+p A5 29
+p A4 28
+p A3 27
+p A2 26
+p A1 25
+p A0 24
+p \PGM\ 43
+p \OE\ 22
+p \CE\ 3
+p GND0 12
+p GND1 34
+p D0 21
+p D1 20
+p D2 19
+p D3 18
+p D4 17
+p D5 16
+p D6 15
+p D7 14
+p D8 11
+p D9 10
+p D10 9
+p D11 8
+p D12 7
+p D13 6
+p D14 5
+p D15 4
+p VCC 44
+p VPP 2
+*package M5M27C102JK-15
+@types 1
+g 1
+@pinout
+t CLCC44
+g 1
+p A15 41
+p A14 40
+p A13 39
+p A12 38
+p A11 37
+p A10 36
+p A9 35
+p A8 32
+p A7 31
+p A6 30
+p A5 29
+p A4 28
+p A3 27
+p A2 26
+p A1 25
+p A0 24
+p \PGM\ 43
+p \OE\ 22
+p \CE\ 3
+p GND0 12
+p GND1 34
+p D0 21
+p D1 20
+p D2 19
+p D3 18
+p D4 17
+p D5 16
+p D6 15
+p D7 14
+p D8 11
+p D9 10
+p D10 9
+p D11 8
+p D12 7
+p D13 6
+p D14 5
+p D15 4
+p VCC 44
+p VPP 2
+*package M5M27C102JK-2
+@types 1
+g 1
+@pinout
+t CLCC44
+g 1
+p A15 41
+p A14 40
+p A13 39
+p A12 38
+p A11 37
+p A10 36
+p A9 35
+p A8 32
+p A7 31
+p A6 30
+p A5 29
+p A4 28
+p A3 27
+p A2 26
+p A1 25
+p A0 24
+p \PGM\ 43
+p \OE\ 22
+p \CE\ 3
+p GND0 12
+p GND1 34
+p D0 21
+p D1 20
+p D2 19
+p D3 18
+p D4 17
+p D5 16
+p D6 15
+p D7 14
+p D8 11
+p D9 10
+p D10 9
+p D11 8
+p D12 7
+p D13 6
+p D14 5
+p D15 4
+p VCC 44
+p VPP 2
+*package M5M27C102K
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p A15 37
+p A14 36
+p A13 35
+p A12 34
+p A11 33
+p A10 32
+p A9 31
+p A8 29
+p A7 28
+p A6 27
+p A5 26
+p A4 25
+p A3 24
+p A2 23
+p A1 22
+p A0 21
+p \PGM\ 39
+p \OE\ 20
+p \CE\ 2
+p GND0 11
+p GND1 30
+p D0 19
+p D1 18
+p D2 17
+p D3 16
+p D4 15
+p D5 14
+p D6 13
+p D7 12
+p D8 10
+p D9 9
+p D10 8
+p D11 7
+p D12 6
+p D13 5
+p D14 4
+p D15 3
+p VCC 40
+p VPP 1
+*package M5M27C102K-12
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p A15 37
+p A14 36
+p A13 35
+p A12 34
+p A11 33
+p A10 32
+p A9 31
+p A8 29
+p A7 28
+p A6 27
+p A5 26
+p A4 25
+p A3 24
+p A2 23
+p A1 22
+p A0 21
+p \PGM\ 39
+p \OE\ 20
+p \CE\ 2
+p GND0 11
+p GND1 30
+p D0 19
+p D1 18
+p D2 17
+p D3 16
+p D4 15
+p D5 14
+p D6 13
+p D7 12
+p D8 10
+p D9 9
+p D10 8
+p D11 7
+p D12 6
+p D13 5
+p D14 4
+p D15 3
+p VCC 40
+p VPP 1
+*package M5M27C102K-2
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p A15 37
+p A14 36
+p A13 35
+p A12 34
+p A11 33
+p A10 32
+p A9 31
+p A8 29
+p A7 28
+p A6 27
+p A5 26
+p A4 25
+p A3 24
+p A2 23
+p A1 22
+p A0 21
+p \PGM\ 39
+p \OE\ 20
+p \CE\ 2
+p GND0 11
+p GND1 30
+p D0 19
+p D1 18
+p D2 17
+p D3 16
+p D4 15
+p D5 14
+p D6 13
+p D7 12
+p D8 10
+p D9 9
+p D10 8
+p D11 7
+p D12 6
+p D13 5
+p D14 4
+p D15 3
+p VCC 40
+p VPP 1
+*package M5M27C256AK
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p VPP 1
+*package M5M27C256AK-12
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p VPP 1
+*package M5M27C256AK-15
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p VPP 1
+*package M5M27C256K-I
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p VPP 1
+*package M5M27C256AP
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p VPP 1
+*package M5M27C512AFP
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\/VPP 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p A15 1
+*package M5M27C512AP
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A14 27
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\/VPP 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+p A15 1
+*package M5M28C64AFP-15
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p \WE\ 27
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+*package M5M28C64A
+@types 1
+g 1
+@pinout
+t DIP28X,SOP28,TSOP8X14-28-M,TSOP8X14-28R-M
+g 1
+p \WE\ 27
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+*package M5M28C64AP-15
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p \WE\ 27
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+*package M5M28C64ARV-15
+@types 1
+g 1
+@pinout
+t TSOP8X14-28R-M
+g 1
+p \WE\ 27
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+*package M5M28C64AVP-15
+@types 1
+g 1
+@pinout
+t TSOP8X14-28-M
+g 1
+p \WE\ 27
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \OE\ 22
+p \CE\ 20
+p GND 14
+p D0 11
+p D1 12
+p D2 13
+p D3 15
+p D4 16
+p D5 17
+p D6 18
+p D7 19
+p VCC 28
+*package M5M41000A
+@types 1
+g 1
+@pinout
+t DIP18
+g 1
+p A9 15
+p A8 14
+p A7 13
+p A6 12
+p A5 11
+p A4 10
+p A3 8
+p A2 7
+p A1 6
+p A0 5
+p \W\ 2
+p \RAS\ 3
+p \CAS\ 16
+p D 1
+p VSS 18
+p Q 17
+p VCC 9
+t SOJ20/26/300/MO-105AA
+g 1
+p A9 22
+p A8 18
+p A7 17
+p A6 16
+p A5 15
+p A4 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p \W\ 2
+p \RAS\ 3
+p \CAS\ 24
+p D 1
+p VSS 26
+p Q 25
+p VCC 13
+t ZIP20
+g 1
+p A9 1
+p A8 20
+p A7 19
+p A6 18
+p A5 17
+p A4 16
+p A3 14
+p A2 13
+p A1 12
+p A0 11
+p \W\ 6
+p \RAS\ 7
+p \CAS\ 2
+p D 5
+p VSS 4
+p Q 3
+p VCC 15
+*package M5M41000AJ-8
+@types 1
+g 1
+@pinout
+t SOJ20/26/300/MO-105AA
+g 1
+p A9 22
+p A8 18
+p A7 17
+p A6 16
+p A5 15
+p A4 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p \W\ 2
+p \RAS\ 3
+p \CAS\ 24
+p D 1
+p VSS 26
+p Q 25
+p VCC 13
+*package M5M41000AL-8
+@types 1
+g 1
+@pinout
+t ZIP20
+g 1
+p A9 1
+p A8 20
+p A7 19
+p A6 18
+p A5 17
+p A4 16
+p A3 14
+p A2 13
+p A1 12
+p A0 11
+p \W\ 6
+p \RAS\ 7
+p \CAS\ 2
+p D 5
+p VSS 4
+p Q 3
+p VCC 15
+*package M5M41000AP-8
+@types 1
+g 1
+@pinout
+t DIP18
+g 1
+p A9 15
+p A8 14
+p A7 13
+p A6 12
+p A5 11
+p A4 10
+p A3 8
+p A2 7
+p A1 6
+p A0 5
+p \W\ 2
+p \RAS\ 3
+p \CAS\ 16
+p D 1
+p VSS 18
+p Q 17
+p VCC 9
+*package M5M41001A
+@types 1
+g 1
+@pinout
+t DIP18
+g 1
+p A9 15
+p A8 14
+p A7 13
+p A6 12
+p A5 11
+p A4 10
+p A3 8
+p A2 7
+p A1 6
+p A0 5
+p \W\ 2
+p \RAS\ 3
+p \CAS\ 16
+p D 1
+p VSS 18
+p Q 17
+p VCC 9
+t SOJ20/26/300/MO-105AA
+g 1
+p A9 22
+p A8 18
+p A7 17
+p A6 16
+p A5 15
+p A4 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p \W\ 2
+p \RAS\ 3
+p \CAS\ 24
+p D 1
+p VSS 26
+p Q 25
+p VCC 13
+t ZIP20
+g 1
+p A9 1
+p A8 20
+p A7 19
+p A6 18
+p A5 17
+p A4 16
+p A3 14
+p A2 13
+p A1 12
+p A0 11
+p \W\ 6
+p \RAS\ 7
+p \CAS\ 2
+p D 5
+p VSS 4
+p Q 3
+p VCC 15
+*package M5M41001AJ-8
+@types 1
+g 1
+@pinout
+t SOJ20/26/300/MO-105AA
+g 1
+p A9 22
+p A8 18
+p A7 17
+p A6 16
+p A5 15
+p A4 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p \W\ 2
+p \RAS\ 3
+p \CAS\ 24
+p D 1
+p VSS 26
+p Q 25
+p VCC 13
+*package M5M41001AL-8
+@types 1
+g 1
+@pinout
+t ZIP20
+g 1
+p A9 1
+p A8 20
+p A7 19
+p A6 18
+p A5 17
+p A4 16
+p A3 14
+p A2 13
+p A1 12
+p A0 11
+p \W\ 6
+p \RAS\ 7
+p \CAS\ 2
+p D 5
+p VSS 4
+p Q 3
+p VCC 15
+*package M5M41001AP-8
+@types 1
+g 1
+@pinout
+t DIP18
+g 1
+p A9 15
+p A8 14
+p A7 13
+p A6 12
+p A5 11
+p A4 10
+p A3 8
+p A2 7
+p A1 6
+p A0 5
+p \W\ 2
+p \RAS\ 3
+p \CAS\ 16
+p D 1
+p VSS 18
+p Q 17
+p VCC 9
+*package M5M41002A
+@types 1
+g 1
+@pinout
+t DIP18
+g 1
+p A9 15
+p A8 14
+p A7 13
+p A6 12
+p A5 11
+p A4 10
+p A3 8
+p A2 7
+p A1 6
+p A0 5
+p \W\ 2
+p \RAS\ 3
+p \CS\ 16
+p D 1
+p VSS 18
+p Q 17
+p VCC 9
+t SOJ20/26/300/MO-105AA
+g 1
+p A9 22
+p A8 18
+p A7 17
+p A6 16
+p A5 15
+p A4 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p \W\ 2
+p \RAS\ 3
+p \CS\ 24
+p D 1
+p VSS 26
+p Q 25
+p VCC 13
+t ZIP20
+g 1
+p A9 1
+p A8 20
+p A7 19
+p A6 18
+p A5 17
+p A4 16
+p A3 14
+p A2 13
+p A1 12
+p A0 11
+p \W\ 6
+p \RAS\ 7
+p \CS\ 2
+p D 5
+p VSS 4
+p Q 3
+p VCC 15
+*package M5M41002AJ-8
+@types 1
+g 1
+@pinout
+t SOJ20/26/300/MO-105AA
+g 1
+p A9 22
+p A8 18
+p A7 17
+p A6 16
+p A5 15
+p A4 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p \W\ 2
+p \RAS\ 3
+p \CS\ 24
+p D 1
+p VSS 26
+p Q 25
+p VCC 13
+*package M5M41002AL-8
+@types 1
+g 1
+@pinout
+t ZIP20
+g 1
+p A9 1
+p A8 20
+p A7 19
+p A6 18
+p A5 17
+p A4 16
+p A3 14
+p A2 13
+p A1 12
+p A0 11
+p \W\ 6
+p \RAS\ 7
+p \CS\ 2
+p D 5
+p VSS 4
+p Q 3
+p VCC 15
+*package M5M41002AP-8
+@types 1
+g 1
+@pinout
+t DIP18
+g 1
+p A9 15
+p A8 14
+p A7 13
+p A6 12
+p A5 11
+p A4 10
+p A3 8
+p A2 7
+p A1 6
+p A0 5
+p \W\ 2
+p \RAS\ 3
+p \CS\ 16
+p D 1
+p VSS 18
+p Q 17
+p VCC 9
+*package M5M4256A
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p A8 1
+p A7 9
+p A6 13
+p A5 10
+p A4 11
+p A3 12
+p A2 6
+p A1 7
+p A0 5
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 15
+p D 2
+p VSS 16
+p Q 14
+p VCC 8
+t PLCC/R-18L
+g 1
+p A8 1
+p A7 10
+p A6 15
+p A5 11
+p A4 12
+p A3 13
+p A2 7
+p A1 8
+p A0 6
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 17
+p D 2
+p VSS 18
+p Q 16
+p VCC 9
+t ZIP16
+g 1
+p A8 5
+p A7 13
+p A6 1
+p A5 14
+p A4 15
+p A3 16
+p A2 10
+p A1 11
+p A0 9
+p \W\ 7
+p \RAS\ 8
+p \CAS\ 3
+p D 6
+p VSS 4
+p Q 2
+p VCC 12
+*package M5M4256AJ
+@types 1
+g 1
+@pinout
+t PLCC/R-18L
+g 1
+p A8 1
+p A7 10
+p A6 15
+p A5 11
+p A4 12
+p A3 13
+p A2 7
+p A1 8
+p A0 6
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 17
+p D 2
+p VSS 18
+p Q 16
+p VCC 9
+*package M5M4256AP
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p A8 1
+p A7 9
+p A6 13
+p A5 10
+p A4 11
+p A3 12
+p A2 6
+p A1 7
+p A0 5
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 15
+p D 2
+p VSS 16
+p Q 14
+p VCC 8
+*package M5M4257A
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p A8 1
+p A7 9
+p A6 13
+p A5 10
+p A4 11
+p A3 12
+p A2 6
+p A1 7
+p A0 5
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 15
+p D 2
+p VSS 16
+p Q 14
+p VCC 8
+t PLCC/R-18L
+g 1
+p A8 1
+p A7 10
+p A6 15
+p A5 11
+p A4 12
+p A3 13
+p A2 7
+p A1 8
+p A0 6
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 17
+p D 2
+p VSS 18
+p Q 16
+p VCC 9
+t ZIP16
+g 1
+p A8 5
+p A7 13
+p A6 1
+p A5 14
+p A4 15
+p A3 16
+p A2 10
+p A1 11
+p A0 9
+p \W\ 7
+p \RAS\ 8
+p \CAS\ 3
+p D 6
+p VSS 4
+p Q 2
+p VCC 12
+*package M5M4257AJ
+@types 1
+g 1
+@pinout
+t PLCC/R-18L
+g 1
+p A8 1
+p A7 10
+p A6 15
+p A5 11
+p A4 12
+p A3 13
+p A2 7
+p A1 8
+p A0 6
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 17
+p D 2
+p VSS 18
+p Q 16
+p VCC 9
+*package M5M4257AP
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p A8 1
+p A7 9
+p A6 13
+p A5 10
+p A4 11
+p A3 12
+p A2 6
+p A1 7
+p A0 5
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 15
+p D 2
+p VSS 16
+p Q 14
+p VCC 8
+*package M5M44256A
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p A8 15
+p A7 14
+p A6 13
+p A5 12
+p A4 11
+p A3 9
+p A2 8
+p A1 7
+p A0 6
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 17
+p \OE\ 16
+p VSS 20
+p DQ1 1
+p DQ2 2
+p DQ3 18
+p DQ4 19
+p VCC 10
+t SOJ20/26/300/MO-105AA
+g 1
+p A8 18
+p A7 17
+p A6 16
+p A5 15
+p A4 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 23
+p \OE\ 22
+p VSS 26
+p DQ1 1
+p DQ2 2
+p DQ3 24
+p DQ4 25
+p VCC 13
+t ZIP20
+g 1
+p A8 20
+p A7 19
+p A6 18
+p A5 17
+p A4 16
+p A3 14
+p A2 13
+p A1 12
+p A0 11
+p \W\ 8
+p \RAS\ 9
+p \CAS\ 2
+p \OE\ 1
+p VSS 5
+p DQ1 6
+p DQ2 7
+p DQ3 3
+p DQ4 4
+p VCC 15
+*package M5M44256AJ-8
+@types 1
+g 1
+@pinout
+t SOJ20/26/300/MO-105AA
+g 1
+p A8 18
+p A7 17
+p A6 16
+p A5 15
+p A4 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 23
+p \OE\ 22
+p VSS 26
+p DQ1 1
+p DQ2 2
+p DQ3 24
+p DQ4 25
+p VCC 13
+*package M5M44256AL-8
+@types 1
+g 1
+@pinout
+t ZIP20
+g 1
+p A8 20
+p A7 19
+p A6 18
+p A5 17
+p A4 16
+p A3 14
+p A2 13
+p A1 12
+p A0 11
+p \W\ 8
+p \RAS\ 9
+p \CAS\ 2
+p \OE\ 1
+p VSS 5
+p DQ1 6
+p DQ2 7
+p DQ3 3
+p DQ4 4
+p VCC 15
+*package M5M44256AP-8
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p A8 15
+p A7 14
+p A6 13
+p A5 12
+p A4 11
+p A3 9
+p A2 8
+p A1 7
+p A0 6
+p \W\ 3
+p \RAS\ 4
+p \CAS\ 17
+p \OE\ 16
+p VSS 20
+p DQ1 1
+p DQ2 2
+p DQ3 18
+p DQ4 19
+p VCC 10
+*package M5M44258A
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p A8 15
+p A7 14
+p A6 13
+p A5 12
+p A4 11
+p A3 9
+p A2 8
+p A1 7
+p A0 6
+p \W\ 3
+p \RAS\ 4
+p \CS\ 17
+p \OE\ 16
+p VSS 20
+p DQ1 1
+p DQ2 2
+p DQ3 18
+p DQ4 19
+p VCC 10
+t SOJ20/26/300/MO-105AA
+g 1
+p A8 18
+p A7 17
+p A6 16
+p A5 15
+p A4 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p \W\ 3
+p \RAS\ 4
+p \CS\ 23
+p \OE\ 22
+p VSS 26
+p DQ1 1
+p DQ2 2
+p DQ3 24
+p DQ4 25
+p VCC 13
+t ZIP20
+g 1
+p A8 20
+p A7 19
+p A6 18
+p A5 17
+p A4 16
+p A3 14
+p A2 13
+p A1 12
+p A0 11
+p \W\ 8
+p \RAS\ 9
+p \CS\ 2
+p \OE\ 1
+p VSS 5
+p DQ1 6
+p DQ2 7
+p DQ3 3
+p DQ4 4
+p VCC 15
+*package M5M44258AJ-8
+@types 1
+g 1
+@pinout
+t SOJ20/26/300/MO-105AA
+g 1
+p A8 18
+p A7 17
+p A6 16
+p A5 15
+p A4 14
+p A3 12
+p A2 11
+p A1 10
+p A0 9
+p \W\ 3
+p \RAS\ 4
+p \CS\ 23
+p \OE\ 22
+p VSS 26
+p DQ1 1
+p DQ2 2
+p DQ3 24
+p DQ4 25
+p VCC 13
+*package M5M44258AL-8
+@types 1
+g 1
+@pinout
+t ZIP20
+g 1
+p A8 20
+p A7 19
+p A6 18
+p A5 17
+p A4 16
+p A3 14
+p A2 13
+p A1 12
+p A0 11
+p \W\ 8
+p \RAS\ 9
+p \CS\ 2
+p \OE\ 1
+p VSS 5
+p DQ1 6
+p DQ2 7
+p DQ3 3
+p DQ4 4
+p VCC 15
+*package M5M44258AP-8
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p A8 15
+p A7 14
+p A6 13
+p A5 12
+p A4 11
+p A3 9
+p A2 8
+p A1 7
+p A0 6
+p \W\ 3
+p \RAS\ 4
+p \CS\ 17
+p \OE\ 16
+p VSS 20
+p DQ1 1
+p DQ2 2
+p DQ3 18
+p DQ4 19
+p VCC 10
+*package M5M4464A
+@types 1
+g 1
+@pinout
+t DIP18,PLCC/R-18L
+g 1
+p A7 10
+p A6 6
+p A5 7
+p A4 8
+p A3 11
+p A2 12
+p A1 13
+p A0 14
+p \OE\ 1
+p \W\ 4
+p \RAS\ 5
+p \CAS\ 16
+p VSS 18
+p VCC 9
+p DQ1 2
+p DQ2 3
+p DQ3 15
+p DQ4 17
+t ZIP20
+g 1
+p A7 16
+p A6 12
+p A5 13
+p A4 14
+p A3 17
+p A2 18
+p A1 19
+p A0 20
+p \OE\ 5
+p \W\ 8
+p \RAS\ 9
+p \CAS\ 2
+p VSS 4
+p VCC 15
+p DQ1 6
+p DQ2 7
+p DQ3 1
+p DQ4 3
+*package M5M4464AJ-8
+@types 1
+g 1
+@pinout
+t PLCC/R-18L
+g 1
+p A7 10
+p A6 6
+p A5 7
+p A4 8
+p A3 11
+p A2 12
+p A1 13
+p A0 14
+p \OE\ 1
+p \W\ 4
+p \RAS\ 5
+p \CAS\ 16
+p VSS 18
+p VCC 9
+p DQ1 2
+p DQ2 3
+p DQ3 15
+p DQ4 17
+*package M5M4464AL-8
+@types 1
+g 1
+@pinout
+t ZIP20
+g 1
+p A7 16
+p A6 12
+p A5 13
+p A4 14
+p A3 17
+p A2 18
+p A1 19
+p A0 20
+p \OE\ 5
+p \W\ 8
+p \RAS\ 9
+p \CAS\ 2
+p VSS 4
+p VCC 15
+p DQ1 6
+p DQ2 7
+p DQ3 1
+p DQ4 3
+*package M5M4464AP-8
+@types 1
+g 1
+@pinout
+t DIP18
+g 1
+p A7 10
+p A6 6
+p A5 7
+p A4 8
+p A3 11
+p A2 12
+p A1 13
+p A0 14
+p \OE\ 1
+p \W\ 4
+p \RAS\ 5
+p \CAS\ 16
+p VSS 18
+p VCC 9
+p DQ1 2
+p DQ2 3
+p DQ3 15
+p DQ4 17
+*package M5M4C264L
+@types 1
+g 1
+@pinout
+t ZIP24
+g 1
+p A7 19
+p A6 15
+p A5 16
+p A4 17
+p A3 20
+p A2 21
+p A1 22
+p A0 23
+p \RAS\ 14
+p \CAS\ 24
+p \WB\/\WE\ 13
+p \DT\/\OE\ 10
+p SC 7
+p \SE\ 3
+p VSS 6
+p VCC 18
+p W0/IO0 11
+p W1/IO1 12
+p W2/IO2 1
+p W3/IO3 2
+p SIO0 8
+p SIO1 9
+p SIO2 4
+p SIO3 5
+*package M5M4C264L-10
+@types 1
+g 1
+@pinout
+t ZIP24
+g 1
+p A7 19
+p A6 15
+p A5 16
+p A4 17
+p A3 20
+p A2 21
+p A1 22
+p A0 23
+p \RAS\ 14
+p \CAS\ 24
+p \WB\/\WE\ 13
+p \DT\/\OE\ 10
+p SC 7
+p \SE\ 3
+p VSS 6
+p VCC 18
+p W0/IO0 11
+p W1/IO1 12
+p W2/IO2 1
+p W3/IO3 2
+p SIO0 8
+p SIO1 9
+p SIO2 4
+p SIO3 5
+*package M5M4C264L-12
+@types 1
+g 1
+@pinout
+t ZIP24
+g 1
+p A7 19
+p A6 15
+p A5 16
+p A4 17
+p A3 20
+p A2 21
+p A1 22
+p A0 23
+p \RAS\ 14
+p \CAS\ 24
+p \WB\/\WE\ 13
+p \DT\/\OE\ 10
+p SC 7
+p \SE\ 3
+p VSS 6
+p VCC 18
+p W0/IO0 11
+p W1/IO1 12
+p W2/IO2 1
+p W3/IO3 2
+p SIO0 8
+p SIO1 9
+p SIO2 4
+p SIO3 5
+*package M5M4C264L-15
+@types 1
+g 1
+@pinout
+t ZIP24
+g 1
+p A7 19
+p A6 15
+p A5 16
+p A4 17
+p A3 20
+p A2 21
+p A1 22
+p A0 23
+p \RAS\ 14
+p \CAS\ 24
+p \WB\/\WE\ 13
+p \DT\/\OE\ 10
+p SC 7
+p \SE\ 3
+p VSS 6
+p VCC 18
+p W0/IO0 11
+p W1/IO1 12
+p W2/IO2 1
+p W3/IO3 2
+p SIO0 8
+p SIO1 9
+p SIO2 4
+p SIO3 5
+*package M5M4C500L
+@types 1
+g 1
+@pinout
+t ZIP28
+g 1
+p IR7/A7 14
+p IR6/A6 15
+p IR5/A5 16
+p IR4/A4 17
+p IR3/A3 18
+p IR2/A2 19
+p IR1/A1 20
+p A8/A0 21
+p \RAS\/\IRE\ 23
+p \IRS\/CAS 22
+p SIC 24
+p \SIE\ 26
+p SID1 2
+p SID2 3
+p SID3 4
+p SID4 11
+p SID5 12
+p SID6 13
+p \SOE\ 27
+p SOC 25
+p VSS 1
+p VCC 28
+p SOD6 10
+p SOD5 9
+p SOD4 8
+p SOD3 7
+p SOD2 6
+p SOD1 5
+*package M5M4C500L-10
+@types 1
+g 1
+@pinout
+t ZIP28
+g 1
+p IR7/A7 14
+p IR6/A6 15
+p IR5/A5 16
+p IR4/A4 17
+p IR3/A3 18
+p IR2/A2 19
+p IR1/A1 20
+p A8/A0 21
+p \RAS\/\IRE\ 23
+p \IRS\/CAS 22
+p SIC 24
+p \SIE\ 26
+p SID1 2
+p SID2 3
+p SID3 4
+p SID4 11
+p SID5 12
+p SID6 13
+p \SOE\ 27
+p SOC 25
+p VSS 1
+p VCC 28
+p SOD6 10
+p SOD5 9
+p SOD4 8
+p SOD3 7
+p SOD2 6
+p SOD1 5
+*package M5M4C500L-5
+@types 1
+g 1
+@pinout
+t ZIP28
+g 1
+p IR7/A7 14
+p IR6/A6 15
+p IR5/A5 16
+p IR4/A4 17
+p IR3/A3 18
+p IR2/A2 19
+p IR1/A1 20
+p A8/A0 21
+p \RAS\/\IRE\ 23
+p \IRS\/CAS 22
+p SIC 24
+p \SIE\ 26
+p SID1 2
+p SID2 3
+p SID3 4
+p SID4 11
+p SID5 12
+p SID6 13
+p \SOE\ 27
+p SOC 25
+p VSS 1
+p VCC 28
+p SOD6 10
+p SOD5 9
+p SOD4 8
+p SOD3 7
+p SOD2 6
+p SOD1 5
+*package M5M4C500L-6
+@types 1
+g 1
+@pinout
+t ZIP28
+g 1
+p IR7/A7 14
+p IR6/A6 15
+p IR5/A5 16
+p IR4/A4 17
+p IR3/A3 18
+p IR2/A2 19
+p IR1/A1 20
+p A8/A0 21
+p \RAS\/\IRE\ 23
+p \IRS\/CAS 22
+p SIC 24
+p \SIE\ 26
+p SID1 2
+p SID2 3
+p SID3 4
+p SID4 11
+p SID5 12
+p SID6 13
+p \SOE\ 27
+p SOC 25
+p VSS 1
+p VCC 28
+p SOD6 10
+p SOD5 9
+p SOD4 8
+p SOD3 7
+p SOD2 6
+p SOD1 5
+*package M5M5165FP
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5165FP-10
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5165FP-10L
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5165P
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5178P
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5178P-35
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5178P-45
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5178P-55
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5179P
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A12 9
+p A11 8
+p A10 7
+p A9 6
+p A8 5
+p A7 4
+p A6 3
+p A5 2
+p A4 1
+p A3 21
+p A2 25
+p A1 24
+p A0 23
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 18
+p DQ7 17
+p DQ6 16
+p DQ5 15
+p DQ4 13
+p DQ3 12
+p DQ2 11
+p DQ1 10
+p DQ9 19
+*package M5M5179P-35
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A12 9
+p A11 8
+p A10 7
+p A9 6
+p A8 5
+p A7 4
+p A6 3
+p A5 2
+p A4 1
+p A3 21
+p A2 25
+p A1 24
+p A0 23
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 18
+p DQ7 17
+p DQ6 16
+p DQ5 15
+p DQ4 13
+p DQ3 12
+p DQ2 11
+p DQ1 10
+p DQ9 19
+*package M5M5179P-45
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A12 9
+p A11 8
+p A10 7
+p A9 6
+p A8 5
+p A7 4
+p A6 3
+p A5 2
+p A4 1
+p A3 21
+p A2 25
+p A1 24
+p A0 23
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 18
+p DQ7 17
+p DQ6 16
+p DQ5 15
+p DQ4 13
+p DQ3 12
+p DQ2 11
+p DQ1 10
+p DQ9 19
+*package M5M5179P-55
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A12 9
+p A11 8
+p A10 7
+p A9 6
+p A8 5
+p A7 4
+p A6 3
+p A5 2
+p A4 1
+p A3 21
+p A2 25
+p A1 24
+p A0 23
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 18
+p DQ7 17
+p DQ6 16
+p DQ5 15
+p DQ4 13
+p DQ3 12
+p DQ2 11
+p DQ1 10
+p DQ9 19
+*package M5M5187A
+@types 1
+g 1
+@pinout
+t DIP22
+g 1
+p A15 21
+p A14 20
+p A13 19
+p A12 18
+p A11 17
+p A10 16
+p A9 15
+p A8 14
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 12
+p \W\ 10
+p GND 11
+p Q 9
+p D 13
+p VCC 22
+t SOJ24/300
+g 1
+p A15 23
+p A14 22
+p A13 21
+p A12 20
+p A11 18
+p A10 17
+p A9 16
+p A8 15
+p A7 9
+p A6 8
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 13
+p \W\ 11
+p GND 12
+p Q 10
+p D 14
+p VCC 24
+*package M5M5187AJ-25
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A15 23
+p A14 22
+p A13 21
+p A12 20
+p A11 18
+p A10 17
+p A9 16
+p A8 15
+p A7 9
+p A6 8
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 13
+p \W\ 11
+p GND 12
+p Q 10
+p D 14
+p VCC 24
+*package M5M5187AP-25
+@types 1
+g 1
+@pinout
+t DIP22
+g 1
+p A15 21
+p A14 20
+p A13 19
+p A12 18
+p A11 17
+p A10 16
+p A9 15
+p A8 14
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 12
+p \W\ 10
+p GND 11
+p Q 9
+p D 13
+p VCC 22
+*package M5M5188A
+@types 1
+g 1
+@pinout
+t DIP22
+g 1
+p A13 21
+p A12 20
+p A11 19
+p A10 18
+p A9 17
+p DQ4 16
+p DQ3 15
+p DQ2 14
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \W\ 12
+p \S\ 10
+p GND 11
+p A8 9
+p DQ1 13
+p VCC 22
+t SOJ24/300
+g 1
+p A13 23
+p A12 22
+p A11 21
+p A10 20
+p A9 19
+p DQ4 17
+p DQ3 16
+p DQ2 15
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \W\ 13
+p \S\ 10
+p GND 12
+p A8 9
+p DQ1 14
+p VCC 24
+*package M5M5188AJ-25
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A13 23
+p A12 22
+p A11 21
+p A10 20
+p A9 19
+p DQ4 17
+p DQ3 16
+p DQ2 15
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \W\ 13
+p \S\ 10
+p GND 12
+p A8 9
+p DQ1 14
+p VCC 24
+*package M5M5188AP-25
+@types 1
+g 1
+@pinout
+t DIP22
+g 1
+p A13 21
+p A12 20
+p A11 19
+p A10 18
+p A9 17
+p DQ4 16
+p DQ3 15
+p DQ2 14
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \W\ 12
+p \S\ 10
+p GND 11
+p A8 9
+p DQ1 13
+p VCC 22
+*package M5M5189A
+@types 1
+g 1
+@pinout
+t DIP24,SOJ24/300
+g 1
+p A13 23
+p A12 22
+p A11 21
+p A10 20
+p A9 19
+p DQ4 17
+p DQ3 16
+p DQ2 15
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \W\ 13
+p \S\ 10
+p GND 12
+p A8 9
+p DQ1 14
+p VCC 24
+p \OE\ 11
+*package M5M5189AJ-25
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A13 23
+p A12 22
+p A11 21
+p A10 20
+p A9 19
+p DQ4 17
+p DQ3 16
+p DQ2 15
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \W\ 13
+p \S\ 10
+p GND 12
+p A8 9
+p DQ1 14
+p VCC 24
+p \OE\ 11
+*package M5M5189AP-25
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p A13 23
+p A12 22
+p A11 21
+p A10 20
+p A9 19
+p DQ4 17
+p DQ3 16
+p DQ2 15
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \W\ 13
+p \S\ 10
+p GND 12
+p A8 9
+p DQ1 14
+p VCC 24
+p \OE\ 11
+*package M5M5189BJ-15
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A13 23
+p A12 22
+p A11 21
+p A10 20
+p A9 19
+p DQ4 17
+p DQ3 16
+p DQ2 15
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \W\ 13
+p \S\ 10
+p GND 12
+p A8 9
+p DQ1 14
+p VCC 24
+p \OE\ 11
+*package M5M5189BP-15
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p A13 23
+p A12 22
+p A11 21
+p A10 20
+p A9 19
+p DQ4 17
+p DQ3 16
+p DQ2 15
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \W\ 13
+p \S\ 10
+p GND 12
+p A8 9
+p DQ1 14
+p VCC 24
+p \OE\ 11
+*package M5M5255B
+@types 1
+g 1
+@pinout
+t DIP28,DIP28X,SOP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5255BKP-10
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5255BKP-10L
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5255BKP-10LL
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5255BP-10L
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5255BP-10LL
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5255BFP-10LL
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5255BFP-10
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5255BFP-10L
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5255BP-10
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5256B
+@types 1
+g 1
+@pinout
+t DIP28,DIP28X,SOP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S\ 20
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5256BKP-10
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S\ 20
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5256BKP-10L
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S\ 20
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5256BKP-10LL
+@types 1
+g 1
+@pinout
+t DIP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S\ 20
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5256BFP-10
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S\ 20
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5256BFP-10L
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S\ 20
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5256BFP-10LL
+@types 1
+g 1
+@pinout
+t SOP28
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S\ 20
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5256BP-10LL
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S\ 20
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5256BP-10L
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S\ 20
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5256BP-10
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A14 1
+p A13 26
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S\ 20
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5257A
+@types 1
+g 1
+@pinout
+t DIP24,SOP24
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257AJ-25
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257AJ-30
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257AJ-35
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257AP-25
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257AP-30
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A17 4
+p A16 6
+p A15 5
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 8
+p A8 7
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 9
+p A2 15
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257AP-35
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p A17 4
+p A16 6
+p A15 5
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 8
+p A8 7
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 9
+p A2 15
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5258A
+@types 1
+g 1
+@pinout
+t DIP24,SOJ24/300
+g 1
+p DQ4 17
+p DQ3 16
+p A15 8
+p A14 9
+p A13 10
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258AJ-25
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p DQ4 17
+p DQ3 16
+p A15 8
+p A14 9
+p A13 10
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258AJ-30
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p DQ4 17
+p DQ3 16
+p A15 8
+p A14 9
+p A13 10
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258AJ-35
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p DQ4 17
+p DQ3 16
+p A15 8
+p A14 9
+p A13 10
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258AP-25
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p DQ4 17
+p DQ3 16
+p A15 8
+p A14 9
+p A13 10
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258J-35
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p DQ4 17
+p DQ3 16
+p A15 4
+p A14 6
+p A13 5
+p A12 20
+p A11 19
+p A10 18
+p A9 8
+p A8 7
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 9
+p A2 10
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258J-45 ako M5M5258J-35
+*package M5M5258J-55 ako M5M5258J-35
+*package M5M5257B
+@types 1
+g 1
+@pinout
+t DIP24,SOJ24/300
+g 1
+p A16 7
+p A17 8
+p Q 10
+p A15 6
+p A14 9
+p A13 15
+p A12 16
+p A11 17
+p A10 18
+p A9 19
+p A8 20
+p A7 21
+p A6 22
+p A5 23
+p A4 1
+p A3 2
+p A2 3
+p A1 4
+p A0 5
+p \S\ 13
+p \W\ 11
+p D 14
+p VCC 24
+p GND 12
+*package M5M5260A
+@types 1
+g 1
+@pinout
+t DIP24,SOJ24/300
+g 1
+p A17 23
+p A16 22
+p A15 21
+p A14 20
+p A13 19
+p A12 18
+p A11 17
+p A10 16
+p A9 15
+p A8 9
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 13
+p \W\ 11
+p \OE\ 14
+p DQ 10
+p VCC 24
+p GND 12
+*package M5M5260AJ-25
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A17 23
+p A16 22
+p A15 21
+p A14 20
+p A13 19
+p A12 18
+p A11 17
+p A10 16
+p A9 15
+p A8 9
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 13
+p \W\ 11
+p \OE\ 14
+p DQ 10
+p VCC 24
+p GND 12
+*package M5M5260AJ-30
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A17 23
+p A16 22
+p A15 21
+p A14 20
+p A13 19
+p A12 18
+p A11 17
+p A10 16
+p A9 15
+p A8 9
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 13
+p \W\ 11
+p \OE\ 14
+p DQ 10
+p VCC 24
+p GND 12
+*package M5M5260AJ-35
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A17 23
+p A16 22
+p A15 21
+p A14 20
+p A13 19
+p A12 18
+p A11 17
+p A10 16
+p A9 15
+p A8 9
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 13
+p \W\ 11
+p \OE\ 14
+p DQ 10
+p VCC 24
+p GND 12
+*package M5M5260AP-25
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p A17 23
+p A16 22
+p A15 21
+p A14 20
+p A13 19
+p A12 18
+p A11 17
+p A10 16
+p A9 15
+p A8 9
+p A7 8
+p A6 7
+p A5 6
+p A4 5
+p A3 4
+p A2 3
+p A1 2
+p A0 1
+p \S\ 13
+p \W\ 11
+p \OE\ 14
+p DQ 10
+p VCC 24
+p GND 12
+*package M6M72561J
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p ALE 21
+p \E\ 22
+p R/\W\ 23
+p \CE\ 24
+p PRG 54
+p BYTE 55
+p \BHE\ 56
+p EXT 57
+p RESET 58
+p A0 10
+p A1 11
+p A2 12
+p A3 13
+p A4 14
+p A5 15
+p A6 16
+p A7 17
+p AD8 33
+p AD9 34
+p AD10 35
+p AD11 36
+p AD12 37
+p AD13 38
+p AD14 39
+p AD15 40
+p D0/AD16 25
+p D1/AD17 26
+p D2 27
+p D3 28
+p D4 29
+p D5 30
+p D6 31
+p D7 32
+p PA0 9
+p PA1 8
+p PA2 7
+p PA3 6
+p PA4 5
+p PA5 4
+p PA6 3
+p PA7 2
+p \CS\0/PD0 49
+p \CS\1/PD1 50
+p \RD\/PD2 51
+p CIN/PD3 59
+p COUT/PD4 60
+p CLK/PD5 61
+p VPP 20
+p VDD 19
+p VCC 53
+p VSS0 18
+p VSS1 52
+p PC7/TRIG 48
+p PC6 47
+p PC5 46
+p PC4 45
+p PC3 44
+p PC2 43
+p PC1 42
+p PC0 41
+p PB7 62
+p PB6 63
+p PB5 64
+p PB4 65
+p PB3 66
+p PB2 67
+p PB1 68
+p PB0 1
+*package MH12808TNA
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p GND 16
+p DQ1 13
+p DQ2 14
+p DQ3 15
+p DQ4 17
+p DQ5 18
+p DQ6 19
+p DQ7 20
+p DQ8 21
+p VCC 32
+*package MH12808TNA-10
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p GND 16
+p DQ1 13
+p DQ2 14
+p DQ3 15
+p DQ4 17
+p DQ5 18
+p DQ6 19
+p DQ7 20
+p DQ8 21
+p VCC 32
+*package MH12808TNA-12
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p GND 16
+p DQ1 13
+p DQ2 14
+p DQ3 15
+p DQ4 17
+p DQ5 18
+p DQ6 19
+p DQ7 20
+p DQ8 21
+p VCC 32
+*package MH12808TNA-15
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p GND 16
+p DQ1 13
+p DQ2 14
+p DQ3 15
+p DQ4 17
+p DQ5 18
+p DQ6 19
+p DQ7 20
+p DQ8 21
+p VCC 32
+*package MH12808TNA-85
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p GND 16
+p DQ1 13
+p DQ2 14
+p DQ3 15
+p DQ4 17
+p DQ5 18
+p DQ6 19
+p DQ7 20
+p DQ8 21
+p VCC 32
+*package MH12908TNA
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\1 22
+p GND 16
+p DQ1 13
+p DQ2 14
+p DQ3 15
+p DQ4 17
+p DQ5 18
+p DQ6 19
+p DQ7 20
+p DQ8 21
+p VCC 32
+p S2 30
+*package MH12908TNA-10
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\1 22
+p GND 16
+p DQ1 13
+p DQ2 14
+p DQ3 15
+p DQ4 17
+p DQ5 18
+p DQ6 19
+p DQ7 20
+p DQ8 21
+p VCC 32
+p S2 30
+*package MH12908TNA-12
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\1 22
+p GND 16
+p DQ1 13
+p DQ2 14
+p DQ3 15
+p DQ4 17
+p DQ5 18
+p DQ6 19
+p DQ7 20
+p DQ8 21
+p VCC 32
+p S2 30
+*package MH12908TNA-15
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\1 22
+p GND 16
+p DQ1 13
+p DQ2 14
+p DQ3 15
+p DQ4 17
+p DQ5 18
+p DQ6 19
+p DQ7 20
+p DQ8 21
+p VCC 32
+p S2 30
+*package MH12908TNA-85
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\1 22
+p GND 16
+p DQ1 13
+p DQ2 14
+p DQ3 15
+p DQ4 17
+p DQ5 18
+p DQ6 19
+p DQ7 20
+p DQ8 21
+p VCC 32
+p S2 30
+*package MH1M08A0
+@types 1
+g 1
+@pinout
+t SIP30,SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A0J-10
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A0J-12
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A0J-8
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A0JA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A0JA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A0JA-8
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A1
+@types 1
+g 1
+@pinout
+t SIP30,SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A1J-10
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A1J-12
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A1J-8
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A1JA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A1JA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A1JA-8
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A2
+@types 1
+g 1
+@pinout
+t SIP30,SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A2J-10
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A2J-12
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A2J-8
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A2JA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A2JA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M08A2JA-8
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+*package MH1M09A0
+@types 1
+g 1
+@pinout
+t SIP30,SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A0J-10
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A0J-12
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A0J-8
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A0JA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A0JA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A0JA-8
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A1
+@types 1
+g 1
+@pinout
+t SIP30,SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A1J-10
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A1J-12
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A1J-8
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A1JA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A1JA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A1JA-8
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M09A2
+@types 1
+g 1
+@pinout
+t SIP30,SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CS\P 28
+p DP 29
+p QP 26
+*package MH1M09A2J-10
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CS\P 28
+p DP 29
+p QP 26
+*package MH1M09A2J-12
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CS\P 28
+p DP 29
+p QP 26
+*package MH1M09A2J-8
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CS\P 28
+p DP 29
+p QP 26
+*package MH1M09A2JA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CS\P 28
+p DP 29
+p QP 26
+*package MH1M09A2JA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CS\P 28
+p DP 29
+p QP 26
+*package MH1M09A2JA-8
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p \CS\P 28
+p DP 29
+p QP 26
+*package MH1M8A0DJA
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p VSS2 24
+*package MH1M8A0DJA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p VSS2 24
+*package MH1M8A0DJA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p VSS2 24
+*package MH1M8A0DJA-8
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p VSS2 24
+*package MH1M9A0DJA
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p VSS2 24
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M9A0DJA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p VSS2 24
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M9A0DJA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p VSS2 24
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH1M9A0DJA-8
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A9 18
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \W\ 21
+p \CAS\ 2
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p VSS0 9
+p VSS1 22
+p VSS2 24
+p \CAS\P 28
+p DP 29
+p QP 26
+*package MH25608J
+@types 1
+g 1
+@pinout
+t SIP30,SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25608J-10
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25608J-12
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25608J-15
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25608J-85
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25608JA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25608JA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25608JA-15
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25608JA-85
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25608S1N
+@types 1
+g 1
+@pinout
+t SIMM35/100
+g 1
+p A14 17
+p A13 16
+p A12 15
+p A11 14
+p A10 13
+p A9 12
+p A8 11
+p A7 10
+p A6 9
+p A5 8
+p A4 7
+p A3 6
+p A2 5
+p A1 4
+p A0 3
+p \S8\ 18
+p \S7\ 19
+p \S6\ 20
+p \S5\ 21
+p \S4\ 22
+p \S3\ 23
+p \S2\ 24
+p \S1\ 25
+p \OE\ 34
+p \W\ 2
+p VSS 1
+p VCC 35
+p DQ8 33
+p DQ7 32
+p DQ6 31
+p DQ5 30
+p DQ4 29
+p DQ3 28
+p DQ2 27
+p DQ1 26
+*package MH25608S1N-10
+@types 1
+g 1
+@pinout
+t SIMM35/100
+g 1
+p A14 17
+p A13 16
+p A12 15
+p A11 14
+p A10 13
+p A9 12
+p A8 11
+p A7 10
+p A6 9
+p A5 8
+p A4 7
+p A3 6
+p A2 5
+p A1 4
+p A0 3
+p \S8\ 18
+p \S7\ 19
+p \S6\ 20
+p \S5\ 21
+p \S4\ 22
+p \S3\ 23
+p \S2\ 24
+p \S1\ 25
+p \OE\ 34
+p \W\ 2
+p VSS 1
+p VCC 35
+p DQ8 33
+p DQ7 32
+p DQ6 31
+p DQ5 30
+p DQ4 29
+p DQ3 28
+p DQ2 27
+p DQ1 26
+*package MH25608S1N-12
+@types 1
+g 1
+@pinout
+t SIMM35/100
+g 1
+p A14 17
+p A13 16
+p A12 15
+p A11 14
+p A10 13
+p A9 12
+p A8 11
+p A7 10
+p A6 9
+p A5 8
+p A4 7
+p A3 6
+p A2 5
+p A1 4
+p A0 3
+p \S8\ 18
+p \S7\ 19
+p \S6\ 20
+p \S5\ 21
+p \S4\ 22
+p \S3\ 23
+p \S2\ 24
+p \S1\ 25
+p \OE\ 34
+p \W\ 2
+p VSS 1
+p VCC 35
+p DQ8 33
+p DQ7 32
+p DQ6 31
+p DQ5 30
+p DQ4 29
+p DQ3 28
+p DQ2 27
+p DQ1 26
+*package MH25608S1N-15
+@types 1
+g 1
+@pinout
+t SIMM35/100
+g 1
+p A14 17
+p A13 16
+p A12 15
+p A11 14
+p A10 13
+p A9 12
+p A8 11
+p A7 10
+p A6 9
+p A5 8
+p A4 7
+p A3 6
+p A2 5
+p A1 4
+p A0 3
+p \S8\ 18
+p \S7\ 19
+p \S6\ 20
+p \S5\ 21
+p \S4\ 22
+p \S3\ 23
+p \S2\ 24
+p \S1\ 25
+p \OE\ 34
+p \W\ 2
+p VSS 1
+p VCC 35
+p DQ8 33
+p DQ7 32
+p DQ6 31
+p DQ5 30
+p DQ4 29
+p DQ3 28
+p DQ2 27
+p DQ1 26
+*package MH25608S1N-85
+@types 1
+g 1
+@pinout
+t SIMM35/100
+g 1
+p A14 17
+p A13 16
+p A12 15
+p A11 14
+p A10 13
+p A9 12
+p A8 11
+p A7 10
+p A6 9
+p A5 8
+p A4 7
+p A3 6
+p A2 5
+p A1 4
+p A0 3
+p \S8\ 18
+p \S7\ 19
+p \S6\ 20
+p \S5\ 21
+p \S4\ 22
+p \S3\ 23
+p \S2\ 24
+p \S1\ 25
+p \OE\ 34
+p \W\ 2
+p VSS 1
+p VCC 35
+p DQ8 33
+p DQ7 32
+p DQ6 31
+p DQ5 30
+p DQ4 29
+p DQ3 28
+p DQ2 27
+p DQ1 26
+*package MH25608TNA
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A17 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p DQ8 21
+p DQ7 20
+p DQ6 19
+p DQ5 18
+p DQ4 17
+p DQ3 15
+p DQ2 14
+p DQ1 13
+p VCC 32
+p GND 16
+*package MH25608TNA-10H
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A17 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p DQ8 21
+p DQ7 20
+p DQ6 19
+p DQ5 18
+p DQ4 17
+p DQ3 15
+p DQ2 14
+p DQ1 13
+p VCC 32
+p GND 16
+*package MH25608TNA-10L
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A17 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p DQ8 21
+p DQ7 20
+p DQ6 19
+p DQ5 18
+p DQ4 17
+p DQ3 15
+p DQ2 14
+p DQ1 13
+p VCC 32
+p GND 16
+*package MH25608TNA-12H
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A17 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p DQ8 21
+p DQ7 20
+p DQ6 19
+p DQ5 18
+p DQ4 17
+p DQ3 15
+p DQ2 14
+p DQ1 13
+p VCC 32
+p GND 16
+*package MH25608TNA-12L
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A17 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p DQ8 21
+p DQ7 20
+p DQ6 19
+p DQ5 18
+p DQ4 17
+p DQ3 15
+p DQ2 14
+p DQ1 13
+p VCC 32
+p GND 16
+*package MH25608TNA-15H
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A17 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p DQ8 21
+p DQ7 20
+p DQ6 19
+p DQ5 18
+p DQ4 17
+p DQ3 15
+p DQ2 14
+p DQ1 13
+p VCC 32
+p GND 16
+*package MH25608TNA-15L
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A17 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p DQ8 21
+p DQ7 20
+p DQ6 19
+p DQ5 18
+p DQ4 17
+p DQ3 15
+p DQ2 14
+p DQ1 13
+p VCC 32
+p GND 16
+*package MH25608TNA-85H
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A17 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p DQ8 21
+p DQ7 20
+p DQ6 19
+p DQ5 18
+p DQ4 17
+p DQ3 15
+p DQ2 14
+p DQ1 13
+p VCC 32
+p GND 16
+*package MH25608TNA-85L
+@types 1
+g 1
+@pinout
+t DIP32X
+g 1
+p A17 1
+p A16 2
+p A15 31
+p A14 3
+p A13 28
+p A12 4
+p A11 25
+p A10 23
+p A9 26
+p A8 27
+p A7 5
+p A6 6
+p A5 7
+p A4 8
+p A3 9
+p A2 10
+p A1 11
+p A0 12
+p \OE\ 24
+p \W\ 29
+p \S\ 22
+p DQ8 21
+p DQ7 20
+p DQ6 19
+p DQ5 18
+p DQ4 17
+p DQ3 15
+p DQ2 14
+p DQ1 13
+p VCC 32
+p GND 16
+*package MH25609
+@types 1
+g 1
+@pinout
+t SIP30,SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25609J-10
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25609J-12
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25609J-15
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25609J-85
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25609JA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25609JA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25609JA-15
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25609JA-85
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25636AJ
+@types 1
+g 1
+@pinout
+t SIMM72/50
+g 1
+p A8 31
+p A7 28
+p A6 18
+p A5 17
+p A4 16
+p A3 15
+p A2 14
+p A1 13
+p A0 12
+p \CAS\0 40
+p \RAS\0 44
+p \CAS\1 43
+p \WE\ 47
+p \CAS\2 41
+p \RAS\2 34
+p DQ31 64
+p DQ30 62
+p DQ29 60
+p DQ28 58
+p DQ27 56
+p DQ26 54
+p DQ25 52
+p DQ24 50
+p DQ23 27
+p DQ22 25
+p DQ21 23
+p DQ20 21
+p DQ19 9
+p DQ18 7
+p DQ17 5
+p DQ16 3
+p DQ15 65
+p DQ14 63
+p DQ13 61
+p DQ12 57
+p DQ11 55
+p DQ10 53
+p DQ9 51
+p DQ8 49
+p DQ7 26
+p DQ6 24
+p DQ5 22
+p DQ4 20
+p DQ2 6
+p DQ1 4
+p DQ0 2
+p MP3 38
+p MP2 35
+p MP1 37
+p MP0 36
+p DQ3 8
+p \CAS\3 42
+p VDD0 10
+p VDD1 30
+p VDD2 59
+p VSS0 1
+p VSS1 39
+p PD1 67
+p PD2 68
+p PD3 69
+p PD4 70
+p VSS2 72
+*package MH25636AJ-10
+@types 1
+g 1
+@pinout
+t SIMM72/50
+g 1
+p A8 31
+p A7 28
+p A6 18
+p A5 17
+p A4 16
+p A3 15
+p A2 14
+p A1 13
+p A0 12
+p \CAS\0 40
+p \RAS\0 44
+p \CAS\1 43
+p \WE\ 47
+p \CAS\2 41
+p \RAS\2 34
+p DQ31 64
+p DQ30 62
+p DQ29 60
+p DQ28 58
+p DQ27 56
+p DQ26 54
+p DQ25 52
+p DQ24 50
+p DQ23 27
+p DQ22 25
+p DQ21 23
+p DQ20 21
+p DQ19 9
+p DQ18 7
+p DQ17 5
+p DQ16 3
+p DQ15 65
+p DQ14 63
+p DQ13 61
+p DQ12 57
+p DQ11 55
+p DQ10 53
+p DQ9 51
+p DQ8 49
+p DQ7 26
+p DQ6 24
+p DQ5 22
+p DQ4 20
+p DQ2 6
+p DQ1 4
+p DQ0 2
+p MP3 38
+p MP2 35
+p MP1 37
+p MP0 36
+p DQ3 8
+p \CAS\3 42
+p VDD0 10
+p VDD1 30
+p VDD2 59
+p VSS0 1
+p VSS1 39
+p PD1 67
+p PD2 68
+p PD3 69
+p PD4 70
+p VSS2 72
+*package MH25636AJ-12
+@types 1
+g 1
+@pinout
+t SIMM72/50
+g 1
+p A8 31
+p A7 28
+p A6 18
+p A5 17
+p A4 16
+p A3 15
+p A2 14
+p A1 13
+p A0 12
+p \CAS\0 40
+p \RAS\0 44
+p \CAS\1 43
+p \WE\ 47
+p \CAS\2 41
+p \RAS\2 34
+p DQ31 64
+p DQ30 62
+p DQ29 60
+p DQ28 58
+p DQ27 56
+p DQ26 54
+p DQ25 52
+p DQ24 50
+p DQ23 27
+p DQ22 25
+p DQ21 23
+p DQ20 21
+p DQ19 9
+p DQ18 7
+p DQ17 5
+p DQ16 3
+p DQ15 65
+p DQ14 63
+p DQ13 61
+p DQ12 57
+p DQ11 55
+p DQ10 53
+p DQ9 51
+p DQ8 49
+p DQ7 26
+p DQ6 24
+p DQ5 22
+p DQ4 20
+p DQ2 6
+p DQ1 4
+p DQ0 2
+p MP3 38
+p MP2 35
+p MP1 37
+p MP0 36
+p DQ3 8
+p \CAS\3 42
+p VDD0 10
+p VDD1 30
+p VDD2 59
+p VSS0 1
+p VSS1 39
+p PD1 67
+p PD2 68
+p PD3 69
+p PD4 70
+p VSS2 72
+*package MH25636AJ-85
+@types 1
+g 1
+@pinout
+t SIMM72/50
+g 1
+p A8 31
+p A7 28
+p A6 18
+p A5 17
+p A4 16
+p A3 15
+p A2 14
+p A1 13
+p A0 12
+p \CAS\0 40
+p \RAS\0 44
+p \CAS\1 43
+p \WE\ 47
+p \CAS\2 41
+p \RAS\2 34
+p DQ31 64
+p DQ30 62
+p DQ29 60
+p DQ28 58
+p DQ27 56
+p DQ26 54
+p DQ25 52
+p DQ24 50
+p DQ23 27
+p DQ22 25
+p DQ21 23
+p DQ20 21
+p DQ19 9
+p DQ18 7
+p DQ17 5
+p DQ16 3
+p DQ15 65
+p DQ14 63
+p DQ13 61
+p DQ12 57
+p DQ11 55
+p DQ10 53
+p DQ9 51
+p DQ8 49
+p DQ7 26
+p DQ6 24
+p DQ5 22
+p DQ4 20
+p DQ2 6
+p DQ1 4
+p DQ0 2
+p MP3 38
+p MP2 35
+p MP1 37
+p MP0 36
+p DQ3 8
+p \CAS\3 42
+p VDD0 10
+p VDD1 30
+p VDD2 59
+p VSS0 1
+p VSS1 39
+p PD1 67
+p PD2 68
+p PD3 69
+p PD4 70
+p VSS2 72
+*package MH25708
+@types 1
+g 1
+@pinout
+t SIP30,SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25708J-10
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25708J-12
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25708J-15
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25708J-85
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25708JA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25708JA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25708JA-15
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25708JA-85
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+*package MH25709
+@types 1
+g 1
+@pinout
+t SIP30,SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25709J-10
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25709J-12
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25709J-15
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25709J-85
+@types 1
+g 1
+@pinout
+t SIMM30/100
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25709JA-10
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25709JA-12
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25709JA-15
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH25709JA-85
+@types 1
+g 1
+@pinout
+t SIP30
+g 1
+p A8 17
+p A7 15
+p A6 14
+p A5 12
+p A4 11
+p A3 8
+p A2 7
+p A1 5
+p A0 4
+p \RAS\ 27
+p \CAS\ 2
+p \W\ 21
+p VSS0 9
+p VSS1 22
+p DQ7 25
+p DQ6 23
+p DQ5 20
+p DQ4 16
+p DQ3 13
+p DQ2 10
+p DQ1 6
+p DQ0 3
+p VCC0 1
+p VCC1 30
+p QP 26
+p \CAS\P 28
+p DP 29
+*package MH51204JA
+@types 1
+g 1
+@pinout
+t SIP24
+g 1
+p A8 2
+p A7 7
+p A6 15
+p A5 8
+p A4 9
+p A3 14
+p A2 18
+p A1 13
+p A0 19
+p \RAS\1 20
+p \CAS\ 6
+p \W\ 12
+p \RAS\2 24
+p Q3 22
+p Q2 16
+p Q1 11
+p Q0 5
+p D3 21
+p D2 17
+p D1 10
+p D0 4
+p VSS0 1
+p VSS1 23
+p VCC 3
+*package MH51204JA-10
+@types 1
+g 1
+@pinout
+t SIP24
+g 1
+p A8 2
+p A7 7
+p A6 15
+p A5 8
+p A4 9
+p A3 14
+p A2 18
+p A1 13
+p A0 19
+p \RAS\1 20
+p \CAS\ 6
+p \W\ 12
+p \RAS\2 24
+p Q3 22
+p Q2 16
+p Q1 11
+p Q0 5
+p D3 21
+p D2 17
+p D1 10
+p D0 4
+p VSS0 1
+p VSS1 23
+p VCC 3
+*package MH51204JA-12
+@types 1
+g 1
+@pinout
+t SIP24
+g 1
+p A8 2
+p A7 7
+p A6 15
+p A5 8
+p A4 9
+p A3 14
+p A2 18
+p A1 13
+p A0 19
+p \RAS\1 20
+p \CAS\ 6
+p \W\ 12
+p \RAS\2 24
+p Q3 22
+p Q2 16
+p Q1 11
+p Q0 5
+p D3 21
+p D2 17
+p D1 10
+p D0 4
+p VSS0 1
+p VSS1 23
+p VCC 3
+*package MH51204JA-15
+@types 1
+g 1
+@pinout
+t SIP24
+g 1
+p A8 2
+p A7 7
+p A6 15
+p A5 8
+p A4 9
+p A3 14
+p A2 18
+p A1 13
+p A0 19
+p \RAS\1 20
+p \CAS\ 6
+p \W\ 12
+p \RAS\2 24
+p Q3 22
+p Q2 16
+p Q1 11
+p Q0 5
+p D3 21
+p D2 17
+p D1 10
+p D0 4
+p VSS0 1
+p VSS1 23
+p VCC 3
+*package MH51204JA-85
+@types 1
+g 1
+@pinout
+t SIP24
+g 1
+p A8 2
+p A7 7
+p A6 15
+p A5 8
+p A4 9
+p A3 14
+p A2 18
+p A1 13
+p A0 19
+p \RAS\1 20
+p \CAS\ 6
+p \W\ 12
+p \RAS\2 24
+p Q3 22
+p Q2 16
+p Q1 11
+p Q0 5
+p D3 21
+p D2 17
+p D1 10
+p D0 4
+p VSS0 1
+p VSS1 23
+p VCC 3
+*package MH51208SN
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51208SN-10H
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51208SN-10L
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51208SN-12H
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51208SN-12L
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51208SN-15H
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51208SN-15L
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51208SN-70H
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51208SN-70L
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51208SN-85H
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51208SN-85L
+@types 1
+g 1
+@pinout
+t SIMM64/50
+g 1
+p A14 55
+p A13 54
+p A12 53
+p A11 48
+p A10 47
+p A9 46
+p A8 45
+p A7 40
+p A6 39
+p A5 38
+p A4 37
+p A3 28
+p A2 27
+p A1 26
+p \S16\ 59
+p \S15\ 58
+p \S14\ 51
+p \S13\ 50
+p \S12\ 43
+p \S11\ 42
+p \S10\ 35
+p \S9\ 34
+p \S8\ 31
+p \S7\ 30
+p \S6\ 23
+p \S5\ 22
+p \S4\ 15
+p \S3\ 14
+p \S2\ 7
+p \S1\ 6
+p \OE\ 33
+p \W\ 32
+p A0 25
+p VSS0 1
+p VSS1 64
+p VCC0 3
+p VCC1 4
+p VCC2 61
+p VCC3 62
+p DQ8 20
+p DQ7 19
+p DQ6 18
+p DQ5 17
+p DQ4 12
+p DQ3 11
+p DQ2 10
+p DQ1 9
+*package MH51236AJ
+@types 1
+g 1
+@pinout
+t SIMM72/50
+g 1
+p A8 31
+p A7 28
+p A6 18
+p A5 17
+p A4 16
+p A3 15
+p A2 14
+p A1 13
+p A0 12
+p \CAS\0 40
+p \RAS\0 44
+p \CAS\1 43
+p \WE\ 47
+p \CAS\2 41
+p \RAS\2 34
+p DQ31 64
+p DQ30 62
+p DQ29 60
+p DQ28 58
+p DQ27 56
+p DQ26 54
+p DQ25 52
+p DQ24 50
+p DQ23 27
+p DQ22 25
+p DQ21 23
+p DQ20 21
+p DQ19 9
+p DQ18 7
+p DQ17 5
+p DQ16 3
+p DQ15 65
+p DQ14 63
+p DQ13 61
+p DQ12 57
+p DQ11 55
+p DQ10 53
+p DQ9 51
+p DQ8 49
+p DQ7 26
+p DQ6 24
+p DQ5 22
+p DQ4 20
+p DQ2 6
+p DQ1 4
+p DQ0 2
+p MP3 38
+p MP2 35
+p MP1 37
+p MP0 36
+p DQ3 8
+p \CAS\3 42
+p VDD0 10
+p VDD1 30
+p VDD2 59
+p VSS0 1
+p VSS1 39
+p PD3 69
+p PD4 70
+p VSS2 72
+p \RAS\3 33
+p \RAS\1 45
+p PD1 67
+p PD2 68
+*package MH51236AJ-10
+@types 1
+g 1
+@pinout
+t SIMM72/50
+g 1
+p A8 31
+p A7 28
+p A6 18
+p A5 17
+p A4 16
+p A3 15
+p A2 14
+p A1 13
+p A0 12
+p \CAS\0 40
+p \RAS\0 44
+p \CAS\1 43
+p \WE\ 47
+p \CAS\2 41
+p \RAS\2 34
+p DQ31 64
+p DQ30 62
+p DQ29 60
+p DQ28 58
+p DQ27 56
+p DQ26 54
+p DQ25 52
+p DQ24 50
+p DQ23 27
+p DQ22 25
+p DQ21 23
+p DQ20 21
+p DQ19 9
+p DQ18 7
+p DQ17 5
+p DQ16 3
+p DQ15 65
+p DQ14 63
+p DQ13 61
+p DQ12 57
+p DQ11 55
+p DQ10 53
+p DQ9 51
+p DQ8 49
+p DQ7 26
+p DQ6 24
+p DQ5 22
+p DQ4 20
+p DQ2 6
+p DQ1 4
+p DQ0 2
+p MP3 38
+p MP2 35
+p MP1 37
+p MP0 36
+p DQ3 8
+p \CAS\3 42
+p VDD0 10
+p VDD1 30
+p VDD2 59
+p VSS0 1
+p VSS1 39
+p PD3 69
+p PD4 70
+p VSS2 72
+p \RAS\3 33
+p \RAS\1 45
+p PD1 67
+p PD2 68
+*package MH51236AJ-12
+@types 1
+g 1
+@pinout
+t SIMM72/50
+g 1
+p A8 31
+p A7 28
+p A6 18
+p A5 17
+p A4 16
+p A3 15
+p A2 14
+p A1 13
+p A0 12
+p \CAS\0 40
+p \RAS\0 44
+p \CAS\1 43
+p \WE\ 47
+p \CAS\2 41
+p \RAS\2 34
+p DQ31 64
+p DQ30 62
+p DQ29 60
+p DQ28 58
+p DQ27 56
+p DQ26 54
+p DQ25 52
+p DQ24 50
+p DQ23 27
+p DQ22 25
+p DQ21 23
+p DQ20 21
+p DQ19 9
+p DQ18 7
+p DQ17 5
+p DQ16 3
+p DQ15 65
+p DQ14 63
+p DQ13 61
+p DQ12 57
+p DQ11 55
+p DQ10 53
+p DQ9 51
+p DQ8 49
+p DQ7 26
+p DQ6 24
+p DQ5 22
+p DQ4 20
+p DQ2 6
+p DQ1 4
+p DQ0 2
+p MP3 38
+p MP2 35
+p MP1 37
+p MP0 36
+p DQ3 8
+p \CAS\3 42
+p VDD0 10
+p VDD1 30
+p VDD2 59
+p VSS0 1
+p VSS1 39
+p PD3 69
+p PD4 70
+p VSS2 72
+p \RAS\3 33
+p \RAS\1 45
+p PD1 67
+p PD2 68
+*package MH51236AJ-85
+@types 1
+g 1
+@pinout
+t SIMM72/50
+g 1
+p A8 31
+p A7 28
+p A6 18
+p A5 17
+p A4 16
+p A3 15
+p A2 14
+p A1 13
+p A0 12
+p \CAS\0 40
+p \RAS\0 44
+p \CAS\1 43
+p \WE\ 47
+p \CAS\2 41
+p \RAS\2 34
+p DQ31 64
+p DQ30 62
+p DQ29 60
+p DQ28 58
+p DQ27 56
+p DQ26 54
+p DQ25 52
+p DQ24 50
+p DQ23 27
+p DQ22 25
+p DQ21 23
+p DQ20 21
+p DQ19 9
+p DQ18 7
+p DQ17 5
+p DQ16 3
+p DQ15 65
+p DQ14 63
+p DQ13 61
+p DQ12 57
+p DQ11 55
+p DQ10 53
+p DQ9 51
+p DQ8 49
+p DQ7 26
+p DQ6 24
+p DQ5 22
+p DQ4 20
+p DQ2 6
+p DQ1 4
+p DQ0 2
+p MP3 38
+p MP2 35
+p MP1 37
+p MP0 36
+p DQ3 8
+p \CAS\3 42
+p VDD0 10
+p VDD1 30
+p VDD2 59
+p VSS0 1
+p VSS1 39
+p PD3 69
+p PD4 70
+p VSS2 72
+p \RAS\3 33
+p \RAS\1 45
+p PD1 67
+p PD2 68
+*package MH51304JA
+@types 1
+g 1
+@pinout
+t SIP24
+g 1
+p A8 2
+p A7 7
+p A6 15
+p A5 8
+p A4 9
+p A3 14
+p A2 18
+p A1 13
+p A0 19
+p \RAS\1 20
+p \CAS\ 6
+p \W\ 12
+p \RAS\2 24
+p Q3 22
+p Q2 16
+p Q1 11
+p Q0 5
+p D3 21
+p D2 17
+p D1 10
+p D0 4
+p VSS0 1
+p VSS1 23
+p VCC 3
+*package MH51304JA-10
+@types 1
+g 1
+@pinout
+t SIP24
+g 1
+p A8 2
+p A7 7
+p A6 15
+p A5 8
+p A4 9
+p A3 14
+p A2 18
+p A1 13
+p A0 19
+p \RAS\1 20
+p \CAS\ 6
+p \W\ 12
+p \RAS\2 24
+p Q3 22
+p Q2 16
+p Q1 11
+p Q0 5
+p D3 21
+p D2 17
+p D1 10
+p D0 4
+p VSS0 1
+p VSS1 23
+p VCC 3
+*package MH51304JA-12
+@types 1
+g 1
+@pinout
+t SIP24
+g 1
+p A8 2
+p A7 7
+p A6 15
+p A5 8
+p A4 9
+p A3 14
+p A2 18
+p A1 13
+p A0 19
+p \RAS\1 20
+p \CAS\ 6
+p \W\ 12
+p \RAS\2 24
+p Q3 22
+p Q2 16
+p Q1 11
+p Q0 5
+p D3 21
+p D2 17
+p D1 10
+p D0 4
+p VSS0 1
+p VSS1 23
+p VCC 3
+*package MH51304JA-15
+@types 1
+g 1
+@pinout
+t SIP24
+g 1
+p A8 2
+p A7 7
+p A6 15
+p A5 8
+p A4 9
+p A3 14
+p A2 18
+p A1 13
+p A0 19
+p \RAS\1 20
+p \CAS\ 6
+p \W\ 12
+p \RAS\2 24
+p Q3 22
+p Q2 16
+p Q1 11
+p Q0 5
+p D3 21
+p D2 17
+p D1 10
+p D0 4
+p VSS0 1
+p VSS1 23
+p VCC 3
+*package MH51304JA-85
+@types 1
+g 1
+@pinout
+t SIP24
+g 1
+p A8 2
+p A7 7
+p A6 15
+p A5 8
+p A4 9
+p A3 14
+p A2 18
+p A1 13
+p A0 19
+p \RAS\1 20
+p \CAS\ 6
+p \W\ 12
+p \RAS\2 24
+p Q3 22
+p Q2 16
+p Q1 11
+p Q0 5
+p D3 21
+p D2 17
+p D1 10
+p D0 4
+p VSS0 1
+p VSS1 23
+p VCC 3
+*package M5M5165P-10
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5165P-10L
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p A12 2
+p A11 23
+p A10 21
+p A9 24
+p A8 25
+p A7 3
+p A6 4
+p A5 5
+p A4 6
+p A3 7
+p A2 8
+p A1 9
+p A0 10
+p \W\ 27
+p \S1\ 20
+p S2 26
+p \OE\ 22
+p GND 14
+p VCC 28
+p DQ8 19
+p DQ7 18
+p DQ6 17
+p DQ5 16
+p DQ4 15
+p DQ3 13
+p DQ2 12
+p DQ1 11
+*package M5M5257
+@types 1
+g 1
+@pinout
+t DIP24,SOP24
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257J-35
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257J-45
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257J-55
+@types 1
+g 1
+@pinout
+t SOJ24/300
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257P-35
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257P-45
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5257P-55
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p A17 8
+p A16 9
+p A15 15
+p A14 17
+p A13 16
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 13
+p \W\ 11
+p D 14
+p Q 10
+p VCC 24
+p GND 12
+*package M5M5258AP-30
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p DQ4 17
+p DQ3 16
+p A15 8
+p A14 9
+p A13 10
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258AP-35
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p DQ4 17
+p DQ3 16
+p A15 8
+p A14 9
+p A13 10
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258P-35
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p DQ4 17
+p DQ3 16
+p A15 8
+p A14 9
+p A13 10
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258P-45
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p DQ4 17
+p DQ3 16
+p A15 8
+p A14 9
+p A13 10
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258P-55
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p DQ4 17
+p DQ3 16
+p A15 8
+p A14 9
+p A13 10
+p A12 20
+p A11 19
+p A10 18
+p A9 7
+p A8 6
+p A7 21
+p A6 22
+p A5 1
+p A4 23
+p A3 5
+p A2 4
+p A1 3
+p A0 2
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258B
+@types 1
+g 1
+@pinout
+t DIP24,SOJ24/300
+g 1
+p A12 9
+p A15 8
+p A14 7
+p A13 6
+p DQ3 16
+p DQ4 17
+p A11 10
+p A10 18
+p A9 19
+p A8 20
+p A7 21
+p A6 22
+p A5 23
+p A4 1
+p A3 2
+p A2 3
+p A1 4
+p A0 5
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12
+*package M5M5258C
+@types 1
+g 1
+@pinout
+t DIP24,SOJ24/300
+g 1
+p A12 9
+p A15 8
+p A14 7
+p A13 6
+p DQ3 16
+p DQ4 17
+p A11 10
+p A10 18
+p A9 19
+p A8 20
+p A7 21
+p A6 22
+p A5 23
+p A4 1
+p A3 2
+p A2 3
+p A1 4
+p A0 5
+p \S\ 11
+p \W\ 13
+p DQ1 14
+p DQ2 15
+p VCC 24
+p GND 12

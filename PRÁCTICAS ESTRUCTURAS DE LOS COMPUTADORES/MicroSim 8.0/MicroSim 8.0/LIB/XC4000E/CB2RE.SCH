@@ -1,0 +1,233 @@
+*version 6.3 726054364
+u 229
+XC4000E 3556568637
+U? 7
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 3571 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 230 IF_OUT 910 440 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q1
+port 231 IF_OUT 910 260 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q0
+port 232 IF_OUT 910 490 h
+a 0 s 3 0 20 8 hln 80 LABEL=TC
+port 233 IF_IN 170 460 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 234 IF_IN 170 480 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+port 235 IF_IN 170 510 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+port 236 IF_OUT 910 560 h
+a 0 s 3 0 20 8 hln 80 LABEL=CEO
+@parts
+part 19 FTRSE 370 230 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U1
+a 0 sp 11 0 60 10 hcn 200 PART=FTRSE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 22 VCC 250 260 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U2
+a 0 sp 11 0 20 10 hcn 100 PART=VCC
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 23 FTRSE 370 410 h
+a 0 sp 9 0 80 110 hrn 100 REFDES=U3
+a 0 sp 11 0 60 10 hcn 200 PART=FTRSE
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 28 AND2 740 480 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 29 AND2 740 550 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U5
+a 0 sp 11 0 10 40 hlt 100 PART=AND2
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 32 GND 340 520 h
+a 0 sp 0 0 40 0 hrn 100 REFDES=U6
+a 0 sp 11 0 5 40 hln 100 PART=GND
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+@conn
+w 34
+s 820 560 910 560 33
+a 0 s 3 0 870 560 hln 100 LABEL=CEO
+w 49
+s 560 260 910 260 41
+a 0 s 3 0 880 260 hln 100 LABEL=Q0
+s 490 260 560 260 42
+s 560 360 560 260 43
+s 560 480 560 360 45
+s 560 480 740 480 44
+s 310 360 560 360 46
+s 310 440 310 360 47
+s 310 440 370 440 48
+w 79
+s 170 480 270 480 75
+a 0 s 3 0 180 480 hln 100 LABEL=C
+s 270 480 270 300 77
+s 270 300 370 300 76
+s 270 480 370 480 78
+w 100
+s 170 510 250 510 96
+a 0 s 3 0 180 510 hln 100 LABEL=R
+s 250 510 370 510 97
+s 250 510 250 330 98
+s 250 330 370 330 99
+w 120
+s 580 440 910 440 116
+a 0 s 3 0 880 440 hln 100 LABEL=Q1
+s 490 440 580 440 117
+s 580 500 580 440 118
+s 580 500 740 500 119
+w 137
+s 250 260 370 260 136
+w 154
+s 340 520 340 410 150
+s 340 410 340 230 152
+s 340 230 370 230 151
+s 340 410 370 410 153
+w 183
+s 840 490 910 490 177
+a 0 s 3 0 880 490 hln 100 LABEL=TC
+s 840 530 840 490 180
+s 820 490 840 490 181
+s 720 530 840 530 182
+s 720 550 740 550 178
+s 720 550 720 530 179
+w 206
+s 170 460 290 460 200
+a 0 s 3 0 180 460 hln 100 LABEL=CE
+s 290 570 290 460 201
+s 290 460 370 460 202
+s 290 460 290 280 204
+s 290 280 370 280 203
+s 290 570 740 570 205
+@junction
+j 820 560
++ p 29 O
++ w 34
+j 560 260
++ w 49
++ w 49
+j 560 360
++ w 49
++ w 49
+j 490 260
++ p 19 Q
++ w 49
+j 370 440
++ p 23 T
++ w 49
+j 740 480
++ p 28 I1
++ w 49
+j 270 480
++ w 79
++ w 79
+j 370 300
++ p 19 C
++ w 79
+j 370 480
++ p 23 C
++ w 79
+j 250 510
++ w 100
++ w 100
+j 370 330
++ p 19 R
++ w 100
+j 370 510
++ p 23 R
++ w 100
+j 580 440
++ w 120
++ w 120
+j 490 440
++ p 23 Q
++ w 120
+j 740 500
++ p 28 I0
++ w 120
+j 370 260
++ p 19 T
++ w 137
+j 250 260
++ p 22 VCC
++ w 137
+j 340 410
++ w 154
++ w 154
+j 370 230
++ p 19 S
++ w 154
+j 370 410
++ p 23 S
++ w 154
+j 340 520
++ p 32 GROUND
++ w 154
+j 840 490
++ w 183
++ w 183
+j 820 490
++ p 28 O
++ w 183
+j 740 550
++ p 29 I1
++ w 183
+j 290 460
++ w 206
++ w 206
+j 370 280
++ p 19 CE
++ w 206
+j 370 460
++ p 23 CE
++ w 206
+j 740 570
++ p 29 I0
++ w 206
+j 910 440
++ s 230
++ w 120
+j 910 260
++ s 231
++ w 49
+j 910 490
++ s 232
++ w 183
+j 170 460
++ s 233
++ w 206
+j 170 480
++ s 234
++ w 79
+j 170 510
++ s 235
++ w 100
+j 910 560
++ s 236
++ w 34
+@attributes
+@text
+s 5 30 810 hln 100 DRAWN BY KS
+s 5 30 820 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 750 780 hln 100 WITH CLOCK ENABLE & SYNC RESET
+s 5 750 770 hln 100 2-BIT CASCADABLE BINARY COUNTER
+s 5 750 750 hln 100 XC4000E FAMILY CB2RE MACRO
+s 5 710 800 hln 100 1ST MARCH 1995
+s 5 950 800 hln 100 1
+s 5 950 820 hln 100 A

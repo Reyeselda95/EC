@@ -1,0 +1,20 @@
+# Part Mapping file for TANGO PCB Package
+
+# Copyright 1992,1993, 1994 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+# Capacitors
+# Default mapping is to 0.2" package
+C           CAP200\nCAP\n@value &tolerance
+
+# Resistors
+# Default mapping is to 0.4" axial package
+R           RES400\nRES\n@value &tolerance
+
+#TTL: part sandwiched between SN and N:
+74*         ?`pkgtype|@`pkgtype||@pkgtype|\nSN?component|@component||@part|\\N\n
+
+# Default rule (mapped/unmapped package type + component or part); no value
+DEFAULT     ?`pkgtype|@`pkgtype||@pkgtype|\n?component|@component||@part|\n
+

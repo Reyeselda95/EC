@@ -1,0 +1,2728 @@
+*version 8.0 474948372
+@index
+symloc EL2001/EL:2001/EL 0 169
+symloc EL2002/EL:2001/EL 169 170
+symloc EL2003/EL:2001/EL 339 160
+symloc EL2004/EL:ELH0033/EL 499 156
+symloc EL2005/EL:ELH0033/EL 655 164
+symloc EL2006/EL:ELH0032/EL 819 168
+symloc EL2008/EL:2008/EL 987 164
+symloc EL2009/EL:2008/EL 1151 165
+symloc EL2018/EL 1316 1390
+symloc EL2019/EL 2706 1395
+symloc EL2020/EL:2020/EL 4101 167
+symloc EL2022/EL 4268 1745
+symloc EL2030/EL:2030/EL 6013 168
+symloc EL2038/EL:2539/EL 6181 144
+symloc EL2039/EL:2539/EL 6325 160
+symloc EL2040/EL:2540/EL 6485 159
+symloc EL2041/EL:2041/EL 6644 165
+symloc EL2044/EL:2030/EL 6809 176
+symloc EL2045/EL:2030/EL 6985 172
+symloc EL2070/EL:2070/EL 7157 168
+symloc EL2071/EL:2030/EL 7325 270
+symloc EL2073/EL:2030/EL 7595 165
+symloc EL2074/EL:2030/EL 7760 171
+symloc EL2075/EL:2030/EL 7931 170
+symloc EL2082/EL 8101 1453
+symloc EL2090/EL 9554 1614
+symloc EL2099/EL 11168 958
+symloc EL2120/EL:2120/EL 12126 168
+symloc EL2160/EL:2030/EL 12294 168
+symloc EL2176/EL 12462 1116
+symloc EL2186/EL 13578 1116
+symloc EL2210/EL,EL2310/EL:2210/EL 14694 315
+symloc EL2211/EL,EL2311/EL:2210/EL 15009 282
+symloc EL2224/EL:2223/EL 15291 171
+symloc EL2232/EL:2223/EL 15462 172
+symloc EL2242/EL:2223/EL 15634 184
+symloc EL2243/EL:2223/EL 15818 181
+symloc EL2244/EL:2223/EL 15999 169
+symloc EL2245/EL:2223/EL 16168 169
+symloc EL2252/EL 16337 1373
+symloc EL2260/EL:2223/EL 17710 166
+symloc EL2410/EL:2410/EL 17876 305
+symloc EL2411/EL:2410/EL 18181 305
+symloc EL2424/EL:2423/EL 18486 163
+symloc EL2444/EL:2423/EL 18649 168
+symloc EL2445/EL:2423/EL 18817 169
+symloc EL2460/EL:2423/EL 18986 166
+symloc EL400/EL:400/EL 19152 164
+symloc EL4083/EL 19316 1312
+symloc EL4089/EL 20628 1284
+symloc EL4094/EL 21912 1094
+symloc EL4095/EL 23006 1508
+symloc EL4393/EL 24514 1375
+symloc EL4430/EL 25889 1281
+symloc EL7661/EL 27170 2159
+symloc ELH0002/EL 29329 1089
+symloc ELH0032/EL 30418 1167
+symloc ELH0033/EL 31585 1365
+symloc ELH0101/EL 32950 1152
+symloc EN2016/EL 34102 1805
+symloc EP2015/EL:EN2016/EL 35907 287
+symloc 2001/EL 36194 824 b
+symloc 2008/EL 37018 824 b
+symloc 2020/EL 37842 1358 b
+symloc 2028/EL 39200 1359 b
+symloc 2030/EL 40559 941 b
+symloc 2041/EL 41500 1217 b
+symloc 2070/EL 42717 1221 b
+symloc 2120/EL 43938 1082 b
+symloc 2210/EL 45020 914 b
+symloc 2223/EL 45934 913 b
+symloc 2410/EL 46847 915 b
+symloc 2423/EL 47762 943 b
+symloc 2500/EL 48705 1378 b
+symloc 2539/EL 50083 942 b
+symloc 2540/EL 51025 944 b
+symloc 400/EL 51969 1078 b
+symloc EL2170C/EL,EL2270C/EL 53047 975
+symloc EL2175C/EL 54022 948
+symloc EL2180C/EL,EL2280C/EL 54970 959
+symloc EL7212C/EL 55929 787
+symloc EL7242C/EL 56716 939
+symloc EL7243C/EL 57655 2335
+symloc EL2157C/EL,EL2257C/EL 59990 1222
+symloc EL2286C/EL 61212 1105
+symloc copyright 62317 575 b
+*symbol EL2001/EL ako 2001/EL
+d Low power, 70MHz buffer amplifier
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2001/EL
+a 0 sp 0 0 42 58 hln 100 MODEL=EL2001/EL
+*symbol EL2002/EL ako 2001/EL
+d Low power, 180MHz buffer amplifier
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2002/EL
+a 0 sp 0 0 44 58 hln 100 MODEL=EL2002/EL
+*symbol EL2003/EL ako 2001/EL
+d 100MHz video line driver
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2003/EL
+a 0 sp 0 0 44 58 hln 100 MODEL=EL2003/EL
+*symbol EL2004/EL ako ELH0033/EL
+d 350MHz FET buffer
+@type p
+@attributes
+a 0 sp 11 0 -26 70 hlb 100 PART=EL2004/EL
+a 0 sp 0 0 52 60 hlb 100 MODEL=EL2004/EL
+*symbol EL2005/EL ako ELH0033/EL
+d High accuracy fast buffer
+@type p
+@attributes
+a 0 sp 11 0 -26 72 hlb 100 PART=EL2005/EL
+a 0 sp 0 0 52 60 hlb 100 MODEL=EL2005/EL
+*symbol EL2006/EL ako ELH0032/EL
+d High gain fast FET input opamp
+@type p
+@attributes
+a 0 sp 11 0 68 92 hlb 100 PART=EL2006/EL
+a 0 sp 0 0 68 92 hlb 100 MODEL=EL2006/EL
+*symbol EL2008/EL ako 2008/EL
+d 55MHz 1 amp buffer amplifier
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2008/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2008/EL
+*symbol EL2009/EL ako 2008/EL
+d 90 MHz 1 amp buffer amplifier
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2009/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2009/EL
+*symbol EL2018/EL
+d Fast, high voltage comparator with transparent latch
+@type p
+@attributes
+a 1 s 9 0 0 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %\LE\ %\CS\ %OUT @MODEL
+a 0 sp 11 0 -24 102 hlb 100 PART=EL2018/EL
+a 0 sp 0 0 62 92 hlb 100 MODEL=EL2018/EL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=7
+a 0 s 0 0 100 40 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=3
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=2
+a 0 s 0 0 0 60 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 26 20 hln 75 V+ n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=8
+a 0 s 0 0 20 4 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 26 76 hln 75 V- n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=4
+a 0 s 0 0 30 86 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 44 20 hln 75 \LE\ n 50 0 d
+a 0 s 1 0 55 3 hcn 100 PIN=6
+a 0 s 0 0 50 2 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 44 76 hln 75 \CS\ n 50 90 v
+a 0 s 1 0 45 92 hcn 100 PIN=5
+a 0 s 0 0 50 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 64 78 hln 50 DGND n 70 90 v
+a 0 s 1 0 65 92 hcn 100 PIN=1
+a 0 s 0 0 70 90 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol EL2019/EL
+d Fast, high voltage comparator with master slave flip-flop
+@type p
+@attributes
+a 1 s 9 0 0 0 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %Cpin %\CS\ %OUT @MODEL
+a 0 sp 11 0 -22 102 hlb 100 PART=EL2019/EL
+a 0 sp 0 0 62 92 hlb 100 MODEL=EL2019/EL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=7
+a 0 s 0 0 100 40 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=3
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=2
+a 0 s 0 0 0 60 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 26 20 hln 75 V+ n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=8
+a 0 s 0 0 20 4 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 26 76 hln 75 V- n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=4
+a 0 s 0 0 30 86 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 44 20 hln 75 CPIN n 50 0 d
+a 0 s 1 0 55 3 hcn 100 PIN=6
+a 0 s 0 0 50 2 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 42 78 hln 75 \CS\ n 50 90 v
+a 0 s 1 0 45 92 hcn 100 PIN=5
+a 0 s 0 0 50 90 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 64 78 hln 50 DGND n 70 90 v
+a 0 s 1 0 65 92 hcn 100 PIN=1
+a 0 s 0 0 70 90 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol EL2020/EL ako 2020/EL
+d 50MHz current feedback amplifier
+@type p
+@attributes
+a 0 sp 11 0 12 70 hcn 100 PART=EL2020/EL
+a 0 sp 0 0 50 60 hcn 100 MODEL=EL2020/EL
+*symbol EL2022/EL
+d 165MHz Current Feedback Amplifier
+@type p
+@attributes
+a 1 s 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %Vcc+ %Vcoll+ %Vcc- %Vcoll- %OUT @MODEL
+a 0 sp 11 0 -24 102 hlb 100 PART=EL2022/EL
+a 0 sp 0 0 62 92 hlb 100 MODEL=EL2022/EL
+@pins
+p 2 20 18 hln 75 VCC+ n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=1
+a 0 s 0 0 20 4 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 42 18 hln 75 VCOLL+ n 50 0 d
+a 0 s 1 0 55 3 hcn 100 PIN=12
+a 0 s 0 0 50 2 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 20 76 hln 75 VCC- n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=9
+a 0 s 0 0 30 86 hln 100 ERC=p
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 42 76 hln 75 VCOLL- n 50 90 v
+a 0 s 1 0 45 92 hcn 100 PIN=10
+a 0 s 0 0 50 90 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=11
+a 0 s 0 0 100 40 hln 100 ERC=o
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=5
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=6
+a 0 s 0 0 0 60 hln 100 ERC=i
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 68 78 hln 50 G1 n 70 90 v
+a 0 s 1 0 65 92 hcn 100 PIN=3
+a 0 s 0 0 70 90 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 78 78 hln 50 G2 n 80 90 v
+a 0 s 1 0 75 92 hcn 100 PIN=7
+a 0 s 0 0 82 90 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 68 16 hln 50 +IA n 70 0 d
+a 0 s 1 0 75 3 hcn 100 PIN=2
+a 0 s 0 0 64 8 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 78 16 hln 50 -IA n 80 0 d
+a 0 s 1 0 85 3 hcn 100 PIN=8
+a 0 s 0 0 74 8 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol EL2030/EL ako 2030/EL
+d 120MHz current feedback amplifier
+@type p
+@attributes
+a 0 sp 11 0 10 70 hcn 100 PART=EL2030/EL
+a 0 sp 0 0 50 60 hcn 100 MODEL=EL2030/EL
+*symbol EL2038/EL ako 2539/EL
+d 1GHz opamp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=EL2038/EL
+a 0 sp 0 0 50 60 hcn 100 MODEL=EL2038/EL
+*symbol EL2039/EL ako 2539/EL
+d Very high slew rate opamp
+@type p
+@attributes
+a 0 sp 11 0 10 70 hcn 100 PART=EL2039/EL
+a 0 sp 0 0 50 60 hcn 100 MODEL=EL2039/EL
+*symbol EL2040/EL ako 2540/EL
+d Very high slew rate opamp
+@type p
+@attributes
+a 0 sp 11 0 10 70 hcn 100 PART=EL2040/EL
+a 0 sp 0 0 0 70 hcn 100 MODEL=EL2040/EL
+*symbol EL2041/EL ako 2041/EL
+d Wideband, fast settling opamp
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2041/EL
+a 0 sp 0 0 46 60 hln 100 MODEL=EL2041/EL
+*symbol EL2044/EL ako 2030/EL
+d Low power, 60MHz unity-gain stable opamp
+@type p
+@attributes
+a 0 sp 11 0 -16 70 hln 100 PART=EL2044/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2044/EL
+*symbol EL2045/EL ako 2030/EL
+d Low Power 100MHz Gain of 2 Stable OpAmp
+@type p
+@attributes
+a 0 sp 11 0 0 70 hcn 100 PART=EL2045/EL
+a 0 sp 0 0 0 70 hcn 100 MODEL=EL2045/EL
+*symbol EL2070/EL ako 2070/EL
+d 200MHz current feedback amplifier
+@type p
+@attributes
+a 0 sp 11 0 12 70 hcn 100 PART=EL2070/EL
+a 0 sp 0 0 50 60 hcn 100 MODEL=EL2070/EL
+*symbol EL2071/EL ako 2030/EL
+d 150MHz Current Feedback Amplifier
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=EL2071/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2071/EL
+*symbol EL2073/EL ako 2030/EL
+d 300MHz unity gain stable opamp
+@type p
+@attributes
+a 0 sp 11 0 12 70 hcn 100 PART=EL2073/EL
+a 0 sp 0 0 50 60 hcn 100 MODEL=EL2073/EL
+*symbol EL2074/EL ako 2030/EL
+d 400 MHz GBWP gain-of-2 stable opamp
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2074/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2074/EL
+*symbol EL2075/EL ako 2030/EL
+d 2 GHz GBWP gain-of-10 stable opamp
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2075/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2075/EL
+*symbol EL2082/EL
+d Current-mode multiplier
+@type p
+@attributes
+a 1 s 9 0 0 6 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %Vgain %Iin %Vin %Iout @MODEL
+a 0 sp 11 0 -10 88 hln 100 PART=EL2082/EL
+a 0 sp 0 0 30 70 hln 100 MODEL=EL2082/EL
+@pins
+p 2 13 18 hln 100 VGAIN n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 21 hln 100 ERC=x
+p 2 12 38 hln 100 IIN n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=2
+a 0 s 0 0 0 41 hln 100 ERC=x
+p 2 12 66 hln 100 VIN n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 61 hln 100 ERC=x
+p 2 70 48 hrn 80 IOUT n 80 50 u
+a 0 s 1 0 75 48 hln 100 PIN=6
+a 0 s 0 0 82 49 hln 100 ERC=x
+p 2 54 68 hln 50 GND n 60 80 v
+a 0 s 1 0 55 82 hcn 100 PIN=5
+a 0 s 0 0 56 80 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 48 68 hln 50 \E\ n 50 80 v
+a 0 s 1 0 45 82 hcn 100 PIN=8
+a 0 s 0 0 46 80 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 46 16 hln 50 V- n 50 0 d
+a 0 s 1 0 55 3 hcn 100 PIN=4
+a 0 s 0 0 44 8 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+p 2 56 16 hln 50 V+ n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=7
+a 0 s 0 0 54 8 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 80 80 0 20 10
+r 0 10 10 70 70
+v 0 30 40
+50 60
+;
+v 0 31 61
+51 41
+;
+c 0 40 50 14
+v 0 10 40
+20 40
+;
+v 0 10 60
+20 60
+;
+v 0 10 20
+40 20
+;
+v 0 40 20
+40 36
+;
+v 0 40 36
+43 32
+;
+v 0 40 36
+37 32
+;
+v 0 54 50
+70 50
+;
+v 0 61 50
+57 47
+;
+v 0 61 50
+57 53
+;
+v 0 20 40
+27 45
+;
+v 0 27 45
+26 41
+;
+v 0 27 55
+20 60
+;
+v 0 26 59
+27 55
+;
+v 0 27 55
+23 54
+;
+v 0 23 46
+27 45
+;
+*symbol EL2090/EL
+d 100MHz Video Amplifier
+@type p
+@attributes
+a 1 s 9 0 10 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %VIDIN+ %VIDIN- %V+ %V- %VIDOUT %S/HIN+ %S/HIN- %S/HOUT %HCTL %CHLD @MODEL
+a 0 sp 11 0 64 92 hlb 100 PART=EL2090/EL
+a 0 sp 0 0 32 94 hlb 100 MODEL=EL2090/EL
+@pins
+p 2 46 78 hln 100 V- n 50 90 v
+a 0 u 1 0 45 92 hcn 100 pin=12
+a 0 u 0 0 52 90 hln 100 ERC=p
+p 2 13 22 hln 100 VIDIN- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 13 32 hln 100 VIDIN+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 28 hln 100 ERC=i
+p 2 87 42 hrn 100 S/HOUT n 100 40 u
+a 0 u 1 0 95 38 hln 100 pin=11
+a 0 u 0 0 92 36 hln 100 ERC=o
+a 0 u 0 0 -8 -14 hln 100 float=e
+p 2 87 52 hrn 100 CHLD n 100 50 u
+a 0 u 1 0 95 48 hln 100 pin=9
+a 0 u 0 0 92 48 hln 100 ERC=x
+a 0 u 0 0 -8 -22 hln 100 float=e
+p 2 13 42 hln 50 GND n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 -2 40 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 52 hln 100 S/HIN+ n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 -2 50 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 float=e
+p 2 13 62 hln 100 S/HIN- n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 -2 60 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 float=e
+p 2 13 72 hln 100 HCTL n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 -2 72 hln 100 ERC=x
+a 0 u 0 0 0 32 hln 100 float=e
+p 2 87 32 hrn 100 VIDOUT n 100 30 u
+a 0 u 1 0 95 28 hln 100 pin=13
+a 0 u 0 0 96 30 hln 100 ERC=o
+a 0 u 0 0 98 -10 hln 100 float=e
+p 2 52 18 hln 100 V+ n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=14
+a 0 u 0 0 60 4 hln 100 ERC=p
+a 0 u 0 0 20 2 hln 100 float=e
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+*symbol EL2099/EL
+d Video Distribution Amplifier
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=EL2099/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2099/EL
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol EL2120/EL ako 2120/EL
+d 100MHz current feedback amplifier
+@type p
+@attributes
+a 0 sp 11 0 12 70 hcn 100 PART=EL2120/EL
+a 0 sp 0 0 50 60 hcn 100 MODEL=EL2120/EL
+*symbol EL2160/EL ako 2030/EL
+d 130MHz current feedback amplifier
+@type p
+@attributes
+a 0 sp 11 0 10 70 hcn 100 PART=EL2160/EL
+a 0 sp 0 0 50 60 hcn 100 MODEL=EL2160/EL
+*symbol EL2176/EL
+d 70MHz/1mA Current Mode Feedback Amp w/ Disable
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 64 58 hln 100 PART=EL2176/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2176/EL
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 48 28 hln 50 \EN\ n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=8
+a 0 u 0 0 58 2 hln 100 ERC=x
+a 0 u 0 0 -2 -58 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 54 22
+60 10
+;
+*symbol EL2186/EL
+d 70MHz/1mA Current Mode Feedback Amp w/ Disable
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 64 58 hln 100 PART=EL2186/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2186/EL
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 48 28 hln 50 \EN\ n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=8
+a 0 u 0 0 58 2 hln 100 ERC=x
+a 0 u 0 0 -2 -58 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 54 22
+60 10
+;
+*symbol EL2210/EL,EL2310/EL ako 2210/EL
+d LOW COST, DUAL VIDEO OP AMP
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=EL2210/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 s 9 0 16 -4 hln 100 REFDES=U?
+a 0 sp 11 0 48 49 hln 100 PART=EL2210/EL
+a 0 s 0 0 0 10 hln 100 COMPONENT=EL2210/EL
+*symbol EL2211/EL,EL2311/EL ako 2210/EL
+d LOW COST, DUAL  VIDEO OP AMP
+@type p
+@attributes
+a 0 sp 11 0 51 49 hln 100 PART=EL2211/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL2211/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 s 0 0 0 10 hln 100 COMPONENT=EL2211/EL
+*symbol EL2224/EL ako 2223/EL
+d Dual, 60MHz unity gain stable opamp
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2224/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2224/EL
+*symbol EL2232/EL ako 2223/EL
+d Dual 60MHz current feedback amplifier
+@type p
+@attributes
+a 0 sp 11 0 10 70 hcn 100 PART=EL2232/EL
+a 0 sp 0 0 50 60 hcn 100 MODEL=EL2232/EL
+*symbol EL2242/EL ako 2223/EL
+d Dual, fast single-supply unity gain stable opamp
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2242/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2242/EL
+*symbol EL2243/EL ako 2223/EL
+d Dual, fast single-supply de-compensated opamp
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2243/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2243/EL
+*symbol EL2244/EL ako 2223/EL
+d Low power 60 MHz unity gain op amp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=EL2244/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2244/EL
+*symbol EL2245/EL ako 2223/EL
+d Low Power 100 MHz Gain-of-2 Op Amp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=EL2245/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2245/EL
+*symbol EL2252/EL
+d Dual 50 MHz comparator/pin receiver
+@type p
+@attributes
+a 1 s 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %HYS %TTL %OUT @MODEL
+a 0 sp 11 0 -24 102 hlb 100 PART=EL2252/EL
+a 0 sp 0 0 62 92 hlb 100 MODEL=EL2252/EL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=13
+a 0 s 0 0 100 40 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=3
+a 0 s 0 0 0 30 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=2
+a 0 s 0 0 0 60 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 26 20 hln 75 V+ n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=14
+a 0 s 0 0 20 4 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 26 76 hln 75 V- n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=7
+a 0 s 0 0 30 86 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 44 20 hln 75 HYS n 50 0 d
+a 0 s 1 0 55 3 hcn 100 PIN=4
+a 0 s 0 0 50 2 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 44 76 hln 75 TTL n 50 90 v
+a 0 s 1 0 45 92 hcn 100 PIN=12
+a 0 s 0 0 50 90 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=e
+p 2 66 78 hln 50 GND n 70 90 v
+a 0 s 1 0 65 92 hcn 100 PIN=11
+a 0 s 0 0 70 90 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol EL2260/EL ako 2223/EL
+d 100 MHz Current Feedback Op Amp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=EL2260/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2260/EL
+*symbol EL2410/EL ako 2410/EL
+d LOW COST, QUAD VIDEO OP AMP
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=EL2210/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 s 9 0 16 -6 hln 100 REFDES=U?
+a 0 sp 11 0 50 70 hln 100 PART=EL2410/EL
+a 0 s 0 0 0 10 hln 100 COMPONENT=EL2410/EL
+*symbol EL2411/EL ako 2410/EL
+d LOW COST, QUAD VIDEO OP AMP
+@type p
+@attributes
+a 0 sp 11 0 52 46 hln 100 PART=EL2411/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL2211/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 s 9 0 18 -2 hln 100 REFDES=U?
+a 0 s 0 0 0 10 hln 100 COMPONENT=EL2411/EL
+*symbol EL2424/EL ako 2423/EL
+d Quad 60MHz high speed opamp
+@type p
+@attributes
+a 0 sp 11 0 -14 70 hln 100 PART=EL2424/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2424/EL
+*symbol EL2444/EL ako 2423/EL
+d Low Power 60MHz Unity-gain Op Amp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=EL2444/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2444/EL
+*symbol EL2445/EL ako 2423/EL
+d Low Power 100 MHz Gain-of-2 Op Amp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=EL2445/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2445/EL
+*symbol EL2460/EL ako 2423/EL
+d 100 MHz Current Feedback Op Amp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=EL2460/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2460/EL
+*symbol EL400/EL ako 400/EL
+d 200MHz current feedback amplifier
+@type p
+@attributes
+a 0 sp 11 0 14 70 hcn 100 PART=EL400/EL
+a 0 sp 0 0 66 60 hcn 100 MODEL=EL400/EL
+*symbol EL4083/EL
+d CURRENT MODE FOUR QUADRANT MULTIPLIER
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 54 60 hln 100 PART=EL4083/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL4083/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IZ %IX_IN %IY_IN %VEE %VCC %IXY %\IXY\ @MODEL
+@pins
+p 2 11 22 hln 100 IX_IN n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 -40 -10 hln 100 float=e
+p 2 11 32 hln 100 IY_IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 -40 0 hln 100 float=e
+p 2 11 42 hln 100 IZ n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=8
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 -40 10 hln 100 float=e
+p 2 68 22 hrn 100 \IXY\ n 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=7
+a 0 u 0 0 80 20 hln 100 ERC=o
+a 0 u 0 0 40 -10 hln 100 float=e
+p 2 68 42 hrn 100 IXY n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=5
+a 0 u 0 0 80 40 hln 100 ERC=o
+a 0 u 0 0 40 10 hln 100 float=e
+p 2 34 16 hln 80 VCC n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=6
+a 0 u 0 0 40 0 hln 100 ERC=p
+a 0 u 0 0 10 40 hln 100 float=e
+p 2 24 48 hln 80 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=2
+a 0 u 0 0 30 60 hln 100 ERC=p
+a 0 u 0 0 0 100 hln 100 float=u
+p 2 44 48 hln 80 VEE n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=4
+a 0 u 0 0 50 60 hln 100 ERC=p
+a 0 u 0 0 20 100 hln 100 float=e
+@graphics 80 60 0 20 10
+r 0 10 10 70 50
+*symbol EL4089/EL
+d DC RESTORED VIDEO AMPLIFIER
+@type p
+@attributes
+a 0 s 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 44 70 hln 100 PART=EL4089/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL4089/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN- %IN+ %REF %HOLD %V- %OUT %V+ @MODEL
+@pins
+p 2 13 22 hln 90 IN- n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 -40 -10 hln 100 float=e
+p 2 13 32 hln 90 IN+ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 -40 0 hln 100 float=e
+p 2 13 42 hln 100 REF n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=3
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 -40 10 hln 100 float=e
+p 2 13 52 hln 100 HOLD n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 -40 20 hln 100 float=e
+p 2 57 32 hrn 90 OUT n 70 30 u
+a 0 u 1 0 65 28 hln 100 pin=7
+a 0 u 0 0 70 30 hln 100 ERC=o
+a 0 u 0 0 30 0 hln 100 float=e
+p 2 28 18 hln 90 V+ n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=8
+a 0 u 0 0 30 0 hln 100 ERC=p
+a 0 u 0 0 0 40 hln 100 float=e
+p 2 14 60 hln 90 V- n 20 70 v
+a 0 u 1 0 15 72 hcn 100 pin=6
+a 0 u 0 0 20 70 hln 100 ERC=p
+a 0 u 0 0 -10 110 hln 100 float=e
+p 2 34 60 hln 90 GND n 40 70 v
+a 0 u 1 0 35 72 hcn 100 pin=5
+a 0 u 0 0 40 70 hln 100 ERC=p
+a 0 u 0 0 10 110 hln 100 float=u
+@graphics 70 70 0 20 10
+r 0 10 10 60 60
+*symbol EL4094/EL
+d Video Gain Control/Fader
+@type p
+@attributes
+a 0 sp 9 0 82 0 hln 100 REFDES=U?
+a 0 sp 11 0 66 60 hln 100 PART=EL4094/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL4094/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %B %OUT %\G\ %G %A @MODEL
+@pins
+p 2 13 22 hln 100 A n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=8
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 13 42 hln 100 B n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=1
+a 0 u 0 0 2 40 hln 100 ERC=i
+p 2 20 20 hln 100 G n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=7
+a 0 u 0 0 22 4 hln 100 ERC=i
+p 2 58 20 hln 100 \G\ n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=6
+a 0 u 0 0 62 6 hln 100 ERC=i
+p 2 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=4
+a 0 u 0 0 74 32 hln 100 ERC=o
+p 2 34 18 hln 75 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 75 pin=5
+a 0 u 0 0 38 6 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 24 48 hln 75 GND n 30 60 v
+a 0 u 1 0 25 62 hcn 75 pin=2
+a 0 u 0 0 32 54 hln 100 ERC=p
+a 0 u 0 0 70 60 hln 100 float=u
+p 2 46 48 hln 75 V- n 50 60 v
+a 0 u 1 0 45 62 hcn 75 pin=3
+a 0 u 0 0 54 54 hln 100 ERC=p
+a 0 u 0 0 92 60 hln 100 float=u
+@graphics 80 60 0 20 10
+r 0 10 10 70 50
+*symbol EL4095/EL
+d Video Gain Control/Fader/Multiplexer
+@type p
+@attributes
+a 0 ap 9 0 84 6 hln 100 REFDES=U?
+a 0 sp 11 0 82 98 hln 100 PART=EL4095/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL4095/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+B %-B %\FA\ %\FB\ %OUT %\G\ %G %-A %+A @MODEL
+@pins
+p 2 13 22 hln 100 +B n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+p 2 13 42 hln 100 -B n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=2
+a 0 u 0 0 0 42 hln 100 ERC=i
+p 2 13 62 hln 100 \FA\ n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=4
+a 0 u 0 0 -2 62 hln 100 ERC=i
+p 2 13 82 hln 100 \FB\ n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=5
+a 0 u 0 0 -2 82 hln 100 ERC=i
+p 2 24 88 hln 75 GND n 20 100 v
+a 0 u 1 0 15 102 hcn 75 pin=3
+a 0 u 0 0 22 102 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 60 88 hln 75 V- n 60 100 v
+a 0 u 1 0 55 102 hcn 75 pin=6
+a 0 u 0 0 62 102 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 36 18 hln 75 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 75 pin=8
+a 0 u 0 0 38 -2 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 77 22 hrn 100 +A n 90 20 u
+a 0 u 1 0 85 18 hln 100 pin=14
+a 0 u 0 0 94 20 hln 100 ERC=i
+p 2 77 32 hrn 100 -A n 90 30 u
+a 0 u 1 0 85 28 hln 100 pin=13
+a 0 u 0 0 94 30 hln 100 ERC=i
+p 2 77 42 hrn 100 G n 90 40 u
+a 0 u 1 0 85 38 hln 100 pin=11
+a 0 u 0 0 94 42 hln 100 ERC=p
+p 2 77 52 hrn 100 \G\ n 90 50 u
+a 0 u 1 0 85 48 hln 100 pin=10
+a 0 u 0 0 94 52 hln 100 ERC=i
+p 2 77 72 hrn 100 OUT n 90 70 u
+a 0 u 1 0 85 68 hln 100 pin=7
+a 0 u 0 0 94 74 hln 100 ERC=o
+@graphics 90 100 0 20 10
+r 0 10 10 80 90
+*symbol EL4393/EL
+d 60 MHz Video Amplifier With Disable
+@type p
+@attributes
+a 0 s 9 0 6 -2 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 10 68 hcn 100 PART=EL4393/EL
+a 0 sp 0 0 50 60 hcn 100 MODEL=EL4393/EL
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=15
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 26 14 hcn 50 \EN\ b 30 0 d
+a 0 u 0 0 -20 80 hln 100 ERC=i
+a 0 u 1 0 35 3 hcn 100 pin=14
+a 0 u 0 0 -20 80 hln 100 float=u
+p 2 36 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=16
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 45 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=9
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 32 hln 50 GND n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=6
+a 0 u 0 0 60 60 hln 100 ERC=p
+a 0 u 0 0 30 0 hln 100 float=u
+p 2 36 36 hln 50 DIGGND n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=3
+a 0 u 0 0 50 60 hln 100 ERC=p
+a 0 u 0 0 80 60 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+60 35
+;
+v 0 50 50
+50 40
+;
+*symbol EL4430/EL
+d Video Instrumentation Amplifier
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V- %V+ %FB %REF %OUT %GND @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=EL4430/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL4430/EL
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 22 hln 100 - n 0 20 h
+a 0 u 0 0 0 -30 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=4
+a 0 u 0 0 0 -30 hln 100 float=e
+p 2 37 24 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 42 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 70 REF n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=i
+p 2 13 42 hln 70 FB n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=6
+a 0 u 0 0 0 40 hln 100 ERC=i
+p 2 54 46 hln 70 GND n 50 50 v
+a 0 u 1 0 45 52 hcn 100 pin=1
+a 0 u 0 0 50 50 hln 100 ERC=p
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 10 30
+37 47
+;
+v 0 10 30
+36 13
+;
+*symbol EL7661/EL
+d 100V Full Bridge Driver
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 108 hln 100 PART=EL7661/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL7661/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %INA %INB %ALO %BLO %AHI %BHI %LXA %LXB %VSS %VHIA %VHIB %VDD @MODEL
+@pins
+p 2 13 12 hln 100 RAM n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 22 hln 100 DSETLO n 0 20 h
+a 0 u 1 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 32 hln 100 INB n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+p 2 13 42 hln 100 BLO n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=4
+a 0 u 0 0 0 40 hln 100 ERC=o
+p 2 13 52 hln 100 VDD n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=p
+p 2 13 62 hln 100 ALO n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=o
+p 2 13 72 hln 100 INA n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=7
+a 0 u 0 0 0 70 hln 100 ERC=i
+p 2 13 82 hln 100 DSETHI n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=8
+a 0 u 0 0 0 80 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 92 hln 100 RBP n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=9
+a 0 u 0 0 0 90 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 92 hrn 100 LXB n 80 90 u
+a 0 u 1 0 75 88 hln 100 pin=10
+a 0 u 0 0 80 90 hln 100 ERC=p
+p 2 67 82 hrn 100 BHI n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=11
+a 0 u 0 0 80 80 hln 100 ERC=o
+p 2 67 72 hrn 100 VHIB n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=12
+a 0 u 0 0 80 70 hln 100 ERC=p
+p 2 67 52 hrn 100 VSS n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=14
+a 0 u 0 0 80 50 hln 100 ERC=p
+p 2 67 42 hrn 100 RAP n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=15
+a 0 u 0 0 80 40 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 32 hrn 100 LXA n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=16
+a 0 u 0 0 80 30 hln 100 ERC=p
+p 2 67 22 hrn 100 AHI n 80 20 u
+a 0 u 1 0 75 18 hln 100 pin=17
+a 0 u 0 0 80 20 hln 100 ERC=o
+p 2 67 12 hrn 100 VHIA n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=18
+a 0 u 0 0 80 10 hln 100 ERC=p
+p 2 67 62 hrn 100 RBM n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=13
+a 0 u 0 0 80 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 100 0 10 10
+r 0 10 0 70 100
+*symbol ELH0002/EL
+d Current Amplifier
+@type p
+@attributes
+a 1 s 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %V1+ %V2+ %V1- %V2- %OUT @MODEL
+a 0 sp 11 0 -30 72 hlb 100 PART=ELH0002/EL
+a 0 sp 0 0 52 60 hlb 100 MODEL=ELH0002/EL
+@pins
+p 2 22 18 hln 75 V1+ n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=1
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 40 25 hln 75 V2+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=2
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 24 46 hln 75 V1- n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=7
+a 0 u 0 0 30 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 40 38 hln 75 V2- n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=6
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 32 hln 75 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=8
+a 0 u 0 0 0 30 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 75 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=4
+a 0 u 0 0 80 30 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 50 10
+50 20
+;
+v 0 50 40
+50 50
+;
+*symbol ELH0032/EL
+d Precision Unity Gain Differential Amplifier
+@type p
+@attributes
+a 1 s 9 0 68 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %COMP3 %COMP4 %COMP2 %OUT @MODEL
+a 0 sp 11 0 -22 102 hlb 100 PART=ELH0032/EL
+a 0 sp 0 0 68 92 hlb 100 MODEL=ELH0032/EL
+@pins
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=12
+a 0 s 0 0 34 0 hln 100 ERC=x
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=10
+a 0 s 0 0 34 90 hln 100 ERC=x
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=5
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=6
+a 0 s 0 0 0 60 hln 100 ERC=x
+p 2 50 20 hln 100 COMP3 n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=3
+a 0 s 0 0 60 0 hln 100 ERC=x
+p 2 52 78 hln 100 COMP4 n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=4
+a 0 s 0 0 54 90 hln 100 ERC=x
+p 2 87 32 hrn 100 COMP2 n 100 30 u
+a 0 s 1 0 95 28 hln 100 PIN=2
+a 0 s 0 0 100 32 hln 100 ERC=x
+p 2 87 52 hrn 100 OUT n 100 50 u
+a 0 s 1 0 95 48 hln 100 PIN=11
+a 0 s 0 0 100 52 hln 100 ERC=x
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol ELH0033/EL
+d Current Amplifier
+@type p
+@attributes
+a 1 s 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %V+ %Vc+ %V- %Vc- %OUT @MODEL
+a 0 sp 11 0 -30 74 hlb 100 PART=ELH0033/EL
+a 0 sp 0 0 52 60 hlb 100 MODEL=ELH0033/EL
+@pins
+p 2 13 32 hln 75 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=5
+a 0 u 0 0 0 30 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 25 18 hln 75 V+ n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=12
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 25 hln 75 VC+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=1
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 26 47 hln 75 V- n 30 60 v
+a 0 u 1 0 25 62 hcn 100 pin=10
+a 0 u 0 0 30 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 41 hln 75 VC- n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=9
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 75 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=11
+a 0 u 0 0 80 30 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 59 28 hrn 50 PRE n 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=6
+a 0 u 0 0 70 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 59 35 hrn 50 ADJ n 70 50 u
+a 0 u 1 0 65 48 hln 100 pin=7
+a 0 u 0 0 70 50 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 50 10
+50 20
+;
+v 0 50 40
+50 50
+;
+v 0 60 10
+60 25
+;
+v 0 60 50
+60 35
+;
+*symbol ELH0101/EL
+d Power Operational Amplifier
+@type p
+@attributes
+a 1 ap 9 0 68 8 hln 100 REFDES=U?
+a 0 sp 11 0 68 92 hlb 100 PART=ELH0101/EL
+a 0 sp 0 0 68 92 hlb 100 MODEL=ELH0101/EL
+a 0 sp 0 0 0 10 hlb 100 TEMPLATE=X^@REFDES %+ %- %V+ %Isc+ %Feedback %V- %Isc- %out @MODEL
+@pins
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=5
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=6
+a 0 s 0 0 0 60 hln 100 ERC=x
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=2
+a 0 s 0 0 34 0 hln 100 ERC=x
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=7
+a 0 s 0 0 34 90 hln 100 ERC=x
+p 2 50 20 hln 100 ISC+ n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=1
+a 0 s 0 0 60 0 hln 100 ERC=x
+p 2 52 78 hln 100 ISC- n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=8
+a 0 s 0 0 54 90 hln 100 ERC=x
+p 2 87 32 hrn 100 FEEDBACK n 100 30 u
+a 0 s 1 0 95 28 hln 100 PIN=3
+a 0 s 0 0 100 32 hln 100 ERC=x
+p 0 87 52 hrn 100 OUT n 100 50 u
+a 0 s 1 0 95 48 hln 100 PIN=case
+a 0 s 0 0 96 52 hln 100 ERC=x
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol EN2016/EL
+d Fast quad PNP array
+@type p
+@attributes
+a 1 s 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %c1 %b1 %e1 %c2 %b2 %e2 %c3 %b3 %e3 %c4 %b4 %e4 @MODEL
+a 0 sp 11 0 32 94 hlb 100 PART=EN2016/EL
+a 0 sp 0 0 32 94 hlb 100 MODEL=EN2016/EL
+@pins
+p 2 70 108 hln 100 E4 n 80 120 v
+a 0 u 1 0 75 122 hcn 100 pin=12
+a 0 u 0 0 80 120 hln 100 ERC=x
+p 2 14 108 hln 100 E1 n 20 120 v
+a 0 u 1 0 15 122 hcn 100 pin=3
+a 0 u 0 0 20 120 hln 100 ERC=x
+p 2 34 108 hln 100 E2 n 40 120 v
+a 0 u 1 0 35 122 hcn 100 pin=5
+a 0 u 0 0 40 120 hln 100 ERC=x
+p 2 54 108 hln 100 E3 n 60 120 v
+a 0 u 1 0 55 122 hcn 100 pin=10
+a 0 u 0 0 60 120 hln 100 ERC=x
+p 2 13 92 hln 100 B4 n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=13
+a 0 u 0 0 0 90 hln 100 ERC=x
+p 2 74 20 hln 100 C4 n 80 0 d
+a 0 u 1 0 85 3 hcn 100 pin=14
+a 0 u 0 0 80 0 hln 100 ERC=x
+p 2 56 20 hln 100 C3 n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=8
+a 0 u 0 0 54 10 hln 100 ERC=x
+p 2 36 20 hln 100 C2 n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 34 10 hln 100 ERC=x
+p 2 16 20 hln 100 C1 n 20 0 d
+a 0 u 1 0 25 3 hcn 100 pin=1
+a 0 u 0 0 14 10 hln 100 ERC=x
+p 2 13 32 hln 100 B1 n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 52 hln 100 B2 n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=6
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 72 hln 100 B3 n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=9
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 87 52 hrn 50 SUB1 n 100 50 u
+a 0 u 1 0 95 48 hln 100 pin=4
+a 0 u 0 0 92 50 hln 100 ERC=x
+a 0 u 0 0 -8 0 hln 100 float=u
+p 2 87 72 hrn 50 SUB2 n 100 70 u
+a 0 u 1 0 95 68 hln 100 pin=11
+a 0 u 0 0 92 70 hln 100 ERC=x
+a 0 u 0 0 -8 0 hln 100 float=u
+@graphics 100 120 0 30 10
+r 0 10 10 90 110
+v 0 50 50
+50 70
+;
+v 0 60 50
+50 60
+;
+v 0 50 60
+60 70
+;
+v 0 58 63
+58 68
+;
+v 0 58 68
+53 68
+;
+v 0 60 40
+60 50
+;
+v 0 60 70
+60 80
+;
+v 0 40 60
+50 60
+;
+*symbol EP2015/EL ako EN2016/EL
+d Fast quad PNP array
+@type p
+@attributes
+a 1 s 9 0 32 40 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %c1 %b1 %e1 %c2 %b2 %e2 %c3 %b3 %e3 %c4 %b4 %e4 @MODEL
+a 0 sp 11 0 32 94 hlb 100 PART=EP2015/EL
+a 0 sp 0 0 32 94 hlb 100 MODEL=EP2015/EL
+*symbol 2001/EL b
+d 4-connection opamp subcircuit
+@type p
+@attributes
+a 1 s 13 0 0 -2 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 32 hln 100 + n 0 30 h
+a 0 u 0 0 0 24 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2008/EL b
+d 4-connection opamp subcircuit
+@type p
+@attributes
+a 1 s 13 0 0 -2 hln 100 refdes=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 32 hln 100 + n 0 30 h
+a 0 u 0 0 0 24 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2020/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 66 58 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 44 38 hln 50 B1 n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=1
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 54 34 hln 50 B2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=5
+a 0 u 0 0 60 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 46 26 hln 50 \DIS\ n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=8
+a 0 u 0 0 58 2 hln 100 ERC=x
+a 0 u 0 0 -2 -58 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 40
+50 50
+;
+v 0 60 50
+60 35
+;
+v 0 54 22
+60 10
+;
+*symbol 2028/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 66 58 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=10
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 44 38 hln 50 B1 n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=3
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 54 34 hln 50 B2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=9
+a 0 u 0 0 60 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 46 28 hln 50 GND n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=12
+a 0 u 0 0 58 2 hln 100 ERC=x
+a 0 u 0 0 -2 -58 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 40
+50 50
+;
+v 0 60 50
+60 35
+;
+v 0 54 22
+60 10
+;
+*symbol 2030/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2041/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 66 58 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 44 38 hln 50 B1 n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=1
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 54 34 hln 50 B2 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=8
+a 0 u 0 0 60 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 40
+50 50
+;
+v 0 60 50
+60 35
+;
+*symbol 2070/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 64 58 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 48 36 hln 50 OS n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=1
+a 0 u 0 0 60 60 hln 100 ERC=x
+a 0 u 0 0 10 0 hln 100 float=u
+p 2 48 28 hln 50 \DIS\ n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=8
+a 0 u 0 0 58 2 hln 100 ERC=x
+a 0 u 0 0 -2 -58 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 54 22
+60 10
+;
+v 0 60 50
+54 38
+;
+*symbol 2120/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 48 28 hln 50 \DIS\ n 60 0 d
+a 0 u 1 0 65 3 hcn 100 pin=8
+a 0 u 0 0 58 2 hln 100 ERC=x
+a 0 u 0 0 -2 -58 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 54 22
+60 10
+;
+*symbol 2210/EL b
+d
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 s 9 0 18 -4 hln 100 REFDES=U?
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 s 0 0 0 10 hln 100 COMPONENT=
+@pins
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 10 hln 100 ERC=i
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2223/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 10 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2410/EL b
+d
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 s 9 0 16 -4 hln 100 REFDES=U?
+a 0 sp 11 0 52 68 hln 100 PART=
+a 0 s 0 0 0 10 hln 100 COMPONENT=
+@pins
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 10 hln 100 ERC=i
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2423/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2500/EL b
+d opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 6 -2 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %C @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 52 hrn 100 C n 80 50 u
+a 0 u 0 0 0 0 hln 100 ERC=x
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 57 12 hrn 50 B1 n 70 10 u
+a 0 u 1 0 65 8 hln 100 pin=1
+a 0 u 0 0 70 10 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 42 hrn 50 B2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=5
+a 0 u 0 0 80 40 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 50 20
+60 10
+;
+v 0 60 40
+70 40
+;
+v 0 56 37
+60 40
+;
+*symbol 2539/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2540/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 50 10 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=10
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 400/EL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 66 58 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 46 38 hln 50 OS n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=1
+a 0 u 0 0 60 60 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 50 40
+60 50
+;
+*symbol EL2170C/EL,EL2270C/EL
+d 70 MHz 1mA CURRENT MODE FEEDBACK OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=EL2170C/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL2170/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 32 44 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol EL2175C/EL
+d CURRENT-FEEDBACK OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=EL2175C/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL2175/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 32 44 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol EL2180C/EL,EL2280C/EL
+d CURRENT-FEEDBACK OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 56 62 hln 100 PART=EL2180C/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL2180/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %+ %- %V+ %V- %out @model ?value/@value/
+a 0 u 0 0 0 20 hln 100 VALUE=
+@pins
+p 2 13 12 hln 100 - n 0 10 h
+a 0 u 1 0 5 8 hrn 100 PIN=2
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 10 hln 100 FLOAT=n
+p 2 13 52 hln 100 + n 0 50 h
+a 0 u 1 0 5 48 hrn 100 PIN=3
+a 0 u 0 0 0 50 hln 100 ERC=i
+a 0 u 0 0 0 50 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 PIN=6
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 80 30 hln 100 FLOAT=n
+p 2 32 22 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 PIN=7
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 32 44 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 PIN=4
+a 0 u 0 0 40 60 hln 100 ERC=x
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol EL7212C/EL
+d MOSFET DRIVER
+@type p
+@attributes
+a 0 sp 11 0 40 40 hln 100 PART=EL7212C/EL
+a 0 sp 0 0 40 40 hln 100 MODEL=M7212/EL
+a 1 s 9 0 8 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %GND %V+ %\OUT\ @MODEL ?VALUE/@VALUE/
+@pins
+p 0 13 22 hln 100 IN n 0 20 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=2
+p 0 37 22 hrn 100 \OUT\ b 50 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 45 18 hln 100 pin=7
+p 2 17 27 hln 80 GND n 30 40 v
+a 0 u 0 0 5 0 hln 100 ERC=p
+a 0 u 1 0 25 42 hcn 100 pin=3
+p 2 25 17 hcn 80 V+ n 30 0 d
+a 0 u 1 0 35 5 hcn 100 PIN=6
+a 0 u 0 0 30 0 hln 100 ERC=x
+@graphics 50 40 0 20 11
+v 0 40 20
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 20
+;
+v 0 30 10
+30 13
+;
+v 0 30 27
+30 30
+;
+*symbol EL7242C/EL
+d 2-input positive-nand gate
+@type p
+@attributes
+a 0 sp 11 0 39 50 hln 100 PART=EL7242C/EL
+a 0 sp 0 0 40 50 hln 100 MODEL=M7242/EL
+a 0 s 9 0 1 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@REFDES %A %\B\ %GND %OUT %V+ @MODEL ?VALUE/@VALUE/
+a 0 up 0 0 0 10 hcn 100 VALUE=
+@pins
+p 0 13 12 hln 100 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+p 0 13 32 hln 100 \B\ b 0 30 h
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 28 hrn 100 pin=2
+p 0 57 22 hrn 100 OUT n 70 20 u
+a 0 u 0 0 0 0 hln 100 float=n
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 65 18 hln 100 pin=7
+p 2 22 38 hln 100 GND n 30 50 v
+a 0 u 1 0 25 52 hcn 100 PIN=5
+a 0 u 0 0 30 50 hln 100 ERC=x
+p 2 28 8 hln 100 V+ n 30 -10 d
+a 0 u 1 0 35 -7 hcn 100 PIN=8
+a 0 u 0 0 30 -10 hln 100 ERC=x
+@graphics 70 40 0 10 11
+v 0 40 0
+10 0
+;
+v 0 10 0
+10 40
+;
+v 0 10 40
+40 40
+;
+a 0 40 40 60 20 40 0
+*symbol EL7243C/EL
+d CCD DRIVER
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 54 82 hln 100 PART=EL7243C/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=M7243/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %GND0 %IN+ %IN- %OUT0 %VCC0 @MODEL ?VALUE/@VALUE/
+a 0 up 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 13 22 hln 100 IN+ n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 IN- b 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 18 57 drn 100 GND0 n 20 70 v
+a 0 u 1 0 22 65 dln 100 PIN=1
+a 0 u 0 0 20 70 hln 100 ERC=p
+a 0 u 0 0 20 70 hln 100 FLOAT=n
+p 2 28 57 drn 100 GND1 n 30 70 v
+a 0 u 1 0 32 65 dln 100 PIN=4
+a 0 u 0 0 30 70 hln 100 ERC=p
+a 0 u 0 0 30 70 hln 100 FLOAT=u
+p 2 38 57 drn 100 GND2 n 40 70 v
+a 0 u 1 0 42 65 dln 100 PIN=5
+a 0 u 0 0 40 70 hln 100 ERC=p
+a 0 u 0 0 40 70 hln 100 FLOAT=u
+p 2 48 57 drn 100 GND3 n 50 70 v
+a 0 u 1 0 52 65 dln 100 PIN=6
+a 0 u 0 0 50 70 hln 100 ERC=p
+a 0 u 0 0 50 70 hln 100 FLOAT=u
+p 2 58 57 drn 100 GND4 n 60 70 v
+a 0 u 1 0 62 65 dln 100 PIN=7
+a 0 u 0 0 60 70 hln 100 ERC=p
+a 0 u 0 0 60 70 hln 100 FLOAT=u
+p 2 68 57 drn 100 GND5 n 70 70 v
+a 0 u 1 0 72 65 dln 100 PIN=14
+a 0 u 0 0 70 70 hln 100 ERC=p
+a 0 u 0 0 70 70 hln 100 FLOAT=u
+p 2 78 57 drn 100 GND6 n 80 70 v
+a 0 u 1 0 82 65 dln 100 PIN=15
+a 0 u 0 0 80 70 hln 100 ERC=p
+a 0 u 0 0 80 70 hln 100 FLOAT=u
+p 2 88 57 drn 100 GND7 n 90 70 v
+a 0 u 1 0 92 65 dln 100 PIN=16
+a 0 u 0 0 90 70 hln 100 ERC=p
+a 0 u 0 0 90 70 hln 100 FLOAT=u
+p 2 98 57 drn 100 GND8 n 100 70 v
+a 0 u 1 0 102 65 dln 100 PIN=17
+a 0 u 0 0 100 70 hln 100 ERC=p
+a 0 u 0 0 100 70 hln 100 FLOAT=u
+p 2 107 22 hrn 100 OUT0 n 120 20 u
+a 0 u 1 0 115 18 hln 100 PIN=8
+a 0 u 0 0 120 20 hln 100 ERC=o
+a 0 u 0 0 120 20 hln 100 FLOAT=n
+p 2 107 32 hrn 100 OUT1 n 120 30 u
+a 0 u 1 0 115 28 hln 100 PIN=9
+a 0 u 0 0 120 30 hln 100 ERC=o
+a 0 u 0 0 120 30 hln 100 FLOAT=u
+p 2 48 13 dln 100 VCC0 n 50 0 d
+a 0 u 1 0 52 5 drn 100 PIN=10
+a 0 u 0 0 50 0 hln 100 ERC=p
+a 0 u 0 0 50 0 hln 100 FLOAT=e
+p 2 58 13 dln 100 VCC1 n 60 0 d
+a 0 u 1 0 62 5 drn 100 PIN=13
+a 0 u 0 0 60 0 hln 100 ERC=p
+a 0 u 0 0 60 0 hln 100 FLOAT=u
+p 2 68 13 dln 100 VCC2 n 70 0 d
+a 0 u 1 0 72 5 drn 100 PIN=18
+a 0 u 0 0 70 0 hln 100 ERC=p
+a 0 u 0 0 70 0 hln 100 FLOAT=u
+@graphics 120 70 0 20 10
+r 0 10 10 110 60
+*symbol EL2157C/EL,EL2257C/EL
+d 125 MHz SINGLE SUPPLY, CLAMPING OP-AMP
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 48 68 hln 100 PART=EL2157C/EL
+a 0 sp 0 0 0 0 hln 100 MODEL=EL2157/EL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %CLAMP @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 2 77 32 hrn 100 CLAMP n 90 30 u
+a 0 u 1 0 85 28 hln 100 PIN=1
+a 0 u 0 0 90 30 hln 100 ERC=i
+a 0 u 0 0 90 30 hln 100 FLOAT=n
+p 2 13 22 hln 100 - n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=2
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 2 13 32 hln 100 + n 0 30 h
+a 0 u 1 0 5 28 hrn 100 PIN=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 30 hln 100 FLOAT=n
+p 2 56 47 hrn 100 V- n 50 60 v
+a 0 u 1 0 45 62 hcn 100 PIN=4
+a 0 u 0 0 50 60 hln 100 ERC=x
+a 0 u 0 0 50 60 hln 100 FLOAT=n
+p 2 13 42 hln 100 ENABLE n 0 40 h
+a 0 u 1 0 5 38 hrn 100 PIN=8
+a 0 u 0 0 0 40 hln 100 ERC=o
+a 0 u 0 0 0 40 hln 100 FLOAT=u
+p 2 77 22 hrn 100 OUT n 90 20 u
+a 0 u 1 0 85 18 hln 100 PIN=6
+a 0 u 0 0 90 20 hln 100 ERC=o
+a 0 u 0 0 90 20 hln 100 FLOAT=n
+p 2 45 18 hln 100 V+ n 50 0 d
+a 0 u 1 0 55 3 hcn 100 PIN=7
+a 0 u 0 0 50 0 hln 100 ERC=x
+a 0 u 0 0 50 0 hln 100 FLOAT=n
+@graphics 90 60 0 20 10
+r 0 10 10 80 50
+*symbol EL2286C/EL
+d 250MHz/3mA Current Mode Feedback Amp w/ Disable
+@type p
+@attributes
+a 0 sp 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 55 49 hln 100 PART=EL2286C/EL
+a 0 sp 0 0 50 60 hln 100 MODEL=EL2186/EL
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=14
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=13
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 32 hln 100 \EN\ n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 2 32 hln 100 ERC=x
+a 0 u 0 0 -58 92 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1996, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

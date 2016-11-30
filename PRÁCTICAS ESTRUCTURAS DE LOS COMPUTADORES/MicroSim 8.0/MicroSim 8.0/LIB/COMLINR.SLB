@@ -1,0 +1,1182 @@
+*version 8.0 1594354398
+@index
+symloc 109/CL 0 788 b
+symloc CLC109/CL:109/CL 788 311
+symloc CLC111/CL:109/CL 1099 212
+symloc CLC400/CL 1311 966
+symloc CLC401/CL:406/CL 2277 185
+symloc CLC402/CL:406/CL 2462 172
+symloc CLC404/CL:406/CL 2634 175
+symloc CLC405/CL 2809 962
+symloc CLC406/CL:406/CL 3771 170
+symloc 406/CL 3941 952 b
+symloc CLC407/CL 4893 1491
+symloc CLC409/CL:406/CL 6384 180
+symloc CLC410/CL 6564 1058
+symloc CLC412/CL 7622 1001
+symloc 414/CL 8623 953 b
+symloc CLC414/CL:414/CL 9576 168
+symloc CLC415/CL:414/CL 9744 167
+symloc CLC420/CL:406/CL 9911 168
+symloc CLC425/CL:CLC505/CL 10079 168
+symloc CLC426/CL 10247 1341
+symloc CLC428/CL 11588 1018
+symloc CLC430/CL 12606 946
+symloc 431/CL 13552 1474 b
+symloc CLC431/CL:431/CL 15026 206
+symloc CLC432/CL 15232 1001
+symloc CLC440/CL:406/CL 16233 280
+symloc CLC449/CL:406/CL 16513 271
+symloc CLC501/CL 16784 1045
+symloc CLC502/CL:CLC501/CL 17829 177
+symloc CLC505/CL 18006 961
+symloc CLC520/CL 18967 1739
+symloc CLC522/CL 20706 1844
+symloc CLC532/CL 22550 2365
+symloc copyright 24915 593 b
+*symbol 109/CL b
+d
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %OUT %V+ %V- @MODEL
+a 0 sp 11 0 0 10 hln 100 PART=109/CL
+a 0 s 9 0 58 10 hln 100 REFDES=U?
+a 0 s 0 0 0 10 hlb 100 COMPONENT=
+a 0 sp 0 0 0 10 hln 100 MODEL=109/CL
+@pins
+p 0 13 32 hln 100 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=4
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 -40 0 hln 100 float=e
+p 2 28 24 hln 100 V+ n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=1
+a 0 u 0 0 40 0 hln 100 ERC=p
+p 2 28 44 hln 100 V- n 40 60 v
+a 0 u 1 0 35 62 hcn 100 pin=5
+a 0 u 0 0 40 60 hln 100 ERC=p
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=8
+a 0 u 0 0 80 30 hln 100 ERC=o
+a 0 u 0 0 -10 0 hln 100 float=e
+@graphics 80 60 0 30 10
+v 0 10 0
+10 60
+;
+v 0 70 30
+10 0
+;
+v 0 10 60
+70 30
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol CLC109/CL ako 109/CL
+d LOW-POWER, WIDEBAND, CLOSED-LOOP BUFFER
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=CLC109/CL
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %OUT %V+ %V- @MODEL
+a 0 sp 11 0 56 58 hln 100 PART=CLC109/CL
+a 0 s 9 0 54 10 hln 100 REFDES=U?
+a 0 s 0 0 0 10 hlb 100 COMPONENT=CLC109
+*symbol CLC111/CL ako 109/CL
+d Ultra High Slew Rate, Closed-Loop Buffer
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=CLC111/CL
+a 0 sp 11 0 58 56 hln 100 PART=CLC111/CL
+a 0 s 0 0 0 10 hlb 100 COMPONENT=CLC111
+*symbol CLC400/CL
+d Fast settling, wideband low-gain monolithic opamp
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- %OFFSET @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=CLC400/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC400/CL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=6
+a 0 s 0 0 100 42 hln 100 ERC=x
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=7
+a 0 s 0 0 34 0 hln 100 ERC=x
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=4
+a 0 s 0 0 34 90 hln 100 ERC=x
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 60 hln 100 ERC=x
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 52 78 hln 100 OFFSET n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=1
+a 0 s 0 0 54 90 hln 100 ERC=x
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol CLC401/CL ako 406/CL
+d Fast settling, wideband high-gain monolithic opamp
+@type p
+@attributes
+a 0 sp 11 0 -20 70 hln 100 PART=CLC401/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC401/CL
+*symbol CLC402/CL ako 406/CL
+d Low-Gain, Op Amp, Fast 14-bit Settling
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=CLC402/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC402/CL
+*symbol CLC404/CL ako 406/CL
+d Wideband high-slew rate monolithic opamp
+@type p
+@attributes
+a 0 sp 11 0 -20 70 hln 100 PART=CLC404/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC404/CL
+*symbol CLC405/CL
+d Low-Cost, Low Power, 110MHz Op Amp with Disable
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- %\DIS\ @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=CLC405/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC405/CL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=6
+a 0 s 0 0 100 42 hln 100 ERC=x
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=7
+a 0 s 0 0 34 0 hln 100 ERC=x
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=4
+a 0 s 0 0 34 90 hln 100 ERC=x
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 60 hln 100 ERC=x
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 52 78 hln 100 \DIS\ n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=8
+a 0 s 0 0 54 90 hln 100 ERC=x
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol CLC406/CL ako 406/CL
+d Wideband, low power monolithic opamp
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=CLC406/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC406/CL
+*symbol 406/CL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 1 s 9 0 50 10 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %OUT %V+ %V- @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=406/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=406/CL
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol CLC407/CL
+d Low-Cost, Low-Power, Programmable Gain Buffer w/Disable
+@type p
+@attributes
+a 1 s 9 0 96 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- %\DIS\ @MODEL
+a 0 sp 11 0 88 90 hlb 100 PART=CLC407/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC407/CL
+@pins
+p 2 107 48 hrn 100 OUT n 120 40 u
+a 0 s 1 0 115 38 hln 100 PIN=6
+a 0 s 0 0 120 42 hln 100 ERC=x
+p 2 56 18 hln 100 V+ n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=7
+a 0 s 0 0 54 0 hln 100 ERC=x
+p 2 56 78 hln 100 V- n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=4
+a 0 s 0 0 54 90 hln 100 ERC=x
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 60 hln 100 ERC=x
+p 2 13 31 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 72 78 hln 100 \DIS\ n 80 90 v
+a 0 s 1 0 75 92 hcn 100 PIN=8
+a 0 s 0 0 74 90 hln 100 ERC=x
+@graphics 120 90 0 30 10
+r 0 10 10 110 80
+v 0 50 26
+50 66
+;
+v 0 50 66
+85 46
+;
+v 0 85 46
+50 26
+;
+s 26 51 39 hln 100 -
+s 26 51 59 hln 100 +
+v 0 44 36
+50 36
+;
+v 0 47 36
+47 23
+;
+v 0 47 23
+70 23
+;
+v 0 70 23
+72 19
+;
+v 0 72 19
+75 27
+;
+v 0 75 27
+78 19
+;
+v 0 78 19
+81 27
+;
+v 0 81 27
+84 19
+;
+v 0 84 19
+87 27
+;
+v 0 87 27
+89 23
+;
+v 0 20 30
+22 26
+;
+v 0 22 26
+25 34
+;
+v 0 25 34
+28 26
+;
+v 0 28 26
+31 34
+;
+v 0 31 34
+34 26
+;
+v 0 34 26
+37 34
+;
+v 0 37 34
+39 30
+;
+v 0 20 30
+10 30
+;
+v 0 44 36
+44 30
+;
+v 0 44 30
+39 30
+;
+v 0 110 40
+90 40
+;
+v 0 90 40
+90 46
+;
+v 0 90 46
+85 46
+;
+v 0 89 23
+100 23
+;
+v 0 100 23
+100 40
+;
+s 26 70 36 hln 100 250
+s 26 20 42 hln 100 250
+v 0 11 60
+50 60
+;
+*symbol CLC409/CL ako 406/CL
+d Very wideband low distortion monolithic opamp
+@type p
+@attributes
+a 0 sp 11 0 -20 70 hln 100 PART=CLC409/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC409/CL
+*symbol CLC410/CL
+d Fast settling, video opamp with disable
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- %OFFSET %DISABLE @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=CLC410/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC410/CL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=6
+a 0 s 0 0 100 42 hln 100 ERC=x
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=7
+a 0 s 0 0 34 0 hln 100 ERC=x
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=4
+a 0 s 0 0 34 90 hln 100 ERC=x
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 60 hln 100 ERC=x
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 52 78 hln 100 DISABLE n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=8
+a 0 s 0 0 54 90 hln 100 ERC=x
+p 2 52 20 hln 100 OFFSET n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=1
+a 0 s 0 0 60 0 hln 100 ERC=x
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol CLC412/CL
+d Dual Wideband Monolithic Op Amp
+@type p
+@attributes
+a 1 s 9 0 20 -4 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %OUT %V+ %V- @MODEL
+a 0 sp 11 0 48 58 hln 100 PART=CLC412/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC412/CL
+a 0 s 0 0 0 10 hln 100 COMPONENT=CLC432
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 414/CL b
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 1 s 9 0 50 10 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %OUT %V+ %V- @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=414/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=414/CL
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol CLC414/CL ako 414/CL
+d (Quad) low power monolithic opamp
+@type p
+@attributes
+a 0 sp 11 0 -20 70 hln 100 PART=CLC414/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC414/CL
+*symbol CLC415/CL ako 414/CL
+d (Quad) wideband monolithic opamp
+@type p
+@attributes
+a 0 sp 11 0 -22 70 hln 100 PART=CLC415/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC415/CL
+*symbol CLC420/CL ako 406/CL
+d High-speed voltage feedback opamp
+@type p
+@attributes
+a 0 sp 11 0 -16 70 hln 100 PART=CLC420/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC420/CL
+*symbol CLC425/CL ako CLC505/CL
+d Ultra Low Noise Wideband Op Amp
+@type p
+@attributes
+a 0 sp 11 0 44 90 hlb 100 PART=CLC425/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC425/CL
+*symbol CLC426/CL
+d Wideband Low Noise Voltage-Feedback Op Amp
+@type p
+@attributes
+a 1 s 9 0 20 -4 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %OUT %V+ %V- %RP %COMP @MODEL
+a 0 sp 11 0 70 70 hln 100 PART=CLC426/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC426/CL
+a 0 s 0 0 0 10 hln 100 COMPONENT=CLC426
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 31 20 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 29 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 53 27 hrn 70 RP n 80 10 u
+a 0 u 0 0 0 -20 hln 100 ERC=i
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 0 -20 hln 100 float=e
+p 2 57 36 hrn 70 COMP n 60 60 v
+a 0 u 0 0 90 -20 hln 100 ERC=i
+a 0 u 1 0 55 62 hcn 100 pin=5
+a 0 u 0 0 90 -20 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+54 22
+;
+v 0 60 50
+54 38
+;
+v 0 54 38
+60 50
+;
+v 0 60 50
+54 38
+;
+*symbol CLC428/CL
+d Dual Wideband Low Noise Voltage-Feedback Op Amp
+@type p
+@attributes
+a 1 s 9 0 58 12 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %OUT %V+ %V-  @MODEL
+a 0 sp 11 0 50 58 hln 100 PART=CLC428/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC428/CL
+a 0 s 0 0 0 10 hln 100 COMPONENT=CLC428
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 31 20 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 29 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol CLC430/CL
+d Low gain opamp with disable
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- %DISABLE @MODEL
+a 0 sp 11 0 68 92 hlb 100 PART=CLC430/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC430/CL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=6
+a 0 s 0 0 100 42 hln 100 ERC=x
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=7
+a 0 s 0 0 34 0 hln 100 ERC=x
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=4
+a 0 s 0 0 34 90 hln 100 ERC=x
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 60 hln 100 ERC=x
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 52 78 hln 100 DISABLE n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=8
+a 0 s 0 0 54 90 hln 100 ERC=x
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol 431/CL b
+d Dual Wideband Monolithic Op Amp
+@type p
+@attributes
+a 1 s 9 0 20 -4 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %OUT %V+ %V- %DIS %\DIS\ %VR @MODEL
+a 0 sp 11 0 -18 70 hln 100 PART=431/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=431/CL
+a 0 s 0 0 0 10 hln 100 COMPONENT=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=14
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 21 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 54 26 hrn 50 VR n 80 10 u
+a 0 u 0 0 0 -20 hln 100 ERC=i
+a 0 u 1 0 75 8 hln 100 pin=13
+a 0 u 0 0 0 -20 hln 100 float=e
+p 2 53 37 hrn 50 DIS n 60 60 v
+a 0 u 0 0 90 -20 hln 100 ERC=i
+a 0 u 1 0 55 62 hcn 100 pin=3
+a 0 u 0 0 90 -20 hln 100 float=e
+p 2 62 33 hrn 50 \DIS\ n 70 60 v
+a 0 u 0 0 100 -20 hln 100 ERC=i
+a 0 u 1 0 65 62 hcn 100 pin=12
+a 0 u 0 0 100 -20 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+54 22
+;
+v 0 60 50
+54 38
+;
+v 0 54 38
+60 50
+;
+v 0 60 50
+54 38
+;
+v 0 70 50
+62 34
+;
+*symbol CLC431/CL ako 431/CL
+d Dual Wideband Monolithic Op Amp
+@type p
+@attributes
+a 0 sp 11 0 -18 70 hln 100 PART=CLC431/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC431/CL
+a 0 s 0 0 0 10 hln 100 COMPONENT=CLC431
+*symbol CLC432/CL
+d Dual Wideband Monolithic Op Amp
+@type p
+@attributes
+a 1 s 9 0 20 -4 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %+ %- %OUT %V+ %V- @MODEL
+a 0 sp 11 0 48 58 hln 100 PART=CLC432/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC432/CL
+a 0 s 0 0 0 10 hln 100 COMPONENT=CLC432
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 33 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol CLC440/CL ako 406/CL
+d High-Speed, Low-Power Voltage Feedback Op Amp
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- @MODEL
+a 0 sp 11 0 46 52 hlb 100 PART=CLC440/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC440/CL
+*symbol CLC449/CL ako 406/CL
+d 1.2 GHz Ultra-Wide Monolithic Op Amp
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- @MODEL
+a 0 sp 11 0 50 56 hlb 100 PART=CLC449/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC449/CL
+*symbol CLC501/CL
+d High-speed, output clamping opamp
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- %Vhigh %Vlow @MODEL
+a 0 sp 11 0 62 90 hlb 100 PART=CLC501/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC501/CL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=6
+a 0 s 0 0 100 42 hln 100 ERC=x
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=7
+a 0 s 0 0 34 0 hln 100 ERC=x
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=4
+a 0 s 0 0 34 90 hln 100 ERC=x
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 60 hln 100 ERC=x
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 54 78 hln 100 VLOW n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=5
+a 0 s 0 0 54 90 hln 100 ERC=x
+p 2 54 20 hln 100 VHIGH n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=8
+a 0 s 0 0 62 -2 hln 100 ERC=x
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol CLC502/CL ako CLC501/CL
+d Clamping, Low Gain Op Amp, Fast Settling
+@type p
+@attributes
+a 0 sp 11 0 62 90 hlb 100 PART=CLC502/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC502/CL
+*symbol CLC505/CL
+d High-speed programmable-supply current monolithic opamp
+@type p
+@attributes
+a 1 s 9 0 64 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %OUT %V+ %V- %Rp @MODEL
+a 0 sp 11 0 44 90 hlb 100 PART=CLC505/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC505/CL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=6
+a 0 s 0 0 100 42 hln 100 ERC=x
+p 2 34 20 hln 100 V+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=7
+a 0 s 0 0 34 0 hln 100 ERC=x
+p 2 36 78 hln 100 V- n 40 90 v
+a 0 s 1 0 35 92 hcn 100 PIN=4
+a 0 s 0 0 34 90 hln 100 ERC=x
+p 2 13 62 hln 100 + n 0 60 h
+a 0 s 1 0 5 58 hrn 100 PIN=3
+a 0 s 0 0 0 60 hln 100 ERC=x
+p 2 13 32 hln 100 - n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=x
+p 2 54 20 hln 100 RP n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=8
+a 0 s 0 0 64 2 hln 100 ERC=x
+@graphics 100 90 0 30 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 31 39 hln 100 -
+s 26 31 59 hln 100 +
+*symbol CLC520/CL
+d Op Amp with Voltage Controlled Gain, AGC+AMP
+@type p
+@attributes
+a 1 s 9 0 0 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %V+ %VG %+ %+RG %-RG %- %V- %VREF %OUT %I- @MODEL
+a 0 sp 11 0 -30 102 hlb 100 PART=CLC520/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC520/CL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=10
+a 0 s 0 0 102 42 hln 100 ERC=x
+p 2 30 20 hln 100 V+ n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=1
+a 0 s 0 0 26 0 hln 100 ERC=x
+p 2 52 78 hln 100 V- n 50 90 v
+a 0 s 1 0 45 92 hcn 100 PIN=7
+a 0 s 0 0 46 90 hln 100 ERC=x
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=3
+a 0 s 0 0 2 70 hln 100 ERC=x
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=6
+a 0 s 0 0 4 20 hln 100 ERC=x
+p 2 56 20 hln 100 VREF n 60 0 d
+a 0 s 1 0 65 3 hcn 100 PIN=9
+a 0 s 0 0 66 2 hln 100 ERC=x
+p 2 13 52 hln 80 +RG n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=4
+a 0 s 0 0 2 50 hln 100 ERC=x
+p 2 13 42 hln 80 -RG n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=5
+a 0 s 0 0 2 38 hln 100 ERC=x
+p 2 26 78 hln 100 VG n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=2
+a 0 s 0 0 32 90 hln 100 ERC=x
+p 0 38 20 hln 100 V2+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=14
+a 0 s 0 0 44 0 hln 100 ERC=x
+a 0 s 0 0 -6 0 hln 100 FLOAT=u
+p 0 64 70 hln 100 V2- n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=8
+a 0 s 0 0 58 90 hln 100 ERC=x
+a 0 s 0 0 108 90 hln 100 FLOAT=u
+p 2 87 62 hrn 100 I- n 100 60 u
+a 0 s 1 0 95 58 hln 100 PIN=12
+a 0 s 0 0 102 64 hln 100 ERC=x
+a 0 s 0 0 102 14 hln 100 FLOAT=e
+p 2 72 78 hln 80 GND n 80 90 v
+a 0 s 1 0 75 92 hcn 100 PIN=11
+a 0 s 0 0 78 90 hln 100 ERC=x
+a 0 s 0 0 128 90 hln 100 FLOAT=u
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 33 39 hln 100 -
+s 26 33 59 hln 100 +
+*symbol CLC522/CL
+d Wideband Variable Gain Op Amp
+@type p
+@attributes
+a 1 s 9 0 0 6 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %V+ %VG %+ %+RG %-RG %- %V- %VREF %OUT %I- @MODEL
+a 0 sp 11 0 -30 102 hlb 100 PART=CLC522/CL
+a 0 sp 0 0 68 92 hlb 100 MODEL=CLC522/CL
+@pins
+p 2 87 42 hrn 100 OUT n 100 40 u
+a 0 s 1 0 95 38 hln 100 PIN=10
+a 0 s 0 0 102 42 hln 100 ERC=x
+p 2 34 20 hln 100 V+ n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=1
+a 0 s 0 0 26 0 hln 100 ERC=x
+p 2 48 78 hln 100 V- n 50 90 v
+a 0 s 1 0 45 92 hcn 100 PIN=7
+a 0 s 0 0 46 90 hln 100 ERC=x
+p 2 13 72 hln 100 + n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=3
+a 0 s 0 0 2 70 hln 100 ERC=x
+p 2 13 22 hln 100 - n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=6
+a 0 s 0 0 4 20 hln 100 ERC=x
+p 2 64 20 hln 100 VREF n 70 0 d
+a 0 s 1 0 75 3 hcn 100 PIN=9
+a 0 s 0 0 74 2 hln 100 ERC=x
+p 2 13 52 hln 80 +RG n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=4
+a 0 s 0 0 2 50 hln 100 ERC=x
+p 2 13 42 hln 80 -RG n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=5
+a 0 s 0 0 2 38 hln 100 ERC=x
+p 2 26 78 hln 100 VG n 30 90 v
+a 0 s 1 0 25 92 hcn 100 PIN=2
+a 0 s 0 0 32 90 hln 100 ERC=x
+p 0 38 20 hln 100 V2+ n 40 0 d
+a 0 s 1 0 45 3 hcn 100 PIN=14
+a 0 s 0 0 44 0 hln 100 ERC=x
+a 0 s 0 0 -6 0 hln 100 FLOAT=u
+p 0 64 70 hln 100 V2- n 60 90 v
+a 0 s 1 0 55 92 hcn 100 PIN=8
+a 0 s 0 0 58 90 hln 100 ERC=x
+a 0 s 0 0 108 90 hln 100 FLOAT=u
+p 2 87 62 hrn 100 I- n 100 60 u
+a 0 s 1 0 95 58 hln 100 PIN=12
+a 0 s 0 0 102 64 hln 100 ERC=x
+a 0 s 0 0 102 14 hln 100 FLOAT=e
+p 2 72 78 hln 80 GND n 80 90 v
+a 0 s 1 0 75 92 hcn 100 PIN=11
+a 0 s 0 0 78 90 hln 100 ERC=x
+a 0 s 0 0 128 90 hln 100 FLOAT=u
+p 0 48 12 hln 100 +V3 n 50 0 d
+a 0 s 1 0 55 3 hcn 100 PIN=13
+a 0 s 0 0 50 0 hln 100 ERC=x
+a 0 s 0 0 0 0 hln 100 FLOAT=u
+@graphics 100 90 0 20 10
+r 0 10 10 90 80
+v 0 30 26
+30 66
+;
+v 0 30 66
+65 46
+;
+v 0 65 46
+30 26
+;
+s 26 33 39 hln 100 -
+s 26 33 59 hln 100 +
+*symbol CLC532/CL
+d High-Speed 2:1 Analog Multiplexer
+@type p
+@attributes
+a 1 s 9 0 18 -6 hcn 100 refdes=U?
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %A %B %DGND %DREF %SEL %V- %COMP2 %OUT %COMP1 %V+ @MODEL
+a 0 sp 11 0 84 92 hln 100 PART=CLC532/CL
+a 0 sp 0 0 50 60 hln 100 MODEL=CLC532/CL
+a 0 s 0 0 0 10 hcn 100 COMPONENT=CLC532
+@pins
+p 0 87 42 hrn 50 OUT n 100 40 u
+a 0 u 0 0 20 10 hln 100 ERC=o
+a 0 u 1 0 95 38 hln 100 pin=11
+a 0 u 0 0 20 10 hln 100 float=e
+p 2 35 22 hcn 75 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=13
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 43 60 hcn 75 V- n 50 80 v
+a 0 u 0 0 10 20 hln 100 ERC=p
+a 0 u 1 0 45 82 hcn 100 pin=8
+a 0 u 0 0 10 20 hln 100 float=e
+p 2 13 12 hln 75 A n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 72 hln 50 GNDB n 0 70 h
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 1 0 5 68 hrn 100 pin=3
+a 0 u 0 0 0 20 hln 100 float=u
+p 2 13 22 hln 50 GNDA n 0 20 h
+a 0 u 0 0 -2 10 hln 100 ERC=i
+a 0 u 1 0 5 18 hrn 100 pin=1
+a 0 u 0 0 -2 10 hln 100 float=u
+p 2 13 62 hln 75 B n 0 60 h
+a 0 u 0 0 -2 50 hln 100 ERC=i
+a 0 u 1 0 5 58 hrn 100 pin=4
+a 0 u 0 0 -2 50 hln 100 float=e
+p 2 31 66 hcn 75 SEL n 40 80 v
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 1 0 35 82 hcn 100 pin=7
+a 0 u 0 0 0 20 hln 100 float=e
+p 2 61 48 hcn 75 COMP2 n 80 80 v
+a 0 u 0 0 40 22 hln 100 ERC=i
+a 0 u 1 0 75 82 hcn 100 pin=10
+a 0 u 0 0 40 22 hln 100 float=e
+p 2 73 36 hrn 60 DREF n 100 10 u
+a 0 u 0 0 20 -18 hln 100 ERC=i
+a 0 u 1 0 95 8 hln 100 pin=6
+a 0 u 0 0 20 -18 hln 100 float=e
+p 2 49 30 hcn 75 COMP1 n 60 0 d
+a 0 u 0 0 20 0 hln 100 ERC=i
+a 0 u 1 0 65 3 hcn 100 pin=12
+a 0 u 0 0 20 0 hln 100 float=e
+p 2 22 42 hln 75 DGND n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=5
+a 0 u 0 0 0 40 hln 100 ERC=p
+p 2 22 16 hln 50 V+1 n 30 0 d
+a 0 u 1 0 35 3 hcn 100 pin=14
+a 0 u 0 0 30 -4 hln 100 ERC=p
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 53 56 hcn 50 V-1 n 70 80 v
+a 0 u 0 0 30 20 hln 100 ERC=p
+a 0 u 1 0 65 82 hcn 100 pin=9
+a 0 u 0 0 30 20 hln 100 float=u
+@graphics 100 80 0 10 10
+v 0 40 10
+40 15
+;
+v 0 10 60
+10 70
+;
+v 0 10 0
+10 20
+;
+v 0 10 20
+10 0
+;
+v 0 10 20
+20 30
+;
+v 0 20 30
+20 40
+;
+v 0 10 70
+10 80
+;
+v 0 20 40
+20 50
+;
+v 0 20 50
+10 60
+;
+v 0 10 40
+20 40
+;
+v 0 10 0
+90 40
+;
+v 0 90 40
+10 80
+;
+v 0 60 10
+50 20
+;
+v 0 40 70
+40 65
+;
+v 0 50 70
+50 60
+;
+v 0 70 70
+57 56
+;
+v 0 80 70
+80 58
+;
+v 0 90 10
+72 31
+;
+v 0 80 58
+73 48
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=copyright
+a 0 sp 0 0 0 0 hln 100 MODEL=copyright
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

@@ -1,0 +1,3565 @@
+*version 7.2 79759244
+@index
+symloc LP111/301/TI:111/TI 0 153
+symloc LP211/301/TI:111/TI 153 153
+symloc LP239/5_1/TI:139/TI 306 153
+symloc LP2901/5_1/TI:139/TI 459 156
+symloc LP311/301/TI:111/TI 615 153
+symloc LP339/5_1/TI:139/TI 768 153
+symloc TL031/101/TI:031/TI 921 159
+symloc TL031/301/TI:031/TI 1080 159
+symloc TL032/101/TI:353/TI 1239 172
+symloc TL032/301/TI:353/TI 1411 172
+symloc TL034/101/TI:347/TI 1583 172
+symloc TL034/301/TI:347/TI 1755 172
+symloc TL051/101/TI:031/TI 1927 159
+symloc TL051/301/TI:031/TI 2086 159
+symloc TL052/101/TI:353/TI 2245 172
+symloc TL052/301/TI:353/TI 2417 172
+symloc TL054/101/TI:347/TI 2589 172
+symloc TL054/301/TI:347/TI 2761 172
+symloc TL061/301/TI:031/TI 2933 159
+symloc TL062/301/TI:353/TI 3092 172
+symloc TL064/301/TI:347/TI 3264 172
+symloc TL071/301/TI:031/TI 3436 159
+symloc TL072/301/TI:353/TI 3595 159
+symloc TL074/301/TI:347/TI 3754 172
+symloc TL081/301/TI:031/TI 3926 159
+symloc TL082/301/TI:353/TI 4085 172
+symloc TL084/301/TI:347/TI 4257 172
+symloc TLC1078/101/TI:353/TI 4429 178
+symloc TLC1078/102/TI:353/TI 4607 178
+symloc TLC1078/5_1/TI:353/TI 4785 178
+symloc TLC1078/5_2/TI:353/TI 4963 178
+symloc TLC1079/101/TI:347/TI 5141 178
+symloc TLC1079/102/TI:347/TI 5319 178
+symloc TLC1079/5_1/TI:347/TI 5497 178
+symloc TLC1079/5_2/TI:347/TI 5675 178
+symloc TLC2201/101/TI:107/TI 5853 178
+symloc TLC2201/102/TI:107/TI 6031 178
+symloc TLC2201/5_1/TI:107/TI 6209 178
+symloc TLC2201/5_2/TI:107/TI 6387 178
+symloc TLC2252/101/TI:353/TI 6565 264
+symloc TLC2252/102/TI:353/TI 6829 264
+symloc TLC2252/5_1/TI:353/TI 7093 264
+symloc TLC2252/5_2/TI:353/TI 7357 264
+symloc TLC2254/101/TI:347/TI 7621 263
+symloc TLC2254/102/TI:347/TI 7884 263
+symloc TLC2254/5_1/TI:347/TI 8147 263
+symloc TLC2254/5_2/TI:347/TI 8410 263
+symloc TLC2262/101/TI:353/TI 8673 190
+symloc TLC2262/102/TI:353/TI 8863 232
+symloc TLC2262/5_1/TI:353/TI 9095 190
+symloc TLC2262/5_2/TI:353/TI 9285 232
+symloc TLC2264/101/TI:2264/TI 9517 230
+symloc TLC2264/102/TI:2264/TI 9747 230
+symloc TLC2264/5_1/TI:2264/TI 9977 230
+symloc TLC2264/5_2/TI:2264/TI 10207 230
+symloc TLC2272/101/TI:353/TI 10437 268
+symloc TLC2272/102/TI:353/TI 10705 268
+symloc TLC2272/5_1/TI:353/TI 10973 268
+symloc TLC2272/5_2/TI:353/TI 11241 268
+symloc TLC2274/101/TI:2264/TI 11509 230
+symloc TLC2274/102/TI:2264/TI 11739 230
+symloc TLC2274/5_1/TI:2264/TI 11969 230
+symloc TLC2274/5_2/TI:2264/TI 12199 230
+symloc TLC251H/1_1/TI:251/TI 12429 165
+symloc TLC251H/1_2/TI:251/TI 12594 164
+symloc TLC251H/101/TI:251/TI 12758 165
+symloc TLC251H/102/TI:251/TI 12923 165
+symloc TLC251L/1_1/TI:251/TI 13088 165
+symloc TLC251L/1_2/TI:251/TI 13253 165
+symloc TLC251L/101/TI:251/TI 13418 165
+symloc TLC251L/102/TI:251/TI 13583 165
+symloc TLC251M/101/TI:251/TI 13748 165
+symloc TLC251M/102/TI:251/TI 13913 165
+symloc TLC252C/1_1/TI:353/TI 14078 178
+symloc TLC252C/1_2/TI:353/TI 14256 178
+symloc TLC252C/101/TI:353/TI 14434 178
+symloc TLC252C/102/TI:353/TI 14612 178
+symloc TLC254C/1_1/TI:347/TI 14790 178
+symloc TLC254C/1_2/TI:347/TI 14968 178
+symloc TLC254C/101/TI:347/TI 15146 178
+symloc TLC254C/102/TI:347/TI 15324 178
+symloc TLC25L2C/1_1/TI:353/TI 15502 181
+symloc TLC25L2C/1_2/TI:353/TI 15683 181
+symloc TLC25L2C/101/TI:353/TI 15864 181
+symloc TLC25L2C/102/TI:353/TI 16045 181
+symloc TLC25L4C/1_1/TI:347/TI 16226 181
+symloc TLC25L4C/1_2/TI:347/TI 16407 181
+symloc TLC25L4C/101/TI:347/TI 16588 181
+symloc TLC25L4C/102/TI:347/TI 16769 181
+symloc TLC25M2C/1_1/TI:353/TI 16950 181
+symloc TLC25M2C/1_2/TI:353/TI 17131 181
+symloc TLC25M2C/101/TI:353/TI 17312 181
+symloc TLC25M2C/102/TI:353/TI 17493 181
+symloc TLC25M4C/1_1/TI:347/TI 17674 181
+symloc TLC25M4C/1_2/TI:347/TI 17855 181
+symloc TLC25M4C/101/TI:347/TI 18036 181
+symloc TLC25M4C/102/TI:347/TI 18217 181
+symloc TLC2652/101/TI:1052/TI 18398 166
+symloc TLC2652/102/TI:1052/TI 18564 166
+symloc TLC2654/101/TI:1052/TI 18730 166
+symloc TLC2654/102/TI:1052/TI 18896 166
+symloc TLC271H/101/TI:251/TI 19062 165
+symloc TLC271H/102/TI:251/TI 19227 165
+symloc TLC271H/5_1/TI:251/TI 19392 165
+symloc TLC271H/5_2/TI:251/TI 19557 165
+symloc TLC271L/101/TI:251/TI 19722 165
+symloc TLC271L/102/TI:251/TI 19887 165
+symloc TLC271L/5_1/TI:251/TI 20052 165
+symloc TLC271L/5_2/TI:251/TI 20217 165
+symloc TLC271M/101/TI:251/TI 20382 165
+symloc TLC271M/102/TI:251/TI 20547 165
+symloc TLC271M/5_1/TI:251/TI 20712 165
+symloc TLC271M/5_2/TI:251/TI 20877 165
+symloc TLC272/101/TI:353/TI 21042 175
+symloc TLC272/102/TI:353/TI 21217 175
+symloc TLC272/5_1/TI:353/TI 21392 175
+symloc TLC272/5_2/TI:353/TI 21567 175
+symloc TLC274/101/TI:347/TI 21742 175
+symloc TLC274/102/TI:347/TI 21917 175
+symloc TLC274/5_1/TI:347/TI 22092 175
+symloc TLC274/5_2/TI:347/TI 22267 175
+symloc TLC277/101/TI:353/TI 22442 175
+symloc TLC277/102/TI:353/TI 22617 175
+symloc TLC277/5_1/TI:353/TI 22792 175
+symloc TLC277/5_2/TI:353/TI 22967 175
+symloc TLC279/101/TI:347/TI 23142 175
+symloc TLC279/102/TI:347/TI 23317 175
+symloc TLC279/5_1/TI:347/TI 23492 275
+symloc TLC279/5_2/TI:347/TI 23767 175
+symloc TLC27L2/101/TI:353/TI 23942 178
+symloc TLC27L2/102/TI:353/TI 24120 178
+symloc TLC27L2/5_1/TI:353/TI 24298 178
+symloc TLC27L2/5_2/TI:353/TI 24476 178
+symloc TLC27L4/101/TI:347/TI 24654 178
+symloc TLC27L4/102/TI:347/TI 24832 178
+symloc TLC27L4/5_1/TI:347/TI 25010 178
+symloc TLC27L4/5_2/TI:347/TI 25188 178
+symloc TLC27L7/101/TI:353/TI 25366 178
+symloc TLC27L7/102/TI:353/TI 25544 178
+symloc TLC27L7/5_1/TI:353/TI 25722 178
+symloc TLC27L7/5_2/TI:353/TI 25900 178
+symloc TLC27L9/101/TI:347/TI 26078 178
+symloc TLC27L9/102/TI:347/TI 26256 178
+symloc TLC27L9/5_1/TI:347/TI 26434 178
+symloc TLC27L9/5_2/TI:347/TI 26612 178
+symloc TLC27M2/101/TI:353/TI 26790 178
+symloc TLC27M2/102/TI:353/TI 26968 178
+symloc TLC27M2/5_1/TI:353/TI 27146 178
+symloc TLC27M2/5_2/TI:353/TI 27324 178
+symloc TLC27M4/101/TI:347/TI 27502 178
+symloc TLC27M4/102/TI:347/TI 27680 178
+symloc TLC27M4/5_1/TI:347/TI 27858 178
+symloc TLC27M4/5_2/TI:347/TI 28036 178
+symloc TLC27M7/101/TI:353/TI 28214 178
+symloc TLC27M7/102/TI:353/TI 28392 178
+symloc TLC27M7/5_1/TI:353/TI 28570 178
+symloc TLC27M7/5_2/TI:353/TI 28748 178
+symloc TLC27M9/101/TI:347/TI 28926 178
+symloc TLC27M9/102/TI:347/TI 29104 178
+symloc TLC27M9/5_1/TI:347/TI 29282 178
+symloc TLC27M9/5_2/TI:347/TI 29460 178
+symloc TLC339/5_1/TI:139/TI 29638 156
+symloc TLC352/5_1/TI:353/TI 29794 156
+symloc TLC354/5_1/TI:139/TI 29950 156
+symloc TLC3702/5_1/TI:353/TI 30106 159
+symloc TLC3704/5_1/TI:139/TI 30265 159
+symloc TLC372/5_1/TI:353/TI 30424 156
+symloc TLC374/5_1/TI:139/TI 30580 156
+symloc TLC393/5_1/TI:353/TI 30736 156
+symloc TLE2021/301/TI:031/TI 30892 165
+symloc TLE2021/302/TI:031/TI 31057 165
+symloc TLE2021/5_1/TI:031/TI 31222 165
+symloc TLE2021/5_2/TI:031/TI 31387 165
+symloc TLE2022/301/TI:353/TI 31552 178
+symloc TLE2022/302/TI:353/TI 31730 178
+symloc TLE2022/5_1/TI:353/TI 31908 178
+symloc TLE2022/5_2/TI:353/TI 32086 178
+symloc TLE2024/301/TI:347/TI 32264 178
+symloc TLE2024/302/TI:347/TI 32442 178
+symloc TLE2024/5_1/TI:347/TI 32620 178
+symloc TLE2024/5_2/TI:347/TI 32798 178
+symloc TLE2027/301/TI:2027/TI 32976 166
+symloc TLE2027/302/TI:2027/TI 33142 166
+symloc TLE2037/301/TI:2027/TI 33308 166
+symloc TLE2037/302/TI:2027/TI 33474 166
+symloc TLE2061/101/TI:031/TI 33640 165
+symloc TLE2061/102/TI:031/TI 33805 165
+symloc TLE2061/301/TI:031/TI 33970 165
+symloc TLE2061/302/TI:031/TI 34135 165
+symloc TLE2061/401/TI:031/TI 34300 165
+symloc TLE2061/402/TI:031/TI 34465 165
+symloc TLE2062/101/TI:353/TI 34630 178
+symloc TLE2062/102/TI:353/TI 34808 178
+symloc TLE2062/301/TI:353/TI 34986 178
+symloc TLE2062/302/TI:353/TI 35164 178
+symloc TLE2062/401/TI:353/TI 35342 178
+symloc TLE2062/402/TI:353/TI 35520 178
+symloc TLE2064/101/TI:347/TI 35698 178
+symloc TLE2064/102/TI:347/TI 35876 178
+symloc TLE2064/301/TI:347/TI 36054 178
+symloc TLE2064/302/TI:347/TI 36232 178
+symloc TLE2064/401/TI:347/TI 36410 165
+symloc TLE2064/402/TI:347/TI 36575 165
+symloc TLE2071/301/TI:031/TI 36740 356
+symloc TLE2071/302/TI:031/TI 37096 255
+symloc TLE2072/301/TI:353/TI 37351 219
+symloc TLE2072/302/TI:353/TI 37570 260
+symloc TLE2074/301/TI:353/TI 37830 260
+symloc TLE2074/302/TI:353/TI 38090 259
+symloc TLE2081/301/TI:031/TI 38349 254
+symloc TLE2081/302/TI:031/TI 38603 254
+symloc TLE2082/101/TI:353/TI 38857 212
+symloc TLE2082/301/TI:353/TI 39069 212
+symloc TLE2082/302/TI:353/TI 39281 259
+symloc TLE2084/301/TI:347/TI 39540 249
+symloc TLE2084/302/TI:347/TI 39789 249
+symloc TLE2141/301/TI:031/TI 40038 165
+symloc TLE2141/302/TI:031/TI 40203 165
+symloc TLE2141/5_1/TI:031/TI 40368 165
+symloc TLE2141/5_2/TI:031/TI 40533 165
+symloc TLE2142/301/TI:353/TI 40698 178
+symloc TLE2142/302/TI:353/TI 40876 178
+symloc TLE2142/5_1/TI:353/TI 41054 178
+symloc TLE2142/5_2/TI:353/TI 41232 178
+symloc TLE2144/301/TI:347/TI 41410 178
+symloc TLE2144/302/TI:347/TI 41588 178
+symloc TLE2144/5_1/TI:347/TI 41766 178
+symloc TLE2144/5_2/TI:347/TI 41944 178
+symloc TLE2161/101/TI:031/TI 42122 165
+symloc TLE2161/102/TI:031/TI 42287 165
+symloc TLE2161/301/TI:031/TI 42452 165
+symloc TLE2161/302/TI:031/TI 42617 165
+symloc TLE2161/401/TI:031/TI 42782 165
+symloc TLE2161/402/TI:031/TI 42947 165
+symloc TLE2227/301/TI:353/TI 43112 178
+symloc TLE2227/302/TI:353/TI 43290 178
+symloc TLE2237/301/TI:353/TI 43468 178
+symloc TLE2237/302/TI:353/TI 43646 178
+symloc TLE2425/5_1/TI 43824 669
+symloc TLE2425/5_2/TI:TLE2425/5_1/TI 44493 181
+symloc TLE2426/5_1/TI 44674 814
+symloc TLE2426/5_2/TI:TLE2426/5_1/TI 45488 190
+symloc TLV2252/3_1/TI:353/TI 45678 265
+symloc TLV2252/3_2/TI:353/TI 45943 265
+symloc TLV2252/5_1/TI:353/TI 46208 265
+symloc TLV2252/5_2/TI:353/TI 46473 265
+symloc TLV2254/3_1/TI:347/TI 46738 264
+symloc TLV2254/3_2/TI:347/TI 47002 264
+symloc TLV2254/5_1/TI:347/TI 47266 264
+symloc TLV2254/5_2/TI:347/TI 47530 264
+symloc TLV2262/3_1/TI:353/TI 47794 190
+symloc TLV2264/3_1/TI:2264/TI 47984 246
+symloc TLV2322I/3_1/TI:353/TI 48230 180
+symloc TLV2322I/5_1/TI:353/TI 48410 180
+symloc TLV2324I/3_1/TI:347/TI 48590 180
+symloc TLV2324I/5_1/TI:347/TI 48770 180
+symloc TLV2332I/3_1/TI:353/TI 48950 183
+symloc TLV2332I/5_1/TI:353/TI 49133 183
+symloc TLV2334I/3_1/TI:347/TI 49316 183
+symloc TLV2334I/5_1/TI:347/TI 49499 183
+symloc TLV2341H/3_1/TI:2341/TI 49682 201
+symloc TLV2341H/5_1/TI:2341/TI 49883 201
+symloc TLV2341L/3_1/TI:2341/TI 50084 201
+symloc TLV2341L/5_1/TI:2341/TI 50285 201
+symloc TLV2341M/3_1/TI:2341/TI 50486 201
+symloc TLV2341M/5_1/TI:2341/TI 50687 201
+symloc TLV2342I/3_1/TI:353/TI 50888 181
+symloc TLV2342I/5_1/TI:353/TI 51069 181
+symloc TLV2344I/3_1/TI:347/TI 51250 181
+symloc TLV2344I/5_1/TI:347/TI 51431 181
+symloc TLV2352I/3_1/TI:353/TI 51612 187
+symloc TLV2352I/5_1/TI:353/TI 51799 187
+symloc TLV2354I/3_1/TI:2354I/TI 51986 288
+symloc TLV2354I/5_1/TI:2354I/TI 52274 288
+symloc 031/TI 52562 1238 b
+symloc 066/TI 53800 1397 b
+symloc 1007/TI 55197 1240 b
+symloc 101/TI 56437 1366 b
+symloc 1011/TI 57803 1390 b
+symloc 1012/TI 59193 1397 b
+symloc 1052/TI 60590 1398 b
+symloc 107/TI 61988 928 b
+symloc 111/TI 62916 1393 b
+symloc 139/TI 64309 923 b
+symloc 2027/TI 65232 1240 b
+symloc 2264/TI 66472 944 b
+symloc 2341/TI 67416 1378 b
+symloc 2354I/TI 68794 914 b
+symloc 251/TI 69708 1397 b
+symloc 308/TI 71105 1213 b
+symloc 318/TI 72318 1398 b
+symloc 347/TI 73716 928 b
+symloc 351/TI 74644 1239 b
+symloc 353/TI 75883 927 b
+symloc 4136/TI 76810 930 b
+symloc 5534/TI 77740 1366 b
+symloc 747/TI 79106 1242 b
+symloc 7652/TI 80348 1398 b
+symloc copyright 81746 575 b
+*symbol LP111/301/TI ako 111/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=LP111/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=LP111/301/TI
+*symbol LP211/301/TI ako 111/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=LP211/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=LP211/301/TI
+*symbol LP239/5_1/TI ako 139/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=LP239/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=LP239/5_1/TI
+*symbol LP2901/5_1/TI ako 139/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=LP2901/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=LP2901/5_1/TI
+*symbol LP311/301/TI ako 111/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=LP311/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=LP311/301/TI
+*symbol LP339/5_1/TI ako 139/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=LP339/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=LP339/5_1/TI
+*symbol TL031/101/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=TL031/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL031/101/TI
+*symbol TL031/301/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TL031/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL031/301/TI
+*symbol TL032/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TL032/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL032/101/TI
+*symbol TL032/301/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TL032/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL032/301/TI
+*symbol TL034/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 58 hcn 100 PART=TL034/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL034/101/TI
+*symbol TL034/301/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 58 hcn 100 PART=TL034/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL034/301/TI
+*symbol TL051/101/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TL051/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL051/101/TI
+*symbol TL051/301/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TL051/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL051/301/TI
+*symbol TL052/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=TL052/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL052/101/TI
+*symbol TL052/301/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TL052/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL052/301/TI
+*symbol TL054/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 76 58 hcn 100 PART=TL054/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL054/101/TI
+*symbol TL054/301/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 76 60 hcn 100 PART=TL054/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL054/301/TI
+*symbol TL061/301/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=TL061/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL061/301/TI
+*symbol TL062/301/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TL062/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL062/301/TI
+*symbol TL064/301/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=TL064/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL064/301/TI
+*symbol TL071/301/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TL071/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL071/301/TI
+*symbol TL072/301/TI ako 353/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=TL072/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL072/301/TI
+*symbol TL074/301/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TL074/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL074/301/TI
+*symbol TL081/301/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 78 60 hcn 100 PART=TL081/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL081/301/TI
+*symbol TL082/301/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TL082/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL082/301/TI
+*symbol TL084/301/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TL084/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TL084/301/TI
+*symbol TLC1078/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC1078/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC1078/101/TI
+*symbol TLC1078/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC1078/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC1078/102/TI
+*symbol TLC1078/5_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC1078/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC1078/5_1/TI
+*symbol TLC1078/5_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC1078/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC1078/5_2/TI
+*symbol TLC1079/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC1079/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC1079/101/TI
+*symbol TLC1079/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC1079/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC1079/102/TI
+*symbol TLC1079/5_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC1079/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC1079/5_1/TI
+*symbol TLC1079/5_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC1079/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC1079/5_2/TI
+*symbol TLC2201/101/TI ako 107/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC2201/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC2201/101/TI
+*symbol TLC2201/102/TI ako 107/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC2201/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC2201/102/TI
+*symbol TLC2201/5_1/TI ako 107/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC2201/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC2201/5_1/TI
+*symbol TLC2201/5_2/TI ako 107/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC2201/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC2201/5_2/TI
+*symbol TLC2252/101/TI ako 353/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 136 56 hrn 100 PART=TLC2252/101/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2252/101/TI
+a 0 s 0 0 0 10 hlb 100 COMPONENT=TLC2252
+*symbol TLC2252/102/TI ako 353/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 136 56 hrn 100 PART=TLC2252/102/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2252/102/TI
+a 0 s 0 0 0 10 hlb 100 COMPONENT=TLC2252
+*symbol TLC2252/5_1/TI ako 353/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 124 48 hrn 100 PART=TLC2252/5_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2252/5_1/TI
+a 0 s 0 0 0 10 hlb 100 COMPONENT=TLC2252
+*symbol TLC2252/5_2/TI ako 353/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 136 56 hrn 100 PART=TLC2252/5_2/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2252/5_2/TI
+a 0 s 0 0 0 10 hlb 100 COMPONENT=TLC2252
+*symbol TLC2254/101/TI ako 347/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 58 hrn 100 PART=TLC2254/101/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2254/101/TI
+a 0 s 0 0 0 10 hlb 100 COMPONENT=TLC2254
+*symbol TLC2254/102/TI ako 347/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 58 hrn 100 PART=TLC2254/102/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2254/102/TI
+a 0 s 0 0 0 10 hlb 100 COMPONENT=TLC2254
+*symbol TLC2254/5_1/TI ako 347/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 58 hrn 100 PART=TLC2254/5_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2254/5_1/TI
+a 0 s 0 0 0 10 hlb 100 COMPONENT=TLC2254
+*symbol TLC2254/5_2/TI ako 347/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 58 hrn 100 PART=TLC2254/5_2/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2254/5_2/TI
+a 0 s 0 0 0 10 hlb 100 COMPONENT=TLC2254
+*symbol TLC2262/101/TI ako 353/TI
+d Rail-to-Rail Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 126 70 hrn 100 PART=TLC2262/101/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2262/101/TI
+*symbol TLC2262/102/TI ako 353/TI
+d Rail-to-Rail Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 128 56 hrn 100 PART=TLC2262/102/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2262/102/TI
+a 0 sp 0 0 0 10 hln 100 COMPONENT=TLC2262
+*symbol TLC2262/5_1/TI ako 353/TI
+d Rail-to-Rail Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 124 70 hrn 100 PART=TLC2262/5_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2262/5_1/TI
+*symbol TLC2262/5_2/TI ako 353/TI
+d Rail-to-Rail Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 126 58 hrn 100 PART=TLC2262/5_2/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLC2262/5_2/TI
+a 0 sp 0 0 0 10 hln 100 COMPONENT=TLC2262
+*symbol TLC2264/101/TI ako 2264/TI
+d Rail-to-Rail Quad Operational Amplifiers
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2264/101/TI
+a 0 sp 11 0 126 56 hrn 100 PART=TLC2264/101/TI
+a 0 s 0 0 0 10 hrn 100 COMPONENT=TLC2264
+*symbol TLC2264/102/TI ako 2264/TI
+d Rail-to-Rail Quad Operational Amplifiers
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2264/102/TI
+a 0 sp 11 0 126 56 hrn 100 PART=TLC2264/102/TI
+a 0 s 0 0 0 10 hrn 100 COMPONENT=TLC2264
+*symbol TLC2264/5_1/TI ako 2264/TI
+d Rail-to-Rail Quad Operational Amplifiers
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2264/5_1/TI
+a 0 sp 11 0 124 56 hrn 100 PART=TLC2264/5_1/TI
+a 0 s 0 0 0 10 hrn 100 COMPONENT=TLC2264
+*symbol TLC2264/5_2/TI ako 2264/TI
+d Rail-to-Rail Quad Operational Amplifiers
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2264/5_2/TI
+a 0 sp 11 0 124 56 hrn 100 PART=TLC2264/5_2/TI
+a 0 s 0 0 0 10 hrn 100 COMPONENT=TLC2264
+*symbol TLC2272/101/TI ako 353/TI
+d Rail-to-rail Op Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 -44 68 hln 100 PART=TLC2272/101/TI
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2272/101/TI
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+*symbol TLC2272/102/TI ako 353/TI
+d Rail-to-rail Op Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 -44 68 hln 100 PART=TLC2272/102/TI
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2272/102/TI
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+*symbol TLC2272/5_1/TI ako 353/TI
+d Rail-to-rail Op Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 -44 68 hln 100 PART=TLC2272/5_1/TI
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2272/5_1/TI
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+*symbol TLC2272/5_2/TI ako 353/TI
+d Rail-to-rail Op Amp
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 -44 68 hln 100 PART=TLC2272/5_2/TI
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2272/5_2/TI
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+*symbol TLC2274/101/TI ako 2264/TI
+d Rail-to-Rail Quad Operational Amplifiers
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2274/101/TI
+a 0 sp 11 0 122 56 hrn 100 PART=TLC2274/101/TI
+a 0 s 0 0 0 10 hrn 100 COMPONENT=TLC2274
+*symbol TLC2274/102/TI ako 2264/TI
+d Rail-to-Rail Quad Operational Amplifiers
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2274/102/TI
+a 0 sp 11 0 126 58 hrn 100 PART=TLC2274/102/TI
+a 0 s 0 0 0 10 hrn 100 COMPONENT=TLC2274
+*symbol TLC2274/5_1/TI ako 2264/TI
+d Rail-to-Rail Quad Operational Amplifiers
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2274/5_1/TI
+a 0 sp 11 0 128 56 hrn 100 PART=TLC2274/5_1/TI
+a 0 s 0 0 0 10 hrn 100 COMPONENT=TLC2274
+*symbol TLC2274/5_2/TI ako 2264/TI
+d Rail-to-Rail Quad Operational Amplifiers
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLC2274/5_2/TI
+a 0 sp 11 0 122 58 hrn 100 PART=TLC2274/5_2/TI
+a 0 s 0 0 0 10 hrn 100 COMPONENT=TLC2274
+*symbol TLC251H/1_1/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC251H/1_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC251H/1_1/TI
+*symbol TLC251H/1_2/TI ako 251/TI
+d pamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC251H/1_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC251H/1_2/TI
+*symbol TLC251H/101/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC251H/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC251H/101/TI
+*symbol TLC251H/102/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC251H/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC251H/102/TI
+*symbol TLC251L/1_1/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC251L/1_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC251L/1_1/TI
+*symbol TLC251L/1_2/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC251L/1_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC251L/1_2/TI
+*symbol TLC251L/101/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC251L/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC251L/101/TI
+*symbol TLC251L/102/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC251L/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC251L/102/TI
+*symbol TLC251M/101/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 90 60 hcn 100 PART=TLC251M/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC251M/101/TI
+*symbol TLC251M/102/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC251M/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC251M/102/TI
+*symbol TLC252C/1_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC252C/1_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC252C/1_1/TI
+*symbol TLC252C/1_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC252C/1_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC252C/1_2/TI
+*symbol TLC252C/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC252C/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC252C/101/TI
+*symbol TLC252C/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC252C/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC252C/102/TI
+*symbol TLC254C/1_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC254C/1_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC254C/1_1/TI
+*symbol TLC254C/1_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC254C/1_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC254C/1_2/TI
+*symbol TLC254C/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC254C/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC254C/101/TI
+*symbol TLC254C/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC254C/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC254C/102/TI
+*symbol TLC25L2C/1_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 90 60 hcn 100 PART=TLC25L2C/1_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25L2C/1_1/TI
+*symbol TLC25L2C/1_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC25L2C/1_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25L2C/1_2/TI
+*symbol TLC25L2C/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC25L2C/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25L2C/101/TI
+*symbol TLC25L2C/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC25L2C/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25L2C/102/TI
+*symbol TLC25L4C/1_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC25L4C/1_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25L4C/1_1/TI
+*symbol TLC25L4C/1_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC25L4C/1_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25L4C/1_2/TI
+*symbol TLC25L4C/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC25L4C/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25L4C/101/TI
+*symbol TLC25L4C/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC25L4C/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25L4C/102/TI
+*symbol TLC25M2C/1_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC25M2C/1_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25M2C/1_1/TI
+*symbol TLC25M2C/1_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC25M2C/1_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25M2C/1_2/TI
+*symbol TLC25M2C/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 94 60 hcn 100 PART=TLC25M2C/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25M2C/101/TI
+*symbol TLC25M2C/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 90 60 hcn 100 PART=TLC25M2C/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25M2C/102/TI
+*symbol TLC25M4C/1_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC25M4C/1_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25M4C/1_1/TI
+*symbol TLC25M4C/1_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC25M4C/1_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25M4C/1_2/TI
+*symbol TLC25M4C/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC25M4C/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25M4C/101/TI
+*symbol TLC25M4C/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC25M4C/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC25M4C/102/TI
+*symbol TLC2652/101/TI ako 1052/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC2652/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC2652/101/TI
+*symbol TLC2652/102/TI ako 1052/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC2652/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC2652/102/TI
+*symbol TLC2654/101/TI ako 1052/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC2654/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC2654/101/TI
+*symbol TLC2654/102/TI ako 1052/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC2654/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC2654/102/TI
+*symbol TLC271H/101/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC271H/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271H/101/TI
+*symbol TLC271H/102/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC271H/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271H/102/TI
+*symbol TLC271H/5_1/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC271H/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271H/5_1/TI
+*symbol TLC271H/5_2/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC271H/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271H/5_2/TI
+*symbol TLC271L/101/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC271L/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271L/101/TI
+*symbol TLC271L/102/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC271L/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271L/102/TI
+*symbol TLC271L/5_1/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC271L/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271L/5_1/TI
+*symbol TLC271L/5_2/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC271L/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271L/5_2/TI
+*symbol TLC271M/101/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC271M/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271M/101/TI
+*symbol TLC271M/102/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC271M/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271M/102/TI
+*symbol TLC271M/5_1/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 90 60 hcn 100 PART=TLC271M/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271M/5_1/TI
+*symbol TLC271M/5_2/TI ako 251/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC271M/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC271M/5_2/TI
+*symbol TLC272/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC272/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC272/101/TI
+*symbol TLC272/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC272/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC272/102/TI
+*symbol TLC272/5_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC272/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC272/5_1/TI
+*symbol TLC272/5_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC272/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC272/5_2/TI
+*symbol TLC274/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TLC274/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC274/101/TI
+*symbol TLC274/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TLC274/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC274/102/TI
+*symbol TLC274/5_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TLC274/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC274/5_1/TI
+*symbol TLC274/5_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 50 60 hln 100 PART=TLC274/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC274/5_2/TI
+*symbol TLC277/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC277/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC277/101/TI
+*symbol TLC277/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC277/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC277/102/TI
+*symbol TLC277/5_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC277/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC277/5_1/TI
+*symbol TLC277/5_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TLC277/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC277/5_2/TI
+*symbol TLC279/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 58 hcn 100 PART=TLC279/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC279/101/TI
+*symbol TLC279/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TLC279/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC279/102/TI
+*symbol TLC279/5_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC279/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC279/5_1/TI
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 s 0 0 0 0 hln 100 TEMPLATE=x^@refdes %+ %- %V+ %V- %OUT @MODEL
+*symbol TLC279/5_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 80 58 hcn 100 PART=TLC279/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC279/5_2/TI
+*symbol TLC27L2/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27L2/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L2/101/TI
+*symbol TLC27L2/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27L2/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L2/102/TI
+*symbol TLC27L2/5_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC27L2/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L2/5_1/TI
+*symbol TLC27L2/5_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27L2/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L2/5_2/TI
+*symbol TLC27L4/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC27L4/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L4/101/TI
+*symbol TLC27L4/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC27L4/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L4/102/TI
+*symbol TLC27L4/5_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC27L4/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L4/5_1/TI
+*symbol TLC27L4/5_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC27L4/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L4/5_2/TI
+*symbol TLC27L7/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC27L7/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L7/101/TI
+*symbol TLC27L7/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC27L7/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L7/102/TI
+*symbol TLC27L7/5_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27L7/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L7/5_1/TI
+*symbol TLC27L7/5_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27L7/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L7/5_2/TI
+*symbol TLC27L9/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC27L9/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L9/101/TI
+*symbol TLC27L9/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27L9/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L9/102/TI
+*symbol TLC27L9/5_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC27L9/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L9/5_1/TI
+*symbol TLC27L9/5_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC27L9/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27L9/5_2/TI
+*symbol TLC27M2/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 90 60 hcn 100 PART=TLC27M2/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M2/101/TI
+*symbol TLC27M2/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27M2/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M2/102/TI
+*symbol TLC27M2/5_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC27M2/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M2/5_1/TI
+*symbol TLC27M2/5_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27M2/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M2/5_2/TI
+*symbol TLC27M4/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC27M4/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M4/101/TI
+*symbol TLC27M4/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC27M4/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M4/102/TI
+*symbol TLC27M4/5_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27M4/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M4/5_1/TI
+*symbol TLC27M4/5_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC27M4/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M4/5_2/TI
+*symbol TLC27M7/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC27M7/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M7/101/TI
+*symbol TLC27M7/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27M7/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M7/102/TI
+*symbol TLC27M7/5_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC27M7/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M7/5_1/TI
+*symbol TLC27M7/5_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27M7/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M7/5_2/TI
+*symbol TLC27M9/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27M9/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M9/101/TI
+*symbol TLC27M9/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC27M9/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M9/102/TI
+*symbol TLC27M9/5_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC27M9/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M9/5_1/TI
+*symbol TLC27M9/5_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC27M9/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC27M9/5_2/TI
+*symbol TLC339/5_1/TI ako 139/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC339/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC339/5_1/TI
+*symbol TLC352/5_1/TI ako 353/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC352/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC352/5_1/TI
+*symbol TLC354/5_1/TI ako 139/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLC354/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC354/5_1/TI
+*symbol TLC3702/5_1/TI ako 353/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLC3702/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC3702/5_1/TI
+*symbol TLC3704/5_1/TI ako 139/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC3704/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC3704/5_1/TI
+*symbol TLC372/5_1/TI ako 353/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLC372/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC372/5_1/TI
+*symbol TLC374/5_1/TI ako 139/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLC374/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC374/5_1/TI
+*symbol TLC393/5_1/TI ako 353/TI
+d Comparator
+@type p
+@attributes
+a 0 sp 11 0 80 60 hcn 100 PART=TLC393/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLC393/5_1/TI
+*symbol TLE2021/301/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2021/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2021/301/TI
+*symbol TLE2021/302/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2021/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2021/302/TI
+*symbol TLE2021/5_1/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2021/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2021/5_1/TI
+*symbol TLE2021/5_2/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2021/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2021/5_2/TI
+*symbol TLE2022/301/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 90 60 hcn 100 PART=TLE2022/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2022/301/TI
+*symbol TLE2022/302/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2022/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2022/302/TI
+*symbol TLE2022/5_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2022/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2022/5_1/TI
+*symbol TLE2022/5_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLE2022/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2022/5_2/TI
+*symbol TLE2024/301/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2024/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2024/301/TI
+*symbol TLE2024/302/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLE2024/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2024/302/TI
+*symbol TLE2024/5_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLE2024/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2024/5_1/TI
+*symbol TLE2024/5_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLE2024/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2024/5_2/TI
+*symbol TLE2027/301/TI ako 2027/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2027/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2027/301/TI
+*symbol TLE2027/302/TI ako 2027/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLE2027/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2027/302/TI
+*symbol TLE2037/301/TI ako 2027/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2037/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2037/301/TI
+*symbol TLE2037/302/TI ako 2027/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2037/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2037/302/TI
+*symbol TLE2061/101/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2061/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2061/101/TI
+*symbol TLE2061/102/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2061/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2061/102/TI
+*symbol TLE2061/301/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2061/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2061/301/TI
+*symbol TLE2061/302/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2061/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2061/302/TI
+*symbol TLE2061/401/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2061/401/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2061/401/TI
+*symbol TLE2061/402/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2061/402/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2061/402/TI
+*symbol TLE2062/101/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2062/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2062/101/TI
+*symbol TLE2062/102/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLE2062/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2062/102/TI
+*symbol TLE2062/301/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2062/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2062/301/TI
+*symbol TLE2062/302/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2062/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2062/302/TI
+*symbol TLE2062/401/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2062/401/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2062/401/TI
+*symbol TLE2062/402/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 90 60 hcn 100 PART=TLE2062/402/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2062/402/TI
+*symbol TLE2064/101/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2064/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2064/101/TI
+*symbol TLE2064/102/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2064/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2064/102/TI
+*symbol TLE2064/301/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2064/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2064/301/TI
+*symbol TLE2064/302/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2064/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2064/302/TI
+*symbol TLE2064/401/TI ako 347/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2064/401/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2064/401/TI
+*symbol TLE2064/402/TI ako 347/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2064/402/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2064/402/TI
+*symbol TLE2071/301/TI ako 031/TI
+d Excalibur Low-Noise High-Speed JFET-Input Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 130 60 hrn 100 PART=TLE2071/301/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2071/301/TI
+a 0 s 0 0 0 10 hln 100 COMPONENT=TLE2071
+a 0 sp 0 0 0 10 hlb 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 s 9 0 0 20 hlb 100 REFDES=U?
+*symbol TLE2071/302/TI ako 031/TI
+d Excalibur Low-Noise High-Speed JFET-Input Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 130 62 hrn 100 PART=TLE2071/302/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2071/302/TI
+a 0 sp 0 0 0 10 hln 100 COMPONENT=TLE2071
+*symbol TLE2072/301/TI ako 353/TI
+d Excalibur Low-Noise High-Speed JFET-input Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 130 70 hrn 100 PART=TLE2072/301/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2072/301/TI
+*symbol TLE2072/302/TI ako 353/TI
+d Excalibur Low-Noise High-Speed JFET-Input Dual Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 130 56 hrn 100 PART=TLE2072/302/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2072/302/TI
+a 0 sp 0 0 0 10 hln 100 COMPONENT=TLE2072
+*symbol TLE2074/301/TI ako 353/TI
+d Excalibur Low-Noise High-Speed JFET-Input Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 58 hrn 100 PART=TLE2074/301/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2074/301/TI
+a 0 sp 0 0 0 10 hln 100 COMPONENT=TLE2074
+*symbol TLE2074/302/TI ako 353/TI
+d Excalibur Low-Noise High-Speed JFET-Input Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 56 hrn 100 PART=TLE2074/302/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2074/302/TI
+a 0 s 0 0 0 10 hln 100 COMPONENT=TLE2074
+*symbol TLE2081/301/TI ako 031/TI
+d Excalibur Low-Noise High-Speed JFET-Input Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 130 62 hrn 100 PART=TLE2081/301/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2081/301/TI
+a 0 s 0 0 0 10 hln 100 COMPONENT=TLE2081
+*symbol TLE2081/302/TI ako 031/TI
+d Excalibur Low-Noise High-Speed JFET-Input Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 132 62 hrn 100 PART=TLE2081/302/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2081/302/TI
+a 0 s 0 0 0 10 hln 100 COMPONENT=TLE2081
+*symbol TLE2082/101/TI ako 353/TI
+d High Speed Jfet Op Amp
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2082/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2082/101/TI
+a 0 s 0 0 0 10 hlb 100 COMPONENT=TLE2082
+*symbol TLE2082/301/TI ako 353/TI
+d High Speed Jfet Op Amp
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2082/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2082/301/TI
+a 0 s 0 0 0 10 hlb 100 COMPONENT=TLE2082
+*symbol TLE2082/302/TI ako 353/TI
+d Excalibur Low-Noise High-Speed JFET-Input Dual Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 126 56 hrn 100 PART=TLE2082/302/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2082/302/TI
+a 0 s 0 0 0 10 hln 100 COMPONENT=TLE2082
+*symbol TLE2084/301/TI ako 347/TI
+d Excalibur High-Speed JFET-Input Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 58 hrn 100 PART=TLE2084/301/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2084/301/TI
+a 0 s 0 0 0 10 hln 100 COMPONENT=TLE2084
+*symbol TLE2084/302/TI ako 347/TI
+d Excalibur High-Speed JFET-Input Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 130 56 hrn 100 PART=TLE2084/302/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLE2084/302/TI
+a 0 s 0 0 0 10 hln 100 COMPONENT=TLE2084
+*symbol TLE2141/301/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2141/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2141/301/TI
+*symbol TLE2141/302/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 82 60 hcn 100 PART=TLE2141/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2141/302/TI
+*symbol TLE2141/5_1/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2141/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2141/5_1/TI
+*symbol TLE2141/5_2/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2141/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2141/5_2/TI
+*symbol TLE2142/301/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2142/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2142/301/TI
+*symbol TLE2142/302/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2142/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2142/302/TI
+*symbol TLE2142/5_1/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2142/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2142/5_1/TI
+*symbol TLE2142/5_2/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 90 60 hcn 100 PART=TLE2142/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2142/5_2/TI
+*symbol TLE2144/301/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2144/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2144/301/TI
+*symbol TLE2144/302/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2144/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2144/302/TI
+*symbol TLE2144/5_1/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2144/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2144/5_1/TI
+*symbol TLE2144/5_2/TI ako 347/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2144/5_2/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2144/5_2/TI
+*symbol TLE2161/101/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2161/101/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2161/101/TI
+*symbol TLE2161/102/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2161/102/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2161/102/TI
+*symbol TLE2161/301/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2161/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2161/301/TI
+*symbol TLE2161/302/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2161/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2161/302/TI
+*symbol TLE2161/401/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLE2161/401/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2161/401/TI
+*symbol TLE2161/402/TI ako 031/TI
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 88 60 hcn 100 PART=TLE2161/402/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2161/402/TI
+*symbol TLE2227/301/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2227/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2227/301/TI
+*symbol TLE2227/302/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2227/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2227/302/TI
+*symbol TLE2237/301/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2237/301/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2237/301/TI
+*symbol TLE2237/302/TI ako 353/TI
+d 5-connection opamp subcircuit
+@type p
+@attributes
+a 0 sp 11 0 86 60 hcn 100 PART=TLE2237/302/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLE2237/302/TI
+*symbol TLE2425/5_1/TI
+d Precision Virtual Ground
+@type p
+@attributes
+a 1 s 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %IN %COMMON %OUT @MODEL
+a 0 sp 11 0 46 52 hlb 100 PART=TLE2425/5_1/TI
+a 0 sp 0 0 46 52 hlb 100 MODEL=TLE2425/5_1/TI
+@pins
+p 2 13 12 hln 100 IN n 0 10 h
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 16 28 hln 100 COMMON n 40 40 v
+a 0 u 1 0 35 42 hcn 100 pin=2
+a 0 u 0 0 40 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 100 OUT n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 10 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 40 0 10 10
+r 0 10 0 70 30
+*symbol TLE2425/5_2/TI ako TLE2425/5_1/TI
+d Precision Virtual Ground
+@type p
+@attributes
+a 0 sp 11 0 46 52 hlb 100 PART=TLE2425/5_2/TI
+a 0 sp 0 0 46 52 hlb 100 MODEL=TLE2425/5_2/TI
+*symbol TLE2426/5_1/TI
+d Precision Virtual Ground w/Filter
+@type p
+@attributes
+a 1 s 9 0 0 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %FILTER %IN %COMMON %OUT @MODEL
+a 0 sp 11 0 58 74 hlb 100 PART=TLE2426/5_1/TI
+a 0 sp 0 0 58 74 hlb 100 MODEL=TLE2426/5_1/TI
+@pins
+p 2 13 32 hln 100 IN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=3
+a 0 u 0 0 0 30 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 28 46 hln 100 COMMON n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=2
+a 0 u 0 0 48 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 87 32 hrn 100 OUT n 100 30 u
+a 0 u 1 0 95 28 hln 100 pin=1
+a 0 u 0 0 102 30 hln 100 ERC=o
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 34 20 hln 100 FILTER n 50 0 d
+a 0 u 1 0 55 3 hcn 100 pin=8
+a 0 u 0 0 50 0 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 100 60 0 30 10
+r 0 10 10 90 50
+*symbol TLE2426/5_2/TI ako TLE2426/5_1/TI
+d Precision Virtual Ground w/Filter
+@type p
+@attributes
+a 0 sp 11 0 58 74 hlb 100 PART=TLE2426/5_2/TI
+a 0 sp 0 0 58 74 hlb 100 MODEL=TLE2426/5_2/TI
+*symbol TLV2252/3_1/TI ako 353/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 136 56 hrn 100 PART=TLV2252/3_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2252/3_1/TI
+a 0 s 0 0 50 60 hln 100 COMPONENT=TLV2252
+*symbol TLV2252/3_2/TI ako 353/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 136 56 hrn 100 PART=TLV2252/3_2/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2252/3_2/TI
+a 0 s 0 0 50 60 hln 100 COMPONENT=TLV2252
+*symbol TLV2252/5_1/TI ako 353/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 136 56 hrn 100 PART=TLV2252/5_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2252/5_1/TI
+a 0 s 0 0 50 60 hln 100 COMPONENT=TLV2252
+*symbol TLV2252/5_2/TI ako 353/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 136 56 hrn 100 PART=TLV2252/5_2/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2252/5_2/TI
+a 0 s 0 0 50 60 hln 100 COMPONENT=TLV2252
+*symbol TLV2254/3_1/TI ako 347/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 58 hrn 100 PART=TLV2254/3_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2254/3_1/TI
+a 0 s 0 0 50 60 hln 100 COMPONENT=TLV2254
+*symbol TLV2254/3_2/TI ako 347/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 58 hrn 100 PART=TLV2254/3_2/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2254/3_2/TI
+a 0 s 0 0 50 60 hln 100 COMPONENT=TLV2254
+*symbol TLV2254/5_1/TI ako 347/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 58 hrn 100 PART=TLV2254/5_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2254/5_1/TI
+a 0 s 0 0 50 60 hln 100 COMPONENT=TLV2254
+*symbol TLV2254/5_2/TI ako 347/TI
+d Advanced LinCMOS Rail-to-Rail Very Low Power, Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 11 0 128 58 hrn 100 PART=TLV2254/5_2/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2254/5_2/TI
+a 0 s 0 0 50 60 hln 100 COMPONENT=TLV2254
+*symbol TLV2262/3_1/TI ako 353/TI
+d Rail-to-Rail Dual Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 128 70 hrn 100 PART=TLV2262/3_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2262/3_1/TI
+*symbol TLV2264/3_1/TI ako 2264/TI
+d Advanced LinCMOS Rail-to-Rail Quad Operational Amplifier
+@type p
+@attributes
+a 0 sp 0 0 0 0 hln 100 MODEL=TLV2264/3_1/TI
+a 0 sp 11 0 128 56 hrn 100 PART=TLV2264/3_1/TI
+a 0 s 0 0 0 10 hrn 100 COMPONENT=TLV2264
+*symbol TLV2322I/3_1/TI ako 353/TI
+d Low Power Low Voltage Op Amp
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLV2322I/3_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2322I/3_1/TI
+*symbol TLV2322I/5_1/TI ako 353/TI
+d Low Power Low Voltage Op Amp
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLV2322I/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2322I/5_1/TI
+*symbol TLV2324I/3_1/TI ako 347/TI
+d Low Voltage Low Power Op Amp
+@type p
+@attributes
+a 0 sp 11 0 82 58 hcn 100 PART=TLV2324I/3_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2324I/3_1/TI
+*symbol TLV2324I/5_1/TI ako 347/TI
+d Low Voltage Low Power Op Amp
+@type p
+@attributes
+a 0 sp 11 0 78 58 hcn 100 PART=TLV2324I/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2324I/5_1/TI
+*symbol TLV2332I/3_1/TI ako 353/TI
+d Medium Power Low Voltage Op Amp
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLV2332I/3_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2332I/3_1/TI
+*symbol TLV2332I/5_1/TI ako 353/TI
+d Medium Power Low Voltage Op Amp
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLV2332I/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2332I/5_1/TI
+*symbol TLV2334I/3_1/TI ako 347/TI
+d Low Voltage Medium Power Op Amp
+@type p
+@attributes
+a 0 sp 11 0 82 58 hcn 100 PART=TLV2334I/3_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2334I/3_1/TI
+*symbol TLV2334I/5_1/TI ako 347/TI
+d Low Voltage Medium Power Op Amp
+@type p
+@attributes
+a 0 sp 11 0 84 58 hcn 100 PART=TLV2334I/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2334I/5_1/TI
+*symbol TLV2341H/3_1/TI ako 2341/TI
+d Programmable Low-Voltage Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 140 70 hrn 100 PART=TLV2341H/3_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2341H/3_1/TI
+*symbol TLV2341H/5_1/TI ako 2341/TI
+d Programmable Low-Voltage Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 140 70 hrn 100 PART=TLV2341H/5_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2341H/5_1/TI
+*symbol TLV2341L/3_1/TI ako 2341/TI
+d Programmable Low-Voltage Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 140 70 hrn 100 PART=TLV2341L/3_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2341L/3_1/TI
+*symbol TLV2341L/5_1/TI ako 2341/TI
+d Programmable Low-Voltage Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 140 72 hrn 100 PART=TLV2341L/5_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2341L/5_1/TI
+*symbol TLV2341M/3_1/TI ako 2341/TI
+d Programmable Low-Voltage Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 142 72 hrn 100 PART=TLV2341M/3_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2341M/3_1/TI
+*symbol TLV2341M/5_1/TI ako 2341/TI
+d Programmable Low-Voltage Operational Amplifiers
+@type p
+@attributes
+a 0 sp 11 0 144 70 hrn 100 PART=TLV2341M/5_1/TI
+a 0 sp 0 0 50 60 hln 100 MODEL=TLV2341M/5_1/TI
+*symbol TLV2342I/3_1/TI ako 353/TI
+d High Speed Low Voltage Op Amp
+@type p
+@attributes
+a 0 sp 11 0 84 60 hcn 100 PART=TLV2342I/3_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2342I/3_1/TI
+*symbol TLV2342I/5_1/TI ako 353/TI
+d High Speed Low Voltage Op Amp
+@type p
+@attributes
+a 0 sp 11 0 84 58 hcn 100 PART=TLV2342I/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2342I/5_1/TI
+*symbol TLV2344I/3_1/TI ako 347/TI
+d Low Voltage High Speed Op Amp
+@type p
+@attributes
+a 0 sp 11 0 82 58 hcn 100 PART=TLV2344I/3_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2344I/3_1/TI
+*symbol TLV2344I/5_1/TI ako 347/TI
+d Low Voltage High Speed Op Amp
+@type p
+@attributes
+a 0 sp 11 0 82 58 hcn 100 PART=TLV2344I/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2344I/5_1/TI
+*symbol TLV2352I/3_1/TI ako 353/TI
+d Low Voltage Differential Comparator
+@type p
+@attributes
+a 0 sp 11 0 84 58 hcn 100 PART=TLV2352I/3_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2352I/3_1/TI
+*symbol TLV2352I/5_1/TI ako 353/TI
+d Low Voltage Differential Comparator
+@type p
+@attributes
+a 0 sp 11 0 84 58 hcn 100 PART=TLV2352I/5_1/TI
+a 0 sp 0 0 50 60 hcn 100 MODEL=TLV2352I/5_1/TI
+*symbol TLV2354I/3_1/TI ako 2354I/TI
+d Low Voltage Differential Comparator
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 58 hln 100 PART=TLV2354I/3_1/TI
+a 0 sp 0 0 0 0 hln 100 MODEL=TLV2354I/3_1/TI
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+*symbol TLV2354I/5_1/TI ako 2354I/TI
+d Low Voltage Differential Comparator
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 58 hln 100 PART=TLV2354I/5_1/TI
+a 0 sp 0 0 0 0 hln 100 MODEL=TLV2354I/5_1/TI
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+*symbol 031/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 25 hrn 50 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 38 hrn 50 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 80 52 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 066/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 50 PCNT n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 42 hrn 50 N2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=5
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 52 hrn 50 N1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+56 37
+;
+*symbol 1007/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 50 T1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 52 hrn 50 T2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 80 52 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 101/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 16 -2 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %C %N1 @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 42 hrn 100 C n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=i
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 40 38 hln 100 N1 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=1
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 50 N2 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 82 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+*symbol 1011/TI b
+d Comparator
+@type p
+@attributes
+a 0 sp 9 0 16 -2 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %G @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 52 hrn 100 G n 80 50 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 50 B/S n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=6
+a 0 u 0 0 80 8 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 42 hrn 50 B n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=5
+a 0 u 0 0 80 34 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+56 37
+;
+*symbol 1012/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 50 OVC n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 42 hrn 50 T2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 52 hrn 50 T1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+56 37
+;
+*symbol 1052/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 53 25 hrn 50 CLMP n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 58 35 hrn 50 CB n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 38 hrn 50 CA n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+56 37
+;
+*symbol 107/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 111/TI b
+d Comparator
+@type p
+@attributes
+a 0 sp 9 0 16 -2 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %COUT %EO @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 COUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 39 hrn 100 EO n 80 50 u
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 36 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 25 hrn 50 B/S n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=6
+a 0 u 0 0 80 8 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 57 35 hrn 50 B n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=5
+a 0 u 0 0 80 34 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+56 37
+;
+*symbol 139/TI b
+d Comparator
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=5
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=12
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2027/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 52 25 hrn 50 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 52 38 hrn 50 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 80 52 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 2264/TI b
+d
+@type p
+@attributes
+a 0 s 9 0 14 -4 hln 100 REFDES=U?
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 s 0 0 0 10 hrn 100 COMPONENT=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 2341/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 76 74 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 54 26 hrn 50 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 54 37 hrn 50 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 80 52 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 42 40 hln 50 BS n 50 60 v
+a 0 u 1 0 45 62 hcn 100 pin=8
+a 0 u 0 0 46 64 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 50 50
+46 42
+;
+*symbol 2354I/TI b
+d
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=12
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 251/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 53 26 hrn 50 BIAS n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 58 35 hrn 50 N2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=5
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 51 38 hrn 50 N1 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+56 37
+;
+*symbol 308/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 16 -2 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %C2 %C1 @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 42 hrn 100 C2 n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=i
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 38 40 hln 100 C1 n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=1
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 46 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+*symbol 318/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 50 B/C3 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 42 hrn 50 C2 n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 52 hrn 50 B/C n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+56 37
+;
+*symbol 347/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 351/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 50 B1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=1
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 52 hrn 50 B2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=5
+a 0 u 0 0 80 52 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 353/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 s 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 45 3 hcn 100 pin=8
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=p
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 4136/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=11
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+*symbol 5534/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 16 -2 hcn 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT %B %C @MODEL
+a 0 sp 11 0 50 60 hcn 100 PART=
+a 0 sp 0 0 50 60 hcn 100 MODEL=
+@pins
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 42 hrn 100 B n 80 40 u
+a 0 u 0 0 0 -8 hln 100 ERC=i
+a 0 u 1 0 75 38 hln 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 46 38 hln 100 C n 60 60 v
+a 0 u 1 0 55 62 hcn 100 pin=5
+a 0 u 0 0 60 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 37 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 50 C/B n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=8
+a 0 u 0 0 82 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 60 50
+50 40
+;
+v 0 60 35
+70 40
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+*symbol 747/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hrn 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=13
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=12
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 50 N1 n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=14
+a 0 u 0 0 80 12 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 52 hrn 50 N2 n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=8
+a 0 u 0 0 80 52 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+*symbol 7652/TI b
+d Opamp subcircuit
+@type p
+@attributes
+a 0 sp 9 0 10 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %+ %- %V+ %V- %OUT @MODEL
+a 0 sp 11 0 50 60 hln 100 PART=
+a 0 sp 0 0 50 60 hln 100 MODEL=
+@pins
+p 2 13 12 hln 100 + n 0 10 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 8 hrn 100 pin=3
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 13 52 hln 100 - n 0 50 h
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 5 48 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 22 hcn 100 V+ n 40 0 d
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 45 3 hcn 100 pin=7
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 35 44 hcn 100 V- n 40 60 v
+a 0 u 0 0 0 0 hln 100 ERC=i
+a 0 u 1 0 35 62 hcn 100 pin=4
+a 0 u 0 0 0 0 hln 100 float=e
+p 0 67 32 hrn 100 OUT n 80 30 u
+a 0 u 0 0 0 0 hln 100 ERC=o
+a 0 u 1 0 75 28 hln 100 pin=6
+a 0 u 0 0 0 0 hln 100 float=e
+p 2 67 12 hrn 50 CRET n 80 10 u
+a 0 u 1 0 75 8 hln 100 pin=5
+a 0 u 0 0 80 10 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 42 hrn 50 CB n 80 40 u
+a 0 u 1 0 75 38 hln 100 pin=8
+a 0 u 0 0 80 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 52 hrn 50 CA n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=1
+a 0 u 0 0 80 50 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 60 0 10 10
+v 0 10 0
+10 60
+;
+v 0 10 60
+70 30
+;
+v 0 70 30
+10 0
+;
+v 0 40 10
+40 15
+;
+v 0 40 50
+40 45
+;
+v 0 70 10
+60 10
+;
+v 0 60 10
+50 20
+;
+v 0 70 50
+60 50
+;
+v 0 60 50
+50 40
+;
+v 0 70 40
+60 40
+;
+v 0 60 40
+56 37
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1996, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

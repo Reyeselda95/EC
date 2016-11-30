@@ -1,0 +1,970 @@
+*version 7.2 161954027
+@index
+symloc 357C-03 0 1782 4 THRU
+symloc D-67 1782 4027 2 THRU
+symloc DO-1 5809 2423 2 THRU
+symloc DO-13 8232 1631 2 THRU
+symloc DO-203AA 9863 971 2 THRU
+symloc DO-203AB 10834 932 2 THRU
+symloc DO-204AA 11766 1172 2 THRU
+symloc DO-204AH 12938 1172 2 THRU
+symloc DO-204AK 14110 1190 2 THRU
+symloc DO-204AL 15300 1172 2 THRU
+symloc DO-204AM 16472 1172 2 THRU
+symloc do-204ap 17644 2249 2 THRU
+symloc DO-204AR 19893 1172 2 THRU
+symloc DO-208AA 21065 858 2 THRU
+symloc DO-21 21923 530 1 THRU
+symloc DO-213AB 22453 983 2 SMT
+symloc DO-27 23436 1238 2 THRU
+symloc DO-34 24674 1218 2 THRU
+symloc do-35 25892 1281 2 THRU
+symloc DO-4 27173 928 2 THRU
+symloc DO-41 28101 1125 2 THRU
+symloc DO-7 29226 1128 2 THRU
+symloc G36201 30354 1452 2 SMT
+symloc ISOTOP 31806 1485 4 SMT
+symloc M6001 33291 1270 2 THRU
+symloc P19304 34561 547 2 THRU
+symloc P19404 35108 1175 2 THRU
+symloc P26702 36283 1170 2 THRU
+symloc PACKAGE_A 37453 1173 2 THRU
+symloc DO-204AG 38626 1150 2 THRU
+*footprint 357C-03 4 thru
+@refdes 4
+display  [SilkTop] SilkTop 1.575 0.595 4 0 0.0625 0.005 0 0 0
+@comptype 7
+display  [AssyDrwTop] AssemblyTop 1.575 0.445 4 0 0.0625 0.005 0 0 0
+@graphics
+hole [Top] [Bottom] 1.575 0 0.19 0.005
+line [SilkTop] -0.245 -0.405 3.39 -0.405 0.016 0
+line [SilkTop] 3.39 -0.405 3.39 0.405 0.016 0
+line [SilkTop] -0.245 0.405 -0.245 -0.405 0.016 0
+line [SilkTop] 2.76 0.405 2.76 -0.405 0.016 0
+line [SilkTop] 0.385 0.405 0.385 -0.405 0.016 0
+line [SilkTop] 1.765 0.405 1.765 -0.405 0.016 0
+line [SilkTop] 1.385 0.405 1.385 -0.405 0.016 0
+arc [SilkTop] 0.885 0 0.125 0 0 0.016
+arc [SilkTop] 2.265 0 0.125 0 0 0.016
+line [BoundaryTop] -0.245 0.405 -0.245 -0.405 0.016 0
+line [BoundaryTop] -0.245 -0.405 3.39 -0.405 0.016 0
+line [BoundaryTop] 3.39 -0.405 3.39 0.405 0.016 0
+line [BoundaryTop] -0.245 0.405 0.725 0.405 0.016 0
+line [BoundaryTop] 0.725 0.405 0.725 0.8 0.016 0
+line [BoundaryTop] 0.725 0.8 2.44 0.8 0.016 0
+line [BoundaryTop] 2.44 0.8 2.44 0.405 0.016 0
+line [BoundaryTop] 2.44 0.405 3.39 0.405 0.016 0
+line [SilkTop] 0.725 0.405 0.725 0.8 0.016 0
+line [SilkTop] 0.725 0.8 2.44 0.8 0.016 0
+line [SilkTop] 2.44 0.8 2.44 0.405 0.016 0
+line [AssyDrwTop] 0.725 0.8 2.44 0.8 0.016 0
+line [AssyDrwTop] 0.725 0.405 0.725 0.8 0.016 0
+line [AssyDrwTop] 2.44 0.8 2.44 0.405 0.016 0
+line [AssyDrwTop] 3.39 -0.405 3.39 0.405 0.016 0
+line [AssyDrwTop] -0.245 -0.405 3.39 -0.405 0.016 0
+line [AssyDrwTop] -0.245 0.405 -0.245 -0.405 0.016 0
+line [AssyDrwTop] -0.245 0.405 0.725 0.405 0.016 0
+line [AssyDrwTop] 2.44 0.405 3.39 0.405 0.016 0
+line [SilkTop] -0.245 0.405 3.39 0.405 0.016 0
+centroid [BoundaryTop] 1.575 0
+@pins
+pin 3 0 0 0 rnd-350-300 thru
+pin 1 0.885 0.635 0 sq-250x250 smtTop
+pin 2 2.265 0.635 0 sq-250x250 smtTop
+pin 4 3.15 0 0 rnd-350-300 thru
+*footprint D-67 2 thru
+@refdes 4
+display  [SilkTop] SilkTop -0.25 -0.475 4 0 0.0625 0.005 0 0 0
+@comptype 7
+display  [AssyDrwTop] AssemblyTop 0 -0.025 4 0 0.0625 0.005 0 0 0
+@graphics
+hole [Top] [Bottom] -0.59 0 0.19 0.005
+arc [SilkTop] 0 0 0.25 0 0 0.008
+line [SilkTop] -0.375 -0.375 0.375 -0.375 0.008 0
+line [SilkTop] 0.375 -0.375 0.375 0.375 0.008 0
+line [SilkTop] 0.375 0.375 -0.375 0.375 0.008 0
+line [SilkTop] -0.375 0.375 -0.375 -0.375 0.008 0
+line [SilkTop] -0.1375 -0.7375 0.1375 -0.7375 0.008 0
+line [SilkTop] -0.1375 -0.7375 -0.775 -0.1 0.008 0
+line [SilkTop] 0.1375 -0.7375 0.7875 -0.1 0.008 0
+line [SilkTop] 0.7875 0.1 0.7875 -0.1 0.008 0
+line [SilkTop] -0.4875 -0.3875 0.4875 -0.3875 0.008 0
+line [SilkTop] -0.775 0.1 -0.4875 0.3875 0.008 0
+line [SilkTop] -0.4875 0.3875 0.4875 0.3875 0.008 0
+line [SilkTop] 0.4875 0.3875 0.7875 0.1 0.008 0
+arc [SilkTop] -0.5875 0 0.1 270 90 0.008
+line [SilkTop] -0.5875 0.1 -0.775 0.1 0.008 0
+line [SilkTop] -0.5875 -0.1 -0.775 -0.1 0.008 0
+centroid [BoundaryTop] 0 0
+line [AssyDrwTop] -0.486756 -0.388044 0.488244 -0.388044 0.008 0
+line [AssyDrwTop] -0.374256 0.374456 -0.374256 -0.375544 0.008 0
+line [AssyDrwTop] -0.374256 -0.375544 0.375744 -0.375544 0.008 0
+line [AssyDrwTop] 0.375744 -0.375544 0.375744 0.374456 0.008 0
+arc [AssyDrwTop] 0.00074368 -0.000543747 0.25 0 0 0.008
+line [AssyDrwTop] 0.138244 -0.738044 0.788244 -0.100544 0.008 0
+line [AssyDrwTop] 0.788244 0.0994563 0.788244 -0.100544 0.008 0
+line [AssyDrwTop] 0.488244 0.386956 0.788244 0.0994563 0.008 0
+line [AssyDrwTop] -0.486756 0.386956 0.488244 0.386956 0.008 0
+line [AssyDrwTop] 0.375744 0.374456 -0.374256 0.374456 0.008 0
+line [AssyDrwTop] -0.774256 0.0994563 -0.486756 0.386956 0.008 0
+line [AssyDrwTop] -0.586756 0.0994563 -0.774256 0.0994563 0.008 0
+arc [AssyDrwTop] -0.586756 -0.000543747 0.1 270 90 0.008
+line [AssyDrwTop] -0.586756 -0.100544 -0.774256 -0.100544 0.008 0
+line [AssyDrwTop] -0.136756 -0.738044 -0.774256 -0.100544 0.008 0
+line [AssyDrwTop] -0.136756 -0.738044 0.138244 -0.738044 0.008 0
+line [SilkTop] -0.487904 -0.387585 0.487096 -0.387585 0.008 0
+line [SilkTop] -0.375404 0.374915 -0.375404 -0.375085 0.008 0
+line [SilkTop] -0.375404 -0.375085 0.374596 -0.375085 0.008 0
+line [SilkTop] 0.374596 -0.375085 0.374596 0.374915 0.008 0
+arc [SilkTop] -0.000403838 -8.47398e-005 0.25 0 0 0.008
+line [SilkTop] 0.137096 -0.737585 0.787096 -0.100085 0.008 0
+line [SilkTop] 0.787096 0.0999153 0.787096 -0.100085 0.008 0
+line [SilkTop] 0.487096 0.387415 0.787096 0.0999153 0.008 0
+line [SilkTop] -0.487904 0.387415 0.487096 0.387415 0.008 0
+line [SilkTop] 0.374596 0.374915 -0.375404 0.374915 0.008 0
+line [SilkTop] -0.775404 0.0999153 -0.487904 0.387415 0.008 0
+line [SilkTop] -0.587904 0.0999153 -0.775404 0.0999153 0.008 0
+arc [SilkTop] -0.587904 -8.47398e-005 0.1 270 90 0.008
+line [SilkTop] -0.587904 -0.100085 -0.775404 -0.100085 0.008 0
+line [SilkTop] -0.137904 -0.737585 -0.775404 -0.100085 0.008 0
+line [SilkTop] -0.137904 -0.737585 0.137096 -0.737585 0.008 0
+line [BoundaryTop] -0.1375 -0.7375 -0.775 -0.1 0.008 0
+line [BoundaryTop] -0.136352 -0.737959 0.138648 -0.737959 0.008 0
+line [BoundaryTop] 0.1375 -0.7375 0.7875 -0.1 0.008 0
+line [BoundaryTop] -0.374596 -0.374915 0.3754 -0.374915 0.008 0
+line [BoundaryTop] -0.486352 -0.387959 0.48865 -0.387959 0.008 0
+line [BoundaryTop] 0.37615 -0.375459 0.37615 0.374541 0.008 0
+line [BoundaryTop] -0.375 0.375001 -0.375 -0.375 0.008 0
+arc [BoundaryTop] 1.11022e-016 0 0.25 0 0 0.008
+line [BoundaryTop] -0.587096 -0.099915 -0.774596 -0.099915 0.008 0
+line [BoundaryTop] -0.587096 0.100085 -0.774596 0.100085 0.008 0
+line [BoundaryTop] -0.775 0.1 -0.4875 0.387501 0.008 0
+line [BoundaryTop] 0.3754 0.375081 -0.374596 0.375081 0.008 0
+line [BoundaryTop] -0.487096 0.387581 0.4879 0.387581 0.008 0
+line [BoundaryTop] 0.4875 0.387501 0.7875 0.1 0.008 0
+line [BoundaryTop] 0.78865 0.099541 0.78865 -0.100459 0.008 0
+arc [BoundaryTop] -0.586352 -0.000459 0.1 270 90 0.008
+@pins
+pin 1 0 -0.6 0 sq-220 smtTop
+pin 2 0.598 0 0 rnd-250-200 thru
+*footprint DO-1 2 thru
+@refdes 4
+display  [AssyDrwTop] AssemblyTop -0.39 0.1 4 0 0.06 0.008 0 0 0
+display  [SilkTop] SilkTop -0.39 0.1 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop -0.39 -0.165 4 0 0.06 0.008 0 0 0
+@graphics
+line [BoundaryTop] 0.045 0.215 0.045 -0.215 0.008 0
+line [BoundaryTop] -1.145 -0.215 -1.145 0.215 0.008 0
+line [BoundaryTop] -1.145 0.215 0.045 0.215 0.008 0
+line [BoundaryTop] -1.145 -0.215 0.045 -0.215 0.008 0
+line [SilkTop] -0.89 0 -0.89 0.05 0.008 0
+line [SilkTop] -0.89 0.2 -0.815 0.2 0.008 0
+line [SilkTop] -0.89 -0.2 -0.815 -0.2 0.008 0
+line [SilkTop] -0.89 0.2 -0.89 -0.2 0.008 0
+line [SilkTop] -0.815 0.2 -0.815 -0.2 0.008 0
+line [AssyDrwTop] -0.89 0.05 -0.89 0.2 0.008 0
+line [AssyDrwTop] -0.89 0.2 -0.815 0.2 0.008 0
+line [AssyDrwTop] -0.815 0.2 -0.815 -0.2 0.008 0
+line [AssyDrwTop] -0.815 -0.2 -0.89 -0.2 0.008 0
+line [AssyDrwTop] -0.89 -0.2 -0.89 -0.05 0.008 0
+line [AssyDrwTop] -0.89 0.05 -0.89 -0.05 0.008 0
+line [SilkTop] -0.815 0.14 -0.555 0.14 0.008 0
+line [SilkTop] -0.555 0.14 -0.555 -0.14 0.008 0
+line [SilkTop] -0.555 -0.14 -0.815 -0.14 0.008 0
+line [AssyDrwTop] -0.815 0.14 -0.555 0.14 0.008 0
+line [AssyDrwTop] -0.555 0.14 -0.555 -0.14 0.008 0
+line [AssyDrwTop] -0.555 -0.14 -0.815 -0.14 0.008 0
+line [SilkTop] -0.89 0.1 -0.915 0.1 0.008 0
+line [SilkTop] -0.915 0.1 -0.915 -0.1 0.008 0
+line [SilkTop] -0.915 -0.1 -0.89 -0.1 0.008 0
+line [SilkTop] -0.21 0.05 -0.19 0.05 0.008 0
+line [SilkTop] -0.19 0.05 -0.19 -0.05 0.008 0
+line [SilkTop] -0.19 -0.05 -0.21 -0.05 0.008 0
+arc [SilkTop] -0.25 0 0.0640312 51.3402 308.66 0.008
+line [SilkTop] -0.21 0.05 -0.21 -0.05 0.008 0
+arc [AssyDrwTop] -0.25 0 0.0640312 51.3402 308.66 0.008
+line [AssyDrwTop] -0.21 -0.05 -0.21 0.05 0.008 0
+line [AssyDrwTop] -0.21 0.05 -0.19 0.05 0.008 0
+line [AssyDrwTop] -0.19 0.05 -0.19 -0.05 0.008 0
+line [AssyDrwTop] -0.19 -0.05 -0.21 -0.05 0.008 0
+centroid [BoundaryTop] -0.55 0
+line [SilkTop] -1.05 0 -0.915 0 0.008 0
+line [SilkTop] -0.05 0 -0.19 0 0.008 0
+line [SilkTop] -0.315 0 -0.555 0 0.008 0
+line [AssyDrwTop] -0.05 0 -0.19 0 0.008 0
+line [AssyDrwTop] -0.315 0 -0.555 0 0.008 0
+line [AssyDrwTop] -0.89 0.1 -0.915 0.1 0.008 0
+line [AssyDrwTop] -0.915 0.1 -0.915 -0.1 0.008 0
+line [AssyDrwTop] -0.915 -0.1 -0.89 -0.1 0.008 0
+line [AssyDrwTop] -0.915 0 -1.05 0 0.008 0
+@pins
+pin 2 -1.100000 0.000000 0.000000 sq-070-050 thru
+pin 1 0.000000 0.000000 0.000000 rnd-070-050 thru
+*footprint DO-13 2 thru
+@refdes 4
+display  [AssyDrwTop] AssemblyTop 0.865 0.1 4 0 0.06 0.008 0 0 0
+display  [SilkTop] SilkTop 0.865 0.1 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.865 -0.165 4 0 0.06 0.008 0 0 0
+@graphics
+line [BoundaryTop] -0.045 -0.215 -0.045 0.215 0.008 0
+line [SilkTop] 0.545 0.14 0.545 -0.14 0.008 0
+line [AssyDrwTop] 0.545 0.14 0.545 -0.14 0.008 0
+line [SilkTop] 0.05 0 0.185 0 0.008 0
+line [AssyDrwTop] 0.185 0 0.05 0 0.008 0
+line [SilkTop] 0.19 0.14 0.19 -0.14 0.008 0
+line [SilkTop] 0.545 0.14 0.19 0.14 0.008 0
+line [SilkTop] 0.545 -0.14 0.19 -0.14 0.008 0
+line [AssyDrwTop] 0.545 0.14 0.19 0.14 0.008 0
+line [AssyDrwTop] 0.19 0.14 0.19 -0.14 0.008 0
+line [AssyDrwTop] 0.19 -0.14 0.545 -0.14 0.008 0
+line [SilkTop] 0.74 0.05 0.76 0.05 0.008 0
+line [SilkTop] 0.76 0.05 0.76 -0.05 0.008 0
+line [SilkTop] 0.76 -0.05 0.74 -0.05 0.008 0
+arc [SilkTop] 0.7 0 0.0640312 51.3402 308.66 0.008
+line [SilkTop] 0.74 0.05 0.74 -0.05 0.008 0
+arc [AssyDrwTop] 0.7 0 0.0640312 51.3402 308.66 0.008
+line [AssyDrwTop] 0.74 -0.05 0.74 0.05 0.008 0
+line [AssyDrwTop] 0.74 0.05 0.76 0.05 0.008 0
+line [AssyDrwTop] 0.76 0.05 0.76 -0.05 0.008 0
+line [AssyDrwTop] 0.76 -0.05 0.74 -0.05 0.008 0
+line [SilkTop] 0.9 0 0.76 0 0.008 0
+line [AssyDrwTop] 0.9 0 0.76 0 0.008 0
+line [AssyDrwTop] 0.545 0 0.635 0 0.008 0
+line [SilkTop] 0.545 0 0.63 0 0.008 0
+line [BoundaryTop] 0.995 0.215 0.995 -0.215 0.008 0
+line [BoundaryTop] -0.045 0.215 0.995 0.215 0.008 0
+line [BoundaryTop] 0.995 -0.215 -0.045 -0.215 0.008 0
+centroid [BoundaryTop] 0.475 0
+@pins
+pin 2 0 0 0 sq-070-050 thru
+pin 1 0.95 0 0 rnd-070-050 thru
+*footprint DO-203AA 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.01 0.27 4 0 0.0625 0.005 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.01 0.27 4 0 0.0625 0.005 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0 -0.31 4 0 0.0625 0.005 0 0 0
+@graphics
+line [SilkTop] -0.06 0.16 0.62 0.42 0.008 0
+line [SilkTop] 0.62 -0.42 -0.06 -0.16 0.008 0
+line [AssyDrwTop] -0.06 0.16 0.62 0.42 0.008 0
+line [AssyDrwTop] 0.62 -0.42 -0.06 -0.16 0.008 0
+arc [SilkTop] 0 0 0.17088 110.556 249.444 0.008
+arc [AssyDrwTop] 0 0 0.17088 110.556 249.444 0.008
+arc [SilkTop] 0.75 0 0.439659 252.801 107.199 0.008
+arc [AssyDrwTop] 0.75 0 0.439659 252.801 107.199 0.008
+centroid [BoundaryTop] 0.75 0
+line [BoundaryTop] -0.18 -0.45 -0.18 0.45 0.008 0
+line [BoundaryTop] -0.18 0.45 1.2 0.45 0.008 0
+line [BoundaryTop] 1.2 0.45 1.2 -0.45 0.008 0
+line [BoundaryTop] 1.2 -0.45 -0.18 -0.45 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rnd-300-175 thru
+pin 2 0.750000 0.000000 0.000000 rnd-850-270 thru
+*footprint DO-203AB 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.01 0.27 4 0 0.0625 0.005 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.01 0.27 4 0 0.0625 0.005 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0 -0.31 4 0 0.0625 0.005 0 0 0
+@graphics
+line [SilkTop] -0.06 0.16 0.62 0.42 0.008 0
+line [SilkTop] 0.62 -0.42 -0.06 -0.16 0.008 0
+line [AssyDrwTop] -0.06 0.16 0.62 0.42 0.008 0
+line [AssyDrwTop] 0.62 -0.42 -0.06 -0.16 0.008 0
+arc [SilkTop] 0 0 0.17088 110.556 249.444 0.008
+arc [AssyDrwTop] 0 0 0.17088 110.556 249.444 0.008
+arc [SilkTop] 0.75 0 0.439659 252.801 107.199 0.008
+arc [AssyDrwTop] 0.75 0 0.439659 252.801 107.199 0.008
+centroid [BoundaryTop] 0.75 0
+line [BoundaryTop] -0.18 -0.45 -0.18 0.45 0.008 0
+line [BoundaryTop] -0.18 0.45 1.2 0.45 0.008 0
+line [BoundaryTop] 1.2 0.45 1.2 -0.45 0.008 0
+line [BoundaryTop] 1.2 -0.45 -0.18 -0.45 0.008 0
+@pins
+pin 1 0 0 0 rnd-300-175 thru
+pin 2 0.75 0 0 rnd-850-270 thru
+*footprint DO-204AA 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.24 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.25 0
+line [SilkTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [SilkTop] 0.1 0.07 0.4 0.07 0.008 0
+line [SilkTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [SilkTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [BoundaryTop] -0.04 -0.07 -0.04 0.07 0.008 0
+line [BoundaryTop] -0.04 0.07 0.54 0.07 0.008 0
+line [BoundaryTop] 0.54 0.07 0.54 -0.07 0.008 0
+line [BoundaryTop] 0.54 -0.07 -0.04 -0.07 0.008 0
+line [AssyDrwTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [AssyDrwTop] 0.1 0.07 0.4 0.07 0.008 0
+line [AssyDrwTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [AssyDrwTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [AssyDrwTop] 0.4 0 0.45 0 0.008 0
+line [AssyDrwTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.4 0 0.45 0 0.008 0
+line [SilkTop] 0.36 0.065 0.36 -0.065 0.015 0
+line [AssyDrwTop] 0.36 0.065 0.36 -0.065 0.015 0
+@pins
+pin 1 0.000000 0.000000 0.000000 sq-060-040 thru
+pin 2 0.500000 0.000000 0.000000 rnd-060-040 thru
+*footprint DO-204AH 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.24 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.25 0
+line [SilkTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [SilkTop] 0.1 0.07 0.4 0.07 0.008 0
+line [SilkTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [SilkTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [BoundaryTop] -0.04 -0.07 -0.04 0.07 0.008 0
+line [BoundaryTop] -0.04 0.07 0.54 0.07 0.008 0
+line [BoundaryTop] 0.54 0.07 0.54 -0.07 0.008 0
+line [BoundaryTop] 0.54 -0.07 -0.04 -0.07 0.008 0
+line [AssyDrwTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [AssyDrwTop] 0.1 0.07 0.4 0.07 0.008 0
+line [AssyDrwTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [AssyDrwTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [AssyDrwTop] 0.4 0 0.45 0 0.008 0
+line [AssyDrwTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.4 0 0.45 0 0.008 0
+line [SilkTop] 0.36 0.065 0.36 -0.065 0.015 0
+line [AssyDrwTop] 0.36 0.065 0.36 -0.065 0.015 0
+@pins
+pin 1 0.000000 0.000000 0.000000 sq-060-040 thru
+pin 2 0.500000 0.000000 0.000000 rnd-060-040 thru
+*footprint DO-204AK 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.25 -0.14 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.25 -0.14 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.25 0.07 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] 0.34 -0.04 0.16 -0.04 0.008 0
+line [SilkTop] 0.16 -0.04 0.16 0.04 0.008 0
+line [SilkTop] 0.34 0.04 0.34 -0.04 0.008 0
+line [SilkTop] 0.16 0.04 0.34 0.04 0.008 0
+line [SilkTop] 0.18 0.04 0.18 -0.04 0.008 0
+line [SilkTop] 0.34 0 0.45 0 0.008 0
+line [SilkTop] 0.16 0 0.05 0 0.008 0
+line [AssyDrwTop] 0.16 -0.04 0.16 0.04 0.008 0
+line [AssyDrwTop] 0.16 0.04 0.34 0.04 0.008 0
+line [AssyDrwTop] 0.34 0.04 0.34 -0.04 0.008 0
+line [AssyDrwTop] 0.34 -0.04 0.16 -0.04 0.008 0
+line [AssyDrwTop] 0.18 0.04 0.18 -0.04 0.008 0
+line [AssyDrwTop] 0.34 0 0.45 0 0.008 0
+line [AssyDrwTop] 0.16 0 0.05 0 0.008 0
+centroid [BoundaryTop] 0.25 0
+line [BoundaryTop] -0.04 -0.04 -0.04 0.04 0.008 0
+line [BoundaryTop] -0.04 0.04 0.54 0.04 0.008 0
+line [BoundaryTop] 0.54 0.04 0.54 -0.04 0.008 0
+line [BoundaryTop] 0.54 -0.04 -0.04 -0.04 0.008 0
+@pins
+pin 1 0.500000 0.000000 0.000000 rnd-060-030 thru
+pin 2 0.000000 0.000000 0.000000 rnd-060-030 thru
+*footprint DO-204AL 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.24 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.25 0
+line [SilkTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [SilkTop] 0.1 0.07 0.4 0.07 0.008 0
+line [SilkTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [SilkTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [BoundaryTop] -0.04 -0.07 -0.04 0.07 0.008 0
+line [BoundaryTop] -0.04 0.07 0.54 0.07 0.008 0
+line [BoundaryTop] 0.54 0.07 0.54 -0.07 0.008 0
+line [BoundaryTop] 0.54 -0.07 -0.04 -0.07 0.008 0
+line [AssyDrwTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [AssyDrwTop] 0.1 0.07 0.4 0.07 0.008 0
+line [AssyDrwTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [AssyDrwTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [AssyDrwTop] 0.4 0 0.45 0 0.008 0
+line [AssyDrwTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.4 0 0.45 0 0.008 0
+line [SilkTop] 0.36 0.065 0.36 -0.065 0.015 0
+line [AssyDrwTop] 0.36 0.065 0.36 -0.065 0.015 0
+@pins
+pin 2 0.500000 0.000000 0.000000 rnd-065-045 thru
+pin 1 0.000000 0.000000 0.000000 sq-065-045 thru
+*footprint DO-204AM 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.24 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.25 0
+line [SilkTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [SilkTop] 0.1 0.07 0.4 0.07 0.008 0
+line [SilkTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [SilkTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [BoundaryTop] -0.04 -0.07 -0.04 0.07 0.008 0
+line [BoundaryTop] -0.04 0.07 0.54 0.07 0.008 0
+line [BoundaryTop] 0.54 0.07 0.54 -0.07 0.008 0
+line [BoundaryTop] 0.54 -0.07 -0.04 -0.07 0.008 0
+line [AssyDrwTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [AssyDrwTop] 0.1 0.07 0.4 0.07 0.008 0
+line [AssyDrwTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [AssyDrwTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [AssyDrwTop] 0.4 0 0.45 0 0.008 0
+line [AssyDrwTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.4 0 0.45 0 0.008 0
+line [SilkTop] 0.36 0.065 0.36 -0.065 0.015 0
+line [AssyDrwTop] 0.36 0.065 0.36 -0.065 0.015 0
+@pins
+pin 2 0.500000 0.000000 0.000000 rnd-065-045 thru
+pin 1 0.000000 0.000000 0.000000 sq-065-045 thru
+*footprint do-204ap 2 thru
+@refdes 4
+display  [SilkTop] SilkTop -0.25 0.11 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop -0.25 0.11 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop -0.25 -0.17 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] -0.25 0
+line [SilkTop] -0.37 0.015 -0.37 -0.015 0.008 0
+line [SilkTop] -0.13 0.015 -0.13 -0.015 0.008 0
+line [SilkTop] -0.13 0 -0.055 0 0.008 0
+line [SilkTop] -0.445 0 -0.37 0 0.008 0
+arc [SilkTop] -0.25 0 0.0761577 23.1986 156.801 0.008
+arc [SilkTop] -0.25 0 0.0761577 203.199 336.801 0.008
+line [SilkTop] -0.32 0.03 -0.33 0.015 0.008 0
+line [SilkTop] -0.32 -0.03 -0.33 -0.015 0.008 0
+line [SilkTop] -0.18 0.03 -0.17 0.015 0.008 0
+line [SilkTop] -0.18 -0.03 -0.17 -0.015 0.008 0
+line [SilkTop] -0.33 0.015 -0.37 0.015 0.008 0
+line [SilkTop] -0.33 -0.015 -0.37 -0.015 0.008 0
+line [SilkTop] -0.17 0.015 -0.13 0.015 0.008 0
+line [SilkTop] -0.17 -0.015 -0.13 -0.015 0.008 0
+line [SilkTop] -0.3 0.055 -0.3 -0.055 0.008 0
+line [SilkTop] -0.33 0.015 -0.33 -0.015 0.008 0
+line [SilkTop] -0.17 0.015 -0.17 -0.015 0.008 0
+line [BoundaryTop] 0.04 0.09 0.04 -0.09 0.008 0
+line [AssyDrwTop] -0.445 0 -0.37 0 0.008 0
+line [AssyDrwTop] -0.37 0 -0.37 0.015 0.008 0
+line [AssyDrwTop] -0.37 0.015 -0.33 0.015 0.008 0
+line [AssyDrwTop] -0.33 0.015 -0.33 -0.015 0.008 0
+line [AssyDrwTop] -0.33 -0.015 -0.37 -0.015 0.008 0
+line [AssyDrwTop] -0.37 -0.015 -0.37 0 0.008 0
+arc [AssyDrwTop] -0.25 0 0.0761577 23.1986 156.801 0.008
+arc [AssyDrwTop] -0.25 0 0.0761577 203.199 336.801 0.008
+line [AssyDrwTop] -0.32 0.03 -0.33 0.015 0.008 0
+line [AssyDrwTop] -0.33 -0.015 -0.32 -0.03 0.008 0
+line [AssyDrwTop] -0.18 0.03 -0.17 0.015 0.008 0
+line [AssyDrwTop] -0.17 -0.015 -0.18 -0.03 0.008 0
+line [AssyDrwTop] -0.3 0.055 -0.3 -0.055 0.008 0
+line [AssyDrwTop] -0.17 0.015 -0.13 0.015 0.008 0
+line [AssyDrwTop] -0.13 0.015 -0.13 -0.015 0.008 0
+line [AssyDrwTop] -0.13 -0.015 -0.17 -0.015 0.008 0
+line [AssyDrwTop] -0.17 -0.015 -0.17 0.015 0.008 0
+line [AssyDrwTop] -0.13 0 -0.055 0 0.008 0
+line [BoundaryTop] -0.54 0.09 -0.54 -0.09 0.008 0
+line [BoundaryTop] -0.54 0.09 0.04 0.09 0.008 0
+line [BoundaryTop] 0.04 -0.09 -0.54 -0.09 0.008 0
+@pins
+pin 2 -0.5 0 0 rnd-065-045 thru
+pin 1 0 0 0 sq-065-045 thru
+*footprint DO-204AR 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.34 0.09 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.34 0.09 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.34 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.35 0
+line [SilkTop] 0.2 -0.07 0.2 0.07 0.008 0
+line [SilkTop] 0.2 0.07 0.5 0.07 0.008 0
+line [SilkTop] 0.5 0.07 0.5 -0.07 0.008 0
+line [SilkTop] 0.5 -0.07 0.2 -0.07 0.008 0
+line [AssyDrwTop] 0.2 -0.07 0.2 0.07 0.008 0
+line [AssyDrwTop] 0.2 0.07 0.5 0.07 0.008 0
+line [AssyDrwTop] 0.5 0.07 0.5 -0.07 0.008 0
+line [AssyDrwTop] 0.5 -0.07 0.2 -0.07 0.008 0
+line [SilkTop] 0.46 0.065 0.46 -0.065 0.015 0
+line [AssyDrwTop] 0.46 0.065 0.46 -0.065 0.015 0
+line [AssyDrwTop] 0.5 0 0.65 0 0.008 0
+line [AssyDrwTop] 0.2 0 0.05 0 0.008 0
+line [SilkTop] 0.5 0 0.65 0 0.008 0
+line [SilkTop] 0.2 0 0.05 0 0.008 0
+line [BoundaryTop] -0.05 -0.08 -0.05 0.08 0.008 0
+line [BoundaryTop] -0.05 0.08 0.75 0.08 0.008 0
+line [BoundaryTop] 0.75 0.08 0.75 -0.08 0.008 0
+line [BoundaryTop] 0.75 -0.08 -0.05 -0.08 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 sq-085-065 thru
+pin 2 0.700000 0.000000 0.000000 rnd-085-065 thru
+*footprint do-208aa 2 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0 0.14 4 0 0.0625 0.005 0 0 0
+@comptype 7
+display  [SilkTop] SilkTop 0.01 -0.17 4 0 0.0625 0.005 0 0 0
+@graphics
+arc [SilkTop] 0 0 0.320156 0 0 0.008
+arc [AssyDrwTop] 0 0 0.320156 0 0 0.016
+centroid [BoundaryTop] 0 0
+line [SilkTop] 0.125 0.3 0.525 0.075 0.008 0
+line [SilkTop] 0.125 -0.3 0.525 -0.075 0.008 0
+arc [SilkTop] 0.5 0 0.0790569 288.435 71.5651 0.008
+line [AssyDrwTop] 0.175 0.275 0.525 0.075 0.008 0
+line [AssyDrwTop] 0.125 -0.3 0.525 -0.075 0.008 0
+arc [AssyDrwTop] 0.5 0 0.0790569 288.435 71.5651 0.008
+line [BoundaryTop] -0.325 -0.325 0.575 -0.325 0.008 0
+line [BoundaryTop] 0.575 -0.325 0.575 0.325 0.008 0
+line [BoundaryTop] 0.575 0.325 -0.325 0.325 0.008 0
+line [BoundaryTop] -0.325 0.325 -0.325 -0.325 0.008 0
+@pins
+pin 1 0 0 0 rnd-300-065 thru
+pin 2 0.5 0 0 rnd-095-065 thru
+*footprint DO-21 1 thru
+@refdes 4
+display  [SilkTop] SilkTop 0 0.14 4 0 0.0625 0.005 0 0 0
+@comptype 7
+display  [SilkTop] SilkTop 0.01 -0.17 4 0 0.0625 0.005 0 0 0
+@graphics
+arc [SilkTop] 0 0 0.320156 0 0 0.008
+line [BoundaryTop] -0.33 -0.33 -0.33 0.33 0.016 0
+line [BoundaryTop] -0.33 0.33 0.33 0.33 0.016 0
+line [BoundaryTop] 0.33 0.33 0.33 -0.33 0.016 0
+line [BoundaryTop] 0.33 -0.33 -0.33 -0.33 0.016 0
+arc [AssyDrwTop] 0 0 0.320156 0 0 0.016
+centroid [BoundaryTop] 0 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rnd-095-065 thru
+*footprint DO-213AB 2 smt
+@refdes 4
+display  [SilkTop] SilkTop 0.1 0.14 4 0 0.0625 0.005 0 0 0
+@comptype 7
+display  [SilkTop] SilkTop 0.09 -0.2 4 0 0.0625 0.005 0 0 0
+@graphics
+line [SilkTop] -0.04 -0.12 0.23 -0.12 0.008 0
+line [SilkTop] 0.23 -0.12 0.23 0.12 0.008 0
+line [SilkTop] 0.23 0.12 -0.04 0.12 0.008 0
+line [SilkTop] -0.04 0.12 -0.04 -0.12 0.008 0
+line [SilkTop] 0.15 0.12 0.15 -0.12 0.008 0
+line [AssyDrwTop] -0.04 0.12 0.23 0.12 0.008 0
+line [AssyDrwTop] 0.23 0.12 0.23 -0.12 0.008 0
+line [AssyDrwTop] 0.23 -0.12 -0.04 -0.12 0.008 0
+line [AssyDrwTop] -0.04 -0.12 -0.04 0.12 0.008 0
+line [AssyDrwTop] 0.15 0.12 0.15 -0.12 0.008 0
+centroid [BoundaryTop] 0.095 0
+line [BoundaryTop] -0.05 -0.13 -0.05 0.13 0.008 0
+line [BoundaryTop] -0.05 0.13 0.24 0.13 0.008 0
+line [BoundaryTop] 0.24 0.13 0.24 -0.13 0.008 0
+line [BoundaryTop] 0.24 -0.13 -0.05 -0.13 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 rect-1.40x5.30 smtTop
+pin 2 0.188976 0.000000 0.000000 rect-1.40x5.30 smtTop
+*footprint DO-27 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.28 -0.03 4 0 0.0625 0.005 0 0 0
+@comptype 7
+display  [SilkTop] SilkTop 0.3 -0.2 4 0 0.0625 0.005 0 0 0
+@graphics
+line [SilkTop] 0.12 -0.1 0.38 -0.1 0.008 0
+line [SilkTop] 0.12 -0.1 0.12 0.1 0.008 0
+line [SilkTop] 0.12 0.1 0.38 0.1 0.008 0
+line [SilkTop] 0.49 0.05 0.49 -0.05 0.008 0
+line [SilkTop] 0.49 -0.05 0.38 -0.1 0.008 0
+line [SilkTop] 0.49 0.05 0.38 0.1 0.008 0
+line [SilkTop] 0.12 0 0.06 0 0.008 0
+line [SilkTop] 0.49 0 0.54 0 0.008 0
+line [AssyDrwTop] 0.06 0 0.12 0 0.008 0
+line [AssyDrwTop] 0.12 0.1 0.12 -0.1 0.008 0
+line [AssyDrwTop] 0.12 -0.1 0.38 -0.1 0.008 0
+line [AssyDrwTop] 0.38 -0.1 0.49 -0.05 0.008 0
+line [AssyDrwTop] 0.49 -0.05 0.49 0.05 0.008 0
+line [AssyDrwTop] 0.49 0.05 0.38 0.1 0.008 0
+line [AssyDrwTop] 0.38 0.1 0.12 0.1 0.008 0
+line [AssyDrwTop] 0.49 0 0.54 0 0.008 0
+centroid [BoundaryTop] 0.3 0
+line [BoundaryTop] -0.06 0.12 0.66 0.12 0.008 0
+line [BoundaryTop] -0.06 -0.12 -0.06 0.12 0.008 0
+line [BoundaryTop] -0.06 0.12 0.66 0.12 0.008 0
+line [BoundaryTop] 0.66 0.12 0.66 -0.12 0.008 0
+line [BoundaryTop] 0.66 -0.12 -0.06 -0.12 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 sq-085-065 thru
+pin 2 0.600000 0.000000 0.000000 rnd-085-065 thru
+*footprint DO-34 2 thru
+@refdes 4
+display  [AssyDrwTop] AssemblyTop -0.2 0.07 4 0 0.06 0.008 0 0 0
+display  [SilkTop] SilkTop -0.2 0.07 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop -0.2 -0.12 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] -0.2 0
+line [SilkTop] -0.26 -0.04 -0.26 0.04 0.008 0
+line [SilkTop] -0.14 -0.04 -0.26 -0.04 0.008 0
+line [SilkTop] -0.26 0.04 -0.14 0.04 0.008 0
+line [SilkTop] -0.14 0.04 -0.14 -0.04 0.008 0
+line [SilkTop] -0.355 0 -0.26 0 0.008 0
+line [SilkTop] -0.14 0 -0.045 0 0.008 0
+line [SilkTop] -0.24 0.04 -0.24 -0.04 0.008 0
+line [AssyDrwTop] -0.26 -0.04 -0.26 0.04 0.008 0
+line [AssyDrwTop] -0.26 0.04 -0.14 0.04 0.008 0
+line [AssyDrwTop] -0.14 0.04 -0.14 -0.04 0.008 0
+line [AssyDrwTop] -0.14 -0.04 -0.26 -0.04 0.008 0
+line [AssyDrwTop] -0.24 0.04 -0.24 -0.04 0.008 0
+line [AssyDrwTop] -0.355 0 -0.26 0 0.008 0
+line [AssyDrwTop] -0.14 0 -0.045 0 0.008 0
+line [BoundaryTop] -0.44 -0.04 -0.44 0.04 0.008 0
+line [BoundaryTop] -0.44 0.04 0.04 0.04 0.008 0
+line [BoundaryTop] 0.04 0.04 0.04 -0.04 0.008 0
+line [BoundaryTop] 0.04 -0.04 -0.44 -0.04 0.008 0
+@pins
+pin 2 -0.400000 0.000000 0.000000 sq-050-030 thru
+pin 1 0.000000 0.000000 0.000000 rnd-050-030 thru
+*footprint do-35 2 thru
+@refdes 4
+display  [AssyDrwTop] AssemblyTop -0.19 0.06 4 0 0.06 0.008 0 0 0
+display  [SilkTop] SilkTop -0.19 0.06 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop -0.19 -0.13 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] -0.2 0
+line [BoundaryTop] -0.44 0.045 0.04 0.045 0.008 0
+line [BoundaryTop] -0.44 0.045 0.04 0.045 0.008 0
+line [BoundaryTop] -0.44 -0.045 0.04 -0.045 0.008 0
+line [BoundaryTop] -0.44 0.045 -0.44 -0.045 0.008 0
+line [BoundaryTop] 0.04 0.045 0.04 -0.045 0.008 0
+line [BoundaryTop] 0.04 -0.045 -0.44 -0.045 0.008 0
+line [SilkTop] -0.285 -0.035 -0.285 0.035 0.008 0
+line [SilkTop] -0.12 0.035 -0.12 -0.035 0.008 0
+line [AssyDrwTop] -0.285 0 -0.285 0.035 0.008 0
+line [AssyDrwTop] -0.285 -0.035 -0.285 0 0.008 0
+line [AssyDrwTop] -0.12 0.035 -0.12 -0.035 0.008 0
+line [SilkTop] -0.265 0.035 -0.265 -0.035 0.008 0
+line [AssyDrwTop] -0.265 0.035 -0.265 -0.035 0.008 0
+line [AssyDrwTop] -0.285 0.035 -0.12 0.035 0.008 0
+line [AssyDrwTop] -0.285 -0.035 -0.12 -0.035 0.008 0
+line [SilkTop] -0.285 0.035 -0.12 0.035 0.008 0
+line [SilkTop] -0.285 -0.035 -0.12 -0.035 0.008 0
+line [SilkTop] -0.355 0 -0.285 0 0.008 0
+line [SilkTop] -0.12 0 -0.04 0 0.008 0
+@pins
+pin 2 -0.4 0 0 rnd-050-030 thru
+pin 1 0 0 0 sq-050-030 thru
+*footprint DO-4 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.01 0.27 4 0 0.0625 0.005 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.01 0.27 4 0 0.0625 0.005 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0 -0.31 4 0 0.0625 0.005 0 0 0
+@graphics
+line [SilkTop] -0.06 0.16 0.62 0.42 0.008 0
+line [SilkTop] 0.62 -0.42 -0.06 -0.16 0.008 0
+line [AssyDrwTop] -0.06 0.16 0.62 0.42 0.008 0
+line [AssyDrwTop] 0.62 -0.42 -0.06 -0.16 0.008 0
+arc [SilkTop] 0 0 0.17088 110.556 249.444 0.008
+arc [AssyDrwTop] 0 0 0.17088 110.556 249.444 0.008
+arc [SilkTop] 0.75 0 0.439659 252.801 107.199 0.008
+arc [AssyDrwTop] 0.75 0 0.439659 252.801 107.199 0.008
+centroid [BoundaryTop] 0.75 0
+line [BoundaryTop] -0.18 -0.45 -0.18 0.45 0.008 0
+line [BoundaryTop] -0.18 0.45 1.2 0.45 0.008 0
+line [BoundaryTop] 1.2 0.45 1.2 -0.45 0.008 0
+line [BoundaryTop] 1.2 -0.45 -0.18 -0.45 0.008 0
+@pins
+pin 1 0 0 0 rnd-300-175 thru
+pin 2 0.75 0 0 rnd-850-270 thru
+*footprint DO-41 2 thru
+@refdes 4
+display  [AssyDrwTop] AssemblyTop 0.2 0.09 4 0 0.06 0.008 0 0 0
+display  [SilkTop] SilkTop 0.2 0.09 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.2 -0.14 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.2 0
+line [BoundaryTop] -0.05 0.06 0.45 0.06 0.008 0
+line [AssyDrwTop] 0.1 0.06 0.3 0.06 0.008 0
+line [SilkTop] 0.1 0.06 0.3 0.06 0.008 0
+line [BoundaryTop] 0.45 -0.06 -0.05 -0.06 0.008 0
+line [AssyDrwTop] 0.3 -0.06 0.1 -0.06 0.008 0
+line [SilkTop] 0.3 -0.06 0.1 -0.06 0.008 0
+line [AssyDrwTop] 0.3 0.06 0.3 -0.06 0.008 0
+line [AssyDrwTop] 0.3 0 0.34 0 0.008 0
+line [SilkTop] 0.3 0.06 0.3 -0.06 0.008 0
+line [SilkTop] 0.3 0 0.34 0 0.008 0
+line [AssyDrwTop] 0.1 -0.06 0.1 0.06 0.008 0
+line [AssyDrwTop] 0.1 0 0.06 0 0.008 0
+line [SilkTop] 0.1 -0.06 0.1 0.06 0.008 0
+line [SilkTop] 0.1 0 0.06 0 0.008 0
+line [BoundaryTop] -0.05 -0.06 -0.05 0.06 0.008 0
+line [BoundaryTop] 0.45 0.06 0.45 -0.06 0.008 0
+line [SilkTop] 0.26 0.055 0.26 -0.055 0.015 0
+line [AssyDrwTop] 0.26 0.055 0.26 -0.055 0.015 0
+@pins
+pin 2 0.4 0 0 rnd-070-050 thru
+pin 1 0 0 0 sq-070-050 thru
+*footprint DO-7 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.24 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.25 0
+line [SilkTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [SilkTop] 0.1 0.07 0.4 0.07 0.008 0
+line [SilkTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [SilkTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [BoundaryTop] -0.04 -0.07 -0.04 0.07 0.008 0
+line [BoundaryTop] -0.04 0.07 0.54 0.07 0.008 0
+line [BoundaryTop] 0.54 0.07 0.54 -0.07 0.008 0
+line [BoundaryTop] 0.54 -0.07 -0.04 -0.07 0.008 0
+line [AssyDrwTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [AssyDrwTop] 0.1 0.07 0.4 0.07 0.008 0
+line [AssyDrwTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [AssyDrwTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [AssyDrwTop] 0.4 0 0.45 0 0.008 0
+line [AssyDrwTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.4 0 0.45 0 0.008 0
+line [SilkTop] 0.36 0.065 0.36 -0.065 0.015 0
+line [AssyDrwTop] 0.36 0.065 0.36 -0.065 0.015 0
+@pins
+pin 1 0 0 0 sq-060-040 thru
+pin 2 0.5 0 0 rnd-060-040 thru
+*footprint G36201 2 smt
+@refdes 4
+display  [SilkTop] SilkTop 0.0629921 0.0826772 4 0 0.0598425 0.00787402 0 0 0
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.0629921 0.0826772 4 0 0.0598425 0.00787402 0 0 0
+@comptype 4
+display  [SMTAssyDrwTop] SMTAssemblyTop 0.0669291 -0.137795 4 0 0.0598425 0.00787402 0 0 0
+@graphics
+centroid [BoundaryTop] 0.0669291 0
+line [SilkTop] -0.04 -0.045 -0.04 0.045 0.00787402 0
+line [BoundaryTop] -0.0511811 -0.0590551 -0.0511811 0.0590551 0.00787402 0
+line [SilkTop] -0.04 0.045 0.175 0.045 0.00787402 0
+line [BoundaryTop] -0.0511811 0.0590551 0.185039 0.0590551 0.00787402 0
+line [SilkTop] 0.175 0.045 0.175 -0.045 0.00787402 0
+line [BoundaryTop] 0.185039 0.0590551 0.185039 -0.0590551 0.00787402 0
+line [BoundaryTop] 0.185039 -0.0590551 -0.0511811 -0.0590551 0.00787402 0
+line [SilkTop] 0.175 -0.045 -0.04 -0.045 0.00787402 0
+line [SMTAssyDrwTop] -0.04 -0.045 -0.04 0.045 0.00787402 0
+line [SMTAssyDrwTop] -0.04 0.045 0.175 0.045 0.00787402 0
+line [SMTAssyDrwTop] 0.175 0.045 0.175 -0.045 0.00787402 0
+line [SMTAssyDrwTop] 0.175 -0.045 -0.04 -0.045 0.00787402 0
+line [SilkTop] 0.205 0.03 0.205 -0.03 0.008 0
+line [SilkTop] 0.235 0.03 0.205 0 0.008 0
+line [SilkTop] 0.205 0 0.235 -0.03 0.008 0
+line [SMTAssyDrwTop] 0.205 0.03 0.205 -0.03 0.008 0
+line [SMTAssyDrwTop] 0.235 0.03 0.205 0 0.008 0
+line [SMTAssyDrwTop] 0.205 0 0.235 -0.03 0.008 0
+@pins
+pin 1 0 0 0 rect-1.40x1.60 smtTop
+pin 2 0.133858 0 0 rect-1.40x1.60 smtTop
+*footprint ISOTOP 4 smt
+@refdes 4
+display  [SilkTop] SilkTop -0.63 0.57 4 0 0.0625 0.005 0 0 0
+@comptype 7
+display  [AssyDrwTop] AssemblyTop 0 -0.03 4 0 0.0625 0.005 0 0 0
+@graphics
+hole [Top] [Bottom] -0.595 0 0.2 0.005
+hole [Top] [Bottom] 0.595 0 0.2 0.005
+line [SilkTop] -0.755 -0.5 0.755 -0.5 0.008 0
+line [SilkTop] 0.755 -0.5 0.755 0.5 0.008 0
+line [SilkTop] 0.755 0.5 -0.755 0.5 0.008 0
+line [SilkTop] -0.755 -0.11 -0.595 -0.11 0.008 0
+line [SilkTop] -0.595 0.11 -0.755 0.11 0.008 0
+line [SilkTop] -0.755 0.11 -0.755 0.5 0.008 0
+line [SilkTop] -0.755 -0.11 -0.755 -0.5 0.008 0
+arc [SilkTop] -0.595 0 0.11 270 90 0.008
+centroid [BoundaryTop] 0 0
+line [AssyDrwTop] -0.754446 0.110918 -0.754446 0.500918 0.008 0
+line [AssyDrwTop] 0.755554 0.500918 -0.754446 0.500918 0.008 0
+line [AssyDrwTop] 0.755554 -0.499082 0.755554 0.500918 0.008 0
+line [AssyDrwTop] -0.754446 -0.499082 0.755554 -0.499082 0.008 0
+line [AssyDrwTop] -0.754446 -0.109082 -0.754446 -0.499082 0.008 0
+line [AssyDrwTop] -0.754446 -0.109082 -0.594446 -0.109082 0.008 0
+line [AssyDrwTop] -0.594446 0.110918 -0.754446 0.110918 0.008 0
+arc [AssyDrwTop] -0.594446 0.000918485 0.11 270 90 0.008
+line [BoundaryTop] -0.8 -0.85 0.8 -0.85 0.008 0
+line [BoundaryTop] 0.8 -0.85 0.8 0.85 0.008 0
+line [BoundaryTop] 0.8 0.85 -0.8 0.85 0.008 0
+line [BoundaryTop] -0.8 0.85 -0.8 -0.85 0.008 0
+@pins
+pin 1 -0.295 -0.7 0 sq-220 smtTop
+pin 2 0.295 -0.7 0 sq-220 smtTop
+pin 4 -0.295 0.7 0 sq-220 smtTop
+pin 3 0.295 0.7 0 sq-220 smtTop
+*footprint M6001 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.275 0.165 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.275 0.165 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.275 -0.225 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.25 0
+line [SilkTop] 0.4 0 0.44 0 0.008 0
+line [SilkTop] 0.1 0 0.06 0 0.008 0
+line [AssyDrwTop] 0.4 0 0.44 0 0.008 0
+line [AssyDrwTop] 0.1 0 0.06 0 0.008 0
+line [BoundaryTop] -0.05 -0.18 -0.05 0.18 0.008 0
+line [BoundaryTop] 0.55 0.18 0.55 -0.18 0.008 0
+line [SilkTop] 0.1 0.25 0.4 0.25 0.008 0
+line [AssyDrwTop] 0.1 0.25 0.4 0.25 0.008 0
+line [SilkTop] 0.4 -0.25 0.1 -0.25 0.008 0
+line [AssyDrwTop] 0.4 -0.25 0.1 -0.25 0.008 0
+line [AssyDrwTop] 0.1 0.25 0.1 -0.25 0.008 0
+line [AssyDrwTop] 0.4 0.25 0.4 -0.25 0.008 0
+line [SilkTop] 0.1 0.25 0.1 -0.245 0.008 0
+line [SilkTop] 0.4 0.25 0.4 -0.25 0.008 0
+line [BoundaryTop] -0.05 -0.26 -0.05 0.26 0.008 0
+line [BoundaryTop] -0.05 0.26 0.55 0.26 0.008 0
+line [BoundaryTop] 0.55 0.26 0.55 -0.26 0.008 0
+line [BoundaryTop] 0.55 -0.26 -0.05 -0.26 0.008 0
+line [AssyDrwTop] 0.15 0.25 0.15 -0.25 0.008 0
+line [SilkTop] 0.15 0.25 0.15 -0.25 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 sq-085-065 thru
+pin 2 0.500000 0.000000 0.000000 rnd-085-065 thru
+*footprint P19304 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.07 0.21 4 0 0.0625 0.005 0 0 0
+@comptype 7
+display  [SilkTop] SilkTop 0.1 -0.26 4 0 0.0625 0.005 0 0 0
+@graphics
+arc [SilkTop] 0 0 0.171172 0 0 0.008
+arc [AssyDrwTop] 0 0 0.171172 0 0 0.008
+line [BoundaryTop] -0.19 -0.19 -0.19 0.19 0.008 0
+line [BoundaryTop] -0.19 0.19 0.35 0.19 0.008 0
+line [BoundaryTop] 0.35 0.19 0.35 -0.19 0.008 0
+line [BoundaryTop] 0.35 -0.19 -0.19 -0.19 0.008 0
+centroid [BoundaryTop] 0 0
+@pins
+pin 1 0 0 0 rnd-0.25x0.00 smtTop
+pin 2 0.3 0 0 rnd-070-050 thru
+*footprint P19404 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.275 0.085 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.275 0.085 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.275 -0.145 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.25 0
+line [SilkTop] 0.1 0.17 0.4 0.17 0.008 0
+line [AssyDrwTop] 0.1 0.17 0.4 0.17 0.008 0
+line [SilkTop] 0.4 -0.17 0.1 -0.17 0.008 0
+line [AssyDrwTop] 0.4 -0.17 0.1 -0.17 0.008 0
+line [SilkTop] 0.1 0.17 0.1 -0.17 0.008 0
+line [SilkTop] 0.4 0.17 0.4 -0.17 0.008 0
+line [AssyDrwTop] 0.1 0.17 0.1 -0.17 0.008 0
+line [AssyDrwTop] 0.4 0.17 0.4 -0.165 0.008 0
+line [SilkTop] 0.15 0.17 0.15 -0.165 0.008 0
+line [SilkTop] 0.4 0 0.44 0 0.008 0
+line [SilkTop] 0.1 0 0.06 0 0.008 0
+line [AssyDrwTop] 0.4 0 0.44 0 0.008 0
+line [AssyDrwTop] 0.1 0 0.06 0 0.008 0
+line [BoundaryTop] -0.05 -0.18 -0.05 0.18 0.008 0
+line [BoundaryTop] -0.05 0.18 0.55 0.18 0.008 0
+line [BoundaryTop] 0.55 0.18 0.55 -0.18 0.008 0
+line [BoundaryTop] 0.55 -0.18 -0.05 -0.18 0.008 0
+line [AssyDrwTop] 0.15 0.17 0.15 -0.165 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 sq-085-065 thru
+pin 2 0.500000 0.000000 0.000000 rnd-085-065 thru
+*footprint P26702 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.34 0.09 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.34 0.09 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.34 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.35 0
+line [SilkTop] 0.2 -0.07 0.2 0.07 0.008 0
+line [SilkTop] 0.2 0.07 0.5 0.07 0.008 0
+line [SilkTop] 0.5 0.07 0.5 -0.07 0.008 0
+line [SilkTop] 0.5 -0.07 0.2 -0.07 0.008 0
+line [AssyDrwTop] 0.2 -0.07 0.2 0.07 0.008 0
+line [AssyDrwTop] 0.2 0.07 0.5 0.07 0.008 0
+line [AssyDrwTop] 0.5 0.07 0.5 -0.07 0.008 0
+line [AssyDrwTop] 0.5 -0.07 0.2 -0.07 0.008 0
+line [AssyDrwTop] 0.5 0 0.65 0 0.008 0
+line [AssyDrwTop] 0.2 0 0.05 0 0.008 0
+line [SilkTop] 0.5 0 0.65 0 0.008 0
+line [SilkTop] 0.2 0 0.05 0 0.008 0
+line [SilkTop] 0.26 0.065 0.26 -0.065 0.015 0
+line [AssyDrwTop] 0.26 0.065 0.26 -0.065 0.015 0
+line [BoundaryTop] -0.05 -0.08 -0.05 0.08 0.008 0
+line [BoundaryTop] -0.05 0.08 0.75 0.08 0.008 0
+line [BoundaryTop] 0.75 0.08 0.75 -0.08 0.008 0
+line [BoundaryTop] 0.75 -0.08 -0.05 -0.08 0.008 0
+@pins
+pin 1 0.000000 0.000000 0.000000 sq-085-065 thru
+pin 2 0.700000 0.000000 0.000000 rnd-085-065 thru
+*footprint PACKAGE_A 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.24 0.09 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.24 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.25 0
+line [SilkTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [SilkTop] 0.1 0.07 0.4 0.07 0.008 0
+line [SilkTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [SilkTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [BoundaryTop] -0.04 -0.07 -0.04 0.07 0.008 0
+line [BoundaryTop] -0.04 0.07 0.54 0.07 0.008 0
+line [BoundaryTop] 0.54 0.07 0.54 -0.07 0.008 0
+line [BoundaryTop] 0.54 -0.07 -0.04 -0.07 0.008 0
+line [AssyDrwTop] 0.1 -0.07 0.1 0.07 0.008 0
+line [AssyDrwTop] 0.1 0.07 0.4 0.07 0.008 0
+line [AssyDrwTop] 0.4 0.07 0.4 -0.07 0.008 0
+line [AssyDrwTop] 0.4 -0.07 0.1 -0.07 0.008 0
+line [AssyDrwTop] 0.4 0 0.45 0 0.008 0
+line [AssyDrwTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.1 0 0.05 0 0.008 0
+line [SilkTop] 0.4 0 0.45 0 0.008 0
+line [SilkTop] 0.36 0.065 0.36 -0.065 0.015 0
+line [AssyDrwTop] 0.36 0.065 0.36 -0.065 0.015 0
+@pins
+pin 1 0.000000 0.000000 0.000000 sq-060-040 thru
+pin 2 0.500000 0.000000 0.000000 rnd-060-040 thru
+*footprint DO-204AG 2 thru
+@refdes 4
+display  [SilkTop] SilkTop 0.25 -0.13 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.25 -0.13 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.25 0.07 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] 0.31 -0.04 0.19 -0.04 0.008 0
+line [SilkTop] 0.19 -0.04 0.19 0.04 0.008 0
+line [SilkTop] 0.19 0.04 0.31 0.04 0.008 0
+line [SilkTop] 0.31 0.04 0.31 -0.04 0.008 0
+line [SilkTop] 0.21 0.04 0.21 -0.04 0.008 0
+line [SilkTop] 0.31 0 0.45 0 0.008 0
+line [SilkTop] 0.19 0 0.05 0 0.008 0
+line [AssyDrwTop] 0.19 -0.04 0.19 0.04 0.008 0
+line [AssyDrwTop] 0.19 0.04 0.31 0.04 0.008 0
+line [AssyDrwTop] 0.31 0.04 0.31 -0.04 0.008 0
+line [AssyDrwTop] 0.31 -0.04 0.19 -0.04 0.008 0
+line [AssyDrwTop] 0.21 0.04 0.21 -0.04 0.008 0
+line [AssyDrwTop] 0.31 0 0.45 0 0.008 0
+line [AssyDrwTop] 0.19 0 0.05 0 0.008 0
+centroid [BoundaryTop] 0.25 0
+line [BoundaryTop] -0.04 -0.04 -0.04 0.04 0.008 0
+line [BoundaryTop] -0.04 0.04 0.54 0.04 0.008 0
+line [BoundaryTop] 0.54 0.04 0.54 -0.04 0.008 0
+line [BoundaryTop] 0.54 -0.04 -0.04 -0.04 0.008 0
+@pins
+pin 2 0 0 0 rnd-065-035 thru
+pin 1 0.5 0 0 rnd-065-035 thru

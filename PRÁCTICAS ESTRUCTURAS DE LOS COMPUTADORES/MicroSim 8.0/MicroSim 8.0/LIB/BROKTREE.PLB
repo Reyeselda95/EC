@@ -1,0 +1,6935 @@
+*version 6.3 793081710
+@index
+symloc BT101_DIP 0 407
+symloc BT101_PLCC 407 449
+symloc BT102 856 285
+symloc BT103 1141 283
+symloc BT104 1424 267
+symloc BT105 1691 267
+symloc BT106 1958 233
+symloc BT107 2191 366
+symloc BT109 2557 397
+symloc BT110 2954 460
+symloc BT208_DIP 3414 264
+symloc BT208_PLCC 3678 287
+symloc BT424 3965 677
+symloc BT431 4642 488
+symloc BT438 5130 467
+symloc BT439 5597 341
+symloc BT450 5938 294
+symloc BT451 6232 816
+symloc BT453_DIP 7048 410
+symloc BT453_PLCC 7458 443
+symloc BT454 7901 446
+symloc BT457 8347 816
+symloc BT458 9163 816
+symloc BT459 9979 1096
+symloc BT461 11075 1172
+symloc BT473 12247 636
+symloc BT476_DIP 12883 282
+symloc BT476_PLCC 13165 435
+symloc BT478 13600 421
+symloc BT479 14021 444
+symloc BT492 14465 740
+symloc BT604 15205 273
+symloc BT605 15478 265
+symloc BT606 15743 275
+symloc BT687 16018 494
+symloc BT688 16512 340
+symloc BT101KC30 16852 407
+symloc BT101BC 17259 386
+symloc BT101SC/883 17645 409
+symloc BT101KPJ 18054 447
+symloc BT102BC 18501 287
+symloc BT102TC/883 18788 291
+symloc BT103BC 19079 285
+symloc BT103KC30 19364 287
+symloc BT104LC 19651 269
+symloc BT104KC 19920 269
+symloc BT105LC 20189 269
+symloc BT105KC 20458 269
+symloc BT106KC30 20727 237
+symloc BT106BC 20964 235
+symloc BT109KC 21199 399
+symloc BT110KPJ 21598 464
+symloc BT208KP 22062 262
+symloc BT208KPJ 22324 285
+symloc BT424KC 22609 679
+symloc BT431KC 23288 263
+symloc BT431KPJ 23551 266
+symloc BT438KC 23817 252
+symloc BT438KC/883 24069 256
+symloc BT438SC/883 24325 256
+symloc BT438KPJ 24581 256
+symloc BT439KC 24837 343
+symloc BT450KC30 25180 298
+symloc BT450KC50 25478 298
+symloc BT450KC66 25776 298
+symloc BT450KC70 26074 298
+symloc BT451KPJ80 26372 821
+symloc BT451KPJ110 27193 822
+symloc BT451KPJ125 28015 822
+symloc BT451KPJ135:BT451KPJ80 28837 36
+symloc BT453KP 28873 400
+symloc BT453KP66 29273 402
+symloc BT453KC 29675 401
+symloc BT453KC66 30076 403
+symloc BT453SC/883 30479 405
+symloc BT453KCJ60 30884 443
+symloc BT453KPJ 31327 441
+symloc BT453KPJ66 31768 443
+symloc BT454KPJ 32211 449
+symloc BT454KPJ135 32660 452
+symloc BT454KPJ170 33112 452
+symloc BT457KPJ80 33564 821
+symloc BT457KPJ110 34385 822
+symloc BT457KPJ125 35207 822
+symloc BT457KPJ135 36029 822
+symloc BT458KPJ80 36851 821
+symloc BT458KPJ110 37672 822
+symloc BT458LPJ110 38494 822
+symloc BT458KPJ125 39316 822
+symloc BT458LPJ125 40138 822
+symloc BT458LPJ135 40960 822
+symloc BT458LPJ165 41782 822
+symloc BT458LPJ170 42604 822
+symloc BT459KG80 43426 1100
+symloc BT459KG110 44526 1101
+symloc BT459KG135 45627 1101
+symloc BT459KG150 46728 1101
+symloc BT461KG80 47829 1176
+symloc BT461KG110 49005 1177
+symloc BT461KG170 50182 1177
+symloc BT473KPJ35 51359 641
+symloc BT473KPJ50 52000 641
+symloc BT473KPJ66 52641 641
+symloc BT473KPJ80 53282 641
+symloc BT473KPJ110 53923 642
+symloc BT476KP35 54565 282
+symloc BT476KP50 54847 282
+symloc BT476KP66 55129 282
+symloc BT476KPJ66 55411 435
+symloc BT478KPJ35 55846 426
+symloc BT478KPJ50 56272 426
+symloc BT478KPJ66 56698 426
+symloc BT478KPJ80 57124 426
+symloc BT479KPJ35 57550 449
+symloc BT479KPJ50 57999 449
+symloc BT479KPJ66 58448 449
+symloc BT479KPJ80 58897 449
+symloc BT492KG360 59346 745
+symloc BT604KPJ 60091 276
+symloc BT605KPJ 60367 268
+symloc BT606KPJ 60635 278
+symloc BT687BL 60913 192
+symloc BT687KS 61105 189
+symloc BT687BC 61294 191
+symloc BT688KSW 61485 191
+symloc BT688KP 61676 190
+symloc BT107BF400 61866 371
+*package BT101_DIP
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p R7 2
+p R6 3
+p R5 4
+p R4 5
+p R3 20
+p R2 19
+p R1 18
+p R0 17
+p G7 38
+p G6 39
+p G5 40
+p G4 1
+p G3 24
+p G2 23
+p G1 22
+p G0 21
+p B7 6
+p B6 7
+p B5 8
+p B4 9
+p B3 15
+p B2 14
+p B1 13
+p B0 12
+p VAA 10
+p VAA1 30
+p AGND 11
+p AGND1 29
+p AGND2 35
+p BLANK* 37
+p SYNC* 36
+p FS_ADJ 28
+p VREF 27
+p COMP 26
+p REF_WHITE 25
+p CLOCK 16
+p IOR 33
+p IOB 34
+p IOG 32
+p ISYNC 31
+*package BT101_PLCC
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p R7 35
+p R6 36
+p R5 37
+p R4 38
+p R3 11
+p R2 10
+p R1 9
+p R0 8
+p G7 31
+p G6 32
+p G5 33
+p G4 34
+p G3 15
+p G2 14
+p G1 13
+p G0 12
+p B7 39
+p B6 40
+p B5 41
+p B4 42
+p B3 6
+p B2 5
+p B1 4
+p B0 3
+p AGND 1
+p AGND1 2
+p AGND2 20
+p BLANK* 30
+p SYNC* 29
+p FS_ADJ 19
+p VREF 18
+p COMP 17
+p REF_WHITE 16
+p CLOCK 7
+p IOR 26
+p IOB 27
+p IOG 25
+p AGND3 21
+p AGND4 28
+p ISYNC 24
+p VAA2 22
+p VAA3 23
+p VAA 43
+p VAA1 44
+*package BT102
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p REF_WHT* 1
+p BLANK* 2
+p D7 3
+p D6 4
+p D5 5
+p D4 6
+p CLOCK 7
+p D3 8
+p D2 9
+p D1 10
+p D0 11
+p THR_SET 12
+p AGND 13
+p VREF 14
+p FS_ADJ 15
+p COMP 16
+p VAA0 17
+p AGND1 18
+p IOUT 19
+p IRET 20
+p SETUP 21
+p SYNC* 22
+p 10%OVRBRT* 23
+p VAA1 24
+*package BT103
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p R3 1
+p R2 2
+p R1 3
+p R0 4
+p G3 5
+p G2 6
+p G1 7
+p G0 8
+p B3 9
+p B2 10
+p B1 11
+p B0 12
+p VAA 16
+p VAA1 23
+p AGND 17
+p AGND1 18
+p AGND2 19
+p BLANK* 13
+p SYNC* 27
+p FS_ADJ 21
+p COMP1 20
+p COMP2 22
+p CLOCK 15
+p IOR 26
+p IOB 24
+p IOG 25
+*package BT104
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p D9 10
+p D8 11
+p D7 12
+p D6 13
+p D5 14
+p D4 15
+p CLOCK(N/C) 20
+p D3 16
+p D2 17
+p D1 18
+p D0 19
+p PS_ADJ 24
+p AGND 5
+p IREF 1
+p D11 8
+p D10 9
+p VAA 3
+p AGND1 7
+p IOUT 6
+p AGND2 21
+p VAA2 22
+p VAA3 23
+p COMP 2
+p VAA1 4
+*package BT105
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p D9 10
+p D8 11
+p D7 12
+p D6 13
+p D5 14
+p D4 15
+p CLOCK(N/C) 20
+p D3 16
+p D2 17
+p D1 18
+p D0 19
+p PS_ADJ 24
+p AGND 5
+p IREF 1
+p D11 8
+p D10 9
+p VAA 3
+p AGND1 7
+p IOUT 6
+p AGND2 21
+p VAA2 22
+p VAA3 23
+p COMP 2
+p VAA1 4
+*package BT106
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p D7 2
+p D6 3
+p D5 4
+p D4 5
+p CLOCK 1
+p D3 6
+p D2 7
+p D1 8
+p D0 9
+p FS_ADJ 13
+p AGND 17
+p SYNC* 20
+p VAA1 19
+p AGND1 18
+p IOUT 16
+p BLANK* 11
+p VREF 12
+p REF_WHT 10
+p COMP 14
+p VAA 15
+*package BT107
+@types 1
+g 1
+@pinout
+t CQFP32-HS
+g 1
+p DA7 25
+p DA6 27
+p DA5 29
+p DA4 31
+p DA3 1
+p DA2 3
+p DA1 5
+p DA0 7
+p DB7 26
+p DB6 28
+p DB5 30
+p DB4 32
+p DB3 2
+p DB2 4
+p DB1 6
+p DB0 8
+p CLOCK* 11
+p DIV2IN 12
+p DIV2OUT* 14
+p VAA 24
+p VAA1 15
+p AGND 13
+p AGND1 21
+p BLANK 9
+p SETUP 16
+p VREFOUT 17
+p VREFIN 18
+p COMP 20
+p FS_ADJ 19
+p CLOCK 10
+p IOUT 23
+p IOUT* 22
+*package BT109
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p R7 24
+p R6 25
+p R5 26
+p R4 27
+p R3 28
+p R2 29
+p R1 30
+p R0 31
+p G7 14
+p G6 15
+p G5 16
+p G4 17
+p G3 18
+p G2 19
+p G1 22
+p G0 23
+p B7 32
+p B6 33
+p B5 34
+p B4 35
+p B3 36
+p B2 37
+p B1 38
+p B0 39
+p VAA 1
+p VAA1 40
+p AGND 20
+p AGND1 21
+p IOR* 9
+p BLANK 4
+p SYNC 12
+p FS_ADJ 2
+p IOB* 7
+p COMP 3
+p IOG 10
+p CLOCK 13
+p IOR 8
+p IOB 6
+p IOG* 11
+p OVERLAY 5
+*package BT110
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p FS_ADJ1 26
+p FS_ADJ2 25
+p FS_ADJ3 24
+p FS_ADJ4 23
+p COMP1 30
+p COMP2 29
+p COMP3 28
+p COMP4 27
+p VREFIN 39
+p A2 22
+p WR* 6
+p RD* 7
+p VAA 43
+p VAA1 44
+p VAA2 2
+p VAA3 3
+p AGND 41
+p AGND1 42
+p AGND2 4
+p AGND3 5
+p VREFCOMP 1
+p CS* 19
+p IOUT8 31
+p IOUT7 32
+p IOUT6 33
+p A1 21
+p A0 20
+p D7 15
+p D6 14
+p D5 13
+p D4 12
+p D3 11
+p D2 10
+p D1 9
+p D0 8
+p IOUT5 34
+p IOUT4 35
+p IOUT3 36
+p IOUT2 37
+p IOUT1 38
+p VREFOUT 40
+*package BT208_DIP
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p REF+ 3
+p REF- 10
+p D7 16
+p D6 15
+p D5 14
+p D4 13
+p CLOCK 17
+p D3 21
+p D2 22
+p D1 23
+p D0 24
+p GND 7
+p LEVEL 11
+p ZERO(CLAMP) 12
+p OE* 18
+p VREF 4
+p VIN0 1
+p VIN1 2
+p VAA 5
+p GND1 8
+p GND2 19
+p VAA1 6
+p VAA2 20
+*package BT208_PLCC
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p REF+0 2
+p REF-0 11
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p CLOCK 20
+p D3 25
+p D2 26
+p D1 27
+p D0 28
+p GND 9
+p LEVEL 13
+p ZERO 15
+p OE* 21
+p VREF 4
+p VIN 1
+p GND1 22
+p VAA 8
+p CLAMP 14
+p R/2 6
+p REF+1 3
+p OVERFLOW 24
+p REF-1 12
+p VAA1 23
+*package BT424
+@types 1
+g 1
+@pinout
+t CPGA68
+g 1
+p D14 A10
+p EVCC A9
+p CLK A8
+p SEN* A7
+p D17 A6
+p D19 A5
+p D21 A4
+p D23 A3
+p LLD* A2
+p D13 B11
+p D15 B10
+p EVEE0 B9
+p CLK* B8
+p D16 B7
+p D18 B6
+p D20 B5
+p D22 B4
+p SLD* B3
+p D25 B2
+p D24 B1
+p D11 C11
+p D12 C10
+p D27 C2
+p D28 D1
+p A1 L10
+p EVCC3 L9
+p Q0 L8
+p Q2 L7
+p Q4 L6
+p EVEE1 L5
+p OE* L4
+p S1 L3
+p D39 L2
+p A2 K11
+p A3 K10
+p A0 K9
+p EVCC1 K8
+p Q1 K7
+p Q3 K6
+p EVCC2 K5
+p SIN K4
+p AEN* K3
+p S0 K2
+p D38 K1
+p D9 D11
+p D10 D10
+p D29 D2
+p D26 C1
+p D7 E11
+p D8 E10
+p D31 E2
+p D30 E1
+p D5 F11
+p D6 F10
+p D32 F2
+p TVCC F1
+p D3 G11
+p D4 G10
+p D33 G2
+p TGND G1
+p D1 H11
+p D2 H10
+p D35 H2
+p D34 H1
+p A4 J11
+p D0 J10
+p D37 J2
+p D36 J1
+*package BT431
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p VSYNC* 2
+p HSYNC* 3
+p D7 11
+p D6 10
+p D5 9
+p D4 8
+p CLOCK 1
+p D3 7
+p D2 6
+p D1 5
+p D0 4
+p CURD 18
+p GND1 22
+p OE* 23
+p R/W 14
+p CE* 13
+p GND0 12
+p CURE 17
+p CURA 21
+p C1 16
+p C0 15
+p CURB 20
+p CURC 19
+p VCC 24
+t PLCC28
+g 1
+p VSYNC* 2
+p HSYNC* 3
+p D7 14
+p D6 13
+p D5 11
+p D4 10
+p CLOCK 1
+p D3 9
+p D2 7
+p D1 5
+p D0 4
+p CURD 21
+p GND1 26
+p OE* 27
+p R/W 17
+p CE* 16
+p GND0 15
+p CURE 20
+p CURA 25
+p C1 19
+p C0 18
+p CURB 24
+p CURC 23
+p VCC 28
+*package BT438
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p OSC 9
+p OSC* 10
+p DIV0 1
+p DIV1 2
+p RESET* 4
+p ENABLE(S) 20
+p ENABLE(A) 19
+p VREF 3
+p CLOCK 7
+p CLOCK* 8
+p LDA 18
+p LDB 17
+p LDC 14
+p LDD 13
+p LD/2 12
+p LD/4 11
+p VCC0 5
+p VCC1 6
+p GND0 15
+p GND1 16
+t PLCC28
+g 1
+p OSC 13
+p OSC* 14
+p DIV0 1
+p DIV1 2
+p RESET* 4
+p ENABLE(S) 27
+p ENABLE(A) 26
+p VREF 3
+p CLOCK 11
+p CLOCK* 12
+p LDA 25
+p LDB 24
+p LDC 18
+p LDD 17
+p LD/2 16
+p LD/4 15
+p VCC0 5
+p VCC1 6
+p GND0 21
+p GND1 22
+*package BT439
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p OSC 20
+p OSC* 19
+p DIV0 1
+p DIV1 2
+p RESET* 4
+p VREF 3
+p CLOCK0 7
+p CLOCK0* 8
+p PLL0 18
+p PLL1 17
+p PLL2 16
+p PLL3 15
+p LD/2 27
+p LD/4 28
+p VCC0 5
+p VCC1 6
+p GND0 23
+p GND1 24
+p CLOCK1 9
+p CLOCK1* 10
+p CLOCK2 11
+p CLOCK2* 12
+p CLOCK3 13
+p CLOCK3* 14
+p LD 26
+p CLK/2 21
+p VCC2 22
+p GND2 25
+*package BT450
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p P3 1
+p P2 2
+p P1 3
+p P0 4
+p OL0 28
+p OL1 27
+p C0 15
+p CS* 16
+p RD* 13
+p WR* 14
+p BLNK* 26
+p SYNC* 25
+p FS_ADJ 24
+p COMP 23
+p CLK 5
+p GND 7
+p GND1 21
+p VAA 6
+p VAA1 22
+p IOR 20
+p IOG 19
+p IOB 18
+p D4 8
+p D3 9
+p D2 10
+p D1 11
+p D0 12
+p GND2 17
+*package BT451
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT453_DIP
+@types 1
+g 1
+@pinout
+t DIP40X,CDIP40X
+g 1
+p P0 18
+p P1 17
+p P2 16
+p P3 15
+p P4 14
+p P5 13
+p P6 12
+p P7 11
+p OL0 20
+p OL1 19
+p C0 24
+p C1 25
+p WR* 28
+p RD* 27
+p CS* 26
+p CLK 23
+p SYNC* 22
+p BLNK* 21
+p COMP 37
+p VREF 39
+p FS_ADJ 40
+p GND1 32
+p GND 9
+p VAA1 29
+p VAA2 30
+p VAA3 31
+p VAA 10
+p ISYNC 34
+p IOR 36
+p IOG 35
+p IOB 33
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p VAA4 38
+*package BT453_PLCC
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 20
+p P1 19
+p P2 18
+p P3 17
+p P4 16
+p P5 15
+p P6 14
+p P7 13
+p OL0 22
+p OL1 21
+p C0 26
+p C1 27
+p WR* 30
+p RD* 29
+p CS* 28
+p CLK 25
+p SYNC* 24
+p BLNK* 23
+p COMP 41
+p VREF 43
+p FS_ADJ 44
+p GND1 9
+p GND2 10
+p GND3 35
+p GND 36
+p VAA1 11
+p VAA2 12
+p VAA3 31
+p VAA4 32
+p VAA5 33
+p VAA 34
+p ISYNC 38
+p IOR 40
+p IOG 39
+p IOB 37
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p VAA6 42
+*package BT454
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0A 28
+p P0B 27
+p P0C 26
+p P0D 25
+p P1A 22
+p P1B 21
+p P1C 20
+p P1D 19
+p P2A 18
+p P2B 17
+p P2C 16
+p P2D 15
+p P3A 14
+p P3B 13
+p P3C 12
+p P3D 11
+p OLA 32
+p OLB 31
+p OLC 30
+p OLD 29
+p FS_ADJ 10
+p COMP 8
+p C0 2
+p C1 3
+p R/W 1
+p CE* 44
+p BLANK* 24
+p SYNC* 23
+p CLK 33
+p CLK* 34
+p VAA 36
+p VAA2 35
+p VAA1 9
+p GND 38
+p GND1 7
+p GND2 37
+p D3 43
+p D2 42
+p D1 41
+p D0 40
+p IOB 6
+p IOG 5
+p IOR 4
+p LDOUT 39
+*package BT457
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT458
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT459
+@types 1
+g 1
+@pinout
+t CPGA132/MO-066AF
+g 1
+p BLNK* L1
+p SYNC* K3
+p LD* A5
+p CLK K1
+p CLK* K2
+p P0A E3
+p P0B D2
+p P0C D1
+p P0D E2
+p P0E F3
+p P1A A1
+p P1B D3
+p P1C C2
+p P1D B1
+p P1E C1
+p P2A A3
+p P2B B3
+p P2C A2
+p P2D C3
+p P2E B2
+p P3A A8
+p P3B A7
+p P3C B7
+p P3D A6
+p P3E B6
+p P4A C9
+p P4B B9
+p P4C A9
+p P4D C8
+p P4E B8
+p P5A B11
+p P5B A11
+p P5C C10
+p P5D B10
+p P5E A10
+p P6A A14
+p P6B A13
+p P6C B12
+p P6D C11
+p P6E A12
+p P7A E13
+p P7B E12
+p P7C D14
+p P7D D13
+p P7E D12
+p OL0A E1
+p OL0B F2
+p OL0C F1
+p OL0D G3
+p OL0E G2
+p OL1A M1
+p OL1B L2
+p OL1C N1
+p OL1D L3
+p OL1E M2
+p OL2A M3
+p OL2B N2
+p OL2C P1
+p OL2D P2
+p OL2E N3
+p OL3A M4
+p OL3B P3
+p OL3C N4
+p OL3D P4
+p OL3E M5
+p OLEA N5
+p OLEB P5
+p OLEC M6
+p OLED N6
+p OLEE P6
+p COMP N9
+p FSADJ M10
+p VREF P9
+p CE* P13
+p R/W N12
+p C1 P12
+p C0 M11
+p IOG P10
+p PLL N11
+p D0 L13
+p D1 M14
+p D2 L12
+p D3 M13
+p D4 N14
+p D5 P14
+p D6 N13
+p D7 M12
+p VAA5 F12
+p VAA4 C6
+p VAA3 J3
+p VAA2 J2
+p VAA1 J1
+p VAA M9
+p GND1 H1
+p GND2 H2
+p GND3 H3
+p GND4 C7
+p GND5 G12
+p GND M8
+p IZE* B5
+p IOB P11
+p IOR N10
+p GND6 M7
+p GND7 N7
+p VAA7 P7
+p VAA8 P8
+p VAA9 N8
+*package BT461
+@types 1
+g 1
+@pinout
+t CPGA132/MO-066AF
+g 1
+p BLNK* L1
+p SYNC* K3
+p LD* A5
+p CLK K1
+p CLK* K2
+p P0A E3
+p P0B D2
+p P0C D1
+p P0D E2
+p P0E F3
+p P1A A1
+p P1B D3
+p P1C C2
+p P1D B1
+p P1E C1
+p P2A A3
+p P2B B3
+p P2C A2
+p P2D C3
+p P2E B2
+p P3A A8
+p P3B A7
+p P3C B7
+p P3D A6
+p P3E B6
+p P4A C9
+p P4B B9
+p P4C A9
+p P4D C8
+p P4E B8
+p P5A B11
+p P5B A11
+p P5C C10
+p P5D B10
+p P5E A10
+p P6A A14
+p P6B A13
+p P6C B12
+p P6D C11
+p P6E A12
+p P7A E13
+p P7B E12
+p P7C D14
+p P7D D13
+p P7E D12
+p P8A G14
+p P8B G13
+p P8C F14
+p P8D F13
+p P8E E14
+p P9A J13
+p P9B J14
+p P9C H12
+p P9D H13
+p P9E H14
+p ALTA L14
+p ALTB K12
+p ALTC K13
+p ALTD K14
+p ALTE J12
+p OL0A E1
+p OL0B F2
+p OL0C F1
+p OL0D G3
+p OL0E G2
+p OL1A M1
+p OL1B L2
+p OL1C N1
+p OL1D L3
+p OL1E M2
+p OL2A M3
+p OL2B N2
+p OL2C P1
+p OL2D P2
+p OL2E N3
+p OL3A M4
+p OL3B P3
+p OL3C N4
+p OL3D P4
+p OL3E M5
+p OL4A N5
+p OL4B P5
+p OL4C M6
+p OL4D N6
+p OL4E P6
+p COMP N9
+p FSADJ M10
+p VREF P9
+p CE* P13
+p R/W N12
+p C1 P12
+p C0 M11
+p IOUT P10
+p PLL N10
+p D0 L13
+p D1 M14
+p D2 L12
+p D3 M13
+p D4 N14
+p D5 P14
+p D6 N13
+p D7 M12
+p VAA5 F12
+p VAA4 C6
+p VAA3 J3
+p VAA2 J2
+p VAA1 J1
+p VAA M9
+p GND1 H1
+p GND2 H2
+p GND3 H3
+p GND4 C7
+p GND5 G12
+p GND M8
+*package BT473
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p B0 61
+p B1 62
+p B2 63
+p B3 64
+p B4 65
+p B5 66
+p B6 67
+p B7 68
+p G0 53
+p G1 54
+p G2 55
+p G3 56
+p G4 57
+p G5 58
+p G6 59
+p G7 60
+p R0 45
+p R1 46
+p R2 47
+p R3 48
+p R4 49
+p R5 50
+p R6 51
+p R7 52
+p S0 5
+p S1 6
+p BLK* 7
+p CLK 9
+p OL0 10
+p OL1 11
+p OL2 12
+p OL3 13
+p WR* 22
+p RD* 23
+p RS0 24
+p RS1 25
+p RS2 26
+p IREF 40
+p COMP 41
+p VREF 43
+p D0 14
+p D1 15
+p D2 16
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VREFOUT 44
+p OPA 42
+p IOB 39
+p IOG 38
+p IOR 37
+p CR3 30
+p CR2 29
+p CR1 28
+p CR0 27
+p GND1 3
+p GND2 4
+p GND3 31
+p GND 32
+p VAA 36
+p VAA5 35
+p VAA3 33
+p VAA4 34
+p VAA2 2
+p VAA1 1
+p SYNC* 8
+*package BT476_DIP
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p P0 5
+p P1 6
+p P2 7
+p P3 8
+p P4 9
+p P5 10
+p P6 11
+p P7 12
+p RS1 27
+p RS0 26
+p WR* 25
+p BLK* 16
+p RD* 15
+p IREF 4
+p CLK 13
+p IOR 1
+p IOG 2
+p IOB 3
+p D0 17
+p D1 18
+p D2 19
+p D3 20
+p D4 21
+p D5 22
+p D6 23
+p D7 24
+p VCC 28
+p GND 14
+*package BT476_PLCC
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p IREF 28
+p CLK 40
+p IOR 25
+p IOG 26
+p IOB 27
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p VAA 4
+p GND 2
+p VAA1 20
+p VAA2 21
+p VAA3 22
+p GND1 3
+p GND2 5
+p GND3 19
+p GND4 23
+p GND5 24
+p VREF 31
+p COMP 29
+p OPA 30
+p GND6 41
+p GND7 42
+p GND8 43
+p GND9 44
+*package BT478
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p VREF 31
+p COMP 29
+p IREF 28
+p SETUP 23
+p RS2 19
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p SYNC* 5
+p OL3 44
+p OL2 43
+p OL1 42
+p OL0 41
+p CLOCK 40
+p OPA 30
+p IOB 27
+p IOG 26
+p IOR 25
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p GND1 3
+p GND2 24
+p VAA 4
+p VAA1 22
+p VAA2 21
+p VAA3 20
+*package BT479
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p VREF 31
+p COMP 29
+p IREF 28
+p SETUP 23
+p RS2 19
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p SYNC 5
+p 479/471* 2
+p OL3 44
+p OL2 43
+p OL1 42
+p OL0 41
+p CLOCK 40
+p SENSE* 1
+p OPA 30
+p IOB 27
+p IOG 26
+p IOR 25
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p GND1 3
+p GND2 24
+p VAA 4
+p VAA1 22
+p VAA2 21
+p VAA3 20
+*package BT492
+@types 1
+g 1
+@pinout
+t CPGA68
+g 1
+p PA0 J2
+p PA1 K1
+p PA2 L2
+p PA3 L3
+p PA4 K3
+p PA5 L4
+p PA6 K4
+p PA7 L5
+p OLA K5
+p PB0 C1
+p PB1 B2
+p PB2 B1
+p PB3 A2
+p PB4 B3
+p PB5 A3
+p PB6 B4
+p PB7 A4
+p OLB B5
+p CS* B7
+p RDA* A7
+p RDB* B8
+p WR* A8
+p SETUP K7
+p COMP L8
+p VREFIN K8
+p FS_ADJ L9
+p CLK H1
+p CLK* G2
+p DIV2IN D1
+p DIV2IN* D2
+p BLANK H2
+p TTLGND1 F10
+p TTLGND2 E11
+p TTLGND3 A9
+p TTLGND B9
+p ECLVCC1 A6
+p ECLVCC2 F1
+p ECLVCC3 L6
+p ECLVCC4 K10
+p ECLVCC K11
+p DIV2OUT E2
+p DIV2OUT* E1
+p IOUT1 J10
+p IOUT2 J11
+p IOUT1* H10
+p IOUT2* H11
+p VREFOUT K9
+p D0 E10
+p D1 D11
+p D2 D10
+p D3 C11
+p D4 C10
+p D5 B11
+p D6 A10
+p D7 B10
+p VBB C2
+p AVEE G11
+p AVEE1 G10
+p DVEE L7
+p DVEE1 K6
+p DVEE5 A5
+p TTLVCC F11
+p DVEE2 G1
+p DVEE3 F2
+p DVEE4 B6
+*package BT604
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p D0 26
+p D1 27
+p D2 28
+p D3 1
+p D4 2
+p D5 3
+p D6 4
+p D7 5
+p TRIG 8
+p TRIG* 9
+p IEXT 12
+p COMP1 15
+p COMP2 17
+p CE* 16
+p OUT 22
+p OUT* 23
+p VBB 13
+p VEE1 6
+p VEE0 11
+p VCC 25
+p VCC2 20
+p VCC1 21
+p VEE3 7
+p VEE2 10
+p VCC3 24
+*package BT605
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p D0 26
+p D1 27
+p D2 28
+p D3 1
+p D4 2
+p D5 3
+p D6 4
+p D7 5
+p TRIG 7
+p TRIG* 8
+p IEXT 10
+p WRITE 11
+p WRITE* 13
+p COMP1 14
+p COMP2 18
+p CE* 15
+p OUT 23
+p OUT* 24
+p VBB 12
+p VEE1 6
+p VEE 9
+p VCC 25
+p VCC2 22
+p VCC1 21
+*package BT606
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p D0 26
+p D1 27
+p D2 28
+p D3 1
+p D4 2
+p D5 3
+p D6 4
+p D7 5
+p TRIG 7
+p TRIG* 8
+p IEXT 10
+p WRITE 11
+p WRITE* 13
+p COMP1 14
+p COMP2 18
+p CE* 15
+p OUT 23
+p OUT* 24
+p VBB 12
+p VEE1 6
+p VEE 9
+p VCC 25
+p VCC2 22
+p VCC1 21
+p CEXT 20
+*package BT687
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p AIN+ 10
+p AIN- 9
+p BIN+ 12
+p BIN- 13
+p ALE 5
+p ALE* 7
+p BLE 17
+p BLE* 15
+p QA 2
+p QA* 3
+p QB 20
+p QB* 19
+p VCC 14
+p VEE 8
+p GND 4
+p GND2 18
+t SO16
+g 1
+p AIN+ 8
+p AIN- 7
+p BIN+ 9
+p BIN- 10
+p ALE 4
+p ALE* 5
+p BLE 13
+p BLE* 12
+p QA 1
+p QA* 2
+p QB 16
+p QB* 15
+p VCC 11
+p VEE 6
+p GND 3
+p GND2 14
+t CDIP16
+g 1
+p AIN+ 8
+p AIN- 7
+p BIN+ 9
+p BIN- 10
+p ALE 4
+p ALE* 5
+p BLE 13
+p BLE* 12
+p QA 1
+p QA* 2
+p QB 16
+p QB* 15
+p VCC 11
+p VEE 6
+p GND 3
+p GND2 14
+*package BT688
+@types 1
+g 1
+@pinout
+t SO16W
+g 1
+p AIN+ 8
+p AIN- 7
+p BIN+ 9
+p BIN- 10
+p ALE 4
+p ALE* 5
+p BLE 13
+p BLE* 12
+p QA 1
+p QA* 2
+p QB 16
+p QB* 15
+p VCC 11
+p VEE 6
+p GND 3
+p GND2 14
+t DIP16
+g 1
+p AIN+ 8
+p AIN- 7
+p BIN+ 9
+p BIN- 10
+p ALE 4
+p ALE* 5
+p BLE 13
+p BLE* 12
+p QA 1
+p QA* 2
+p QB 16
+p QB* 15
+p VCC 11
+p VEE 6
+p GND 3
+p GND2 14
+*package BT101KC30
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p R7 2
+p R6 3
+p R5 4
+p R4 5
+p R3 20
+p R2 19
+p R1 18
+p R0 17
+p G7 38
+p G6 39
+p G5 40
+p G4 1
+p G3 24
+p G2 23
+p G1 22
+p G0 21
+p B7 6
+p B6 7
+p B5 8
+p B4 9
+p B3 15
+p B2 14
+p B1 13
+p B0 12
+p VAA 10
+p VAA1 30
+p AGND 11
+p AGND1 29
+p AGND2 35
+p BLANK* 37
+p SYNC* 36
+p FS_ADJ 28
+p VREF 27
+p COMP 26
+p REF_WHITE 25
+p CLOCK 16
+p IOR 33
+p IOB 34
+p IOG 32
+p ISYNC 31
+*package BT101BC
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p R7 2
+p R6 3
+p R5 4
+p R4 5
+p R3 20
+p R2 19
+p R1 18
+p R0 17
+p G7 38
+p G6 39
+p G5 40
+p G4 1
+p G3 24
+p G2 23
+p G1 22
+p G0 21
+p B7 6
+p B6 7
+p B5 8
+p B4 9
+p B3 15
+p B2 14
+p B1 13
+p B0 12
+p VAA1 30
+p AGND1 29
+p AGND2 35
+p BLANK* 37
+p SYNC* 36
+p FS_ADJ 28
+p VREF 27
+p COMP 26
+p REF_WHITE 25
+p CLOCK 16
+p IOR 33
+p IOB 34
+p IOG 32
+p ISYNC 31
+*package BT101SC/883
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p R7 2
+p R6 3
+p R5 4
+p R4 5
+p R3 20
+p R2 19
+p R1 18
+p R0 17
+p G7 38
+p G6 39
+p G5 40
+p G4 1
+p G3 24
+p G2 23
+p G1 22
+p G0 21
+p B7 6
+p B6 7
+p B5 8
+p B4 9
+p B3 15
+p B2 14
+p B1 13
+p B0 12
+p VAA 10
+p VAA1 30
+p AGND 11
+p AGND1 29
+p AGND2 35
+p BLANK* 37
+p SYNC* 36
+p FS_ADJ 28
+p VREF 27
+p COMP 26
+p REF_WHITE 25
+p CLOCK 16
+p IOR 33
+p IOB 34
+p IOG 32
+p ISYNC 31
+*package BT101KPJ
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p R7 35
+p R6 36
+p R5 37
+p R4 38
+p R3 11
+p R2 10
+p R1 9
+p R0 8
+p G7 31
+p G6 32
+p G5 33
+p G4 34
+p G3 15
+p G2 14
+p G1 13
+p G0 12
+p B7 39
+p B6 40
+p B5 41
+p B4 42
+p B3 6
+p B2 5
+p B1 4
+p B0 3
+p AGND 1
+p AGND1 2
+p AGND2 20
+p BLANK* 30
+p SYNC* 29
+p FS_ADJ 19
+p VREF 18
+p COMP 17
+p REF_WHITE 16
+p CLOCK 7
+p IOR 26
+p IOB 27
+p IOG 25
+p AGND3 21
+p AGND4 28
+p ISYNC 24
+p VAA2 22
+p VAA3 23
+p VAA 43
+p VAA1 44
+*package BT102BC
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p REF_WHT* 1
+p BLANK* 2
+p D7 3
+p D6 4
+p D5 5
+p D4 6
+p CLOCK 7
+p D3 8
+p D2 9
+p D1 10
+p D0 11
+p THR_SET 12
+p AGND 13
+p VREF 14
+p FS_ADJ 15
+p COMP 16
+p VAA0 17
+p AGND1 18
+p IOUT 19
+p IRET 20
+p SETUP 21
+p SYNC* 22
+p 10%OVRBRT* 23
+p VAA1 24
+*package BT102TC/883
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p REF_WHT* 1
+p BLANK* 2
+p D7 3
+p D6 4
+p D5 5
+p D4 6
+p CLOCK 7
+p D3 8
+p D2 9
+p D1 10
+p D0 11
+p THR_SET 12
+p AGND 13
+p VREF 14
+p FS_ADJ 15
+p COMP 16
+p VAA0 17
+p AGND1 18
+p IOUT 19
+p IRET 20
+p SETUP 21
+p SYNC* 22
+p 10%OVRBRT* 23
+p VAA1 24
+*package BT103BC
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p R3 1
+p R2 2
+p R1 3
+p R0 4
+p G3 5
+p G2 6
+p G1 7
+p G0 8
+p B3 9
+p B2 10
+p B1 11
+p B0 12
+p VAA 16
+p VAA1 23
+p AGND 17
+p AGND1 18
+p AGND2 19
+p BLANK* 13
+p SYNC* 27
+p FS_ADJ 21
+p COMP1 20
+p COMP2 22
+p CLOCK 15
+p IOR 26
+p IOB 24
+p IOG 25
+*package BT103KC30
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p R3 1
+p R2 2
+p R1 3
+p R0 4
+p G3 5
+p G2 6
+p G1 7
+p G0 8
+p B3 9
+p B2 10
+p B1 11
+p B0 12
+p VAA 16
+p VAA1 23
+p AGND 17
+p AGND1 18
+p AGND2 19
+p BLANK* 13
+p SYNC* 27
+p FS_ADJ 21
+p COMP1 20
+p COMP2 22
+p CLOCK 15
+p IOR 26
+p IOB 24
+p IOG 25
+*package BT104LC
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p D9 10
+p D8 11
+p D7 12
+p D6 13
+p D5 14
+p D4 15
+p CLOCK(N/C) 20
+p D3 16
+p D2 17
+p D1 18
+p D0 19
+p PS_ADJ 24
+p AGND 5
+p IREF 1
+p D11 8
+p D10 9
+p VAA 3
+p AGND1 7
+p IOUT 6
+p AGND2 21
+p VAA2 22
+p VAA3 23
+p COMP 2
+p VAA1 4
+*package BT104KC
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p D9 10
+p D8 11
+p D7 12
+p D6 13
+p D5 14
+p D4 15
+p CLOCK(N/C) 20
+p D3 16
+p D2 17
+p D1 18
+p D0 19
+p PS_ADJ 24
+p AGND 5
+p IREF 1
+p D11 8
+p D10 9
+p VAA 3
+p AGND1 7
+p IOUT 6
+p AGND2 21
+p VAA2 22
+p VAA3 23
+p COMP 2
+p VAA1 4
+*package BT105LC
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p D9 10
+p D8 11
+p D7 12
+p D6 13
+p D5 14
+p D4 15
+p CLOCK(N/C) 20
+p D3 16
+p D2 17
+p D1 18
+p D0 19
+p PS_ADJ 24
+p AGND 5
+p IREF 1
+p D11 8
+p D10 9
+p VAA 3
+p AGND1 7
+p IOUT 6
+p AGND2 21
+p VAA2 22
+p VAA3 23
+p COMP 2
+p VAA1 4
+*package BT105KC
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p D9 10
+p D8 11
+p D7 12
+p D6 13
+p D5 14
+p D4 15
+p CLOCK(N/C) 20
+p D3 16
+p D2 17
+p D1 18
+p D0 19
+p PS_ADJ 24
+p AGND 5
+p IREF 1
+p D11 8
+p D10 9
+p VAA 3
+p AGND1 7
+p IOUT 6
+p AGND2 21
+p VAA2 22
+p VAA3 23
+p COMP 2
+p VAA1 4
+*package BT106KC30
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p D7 2
+p D6 3
+p D5 4
+p D4 5
+p CLOCK 1
+p D3 6
+p D2 7
+p D1 8
+p D0 9
+p FS_ADJ 13
+p AGND 17
+p SYNC* 20
+p VAA1 19
+p AGND1 18
+p IOUT 16
+p BLANK* 11
+p VREF 12
+p REF_WHT 10
+p COMP 14
+p VAA 15
+*package BT106BC
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p D7 2
+p D6 3
+p D5 4
+p D4 5
+p CLOCK 1
+p D3 6
+p D2 7
+p D1 8
+p D0 9
+p FS_ADJ 13
+p AGND 17
+p SYNC* 20
+p VAA1 19
+p AGND1 18
+p IOUT 16
+p BLANK* 11
+p VREF 12
+p REF_WHT 10
+p COMP 14
+p VAA 15
+*package BT109KC
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p R7 24
+p R6 25
+p R5 26
+p R4 27
+p R3 28
+p R2 29
+p R1 30
+p R0 31
+p G7 14
+p G6 15
+p G5 16
+p G4 17
+p G3 18
+p G2 19
+p G1 22
+p G0 23
+p B7 32
+p B6 33
+p B5 34
+p B4 35
+p B3 36
+p B2 37
+p B1 38
+p B0 39
+p VAA 1
+p VAA1 40
+p AGND 20
+p AGND1 21
+p IOR* 9
+p BLANK 4
+p SYNC 12
+p FS_ADJ 2
+p IOB* 7
+p COMP 3
+p IOG 10
+p CLOCK 13
+p IOR 8
+p IOB 6
+p IOG* 11
+p OVERLAY 5
+*package BT110KPJ
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p FS_ADJ1 26
+p FS_ADJ2 25
+p FS_ADJ3 24
+p FS_ADJ4 23
+p COMP1 30
+p COMP2 29
+p COMP3 28
+p COMP4 27
+p VREFIN 39
+p A2 22
+p W/R* 6
+p RD* 7
+p VAA 43
+p VAA1 44
+p VAA2 2
+p VAA3 3
+p AGND 41
+p AGND1 42
+p AGND2 4
+p AGND3 5
+p VREFCOMP 1
+p CS* 19
+p IOUT8 31
+p IOUT7 32
+p IOUT6 33
+p A1 21
+p A0 20
+p D7 15
+p D6 14
+p D5 13
+p D4 12
+p D3 11
+p D2 10
+p D1 9
+p D0 8
+p IOUT5 34
+p IOUT4 35
+p IOUT3 36
+p IOUT2 37
+p IOUT1 38
+p VREFOUT 40
+*package BT208KP
+@types 1
+g 1
+@pinout
+t DIP24
+g 1
+p REF+ 3
+p REF- 10
+p D7 16
+p D6 15
+p D5 14
+p D4 13
+p CLOCK 17
+p D3 21
+p D2 22
+p D1 23
+p D0 24
+p GND 7
+p LEVEL 11
+p ZERO(CLAMP) 12
+p OE* 18
+p VREF 4
+p VIN0 1
+p VIN1 2
+p VAA 5
+p GND1 8
+p GND2 19
+p VAA1 6
+p VAA2 20
+*package BT208KPJ
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p REF+0 2
+p REF-0 11
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p CLOCK 20
+p D3 25
+p D2 26
+p D1 27
+p D0 28
+p GND 9
+p LEVEL 13
+p ZERO 15
+p OE* 21
+p VREF 4
+p VIN 1
+p GND1 22
+p VAA 8
+p CLAMP 14
+p R/2 6
+p REF+1 3
+p OVERFLOW 24
+p REF-1 12
+p VAA1 23
+*package BT424KC
+@types 1
+g 1
+@pinout
+t CPGA68
+g 1
+p D14 A10
+p EVCC A9
+p CLK A8
+p SEN* A7
+p D17 A6
+p D19 A5
+p D21 A4
+p D23 A3
+p LLD* A2
+p D13 B11
+p D15 B10
+p EVEE0 B9
+p CLK* B8
+p D16 B7
+p D18 B6
+p D20 B5
+p D22 B4
+p SLD* B3
+p D25 B2
+p D24 B1
+p D11 C11
+p D12 C10
+p D27 C2
+p D28 D1
+p A1 L10
+p EVCC3 L9
+p Q0 L8
+p Q2 L7
+p Q4 L6
+p EVEE1 L5
+p OE* L4
+p S1 L3
+p D39 L2
+p A2 K11
+p A3 K10
+p A0 K9
+p EVCC1 K8
+p Q1 K7
+p Q3 K6
+p EVCC2 K5
+p SIN K4
+p AEN* K3
+p S0 K2
+p D38 K1
+p D9 D11
+p D10 D10
+p D29 D2
+p D26 C1
+p D7 E11
+p D8 E10
+p D31 E2
+p D30 E1
+p D5 F11
+p D6 F10
+p D32 F2
+p TVCC F1
+p D3 G11
+p D4 G10
+p D33 G2
+p TGND G1
+p D1 H11
+p D2 H10
+p D35 H2
+p D34 H1
+p A4 J11
+p D0 J10
+p D37 J2
+p D36 J1
+*package BT431KC
+@types 1
+g 1
+@pinout
+t CDIP24
+g 1
+p VSYNC* 2
+p HSYNC* 3
+p D7 11
+p D6 10
+p D5 9
+p D4 8
+p CLOCK 1
+p D3 7
+p D2 6
+p D1 5
+p D0 4
+p CURD 18
+p GND1 22
+p OE* 23
+p R/W 14
+p CE* 13
+p GND0 12
+p CURE 17
+p CURA 21
+p C1 16
+p C0 15
+p CURB 20
+p CURC 19
+p VCC 24
+*package BT431KPJ
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p VSYNC* 2
+p HSYNC* 3
+p D7 14
+p D6 13
+p D5 11
+p D4 10
+p CLOCK 1
+p D3 9
+p D2 7
+p D1 5
+p D0 4
+p CURD 21
+p GND1 26
+p OE* 27
+p R/W 17
+p CE* 16
+p GND0 15
+p CURE 20
+p CURA 25
+p C1 19
+p C0 18
+p CURB 24
+p CURC 23
+p VCC 28
+*package BT438KC
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p OSC 9
+p OSC* 10
+p DIV0 1
+p DIV1 2
+p RESET* 4
+p ENABLE(S) 20
+p ENABLE(A) 19
+p VREF 3
+p CLOCK 7
+p CLOCK* 8
+p LDA 18
+p LDB 17
+p LDC 14
+p LDD 13
+p LD/2 12
+p LD/4 11
+p VCC0 5
+p VCC1 6
+p GND0 15
+p GND1 16
+*package BT438KC/883
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p OSC 9
+p OSC* 10
+p DIV0 1
+p DIV1 2
+p RESET* 4
+p ENABLE(S) 20
+p ENABLE(A) 19
+p VREF 3
+p CLOCK 7
+p CLOCK* 8
+p LDA 18
+p LDB 17
+p LDC 14
+p LDD 13
+p LD/2 12
+p LD/4 11
+p VCC0 5
+p VCC1 6
+p GND0 15
+p GND1 16
+*package BT438SC/883
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p OSC 9
+p OSC* 10
+p DIV0 1
+p DIV1 2
+p RESET* 4
+p ENABLE(S) 20
+p ENABLE(A) 19
+p VREF 3
+p CLOCK 7
+p CLOCK* 8
+p LDA 18
+p LDB 17
+p LDC 14
+p LDD 13
+p LD/2 12
+p LD/4 11
+p VCC0 5
+p VCC1 6
+p GND0 15
+p GND1 16
+*package BT438KPJ
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p OSC 13
+p OSC* 14
+p DIV0 1
+p DIV1 2
+p RESET* 4
+p ENABLE(S) 27
+p ENABLE(A) 26
+p VREF 3
+p CLOCK 11
+p CLOCK* 12
+p LDA 25
+p LDB 24
+p LDC 18
+p LDD 17
+p LD/2 16
+p LD/4 15
+p VCC0 5
+p VCC1 6
+p GND0 21
+p GND1 22
+*package BT439KC
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p OSC 20
+p OSC* 19
+p DIV0 1
+p DIV1 2
+p RESET* 4
+p VREF 3
+p CLOCK0 7
+p CLOCK0* 8
+p PLL0 18
+p PLL1 17
+p PLL2 16
+p PLL3 15
+p LD/2 27
+p LD/4 28
+p VCC0 5
+p VCC1 6
+p GND0 23
+p GND1 24
+p CLOCK1 9
+p CLOCK1* 10
+p CLOCK2 11
+p CLOCK2* 12
+p CLOCK3 13
+p CLOCK3* 14
+p LD 26
+p CLK/2 21
+p VCC2 22
+p GND2 25
+*package BT450KC30
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p P3 1
+p P2 2
+p P1 3
+p P0 4
+p OL0 28
+p OL1 27
+p C0 15
+p CS* 16
+p RD* 13
+p WR* 14
+p BLNK* 26
+p SYNC* 25
+p FS_ADJ 24
+p COMP 23
+p CLK 5
+p GND 7
+p GND1 21
+p VAA 6
+p VAA1 22
+p IOR 20
+p IOG 19
+p IOB 18
+p D4 8
+p D3 9
+p D2 10
+p D1 11
+p D0 12
+p GND2 17
+*package BT450KC50
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p P3 1
+p P2 2
+p P1 3
+p P0 4
+p OL0 28
+p OL1 27
+p C0 15
+p CS* 16
+p RD* 13
+p WR* 14
+p BLNK* 26
+p SYNC* 25
+p FS_ADJ 24
+p COMP 23
+p CLK 5
+p GND 7
+p GND1 21
+p VAA 6
+p VAA1 22
+p IOR 20
+p IOG 19
+p IOB 18
+p D4 8
+p D3 9
+p D2 10
+p D1 11
+p D0 12
+p GND2 17
+*package BT450KC66
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p P3 1
+p P2 2
+p P1 3
+p P0 4
+p OL0 28
+p OL1 27
+p C0 15
+p CS* 16
+p RD* 13
+p WR* 14
+p BLNK* 26
+p SYNC* 25
+p FS_ADJ 24
+p COMP 23
+p CLK 5
+p GND 7
+p GND1 21
+p VAA 6
+p VAA1 22
+p IOR 20
+p IOG 19
+p IOB 18
+p D4 8
+p D3 9
+p D2 10
+p D1 11
+p D0 12
+p GND2 17
+*package BT450KC70
+@types 1
+g 1
+@pinout
+t CDIP28X
+g 1
+p P3 1
+p P2 2
+p P1 3
+p P0 4
+p OL0 28
+p OL1 27
+p C0 15
+p CS* 16
+p RD* 13
+p WR* 14
+p BLNK* 26
+p SYNC* 25
+p FS_ADJ 24
+p COMP 23
+p CLK 5
+p GND 7
+p GND1 21
+p VAA 6
+p VAA1 22
+p IOR 20
+p IOG 19
+p IOB 18
+p D4 8
+p D3 9
+p D2 10
+p D1 11
+p D0 12
+p GND2 17
+*package BT451KPJ80
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT451KPJ110
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT451KPJ125
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT451KPJ135 ako BT451KPJ80
+*package BT453KP
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p P0 18
+p P1 17
+p P2 16
+p P3 15
+p P4 14
+p P5 13
+p P6 12
+p P7 11
+p OL0 20
+p OL1 19
+p C0 24
+p C1 25
+p WR* 28
+p RD* 27
+p CS* 26
+p CLK 23
+p SYNC* 22
+p BLNK* 21
+p COMP 37
+p VREF 39
+p FS_ADJ 40
+p GND1 32
+p GND 9
+p VAA1 29
+p VAA2 30
+p VAA3 31
+p VAA 10
+p ISYNC 34
+p IOR 36
+p IOG 35
+p IOB 33
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p VAA4 38
+*package BT453KP66
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p P0 18
+p P1 17
+p P2 16
+p P3 15
+p P4 14
+p P5 13
+p P6 12
+p P7 11
+p OL0 20
+p OL1 19
+p C0 24
+p C1 25
+p WR* 28
+p RD* 27
+p CS* 26
+p CLK 23
+p SYNC* 22
+p BLNK* 21
+p COMP 37
+p VREF 39
+p FS_ADJ 40
+p GND1 32
+p GND 9
+p VAA1 29
+p VAA2 30
+p VAA3 31
+p VAA 10
+p ISYNC 34
+p IOR 36
+p IOG 35
+p IOB 33
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p VAA4 38
+*package BT453KC
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p P0 18
+p P1 17
+p P2 16
+p P3 15
+p P4 14
+p P5 13
+p P6 12
+p P7 11
+p OL0 20
+p OL1 19
+p C0 24
+p C1 25
+p WR* 28
+p RD* 27
+p CS* 26
+p CLK 23
+p SYNC* 22
+p BLNK* 21
+p COMP 37
+p VREF 39
+p FS_ADJ 40
+p GND1 32
+p GND 9
+p VAA1 29
+p VAA2 30
+p VAA3 31
+p VAA 10
+p ISYNC 34
+p IOR 36
+p IOG 35
+p IOB 33
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p VAA4 38
+*package BT453KC66
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p P0 18
+p P1 17
+p P2 16
+p P3 15
+p P4 14
+p P5 13
+p P6 12
+p P7 11
+p OL0 20
+p OL1 19
+p C0 24
+p C1 25
+p WR* 28
+p RD* 27
+p CS* 26
+p CLK 23
+p SYNC* 22
+p BLNK* 21
+p COMP 37
+p VREF 39
+p FS_ADJ 40
+p GND1 32
+p GND 9
+p VAA1 29
+p VAA2 30
+p VAA3 31
+p VAA 10
+p ISYNC 34
+p IOR 36
+p IOG 35
+p IOB 33
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p VAA4 38
+*package BT453SC/883
+@types 1
+g 1
+@pinout
+t CDIP40X
+g 1
+p P0 18
+p P1 17
+p P2 16
+p P3 15
+p P4 14
+p P5 13
+p P6 12
+p P7 11
+p OL0 20
+p OL1 19
+p C0 24
+p C1 25
+p WR* 28
+p RD* 27
+p CS* 26
+p CLK 23
+p SYNC* 22
+p BLNK* 21
+p COMP 37
+p VREF 39
+p FS_ADJ 40
+p GND1 32
+p GND 9
+p VAA1 29
+p VAA2 30
+p VAA3 31
+p VAA 10
+p ISYNC 34
+p IOR 36
+p IOG 35
+p IOB 33
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p VAA4 38
+*package BT453KCJ60
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 20
+p P1 19
+p P2 18
+p P3 17
+p P4 16
+p P5 15
+p P6 14
+p P7 13
+p OL0 22
+p OL1 21
+p C0 26
+p C1 27
+p WR* 30
+p RD* 29
+p CS* 28
+p CLK 25
+p SYNC* 24
+p BLNK* 23
+p COMP 41
+p VREF 43
+p FS_ADJ 44
+p GND1 9
+p GND2 10
+p GND3 35
+p GND 36
+p VAA1 11
+p VAA2 12
+p VAA3 31
+p VAA4 32
+p VAA5 33
+p VAA 34
+p ISYNC 38
+p IOR 40
+p IOG 39
+p IOB 37
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p VAA6 42
+*package BT453KPJ
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 20
+p P1 19
+p P2 18
+p P3 17
+p P4 16
+p P5 15
+p P6 14
+p P7 13
+p OL0 22
+p OL1 21
+p C0 26
+p C1 27
+p WR* 30
+p RD* 29
+p CS* 28
+p CLK 25
+p SYNC* 24
+p BLNK* 23
+p COMP 41
+p VREF 43
+p FS_ADJ 44
+p GND1 9
+p GND2 10
+p GND3 35
+p GND 36
+p VAA1 11
+p VAA2 12
+p VAA3 31
+p VAA4 32
+p VAA5 33
+p VAA 34
+p ISYNC 38
+p IOR 40
+p IOG 39
+p IOB 37
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p VAA6 42
+*package BT453KPJ66
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 20
+p P1 19
+p P2 18
+p P3 17
+p P4 16
+p P5 15
+p P6 14
+p P7 13
+p OL0 22
+p OL1 21
+p C0 26
+p C1 27
+p WR* 30
+p RD* 29
+p CS* 28
+p CLK 25
+p SYNC* 24
+p BLNK* 23
+p COMP 41
+p VREF 43
+p FS_ADJ 44
+p GND1 9
+p GND2 10
+p GND3 35
+p GND 36
+p VAA1 11
+p VAA2 12
+p VAA3 31
+p VAA4 32
+p VAA5 33
+p VAA 34
+p ISYNC 38
+p IOR 40
+p IOG 39
+p IOB 37
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p VAA6 42
+*package BT454KPJ
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0A 28
+p P0B 27
+p P0C 26
+p P0D 25
+p P1A 22
+p P1B 21
+p P1C 20
+p P1D 19
+p P2A 18
+p P2B 17
+p P2C 16
+p P2D 15
+p P3A 14
+p P3B 13
+p P3C 12
+p P3D 11
+p OLA 32
+p OLB 31
+p OLC 30
+p OLD 29
+p FS_ADJ 10
+p COMP 8
+p C0 2
+p C1 3
+p R/W 1
+p CE* 44
+p BLANK* 24
+p SYNC* 23
+p CLK 33
+p CLK* 34
+p VAA 36
+p VAA2 35
+p VAA1 9
+p GND 38
+p GND1 7
+p GND2 37
+p D3 43
+p D2 42
+p D1 41
+p D0 40
+p IOB 6
+p IOG 5
+p IOR 4
+p LDOUT 39
+*package BT454KPJ135
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0A 28
+p P0B 27
+p P0C 26
+p P0D 25
+p P1A 22
+p P1B 21
+p P1C 20
+p P1D 19
+p P2A 18
+p P2B 17
+p P2C 16
+p P2D 15
+p P3A 14
+p P3B 13
+p P3C 12
+p P3D 11
+p OLA 32
+p OLB 31
+p OLC 30
+p OLD 29
+p FS_ADJ 10
+p COMP 8
+p C0 2
+p C1 3
+p R/W 1
+p CE* 44
+p BLANK* 24
+p SYNC* 23
+p CLK 33
+p CLK* 34
+p VAA 36
+p VAA2 35
+p VAA1 9
+p GND 38
+p GND1 7
+p GND2 37
+p D3 43
+p D2 42
+p D1 41
+p D0 40
+p IOB 6
+p IOG 5
+p IOR 4
+p LDOUT 39
+*package BT454KPJ170
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0A 28
+p P0B 27
+p P0C 26
+p P0D 25
+p P1A 22
+p P1B 21
+p P1C 20
+p P1D 19
+p P2A 18
+p P2B 17
+p P2C 16
+p P2D 15
+p P3A 14
+p P3B 13
+p P3C 12
+p P3D 11
+p OLA 32
+p OLB 31
+p OLC 30
+p OLD 29
+p FS_ADJ 10
+p COMP 8
+p C0 2
+p C1 3
+p R/W 1
+p CE* 44
+p BLANK* 24
+p SYNC* 23
+p CLK 33
+p CLK* 34
+p VAA 36
+p VAA2 35
+p VAA1 9
+p GND 38
+p GND1 7
+p GND2 37
+p D3 43
+p D2 42
+p D1 41
+p D0 40
+p IOB 6
+p IOG 5
+p IOR 4
+p LDOUT 39
+*package BT457KPJ80
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT457KPJ110
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT457KPJ125
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT457KPJ135
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT458KPJ80
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT458KPJ110
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT458LPJ110
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT458KPJ125
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT458LPJ125
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT458LPJ135
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT458LPJ165
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT458LPJ170
+@types 1
+g 1
+@pinout
+t PLCC84
+g 1
+p BLANK* 59
+p SYNC* 58
+p LD* 60
+p CLK* 61
+p CLK 62
+p P0A 1
+p P0B 84
+p P0C 83
+p P0D 82
+p P0E 81
+p P1A 80
+p P1B 79
+p P1C 78
+p P1D 77
+p P1E 76
+p P2A 75
+p P2B 74
+p P2C 73
+p P2D 72
+p P2E 71
+p P3A 70
+p P3B 69
+p P3C 68
+p P3D 67
+p P3E 66
+p P4A 57
+p P4B 56
+p P4C 55
+p P4D 54
+p P4E 53
+p P5A 52
+p P5B 51
+p P5C 50
+p P5D 49
+p P5E 48
+p P6A 47
+p P6B 46
+p P6C 45
+p P6D 44
+p P6E 43
+p P7A 42
+p P7B 41
+p P7C 40
+p P7D 39
+p P7E 38
+p OL0A 11
+p OL0B 10
+p OL0C 9
+p OL0D 8
+p OL0E 7
+p OL1A 6
+p OL1B 5
+p OL1C 4
+p OL1D 3
+p OL1E 2
+p COMP 32
+p FS_ADJ 31
+p VREF 33
+p CE* 20
+p R/W 26
+p C1 25
+p C0 24
+p VAA5 63
+p VAA3 35
+p VAA1 23
+p VAA 64
+p VAA2 27
+p VAA4 37
+p GND1 21
+p GND2 22
+p GND3 34
+p GND 65
+p GND4 36
+p D7 19
+p D6 18
+p D5 17
+p D4 16
+p D3 15
+p D2 14
+p D1 13
+p D0 12
+p IOR 28
+p IOG 29
+p IOB 30
+*package BT459KG80
+@types 1
+g 1
+@pinout
+t CPGA132/MO-066AF
+g 1
+p BLNK* L1
+p SYNC* K3
+p LD* A5
+p CLK K1
+p CLK* K2
+p P0A E3
+p P0B D2
+p P0C D1
+p P0D E2
+p P0E F3
+p P1A A1
+p P1B D3
+p P1C C2
+p P1D B1
+p P1E C1
+p P2A A3
+p P2B B3
+p P2C A2
+p P2D C3
+p P2E B2
+p P3A A8
+p P3B A7
+p P3C B7
+p P3D A6
+p P3E B6
+p P4A C9
+p P4B B9
+p P4C A9
+p P4D C8
+p P4E B8
+p P5A B11
+p P5B A11
+p P5C C10
+p P5D B10
+p P5E A10
+p P6A A14
+p P6B A13
+p P6C B12
+p P6D C11
+p P6E A12
+p P7A E13
+p P7B E12
+p P7C D14
+p P7D D13
+p P7E D12
+p OL0A E1
+p OL0B F2
+p OL0C F1
+p OL0D G3
+p OL0E G2
+p OL1A M1
+p OL1B L2
+p OL1C N1
+p OL1D L3
+p OL1E M2
+p OL2A M3
+p OL2B N2
+p OL2C P1
+p OL2D P2
+p OL2E N3
+p OL3A M4
+p OL3B P3
+p OL3C N4
+p OL3D P4
+p OL3E M5
+p OLEA N5
+p OLEB P5
+p OLEC M6
+p OLED N6
+p OLEE P6
+p COMP N9
+p FSADJ M10
+p VREF P9
+p CE* P13
+p R/W N12
+p C1 P12
+p C0 M11
+p IOG P10
+p PLL N11
+p D0 L13
+p D1 M14
+p D2 L12
+p D3 M13
+p D4 N14
+p D5 P14
+p D6 N13
+p D7 M12
+p VAA5 F12
+p VAA4 C6
+p VAA3 J3
+p VAA2 J2
+p VAA1 J1
+p VAA M9
+p GND1 H1
+p GND2 H2
+p GND3 H3
+p GND4 C7
+p GND5 G12
+p GND M8
+p IZE* B5
+p IOB P11
+p IOR N10
+p GND6 M7
+p GND7 N7
+p VAA7 P7
+p VAA8 P8
+p VAA9 N8
+*package BT459KG110
+@types 1
+g 1
+@pinout
+t CPGA132/MO-066AF
+g 1
+p BLNK* L1
+p SYNC* K3
+p LD* A5
+p CLK K1
+p CLK* K2
+p P0A E3
+p P0B D2
+p P0C D1
+p P0D E2
+p P0E F3
+p P1A A1
+p P1B D3
+p P1C C2
+p P1D B1
+p P1E C1
+p P2A A3
+p P2B B3
+p P2C A2
+p P2D C3
+p P2E B2
+p P3A A8
+p P3B A7
+p P3C B7
+p P3D A6
+p P3E B6
+p P4A C9
+p P4B B9
+p P4C A9
+p P4D C8
+p P4E B8
+p P5A B11
+p P5B A11
+p P5C C10
+p P5D B10
+p P5E A10
+p P6A A14
+p P6B A13
+p P6C B12
+p P6D C11
+p P6E A12
+p P7A E13
+p P7B E12
+p P7C D14
+p P7D D13
+p P7E D12
+p OL0A E1
+p OL0B F2
+p OL0C F1
+p OL0D G3
+p OL0E G2
+p OL1A M1
+p OL1B L2
+p OL1C N1
+p OL1D L3
+p OL1E M2
+p OL2A M3
+p OL2B N2
+p OL2C P1
+p OL2D P2
+p OL2E N3
+p OL3A M4
+p OL3B P3
+p OL3C N4
+p OL3D P4
+p OL3E M5
+p OLEA N5
+p OLEB P5
+p OLEC M6
+p OLED N6
+p OLEE P6
+p COMP N9
+p FSADJ M10
+p VREF P9
+p CE* P13
+p R/W N12
+p C1 P12
+p C0 M11
+p IOG P10
+p PLL N11
+p D0 L13
+p D1 M14
+p D2 L12
+p D3 M13
+p D4 N14
+p D5 P14
+p D6 N13
+p D7 M12
+p VAA5 F12
+p VAA4 C6
+p VAA3 J3
+p VAA2 J2
+p VAA1 J1
+p VAA M9
+p GND1 H1
+p GND2 H2
+p GND3 H3
+p GND4 C7
+p GND5 G12
+p GND M8
+p IZE* B5
+p IOB P11
+p IOR N10
+p GND6 M7
+p GND7 N7
+p VAA7 P7
+p VAA8 P8
+p VAA9 N8
+*package BT459KG135
+@types 1
+g 1
+@pinout
+t CPGA132/MO-066AF
+g 1
+p BLNK* L1
+p SYNC* K3
+p LD* A5
+p CLK K1
+p CLK* K2
+p P0A E3
+p P0B D2
+p P0C D1
+p P0D E2
+p P0E F3
+p P1A A1
+p P1B D3
+p P1C C2
+p P1D B1
+p P1E C1
+p P2A A3
+p P2B B3
+p P2C A2
+p P2D C3
+p P2E B2
+p P3A A8
+p P3B A7
+p P3C B7
+p P3D A6
+p P3E B6
+p P4A C9
+p P4B B9
+p P4C A9
+p P4D C8
+p P4E B8
+p P5A B11
+p P5B A11
+p P5C C10
+p P5D B10
+p P5E A10
+p P6A A14
+p P6B A13
+p P6C B12
+p P6D C11
+p P6E A12
+p P7A E13
+p P7B E12
+p P7C D14
+p P7D D13
+p P7E D12
+p OL0A E1
+p OL0B F2
+p OL0C F1
+p OL0D G3
+p OL0E G2
+p OL1A M1
+p OL1B L2
+p OL1C N1
+p OL1D L3
+p OL1E M2
+p OL2A M3
+p OL2B N2
+p OL2C P1
+p OL2D P2
+p OL2E N3
+p OL3A M4
+p OL3B P3
+p OL3C N4
+p OL3D P4
+p OL3E M5
+p OLEA N5
+p OLEB P5
+p OLEC M6
+p OLED N6
+p OLEE P6
+p COMP N9
+p FSADJ M10
+p VREF P9
+p CE* P13
+p R/W N12
+p C1 P12
+p C0 M11
+p IOG P10
+p PLL N11
+p D0 L13
+p D1 M14
+p D2 L12
+p D3 M13
+p D4 N14
+p D5 P14
+p D6 N13
+p D7 M12
+p VAA5 F12
+p VAA4 C6
+p VAA3 J3
+p VAA2 J2
+p VAA1 J1
+p VAA M9
+p GND1 H1
+p GND2 H2
+p GND3 H3
+p GND4 C7
+p GND5 G12
+p GND M8
+p IZE* B5
+p IOB P11
+p IOR N10
+p GND6 M7
+p GND7 N7
+p VAA7 P7
+p VAA8 P8
+p VAA9 N8
+*package BT459KG150
+@types 1
+g 1
+@pinout
+t CPGA132/MO-066AF
+g 1
+p BLNK* L1
+p SYNC* K3
+p LD* A5
+p CLK K1
+p CLK* K2
+p P0A E3
+p P0B D2
+p P0C D1
+p P0D E2
+p P0E F3
+p P1A A1
+p P1B D3
+p P1C C2
+p P1D B1
+p P1E C1
+p P2A A3
+p P2B B3
+p P2C A2
+p P2D C3
+p P2E B2
+p P3A A8
+p P3B A7
+p P3C B7
+p P3D A6
+p P3E B6
+p P4A C9
+p P4B B9
+p P4C A9
+p P4D C8
+p P4E B8
+p P5A B11
+p P5B A11
+p P5C C10
+p P5D B10
+p P5E A10
+p P6A A14
+p P6B A13
+p P6C B12
+p P6D C11
+p P6E A12
+p P7A E13
+p P7B E12
+p P7C D14
+p P7D D13
+p P7E D12
+p OL0A E1
+p OL0B F2
+p OL0C F1
+p OL0D G3
+p OL0E G2
+p OL1A M1
+p OL1B L2
+p OL1C N1
+p OL1D L3
+p OL1E M2
+p OL2A M3
+p OL2B N2
+p OL2C P1
+p OL2D P2
+p OL2E N3
+p OL3A M4
+p OL3B P3
+p OL3C N4
+p OL3D P4
+p OL3E M5
+p OLEA N5
+p OLEB P5
+p OLEC M6
+p OLED N6
+p OLEE P6
+p COMP N9
+p FSADJ M10
+p VREF P9
+p CE* P13
+p R/W N12
+p C1 P12
+p C0 M11
+p IOG P10
+p PLL N11
+p D0 L13
+p D1 M14
+p D2 L12
+p D3 M13
+p D4 N14
+p D5 P14
+p D6 N13
+p D7 M12
+p VAA5 F12
+p VAA4 C6
+p VAA3 J3
+p VAA2 J2
+p VAA1 J1
+p VAA M9
+p GND1 H1
+p GND2 H2
+p GND3 H3
+p GND4 C7
+p GND5 G12
+p GND M8
+p IZE* B5
+p IOB P11
+p IOR N10
+p GND6 M7
+p GND7 N7
+p VAA7 P7
+p VAA8 P8
+p VAA9 N8
+*package BT461KG80
+@types 1
+g 1
+@pinout
+t CPGA132/MO-066AF
+g 1
+p BLNK* L1
+p SYNC* K3
+p LD* A5
+p CLK K1
+p CLK* K2
+p P0A E3
+p P0B D2
+p P0C D1
+p P0D E2
+p P0E F3
+p P1A A1
+p P1B D3
+p P1C C2
+p P1D B1
+p P1E C1
+p P2A A3
+p P2B B3
+p P2C A2
+p P2D C3
+p P2E B2
+p P3A A8
+p P3B A7
+p P3C B7
+p P3D A6
+p P3E B6
+p P4A C9
+p P4B B9
+p P4C A9
+p P4D C8
+p P4E B8
+p P5A B11
+p P5B A11
+p P5C C10
+p P5D B10
+p P5E A10
+p P6A A14
+p P6B A13
+p P6C B12
+p P6D C11
+p P6E A12
+p P7A E13
+p P7B E12
+p P7C D14
+p P7D D13
+p P7E D12
+p P8A G14
+p P8B G13
+p P8C F14
+p P8D F13
+p P8E E14
+p P9A J13
+p P9B J14
+p P9C H12
+p P9D H13
+p P9E H14
+p ALTA L14
+p ALTB K12
+p ALTC K13
+p ALTD K14
+p ALTE J12
+p OL0A E1
+p OL0B F2
+p OL0C F1
+p OL0D G3
+p OL0E G2
+p OL1A M1
+p OL1B L2
+p OL1C N1
+p OL1D L3
+p OL1E M2
+p OL2A M3
+p OL2B N2
+p OL2C P1
+p OL2D P2
+p OL2E N3
+p OL3A M4
+p OL3B P3
+p OL3C N4
+p OL3D P4
+p OL3E M5
+p OL4A N5
+p OL4B P5
+p OL4C M6
+p OL4D N6
+p OL4E P6
+p COMP N9
+p FSADJ M10
+p VREF P9
+p CE* P13
+p R/W N12
+p C1 P12
+p C0 M11
+p IOUT P10
+p PLL N10
+p D0 L13
+p D1 M14
+p D2 L12
+p D3 M13
+p D4 N14
+p D5 P14
+p D6 N13
+p D7 M12
+p VAA5 F12
+p VAA4 C6
+p VAA3 J3
+p VAA2 J2
+p VAA1 J1
+p VAA M9
+p GND1 H1
+p GND2 H2
+p GND3 H3
+p GND4 C7
+p GND5 G12
+p GND M8
+*package BT461KG110
+@types 1
+g 1
+@pinout
+t CPGA132/MO-066AF
+g 1
+p BLNK* L1
+p SYNC* K3
+p LD* A5
+p CLK K1
+p CLK* K2
+p P0A E3
+p P0B D2
+p P0C D1
+p P0D E2
+p P0E F3
+p P1A A1
+p P1B D3
+p P1C C2
+p P1D B1
+p P1E C1
+p P2A A3
+p P2B B3
+p P2C A2
+p P2D C3
+p P2E B2
+p P3A A8
+p P3B A7
+p P3C B7
+p P3D A6
+p P3E B6
+p P4A C9
+p P4B B9
+p P4C A9
+p P4D C8
+p P4E B8
+p P5A B11
+p P5B A11
+p P5C C10
+p P5D B10
+p P5E A10
+p P6A A14
+p P6B A13
+p P6C B12
+p P6D C11
+p P6E A12
+p P7A E13
+p P7B E12
+p P7C D14
+p P7D D13
+p P7E D12
+p P8A G14
+p P8B G13
+p P8C F14
+p P8D F13
+p P8E E14
+p P9A J13
+p P9B J14
+p P9C H12
+p P9D H13
+p P9E H14
+p ALTA L14
+p ALTB K12
+p ALTC K13
+p ALTD K14
+p ALTE J12
+p OL0A E1
+p OL0B F2
+p OL0C F1
+p OL0D G3
+p OL0E G2
+p OL1A M1
+p OL1B L2
+p OL1C N1
+p OL1D L3
+p OL1E M2
+p OL2A M3
+p OL2B N2
+p OL2C P1
+p OL2D P2
+p OL2E N3
+p OL3A M4
+p OL3B P3
+p OL3C N4
+p OL3D P4
+p OL3E M5
+p OL4A N5
+p OL4B P5
+p OL4C M6
+p OL4D N6
+p OL4E P6
+p COMP N9
+p FSADJ M10
+p VREF P9
+p CE* P13
+p R/W N12
+p C1 P12
+p C0 M11
+p IOUT P10
+p PLL N10
+p D0 L13
+p D1 M14
+p D2 L12
+p D3 M13
+p D4 N14
+p D5 P14
+p D6 N13
+p D7 M12
+p VAA5 F12
+p VAA4 C6
+p VAA3 J3
+p VAA2 J2
+p VAA1 J1
+p VAA M9
+p GND1 H1
+p GND2 H2
+p GND3 H3
+p GND4 C7
+p GND5 G12
+p GND M8
+*package BT461KG170
+@types 1
+g 1
+@pinout
+t CPGA132/MO-066AF
+g 1
+p BLNK* L1
+p SYNC* K3
+p LD* A5
+p CLK K1
+p CLK* K2
+p P0A E3
+p P0B D2
+p P0C D1
+p P0D E2
+p P0E F3
+p P1A A1
+p P1B D3
+p P1C C2
+p P1D B1
+p P1E C1
+p P2A A3
+p P2B B3
+p P2C A2
+p P2D C3
+p P2E B2
+p P3A A8
+p P3B A7
+p P3C B7
+p P3D A6
+p P3E B6
+p P4A C9
+p P4B B9
+p P4C A9
+p P4D C8
+p P4E B8
+p P5A B11
+p P5B A11
+p P5C C10
+p P5D B10
+p P5E A10
+p P6A A14
+p P6B A13
+p P6C B12
+p P6D C11
+p P6E A12
+p P7A E13
+p P7B E12
+p P7C D14
+p P7D D13
+p P7E D12
+p P8A G14
+p P8B G13
+p P8C F14
+p P8D F13
+p P8E E14
+p P9A J13
+p P9B J14
+p P9C H12
+p P9D H13
+p P9E H14
+p ALTA L14
+p ALTB K12
+p ALTC K13
+p ALTD K14
+p ALTE J12
+p OL0A E1
+p OL0B F2
+p OL0C F1
+p OL0D G3
+p OL0E G2
+p OL1A M1
+p OL1B L2
+p OL1C N1
+p OL1D L3
+p OL1E M2
+p OL2A M3
+p OL2B N2
+p OL2C P1
+p OL2D P2
+p OL2E N3
+p OL3A M4
+p OL3B P3
+p OL3C N4
+p OL3D P4
+p OL3E M5
+p OL4A N5
+p OL4B P5
+p OL4C M6
+p OL4D N6
+p OL4E P6
+p COMP N9
+p FSADJ M10
+p VREF P9
+p CE* P13
+p R/W N12
+p C1 P12
+p C0 M11
+p IOUT P10
+p PLL N10
+p D0 L13
+p D1 M14
+p D2 L12
+p D3 M13
+p D4 N14
+p D5 P14
+p D6 N13
+p D7 M12
+p VAA5 F12
+p VAA4 C6
+p VAA3 J3
+p VAA2 J2
+p VAA1 J1
+p VAA M9
+p GND1 H1
+p GND2 H2
+p GND3 H3
+p GND4 C7
+p GND5 G12
+p GND M8
+*package BT473KPJ35
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p B0 61
+p B1 62
+p B2 63
+p B3 64
+p B4 65
+p B5 66
+p B6 67
+p B7 68
+p G0 53
+p G1 54
+p G2 55
+p G3 56
+p G4 57
+p G5 58
+p G6 59
+p G7 60
+p R0 45
+p R1 46
+p R2 47
+p R3 48
+p R4 49
+p R5 50
+p R6 51
+p R7 52
+p S0 5
+p S1 6
+p BLK* 7
+p CLK 9
+p OL0 10
+p OL1 11
+p OL2 12
+p OL3 13
+p WR* 22
+p RD* 23
+p RS0 24
+p RS1 25
+p RS2 26
+p IREF 40
+p COMP 41
+p VREF 43
+p D0 14
+p D1 15
+p D2 16
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VREFOUT 44
+p OPA 42
+p IOB 39
+p IOG 38
+p IOR 37
+p CR3 30
+p CR2 29
+p CR1 28
+p CR0 27
+p GND1 3
+p GND2 4
+p GND3 31
+p GND 32
+p VAA 36
+p VAA5 35
+p VAA3 33
+p VAA4 34
+p VAA2 2
+p VAA1 1
+p SYNC* 8
+*package BT473KPJ50
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p B0 61
+p B1 62
+p B2 63
+p B3 64
+p B4 65
+p B5 66
+p B6 67
+p B7 68
+p G0 53
+p G1 54
+p G2 55
+p G3 56
+p G4 57
+p G5 58
+p G6 59
+p G7 60
+p R0 45
+p R1 46
+p R2 47
+p R3 48
+p R4 49
+p R5 50
+p R6 51
+p R7 52
+p S0 5
+p S1 6
+p BLK* 7
+p CLK 9
+p OL0 10
+p OL1 11
+p OL2 12
+p OL3 13
+p WR* 22
+p RD* 23
+p RS0 24
+p RS1 25
+p RS2 26
+p IREF 40
+p COMP 41
+p VREF 43
+p D0 14
+p D1 15
+p D2 16
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VREFOUT 44
+p OPA 42
+p IOB 39
+p IOG 38
+p IOR 37
+p CR3 30
+p CR2 29
+p CR1 28
+p CR0 27
+p GND1 3
+p GND2 4
+p GND3 31
+p GND 32
+p VAA 36
+p VAA5 35
+p VAA3 33
+p VAA4 34
+p VAA2 2
+p VAA1 1
+p SYNC* 8
+*package BT473KPJ66
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p B0 61
+p B1 62
+p B2 63
+p B3 64
+p B4 65
+p B5 66
+p B6 67
+p B7 68
+p G0 53
+p G1 54
+p G2 55
+p G3 56
+p G4 57
+p G5 58
+p G6 59
+p G7 60
+p R0 45
+p R1 46
+p R2 47
+p R3 48
+p R4 49
+p R5 50
+p R6 51
+p R7 52
+p S0 5
+p S1 6
+p BLK* 7
+p CLK 9
+p OL0 10
+p OL1 11
+p OL2 12
+p OL3 13
+p WR* 22
+p RD* 23
+p RS0 24
+p RS1 25
+p RS2 26
+p IREF 40
+p COMP 41
+p VREF 43
+p D0 14
+p D1 15
+p D2 16
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VREFOUT 44
+p OPA 42
+p IOB 39
+p IOG 38
+p IOR 37
+p CR3 30
+p CR2 29
+p CR1 28
+p CR0 27
+p GND1 3
+p GND2 4
+p GND3 31
+p GND 32
+p VAA 36
+p VAA5 35
+p VAA3 33
+p VAA4 34
+p VAA2 2
+p VAA1 1
+p SYNC* 8
+*package BT473KPJ80
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p B0 61
+p B1 62
+p B2 63
+p B3 64
+p B4 65
+p B5 66
+p B6 67
+p B7 68
+p G0 53
+p G1 54
+p G2 55
+p G3 56
+p G4 57
+p G5 58
+p G6 59
+p G7 60
+p R0 45
+p R1 46
+p R2 47
+p R3 48
+p R4 49
+p R5 50
+p R6 51
+p R7 52
+p S0 5
+p S1 6
+p BLK* 7
+p CLK 9
+p OL0 10
+p OL1 11
+p OL2 12
+p OL3 13
+p WR* 22
+p RD* 23
+p RS0 24
+p RS1 25
+p RS2 26
+p IREF 40
+p COMP 41
+p VREF 43
+p D0 14
+p D1 15
+p D2 16
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VREFOUT 44
+p OPA 42
+p IOB 39
+p IOG 38
+p IOR 37
+p CR3 30
+p CR2 29
+p CR1 28
+p CR0 27
+p GND1 3
+p GND2 4
+p GND3 31
+p GND 32
+p VAA 36
+p VAA5 35
+p VAA3 33
+p VAA4 34
+p VAA2 2
+p VAA1 1
+p SYNC* 8
+*package BT473KPJ110
+@types 1
+g 1
+@pinout
+t PLCC68
+g 1
+p B0 61
+p B1 62
+p B2 63
+p B3 64
+p B4 65
+p B5 66
+p B6 67
+p B7 68
+p G0 53
+p G1 54
+p G2 55
+p G3 56
+p G4 57
+p G5 58
+p G6 59
+p G7 60
+p R0 45
+p R1 46
+p R2 47
+p R3 48
+p R4 49
+p R5 50
+p R6 51
+p R7 52
+p S0 5
+p S1 6
+p BLK* 7
+p CLK 9
+p OL0 10
+p OL1 11
+p OL2 12
+p OL3 13
+p WR* 22
+p RD* 23
+p RS0 24
+p RS1 25
+p RS2 26
+p IREF 40
+p COMP 41
+p VREF 43
+p D0 14
+p D1 15
+p D2 16
+p D3 17
+p D4 18
+p D5 19
+p D6 20
+p D7 21
+p VREFOUT 44
+p OPA 42
+p IOB 39
+p IOG 38
+p IOR 37
+p CR3 30
+p CR2 29
+p CR1 28
+p CR0 27
+p GND1 3
+p GND2 4
+p GND3 31
+p GND 32
+p VAA 36
+p VAA5 35
+p VAA3 33
+p VAA4 34
+p VAA2 2
+p VAA1 1
+p SYNC* 8
+*package BT476KP35
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p P0 5
+p P1 6
+p P2 7
+p P3 8
+p P4 9
+p P5 10
+p P6 11
+p P7 12
+p RS1 27
+p RS0 26
+p WR* 25
+p BLK* 16
+p RD* 15
+p IREF 4
+p CLK 13
+p IOR 1
+p IOG 2
+p IOB 3
+p D0 17
+p D1 18
+p D2 19
+p D3 20
+p D4 21
+p D5 22
+p D6 23
+p D7 24
+p VCC 28
+p GND 14
+*package BT476KP50
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p P0 5
+p P1 6
+p P2 7
+p P3 8
+p P4 9
+p P5 10
+p P6 11
+p P7 12
+p RS1 27
+p RS0 26
+p WR* 25
+p BLK* 16
+p RD* 15
+p IREF 4
+p CLK 13
+p IOR 1
+p IOG 2
+p IOB 3
+p D0 17
+p D1 18
+p D2 19
+p D3 20
+p D4 21
+p D5 22
+p D6 23
+p D7 24
+p VCC 28
+p GND 14
+*package BT476KP66
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p P0 5
+p P1 6
+p P2 7
+p P3 8
+p P4 9
+p P5 10
+p P6 11
+p P7 12
+p RS1 27
+p RS0 26
+p WR* 25
+p BLK* 16
+p RD* 15
+p IREF 4
+p CLK 13
+p IOR 1
+p IOG 2
+p IOB 3
+p D0 17
+p D1 18
+p D2 19
+p D3 20
+p D4 21
+p D5 22
+p D6 23
+p D7 24
+p VCC 28
+p GND 14
+*package BT476KPJ66
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p IREF 28
+p CLK 40
+p IOR 25
+p IOG 26
+p IOB 27
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p VAA 4
+p GND 2
+p VAA1 20
+p VAA2 21
+p VAA3 22
+p GND1 3
+p GND2 5
+p GND3 19
+p GND4 23
+p GND5 24
+p VREF 31
+p COMP 29
+p OPA 30
+p GND6 41
+p GND7 42
+p GND8 43
+p GND9 44
+*package BT478KPJ35
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p VREF 31
+p COMP 29
+p IREF 28
+p SETUP 23
+p RS2 19
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p SYNC* 5
+p OL3 44
+p OL2 43
+p OL1 42
+p OL0 41
+p CLOCK 40
+p OPA 30
+p IOB 27
+p IOG 26
+p IOR 25
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p GND1 3
+p GND2 24
+p VAA 4
+p VAA1 22
+p VAA2 21
+p VAA3 20
+*package BT478KPJ50
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p VREF 31
+p COMP 29
+p IREF 28
+p SETUP 23
+p RS2 19
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p SYNC* 5
+p OL3 44
+p OL2 43
+p OL1 42
+p OL0 41
+p CLOCK 40
+p OPA 30
+p IOB 27
+p IOG 26
+p IOR 25
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p GND1 3
+p GND2 24
+p VAA 4
+p VAA1 22
+p VAA2 21
+p VAA3 20
+*package BT478KPJ66
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p VREF 31
+p COMP 29
+p IREF 28
+p SETUP 23
+p RS2 19
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p SYNC* 5
+p OL3 44
+p OL2 43
+p OL1 42
+p OL0 41
+p CLOCK 40
+p OPA 30
+p IOB 27
+p IOG 26
+p IOR 25
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p GND1 3
+p GND2 24
+p VAA 4
+p VAA1 22
+p VAA2 21
+p VAA3 20
+*package BT478KPJ80
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p VREF 31
+p COMP 29
+p IREF 28
+p SETUP 23
+p RS2 19
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p SYNC* 5
+p OL3 44
+p OL2 43
+p OL1 42
+p OL0 41
+p CLOCK 40
+p OPA 30
+p IOB 27
+p IOG 26
+p IOR 25
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p GND1 3
+p GND2 24
+p VAA 4
+p VAA1 22
+p VAA2 21
+p VAA3 20
+*package BT479KPJ35
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p VREF 31
+p COMP 29
+p IREF 28
+p SETUP 23
+p RS2 19
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p SYNC 5
+p 479/471* 2
+p OL3 44
+p OL2 43
+p OL1 42
+p OL0 41
+p CLOCK 40
+p SENSE* 1
+p OPA 30
+p IOB 27
+p IOG 26
+p IOR 25
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p GND1 3
+p GND2 24
+p VAA 4
+p VAA1 22
+p VAA2 21
+p VAA3 20
+*package BT479KPJ50
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p VREF 31
+p COMP 29
+p IREF 28
+p SETUP 23
+p RS2 19
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p SYNC 5
+p 479/471* 2
+p OL3 44
+p OL2 43
+p OL1 42
+p OL0 41
+p CLOCK 40
+p SENSE* 1
+p OPA 30
+p IOB 27
+p IOG 26
+p IOR 25
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p GND1 3
+p GND2 24
+p VAA 4
+p VAA1 22
+p VAA2 21
+p VAA3 20
+*package BT479KPJ66
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p VREF 31
+p COMP 29
+p IREF 28
+p SETUP 23
+p RS2 19
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p SYNC 5
+p 479/471* 2
+p OL3 44
+p OL2 43
+p OL1 42
+p OL0 41
+p CLOCK 40
+p SENSE* 1
+p OPA 30
+p IOB 27
+p IOG 26
+p IOR 25
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p GND1 3
+p GND2 24
+p VAA 4
+p VAA1 22
+p VAA2 21
+p VAA3 20
+*package BT479KPJ80
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p P0 32
+p P1 33
+p P2 34
+p P3 35
+p P4 36
+p P5 37
+p P6 38
+p P7 39
+p VREF 31
+p COMP 29
+p IREF 28
+p SETUP 23
+p RS2 19
+p RS1 18
+p RS0 17
+p WR* 16
+p BLANK* 7
+p RD* 6
+p SYNC 5
+p 479/471* 2
+p OL3 44
+p OL2 43
+p OL1 42
+p OL0 41
+p CLOCK 40
+p SENSE* 1
+p OPA 30
+p IOB 27
+p IOG 26
+p IOR 25
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 12
+p D5 13
+p D6 14
+p D7 15
+p GND1 3
+p GND2 24
+p VAA 4
+p VAA1 22
+p VAA2 21
+p VAA3 20
+*package BT492KG360
+@types 1
+g 1
+@pinout
+t CPGA68
+g 1
+p PA0 J2
+p PA1 K1
+p PA2 L2
+p PA3 L3
+p PA4 K3
+p PA5 L4
+p PA6 K4
+p PA7 L5
+p OLA K5
+p PB0 C1
+p PB1 B2
+p PB2 B1
+p PB3 A2
+p PB4 B3
+p PB5 A3
+p PB6 B4
+p PB7 A4
+p OLB B5
+p CS* B7
+p RDA* A7
+p RDB* B8
+p WR* A8
+p SETUP K7
+p COMP L8
+p VREFIN K8
+p FS_ADJ L9
+p CLK H1
+p CLK* G2
+p DIV2IN D1
+p DIV2IN* D2
+p BLANK H2
+p TTLGND1 F10
+p TTLGND2 E11
+p TTLGND3 A9
+p TTLGND B9
+p ECLVCC1 A6
+p ECLVCC2 F1
+p ECLVCC3 L6
+p ECLVCC4 K10
+p ECLVCC K11
+p DIV2OUT E2
+p DIV2OUT* E1
+p IOUT1 J10
+p IOUT2 J11
+p IOUT1* H10
+p IOUT2* H11
+p VREFOUT K9
+p D0 E10
+p D1 D11
+p D2 D10
+p D3 C11
+p D4 C10
+p D5 B11
+p D6 A10
+p D7 B10
+p VBB C2
+p AVEE G11
+p AVEE1 G10
+p DVEE L7
+p DVEE1 K6
+p DVEE5 A5
+p TTLVCC F11
+p DVEE2 G1
+p DVEE3 F2
+p DVEE4 B6
+*package BT604KPJ
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p D0 26
+p D1 27
+p D2 28
+p D3 1
+p D4 2
+p D5 3
+p D6 4
+p D7 5
+p TRIG 8
+p TRIG* 9
+p IEXT 12
+p COMP1 15
+p COMP2 17
+p CE* 16
+p OUT 22
+p OUT* 23
+p VBB 13
+p VEE1 6
+p VEE0 11
+p VCC 25
+p VCC2 20
+p VCC1 21
+p VEE3 7
+p VEE2 10
+p VCC3 24
+*package BT605KPJ
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p D0 26
+p D1 27
+p D2 28
+p D3 1
+p D4 2
+p D5 3
+p D6 4
+p D7 5
+p TRIG 7
+p TRIG* 8
+p IEXT 10
+p WRITE 11
+p WRITE* 13
+p COMP1 14
+p COMP2 18
+p CE* 15
+p OUT 23
+p OUT* 24
+p VBB 12
+p VEE1 6
+p VEE 9
+p VCC 25
+p VCC2 22
+p VCC1 21
+*package BT606KPJ
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p D0 26
+p D1 27
+p D2 28
+p D3 1
+p D4 2
+p D5 3
+p D6 4
+p D7 5
+p TRIG 7
+p TRIG* 8
+p IEXT 10
+p WRITE 11
+p WRITE* 13
+p COMP1 14
+p COMP2 18
+p CE* 15
+p OUT 23
+p OUT* 24
+p VBB 12
+p VEE1 6
+p VEE 9
+p VCC 25
+p VCC2 22
+p VCC1 21
+p CEXT 20
+*package BT687BL
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p AIN+ 10
+p AIN- 9
+p BIN+ 12
+p BIN- 13
+p ALE 5
+p ALE* 7
+p BLE 17
+p BLE* 15
+p QA 2
+p QA* 3
+p QB 20
+p QB* 19
+p VCC 14
+p VEE 8
+p GND 4
+p GND2 18
+*package BT687KS
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p AIN+ 8
+p AIN- 7
+p BIN+ 9
+p BIN- 10
+p ALE 4
+p ALE* 5
+p BLE 13
+p BLE* 12
+p QA 1
+p QA* 2
+p QB 16
+p QB* 15
+p VCC 11
+p VEE 6
+p GND 3
+p GND2 14
+*package BT687BC
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p AIN+ 8
+p AIN- 7
+p BIN+ 9
+p BIN- 10
+p ALE 4
+p ALE* 5
+p BLE 13
+p BLE* 12
+p QA 1
+p QA* 2
+p QB 16
+p QB* 15
+p VCC 11
+p VEE 6
+p GND 3
+p GND2 14
+*package BT688KSW
+@types 1
+g 1
+@pinout
+t SO16W
+g 1
+p AIN+ 8
+p AIN- 7
+p BIN+ 9
+p BIN- 10
+p ALE 4
+p ALE* 5
+p BLE 13
+p BLE* 12
+p QA 1
+p QA* 2
+p QB 16
+p QB* 15
+p VCC 11
+p VEE 6
+p GND 3
+p GND2 14
+*package BT688KP
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p AIN+ 8
+p AIN- 7
+p BIN+ 9
+p BIN- 10
+p ALE 4
+p ALE* 5
+p BLE 13
+p BLE* 12
+p QA 1
+p QA* 2
+p QB 16
+p QB* 15
+p VCC 11
+p VEE 6
+p GND 3
+p GND2 14
+*package BT107BF400
+@types 1
+g 1
+@pinout
+t CQFP32-HS
+g 1
+p DA7 25
+p DA6 27
+p DA5 29
+p DA4 31
+p DA3 1
+p DA2 3
+p DA1 5
+p DA0 7
+p DB7 26
+p DB6 28
+p DB5 30
+p DB4 32
+p DB3 2
+p DB2 4
+p DB1 6
+p DB0 8
+p CLOCK* 11
+p DIV2IN 12
+p DIV2OUT* 14
+p VAA 24
+p VAA1 15
+p AGND 13
+p AGND1 21
+p BLANK 9
+p SETUP 16
+p VREFOUT 17
+p VREFIN 18
+p COMP 20
+p FS_ADJ 19
+p CLOCK 10
+p IOUT 23
+p IOUT* 22

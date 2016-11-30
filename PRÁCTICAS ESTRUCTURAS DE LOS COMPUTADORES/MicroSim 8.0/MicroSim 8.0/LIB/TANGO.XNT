@@ -1,0 +1,27 @@
+# Net name mappings for TANGO
+
+# Copyright 1992,1993,1994 by MicroSim Corporation
+#   Neither this file nor any part may be copied without the express
+#   written consent of MicroSim Corporation
+
+# map digital power & ground
+$G_DPWR       +5v
+$G_DGND       DIG_GND
+
+# CD4000 supplies
+$G_CD4000_VSS VSS_4000
+$G_CD4000_VDD VDD_4000
+
+# ECL supplies
+$G_ECL_10K_VCC1  VCC1_10K
+$G_ECL_10K_VCC2  VCC2_10K
+$G_ECL_10K_VEE   VEE_10K
+$G_ECL_10K_VTT   VTT_10K
+
+$G_ECL_100K_VCC1 VCC1_100K
+$G_ECL_100K_VCC2 VCC2_100K
+$G_ECL_100K_VEE  VEE_100K
+$G_ECL_100K_VTT  VTT_100K
+
+
+

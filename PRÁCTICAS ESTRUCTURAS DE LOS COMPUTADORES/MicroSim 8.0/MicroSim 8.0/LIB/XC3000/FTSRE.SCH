@@ -1,0 +1,165 @@
+*version 6.3 1878794054
+u 161
+XC3000 659788266
+U? 5
+@libraries
+XC3000 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC3000
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 2659 1
+@status
+*page 1 0 1100 850 iX
+@ports
+port 162 IF_OUT 960 370 h
+a 0 s 3 0 20 8 hln 80 LABEL=Q
+port 163 IF_IN 130 340 h
+a 0 s 3 0 10 8 hln 80 LABEL=S
+port 164 IF_IN 130 290 h
+a 0 s 3 0 10 8 hln 80 LABEL=T
+port 165 IF_IN 130 320 h
+a 0 s 3 0 10 8 hln 80 LABEL=R
+port 166 IF_IN 130 400 h
+a 0 s 3 0 10 8 hln 80 LABEL=CE
+port 167 IF_IN 130 430 h
+a 0 s 3 0 10 8 hln 80 LABEL=C
+@parts
+part 18 FDSE 640 340 h
+a 0 sp 9 0 120 0 hrn 100 REFDES=U1
+a 0 sp 11 0 60 10 hcn 200 PART=FDSE
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 23 AND2B1 460 300 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U2
+a 0 sp 11 0 10 40 hlt 100 PART=AND2B1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 28 XOR2 310 270 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U3
+a 0 sp 11 0 10 40 hlt 100 PART=XOR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 33 OR2 460 380 h
+a 0 sp 9 0 80 0 hrn 100 REFDES=U4
+a 0 sp 11 0 10 40 hlt 100 PART=OR2
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+@conn
+w 37
+s 430 300 460 300 34
+s 430 300 430 280 36
+s 390 280 430 280 35
+a 0 s 3 0 400 280 hln 100 LABEL=TQ
+w 54
+s 540 310 610 310 51
+a 0 s 3 0 550 310 hln 100 LABEL=D_R
+s 610 370 610 310 53
+s 610 370 640 370 52
+w 69
+s 130 340 640 340 68
+a 0 s 3 0 140 340 hln 100 LABEL=S
+w 77
+s 130 400 460 400 76
+a 0 s 3 0 140 400 hln 100 LABEL=CE
+w 88
+s 430 320 460 320 84
+s 430 380 430 320 86
+s 430 380 460 380 85
+s 130 320 430 320 87
+a 0 s 3 0 140 320 hln 100 LABEL=R
+w 106
+s 130 290 310 290 105
+a 0 s 3 0 140 290 hln 100 LABEL=T
+w 114
+s 540 390 640 390 113
+a 0 s 3 0 550 390 hln 100 LABEL=CE_R
+w 133
+s 790 370 960 370 127
+a 0 s 3 0 940 370 hln 100 LABEL=Q
+s 760 370 790 370 130
+s 790 370 790 220 131
+s 290 220 790 220 132
+s 290 270 310 270 128
+s 290 270 290 220 129
+w 153
+s 130 430 610 430 150
+a 0 s 3 0 140 430 hln 100 LABEL=C
+s 610 430 610 410 152
+s 610 410 640 410 151
+@junction
+j 460 300
++ p 23 I1
++ w 37
+j 390 280
++ p 28 O
++ w 37
+j 640 370
++ p 18 D
++ w 54
+j 540 310
++ p 23 O
++ w 54
+j 640 340
++ p 18 S
++ w 69
+j 460 400
++ p 33 I0
++ w 77
+j 430 320
++ w 88
++ w 88
+j 460 320
++ p 23 I0
++ w 88
+j 460 380
++ p 33 I1
++ w 88
+j 310 290
++ p 28 I0
++ w 106
+j 640 390
++ p 18 CE
++ w 114
+j 540 390
++ p 33 O
++ w 114
+j 790 370
++ w 133
++ w 133
+j 760 370
++ p 18 Q
++ w 133
+j 310 270
++ p 28 I1
++ w 133
+j 640 410
++ p 18 C
++ w 153
+j 960 370
++ s 162
++ w 133
+j 130 340
++ s 163
++ w 69
+j 130 290
++ s 164
++ w 106
+j 130 320
++ s 165
++ w 88
+j 130 400
++ s 166
++ w 77
+j 130 430
++ s 167
++ w 153
+@attributes
+@text
+s 5 750 770 hln 100 TOGGLE FLIP-FLOP WITH TOGGLE
+s 5 950 820 hln 100 A
+s 5 950 800 hln 100 1
+s 5 710 800 hln 100 16TH MARCH 1993
+s 5 670 780 hln 100 ENABLE,CLOCK ENABLE AND SYNC SET & RESET
+s 5 750 750 hln 100 XC3000 FAMILY FTSRE MACRO
+s 5 30 820 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 810 hln 100 DRAWN BY KS

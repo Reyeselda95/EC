@@ -1,0 +1,1376 @@
+*version 6.3 377504560
+@index
+symloc H23C16C 0 258
+symloc H23C32C 258 268
+symloc H23C64C 526 274
+symloc H23C65C 800 271
+symloc H0438A 1071 901
+symloc H0550A 1972 448
+symloc H0551 2420 474
+symloc H0607A 2894 402
+symloc H1264B 3296 241
+symloc H1802A 3537 445
+symloc H1802AC 3982 446
+symloc H1802BC 4428 446
+symloc H1822A 4874 243
+symloc H1823C 5117 275
+symloc H1824 5392 214
+symloc H1824C 5606 215
+symloc H1831 5821 257
+symloc H1831C 6078 258
+symloc H1832 6336 229
+symloc H1832C 6565 230
+symloc H1833 6795 266
+symloc H1833C 7061 267
+symloc H1834 7328 246
+symloc H1834C 7574 247
+symloc H1835C 7821 267
+symloc H1837C 8088 267
+symloc H1852 8355 271
+symloc H1852C 8626 272
+symloc H1853 8898 199
+symloc H1853C 9097 200
+symloc H1856 9297 184
+symloc H1857 9481 184
+symloc H1858 9665 196
+symloc H1859 9861 196
+symloc H3108A 10057 456
+symloc H7211-1 10513 381
+symloc H7211-2 10894 381
+symloc H7211-3 11275 389
+symloc H7211-4 11664 389
+*package H23C16C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p MA8 23
+p MA9 22
+p MA10 19
+p CS1 20
+p CS2 18
+p VDD 24
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p VSS 12
+*package H23C32C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p MA9 22
+p MA10 19
+p CS1 20
+p CS2 18
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p MA8 23
+p VSS 12
+p MA11 21
+*package H23C64C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p MA9 22
+p MA10 19
+p CS 20
+p MA12/11 18
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p MA8 23
+p VSS 12
+p MA11/12 21
+*package H23C65C
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p MA0 10
+p MA1 9
+p MA2 8
+p MA3 7
+p MA4 6
+p MA5 5
+p MA6 4
+p MA7 3
+p VDD 28
+p MA9 24
+p MA10 21
+p CE/\CE\ 20
+p MA12 2
+p O0 11
+p O1 12
+p O2 13
+p O3 15
+p O4 16
+p O5 17
+p O6 18
+p O7 19
+p MA8 25
+p VSS 14
+p MA11 23
+p OE/\OE\ 22
+*package H0438A
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p CLK 40
+p DATA_IN 34
+p LOAD 2
+p LCD_PHI 31
+p DATA_OUT 35
+p BP 30
+p GND 36
+p VDD 1
+p SEG32 3
+p SEG31 4
+p SEG30 5
+p SEG29 6
+p SEG28 7
+p SEG27 8
+p SEG26 9
+p SEG25 10
+p SEG24 11
+p SEG23 12
+p SEG22 13
+p SEG21 14
+p SEG20 15
+p SEG19 16
+p SEG18 17
+p SEG17 18
+p SEG16 19
+p SEG15 20
+p SEG14 21
+p SEG13 22
+p SEG12 23
+p SEG11 24
+p SEG10 25
+p SEG9 26
+p SEG8 27
+p SEG7 28
+p SEG6 29
+p SEG5 32
+p SEG4 33
+p SEG3 37
+p SEG2 38
+p SEG1 39
+t LCC44
+g 1
+p CLK 44
+p DATA_IN 37
+p LOAD 2
+p LCD_PHI 34
+p DATA_OUT 38
+p BP 33
+p GND 40
+p VDD 1
+p SEG32 3
+p SEG31 4
+p SEG30 5
+p SEG29 7
+p SEG28 8
+p SEG27 9
+p SEG26 10
+p SEG25 11
+p SEG24 12
+p SEG23 13
+p SEG22 14
+p SEG21 15
+p SEG20 16
+p SEG19 17
+p SEG18 18
+p SEG17 19
+p SEG16 20
+p SEG15 21
+p SEG14 22
+p SEG13 23
+p SEG12 24
+p SEG11 25
+p SEG10 26
+p SEG9 27
+p SEG8 30
+p SEG7 31
+p SEG6 32
+p SEG5 35
+p SEG4 36
+p SEG3 41
+p SEG2 42
+p SEG1 43
+*package H0550A
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VCC 1
+p \CS\ 14
+p OSC 2
+p \MRD\ 13
+p \MWR\ 12
+p BUS0 4
+p BUS1 5
+p BUS2 6
+p BUS3 7
+p BUS4 8
+p BUS5 9
+p BUS6 10
+p BUS7 11
+p DATA_OUT 16
+p CLK 15
+p LCD_PHI 19
+p ROW1 40
+p ROW2 39
+p ROW3 38
+p ROW4 37
+p ROW5 36
+p ROW6 35
+p ROW7 34
+p COL1 32
+p COL2 31
+p COL3 30
+p COL4 29
+p COL5 28
+p COL6 27
+p COL7 26
+p COL8 25
+p COL9 24
+p COL10 23
+p COL11 22
+p COL12 21
+p ROW8 33
+p -VBUS(GND) 3
+p -V551 17
+p -VDIS 20
+*package H0551
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VCC 1
+p DATA_IN 2
+p CLK 3
+p LCD_PHI 4
+p DATA_OUT 6
+p COL1 40
+p COL2 39
+p COL3 38
+p COL4 37
+p COL5 36
+p COL6 35
+p COL7 34
+p COL8 33
+p COL9 32
+p COL10 31
+p COL11 30
+p COL12 29
+p COL13 28
+p COL14 27
+p COL15 26
+p COL16 25
+p COL17 24
+p COL18 23
+p COL19 22
+p COL20 21
+p COL21 20
+p COL22 19
+p COL23 18
+p COL24 17
+p COL25 16
+p COL26 15
+p COL27 14
+p COL28 13
+p COL29 12
+p COL30 11
+p COL31 10
+p COL32 9
+p COL33 8
+p COL34 7
+p -V551 5
+*package H0607A
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p DATA_IN 2
+p CLK 3
+p INTERRUPT 6
+p VDD 1
+p LCD_PHI 4
+p R1 40
+p R2 39
+p R3 38
+p R4 37
+p C1 36
+p C2 35
+p C3 34
+p C4 33
+p C5 32
+p C6 31
+p C7 30
+p C8 29
+p C9 28
+p C10 27
+p C11 26
+p C12 25
+p C13 24
+p C14 23
+p C15 22
+p C16 21
+p C17 20
+p C18 19
+p C19 18
+p C20 17
+p C21 16
+p C22 15
+p C23 14
+p C24 13
+p C25 12
+p C26 11
+p C27 10
+p C28 9
+p C29 8
+p C30 7
+p GND 5
+*package H1264B
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p \CE\1 20
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p A9 22
+p A10 21
+p A11 19
+p A12 18
+p VDD 24
+p O1 9
+p O2 10
+p O3 11
+p O4 13
+p O5 14
+p O6 15
+p O7 16
+p O8 17
+p GRD 12
+*package H1802A
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VCC 16
+p \WAIT\ 2
+p \CLEAR\ 3
+p \XTAL\ 39
+p CLK 1
+p \EF1\ 24
+p \EF2\ 23
+p \EF3\ 22
+p \EF4\ 21
+p \DMA_IN\ 38
+p \INTERRUPT\ 36
+p \DMA_OUT\ 37
+p BUS0 15
+p BUS1 14
+p BUS2 13
+p BUS3 12
+p BUS4 11
+p BUS5 10
+p BUS6 9
+p BUS7 8
+p MA0 25
+p MA1 26
+p MA2 27
+p MA3 28
+p MA4 29
+p MA5 30
+p MA6 31
+p MA7 32
+p SC0 6
+p SC1 5
+p Q 4
+p TPA 34
+p TPB 33
+p \MWR\ 35
+p \MRD\ 7
+p N2 17
+p N1 18
+p N0 19
+p VSS 20
+p VDD 40
+*package H1802AC
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VCC 16
+p \WAIT\ 2
+p \CLEAR\ 3
+p \XTAL\ 39
+p CLK 1
+p \EF1\ 24
+p \EF2\ 23
+p \EF3\ 22
+p \EF4\ 21
+p \DMA_IN\ 38
+p \INTERRUPT\ 36
+p \DMA_OUT\ 37
+p BUS0 15
+p BUS1 14
+p BUS2 13
+p BUS3 12
+p BUS4 11
+p BUS5 10
+p BUS6 9
+p BUS7 8
+p MA0 25
+p MA1 26
+p MA2 27
+p MA3 28
+p MA4 29
+p MA5 30
+p MA6 31
+p MA7 32
+p SC0 6
+p SC1 5
+p Q 4
+p TPA 34
+p TPB 33
+p \MWR\ 35
+p \MRD\ 7
+p N2 17
+p N1 18
+p N0 19
+p VSS 20
+p VDD 40
+*package H1802BC
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p VCC 16
+p \WAIT\ 2
+p \CLEAR\ 3
+p \XTAL\ 39
+p CLK 1
+p \EF1\ 24
+p \EF2\ 23
+p \EF3\ 22
+p \EF4\ 21
+p \DMA_IN\ 38
+p \INTERRUPT\ 36
+p \DMA_OUT\ 37
+p BUS0 15
+p BUS1 14
+p BUS2 13
+p BUS3 12
+p BUS4 11
+p BUS5 10
+p BUS6 9
+p BUS7 8
+p MA0 25
+p MA1 26
+p MA2 27
+p MA3 28
+p MA4 29
+p MA5 30
+p MA6 31
+p MA7 32
+p SC0 6
+p SC1 5
+p Q 4
+p TPA 34
+p TPB 33
+p \MWR\ 35
+p \MRD\ 7
+p N2 17
+p N1 18
+p N0 19
+p VSS 20
+p VDD 40
+*package H1822A
+@types 1
+g 1
+@pinout
+t DIP22L
+g 1
+p R/\W\ 20
+p DI0 9
+p DI1 11
+p DI2 13
+p DI3 15
+p MA0 4
+p MA1 3
+p MA2 2
+p MA3 1
+p MA4 21
+p MA5 5
+p MA6 6
+p MA7 7
+p \CS1\ 19\
+p CS2 17
+p OD 18
+p VDD 22
+p VSS 8
+p DO0 10
+p DO1 12
+p DO2 14
+p DO3 16
+*package H1823C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 23
+p MA1 22
+p MA2 21
+p MA3 20
+p MA4 19
+p MA5 18
+p MA6 17
+p \MRD\ 15
+p \MWR\ 16
+p CS1 9
+p \CS2\ 10
+p \CS3\ 11
+p CS4 13
+p \CS5\ 14
+p VDD 24
+p BUS0 1
+p BUS1 2
+p BUS2 3
+p BUS3 4
+p BUS4 5
+p BUS5 6
+p BUS7 8
+p BUS6 7
+p VSS 12
+*package H1824
+@types 1
+g 1
+@pinout
+t DIP18
+g 1
+p MA0 5
+p MA1 4
+p MA2 3
+p MA3 2
+p MA4 1
+p \MWR\ 17
+p \CS\ 15
+p \MRD\ 16
+p BUS0 14
+p BUS1 13
+p BUS2 12
+p BUS3 11
+p BUS4 10
+p BUS5 8
+p BUS6 7
+p BUS7 6
+p VDD 18
+p VSS 9
+*package H1824C
+@types 1
+g 1
+@pinout
+t DIP18
+g 1
+p MA0 5
+p MA1 4
+p MA2 3
+p MA3 2
+p MA4 1
+p \MWR\ 17
+p \CS\ 15
+p \MRD\ 16
+p BUS0 14
+p BUS1 13
+p BUS2 12
+p BUS3 11
+p BUS4 10
+p BUS5 8
+p BUS6 7
+p BUS7 6
+p VDD 18
+p VSS 9
+*package H1831
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p CLK 23
+p \MRD\ 19
+p CS1 21
+p CS2 20
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p CEO 18
+p VSS 12
+*package H1831C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p CLK 23
+p \MRD\ 19
+p CS1 21
+p CS2 20
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p CEO 18
+p VSS 12
+*package H1832
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p VSS 12
+p MA8 23
+p \CS\ 20
+*package H1832C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p VSS 12
+p MA8 23
+p \CS\ 20
+*package H1833
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p CLK 23
+p \MRD\ 19
+p CS1 21
+p CS2 20
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p CEO 18
+p VSS 12
+p CEI 22
+*package H1833C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p CLK 23
+p \MRD\ 19
+p CS1 21
+p CS2 20
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p CEO 18
+p VSS 12
+p CEI 22
+*package H1834
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p VSS 12
+p MA8 23
+p MA9 22
+p CS1 20
+p CS2 18
+*package H1834C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p VSS 12
+p MA8 23
+p MA9 22
+p CS1 20
+p CS2 18
+*package H1835C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p CLK 23
+p \MRD\ 19
+p CS1 21
+p CS2 20
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p CEO 18
+p VSS 12
+p CEI 22
+*package H1837C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p MA0 8
+p MA1 7
+p MA2 6
+p MA3 5
+p MA4 4
+p MA5 3
+p MA6 2
+p MA7 1
+p VDD 24
+p TPA 23
+p \MRD\ 19
+p CS1 21
+p CS2 20
+p BUS0 9
+p BUS1 10
+p BUS2 11
+p BUS3 13
+p BUS4 14
+p BUS5 15
+p BUS6 16
+p BUS7 17
+p CEO 18
+p VSS 12
+p CEI 22
+*package H1852
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p CS1/\CS1\ 1
+p CS2 13
+p MODE 2
+p CLK 11
+p \CLEAR\ 14
+p DI0 3
+p DI1 5
+p DI2 7
+p DI3 9
+p DI4 16
+p DI5 18
+p DI6 20
+p DI7 22
+p VDD 24
+p \SR\/SR 23
+p DO0 4
+p DO1 6
+p DO2 8
+p DO3 10
+p DO4 15
+p DO5 17
+p DO6 19
+p DO7 21
+p VSS 12
+*package H1852C
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p CS1/\CS1\ 1
+p CS2 13
+p MODE 2
+p CLK 11
+p \CLEAR\ 14
+p DI0 3
+p DI1 5
+p DI2 7
+p DI3 9
+p DI4 16
+p DI5 18
+p DI6 20
+p DI7 22
+p VDD 24
+p \SR\/SR 23
+p DO0 4
+p DO1 6
+p DO2 8
+p DO3 10
+p DO4 15
+p DO5 17
+p DO6 19
+p DO7 21
+p VSS 12
+*package H1853
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p N0 2
+p N1 3
+p N2 14
+p CE 13
+p CLKA(TPA) 1
+p CLKB(TPB) 15
+p VDD 16
+p OUT0 4
+p OUT1 5
+p OUT2 6
+p OUT3 7
+p OUT4 12
+p OUT5 11
+p OUT6 10
+p OUT7 9
+p VSS 8
+*package H1853C
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p N0 2
+p N1 3
+p N2 14
+p CE 13
+p CLKA(TPA) 1
+p CLKB(TPB) 15
+p VDD 16
+p OUT0 4
+p OUT1 5
+p OUT2 6
+p OUT3 7
+p OUT4 12
+p OUT5 11
+p OUT6 10
+p OUT7 9
+p VSS 8
+*package H1856
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p DI0 1
+p DI1 2
+p DI2 7
+p DI3 9
+p DB0 14
+p DB1 13
+p DB2 12
+p DB3 11
+p \MRD\ 10
+p CS 15
+p VDD 16
+p DO0 3
+p DO1 4
+p DO2 5
+p DO3 6
+p VSS 8
+*package H1857
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p DI0 1
+p DI1 2
+p DI2 7
+p DI3 9
+p DB0 14
+p DB1 13
+p DB2 12
+p DB3 11
+p \MRD\ 10
+p CS 15
+p VDD 16
+p DO0 3
+p DO1 4
+p DO2 5
+p DO3 6
+p VSS 8
+*package H1858
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p MA0 2
+p MA1 3
+p MA2 14
+p MA3 13
+p CLK 1
+p \ENABLE\ 15
+p VDD 16
+p CS0 4
+p CS1 5
+p CS2 6
+p CS3 7
+p \CE0\ 12
+p \CE1\ 11
+p \CE2\ 10
+p \CE3\ 9
+p VSS 8
+*package H1859
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p MA0 2
+p MA1 3
+p MA2 14
+p MA3 13
+p CLK 1
+p \ENABLE\ 15
+p VDD 16
+p \A8\ 4
+p A8 5
+p \A9\ 6
+p A9 7
+p \CE0\ 12
+p \CE1\ 11
+p \CE2\ 10
+p \CE3\ 9
+p VSS 8
+*package H3108A
+@types 1
+g 1
+@pinout
+t DIP24X
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p \CE\ 18
+p \OE\ 20
+p CS 21
+p I/O0 9
+p I/O1 10
+p I/O2 11
+p I/O3 13
+p I/O4 14
+p I/O5 15
+p I/O6 16
+p I/O7 17
+p VDD 24
+p GND 12
+p A9 22
+t LCC24
+g 1
+p A0 8
+p A1 7
+p A2 6
+p A3 5
+p A4 4
+p A5 3
+p A6 2
+p A7 1
+p A8 23
+p \CE\ 18
+p \OE\ 20
+p CS 21
+p I/O0 9
+p I/O1 10
+p I/O2 11
+p I/O3 13
+p I/O4 14
+p I/O5 15
+p I/O6 16
+p I/O7 17
+p VDD 24
+p GND 12
+p A9 22
+*package H7211-1
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p DS1 31
+p DS2 32
+p DS3 33
+p DS4 34
+p DATA0 27
+p DATA1 28
+p DATA2 29
+p DATA3 30
+p OSC 36
+p BP 5
+p VCC 1
+p A1 37
+p B1 38
+p C1 39
+p D1 40
+p E1 2
+p F1 4
+p G1 3
+p A2 6
+p B2 7
+p C2 8
+p D2 9
+p E2 10
+p F2 12
+p G2 11
+p A3 13
+p B3 14
+p C3 15
+p D3 16
+p E3 17
+p F3 19
+p G3 18
+p A4 20
+p B4 21
+p C4 22
+p D4 23
+p E4 24
+p F4 26
+p G4 25
+p GND 35
+*package H7211-2
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p DS1 31
+p DS2 32
+p DS3 33
+p DS4 34
+p DATA0 27
+p DATA1 28
+p DATA2 29
+p DATA3 30
+p OSC 36
+p BP 5
+p VCC 1
+p A1 37
+p B1 38
+p C1 39
+p D1 40
+p E1 2
+p F1 4
+p G1 3
+p A2 6
+p B2 7
+p C2 8
+p D2 9
+p E2 10
+p F2 12
+p G2 11
+p A3 13
+p B3 14
+p C3 15
+p D3 16
+p E3 17
+p F3 19
+p G3 18
+p A4 20
+p B4 21
+p C4 22
+p D4 23
+p E4 24
+p F4 26
+p G4 25
+p GND 35
+*package H7211-3
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p DSCB1 31
+p DSCB2 32
+p \CS1\ 33
+p \CS2\ 34
+p DATA0 27
+p DATA1 28
+p DATA2 29
+p DATA3 30
+p OSC 36
+p BP 5
+p VCC 1
+p A1 37
+p B1 38
+p C1 39
+p D1 40
+p E1 2
+p F1 4
+p G1 3
+p A2 6
+p B2 7
+p C2 8
+p D2 9
+p E2 10
+p F2 12
+p G2 11
+p A3 13
+p B3 14
+p C3 15
+p D3 16
+p E3 17
+p F3 19
+p G3 18
+p A4 20
+p B4 21
+p C4 22
+p D4 23
+p E4 24
+p F4 26
+p G4 25
+p GND 35
+*package H7211-4
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p DSCB1 31
+p DSCB2 32
+p \CS1\ 33
+p \CS2\ 34
+p DATA0 27
+p DATA1 28
+p DATA2 29
+p DATA3 30
+p OSC 36
+p BP 5
+p VCC 1
+p A1 37
+p B1 38
+p C1 39
+p D1 40
+p E1 2
+p F1 4
+p G1 3
+p A2 6
+p B2 7
+p C2 8
+p D2 9
+p E2 10
+p F2 12
+p G2 11
+p A3 13
+p B3 14
+p C3 15
+p D3 16
+p E3 17
+p F3 19
+p G3 18
+p A4 20
+p B4 21
+p C4 22
+p D4 23
+p E4 24
+p F4 26
+p G4 25
+p GND 35

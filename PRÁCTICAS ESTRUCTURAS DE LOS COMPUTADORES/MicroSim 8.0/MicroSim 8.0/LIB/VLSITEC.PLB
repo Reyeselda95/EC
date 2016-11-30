@@ -1,0 +1,13918 @@
+*version 6.2 2764899689
+@index
+symloc VL16160 0 313
+symloc VL16160CC 313 301
+symloc VL16160PC 614 300
+symloc VL16160QC 914 300
+symloc VL16C450 1214 839
+symloc VL16C450-PC 2053 439
+symloc VL16C450-QC 2492 440
+symloc VL16C451 2932 594
+symloc VL16C451-QC 3526 597
+symloc VL16C451B 4123 755
+symloc VL16C451B-QC 4878 758
+symloc VL16C452 5636 719
+symloc VL16C452-QC 6355 711
+symloc VL16C452B 7066 755
+symloc VL16C452B-QC 7821 758
+symloc VL16C550 8579 867
+symloc VL16C550-PC 9446 457
+symloc VL16C550-QC 9903 458
+symloc VL16C552 10361 760
+symloc VL16C552-QC 11121 763
+symloc VL1772-02 11884 336
+symloc VL1772-02CC 12220 324
+symloc VL1772-02PC 12544 320
+symloc VL1772-02QC 12864 320
+symloc VL1935 13184 475
+symloc VL1935-10CC 13659 473
+symloc VL1935-10PC 14132 472
+symloc VL1935-11CC 14604 473
+symloc VL1935-11PC 15077 472
+symloc VL1935-12CC 15549 473
+symloc VL1935-12PC 16022 472
+symloc VL1935-13CC 16494 473
+symloc VL1935-13PC 16967 472
+symloc VL2010-90CC 17439 670
+symloc VL2010-90QC 18109 690
+symloc VL2793 18799 444
+symloc VL2793-PC 19243 447
+symloc VL2797 19690 449
+symloc VL2797-CC 20139 445
+symloc VL2797-PC 20584 444
+symloc VL2793-CC 21028 448
+symloc VL4500-15CC 21476 430
+symloc VL4500-15PC 21906 426
+symloc VL4500-20CC 22332 430
+symloc VL4500-20PC:VL4500-15PC 22762 37
+symloc VL4500A 22799 433
+symloc VL53C80 23232 851
+symloc VL53C80-CC 24083 450
+symloc VL53C80-PC 24533 449
+symloc VL53C80-QC 24982 449
+symloc VL6522 25431 770
+symloc VL6522-01PC 26201 410
+symloc VL6522-01QC 26611 410
+symloc VL6522-02PC 27021 410
+symloc VL6522-02QC 27431 410
+symloc VL65C22 27841 771
+symloc VL65C22-02PC 28612 411
+symloc VL65C22-02QC 29023 411
+symloc VL65C22-04PC 29434 411
+symloc VL65C22-04QC 29845 411
+symloc VL65C22V 30256 772
+symloc VL65C22V-02PC 31028 412
+symloc VL65C22V-02QC 31440 412
+symloc VL65C22V-04PC 31852 412
+symloc VL65C22V-04QC 32264 412
+symloc VL65C816 32676 444
+symloc VL65C816-02CC 33120 442
+symloc VL65C816-02PC 33562 441
+symloc VL65C816-04CC 34003 442
+symloc VL65C816-04PC 34445 441
+symloc VL65C816-06CC 34886 442
+symloc VL65C816-06PC 35328 441
+symloc VL65C816-08CC 35769 442
+symloc VL65C816-08PC 36211 441
+symloc VL65NC02 36652 385
+symloc VL65NC02-01CC 37037 383
+symloc VL65NC02-01PC 37420 382
+symloc VL65NC02-02CC 37802 383
+symloc VL65NC02-02PC 38185 382
+symloc VL65NC02-03CC 38567 383
+symloc VL65NC02-03PC 38950 382
+symloc VL65NC02-04CC 39332 383
+symloc VL65NC02-04PC 39715 382
+symloc VL6765-04CC 40097 424
+symloc VL6765-04PC 40521 420
+symloc VL6765-04QC 40941 452
+symloc VL6765-08CC 41393 424
+symloc VL6765-08PC 41817 423
+symloc VL6765-08QC 42240 455
+symloc VL68C45R 42695 939
+symloc VL68C45R-23CC 43634 492
+symloc VL68C45R-23PC 44126 491
+symloc VL68C45R-23QC 44617 492
+symloc VL68C45R-35CC 45109 492
+symloc VL68C45R-35PC 45601 491
+symloc VL68C45R-35QC 46092 492
+symloc VL68C45R-36CC 46584 492
+symloc VL68C45R-36PC 47076 491
+symloc VL68C45R-36QC 47567 492
+symloc VL68C45R-38CC 48059 492
+symloc VL68C45R-38PC 48551 491
+symloc VL68C45R-38QC 49042 492
+symloc VL68C45S 49534 931
+symloc VL68C45S-23CC 50465 492
+symloc VL68C45S-23PC 50957 491
+symloc VL68C45S-23QC 51448 492
+symloc VL68C45S-35CC 51940 492
+symloc VL68C45S-35PC 52432 491
+symloc VL68C45S-35QC 52923 492
+symloc VL68C45S-36CC 53415 492
+symloc VL68C45S-36PC 53907 491
+symloc VL68C45S-36QC 54398 492
+symloc VL68C45S-38CC 54890 492
+symloc VL68C45S-38PC 55382 491
+symloc VL68C45S-38QC 55873 492
+symloc VL7C212A 56365 467
+symloc VL7C212A-PC 56832 257
+symloc VL7C212A-QC 57089 258
+symloc VL7C213 57347 535
+symloc VL7C213-PC 57882 291
+symloc VL7C213-QC 58173 291
+symloc VL7C214 58464 579
+symloc VL7C214-PC 59043 313
+symloc VL7C214-QC 59356 313
+symloc VL7C215 59669 555
+symloc VL7C215-PC 60224 301
+symloc VL7C215-QC 60525 301
+symloc VL7C224A 60826 570
+symloc VL7C224A-PC 61396 309
+symloc VL7C224A-QC 61705 309
+symloc VL7C225 62014 717
+symloc VL7C225-QC 62731 720
+symloc VL7C235-PC 63451 421
+symloc VL7C235-QC 63872 462
+symloc VL7C245-PC 64334 433
+symloc VL7C245-QC 64767 465
+symloc VL7C312 65232 481
+symloc VL7C312-PC 65713 263
+symloc VL7C312-QC 65976 265
+symloc VL7C412 66241 499
+symloc VL7C412-PC 66740 272
+symloc VL7C412-QC 67012 274
+symloc VL7C413 67286 555
+symloc VL7C413-PC 67841 301
+symloc VL7C413-QC 68142 301
+symloc VL7C414 68443 579
+symloc VL7C414-PC 69022 313
+symloc VL7C414-QC 69335 313
+symloc VL80C75 69648 266
+symloc VL80C75-CC 69914 262
+symloc VL80C75-PC 70176 261
+symloc VL82C031 70437 1293
+symloc VL82C031-FC 71730 1296
+symloc VL82C032 73026 1199
+symloc VL82C032-FC 74225 1202
+symloc VL82C037 75427 1056
+symloc VL82C037-FC 76483 1059
+symloc VL82C100 77542 925
+symloc VL82C100-20QC 78467 929
+symloc VL82C100-20QI 79396 929
+symloc VL82C100-QC 80325 927
+symloc VL82C100-QI 81252 927
+symloc VL82C101B 82179 1032
+symloc VL82C101B-QC 83211 1035
+symloc VL82C102A 84246 945
+symloc VL82C102A-QC 85191 948
+symloc VL82C103A 86139 872
+symloc VL82C103A-QC 87011 875
+symloc VL82C104 87886 875
+symloc VL82C104-QC 88761 878
+symloc VL82C201 89639 1031
+symloc VL82C201-16QC 90670 1036
+symloc VL82C201-16QI 91706 1036
+symloc VL82C201-20QC 92742 1036
+symloc VL82C201-20QI 93778 1036
+symloc VL82C202 94814 964
+symloc VL82C202-16QC 95778 969
+symloc VL82C202-16QI 96747 969
+symloc VL82C202-20QC 97716 969
+symloc VL82C202-20QI 98685 969
+symloc VL82C203 99654 873
+symloc VL82C203-16QC 100527 878
+symloc VL82C203-16QI 101405 878
+symloc VL82C203-20QC 102283 878
+symloc VL82C203-20QI 103161 878
+symloc VL82C204 104039 724
+symloc VL82C204-16QC 104763 729
+symloc VL82C204-16QI 105492 729
+symloc VL82C204-20QC 106221 729
+symloc VL82C204-20QI 106950 729
+symloc VL82C205A 107679 787
+symloc VL82C205A-16QC 108466 791
+symloc VL82C205A-20QC 109257 791
+symloc VL82C284 110048 411
+symloc VL82C284-08CC 110459 227
+symloc VL82C284-08PC 110686 226
+symloc VL82C284-08QC 110912 230
+symloc VL82C284-10CC 111142 227
+symloc VL82C284-10PC 111369 226
+symloc VL82C284-10QC 111595 230
+symloc VL82C288 111825 274
+symloc VL82C288-06CC 112099 266
+symloc VL82C288-06PC 112365 265
+symloc VL82C288-06QC 112630 266
+symloc VL82C288-08CC 112896 266
+symloc VL82C288-08PC 113162 265
+symloc VL82C288-08QC 113427 266
+symloc VL82C37A 113693 832
+symloc VL82C37A-08PC 114525 441
+symloc VL82C37A-08QC 114966 443
+symloc VL82C389 115409 1757
+symloc VL82C389-GC 117166 1760
+symloc VL82C50-PC 118926 445
+symloc VL82C50-QC 119371 446
+symloc VL82C50A-PC 119817 439
+symloc VL82C50A-QC 120256 440
+symloc VL82C59A 120696 319
+symloc VL82C59A-08CC 121015 310
+symloc VL82C59A-08PC 121325 309
+symloc VL82C59A-08QC 121634 309
+symloc VL82C59A-10CC 121943 310
+symloc VL82C59A-10PC 122253 309
+symloc VL82C59A-10QC 122562 309
+symloc VL83C11 122871 572
+symloc VL83C11-QC 123443 575
+symloc VL8530 124018 946
+symloc VL8530-04CC 124964 495
+symloc VL8530-04PC 125459 494
+symloc VL8530-04QC 125953 494
+symloc VL8530-06CC 126447 495
+symloc VL8530-06PC 126942 494
+symloc VL8530-06QC 127436 494
+symloc VL85C30 127930 947
+symloc VL85C30-10CC 128877 496
+symloc VL85C30-10PC 129373 495
+symloc VL85C30-10QC 129868 495
+symloc VL85C30-12CC 130363 496
+symloc VL85C30-12PC 130859 495
+symloc VL85C30-12QC 131354 495
+symloc VL85C30-8CC 131849 495
+symloc VL85C30-8PC 132344 494
+symloc VL85C30-8QC 132838 494
+symloc 68C45 133332 936
+symloc 2793/7 134268 441
+symloc VL2010-90PC 134709 669
+symloc VL16C450-CC 135378 427
+symloc VL82C50 135805 450
+symloc VL82C50-CC 136255 446
+symloc VL82C50A 136701 444
+symloc VL82C50A-CC 137145 440
+*package VL16160 b
+@types 1
+g 1 
+@pinout
+t DIP28X,CDIP28X,PLCC28
+g 1
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p \CS\ 5
+p \RD\ 27
+p \WR\ 26
+p \AOSTB\ 23
+p \LDSTB\ 25
+p \LSSTB\ 24
+p VCC 28
+p D0 6
+p D1 7
+p D2 8
+p D3 9
+p D4 10
+p D5 11
+p D6 12
+p D7 13
+p D8 15
+p D9 16
+p D10 17
+p D11 18
+p D12 19
+p D13 20
+p D14 21
+p D15 22
+p GND 14
+*package VL16160CC b
+@types 1
+g 1 
+@pinout
+t CDIP28X
+g 1
+p VCC 28
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p \CS\ 5
+p \RD\ 27
+p \WR\ 26
+p \AOSTB\ 23
+p \LDSTB\ 25
+p \LSSTB\ 24
+p D0 6
+p D1 7
+p D2 8
+p D3 9
+p D4 10
+p D5 11
+p D6 12
+p D7 13
+p D8 15
+p D9 16
+p D10 17
+p D11 18
+p D12 19
+p D13 20
+p D14 21
+p D15 22
+p GND 14
+*package VL16160PC b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p \CS\ 5
+p \RD\ 27
+p \WR\ 26
+p \AOSTB\ 23
+p \LDSTB\ 25
+p \LSSTB\ 24
+p VCC 28
+p D0 6
+p D1 7
+p D2 8
+p D3 9
+p D4 10
+p D5 11
+p D6 12
+p D7 13
+p D8 15
+p D9 16
+p D10 17
+p D11 18
+p D12 19
+p D13 20
+p D14 21
+p D15 22
+p GND 14
+*package VL16160QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p \CS\ 5
+p \RD\ 27
+p \WR\ 26
+p \AOSTB\ 23
+p \LDSTB\ 25
+p \LSSTB\ 24
+p VCC 28
+p D0 6
+p D1 7
+p D2 8
+p D3 9
+p D4 10
+p D5 11
+p D6 12
+p D7 13
+p D8 15
+p D9 16
+p D10 17
+p D11 18
+p D12 19
+p D13 20
+p D14 21
+p D15 22
+p GND 14
+*package VL16C450 b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p \CS2\ 14
+p XTAL1 16
+p XTAL2 17
+p \DOSTR\ 18
+p DOSTR 19
+p \DISTR\ 21
+p DISTR 22
+p \ADS\ 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p \CTS\ 36
+p \DSR\ 37
+p \DCD\ 38
+p \RI\ 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p \BAUDOUT\ 15
+p DDIS 23
+p CSOUT 24
+p INTRPT 30
+p \OUT2\ 31
+p \RTS\ 32
+p \DTR\ 33
+p \OUT1\ 34
+t PLCC44
+g 1
+p RCLK 10
+p SIN 11
+p CS0 14
+p CS1 15
+p \CS2\ 16
+p XTAL1 18
+p XTAL2 19
+p \DOSTR\ 20
+p DOSTR 21
+p \DISTR\ 24
+p DISTR 25
+p \ADS\ 28
+p A0 31
+p A2 29
+p A1 30
+p MR 39
+p \CTS\ 40
+p \DSR\ 41
+p \DCD\ 42
+p \RI\ 43
+p VCC 44
+p VSS 22
+p D0 2
+p D1 3
+p D2 4
+p D3 5
+p D4 6
+p D5 7
+p D6 8
+p D7 9
+p SOUT 13
+p \BAUDOUT\ 17
+p DDIS 26
+p CSOUT 27
+p INTRPT 33
+p \OUT2\ 35
+p \RTS\ 36
+p \DTR\ 37
+p \OUT1\ 38
+*package VL16C450-PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p \CS2\ 14
+p XTAL1 16
+p XTAL2 17
+p \DOSTR\ 18
+p DOSTR 19
+p \DISTR\ 21
+p DISTR 22
+p \ADS\ 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p \CTS\ 36
+p \DSR\ 37
+p \DCD\ 38
+p \RI\ 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p \BAUDOUT\ 15
+p DDIS 23
+p CSOUT 24
+p INTRPT 30
+p \OUT2\ 31
+p \RTS\ 32
+p \DTR\ 33
+p \OUT1\ 34
+*package VL16C450-QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p RCLK 10
+p SIN 11
+p CS0 14
+p CS1 15
+p \CS2\ 16
+p XTAL1 18
+p XTAL2 19
+p \DOSTR\ 20
+p DOSTR 21
+p \DISTR\ 24
+p DISTR 25
+p \ADS\ 28
+p A0 31
+p A2 29
+p A1 30
+p MR 39
+p \CTS\ 40
+p \DSR\ 41
+p \DCD\ 42
+p \RI\ 43
+p VCC 44
+p VSS 22
+p D0 2
+p D1 3
+p D2 4
+p D3 5
+p D4 6
+p D5 7
+p D6 8
+p D7 9
+p SOUT 13
+p \BAUDOUT\ 17
+p DDIS 26
+p CSOUT 27
+p INTRPT 33
+p \OUT2\ 35
+p \RTS\ 36
+p \DTR\ 37
+p \OUT1\ 38
+*package VL16C451 b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p \CTS\ 28
+p \DSR\ 31
+p \RLSD\ 29
+p \RI\ 30
+p SIN 41
+p \CS0\ 32
+p \ERR\ 63
+p SLCT 65
+p BUSY 66
+p PE 67
+p \ACK\ 68
+p \LPTOE\ 1
+p \CS2\ 38
+p \IOR\ 37
+p \IOW\ 36
+p A0 35
+p A1 34
+p A2 33
+p CLK 4
+p \RESET\ 39
+p GND0 7
+p GND1 2
+p VDDR1 64
+p VDDR0 23
+p VDDI 40
+p GNDR0 22
+p GNDR1 42
+p GNDR2 61
+p \RTS\ 24
+p \DTR\ 25
+p SOUT 26
+p INT0 45
+p PD0 53
+p PD1 52
+p PD2 51
+p PD3 50
+p PD4 49
+p PD5 48
+p PD6 47
+p PD7 46
+p \INIT\ 57
+p \AFD\ 56
+p \STB\ 55
+p \SLIN\ 58
+p INT2 59
+p DB0 14
+p DB1 15
+p DB2 16
+p DB3 17
+p DB4 18
+p DB5 19
+p DB6 20
+p DB7 21
+p GND2 54
+*package VL16C451-QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p \CTS\ 28
+p \DSR\ 31
+p \RLSD\ 29
+p \RI\ 30
+p SIN 41
+p \CSO\ 32
+p \ERR\ 63
+p SLCT 65
+p BUSY 66
+p PE 67
+p \ACK\ 68
+p \LPTOE\ 1
+p \CS2\ 38
+p \IOR\ 37
+p \IOW\ 36
+p A0 35
+p A1 34
+p A2 33
+p CLK 4
+p \RESET\ 39
+p GND0 7
+p GND1 2
+p VDDR1 64
+p VDDR0 23
+p VDDI 40
+p GNDR0 22
+p GNDR1 42
+p GNDR2 61
+p \RTS\ 24
+p \DTR\ 25
+p SOUT 26
+p INT0 45
+p PD0 53
+p PD1 52
+p PD2 51
+p PD3 50
+p PD4 49
+p PD5 48
+p PD6 47
+p PD7 46
+p \INIT\ 57
+p \AFD\ 56
+p \STB\ 55
+p \SLIN\ 58
+p INT2 59
+p DB0 14
+p DB1 15
+p DB2 16
+p DB3 17
+p DB4 18
+p DB5 19
+p DB6 20
+p DB7 21
+p GND2 54
+*package VL16C451B b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p \CTS\ 28
+p \DSR\ 31
+p \DCD\ 29
+p \RI\ 30
+p SIN 41
+p \CS0\ 32
+p \ERR\ 63
+p SLCT 65
+p BUSY 66
+p PE 67
+p \ACK\ 68
+p \PEMD\ 1
+p \CS2\ 38
+p \ENIRQ\ 43
+p \IOR\ 37
+p \IOW\ 36
+p A0 35
+p A1 34
+p A2 33
+p XTAL1 4
+p XTAL2 5
+p \RESET\ 39
+p \EMODEA\ 10
+p \EMODEB\ 11
+p GPIN0 3
+p GPIN1 6
+p GPIN2 7
+p TRI 2
+p BDO 44
+p VDDR1 64
+p VDDR0 23
+p VDDI 40
+p GNDR0 22
+p GNDR1 42
+p GNDR2 61
+p GNDI0 9
+p GNDI1 27
+p \RTS\ 24
+p \DTR\ 25
+p SOUT 26
+p INT0 45
+p \OUT2\ 60
+p PD0 53
+p PD1 52
+p PD2 51
+p PD3 50
+p PD4 49
+p PD5 48
+p PD6 47
+p PD7 46
+p \INIT\ 57
+p \AFD\ 56
+p \STB\ 55
+p \SLIN\ 58
+p INT2 59
+p DB0 14
+p DB1 15
+p DB2 16
+p DB3 17
+p DB4 18
+p DB5 19
+p DB6 20
+p DB7 21
+p GPIO3 8
+p GPIO4 12
+p GPOUT5 13
+p GPOUT6 54
+p GPOUT7 62
+*package VL16C451B-QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p \CTS\ 28
+p \DSR\ 31
+p \DCD\ 29
+p \RI\ 30
+p SIN 41
+p \CS0\ 32
+p \ERR\ 63
+p SLCT 65
+p BUSY 66
+p PE 67
+p \ACK\ 68
+p \PEMD\ 1
+p \CS2\ 38
+p \ENIRQ\ 43
+p \IOR\ 37
+p \IOW\ 36
+p A0 35
+p A1 34
+p A2 33
+p XTAL1 4
+p XTAL2 5
+p \RESET\ 39
+p \EMODEA\ 10
+p \EMODEB\ 11
+p GPIN0 3
+p GPIN1 6
+p GPIN2 7
+p TRI 2
+p BDO 44
+p VDDR1 64
+p VDDR0 23
+p VDDI 40
+p GNDR0 22
+p GNDR1 42
+p GNDR2 61
+p GNDI0 9
+p GNDI1 27
+p \RTS\ 24
+p \DTR\ 25
+p SOUT 26
+p INT0 45
+p \OUT2\ 60
+p PD0 53
+p PD1 52
+p PD2 51
+p PD3 50
+p PD4 49
+p PD5 48
+p PD6 47
+p PD7 46
+p \INIT\ 57
+p \AFD\ 56
+p \STB\ 55
+p \SLIN\ 58
+p INT2 59
+p DB0 14
+p DB1 15
+p DB2 16
+p DB3 17
+p DB4 18
+p DB5 19
+p DB6 20
+p DB7 21
+p GPIO3 8
+p GPIO4 12
+p GPOUT5 13
+p GPOUT6 54
+p GPOUT7 62
+*package VL16C452 b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p \CTS0\ 28
+p \DSR0\ 31
+p \RLSD0\ 29
+p \RI0\ 30
+p SIN0 41
+p \CS0\ 32
+p \ERR\ 63
+p SLCT 65
+p BUSY 66
+p PE 67
+p \ACK\ 68
+p \LPTOE\ 1
+p \CS2\ 38
+p GND0 43
+p \IOR\ 37
+p \IOW\ 36
+p A0 35
+p A1 34
+p A2 33
+p CLK 4
+p \DSR1\ 5
+p \RESET\ 39
+p SOUT1 10
+p \DTR1\ 11
+p \CS1\ 3
+p \RI1\ 6
+p GNDI 7
+p GND1 2
+p BDO 44
+p VCC1 64
+p VCC0 23
+p VDDI 40
+p GNDR0 22
+p GNDR1 42
+p GNDR2 54
+p \RTS0\ 24
+p \DTR0\ 25
+p SOUT0 26
+p INT0 45
+p INT1 60
+p PD0 53
+p PD1 52
+p PD2 51
+p PD3 50
+p PD4 49
+p PD5 48
+p PD6 47
+p PD7 46
+p \INIT\ 57
+p \AFD\ 56
+p \STB\ 55
+p \SLIN\ 58
+p INT2 59
+p DB0 14
+p DB1 15
+p DB2 16
+p DB3 17
+p DB4 18
+p DB5 19
+p DB6 20
+p DB7 21
+p \RLSD1\ 8
+p \RTS1\ 12
+p \CTS1\ 13
+p SIN1 62
+*package VL16C452-QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p \CTS0\ 28
+p \DSR0\ 31
+p \RLSD0\ 29
+p \RI0\ 30
+p SIN0 41
+p \CS0\ 32
+p \ERR\ 63
+p SLCT 65
+p BUSY 66
+p PE 67
+p \ACK\ 68
+p \LPTOE\ 1
+p \CS2\ 38
+p GND0 43
+p \IOR\ 37
+p \IOW\ 36
+p A0 35
+p A1 34
+p A2 33
+p CLK 4
+p \RESET\ 39
+p SOUT1 10
+p \DTR1\ 11
+p \CS1\ 3
+p \RI1\ 6
+p GNDI 7
+p GND1 2
+p BDO 44
+p VCC1 64
+p VCC0 23
+p VDDI 40
+p GNDR0 22
+p GNDR1 42
+p GNDR2 54
+p \RTS0\ 24
+p \DTR0\ 25
+p SOUT0 26
+p INT0 45
+p INT1 60
+p PD0 53
+p PD1 52
+p PD2 51
+p PD3 50
+p PD4 49
+p PD5 48
+p PD6 47
+p PD7 46
+p \INIT\ 57
+p \AFD\ 56
+p \STB\ 55
+p \SLIN\ 58
+p INT2 59
+p DB0 14
+p DB1 15
+p DB2 16
+p DB3 17
+p DB4 18
+p DB5 19
+p DB6 20
+p DB7 21
+p \RLSD1\ 8
+p \RTS1\ 12
+p \CTS1\ 13
+p SIN1 62
+*package VL16C452B b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p \CTS0\ 28
+p \DSR0\ 31
+p \DCD0\ 29
+p \RI0\ 30
+p SIN0 41
+p \CS0\ 32
+p \ERR\ 63
+p SLCT 65
+p BUSY 66
+p PE 67
+p \ACK\ 68
+p \PEMD\ 1
+p \CS2\ 38
+p \ENIRQ\ 43
+p \IOR\ 37
+p \IOW\ 36
+p A0 35
+p A1 34
+p A2 33
+p CLK 4
+p \DSR1\ 5
+p \RESET\ 39
+p SOUT1 10
+p \DTR1\ 11
+p \CS1\ 3
+p \RI1\ 6
+p GNDI 7
+p TRI 2
+p BDO 44
+p VDDR1 64
+p VDDR0 23
+p VDDI 40
+p GNDR0 22
+p GNDR1 42
+p GND 61
+p \OUT2B\ 9
+p GNDR2 54
+p \RTS0\ 24
+p \DTR0\ 25
+p SOUT0 26
+p INT0 45
+p INT1 60
+p PD0 53
+p PD1 52
+p PD2 51
+p PD3 50
+p PD4 49
+p PD5 48
+p PD6 47
+p PD7 46
+p \INIT\ 57
+p \AFD\ 56
+p \STB\ 55
+p \SLIN\ 58
+p INT2 59
+p DB0 14
+p DB1 15
+p DB2 16
+p DB3 17
+p DB4 18
+p DB5 19
+p DB6 20
+p DB7 21
+p \DCD1\ 8
+p \RTS1\ 12
+p \CTS1\ 13
+p \OUT2A\ 27
+p SIN1 62
+*package VL16C452B-QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p \CTS0\ 28
+p \DSR0\ 31
+p \DCD0\ 29
+p \RIO\ 30
+p SIN0 41
+p \CS0\ 32
+p \ERR\ 63
+p SLCT 65
+p BUSY 66
+p PE 67
+p \ACK\ 68
+p \PEMD\ 1
+p \CS2\ 38
+p \ENIRQ\ 43
+p \IOR\ 37
+p \IOW\ 36
+p A0 35
+p A1 34
+p A2 33
+p CLK 4
+p \DSR1\ 5
+p \RESET\ 39
+p SOUT1 10
+p \DTR1\ 11
+p \CS1\ 3
+p \RI1\ 6
+p GNDI 7
+p TRI 2
+p BDO 44
+p VDDR1 64
+p VDDR0 23
+p VDDI 40
+p GNDR0 22
+p GNDR1 42
+p GND 61
+p \OUT2B\ 9
+p GNDR2 54
+p \RTS0\ 24
+p \DTR0\ 25
+p SOUT0 26
+p INT0 45
+p INT1 60
+p PD0 53
+p PD1 52
+p PD2 51
+p PD3 50
+p PD4 49
+p PD5 48
+p PD6 47
+p PD7 46
+p \INIT\ 57
+p \AFD\ 56
+p \STB\ 55
+p \SLIN\ 58
+p INT2 59
+p DB0 14
+p DB1 15
+p DB2 16
+p DB3 17
+p DB4 18
+p DB5 19
+p DB6 20
+p DB7 21
+p \DCD1\ 8
+p \RTS1\ 12
+p \CTS1\ 13
+p \OUT2A\ 27
+p SIN1 62
+*package VL16C550 b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p \CS2\ 14
+p XTALIN 16
+p XTALOUT 17
+p \DOSTR\ 18
+p DOSTR 19
+p \DISTR\ 21
+p DISTR 22
+p \ADS\ 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p \CTS\ 36
+p \DSR\ 37
+p \DCD\ 38
+p \RI\ 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p \BAUDOUT\ 15
+p DDIS 23
+p \TXRDY\ 24
+p INTRPT 30
+p \OUT2\ 31
+p \RTS\ 32
+p \DTR\ 33
+p \OUT1\ 34
+p \RXRDY\ 29
+t PLCC44
+g 1
+p RCLK 10
+p SIN 11
+p CS0 14
+p CS1 15
+p \CS2\ 16
+p XTALIN 18
+p XTALOUT 19
+p \DOSTR\ 20
+p DOSTR 21
+p \DISTR\ 24
+p DISTR 25
+p \ADS\ 28
+p A0 31
+p A2 29
+p A1 30
+p MR 39
+p \CTS\ 40
+p \DSR\ 41
+p \DCD\ 42
+p \RI\ 43
+p VCC 44
+p VSS 22
+p D0 2
+p D1 3
+p D2 4
+p D3 5
+p D4 6
+p D5 7
+p D6 8
+p D7 9
+p SOUT 13
+p \BAUDOUT\ 17
+p DDIS 26
+p \TXRDY\ 27
+p INTRPT 33
+p \OUT2\ 35
+p \RTS\ 36
+p \DTR\ 37
+p \OUT1\ 38
+p \RXRDY\ 32
+*package VL16C550-PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p \CS2\ 14
+p XTALIN 16
+p XTALOUT 17
+p \DOSTR\ 18
+p DOSTR 19
+p \DISTR\ 21
+p DISTR 22
+p \ADS\ 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p \CTS\ 36
+p \DSR\ 37
+p \DCD\ 38
+p \RI\ 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p \BAUDOUT\ 15
+p DDIS 23
+p \TXRDY\ 24
+p INTRPT 30
+p \OUT2\ 31
+p \RTS\ 32
+p \DTR\ 33
+p \OUT1\ 34
+p \RXRDY\ 29
+*package VL16C550-QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p RCLK 10
+p SIN 11
+p CS0 14
+p CS1 15
+p \CS2\ 16
+p XTALIN 18
+p XTALOUT 19
+p \DOSTR\ 20
+p DOSTR 21
+p \DISTR\ 24
+p DISTR 25
+p \ADS\ 28
+p A0 31
+p A2 29
+p A1 30
+p MR 39
+p \CTS\ 40
+p \DSR\ 41
+p \DCD\ 42
+p \RI\ 43
+p VCC 44
+p VSS 22
+p D0 2
+p D1 3
+p D2 4
+p D3 5
+p D4 6
+p D5 7
+p D6 8
+p D7 9
+p SOUT 13
+p \BAUDOUT\ 17
+p DDIS 26
+p \TXRDY\ 27
+p INTRPT 33
+p \OUT2\ 35
+p \RTS\ 36
+p \DTR\ 37
+p \OUT1\ 38
+p \RXRDY\ 32
+*package VL16C552 b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p \CTS0\ 28
+p \DSR0\ 31
+p \DCD0\ 8
+p \RI0\ 30
+p SIN0 41
+p \CS0\ 32
+p \ERR\ 63
+p SLCT 65
+p BUSY 66
+p PE 67
+p \ACK\ 68
+p \PEMD\ 1
+p \CS2\ 38
+p \ENIRQ\ 43
+p \IOR\ 37
+p \IOW\ 36
+p A0 35
+p A1 34
+p A2 33
+p CLK 4
+p \DSR1\ 5
+p \RESET\ 39
+p SOUT1 10
+p \DTR1\ 11
+p \CS1\ 3
+p \RI1\ 6
+p GND1 7
+p TRI 2
+p BDO 44
+p VDD1 64
+p VDD0 23
+p VDD2 40
+p \TXRDY0\ 22
+p \TXRDY1\ 42
+p \RXRDY1\ 61
+p \RXRDY0\ 9
+p GND0 54
+p \RTS0\ 24
+p \DTR0\ 25
+p SOUT0 26
+p INT0 45
+p INT1 60
+p PD0 53
+p PD1 52
+p PD2 51
+p PD3 50
+p PD4 49
+p PD5 48
+p PD6 47
+p PD7 46
+p \INIT\ 57
+p \AFD\ 56
+p \STB\ 55
+p \SLIN\ 58
+p INT2 59
+p DB0 14
+p DB1 15
+p DB2 16
+p DB3 17
+p DB4 18
+p DB5 19
+p DB6 20
+p DB7 21
+p \DCD1\ 29
+p \RTS1\ 12
+p \CTS1\ 13
+p GND2 27
+p SIN1 62
+*package VL16C552-QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p \CTS0\ 28
+p \DSR0\ 31
+p \DCD0\ 8
+p \RI0\ 30
+p SIN0 41
+p \CS0\ 32
+p \ERR\ 63
+p SLCT 65
+p BUSY 66
+p PE 67
+p \ACK\ 68
+p \PEMD\ 1
+p \CS2\ 38
+p \ENIRQ\ 43
+p \IOR\ 37
+p \IOW\ 36
+p A0 35
+p A1 34
+p A2 33
+p CLK 4
+p \DSR1\ 5
+p \RESET\ 39
+p SOUT1 10
+p \DTR1\ 11
+p \CS1\ 3
+p \RI1\ 6
+p GND1 7
+p TRI 2
+p BDO 44
+p VDD1 64
+p VDD0 23
+p VDD2 40
+p \TXRDY0\ 22
+p \TXRDY1\ 42
+p \RXRDY1\ 61
+p \RXRDY0\ 9
+p GND0 54
+p \RTS0\ 24
+p \DTR0\ 25
+p SOUT0 26
+p INT0 45
+p INT1 60
+p PD0 53
+p PD1 52
+p PD2 51
+p PD3 50
+p PD4 49
+p PD5 48
+p PD6 47
+p PD7 46
+p \INIT\ 57
+p \AFD\ 56
+p \STB\ 55
+p \SLIN\ 58
+p INT2 59
+p DB0 14
+p DB1 15
+p DB2 16
+p DB3 17
+p DB4 18
+p DB5 19
+p DB6 20
+p DB7 21
+p \DCD1\ 29
+p \RTS1\ 12
+p \CTS1\ 13
+p GND2 27
+p SIN1 62
+*package VL1772-02 b
+@types 1
+g 1 
+@pinout
+t DIP28X,CDIP28X,PLCC28
+g 1
+p VCC 15
+p \CS\ 1
+p R/\W\ 2
+p A0 3
+p A1 4
+p \MR\ 13
+p CLK 18
+p \RD\ 19
+p WD 22
+p \TR00\ 23
+p \IP\ 24
+p \WPRT\ 25
+p \DDEN\ 26
+p DAL0 5
+p DAL1 6
+p DAL2 7
+p DAL3 8
+p DAL4 9
+p DAL5 10
+p DAL6 11
+p DAL7 12
+p STEP 16
+p DIRC 17
+p MO 20
+p WG 21
+p DRQ 27
+p INTRQ 28
+p GND 14
+*package VL1772-02CC b
+@types 1
+g 1 
+@pinout
+t CDIP28X
+g 1
+p VCC 15
+p \CS\ 1
+p R/\W\ 2
+p A0 3
+p A1 4
+p \MR\ 13
+p CLK 18
+p \RD\ 19
+p WD 22
+p \TR00\ 23
+p \IP\ 24
+p \WPRT\ 25
+p \DDEN\ 26
+p DAL0 5
+p DAL1 6
+p DAL2 7
+p DAL3 8
+p DAL4 9
+p DAL5 10
+p DAL6 11
+p DAL7 12
+p STEP 16
+p DIRC 17
+p MO 20
+p WG 21
+p DRQ 27
+p INTRQ 28
+p GND 14
+*package VL1772-02PC
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p VCC 15
+p \CS\ 1
+p R/\W\ 2
+p A0 3
+p A1 4
+p \MR\ 13
+p CLK 18
+p \RD\ 19
+p WD 22
+p \TR00\ 23
+p \IP\ 24
+p \WPRT\ 25
+p \DDEN\ 26
+p DAL0 5
+p DAL1 6
+p DAL2 7
+p DAL3 8
+p DAL4 9
+p DAL5 10
+p DAL6 11
+p DAL7 12
+p STEP 16
+p DIRC 17
+p MO 20
+p WG 21
+p DRQ 27
+p INTRQ 28
+p GND 14
+*package VL1772-02QC
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p VCC 15
+p \CS\ 1
+p R/\W\ 2
+p A0 3
+p A1 4
+p \MR\ 13
+p CLK 18
+p \RD\ 19
+p WD 22
+p \TR00\ 23
+p \IP\ 24
+p \WPRT\ 25
+p \DDEN\ 26
+p DAL0 5
+p DAL1 6
+p DAL2 7
+p DAL3 8
+p DAL4 9
+p DAL5 10
+p DAL6 11
+p DAL7 12
+p STEP 16
+p DIRC 17
+p MO 20
+p WG 21
+p DRQ 27
+p INTRQ 28
+p GND 14
+*package VL1935 b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p \EOB\ 2
+p \RE\ 3
+p \CS\ 4
+p \WE\ 7
+p \MR\ 16
+p \A2\ 21
+p \A0\ 22
+p \A1\ 23
+p \MISCIN\ 24
+p \RC\ 26
+p RD 27
+p \NRZI\ 28
+p \CTS\ 29
+p 1X/\32X\ 30
+p \TC\ 31
+p \DSR\ 33
+p \RI\ 34
+p \RI1\ 35
+p \RI0\ 36
+p \CD1\ 37
+p \CD0\ 38
+p \CD\ 39
+p GND 20
+p VCC 40
+p \REOM\ 1
+p \MISCOUT\ 5
+p INTRQ 6
+p \D0\ 8
+p \D1\ 9
+p \D2\ 10
+p \D3\ 11
+p \D4\ 12
+p \D5\ 13
+p \D6\ 14
+p \D7\ 15
+p \DTR\ 17
+p DRQ0 18
+p DRQ1 19
+p \TD\ 25
+p \RTS\ 32
+*package VL1935-10CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p \TD\ 25
+p \EOB\ 2
+p \RE\ 3
+p \CS\ 4
+p \WE\ 7
+p \MR\ 16
+p \A2\ 21
+p \A0\ 22
+p \A1\ 23
+p \MISCIN\ 24
+p \RC\ 26
+p RD 27
+p \CTS\ 29
+p 1X/\32X\ 30
+p \TC\ 31
+p \DSR\ 33
+p \RI\ 34
+p \RI1\ 35
+p \RI0\ 36
+p \CD1\ 37
+p \CD0\ 38
+p \CD\ 39
+p GND 20
+p VCC 40
+p \REOM\ 1
+p \MISCOUT\ 5
+p INTRQ 6
+p \D0\ 8
+p \D1\ 9
+p \D2\ 10
+p \D3\ 11
+p \D4\ 12
+p \D5\ 13
+p \D6\ 14
+p \D7\ 15
+p \DTR\ 17
+p DRQ0 18
+p DRQ1 19
+p \NRZI\ 28
+p \RTS\ 32
+*package VL1935-10PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \TD\ 25
+p \EOB\ 2
+p \RE\ 3
+p \CS\ 4
+p \WE\ 7
+p \MR\ 16
+p \A2\ 21
+p \A0\ 22
+p \A1\ 23
+p \MISCIN\ 24
+p \RC\ 26
+p RD 27
+p \CTS\ 29
+p 1X/\32X\ 30
+p \TC\ 31
+p \DSR\ 33
+p \RI\ 34
+p \RI1\ 35
+p \RI0\ 36
+p \CD1\ 37
+p \CD0\ 38
+p \CD\ 39
+p GND 20
+p VCC 40
+p \REOM\ 1
+p \MISCOUT\ 5
+p INTRQ 6
+p \D0\ 8
+p \D1\ 9
+p \D2\ 10
+p \D3\ 11
+p \D4\ 12
+p \D5\ 13
+p \D6\ 14
+p \D7\ 15
+p \DTR\ 17
+p DRQ0 18
+p DRQ1 19
+p \NRZI\ 28
+p \RTS\ 32
+*package VL1935-11CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p \NRZI\ 28
+p \EOB\ 2
+p \RE\ 3
+p \CS\ 4
+p \WE\ 7
+p \MR\ 16
+p \A2\ 21
+p \A0\ 22
+p \A1\ 23
+p \MISCIN\ 24
+p \RC\ 26
+p RD 27
+p \CTS\ 29
+p 1X/\32X\ 30
+p \TC\ 31
+p \DSR\ 33
+p \RI\ 34
+p \RI1\ 35
+p \RI0\ 36
+p \CD1\ 37
+p \CD0\ 38
+p \CD\ 39
+p GND 20
+p VCC 40
+p \REOM\ 1
+p \MISCOUT\ 5
+p INTRQ 6
+p \D0\ 8
+p \D1\ 9
+p \D2\ 10
+p \D3\ 11
+p \D4\ 12
+p \D5\ 13
+p \D6\ 14
+p \D7\ 15
+p \DTR\ 17
+p DRQ0 18
+p DRQ1 19
+p \TD\ 25
+p \RTS\ 32
+*package VL1935-11PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \EOB\ 2
+p \RE\ 3
+p \CS\ 4
+p \WE\ 7
+p \MR\ 16
+p \A2\ 21
+p \A0\ 22
+p \A1\ 23
+p \MISCIN\ 24
+p \RC\ 26
+p RD 27
+p \NRZI\ 28
+p \CTS\ 29
+p 1X/\32X\ 30
+p \TC\ 31
+p \DSR\ 33
+p \RI\ 34
+p \RI1\ 35
+p \RI0\ 36
+p \CD1\ 37
+p \CD0\ 38
+p \CD\ 39
+p GND 20
+p VCC 40
+p \REOM\ 1
+p \MISCOUT\ 5
+p INTRQ 6
+p \D0\ 8
+p \D1\ 9
+p \D2\ 10
+p \D3\ 11
+p \D4\ 12
+p \D5\ 13
+p \D6\ 14
+p \D7\ 15
+p \DTR\ 17
+p DRQ0 18
+p DRQ1 19
+p \TD\ 25
+p \RTS\ 32
+*package VL1935-12CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p \TD\ 25
+p \EOB\ 2
+p \RE\ 3
+p \CS\ 4
+p \WE\ 7
+p \MR\ 16
+p \A2\ 21
+p \A0\ 22
+p \A1\ 23
+p \MISCIN\ 24
+p \RC\ 26
+p RD 27
+p \CTS\ 29
+p 1X/\32X\ 30
+p \TC\ 31
+p \DSR\ 33
+p \RI\ 34
+p \RI1\ 35
+p \RI0\ 36
+p \CD1\ 37
+p \CD0\ 38
+p \CD\ 39
+p GND 20
+p VCC 40
+p \REOM\ 1
+p \MISCOUT\ 5
+p INTRQ 6
+p \D0\ 8
+p \D1\ 9
+p \D2\ 10
+p \D3\ 11
+p \D4\ 12
+p \D5\ 13
+p \D6\ 14
+p \D7\ 15
+p \DTR\ 17
+p DRQ0 18
+p DRQ1 19
+p \NRZI\ 28
+p \RTS\ 32
+*package VL1935-12PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \NRZI\ 28
+p \EOB\ 2
+p \RE\ 3
+p \CS\ 4
+p \WE\ 7
+p \MR\ 16
+p \A2\ 21
+p \A0\ 22
+p \A1\ 23
+p \MISCIN\ 24
+p \RC\ 26
+p RD 27
+p \CTS\ 29
+p 1X/\32X\ 30
+p \TC\ 31
+p \DSR\ 33
+p \RI\ 34
+p \RI1\ 35
+p \RI0\ 36
+p \CD1\ 37
+p \CD0\ 38
+p \CD\ 39
+p GND 20
+p VCC 40
+p \REOM\ 1
+p \MISCOUT\ 5
+p INTRQ 6
+p \D0\ 8
+p \D1\ 9
+p \D2\ 10
+p \D3\ 11
+p \D4\ 12
+p \D5\ 13
+p \D6\ 14
+p \D7\ 15
+p \DTR\ 17
+p DRQ0 18
+p DRQ1 19
+p \TD\ 25
+p \RTS\ 32
+*package VL1935-13CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p \NRZI\ 28
+p \EOB\ 2
+p \RE\ 3
+p \CS\ 4
+p \WE\ 7
+p \MR\ 16
+p \A2\ 21
+p \A0\ 22
+p \A1\ 23
+p \MISCIN\ 24
+p \RC\ 26
+p RD 27
+p \CTS\ 29
+p 1X/\32X\ 30
+p \TC\ 31
+p \DSR\ 33
+p \RI\ 34
+p \RI1\ 35
+p \RI0\ 36
+p \CD1\ 37
+p \CD0\ 38
+p \CD\ 39
+p GND 20
+p VCC 40
+p \REOM\ 1
+p \MISCOUT\ 5
+p INTRQ 6
+p \D0\ 8
+p \D1\ 9
+p \D2\ 10
+p \D3\ 11
+p \D4\ 12
+p \D5\ 13
+p \D6\ 14
+p \D7\ 15
+p \DTR\ 17
+p DRQ0 18
+p DRQ1 19
+p \TD\ 25
+p \RTS\ 32
+*package VL1935-13PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \TD\ 25
+p \EOB\ 2
+p \RE\ 3
+p \CS\ 4
+p \WE\ 7
+p \MR\ 16
+p \A2\ 21
+p \A0\ 22
+p \A1\ 23
+p \MISCIN\ 24
+p \RC\ 26
+p RD 27
+p \CTS\ 29
+p 1X/\32X\ 30
+p \TC\ 31
+p \DSR\ 33
+p \RI\ 34
+p \RI1\ 35
+p \RI0\ 36
+p \CD1\ 37
+p \CD0\ 38
+p \CD\ 39
+p GND 20
+p VCC 40
+p \REOM\ 1
+p \MISCOUT\ 5
+p INTRQ 6
+p \D0\ 8
+p \D1\ 9
+p \D2\ 10
+p \D3\ 11
+p \D4\ 12
+p \D5\ 13
+p \D6\ 14
+p \D7\ 15
+p \DTR\ 17
+p DRQ0 18
+p DRQ1 19
+p \NRZI\ 28
+p \RTS\ 32
+*package VL2010-90CC b
+@types 1
+g 1 
+@pinout
+t CDIP64XX
+g 1
+p X0 7
+p X1 6
+p X2 5
+p X3 4
+p X4 3
+p X5 2
+p X6 1
+p X7 64
+p X8 63
+p X9 62
+p X10 61
+p X11 60
+p X12 59
+p X13 58
+p X14 57
+p X15 56
+p CLKX 51
+p CLKY 50
+p CLKP 44
+p ACC 52
+p SUB 53
+p RND 54
+p TC 48
+p \TSX\ 47
+p \TSM\ 45
+p \TSL\ 55
+p PREL 46
+p GND 16
+p VCC 49
+p Y0,P0 8
+p Y1,P1 9
+p Y2,P2 10
+p Y3,P3 11
+p Y4,P4 12
+p Y5,P5 13
+p Y6,P6 14
+p Y7,P7 15
+p Y8,P8 17
+p Y9,P9 18
+p Y10,P10 19
+p Y11,P11 20
+p Y12,P12 21
+p Y13,P13 22
+p Y14,P14 23
+p Y15,P15 24
+p P16 25
+p P17 26
+p P18 27
+p P19 28
+p P20 29
+p P21 30
+p P22 31
+p P23 32
+p P24 33
+p P25 34
+p P26 35
+p P27 36
+p P28 37
+p P29 38
+p P30 39
+p P31 40
+p P32 41
+p P33 42
+p P34 43
+*package VL2010-90QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p X0 62
+p X1 63
+p X2 64
+p X3 65
+p X4 66
+p X5 67
+p X6 68
+p X7 1
+p X8 2
+p X9 3
+p X10 4
+p X11 5
+p X12 6
+p X13 7
+p X14 8
+p X15 9
+p CLKX 14
+p CLKY 15
+p CLKP 24
+p ACC 13
+p SUB 12
+p RND 11
+p TC 18
+p \TSX\ 19
+p \TSM\ 23
+p \TSL\ 10
+p PREL 21
+p GND0 52
+p VCC0 16
+p Y0,P0 61
+p Y1,P1 60
+p Y2,P2 59
+p Y3,P3 58
+p Y4,P4 57
+p Y5,P5 56
+p Y6,P6 55
+p Y7,P7 54
+p Y8,P8 51
+p Y9,P9 50
+p Y10,P10 49
+p Y11,P11 48
+p Y12,P12 47
+p Y13,P13 46
+p Y14,P14 45
+p Y15,P15 44
+p P16 43
+p P17 42
+p P18 41
+p P19 40
+p P20 39
+p P21 38
+p P22 37
+p P23 36
+p P24 35
+p P25 34
+p P26 33
+p P27 32
+p P28 31
+p P29 30
+p P30 29
+p P31 28
+p P32 27
+p P33 26
+p P34 25
+p GND1 53
+p VCC1 17
+*package VL2793 b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p ENP 1
+p \MR\ 19
+p \WE\ 2
+p \CS\ 3
+p \RE\ 4
+p A0 5
+p A1 6
+p \5\/8 17
+p RPW 18
+p \TEST\ 22
+p \ENMF\ 25
+p VCO 26
+p \RAWREAD\ 27
+p READY 32
+p WPW 33
+p \TR00\ 34
+p \IP\ 35
+p \WPRT\ 36
+p CLK 24
+p \DDEN\ 37
+p HLT 40
+p VCC 21
+p VSS 20
+p DAL0 7
+p DAL1 8
+p DAL2 9
+p DAL3 10
+p DAL4 11
+p DAL5 12
+p DAL6 13
+p DAL7 14
+p DRQ 38
+p INTRQ 39
+p STEP 15
+p DIRC 16
+p PUMP 23
+p HLD 28
+p TG43 29
+p WG 30
+p WD 31
+*package VL2793-PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p ENP 1
+p \MR\ 19
+p \WE\ 2
+p \CS\ 3
+p \RE\ 4
+p A0 5
+p A1 6
+p \5\/8 17
+p RPW 18
+p \TEST\ 22
+p \ENMF\ 25
+p VCO 26
+p \RAWREAD\ 27
+p READY 32
+p WPW 33
+p \TR00\ 34
+p \IP\ 35
+p \WPRT\ 36
+p CLK 24
+p \DDEN\ 37
+p HLT 40
+p VCC 21
+p VSS 20
+p DAL0 7
+p DAL1 8
+p DAL2 9
+p DAL3 10
+p DAL4 11
+p DAL5 12
+p DAL6 13
+p DAL7 14
+p DRQ 38
+p INTRQ 39
+p STEP 15
+p DIRC 16
+p PUMP 23
+p HLD 28
+p TG43 29
+p WG 30
+p WD 31
+*package VL2797 b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p ENP 1
+p \MR\ 19
+p \WE\ 2
+p \CS\ 3
+p \RE\ 4
+p A0 5
+p A1 6
+p \5\/8 17
+p RPW 18
+p \TEST\ 22
+p SSO 25
+p VCO 26
+p \RAWREAD\ 27
+p READY 32
+p WPW 33
+p \TR00\ 34
+p \IP\ 35
+p \WPRT\ 36
+p CLK 24
+p \DDEN\ 37
+p HLT 40
+p VCC 21
+p VSS 20
+p DAL0 7
+p DAL1 8
+p DAL2 9
+p DAL3 10
+p DAL4 11
+p DAL5 12
+p DAL6 13
+p DAL7 14
+p DRQ 38
+p INTRQ 39
+p STEP 15
+p DIRC 16
+p PUMP 23
+p HLD 28
+p TG43 29
+p WG 30
+p WD 31
+*package VL2797-CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p ENP 1
+p \MR\ 19
+p \WE\ 2
+p \CS\ 3
+p \RE\ 4
+p A0 5
+p A1 6
+p \5\/8 17
+p RPW 18
+p \TEST\ 22
+p SSO 25
+p VCO 26
+p \RAWREAD\ 27
+p READY 32
+p WPW 33
+p \TR00\ 34
+p \IP\ 35
+p \WPRT\ 36
+p CLK 24
+p \DDEN\ 37
+p HLT 40
+p VCC 21
+p VSS 20
+p DAL0 7
+p DAL1 8
+p DAL2 9
+p DAL3 10
+p DAL4 11
+p DAL5 12
+p DAL6 13
+p DAL7 14
+p DRQ 38
+p INTRQ 39
+p STEP 15
+p DIRC 16
+p PUMP 23
+p HLD 28
+p TG43 29
+p WG 30
+p WD 31
+*package VL2797-PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p ENP 1
+p \MR\ 19
+p \WE\ 2
+p \CS\ 3
+p \RE\ 4
+p A0 5
+p A1 6
+p \5\/8 17
+p RPW 18
+p \TEST\ 22
+p SSO 25
+p VCO 26
+p \RAWREAD\ 27
+p READY 32
+p WPW 33
+p \TR00\ 34
+p \IP\ 35
+p \WPRT\ 36
+p CLK 24
+p \DDEN\ 37
+p HLT 40
+p VCC 21
+p VSS 20
+p DAL0 7
+p DAL1 8
+p DAL2 9
+p DAL3 10
+p DAL4 11
+p DAL5 12
+p DAL6 13
+p DAL7 14
+p DRQ 38
+p INTRQ 39
+p STEP 15
+p DIRC 16
+p PUMP 23
+p HLD 28
+p TG43 29
+p WG 30
+p WD 31
+*package VL2793-CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p ENP 1
+p \MR\ 19
+p \WE\ 2
+p \CS\ 3
+p \RE\ 4
+p A0 5
+p A1 6
+p \5\/8 17
+p RPW 18
+p \TEST\ 22
+p \ENMF\ 25
+p VCO 26
+p \RAWREAD\ 27
+p READY 32
+p WPW 33
+p \TR00\ 34
+p \IP\ 35
+p \WPRT\ 36
+p CLK 24
+p \DDEN\ 37
+p HLT 40
+p VCC 21
+p VSS 20
+p DAL0 7
+p DAL1 8
+p DAL2 9
+p DAL3 10
+p DAL4 11
+p DAL5 12
+p DAL6 13
+p DAL7 14
+p DRQ 38
+p INTRQ 39
+p STEP 15
+p DIRC 16
+p PUMP 23
+p HLD 28
+p TG43 29
+p WG 30
+p WD 31
+*package VL4500-15CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RA0 11
+p RA1 16
+p RA2 17
+p RA3 23
+p RA4 26
+p RA5 29
+p RA6 30
+p RA7 35
+p CA0 12
+p CA1 15
+p CA2 18
+p CA3 22
+p CA4 25
+p CA5 28
+p CA6 31
+p CA7 34
+p ALE 5
+p \CS\ 4
+p REN1 3
+p \ACR\ 8
+p \ACW\ 9
+p CLK 1
+p \REFREQ\ 39
+p TWST 38
+p FS0 37
+p FS1 36
+p VCC 40
+p GND 20
+p MA0 13
+p MA1 14
+p MA2 19
+p MA3 21
+p MA4 24
+p MA5 27
+p MA6 32
+p MA7 33
+p \RAS\0 6
+p \RAS\1 7
+p \CAS\ 10
+p RDY 2
+*package VL4500-15PC
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p RA0 11
+p RA1 16
+p RA2 17
+p RA3 23
+p RA4 26
+p RA5 29
+p RA6 30
+p RA7 35
+p CA0 12
+p CA1 15
+p CA2 18
+p CA3 22
+p CA4 25
+p CA5 28
+p CA6 31
+p CA7 34
+p ALE 5
+p \CS\ 4
+p REN1 3
+p \ACR\ 8
+p \ACW\ 9
+p CLK 1
+p \REFREQ\ 39
+p TWST 38
+p FS0 37
+p FS1 36
+p VCC 40
+p GND 20
+p MA0 13
+p MA1 14
+p MA2 19
+p MA3 21
+p MA4 24
+p MA5 27
+p MA6 32
+p MA7 33
+p \RAS\0 6
+p \RAS\1 7
+p \CAS\ 10
+p RDY 2
+*package VL4500-20CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RA0 11
+p RA1 16
+p RA2 17
+p RA3 23
+p RA4 26
+p RA5 29
+p RA6 30
+p RA7 35
+p CA0 12
+p CA1 15
+p CA2 18
+p CA3 22
+p CA4 25
+p CA5 28
+p CA6 31
+p CA7 34
+p ALE 5
+p \CS\ 4
+p REN1 3
+p \ACR\ 8
+p \ACW\ 9
+p CLK 1
+p \REFREQ\ 39
+p TWST 38
+p FS0 37
+p FS1 36
+p VCC 40
+p GND 20
+p MA0 13
+p MA1 14
+p MA2 19
+p MA3 21
+p MA4 24
+p MA5 27
+p MA6 32
+p MA7 33
+p \RAS\0 6
+p \RAS\1 7
+p \CAS\ 10
+p RDY 2
+*package VL4500-20PC ako VL4500-15PC
+*package VL4500A b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p RA0 11
+p RA1 16
+p RA2 17
+p RA3 23
+p RA4 26
+p RA5 29
+p RA6 30
+p RA7 35
+p CA0 12
+p CA1 15
+p CA2 18
+p CA3 22
+p CA4 25
+p CA5 28
+p CA6 31
+p CA7 34
+p ALE 5
+p \CS\ 4
+p REN1 3
+p \ACR\ 8
+p \ACW\ 9
+p CLK 1
+p \REFREQ\ 39
+p TWST 38
+p FS0 37
+p FS1 36
+p VCC 40
+p GND 20
+p MA0 13
+p MA1 14
+p MA2 19
+p MA3 21
+p MA4 24
+p MA5 27
+p MA6 32
+p MA7 33
+p \RAS\0 6
+p \RAS\1 7
+p \CAS\ 10
+p RDY 2
+*package VL53C80 b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p D0 1
+p D1 40
+p D2 39
+p D3 38
+p D4 37
+p D5 36
+p D6 35
+p D7 34
+p \RESET\ 28
+p \EOP\ 27
+p \IOR\ 24
+p A0 30
+p A1 32
+p A2 33
+p \IOW\ 29
+p \CS\ 21
+p \DACK\ 26
+p VDD 31
+p GND 11
+p IRQ 23
+p DRQ 22
+p READY 25
+p \ACK\ 14
+p \ATN\ 15
+p \BSY\ 13
+p \C/D\ 18
+p \DB0\ 9
+p \DB1\ 8
+p \DB2\ 7
+p \DB3\ 6
+p \DB4\ 5
+p \DB5\ 4
+p \DB6\ 3
+p \DB7\ 2
+p \DBP\ 10
+p \I/O\ 17
+p \MSG\ 19
+p \REQ\ 20
+p \RST\ 16
+p \SEL\ 12
+t PLCC44
+g 1
+p D0 1
+p D1 40
+p D2 39
+p D3 38
+p D4 37
+p D5 36
+p D6 35
+p D7 34
+p \RESET\ 28
+p \EOP\ 27
+p \IOR\ 24
+p A0 30
+p A1 32
+p A2 33
+p \IOW\ 29
+p \CS\ 21
+p \DACK\ 26
+p VDD 31
+p GND 11
+p IRQ 23
+p DRQ 22
+p READY 25
+p \ACK\ 14
+p \ATN\ 15
+p \BSY\ 13
+p \C/D\ 18
+p \DB0\ 9
+p \DB1\ 8
+p \DB2\ 7
+p \DB3\ 6
+p \DB4\ 5
+p \DB5\ 4
+p \DB6\ 3
+p \DB7\ 2
+p \DBP\ 10
+p \I/O\ 17
+p \MSG\ 19
+p \REQ\ 20
+p \RST\ 16
+p \SEL\ 12
+*package VL53C80-CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p D0 1
+p D1 40
+p D2 39
+p D3 38
+p D4 37
+p D5 36
+p D6 35
+p D7 34
+p \RESET\ 28
+p \EOP\ 27
+p \IOR\ 24
+p A0 30
+p A1 32
+p A2 33
+p \IOW\ 29
+p \CS\ 21
+p \DACK\ 26
+p VDD 31
+p GND 11
+p IRQ 23
+p DRQ 22
+p READY 25
+p \ACK\ 14
+p \ATN\ 15
+p \BSY\ 13
+p \C/D\ 18
+p \DB0\ 9
+p \DB1\ 8
+p \DB2\ 7
+p \DB3\ 6
+p \BD4\ 5
+p \BD5\ 4
+p \DB6\ 3
+p \DB7\ 2
+p \DBP\ 10
+p \I/O\ 17
+p \MSG\ 19
+p \REQ\ 20
+p \RST\ 16
+p \SEL\ 12
+*package VL53C80-PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p D0 1
+p D1 40
+p D2 39
+p D3 38
+p D4 37
+p D5 36
+p D6 35
+p D7 34
+p \RESET\ 28
+p \EOP\ 27
+p \IOR\ 24
+p A0 30
+p A1 32
+p A2 33
+p \IOE\ 29
+p \CS\ 21
+p \DACK\ 26
+p VDD 31
+p GND 11
+p IRQ 23
+p DRQ 22
+p READY 25
+p \ACK\ 14
+p \ATN\ 15
+p \BSY\ 13
+p \C/D\ 18
+p \DB0\ 9
+p \DB1\ 8
+p \DB2\ 7
+p \DB3\ 6
+p \DB4\ 5
+p \DB5\ 4
+p \DB6\ 3
+p \DB7\ 2
+p \DBP\ 10
+p \I/O\ 17
+p \MSG\ 19
+p \REQ\ 20
+p \RST\ 16
+p \SEL\ 12
+*package VL53C80-QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p D0 1
+p D1 40
+p D2 39
+p D3 38
+p D4 37
+p D5 36
+p D6 35
+p D7 34
+p \RESET\ 28
+p \EOP\ 27
+p \IOR\ 24
+p A0 30
+p A1 32
+p A2 33
+p \IOW\ 29
+p \CS\ 21
+p \DACK\ 26
+p VDD 31
+p GND 11
+p IRQ 23
+p DRQ 22
+p READY 25
+p \ACK\ 14
+p \ATN\ 15
+p \BSY\ 13
+p \C/D\ 18
+p \DB0\ 9
+p \DB1\ 8
+p \DB2\ 7
+p \DB3\ 6
+p \DB4\ 5
+p \DB5\ 4
+p \DB6\ 3
+p \DB7\ 2
+p \DBP\ 10
+p \I/O\ 17
+p \MSG\ 19
+p \REQ\ 20
+p \RST\ 16
+p \SEL\ 12
+*package VL6522 b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \RES\ 34
+p PHI2 25
+p R/\W\ 22
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p CS1 24
+p \CS2\ 23
+p RS0 38
+p RS1 37
+p RS2 36
+p RS3 35
+p VCC 20
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 21
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CA1 40
+p CA2 39
+p CB1 18
+p CB2 19
+p GND 1
+t PLCC44
+g 1
+p \RES\ 37
+p PHI2 27
+p R/\W\ 24
+p D0 36
+p D1 35
+p D2 34
+p D3 32
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p CS1 26
+p \CS2\ 25
+p RS0 42
+p RS1 41
+p RS2 40
+p RS3 39
+p VCC 21
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 23
+p PB0 10
+p PB1 12
+p PB2 13
+p PB3 14
+p PB4 15
+p PB5 16
+p PB6 17
+p PB7 18
+p CA1 44
+p CA2 43
+p CB1 19
+p CB2 20
+p GND 1
+*package VL6522-01PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \RES\ 34
+p PHI2 25
+p R/\W\ 22
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p CS1 24
+p \CS2\ 23
+p RS0 38
+p RS1 37
+p RS2 36
+p RS3 35
+p VCC 20
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 21
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CA1 40
+p CA2 39
+p CB1 18
+p CB2 19
+p GND 1
+*package VL6522-01QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p \RES\ 37
+p PHI2 27
+p R/\W\ 24
+p D0 36
+p D1 35
+p D2 34
+p D3 32
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p CS1 26
+p \CS2\ 25
+p RS0 42
+p RS1 41
+p RS2 40
+p RS3 39
+p VCC 21
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 23
+p PB0 10
+p PB1 12
+p PB2 13
+p PB3 14
+p PB4 15
+p PB5 16
+p PB6 17
+p PB7 18
+p CA1 44
+p CA2 43
+p CB1 19
+p CB2 20
+p GND 1
+*package VL6522-02PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \RES\ 34
+p PHI2 25
+p R/\W\ 22
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p CS1 24
+p \CS2\ 23
+p RS0 38
+p RS1 37
+p RS2 36
+p RS3 35
+p VCC 20
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 21
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CA1 40
+p CA2 39
+p CB1 18
+p CB2 19
+p GND 1
+*package VL6522-02QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p \RES\ 37
+p PHI2 27
+p R/\W\ 24
+p D0 36
+p D1 35
+p D2 34
+p D3 32
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p CS1 26
+p \CS2\ 25
+p RS0 42
+p RS1 41
+p RS2 40
+p RS3 39
+p VCC 21
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 23
+p PB0 10
+p PB1 12
+p PB2 13
+p PB3 14
+p PB4 15
+p PB5 16
+p PB6 17
+p PB7 18
+p CA1 44
+p CA2 43
+p CB1 19
+p CB2 20
+p GND 1
+*package VL65C22 b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \RES\ 34
+p PHI2 25
+p R/\W\ 22
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p CS1 24
+p \CS2\ 23
+p RS0 38
+p RS1 37
+p RS2 36
+p RS3 35
+p VCC 20
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 21
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CA1 40
+p CA2 39
+p CB1 18
+p CB2 19
+p GND 1
+t PLCC44
+g 1
+p \RES\ 37
+p PHI2 27
+p R/\W\ 24
+p D0 36
+p D1 35
+p D2 34
+p D3 32
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p CS1 26
+p \CS2\ 25
+p RS0 42
+p RS1 41
+p RS2 40
+p RS3 39
+p VCC 21
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 23
+p PB0 10
+p PB1 12
+p PB2 13
+p PB3 14
+p PB4 15
+p PB5 16
+p PB6 17
+p PB7 18
+p CA1 44
+p CA2 43
+p CB1 19
+p CB2 20
+p GND 1
+*package VL65C22-02PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \RES\ 34
+p PHI2 25
+p R/\W\ 22
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p CS1 24
+p \CS2\ 23
+p RS0 38
+p RS1 37
+p RS2 36
+p RS3 35
+p VCC 20
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 21
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CA1 40
+p CA2 39
+p CB1 18
+p CB2 19
+p GND 1
+*package VL65C22-02QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p \RES\ 37
+p PHI2 27
+p R/\W\ 24
+p D0 36
+p D1 35
+p D2 34
+p D3 32
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p CS1 26
+p \CS2\ 25
+p RS0 42
+p RS1 41
+p RS2 40
+p RS3 39
+p VCC 21
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 23
+p PB0 10
+p PB1 12
+p PB2 13
+p PB3 14
+p PB4 15
+p PB5 16
+p PB6 17
+p PB7 18
+p CA1 44
+p CA2 43
+p CB1 19
+p CB2 20
+p GND 1
+*package VL65C22-04PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \RES\ 34
+p PHI2 25
+p R/\W\ 22
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p CS1 24
+p \CS2\ 23
+p RS0 38
+p RS1 37
+p RS2 36
+p RS3 35
+p VCC 20
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 21
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CA1 40
+p CA2 39
+p CB1 18
+p CB2 19
+p GND 1
+*package VL65C22-04QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p \RES\ 37
+p PHI2 27
+p R/\W\ 24
+p D0 36
+p D1 35
+p D2 34
+p D3 32
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p CS1 26
+p \CS2\ 25
+p RS0 42
+p RS1 41
+p RS2 40
+p RS3 39
+p VCC 21
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 23
+p PB0 10
+p PB1 12
+p PB2 13
+p PB3 14
+p PB4 15
+p PB5 16
+p PB6 17
+p PB7 18
+p CA1 44
+p CA2 43
+p CB1 19
+p CB2 20
+p GND 1
+*package VL65C22V b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \RES\ 34
+p PHI2 25
+p R/\W\ 22
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p CS1 24
+p \CS2\ 23
+p RS0 38
+p RS1 37
+p RS2 36
+p RS3 35
+p VCC 20
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 21
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CA1 40
+p CA2 39
+p CB1 18
+p CB2 19
+p GND 1
+t PLCC44
+g 1
+p \RES\ 37
+p PHI2 27
+p R/\W\ 24
+p D0 36
+p D1 35
+p D2 34
+p D3 32
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p CS1 26
+p \CS2\ 25
+p RS0 42
+p RS1 41
+p RS2 40
+p RS3 39
+p VCC 21
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 23
+p PB0 10
+p PB1 12
+p PB2 13
+p PB3 14
+p PB4 15
+p PB5 16
+p PB6 17
+p PB7 18
+p CA1 44
+p CA2 43
+p CB1 19
+p CB2 20
+p GND 1
+*package VL65C22V-02PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \RES\ 34
+p PHI2 25
+p R/\W\ 22
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p CS1 24
+p \CS2\ 23
+p RS0 38
+p RS1 37
+p RS2 36
+p RS3 35
+p VCC 20
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 21
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CA1 40
+p CA2 39
+p CB1 18
+p CB2 19
+p GND 1
+*package VL65C22V-02QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p \RES\ 37
+p PHI2 27
+p R/\W\ 24
+p D0 36
+p D1 35
+p D2 34
+p D3 32
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p CS1 26
+p \CS2\ 25
+p RS0 42
+p RS1 41
+p RS2 40
+p RS3 39
+p VCC 21
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 23
+p PB0 10
+p PB1 12
+p PB2 13
+p PB3 14
+p PB4 15
+p PB5 16
+p PB6 17
+p PB7 18
+p CA1 44
+p CA2 43
+p CB1 19
+p CB2 20
+p GND 1
+*package VL65C22V-04PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \RES\ 34
+p PHI2 25
+p R/\W\ 22
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p CS1 24
+p \CS2\ 23
+p RS0 38
+p RS1 37
+p RS2 36
+p RS3 35
+p VCC 20
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 21
+p PB0 10
+p PB1 11
+p PB2 12
+p PB3 13
+p PB4 14
+p PB5 15
+p PB6 16
+p PB7 17
+p CA1 40
+p CA2 39
+p CB1 18
+p CB2 19
+p GND 1
+*package VL65C22V-04QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p \RES\ 37
+p PHI2 27
+p R/\W\ 24
+p D0 36
+p D1 35
+p D2 34
+p D3 32
+p D4 31
+p D5 30
+p D6 29
+p D7 28
+p CS1 26
+p \CS2\ 25
+p RS0 42
+p RS1 41
+p RS2 40
+p RS3 39
+p VCC 21
+p PA0 2
+p PA1 3
+p PA2 4
+p PA3 5
+p PA4 6
+p PA5 7
+p PA6 8
+p PA7 9
+p \IRQ\ 23
+p PB0 10
+p PB1 12
+p PB2 13
+p PB3 14
+p PB4 15
+p PB5 16
+p PB6 17
+p PB7 18
+p CA1 44
+p CA2 43
+p CB1 19
+p CB2 20
+p GND 1
+*package VL65C816 b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p \ABORT\ 3
+p BE 36
+p \IRQ\ 4
+p \NMI\ 6
+p PHI2(IN) 37
+p RDY 2
+p \RES\ 40
+p VDD 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D0/BA0 33
+p D1/BA1 32
+p D2/BA2 31
+p D3/BA3 30
+p D4/BA4 29
+p D5/BA5 28
+p D6/BA6 27
+p D7/BA7 26
+p E 35
+p \ML\ 5
+p M/X 38
+p R/\W\ 34
+p VDA 39
+p VPA 7
+p \VP\ 1
+p VSS 21
+*package VL65C816-02CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p \ABORT\ 3
+p BE 36
+p \IRQ\ 4
+p \NMI\ 6
+p PHI2(IN) 37
+p RDY 2
+p \RES\ 40
+p VDD 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D0/BA0 33
+p D1/BA1 32
+p D2/BA2 31
+p D3/BA3 30
+p D4/BA4 29
+p D5/BA5 28
+p D6/BA6 27
+p D7/BA7 26
+p E 35
+p \ML\ 5
+p M/X 38
+p R/\W\ 34
+p VDA 39
+p VPA 7
+p \VP\ 1
+p VSS 21
+*package VL65C816-02PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \ABORT\ 3
+p BE 36
+p \IRQ\ 4
+p \NMI\ 6
+p PHI2(IN) 37
+p RDY 2
+p \RES\ 40
+p VDD 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D0/BA0 33
+p D1/BA1 32
+p D2/BA2 31
+p D3/BA3 30
+p D4/BA4 29
+p D5/BA5 28
+p D6/BA6 27
+p D7/BA7 26
+p E 35
+p \ML\ 5
+p M/X 38
+p R/\W\ 34
+p VDA 39
+p VPA 7
+p \VP\ 1
+p VSS 21
+*package VL65C816-04CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p \ABORT\ 3
+p BE 36
+p \IRQ\ 4
+p \NMI\ 6
+p PHI2(IN) 37
+p RDY 2
+p \RES\ 40
+p VDD 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D0/BA0 33
+p D1/BA1 32
+p D2/BA2 31
+p D3/BA3 30
+p D4/BA4 29
+p D5/BA5 28
+p D6/BA6 27
+p D7/BA7 26
+p E 35
+p \ML\ 5
+p M/X 38
+p R/\W\ 34
+p VDA 39
+p VPA 7
+p \VP\ 1
+p VSS 21
+*package VL65C816-04PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \ABORT\ 3
+p BE 36
+p \IRQ\ 4
+p \NMI\ 6
+p PHI2(IN) 37
+p RDY 2
+p \RES\ 40
+p VDD 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D0/BA0 33
+p D1/BA1 32
+p D2/BA2 31
+p D3/BA3 30
+p D4/BA4 29
+p D5/BA5 28
+p D6/BA6 27
+p D7/BA7 26
+p E 35
+p \ML\ 5
+p M/X 38
+p R/\W\ 34
+p VDA 39
+p VPA 7
+p \VP\ 1
+p VSS 21
+*package VL65C816-06CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p \ABORT\ 3
+p BE 36
+p \IRQ\ 4
+p \NMI\ 6
+p PHI2(IN) 37
+p RDY 2
+p \RES\ 40
+p VDD 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D0/BA0 33
+p D1/BA1 32
+p D2/BA2 31
+p D3/BA3 30
+p D4/BA4 29
+p D5/BA5 28
+p D6/BA6 27
+p D7/BA7 26
+p E 35
+p \ML\ 5
+p M/X 38
+p R/\W\ 34
+p VDA 39
+p VPA 7
+p \VP\ 1
+p VSS 21
+*package VL65C816-06PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \ABORT\ 3
+p BE 36
+p \IRQ\ 4
+p \NMI\ 6
+p PHI2(IN) 37
+p RDY 2
+p \RES\ 40
+p VDD 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D0/BA0 33
+p D1/BA1 32
+p D2/BA2 31
+p D3/BA3 30
+p D4/BA4 29
+p D5/BA5 28
+p D6/BA6 27
+p D7/BA7 26
+p E 35
+p \ML\ 5
+p M/X 38
+p R/\W\ 34
+p VDA 39
+p VPA 7
+p \VP\ 1
+p VSS 21
+*package VL65C816-08CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p \ABORT\ 3
+p BE 36
+p \IRQ\ 4
+p \NMI\ 6
+p PHI2(IN) 37
+p RDY 2
+p \RES\ 40
+p VDD 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D0/BA0 33
+p D1/BA1 32
+p D2/BA2 31
+p D3/BA3 30
+p D4/BA4 29
+p D5/BA5 28
+p D6/BA6 27
+p D7/BA7 26
+p E 35
+p \ML\ 5
+p M/X 38
+p R/\W\ 34
+p VDA 39
+p VPA 7
+p \VP\ 1
+p VSS 21
+*package VL65C816-08PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p \ABORT\ 3
+p BE 36
+p \IRQ\ 4
+p \NMI\ 6
+p PHI2(IN) 37
+p RDY 2
+p \RES\ 40
+p VDD 8
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p A8 17
+p A9 18
+p A10 19
+p A11 20
+p A12 22
+p A13 23
+p A14 24
+p A15 25
+p D0/BA0 33
+p D1/BA1 32
+p D2/BA2 31
+p D3/BA3 30
+p D4/BA4 29
+p D5/BA5 28
+p D6/BA6 27
+p D7/BA7 26
+p E 35
+p \ML\ 5
+p M/X 38
+p R/\W\ 34
+p VDA 39
+p VPA 7
+p \VP\ 1
+p VSS 21
+*package VL65NC02 b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p PHI0 37
+p \IRQ\ 4
+p \NMI\ 6
+p RDY 2
+p \SO\ 38
+p \RES\ 40
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p VCC 8
+p PHI1 3
+p VSS0 1
+p PHI2 39
+p R/\W\ 34
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p SYNC 7
+p VSS1 21
+*package VL65NC02-01CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p PHI0 37
+p \IRQ\ 4
+p \NMI\ 6
+p RDY 2
+p \SO\ 38
+p \RES\ 40
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p VCC 8
+p PHI1 3
+p VSS0 1
+p PHI2 39
+p R/\W\ 34
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p SYNC 7
+p VSS1 21
+*package VL65NC02-01PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p PHI0 37
+p \IRQ\ 4
+p \NMI\ 6
+p RDY 2
+p \SO\ 38
+p \RES\ 40
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p VCC 8
+p PHI1 3
+p VSS0 1
+p PHI2 39
+p R/\W\ 34
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p SYNC 7
+p VSS1 21
+*package VL65NC02-02CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p PHI0 37
+p \IRQ\ 4
+p \NMI\ 6
+p RDY 2
+p \SO\ 38
+p \RES\ 40
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p VCC 8
+p PHI1 3
+p VSS0 1
+p PHI2 39
+p R/\W\ 34
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p SYNC 7
+p VSS1 21
+*package VL65NC02-02PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p PHI0 37
+p \IRQ\ 4
+p \NMI\ 6
+p RDY 2
+p \SO\ 38
+p \RES\ 40
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p VCC 8
+p PHI1 3
+p VSS0 1
+p PHI2 39
+p R/\W\ 34
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p SYNC 7
+p VSS1 21
+*package VL65NC02-03CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p PHI0 37
+p \IRQ\ 4
+p \NMI\ 6
+p RDY 2
+p \SO\ 38
+p \RES\ 40
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p VCC 8
+p PHI1 3
+p VSS0 1
+p PHI2 39
+p R/\W\ 34
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p SYNC 7
+p VSS1 21
+*package VL65NC02-03PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p PHI0 37
+p \IRQ\ 4
+p \NMI\ 6
+p RDY 2
+p \SO\ 38
+p \RES\ 40
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p VCC 8
+p PHI1 3
+p VSS0 1
+p PHI2 39
+p R/\W\ 34
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p SYNC 7
+p VSS1 21
+*package VL65NC02-04CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p PHI0 37
+p \IRQ\ 4
+p \NMI\ 6
+p RDY 2
+p \SO\ 38
+p \RES\ 40
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p VCC 8
+p PHI1 3
+p VSS0 1
+p PHI2 39
+p R/\W\ 34
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p SYNC 7
+p VSS1 21
+*package VL65NC02-04PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p PHI0 37
+p \IRQ\ 4
+p \NMI\ 6
+p RDY 2
+p \SO\ 38
+p \RES\ 40
+p D0 33
+p D1 32
+p D2 31
+p D3 30
+p D4 29
+p D5 28
+p D6 27
+p D7 26
+p A15 25
+p A14 24
+p A13 23
+p A12 22
+p A11 20
+p A10 19
+p A9 18
+p A8 17
+p VCC 8
+p PHI1 3
+p VSS0 1
+p PHI2 39
+p R/\W\ 34
+p A0 9
+p A1 10
+p A2 11
+p A3 12
+p A4 13
+p A5 14
+p A6 15
+p A7 16
+p SYNC 7
+p VSS1 21
+*package VL6765-04CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p D0 6
+p D1 7
+p D2 8
+p D3 9
+p D4 10
+p D5 11
+p D6 12
+p D7 13
+p CLK 19
+p RST 1
+p \CS\ 4
+p A0 5
+p \RD\ 2
+p \WR\ 3
+p \DACK\ 15
+p TC 16
+p RDD 23
+p RDW 22
+p WCK 21
+p RDY 35
+p IDX 17
+p WP/TS 34
+p FLT/TRK0 33
+p VCC 40
+p GND 20
+p INT 18
+p DRQ 14
+p VCO 24
+p WDA 30
+p WE 25
+p PS0 32
+p PS1 31
+p \RW\/SEEK 39
+p LCT/DIR 38
+p FR/STP 37
+p HDL 36
+p HD 27
+p US0 29
+p US1 28
+p MFM 26
+*package VL6765-04PC
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p D0 6
+p D1 7
+p D2 8
+p D3 9
+p D4 10
+p D5 11
+p D6 12
+p D7 13
+p CLK 19
+p RST 1
+p \CS\ 4
+p A0 5
+p \RD\ 2
+p \WR\ 3
+p \DACK\ 15
+p TC 16
+p RDD 23
+p RDW 22
+p WCK 21
+p RDY 35
+p IDX 17
+p WP/TS 34
+p FLT/TRK0 33
+p VCC 40
+p GND 20
+p INT 18
+p DRQ 14
+p VCO 24
+p WDA 30
+p WE 25
+p PS0 32
+p PS1 31
+p \RW\/SEEK 39
+p LCT/DIR 38
+p FR/STP 37
+p HDL 36
+p HD 27
+p US0 29
+p US1 28
+p MFM 26
+*package VL6765-04QC
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p D0 7
+p D1 8
+p D2 9
+p D3 10
+p D4 11
+p D5 12
+p D6 13
+p D7 14
+p CLK 20
+p RST 2
+p \CS\ 5
+p A0 6
+p \RD\ 3
+p \WR\ 4
+p \DACK\ 16
+p TC 17
+p RDD 27
+p RDW 26
+p WCK 25
+p RDY 39
+p IDX 18
+p WP/TS 38
+p FLT/TRK0 37
+p VCC0 1
+p GND1 23
+p INT 19
+p DRQ 15
+p VCO 28
+p WDA 34
+p WE 29
+p PS0 36
+p PS1 35
+p \RW\/SEEK 43
+p LCT/DIR 42
+p FR/STP 41
+p HDL 40
+p HD 31
+p US0 33
+p US1 32
+p MFM 30
+p GND0 22
+p GND2 24
+p VCC1 44
+*package VL6765-08CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p D0 6
+p D1 7
+p D2 8
+p D3 9
+p D4 10
+p D5 11
+p D6 12
+p D7 13
+p CLK 19
+p RST 1
+p \CS\ 4
+p A0 5
+p \RD\ 2
+p \WR\ 3
+p \DACK\ 15
+p TC 16
+p RDD 23
+p RDW 22
+p WCK 21
+p RDY 35
+p IDX 17
+p WP/TS 34
+p FLT/TRK0 33
+p VCC 40
+p GND 20
+p INT 18
+p DRQ 14
+p VCO 24
+p WDA 30
+p WE 25
+p PS0 32
+p PS1 31
+p \RW\/SEEK 39
+p LCT/DIR 38
+p FR/STP 37
+p HDL 36
+p HD 27
+p US0 29
+p US1 28
+p MFM 26
+*package VL6765-08PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p D0 6
+p D1 7
+p D2 8
+p D3 9
+p D4 10
+p D5 11
+p D6 12
+p D7 13
+p CLK 19
+p RST 1
+p \CS\ 4
+p A0 5
+p \RD\ 2
+p \WR\ 3
+p \DACK\ 15
+p TC 16
+p RDD 23
+p RDW 22
+p WCK 21
+p RDY 35
+p IDX 17
+p WP/TS 34
+p FLT/TRK0 33
+p VCC 40
+p GND 20
+p INT 18
+p DRQ 14
+p VCO 24
+p WDA 30
+p WE 25
+p PS0 32
+p PS1 31
+p \RW\/SEEK 39
+p LCT/DIR 38
+p FR/STP 37
+p HDL 36
+p HD 27
+p US0 29
+p US1 28
+p MFM 26
+*package VL6765-08QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p D0 7
+p D1 8
+p D2 9
+p D3 10
+p D4 11
+p D5 12
+p D6 13
+p D7 14
+p CLK 20
+p RST 2
+p \CS\ 5
+p A0 6
+p \RD\ 3
+p \WR\ 4
+p \DACK\ 16
+p TC 17
+p RDD 27
+p RDW 26
+p WCK 25
+p RDY 39
+p IDX 18
+p WP/TS 38
+p FLT/TRK0 37
+p VCC0 1
+p GND1 23
+p INT 19
+p DRQ 15
+p VCO 28
+p WDA 34
+p WE 29
+p PS0 36
+p PS1 35
+p \RW\/SEEK 43
+p LCT/DIR 42
+p FR/STP 41
+p HDL 40
+p HD 31
+p US0 33
+p US1 32
+p MFM 30
+p GND0 22
+p GND2 24
+p VCC1 44
+*package VL68C45R b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+t PLCC44
+g 1
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p LPSTB 3
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package VL68C45R-23CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45R-23PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45R-23QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p LPSTB 3
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package VL68C45R-35CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45R-35PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45R-35QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p LPSTB 3
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package VL68C45R-36CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45R-36PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45R-36QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p LPSTB 3
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package VL68C45R-38CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45R-38PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45R-38QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p LPSTB 3
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package VL68C45S b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+t PLCC44
+g 1
+p LPSTB 3
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package VL68C45S-23CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p RA4/STB 34
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p LPSTB 3
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45S-23PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p RA4/STB 34
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p LPSTB 3
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45S-23QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p LPSTB 3
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package VL68C45S-35CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p RA4/STB 34
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p LPSTB 3
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45S-35PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p RA4/STB 34
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p LPSTB 3
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45S-35QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p LPSTB 3
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package VL68C45S-36CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p RA4/STB 34
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p LPSTB 3
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45S-36PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p RA4/STB 34
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p LPSTB 3
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45S-36QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p LPSTB 3
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package VL68C45S-38CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p RA4/STB 34
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p LPSTB 3
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45S-38PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p RA4/STB 34
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p LPSTB 3
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+*package VL68C45S-38QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p LPSTB 3
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package VL7C212A b
+@types 1
+g 1 
+@pinout
+t DIP24X
+g 1
+p TXD 14
+p DI/O 15
+p SCK 16
+p RXA1 9
+p RXA2 10
+p XTAL1 20
+p XTAL2 21
+p TXCK1 3
+p VCC 24
+p DGND 22
+p AGND 1
+p VSS 12
+p \WR\ 18
+p \RD\ 17
+p TXOUT 11
+p AUDIOOUT 7
+p CKOUT 23
+p RXD 13
+p TXCKO 2
+p RXCK 6
+t PLCC28
+g 1
+p TXD 16
+p DI/O 17
+p SCK 19
+p RXA1 11
+p RXA2 12
+p XTAL1 24
+p XTAL2 25
+p TXCK1 4
+p VCC 28
+p DGND 26
+p AGND 2
+p VSS 14
+p \WR\ 22
+p \RD\ 20
+p TXOUT 13
+p AUDIOOUT 9
+p CKOUT 27
+p RXD 15
+p TXCKO 3
+p RXCK 8
+*package VL7C212A-PC b
+@types 1
+g 1 
+@pinout
+t DIP24X
+g 1
+p TXD 14
+p DI/O 15
+p SCK 16
+p RXA1 9
+p RXA2 10
+p XTAL1 20
+p XTAL2 21
+p TXCK1 3
+p VCC 24
+p DGND 22
+p AGND 1
+p VSS 12
+p \WR\ 18
+p \RD\ 17
+p TXOUT 11
+p AUDIOOUT 7
+p CKOUT 23
+p RXD 13
+p TXCKO 2
+p RXCK 6
+*package VL7C212A-QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p TXD 16
+p DI/O 17
+p SCK 19
+p RXA1 11
+p RXA2 12
+p XTAL1 24
+p XTAL2 25
+p TXCK1 4
+p VCC 28
+p DGND 26
+p AGND 2
+p VSS 14
+p \WR\ 22
+p \RD\ 20
+p TXOUT 13
+p AUDIOOUT 9
+p CKOUT 27
+p RXD 15
+p TXCKO 3
+p RXCK 8
+*package VL7C213 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+t PLCC28
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+*package VL7C213-PC b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+*package VL7C213-QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+*package VL7C214 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p CLK 7
+p DI/O 11
+p RXD 13
+p \PS\ 15
+p WORD 16
+p \RI\ 5
+p \RESEN\ 17
+p ECHOEN 18
+p \AADIS\ 19
+p \CMDEN\ 20
+p 212A/\V.22\ 21
+p MSSEL 22
+p \DTR\ 27
+p VCC 28
+p GND 14
+p KDV/\KDV\ 4
+p OH/\OH\ 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p \HS\ 24
+p \AA\ 25
+p \CD\ 26
+t PLCC28
+g 1
+p CLK 7
+p DI/O 11
+p RXD 13
+p \PS\ 15
+p WORD 16
+p \RI\ 5
+p \RESEN\ 17
+p ECHOEN 18
+p \AADIS\ 19
+p \CMDEN\ 20
+p 212A/\V.22\ 21
+p MSSEL 22
+p \DTR\ 27
+p VCC 28
+p GND 14
+p KDV/\KDV\ 4
+p OH/\OH\ 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p \HS\ 24
+p \AA\ 25
+p \CD\ 26
+*package VL7C214-PC b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p CLK 7
+p DI/O 11
+p RXD 13
+p \PS\ 15
+p WORD 16
+p \RI\ 5
+p \RESEN\ 17
+p ECHOEN 18
+p \AADIS\ 19
+p \CMDEN\ 20
+p 212A/\V.22\ 21
+p MSSEL 22
+p \DTR\ 27
+p VCC 28
+p GND 14
+p KDV/\KDV\ 4
+p OH/\OH\ 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p \HS\ 24
+p \AA\ 25
+p \CD\ 26
+*package VL7C214-QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p CLK 7
+p DI/O 11
+p RXD 13
+p \PS\ 15
+p WORD 16
+p \RI\ 5
+p \RESEN\ 17
+p ECHOEN 18
+p \AADIS\ 19
+p \CMDEN\ 20
+p 212A/\V.22\ 21
+p MSSEL 22
+p \DTR\ 27
+p VCC 28
+p GND 14
+p KDV/\KDV\ 4
+p OH/\OH\ 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p \HS\ 24
+p \AA\ 25
+p \CD\ 26
+*package VL7C215 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+p IORDY 3
+t PLCC28
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+p IORDY 3
+*package VL7C215-PC b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+p IORDY 3
+*package VL7C215-QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+p IORDY 3
+*package VL7C224A b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p SCTE 4
+p \CS\ 8
+p \WR\ 9
+p \RD\ 10
+p D0 11
+p A/D1 12
+p A/D2 13
+p A/D3 17
+p A/D4 18
+p D5 19
+p D6 20
+p D7 21
+p RXA 15
+p CLKIN 22
+p GS 23
+p ALE 24
+p TXD 27
+p VCC 28
+p DGND 7
+p VSS 14
+p SCR 1
+p SCT 3
+p SPKR 5
+p TXA 16
+p INT 25
+p RXD 26
+p AGND 2
+p EDC 6
+t PLCC28
+g 1
+p SCTE 4
+p \CS\ 8
+p \WR\ 9
+p \RD\ 10
+p D0 11
+p A/D1 12
+p A/D2 13
+p A/D3 17
+p A/D4 18
+p D5 19
+p D6 20
+p D7 21
+p RXA 15
+p CLKIN 22
+p GS 23
+p ALE 24
+p TXD 27
+p VCC 28
+p DGND 7
+p VSS 14
+p SCR 1
+p SCT 3
+p SPKR 5
+p TXA 16
+p INT 25
+p RXD 26
+p AGND 2
+p EDC 6
+*package VL7C224A-PC b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p SCTE 4
+p \CS\ 8
+p \WR\ 9
+p \RD\ 10
+p D0 11
+p A/D1 12
+p A/D2 13
+p A/D3 17
+p A/D4 18
+p D5 19
+p D6 20
+p D7 21
+p RXA 15
+p CLKIN 22
+p GS 23
+p ALE 24
+p TXD 27
+p VCC 28
+p DGND 7
+p VSS 14
+p SCR 1
+p SCT 3
+p SPKR 5
+p TXA 16
+p INT 25
+p RXD 26
+p AGND 2
+p EDC 6
+*package VL7C224A-QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p SCTE 4
+p \CS\ 8
+p \WR\ 9
+p \RD\ 10
+p D0 11
+p A/D1 12
+p A/D2 13
+p A/D3 17
+p A/D4 18
+p D5 19
+p D6 20
+p D7 21
+p RXA 15
+p CLKIN 22
+p GS 23
+p ALE 24
+p TXD 27
+p VCC 28
+p DGND 7
+p VSS 14
+p SCR 1
+p SCT 3
+p SPKR 5
+p TXA 16
+p INT 25
+p RXD 26
+p AGND 2
+p EDC 6
+*package VL7C225 b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p INTI 5
+p SIN 9
+p XTAL1 10
+p \EA\ 27
+p RESET 44
+p A0/\RLSD\ 57
+p A1/\AA\ 55
+p A2/\HS\ 53
+p \DOST\/\CTS\ 59
+p \RI\ 61
+p \CS\/\DSR\ 63
+p VCC0 18
+p GND0 6
+p GND1 34
+p GND2 22
+p GND3 52
+p KDV 2
+p SOUT 3
+p CKOUT 7
+p ALE 8
+p XTAL2 11
+p \CSROM\ 19
+p \CSRAM\ 23
+p \MCS\ 24
+p \WR\ 25
+p \RD\ 29
+p \ECS\ 36
+p RDY/NC 60
+p OH 65
+p INTO/\MRDY\ 66
+p MA0 30
+p MA1 35
+p MA2 38
+p MA3 47
+p MA4 49
+p MA5 51
+p MA6 54
+p MA7 56
+p MA8 58
+p MA9 67
+p MA10 1
+p MA11 4
+p MA12 12
+p MA13 14
+p MA14 16
+p AD0 31
+p AD1 32
+p AD2 33
+p AD3 21
+p AD4 20
+p AD5 17
+p AD6 15
+p AD7 13
+p D0/S0 50
+p D1/S1 48
+p D2/S2 46
+p D3/S3 43
+p D4/S4 41
+p D5/S5 40
+p D6/S6 39
+p D7/\RTS\ 37
+p VCC1 68
+p \DIST\/\DTR\ 64
+*package VL7C225-QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p INTI 5
+p SIN 9
+p XTAL1 10
+p \EA\ 27
+p RESET 44
+p A0/\RLSD\ 57
+p A1/\AA\ 55
+p A2/\HS\ 53
+p \DOST\/\CTS\ 59
+p \RI\ 61
+p \CS\/\DSR\ 63
+p \DIST\/\DTR\ 64
+p VCC0 18
+p GND0 6
+p GND1 34
+p GND2 22
+p GND3 52
+p KDV 2
+p SOUT 3
+p CKOUT 7
+p ALE 8
+p XTAL2 11
+p \CSROM\ 19
+p \CSRAM\ 23
+p \MCS\ 24
+p \WR\ 25
+p \RD\ 29
+p \ECS\ 36
+p RDY/NC 60
+p OH 65
+p INTO/\MRDY\ 66
+p MA0 30
+p MA1 35
+p MA2 38
+p MA3 47
+p MA4 49
+p MA5 51
+p MA6 54
+p MA7 56
+p MA8 58
+p MA9 67
+p MA10 1
+p MA11 4
+p MA12 12
+p MA13 14
+p MA14 16
+p AD0 31
+p AD1 32
+p AD2 33
+p AD3 21
+p AD4 20
+p AD5 17
+p AD6 15
+p AD7 13
+p D0/S0 50
+p D1/S1 48
+p D2/S2 46
+p D3/S3 43
+p D4/S4 41
+p D5/S5 40
+p D6/S6 39
+p D7/\RTS\ 37
+p VCC1 68
+*package VL7C235-PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p INTI 3
+p SIN 6
+p XTAL1 7
+p RESET 27
+p A0 33
+p A1 32
+p A2 31
+p \DOST\ 34
+p \RI\ 35
+p \CS\ 36
+p \DIST\ 37
+p VCC 40
+p GND 20
+p KDV 1
+p SOUT 2
+p CKOUT 4
+p ALE 5
+p XTAL2 8
+p \MCS\ 14
+p \WR\ 15
+p \RD\ 16
+p \ECS\ 21
+p OH 38
+p INTO 39
+p AD0 17
+p AD1 18
+p AD2 19
+p AD3 13
+p AD4 12
+p AD5 11
+p AD6 10
+p AD7 9
+p D0 30
+p D1 29
+p D2 28
+p D3 26
+p D4 25
+p D5 24
+p D6 23
+p D7 22
+*package VL7C235-QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p INTI 3
+p SIN 6
+p XTAL1 7
+p RESET 29
+p A0 36
+p A1 35
+p A2 34
+p \DOST\ 37
+p \RI\ 39
+p \CS\ 40
+p \DIST\ 41
+p VCC0 12
+p GND0 15
+p GND1 33
+p GND2 22
+p KDV 1
+p SOUT 2
+p CKOUT 4
+p ALE 5
+p XTAL2 8
+p \MCS\ 16
+p \WR\ 17
+p \RD\ 18
+p \ECS\ 23
+p RDY 38
+p OH 42
+p INTO 43
+p AD0 19
+p AD1 20
+p AD2 21
+p AD3 14
+p AD4 13
+p AD5 11
+p AD6 10
+p AD7 9
+p D0 32
+p D1 31
+p D2 30
+p D3 28
+p D4 27
+p D5 26
+p D6 25
+p VCC1 44
+p D7 24
+*package VL7C245-PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p INTI 3
+p SIN 6
+p XTAL1 7
+p RESET 27
+p \CTS\ 34
+p \DSR\ 36
+p OH 38
+p \RI\ 35
+p GND 20
+p KDV 1
+p SOUT 2
+p CKOUT 4
+p ALE 5
+p XTAL2 8
+p \MCS\ 14
+p \WR\ 15
+p \RD\ 16
+p \ECS\ 21
+p \HS\ 31
+p \AA\ 32
+p \RLSD\ 33
+p AD0 17
+p AD1 18
+p AD2 19
+p AD3 13
+p AD4 12
+p AD5 11
+p AD6 10
+p AD7 9
+p S0 30
+p S1 29
+p S2 28
+p S3 26
+p S4 25
+p S5 24
+p S6 23
+p VCC 40
+p \RTS\ 22
+p \MRDY\ 39
+p \DTR\ 37
+*package VL7C245-QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p INTI 3
+p SIN 6
+p XTAL1 7
+p RESET 29
+p \CTS\ 37
+p \DSR\ 40
+p OH 42
+p \RI\ 39
+p \DTR\ 41
+p VCC0 12
+p GND0 15
+p GND1 33
+p GND2 22
+p KDV 1
+p SOUT 2
+p CKOUT 4
+p ALE 5
+p XTAL2 8
+p \MCS\ 16
+p \WR\ 17
+p \RD\ 18
+p \ECS\ 23
+p \HS\ 34
+p \AA\ 35
+p \RLSD\ 36
+p AD0 19
+p AD1 20
+p AD2 21
+p AD3 14
+p AD4 13
+p AD5 11
+p AD6 10
+p AD7 9
+p S0 32
+p S1 31
+p S2 30
+p S3 28
+p S4 27
+p S5 26
+p S6 25
+p VCC1 44
+p \RTS\ 24
+p \MRDY\ 43
+*package VL7C312 b
+@types 1
+g 1 
+@pinout
+t DIP24X
+g 1
+p TXD 14
+p DI/O 15
+p SCK 16
+p RXA1 9
+p RXA2 10
+p XTAL1 20
+p XTAL2 21
+p TXCK1 3
+p VCC 24
+p DGND 22
+p AGND 1
+p VSS 12
+p \WR\ 18
+p \RD\ 17
+p TXOUT 11
+p AUDIOOUT 7
+p CKOUT 23
+p RXD 13
+p TXCK0 2
+p RXCK 6
+p GS 8
+t PLCC28
+g 1
+p TXD 16
+p DI/O 17
+p SCK 19
+p RXA1 11
+p RXA2 12
+p XTAL1 24
+p XTAL2 25
+p TXCK1 4
+p VCC 28
+p DGND 26
+p AGND 2
+p VSS 14
+p \WR\ 22
+p \RD\ 20
+p TXOUT 13
+p AUDIOOUT 9
+p CKOUT 27
+p RXD 15
+p TXCK0 3
+p RXCK 8
+p GS 10
+*package VL7C312-PC b
+@types 1
+g 1 
+@pinout
+t DIP24X
+g 1
+p TXD 14
+p DI/O 15
+p SCK 16
+p RXA1 9
+p RXA2 10
+p XTAL1 20
+p XTAL2 21
+p TXCK1 3
+p VCC 24
+p DGND 22
+p AGND 1
+p VSS 12
+p \WR\ 18
+p \RD\ 17
+p TXOUT 11
+p AUDIOOUT 7
+p CKOUT 23
+p RXD 13
+p TXCK0 2
+p RXCK 6
+p GS 8
+*package VL7C312-QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p TXD 16
+p DI/O 17
+p SCK 19
+p RXA1 11
+p RXA2 12
+p XTAL1 24
+p XTAL2 25
+p TXCK1 4
+p VCC 28
+p DGND 26
+p AGND 2
+p VSS 14
+p \WR\ 22
+p \RD\ 20
+p TXOUT 13
+p AUDIOOUT 9
+p CKOUT 27
+p RXD 15
+p TXCK0 3
+p RXCK 8
+p GS 10
+*package VL7C412 b
+@types 1
+g 1 
+@pinout
+t DIP24X
+g 1
+p TXD 14
+p DI/O 15
+p SCK 16
+p RXA1 9
+p RXA2 10
+p XTAL1 20
+p XTAL2 21
+p TXCK1 3
+p VCC 24
+p DGND 22
+p AGND 12
+p \WR\ 18
+p \RD\ 17
+p TXOUT 11
+p AUDIOOUT 7
+p CKOUT 23
+p RXD 13
+p TXCK0 2
+p RXCK 6
+p PD 19
+p VREF 1
+p GS 8
+t PLCC28
+g 1
+p TXD 16
+p DI/O 17
+p SCK 19
+p RXA1 11
+p RXA2 12
+p XTAL1 24
+p XTAL2 25
+p TXCK1 4
+p VCC 28
+p DGND 26
+p AGND 14
+p \WR\ 22
+p \RD\ 20
+p TXOUT 13
+p AUDIOOUT 9
+p CKOUT 27
+p RXD 15
+p TXCK0 3
+p RXCK 8
+p PD 23
+p VREF 2
+p GS 10
+*package VL7C412-PC b
+@types 1
+g 1 
+@pinout
+t DIP24X
+g 1
+p TXD 14
+p DI/O 15
+p SCK 16
+p RXA1 9
+p RXA2 10
+p XTAL1 20
+p XTAL2 21
+p TXCK1 3
+p VCC 24
+p DGND 22
+p AGND 12
+p \WR\ 18
+p \RD\ 17
+p TXOUT 11
+p AUDIOOUT 7
+p CKOUT 23
+p RXD 13
+p TXCK0 2
+p RXCK 6
+p PD 19
+p VREF 1
+p GS 8
+*package VL7C412-QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p TXD 16
+p DI/O 17
+p SCK 19
+p RXA1 11
+p RXA2 12
+p XTAL1 24
+p XTAL2 25
+p TXCK1 4
+p VCC 28
+p DGND 26
+p AGND 14
+p \WR\ 22
+p \RD\ 20
+p TXOUT 13
+p AUDIOOUT 9
+p CKOUT 27
+p RXD 15
+p TXCK0 3
+p RXCK 8
+p PD 23
+p VREF 2
+p GS 10
+*package VL7C413 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+p IORDY 3
+t PLCC28
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+p IORDY 3
+*package VL7C413-PC b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+p IORDY 3
+*package VL7C413-QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p \DOST\ 1
+p \DIST\ 2
+p CLK 7
+p DI/O 11
+p RXD 13
+p D0 15
+p D1 16
+p D2 17
+p D3 18
+p D4 19
+p D5 20
+p D6 21
+p D7 22
+p A0 24
+p A1 25
+p A2 26
+p \CS\ 27
+p VCC 28
+p KDV 4
+p \RI\ 5
+p OH 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p INT 23
+p GND 14
+p IORDY 3
+*package VL7C414 b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p CLK 7
+p DI/O 11
+p RXD 13
+p \PS\ 15
+p WORD 16
+p \RI\ 5
+p \RESEN\ 17
+p ECHOEN 18
+p \AADIS\ 19
+p \CMDEN\ 20
+p 212A/\V.22\ 21
+p MSSEL 22
+p \DTR\ 27
+p VCC 28
+p GND 14
+p KDV/\KDV\ 4
+p OH/\OH\ 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p \HS\ 24
+p \AA\ 25
+p \CD\ 26
+t PLCC28
+g 1
+p CLK 7
+p DI/O 11
+p RXD 13
+p \PS\ 15
+p WORD 16
+p \RI\ 5
+p \RESEN\ 17
+p ECHOEN 18
+p \AADIS\ 19
+p \CMDEN\ 20
+p 212A/\V.22\ 21
+p MSSEL 22
+p \DTR\ 27
+p VCC 28
+p GND 14
+p KDV/\KDV\ 4
+p OH/\OH\ 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p \HS\ 24
+p \AA\ 25
+p \CD\ 26
+*package VL7C414-PC b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p CLK 7
+p DI/O 11
+p RXD 13
+p \PS\ 15
+p WORD 16
+p \RI\ 5
+p \RESEN\ 17
+p ECHOEN 18
+p \AADIS\ 19
+p \CMDEN\ 20
+p 212A/\V.22\ 21
+p MSSEL 22
+p \DTR\ 27
+p VCC 28
+p GND 14
+p KDV/\KDV\ 4
+p OH/\OH\ 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p \HS\ 24
+p \AA\ 25
+p \CD\ 26
+*package VL7C414-QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p CLK 7
+p DI/O 11
+p RXD 13
+p \PS\ 15
+p WORD 16
+p \RI\ 5
+p \RESEN\ 17
+p ECHOEN 18
+p \AADIS\ 19
+p \CMDEN\ 20
+p 212A/\V.22\ 21
+p MSSEL 22
+p \DTR\ 27
+p VCC 28
+p GND 14
+p KDV/\KDV\ 4
+p OH/\OH\ 6
+p \WR\ 8
+p \RD\ 9
+p SCK 10
+p TXD 12
+p \HS\ 24
+p \AA\ 25
+p \CD\ 26
+*package VL80C75 b
+@types 1
+g 1 
+@pinout
+t DIP24X,CDIP24X
+g 1
+p VDD 24
+p BDI 1
+p RCLK 5
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 13
+p \RE\ 14
+p \WE\ 15
+p \CS\ 16
+p RS 17
+p RST 18
+p DI 22
+p CLKI 23
+p VSS 12
+p AGCN 2
+p AGCP 3
+p OMARKP 6
+p OMARKN 7
+p LC 19
+p DO 20
+p CLKO 21
+*package VL80C75-CC b
+@types 1
+g 1 
+@pinout
+t CDIP24X
+g 1
+p VDD 24
+p BDI 1
+p RCLK 5
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 13
+p \RE\ 14
+p \WE\ 15
+p \CS\ 16
+p RS 17
+p RST 18
+p DI 22
+p CLKI 23
+p VSS 12
+p AGCN 2
+p AGCP 3
+p OMARKP 6
+p OMARKN 7
+p LC 19
+p DO 20
+p CLKO 21
+*package VL80C75-PC b
+@types 1
+g 1 
+@pinout
+t DIP24X
+g 1
+p VDD 24
+p BDI 1
+p RCLK 5
+p D0 8
+p D1 9
+p D2 10
+p D3 11
+p D4 13
+p \RE\ 14
+p \WE\ 15
+p \CS\ 16
+p RS 17
+p RST 18
+p DI 22
+p CLKI 23
+p VSS 12
+p AGCN 2
+p AGCP 3
+p OMARKP 6
+p OMARKN 7
+p LC 19
+p DO 20
+p CLKO 21
+*package VL82C031 b
+@types 1
+g 1 
+@pinout
+t QFP14x20-100
+g 1
+p \NPBUSY\ 1
+p SAD0 26
+p SAD1 25
+p SAD2 24
+p SAD3 23
+p SAD4 22
+p SAD5 21
+p SAD6 19
+p SAD7 18
+p SAD8 17
+p SAD9 16
+p SAD10 14
+p SAD11 13
+p SAD12 12
+p SAD13 11
+p SAD14 9
+p SAD15 8
+p SAD16 7
+p SAD17 6
+p SAD18 5
+p SAD19 4
+p \RQ\/GT1 27
+p \RQ\/GT0 28
+p \BHE\ 30
+p PAR0 53
+p PAR1 52
+p RAM 55
+p DRQ1 61
+p DRQ2 60
+p DRQ3 59
+p INTR/DRQ0 62
+p TSTDMA 63
+p TC 70
+p IOCHRDY 81
+p \IOCK\ 82
+p PWRGOOD 88
+p \RSTIN\ 89
+p \HDINS\ 90
+p CLKIN1 91
+p CLKIN0 93
+p TIMER2 94
+p S2 99
+p S1 98
+p S0 97
+p NPINT 100
+p VCC1 20
+p VCC0 65
+p VCC2 10
+p NMI 2
+p SRDY 3
+p A0 29
+p MDIR 31
+p SRA14/\RAS0\ 37
+p SRA15/\RAS1\ 36
+p SRA16/\ERAS0\ 35
+p SRA17/\ERAS1\ 34
+p SRA18/\ERAS2\ 33
+p SRA19/\ERAS3\ 32
+p \SRCS0\/MA1 38
+p \SRCS1\/MA2 39
+p \SRCS2\/MA3 40
+p \SRCS3\/MA4 42
+p \SRCS4\/MA5 43
+p \SRCS5\/MA6 44
+p \SRCS6\/MA7 45
+p \SRCS7\/MA8 46
+p \SRCS8\/MA9 47
+p \SRCS9\/MA10 48
+p \SWEH\/\CASL\ 50
+p \SWEL\/\CASH\ 49
+p \DACKE\ 51
+p \MREF\ 54
+p \SRE\/RAM256/1M 56
+p \ROMCS\ 57
+p AEN 64
+p \IOWR\ 66
+p \IORD\ 67
+p \MRD\ 68
+p \MWR\ 69
+p \DACK1\ 74
+p \DACK2\ 73
+p \DACK3\ 72
+p \MRAS\/\DACK0\ 75
+p PCDIR 76
+p \PCENL\ 77
+p \PCENH\ 78
+p PCALE 79
+p ALE 80
+p \CMDEN\ 83
+p SEL0 85
+p SEL1 84
+p \INTA\ 86
+p RESET 87
+p SYSCLK 95
+p CPUCLK 96
+p GND0 92
+p GND1 71
+p GND2 41
+p GND3 58
+p GND4 15
+*package VL82C031-FC b
+@types 1
+g 1 
+@pinout
+t QFP14x20-100
+g 1
+p \NPBUSY\ 1
+p SAD0 26
+p SAD1 25
+p SAD2 24
+p SAD3 23
+p SAD4 22
+p SAD5 21
+p SAD6 19
+p SAD7 18
+p SAD8 17
+p SAD9 16
+p SAD10 14
+p SAD11 13
+p SAD12 12
+p SAD13 11
+p SAD14 9
+p SAD15 8
+p SAD16 7
+p SAD17 6
+p SAD18 5
+p SAD19 4
+p \RQ\/GT1 27
+p \RQ\/GT0 28
+p \BHE\ 30
+p PAR0 53
+p PAR1 52
+p RAM 55
+p DRQ1 61
+p DRQ2 60
+p DRQ3 59
+p INTR/DRQ0 62
+p TSTDMA 63
+p TC 70
+p IOCHRDY 81
+p \IOCK\ 82
+p PWRGOOD 88
+p \RSTIN\ 89
+p \HDINS\ 90
+p CLKIN1 91
+p CLKIN0 93
+p TIMER2 94
+p S2 99
+p S1 98
+p S0 97
+p NPINT 100
+p VCC1 20
+p VCC0 65
+p VCC2 10
+p NMI 2
+p SRDY 3
+p A0 29
+p MDIR 31
+p SRA14/\RAS0\ 37
+p SRA15/\RAS1\ 36
+p SRA16/\ERAS0\ 35
+p SRA17/\ERAS1\ 34
+p SRA18/\ERAS2\ 33
+p SRA19/\ERAS3\ 32
+p \SRCS0\/MA1 38
+p \SRCS1\/MA2 39
+p \SRCS2\/MA3 40
+p \SRCS3\/MA4 42
+p \SRCS4\/MA5 43
+p \SRCS5\/MA6 44
+p \SRCS6\/MA7 45
+p \SRCS7\/MA8 46
+p \SRCS8\/MA9 47
+p \SRCS9\/MA10 48
+p \SWEH\/\CASL\ 50
+p \SWEL\/\CASH\ 49
+p \DACKE\ 51
+p \MREF\ 54
+p \SRE\/RAM256/1M 56
+p \ROMCS\ 57
+p AEN 64
+p \IOWR\ 66
+p \IORD\ 67
+p \MRD\ 68
+p \MWR\ 69
+p \DACK1\ 74
+p \DACK2\ 73
+p \DACK3\ 72
+p \MRAS\/\DACK0\ 75
+p PCDIR 76
+p \PCENL\ 77
+p \PCENH\ 78
+p PCALE 79
+p ALE 80
+p \CMDEN\ 83
+p SEL0 85
+p SEL1 84
+p \INTA\ 86
+p RESET 87
+p SYSCLK 95
+p CPUCLK 96
+p GND0 92
+p GND1 71
+p GND2 41
+p GND3 58
+p GND4 15
+*package VL82C032 b
+@types 1
+g 1 
+@pinout
+t QFP14x20-100
+g 1
+p \DACK2\ 1
+p \DACK3\ 2
+p \HIGDNTY\ 3
+p SADR0 30
+p SADR1 29
+p SADR2 28
+p SADR3 27
+p SADR4 26
+p SADR5 25
+p SADR6 24
+p SADR7 22
+p SADR8 21
+p SADR9 20
+p KEYLOCK 31
+p RXD1 32
+p \DCD1\ 33
+p \DCD2\ 42
+p \RIN1\ 34
+p \RIN2\ 43
+p \DSR1\ 35
+p \DSR2\ 44
+p \CTS1\ 36
+p \CTS2\ 45
+p RXD2 41
+p OSC2 49
+p RESET 50
+p \XIORD\ 51
+p \XIOWR\ 52
+p \XMEMRD\ 53
+p VDDRTC 54
+p RTCLKIN 56
+p PWRGOOD 57
+p PTPERR 60
+p \ACK\ 71
+p \ERROR\ 75
+p \SLCT\ 76
+p \BUSY\ 77
+p PCAEN 79
+p \REFRESH\ 80
+p CHPTEST 81
+p IRQ2 82
+p IRQ3 83
+p IRQ4 84
+p IRQ5 85
+p IRQ6 86
+p IRQ7 87
+p \INTA\ 88
+p ADSEL0 90
+p ADSEL1 92
+p OSC 94
+p VCC1 40
+p VCC0 23
+p VCC2 73
+p \SELHDK\ 4
+p \LED\ 5
+p DATA0 14
+p DATA1 13
+p DATA2 12
+p DATA3 11
+p DATA4 10
+p DATA5 9
+p DATA6 7
+p DATA7 6
+p J2DATA 16
+p J2CLOCK 17
+p J1DATA 18
+p J1CLOCK 19
+p \RTS1\ 37
+p \RTS2\ 46
+p \DTR1\ 38
+p \DTR2\ 47
+p TXD1 39
+p TXD2 48
+p RTCLKOUT 55
+p \STROBE\ 59
+p \INIT\ 61
+p PD0 62
+p PD1 63
+p PD2 64
+p PD3 65
+p PD4 67
+p PD5 68
+p PD6 69
+p PD7 70
+p \AUTOFD\ 72
+p \SELIN\ 74
+p \XBFRD\ 78
+p INTR 89
+p TIMEROUT2 93
+p SPKOUT 95
+p \FLPCS\ 96
+p \RD3F0\ 97
+p \RD3F1\ 98
+p \PRE\ 99
+p DRVTYPE 100
+p GND2 58
+p GND1 15
+p GND0 8
+p GND3 66
+p GND4 91
+*package VL82C032-FC b
+@types 1
+g 1 
+@pinout
+t QFP14x20-100
+g 1
+p \DACK2\ 1
+p \DACK3\ 2
+p \HIGDNTY\ 3
+p SADR0 30
+p SADR1 29
+p SADR2 28
+p SADR3 27
+p SADR4 26
+p SADR5 25
+p SADR6 24
+p SADR7 22
+p SADR8 21
+p SADR9 20
+p KEYLOCK 31
+p RXD1 32
+p \DCD1\ 33
+p \DCD2\ 42
+p \RIN1\ 34
+p \RIN2\ 43
+p \DSR1\ 35
+p \DSR2\ 44
+p \CTS1\ 36
+p \CTS2\ 45
+p RXD2 41
+p OSC2 49
+p RESET 50
+p \XIORD\ 51
+p \XIOWR\ 52
+p \XMEMRD\ 53
+p VDDRTC 54
+p RTCLKIN 56
+p PWRGOOD 57
+p PTPERR 60
+p \ACK\ 71
+p \ERROR\ 75
+p \SLCT\ 76
+p \BUSY\ 77
+p PCAEN 79
+p \REFRESH\ 80
+p CHPTEST 81
+p IRQ2 82
+p IRQ3 83
+p IRQ4 84
+p IRQ5 85
+p IRQ6 86
+p IRQ7 87
+p \INTA\ 88
+p ADSEL0 90
+p ADSEL1 92
+p OSC 94
+p VCC1 40
+p VCC0 23
+p VCC2 73
+p \SELHDK\ 4
+p \LED\ 5
+p DATA0 14
+p DATA1 13
+p DATA2 12
+p DATA3 11
+p DATA4 10
+p DATA5 9
+p DATA6 7
+p DATA7 6
+p J2DATA 16
+p J2CLOCK 17
+p J1DATA 18
+p J1CLOCK 19
+p \RTS1\ 37
+p \RTS2\ 46
+p \DTR1\ 38
+p \DTR2\ 47
+p TXD1 39
+p TXD2 48
+p RTCLKOUT 55
+p \STROBE\ 59
+p \INIT\ 61
+p PD0 62
+p PD1 63
+p PD2 64
+p PD3 65
+p PD4 67
+p PD5 68
+p PD6 69
+p PD7 70
+p \AUTOFD\ 72
+p \SELIN\ 74
+p \XBFRD\ 78
+p INTR 89
+p TIMEROUT2 93
+p SPKOUT 95
+p \FLPCS\ 96
+p \RD3F0\ 97
+p \RD3F1\ 98
+p \PRE\ 99
+p DRVTYPE 100
+p GND2 58
+p GND1 15
+p GND0 8
+p GND3 66
+p GND4 91
+*package VL82C037 b
+@types 1
+g 1 
+@pinout
+t QFP14x20-100
+g 1
+p RESET 2
+p SWITCH 3
+p A8 4
+p A9 5
+p A10 6
+p A11 7
+p A12 8
+p A13 9
+p A14 10
+p A15 11
+p A16 12
+p ASEL 13
+p \VMWR\ 17
+p \VMRD\ 19
+p \IOWR\ 20
+p \IORD\ 21
+p VCLK3 22
+p VCLK2 23
+p VCLK1 24
+p VCLK0 25
+p EXCLK 26
+p \CRTINT\ 1
+p \NMI\ 14
+p CPURDY 16
+p \SWTR\ 27
+p \WE\ 28
+p \CAS\ 29
+p \OE\ 30
+p \RAS0\ 32
+p \RAS1\ 33
+p \RAS2\ 34
+p \RAS3\ 35
+p MD31 36
+p MD30 37
+p MD29 38
+p MD28 39
+p MD27 41
+p MD26 42
+p MD25 43
+p MD24 44
+p MD23 45
+p MD22 46
+p MD21 47
+p MD20 48
+p MD19 49
+p MD18 50
+p MD17 51
+p MD16 52
+p MD15 53
+p MD14 54
+p MD13 55
+p MD12 56
+p MD11 57
+p MD10 59
+p MD9 60
+p MD8 62
+p MD7 63
+p MD6 64
+p MD5 66
+p MD4 67
+p MD3 69
+p MD2 70
+p MD1 71
+p MD0 73
+p P7 74
+p P6 75
+p P5 76
+p P4 77
+p P3 78
+p P2 79
+p P1 80
+p P0 81
+p HSYNC 82
+p VSYNC 83
+p \BLANK\ 84
+p \DACW\ 85
+p \DACR\ 86
+p PCLK 87
+p DA7 88
+p DA6 89
+p DA5 91
+p DA4 92
+p DA3 93
+p DA2 94
+p DA1 96
+p DA0 97
+p \EABUF\ 98
+p \EDBUF\ 99
+p DIR 100
+p GND3 61
+p GND4 65
+p GND5 72
+p GND6 90
+p GND2 40
+p GND1 31
+p GND0 15
+p VCC1 58
+p VCC0 18
+p VCC2 68
+p VCC3 95
+*package VL82C037-FC b
+@types 1
+g 1 
+@pinout
+t QFP14x20-100
+g 1
+p RESET 2
+p SWITCH 3
+p A8 4
+p A9 5
+p A10 6
+p A11 7
+p A12 8
+p A13 9
+p A14 10
+p A15 11
+p A16 12
+p ASEL 13
+p \VMWR\ 17
+p \VMRD\ 19
+p \IOWR\ 20
+p \IORD\ 21
+p VCLK3 22
+p VCLK2 23
+p VCLK1 24
+p VCLK0 25
+p EXCLK 26
+p \CRTINT\ 1
+p \NMI\ 14
+p CPURDY 16
+p \SWTR\ 27
+p \WE\ 28
+p \CAS\ 29
+p \OE\ 30
+p \RAS0\ 32
+p \RAS1\ 33
+p \RAS2\ 34
+p \RAS3\ 35
+p MD31 36
+p MD30 37
+p MD29 38
+p MD28 39
+p MD27 41
+p MD26 42
+p MD25 43
+p MD24 44
+p MD23 45
+p MD22 46
+p MD21 47
+p MD20 48
+p MD19 49
+p MD18 50
+p MD17 51
+p MD16 52
+p MD15 53
+p MD14 54
+p MD13 55
+p MD12 56
+p MD11 57
+p MD10 59
+p MD9 60
+p MD8 62
+p MD7 63
+p MD6 64
+p MD5 66
+p MD4 67
+p MD3 69
+p MD2 70
+p MD1 71
+p MD0 73
+p P7 74
+p P6 75
+p P5 76
+p P4 77
+p P3 78
+p P2 79
+p P1 80
+p P0 81
+p HSYNC 82
+p VSYNC 83
+p \BLANK\ 84
+p \DACW\ 85
+p \DACR\ 86
+p PCLK 87
+p DA7 88
+p DA6 89
+p DA5 91
+p DA4 92
+p DA3 93
+p DA2 94
+p DA1 96
+p DA0 97
+p \EABUF\ 98
+p \EDBUF\ 99
+p DIR 100
+p GND3 61
+p GND4 65
+p GND5 72
+p GND6 90
+p GND2 40
+p GND1 31
+p GND0 15
+p VCC1 58
+p VCC0 18
+p VCC2 68
+p VCC3 95
+*package VL82C100 b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p SYSCLK 23
+p RESET 24
+p IRQ1 14
+p IRQ3 13
+p IRQ4 12
+p IRQ5 11
+p IRQ6 10
+p IRQ7 9
+p IRQ8 81
+p IRQ9 80
+p IRQ10 79
+p IRQ11 78
+p IRQ12 77
+p IRQ13 76
+p IRQ14 75
+p IRQ15 74
+p \INTA\ 6
+p DRQ0 21
+p DRQ1 20
+p DRQ2 19
+p DRQ3 18
+p DRQ5 17
+p DRQ6 16
+p DRQ7 15
+p CPUHLDA 44
+p \MASTER\ 45
+p IOCHRDY 73
+p MHZ119 41
+p VDD0 5
+p VDD1 43
+p VSS1 26
+p VSS2 59
+p VSS0 22
+p VSS3 67
+p XD0 34
+p XD1 33
+p XD2 32
+p XD3 31
+p XD4 30
+p XD5 29
+p XD6 28
+p XD7 27
+p XA0 47
+p XA1 48
+p XA2 49
+p XA3 50
+p XA4 51
+p XA5 52
+p XA6 53
+p XA7 54
+p XA8 55
+p XA9 56
+p XA10 57
+p XA11 58
+p XA12 60
+p XA13 61
+p XA14 62
+p XA15 63
+p XA16 64
+p A17 72
+p A18 71
+p A19 70
+p A20 69
+p A21 68
+p A22 66
+p A23 65
+p \XIOW\ 37
+p \XIOR\ 38
+p \XMEMW\ 36
+p \XMEMR\ 35
+p INTR 46
+p \DACK0\ 1
+p \DACK1\ 83
+p \DACK2\ 84
+p \DACK3\ 82
+p \DACK5\ 2
+p \DACK6\ 3
+p \DACK7\ 4
+p CPUHRQ 40
+p \AEN1\ 8
+p \AEN2\ 7
+p T/C 39
+p OUT2 42
+p \REFRESH\ 25
+*package VL82C100-20QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p SYSCLK 23
+p RESET 24
+p IRQ1 14
+p IRQ3 13
+p IRQ4 12
+p IRQ5 11
+p IRQ6 10
+p IRQ7 9
+p IRQ8 81
+p IRQ9 80
+p IRQ10 79
+p IRQ11 78
+p IRQ12 77
+p IRQ13 76
+p IRQ14 75
+p IRQ15 74
+p \INTA\ 6
+p DRQ0 21
+p DRQ1 20
+p DRQ2 19
+p DRQ3 18
+p DRQ5 17
+p DRQ6 16
+p DRQ7 15
+p CPUHLDA 44
+p \MASTER\ 45
+p IOCHRDY 73
+p MHZ119 41
+p VDD0 5
+p VDD1 43
+p VSS1 26
+p VSS2 59
+p VSS0 22
+p VSS3 67
+p XD0 34
+p XD1 33
+p XD2 32
+p XD3 31
+p XD4 30
+p XD5 29
+p XD6 28
+p XD7 27
+p XA0 47
+p XA1 48
+p XA2 49
+p XA3 50
+p XA4 51
+p XA5 52
+p XA6 53
+p XA7 54
+p XA8 55
+p XA9 56
+p XA10 57
+p XA11 58
+p XA12 60
+p XA13 61
+p XA14 62
+p XA15 63
+p XA16 64
+p A17 72
+p A18 71
+p A19 70
+p A20 69
+p A21 68
+p A22 66
+p A23 65
+p \XIOW\ 37
+p \XIOR\ 38
+p \XMEMW\ 36
+p \XMEMR\ 35
+p INTR 46
+p \DACK0 1
+p \DACK1\ 83
+p \DACK2\ 84
+p \DACK3\ 82
+p \DACK5\ 2
+p \DACK6\ 3
+p \DACK7\ 4
+p CPUHRQ 40
+p \AEN1\ 8
+p \AEN2\ 7
+p T/C 39
+p OUT2 42
+p \REFRESH\ 25
+*package VL82C100-20QI b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p SYSCLK 23
+p RESET 24
+p IRQ1 14
+p IRQ3 13
+p IRQ4 12
+p IRQ5 11
+p IRQ6 10
+p IRQ7 9
+p IRQ8 81
+p IRQ9 80
+p IRQ10 79
+p IRQ11 78
+p IRQ12 77
+p IRQ13 76
+p IRQ14 75
+p IRQ15 74
+p \INTA\ 6
+p DRQ0 21
+p DRQ1 20
+p DRQ2 19
+p DRQ3 18
+p DRQ5 17
+p DRQ6 16
+p DRQ7 15
+p CPUHLDA 44
+p \MASTER\ 45
+p IOCHRDY 73
+p MHZ119 41
+p VDD0 5
+p VDD1 43
+p VSS1 26
+p VSS2 59
+p VSS0 22
+p VSS3 67
+p XD0 34
+p XD1 33
+p XD2 32
+p XD3 31
+p XD4 30
+p XD5 29
+p XD6 28
+p XD7 27
+p XA0 47
+p XA1 48
+p XA2 49
+p XA3 50
+p XA4 51
+p XA5 52
+p XA6 53
+p XA7 54
+p XA8 55
+p XA9 56
+p XA10 57
+p XA11 58
+p XA12 60
+p XA13 61
+p XA14 62
+p XA15 63
+p XA16 64
+p A17 72
+p A18 71
+p A19 70
+p A20 69
+p A21 68
+p A22 66
+p A23 65
+p \XIOW\ 37
+p \XIOR\ 38
+p \XMEMW\ 36
+p \XMEMR\ 35
+p INTR 46
+p \DACK0 1
+p \DACK1\ 83
+p \DACK2\ 84
+p \DACK3\ 82
+p \DACK5\ 2
+p \DACK6\ 3
+p \DACK7\ 4
+p CPUHRQ 40
+p \AEN1\ 8
+p \AEN2\ 7
+p T/C 39
+p OUT2 42
+p \REFRESH\ 25
+*package VL82C100-QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p SYSCLK 23
+p RESET 24
+p IRQ1 14
+p IRQ3 13
+p IRQ4 12
+p IRQ5 11
+p IRQ6 10
+p IRQ7 9
+p IRQ8 81
+p IRQ9 80
+p IRQ10 79
+p IRQ11 78
+p IRQ12 77
+p IRQ13 76
+p IRQ14 75
+p IRQ15 74
+p \INTA\ 6
+p DRQ0 21
+p DRQ1 20
+p DRQ2 19
+p DRQ3 18
+p DRQ5 17
+p DRQ6 16
+p DRQ7 15
+p CPUHLDA 44
+p \MASTER\ 45
+p IOCHRDY 73
+p MHZ119 41
+p VDD0 5
+p VDD1 43
+p VSS1 26
+p VSS2 59
+p VSS0 22
+p VSS3 67
+p XD0 34
+p XD1 33
+p XD2 32
+p XD3 31
+p XD4 30
+p XD5 29
+p XD6 28
+p XD7 27
+p XA0 47
+p XA1 48
+p XA2 49
+p XA3 50
+p XA4 51
+p XA5 52
+p XA6 53
+p XA7 54
+p XA8 55
+p XA9 56
+p XA10 57
+p XA11 58
+p XA12 60
+p XA13 61
+p XA14 62
+p XA15 63
+p XA16 64
+p A17 72
+p A18 71
+p A19 70
+p A20 69
+p A21 68
+p A22 66
+p A23 65
+p \XIOW\ 37
+p \XIOR\ 38
+p \XMEMW\ 36
+p \XMEMR\ 35
+p INTR 46
+p \DACK0 1
+p \DACK1\ 83
+p \DACK2\ 84
+p \DACK3\ 82
+p \DACK5\ 2
+p \DACK6\ 3
+p \DACK7\ 4
+p CPUHRQ 40
+p \AEN1\ 8
+p \AEN2\ 7
+p T/C 39
+p OUT2 42
+p \REFRESH\ 25
+*package VL82C100-QI b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p SYSCLK 23
+p RESET 24
+p IRQ1 14
+p IRQ3 13
+p IRQ4 12
+p IRQ5 11
+p IRQ6 10
+p IRQ7 9
+p IRQ8 81
+p IRQ9 80
+p IRQ10 79
+p IRQ11 78
+p IRQ12 77
+p IRQ13 76
+p IRQ14 75
+p IRQ15 74
+p \INTA\ 6
+p DRQ0 21
+p DRQ1 20
+p DRQ2 19
+p DRQ3 18
+p DRQ5 17
+p DRQ6 16
+p DRQ7 15
+p CPUHLDA 44
+p \MASTER\ 45
+p IOCHRDY 73
+p MHZ119 41
+p VDD0 5
+p VDD1 43
+p VSS1 26
+p VSS2 59
+p VSS0 22
+p VSS3 67
+p XD0 34
+p XD1 33
+p XD2 32
+p XD3 31
+p XD4 30
+p XD5 29
+p XD6 28
+p XD7 27
+p XA0 47
+p XA1 48
+p XA2 49
+p XA3 50
+p XA4 51
+p XA5 52
+p XA6 53
+p XA7 54
+p XA8 55
+p XA9 56
+p XA10 57
+p XA11 58
+p XA12 60
+p XA13 61
+p XA14 62
+p XA15 63
+p XA16 64
+p A17 72
+p A18 71
+p A19 70
+p A20 69
+p A21 68
+p A22 66
+p A23 65
+p \XIOW\ 37
+p \XIOR\ 38
+p \XMEMW\ 36
+p \XMEMR\ 35
+p INTR 46
+p \DACK0 1
+p \DACK1\ 83
+p \DACK2\ 84
+p \DACK3\ 82
+p \DACK5\ 2
+p \DACK6\ 3
+p \DACK7\ 4
+p CPUHRQ 40
+p \AEN1\ 8
+p \AEN2\ 7
+p T/C 39
+p OUT2 42
+p \REFRESH\ 25
+*package VL82C101B b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p XTAL1(1) 3
+p IOCHRDY 4
+p CPUHLDA 5
+p VDD1 54
+p VDD0 32
+p VDD2 82
+p VSS2 38
+p VSS1 27
+p VSS0 1
+p VSS3 48
+p VSS4 59
+p \S1\ 6
+p \S0\ 7
+p M/\IO\ 8
+p RC 9
+p A1 10
+p \IOCS16\ 11
+p \WS0\ 12
+p \ROMCS\ 13
+p F16 14
+p A0 15
+p FASTMODE 16
+p ROMWTST 17
+p RAMWTST 18
+p \BUSY287\ 19
+p \XBHE\ 22
+p \XMEMW\ 34
+p \XMEMR\ 35
+p \XIOW\ 36
+p \XIOR\ 37
+p \MEMW\ 39
+p \MEMR\ 40
+p \IOW\ 41
+p \IOR\ 42
+p \ERROR\ 67
+p \MASTER\ 68
+p \MEMCS16\ 69
+p \LMEGCS\ 70
+p \REFRESH\ 71
+p \AEN1\ 73
+p \AEN2\ 72
+p XA0 80
+p XA3 79
+p XA5 78
+p XA6 77
+p XA7 76
+p XA8 75
+p XA9 74
+p POWERGOOD 81
+p XTAL2(1) 83
+p XTAL1(2) 2
+p OSC 20
+p MHZ119 21
+p \NPCS\ 23
+p RESET287 24
+p \DENHI\ 25
+p \DENLO\ 26
+p DT/\R\ 28
+p ALE 29
+p RAS 30
+p \DMAAEN\ 31
+p RESCPU 33
+p \BUSY286\ 43
+p \INTA\ 44
+p RESET 45
+p PROCCLK 46
+p SYSCLK 47
+p SA0 49
+p \SMEMW\ 50
+p \SMEMR\ 51
+p \PCLK\ 52
+p PCLK 53
+p \ENAS\ 55
+p \REFEN\ 56
+p Q1 57
+p DIR245 58
+p GATE245 60
+p CNTLOFF 61
+p XDATADIR 62
+p \PPICS\ 63
+p RAMALE 64
+p \READY\ 65
+p ENDRAS 66
+p XTAL2(2) 84
+*package VL82C101B-QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p XTAL1(1) 3
+p IOCHRDY 4
+p CPUHLDA 5
+p VDD1 54
+p VDD0 32
+p VDD2 82
+p VSS2 38
+p VSS1 27
+p VSS0 1
+p VSS3 48
+p VSS4 59
+p \S1\ 6
+p \S0\ 7
+p M/\IO\ 8
+p RC 9
+p A1 10
+p \IOCS16\ 11
+p \WS0\ 12
+p \ROMCS\ 13
+p F16 14
+p A0 15
+p FASTMODE 16
+p ROMWTST 17
+p RAMWTST 18
+p \BUSY287\ 19
+p \XBHE\ 22
+p \XMEMW\ 34
+p \XMEMR\ 35
+p \XIOW\ 36
+p \XIOR\ 37
+p \MEMW\ 39
+p \MEMR\ 40
+p \IOW\ 41
+p \IOR\ 42
+p \ERROR\ 67
+p \MASTER\ 68
+p \MEMCS16\ 69
+p \LMEGCS\ 70
+p \REFRESH\ 71
+p \AEN1\ 73
+p \AEN2\ 72
+p XA0 80
+p XA3 79
+p XA5 78
+p XA6 77
+p XA7 76
+p XA8 75
+p XA9 74
+p POWERGOOD 81
+p XTAL2(1) 83
+p XTAL1(2) 2
+p OSC 20
+p MHZ119 21
+p \NPCS\ 23
+p RESET287 24
+p \DENHI\ 25
+p \DENLO\ 26
+p DT/\R\ 28
+p ALE 29
+p RAS 30
+p \DMAAEN\ 31
+p RESCPU 33
+p \BUSY286\ 43
+p \INTA\ 44
+p RESET 45
+p PROCCLK 46
+p SYSCLK 47
+p SA0 49
+p \SMEMW\ 50
+p \SMEMR\ 51
+p \PCLK\ 52
+p PCLK 53
+p \ENAS\ 55
+p \REFEN\ 56
+p Q1 57
+p DIR245 58
+p GATE245 60
+p CNTLOFF 61
+p XDATADIR 62
+p \PPICS\ 63
+p RAMALE 64
+p \READY\ 65
+p ENDRAS 66
+p XTAL2(2) 84
+*package VL82C102A b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p \PARERROR\ 3
+p \REFRESH\ 5
+p ALE 6
+p \DMAAEN\ 7
+p RESET 8
+p OUT2 9
+p \IOCHCK\ 10
+p A20GATE 11
+p CPUHLDA 12
+p CPUA20 13
+p \MASTER\ 14
+p RAMALE 15
+p RAMSEL2 16
+p XA16 53
+p REFBIT9 74
+p ADDRSEL 75
+p \ENAS\ 76
+p Q1 77
+p \XIOW\ 78
+p \XIOR\ 79
+p \PPICS\ 80
+p XA4 81
+p \XMEMR\ 82
+p RAMSEL1 83
+p RAMSEL0 84
+p VDD1 31
+p VDD2 49
+p VDD0 4
+p F16 18
+p RAS0 19
+p RAS1 20
+p CAS0 21
+p CAS1 22
+p \LMEGCS\ 23
+p \LCS0ROM\ 24
+p \MDBEN\ 25
+p SA0 27
+p XA0 28
+p AEN 29
+p XD0 32
+p XD1 33
+p XD2 34
+p XD3 35
+p XD4 36
+p XD5 37
+p XD6 38
+p XD7 39
+p A17 47
+p A18 46
+p A19 45
+p A20 44
+p A21 43
+p A22 42
+p A23 41
+p \LCS1ROM\ 48
+p PAREN 51
+p SA17 50
+p SA18 54
+p SA19 55
+p LA17 56
+p LA18 57
+p LA19 59
+p LA20 60
+p LA21 61
+p LA22 62
+p LA23 63
+p MA8 65
+p MA9 66
+p SPKRDATA 67
+p NMI 68
+p \CS8042\ 70
+p RTCR/\W\ 71
+p RTCDS 72
+p RTCAS 73
+p VSS4 40
+p VSS3 30
+p VSS5 52
+p VSS6 58
+p VSS7 64
+p VSS8 69
+p VSS2 26
+p VSS1 17
+p VSS0 1
+*package VL82C102A-QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p \PARERROR\ 3
+p \REFRESH\ 5
+p ALE 6
+p \DMAAEN\ 7
+p RESET 8
+p OUT2 9
+p \IOCHCK\ 10
+p A20GATE 11
+p CPUHLDA 12
+p CPUA20 13
+p \MASTER\ 14
+p RAMALE 15
+p RAMSEL2 16
+p XA16 53
+p REFBIT9 74
+p ADDRSEL 75
+p \ENAS\ 76
+p Q1 77
+p \XIOW\ 78
+p \XIOR\ 79
+p \PPICS\ 80
+p XA4 81
+p \XMEMR\ 82
+p RAMSEL1 83
+p RAMSEL0 84
+p VDD1 31
+p VDD2 49
+p VDD0 4
+p F16 18
+p RAS0 19
+p RAS1 20
+p CAS0 21
+p CAS1 22
+p \LMEGCS\ 23
+p \LCS0ROM\ 24
+p \MDBEN\ 25
+p SA0 27
+p XA0 28
+p AEN 29
+p XD0 32
+p XD1 33
+p XD2 34
+p XD3 35
+p XD4 36
+p XD5 37
+p XD6 38
+p XD7 39
+p A17 47
+p A18 46
+p A19 45
+p A20 44
+p A21 43
+p A22 42
+p A23 41
+p \LCS1ROM\ 48
+p PAREN 51
+p SA17 50
+p SA18 54
+p SA19 55
+p LA17 56
+p LA18 57
+p LA19 59
+p LA20 60
+p LA21 61
+p LA22 62
+p LA23 63
+p MA8 65
+p MA9 66
+p SPKRDATA 67
+p NMI 68
+p \CS8042\ 70
+p RTCR/\W\ 71
+p RTCDS 72
+p RTCAS 73
+p VSS4 40
+p VSS3 30
+p VSS5 52
+p VSS6 58
+p VSS7 64
+p VSS8 69
+p VSS2 26
+p VSS1 17
+p VSS0 1
+*package VL82C103A b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p A1 20
+p A2 19
+p A3 18
+p A4 17
+p A5 16
+p A6 15
+p A7 14
+p A8 13
+p A9 9
+p A10 8
+p A11 7
+p A12 6
+p A13 5
+p A14 4
+p A15 3
+p A16 2
+p RAMALE 10
+p \BUSY287\ 11
+p \BHE\ 12
+p ALE 22
+p CPUHLDA 23
+p \DMAAEN\ 24
+p \REFRESH\ 25
+p \REFEN\ 26
+p ADDRSEL 27
+p RESET 28
+p \ERROR\ 29
+p VDD1 31
+p VDD2 44
+p VDD0 1
+p VDD3 56
+p VSS3 49
+p VSS2 39
+p VSS1 33
+p VSS0 21
+p VSS4 54
+p VSS5 65
+p VSS6 75
+p REFBIT9 30
+p \SBHE\ 32
+p SA0 53
+p SA1 52
+p SA2 51
+p SA3 50
+p SA4 48
+p SA5 47
+p SA6 46
+p SA7 45
+p SA8 43
+p SA9 42
+p SA10 41
+p SA11 40
+p SA12 38
+p SA13 37
+p SA14 36
+p SA15 35
+p SA16 34
+p BALE 55
+p MA0 57
+p MA1 58
+p MA2 59
+p MA3 60
+p MA4 61
+p MA5 62
+p MA6 63
+p MA7 64
+p XA1 83
+p XA2 82
+p XA3 81
+p XA4 80
+p XA5 79
+p XA6 78
+p XA7 77
+p XA8 76
+p XA9 74
+p XA10 73
+p XA11 72
+p XA12 71
+p XA13 70
+p XA14 69
+p XA15 68
+p XA16 67
+p \XBHE\ 66
+p IRQ13 84
+*package VL82C103A-QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p A1 20
+p A2 19
+p A3 18
+p A4 17
+p A5 16
+p A6 15
+p A7 14
+p A8 13
+p A9 9
+p A10 8
+p A11 7
+p A12 6
+p A13 5
+p A14 4
+p A15 3
+p A16 2
+p RAMALE 10
+p \BUSY287\ 11
+p \BHE\ 12
+p ALE 22
+p CPUHLDA 23
+p \DMAAEN\ 24
+p \REFRESH\ 25
+p \REFEN\ 26
+p ADDRSEL 27
+p RESET 28
+p \ERROR\ 29
+p VDD1 31
+p VDD2 44
+p VDD0 1
+p VDD3 56
+p VSS3 49
+p VSS2 39
+p VSS1 33
+p VSS0 21
+p VSS4 54
+p VSS5 65
+p VSS6 75
+p REFBIT9 30
+p \SBHE\ 32
+p SA0 53
+p SA1 52
+p SA2 51
+p SA3 50
+p SA4 48
+p SA5 47
+p SA6 46
+p SA7 45
+p SA8 43
+p SA9 42
+p SA10 41
+p SA11 40
+p SA12 38
+p SA13 37
+p SA14 36
+p SA15 35
+p SA16 34
+p BALE 55
+p MA0 57
+p MA1 58
+p MA2 59
+p MA3 60
+p MA4 61
+p MA5 62
+p MA6 63
+p MA7 64
+p XA1 83
+p XA2 82
+p XA3 81
+p XA4 80
+p XA5 79
+p XA6 78
+p XA7 77
+p XA8 76
+p XA9 74
+p XA10 73
+p XA11 72
+p XA12 71
+p XA13 70
+p XA14 69
+p XA15 68
+p XA16 67
+p \XBHE\ 66
+p IRQ13 84
+*package VL82C104 b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p CNTLOFF 16
+p DT/\R\ 21
+p \DENLO\ 17
+p XA0 24
+p \MDBEN\ 22
+p XDATADIR 30
+p AEN 31
+p DIR245 19
+p GATE245 20
+p \DENHI\ 18
+p \XBHE\ 25
+p \XMEMR\ 15
+p MDPOUT0 26
+p MDPOUT1 27
+p PAREN 32
+p MDPIN0 28
+p MDPIN1 29
+p \PARERROR\ 23
+p MD0 55
+p MD1 56
+p MD2 57
+p MD3 58
+p MD4 59
+p MD5 60
+p MD6 61
+p MD7 62
+p MD8 64
+p MD9 65
+p MD10 66
+p MD11 67
+p MD12 68
+p MD13 69
+p MD14 70
+p MD15 71
+p XD0 73
+p XD1 74
+p XD2 75
+p XD3 76
+p XD4 77
+p XD5 78
+p XD6 79
+p XD7 80
+p D0 82
+p D1 84
+p D2 2
+p D3 4
+p D4 7
+p D5 9
+p D6 11
+p D7 13
+p D8 83
+p D9 1
+p D10 3
+p D11 5
+p D12 8
+p D13 10
+p D14 12
+p D15 14
+p SD0 42
+p SD1 41
+p SD2 40
+p SD3 39
+p SD4 37
+p SD5 36
+p SD6 35
+p SD7 34
+p SD8 44
+p SD9 45
+p SD10 46
+p SD11 47
+p SD12 49
+p SD13 50
+p SD14 51
+p SD15 52
+p VDD1 54
+p VDD0 43
+p VDD2 81
+p VSS3 48
+p VSS2 38
+p VSS1 33
+p VSS0 6
+p VSS4 53
+p VSS5 63
+p VSS6 72
+*package VL82C104-QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p CNTLOFF 16
+p DT/\R\ 21
+p \DENLO\ 17
+p XA0 24
+p \MDBEN\ 22
+p XDATADIR 30
+p AEN 31
+p DIR245 19
+p GATE245 20
+p \DENHI\ 18
+p \XBHE\ 25
+p \XMEMR\ 15
+p MDPOUT0 26
+p MDPOUT1 27
+p PAREN 32
+p MDPIN0 28
+p MDPIN1 29
+p \PARERROR\ 23
+p MD0 55
+p MD1 56
+p MD2 57
+p MD3 58
+p MD4 59
+p MD5 60
+p MD6 61
+p MD7 62
+p MD8 64
+p MD9 65
+p MD10 66
+p MD11 67
+p MD12 68
+p MD13 69
+p MD14 70
+p MD15 71
+p XD0 73
+p XD1 74
+p XD2 75
+p XD3 76
+p XD4 77
+p XD5 78
+p XD6 79
+p XD7 80
+p D0 82
+p D1 84
+p D2 2
+p D3 4
+p D4 7
+p D5 9
+p D6 11
+p D7 13
+p D8 83
+p D9 1
+p D10 3
+p D11 5
+p D12 8
+p D13 10
+p D14 12
+p D15 14
+p SD0 42
+p SD1 41
+p SD2 40
+p SD3 39
+p SD4 37
+p SD5 36
+p SD6 35
+p SD7 34
+p SD8 44
+p SD9 45
+p SD10 46
+p SD11 47
+p SD12 49
+p SD13 50
+p SD14 51
+p SD15 52
+p VDD1 54
+p VDD0 43
+p VDD2 81
+p VSS3 48
+p VSS2 38
+p VSS1 33
+p VSS0 6
+p VSS4 53
+p VSS5 63
+p VSS6 72
+*package VL82C201 b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p XTAL1(1) 3
+p IOCHRDY 4
+p CPUHLDA 5
+p \S1\ 6
+p \S0\ 7
+p M/\IO\ 8
+p SWRST 9
+p A1 10
+p \IOCS16\ 11
+p \WS0\ 12
+p \ROMCS\ 13
+p F16 14
+p A0 15
+p ENMODL 16
+p ROMWTST 17
+p RAMRDWT 18
+p \BUSY287\ 19
+p \ERROR\ 67
+p \MASTER\ 68
+p \MEMCS16\ 69
+p \LMEGCS\ 70
+p \REFRESH\ 71
+p \AEN2\ 72
+p \AEN1\ 73
+p XA3 79
+p XA5 78
+p XA6 77
+p XA7 76
+p XA8 75
+p XA9 74
+p VDD1 54
+p VDD0 32
+p VDD2 82
+p VSS2 38
+p VSS1 27
+p VSS0 1
+p VSS3 48
+p VSS4 59
+p XTAL1(2) 2
+p OSC 20
+p \XBHE\ 22
+p \NPCS\ 23
+p RESET287 24
+p \DENHI\ 25
+p \DENLO\ 26
+p DT/\R\ 28
+p ALE 29
+p RAMALE 30
+p \DMAAEN\ 31
+p MHZ119 21
+p RESCPU 33
+p \XMEMW\ 34
+p \XMEMR\ 35
+p \XIOW\ 36
+p \XIOR\ 37
+p \MEMW\ 39
+p \MEMR\ 40
+p \IOW\ 41
+p \IOR\ 42
+p \BUSY286\ 43
+p \INTA\ 44
+p RESET 45
+p PROCCLK 46
+p SYSCLK 47
+p SA0 49
+p \SMEMW\ 50
+p \SMEMR\ 51
+p \READY\ 52
+p MHZ7 53
+p \ENAS\ 55
+p \REFEN\ 56
+p Q1 57
+p DIR245 58
+p GATE245 60
+p CNTLOFF 61
+p XDATADIR 62
+p \PPICS\ 63
+p CAS 64
+p RAS 65
+p \ERAMW\ 66
+p RAMWRWT 80
+p FCLK 81
+p POWERGOOD 83
+p PROCCLKIN 84
+*package VL82C201-16QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p XTAL1(1) 3
+p IOCHRDY 4
+p CPUHLDA 5
+p \S1\ 6
+p \S0\ 7
+p M/\IO\ 8
+p SWRST 9
+p A1 10
+p \IOCS16\ 11
+p \WS0\ 12
+p \ROMCS\ 13
+p F16 14
+p A0 15
+p ENMODL 16
+p ROMWTST 17
+p RAMRDWT 18
+p \BUSY287\ 19
+p \ERROR\ 67
+p \MASTER\ 68
+p \MEMCS16\ 69
+p \LMEGCS\ 70
+p \REFRESH\ 71
+p \AEN2\ 72
+p \AEN1\ 73
+p XA3 79
+p XA5 78
+p XA6 77
+p XA7 76
+p XA8 75
+p XA9 74
+p VDD1 54
+p VDD0 32
+p VDD2 82
+p VSS2 38
+p VSS1 27
+p VSS0 1
+p VSS3 48
+p VSS4 59
+p XTAL1(2) 2
+p OSC 20
+p \XBHE\ 22
+p \NPCS\ 23
+p RESET287 24
+p \DENHI\ 25
+p \DENLO\ 26
+p DT/\R\ 28
+p ALE 29
+p RAMALE 30
+p \DMAAEN\ 31
+p MHZ119 21
+p RESCPU 33
+p \XMEMW\ 34
+p \XMEMR\ 35
+p \XIOW\ 36
+p \XIOR\ 37
+p \MEMW\ 39
+p \MEMR\ 40
+p \IOW\ 41
+p \IOR\ 42
+p \BUSY286\ 43
+p \INTA\ 44
+p RESET 45
+p PROCCLK 46
+p SYSCLK 47
+p SA0 49
+p \SMEMW\ 50
+p \SMEMR\ 51
+p \READY\ 52
+p MHZ7 53
+p \ENAS\ 55
+p \REFEN\ 56
+p Q1 57
+p DIR245 58
+p GATE245 60
+p CNTLOFF 61
+p XDATADIR 62
+p \PPICS\ 63
+p CAS 64
+p RAS 65
+p \ERAMW\ 66
+p RAMWRWT 80
+p FCLK 81
+p POWERGOOD 83
+p PROCCLKIN 84
+*package VL82C201-16QI b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p XTAL1(1) 3
+p IOCHRDY 4
+p CPUHLDA 5
+p \S1\ 6
+p \S0\ 7
+p M/\IO\ 8
+p SWRST 9
+p A1 10
+p \IOCS16\ 11
+p \WS0\ 12
+p \ROMCS\ 13
+p F16 14
+p A0 15
+p ENMODL 16
+p ROMWTST 17
+p RAMRDWT 18
+p \BUSY287\ 19
+p \ERROR\ 67
+p \MASTER\ 68
+p \MEMCS16\ 69
+p \LMEGCS\ 70
+p \REFRESH\ 71
+p \AEN2\ 72
+p \AEN1\ 73
+p XA3 79
+p XA5 78
+p XA6 77
+p XA7 76
+p XA8 75
+p XA9 74
+p VDD1 54
+p VDD0 32
+p VDD2 82
+p VSS2 38
+p VSS1 27
+p VSS0 1
+p VSS3 48
+p VSS4 59
+p XTAL1(2) 2
+p OSC 20
+p \XBHE\ 22
+p \NPCS\ 23
+p RESET287 24
+p \DENHI\ 25
+p \DENLO\ 26
+p DT/\R\ 28
+p ALE 29
+p RAMALE 30
+p \DMAAEN\ 31
+p MHZ119 21
+p RESCPU 33
+p \XMEMW\ 34
+p \XMEMR\ 35
+p \XIOW\ 36
+p \XIOR\ 37
+p \MEMW\ 39
+p \MEMR\ 40
+p \IOW\ 41
+p \IOR\ 42
+p \BUSY286\ 43
+p \INTA\ 44
+p RESET 45
+p PROCCLK 46
+p SYSCLK 47
+p SA0 49
+p \SMEMW\ 50
+p \SMEMR\ 51
+p \READY\ 52
+p MHZ7 53
+p \ENAS\ 55
+p \REFEN\ 56
+p Q1 57
+p DIR245 58
+p GATE245 60
+p CNTLOFF 61
+p XDATADIR 62
+p \PPICS\ 63
+p CAS 64
+p RAS 65
+p \ERAMW\ 66
+p RAMWRWT 80
+p FCLK 81
+p POWERGOOD 83
+p PROCCLKIN 84
+*package VL82C201-20QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p XTAL1(1) 3
+p IOCHRDY 4
+p CPUHLDA 5
+p \S1\ 6
+p \S0\ 7
+p M/\IO\ 8
+p SWRST 9
+p A1 10
+p \IOCS16\ 11
+p \WS0\ 12
+p \ROMCS\ 13
+p F16 14
+p A0 15
+p ENMODL 16
+p ROMWTST 17
+p RAMRDWT 18
+p \BUSY287\ 19
+p \ERROR\ 67
+p \MASTER\ 68
+p \MEMCS16\ 69
+p \LMEGCS\ 70
+p \REFRESH\ 71
+p \AEN2\ 72
+p \AEN1\ 73
+p XA3 79
+p XA5 78
+p XA6 77
+p XA7 76
+p XA8 75
+p XA9 74
+p VDD1 54
+p VDD0 32
+p VDD2 82
+p VSS2 38
+p VSS1 27
+p VSS0 1
+p VSS3 48
+p VSS4 59
+p XTAL1(2) 2
+p OSC 20
+p \XBHE\ 22
+p \NPCS\ 23
+p RESET287 24
+p \DENHI\ 25
+p \DENLO\ 26
+p DT/\R\ 28
+p ALE 29
+p RAMALE 30
+p \DMAAEN\ 31
+p MHZ119 21
+p RESCPU 33
+p \XMEMW\ 34
+p \XMEMR\ 35
+p \XIOW\ 36
+p \XIOR\ 37
+p \MEMW\ 39
+p \MEMR\ 40
+p \IOW\ 41
+p \IOR\ 42
+p \BUSY286\ 43
+p \INTA\ 44
+p RESET 45
+p PROCCLK 46
+p SYSCLK 47
+p SA0 49
+p \SMEMW\ 50
+p \SMEMR\ 51
+p \READY\ 52
+p MHZ7 53
+p \ENAS\ 55
+p \REFEN\ 56
+p Q1 57
+p DIR245 58
+p GATE245 60
+p CNTLOFF 61
+p XDATADIR 62
+p \PPICS\ 63
+p CAS 64
+p RAS 65
+p \ERAMW\ 66
+p RAMWRWT 80
+p FCLK 81
+p POWERGOOD 83
+p PROCCLKIN 84
+*package VL82C201-20QI b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p XTAL1(1) 3
+p IOCHRDY 4
+p CPUHLDA 5
+p \S1\ 6
+p \S0\ 7
+p M/\IO\ 8
+p SWRST 9
+p A1 10
+p \IOCS16\ 11
+p \WS0\ 12
+p \ROMCS\ 13
+p F16 14
+p A0 15
+p ENMODL 16
+p ROMWTST 17
+p RAMRDWT 18
+p \BUSY287\ 19
+p \ERROR\ 67
+p \MASTER\ 68
+p \MEMCS16\ 69
+p \LMEGCS\ 70
+p \REFRESH\ 71
+p \AEN2\ 72
+p \AEN1\ 73
+p XA3 79
+p XA5 78
+p XA6 77
+p XA7 76
+p XA8 75
+p XA9 74
+p VDD1 54
+p VDD0 32
+p VDD2 82
+p VSS2 38
+p VSS1 27
+p VSS0 1
+p VSS3 48
+p VSS4 59
+p XTAL1(2) 2
+p OSC 20
+p \XBHE\ 22
+p \NPCS\ 23
+p RESET287 24
+p \DENHI\ 25
+p \DENLO\ 26
+p DT/\R\ 28
+p ALE 29
+p RAMALE 30
+p \DMAAEN\ 31
+p MHZ119 21
+p RESCPU 33
+p \XMEMW\ 34
+p \XMEMR\ 35
+p \XIOW\ 36
+p \XIOR\ 37
+p \MEMW\ 39
+p \MEMR\ 40
+p \IOW\ 41
+p \IOR\ 42
+p \BUSY286\ 43
+p \INTA\ 44
+p RESET 45
+p PROCCLK 46
+p SYSCLK 47
+p SA0 49
+p \SMEMW\ 50
+p \SMEMR\ 51
+p \READY\ 52
+p MHZ7 53
+p \ENAS\ 55
+p \REFEN\ 56
+p Q1 57
+p DIR245 58
+p GATE245 60
+p CNTLOFF 61
+p XDATADIR 62
+p \PPICS\ 63
+p CAS 64
+p RAS 65
+p \ERAMW\ 66
+p RAMWRWT 80
+p FCLK 81
+p POWERGOOD 83
+p PROCCLKIN 84
+*package VL82C202 b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p \RC\ 2
+p \PARERROR\ 3
+p \REFRESH\ 5
+p ALE 6
+p \DMAAEN\ 7
+p RESET 8
+p OUT2 9
+p \IOCHCK\ 10
+p A20GATE 11
+p CPUHLDA 12
+p CPUA20 13
+p \MASTER\ 14
+p RAMALE 15
+p RAMSEL2 16
+p A16 68
+p A17 47
+p A18 46
+p A19 45
+p A20 44
+p A21 43
+p A22 42
+p A23 41
+p XA16 53
+p \ERAMW\ 67
+p SHDWRAMMAP 69
+p XA1 70
+p XA2 71
+p XA3 72
+p XA4 73
+p XA5 74
+p ADDRSEL 75
+p \ENAS\ 76
+p Q1 77
+p \XIOW\ 78
+p \XIOR\ 79
+p \PPICS\ 80
+p REFBIT9 81
+p \XMEMR\ 82
+p RAMSEL1 83
+p RAMSEL0 84
+p VDD1 31
+p VDD0 4
+p VDD2 49
+p F16 18
+p RAS0 19
+p RAS1 20
+p CAS0 21
+p CAS1 22
+p \LMEGCS\ 23
+p \LCS0ROM\ 24
+p FASTA20GATE 25
+p SA0 27
+p XA0 28
+p AEN 29
+p XD0 32
+p XD1 33
+p XD2 34
+p XD3 35
+p XD4 36
+p XD5 37
+p XD6 38
+p XD7 39
+p \LCS1ROM\ 48
+p PAREN 51
+p SA17 50
+p SA18 54
+p SA19 55
+p \SPKRDATA\ 56
+p NMI 57
+p \CS8042\ 59
+p RTCR/\W\ 60
+p RTCDS 61
+p RTCAS 62
+p SWRST 63
+p MA8 65
+p MA9 66
+p VSS0 1
+p VSS1 17
+p VSS2 26
+p VSS3 30
+p VSS4 40
+p VSS5 52
+p VSS6 58
+p VSS7 64
+*package VL82C202-16QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p \RC\ 2
+p \PARERROR\ 3
+p \REFRESH\ 5
+p ALE 6
+p \DMAAEN\ 7
+p RESET 8
+p OUT2 9
+p \IOCHCK\ 10
+p A20GATE 11
+p CPUHLDA 12
+p CPUA20 13
+p \MASTER\ 14
+p RAMALE 15
+p RAMSEL2 16
+p A16 68
+p A17 47
+p A18 46
+p A19 45
+p A20 44
+p A21 43
+p A22 42
+p A23 41
+p XA16 53
+p \ERAMW\ 67
+p SHDWRAMMAP 69
+p XA1 70
+p XA2 71
+p XA3 72
+p XA4 73
+p XA5 74
+p ADDRSEL 75
+p \ENAS\ 76
+p Q1 77
+p \XIOW\ 78
+p \XIOR\ 79
+p \PPICS\ 80
+p REFBIT9 81
+p \XMEMR\ 82
+p RAMSEL1 83
+p RAMSEL0 84
+p VDD1 31
+p VDD0 4
+p VDD2 49
+p F16 18
+p RAS0 19
+p RAS1 20
+p CAS0 21
+p CAS1 22
+p \LMEGCS\ 23
+p \LCS0ROM\ 24
+p FASTA20GATE 25
+p SA0 27
+p XA0 28
+p AEN 29
+p XD0 32
+p XD1 33
+p XD2 34
+p XD3 35
+p XD4 36
+p XD5 37
+p XD6 38
+p XD7 39
+p \LCS1ROM\ 48
+p PAREN 51
+p SA17 50
+p SA18 54
+p SA19 55
+p \SPKRDATA\ 56
+p NMI 57
+p \CS8042\ 59
+p RTCR/\W\ 60
+p RTCDS 61
+p RTCAS 62
+p SWRST 63
+p MA8 65
+p MA9 66
+p VSS0 1
+p VSS1 17
+p VSS2 26
+p VSS3 30
+p VSS4 40
+p VSS5 52
+p VSS6 58
+p VSS7 64
+*package VL82C202-16QI b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p \RC\ 2
+p \PARERROR\ 3
+p \REFRESH\ 5
+p ALE 6
+p \DMAAEN\ 7
+p RESET 8
+p OUT2 9
+p \IOCHCK\ 10
+p A20GATE 11
+p CPUHLDA 12
+p CPUA20 13
+p \MASTER\ 14
+p RAMALE 15
+p RAMSEL2 16
+p A16 68
+p A17 47
+p A18 46
+p A19 45
+p A20 44
+p A21 43
+p A22 42
+p A23 41
+p XA16 53
+p \ERAMW\ 67
+p SHDWRAMMAP 69
+p XA1 70
+p XA2 71
+p XA3 72
+p XA4 73
+p XA5 74
+p ADDRSEL 75
+p \ENAS\ 76
+p Q1 77
+p \XIOW\ 78
+p \XIOR\ 79
+p \PPICS\ 80
+p REFBIT9 81
+p \XMEMR\ 82
+p RAMSEL1 83
+p RAMSEL0 84
+p VDD1 31
+p VDD0 4
+p VDD2 49
+p F16 18
+p RAS0 19
+p RAS1 20
+p CAS0 21
+p CAS1 22
+p \LMEGCS\ 23
+p \LCS0ROM\ 24
+p FASTA20GATE 25
+p SA0 27
+p XA0 28
+p AEN 29
+p XD0 32
+p XD1 33
+p XD2 34
+p XD3 35
+p XD4 36
+p XD5 37
+p XD6 38
+p XD7 39
+p \LCS1ROM\ 48
+p PAREN 51
+p SA17 50
+p SA18 54
+p SA19 55
+p \SPKRDATA\ 56
+p NMI 57
+p \CS8042\ 59
+p RTCR/\W\ 60
+p RTCDS 61
+p RTCAS 62
+p SWRST 63
+p MA8 65
+p MA9 66
+p VSS0 1
+p VSS1 17
+p VSS2 26
+p VSS3 30
+p VSS4 40
+p VSS5 52
+p VSS6 58
+p VSS7 64
+*package VL82C202-20QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p \RC\ 2
+p \PARERROR\ 3
+p \REFRESH\ 5
+p ALE 6
+p \DMAAEN\ 7
+p RESET 8
+p OUT2 9
+p \IOCHCK\ 10
+p A20GATE 11
+p CPUHLDA 12
+p CPUA20 13
+p \MASTER\ 14
+p RAMALE 15
+p RAMSEL2 16
+p A16 68
+p A17 47
+p A18 46
+p A19 45
+p A20 44
+p A21 43
+p A22 42
+p A23 41
+p XA16 53
+p \ERAMW\ 67
+p SHDWRAMMAP 69
+p XA1 70
+p XA2 71
+p XA3 72
+p XA4 73
+p XA5 74
+p ADDRSEL 75
+p \ENAS\ 76
+p Q1 77
+p \XIOW\ 78
+p \XIOR\ 79
+p \PPICS\ 80
+p REFBIT9 81
+p \XMEMR\ 82
+p RAMSEL1 83
+p RAMSEL0 84
+p VDD1 31
+p VDD0 4
+p VDD2 49
+p F16 18
+p RAS0 19
+p RAS1 20
+p CAS0 21
+p CAS1 22
+p \LMEGCS\ 23
+p \LCS0ROM\ 24
+p FASTA20GATE 25
+p SA0 27
+p XA0 28
+p AEN 29
+p XD0 32
+p XD1 33
+p XD2 34
+p XD3 35
+p XD4 36
+p XD5 37
+p XD6 38
+p XD7 39
+p \LCS1ROM\ 48
+p PAREN 51
+p SA17 50
+p SA18 54
+p SA19 55
+p \SPKRDATA\ 56
+p NMI 57
+p \CS8042\ 59
+p RTCR/\W\ 60
+p RTCDS 61
+p RTCAS 62
+p SWRST 63
+p MA8 65
+p MA9 66
+p VSS0 1
+p VSS1 17
+p VSS2 26
+p VSS3 30
+p VSS4 40
+p VSS5 52
+p VSS6 58
+p VSS7 64
+*package VL82C202-20QI b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p \RC\ 2
+p \PARERROR\ 3
+p \REFRESH\ 5
+p ALE 6
+p \DMAAEN\ 7
+p RESET 8
+p OUT2 9
+p \IOCHCK\ 10
+p A20GATE 11
+p CPUHLDA 12
+p CPUA20 13
+p \MASTER\ 14
+p RAMALE 15
+p RAMSEL2 16
+p A16 68
+p A17 47
+p A18 46
+p A19 45
+p A20 44
+p A21 43
+p A22 42
+p A23 41
+p XA16 53
+p \ERAMW\ 67
+p SHDWRAMMAP 69
+p XA1 70
+p XA2 71
+p XA3 72
+p XA4 73
+p XA5 74
+p ADDRSEL 75
+p \ENAS\ 76
+p Q1 77
+p \XIOW\ 78
+p \XIOR\ 79
+p \PPICS\ 80
+p REFBIT9 81
+p \XMEMR\ 82
+p RAMSEL1 83
+p RAMSEL0 84
+p VDD1 31
+p VDD0 4
+p VDD2 49
+p F16 18
+p RAS0 19
+p RAS1 20
+p CAS0 21
+p CAS1 22
+p \LMEGCS\ 23
+p \LCS0ROM\ 24
+p FASTA20GATE 25
+p SA0 27
+p XA0 28
+p AEN 29
+p XD0 32
+p XD1 33
+p XD2 34
+p XD3 35
+p XD4 36
+p XD5 37
+p XD6 38
+p XD7 39
+p \LCS1ROM\ 48
+p PAREN 51
+p SA17 50
+p SA18 54
+p SA19 55
+p \SPKRDATA\ 56
+p NMI 57
+p \CS8042\ 59
+p RTCR/\W\ 60
+p RTCDS 61
+p RTCAS 62
+p SWRST 63
+p MA8 65
+p MA9 66
+p VSS0 1
+p VSS1 17
+p VSS2 26
+p VSS3 30
+p VSS4 40
+p VSS5 52
+p VSS6 58
+p VSS7 64
+*package VL82C203 b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p A1 20
+p A2 19
+p A3 18
+p A4 17
+p A5 16
+p A6 15
+p A7 14
+p A8 13
+p A9 9
+p A10 8
+p A11 7
+p A12 6
+p A13 5
+p A14 4
+p A15 3
+p A16 2
+p RAMALE 10
+p \BUSY287\ 11
+p \BHE\ 12
+p ALE 22
+p CPUHLDA 23
+p \DMAAEN\ 24
+p \REFRESH\ 25
+p \REFEN\ 26
+p ADDRSEL 27
+p RESET 28
+p \ERROR\ 29
+p \TEST\ 31
+p VDD1 44
+p VDD0 1
+p VDD2 56
+p VSS3 49
+p VSS2 39
+p VSS1 33
+p VSS0 21
+p VSS4 54
+p VSS5 65
+p VSS6 75
+p REFBIT9 30
+p \SBHE\ 32
+p SA0 53
+p SA1 52
+p SA2 51
+p SA3 50
+p SA4 48
+p SA5 47
+p SA6 46
+p SA7 45
+p SA8 43
+p SA9 42
+p SA10 41
+p SA11 40
+p SA12 38
+p SA13 37
+p SA14 36
+p SA15 35
+p SA16 34
+p BALE 55
+p MA0 57
+p MA1 58
+p MA2 59
+p MA3 60
+p MA4 61
+p MA5 62
+p MA6 63
+p MA7 64
+p XA1 83
+p XA2 82
+p XA3 81
+p XA4 80
+p XA5 79
+p XA6 78
+p XA7 77
+p XA8 76
+p XA9 74
+p XA10 73
+p XA11 72
+p XA12 71
+p XA13 70
+p XA14 69
+p XA15 68
+p XA16 67
+p \XBHE\ 66
+p IRQ13 84
+*package VL82C203-16QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p A1 20
+p A2 19
+p A3 18
+p A4 17
+p A5 16
+p A6 15
+p A7 14
+p A8 13
+p A9 9
+p A10 8
+p A11 7
+p A12 6
+p A13 5
+p A14 4
+p A15 3
+p A16 2
+p RAMALE 10
+p \BUSY287\ 11
+p \BHE\ 12
+p ALE 22
+p CPUHLDA 23
+p \DMAAEN\ 24
+p \REFRESH\ 25
+p \REFEN\ 26
+p ADDRSEL 27
+p RESET 28
+p \ERROR\ 29
+p \TEST\ 31
+p VDD1 44
+p VDD0 1
+p VDD2 56
+p VSS3 49
+p VSS2 39
+p VSS1 33
+p VSS0 21
+p VSS4 54
+p VSS5 65
+p VSS6 75
+p REFBIT9 30
+p \SBHE\ 32
+p SA0 53
+p SA1 52
+p SA2 51
+p SA3 50
+p SA4 48
+p SA5 47
+p SA6 46
+p SA7 45
+p SA8 43
+p SA9 42
+p SA10 41
+p SA11 40
+p SA12 38
+p SA13 37
+p SA14 36
+p SA15 35
+p SA16 34
+p BALE 55
+p MA0 57
+p MA1 58
+p MA2 59
+p MA3 60
+p MA4 61
+p MA5 62
+p MA6 63
+p MA7 64
+p XA1 83
+p XA2 82
+p XA3 81
+p XA4 80
+p XA5 79
+p XA6 78
+p XA7 77
+p XA8 76
+p XA9 74
+p XA10 73
+p XA11 72
+p XA12 71
+p XA13 70
+p XA14 69
+p XA15 68
+p XA16 67
+p \XBHE\ 66
+p IRQ13 84
+*package VL82C203-16QI b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p A1 20
+p A2 19
+p A3 18
+p A4 17
+p A5 16
+p A6 15
+p A7 14
+p A8 13
+p A9 9
+p A10 8
+p A11 7
+p A12 6
+p A13 5
+p A14 4
+p A15 3
+p A16 2
+p RAMALE 10
+p \BUSY287\ 11
+p \BHE\ 12
+p ALE 22
+p CPUHLDA 23
+p \DMAAEN\ 24
+p \REFRESH\ 25
+p \REFEN\ 26
+p ADDRSEL 27
+p RESET 28
+p \ERROR\ 29
+p \TEST\ 31
+p VDD1 44
+p VDD0 1
+p VDD2 56
+p VSS3 49
+p VSS2 39
+p VSS1 33
+p VSS0 21
+p VSS4 54
+p VSS5 65
+p VSS6 75
+p REFBIT9 30
+p \SBHE\ 32
+p SA0 53
+p SA1 52
+p SA2 51
+p SA3 50
+p SA4 48
+p SA5 47
+p SA6 46
+p SA7 45
+p SA8 43
+p SA9 42
+p SA10 41
+p SA11 40
+p SA12 38
+p SA13 37
+p SA14 36
+p SA15 35
+p SA16 34
+p BALE 55
+p MA0 57
+p MA1 58
+p MA2 59
+p MA3 60
+p MA4 61
+p MA5 62
+p MA6 63
+p MA7 64
+p XA1 83
+p XA2 82
+p XA3 81
+p XA4 80
+p XA5 79
+p XA6 78
+p XA7 77
+p XA8 76
+p XA9 74
+p XA10 73
+p XA11 72
+p XA12 71
+p XA13 70
+p XA14 69
+p XA15 68
+p XA16 67
+p \XBHE\ 66
+p IRQ13 84
+*package VL82C203-20QC b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p A1 20
+p A2 19
+p A3 18
+p A4 17
+p A5 16
+p A6 15
+p A7 14
+p A8 13
+p A9 9
+p A10 8
+p A11 7
+p A12 6
+p A13 5
+p A14 4
+p A15 3
+p A16 2
+p RAMALE 10
+p \BUSY287\ 11
+p \BHE\ 12
+p ALE 22
+p CPUHLDA 23
+p \DMAAEN\ 24
+p \REFRESH\ 25
+p \REFEN\ 26
+p ADDRSEL 27
+p RESET 28
+p \ERROR\ 29
+p \TEST\ 31
+p VDD1 44
+p VDD0 1
+p VDD2 56
+p VSS3 49
+p VSS2 39
+p VSS1 33
+p VSS0 21
+p VSS4 54
+p VSS5 65
+p VSS6 75
+p REFBIT9 30
+p \SBHE\ 32
+p SA0 53
+p SA1 52
+p SA2 51
+p SA3 50
+p SA4 48
+p SA5 47
+p SA6 46
+p SA7 45
+p SA8 43
+p SA9 42
+p SA10 41
+p SA11 40
+p SA12 38
+p SA13 37
+p SA14 36
+p SA15 35
+p SA16 34
+p BALE 55
+p MA0 57
+p MA1 58
+p MA2 59
+p MA3 60
+p MA4 61
+p MA5 62
+p MA6 63
+p MA7 64
+p XA1 83
+p XA2 82
+p XA3 81
+p XA4 80
+p XA5 79
+p XA6 78
+p XA7 77
+p XA8 76
+p XA9 74
+p XA10 73
+p XA11 72
+p XA12 71
+p XA13 70
+p XA14 69
+p XA15 68
+p XA16 67
+p \XBHE\ 66
+p IRQ13 84
+*package VL82C203-20QI b
+@types 1
+g 1 
+@pinout
+t PLCC84
+g 1
+p A1 20
+p A2 19
+p A3 18
+p A4 17
+p A5 16
+p A6 15
+p A7 14
+p A8 13
+p A9 9
+p A10 8
+p A11 7
+p A12 6
+p A13 5
+p A14 4
+p A15 3
+p A16 2
+p RAMALE 10
+p \BUSY287\ 11
+p \BHE\ 12
+p ALE 22
+p CPUHLDA 23
+p \DMAAEN\ 24
+p \REFRESH\ 25
+p \REFEN\ 26
+p ADDRSEL 27
+p RESET 28
+p \ERROR\ 29
+p \TEST\ 31
+p VDD1 44
+p VDD0 1
+p VDD2 56
+p VSS3 49
+p VSS2 39
+p VSS1 33
+p VSS0 21
+p VSS4 54
+p VSS5 65
+p VSS6 75
+p REFBIT9 30
+p \SBHE\ 32
+p SA0 53
+p SA1 52
+p SA2 51
+p SA3 50
+p SA4 48
+p SA5 47
+p SA6 46
+p SA7 45
+p SA8 43
+p SA9 42
+p SA10 41
+p SA11 40
+p SA12 38
+p SA13 37
+p SA14 36
+p SA15 35
+p SA16 34
+p BALE 55
+p MA0 57
+p MA1 58
+p MA2 59
+p MA3 60
+p MA4 61
+p MA5 62
+p MA6 63
+p MA7 64
+p XA1 83
+p XA2 82
+p XA3 81
+p XA4 80
+p XA5 79
+p XA6 78
+p XA7 77
+p XA8 76
+p XA9 74
+p XA10 73
+p XA11 72
+p XA12 71
+p XA13 70
+p XA14 69
+p XA15 68
+p XA16 67
+p \XBHE\ 66
+p IRQ13 84
+*package VL82C204 b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p CNTLOFF 10
+p DT/\R\ 13
+p \DENLO\ 20
+p XA0 16
+p XDATADIR 22
+p AEN 23
+p DIR245 11
+p GATE245 12
+p \DENHI\ 21
+p \XBHE\ 17
+p \XMEMR\ 19
+p MDPOUT0 55
+p MDPOUT1 67
+p PAREN 24
+p MDPIN0 65
+p MDPIN1 8
+p \PARERROR\ 15
+p XD0 46
+p XD1 47
+p XD2 48
+p XD3 49
+p XD4 50
+p XD5 51
+p XD6 52
+p XD7 53
+p D0 56
+p D1 57
+p D2 58
+p D3 59
+p D4 61
+p D5 62
+p D6 63
+p D7 64
+p D8 68
+p D9 1
+p D10 2
+p D11 3
+p D12 4
+p D13 5
+p D14 6
+p D15 7
+p SD0 34
+p SD1 33
+p SD2 32
+p SD3 31
+p SD4 29
+p SD5 28
+p SD6 27
+p SD7 26
+p SD8 36
+p SD9 37
+p SD10 38
+p SD11 39
+p SD12 41
+p SD13 42
+p SD14 43
+p SD15 44
+p VDD1 35
+p VDD0 18
+p VDD2 60
+p VSS3 40
+p VSS2 30
+p VSS1 25
+p VSS0 9
+p VSS4 45
+p VSS5 54
+p VSS6 66
+p \TEST\ 14
+*package VL82C204-16QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p CNTLOFF 10
+p DT/\R\ 13
+p \DENLO\ 20
+p XA0 16
+p XDATADIR 22
+p AEN 23
+p DIR245 11
+p GATE245 12
+p \DENHI\ 21
+p \XBHE\ 17
+p \XMEMR\ 19
+p MDPOUT0 55
+p MDPOUT1 67
+p PAREN 24
+p MDPIN0 65
+p MDPIN1 8
+p \PARERROR\ 15
+p XD0 46
+p XD1 47
+p XD2 48
+p XD3 49
+p XD4 50
+p XD5 51
+p XD6 52
+p XD7 53
+p D0 56
+p D1 57
+p D2 58
+p D3 59
+p D4 61
+p D5 62
+p D6 63
+p D7 64
+p D8 68
+p D9 1
+p D10 2
+p D11 3
+p D12 4
+p D13 5
+p D14 6
+p D15 7
+p SD0 34
+p SD1 33
+p SD2 32
+p SD3 31
+p SD4 29
+p SD5 28
+p SD6 27
+p SD7 26
+p SD8 36
+p SD9 37
+p SD10 38
+p SD11 39
+p SD12 41
+p SD13 42
+p SD14 43
+p SD15 44
+p VDD1 35
+p VDD0 18
+p VDD2 60
+p VSS3 40
+p VSS2 30
+p VSS1 25
+p VSS0 9
+p VSS4 45
+p VSS5 54
+p VSS6 66
+p \TEST\ 14
+*package VL82C204-16QI b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p CNTLOFF 10
+p DT/\R\ 13
+p \DENLO\ 20
+p XA0 16
+p XDATADIR 22
+p AEN 23
+p DIR245 11
+p GATE245 12
+p \DENHI\ 21
+p \XBHE\ 17
+p \XMEMR\ 19
+p MDPOUT0 55
+p MDPOUT1 67
+p PAREN 24
+p MDPIN0 65
+p MDPIN1 8
+p \PARERROR\ 15
+p XD0 46
+p XD1 47
+p XD2 48
+p XD3 49
+p XD4 50
+p XD5 51
+p XD6 52
+p XD7 53
+p D0 56
+p D1 57
+p D2 58
+p D3 59
+p D4 61
+p D5 62
+p D6 63
+p D7 64
+p D8 68
+p D9 1
+p D10 2
+p D11 3
+p D12 4
+p D13 5
+p D14 6
+p D15 7
+p SD0 34
+p SD1 33
+p SD2 32
+p SD3 31
+p SD4 29
+p SD5 28
+p SD6 27
+p SD7 26
+p SD8 36
+p SD9 37
+p SD10 38
+p SD11 39
+p SD12 41
+p SD13 42
+p SD14 43
+p SD15 44
+p VDD1 35
+p VDD0 18
+p VDD2 60
+p VSS3 40
+p VSS2 30
+p VSS1 25
+p VSS0 9
+p VSS4 45
+p VSS5 54
+p VSS6 66
+p \TEST\ 14
+*package VL82C204-20QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p CNTLOFF 10
+p DT/\R\ 13
+p \DENLO\ 20
+p XA0 16
+p XDATADIR 22
+p AEN 23
+p DIR245 11
+p GATE245 12
+p \DENHI\ 21
+p \XBHE\ 17
+p \XMEMR\ 19
+p MDPOUT0 55
+p MDPOUT1 67
+p PAREN 24
+p MDPIN0 65
+p MDPIN1 8
+p \PARERROR\ 15
+p XD0 46
+p XD1 47
+p XD2 48
+p XD3 49
+p XD4 50
+p XD5 51
+p XD6 52
+p XD7 53
+p D0 56
+p D1 57
+p D2 58
+p D3 59
+p D4 61
+p D5 62
+p D6 63
+p D7 64
+p D8 68
+p D9 1
+p D10 2
+p D11 3
+p D12 4
+p D13 5
+p D14 6
+p D15 7
+p SD0 34
+p SD1 33
+p SD2 32
+p SD3 31
+p SD4 29
+p SD5 28
+p SD6 27
+p SD7 26
+p SD8 36
+p SD9 37
+p SD10 38
+p SD11 39
+p SD12 41
+p SD13 42
+p SD14 43
+p SD15 44
+p VDD1 35
+p VDD0 18
+p VDD2 60
+p VSS3 40
+p VSS2 30
+p VSS1 25
+p VSS0 9
+p VSS4 45
+p VSS5 54
+p VSS6 66
+p \TEST\ 14
+*package VL82C204-20QI b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p CNTLOFF 10
+p DT/\R\ 13
+p \DENLO\ 20
+p XA0 16
+p XDATADIR 22
+p AEN 23
+p DIR245 11
+p GATE245 12
+p \DENHI\ 21
+p \XBHE\ 17
+p \XMEMR\ 19
+p MDPOUT0 55
+p MDPOUT1 67
+p PAREN 24
+p MDPIN0 65
+p MDPIN1 8
+p \PARERROR\ 15
+p XD0 46
+p XD1 47
+p XD2 48
+p XD3 49
+p XD4 50
+p XD5 51
+p XD6 52
+p XD7 53
+p D0 56
+p D1 57
+p D2 58
+p D3 59
+p D4 61
+p D5 62
+p D6 63
+p D7 64
+p D8 68
+p D9 1
+p D10 2
+p D11 3
+p D12 4
+p D13 5
+p D14 6
+p D15 7
+p SD0 34
+p SD1 33
+p SD2 32
+p SD3 31
+p SD4 29
+p SD5 28
+p SD6 27
+p SD7 26
+p SD8 36
+p SD9 37
+p SD10 38
+p SD11 39
+p SD12 41
+p SD13 42
+p SD14 43
+p SD15 44
+p VDD1 35
+p VDD0 18
+p VDD2 60
+p VSS3 40
+p VSS2 30
+p VSS1 25
+p VSS0 9
+p VSS4 45
+p VSS5 54
+p VSS6 66
+p \TEST\ 14
+*package VL82C205A b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p A9 9
+p A10 8
+p A11 7
+p A12 6
+p A13 4
+p A14 3
+p A15 2
+p A16 1
+p A17 68
+p A18 67
+p A19 66
+p A20 65
+p A21 64
+p A22 62
+p A23 61
+p CPUHLDA 10
+p \S0\ 11
+p \S1\ 12
+p M/\IO\ 13
+p \READY\ 14
+p PROCCLK 15
+p RAMWRWT 17
+p RAMRDWT 60
+p F16 18
+p \MEMR\ 19
+p \MEMW\ 20
+p \REF\ 21
+p CAS0 22
+p CAS1 23
+p RAS0 24
+p RAS1 25
+p SHDWRAMMAP 27
+p RESET 28
+p A0 29
+p \BHE\ 30
+p XA0 31
+p \XBHE\ 32
+p OSC 33
+p \IRQ8\ 34
+p \PAGE\ 35
+p \INTLVEN\ 36
+p \TEST\ 37
+p XA9 44
+p VDD1 26
+p VDD0 5
+p VDD2 42
+p VDD3 55
+p \RESET\ 38
+p IRQ8 40
+p \WS0\ 41
+p IOCHRDY 43
+p \CAS1H\ 45
+p \CAS1L\ 47
+p \CAS0H\ 48
+p \CAS0L\ 49
+p \RAS0A\ 54
+p \RAS0B\ 53
+p \RAS1A\ 51
+p \RAS1B\ 50
+p ADDSEL 56
+p \RAMWB\ 58
+p \RAMWA\ 59
+p VSS2 46
+p VSS1 39
+p VSS0 16
+p VSS3 52
+p VSS4 57
+p VSS5 63
+*package VL82C205A-16QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p A9 9
+p A10 8
+p A11 7
+p A12 6
+p A13 4
+p A14 3
+p A15 2
+p A16 1
+p A17 68
+p A18 67
+p A19 66
+p A20 65
+p A21 64
+p A22 62
+p A23 61
+p CPUHLDA 10
+p \S0\ 11
+p \S1 12
+p M/\IO\ 13
+p \READY\ 14
+p PROCCLK 15
+p RAMWRWT 17
+p RAMRDWT 60
+p F16 18
+p \MEMR\ 19
+p \MEMW\ 20
+p \REF\ 21
+p CAS0 22
+p CAS1 23
+p RAS0 24
+p RAS1 25
+p SHDWRAMMAP 27
+p RESET 28
+p A0 29
+p \BHE\ 30
+p XA0 31
+p \XBHE\ 32
+p OSC 33
+p \IRQ8\ 34
+p \PAGE\ 35
+p \INTLVEN\ 36
+p \TEST\ 37
+p XA9 44
+p VDD1 26
+p VDD0 5
+p VDD2 42
+p VDD3 55
+p \RESET\ 38
+p IRQ8 40
+p \WS0\ 41
+p IOCHRDY 43
+p \CAS1H\ 45
+p \CAS1L\ 47
+p \CAS0H\ 48
+p \CAS0L\ 49
+p \RAS0A\ 54
+p \RAS0B\ 53
+p \RAS1A\ 51
+p \RAS1B\ 50
+p ADDSEL 56
+p \RAMWB\ 58
+p \RAMWA\ 59
+p VSS2 46
+p VSS1 39
+p VSS0 16
+p VSS3 52
+p VSS4 57
+p VSS5 63
+*package VL82C205A-20QC b
+@types 1
+g 1 
+@pinout
+t PLCC68
+g 1
+p A9 9
+p A10 8
+p A11 7
+p A12 6
+p A13 4
+p A14 3
+p A15 2
+p A16 1
+p A17 68
+p A18 67
+p A19 66
+p A20 65
+p A21 64
+p A22 62
+p A23 61
+p CPUHLDA 10
+p \S0\ 11
+p \S1 12
+p M/\IO\ 13
+p \READY\ 14
+p PROCCLK 15
+p RAMWRWT 17
+p RAMRDWT 60
+p F16 18
+p \MEMR\ 19
+p \MEMW\ 20
+p \REF\ 21
+p CAS0 22
+p CAS1 23
+p RAS0 24
+p RAS1 25
+p SHDWRAMMAP 27
+p RESET 28
+p A0 29
+p \BHE\ 30
+p XA0 31
+p \XBHE\ 32
+p OSC 33
+p \IRQ8\ 34
+p \PAGE\ 35
+p \INTLVEN\ 36
+p \TEST\ 37
+p XA9 44
+p VDD1 26
+p VDD0 5
+p VDD2 42
+p VDD3 55
+p \RESET\ 38
+p IRQ8 40
+p \WS0\ 41
+p IOCHRDY 43
+p \CAS1H\ 45
+p \CAS1L\ 47
+p \CAS0H\ 48
+p \CAS0L\ 49
+p \RAS0A\ 54
+p \RAS0B\ 53
+p \RAS1A\ 51
+p \RAS1B\ 50
+p ADDSEL 56
+p \RAMWB\ 58
+p \RAMWA\ 59
+p VSS2 46
+p VSS1 39
+p VSS0 16
+p VSS3 52
+p VSS4 57
+p VSS5 63
+*package VL82C284 b
+@types 1
+g 1 
+@pinout
+t DIP18,CDIP18
+g 1
+p X1 7
+p X2 8
+p EFI 5
+p F/\C\ 6
+p \RES\ 11
+p S0 15
+p S1 16
+p \SRDYEN\ 3
+p \SRDY\ 2
+p \ARDYEN\ 17
+p \ARDY\ 1
+p VCC 18
+p RESET 12
+p CLK 10
+p \READY\ 4
+p PCLK 13
+p GND 9
+t PLCC/R-18
+g 1
+p X1 7
+p X2 8
+p EFI 5
+p F/\C\ 6
+p \RES\ 11
+p S0 15
+p S1 16
+p \SRDYEN\ 3
+p \SRDY\ 2
+p \ARDYEN\ 17
+p \ARDY\ 1
+p VCC 18
+p RESET 12
+p CLK 10
+p \READY\ 4
+p PCLK 13
+p GND 9
+*package VL82C284-08CC b
+@types 1
+g 1 
+@pinout
+t CDIP18
+g 1
+p X1 7
+p X2 8
+p EFI 5
+p F/\C\ 6
+p \RES\ 11
+p S0 15
+p S1 16
+p \SRDYEN\ 3
+p \SRDY\ 2
+p \ARDYEN\ 17
+p \ARDY\ 1
+p VCC 18
+p RESET 12
+p CLK 10
+p \READY\ 4
+p PCLK 13
+p GND 9
+*package VL82C284-08PC b
+@types 1
+g 1 
+@pinout
+t DIP18
+g 1
+p X1 7
+p X2 8
+p EFI 5
+p F/\C\ 6
+p \RES\ 11
+p S0 15
+p S1 16
+p \SRDYEN\ 3
+p \SRDY\ 2
+p \ARDYEN\ 17
+p \ARDY\ 1
+p VCC 18
+p RESET 12
+p CLK 10
+p \READY\ 4
+p PCLK 13
+p GND 9
+*package VL82C284-08QC b
+@types 1
+g 1 
+@pinout
+t PLCC/R-18
+g 1
+p X1 7
+p X2 8
+p EFI 5
+p F/\C\ 6
+p \RES\ 11
+p S0 15
+p S1 16
+p \SRDYEN\ 3
+p \SRDY\ 2
+p \ARDYEN\ 17
+p \ARDY\ 1
+p VCC 18
+p RESET 12
+p CLK 10
+p \READY\ 4
+p PCLK 13
+p GND 9
+*package VL82C284-10CC b
+@types 1
+g 1 
+@pinout
+t CDIP18
+g 1
+p X1 7
+p X2 8
+p EFI 5
+p F/\C\ 6
+p \RES\ 11
+p S0 15
+p S1 16
+p \SRDYEN\ 3
+p \SRDY\ 2
+p \ARDYEN\ 17
+p \ARDY\ 1
+p VCC 18
+p RESET 12
+p CLK 10
+p \READY\ 4
+p PCLK 13
+p GND 9
+*package VL82C284-10PC b
+@types 1
+g 1 
+@pinout
+t DIP18
+g 1
+p X1 7
+p X2 8
+p EFI 5
+p F/\C\ 6
+p \RES\ 11
+p S0 15
+p S1 16
+p \SRDYEN\ 3
+p \SRDY\ 2
+p \ARDYEN\ 17
+p \ARDY\ 1
+p VCC 18
+p RESET 12
+p CLK 10
+p \READY\ 4
+p PCLK 13
+p GND 9
+*package VL82C284-10QC b
+@types 1
+g 1 
+@pinout
+t PLCC/R-18
+g 1
+p X1 7
+p X2 8
+p EFI 5
+p F/\C\ 6
+p \RES\ 11
+p S0 15
+p S1 16
+p \SRDYEN\ 3
+p \SRDY\ 2
+p \ARDYEN\ 17
+p \ARDY\ 1
+p VCC 18
+p RESET 12
+p CLK 10
+p \READY\ 4
+p PCLK 13
+p GND 9
+*package VL82C288 b
+@types 1
+g 1 
+@pinout
+t DIP20,CDIP20,PLCC20
+g 1
+p \S0\ 19
+p \S1\ 3
+p M/\IO\ 18
+p CLK 2
+p MB 6
+p \READY\ 1
+p CEN/\AEN\ 15
+p CENL 14
+p CMDLY 7
+p VCC 20
+p GND 10
+p \MRDC\ 8
+p \MWTC\ 9
+p \INTA\ 13
+p \IORC\ 12
+p \IOWC\ 11
+p DT/\R\ 17
+p DEN 16
+p MCE 4
+p ALE 5
+*package VL82C288-06CC b
+@types 1
+g 1 
+@pinout
+t CDIP20
+g 1
+p \S0\ 19
+p \S1\ 3
+p M/\IO\ 18
+p CLK 2
+p MB 6
+p \READY\ 1
+p CEN/\AEN\ 15
+p CENL 14
+p CMDLY 7
+p VCC 20
+p GND 10
+p \MRDC\ 8
+p \MWTC\ 9
+p \INTA\ 13
+p \IORC\ 12
+p \IOWC\ 11
+p DT/\R\ 17
+p DEN 16
+p MCE 4
+p ALE 5
+*package VL82C288-06PC b
+@types 1
+g 1 
+@pinout
+t DIP20
+g 1
+p \S0\ 19
+p \S1\ 3
+p M/\IO\ 18
+p CLK 2
+p MB 6
+p \READY\ 1
+p CEN/\AEN\ 15
+p CENL 14
+p CMDLY 7
+p VCC 20
+p GND 10
+p \MRDC\ 8
+p \MWTC\ 9
+p \INTA\ 13
+p \IORC\ 12
+p \IOWC\ 11
+p DT/\R\ 17
+p DEN 16
+p MCE 4
+p ALE 5
+*package VL82C288-06QC b
+@types 1
+g 1 
+@pinout
+t PLCC20
+g 1
+p \S0\ 19
+p \S1\ 3
+p M/\IO\ 18
+p CLK 2
+p MB 6
+p \READY\ 1
+p CEN/\AEN\ 15
+p CENL 14
+p CMDLY 7
+p VCC 20
+p GND 10
+p \MRDC\ 8
+p \MWTC\ 9
+p \INTA\ 13
+p \IORC\ 12
+p \IOWC\ 11
+p DT/\R\ 17
+p DEN 16
+p MCE 4
+p ALE 5
+*package VL82C288-08CC b
+@types 1
+g 1 
+@pinout
+t CDIP20
+g 1
+p \S0\ 19
+p \S1\ 3
+p M/\IO\ 18
+p CLK 2
+p MB 6
+p \READY\ 1
+p CEN/\AEN\ 15
+p CENL 14
+p CMDLY 7
+p VCC 20
+p GND 10
+p \MRDC\ 8
+p \MWTC\ 9
+p \INTA\ 13
+p \IORC\ 12
+p \IOWC\ 11
+p DT/\R\ 17
+p DEN 16
+p MCE 4
+p ALE 5
+*package VL82C288-08PC b
+@types 1
+g 1 
+@pinout
+t DIP20
+g 1
+p \S0\ 19
+p \S1\ 3
+p M/\IO\ 18
+p CLK 2
+p MB 6
+p \READY\ 1
+p CEN/\AEN\ 15
+p CENL 14
+p CMDLY 7
+p VCC 20
+p GND 10
+p \MRDC\ 8
+p \MWTC\ 9
+p \INTA\ 13
+p \IORC\ 12
+p \IOWC\ 11
+p DT/\R\ 17
+p DEN 16
+p MCE 4
+p ALE 5
+*package VL82C288-08QC b
+@types 1
+g 1 
+@pinout
+t PLCC20
+g 1
+p \S0\ 19
+p \S1\ 3
+p M/\IO\ 18
+p CLK 2
+p MB 6
+p \READY\ 1
+p CEN/\AEN\ 15
+p CENL 14
+p CMDLY 7
+p VCC 20
+p GND 10
+p \MRDC\ 8
+p \MWTC\ 9
+p \INTA\ 13
+p \IORC\ 12
+p \IOWC\ 11
+p DT/\R\ 17
+p DEN 16
+p MCE 4
+p ALE 5
+*package VL82C37A b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p CLK 12
+p \CS\ 11
+p RESET 13
+p READY 6
+p HLDA 7
+p DREQ0 19
+p DREQ1 18
+p DREQ2 17
+p DREQ3 16
+p VCC0 5
+p VCC1 31
+p DB0 30
+p DB1 29
+p DB2 28
+p DB3 27
+p DB4 26
+p DB5 23
+p DB6 22
+p DB7 21
+p \IOR\ 1
+p \IOW\ 2
+p \EOP\ 36
+p A0 32
+p A1 33
+p A2 34
+p A3 35
+p A4 37
+p A5 38
+p A6 39
+p A7 40
+p HRQ 10
+p DACK0 25
+p DACK1 24
+p DACK2 14
+p DACK3 15
+p AEN 9
+p ADSTB 8
+p \MEMR\ 3
+p \MEMW\ 4
+p GND 20
+t PLCC44
+g 1
+p CLK 14
+p \CS\ 13
+p RESET 15
+p READY 6
+p HLDA 9
+p DREQ0 22
+p DREQ1 21
+p DREQ2 20
+p DREQ3 19
+p VCC0 5
+p VCC1 35
+p DB0 34
+p DB1 33
+p DB2 32
+p DB3 31
+p DB4 30
+p DB5 26
+p DB6 25
+p DB7 24
+p \IOR\ 1
+p \IOW\ 2
+p \EOP\ 40
+p A0 36
+p A1 37
+p A2 38
+p A3 39
+p A4 41
+p A5 42
+p A6 43
+p A7 44
+p HRQ 12
+p DACK0 28
+p DACK1 27
+p DACK2 16
+p DACK3 18
+p AEN 11
+p ADSTB 10
+p \MEMR\ 3
+p \MEMW\ 4
+p GND 23
+*package VL82C37A-08PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p CLK 12
+p \CS\ 11
+p RESET 13
+p READY 6
+p HLDA 7
+p DREQ0 19
+p DREQ1 18
+p DREQ2 17
+p DREQ3 16
+p VCC0 5
+p VCC1 31
+p DB0 30
+p DB1 29
+p DB2 28
+p DB3 27
+p DB4 26
+p DB5 23
+p DB6 22
+p DB7 21
+p \IOR\ 1
+p \IOW\ 2
+p \EOP\ 36
+p A0 32
+p A1 33
+p A2 34
+p A3 35
+p A4 37
+p A5 38
+p A6 39
+p A7 40
+p HRQ 10
+p DACK0 25
+p DACK1 24
+p DACK2 14
+p DACK3 15
+p AEN 9
+p ADSTB 8
+p \MEMR\ 3
+p \MEMW\ 4
+p GND 20
+*package VL82C37A-08QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p CLK 14
+p \CS\ 13
+p RESET 15
+p READY 6
+p HLDA 9
+p DREQ0 22
+p DREQ1 21
+p DREQ2 20
+p DREQ3 19
+p VCC0 5
+p VCC1 35
+p DB0 34
+p DB1 33
+p DB2 32
+p DB3 31
+p DB4 30
+p DB5 26
+p DB6 25
+p DB7 24
+p \IOR\ 1
+p \IOW\ 2
+p \EOP\ 40
+p A0 36
+p A1 37
+p A2 38
+p A3 39
+p A4 41
+p A5 42
+p A6 43
+p A7 44
+p HRQ 12
+p DACK0 28
+p DACK1 27
+p DACK2 16
+p DACK3 18
+p AEN 11
+p ADSTB 10
+p \MEMR\ 3
+p \MEMW\ 4
+p GND 23
+*package VL82C389 b
+@types 1
+g 1 
+@pinout
+t CPGA149/MO-067AG
+g 1
+p VCC0 C7
+p VCC1 D4
+p VCC2 D12
+p VCC3 M4
+p VCC4 M12
+p VCC5 N8
+p VSS0 C3
+p VSS1 C5
+p VSS2 C12
+p VSS3 J3
+p VSS4 D8
+p VSS5 F13
+p VSS6 K13
+p VSS7 N4
+p VSS8 N6
+p VSS9 N9
+p VSS10 N11
+p VSS11 N13
+p BBCLK Q8
+p TIMOUT Q7
+p LACHN P8
+p RESET Q9
+p \COM\ K3
+p A2 D3
+p A3 D2
+p A4 C2
+p A5 B1
+p \BE0\ E3
+p \BE1\ E2
+p \BE2\ D1
+p \BE3\ C1
+p \MEMSEL\ F2
+p \IOSEL\ F3
+p \REGSEL\ E1
+p \LOCK\ J2
+p \RD\ H1
+p \WR\ H2
+p \ODACK\ G3
+p \IDACK\ G2
+p IAST E14
+p \IRD\ D15
+p \IWR\ C15
+p \BREQ\ P6
+p \ARB0\ Q3
+p \ARB1\ P3
+p \ERR\ K2
+p \ARB2\ Q4
+p \ARB3\ P4
+p \ARB4\ P5
+p \ARB5\ N5
+p \BAD0\ F14
+p \BAD1\ F15
+p \BAD2\ G13
+p \BAD3\ G14
+p \BAD4\ G15
+p \BAD5\ H13
+p \BAD6\ H14
+p \BAD7\ H15
+p \BAD8\ J13
+p \BAD9\ J14
+p \BAD10\ J15
+p \BAD11\ K14
+p \BAD12\ K15
+p \BAD13\ L13
+p \BAD14\ L14
+p \BAD15\ L15
+p \BAD16\ M13
+p \BAD17\ M14
+p \BAD18\ M15
+p \BAD19\ N14
+p \BAD20\ N15
+p \BAD21\ P15
+p \BAD22\ Q15
+p \BAD23\ P14
+p \BAD24\ Q14
+p \BAD25\ P13
+p \BAD26\ Q13
+p \BAD27\ N12
+p \BAD28\ P12
+p \BAD29\ Q12
+p \BAD30\ P11
+p \BAD31\ Q11
+p \BPAR0\ N10
+p \BPAR1\ P10
+p \BPAR2\ Q10
+p \BPAR3\ P9
+p ADDIR Q6
+p \REFADR\ N7
+p SCDIR0 N2
+p SCDIR1 Q2
+p \BSC0\ L2
+p \BSC1\ L3
+p \BSC2\ M1
+p \BSC3\ M2
+p \BSC4\ M3
+p \BSC5\ N3
+p \BSC6\ P1
+p \BSC7\ P2
+p \BSC8\ Q1
+p \BSC9\ N1
+p \BUSERR\ P7
+p \RSTNC\ Q5
+p \SEL\ L1
+p D0 A1
+p D1 B2
+p D2 A2
+p D3 B3
+p D4 A3
+p D5 C4
+p D6 B4
+p D7 A4
+p D8 B5
+p D9 A5
+p D10 C6
+p D11 B6
+p D12 A6
+p D14 A7
+p D13 B7
+p D15 C8
+p D16 B8
+p D17 A8
+p D18 C9
+p D19 B9
+p D20 A9
+p D21 C10
+p D22 B10
+p D23 A10
+p D24 C11
+p D25 B11
+p D26 A11
+p D27 B12
+p D28 A12
+p D29 B13
+p D30 A13
+p D31 A14
+p \WAIT\ H3
+p MINT J1
+p EINT K1
+p ODREQ G1
+p IDREQ F1
+p IAD0 E13
+p IAD1 D13
+p IAD2 D14
+p IAD3 C13
+p IAD4 C14
+p IAD5 B14
+p IAD6 B15
+p IAD7 A15
+p IREQ E15
+*package VL82C389-GC b
+@types 1
+g 1 
+@pinout
+t CPGA149/MO-067AG
+g 1
+p VCC0 C7
+p VCC1 D4
+p VCC2 D12
+p VCC3 M4
+p VCC4 M12
+p VCC5 N8
+p VSS0 C3
+p VSS1 C5
+p VSS2 C12
+p VSS3 J3
+p VSS4 D8
+p VSS5 F13
+p VSS6 K13
+p VSS7 N4
+p VSS8 N6
+p VSS9 N9
+p VSS10 N11
+p VSS11 N13
+p BBCLK Q8
+p TIMOUT Q7
+p LACHN P8
+p RESET Q9
+p \COM\ K3
+p A2 D3
+p A3 D2
+p A4 C2
+p A5 B1
+p \BE0\ E3
+p \BE1\ E2
+p \BE2\ D1
+p \BE3\ C1
+p \MEMSEL\ F2
+p \IOSEL\ F3
+p \REGSEL\ E1
+p \LOCK\ J2
+p \RD\ H1
+p \WR\ H2
+p \ODACK\ G3
+p \IDACK\ G2
+p IAST E14
+p \IRD\ D15
+p \IWR\ C15
+p \BREQ\ P6
+p \ARB0\ Q3
+p \ARB1\ P3
+p \ERR\ K2
+p \ARB2\ Q4
+p \ARB3\ P4
+p \ARB4\ P5
+p \ARB5\ N5
+p \BAD0\ F14
+p \BAD1\ F15
+p \BAD2\ G13
+p \BAD3\ G14
+p \BAD4\ G15
+p \BAD5\ H13
+p \BAD6\ H14
+p \BAD7\ H15
+p \BAD8\ J13
+p \BAD9\ J14
+p \BAD10\ J15
+p \BAD11\ K14
+p \BAD12\ K15
+p \BAD13\ L13
+p \BAD14\ L14
+p \BAD15\ L15
+p \BAD16\ M13
+p \BAD17\ M14
+p \BAD18\ M15
+p \BAD19\ N14
+p \BAD20\ N15
+p \BAD21\ P15
+p \BAD22\ Q15
+p \BAD23\ P14
+p \BAD24\ Q14
+p \BAD25\ P13
+p \BAD26\ Q13
+p \BAD27\ N12
+p \BAD28\ P12
+p \BAD29\ Q12
+p \BAD30\ P11
+p \BAD31\ Q11
+p \BPAR0\ N10
+p \BPAR1\ P10
+p \BPAR2\ Q10
+p \BPAR3\ P9
+p ADDIR Q6
+p \REFADR\ N7
+p SCDIR0 N2
+p SCDIR1 Q2
+p \BSC0\ L2
+p \BSC1\ L3
+p \BSC2\ M1
+p \BSC3\ M2
+p \BSC4\ M3
+p \BSC5\ N3
+p \BSC6\ P1
+p \BSC7\ P2
+p \BSC8\ Q1
+p \BSC9\ N1
+p \BUSERR\ P7
+p \RSTNC\ Q5
+p \SEL\ L1
+p D0 A1
+p D1 B2
+p D2 A2
+p D3 B3
+p D4 A3
+p D5 C4
+p D6 B4
+p D7 A4
+p D8 B5
+p D9 A5
+p D10 C6
+p D11 B6
+p D12 A6
+p D14 A7
+p D13 B7
+p D15 C8
+p D16 B8
+p D17 A8
+p D18 C9
+p D19 B9
+p D20 A9
+p D21 C10
+p D22 B10
+p D23 A10
+p D24 C11
+p D25 B11
+p D26 A11
+p D27 B12
+p D28 A12
+p D29 B13
+p D30 A13
+p D31 A14
+p \WAIT\ H3
+p MINT J1
+p EINT K1
+p ODREQ G1
+p IDREQ F1
+p IAD0 E13
+p IAD1 D13
+p IAD2 D14
+p IAD3 C13
+p IAD4 C14
+p IAD5 B14
+p IAD6 B15
+p IAD7 A15
+p IREQ E15
+*package VL82C50-PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p \CS2\ 14
+p XTAL1 16
+p XTAL2 17
+p \DOSTR\ 18
+p DOSTR 19
+p \DISTR\ 21
+p DISTR 22
+p \ADS\ 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p \CTS\ 36
+p \DSR\ 37
+p \DCD\/\RLSD\ 38
+p \RI\ 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p \BAUDOUT\ 15
+p DDIS 23
+p CSOUT 24
+p INTRPT 30
+p \OUT2\ 31
+p \RTS\ 32
+p \DTR\ 33
+p \OUT1\ 34
+*package VL82C50-QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p RCLK 10
+p SIN 11
+p CS0 14
+p CS1 15
+p \CS2\ 16
+p XTAL1 18
+p XTAL2 19
+p \DOSTR\ 20
+p DOSTR 21
+p \DISTR\ 24
+p DISTR 25
+p \ADS\ 28
+p A0 31
+p A2 29
+p A1 30
+p MR 39
+p \CTS\ 40
+p \DSR\ 41
+p \DCD\/\RLSD\ 42
+p \RI\ 43
+p VCC 44
+p VSS 22
+p D0 2
+p D1 3
+p D2 4
+p D3 5
+p D4 6
+p D5 7
+p D6 8
+p D7 9
+p SOUT 13
+p \BAUDOUT\ 17
+p DDIS 26
+p CSOUT 27
+p INTRPT 33
+p \OUT2\ 35
+p \RTS\ 36
+p \DTR\ 37
+p \OUT1\ 38
+*package VL82C50A-PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p \CS2\ 14
+p XTAL1 16
+p XTAL2 17
+p \DOSTR\ 18
+p DOSTR 19
+p \DISTR\ 21
+p DISTR 22
+p \ADS\ 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p \CTS\ 36
+p \DSR\ 37
+p \DCD\ 38
+p \RI\ 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p \BAUDOUT\ 15
+p DDIS 23
+p CSOUT 24
+p INTRPT 30
+p \OUT2\ 31
+p \RTS\ 32
+p \DTR\ 33
+p \OUT1\ 34
+*package VL82C50A-QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p RCLK 10
+p SIN 11
+p CS0 14
+p CS1 15
+p \CS2\ 16
+p XTAL1 18
+p XTAL2 19
+p \DOSTR\ 20
+p DOSTR 21
+p \DISTR\ 24
+p DISTR 25
+p \ADS\ 28
+p A0 31
+p A2 29
+p A1 30
+p MR 39
+p \CTS\ 40
+p \DSR\ 41
+p \DCD\ 42
+p \RI\ 43
+p VCC 44
+p VSS 22
+p D0 2
+p D1 3
+p D2 4
+p D3 5
+p D4 6
+p D5 7
+p D6 8
+p D7 9
+p SOUT 13
+p \BAUDOUT\ 17
+p DDIS 26
+p CSOUT 27
+p INTRPT 33
+p \OUT2\ 35
+p \RTS\ 36
+p \DTR\ 37
+p \OUT1\ 38
+*package VL82C59A b
+@types 1
+g 1 
+@pinout
+t DIP28X,CDIP28X,PLCC28
+g 1
+p \CS\ 1
+p \WR\ 2
+p \RD\ 3
+p IR0 18
+p IR1 19
+p IR2 20
+p IR3 21
+p IR4 22
+p IR5 23
+p IR6 24
+p IR7 25
+p \INTA\ 26
+p A0 27
+p VCC 28
+p GND 14
+p D0 11
+p D1 10
+p D2 9
+p D3 8
+p D4 7
+p D5 6
+p D6 5
+p D7 4
+p CAS0 12
+p CAS1 13
+p CAS2 15
+p \SP\/\EN\ 16
+p INT 17
+*package VL82C59A-08CC b
+@types 1
+g 1 
+@pinout
+t CDIP28X
+g 1
+p \CS\ 1
+p \WR\ 2
+p \RD\ 3
+p IR0 18
+p IR1 19
+p IR2 20
+p IR3 21
+p IR4 22
+p IR5 23
+p IR6 24
+p IR7 25
+p \INTA\ 26
+p A0 27
+p VCC 28
+p GND 14
+p D0 11
+p D1 10
+p D2 9
+p D3 8
+p D4 7
+p D5 6
+p D6 5
+p D7 4
+p CAS0 12
+p CAS1 13
+p CAS2 15
+p \SP\/\EN\ 16
+p INT 17
+*package VL82C59A-08PC b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \CS\ 1
+p \WR\ 2
+p \RD\ 3
+p IR0 18
+p IR1 19
+p IR2 20
+p IR3 21
+p IR4 22
+p IR5 23
+p IR6 24
+p IR7 25
+p \INTA\ 26
+p A0 27
+p VCC 28
+p GND 14
+p D0 11
+p D1 10
+p D2 9
+p D3 8
+p D4 7
+p D5 6
+p D6 5
+p D7 4
+p CAS0 12
+p CAS1 13
+p CAS2 15
+p \SP\/\EN\ 16
+p INT 17
+*package VL82C59A-08QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p \CS\ 1
+p \WR\ 2
+p \RD\ 3
+p IR0 18
+p IR1 19
+p IR2 20
+p IR3 21
+p IR4 22
+p IR5 23
+p IR6 24
+p IR7 25
+p \INTA\ 26
+p A0 27
+p VCC 28
+p GND 14
+p D0 11
+p D1 10
+p D2 9
+p D3 8
+p D4 7
+p D5 6
+p D6 5
+p D7 4
+p CAS0 12
+p CAS1 13
+p CAS2 15
+p \SP\/\EN\ 16
+p INT 17
+*package VL82C59A-10CC b
+@types 1
+g 1 
+@pinout
+t CDIP28X
+g 1
+p \CS\ 1
+p \WR\ 2
+p \RD\ 3
+p IR0 18
+p IR1 19
+p IR2 20
+p IR3 21
+p IR4 22
+p IR5 23
+p IR6 24
+p IR7 25
+p \INTA\ 26
+p A0 27
+p VCC 28
+p GND 14
+p D0 11
+p D1 10
+p D2 9
+p D3 8
+p D4 7
+p D5 6
+p D6 5
+p D7 4
+p CAS0 12
+p CAS1 13
+p CAS2 15
+p \SP\/\EN\ 16
+p INT 17
+*package VL82C59A-10PC b
+@types 1
+g 1 
+@pinout
+t DIP28X
+g 1
+p \CS\ 1
+p \WR\ 2
+p \RD\ 3
+p IR0 18
+p IR1 19
+p IR2 20
+p IR3 21
+p IR4 22
+p IR5 23
+p IR6 24
+p IR7 25
+p \INTA\ 26
+p A0 27
+p VCC 28
+p GND 14
+p D0 11
+p D1 10
+p D2 9
+p D3 8
+p D4 7
+p D5 6
+p D6 5
+p D7 4
+p CAS0 12
+p CAS1 13
+p CAS2 15
+p \SP\/\EN\ 16
+p INT 17
+*package VL82C59A-10QC b
+@types 1
+g 1 
+@pinout
+t PLCC28
+g 1
+p \CS\ 1
+p \WR\ 2
+p \RD\ 3
+p IR0 18
+p IR1 19
+p IR2 20
+p IR3 21
+p IR4 22
+p IR5 23
+p IR6 24
+p IR7 25
+p \INTA\ 26
+p A0 27
+p VCC 28
+p GND 14
+p D0 11
+p D1 10
+p D2 9
+p D3 8
+p D4 7
+p D5 6
+p D6 5
+p D7 4
+p CAS0 12
+p CAS1 13
+p CAS2 15
+p \SP\/\EN\ 16
+p INT 17
+*package VL83C11 b
+@types 1
+g 1 
+@pinout
+t PLCC52
+g 1
+p TGS 48
+p IGS 7
+p I/O 6
+p C/D 5
+p MSG 4
+p REQ 1
+p ACK 3
+p ATN 8
+p BUSYIN 52
+p SELIN 51
+p RSTIN 9
+p \ID0\ 33
+p \ID1\ 32
+p \ID2\ 31
+p ARB 34
+p \DBEN\ 35
+p D0 29
+p D1 27
+p D2 26
+p D3 25
+p D4 24
+p D5 23
+p D6 22
+p D7 21
+p DP 30
+p VDD 28
+p GND0 2
+p GND1 13
+p GND2 17
+p GND3 39
+p BSYOUT 50
+p SELOUT 49
+p \RSTOUT\ 47
+p \BSY\ 45
+p \SEL\ 40
+p \RST\ 42
+p \ACK\ 44
+p \ATN\ 46
+p I/\O\ 36
+p C/\D\ 38
+p \MSG\ 41
+p \REQ\ 37
+p \DB0\ 10
+p \DB1\ 11
+p \DB2\ 12
+p \DB3\ 14
+p \DB4\ 15
+p \DB5\ 16
+p \DB6\ 18
+p \DB7\ 19
+p \DBP\ 20
+p GND4 43
+*package VL83C11-QC b
+@types 1
+g 1 
+@pinout
+t PLCC52
+g 1
+p TGS 48
+p IGS 7
+p I/O 6
+p C/D 5
+p MSG 4
+p REQ 1
+p ACK 3
+p ATN 8
+p BUSYIN 52
+p SELIN 51
+p RSTIN 9
+p \ID0\ 33
+p \ID1\ 32
+p \ID2\ 31
+p ARB 34
+p \DBEN\ 35
+p D0 29
+p D1 27
+p D2 26
+p D3 25
+p D4 24
+p D5 23
+p D6 22
+p D7 21
+p DP 30
+p VDD 28
+p GND0 2
+p GND1 13
+p GND2 17
+p GND3 39
+p BSYOUT 50
+p SELOUT 49
+p \RSTOUT\ 47
+p \BSY\ 45
+p \SEL\ 40
+p \RST\ 42
+p \ACK\ 44
+p \ATN\ 46
+p I/\O\ 36
+p C/\D\ 38
+p \MSG\ 41
+p \REQ\ 37
+p \DB0\ 10
+p \DB1\ 11
+p \DB2\ 12
+p \DB3\ 14
+p \DB4\ 15
+p \DB5\ 16
+p \DB6\ 18
+p \DB7\ 19
+p \DBP\ 20
+p GND4 43
+*package VL8530 b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+t PLCC44
+g 1
+p A/\B\ 39
+p \CE\ 38
+p \CTSA\ 21
+p \CTSB\ 25
+p D/\C\ 37
+p \DCDA\ 22
+p \DCDB\ 24
+p \INTACK\ 9
+p PCLK 23
+p \RD\ 41
+p RXDA 14
+p RXDB 31
+p \RTXCA\ 13
+p \RTXCB\ 32
+p \WR\ 40
+p \DTR\/\REQA\ 19
+p \DTR\/\REQB\ 27
+p D0 1
+p D1 2
+p D2 44
+p D3 3
+p D4 43
+p D5 4
+p D6 42
+p D7 5
+p \RTSA\ 20
+p \RTSB\ 26
+p \SYNCA\ 12
+p \SYNCB\ 33
+p TXDA 16
+p TXDB 29
+p IEI 8
+p IEO 7
+p \INT\ 6
+p \TRXCA\ 15
+p \TRXCB\ 30
+p \W\/\REQA\ 11
+p \W\/\REQB\ 34
+p VCC 10
+p GND 35
+*package VL8530-04CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+*package VL8530-04PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+*package VL8530-04QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p A/\B\ 39
+p \CE\ 38
+p \CTSA\ 21
+p \CTSB\ 25
+p D/\C\ 37
+p \DCDA\ 22
+p \DCDB\ 24
+p \INTACK\ 9
+p PCLK 23
+p \RD\ 41
+p RXDA 14
+p RXDB 31
+p \RTXCA\ 13
+p \RTXCB\ 32
+p \WR\ 40
+p \DTR\/\REQA\ 19
+p \DTR\/\REQB\ 27
+p D0 1
+p D1 2
+p D2 44
+p D3 3
+p D4 43
+p D5 4
+p D6 42
+p D7 5
+p \RTSA\ 20
+p \RTSB\ 26
+p \SYNCA\ 12
+p \SYNCB\ 33
+p TXDA 16
+p TXDB 29
+p IEI 8
+p IEO 7
+p \INT\ 6
+p \TRXCA\ 15
+p \TRXCB\ 30
+p \W\/\REQA\ 11
+p \W\/\REQB\ 34
+p VCC 10
+p GND 35
+*package VL8530-06CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+*package VL8530-06PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+*package VL8530-06QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p A/\B\ 39
+p \CE\ 38
+p \CTSA\ 21
+p \CTSB\ 25
+p D/\C\ 37
+p \DCDA\ 22
+p \DCDB\ 24
+p \INTACK\ 9
+p PCLK 23
+p \RD\ 41
+p RXDA 14
+p RXDB 31
+p \RTXCA\ 13
+p \RTXCB\ 32
+p \WR\ 40
+p \DTR\/\REQA\ 19
+p \DTR\/\REQB\ 27
+p D0 1
+p D1 2
+p D2 44
+p D3 3
+p D4 43
+p D5 4
+p D6 42
+p D7 5
+p \RTSA\ 20
+p \RTSB\ 26
+p \SYNCA\ 12
+p \SYNCB\ 33
+p TXDA 16
+p TXDB 29
+p IEI 8
+p IEO 7
+p \INT\ 6
+p \TRXCA\ 15
+p \TRXCB\ 30
+p \W\/\REQA\ 11
+p \W\/\REQB\ 34
+p VCC 10
+p GND 35
+*package VL85C30 b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+t PLCC44
+g 1
+p A/\B\ 39
+p \CE\ 38
+p \CTSA\ 21
+p \CTSB\ 25
+p D/\C\ 37
+p \DCDA\ 22
+p \DCDB\ 24
+p \INTACK\ 9
+p PCLK 23
+p \RD\ 41
+p RXDA 14
+p RXDB 31
+p \RTXCA\ 13
+p \RTXCB\ 32
+p \WR\ 40
+p \DTR\/\REQA\ 19
+p \DTR\/\REQB\ 27
+p D0 1
+p D1 2
+p D2 44
+p D3 3
+p D4 43
+p D5 4
+p D6 42
+p D7 5
+p \RTSA\ 20
+p \RTSB\ 26
+p \SYNCA\ 12
+p \SYNCB\ 33
+p TXDA 16
+p TXDB 29
+p IEI 8
+p IEO 7
+p \INT\ 6
+p \TRXCA\ 15
+p \TRXCB\ 30
+p \W\/\REQA\ 11
+p \W\/\REQB\ 34
+p VCC 10
+p GND 35
+*package VL85C30-10CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+*package VL85C30-10PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+*package VL85C30-10QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p A/\B\ 39
+p \CE\ 38
+p \CTSA\ 21
+p \CTSB\ 25
+p D/\C\ 37
+p \DCDA\ 22
+p \DCDB\ 24
+p \INTACK\ 9
+p PCLK 23
+p \RD\ 41
+p RXDA 14
+p RXDB 31
+p \RTXCA\ 13
+p \RTXCB\ 32
+p \WR\ 40
+p \DTR\/\REQA\ 19
+p \DTR\/\REQB\ 27
+p D0 1
+p D1 2
+p D2 44
+p D3 3
+p D4 43
+p D5 4
+p D6 42
+p D7 5
+p \RTSA\ 20
+p \RTSB\ 26
+p \SYNCA\ 12
+p \SYNCB\ 33
+p TXDA 16
+p TXDB 29
+p IEI 8
+p IEO 7
+p \INT\ 6
+p \TRXCA\ 15
+p \TRXCB\ 30
+p \W\/\REQA\ 11
+p \W\/\REQB\ 34
+p VCC 10
+p GND 35
+*package VL85C30-12CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+*package VL85C30-12PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+*package VL85C30-12QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p A/\B\ 39
+p \CE\ 38
+p \CTSA\ 21
+p \CTSB\ 25
+p D/\C\ 37
+p \DCDA\ 22
+p \DCDB\ 24
+p \INTACK\ 9
+p PCLK 23
+p \RD\ 41
+p RXDA 14
+p RXDB 31
+p \RTXCA\ 13
+p \RTXCB\ 32
+p \WR\ 40
+p \DTR\/\REQA\ 19
+p \DTR\/\REQB\ 27
+p D0 1
+p D1 2
+p D2 44
+p D3 3
+p D4 43
+p D5 4
+p D6 42
+p D7 5
+p \RTSA\ 20
+p \RTSB\ 26
+p \SYNCA\ 12
+p \SYNCB\ 33
+p TXDA 16
+p TXDB 29
+p IEI 8
+p IEO 7
+p \INT\ 6
+p \TRXCA\ 15
+p \TRXCB\ 30
+p \W\/\REQA\ 11
+p \W\/\REQB\ 34
+p VCC 10
+p GND 35
+*package VL85C30-8CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+*package VL85C30-8PC b
+@types 1
+g 1 
+@pinout
+t DIP40X
+g 1
+p A/\B\ 34
+p \CE\ 33
+p \CTSA\ 18
+p \CTSB\ 22
+p D/\C\ 32
+p \DCDA\ 19
+p \DCDB\ 21
+p \INTACK\ 8
+p PCLK 20
+p \RD\ 36
+p RXDA 13
+p RXDB 27
+p \RTXCA\ 12
+p \RTXCB\ 28
+p \WR\ 35
+p \DTR\/\REQA\ 16
+p \DTR\/\REQB\ 24
+p D0 40
+p D1 1
+p D2 39
+p D3 2
+p D4 38
+p D5 3
+p D6 37
+p D7 4
+p \RTSA\ 17
+p \RTSB\ 23
+p \SYNCA\ 11
+p \SYNCB\ 29
+p TXDA 15
+p TXDB 25
+p IEI 7
+p IEO 6
+p \INT\ 5
+p \TRXCA\ 14
+p \TRXCB\ 26
+p \W\/\REQA\ 10
+p \W\/\REQB\ 30
+p VCC 9
+p GND 31
+*package VL85C30-8QC b
+@types 1
+g 1 
+@pinout
+t PLCC44
+g 1
+p A/\B\ 39
+p \CE\ 38
+p \CTSA\ 21
+p \CTSB\ 25
+p D/\C\ 37
+p \DCDA\ 22
+p \DCDB\ 24
+p \INTACK\ 9
+p PCLK 23
+p \RD\ 41
+p RXDA 14
+p RXDB 31
+p \RTXCA\ 13
+p \RTXCB\ 32
+p \WR\ 40
+p \DTR\/\REQA\ 19
+p \DTR\/\REQB\ 27
+p D0 1
+p D1 2
+p D2 44
+p D3 3
+p D4 43
+p D5 4
+p D6 42
+p D7 5
+p \RTSA\ 20
+p \RTSB\ 26
+p \SYNCA\ 12
+p \SYNCB\ 33
+p TXDA 16
+p TXDB 29
+p IEI 8
+p IEO 7
+p \INT\ 6
+p \TRXCA\ 15
+p \TRXCB\ 30
+p \W\/\REQA\ 11
+p \W\/\REQB\ 34
+p VCC 10
+p GND 35
+*package 68C45 b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p RA0 38
+p RA1 37
+p RA3 35
+p E 23
+p R/\W\ 22
+p \CS\ 25
+p RS 24
+p DS0 33
+p DS1 32
+p DS2 31
+p DS3 30
+p DS4 29
+p DS5 28
+p DS6 27
+p DS7 26
+p LPSTB 3
+p CCLK 21
+p \RES\ 2
+p VCC 20
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 6
+p CC3/MA3 7
+p CC4/MA4 8
+p CC5/MA5 9
+p CC6/MA6 10
+p CC7/MA7 11
+p CR0/MA8 12
+p CR1/MA9 13
+p CR2/MA10 14
+p CR3/MA11 15
+p CR4/MA12 16
+p CR5/MA13 17
+p RA2 36
+p RA4/STB 34
+p HSYNC 39
+p VSYNC 40
+p DISPLAY 18
+p CURSOR 19
+p GND 1
+t PLCC44
+g 1
+p LPSTB 3
+p E 25
+p R/\W\ 24
+p \CS\ 27
+p RS 26
+p DS0 37
+p DS1 36
+p DS2 35
+p DS3 34
+p DS4 33
+p DS5 32
+p DS6 31
+p DS7 30
+p CCLK 23
+p \RES\ 2
+p VCC 22
+p CC0/MA0 4
+p CC1/MA1 5
+p CC2/MA2 7
+p CC3/MA3 8
+p CC4/MA4 9
+p CC5/MA5 10
+p CC6/MA6 11
+p CC7/MA7 12
+p CR0/MA8 13
+p CR1/MA9 14
+p CR2/MA10 15
+p CR3/MA11 16
+p CR4/MA12 18
+p CR5/MA13 19
+p RA0 42
+p RA1 41
+p RA2 40
+p RA3 39
+p RA4/STB 38
+p HSYNC 43
+p VSYNC 44
+p DISPLAY 20
+p CURSOR 21
+p GND 1
+*package 2793/7
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p ENP 1
+p \MR\ 19
+p \WE\ 2
+p \CS\ 3
+p \RE\ 4
+p A0 5
+p A1 6
+p \5\/8 17
+p RPW 18
+p \TEST\ 22
+p \ENMF\ 25
+p VCO 26
+p \RAWREAD\ 27
+p READY 32
+p WPW 33
+p \TR00\ 34
+p \IP\ 35
+p \WPRT\ 36
+p CLK 24
+p \DDEN\ 37
+p HLT 40
+p VCC 21
+p VSS 20
+p DAL0 7
+p DAL1 8
+p DAL2 9
+p DAL3 10
+p DAL4 11
+p DAL5 12
+p DAL6 13
+p DAL7 14
+p DRQ 38
+p INTRQ 39
+p STEP 15
+p DIRC 16
+p PUMP 23
+p HLD 28
+p TG43 29
+p WG 30
+p WD 31
+*package VL2010-90PC b
+@types 1
+g 1 
+@pinout
+t DIP64XX
+g 1
+p X0 7
+p X1 6
+p X2 5
+p X3 4
+p X4 3
+p X5 2
+p X6 1
+p X7 64
+p X8 63
+p X9 62
+p X10 61
+p X11 60
+p X12 59
+p X13 58
+p X14 57
+p X15 56
+p CLKX 51
+p CLKY 50
+p CLKP 44
+p ACC 52
+p SUB 53
+p RND 54
+p TC 48
+p \TSX\ 47
+p \TSM\ 45
+p \TSL\ 55
+p PREL 46
+p GND 16
+p VCC 49
+p Y0,P0 8
+p Y1,P1 9
+p Y2,P2 10
+p Y3,P3 11
+p Y4,P4 12
+p Y5,P5 13
+p Y6,P6 14
+p Y7,P7 15
+p Y8,P8 17
+p Y9,P9 18
+p Y10,P10 19
+p Y11,P11 20
+p Y12,P12 21
+p Y13,P13 22
+p Y14,P14 23
+p Y15,P15 24
+p P16 25
+p P17 26
+p P18 27
+p P19 28
+p P20 29
+p P21 30
+p P22 31
+p P23 32
+p P24 33
+p P25 34
+p P26 35
+p P27 36
+p P28 37
+p P29 38
+p P30 39
+p P31 40
+p P32 41
+p P33 42
+p P34 43
+*package VL16C450-CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p -CS2 14
+p XTAL1 16
+p XTAL2 17
+p -DOSTR 18
+p DOSTR 19
+p -DISTR 21
+p DISTR 22
+p -ADS 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p -CTS 36
+p -DSR 37
+p -DCD 38
+p -RI 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p -BAUDOUT 15
+p DDIS 23
+p CSOUT 24
+p INTRPT 30
+p -OUT2 31
+p -RTS 32
+p -DTR 33
+p -OUT1 34
+*package VL82C50 b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p \CS2\ 14
+p XTAL1 16
+p XTAL2 17
+p \DOSTR\ 18
+p DOSTR 19
+p \DISTR\ 21
+p DISTR 22
+p \ADS\ 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p \CTS\ 36
+p \DSR\ 37
+p \DCD\/\RLSD\ 38
+p \RI\ 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p \BAUDOUT\ 15
+p DDIS 23
+p CSOUT 24
+p INTRPT 30
+p \OUT2\ 31
+p \RTS\ 32
+p \DTR\ 33
+p \OUT1\ 34
+*package VL82C50-CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p \CS2\ 14
+p XTAL1 16
+p XTAL2 17
+p \DOSTR\ 18
+p DOSTR 19
+p \DISTR\ 21
+p DISTR 22
+p \ADS\ 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p \CTS\ 36
+p \DSR\ 37
+p \DCD\/\RLSD\ 38
+p \RI\ 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p \BAUDOUT\ 15
+p DDIS 23
+p CSOUT 24
+p INTRPT 30
+p \OUT2\ 31
+p \RTS\ 32
+p \DTR\ 33
+p \OUT1\ 34
+*package VL82C50A b
+@types 1
+g 1 
+@pinout
+t DIP40X,CDIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p \CS2\ 14
+p XTAL1 16
+p XTAL2 17
+p \DOSTR\ 18
+p DOSTR 19
+p \DISTR\ 21
+p DISTR 22
+p \ADS\ 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p \CTS\ 36
+p \DSR\ 37
+p \DCD\ 38
+p \RI\ 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p \BAUDOUT\ 15
+p DDIS 23
+p CSOUT 24
+p INTRPT 30
+p \OUT2\ 31
+p \RTS\ 32
+p \DTR\ 33
+p \OUT1\ 34
+*package VL82C50A-CC b
+@types 1
+g 1 
+@pinout
+t CDIP40X
+g 1
+p RCLK 9
+p SIN 10
+p CS0 12
+p CS1 13
+p \CS2\ 14
+p XTAL1 16
+p XTAL2 17
+p \DOSTR\ 18
+p DOSTR 19
+p \DISTR\ 21
+p DISTR 22
+p \ADS\ 25
+p A0 28
+p A2 26
+p A1 27
+p MR 35
+p \CTS\ 36
+p \DSR\ 37
+p \DCD\ 38
+p \RI\ 39
+p VCC 40
+p VSS 20
+p D0 1
+p D1 2
+p D2 3
+p D3 4
+p D4 5
+p D5 6
+p D6 7
+p D7 8
+p SOUT 11
+p \BAUDOUT\ 15
+p DDIS 23
+p CSOUT 24
+p INTRPT 30
+p \OUT2\ 31
+p \RTS\ 32
+p \DTR\ 33
+p \OUT1\ 34

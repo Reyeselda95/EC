@@ -1,0 +1,307 @@
+*version 6.3 783671079
+u 236
+XC4000E 8173708
+U? 9
+@libraries
+XC4000E [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC4000E
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 4405 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 237 IF_OUT 770 340 h
+a 0 s 3 0 20 8 hln 50 LABEL=O[7:0]
+port 238 IF_IN 80 630 h
+a 0 s 3 0 10 8 hln 50 LABEL=I[7:0]
+@parts
+part 15 OBUF 390 380 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U1
+a 0 sp 11 0 30 14 hlt 100 PART=OBUF
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 16 OBUF 390 410 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U2
+a 0 sp 11 0 30 14 hlt 100 PART=OBUF
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 17 OBUF 390 440 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U3
+a 0 sp 11 0 30 14 hlt 100 PART=OBUF
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 18 OBUF 390 470 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U4
+a 0 sp 11 0 30 14 hlt 100 PART=OBUF
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 19 OBUF 390 590 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U5
+a 0 sp 11 0 30 14 hlt 100 PART=OBUF
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 20 OBUF 390 560 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U6
+a 0 sp 11 0 30 14 hlt 100 PART=OBUF
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 21 OBUF 390 530 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U7
+a 0 sp 11 0 30 14 hlt 100 PART=OBUF
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 22 OBUF 390 500 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U8
+a 0 sp 11 0 30 14 hlt 100 PART=OBUF
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+@conn
+b 32
+s 660 340 770 340 23
+a 0 s 3 0 700 330 hln 100 LABEL=O[7:0]
+s 660 380 660 340 24
+s 660 410 660 380 25
+s 660 440 660 410 26
+s 660 470 660 440 27
+s 660 500 660 470 28
+s 660 530 660 500 29
+s 660 560 660 530 30
+s 660 590 660 560 31
+w 34
+s 460 380 660 380 33
+a 0 s 3 0 620 380 hln 100 LABEL=O[0]
+s 660 380 660 380 35
+w 43
+s 460 410 660 410 42
+a 0 s 3 0 620 410 hln 100 LABEL=O[1]
+s 660 410 660 410 44
+w 52
+s 460 440 660 440 51
+a 0 s 3 0 620 440 hln 100 LABEL=O[2]
+s 660 440 660 440 53
+w 61
+s 460 470 660 470 60
+a 0 s 3 0 620 470 hln 100 LABEL=O[3]
+s 660 470 660 470 62
+w 70
+s 460 500 660 500 69
+a 0 s 3 0 620 500 hln 100 LABEL=O[4]
+s 660 500 660 500 71
+w 79
+s 460 530 660 530 78
+a 0 s 3 0 620 530 hln 100 LABEL=O[5]
+s 660 530 660 530 80
+w 88
+s 460 560 660 560 87
+a 0 s 3 0 620 560 hln 100 LABEL=O[6]
+s 660 560 660 560 89
+w 97
+s 460 590 660 590 96
+a 0 s 3 0 620 590 hln 100 LABEL=O[7]
+s 660 590 660 590 98
+b 114
+s 80 630 190 630 105
+a 0 s 3 0 80 620 hln 100 LABEL=I[7:0]
+s 190 630 190 590 113
+s 190 410 190 380 106
+s 190 440 190 410 107
+s 190 470 190 440 108
+s 190 500 190 470 109
+s 190 530 190 500 110
+s 190 560 190 530 111
+s 190 590 190 560 112
+w 117
+s 190 380 390 380 116
+a 0 s 3 0 200 380 hln 100 LABEL=I[0]
+s 190 380 190 380 118
+w 126
+s 190 410 390 410 125
+a 0 s 3 0 200 410 hln 100 LABEL=I[1]
+s 190 410 190 410 127
+w 135
+s 190 440 390 440 134
+a 0 s 3 0 200 440 hln 100 LABEL=I[2]
+s 190 440 190 440 136
+w 144
+s 190 470 390 470 143
+a 0 s 3 0 200 470 hln 100 LABEL=I[3]
+s 190 470 190 470 145
+w 153
+s 190 500 390 500 152
+a 0 s 3 0 200 500 hln 100 LABEL=I[4]
+s 190 500 190 500 154
+w 162
+s 190 530 390 530 161
+a 0 s 3 0 200 530 hln 100 LABEL=I[5]
+s 190 530 190 530 163
+w 171
+s 190 560 390 560 170
+a 0 s 3 0 200 560 hln 100 LABEL=I[6]
+s 190 560 190 560 172
+w 180
+s 190 590 390 590 179
+a 0 s 3 0 200 590 hln 100 LABEL=I[7]
+s 190 590 190 590 181
+@junction
+j 460 380
++ p 15 O
++ w 34
+j 460 410
++ p 16 O
++ w 43
+j 460 440
++ p 17 O
++ w 52
+j 460 470
++ p 18 O
++ w 61
+j 460 500
++ p 22 O
++ w 70
+j 460 530
++ p 21 O
++ w 79
+j 460 560
++ p 20 O
++ w 88
+j 460 590
++ p 19 O
++ w 97
+j 390 380
++ p 15 I
++ w 117
+j 390 410
++ p 16 I
++ w 126
+j 390 440
++ p 17 I
++ w 135
+j 390 470
++ p 18 I
++ w 144
+j 390 500
++ p 22 I
++ w 153
+j 390 530
++ p 21 I
++ w 162
+j 390 560
++ p 20 I
++ w 171
+j 390 590
++ p 19 I
++ w 180
+j 660 380
++ b 32
+O[0]
++ w 34
+j 660 410
++ b 32
+O[1]
++ w 43
+j 660 440
++ b 32
+O[2]
++ w 52
+j 660 470
++ b 32
+O[3]
++ w 61
+j 660 500
++ b 32
+O[4]
++ w 70
+j 660 530
++ b 32
+O[5]
++ w 79
+j 660 560
++ b 32
+O[6]
++ w 88
+j 660 590
++ b 32
+O[7]
++ w 97
+j 190 380
++ b 114
+I[0]
++ w 117
+j 190 410
++ b 114
+I[1]
++ w 126
+j 190 440
++ b 114
+I[2]
++ w 135
+j 190 470
++ b 114
+I[3]
++ w 144
+j 190 500
++ b 114
+I[4]
++ w 153
+j 190 530
++ b 114
+I[5]
++ w 162
+j 190 560
++ b 114
+I[6]
++ w 171
+j 190 590
++ b 114
+I[7]
++ w 180
+j 770 340
++ S 237
+O[7]
+O[6]
+O[5]
+O[4]
+O[3]
+O[2]
+O[1]
+O[0]
++ b 32
+O[7]
+O[6]
+O[5]
+O[4]
+O[3]
+O[2]
+O[1]
+O[0]
+j 80 630
++ S 238
+I[7]
+I[6]
+I[5]
+I[4]
+I[3]
+I[2]
+I[1]
+I[0]
++ b 114
+I[7]
+I[6]
+I[5]
+I[4]
+I[3]
+I[2]
+I[1]
+I[0]
+@attributes
+@text
+s 5 700 1020 hrn 100 8-BIT OUTPUT BUFFER
+s 5 700 1070 hln 100 A
+s 5 710 1050 hrn 100 1
+s 5 630 1050 hrn 100 25TH JANUARY 1995
+s 5 770 1000 hrn 100 XC4000E FAMILY OBUF8  MACRO
+s 5 30 1070 hln 100 COPYRIGHT (C) 1995, XILINX INC.
+s 5 30 1060 hln 100 DRAWN BY KS

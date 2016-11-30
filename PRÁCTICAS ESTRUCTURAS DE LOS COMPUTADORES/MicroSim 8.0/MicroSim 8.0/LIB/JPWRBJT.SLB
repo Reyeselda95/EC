@@ -1,0 +1,5497 @@
+*version 8.0 2607853761
+@index
+symloc Q2SA1009:qpnp 0 213
+symloc Q2SA1156:qpnp 213 213
+symloc Q2SA1160:qpnp 426 213
+symloc Q2SA1201:qpnp 639 213
+symloc Q2SA1202:qpnp 852 213
+symloc Q2SA1213:qpnp 1065 213
+symloc Q2SA1216:qpnp 1278 213
+symloc Q2SA1282:qpnp 1491 212
+symloc Q2SA1283:qpnp 1703 210
+symloc Q2SA1284:qpnp 1913 210
+symloc Q2SA1296:qpnp 2123 213
+symloc Q2SA1297:qpnp 2336 213
+symloc Q2SA1298:qpnp 2549 213
+symloc Q2SA1300:qpnp 2762 213
+symloc Q2SA1314:qpnp 2975 213
+symloc Q2SA1315:qpnp 3188 213
+symloc Q2SA1363:qpnp 3401 210
+symloc Q2SA1364:qpnp 3611 210
+symloc Q2SA1365:qpnp 3821 210
+symloc Q2SA1366:qpnp 4031 210
+symloc Q2SA1369:qpnp 4241 210
+symloc Q2SA1394:qpnp 4451 213
+symloc Q2SA1395:qpnp 4664 213
+symloc Q2SA1396:qpnp 4877 213
+symloc Q2SA1398:qpnp 5090 210
+symloc Q2SA1399:qpnp 5300 210
+symloc Q2SA1409:qpnp 5510 210
+symloc Q2SA1425:qpnp 5720 213
+symloc Q2SA1426:qpnp 5933 213
+symloc Q2SA1429:qpnp 6146 213
+symloc Q2SA1430:qpnp 6359 213
+symloc Q2SA1441:qpnp 6572 213
+symloc Q2SA1442:qpnp 6785 213
+symloc Q2SA1443:qpnp 6998 213
+symloc Q2SA1444:qpnp 7211 213
+symloc Q2SA1486:qpnp 7424 213
+symloc Q2SA1533:qpnp 7637 213
+symloc Q2SA1534:qpnp 7850 213
+symloc Q2SA1546:qpnp 8063 213
+symloc Q2SA1680:qpnp 8276 213
+symloc Q2SA1681:qpnp 8489 213
+symloc Q2SA1755:qpnp 8702 213
+symloc Q2SA1762:qpnp 8915 213
+symloc Q2SA683:qpnp 9128 209
+symloc Q2SA684:qpnp 9337 209
+symloc Q2SA879:qpnp 9546 209
+symloc Q2SA950:qpnp 9755 209
+symloc Q2SA965:qpnp 9964 209
+symloc Q2SA966:qpnp 10173 209
+symloc Q2SB1000:qpnp 10382 212
+symloc Q2SB1001:qpnp 10594 212
+symloc Q2SB1002:qpnp 10806 212
+symloc Q2SB1025:qpnp 11018 212
+symloc Q2SB1026:qpnp 11230 212
+symloc Q2SB1027:qpnp 11442 212
+symloc Q2SB1028:qpnp 11654 212
+symloc Q2SB1050:qpnp 11866 212
+symloc Q2SB1094:qpnp 12078 212
+symloc Q2SB1095:qpnp 12290 212
+symloc Q2SB1096:qpnp 12502 212
+symloc Q2SB1151:qpnp 12714 212
+symloc Q2SB1209:qpnp 12926 212
+symloc Q2SB1217:qpnp 13138 212
+symloc Q2SB1221:qpnp 13350 212
+symloc Q2SB1244:qpnp 13562 212
+symloc Q2SB1245:qpnp 13774 212
+symloc Q2SB1288:qpnp 13986 212
+symloc Q2SB1314:qpnp 14198 209
+symloc Q2SB1319:qpnp 14407 212
+symloc Q2SB1376:qpnp 14619 212
+symloc Q2SB1377:qpnp 14831 212
+symloc Q2SB1378:qpnp 15043 212
+symloc Q2SB1398:qpnp 15255 212
+symloc Q2SB1433:qpnp 15467 212
+symloc Q2SB1437:qpnp 15679 212
+symloc Q2SB1456:qpnp 15891 212
+symloc Q2SB1459:qpnp 16103 212
+symloc Q2SB1473:qpnp 16315 212
+symloc Q2SB1488:qpnp 16527 212
+symloc Q2SB1505:qpnp 16739 212
+symloc Q2SB1518:qpnp 16951 212
+symloc Q2SB536:qpnp 17163 205
+symloc Q2SB537:qpnp 17368 205
+symloc Q2SB562:qpnp 17573 208
+symloc Q2SB605:qpnp 17781 205
+symloc Q2SB646:qpnp 17986 208
+symloc Q2SB646A:qpnp 18194 212
+symloc Q2SB647:qpnp 18406 208
+symloc Q2SB647A:qpnp 18614 212
+symloc Q2SB731:qpnp 18826 208
+symloc Q2SB738:qpnp 19034 208
+symloc Q2SB739:qpnp 19242 208
+symloc Q2SB740:qpnp 19450 208
+symloc Q2SB744:qpnp 19658 208
+symloc Q2SB744A:qpnp 19866 212
+symloc Q2SB772:qpnp 20078 208
+symloc Q2SB798:qpnp 20286 205
+symloc Q2SB799:qpnp 20491 205
+symloc Q2SB805:qpnp 20696 205
+symloc Q2SB806:qpnp 20901 205
+symloc Q2SB956:qpnp 21106 208
+symloc Q2SC1317:qnpn 21314 213
+symloc Q2SC1318:qnpn 21527 213
+symloc Q2SC1383:qnpn 21740 213
+symloc Q2SC1384:qnpn 21953 213
+symloc Q2SC1509:qnpn 22166 213
+symloc Q2SC2120:qnpn 22379 213
+symloc Q2SC2235:qnpn 22592 213
+symloc Q2SC2236:qnpn 22805 213
+symloc Q2SC2333:qnpn 23018 213
+symloc Q2SC2335:qnpn 23231 213
+symloc Q2SC2500:qnpn 23444 213
+symloc Q2SC2518:qnpn 23657 213
+symloc Q2SC2603:qnpn 23870 210
+symloc Q2SC2655:qnpn 24080 213
+symloc Q2SC2703:qnpn 24293 213
+symloc Q2SC2749:qnpn 24506 213
+symloc Q2SC2750:qnpn 24719 213
+symloc Q2SC2751:qnpn 24932 213
+symloc Q2SC2873:qnpn 25145 213
+symloc Q2SC2881:qnpn 25358 213
+symloc Q2SC2882:qnpn 25571 213
+symloc Q2SC2908:qnpn 25784 213
+symloc Q2SC2922:qnpn 25997 213
+symloc Q2SC2982:qnpn 26210 213
+symloc Q2SC2987:qnpn 26423 210
+symloc Q2SC3242:qnpn 26633 210
+symloc Q2SC3242A:qnpn 26843 209
+symloc Q2SC3243:qnpn 27052 210
+symloc Q2SC3244:qnpn 27262 210
+symloc Q2SC3265:qnpn 27472 213
+symloc Q2SC3266:qnpn 27685 213
+symloc Q2SC3267:qnpn 27898 213
+symloc Q2SC3279:qnpn 28111 213
+symloc Q2SC3328:qnpn 28324 213
+symloc Q2SC3434:qnpn 28537 213
+symloc Q2SC3435:qnpn 28750 213
+symloc Q2SC3440:qnpn 28963 210
+symloc Q2SC3441:qnpn 29173 210
+symloc Q2SC3443:qnpn 29383 210
+symloc Q2SC3444:qnpn 29593 210
+symloc Q2SC3531:qnpn 29803 213
+symloc Q2SC3533:qnpn 30016 213
+symloc Q2SC3534:qnpn 30229 213
+symloc Q2SC3535:qnpn 30442 213
+symloc Q2SC3536:qnpn 30655 213
+symloc Q2SC3566:qnpn 30868 213
+symloc Q2SC3567:qnpn 31081 213
+symloc Q2SC3568:qnpn 31294 213
+symloc Q2SC3569:qnpn 31507 213
+symloc Q2SC3570:qnpn 31720 213
+symloc Q2SC3571:qnpn 31933 213
+symloc Q2SC3572:qnpn 32146 213
+symloc Q2SC3580:qnpn 32359 210
+symloc Q2SC3581:qnpn 32569 210
+symloc Q2SC3665:qnpn 32779 213
+symloc Q2SC3666:qnpn 32992 213
+symloc Q2SC3668:qnpn 33205 213
+symloc Q2SC3669:qnpn 33418 213
+symloc Q2SC3670:qnpn 33631 213
+symloc Q2SC3671:qnpn 33844 213
+symloc Q2SC3691:qnpn 34057 213
+symloc Q2SC3692:qnpn 34270 213
+symloc Q2SC3694:qnpn 34483 213
+symloc Q2SC3840:qnpn 34696 213
+symloc Q2SC4001:qnpn 34909 213
+symloc Q2SC4408:qnpn 35122 213
+symloc Q2SC4409:qnpn 35335 213
+symloc Q2SC4606:qnpn 35548 213
+symloc Q2SC730:qnpn 35761 206
+symloc Q2SD1000:qnpn 35967 209
+symloc Q2SD1051:qnpn 36176 212
+symloc Q2SD1119:qnpn 36388 212
+symloc Q2SD1447:qnpn 36600 209
+symloc Q2SD1585:qnpn 36809 212
+symloc Q2SD1586:qnpn 37021 212
+symloc Q2SD1587:qnpn 37233 212
+symloc Q2SD1691:qnpn 37445 212
+symloc Q2SD1694:qnpn 37657 212
+symloc Q2SD1779:qnpn 37869 209
+symloc Q2SD1818:qnpn 38078 212
+symloc Q2SD1934:qnpn 38290 212
+symloc Q2SD1992:qnpn 38502 212
+symloc Q2SD1994:qnpn 38714 212
+symloc Q2SD2071:qnpn 38926 212
+symloc Q2SD2210:qnpn 39138 212
+symloc Q2SD2225:qnpn 39350 212
+symloc Q2SD2249:qnpn 39562 212
+symloc Q2SD2259:qnpn 39774 212
+symloc Q2SD381:qnpn 39986 205
+symloc Q2SD382:qnpn 40191 205
+symloc Q2SD414:qnpn 40396 205
+symloc Q2SD415:qnpn 40601 205
+symloc Q2SD471:qnpn 40806 205
+symloc Q2SD809:qnpn 41011 208
+symloc Q2SD874:qnpn 41219 208
+symloc Q2SD874A:qnpn 41427 212
+symloc Q2SD875:qnpn 41639 208
+symloc Q2SD882:qnpn 41847 208
+symloc Q2SD973:qnpn 42055 208
+symloc Q2SD973A:qnpn 42263 212
+symloc Q2SD999:qnpn 42475 205
+symloc qnpn 42680 416 b
+symloc qpnp 43096 416 b
+symloc 2SA1020 43512 639
+symloc 2SA1145 44151 639
+symloc 2SA1241 44790 639
+symloc 2SA1242 45429 639
+symloc 2SA1244 46068 639
+symloc 2SA1302 46707 639
+symloc 2SA1304 47346 639
+symloc 2SA1321 47985 639
+symloc 2SA1327 48624 639
+symloc 2SA1356 49263 639
+symloc 2SA1357 49902 639
+symloc 2SA1358 50541 639
+symloc 2SA1359 51180 639
+symloc 2SA1360 51819 639
+symloc 2SA1382 52458 639
+symloc 2SA1387 53097 639
+symloc 2SA1388 53736 639
+symloc 2SA1794 54375 639
+symloc 2SA1803 55014 639
+symloc 2SA1804 55653 639
+symloc 2SA1805 56292 639
+symloc 2SA1891 56931 639
+symloc 2SA940 57570 636
+symloc 2SA949 58206 636
+symloc 2SC2073 58842 639
+symloc 2SC2233 59481 639
+symloc 2SC2482 60120 639
+symloc 2SC2555 60759 639
+symloc 2SC2983 61398 639
+symloc 2SC3072 62037 639
+symloc 2SC3074 62676 639
+symloc 2SC3076 63315 639
+symloc 2SC3180 63954 639
+symloc 2SC3182 64593 639
+symloc 2SC3258 65232 639
+symloc 2SC3280 65871 639
+symloc 2SC3281 66510 639
+symloc 2SC3299 67149 639
+symloc 2SC3303 67788 639
+symloc 2SC3306 68427 639
+symloc 2SC3309 69066 639
+symloc 2SC3310 69705 639
+symloc 2SC3334 70344 639
+symloc 2SC3345 70983 639
+symloc 2SC3346 71622 639
+symloc 2SC3376 72261 639
+symloc 2SC3405 72900 639
+symloc 2SC3419 73539 639
+symloc 2SC3420 74178 639
+symloc 2SC3421 74817 639
+symloc 2SC3422 75456 639
+symloc 2SC3540 76095 639
+symloc 2SC3559 76734 639
+symloc 2SC3613 77373 639
+symloc 2SC3619 78012 639
+symloc 2SC3620 78651 639
+symloc 2SC3621 79290 639
+symloc 2SC3626 79929 639
+symloc 2SC3627 80568 639
+symloc 2SC3672 81207 639
+symloc 2SC3709 81846 639
+symloc 2SC3710 82485 639
+symloc 2SC3783 83124 639
+symloc 2SC3805 83763 639
+symloc 2SC3907 84402 639
+symloc 2SC3963 85041 639
+symloc 2SC4200 85680 639
+symloc 2SC4288A 86319 642
+symloc 2SC4479 86961 639
+symloc 2SC4532 87600 639
+symloc 2SC4542 88239 639
+symloc 2SC4604 88878 639
+symloc 2SC4605 89517 639
+symloc 2SC4608 90156 639
+symloc 2SC4678 90795 639
+symloc 2SC4679 91434 639
+symloc 2SC4681 92073 639
+symloc 2SC4682 92712 639
+symloc 2SC4684 93351 639
+symloc 2SC4685 93990 639
+symloc 2SC4689 94629 639
+symloc 2SC4688 95268 639
+symloc 2SC4690 95907 639
+symloc 2SC4707 96546 639
+symloc 2SC4754 97185 639
+symloc 2SC4757 97824 639
+symloc 2SC4758 98463 639
+symloc 2SC4759 99102 639
+symloc 2SC4760 99741 639
+symloc 2SC4761 100380 639
+symloc 2SC4781 101019 639
+symloc 2SC4793 101658 639
+symloc 2SD1052A 102297 642
+symloc 2SD2352 102939 639
+symloc 2SD2353 103578 639
+symloc 2SD2406 104217 639
+symloc 2SD553 104856 636
+symloc 2SD717 105492 636
+symloc 2SD843 106128 636
+symloc 2SC2229 106764 639
+symloc 2SC2553 107403 639
+symloc 2SC2792 108042 639
+symloc 2SC3181N 108681 642
+symloc 2SC3657 109323 639
+symloc 2SC4544 109962 639
+symloc 2SC4683 110601 639
+symloc 2SD1187 111240 639
+symloc 2SD880 111879 636
+symloc 2SA1451 112515 639
+symloc 2SA1452 113154 639
+symloc 2SA1516 113793 639
+symloc 2SA1553 114432 639
+symloc copyright 115071 560 b
+*symbol Q2SA1009 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1009
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1009
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1009
+*symbol Q2SA1156 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1156
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1156
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1156
+*symbol Q2SA1160 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1160
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1160
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1160
+*symbol Q2SA1201 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1201
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1201
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1201
+*symbol Q2SA1202 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1202
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1202
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1202
+*symbol Q2SA1213 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1213
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1213
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1213
+*symbol Q2SA1216 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1216
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1216
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1216
+*symbol Q2SA1282 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 -25 40 hln 100 PART=Q2SA1282
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1282
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1282
+*symbol Q2SA1283 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SA1283
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1283
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1283
+*symbol Q2SA1284 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SA1284
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1284
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1284
+*symbol Q2SA1296 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1296
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1296
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1296
+*symbol Q2SA1297 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1297
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1297
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1297
+*symbol Q2SA1298 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1298
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1298
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1298
+*symbol Q2SA1300 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1300
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1300
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1300
+*symbol Q2SA1314 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1314
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1314
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1314
+*symbol Q2SA1315 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1315
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1315
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1315
+*symbol Q2SA1363 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SA1363
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1363
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1363
+*symbol Q2SA1364 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SA1364
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1364
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1364
+*symbol Q2SA1365 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SA1365
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1365
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1365
+*symbol Q2SA1366 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SA1366
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1366
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1366
+*symbol Q2SA1369 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SA1369
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1369
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1369
+*symbol Q2SA1394 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1394
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1394
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1394
+*symbol Q2SA1395 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1395
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1395
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1395
+*symbol Q2SA1396 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1396
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1396
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1396
+*symbol Q2SA1398 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SA1398
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1398
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1398
+*symbol Q2SA1399 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SA1399
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1399
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1399
+*symbol Q2SA1409 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SA1409
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1409
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SA1409
+*symbol Q2SA1425 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1425
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1425
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1425
+*symbol Q2SA1426 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1426
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1426
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1426
+*symbol Q2SA1429 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1429
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1429
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1429
+*symbol Q2SA1430 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1430
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1430
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1430
+*symbol Q2SA1441 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1441
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1441
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1441
+*symbol Q2SA1442 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1442
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1442
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1442
+*symbol Q2SA1443 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1443
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1443
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1443
+*symbol Q2SA1444 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1444
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1444
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1444
+*symbol Q2SA1486 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1486
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1486
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1486
+*symbol Q2SA1533 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1533
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1533
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1533
+*symbol Q2SA1534 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1534
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1534
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1534
+*symbol Q2SA1546 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1546
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1546
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1546
+*symbol Q2SA1680 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1680
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1680
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1680
+*symbol Q2SA1681 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1681
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1681
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1681
+*symbol Q2SA1755 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1755
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1755
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1755
+*symbol Q2SA1762 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA1762
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA1762
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA1762
+*symbol Q2SA683 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA683
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA683
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA683
+*symbol Q2SA684 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA684
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA684
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA684
+*symbol Q2SA879 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA879
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA879
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA879
+*symbol Q2SA950 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA950
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA950
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA950
+*symbol Q2SA965 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA965
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA965
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA965
+*symbol Q2SA966 ako qpnp
+d PNP High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SA966
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SA966
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SA966
+*symbol Q2SB1000 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1000
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1000
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1000
+*symbol Q2SB1001 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1001
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1001
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1001
+*symbol Q2SB1002 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1002
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1002
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1002
+*symbol Q2SB1025 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1025
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1025
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1025
+*symbol Q2SB1026 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1026
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1026
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1026
+*symbol Q2SB1027 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1027
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1027
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1027
+*symbol Q2SB1028 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1028
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1028
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1028
+*symbol Q2SB1050 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1050
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1050
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1050
+*symbol Q2SB1094 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1094
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1094
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1094
+*symbol Q2SB1095 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1095
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1095
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1095
+*symbol Q2SB1096 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1096
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1096
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1096
+*symbol Q2SB1151 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1151
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1151
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1151
+*symbol Q2SB1209 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1209
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1209
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1209
+*symbol Q2SB1217 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1217
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1217
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1217
+*symbol Q2SB1221 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1221
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1221
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1221
+*symbol Q2SB1244 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1244
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1244
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1244
+*symbol Q2SB1245 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1245
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1245
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1245
+*symbol Q2SB1288 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1288
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1288
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1288
+*symbol Q2SB1314 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SB1314
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SB1314
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SB1314
+*symbol Q2SB1319 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1319
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1319
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1319
+*symbol Q2SB1376 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1376
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1376
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1376
+*symbol Q2SB1377 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1377
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1377
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1377
+*symbol Q2SB1378 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1378
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1378
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1378
+*symbol Q2SB1398 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1398
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1398
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1398
+*symbol Q2SB1433 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1433
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1433
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1433
+*symbol Q2SB1437 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1437
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1437
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1437
+*symbol Q2SB1456 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1456
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1456
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1456
+*symbol Q2SB1459 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1459
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1459
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1459
+*symbol Q2SB1473 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1473
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1473
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1473
+*symbol Q2SB1488 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1488
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1488
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1488
+*symbol Q2SB1505 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1505
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1505
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1505
+*symbol Q2SB1518 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB1518
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB1518
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB1518
+*symbol Q2SB536 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SB536
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SB536
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SB536
+*symbol Q2SB537 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SB537
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SB537
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SB537
+*symbol Q2SB562 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB562
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB562
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB562
+*symbol Q2SB605 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SB605
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SB605
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SB605
+*symbol Q2SB646 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB646
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB646
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB646
+*symbol Q2SB646A ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB646A
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB646A
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB646A
+*symbol Q2SB647 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB647
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB647
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB647
+*symbol Q2SB647A ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB647A
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB647A
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB647A
+*symbol Q2SB731 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB731
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB731
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB731
+*symbol Q2SB738 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB738
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB738
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB738
+*symbol Q2SB739 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB739
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB739
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB739
+*symbol Q2SB740 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB740
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB740
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB740
+*symbol Q2SB744 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB744
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB744
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB744
+*symbol Q2SB744A ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB744A
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB744A
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB744A
+*symbol Q2SB772 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB772
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB772
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB772
+*symbol Q2SB798 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SB798
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SB798
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SB798
+*symbol Q2SB799 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SB799
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SB799
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SB799
+*symbol Q2SB805 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SB805
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SB805
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SB805
+*symbol Q2SB806 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SB806
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SB806
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SB806
+*symbol Q2SB956 ako qpnp
+d PNP Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SB956
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SB956
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SB956
+*symbol Q2SC1317 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC1317
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC1317
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC1317
+*symbol Q2SC1318 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC1318
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC1318
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC1318
+*symbol Q2SC1383 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC1383
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC1383
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC1383
+*symbol Q2SC1384 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC1384
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC1384
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC1384
+*symbol Q2SC1509 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC1509
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC1509
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC1509
+*symbol Q2SC2120 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2120
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2120
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2120
+*symbol Q2SC2235 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2235
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2235
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2235
+*symbol Q2SC2236 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2236
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2236
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2236
+*symbol Q2SC2333 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2333
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2333
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2333
+*symbol Q2SC2335 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2335
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2335
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2335
+*symbol Q2SC2500 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2500
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2500
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2500
+*symbol Q2SC2518 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2518
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2518
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2518
+*symbol Q2SC2603 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC2603
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC2603
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC2603
+*symbol Q2SC2655 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2655
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2655
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2655
+*symbol Q2SC2703 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2703
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2703
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2703
+*symbol Q2SC2749 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2749
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2749
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2749
+*symbol Q2SC2750 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2750
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2750
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2750
+*symbol Q2SC2751 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2751
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2751
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2751
+*symbol Q2SC2873 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2873
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2873
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2873
+*symbol Q2SC2881 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2881
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2881
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2881
+*symbol Q2SC2882 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2882
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2882
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2882
+*symbol Q2SC2908 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2908
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2908
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2908
+*symbol Q2SC2922 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2922
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2922
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2922
+*symbol Q2SC2982 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC2982
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC2982
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC2982
+*symbol Q2SC2987 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC2987
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC2987
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC2987
+*symbol Q2SC3242 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC3242
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3242
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC3242
+*symbol Q2SC3242A ako qnpn
+d NPN High Frequency Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 22 24 hln 100 PART=Q2SC3242A
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3242A
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC3242A
+*symbol Q2SC3243 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC3243
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3243
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC3243
+*symbol Q2SC3244 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC3244
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3244
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC3244
+*symbol Q2SC3265 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3265
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3265
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3265
+*symbol Q2SC3266 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3266
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3266
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3266
+*symbol Q2SC3267 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3267
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3267
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3267
+*symbol Q2SC3279 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3279
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3279
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3279
+*symbol Q2SC3328 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3328
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3328
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3328
+*symbol Q2SC3434 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3434
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3434
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3434
+*symbol Q2SC3435 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3435
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3435
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3435
+*symbol Q2SC3440 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC3440
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3440
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC3440
+*symbol Q2SC3441 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC3441
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3441
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC3441
+*symbol Q2SC3443 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC3443
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3443
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC3443
+*symbol Q2SC3444 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC3444
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3444
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC3444
+*symbol Q2SC3531 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3531
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3531
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3531
+*symbol Q2SC3533 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3533
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3533
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3533
+*symbol Q2SC3534 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3534
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3534
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3534
+*symbol Q2SC3535 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3535
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3535
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3535
+*symbol Q2SC3536 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3536
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3536
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3536
+*symbol Q2SC3566 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3566
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3566
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3566
+*symbol Q2SC3567 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3567
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3567
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3567
+*symbol Q2SC3568 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3568
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3568
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3568
+*symbol Q2SC3569 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3569
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3569
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3569
+*symbol Q2SC3570 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3570
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3570
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3570
+*symbol Q2SC3571 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3571
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3571
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3571
+*symbol Q2SC3572 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3572
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3572
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3572
+*symbol Q2SC3580 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC3580
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3580
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC3580
+*symbol Q2SC3581 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC3581
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3581
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC3581
+*symbol Q2SC3665 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3665
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3665
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3665
+*symbol Q2SC3666 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3666
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3666
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3666
+*symbol Q2SC3668 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3668
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3668
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3668
+*symbol Q2SC3669 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3669
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3669
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3669
+*symbol Q2SC3670 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3670
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3670
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3670
+*symbol Q2SC3671 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3671
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3671
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3671
+*symbol Q2SC3691 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3691
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3691
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3691
+*symbol Q2SC3692 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3692
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3692
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3692
+*symbol Q2SC3694 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3694
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3694
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3694
+*symbol Q2SC3840 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SC3840
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC3840
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC3840
+*symbol Q2SC4001 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hlb 100 PART=Q2SC4001
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC4001
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC4001
+*symbol Q2SC4408 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hlb 100 PART=Q2SC4408
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC4408
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC4408
+*symbol Q2SC4409 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hlb 100 PART=Q2SC4409
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC4409
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC4409
+*symbol Q2SC4606 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hlb 100 PART=Q2SC4606
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SC4606
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SC4606
+*symbol Q2SC730 ako qnpn
+d NPN High Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SC730
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC730
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SC730
+*symbol Q2SD1000 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SD1000
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD1000
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SD1000
+*symbol Q2SD1051 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1051
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1051
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1051
+*symbol Q2SD1119 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1119
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1119
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1119
+*symbol Q2SD1447 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SD1447
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD1447
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SD1447
+*symbol Q2SD1585 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1585
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1585
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1585
+*symbol Q2SD1586 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1586
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1586
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1586
+*symbol Q2SD1587 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1587
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1587
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1587
+*symbol Q2SD1691 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1691
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1691
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1691
+*symbol Q2SD1694 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1694
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1694
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1694
+*symbol Q2SD1779 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SD1779
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD1779
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SD1779
+*symbol Q2SD1818 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1818
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1818
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1818
+*symbol Q2SD1934 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1934
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1934
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1934
+*symbol Q2SD1992 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1992
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1992
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1992
+*symbol Q2SD1994 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD1994
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD1994
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD1994
+*symbol Q2SD2071 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD2071
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD2071
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD2071
+*symbol Q2SD2210 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD2210
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD2210
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD2210
+*symbol Q2SD2225 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD2225
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD2225
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD2225
+*symbol Q2SD2249 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD2249
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD2249
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD2249
+*symbol Q2SD2259 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD2259
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD2259
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD2259
+*symbol Q2SD381 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SD381
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD381
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SD381
+*symbol Q2SD382 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SD382
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD382
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SD382
+*symbol Q2SD414 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SD414
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD414
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SD414
+*symbol Q2SD415 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SD415
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD415
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SD415
+*symbol Q2SD471 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SD471
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD471
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SD471
+*symbol Q2SD809 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD809
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD809
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD809
+*symbol Q2SD874 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD874
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD874
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD874
+*symbol Q2SD874A ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD874A
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD874A
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD874A
+*symbol Q2SD875 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD875
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD875
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD875
+*symbol Q2SD882 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD882
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD882
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD882
+*symbol Q2SD973 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD973
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD973
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD973
+*symbol Q2SD973A ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=Q2SD973A
+a 0 sp 0 0 25 40 hln 100 MODEL=Q2SD973A
+a 0 s 0 0 0 10 hlb 100 COMPONENT=2SD973A
+*symbol Q2SD999 ako qnpn
+d NPN Low Frequency Power Bipolar Transistor
+@type p
+@attributes
+a 0 sp 11 0 0 30 hln 100 PART=Q2SD999
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD999
+a 0 sp 0 0 0 0 hln 100 COMPONENT=2SD999
+*symbol qnpn b
+d npn Power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=
+a 0 sp 0 0 25 40 hln 100 MODEL=
+a 0 s 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL
+@pins
+p 0 13 22 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol qpnp b
+d pnp Power bipolar transistor
+@type p
+@attributes
+a 0 sp 11 0 25 40 hln 100 PART=
+a 0 sp 0 0 25 40 hln 100 MODEL=
+a 0 s 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL
+@pins
+p 0 13 22 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1020
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1020
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1020
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1145
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1145
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1145
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1241
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1241
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1241
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1242
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1242
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1242
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1244
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1244
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1244
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=3
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=2
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1302
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1302
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1302
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1304
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1304
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1304
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1321
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1321
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1321
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1327
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1327
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1327
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1356
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1356
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1356
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1357
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1357
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1357
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1358
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1358
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1358
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1359
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1359
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1359
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1360
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1360
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1360
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1382
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1382
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1382
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1387
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1387
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1387
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1388
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1388
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1388
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1794
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1794
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1794
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1803
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1803
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1803
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1804
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1804
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1804
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1805
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1805
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1805
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1891
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1891
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1891
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA940
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA940
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA940
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA949
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA949
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA949
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SC2073
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC2073
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC2073
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC2233
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC2233
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC2233
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC2482
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC2482
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC2482
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC2555
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC2555
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC2555
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC2983
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC2983
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC2983
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3072
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3072
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3072
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3074
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3074
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3074
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3076
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3076
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3076
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3180
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3180
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3180
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3182
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3182
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3182
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3258
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3258
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3258
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3280
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3280
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3280
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3281
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3281
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3281
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3299
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3299
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3299
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3303
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3303
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3303
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3306
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3306
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3306
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3309
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3309
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3309
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3310
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3310
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3310
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3334
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3334
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3334
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3345
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3345
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3345
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3346
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3346
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3346
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3376
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3376
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3376
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3405
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3405
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3405
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3419
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3419
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3419
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3420
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3420
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3420
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3421
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3421
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3421
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3422
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3422
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3422
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3540
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3540
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3540
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3559
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3559
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3559
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3613
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3613
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3613
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3619
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3619
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3619
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3620
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3620
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3620
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3621
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3621
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3621
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3626
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3626
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3626
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3627
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3627
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3627
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3672
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3672
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3672
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3709
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3709
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3709
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3710
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3710
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3710
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3783
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3783
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3783
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3805
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3805
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3805
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3907
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3907
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3907
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3963
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3963
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3963
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4200
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4200
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4200
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4288A
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4288A
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4288A
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4479
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4479
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4479
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4532
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4532
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4532
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4542
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4542
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4542
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4604
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4604
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4604
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4605
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4605
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4605
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4608
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4608
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4608
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4678
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4678
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4678
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4679
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4679
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4679
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4681
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4681
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4681
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4682
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4682
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4682
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4684
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4684
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4684
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4685
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4685
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4685
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4689
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4689
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4689
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4688
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4688
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4688
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4690
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4690
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4690
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4707
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4707
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4707
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4754
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4754
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4754
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4757
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4757
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4757
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4758
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4758
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4758
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4759
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4759
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4759
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4760
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4760
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4760
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4761
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4761
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4761
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4781
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4781
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4781
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4793
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4793
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4793
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SD1052A
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SD1052A
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD1052A
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SD2352
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SD2352
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD2352
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SD2353
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SD2353
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD2353
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SD2406
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SD2406
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD2406
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SD553
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SD553
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD553
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SD717
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SD717
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD717
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SD843
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SD843
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD843
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC2229
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC2229
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC2229
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC2553
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC2553
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC2553
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC2792
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC2792
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC2792
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3181N
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3181N
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3181N
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC3657
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC3657
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC3657
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4544
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4544
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4544
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SC4683
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SC4683
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SC4683
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SD1187
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SD1187
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD1187
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SD880
+d TRANSISTOR, NPN
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SD880
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SD880
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol 2SA1451
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1451
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1451
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1452
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1452
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1452
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1516
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1516
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1516
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=3
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=1
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol 2SA1553
+d TRANSISTOR, PNP
+@type p
+@attributes
+a 0 sp 9 0 1 8 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2SA1553
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2SA1553
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 u 0 0 22 5 drn 100 PIN=2
+a 0 u 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 u 0 0 22 35 dln 100 PIN=3
+a 0 u 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1994-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.

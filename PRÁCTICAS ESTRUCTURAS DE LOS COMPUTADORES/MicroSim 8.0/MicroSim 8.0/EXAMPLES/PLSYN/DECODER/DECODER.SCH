@@ -1,0 +1,551 @@
+*version 6.2 94598790
+u 660
+U? 12
+BLK? 3
+? 12
+STM? 4
+FSTM? 2
+@libraries
+@analysis
+.TRAN 1 0 0 0
++0 20ns
++1 800ns
+.OPT 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+.OP 0 
+.PROBE 0 0 1 1 0 2
+.STMLIB DECODER.stl
+.IMPL 0 0 0
++0 0
++1 $G_DPWR
++2 $G_DGND
+@targets
+@attributes
+@translators
+a 0 u 13 0 0 0 hln 100 PSPICE=PSPICE
+a 0 u 13 0 0 0 hln 100 PCBOARDS=PCB
+a 0 u 13 0 0 0 hln 100 CADSTAR=PCB
+a 0 u 13 0 0 0 hln 100 EDIF=PCB
+a 0 u 13 0 0 0 hln 100 ORCAD=PCB
+a 0 u 13 0 0 0 hln 100 PADS=PCB
+a 0 u 13 0 0 0 hln 100 PCAD=PCB
+a 0 u 13 0 0 0 hln 100 PROTEL=PCB
+a 0 u 13 0 0 0 hln 100 TANGO=PCB
+a 0 u 13 0 0 0 hln 100 SCICARDS=PCB
+a 0 u 13 0 0 0 hln 100 POLARIS=PCB
+@index
+pageloc 1 0 8333 
+@status
+n 0 96:00:22:15:47:57;822325677 e 
+s 2833 96:00:22:15:48:23;822325703 e 
+c 95:07:16:13:52:31;808581151
+*page 1 0 1520 970 iB
+@ports
+port 310 GLOBAL 450 60 H
+a 14 x 3 0 15 8 hcn 100 LABEL=D0
+port 311 GLOBAL 450 120 H
+a 14 x 3 0 15 8 hcn 100 LABEL=D1
+port 312 GLOBAL 450 180 H
+a 14 x 3 0 15 8 hcn 100 LABEL=D2
+port 313 GLOBAL 450 240 H
+a 14 x 3 0 15 8 hcn 100 LABEL=D3
+port 314 GLOBAL 450 300 H
+a 14 x 3 0 15 8 hcn 100 LABEL=D4
+port 315 GLOBAL 450 360 H
+a 14 x 3 0 15 8 hcn 100 LABEL=D5
+port 316 GLOBAL 450 420 H
+a 14 x 3 0 15 8 hcn 100 LABEL=D6
+port 317 GLOBAL 450 480 H
+a 14 x 3 0 15 8 hcn 100 LABEL=D7
+port 600 global 80 310 h
+a 14 x 3 0 15 8 hcn 100 LABEL=C
+port 621 global 80 180 h
+a 14 x 3 0 15 8 hcn 100 LABEL=B
+port 630 global 80 110 h
+a 14 x 3 0 15 8 hcn 100 LABEL=A
+@parts
+part 9 74LS04 200 50 h
+a 0 s 11 0 24 42 hln 100 PART=74LS04
+a 0 x 0 0 0 0 hln 100 PKGREF=U1
+a 0 xp 9 0 24 4 hln 100 REFDES=U1
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 10 74LS04 200 150 h
+a 0 s 11 0 26 40 hln 100 PART=74LS04
+a 0 x 0 0 0 0 hln 100 PKGREF=U2
+a 0 xp 9 0 24 4 hln 100 REFDES=U2
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 11 74LS04 200 250 h
+a 0 s 11 0 30 38 hln 100 PART=74LS04
+a 0 x 0 0 0 0 hln 100 PKGREF=U3
+a 0 xp 9 0 20 2 hln 100 REFDES=U3
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 323 74LS11 350 50 h
+a 0 s 11 0 40 50 hln 100 PART=74LS11
+a 0 x 0 0 0 0 hln 100 PKGREF=U4
+a 0 xp 9 0 40 0 hln 100 REFDES=U4
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 324 74LS11 350 110 h
+a 0 s 11 0 40 50 hln 100 PART=74LS11
+a 0 x 0 0 0 0 hln 100 PKGREF=U5
+a 0 xp 9 0 40 0 hln 100 REFDES=U5
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 325 74LS11 350 170 h
+a 0 s 11 0 40 50 hln 100 PART=74LS11
+a 0 x 0 0 0 0 hln 100 PKGREF=U6
+a 0 xp 9 0 40 0 hln 100 REFDES=U6
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 326 74LS11 350 230 h
+a 0 s 11 0 40 50 hln 100 PART=74LS11
+a 0 x 0 0 0 0 hln 100 PKGREF=U7
+a 0 xp 9 0 40 0 hln 100 REFDES=U7
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 327 74LS11 350 290 h
+a 0 s 11 0 40 50 hln 100 PART=74LS11
+a 0 x 0 0 0 0 hln 100 PKGREF=U8
+a 0 xp 9 0 40 0 hln 100 REFDES=U8
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 328 74LS11 350 350 h
+a 0 s 11 0 40 50 hln 100 PART=74LS11
+a 0 x 0 0 0 0 hln 100 PKGREF=U9
+a 0 xp 9 0 40 0 hln 100 REFDES=U9
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 329 74LS11 350 410 h
+a 0 s 11 0 40 50 hln 100 PART=74LS11
+a 0 x 0 0 0 0 hln 100 PKGREF=U10
+a 0 xp 9 0 40 0 hln 100 REFDES=U10
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 330 74LS11 350 470 h
+a 0 s 11 0 40 50 hln 100 PART=74LS11
+a 0 x 0 0 0 0 hln 100 PKGREF=U11
+a 0 xp 9 0 40 0 hln 100 REFDES=U11
+a 0 u 0 0 0 10 hlb 100 IMPL=
+part 557 digstim 160 290 h
+a 0 ur 13 0 40 3 hln 70 STIMULUS=IN2
+a 0 x 0 0 0 0 hln 100 PKGREF=STM3
+a 1 xp 9 0 13 -1 hcn 100 REFDES=STM3
+part 558 digstim 160 160 h
+a 0 ur 13 0 40 3 hln 70 STIMULUS=IN1
+a 0 a 0 0 0 0 hln 100 PKGREF=STM2
+a 1 ap 9 0 13 -1 hcn 100 REFDES=STM2
+part 559 digstim 160 90 h
+a 0 ur 13 0 40 3 hln 70 STIMULUS=IN0
+a 0 x 0 0 0 0 hln 100 PKGREF=STM1
+a 1 xp 9 0 13 -1 hcn 100 REFDES=STM1
+part 659 readme 100 360 h
+a 0 u 3 0 22 34 hln 100 filename=decoder.rdm
+a 0 sp 0 0 17 20 hln 200 PART=readme
+a 0 a 0 0 0 0 hln 100 PKGREF=
+part 0 titleblk 1520 970 h
+a 1 s 13 0 350 10 hcn 100 PageSize=B
+a 1 s 13 0 180 60 hcn 100 PageTitle=
+a 1 s 13 0 300 95 hrn 100 PageNO=1
+a 1 s 13 0 340 95 hrn 100 PageCount=1
+part 397 nodeMarker 80 110 H
+a 0 a 0 0 4 22 hlb 100 LABEL=1
+part 398 nodeMarker 80 180 H
+a 0 a 0 0 4 22 hlb 100 LABEL=2
+part 399 nodeMarker 80 310 H
+a 0 a 0 0 4 22 hlb 100 LABEL=3
+part 400 nodeMarker 450 60 h
+a 0 a 0 0 4 22 hlb 100 LABEL=4
+part 401 nodeMarker 450 120 h
+a 0 a 0 0 4 22 hlb 100 LABEL=5
+part 402 nodeMarker 450 180 h
+a 0 a 0 0 4 22 hlb 100 LABEL=6
+part 403 nodeMarker 450 240 h
+a 0 a 0 0 4 22 hlb 100 LABEL=7
+part 404 nodeMarker 450 300 h
+a 0 a 0 0 4 22 hlb 100 LABEL=8
+part 405 nodeMarker 450 360 h
+a 0 a 0 0 4 22 hlb 100 LABEL=9
+part 406 nodeMarker 450 420 h
+a 0 a 0 0 4 22 hlb 100 LABEL=10
+part 407 nodeMarker 450 480 h
+a 0 a 0 0 4 22 hlb 100 LABEL=11
+@conn
+w 416
+s 270 50 350 50 415
+s 270 50 270 170 419
+s 250 50 270 50 421
+s 270 170 350 170 423
+s 270 170 270 290 426
+s 270 290 270 410 430
+s 270 290 350 290 428
+s 270 410 350 410 431
+w 434
+s 330 70 350 70 433
+s 330 130 330 70 435
+s 330 130 350 130 437
+s 330 190 330 130 439
+s 330 190 350 190 441
+s 330 250 330 190 443
+s 330 250 350 250 445
+s 250 250 330 250 447
+w 450
+s 190 250 200 250 455
+s 190 250 190 310 453
+s 190 310 340 310 458
+s 340 310 350 310 462
+s 340 370 340 310 460
+s 340 370 350 370 463
+s 340 490 340 430 467
+s 340 430 340 370 471
+s 340 430 350 430 469
+s 340 490 350 490 472
+s 80 310 160 310 633
+s 160 310 190 310 656
+s 160 290 160 310 654
+w 475
+s 190 50 200 50 482
+s 190 50 190 110 480
+s 190 110 280 110 483
+s 280 110 350 110 487
+s 280 110 280 230 485
+s 280 230 350 230 488
+s 280 230 280 350 490
+s 280 350 350 350 492
+s 280 350 280 470 494
+s 280 470 350 470 496
+s 80 110 160 110 614
+s 160 110 190 110 653
+s 160 90 160 110 651
+w 499
+s 300 300 350 300 506
+s 300 300 300 360 508
+s 300 360 350 360 510
+s 300 60 350 60 500
+s 300 120 300 60 502
+s 300 120 350 120 504
+s 300 300 300 150 512
+s 300 150 300 120 516
+s 250 150 300 150 514
+w 518
+s 190 150 200 150 525
+s 190 150 190 180 523
+s 190 180 310 180 526
+s 310 180 350 180 530
+s 310 180 310 240 528
+s 310 240 350 240 531
+s 310 240 310 420 533
+s 310 420 350 420 535
+s 310 420 310 480 537
+s 310 480 350 480 539
+s 80 180 160 180 622
+s 160 180 190 180 629
+s 160 160 160 180 627
+w 542
+s 450 60 420 60 541
+w 544
+s 450 120 420 120 543
+w 546
+s 450 180 420 180 545
+w 548
+s 450 240 420 240 547
+w 550
+s 450 300 420 300 549
+w 552
+s 450 360 420 360 551
+w 554
+s 450 420 420 420 553
+w 556
+s 450 480 420 480 555
+@junction
+j 270 50
++ w 416
++ w 416
+j 270 170
++ w 416
++ w 416
+j 270 290
++ w 416
++ w 416
+j 330 130
++ w 434
++ w 434
+j 330 190
++ w 434
++ w 434
+j 330 250
++ w 434
++ w 434
+j 340 310
++ w 450
++ w 450
+j 340 370
++ w 450
++ w 450
+j 340 430
++ w 450
++ w 450
+j 280 110
++ w 475
++ w 475
+j 280 230
++ w 475
++ w 475
+j 280 350
++ w 475
++ w 475
+j 300 300
++ w 499
++ w 499
+j 300 120
++ w 499
++ w 499
+j 300 150
++ w 499
++ w 499
+j 310 180
++ w 518
++ w 518
+j 310 240
++ w 518
++ w 518
+j 310 420
++ w 518
++ w 518
+j 450 60
++ s 310
++ w 542
+j 450 60
++ p 400 pin1
++ w 542
+j 450 120
++ s 311
++ w 544
+j 450 120
++ p 401 pin1
++ w 544
+j 450 180
++ s 312
++ w 546
+j 450 180
++ p 402 pin1
++ w 546
+j 450 240
++ s 313
++ w 548
+j 450 240
++ p 403 pin1
++ w 548
+j 450 300
++ s 314
++ w 550
+j 450 300
++ p 404 pin1
++ w 550
+j 450 360
++ s 315
++ w 552
+j 450 360
++ p 405 pin1
++ w 552
+j 450 420
++ s 316
++ w 554
+j 450 420
++ p 406 pin1
++ w 554
+j 450 480
++ s 317
++ w 556
+j 450 480
++ p 407 pin1
++ w 556
+j 450 60
++ s 310
++ p 400 pin1
+j 450 120
++ s 311
++ p 401 pin1
+j 450 180
++ s 312
++ p 402 pin1
+j 450 240
++ s 313
++ p 403 pin1
+j 450 300
++ s 314
++ p 404 pin1
+j 450 360
++ s 315
++ p 405 pin1
+j 450 420
++ s 316
++ p 406 pin1
+j 450 480
++ s 317
++ p 407 pin1
+j 250 50
++ p 9 Y
++ w 416
+j 200 50
++ p 9 A
++ w 475
+j 250 150
++ p 10 Y
++ w 499
+j 200 150
++ p 10 A
++ w 518
+j 250 250
++ p 11 Y
++ w 434
+j 200 250
++ p 11 A
++ w 450
+j 350 50
++ p 323 A
++ w 416
+j 350 70
++ p 323 C
++ w 434
+j 350 60
++ p 323 B
++ w 499
+j 420 60
++ p 323 Y
++ w 542
+j 350 130
++ p 324 C
++ w 434
+j 350 110
++ p 324 A
++ w 475
+j 350 120
++ p 324 B
++ w 499
+j 420 120
++ p 324 Y
++ w 544
+j 350 170
++ p 325 A
++ w 416
+j 350 190
++ p 325 C
++ w 434
+j 350 180
++ p 325 B
++ w 518
+j 420 180
++ p 325 Y
++ w 546
+j 350 250
++ p 326 C
++ w 434
+j 350 230
++ p 326 A
++ w 475
+j 350 240
++ p 326 B
++ w 518
+j 420 240
++ p 326 Y
++ w 548
+j 350 290
++ p 327 A
++ w 416
+j 350 310
++ p 327 C
++ w 450
+j 350 300
++ p 327 B
++ w 499
+j 420 300
++ p 327 Y
++ w 550
+j 350 370
++ p 328 C
++ w 450
+j 350 350
++ p 328 A
++ w 475
+j 350 360
++ p 328 B
++ w 499
+j 420 360
++ p 328 Y
++ w 552
+j 350 410
++ p 329 A
++ w 416
+j 350 430
++ p 329 C
++ w 450
+j 350 420
++ p 329 B
++ w 518
+j 420 420
++ p 329 Y
++ w 554
+j 350 490
++ p 330 C
++ w 450
+j 350 470
++ p 330 A
++ w 475
+j 350 480
++ p 330 B
++ w 518
+j 420 480
++ p 330 Y
++ w 556
+j 80 110
++ p 397 pin1
++ w 475
+j 190 110
++ w 475
++ w 475
+j 190 180
++ w 518
++ w 518
+j 80 180
++ s 621
++ w 518
+j 80 180
++ p 398 pin1
++ s 621
+j 80 180
++ p 398 pin1
++ w 518
+j 160 160
++ p 558 *OUT
++ w 518
+j 160 180
++ w 518
++ w 518
+j 190 310
++ w 450
++ w 450
+j 80 310
++ p 399 pin1
++ w 450
+j 80 310
++ s 600
++ p 399 pin1
+j 80 310
++ s 600
++ w 450
+j 80 110
++ s 630
++ p 397 pin1
+j 80 110
++ s 630
++ w 475
+j 160 90
++ p 559 *OUT
++ w 475
+j 160 110
++ w 475
++ w 475
+j 160 290
++ p 557 *OUT
++ w 450
+j 160 310
++ w 450
++ w 450
+@attributes
+a 0 s 0 0 0 0 hln 100 PAGETITLE=
+a 0 s 0 0 0 0 hln 100 PAGENO=1
+a 0 s 0 0 0 0 hln 100 PAGESIZE=B
+a 0 s 0 0 0 0 hln 100 PAGECOUNT=1
+@text

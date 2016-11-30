@@ -1,0 +1,818 @@
+*version 8.0 188352428
+@index
+symloc K704PL_3B7:kbreak 0 148
+symloc K704PL_3B9:kbreak 148 148
+symloc K704PL_3D3:kbreak 296 148
+symloc K905PL_3B7:kbreak 444 148
+symloc K905PL_3B9:kbreak 592 148
+symloc K905PL_3D3:kbreak 740 148
+symloc K1408PL_3B7:kbreak 888 151
+symloc K1408PL_3B9:kbreak 1039 151
+symloc K1408PL_3D3:kbreak 1190 151
+symloc K1408PL_3C8:kbreak 1341 151
+symloc K1408PL_3E2A:kbreak 1492 154
+symloc K1811PL_3B7:kbreak 1646 151
+symloc K1811PL_3B9:kbreak 1797 151
+symloc K1811PL_3C8:kbreak 1948 151
+symloc K1811PL_3D3:kbreak 2099 151
+symloc K1811PL_3E2A:kbreak 2250 154
+symloc K2213PL_3B7:kbreak 2404 151
+symloc K2213PL_3B9:kbreak 2555 151
+symloc K2213PL_3C8:kbreak 2706 151
+symloc K2213PL_3D3:kbreak 2857 151
+symloc K2213PL_3E2A:kbreak 3008 154
+symloc K2616PL_3B7:kbreak 3162 151
+symloc K2616PL_3B9:kbreak 3313 151
+symloc K2616PL_3C8:kbreak 3464 151
+symloc K2616PL_3D3:kbreak 3615 151
+symloc K2616PL_3E2A:kbreak 3766 154
+symloc K3019PL_3B7:kbreak 3920 151
+symloc K3019PL_3B9:kbreak 4071 151
+symloc K3019PL_3C8:kbreak 4222 151
+symloc K3019PL_3E2A:kbreak 4373 154
+symloc K3622PL_3B7:kbreak 4527 151
+symloc K3622PL_3B9:kbreak 4678 151
+symloc K3622PL_3C8:kbreak 4829 151
+symloc K3622PL_3E2A:kbreak 4980 154
+symloc K4229PL_3B7:kbreak 5134 151
+symloc K4229PL_3C8:kbreak 5285 151
+symloc K4728PL_3B7:kbreak 5436 151
+symloc K4728PL_3B9:kbreak 5587 151
+symloc K4728PL_3C8:kbreak 5738 151
+symloc K6656PL_3C8:kbreak 5889 151
+symloc K2311TS_3B9:kbreak 6040 151
+symloc K2311TS_3C8:kbreak 6191 151
+symloc K2311TS_3E2A:kbreak 6342 154
+symloc K2318TS_3B9:kbreak 6496 151
+symloc K2318TS_3C8:kbreak 6647 151
+symloc K2318TS_3E2A:kbreak 6798 154
+symloc K3019TS_3B7:kbreak 6952 151
+symloc K3019TS_3B9:kbreak 7103 151
+symloc K3019TS_3C8:kbreak 7254 151
+symloc K3019TS_3E2A:kbreak 7405 154
+symloc KRM5PL_3B7:kbreak 7559 148
+symloc KRM5PL_3B9:kbreak 7707 148
+symloc KRM5PL_3D3:kbreak 7855 148
+symloc KRM5PL_3E2A:kbreak 8003 151
+symloc KRM6PL_3B7:kbreak 8154 148
+symloc KRM6PL_3B9:kbreak 8302 148
+symloc KRM6PL_3C8:kbreak 8450 148
+symloc KRM6PL_3D3:kbreak 8598 148
+symloc KRM6PL_3E2A:kbreak 8746 151
+symloc KRM8PL_3B7:kbreak 8897 148
+symloc KRM8PL_3B9:kbreak 9045 148
+symloc KRM8PL_3C8:kbreak 9193 148
+symloc KRM8PL_3D3:kbreak 9341 148
+symloc KRM8PL_3E2A:kbreak 9489 151
+symloc KRM10PL_3B7:kbreak 9640 151
+symloc KRM10PL_3B9:kbreak 9791 151
+symloc KRM10PL_3C8:kbreak 9942 151
+symloc KRM10PL_3D3:kbreak 10093 151
+symloc KRM10PL_3E2A:kbreak 10244 154
+symloc K135T050_3B7:kbreak 10398 154
+symloc K135T050_3D3:kbreak 10552 154
+symloc K135T050_3E2A:kbreak 10706 157
+symloc K891T050_3B7:kbreak 10863 154
+symloc K891T050_3D3:kbreak 11017 154
+symloc K891T050_3E2A:kbreak 11171 157
+symloc K231T050_3B7:kbreak 11328 154
+symloc K231T050_3D3:kbreak 11482 154
+symloc K231T050_3E2A:kbreak 11636 157
+symloc K1041T060_3B7:kbreak 11793 157
+symloc K1041T060_3D3:kbreak 11950 157
+symloc K1041T060_3E2A:kbreak 12107 160
+symloc K266T125_3B7:kbreak 12267 154
+symloc K266T125_3D3:kbreak 12421 154
+symloc K266T125_3E2A:kbreak 12575 157
+symloc K768T188_3C8:kbreak 12732 154
+symloc K768T188_3D3:kbreak 12886 154
+symloc K768T188_3E2A:kbreak 13040 157
+symloc K204T250_3C8:kbreak 13197 154
+symloc K204T250_3E2A:kbreak 13351 157
+symloc K331T185_3C8:kbreak 13508 154
+symloc K331T185_3E2A:kbreak 13662 157
+symloc K846T250_3C8:kbreak 13819 154
+symloc K846T250_3E2A:kbreak 13973 157
+symloc K846T500_3C8:kbreak 14130 154
+symloc K846T500_3E2A:kbreak 14284 157
+symloc K502T300_3C8:kbreak 14441 154
+symloc K502T300_3E2A:kbreak 14595 157
+symloc K502T300_3E5:kbreak 14752 154
+symloc K500T400_3C8:kbreak 14906 154
+symloc K500T400_3E2A:kbreak 15060 157
+symloc K500T400_3E5:kbreak 15217 154
+symloc K500T600_3C8:kbreak 15371 154
+symloc K500T600_3E2A:kbreak 15525 157
+symloc K500T600_3E5:kbreak 15682 154
+symloc K528T500_3C6A:kbreak 15836 157
+symloc K528T500_3C8:kbreak 15993 154
+symloc K528T500_3E2A:kbreak 16147 157
+symloc K400T750_3C6A:kbreak 16304 157
+symloc K400T750_3C8:kbreak 16461 154
+symloc K144T500_3C6A:kbreak 16615 157
+symloc K144T500_3C8:kbreak 16772 156
+symloc kbreak 16928 623 b
+symloc copyright 17551 575 b
+*symbol K704PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K704PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K704PL_3B7
+*symbol K704PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K704PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K704PL_3B9
+*symbol K704PL_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K704PL_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K704PL_3D3
+*symbol K905PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K905PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K905PL_3B7
+*symbol K905PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K905PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K905PL_3B9
+*symbol K905PL_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K905PL_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K905PL_3D3
+*symbol K1408PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1408PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K1408PL_3B7
+*symbol K1408PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1408PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K1408PL_3B9
+*symbol K1408PL_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1408PL_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K1408PL_3D3
+*symbol K1408PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1408PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K1408PL_3C8
+*symbol K1408PL_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1408PL_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K1408PL_3E2A
+*symbol K1811PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1811PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K1811PL_3B7
+*symbol K1811PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1811PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K1811PL_3B9
+*symbol K1811PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1811PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K1811PL_3C8
+*symbol K1811PL_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1811PL_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K1811PL_3D3
+*symbol K1811PL_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1811PL_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K1811PL_3E2A
+*symbol K2213PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2213PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K2213PL_3B7
+*symbol K2213PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2213PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K2213PL_3B9
+*symbol K2213PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2213PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K2213PL_3C8
+*symbol K2213PL_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2213PL_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K2213PL_3D3
+*symbol K2213PL_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2213PL_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K2213PL_3E2A
+*symbol K2616PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2616PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K2616PL_3B7
+*symbol K2616PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2616PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K2616PL_3B9
+*symbol K2616PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2616PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K2616PL_3C8
+*symbol K2616PL_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2616PL_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K2616PL_3D3
+*symbol K2616PL_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2616PL_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K2616PL_3E2A
+*symbol K3019PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3019PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K3019PL_3B7
+*symbol K3019PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3019PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K3019PL_3B9
+*symbol K3019PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3019PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K3019PL_3C8
+*symbol K3019PL_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3019PL_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K3019PL_3E2A
+*symbol K3622PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3622PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K3622PL_3B7
+*symbol K3622PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3622PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K3622PL_3B9
+*symbol K3622PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3622PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K3622PL_3C8
+*symbol K3622PL_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3622PL_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K3622PL_3E2A
+*symbol K4229PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K4229PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K4229PL_3B7
+*symbol K4229PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K4229PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K4229PL_3C8
+*symbol K4728PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K4728PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K4728PL_3B7
+*symbol K4728PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K4728PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K4728PL_3B9
+*symbol K4728PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K4728PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K4728PL_3C8
+*symbol K6656PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K6656PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K6656PL_3C8
+*symbol K2311TS_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2311TS_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K2311TS_3B9
+*symbol K2311TS_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2311TS_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K2311TS_3C8
+*symbol K2311TS_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2311TS_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K2311TS_3E2A
+*symbol K2318TS_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2318TS_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K2318TS_3B9
+*symbol K2318TS_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2318TS_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K2318TS_3C8
+*symbol K2318TS_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K2318TS_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K2318TS_3E2A
+*symbol K3019TS_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3019TS_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K3019TS_3B7
+*symbol K3019TS_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3019TS_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=K3019TS_3B9
+*symbol K3019TS_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3019TS_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K3019TS_3C8
+*symbol K3019TS_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K3019TS_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K3019TS_3E2A
+*symbol KRM5PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM5PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM5PL_3B7
+*symbol KRM5PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM5PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM5PL_3B9
+*symbol KRM5PL_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM5PL_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM5PL_3D3
+*symbol KRM5PL_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM5PL_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM5PL_3E2A
+*symbol KRM6PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM6PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM6PL_3B7
+*symbol KRM6PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM6PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM6PL_3B9
+*symbol KRM6PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM6PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM6PL_3C8
+*symbol KRM6PL_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM6PL_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM6PL_3D3
+*symbol KRM6PL_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM6PL_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM6PL_3E2A
+*symbol KRM8PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM8PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM8PL_3B7
+*symbol KRM8PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM8PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM8PL_3B9
+*symbol KRM8PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM8PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM8PL_3C8
+*symbol KRM8PL_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM8PL_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM8PL_3D3
+*symbol KRM8PL_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM8PL_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM8PL_3E2A
+*symbol KRM10PL_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM10PL_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM10PL_3B7
+*symbol KRM10PL_3B9 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM10PL_3B9
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM10PL_3B9
+*symbol KRM10PL_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM10PL_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM10PL_3C8
+*symbol KRM10PL_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM10PL_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM10PL_3D3
+*symbol KRM10PL_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=KRM10PL_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=KRM10PL_3E2A
+*symbol K135T050_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K135T050_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K135T050_3B7
+*symbol K135T050_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K135T050_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K135T050_3D3
+*symbol K135T050_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K135T050_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K135T050_3E2A
+*symbol K891T050_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K891T050_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K891T050_3B7
+*symbol K891T050_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K891T050_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K891T050_3D3
+*symbol K891T050_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K891T050_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K891T050_3E2A
+*symbol K231T050_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K231T050_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K231T050_3B7
+*symbol K231T050_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K231T050_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K231T050_3D3
+*symbol K231T050_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K231T050_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K231T050_3E2A
+*symbol K1041T060_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1041T060_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K1041T060_3B7
+*symbol K1041T060_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1041T060_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K1041T060_3D3
+*symbol K1041T060_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K1041T060_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K1041T060_3E2A
+*symbol K266T125_3B7 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K266T125_3B7
+a 0 sp 0 0 1 48 hln 100 MODEL=K266T125_3B7
+*symbol K266T125_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K266T125_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K266T125_3D3
+*symbol K266T125_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K266T125_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K266T125_3E2A
+*symbol K768T188_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K768T188_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K768T188_3C8
+*symbol K768T188_3D3 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K768T188_3D3
+a 0 sp 0 0 1 48 hln 100 MODEL=K768T188_3D3
+*symbol K768T188_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K768T188_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K768T188_3E2A
+*symbol K204T250_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K204T250_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K204T250_3C8
+*symbol K204T250_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K204T250_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K204T250_3E2A
+*symbol K331T185_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K331T185_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K331T185_3C8
+*symbol K331T185_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K331T185_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K331T185_3E2A
+*symbol K846T250_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K846T250_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K846T250_3C8
+*symbol K846T250_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K846T250_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K846T250_3E2A
+*symbol K846T500_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K846T500_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K846T500_3C8
+*symbol K846T500_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K846T500_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K846T500_3E2A
+*symbol K502T300_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K502T300_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K502T300_3C8
+*symbol K502T300_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K502T300_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K502T300_3E2A
+*symbol K502T300_3E5 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K502T300_3E5
+a 0 sp 0 0 1 48 hln 100 MODEL=K502T300_3E5
+*symbol K500T400_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K500T400_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K500T400_3C8
+*symbol K500T400_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K500T400_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K500T400_3E2A
+*symbol K500T400_3E5 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K500T400_3E5
+a 0 sp 0 0 1 48 hln 100 MODEL=K500T400_3E5
+*symbol K500T600_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K500T600_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K500T600_3C8
+*symbol K500T600_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K500T600_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K500T600_3E2A
+*symbol K500T600_3E5 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K500T600_3E5
+a 0 sp 0 0 1 48 hln 100 MODEL=K500T600_3E5
+*symbol K528T500_3C6A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K528T500_3C6A
+a 0 sp 0 0 1 48 hln 100 MODEL=K528T500_3C6A
+*symbol K528T500_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K528T500_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K528T500_3C8
+*symbol K528T500_3E2A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K528T500_3E2A
+a 0 sp 0 0 1 48 hln 100 MODEL=K528T500_3E2A
+*symbol K400T750_3C6A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K400T750_3C6A
+a 0 sp 0 0 1 48 hln 100 MODEL=K400T750_3C6A
+*symbol K400T750_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K400T750_3C8
+a 0 sp 0 0 1 48 hln 100 MODEL=K400T750_3C8
+*symbol K144T500_3C6A ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K144T500_3C6A
+a 0 sp 0 0 1 48 hln 100 MODEL=K144T500_3C6A
+*symbol K144T500_3C8 ako kbreak
+d Magnetic Core
+@type p
+@attributes
+a 0 sp 11 0 1 19 hln 100 PART=K144T500_3C6A
+a 0 sp 0 0 1 48 hln 100 MODEL=K144T500_3C6A
+*symbol kbreak b
+d Multi-winding Coupling (with CORE model)
+@type p
+@attributes
+a 1 s 9 0 22 8 hcn 100 REFDES=K?
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=Kn^@REFDES L^@L1 ?L2|L^@L2| ?L3|\n+ L^@L3| ?L4|L^@L4| ?L5|\n+ L^@L5| ?L6|L^@L6| @COUPLING &MODEL
+a 0 s 0 0 0 10 hlb 100 SIMULATIONONLY=
+a 0 u 13 0 4 42 hln 100 L1=
+a 0 u 13 0 4 53 hln 100 L2=
+a 0 u 13 0 4 65 hln 100 L3=
+a 0 u 13 0 4 77 hln 100 L4=
+a 0 u 13 0 4 88 hln 100 L5=
+a 0 u 13 0 4 99 hln 100 L6=
+a 0 u 13 13 31 30 hcn 100 COUPLING=1
+a 0 sp 0 0 1 48 hln 100 MODEL=Kbreak
+a 0 sp 11 0 1 20 hln 100 PART=Kbreak
+@pins
+@graphics 40 10 0 10 10
+r 0 0 0 10 10
+s 26 2 8 hln 100 K
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

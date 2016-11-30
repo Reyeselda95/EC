@@ -1,0 +1,183 @@
+*version 6.3 2399155099
+u 155
+XBLOX 656272794
+U? 8
+@libraries
+XBLOX [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XBLOX
+a IMPL=XILINX
+@translators
+@index
+pageloc 1 0 2949 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 156 IF_IN 140 720 h
+a 0 s 3 0 10 8 hln 80 LABEL=X
+port 157 IF_IN 600 720 h
+a 0 s 3 0 10 8 hln 50 LABEL=B[6:0]
+@parts
+part 15 ELEMENT 270 720 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U1
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=0
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 16 ELEMENT 270 660 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U2
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=1
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 17 ELEMENT 270 540 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U3
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=3
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 18 ELEMENT 270 480 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U4
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=4
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 19 ELEMENT 270 420 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U5
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=5
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 20 ELEMENT 270 360 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U6
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=6
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 21 ELEMENT 270 600 h
+a 0 sp 9 0 130 10 hrn 100 REFDES=U7
+a 0 sp 11 0 80 0 hct 120 PART=ELEMENT
+a 0 u 13 13 0 51 hln 70 ELEM=2
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+@conn
+b 23
+s 600 720 650 720 22
+a 0 s 3 0 590 710 hln 100 LABEL=B[6:0]
+b 38
+s 140 720 250 720 24
+a 0 s 3 0 150 710 hln 100 LABEL=X
+s 250 720 270 720 25
+s 250 720 250 660 26
+s 250 660 250 600 27
+s 250 600 250 540 28
+s 250 540 250 480 29
+s 250 480 250 420 30
+s 250 420 250 360 31
+s 250 360 270 360 32
+s 250 420 270 420 33
+s 250 480 270 480 34
+s 250 540 270 540 35
+s 250 600 270 600 36
+s 250 660 270 660 37
+w 100
+s 420 360 540 360 99
+a 0 s 3 0 440 360 hln 100 LABEL=B[6]
+w 108
+s 420 420 540 420 107
+a 0 s 3 0 440 420 hln 100 LABEL=B[5]
+w 116
+s 420 480 540 480 115
+a 0 s 3 0 440 480 hln 100 LABEL=B[4]
+w 124
+s 420 540 540 540 123
+a 0 s 3 0 440 540 hln 100 LABEL=B[3]
+w 132
+s 420 660 540 660 131
+a 0 s 3 0 440 660 hln 100 LABEL=B[1]
+w 140
+s 420 720 540 720 139
+a 0 s 3 0 440 720 hln 100 LABEL=B[0]
+w 148
+s 420 600 540 600 147
+a 0 s 3 0 440 600 hln 100 LABEL=B[2]
+@junction
+j 250 720
++ b 38
++ b 38
+j 250 660
++ b 38
++ b 38
+j 250 600
++ b 38
++ b 38
+j 250 540
++ b 38
++ b 38
+j 250 480
++ b 38
++ b 38
+j 250 420
++ b 38
++ b 38
+j 270 720
++ p 15 XBLOX_BUS
++ b 38
+j 270 660
++ p 16 XBLOX_BUS
++ b 38
+j 270 540
++ p 17 XBLOX_BUS
++ b 38
+j 270 480
++ p 18 XBLOX_BUS
++ b 38
+j 270 420
++ p 19 XBLOX_BUS
++ b 38
+j 270 360
++ p 20 XBLOX_BUS
++ b 38
+j 270 600
++ p 21 XBLOX_BUS
++ b 38
+j 420 360
++ p 20 ELEM
++ w 100
+j 420 420
++ p 19 ELEM
++ w 108
+j 420 480
++ p 18 ELEM
++ w 116
+j 420 540
++ p 17 ELEM
++ w 124
+j 420 660
++ p 16 ELEM
++ w 132
+j 420 720
++ p 15 ELEM
++ w 140
+j 420 600
++ p 21 ELEM
++ w 148
+j 140 720
++ s 156
++ b 38
+j 600 720
++ S 157
+B[6]
+B[5]
+B[4]
+B[3]
+B[2]
+B[1]
+B[0]
++ b 23
+B[6]
+B[5]
+B[4]
+B[3]
+B[2]
+B[1]
+B[0]
+@attributes
+@text
+s 5 630 1000 hln 100 BUS_IF07
+s 5 742 1000 hln 100 7/21/93

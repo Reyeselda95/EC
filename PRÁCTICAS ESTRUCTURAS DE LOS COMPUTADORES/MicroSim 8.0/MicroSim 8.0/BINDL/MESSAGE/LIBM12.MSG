@@ -1,0 +1,89 @@
+" mach fitter messages (some shared with m34 & m5 fitter)
+>Esd mach Routing signals
+=[24000]         Initial routing of signals through switch matrix failed: %s:%d.
+& DEVICE_NAME DEVICE_NUM
+*The current partitioning could not be routed by the mach fitter.
+>Esd mach Failed to assign nodes
+=[24001]         Failed to find suitable node assignment and signal routing: %s:%d.
+& DEVICE_NAME DEVICE_NUM
+*The current partitioning could not be placed and routed by the mach fitter.
+*It could be routed with no placement considerations or placed
+*with no routing considerations but no valid combination of placements
+*and routings could be found.
+>Esd mach Failed to generate fusemap
+=[24002]         Failed to generate fuse map: %s:%d.
+& DEVICE_NAME DEVICE_NUM
+*A problem occurred in assigning pterm rows within the mach part.
+>E mach OE Conflict
+=[24003]         Cannot resolve OE requirements of macrocells.
+*The fitter cannot satisfy pal block output enable requirements.
+>Esd mach Function cant fit on pin because
+=[24004]         Function %s cannot fit on pin %d because:
+& SIGNAL_NAME PIN_NUM
+*Mach function pin assignment cannot be satisfied for the reason(s) listed.
+>Es mach Pal block demorgan conflict
+=[24005]         Pal block %s cannot satisfy reset/preset requirements of all functions
+*The pal block partition contains functions which are interdependent due
+*to reset/preset requirements.  The inverted form of one function must be fit
+*with the true form of the other, or vice-versa, however they cannot both fit 
+*in an acceptable form due to cluster availability constraints.
+>E mach Exceeds pal block enable limit
+=[24006]                 Exceeds pal block enable limit.
+*The combined pin assignments exceed the number of enable terms for a pal block.
+>E mach Exceeds pal block pterm allocation capabilities
+=[24007]                 Exceeds pal block pterm allocation capabilities.
+*The combined pin assignments exceed the ability to assign product terms.
+>Ess mach Signals use the same macrocell
+=[24008]                 Functions %s and %s use the same macrocell.
+& FUNCTION_NAME FUNCTION_NAME
+*The named functions are assigned so that they require the same macrocell.
+>Esd mach Signal cant fit as unary as required by pin
+=[24009]                 Signal %s cannot fit as a registered input as required by pin %d.
+*The signal does not meet the qualifications for a registered input (unary)
+*signal, but the pin specified requires that the signal be fit that way.
+>E mach Out of splitable pins
+=[24010]                 Signal may require split pin; split pin limit is exhausted.
+*The fitter budgets split pins (biput converted to node and input)
+*based on the output (non-split pin) count for each pal block.  The
+*fitter has detected that there are no more split pins available.
+>E mach Hidden function with fanouts
+=24011]                 Node assigned to buried logic has fanouts assigned to another device.
+*The function cannot be placed on a buried macrocell because a fanout of the
+*function is on another device.
+>E mach It just doesn't
+=[24012]                 Undetermined reason.
+*The fitter cannot detect the specific reason why the signal cannot
+*fit with other signals assigned to the device or pal_block.
+>Esd mach Input cant fit on pin because
+=[24013]         Input %s cannot fit on pin %d because:
+& SIGNAL_NAME PIN_NUM
+*Mach input pin assignment cannot be satisfied for the reason(s) listed.
+>E mach Clock pin needed for clock
+=[24014]                 Clock pin needed for clock.
+*An input is assigned to a clock pin that must be reserved for a clock signal.
+>E mach Biputs-as-inputs
+=[24015]                 Biputs-as-inputs exceed pal block limits.
+*The sum of inputs and outputs/biputs exceed the device/pal block limits.
+>Ess mach Signals use the same pin
+=[24016]                 Signals %s and %s use the same pin.
+& SIGNAL_NAME SIGNAL_NAME
+*The named signals are assigned to the same pin.
+>Esd mach Function cannot fit on mach pin
+=[24017]         Function %s cannot fit on pin %d due to buried register fanout constraints.
+& SIGNAL_NAME PIN_NUM
+*User pin assignments violate restrictions on Mach230 buried macrocell fanouts.
+*Mach230 buried register fanouts must be within pal block pairs 
+*(A-H, B-G, C-F, D-D).
+>Es mach pin not valid
+=[24018]         Signal %s cannot fit due to invalid pin type.
+& SIGNAL_NAME
+*The user specified pin assignment places the signal on an invalid pin.
+
+>Ws mach Old Low Power Property
+=[24019]    LOW_POWER property on signal %s obsolete, use POWER 'LOW'
+& POWER_LEVEL
+
+>Ess mach unknown power level
+=[24020]    Unknown power of %s on signal %s in PI file.
+& POWER_LEVEL
+

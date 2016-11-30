@@ -1,0 +1,571 @@
+*version 7.2 3110392449
+@index
+symloc SG1524B 0 1981
+symloc SG1525 1981 2024
+symloc SG1525A/25C 4005 2128
+symloc SG1526B 6133 2236
+symloc SG1529 8369 2075
+symloc SG1825 10444 1999
+symloc SG1842 12443 1246
+symloc SG1843:SG1842 13689 154
+symloc SG1844 13843 1191
+symloc SG1845:SG1844 15034 154
+symloc SG1846 15188 1992
+symloc copyright 17180 575 b
+*symbol SG1524B
+d Regulating pulse width modulator
+@type p
+@attributes
+a 1 s 9 0 60 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %ERR- %ERR+ %OSC %CL+ %CL- %CT %GND %COMP %SHUT %E_A %C_A %C_B %E_B %VIN %VREF @MODEL \n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME
+a 0 u 0 0 0 10 hln 100 PERIOD=1ms
+a 0 u 0 0 0 20 hln 100 DEADTIME=1us
+a 0 sp 11 0 70 140 hlb 100 PART=SG1524B
+a 0 sp 0 0 70 140 hlb 100 MODEL=SG1524B
+@pins
+p 2 13 32 hln 100 VIN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=15
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 72 hln 100 ERR- n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=1
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 13 82 hln 100 ERR+ n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=2
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 13 102 hln 100 CL+ n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=4
+a 0 u 0 0 0 100 hln 100 ERC=x
+p 2 13 112 hln 100 CL- n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=5
+a 0 u 0 0 0 110 hln 100 ERC=x
+p 2 67 52 hrn 100 C_A n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=12
+a 0 u 0 0 72 46 hln 100 ERC=x
+p 2 67 62 hrn 100 E_A n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=11
+a 0 u 0 0 72 56 hln 100 ERC=x
+p 2 67 92 hrn 100 E_B n 80 90 u
+a 0 u 1 0 75 88 hln 100 pin=14
+a 0 u 0 0 72 86 hln 100 ERC=x
+p 2 67 82 hrn 100 C_B n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=13
+a 0 u 0 0 72 76 hln 100 ERC=x
+p 2 38 127 drn 100 COMP n 40 140 v
+a 0 u 1 0 42 135 dln 100 pin=9
+a 0 u 0 0 34 140 hln 100 ERC=x
+p 2 58 127 drn 100 SHUT n 60 140 v
+a 0 u 1 0 62 135 dln 100 pin=10
+a 0 u 0 0 48 140 hln 100 ERC=x
+p 2 38 13 dln 100 VREF n 40 0 d
+a 0 u 1 0 42 5 drn 100 pin=16
+a 0 u 0 0 30 10 hln 100 ERC=x
+p 2 12 126 hln 100 GND n 20 140 v
+a 0 u 1 0 15 142 hcn 100 pin=8
+a 0 u 0 0 10 138 hln 100 ERC=x
+p 2 48 13 dln 100 OSC n 50 0 d
+a 0 u 1 0 52 5 drn 100 pin=3
+a 0 u 0 0 44 10 hln 100 ERC=x
+p 2 13 52 hln 100 CT n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=7
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 62 hln 50 RT n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 140 0 30 10
+r 0 10 10 70 130
+*symbol SG1525
+d Regulating pulse width modulator
+@type p
+@attributes
+a 1 s 9 0 60 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %ERR- %ERR+ %OSC %CT %START %COMP %SHUT %OUTA %GND %C %OUTB %VIN %VREF @MODEL \n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME
+a 0 u 0 0 0 10 hln 100 PERIOD=1ms
+a 0 u 0 0 0 20 hln 100 DEADTIME=1us
+a 0 sp 11 0 70 140 hlb 100 PART=SG1525
+a 0 sp 0 0 70 140 hlb 100 MODEL=SG1525
+@pins
+p 2 13 32 hln 100 VIN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=15
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 72 hln 100 ERR- n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=1
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 13 82 hln 100 ERR+ n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=2
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 38 13 dln 100 VREF n 40 0 d
+a 0 u 1 0 42 5 drn 100 pin=16
+a 0 u 0 0 30 10 hln 100 ERC=x
+p 2 12 126 hln 100 GND n 20 140 v
+a 0 u 1 0 15 142 hcn 100 pin=12
+a 0 u 0 0 10 138 hln 100 ERC=x
+p 2 38 127 drn 100 COMP n 40 140 v
+a 0 u 1 0 42 135 dln 100 pin=9
+a 0 u 0 0 34 140 hln 100 ERC=x
+p 2 58 127 drn 100 SHUT n 60 140 v
+a 0 u 1 0 62 135 dln 100 pin=10
+a 0 u 0 0 48 140 hln 100 ERC=x
+p 2 67 62 hrn 100 OUTA n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=11
+a 0 u 0 0 72 56 hln 100 ERC=x
+p 2 67 72 hrn 100 OUTB n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=14
+a 0 u 0 0 72 66 hln 100 ERC=x
+p 2 67 32 hrn 100 C n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=13
+a 0 u 0 0 72 26 hln 100 ERC=x
+p 2 48 13 dln 100 OSC n 50 0 d
+a 0 u 1 0 52 5 drn 100 pin=4
+a 0 u 0 0 44 10 hln 100 ERC=x
+p 2 13 102 hln 100 START n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=8
+a 0 u 0 0 0 100 hln 100 ERC=x
+p 2 13 52 hln 100 CT n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 42 hln 50 SYNC n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=3
+a 0 u 0 0 0 38 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 62 hln 50 RT n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 58 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 92 hln 50 DIS n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=7
+a 0 u 0 0 0 88 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 140 0 30 10
+r 0 10 10 70 130
+*symbol SG1525A/25C
+d Regulating pulse width modulator
+@type p
+@attributes
+a 1 ap 9 0 60 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %ERR- %ERR+ %OSC %CT %COMP %OUTA %GND %C %OUTB %VIN %VREF @MODEL \n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME
+a 0 u 0 0 0 10 hln 100 PERIOD=1ms
+a 0 u 0 0 0 20 hln 100 DEADTIME=1us
+a 0 sp 11 0 70 140 hlb 100 PART=SG1525A/25C
+a 0 sp 0 0 70 140 hlb 100 MODEL=SG1525A/25C
+a 0 s 0 0 70 140 hlb 100 COMPONENT=SG1525A
+@pins
+p 2 13 32 hln 100 VIN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=15
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 72 hln 100 ERR- n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=1
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 13 82 hln 100 ERR+ n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=2
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 38 13 dln 100 VREF n 40 0 d
+a 0 u 1 0 42 5 drn 100 pin=16
+a 0 u 0 0 30 10 hln 100 ERC=x
+p 2 12 126 hln 100 GND n 20 140 v
+a 0 u 1 0 15 142 hcn 100 pin=12
+a 0 u 0 0 10 138 hln 100 ERC=x
+p 2 38 127 drn 100 COMP n 40 140 v
+a 0 u 1 0 42 135 dln 100 pin=9
+a 0 u 0 0 34 140 hln 100 ERC=x
+p 2 58 127 drn 50 SHUT n 60 140 v
+a 0 u 1 0 62 135 dln 100 pin=10
+a 0 u 0 0 48 140 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 67 62 hrn 100 OUTA n 80 60 u
+a 0 u 1 0 75 58 hln 100 pin=11
+a 0 u 0 0 72 56 hln 100 ERC=x
+p 2 67 72 hrn 100 OUTB n 80 70 u
+a 0 u 1 0 75 68 hln 100 pin=14
+a 0 u 0 0 72 66 hln 100 ERC=x
+p 2 67 32 hrn 100 C n 80 30 u
+a 0 u 1 0 75 28 hln 100 pin=13
+a 0 u 0 0 72 26 hln 100 ERC=x
+p 2 48 13 dln 100 OSC n 50 0 d
+a 0 u 1 0 52 5 drn 100 pin=4
+a 0 u 0 0 44 10 hln 100 ERC=x
+p 2 13 102 hln 50 START n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=8
+a 0 u 0 0 0 100 hln 100 ERC=x
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 52 hln 100 CT n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=5
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 42 hln 50 SYNC n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=3
+a 0 u 0 0 0 38 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 62 hln 50 RT n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=6
+a 0 u 0 0 0 58 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+p 2 13 92 hln 50 DIS n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=7
+a 0 u 0 0 0 88 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 80 140 0 30 10
+r 0 10 10 70 130
+*symbol SG1526B
+d Regulating pulse width modulator
+@type p
+@attributes
+a 1 s 9 0 60 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %ERR+ %ERR- %COMP %START %\RESET\ %CL- %CL+ %\SHUT\ %CT %\SYNC\ %OUTA %V_C %GND %OUTB %VIN %VREF @MODEL \n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME
+a 0 u 0 0 0 10 hln 100 PERIOD=1ms
+a 0 u 0 0 0 20 hln 100 DEADTIME=1us
+a 0 sp 11 0 70 180 hlb 100 PART=SG1526B
+a 0 sp 0 0 70 180 hlb 100 MODEL=SG1526B
+@pins
+p 2 38 167 drn 100 COMP n 40 180 v
+a 0 u 1 0 42 175 dln 100 pin=3
+a 0 u 0 0 34 180 hln 100 ERC=x
+p 2 13 132 hln 100 CL- n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=6
+a 0 u 0 0 0 130 hln 100 ERC=x
+p 2 13 142 hln 100 CL+ n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=7
+a 0 u 0 0 0 140 hln 100 ERC=x
+p 2 38 13 dln 100 VREF n 40 0 d
+a 0 u 1 0 42 5 drn 100 pin=18
+a 0 u 0 0 30 10 hln 100 ERC=x
+p 2 13 32 hln 100 VIN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=17
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 12 166 hln 100 GND n 20 180 v
+a 0 u 1 0 15 182 hcn 100 pin=15
+a 0 u 0 0 10 178 hln 100 ERC=x
+p 2 67 102 hrn 100 OUTA n 80 100 u
+a 0 u 1 0 75 98 hln 100 pin=13
+a 0 u 0 0 70 100 hln 100 ERC=x
+p 2 67 112 hrn 100 OUTB n 80 110 u
+a 0 u 1 0 75 108 hln 100 pin=16
+a 0 u 0 0 70 110 hln 100 ERC=x
+p 2 48 13 dln 100 \SYNC\ b 50 0 d
+a 0 u 1 0 52 5 drn 100 pin=12
+a 0 u 0 0 50 10 hln 100 ERC=x
+p 2 48 167 drn 100 \SHUT\ b 50 180 v
+a 0 u 1 0 52 175 dln 100 pin=8
+a 0 u 0 0 44 182 hln 100 ERC=x
+p 2 13 72 hln 100 START n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=4
+a 0 u 0 0 2 76 hln 100 ERC=x
+p 2 13 82 hln 100 \RESET\ b 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=5
+a 0 u 0 0 6 90 hln 100 ERC=x
+p 2 13 52 hln 100 CT n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=10
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 102 hln 100 ERR+ n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=1
+a 0 u 0 0 0 100 hln 100 ERC=x
+p 2 13 112 hln 100 ERR- n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=2
+a 0 u 0 0 0 110 hln 100 ERC=x
+p 2 67 82 hrn 100 V_C n 80 80 u
+a 0 u 1 0 75 78 hln 100 pin=14
+a 0 u 0 0 70 80 hln 100 ERC=x
+p 2 13 42 hln 50 RT n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=9
+a 0 u 0 0 4 34 hln 100 ERC=i
+a 0 u 0 0 2 -24 hln 100 float=u
+p 2 13 62 hln 50 RDT n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=11
+a 0 u 0 0 8 54 hln 100 ERC=i
+a 0 u 0 0 6 -4 hln 100 float=u
+@graphics 80 180 0 30 10
+r 0 10 10 70 170
+*symbol SG1529
+d Regulating pulse width modulator
+@type p
+@attributes
+a 1 s 9 0 66 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %ERR- %ERR+ %OSC %CL+ %CL- %CT %FF %GND %COMP %SHUT %E_A %C_A %C_B %E_B %VIN %VREF @MODEL \n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME
+a 0 sp 11 0 72 160 hlb 100 PART=SG1529
+a 0 sp 0 0 72 160 hlb 100 MODEL=SG1529
+a 0 u 0 0 0 10 hln 100 PERIOD=1ms
+a 0 u 0 0 0 20 hln 100 DEADTIME=1us
+@pins
+p 2 13 32 hln 100 VIN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=16
+a 0 u 0 0 2 26 hln 100 ERC=x
+p 2 13 72 hln 100 FF n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=8
+a 0 u 0 0 2 66 hln 100 ERC=x
+p 2 13 92 hln 100 ERR- n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=1
+a 0 u 0 0 2 86 hln 100 ERC=x
+p 2 13 102 hln 100 ERR+ n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=2
+a 0 u 0 0 2 96 hln 100 ERC=x
+p 2 13 122 hln 100 CL+ n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=4
+a 0 u 0 0 2 116 hln 100 ERC=x
+p 2 13 132 hln 100 CL- n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=5
+a 0 u 0 0 2 126 hln 100 ERC=x
+p 2 12 148 hln 100 GND n 20 160 v
+a 0 u 1 0 15 162 hcn 100 pin=9
+a 0 u 0 0 10 158 hln 100 ERC=x
+p 2 77 62 hrn 100 E_A n 90 60 u
+a 0 u 1 0 85 58 hln 100 pin=12
+a 0 u 0 0 88 60 hln 100 ERC=x
+p 2 77 72 hrn 100 C_A n 90 70 u
+a 0 u 1 0 85 68 hln 100 pin=13
+a 0 u 0 0 88 70 hln 100 ERC=x
+p 2 77 102 hrn 100 C_B n 90 100 u
+a 0 u 1 0 85 98 hln 100 pin=14
+a 0 u 0 0 88 100 hln 100 ERC=x
+p 2 77 92 hrn 100 E_B n 90 90 u
+a 0 u 1 0 85 88 hln 100 pin=15
+a 0 u 0 0 88 90 hln 100 ERC=x
+p 2 58 13 dln 100 OSC n 60 0 d
+a 0 u 1 0 62 5 drn 100 pin=3
+a 0 u 0 0 60 2 hln 100 ERC=x
+p 2 38 13 dln 100 VREF n 40 0 d
+a 0 u 1 0 42 5 drn 100 pin=17
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 38 147 drn 100 COMP n 40 160 v
+a 0 u 1 0 42 155 dln 100 pin=10
+a 0 u 0 0 30 158 hln 100 ERC=x
+p 2 58 147 drn 100 SHUT n 60 160 v
+a 0 u 1 0 62 155 dln 100 pin=11
+a 0 u 0 0 50 158 hln 100 ERC=x
+p 2 13 52 hln 100 CT n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=7
+a 0 u 0 0 2 46 hln 100 ERC=x
+p 2 13 42 hln 50 RT n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=6
+a 0 u 0 0 0 40 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 90 160 0 30 10
+r 0 10 10 80 150
+*symbol SG1825
+d High-speed current-mode PWM
+@type p
+@attributes
+a 1 s 9 0 58 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %ERR- %ERR+ %ERROUT %CLK %CT %RAMP %START %ILIM %GND %OUTA %PWRGND %V_C %OUTB %VIN %VREF @MODEL \n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME
+a 0 sp 11 0 54 182 hlb 100 PART=SG1825
+a 0 sp 0 0 54 182 hlb 100 MODEL=SG1825
+a 0 u 0 0 0 10 hln 100 PERIOD=2.5u
+a 0 u 0 0 0 20 hln 100 DEADTIME=5e-8
+@pins
+p 2 13 32 hln 100 VIN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=15
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 52 hln 100 CLK n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=4
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 72 hln 100 CT n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=6
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 13 92 hln 100 RAMP n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=7
+a 0 u 0 0 0 90 hln 100 ERC=x
+p 2 13 102 hln 100 ERROUT n 0 100 h
+a 0 u 1 0 5 98 hrn 100 pin=3
+a 0 u 0 0 0 100 hln 100 ERC=x
+p 2 13 122 hln 100 ERR+ n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=2
+a 0 u 0 0 0 120 hln 100 ERC=x
+p 2 13 132 hln 100 ERR- n 0 130 h
+a 0 u 1 0 5 128 hrn 100 pin=1
+a 0 u 0 0 0 130 hln 100 ERC=x
+p 2 13 152 hln 100 START n 0 150 h
+a 0 u 1 0 5 148 hrn 100 pin=8
+a 0 u 0 0 0 150 hln 100 ERC=x
+p 2 30 168 hln 100 GND n 40 180 v
+a 0 u 1 0 35 182 hcn 100 pin=10
+a 0 u 0 0 28 180 hln 100 ERC=x
+p 2 77 32 hrn 100 V_C n 90 30 u
+a 0 u 1 0 85 28 hln 100 pin=13
+a 0 u 0 0 70 34 hln 100 ERC=x
+p 2 77 52 hrn 100 OUTA n 90 50 u
+a 0 u 1 0 85 48 hln 100 pin=11
+a 0 u 0 0 70 54 hln 100 ERC=x
+p 2 77 72 hrn 100 OUTB n 90 70 u
+a 0 u 1 0 85 68 hln 100 pin=14
+a 0 u 0 0 70 74 hln 100 ERC=x
+p 2 77 112 hrn 100 PWRGND n 90 110 u
+a 0 u 1 0 85 108 hln 100 pin=12
+a 0 u 0 0 70 114 hln 100 ERC=x
+p 2 77 142 hrn 100 ILIM n 90 140 u
+a 0 u 1 0 85 138 hln 100 pin=9
+a 0 u 0 0 70 144 hln 100 ERC=x
+p 2 30 18 hln 100 VREF n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=16
+a 0 u 0 0 40 0 hln 100 ERC=x
+p 2 13 62 hln 50 RT n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=5
+a 0 u 0 0 0 60 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 100 180 0 30 10
+r 0 10 10 80 170
+*symbol SG1842
+d Current-mode PWM controller
+@type p
+@attributes
+a 1 s 9 0 60 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %COMP %VFB %ISENSE %GND %OUT %VCC %VREF @MODEL \n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME QUIESCUR=@QUIESCUR
+a 0 u 0 0 0 10 hln 100 PERIOD=22.5u
+a 0 u 0 0 0 20 hln 100 DEADTIME=2e-6
+a 0 u 0 0 0 30 hln 100 QUIESCUR=11m
+a 0 sp 11 0 52 108 hln 100 PART=SG1842
+a 0 sp 0 0 52 108 hln 100 MODEL=SG1842
+@pins
+p 2 13 42 hln 100 VFB n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=2
+a 0 u 0 0 2 40 hln 100 ERC=x
+p 2 13 62 hln 100 COMP n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=1
+a 0 u 0 0 2 60 hln 100 ERC=x
+p 2 13 82 hln 100 ISENSE n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=3
+a 0 u 0 0 2 80 hln 100 ERC=x
+p 2 30 98 hln 100 GND n 40 110 v
+a 0 u 1 0 35 112 hcn 100 pin=5
+a 0 u 0 0 40 108 hln 100 ERC=x
+p 2 67 52 hrn 100 OUT n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=6
+a 0 u 0 0 78 50 hln 100 ERC=x
+p 2 28 13 dln 100 VCC n 30 0 d
+a 0 u 1 0 32 5 drn 100 pin=7
+a 0 u 0 0 26 12 hln 100 ERC=x
+p 2 48 13 dln 100 VREF n 50 0 d
+a 0 u 1 0 52 5 drn 100 pin=8
+a 0 u 0 0 46 10 hln 100 ERC=x
+p 2 13 92 hln 50 RT/CT n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=4
+a 0 u 0 0 0 90 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 90 110 0 40 10
+r 0 10 10 70 100
+*symbol SG1843 ako SG1842
+d Current-mode PWM controller
+@type p
+@attributes
+a 0 sp 11 0 52 108 hln 100 PART=SG1843
+a 0 sp 0 0 52 108 hln 100 MODEL=SG1843
+*symbol SG1844
+d Current-mode PWM controller
+@type p
+@attributes
+a 1 s 9 0 60 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %COMP %VFB %ISENSE %GND %OUT %VCC %VREF @MODEL \n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME
+a 0 u 0 0 0 10 hln 100 PERIOD=22.5u
+a 0 u 0 0 0 20 hln 100 DEADTIME=2e-6
+a 0 sp 11 0 52 108 hln 100 PART=SG1844
+a 0 sp 0 0 52 108 hln 100 MODEL=SG1844
+@pins
+p 2 13 42 hln 100 VFB n 0 40 h
+a 0 u 1 0 5 38 hrn 100 pin=2
+a 0 u 0 0 2 40 hln 100 ERC=x
+p 2 13 62 hln 100 COMP n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=1
+a 0 u 0 0 2 60 hln 100 ERC=x
+p 2 13 82 hln 100 ISENSE n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=3
+a 0 u 0 0 2 80 hln 100 ERC=x
+p 2 30 98 hln 100 GND n 40 110 v
+a 0 u 1 0 35 112 hcn 100 pin=5
+a 0 u 0 0 40 108 hln 100 ERC=x
+p 2 67 52 hrn 100 OUT n 80 50 u
+a 0 u 1 0 75 48 hln 100 pin=6
+a 0 u 0 0 78 50 hln 100 ERC=x
+p 2 28 13 dln 100 VCC n 30 0 d
+a 0 u 1 0 32 5 drn 100 pin=7
+a 0 u 0 0 26 12 hln 100 ERC=x
+p 2 48 13 dln 100 VREF n 50 0 d
+a 0 u 1 0 52 5 drn 100 pin=8
+a 0 u 0 0 46 10 hln 100 ERC=x
+p 2 13 92 hln 50 RT/CT n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=4
+a 0 u 0 0 0 88 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 90 110 0 40 10
+r 0 10 10 70 100
+*symbol SG1845 ako SG1844
+d Current-mode PWM controller
+@type p
+@attributes
+a 0 sp 11 0 52 108 hln 100 PART=SG1845
+a 0 sp 0 0 52 108 hln 100 MODEL=SG1845
+*symbol SG1846
+d Current-mode PWM controller
+@type p
+@attributes
+a 1 s 9 0 58 8 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %CL_START %VREF %CS- %CS+ %ERR+ %ERR- %COMP %CT %SYNC %OUTA %GND %V_C %OUTB %VIN %SHUT @MODEL \n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME
+a 0 u 0 0 0 10 hln 100 PERIOD=22.5u
+a 0 u 0 0 0 20 hln 100 DEADTIME=2e-6
+a 0 sp 11 0 50 170 hln 100 PART=SG1846
+a 0 sp 0 0 50 170 hln 100 MODEL=SG1846
+@pins
+p 2 13 32 hln 100 VIN n 0 30 h
+a 0 u 1 0 5 28 hrn 100 pin=15
+a 0 u 0 0 0 30 hln 100 ERC=x
+p 2 13 52 hln 100 SYNC n 0 50 h
+a 0 u 1 0 5 48 hrn 100 pin=10
+a 0 u 0 0 0 50 hln 100 ERC=x
+p 2 13 72 hln 100 CT n 0 70 h
+a 0 u 1 0 5 68 hrn 100 pin=8
+a 0 u 0 0 0 70 hln 100 ERC=x
+p 2 13 82 hln 100 CS- n 0 80 h
+a 0 u 1 0 5 78 hrn 100 pin=3
+a 0 u 0 0 0 80 hln 100 ERC=x
+p 2 13 92 hln 100 CS+ n 0 90 h
+a 0 u 1 0 5 88 hrn 100 pin=4
+a 0 u 0 0 0 90 hln 100 ERC=x
+p 2 13 112 hln 100 ERR+ n 0 110 h
+a 0 u 1 0 5 108 hrn 100 pin=5
+a 0 u 0 0 0 110 hln 100 ERC=x
+p 2 13 122 hln 100 ERR- n 0 120 h
+a 0 u 1 0 5 118 hrn 100 pin=6
+a 0 u 0 0 0 120 hln 100 ERC=x
+p 2 13 142 hln 100 COMP n 0 140 h
+a 0 u 1 0 5 138 hrn 100 pin=7
+a 0 u 0 0 0 140 hln 100 ERC=x
+p 2 77 32 hrn 100 V_C n 90 30 u
+a 0 u 1 0 85 28 hln 100 pin=13
+a 0 u 0 0 66 30 hln 100 ERC=x
+p 2 77 52 hrn 100 OUTA n 90 50 u
+a 0 u 1 0 85 48 hln 100 pin=11
+a 0 u 0 0 66 50 hln 100 ERC=x
+p 2 77 72 hrn 100 OUTB n 90 70 u
+a 0 u 1 0 85 68 hln 100 pin=14
+a 0 u 0 0 66 70 hln 100 ERC=x
+p 2 77 122 hrn 100 SHUT n 90 120 u
+a 0 u 1 0 85 118 hln 100 pin=16
+a 0 u 0 0 66 120 hln 100 ERC=x
+p 2 77 102 hrn 100 CL_START n 90 100 u
+a 0 u 1 0 85 98 hln 100 pin=1
+a 0 u 0 0 66 100 hln 100 ERC=x
+p 2 30 158 hln 100 GND n 40 170 v
+a 0 u 1 0 35 172 hcn 100 pin=12
+a 0 u 0 0 40 172 hln 100 ERC=x
+p 2 30 18 hln 100 VREF n 40 0 d
+a 0 u 1 0 45 3 hcn 100 pin=2
+a 0 u 0 0 34 10 hln 100 ERC=x
+p 2 13 62 hln 50 RT n 0 60 h
+a 0 u 1 0 5 58 hrn 100 pin=9
+a 0 u 0 0 2 58 hln 100 ERC=i
+a 0 u 0 0 0 0 hln 100 float=u
+@graphics 90 170 0 30 10
+r 0 10 10 80 160
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60

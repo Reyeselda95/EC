@@ -1,0 +1,1521 @@
+*version 6.3 897641444
+@index
+symloc D5AC312-25:P312-00 0 32
+symloc D5AC312-30:P312-00 32 32
+symloc D5AC324-25:P324-00 64 32
+symloc D5AC324-30:P324-00 96 32
+symloc D5C031-40:P300-01 128 31
+symloc D5C031-50:P300-01 159 31
+symloc D5C032-30:P320-00 190 31
+symloc D5C032-35:P320-00 221 31
+symloc D5C032-40:P320-00 252 31
+symloc D5C060-45:P600-02 283 31
+symloc D5C060-55:P600-02 314 31
+symloc D5C090-50:P900-01 345 31
+symloc D5C090-60:P900-01 376 31
+symloc D85C060-10:P600-02 407 32
+symloc D85C060-12:P600-02 439 32
+symloc D85C060-15:P600-02 471 32
+symloc D85C060-25:P600-02 503 32
+symloc D85C090-12:P900-01 535 32
+symloc D85C090-15:P900-01 567 32
+symloc D85C090-20:P900-01 599 32
+symloc D85C090-25:P900-01 631 32
+symloc D85C220-66:P320-00 663 32
+symloc D85C220-80:P320-00 695 32
+symloc D85C224-66:P224-00 727 32
+symloc D85C224-80:P224-00 759 32
+symloc D85C22V10-10:P22V10I-00 791 37
+symloc D85C22V10-15:P22V10I-00 828 37
+symloc D85C508-10:P508-00 865 32
+symloc D85C508-7:P508-00 897 31
+symloc DPLD610-10:P600-02 928 32
+symloc DPLD610-15:P600-02 960 32
+symloc DPLD610-25:P600-02 992 32
+symloc DPLD910-12:P900-01 1024 32
+symloc DPLD910-15:P900-01 1056 32
+symloc DPLD910-20:P900-01 1088 32
+symloc DPLD910-25:P900-01 1120 32
+symloc LD5C060-55:P600-02 1152 32
+symloc MD5AC312-30:P312-00 1184 33
+symloc MD5AC312-35:P312-00 1217 33
+symloc MD5C060-55:P600-02 1250 32
+symloc MD5C090-60:P900-01 1282 32
+symloc MG5C180-90:P1800-00 1314 33
+symloc N5AC312-25:P312-01 1347 32
+symloc N5AC312-30:P312-01 1379 32
+symloc N5AC324-25:P324-01 1411 32
+symloc N5AC324-30:P324-01 1443 32
+symloc N5C060-45:P600-03 1475 31
+symloc N5C060-55:P600-03 1506 31
+symloc N5C090-50:P900-02 1537 31
+symloc N5C090-60:P900-02 1568 31
+symloc N5C180-70:P1800-01 1599 32
+symloc N5C180-75:P1800-01 1631 32
+symloc N5C180-90:P1800-01 1663 32
+symloc N85C060-10:P600-03 1695 32
+symloc N85C060-12:P600-03 1727 32
+symloc N85C060-15:P600-03 1759 32
+symloc N85C060-25:P600-03 1791 32
+symloc N85C090-12:P900-04 1823 32
+symloc N85C090-15:P900-04 1855 32
+symloc N85C090-20:P900-04 1887 32
+symloc N85C090-25:P900-04 1919 32
+symloc N85C220-10:P320-01 1951 32
+symloc N85C220-100:P320-01 1983 33
+symloc N85C220-66:P320-01 2016 32
+symloc N85C220-7:P320-01 2048 31
+symloc N85C220-80:P320-01 2079 32
+symloc N85C224-10:P224-01 2111 32
+symloc N85C224-100:P224-01 2143 33
+symloc N85C224-66:P224-01 2176 32
+symloc N85C224-7:P224-01 2208 31
+symloc N85C224-80:P224-01 2239 32
+symloc N85C22V10-10:P22V10I-01 2271 37
+symloc N85C22V10-15:P22V10I-01 2308 37
+symloc N85C508-10:P508-01 2345 32
+symloc N85C508-7:P508-01 2377 31
+symloc NPLD22V10-10:P22V10-03 2408 36
+symloc NPLD22V10-15:P22V10-03 2444 36
+symloc NPLD22V10-25:P22V10-03 2480 36
+symloc NPLD22V10-7:P22V10-03 2516 35
+symloc NPLD610-10:P600-03 2551 32
+symloc NPLD610-15:P600-03 2583 32
+symloc NPLD610-25:P600-03 2615 32
+symloc NPLD910-12:P900-02 2647 32
+symloc NPLD910-15:P900-02 2679 32
+symloc NPLD910-20:P900-02 2711 32
+symloc NPLD910-25:P900-02 2743 32
+symloc NPLDLV22V10-15:P22V10-03 2775 38
+symloc P5AC312-25:P312-02 2813 32
+symloc P5AC312-30:P312-02 2845 32
+symloc P5AC324-25:P324-02 2877 32
+symloc P5AC324-30:P324-02 2909 32
+symloc P5C032-30:P320-03 2941 31
+symloc P5C032-35:P320-03 2972 31
+symloc P5C032-40:P320-03 3003 31
+symloc P5C060-45:P600-00 3034 31
+symloc P5C060-55:P600-00 3065 31
+symloc P5C090-50:P900-00 3096 31
+symloc P5C090-60:P900-00 3127 31
+symloc P85C060-10:P600-00 3158 32
+symloc P85C060-12:P600-00 3190 32
+symloc P85C060-15:P600-00 3222 32
+symloc P85C060-25:P600-00 3254 32
+symloc P85C090-12:P900-00 3286 32
+symloc P85C090-15:P900-00 3318 32
+symloc P85C090-20:P900-00 3350 32
+symloc P85C090-25:P900-00 3382 32
+symloc P85C220-100:P320-03 3414 33
+symloc P85C220-66:P320-03 3447 32
+symloc P85C220-80:P320-03 3479 32
+symloc P85C220-D:P320-03 3511 31
+symloc P85C224-66:P224-02 3542 32
+symloc P85C224-80:P224-02 3574 32
+symloc P85C224-D:P224-02 3606 31
+symloc P85C22V10-10:P22V10I-02 3637 37
+symloc P85C22V10-15:P22V10I-02 3674 37
+symloc PPLD22V10-10:P22V10-04 3711 36
+symloc PPLD22V10-15:P22V10-04 3747 36
+symloc PPLD22V10-25:P22V10-04 3783 36
+symloc PPLD22V10-7:P22V10-04 3819 35
+symloc PPLD610-10:P600-00 3854 32
+symloc PPLD610-15:P600-00 3886 32
+symloc PPLD610-25:P600-00 3918 32
+symloc PPLD910-12:P900-00 3950 32
+symloc PPLD910-15:P900-00 3982 32
+symloc PPLD910-20:P900-00 4014 32
+symloc PPLD910-25:P900-00 4046 32
+symloc PPLDLV22V10-15:P22V10-04 4078 38
+symloc TD5C032-35:P320-00 4116 32
+symloc TD5C032-40:P320-00 4148 32
+symloc TD5C060-55:P600-02 4180 32
+symloc TD5C090-60:P900-01 4212 32
+symloc TD85C060-15:P600-02 4244 33
+symloc TD85C060-25:P600-02 4277 33
+symloc TD85C090-20:P900-01 4310 33
+symloc TD85C090-25:P900-01 4343 33
+symloc TN5AC312-25:P312-01 4376 33
+symloc TN5AC312-30:P312-01 4409 33
+symloc TN5C060-55:P600-03 4442 32
+symloc TN5C090-60:P900-02 4474 32
+symloc TN5C180-90:P1800-03 4506 33
+symloc TN85C060-15:P600-03 4539 33
+symloc TN85C060-25:P600-03 4572 33
+symloc TN85C090-20:P900-02 4605 33
+symloc TN85C090-25:P900-02 4638 33
+symloc TN85C220-66:P320-01 4671 33
+symloc TP5C032-35:P320-03 4704 32
+symloc TP5C032-40:P320-03 4736 32
+symloc TP5C060-55:P600-00 4768 32
+symloc TP5C090-60:P900-05 4800 32
+symloc P312-00 4832 278
+symloc P324-00 5110 450
+symloc P300-01 5560 231
+symloc P320-00 5791 231
+symloc P600-02 6022 286
+symloc P900-01 6308 441
+symloc P224-00 6749 266
+symloc P22V10I-00 7015 271
+symloc P508-00 7286 286
+symloc P1800-00 7572 787
+symloc P312-01 8359 301
+symloc P324-01 8660 450
+symloc P600-03 9110 309
+symloc P900-02 9419 463
+symloc P1800-01 9882 756
+symloc P900-04 10638 463
+symloc P320-01 11101 231
+symloc P224-01 11332 268
+symloc P22V10I-01 11600 273
+symloc P508-01 11873 286
+symloc P22V10-03 12159 272
+symloc P312-02 12431 277
+symloc P324-02 12708 449
+symloc P320-03 13157 230
+symloc P600-00 13387 285
+symloc P900-00 13672 440
+symloc P224-02 14112 265
+symloc P22V10I-02 14377 270
+symloc P22V10-04 14647 269
+symloc P1800-03 14916 756
+symloc P900-05 15672 439
+*package D5AC312-25 ako P312-00
+*package D5AC312-30 ako P312-00
+*package D5AC324-25 ako P324-00
+*package D5AC324-30 ako P324-00
+*package D5C031-40 ako P300-01
+*package D5C031-50 ako P300-01
+*package D5C032-30 ako P320-00
+*package D5C032-35 ako P320-00
+*package D5C032-40 ako P320-00
+*package D5C060-45 ako P600-02
+*package D5C060-55 ako P600-02
+*package D5C090-50 ako P900-01
+*package D5C090-60 ako P900-01
+*package D85C060-10 ako P600-02
+*package D85C060-12 ako P600-02
+*package D85C060-15 ako P600-02
+*package D85C060-25 ako P600-02
+*package D85C090-12 ako P900-01
+*package D85C090-15 ako P900-01
+*package D85C090-20 ako P900-01
+*package D85C090-25 ako P900-01
+*package D85C220-66 ako P320-00
+*package D85C220-80 ako P320-00
+*package D85C224-66 ako P224-00
+*package D85C224-80 ako P224-00
+*package D85C22V10-10 ako P22V10I-00
+*package D85C22V10-15 ako P22V10I-00
+*package D85C508-10 ako P508-00
+*package D85C508-7 ako P508-00
+*package DPLD610-10 ako P600-02
+*package DPLD610-15 ako P600-02
+*package DPLD610-25 ako P600-02
+*package DPLD910-12 ako P900-01
+*package DPLD910-15 ako P900-01
+*package DPLD910-20 ako P900-01
+*package DPLD910-25 ako P900-01
+*package LD5C060-55 ako P600-02
+*package MD5AC312-30 ako P312-00
+*package MD5AC312-35 ako P312-00
+*package MD5C060-55 ako P600-02
+*package MD5C090-60 ako P900-01
+*package MG5C180-90 ako P1800-00
+*package N5AC312-25 ako P312-01
+*package N5AC312-30 ako P312-01
+*package N5AC324-25 ako P324-01
+*package N5AC324-30 ako P324-01
+*package N5C060-45 ako P600-03
+*package N5C060-55 ako P600-03
+*package N5C090-50 ako P900-02
+*package N5C090-60 ako P900-02
+*package N5C180-70 ako P1800-01
+*package N5C180-75 ako P1800-01
+*package N5C180-90 ako P1800-01
+*package N85C060-10 ako P600-03
+*package N85C060-12 ako P600-03
+*package N85C060-15 ako P600-03
+*package N85C060-25 ako P600-03
+*package N85C090-12 ako P900-04
+*package N85C090-15 ako P900-04
+*package N85C090-20 ako P900-04
+*package N85C090-25 ako P900-04
+*package N85C220-10 ako P320-01
+*package N85C220-100 ako P320-01
+*package N85C220-66 ako P320-01
+*package N85C220-7 ako P320-01
+*package N85C220-80 ako P320-01
+*package N85C224-10 ako P224-01
+*package N85C224-100 ako P224-01
+*package N85C224-66 ako P224-01
+*package N85C224-7 ako P224-01
+*package N85C224-80 ako P224-01
+*package N85C22V10-10 ako P22V10I-01
+*package N85C22V10-15 ako P22V10I-01
+*package N85C508-10 ako P508-01
+*package N85C508-7 ako P508-01
+*package NPLD22V10-10 ako P22V10-03
+*package NPLD22V10-15 ako P22V10-03
+*package NPLD22V10-25 ako P22V10-03
+*package NPLD22V10-7 ako P22V10-03
+*package NPLD610-10 ako P600-03
+*package NPLD610-15 ako P600-03
+*package NPLD610-25 ako P600-03
+*package NPLD910-12 ako P900-02
+*package NPLD910-15 ako P900-02
+*package NPLD910-20 ako P900-02
+*package NPLD910-25 ako P900-02
+*package NPLDLV22V10-15 ako P22V10-03
+*package P5AC312-25 ako P312-02
+*package P5AC312-30 ako P312-02
+*package P5AC324-25 ako P324-02
+*package P5AC324-30 ako P324-02
+*package P5C032-30 ako P320-03
+*package P5C032-35 ako P320-03
+*package P5C032-40 ako P320-03
+*package P5C060-45 ako P600-00
+*package P5C060-55 ako P600-00
+*package P5C090-50 ako P900-00
+*package P5C090-60 ako P900-00
+*package P85C060-10 ako P600-00
+*package P85C060-12 ako P600-00
+*package P85C060-15 ako P600-00
+*package P85C060-25 ako P600-00
+*package P85C090-12 ako P900-00
+*package P85C090-15 ako P900-00
+*package P85C090-20 ako P900-00
+*package P85C090-25 ako P900-00
+*package P85C220-100 ako P320-03
+*package P85C220-66 ako P320-03
+*package P85C220-80 ako P320-03
+*package P85C220-D ako P320-03
+*package P85C224-66 ako P224-02
+*package P85C224-80 ako P224-02
+*package P85C224-D ako P224-02
+*package P85C22V10-10 ako P22V10I-02
+*package P85C22V10-15 ako P22V10I-02
+*package PPLD22V10-10 ako P22V10-04
+*package PPLD22V10-15 ako P22V10-04
+*package PPLD22V10-25 ako P22V10-04
+*package PPLD22V10-7 ako P22V10-04
+*package PPLD610-10 ako P600-00
+*package PPLD610-15 ako P600-00
+*package PPLD610-25 ako P600-00
+*package PPLD910-12 ako P900-00
+*package PPLD910-15 ako P900-00
+*package PPLD910-20 ako P900-00
+*package PPLD910-25 ako P900-00
+*package PPLDLV22V10-15 ako P22V10-04
+*package TD5C032-35 ako P320-00
+*package TD5C032-40 ako P320-00
+*package TD5C060-55 ako P600-02
+*package TD5C090-60 ako P900-01
+*package TD85C060-15 ako P600-02
+*package TD85C060-25 ako P600-02
+*package TD85C090-20 ako P900-01
+*package TD85C090-25 ako P900-01
+*package TN5AC312-25 ako P312-01
+*package TN5AC312-30 ako P312-01
+*package TN5C060-55 ako P600-03
+*package TN5C090-60 ako P900-02
+*package TN5C180-90 ako P1800-03
+*package TN85C060-15 ako P600-03
+*package TN85C060-25 ako P600-03
+*package TN85C090-20 ako P900-02
+*package TN85C090-25 ako P900-02
+*package TN85C220-66 ako P320-01
+*package TP5C032-35 ako P320-03
+*package TP5C032-40 ako P320-03
+*package TP5C060-55 ako P600-00
+*package TP5C090-60 ako P900-05
+*package P312-00
+@types 1
+g 1
+@pinout
+t   CDIP24
+g 1
+p I/CLK0 1
+p I/O0 2
+p I0 3
+p I1 4
+p I2 5
+p I3 6
+p I4 7
+p I5 8
+p I6 9
+p I7 10
+p I/O1 11
+p GND_12 12
+p I/CLK1 13
+p I/O2 14
+p I/O3 15
+p I/O4 16
+p I/O5 17
+p I/O6 18
+p I/O7 19
+p I/O8 20
+p I/O9 21
+p I/O10 22
+p I/O11 23
+p Vcc_24 24
+*package P324-00
+@types 1
+g 1
+@pinout
+t   CDIP40X
+g 1
+p I/CLK0 1
+p I0 2
+p I1 3
+p I/O0 4
+p I/O1 5
+p I/O2 6
+p I/O3 7
+p GND_8 8
+p I/O4 9
+p I/O5 10
+p I/O6 11
+p I/O7 12
+p Vcc_13 13
+p I/O8 14
+p I/O9 15
+p I/O10 16
+p I/O11 17
+p I2 18
+p I3 19
+p I4 20
+p I/CLK1 21
+p I5 22
+p I6 23
+p I/O12 24
+p I/O13 25
+p I/O14 26
+p I/O15 27
+p GND_28 28
+p I/O16 29
+p I/O17 30
+p I/O18 31
+p I/O19 32
+p Vcc_33 33
+p I/O20 34
+p I/O21 35
+p I/O22 36
+p I/O23 37
+p I7 38
+p I8 39
+p I9 40
+*package P300-01
+@types 1
+g 1
+@pinout
+t   CDIP20
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p GND_10 10
+p I8 11
+p I/O0 12
+p I/O1 13
+p I/O2 14
+p I/O3 15
+p I/O4 16
+p I/O5 17
+p I/O6 18
+p I/O7 19
+p Vcc_20 20
+*package P320-00
+@types 1
+g 1
+@pinout
+t   CDIP20
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p GND_10 10
+p I8 11
+p I/O0 12
+p I/O1 13
+p I/O2 14
+p I/O3 15
+p I/O4 16
+p I/O5 17
+p I/O6 18
+p I/O7 19
+p Vcc_20 20
+*package P600-02
+@types 1
+g 1
+@pinout
+t   CDIP24
+g 1
+p CLK0 1
+p I0 2
+p I/O0 3
+p I/O1 4
+p I/O2 5
+p I/O3 6
+p I/O4 7
+p I/O5 8
+p I/O6 9
+p I/O7 10
+p I1 11
+p GND_12 12
+p CLK1 13
+p I2 14
+p I/O8 15
+p I/O9 16
+p I/O10 17
+p I/O11 18
+p I/O12 19
+p I/O13 20
+p I/O14 21
+p I/O15 22
+p I3 23
+p Vcc_24 24
+*package P900-01
+@types 1
+g 1
+@pinout
+t   CDIP40X
+g 1
+p CLK0 1
+p I0 2
+p I1 3
+p I2 4
+p I/O0 5
+p I/O1 6
+p I/O2 7
+p I/O3 8
+p I/O4 9
+p I/O5 10
+p I/O6 11
+p I/O7 12
+p I/O8 13
+p I/O9 14
+p I/O10 15
+p I/O11 16
+p I3 17
+p I4 18
+p I5 19
+p GND_20 20
+p CLK1 21
+p I6 22
+p I7 23
+p I8 24
+p I/O12 25
+p I/O13 26
+p I/O14 27
+p I/O15 28
+p I/O16 29
+p I/O17 30
+p I/O18 31
+p I/O19 32
+p I/O20 33
+p I/O21 34
+p I/O22 35
+p I/O23 36
+p I9 37
+p I10 38
+p I11 39
+p Vcc_40 40
+*package P224-00
+@types 1
+g 1
+@pinout
+t   CDIP24
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p I8 10
+p I9 11
+p GND_12 12
+p I10 13
+p I11 14
+p I/O0 15
+p I/O1 16
+p I/O2 17
+p I/O3 18
+p I/O4 19
+p I/O5 20
+p I/O6 21
+p I/O7 22
+p I12 23
+p Vcc_24 24
+*package P22V10I-00
+@types 1
+g 1
+@pinout
+t   CDIP24
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p I8 10
+p I9 11
+p GND_12 12
+p I10 13
+p I/O0 14
+p I/O1 15
+p I/O2 16
+p I/O3 17
+p I/O4 18
+p I/O5 19
+p I/O6 20
+p I/O7 21
+p I/O8 22
+p I/O9 23
+p Vcc_24 24
+*package P508-00
+@types 1
+g 1
+@pinout
+t   CDIP28
+g 1
+p Vpp_1 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p I8 10
+p I9 11
+p I10 12
+p I11 13
+p GND_14 14
+p CLK 15
+p I12 16
+p I13 17
+p O0 18
+p O1 19
+p O2 20
+p O3 21
+p O4 22
+p O5 23
+p O6 24
+p O7 25
+p I14 26
+p I15 27
+p Vcc_28 28
+*package P1800-00
+@types 1
+g 1
+@pinout
+t   CPGA68
+g 1
+p GND_F2 F2
+p I/O0 F1
+p I/O1 G2
+p I/O2 G1
+p I/O3 H2
+p I/O4 H1
+p I/O5 J2
+p I/O6 J1
+p I/O7 K1
+p I/O8 K2
+p I/O9 L2
+p I/O10 K3
+p I/O11 L3
+p I0 K4
+p I1 L4
+p I2 K5
+p I/CLK0 L5
+p Vcc_K6 K6
+p I/CLK1 L6
+p I3 K7
+p I4 L7
+p I5 K8
+p I/O12 L8
+p I/O13 K9
+p I/O14 L9
+p I/O15 L10
+p I/O16 K10
+p I/O17 K11
+p I/O18 J10
+p I/O19 J11
+p I/O20 H10
+p I/O21 H11
+p I/O22 G10
+p I/O23 G11
+p GND_F10 F10
+p I/O24 F11
+p I/O25 E10
+p I/O26 E11
+p I/O27 D10
+p I/O28 D11
+p I/O29 C10
+p I/O30 C11
+p I/O31 B11
+p I/O32 B10
+p I/O33 A10
+p I/O34 B9
+p I/O35 A9
+p I6 B8
+p I7 A8
+p I8 B7
+p I/CLK2 A7
+p Vcc_B6 B6
+p I/CLK3 A6
+p I9 B5
+p I10 A5
+p I11 B4
+p I/O36 A4
+p I/O37 B3
+p I/O38 A3
+p I/O39 A2
+p I/O40 B2
+p I/O41 B1
+p I/O42 C2
+p I/O43 C1
+p I/O44 D2
+p I/O45 D1
+p I/O46 E2
+p I/O47 E1
+*package P312-01
+@types 1
+g 1
+@pinout
+t   PLCC28
+g 1
+p Vcc_1 1
+p I/CLK0 2
+p I/O0 3
+p I0 4
+p I1 5
+p I2 6
+p I3 7
+p I4 8
+p I5 9
+p I6 10
+p I7 12
+p I/O1 13
+p GND_14 14
+p GND_15 15
+p I/CLK1 16
+p I/O2 17
+p I/O3 18
+p I/O4 20
+p I/O5 21
+p I/O6 22
+p I/O7 23
+p I/O8 24
+p I/O9 25
+p I/O10 26
+p I/O11 27
+p Vcc_28 28
+*package P324-01
+@types 1
+g 1
+@pinout
+t   PLCC44
+g 1
+p I/CLK0 2
+p I0 3
+p I1 4
+p I/O0 5
+p I/O1 6
+p I/O2 7
+p I/O3 8
+p GND_9 9
+p I/O4 10
+p I/O5 11
+p I/O6 13
+p I/O7 14
+p Vcc_15 15
+p I/O8 16
+p I/O9 17
+p I/O10 18
+p I/O11 19
+p I2 20
+p I3 21
+p I4 22
+p I/CLK1 24
+p I5 25
+p I6 26
+p I/O12 27
+p I/O13 28
+p I/O14 29
+p I/O15 30
+p GND_31 31
+p I/O16 32
+p I/O17 33
+p I/O18 35
+p I/O19 36
+p Vcc_37 37
+p I/O20 38
+p I/O21 39
+p I/O22 40
+p I/O23 41
+p I7 42
+p I8 43
+p I9 44
+*package P600-03
+@types 1
+g 1
+@pinout
+t   PLCC28
+g 1
+p Vcc_1 1
+p CLK0 2
+p I0 3
+p I/O0 4
+p I/O1 5
+p I/O2 6
+p I/O3 7
+p I/O4 8
+p I/O5 9
+p I/O6 10
+p I/O7 12
+p I1 13
+p GND_14 14
+p GND_15 15
+p CLK1 16
+p I2 17
+p I/O8 18
+p I/O9 20
+p I/O10 21
+p I/O11 22
+p I/O12 23
+p I/O13 24
+p I/O14 25
+p I/O15 26
+p I3 27
+p Vcc_28 28
+*package P900-02
+@types 1
+g 1
+@pinout
+t   PLCC44
+g 1
+p Vcc_1 1
+p CLK0 2
+p I0 3
+p I1 4
+p I2 5
+p I/O0 6
+p I/O1 7
+p I/O2 8
+p I/O3 9
+p I/O4 10
+p I/O5 11
+p I/O6 12
+p I/O7 13
+p I/O8 14
+p I/O9 15
+p I/O10 16
+p I/O11 18
+p I3 19
+p I4 20
+p I5 21
+p GND_22 22
+p GND_23 23
+p CLK1 24
+p I6 25
+p I7 26
+p I8 27
+p I/O12 28
+p I/O13 29
+p I/O14 30
+p I/O15 31
+p I/O16 32
+p I/O17 33
+p I/O18 34
+p I/O19 35
+p I/O20 36
+p I/O21 37
+p I/O22 38
+p I/O23 40
+p I9 41
+p I10 42
+p I11 43
+p Vcc_44 44
+*package P1800-01
+@types 1
+g 1
+@pinout
+t   PLCC68
+g 1
+p GND_1 1
+p I/O0 2
+p I/O1 3
+p I/O2 4
+p I/O3 5
+p I/O4 6
+p I/O5 7
+p I/O6 8
+p I/O7 9
+p I/O8 10
+p I/O9 11
+p I/O10 12
+p I/O11 13
+p I0 14
+p I1 15
+p I2 16
+p I/CLK0 17
+p Vcc_18 18
+p I/CLK1 19
+p I3 20
+p I4 21
+p I5 22
+p I/O12 23
+p I/O13 24
+p I/O14 25
+p I/O15 26
+p I/O16 27
+p I/O17 28
+p I/O18 29
+p I/O19 30
+p I/O20 31
+p I/O21 32
+p I/O22 33
+p I/O23 34
+p GND_35 35
+p I/O24 36
+p I/O25 37
+p I/O26 38
+p I/O27 39
+p I/O28 40
+p I/O29 41
+p I/O30 42
+p I/O31 43
+p I/O32 44
+p I/O33 45
+p I/O34 46
+p I/O35 47
+p I6 48
+p I7 49
+p I8 50
+p I/CLK2 51
+p Vcc_52 52
+p I/CLK3 53
+p I9 54
+p I10 55
+p I11 56
+p I/O36 57
+p I/O37 58
+p I/O38 59
+p I/O39 60
+p I/O40 61
+p I/O41 62
+p I/O42 63
+p I/O43 64
+p I/O44 65
+p I/O45 66
+p I/O46 67
+p I/O47 68
+*package P900-04
+@types 1
+g 1
+@pinout
+t   PLCD44
+g 1
+p Vcc_1 1
+p CLK0 2
+p I0 3
+p I1 4
+p I2 5
+p I/O0 6
+p I/O1 7
+p I/O2 8
+p I/O3 9
+p I/O4 10
+p I/O5 11
+p I/O6 12
+p I/O7 13
+p I/O8 14
+p I/O9 15
+p I/O10 16
+p I/O11 18
+p I3 19
+p I4 20
+p I5 21
+p GND_22 22
+p GND_23 23
+p CLK1 24
+p I6 25
+p I7 26
+p I8 27
+p I/O12 28
+p I/O13 29
+p I/O14 30
+p I/O15 31
+p I/O16 32
+p I/O17 33
+p I/O18 34
+p I/O19 35
+p I/O20 36
+p I/O21 37
+p I/O22 38
+p I/O23 40
+p I9 41
+p I10 42
+p I11 43
+p Vcc_44 44
+*package P320-01
+@types 1
+g 1
+@pinout
+t   PLCC20
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p GND_10 10
+p I8 11
+p I/O0 12
+p I/O1 13
+p I/O2 14
+p I/O3 15
+p I/O4 16
+p I/O5 17
+p I/O6 18
+p I/O7 19
+p Vcc_20 20
+*package P224-01
+@types 1
+g 1
+@pinout
+t   PLCC24
+g 1
+p I/CLK 2
+p I0 3
+p I1 4
+p I2 5
+p I3 6
+p I4 7
+p I5 9
+p I6 10
+p I7 11
+p I8 12
+p I9 13
+p GND_14 14
+p I10 16
+p I11 17
+p I/O0 18
+p I/O1 19
+p I/O2 20
+p I/O3 21
+p I/O4 23
+p I/O5 24
+p I/O6 25
+p I/O7 26
+p I12 27
+p Vcc_28 28
+*package P22V10I-01
+@types 1
+g 1
+@pinout
+t   PLCC28
+g 1
+p I/CLK 2
+p I0 3
+p I1 4
+p I2 5
+p I3 6
+p I4 7
+p I5 9
+p I6 10
+p I7 11
+p I8 12
+p I9 13
+p GND_14 14
+p I10 16
+p I/O0 17
+p I/O1 18
+p I/O2 19
+p I/O3 20
+p I/O4 21
+p I/O5 23
+p I/O6 24
+p I/O7 25
+p I/O8 26
+p I/O9 27
+p Vcc_28 28
+*package P508-01
+@types 1
+g 1
+@pinout
+t   PLCC28
+g 1
+p Vpp_1 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p I8 10
+p I9 11
+p I10 12
+p I11 13
+p GND_14 14
+p CLK 15
+p I12 16
+p I13 17
+p O0 18
+p O1 19
+p O2 20
+p O3 21
+p O4 22
+p O5 23
+p O6 24
+p O7 25
+p I14 26
+p I15 27
+p Vcc_28 28
+*package P22V10-03
+@types 1
+g 1
+@pinout
+t   PLCC28
+g 1
+p I/CLK 2
+p I0 3
+p I1 4
+p I2 5
+p I3 6
+p I4 7
+p I5 9
+p I6 10
+p I7 11
+p I8 12
+p I9 13
+p GND_14 14
+p I10 16
+p I/O0 17
+p I/O1 18
+p I/O2 19
+p I/O3 20
+p I/O4 21
+p I/O5 23
+p I/O6 24
+p I/O7 25
+p I/O8 26
+p I/O9 27
+p Vcc_28 28
+*package P312-02
+@types 1
+g 1
+@pinout
+t   DIP24
+g 1
+p I/CLK0 1
+p I/O0 2
+p I0 3
+p I1 4
+p I2 5
+p I3 6
+p I4 7
+p I5 8
+p I6 9
+p I7 10
+p I/O1 11
+p GND_12 12
+p I/CLK1 13
+p I/O2 14
+p I/O3 15
+p I/O4 16
+p I/O5 17
+p I/O6 18
+p I/O7 19
+p I/O8 20
+p I/O9 21
+p I/O10 22
+p I/O11 23
+p Vcc_24 24
+*package P324-02
+@types 1
+g 1
+@pinout
+t   DIP40X
+g 1
+p I/CLK0 1
+p I0 2
+p I1 3
+p I/O0 4
+p I/O1 5
+p I/O2 6
+p I/O3 7
+p GND_8 8
+p I/O4 9
+p I/O5 10
+p I/O6 11
+p I/O7 12
+p Vcc_13 13
+p I/O8 14
+p I/O9 15
+p I/O10 16
+p I/O11 17
+p I2 18
+p I3 19
+p I4 20
+p I/CLK1 21
+p I5 22
+p I6 23
+p I/O12 24
+p I/O13 25
+p I/O14 26
+p I/O15 27
+p GND_28 28
+p I/O16 29
+p I/O17 30
+p I/O18 31
+p I/O19 32
+p Vcc_33 33
+p I/O20 34
+p I/O21 35
+p I/O22 36
+p I/O23 37
+p I7 38
+p I8 39
+p I9 40
+*package P320-03
+@types 1
+g 1
+@pinout
+t   DIP20
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p GND_10 10
+p I8 11
+p I/O0 12
+p I/O1 13
+p I/O2 14
+p I/O3 15
+p I/O4 16
+p I/O5 17
+p I/O6 18
+p I/O7 19
+p Vcc_20 20
+*package P600-00
+@types 1
+g 1
+@pinout
+t   DIP24
+g 1
+p CLK0 1
+p I0 2
+p I/O0 3
+p I/O1 4
+p I/O2 5
+p I/O3 6
+p I/O4 7
+p I/O5 8
+p I/O6 9
+p I/O7 10
+p I1 11
+p GND_12 12
+p CLK1 13
+p I2 14
+p I/O8 15
+p I/O9 16
+p I/O10 17
+p I/O11 18
+p I/O12 19
+p I/O13 20
+p I/O14 21
+p I/O15 22
+p I3 23
+p Vcc_24 24
+*package P900-00
+@types 1
+g 1
+@pinout
+t   DIP40X
+g 1
+p CLK0 1
+p I0 2
+p I1 3
+p I2 4
+p I/O0 5
+p I/O1 6
+p I/O2 7
+p I/O3 8
+p I/O4 9
+p I/O5 10
+p I/O6 11
+p I/O7 12
+p I/O8 13
+p I/O9 14
+p I/O10 15
+p I/O11 16
+p I3 17
+p I4 18
+p I5 19
+p GND_20 20
+p CLK1 21
+p I6 22
+p I7 23
+p I8 24
+p I/O12 25
+p I/O13 26
+p I/O14 27
+p I/O15 28
+p I/O16 29
+p I/O17 30
+p I/O18 31
+p I/O19 32
+p I/O20 33
+p I/O21 34
+p I/O22 35
+p I/O23 36
+p I9 37
+p I10 38
+p I11 39
+p Vcc_40 40
+*package P224-02
+@types 1
+g 1
+@pinout
+t   DIP24
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p I8 10
+p I9 11
+p GND_12 12
+p I10 13
+p I11 14
+p I/O0 15
+p I/O1 16
+p I/O2 17
+p I/O3 18
+p I/O4 19
+p I/O5 20
+p I/O6 21
+p I/O7 22
+p I12 23
+p Vcc_24 24
+*package P22V10I-02
+@types 1
+g 1
+@pinout
+t   DIP24
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p I8 10
+p I9 11
+p GND_12 12
+p I10 13
+p I/O0 14
+p I/O1 15
+p I/O2 16
+p I/O3 17
+p I/O4 18
+p I/O5 19
+p I/O6 20
+p I/O7 21
+p I/O8 22
+p I/O9 23
+p Vcc_24 24
+*package P22V10-04
+@types 1
+g 1
+@pinout
+t   DIP24
+g 1
+p I/CLK 1
+p I0 2
+p I1 3
+p I2 4
+p I3 5
+p I4 6
+p I5 7
+p I6 8
+p I7 9
+p I8 10
+p I9 11
+p GND_12 12
+p I10 13
+p I/O0 14
+p I/O1 15
+p I/O2 16
+p I/O3 17
+p I/O4 18
+p I/O5 19
+p I/O6 20
+p I/O7 21
+p I/O8 22
+p I/O9 23
+p Vcc_24 24
+*package P1800-03
+@types 1
+g 1
+@pinout
+t   PLCC44
+g 1
+p GND_1 1
+p I/O0 2
+p I/O1 3
+p I/O2 4
+p I/O3 5
+p I/O4 6
+p I/O5 7
+p I/O6 8
+p I/O7 9
+p I/O8 10
+p I/O9 11
+p I/O10 12
+p I/O11 13
+p I0 14
+p I1 15
+p I2 16
+p I/CLK0 17
+p Vcc_18 18
+p I/CLK1 19
+p I3 20
+p I4 21
+p I5 22
+p I/O12 23
+p I/O13 24
+p I/O14 25
+p I/O15 26
+p I/O16 27
+p I/O17 28
+p I/O18 29
+p I/O19 30
+p I/O20 31
+p I/O21 32
+p I/O22 33
+p I/O23 34
+p GND_35 35
+p I/O24 36
+p I/O25 37
+p I/O26 38
+p I/O27 39
+p I/O28 40
+p I/O29 41
+p I/O30 42
+p I/O31 43
+p I/O32 44
+p I/O33 45
+p I/O34 46
+p I/O35 47
+p I6 48
+p I7 49
+p I8 50
+p I/CLK2 51
+p Vcc_52 52
+p I/CLK3 53
+p I9 54
+p I10 55
+p I11 56
+p I/O36 57
+p I/O37 58
+p I/O38 59
+p I/O39 60
+p I/O40 61
+p I/O41 62
+p I/O42 63
+p I/O43 64
+p I/O44 65
+p I/O45 66
+p I/O46 67
+p I/O47 68
+*package P900-05
+@types 1
+g 1
+@pinout
+t   DIP24
+g 1
+p CLK0 1
+p I0 2
+p I1 3
+p I2 4
+p I/O0 5
+p I/O1 6
+p I/O2 7
+p I/O3 8
+p I/O4 9
+p I/O5 10
+p I/O6 11
+p I/O7 12
+p I/O8 13
+p I/O9 14
+p I/O10 15
+p I/O11 16
+p I3 17
+p I4 18
+p I5 19
+p GND_20 20
+p CLK1 21
+p I6 22
+p I7 23
+p I8 24
+p I/O12 25
+p I/O13 26
+p I/O14 27
+p I/O15 28
+p I/O16 29
+p I/O17 30
+p I/O18 31
+p I/O19 32
+p I/O20 33
+p I/O21 34
+p I/O22 35
+p I/O23 36
+p I9 37
+p I10 38
+p I11 39
+p Vcc_40 40

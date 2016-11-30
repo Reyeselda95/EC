@@ -1,0 +1,13445 @@
+*version 6.3 150189783
+@index
+symloc AM26LS31 0 172
+symloc AM26LS31CN 172 174
+symloc AM26LS32 346 463
+symloc AM26LS32ACD 809 182
+symloc AM26LS32ACN 991 183
+symloc AM26LS32AMFK 1174 186
+symloc AM26LS32AMJ 1360 184
+symloc AM26LS33 1544 463
+symloc AM26LS33ACD 2007 182
+symloc AM26LS33ACN 2189 183
+symloc AM26LS33AMFK 2372 186
+symloc AM26LS33AMJ 2558 184
+symloc AM26S10 2742 307
+symloc AM26S10CD 3049 174
+symloc AM26S10CN 3223 175
+symloc AM26S11 3398 307
+symloc AM26S11CD 3705 174
+symloc AM26S11CN 3879 175
+symloc DS3680 4054 318
+symloc DS3680D 4372 178
+symloc DS3680N 4550 179
+symloc L293 4729 182
+symloc L293NE 4911 184
+symloc L298 5095 182
+symloc L298KV 5277 184
+symloc SN65176 5461 175
+symloc SN65176BD 5636 108
+symloc SN65176BP 5744 109
+symloc SN65500 5853 780
+symloc SN65500EFN 6633 413
+symloc SN65500EN 7046 410
+symloc SN65501 7456 778
+symloc SN65501EFN 8234 412
+symloc SN65501EN 8646 409
+symloc SN65512 9055 226
+symloc SN65512CN 9281 228
+symloc SN65518 9509 775
+symloc SN65518FN 10284 409
+symloc SN65518N 10693 407
+symloc SN65551 11100 752
+symloc SN65551FN 11852 397
+symloc SN65551N 12249 396
+symloc SN65552 12645 752
+symloc SN65552FN 13397 397
+symloc SN65552N 13794 396
+symloc SN65553 14190 774
+symloc SN65553FN 14964 408
+symloc SN65553N 15372 407
+symloc SN65554 15779 774
+symloc SN65554FN 16553 408
+symloc SN65554N 16961 407
+symloc SN65555 17368 774
+symloc SN65555FN 18142 408
+symloc SN65555N 18550 407
+symloc SN65556 18957 774
+symloc SN65556FN 19731 408
+symloc SN65556N 20139 407
+symloc SN65563 20546 447
+symloc SN65563AFN 20993 440
+symloc SN65564 21433 447
+symloc SN65564AFN 21880 440
+symloc SN75061 22320 209
+symloc SN75061N 22529 210
+symloc SN75068 22739 179
+symloc SN75068NE 22918 181
+symloc SN75069 23099 179
+symloc SN75069NE 23278 181
+symloc SN75107 23459 263
+symloc SN75107AD 23722 152
+symloc SN75107AN 23874 153
+symloc SN75107BN:SN75107AN 24027 33
+symloc SN75108 24060 263
+symloc SN75108AD 24323 152
+symloc SN75108AN 24475 153
+symloc SN75108BD:SN75108AD 24628 33
+symloc SN75109 24661 283
+symloc SN75109AD 24944 162
+symloc SN75109AN 25106 163
+symloc SN75110 25269 283
+symloc SN75110AD 25552 162
+symloc SN75110AN 25714 163
+symloc SN75111 25877 471
+symloc SN75111D 26348 182
+symloc SN75111FK 26530 186
+symloc SN75111J 26716 184
+symloc SN75111N:SN75111J 26900 31
+symloc SN75112 26931 161
+symloc SN75112N 27092 162
+symloc SN75113 27254 335
+symloc SN75113D 27589 187
+symloc SN75113N 27776 188
+symloc SN75114 27964 335
+symloc SN75114D 28299 187
+symloc SN75114N 28486 188
+symloc SN75115 28674 359
+symloc SN75115D 29033 199
+symloc SN75115N 29232 200
+symloc SN75116 29432 337
+symloc SN75116D 29769 188
+symloc SN75116N 29957 189
+symloc SN75117 30146 175
+symloc SN75117D 30321 107
+symloc SN75117P 30428 108
+symloc SN75118 30536 337
+symloc SN75118D 30873 188
+symloc SN75118N 31061 189
+symloc SN75119 31250 175
+symloc SN75119D 31425 107
+symloc SN75119P 31532 108
+symloc SN75121 31640 303
+symloc SN75121D 31943 171
+symloc SN75121N 32114 172
+symloc SN75122 32286 327
+symloc SN75122D 32613 183
+symloc SN75122N 32796 184
+symloc SN75123 32980 303
+symloc SN75123D 33283 171
+symloc SN75123N 33454 172
+symloc SN75124 33626 327
+symloc SN75124D 33953 183
+symloc SN75124N 34136 184
+symloc SN75125 34320 331
+symloc SN75125D 34651 185
+symloc SN75125N 34836 186
+symloc SN75127 35022 331
+symloc SN75127D 35353 185
+symloc SN75127N 35538 186
+symloc SN75128 35724 219
+symloc SN75128N 35943 220
+symloc SN75129 36163 408
+symloc SN75129D 36571 224
+symloc SN75129N 36795 224
+symloc SN75136 37019 323
+symloc SN75136D 37342 181
+symloc SN75136N 37523 182
+symloc SN75138 37705 307
+symloc SN75138D 38012 173
+symloc SN75138J 38185 310
+symloc SN75138N 38495 174
+symloc SN75140 38669 221
+symloc SN75140D 38890 130
+symloc SN75140P 39020 131
+symloc SN75141 39151 221
+symloc SN75141D 39372 130
+symloc SN75141P 39502 131
+symloc SN75146 39633 191
+symloc SN75150 39824 187
+symloc SN75150D 40011 113
+symloc SN75150P 40124 114
+symloc SN75151 40238 210
+symloc SN751516 40448 411
+symloc SN751516FT 40859 413
+symloc SN75151N 41272 211
+symloc SN75153 41483 317
+symloc SN75153D 41800 178
+symloc SN75153N 41978 179
+symloc SN75154 42157 325
+symloc SN75154D 42482 182
+symloc SN75154N 42664 183
+symloc SN75155 42847 191
+symloc SN75155D 43038 115
+symloc SN75155P 43153 116
+symloc SN75157 43269 207
+symloc SN75157D 43476 123
+symloc SN75157P 43599 124
+symloc SN75158 43723 183
+symloc SN75158D 43906 111
+symloc SN75158P 44017 112
+symloc SN75159 44129 255
+symloc SN75159D 44384 147
+symloc SN75159N 44531 148
+symloc SN75160 44679 368
+symloc SN75160BDW 45047 206
+symloc SN75160BN 45253 205
+symloc SN75160DW 45458 205
+symloc SN75160N 45663 204
+symloc SN75161 45867 440
+symloc SN75161BDW 46307 242
+symloc SN75161BN 46549 241
+symloc SN75162 46790 457
+symloc SN75162BDW 47247 250
+symloc SN75162BN 47497 250
+symloc SN75163 47747 203
+symloc SN75163BN 47950 205
+symloc SN75164 48155 261
+symloc SN75164BN 48416 263
+symloc SN75172 48679 306
+symloc SN75172D 48985 174
+symloc SN75172N 49159 172
+symloc SN75173 49331 184
+symloc SN75173D 49515 179
+symloc SN75173J 49694 181
+symloc SN75176 49875 175
+symloc SN75176BD 50050 108
+symloc SN75176BP 50158 109
+symloc SN75177 50267 173
+symloc SN75177BD 50440 107
+symloc SN75177BJG:SN75177BP 50547 34
+symloc SN75177BP 50581 108
+symloc SN75178 50689 177
+symloc SN75178AP 50866 110
+symloc SN75178BD 50976 109
+symloc SN75178BP:SN75178AP 51085 33
+symloc SN75179 51118 171
+symloc SN75179AP 51289 107
+symloc SN75179BD 51396 106
+symloc SN75179BP:SN75179AP 51502 33
+symloc SN75182 51535 335
+symloc SN75182D 51870 187
+symloc SN75182N 52057 188
+symloc SN75183 52245 159
+symloc SN75183N 52404 160
+symloc SN75188 52564 293
+symloc SN75188N 52857 167
+symloc SN75189 53024 319
+symloc SN75189AD 53343 180
+symloc SN75189AN 53523 181
+symloc SN75189N:SN75189AN 53704 32
+symloc SN75207 53736 261
+symloc SN75207AD:SN75207D 53997 32
+symloc SN75207AJ 54029 153
+symloc SN75207AN:SN75207N 54182 32
+symloc SN75207BD:SN75207D 54214 32
+symloc SN75207BJ:SN75207N 54246 32
+symloc SN75207BN:SN75207N 54278 32
+symloc SN75207D 54310 150
+symloc SN75207N 54460 151
+symloc SN75372 54611 187
+symloc SN75372D 54798 113
+symloc SN75372P 54911 114
+symloc SN75374 55025 337
+symloc SN75374D 55362 188
+symloc SN75374N 55550 189
+symloc SN75435 55739 187
+symloc SN75435NE 55926 189
+symloc SN75435NE3:SN75435NE 56115 34
+symloc SN75436 56149 187
+symloc SN75436NE 56336 189
+symloc SN75437 56525 187
+symloc SN75437NE 56712 189
+symloc SN75437NE3:SN75437NE 56901 34
+symloc SN75438 56935 187
+symloc SN75438NE 57122 189
+symloc SN754410 57311 186
+symloc SN754410NE 57497 188
+symloc SN754411 57685 186
+symloc SN754411NE 57871 188
+symloc SN75446 58059 177
+symloc SN75446D 58236 108
+symloc SN75446P 58344 109
+symloc SN75447 58453 185
+symloc SN75447P 58638 113
+symloc SN75447D 58751 112
+symloc SN75448 58863 177
+symloc SN75448D 59040 108
+symloc SN75448P 59148 109
+symloc SN75449 59257 185
+symloc SN75449D 59442 112
+symloc SN75449P 59554 113
+symloc SN75451 59667 175
+symloc SN75451BD 59842 108
+symloc SN75451BP 59950 109
+symloc SN75452 60059 183
+symloc SN75452BD 60242 112
+symloc SN75452BP 60354 113
+symloc SN75453 60467 175
+symloc SN75453BD 60642 108
+symloc SN75453BP 60750 109
+symloc SN75454 60859 183
+symloc SN75454BD 61042 112
+symloc SN75454BP 61154 113
+symloc SN75461 61267 175
+symloc SN75461D 61442 107
+symloc SN75461P 61549 108
+symloc SN75462 61657 183
+symloc SN75462D 61840 111
+symloc SN75462JG 61951 114
+symloc SN75462P 62065 112
+symloc SN75463 62177 175
+symloc SN75463D 62352 107
+symloc SN75463P 62459 108
+symloc SN75465 62567 184
+symloc SN75465N 62751 185
+symloc SN75466 62936 329
+symloc SN75466D 63265 184
+symloc SN75466N 63449 185
+symloc SN75467 63634 183
+symloc SN75467N 63817 184
+symloc SN75468 64001 183
+symloc SN75468N 64184 184
+symloc SN75469 64368 327
+symloc SN75469D 64695 183
+symloc SN75469N 64878 184
+symloc SN75471 65062 175
+symloc SN75471D 65237 107
+symloc SN75471P 65344 108
+symloc SN75472 65452 183
+symloc SN75472D 65635 111
+symloc SN75472P 65746 112
+symloc SN75473 65858 175
+symloc SN75473D 66033 107
+symloc SN75473P 66140 108
+symloc SN75476 66248 177
+symloc SN75476D 66425 108
+symloc SN75476P 66533 109
+symloc SN75477 66642 185
+symloc SN75477D 66827 112
+symloc SN75477P 66939 113
+symloc SN75478 67052 177
+symloc SN75478D 67229 108
+symloc SN75478P 67337 109
+symloc SN75479 67446 185
+symloc SN75479D 67631 112
+symloc SN75479P 67743 113
+symloc SN75500 67856 780
+symloc SN75500EFN 68636 413
+symloc SN75500EN 69049 410
+symloc SN75501 69459 778
+symloc SN75501EFN 70237 412
+symloc SN75501EN 70649 409
+symloc SN75512 71058 226
+symloc SN75512AN 71284 228
+symloc SN75512BN:SN75512AN 71512 33
+symloc SN75512CN:SN75512AN 71545 33
+symloc SN75518 71578 775
+symloc SN75518FN 72353 409
+symloc SN75518N 72762 407
+symloc SN75552 73169 752
+symloc SN75552FN 73921 395
+symloc SN75552N 74316 394
+symloc SN75553 74710 774
+symloc SN75553FN 75484 408
+symloc SN75553N 75892 407
+symloc SN75554 76299 774
+symloc SN75554FN 77073 408
+symloc SN75554N 77481 407
+symloc SN75555 77888 774
+symloc SN75555FN 78662 408
+symloc SN75555N 79070 407
+symloc SN75556 79477 774
+symloc SN75556FN 80251 408
+symloc SN75556N 80659 407
+symloc SN75563 81066 447
+symloc SN75563AFN 81513 440
+symloc SN75564 81953 447
+symloc SN75564AFN 82400 440
+symloc SN75608 82840 201
+symloc SN75608KV 83041 203
+symloc SN75ALS126 83244 330
+symloc SN75ALS126D 83574 186
+symloc SN75ALS126J 83760 188
+symloc SN75ALS126N:SN75ALS126J 83948 37
+symloc SN75ALS130 83985 324
+symloc SN75ALS130D 84309 183
+symloc SN75ALS160 84492 371
+symloc SN75ALS161 84863 443
+symloc SN75ALS161DW 85306 244
+symloc SN75ALS161N 85550 243
+symloc SN75ALS162 85793 460
+symloc SN75ALS162DW 86253 252
+symloc SN75ALS162N 86505 252
+symloc SN75ALS163 86757 371
+symloc SN75ALS163DW 87128 208
+symloc SN75ALS163DWR:SN75ALS163DW 87336 40
+symloc SN75ALS163N 87376 207
+symloc SN75ALS164 87583 264
+symloc SN75ALS164N 87847 265
+symloc SN75ALS165 88112 371
+symloc SN75ALS165DW 88483 208
+symloc SN75ALS165N 88691 207
+symloc SN75ALS192 88898 465
+symloc SN75ALS192D 89363 182
+symloc SN75ALS192FK 89545 186
+symloc SN75ALS192J 89731 184
+symloc SN75ALS192N 89915 183
+symloc SN75ALS193 90098 183
+symloc SN75ALS193J 90281 184
+symloc TL4810 90465 380
+symloc TL4810AN 90845 210
+symloc TL4810BDW 91055 212
+symloc TL4810BIN:TL4810AN 91267 32
+symloc TL4810IDW:TL4810BDW 91299 33
+symloc TL4810IN:TL4810AN 91332 31
+symloc TL5812 91363 557
+symloc TL5812FN 91920 299
+symloc TL5812IFN:TL5812FN 92219 32
+symloc TL5812IN:TL5812N 92251 30
+symloc TL5812N 92281 298
+symloc TLC1540 92579 429
+symloc TLC1540CDW 93008 230
+symloc TLC1540CFK 93238 230
+symloc TLC1540CFN 93468 231
+symloc TLC1540CJ 93699 230
+symloc TLC1540CN 93929 229
+symloc TLC1540IDW:TLC1540CDW 94158 35
+symloc TLC1540IFK:TLC1540CFK 94193 35
+symloc TLC1540IFN:TLC1540CFN 94228 35
+symloc TLC1540IJ 94263 230
+symloc TLC1540IN:TLC1540CN 94493 33
+symloc TLC1541 94526 429
+symloc TLC1541CFN 94955 231
+symloc TLC1541CN 95186 229
+symloc TLC1541IDW 95415 230
+symloc TLC1541IFN:TLC1541CFN 95645 35
+symloc TLC1541IN:TLC1541CN 95680 33
+symloc TLC1541MFKB 95713 231
+symloc TLC1541MJB 95944 231
+symloc TLC532 96175 583
+symloc TLC532AIFN 96758 314
+symloc TLC532AIN 97072 313
+symloc TLC533 97385 310
+symloc TLC533AIN 97695 313
+symloc TLC533AMN:TLC533AIN 98008 33
+symloc TLC540 98041 416
+symloc TLC540IFN 98457 230
+symloc TLC540IN 98687 228
+symloc TLC541 98915 794
+symloc TLC541CFN:TLC541IFN 99709 33
+symloc TLC541CN 99742 228
+symloc TLC541IDW 99970 229
+symloc TLC541IFN 100199 230
+symloc TLC541IN:TLC541CN 100429 31
+symloc TLC541MFK 100460 229
+symloc TLC545 100689 561
+symloc TLC545CN 101250 301
+symloc TLC545IN 101551 301
+symloc TLC546 101852 561
+symloc TLC546IFN 102413 302
+symloc TLC546IN 102715 301
+symloc TLC7528 103016 843
+symloc TLC7528BFN:TLC7528CFN 103859 35
+symloc TLC7528BN:TLC7528CN 103894 33
+symloc TLC7528CDW 103927 242
+symloc TLC7528CFN 104169 243
+symloc TLC7528CN 104412 241
+symloc TLC7528EDW:TLC7528CDW 104653 35
+symloc TLC7528EN:TLC7528CN 104688 33
+symloc TLC7528IDW:TLC7528CDW 104721 35
+symloc TLC7528IFN:TLC7528CFN 104756 35
+symloc TLC7528IN:TLC7528CN 104791 33
+symloc TLC7528KDW:TLC7528CDW 104824 35
+symloc TLC7528KFN:TLC7528CFN 104859 35
+symloc TLC7528KN:TLC7528CN 104894 33
+symloc TLC7528MFK 104927 242
+symloc TSP5220 105169 314
+symloc TSP5220CN 105483 316
+symloc UA9636 105799 118
+symloc UA9636ACD 105917 116
+symloc UA9636ACP 106033 117
+symloc UA9637 106150 114
+symloc UA9637ACP 106264 117
+symloc UA9637AMJG 106381 119
+symloc UA9637CJG 106500 118
+symloc UA9638 106618 182
+symloc UA9638CD 106800 111
+symloc UA9638CP 106911 112
+symloc UA9639 107023 190
+symloc UA9639CD 107213 115
+symloc UA9639CP 107328 116
+symloc UA9639D 107444 114
+symloc UA9639P 107558 115
+symloc ULN2064 107673 169
+symloc ULN2064NE 107842 171
+symloc ULN2065 108013 169
+symloc ULN2065NE 108182 171
+symloc ULN2066 108353 169
+symloc ULN2066NE 108522 171
+symloc ULN2067 108693 169
+symloc ULN2067NE 108862 171
+symloc ULN2068 109033 179
+symloc ULN2068NE 109212 181
+symloc ULN2069 109393 179
+symloc ULN2069NE 109572 181
+symloc ULN2074 109753 177
+symloc ULN2074NE 109930 179
+symloc ULN2075 110109 177
+symloc ULN2075NE 110286 179
+symloc 9636 110465 188
+symloc 9637 110653 112
+symloc SN75172DW 110765 175
+symloc SN75129DW 110940 225
+*package AM26LS31
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 1
+p 2A 7
+p 3A 9
+p 4A 15
+p 1Y 2
+p 1Z 3
+p 2Y 6
+p 2Z 5
+p 3Y 10
+p 4Y 14
+p 4Z 13
+p GND 8
+p VCC 16
+p 3Z 11
+*package AM26LS31CN
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 1
+p 2A 7
+p 3A 9
+p 4A 15
+p 1Y 2
+p 1Z 3
+p 2Y 6
+p 2Z 5
+p 3Y 10
+p 4Y 14
+p 4Z 13
+p GND 8
+p VCC 16
+p 3Z 11
+*package AM26LS32
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+t DIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+t LCC20
+g 1
+p G 5
+p \G\ 15
+p 1A 3
+p 2A 8
+p 3A 13
+p 4A 18
+p 1Y 4
+p 2Y 7
+p 3Y 14
+p 4Y 17
+p GND 10
+p VCC 20
+p \1B\ 2
+p \2B\ 9
+p \3B\ 12
+p \4B\ 19
+*package AM26LS32ACD
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+*package AM26LS32ACN
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+*package AM26LS32AMFK
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p G 5
+p \G\ 15
+p 1A 3
+p 2A 8
+p 3A 13
+p 4A 18
+p 1Y 4
+p 2Y 7
+p 3Y 14
+p 4Y 17
+p GND 10
+p VCC 20
+p \1B\ 2
+p \2B\ 9
+p \3B\ 12
+p \4B\ 19
+*package AM26LS32AMJ
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+*package AM26LS33
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p G 5
+p \G\ 15
+p 1A 3
+p 2A 8
+p 3A 13
+p 4A 18
+p 1Y 4
+p 2Y 7
+p 3Y 14
+p 4Y 17
+p GND 10
+p VCC 20
+p \1B\ 2
+p \2B\ 9
+p \3B\ 12
+p \4B\ 19
+t DIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+t SO16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+*package AM26LS33ACD
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+*package AM26LS33ACN
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+*package AM26LS33AMFK
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p G 5
+p \G\ 15
+p 1A 3
+p 2A 8
+p 3A 13
+p 4A 18
+p 1Y 4
+p 2Y 7
+p 3Y 14
+p 4Y 17
+p GND 10
+p VCC 20
+p \1B\ 2
+p \2B\ 9
+p \3B\ 12
+p \4B\ 19
+*package AM26LS33AMJ
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+*package AM26S10
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+t DIP16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+*package AM26S10CD
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+*package AM26S10CN
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+*package AM26S11
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+t DIP16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+*package AM26S11CD
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+*package AM26S11CN
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+*package DS3680
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p IN1+ 1
+p IN1- 2
+p IN2- 3
+p IN2+ 4
+p IN3+ 5
+p IN3- 6
+p IN4+ 8
+p IN4- 7
+p O1 13
+p O3 11
+p O2 12
+p O4 10
+p NEG_BAT 9
+p BAT_GND 14
+t DIP14
+g 1
+p IN1+ 1
+p IN1- 2
+p IN2- 3
+p IN2+ 4
+p IN3+ 5
+p IN3- 6
+p IN4+ 8
+p IN4- 7
+p O1 13
+p O3 11
+p O2 12
+p O4 10
+p NEG_BAT 9
+p BAT_GND 14
+*package DS3680D
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p IN1+ 1
+p IN1- 2
+p IN2- 3
+p IN2+ 4
+p IN3+ 5
+p IN3- 6
+p IN4+ 8
+p IN4- 7
+p O1 13
+p O3 11
+p O2 12
+p O4 10
+p NEG_BAT 9
+p BAT_GND 14
+*package DS3680N
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p IN1+ 1
+p IN1- 2
+p IN2- 3
+p IN2+ 4
+p IN3+ 5
+p IN3- 6
+p IN4+ 8
+p IN4- 7
+p O1 13
+p O3 11
+p O2 12
+p O4 10
+p NEG_BAT 9
+p BAT_GND 14
+*package L293
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 2
+p 1,2E 1
+p 2A 7
+p 3A 10
+p 3,4E 9
+p 4A 15
+p 1Y 3
+p 2Y 6
+p 3Y 11
+p 4Y 14
+p VCC1 16
+p VCC2 8
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package L293NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 2
+p 1,2E 1
+p 2A 7
+p 3A 10
+p 3,4E 9
+p 4A 15
+p 1Y 3
+p 2Y 6
+p 3Y 11
+p 4Y 14
+p VCC1 16
+p VCC2 8
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package L298
+@types 1
+g 1
+@pinout
+t KV-15/MO-048AB
+g 1
+p 1A1 5
+p 1EN 6
+p 1A2 7
+p 2A1 10
+p 2EN 11
+p 2A2 12
+p 1Y1 2
+p 1E 1
+p 1Y2 3
+p 2Y1 13
+p 2E 15
+p 2Y2 14
+p VCC1 9
+p VCC2 4
+p GND 8
+*package L298KV
+@types 1
+g 1
+@pinout
+t KV-15/MO-048AB
+g 1
+p 1A1 5
+p 1EN 6
+p 1A2 7
+p 2A1 10
+p 2EN 11
+p 2A2 12
+p 1Y1 2
+p 1E 1
+p 1Y2 3
+p 2Y1 13
+p 2E 15
+p 2Y2 14
+p VCC1 9
+p VCC2 4
+p GND 8
+*package SN65176
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p DE 3
+p \RE\ 2
+p D 4
+p R 1
+p A 6
+p \B\ 7
+p VCC 8
+p GND 5
+t DIP8
+g 1
+p DE 3
+p \RE\ 2
+p D 4
+p R 1
+p A 6
+p \B\ 7
+p VCC 8
+p GND 5
+*package SN65176BD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p DE 3
+p \RE\ 2
+p D 4
+p R 1
+p A 6
+p \B\ 7
+p VCC 8
+p GND 5
+*package SN65176BP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p DE 3
+p \RE\ 2
+p D 4
+p R 1
+p A 6
+p \B\ 7
+p VCC 8
+p GND 5
+*package SN65500
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \STRB\ 38
+p S0 1
+p S1 39
+p \DATA\ 2
+p CLK 3
+p 1Q1 4
+p 1Q2 5
+p 1Q3 6
+p 1Q4 7
+p 1Q5 8
+p 1Q6 9
+p 1Q7 10
+p 1Q8 11
+p 2Q1 12
+p 2Q2 13
+p 2Q3 14
+p 2Q4 15
+p 2Q5 16
+p 2Q6 17
+p 2Q7 18
+p 2Q8 19
+p 3Q1 29
+p 3Q2 28
+p 3Q3 27
+p 3Q4 26
+p 3Q5 25
+p 3Q6 24
+p 3Q7 23
+p 3Q8 22
+p 4Q1 37
+p 4Q2 36
+p 4Q3 35
+p 4Q4 34
+p 4Q5 33
+p 4Q6 32
+p 4Q7 31
+p 4Q8 30
+p GND 20
+p VCC1 40
+p VCC2 21
+t PLCC44
+g 1
+p \STRB\ 42
+p S0 2
+p S1 43
+p \DATA\ 3
+p CLK 4
+p 1Q1 6
+p 1Q2 7
+p 1Q3 8
+p 1Q4 9
+p 1Q5 10
+p 1Q6 11
+p 1Q7 12
+p 1Q8 13
+p 2Q1 14
+p 2Q2 15
+p 2Q3 16
+p 2Q4 17
+p 2Q5 18
+p 2Q6 19
+p 2Q7 20
+p 2Q8 21
+p 3Q1 32
+p 3Q2 31
+p 3Q3 30
+p 3Q4 29
+p 3Q5 28
+p 3Q6 27
+p 3Q7 26
+p 3Q8 25
+p 4Q1 40
+p 4Q2 39
+p 4Q3 38
+p 4Q4 37
+p 4Q5 36
+p 4Q6 35
+p 4Q7 34
+p 4Q8 33
+p GND 22
+p VCC1 44
+p VCC2 24
+*package SN65500EFN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p \STRB\ 42
+p S0 2
+p S1 43
+p \DATA\ 3
+p CLK 4
+p 1Q1 6
+p 1Q2 7
+p 1Q3 8
+p 1Q4 9
+p 1Q5 10
+p 1Q6 11
+p 1Q7 12
+p 1Q8 13
+p 2Q1 14
+p 2Q2 15
+p 2Q3 16
+p 2Q4 17
+p 2Q5 18
+p 2Q6 19
+p 2Q7 20
+p 2Q8 21
+p 3Q1 32
+p 3Q2 31
+p 3Q3 30
+p 3Q4 29
+p 3Q5 28
+p 3Q6 27
+p 3Q7 26
+p 3Q8 25
+p 4Q1 40
+p 4Q2 39
+p 4Q3 38
+p 4Q4 37
+p 4Q5 36
+p 4Q6 35
+p 4Q7 34
+p 4Q8 33
+p GND 22
+p VCC1 44
+p VCC2 24
+*package SN65500EN
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \STRB\ 38
+p S0 1
+p S1 39
+p \DATA\ 2
+p CLK 3
+p 1Q1 4
+p 1Q2 5
+p 1Q3 6
+p 1Q4 7
+p 1Q5 8
+p 1Q6 9
+p 1Q7 10
+p 1Q8 11
+p 2Q1 12
+p 2Q2 13
+p 2Q3 14
+p 2Q4 15
+p 2Q5 16
+p 2Q6 17
+p 2Q7 18
+p 2Q8 19
+p 3Q1 29
+p 3Q2 28
+p 3Q3 27
+p 3Q4 26
+p 3Q5 25
+p 3Q6 24
+p 3Q7 23
+p 3Q8 22
+p 4Q1 37
+p 4Q2 36
+p 4Q3 35
+p 4Q4 34
+p 4Q5 33
+p 4Q6 32
+p 4Q7 31
+p 4Q8 30
+p GND 20
+p VCC1 40
+p VCC2 21
+*package SN65501
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \SUSTA\ 2
+p STR 3
+p DATA_IN 39
+p CLK 1
+p Q1 4
+p Q2 5
+p Q3 6
+p Q4 7
+p Q5 8
+p Q6 9
+p Q7 10
+p Q8 11
+p Q9 12
+p Q10 13
+p Q11 14
+p Q12 15
+p Q13 16
+p Q14 17
+p Q15 18
+p Q16 19
+p Q17 22
+p Q18 23
+p Q19 24
+p Q20 25
+p Q21 26
+p Q22 27
+p Q23 28
+p Q24 29
+p Q25 30
+p Q26 31
+p Q27 32
+p Q28 33
+p Q29 34
+p Q30 35
+p Q31 36
+p Q32 37
+p GND 20
+p VCC1 40
+p VCC2 21
+p SER_OUT 38
+t PLCC44
+g 1
+p \SUSTA\ 3
+p STR 4
+p DATA_IN 43
+p CLK 2
+p Q1 6
+p Q2 7
+p Q3 8
+p Q4 9
+p Q5 10
+p Q6 11
+p Q7 12
+p Q8 13
+p Q9 14
+p Q10 15
+p Q11 16
+p Q12 17
+p Q13 18
+p Q14 19
+p Q15 20
+p Q16 21
+p Q17 25
+p Q18 26
+p Q19 27
+p Q20 28
+p Q21 29
+p Q22 30
+p Q23 31
+p Q24 32
+p Q25 33
+p Q26 34
+p Q27 35
+p Q28 36
+p Q29 37
+p Q30 38
+p Q31 39
+p Q32 40
+p GND 22
+p VCC1 44
+p VCC2 24
+p SER_OUT 42
+*package SN65501EFN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p \SUSTA\ 3
+p STR 4
+p DATA_IN 43
+p CLK 2
+p Q1 6
+p Q2 7
+p Q3 8
+p Q4 9
+p Q5 10
+p Q6 11
+p Q7 12
+p Q8 13
+p Q9 14
+p Q10 15
+p Q11 16
+p Q12 17
+p Q13 18
+p Q14 19
+p Q15 20
+p Q16 21
+p Q17 25
+p Q18 26
+p Q19 27
+p Q20 28
+p Q21 29
+p Q22 30
+p Q23 31
+p Q24 32
+p Q25 33
+p Q26 34
+p Q27 35
+p Q28 36
+p Q29 37
+p Q30 38
+p Q31 39
+p Q32 40
+p GND 22
+p VCC1 44
+p VCC2 24
+p SER_OUT 42
+*package SN65501EN
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \SUSTA\ 2
+p STR 3
+p DATA_IN 39
+p CLK 1
+p Q1 4
+p Q2 5
+p Q3 6
+p Q4 7
+p Q5 8
+p Q6 9
+p Q7 10
+p Q8 11
+p Q9 12
+p Q10 13
+p Q11 14
+p Q12 15
+p Q13 16
+p Q14 17
+p Q15 18
+p Q16 19
+p Q17 22
+p Q18 23
+p Q19 24
+p Q20 25
+p Q21 26
+p Q22 27
+p Q23 28
+p Q24 29
+p Q25 30
+p Q26 31
+p Q27 32
+p Q28 33
+p Q29 34
+p Q30 35
+p Q31 36
+p Q32 37
+p GND 20
+p VCC1 40
+p VCC2 21
+p SER_OUT 38
+*package SN65512
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p LAT_EN 8
+p \STRB\ 3
+p DA_IN 5
+p CLK 7
+p Q1 9
+p Q2 10
+p Q3 11
+p Q4 12
+p Q5 13
+p Q6 14
+p Q7 17
+p Q8 18
+p Q9 19
+p Q10 20
+p Q11 1
+p Q12 2
+p SER_OUT 4
+p VCC1 6
+p VCC2 16
+p GND 15
+*package SN65512CN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p LAT_EN 8
+p \STRB\ 3
+p DA_IN 5
+p CLK 7
+p Q1 9
+p Q2 10
+p Q3 11
+p Q4 12
+p Q5 13
+p Q6 14
+p Q7 17
+p Q8 18
+p Q9 19
+p Q10 20
+p Q11 1
+p Q12 2
+p SER_OUT 4
+p VCC1 6
+p VCC2 16
+p GND 15
+*package SN65518
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p LAT_EN 22
+p \STR\ 19
+p DA_IN 39
+p CLK 21
+p Q1 38
+p Q2 37
+p Q3 36
+p Q4 35
+p Q5 34
+p Q6 33
+p Q7 32
+p Q8 31
+p Q9 30
+p Q10 29
+p Q11 28
+p Q12 27
+p Q13 26
+p Q14 25
+p Q15 24
+p Q16 23
+p Q17 18
+p Q18 17
+p Q19 16
+p Q20 15
+p Q21 14
+p Q22 13
+p Q23 12
+p Q24 11
+p Q25 10
+p Q26 9
+p Q27 8
+p Q28 7
+p Q29 6
+p Q30 5
+p Q31 4
+p Q32 3
+p GND 20
+p VCC1 40
+p VCC2 1
+p SER_OUT 2
+t PLCC44
+g 1
+p LAT_EN 24
+p \STR\ 21
+p DA_IN 43
+p CLK 23
+p Q1 42
+p Q2 41
+p Q3 40
+p Q4 39
+p Q5 38
+p Q6 37
+p Q7 36
+p Q8 35
+p Q9 34
+p Q10 33
+p Q11 32
+p Q12 31
+p Q13 30
+p Q14 27
+p Q15 26
+p Q16 25
+p Q17 20
+p Q18 19
+p Q19 17
+p Q20 16
+p Q21 15
+p Q22 14
+p Q23 13
+p Q24 12
+p Q25 11
+p Q26 10
+p Q27 9
+p Q28 8
+p Q29 7
+p Q30 5
+p Q31 4
+p Q32 3
+p GND 22
+p VCC1 44
+p VCC2 1
+p SER_OUT 2
+*package SN65518FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p LAT_EN 24
+p \STR\ 21
+p DA_IN 43
+p CLK 23
+p Q1 42
+p Q2 41
+p Q3 40
+p Q4 39
+p Q5 38
+p Q6 37
+p Q7 36
+p Q8 35
+p Q9 34
+p Q10 33
+p Q11 32
+p Q12 31
+p Q13 30
+p Q14 27
+p Q15 26
+p Q16 25
+p Q17 20
+p Q18 19
+p Q19 17
+p Q20 16
+p Q21 15
+p Q22 14
+p Q23 13
+p Q24 12
+p Q25 11
+p Q26 10
+p Q27 9
+p Q28 8
+p Q29 7
+p Q30 5
+p Q31 4
+p Q32 3
+p GND 22
+p VCC1 44
+p VCC2 1
+p SER_OUT 2
+*package SN65518N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p LAT_EN 22
+p \STR\ 19
+p DA_IN 39
+p CLK 21
+p Q1 38
+p Q2 37
+p Q3 36
+p Q4 35
+p Q5 34
+p Q6 33
+p Q7 32
+p Q8 31
+p Q9 30
+p Q10 29
+p Q11 28
+p Q12 27
+p Q13 26
+p Q14 25
+p Q15 24
+p Q16 23
+p Q17 18
+p Q18 17
+p Q19 16
+p Q20 15
+p Q21 14
+p Q22 13
+p Q23 12
+p Q24 11
+p Q25 10
+p Q26 9
+p Q27 8
+p Q28 7
+p Q29 6
+p Q30 5
+p Q31 4
+p Q32 3
+p GND 20
+p VCC1 40
+p VCC2 1
+p SER_OUT 2
+*package SN65551
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p EN 19
+p \STR\ 23
+p DA_IN 24
+p CLK 20
+p Q1 26
+p Q2 27
+p Q3 28
+p Q4 29
+p Q5 30
+p Q6 31
+p Q7 32
+p Q8 33
+p Q9 34
+p Q10 35
+p Q11 36
+p Q12 37
+p Q13 38
+p Q14 39
+p Q15 40
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p SUB_COM 21
+p VCC 22
+p SER_OUT 18
+t PLCC44
+g 1
+p EN 23
+p \STR\ 27
+p DA_IN 28
+p CLK 24
+p Q1 30
+p Q2 31
+p Q3 32
+p Q4 33
+p Q5 34
+p Q6 35
+p Q7 36
+p Q8 37
+p Q9 38
+p Q10 39
+p Q11 40
+p Q12 41
+p Q13 42
+p Q14 43
+p Q15 44
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p SUB_COM 25
+p VCC 26
+p SER_OUT 18
+*package SN65551FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p EN 23
+p \STR\ 27
+p DA_IN 28
+p CLK 24
+p Q1 30
+p Q2 31
+p Q3 32
+p Q4 33
+p Q5 34
+p Q6 35
+p Q7 36
+p Q8 37
+p Q9 38
+p Q10 39
+p Q11 40
+p Q12 41
+p Q13 42
+p Q14 43
+p Q15 44
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p SUB_COM 25
+p VCC 26
+p SER_OUT 18
+*package SN65551N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p EN 19
+p \STR\ 23
+p DA_IN 24
+p CLK 20
+p Q1 26
+p Q2 27
+p Q3 28
+p Q4 29
+p Q5 30
+p Q6 31
+p Q7 32
+p Q8 33
+p Q9 34
+p Q10 35
+p Q11 36
+p Q12 37
+p Q13 38
+p Q14 39
+p Q15 40
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p SUB_COM 21
+p VCC 22
+p SER_OUT 18
+*package SN65552
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p EN 19
+p \STR\ 23
+p DA_IN 24
+p CLK 20
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p SUB_COM 21
+p VCC 22
+p SER_OUT 18
+t PLCC44
+g 1
+p EN 23
+p \STR\ 27
+p DA_IN 28
+p CLK 24
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p SUB_COM 25
+p VCC 26
+p SER_OUT 18
+*package SN65552FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p EN 23
+p \STR\ 27
+p DA_IN 28
+p CLK 24
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p SUB_COM 25
+p VCC 26
+p SER_OUT 18
+*package SN65552N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p EN 19
+p \STR\ 23
+p DA_IN 24
+p CLK 20
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p SUB_COM 21
+p VCC 22
+p SER_OUT 18
+*package SN65553
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN65553FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN65553N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+*package SN65554
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 26
+p Q2 27
+p Q3 28
+p Q4 29
+p Q5 30
+p Q6 31
+p Q7 32
+p Q8 33
+p Q9 34
+p Q10 35
+p Q11 36
+p Q12 37
+p Q13 38
+p Q14 39
+p Q15 40
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 30
+p Q2 31
+p Q3 32
+p Q4 33
+p Q5 34
+p Q6 35
+p Q7 36
+p Q8 37
+p Q9 38
+p Q10 39
+p Q11 40
+p Q12 41
+p Q13 42
+p Q14 43
+p Q15 44
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN65554FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 30
+p Q2 31
+p Q3 32
+p Q4 33
+p Q5 34
+p Q6 35
+p Q7 36
+p Q8 37
+p Q9 38
+p Q10 39
+p Q11 40
+p Q12 41
+p Q13 42
+p Q14 43
+p Q15 44
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN65554N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 26
+p Q2 27
+p Q3 28
+p Q4 29
+p Q5 30
+p Q6 31
+p Q7 32
+p Q8 33
+p Q9 34
+p Q10 35
+p Q11 36
+p Q12 37
+p Q13 38
+p Q14 39
+p Q15 40
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+*package SN65555
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN65555FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN65555N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+*package SN65556
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 26
+p Q2 27
+p Q3 28
+p Q4 29
+p Q5 30
+p Q6 31
+p Q7 32
+p Q8 33
+p Q9 34
+p Q10 35
+p Q11 36
+p Q12 37
+p Q13 38
+p Q14 39
+p Q15 40
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 30
+p Q2 31
+p Q3 32
+p Q4 33
+p Q5 34
+p Q6 35
+p Q7 36
+p Q8 37
+p Q9 38
+p Q10 39
+p Q11 40
+p Q12 41
+p Q13 42
+p Q14 43
+p Q15 44
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN65556FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 30
+p Q2 31
+p Q3 32
+p Q4 33
+p Q5 34
+p Q6 35
+p Q7 36
+p Q8 37
+p Q9 38
+p Q10 39
+p Q11 40
+p Q12 41
+p Q13 42
+p Q14 43
+p Q15 44
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN65556N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 26
+p Q2 27
+p Q3 28
+p Q4 29
+p Q5 30
+p Q6 31
+p Q7 32
+p Q8 33
+p Q9 34
+p Q10 35
+p Q11 36
+p Q12 37
+p Q13 38
+p Q14 39
+p Q15 40
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+*package SN65563
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p POS_W 25
+p DA_IN 26
+p \CLK\ 21
+p Q1 29
+p Q2 30
+p Q3 31
+p Q4 32
+p Q5 33
+p Q6 34
+p Q7 35
+p Q8 36
+p Q9 37
+p Q10 38
+p Q11 39
+p Q12 40
+p Q13 41
+p Q14 42
+p Q15 43
+p Q16 44
+p Q17 1
+p Q18 2
+p Q19 3
+p Q20 4
+p Q21 5
+p Q22 6
+p Q23 7
+p Q24 8
+p Q25 9
+p Q26 10
+p Q27 11
+p Q28 12
+p Q29 13
+p Q30 14
+p Q31 15
+p Q32 16
+p VSS1 22
+p VCC1 24
+p SER_OUT 19
+p VCC2 27
+p Q33 17
+p Q34 18
+p VSS2 23
+p VCC3 28
+p ENABLE 20
+*package SN65563AFN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p POS_W 36
+p DA_IN 37
+p \CLK\ 32
+p Q1 40
+p Q2 41
+p Q3 42
+p Q4 43
+p Q5 44
+p Q6 1
+p Q7 2
+p Q8 3
+p Q9 4
+p Q10 5
+p Q11 6
+p Q12 7
+p Q13 8
+p Q14 9
+p Q15 10
+p Q16 11
+p Q17 12
+p Q18 13
+p Q19 14
+p Q20 15
+p Q21 16
+p Q22 17
+p Q23 18
+p Q24 19
+p Q25 20
+p Q26 21
+p Q27 22
+p Q28 23
+p Q29 24
+p Q30 25
+p Q31 26
+p Q32 27
+p VSS1 33
+p VCC1 35
+p SER_OUT 30
+p VCC2 38
+p Q33 28
+p Q34 29
+p VCC3 39
+p ENABLE 31
+*package SN65564
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p POS_W 25
+p ENABLE 20
+p DA_IN 26
+p \CLK\ 21
+p Q1 18
+p Q2 17
+p Q3 16
+p Q4 15
+p Q5 14
+p Q6 13
+p Q7 12
+p Q8 11
+p Q9 10
+p Q10 9
+p Q11 8
+p Q12 7
+p Q13 6
+p Q14 5
+p Q15 4
+p Q16 3
+p Q17 2
+p Q18 1
+p Q19 44
+p Q20 43
+p Q21 42
+p Q22 41
+p Q23 40
+p Q24 39
+p Q25 38
+p Q26 37
+p Q27 36
+p Q28 35
+p Q29 34
+p Q30 33
+p Q31 32
+p Q32 31
+p VSS1 22
+p VCC1 24
+p SER_OUT 19
+p VCC2 27
+p Q33 30
+p Q34 29
+p VSS2 23
+p VCC3 28
+*package SN65564AFN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p POS_W 36
+p DA_IN 37
+p \CLK\ 32
+p Q1 29
+p Q2 28
+p Q3 27
+p Q4 26
+p Q5 25
+p Q6 24
+p Q7 23
+p Q8 22
+p Q9 21
+p Q10 20
+p Q11 19
+p Q12 18
+p Q13 17
+p Q14 16
+p Q15 15
+p Q16 14
+p Q17 13
+p Q18 12
+p Q19 11
+p Q20 10
+p Q21 9
+p Q22 8
+p Q23 7
+p Q24 6
+p Q25 5
+p Q26 4
+p Q27 3
+p Q28 2
+p Q29 1
+p Q30 44
+p Q31 43
+p Q32 42
+p VSS1 33
+p VCC1 35
+p SER_OUT 30
+p VCC2 38
+p Q33 41
+p Q34 40
+p VCC3 39
+p ENABLE 31
+*package SN75061
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p \DATEN\ 15
+p \DLEN\ 13
+p DRDLAJ 1
+p DRI 14
+p RXI+ 5
+p RXI- 6
+p SQDLAJ 4
+p SQDLI 10
+p SQTHAJ 7
+p DRO+ 2
+p DRO- 3
+p RXO 12
+p SQO 11
+p SQRXO 9
+p VCC 16
+p GND 8
+*package SN75061N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p \DATEN\ 15
+p \DLEN\ 13
+p DRDLAJ 1
+p DRI 14
+p RXI+ 5
+p RXI- 6
+p SQDLAJ 4
+p SQDLI 10
+p SQTHAJ 7
+p DRO+ 2
+p DRO- 3
+p RXO 12
+p SQO 11
+p SQRXO 9
+p VCC 16
+p GND 8
+*package SN75068
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 15
+p CLAMP1 1
+p CLAMP2 9
+p 1C 2
+p 2C 8
+p 3C 10
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p VCC 14
+*package SN75068NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 15
+p CLAMP1 1
+p CLAMP2 9
+p 1C 2
+p 2C 8
+p 3C 10
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p VCC 14
+*package SN75069
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 15
+p CLAMP1 1
+p CLAMP2 9
+p 1C 2
+p 2C 8
+p 3C 10
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p VCC 14
+*package SN75069NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 15
+p CLAMP1 1
+p CLAMP2 9
+p 1C 2
+p 2C 8
+p 3C 10
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p VCC 14
+*package SN75107
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1A 1
+p \1B\ 2
+p 1G 5
+p 2A 12
+p \2B\ 11
+p 2G 8
+p \1Y\ 4
+p \2Y\ 9
+p EN 6
+p VCC+ 14
+p GND 7
+p VCC- 13
+t SO14
+g 1
+p 1A 1
+p \1B\ 2
+p 1G 5
+p 2A 12
+p \2B\ 11
+p 2G 8
+p \1Y\ 4
+p \2Y\ 9
+p EN 6
+p VCC+ 14
+p GND 7
+p VCC- 13
+*package SN75107AD
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 1A 1
+p \1B\ 2
+p 1G 5
+p 2A 12
+p \2B\ 11
+p 2G 8
+p \1Y\ 4
+p \2Y\ 9
+p EN 6
+p VCC+ 14
+p GND 7
+p VCC- 13
+*package SN75107AN
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1A 1
+p \1B\ 2
+p 1G 5
+p 2A 12
+p \2B\ 11
+p 2G 8
+p \1Y\ 4
+p \2Y\ 9
+p EN 6
+p VCC+ 14
+p GND 7
+p VCC- 13
+*package SN75107BN ako SN75107AN
+*package SN75108
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1A 1
+p \1B\ 2
+p 1G 5
+p 2A 12
+p \2B\ 11
+p 2G 8
+p \1Y\ 4
+p \2Y\ 9
+p EN 6
+p VCC+ 14
+p GND 7
+p VCC- 13
+t SO14
+g 1
+p 1A 1
+p \1B\ 2
+p 1G 5
+p 2A 12
+p \2B\ 11
+p 2G 8
+p \1Y\ 4
+p \2Y\ 9
+p EN 6
+p VCC+ 14
+p GND 7
+p VCC- 13
+*package SN75108AD
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 1A 1
+p \1B\ 2
+p 1G 5
+p 2A 12
+p \2B\ 11
+p 2G 8
+p \1Y\ 4
+p \2Y\ 9
+p EN 6
+p VCC+ 14
+p GND 7
+p VCC- 13
+*package SN75108AN
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1A 1
+p \1B\ 2
+p 1G 5
+p 2A 12
+p \2B\ 11
+p 2G 8
+p \1Y\ 4
+p \2Y\ 9
+p EN 6
+p VCC+ 14
+p GND 7
+p VCC- 13
+*package SN75108BD ako SN75108AD
+*package SN75109
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1A 1
+p 1B 2
+p 2C 4
+p 2A 5
+p 2B 6
+p 1C 3
+p 1Y 13
+p \1Z\ 12
+p D 10
+p VCC+ 14
+p GND 7
+p VCC- 11
+p 2Y 8
+p \2Z\ 9
+t SO14
+g 1
+p 1A 1
+p 1B 2
+p 2C 4
+p 2A 5
+p 2B 6
+p 1C 3
+p 1Y 13
+p \1Z\ 12
+p D 10
+p VCC+ 14
+p GND 7
+p VCC- 11
+p 2Y 8
+p \2Z\ 9
+*package SN75109AD
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 1A 1
+p 1B 2
+p 2C 4
+p 2A 5
+p 2B 6
+p 1C 3
+p 1Y 13
+p \1Z\ 12
+p D 10
+p VCC+ 14
+p GND 7
+p VCC- 11
+p 2Y 8
+p \2Z\ 9
+*package SN75109AN
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1A 1
+p 1B 2
+p 2C 4
+p 2A 5
+p 2B 6
+p 1C 3
+p 1Y 13
+p \1Z\ 12
+p D 10
+p VCC+ 14
+p GND 7
+p VCC- 11
+p 2Y 8
+p \2Z\ 9
+*package SN75110
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1A 1
+p 1B 2
+p 2C 4
+p 2A 5
+p 2B 6
+p 1C 3
+p 1Y 13
+p \1Z\ 12
+p D 10
+p VCC+ 14
+p GND 7
+p VCC- 11
+p 2Y 8
+p \2Z\ 9
+t SO14
+g 1
+p 1A 1
+p 1B 2
+p 2C 4
+p 2A 5
+p 2B 6
+p 1C 3
+p 1Y 13
+p \1Z\ 12
+p D 10
+p VCC+ 14
+p GND 7
+p VCC- 11
+p 2Y 8
+p \2Z\ 9
+*package SN75110AD
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 1A 1
+p 1B 2
+p 2C 4
+p 2A 5
+p 2B 6
+p 1C 3
+p 1Y 13
+p \1Z\ 12
+p D 10
+p VCC+ 14
+p GND 7
+p VCC- 11
+p 2Y 8
+p \2Z\ 9
+*package SN75110AN
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1A 1
+p 1B 2
+p 2C 4
+p 2A 5
+p 2B 6
+p 1C 3
+p 1Y 13
+p \1Z\ 12
+p D 10
+p VCC+ 14
+p GND 7
+p VCC- 11
+p 2Y 8
+p \2Z\ 9
+*package SN75111
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 2A 7
+p 3A 10
+p 4A 15
+p EN 6
+p 1Y 2
+p \1Z\ 3
+p VCC+ 16
+p GND 8
+p VCC- 9
+p 2Y 5
+p \2Z\ 4
+p 3Y 11
+p \3Z\ 12
+p 4Y 14
+p \4Z\ 13
+t DIP16
+g 1
+p 1A 1
+p 2A 7
+p 3A 10
+p 4A 15
+p EN 6
+p 1Y 2
+p \1Z\ 3
+p VCC+ 16
+p GND 8
+p VCC- 9
+p 2Y 5
+p \2Z\ 4
+p 3Y 11
+p \3Z\ 12
+p 4Y 14
+p \4Z\ 13
+t LCC20
+g 1
+p 1A 2
+p 2A 9
+p 3A 13
+p 4A 19
+p EN 8
+p 1Y 3
+p \1Z\ 4
+p VCC+ 20
+p GND 10
+p VCC- 12
+p 2Y 7
+p \2Z\ 5
+p 3Y 14
+p \3Z\ 15
+p 4Y 18
+p \4Z\ 17
+*package SN75111D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 2A 7
+p 3A 10
+p 4A 15
+p EN 6
+p 1Y 2
+p \1Z\ 3
+p VCC+ 16
+p GND 8
+p VCC- 9
+p 2Y 5
+p \2Z\ 4
+p 3Y 11
+p \3Z\ 12
+p 4Y 14
+p \4Z\ 13
+*package SN75111FK
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p 1A 2
+p 2A 9
+p 3A 13
+p 4A 19
+p EN 8
+p 1Y 3
+p \1Z\ 4
+p VCC+ 20
+p GND 10
+p VCC- 12
+p 2Y 7
+p \2Z\ 5
+p 3Y 14
+p \3Z\ 15
+p 4Y 18
+p \4Z\ 17
+*package SN75111J
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p 1A 1
+p 2A 7
+p 3A 10
+p 4A 15
+p EN 6
+p 1Y 2
+p \1Z\ 3
+p VCC+ 16
+p GND 8
+p VCC- 9
+p 2Y 5
+p \2Z\ 4
+p 3Y 11
+p \3Z\ 12
+p 4Y 14
+p \4Z\ 13
+*package SN75111N ako SN75111J
+*package SN75112
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1A 1
+p 1B 2
+p 2C 4
+p 2A 5
+p 2B 6
+p 1C 3
+p 1Y 13
+p \1Z\ 12
+p D 10
+p VCC+ 14
+p GND 7
+p VCC- 11
+p 2Y 8
+p \2Z\ 9
+*package SN75112N
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1A 1
+p 1B 2
+p 2C 4
+p 2A 5
+p 2B 6
+p 1C 3
+p 1Y 13
+p \1Z\ 12
+p D 10
+p VCC+ 14
+p GND 7
+p VCC- 11
+p 2Y 8
+p \2Z\ 9
+*package SN75113
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1C 7
+p CC 9
+p 2C 10
+p 1A 5
+p 1B 6
+p 1YP 4
+p 1YS 3
+p VCC 16
+p GND 8
+p \1ZP\ 1
+p \1ZS\ 2
+p 2YP 12
+p 2YS 13
+p \2ZP\ 15
+p \2ZS\ 14
+p 2A 11
+t DIP16
+g 1
+p 1C 7
+p CC 9
+p 2C 10
+p 1A 5
+p 1B 6
+p 1YP 4
+p 1YS 3
+p VCC 16
+p GND 8
+p \1ZP\ 1
+p \1ZS\ 2
+p 2YP 12
+p 2YS 13
+p \2ZP\ 15
+p \2ZS\ 14
+p 2A 11
+*package SN75113D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1C 7
+p CC 9
+p 2C 10
+p 1A 5
+p 1B 6
+p 1YP 4
+p 1YS 3
+p VCC 16
+p GND 8
+p \1ZP\ 1
+p \1ZS\ 2
+p 2YP 12
+p 2YS 13
+p \2ZP\ 15
+p \2ZS\ 14
+p 2A 11
+*package SN75113N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1C 7
+p CC 9
+p 2C 10
+p 1A 5
+p 1B 6
+p 1YP 4
+p 1YS 3
+p VCC 16
+p GND 8
+p \1ZP\ 1
+p \1ZS\ 2
+p 2YP 12
+p 2YS 13
+p \2ZP\ 15
+p \2ZS\ 14
+p 2A 11
+*package SN75114
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1C 7
+p 2C 11
+p 1A 5
+p 1B 6
+p 1YP 4
+p 1YS 3
+p VCC 16
+p GND 8
+p \1ZP\ 1
+p \1ZS\ 2
+p 2YP 12
+p 2YS 13
+p \2ZP\ 15
+p \2ZS\ 14
+p 2A 9
+p 2B 10
+t DIP16
+g 1
+p 1C 7
+p 2B 10
+p 2C 11
+p 1A 5
+p 1B 6
+p 1YP 4
+p 1YS 3
+p VCC 16
+p GND 8
+p \1ZP\ 1
+p \1ZS\ 2
+p 2YP 12
+p 2YS 13
+p \2ZP\ 15
+p \2ZS\ 14
+p 2A 9
+*package SN75114D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1C 7
+p 2C 11
+p 1A 5
+p 1B 6
+p 1YP 4
+p 1YS 3
+p VCC 16
+p GND 8
+p \1ZP\ 1
+p \1ZS\ 2
+p 2YP 12
+p 2YS 13
+p \2ZP\ 15
+p \2ZS\ 14
+p 2A 9
+p 2B 10
+*package SN75114N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1C 7
+p 2B 10
+p 2C 11
+p 1A 5
+p 1B 6
+p 1YP 4
+p 1YS 3
+p VCC 16
+p GND 8
+p \1ZP\ 1
+p \1ZS\ 2
+p 2YP 12
+p 2YS 13
+p \2ZP\ 15
+p \2ZS\ 14
+p 2A 9
+*package SN75115
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1B 5
+p \1A\ 7
+p 1RT 6
+p 1STRB 3
+p 1RTC 4
+p 2B 11
+p \2A\ 9
+p 2RT 10
+p 2STRB 13
+p 2RTC 12
+p \1YP\ 2
+p \1YS\ 1
+p \2YP\ 14
+p \2YS\ 15
+p VCC 16
+p GND 8
+t DIP16
+g 1
+p 1B 5
+p \1A\ 7
+p 1RT 6
+p 1STRB 3
+p 1RTC 4
+p 2B 11
+p \2A\ 9
+p 2RT 10
+p 2STRB 13
+p 2RTC 12
+p \1YP\ 2
+p \1YS\ 1
+p \2YP\ 14
+p \2YS\ 15
+p VCC 16
+p GND 8
+*package SN75115D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1B 5
+p \1A\ 7
+p 1RT 6
+p 1STRB 3
+p 1RTC 4
+p 2B 11
+p \2A\ 9
+p 2RT 10
+p 2STRB 13
+p 2RTC 12
+p \1YP\ 2
+p \1YS\ 1
+p \2YP\ 14
+p \2YS\ 15
+p VCC 16
+p GND 8
+*package SN75115N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 5
+p \1A\ 7
+p 1RT 6
+p 1STRB 3
+p 1RTC 4
+p 2B 11
+p \2A\ 9
+p 2RT 10
+p 2STRB 13
+p 2RTC 12
+p \1YP\ 2
+p \1YS\ 1
+p \2YP\ 14
+p \2YS\ 15
+p VCC 16
+p GND 8
+*package SN75116
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p DE 13
+p DA 14
+p DB 15
+p RB 7
+p \RA\ 5
+p RT 6
+p RS 10
+p RTC 9
+p DYP 4
+p DYS 3
+p \DZP\ 1
+p \DZS\ 2
+p VCC 16
+p GND 8
+p \RYP\ 12
+p \RYS\ 11
+t DIP16
+g 1
+p DE 13
+p DA 14
+p DB 15
+p RB 7
+p \RA\ 5
+p RT 6
+p RS 10
+p RTC 9
+p DYP 4
+p DYS 3
+p \DZP\ 1
+p \DZS\ 2
+p VCC 16
+p GND 8
+p \RYP\ 12
+p \RYS\ 11
+*package SN75116D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p DE 13
+p DA 14
+p DB 15
+p RB 7
+p \RA\ 5
+p RT 6
+p RS 10
+p RTC 9
+p DYP 4
+p DYS 3
+p \DZP\ 1
+p \DZS\ 2
+p VCC 16
+p GND 8
+p \RYP\ 12
+p \RYS\ 11
+*package SN75116N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p DE 13
+p DA 14
+p DB 15
+p RB 7
+p \RA\ 5
+p RT 6
+p RS 10
+p RTC 9
+p DYP 4
+p DYS 3
+p \DZP\ 1
+p \DZS\ 2
+p VCC 16
+p GND 8
+p \RYP\ 12
+p \RYS\ 11
+*package SN75117
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p DE 7
+p DI 1
+p RS 5
+p \RY\ 6
+p A 3
+p B 2
+p VCC 8
+p GND 4
+t SO8
+g 1
+p DE 7
+p DI 1
+p RS 5
+p \RY\ 6
+p A 3
+p B 2
+p VCC 8
+p GND 4
+*package SN75117D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p DE 7
+p DI 1
+p RS 5
+p \RY\ 6
+p A 3
+p B 2
+p VCC 8
+p GND 4
+*package SN75117P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p DE 7
+p DI 1
+p RS 5
+p \RY\ 6
+p A 3
+p B 2
+p VCC 8
+p GND 4
+*package SN75118
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p DE 13
+p DA 14
+p DB 15
+p RB 7
+p \RA\ 5
+p RT 6
+p RE 10
+p RTC 9
+p DYP 4
+p DYS 3
+p \DZP\ 1
+p \DZS\ 2
+p VCC 16
+p GND 8
+p \RYP\ 12
+p \RYS\ 11
+t DIP16
+g 1
+p DE 13
+p DA 14
+p DB 15
+p RB 7
+p \RA\ 5
+p RT 6
+p RE 10
+p RTC 9
+p DYP 4
+p DYS 3
+p \DZP\ 1
+p \DZS\ 2
+p VCC 16
+p GND 8
+p \RYP\ 12
+p \RYS\ 11
+*package SN75118D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p DE 13
+p DA 14
+p DB 15
+p RB 7
+p \RA\ 5
+p RT 6
+p RE 10
+p RTC 9
+p DYP 4
+p DYS 3
+p \DZP\ 1
+p \DZS\ 2
+p VCC 16
+p GND 8
+p \RYP\ 12
+p \RYS\ 11
+*package SN75118N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p DE 13
+p DA 14
+p DB 15
+p RB 7
+p \RA\ 5
+p RT 6
+p RE 10
+p RTC 9
+p DYP 4
+p DYS 3
+p \DZP\ 1
+p \DZS\ 2
+p VCC 16
+p GND 8
+p \RYP\ 12
+p \RYS\ 11
+*package SN75119
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p DE 7
+p DI 1
+p RE 5
+p \RY\ 6
+p A 3
+p B 2
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p DE 7
+p DI 1
+p RE 5
+p \RY\ 6
+p A 3
+p B 2
+p VCC 8
+p GND 4
+*package SN75119D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p DE 7
+p DI 1
+p RE 5
+p \RY\ 6
+p A 3
+p B 2
+p VCC 8
+p GND 4
+*package SN75119P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p DE 7
+p DI 1
+p RE 5
+p \RY\ 6
+p A 3
+p B 2
+p VCC 8
+p GND 4
+*package SN75121
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 1B 2
+p 1C 3
+p 1D 4
+p 1E 5
+p 1F 6
+p 2A 10
+p 2B 11
+p VCC 16
+p GND 8
+p 1Y 7
+p 2Y 9
+p 2C 12
+p 2D 13
+p 2E 14
+p 2F 15
+t DIP16
+g 1
+p 1A 1
+p 1B 2
+p 1C 3
+p 1D 4
+p 1E 5
+p 1F 6
+p 2A 10
+p 2B 11
+p VCC 16
+p GND 8
+p 1Y 7
+p 2Y 9
+p 2C 12
+p 2D 13
+p 2E 14
+p 2F 15
+*package SN75121D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 1B 2
+p 1C 3
+p 1D 4
+p 1E 5
+p 1F 6
+p 2A 10
+p 2B 11
+p VCC 16
+p GND 8
+p 1Y 7
+p 2Y 9
+p 2C 12
+p 2D 13
+p 2E 14
+p 2F 15
+*package SN75121N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 1
+p 1B 2
+p 1C 3
+p 1D 4
+p 1E 5
+p 1F 6
+p 2A 10
+p 2B 11
+p VCC 16
+p GND 8
+p 1Y 7
+p 2Y 9
+p 2C 12
+p 2D 13
+p 2E 14
+p 2F 15
+*package SN75122
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p \1R\ 14
+p 1S 15
+p 1A 1
+p 1B 2
+p \2R\ 3
+p 2S 4
+p 2A 5
+p 2B 6
+p VCC 16
+p GND 8
+p \1Y\ 13
+p \2Y\ 7
+p \3R\ 10
+p 3S 11
+p 3A 12
+p \3Y\ 9
+t DIP16
+g 1
+p \1R\ 14
+p 1S 15
+p 1A 1
+p 1B 2
+p \2R\ 3
+p 2S 4
+p 2A 5
+p 2B 6
+p VCC 16
+p GND 8
+p \1Y\ 13
+p \2Y\ 7
+p \3R\ 10
+p 3S 11
+p 3A 12
+p \3Y\ 9
+*package SN75122D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p \1R\ 14
+p 1S 15
+p 1A 1
+p 1B 2
+p \2R\ 3
+p 2S 4
+p 2A 5
+p 2B 6
+p VCC 16
+p GND 8
+p \1Y\ 13
+p \2Y\ 7
+p \3R\ 10
+p 3S 11
+p 3A 12
+p \3Y\ 9
+*package SN75122N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p \1R\ 14
+p 1S 15
+p 1A 1
+p 1B 2
+p \2R\ 3
+p 2S 4
+p 2A 5
+p 2B 6
+p VCC 16
+p GND 8
+p \1Y\ 13
+p \2Y\ 7
+p \3R\ 10
+p 3S 11
+p 3A 12
+p \3Y\ 9
+*package SN75123
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 1B 2
+p 1C 3
+p 1D 4
+p 1E 5
+p 1F 6
+p 2A 10
+p 2B 11
+p VCC 16
+p GND 8
+p 1Y 7
+p 2Y 9
+p 2C 12
+p 2D 13
+p 2E 14
+p 2F 15
+t DIP16
+g 1
+p 1A 1
+p 1B 2
+p 1C 3
+p 1D 4
+p 1E 5
+p 1F 6
+p 2A 10
+p 2B 11
+p VCC 16
+p GND 8
+p 1Y 7
+p 2Y 9
+p 2C 12
+p 2D 13
+p 2E 14
+p 2F 15
+*package SN75123D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 1B 2
+p 1C 3
+p 1D 4
+p 1E 5
+p 1F 6
+p 2A 10
+p 2B 11
+p VCC 16
+p GND 8
+p 1Y 7
+p 2Y 9
+p 2C 12
+p 2D 13
+p 2E 14
+p 2F 15
+*package SN75123N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 1
+p 1B 2
+p 1C 3
+p 1D 4
+p 1E 5
+p 1F 6
+p 2A 10
+p 2B 11
+p VCC 16
+p GND 8
+p 1Y 7
+p 2Y 9
+p 2C 12
+p 2D 13
+p 2E 14
+p 2F 15
+*package SN75124
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p \1R\ 14
+p 1S 15
+p 1A 1
+p 1B 2
+p \2R\ 3
+p 2S 4
+p 2A 5
+p 2B 6
+p VCC 16
+p GND 8
+p \1Y\ 13
+p \2Y\ 7
+p \3R\ 10
+p 3S 11
+p 3A 12
+p \3Y\ 9
+t SO16
+g 1
+p \1R\ 14
+p 1S 15
+p 1A 1
+p 1B 2
+p \2R\ 3
+p 2S 4
+p 2A 5
+p 2B 6
+p VCC 16
+p GND 8
+p \1Y\ 13
+p \2Y\ 7
+p \3R\ 10
+p 3S 11
+p 3A 12
+p \3Y\ 9
+*package SN75124D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p \1R\ 14
+p 1S 15
+p 1A 1
+p 1B 2
+p \2R\ 3
+p 2S 4
+p 2A 5
+p 2B 6
+p VCC 16
+p GND 8
+p \1Y\ 13
+p \2Y\ 7
+p \3R\ 10
+p 3S 11
+p 3A 12
+p \3Y\ 9
+*package SN75124N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p \1R\ 14
+p 1S 15
+p 1A 1
+p 1B 2
+p \2R\ 3
+p 2S 4
+p 2A 5
+p 2B 6
+p VCC 16
+p GND 8
+p \1Y\ 13
+p \2Y\ 7
+p \3R\ 10
+p 3S 11
+p 3A 12
+p \3Y\ 9
+*package SN75125
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 2A 2
+p 3A 3
+p 4A 4
+p 5A 5
+p 6A 6
+p 7A 7
+p VCC 15
+p GND 8
+p \1Y\ 16
+p \2Y\ 9
+p \3Y\ 14
+p \4Y\ 13
+p \5Y\ 12
+p \6Y\ 11
+p \7Y\ 10
+t DIP16
+g 1
+p 1A 1
+p 2A 2
+p 3A 3
+p 4A 4
+p 5A 5
+p 6A 6
+p 7A 7
+p VCC 15
+p GND 8
+p \1Y\ 16
+p \2Y\ 9
+p \3Y\ 14
+p \4Y\ 13
+p \5Y\ 12
+p \6Y\ 11
+p \7Y\ 10
+*package SN75125D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 2A 2
+p 3A 3
+p 4A 4
+p 5A 5
+p 6A 6
+p 7A 7
+p VCC 15
+p GND 8
+p \1Y\ 16
+p \2Y\ 9
+p \3Y\ 14
+p \4Y\ 13
+p \5Y\ 12
+p \6Y\ 11
+p \7Y\ 10
+*package SN75125N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 1
+p 2A 2
+p 3A 3
+p 4A 4
+p 5A 5
+p 6A 6
+p 7A 7
+p VCC 15
+p GND 8
+p \1Y\ 16
+p \2Y\ 9
+p \3Y\ 14
+p \4Y\ 13
+p \5Y\ 12
+p \6Y\ 11
+p \7Y\ 10
+*package SN75127
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 2A 2
+p 3A 3
+p 4A 4
+p 5A 5
+p 6A 6
+p 7A 7
+p VCC 16
+p GND 8
+p \1Y\ 15
+p \2Y\ 14
+p \3Y\ 13
+p \4Y\ 12
+p \5Y\ 11
+p \6Y\ 10
+p \7Y\ 9
+t DIP16
+g 1
+p 1A 1
+p 2A 2
+p 3A 3
+p 4A 4
+p 5A 5
+p 6A 6
+p 7A 7
+p VCC 16
+p GND 8
+p \1Y\ 15
+p \2Y\ 14
+p \3Y\ 13
+p \4Y\ 12
+p \5Y\ 11
+p \6Y\ 10
+p \7Y\ 9
+*package SN75127D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 2A 2
+p 3A 3
+p 4A 4
+p 5A 5
+p 6A 6
+p 7A 7
+p VCC 16
+p GND 8
+p \1Y\ 15
+p \2Y\ 14
+p \3Y\ 13
+p \4Y\ 12
+p \5Y\ 11
+p \6Y\ 10
+p \7Y\ 9
+*package SN75127N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 1
+p 2A 2
+p 3A 3
+p 4A 4
+p 5A 5
+p 6A 6
+p 7A 7
+p VCC 16
+p GND 8
+p \1Y\ 15
+p \2Y\ 14
+p \3Y\ 13
+p \4Y\ 12
+p \5Y\ 11
+p \6Y\ 10
+p \7Y\ 9
+*package SN75128
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p 1A 2
+p 2A 3
+p 3A 4
+p 4A 5
+p 5A 6
+p 6A 7
+p 7A 8
+p VCC 20
+p GND 10
+p \1Y\ 19
+p \2Y\ 18
+p \3Y\ 17
+p \4Y\ 16
+p \5Y\ 15
+p \6Y\ 14
+p \7Y\ 13
+p 1S 1
+p 2S 11
+p 8A 9
+p \8Y\ 12
+*package SN75128N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p 1A 2
+p 2A 3
+p 3A 4
+p 4A 5
+p 5A 6
+p 6A 7
+p 7A 8
+p VCC 20
+p GND 10
+p \1Y\ 19
+p \2Y\ 18
+p \3Y\ 17
+p \4Y\ 16
+p \5Y\ 15
+p \6Y\ 14
+p \7Y\ 13
+p 1S 1
+p 2S 11
+p 8A 9
+p \8Y\ 12
+*package SN75129
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p 1A 2
+p 2A 3
+p 3A 4
+p 4A 5
+p 5A 6
+p 6A 7
+p 7A 8
+p VCC 20
+p GND 10
+p \1Y\ 19
+p \2Y\ 18
+p \3Y\ 17
+p \4Y\ 16
+p \5Y\ 15
+p \6Y\ 14
+p \7Y\ 13
+p \1S\ 1
+p \2S\ 11
+p 8A 9
+p \8Y\ 12
+t DIP20
+g 1
+p 1A 2
+p 2A 3
+p 3A 4
+p 4A 5
+p 5A 6
+p 6A 7
+p 7A 8
+p VCC 20
+p GND 10
+p \1Y\ 19
+p \2Y\ 18
+p \3Y\ 17
+p \4Y\ 16
+p \5Y\ 15
+p \6Y\ 14
+p \7Y\ 13
+p \1S\ 1
+p \2S\ 11
+p 8A 9
+p \8Y\ 12
+*package SN75129D
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p 1A 2
+p 2A 3
+p 3A 4
+p 4A 5
+p 5A 6
+p 6A 7
+p 7A 8
+p VCC 20
+p GND 10
+p \1Y\ 19
+p \2Y\ 18
+p \3Y\ 17
+p \4Y\ 16
+p \5Y\ 15
+p \6Y\ 14
+p \7Y\ 13
+p \1S\ 1
+p \2S\ 11
+p 8A 9
+p \8Y\ 12
+*package SN75129N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p 1A 2
+p 2A 3
+p 3A 4
+p 4A 5
+p 5A 6
+p 6A 7
+p 7A 8
+p VCC 20
+p GND 10
+p \1Y\ 19
+p \2Y\ 18
+p \3Y\ 17
+p \4Y\ 16
+p \5Y\ 15
+p \6Y\ 14
+p \7Y\ 13
+p \1S\ 1
+p \2S\ 11
+p 8A 9
+p \8Y\ 12
+*package SN75136
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p DE 15
+p \RE\ 1
+p 1D 4
+p 2D 7
+p 3D 9
+p VCC 16
+p GND 8
+p 1R 2
+p 2R 5
+p 3R 11
+p \1B\ 3
+p \2B\ 6
+p \3B\ 10
+p \4B\ 13
+p 4R 14
+p 4D 12
+t DIP16
+g 1
+p DE 15
+p \RE\ 1
+p 1D 4
+p 2D 7
+p 3D 9
+p VCC 16
+p GND 8
+p 1R 2
+p 2R 5
+p 3R 11
+p \1B\ 3
+p \2B\ 6
+p \3B\ 10
+p \4B\ 13
+p 4R 14
+p 4D 12
+*package SN75136D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p DE 15
+p \RE\ 1
+p 1D 4
+p 2D 7
+p 3D 9
+p VCC 16
+p GND 8
+p 1R 2
+p 2R 5
+p 3R 11
+p \1B\ 3
+p \2B\ 6
+p \3B\ 10
+p \4B\ 13
+p 4R 14
+p 4D 12
+*package SN75136N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p DE 15
+p \RE\ 1
+p 1D 4
+p 2D 7
+p 3D 9
+p VCC 16
+p GND 8
+p 1R 2
+p 2R 5
+p 3R 11
+p \1B\ 3
+p \2B\ 6
+p \3B\ 10
+p \4B\ 13
+p 4R 14
+p 4D 12
+*package SN75138
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+t DIP16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+*package SN75138D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+*package SN75138J
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+t DIP16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+*package SN75138N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p S 12
+p 1D 4
+p 2D 5
+p 3D 11
+p 4D 13
+p 1B 2
+p 2B 7
+p 3B 9
+p 4B 15
+p 1R 3
+p 2R 6
+p 3R 10
+p 4R 14
+p VCC 16
+p GND1 1
+p GND2 8
+*package SN75140
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1LINE 3
+p 2LINE 5
+p COMREF 6
+p COMSTRB 2
+p \2OUT\ 7
+p \1OUT\ 1
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1LINE 3
+p 2LINE 5
+p COMREF 6
+p COMSTRB 2
+p \2OUT\ 7
+p \1OUT\ 1
+p VCC 8
+p GND 4
+*package SN75140D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1LINE 3
+p 2LINE 5
+p COMREF 6
+p COMSTRB 2
+p \2OUT\ 7
+p \1OUT\ 1
+p VCC 8
+p GND 4
+*package SN75140P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1LINE 3
+p 2LINE 5
+p COMREF 6
+p COMSTRB 2
+p \2OUT\ 7
+p \1OUT\ 1
+p VCC 8
+p GND 4
+*package SN75141
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1LINE 3
+p 2LINE 5
+p COMREF 6
+p COMSTRB 2
+p \2OUT\ 7
+p \1OUT\ 1
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1LINE 3
+p 2LINE 5
+p COMREF 6
+p COMSTRB 2
+p \2OUT\ 7
+p \1OUT\ 1
+p VCC 8
+p GND 4
+*package SN75141D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1LINE 3
+p 2LINE 5
+p COMREF 6
+p COMSTRB 2
+p \2OUT\ 7
+p \1OUT\ 1
+p VCC 8
+p GND 4
+*package SN75141P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1LINE 3
+p 2LINE 5
+p COMREF 6
+p COMSTRB 2
+p \2OUT\ 7
+p \1OUT\ 1
+p VCC 8
+p GND 4
+*package SN75146
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+t DIP8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+*package SN75150
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p S 1
+p 1A 2
+p 2A 3
+p \1Y\ 7
+p \2Y\ 6
+p VCC+ 8
+p GND 4
+p VCC- 5
+t DIP8
+g 1
+p S 1
+p 1A 2
+p 2A 3
+p \1Y\ 7
+p \2Y\ 6
+p VCC+ 8
+p GND 4
+p VCC- 5
+*package SN75150D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p S 1
+p 1A 2
+p 2A 3
+p \1Y\ 7
+p \2Y\ 6
+p VCC+ 8
+p GND 4
+p VCC- 5
+*package SN75150P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p S 1
+p 1A 2
+p 2A 3
+p \1Y\ 7
+p \2Y\ 6
+p VCC+ 8
+p GND 4
+p VCC- 5
+*package SN75151
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p 1C 4
+p 1A 1
+p 2C 6
+p 2A 9
+p 3C 14
+p 3A 11
+p 4C 16
+p VCC 20
+p GND 10
+p 1Y 2
+p \1Z\ 3
+p 2Y 8
+p \2Z\ 7
+p 3Y 12
+p \3Z\ 13
+p 4Y 18
+p S 15
+p CC 5
+p 4A 19
+p \4Z\ 17
+*package SN751516
+@types 1
+g 1
+@pinout
+t TSOP20X14-48
+g 1
+p STR 20
+p DA_IN 24
+p \CLK\ 28
+p Q1 1
+p Q2 2
+p Q3 3
+p Q4 4
+p Q5 5
+p Q6 6
+p Q7 7
+p Q8 8
+p Q9 9
+p Q10 10
+p Q11 11
+p Q12 12
+p Q13 13
+p Q14 14
+p Q15 15
+p Q16 16
+p Q17 33
+p Q18 34
+p Q19 35
+p Q20 36
+p Q21 37
+p Q22 38
+p Q23 39
+p Q24 40
+p Q25 41
+p Q26 42
+p Q27 43
+p Q28 44
+p Q29 45
+p Q30 46
+p Q31 47
+p Q32 48
+p VCC1 22
+p VCC2 27
+p SE_OUT 25
+p GND1 18
+p GND2 31
+*package SN751516FT
+@types 1
+g 1
+@pinout
+t TSOP20X14-48
+g 1
+p STR 20
+p DA_IN 24
+p \CLK\ 28
+p Q1 1
+p Q2 2
+p Q3 3
+p Q4 4
+p Q5 5
+p Q6 6
+p Q7 7
+p Q8 8
+p Q9 9
+p Q10 10
+p Q11 11
+p Q12 12
+p Q13 13
+p Q14 14
+p Q15 15
+p Q16 16
+p Q17 33
+p Q18 34
+p Q19 35
+p Q20 36
+p Q21 37
+p Q22 38
+p Q23 39
+p Q24 40
+p Q25 41
+p Q26 42
+p Q27 43
+p Q28 44
+p Q29 45
+p Q30 46
+p Q31 47
+p Q32 48
+p VCC1 22
+p VCC2 27
+p SE_OUT 25
+p GND1 18
+p GND2 31
+*package SN75151N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p 1C 4
+p 1A 1
+p 2C 6
+p 2A 9
+p 3C 14
+p 3A 11
+p 4C 16
+p VCC 20
+p GND 10
+p 1Y 2
+p \1Z\ 3
+p 2Y 8
+p \2Z\ 7
+p 3Y 12
+p \3Z\ 13
+p 4Y 18
+p S 15
+p CC 5
+p 4A 19
+p \4Z\ 17
+*package SN75153
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 1
+p 2A 7
+p 3A 9
+p VCC 16
+p GND 8
+p 1Y 2
+p \1Z\ 3
+p 2Y 6
+p \2Z\ 5
+p 3Y 10
+p \3Z\ 11
+p 4Y 14
+p S 12
+p CC 4
+p 4A 15
+p \4Z\ 13
+t SO16
+g 1
+p 1A 1
+p 2A 7
+p 3A 9
+p VCC 16
+p GND 8
+p 1Y 2
+p \1Z\ 3
+p 2Y 6
+p \2Z\ 5
+p 3Y 10
+p \3Z\ 11
+p 4Y 14
+p S 12
+p CC 4
+p 4A 15
+p \4Z\ 13
+*package SN75153D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 1
+p 2A 7
+p 3A 9
+p VCC 16
+p GND 8
+p 1Y 2
+p \1Z\ 3
+p 2Y 6
+p \2Z\ 5
+p 3Y 10
+p \3Z\ 11
+p 4Y 14
+p S 12
+p CC 4
+p 4A 15
+p \4Z\ 13
+*package SN75153N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 1
+p 2A 7
+p 3A 9
+p VCC 16
+p GND 8
+p 1Y 2
+p \1Z\ 3
+p 2Y 6
+p \2Z\ 5
+p 3Y 10
+p \3Z\ 11
+p 4Y 14
+p S 12
+p CC 4
+p 4A 15
+p \4Z\ 13
+*package SN75154
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 4
+p 1T 3
+p 2A 5
+p VCC1 15
+p GND 8
+p \1Y\ 13
+p \2Y\ 12
+p \3Y\ 11
+p \4Y\ 10
+p 3A 6
+p 3T 1
+p 2T 2
+p 4A 7
+p 4T 14
+p VCC2 16
+p R1 9
+t DIP16
+g 1
+p 1A 4
+p 1T 3
+p 2A 5
+p VCC1 15
+p GND 8
+p \1Y\ 13
+p \2Y\ 12
+p \3Y\ 11
+p \4Y\ 10
+p 3A 6
+p 3T 1
+p 2T 2
+p 4A 7
+p 4T 14
+p VCC2 16
+p R1 9
+*package SN75154D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 4
+p 1T 3
+p 2A 5
+p VCC1 15
+p GND 8
+p \1Y\ 13
+p \2Y\ 12
+p \3Y\ 11
+p \4Y\ 10
+p 3A 6
+p 3T 1
+p 2T 2
+p 4A 7
+p 4T 14
+p VCC2 16
+p R1 9
+*package SN75154N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 4
+p 1T 3
+p 2A 5
+p VCC1 15
+p GND 8
+p \1Y\ 13
+p \2Y\ 12
+p \3Y\ 11
+p \4Y\ 10
+p 3A 6
+p 3T 1
+p 2T 2
+p 4A 7
+p 4T 14
+p VCC2 16
+p R1 9
+*package SN75155
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p DA 2
+p RA 5
+p RTC 6
+p \DY\ 7
+p \RY\ 3
+p VCC+ 8
+p GND 4
+p VCC- 1
+t DIP8
+g 1
+p DA 2
+p RA 5
+p RTC 6
+p \DY\ 7
+p \RY\ 3
+p VCC+ 8
+p GND 4
+p VCC- 1
+*package SN75155D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p DA 2
+p RA 5
+p RTC 6
+p \DY\ 7
+p \RY\ 3
+p VCC+ 8
+p GND 4
+p VCC- 1
+*package SN75155P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p DA 2
+p RA 5
+p RTC 6
+p \DY\ 7
+p \RY\ 3
+p VCC+ 8
+p GND 4
+p VCC- 1
+*package SN75157
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1IN+ 1
+p \1IN-\ 7
+p 2IN+ 6
+p 1OUT 2
+p 2OUT 3
+p VCC 8
+p GND 4
+p \2IN-\ 5
+t SO8
+g 1
+p 1IN+ 1
+p \1IN-\ 7
+p 2IN+ 6
+p 1OUT 2
+p 2OUT 3
+p VCC 8
+p GND 4
+p \2IN-\ 5
+*package SN75157D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1IN+ 1
+p \1IN-\ 7
+p 2IN+ 6
+p 1OUT 2
+p 2OUT 3
+p VCC 8
+p GND 4
+p \2IN-\ 5
+*package SN75157P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1IN+ 1
+p \1IN-\ 7
+p 2IN+ 6
+p 1OUT 2
+p 2OUT 3
+p VCC 8
+p GND 4
+p \2IN-\ 5
+*package SN75158
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 3
+p 2A 5
+p 1Y 2
+p \1Z\ 1
+p VCC 8
+p GND 4
+p 2Y 6
+p \2Z\ 7
+t DIP8
+g 1
+p 1A 3
+p 2A 5
+p 1Y 2
+p \1Z\ 1
+p VCC 8
+p GND 4
+p 2Y 6
+p \2Z\ 7
+*package SN75158D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 3
+p 2A 5
+p 1Y 2
+p \1Z\ 1
+p VCC 8
+p GND 4
+p 2Y 6
+p \2Z\ 7
+*package SN75158P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 3
+p 2A 5
+p 1Y 2
+p \1Z\ 1
+p VCC 8
+p GND 4
+p 2Y 6
+p \2Z\ 7
+*package SN75159
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 1EN 6
+p 1A 4
+p 1Y 3
+p \1Z\ 2
+p VCC 14
+p GND 7
+p 2Y 12
+p \2Z\ 13
+p 1B 5
+p 2EN 9
+p 2A 10
+p 2B 11
+t DIP14
+g 1
+p 1EN 6
+p 1A 4
+p 1Y 3
+p \1Z\ 2
+p VCC 14
+p GND 7
+p 2Y 12
+p \2Z\ 13
+p 1B 5
+p 2EN 9
+p 2A 10
+p 2B 11
+*package SN75159D
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 1EN 6
+p 1A 4
+p 1Y 3
+p \1Z\ 2
+p VCC 14
+p GND 7
+p 2Y 12
+p \2Z\ 13
+p 1B 5
+p 2EN 9
+p 2A 10
+p 2B 11
+*package SN75159N
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1EN 6
+p 1A 4
+p 1Y 3
+p \1Z\ 2
+p VCC 14
+p GND 7
+p 2Y 12
+p \2Z\ 13
+p 1B 5
+p 2EN 9
+p 2A 10
+p 2B 11
+*package SN75160
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+t DIP20
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75160BDW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75160BN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75160DW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75160N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75161
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p DC 11
+p TE 1
+p ATN2 8
+p EOI2 7
+p VCC 20
+p GND 10
+p SRQ2 9
+p REN2 2
+p ATN1 13
+p EOI1 14
+p SRQ1 12
+p REN1 19
+p IFC1 18
+p DAV1 15
+p NDAC1 17
+p NRFD1 16
+p IFC2 3
+p DAV2 6
+p NRFD2 5
+p NDAC2 4
+t DIP20
+g 1
+p DC 11
+p TE 1
+p ATN2 8
+p EOI2 7
+p VCC 20
+p GND 10
+p SRQ2 9
+p REN2 2
+p ATN1 13
+p EOI1 14
+p SRQ1 12
+p REN1 19
+p IFC1 18
+p DAV1 15
+p NDAC1 17
+p NRFD1 16
+p IFC2 3
+p DAV2 6
+p NRFD2 5
+p NDAC2 4
+*package SN75161BDW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p DC 11
+p TE 1
+p ATN2 8
+p EOI2 7
+p VCC 20
+p GND 10
+p SRQ2 9
+p REN2 2
+p ATN1 13
+p EOI1 14
+p SRQ1 12
+p REN1 19
+p IFC1 18
+p DAV1 15
+p NDAC1 17
+p NRFD1 16
+p IFC2 3
+p DAV2 6
+p NRFD2 5
+p NDAC2 4
+*package SN75161BN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p DC 11
+p TE 1
+p ATN2 8
+p EOI2 7
+p VCC 20
+p GND 10
+p SRQ2 9
+p REN2 2
+p ATN1 13
+p EOI1 14
+p SRQ1 12
+p REN1 19
+p IFC1 18
+p DAV1 15
+p NDAC1 17
+p NRFD1 16
+p IFC2 3
+p DAV2 6
+p NRFD2 5
+p NDAC2 4
+*package SN75162
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p DC 13
+p TE 2
+p ATN2 16
+p EOI2 17
+p VCC 24
+p GND 12
+p SRQ2 15
+p REN2 22
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 21
+p DAV2 18
+p NRFD2 19
+p NDAC2 20
+p SC 1
+t DIP22L
+g 1
+p DC 12
+p TE 2
+p ATN2 14
+p EOI2 15
+p VCC 22
+p GND 11
+p SRQ2 13
+p REN2 20
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 19
+p DAV2 16
+p NRFD2 17
+p NDAC2 18
+p SC 1
+*package SN75162BDW
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p DC 13
+p TE 2
+p ATN2 16
+p EOI2 17
+p VCC 24
+p GND 12
+p SRQ2 15
+p REN2 22
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 21
+p DAV2 18
+p NRFD2 19
+p NDAC2 20
+p SC 1
+*package SN75162BN
+@types 1
+g 1
+@pinout
+t DIP22L
+g 1
+p DC 12
+p TE 2
+p ATN2 14
+p EOI2 15
+p VCC 22
+p GND 11
+p SRQ2 13
+p REN2 20
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 19
+p DAV2 16
+p NRFD2 17
+p NDAC2 18
+p SC 1
+*package SN75163
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75163BN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75164
+@types 1
+g 1
+@pinout
+t DIP22L
+g 1
+p DC 12
+p TE 2
+p ATN2 14
+p EOI2 15
+p VCC 22
+p GND 11
+p SRQ2 13
+p REN2 20
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 19
+p DAV2 16
+p NRFD2 17
+p NDAC2 18
+p SC 1
+p ATN+EOI 21
+*package SN75164BN
+@types 1
+g 1
+@pinout
+t DIP22L
+g 1
+p DC 12
+p TE 2
+p ATN2 14
+p EOI2 15
+p VCC 22
+p GND 11
+p SRQ2 13
+p REN2 20
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 19
+p DAV2 16
+p NRFD2 17
+p NDAC2 18
+p SC 1
+p ATN+EOI 21
+*package SN75172
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p 1A 1
+p 1Y 2
+p 1Z 4
+p G 5
+p 2Z 6
+p 2Y 8
+p 2A 9
+p GND 10
+p 3A 11
+p 3Y 12
+p 3Z 14
+p \G\ 15
+p 4Z 16
+p 4Y 18
+p 4A 19
+p VCC 20
+t DIP16
+g 1
+p 1A 1
+p 1Y 2
+p 1Z 3
+p G 4
+p 2Z 5
+p 2Y 6
+p 2A 7
+p GND 8
+p 3A 9
+p 3Y 10
+p 3Z 11
+p \G\ 12
+p 4Z 13
+p 4Y 14
+p 4A 15
+p VCC 16
+*package SN75172D
+@types 1
+g 1
+@pinout
+t SO16W
+g 1
+p 1A 1
+p 1Y 2
+p 1Z 4
+p G 5
+p 2Z 6
+p 2Y 8
+p 2A 9
+p GND 10
+p 3A 11
+p 3Y 12
+p 3Z 14
+p \G\ 15
+p 4Z 16
+p 4Y 18
+p 4A 19
+p VCC 20
+*package SN75172N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1Z 3
+p 1A 1
+p 1Y 2
+p G 4
+p 2Y 6
+p 2A 7
+p 2Z 5
+p GND 8
+p 3Z 11
+p 3A 9
+p 3Y 10
+p \G\ 12
+p 4Y 14
+p 4A 15
+p 4Z 13
+p VCC 16
+*package SN75173
+@types 1
+g 1
+@pinout
+t DIP16,SO16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p \1B\ 1
+p 2A 6
+p \2B\ 7
+p 3A 10
+p \3B\ 9
+p 4A 14
+p \4B\ 15
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p VCC 16
+p GND 8
+*package SN75173D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p \1B\ 1
+p 2A 6
+p \2B\ 7
+p 3A 10
+p \3B\ 9
+p 4A 14
+p \4B\ 15
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p VCC 16
+p GND 8
+*package SN75173J
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p \1B\ 1
+p 2A 6
+p \2B\ 7
+p 3A 10
+p \3B\ 9
+p 4A 14
+p \4B\ 15
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p VCC 16
+p GND 8
+*package SN75176
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p DE 3
+p \RE\ 2
+p D 4
+p R 1
+p A 6
+p \B\ 7
+p VCC 8
+p GND 5
+t DIP8
+g 1
+p DE 3
+p \RE\ 2
+p D 4
+p R 1
+p A 6
+p \B\ 7
+p VCC 8
+p GND 5
+*package SN75176BD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p DE 3
+p \RE\ 2
+p D 4
+p R 1
+p A 6
+p \B\ 7
+p VCC 8
+p GND 5
+*package SN75176BP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p DE 3
+p \RE\ 2
+p D 4
+p R 1
+p A 6
+p \B\ 7
+p VCC 8
+p GND 5
+*package SN75177
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p EN 3
+p A 8
+p \B\ 7
+p T 2
+p Y 5
+p \Z\ 6
+p VCC 1
+p GND 4
+t DIP8
+g 1
+p EN 3
+p A 8
+p \B\ 7
+p T 2
+p Y 5
+p \Z\ 6
+p VCC 1
+p GND 4
+*package SN75177BD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p EN 3
+p A 8
+p \B\ 7
+p T 2
+p Y 5
+p \Z\ 6
+p VCC 1
+p GND 4
+*package SN75177BJG ako SN75177BP
+*package SN75177BP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p EN 3
+p A 8
+p \B\ 7
+p T 2
+p Y 5
+p \Z\ 6
+p VCC 1
+p GND 4
+*package SN75178
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p \EN\ 3
+p A 8
+p \B\ 7
+p T 2
+p Y 5
+p \Z\ 6
+p VCC 1
+p GND 4
+t SO8
+g 1
+p \EN\ 3
+p A 8
+p \B\ 7
+p T 2
+p Y 5
+p \Z\ 6
+p VCC 1
+p GND 4
+*package SN75178AP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p \EN\ 3
+p A 8
+p \B\ 7
+p T 2
+p Y 5
+p \Z\ 6
+p VCC 1
+p GND 4
+*package SN75178BD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p \EN\ 3
+p A 8
+p \B\ 7
+p T 2
+p Y 5
+p \Z\ 6
+p VCC 1
+p GND 4
+*package SN75178BP ako SN75178AP
+*package SN75179
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p A 8
+p \B\ 7
+p Y 5
+p R 2
+p \Z\ 6
+p VCC 1
+p GND 4
+p D 3
+t DIP8
+g 1
+p A 8
+p \B\ 7
+p Y 5
+p R 2
+p \Z\ 6
+p VCC 1
+p GND 4
+p D 3
+*package SN75179AP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p A 8
+p \B\ 7
+p Y 5
+p R 2
+p \Z\ 6
+p VCC 1
+p GND 4
+p D 3
+*package SN75179BD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p A 8
+p \B\ 7
+p Y 5
+p R 2
+p \Z\ 6
+p VCC 1
+p GND 4
+p D 3
+*package SN75179BP ako SN75179AP
+*package SN75182
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 1RT 2
+p 1STRB 4
+p \2OUT\ 8
+p \1OUT\ 6
+p VCC 14
+p GND 7
+p \1IN-\ 1
+p 2IN+ 11
+p \2IN-\ 13
+p 1RTC 5
+p 2STRB 10
+p 2RTC 9
+p 2RT 12
+p 1IN+ 3
+t DIP14
+g 1
+p 1RT 2
+p 1STRB 4
+p \2OUT\ 8
+p \1OUT\ 6
+p VCC 14
+p GND 7
+p \1IN-\ 1
+p 2IN+ 11
+p \2IN-\ 13
+p 1RTC 5
+p 2STRB 10
+p 2RTC 9
+p 2RT 12
+p 1IN+ 3
+*package SN75182D
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 1RT 2
+p 1STRB 4
+p \2OUT\ 8
+p \1OUT\ 6
+p VCC 14
+p GND 7
+p \1IN-\ 1
+p 2IN+ 11
+p \2IN-\ 13
+p 1RTC 5
+p 2STRB 10
+p 2RTC 9
+p 2RT 12
+p 1IN+ 3
+*package SN75182N
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1RT 2
+p 1STRB 4
+p \2OUT\ 8
+p \1OUT\ 6
+p VCC 14
+p GND 7
+p \1IN-\ 1
+p 2IN+ 11
+p \2IN-\ 13
+p 1RTC 5
+p 2STRB 10
+p 2RTC 9
+p 2RT 12
+p 1IN+ 3
+*package SN75183
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1C 3
+p 1D 4
+p \2Z\ 8
+p 2Y 9
+p VCC 14
+p GND 7
+p 1B 2
+p 2B 11
+p 2C 12
+p 2A 10
+p 2D 13
+p 1A 1
+p \1Z\ 6
+p 1Y 5
+*package SN75183N
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 1C 3
+p 1D 4
+p \2Z\ 8
+p 2Y 9
+p VCC 14
+p GND 7
+p 1B 2
+p 2B 11
+p 2C 12
+p 2A 10
+p 2D 13
+p 1A 1
+p \1Z\ 6
+p 1Y 5
+*package SN75188
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 2B 5
+p 3A 9
+p \4Y\ 11
+p \3Y\ 8
+p VCC+ 14
+p GND 7
+p 2A 4
+p 4A 12
+p 4B 13
+p 3B 10
+p 1A 2
+p \2Y\ 6
+p \1Y\ 3
+p VCC- 1
+t DIP14
+g 1
+p 2B 5
+p 3A 9
+p \4Y\ 11
+p \3Y\ 8
+p VCC+ 14
+p GND 7
+p 2A 4
+p 4A 12
+p 4B 13
+p 3B 10
+p 1A 2
+p \2Y\ 6
+p \1Y\ 3
+p VCC- 1
+*package SN75188N
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 2B 5
+p 3A 9
+p \4Y\ 11
+p \3Y\ 8
+p VCC+ 14
+p GND 7
+p 2A 4
+p 4A 12
+p 4B 13
+p 3B 10
+p 1A 2
+p \2Y\ 6
+p \1Y\ 3
+p VCC- 1
+*package SN75189
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 2A 4
+p 2_CONT 5
+p \4Y\ 11
+p \3Y\ 8
+p VCC 14
+p GND 7
+p 1_CONT 2
+p 3_CONT 9
+p 4A 13
+p 3A 10
+p 1A 1
+p \2Y\ 6
+p \1Y\ 3
+p 4_CONT 12
+t DIP14
+g 1
+p 2A 4
+p 2_CONT 5
+p \4Y\ 11
+p \3Y\ 8
+p VCC 14
+p GND 7
+p 1_CONT 2
+p 3_CONT 9
+p 4A 13
+p 3A 10
+p 1A 1
+p \2Y\ 6
+p \1Y\ 3
+p 4_CONT 12
+*package SN75189AD
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p 2A 4
+p 2_CONT 5
+p \4Y\ 11
+p \3Y\ 8
+p VCC 14
+p GND 7
+p 1_CONT 2
+p 3_CONT 9
+p 4A 13
+p 3A 10
+p 1A 1
+p \2Y\ 6
+p \1Y\ 3
+p 4_CONT 12
+*package SN75189AN
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p 2A 4
+p 2_CONT 5
+p \4Y\ 11
+p \3Y\ 8
+p VCC 14
+p GND 7
+p 1_CONT 2
+p 3_CONT 9
+p 4A 13
+p 3A 10
+p 1A 1
+p \2Y\ 6
+p \1Y\ 3
+p 4_CONT 12
+*package SN75189N ako SN75189AN
+*package SN75207
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p \1B\ 2
+p 1G 5
+p VCC+ 14
+p GND 7
+p 1A 1
+p \2B\ 11
+p 2G 8
+p 2A 12
+p S 6
+p \2Y\ 9
+p \1Y\ 4
+p VCC- 13
+t DIP14
+g 1
+p \1B\ 2
+p 1G 5
+p VCC+ 14
+p GND 7
+p 1A 1
+p \2B\ 11
+p 2G 8
+p 2A 12
+p S 6
+p \2Y\ 9
+p \1Y\ 4
+p VCC- 13
+*package SN75207AD ako SN75207D
+*package SN75207AJ
+@types 1
+g 1
+@pinout
+t CDIP14
+g 1
+p \1B\ 2
+p 1G 5
+p VCC+ 14
+p GND 7
+p 1A 1
+p \2B\ 11
+p 2G 8
+p 2A 12
+p S 6
+p \2Y\ 9
+p \1Y\ 4
+p VCC- 13
+*package SN75207AN ako SN75207N
+*package SN75207BD ako SN75207D
+*package SN75207BJ ako SN75207N
+*package SN75207BN ako SN75207N
+*package SN75207D
+@types 1
+g 1
+@pinout
+t SO14
+g 1
+p \1B\ 2
+p 1G 5
+p VCC+ 14
+p GND 7
+p 1A 1
+p \2B\ 11
+p 2G 8
+p 2A 12
+p S 6
+p \2Y\ 9
+p \1Y\ 4
+p VCC- 13
+*package SN75207N
+@types 1
+g 1
+@pinout
+t DIP14
+g 1
+p \1B\ 2
+p 1G 5
+p VCC+ 14
+p GND 7
+p 1A 1
+p \2B\ 11
+p 2G 8
+p 2A 12
+p S 6
+p \2Y\ 9
+p \1Y\ 4
+p VCC- 13
+*package SN75372
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p E 2
+p 1A 1
+p 2A 3
+p \1Y\ 7
+p \2Y\ 6
+p VCC1 8
+p VCC2 5
+p GND 4
+t DIP8
+g 1
+p E 2
+p 1A 1
+p 2A 3
+p \1Y\ 7
+p \2Y\ 6
+p VCC1 8
+p VCC2 5
+p GND 4
+*package SN75372D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p E 2
+p 1A 1
+p 2A 3
+p \1Y\ 7
+p \2Y\ 6
+p VCC1 8
+p VCC2 5
+p GND 4
+*package SN75372P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p E 2
+p 1A 1
+p 2A 3
+p \1Y\ 7
+p \2Y\ 6
+p VCC1 8
+p VCC2 5
+p GND 4
+*package SN75374
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 2E1 12
+p 2E2 13
+p VCC1 16
+p GND 8
+p 1E2 5
+p 2A 6
+p 3A 11
+p 1A 3
+p 1E1 4
+p \2Y\ 7
+p \1Y\ 2
+p 4A 14
+p \4Y\ 15
+p \3Y\ 10
+p VCC2 1
+p VCC3 9
+t SO16
+g 1
+p 2E1 12
+p 2E2 13
+p VCC1 16
+p GND 8
+p 1E2 5
+p 2A 6
+p 3A 11
+p 1A 3
+p 1E1 4
+p \2Y\ 7
+p \1Y\ 2
+p 4A 14
+p \4Y\ 15
+p \3Y\ 10
+p VCC2 1
+p VCC3 9
+*package SN75374D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 2E1 12
+p 2E2 13
+p VCC1 16
+p GND 8
+p 1E2 5
+p 2A 6
+p 3A 11
+p 1A 3
+p 1E1 4
+p \2Y\ 7
+p \1Y\ 2
+p 4A 14
+p \4Y\ 15
+p \3Y\ 10
+p VCC2 1
+p VCC3 9
+*package SN75374N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 2E1 12
+p 2E2 13
+p VCC1 16
+p GND 8
+p 1E2 5
+p 2A 6
+p 3A 11
+p 1A 3
+p 1E1 4
+p \2Y\ 7
+p \1Y\ 2
+p 4A 14
+p \4Y\ 15
+p \3Y\ 10
+p VCC2 1
+p VCC3 9
+*package SN75435
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 14
+p 1A 16
+p 2A 15
+p 3A 10
+p 4A 9
+p \1Y\ 1
+p \2Y\ 3
+p 1,2CL 2
+p \3Y\ 6
+p \4Y\ 8
+p 3,4CL 7
+p GN1 4
+p GN2 5
+p GN3 12
+p GN4 13
+p VCC 11
+*package SN75435NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 14
+p 1A 16
+p 2A 15
+p 3A 10
+p 4A 9
+p \1Y\ 1
+p \2Y\ 3
+p 1,2CL 2
+p \3Y\ 6
+p \4Y\ 8
+p 3,4CL 7
+p GN1 4
+p GN2 5
+p GN3 12
+p GN4 13
+p VCC 11
+*package SN75435NE3 ako SN75435NE
+*package SN75436
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 14
+p 1A 16
+p 2A 15
+p 3A 10
+p 4A 9
+p \1Y\ 1
+p \2Y\ 3
+p 1,2CL 2
+p \3Y\ 6
+p \4Y\ 8
+p 3,4CL 7
+p GN1 4
+p GN2 5
+p GN3 12
+p GN4 13
+p VCC 11
+*package SN75436NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 14
+p 1A 16
+p 2A 15
+p 3A 10
+p 4A 9
+p \1Y\ 1
+p \2Y\ 3
+p 1,2CL 2
+p \3Y\ 6
+p \4Y\ 8
+p 3,4CL 7
+p GN1 4
+p GN2 5
+p GN3 12
+p GN4 13
+p VCC 11
+*package SN75437
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 14
+p 1A 16
+p 2A 15
+p 3A 10
+p 4A 9
+p \1Y\ 1
+p \2Y\ 3
+p 1,2CL 2
+p \3Y\ 6
+p \4Y\ 8
+p 3,4CL 7
+p GN1 4
+p GN2 5
+p GN3 12
+p GN4 13
+p VCC 11
+*package SN75437NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 14
+p 1A 16
+p 2A 15
+p 3A 10
+p 4A 9
+p \1Y\ 1
+p \2Y\ 3
+p 1,2CL 2
+p \3Y\ 6
+p \4Y\ 8
+p 3,4CL 7
+p GN1 4
+p GN2 5
+p GN3 12
+p GN4 13
+p VCC 11
+*package SN75437NE3 ako SN75437NE
+*package SN75438
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 14
+p 1A 16
+p 2A 15
+p 3A 10
+p 4A 9
+p \1Y\ 1
+p \2Y\ 3
+p 1,2CL 2
+p \3Y\ 6
+p \4Y\ 8
+p 3,4CL 7
+p GN1 4
+p GN2 5
+p GN3 12
+p GN4 13
+p VCC 11
+*package SN75438NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 14
+p 1A 16
+p 2A 15
+p 3A 10
+p 4A 9
+p \1Y\ 1
+p \2Y\ 3
+p 1,2CL 2
+p \3Y\ 6
+p \4Y\ 8
+p 3,4CL 7
+p GN1 4
+p GN2 5
+p GN3 12
+p GN4 13
+p VCC 11
+*package SN754410
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 2
+p 1,2E 1
+p 2A 7
+p 3A 10
+p 3,4E 9
+p 4A 15
+p 1Y 3
+p 2Y 6
+p 3Y 11
+p 4Y 14
+p VCC1 16
+p VCC2 8
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package SN754410NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 2
+p 1,2E 1
+p 2A 7
+p 3A 10
+p 3,4E 9
+p 4A 15
+p 1Y 3
+p 2Y 6
+p 3Y 11
+p 4Y 14
+p VCC1 16
+p VCC2 8
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package SN754411
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 2
+p 1,2E 1
+p 2A 7
+p 3A 10
+p 3,4E 9
+p 4A 15
+p 1Y 3
+p 2Y 6
+p 3Y 11
+p 4Y 14
+p VCC1 16
+p VCC2 8
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package SN754411NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1A 2
+p 1,2E 1
+p 2A 7
+p 3A 10
+p 3,4E 9
+p 4A 15
+p 1Y 3
+p 2Y 6
+p 3Y 11
+p 4Y 14
+p VCC1 16
+p VCC2 8
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package SN75446
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75446D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75446P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75447
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75447P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75447D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75448
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75448D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75448P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75449
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75449D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75449P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75451
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75451BD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75451BP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75452
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75452BD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75452BP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75453
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75453BD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75453BP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75454
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75454BD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75454BP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75461
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75461D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75461P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75462
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75462D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75462JG
+@types 1
+g 1
+@pinout
+t CDIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75462P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75463
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75463D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75463P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75465
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p CLAM 9
+p E 8
+*package SN75465N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p CLAM 9
+p E 8
+*package SN75466
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p CLAM 9
+p E 8
+t DIP16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p CLAM 9
+p E 8
+*package SN75466D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p CLAM 9
+p E 8
+*package SN75466N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p CLAM 9
+p E 8
+*package SN75467
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p COM 9
+p E 8
+*package SN75467N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p COM 9
+p E 8
+*package SN75468
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p COM 9
+p E 8
+*package SN75468N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p COM 9
+p E 8
+*package SN75469
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p COM 9
+p E 8
+t DIP16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p COM 9
+p E 8
+*package SN75469D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p COM 9
+p E 8
+*package SN75469N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 1
+p 2B 2
+p 3B 3
+p 4B 4
+p 5B 5
+p 6B 6
+p 7B 7
+p \1C\ 16
+p \2C\ 15
+p \3C\ 14
+p \4C\ 13
+p \5C\ 12
+p \6C\ 11
+p \7C\ 10
+p COM 9
+p E 8
+*package SN75471
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75471D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75471P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75472
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75472D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75472P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p \1Y\ 3
+p \2Y\ 5
+p VCC 8
+p GND 4
+*package SN75473
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75473D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75473P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 1
+p 1B 2
+p 2A 6
+p 2B 7
+p 1Y 3
+p 2Y 5
+p VCC 8
+p GND 4
+*package SN75476
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75476D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75476P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75477
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75477D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75477P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75478
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75478D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75478P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p 1Y 3
+p 2Y 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75479
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75479D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75479P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p S 1
+p 2A 7
+p \1Y\ 3
+p \2Y\ 6
+p VCC 8
+p GND 4
+p CLAM 5
+*package SN75500
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \STRB\ 38
+p S0 1
+p S1 39
+p \DATA\ 2
+p CLK 3
+p 1Q1 4
+p 1Q2 5
+p 1Q3 6
+p 1Q4 7
+p 1Q5 8
+p 1Q6 9
+p 1Q7 10
+p 1Q8 11
+p 2Q1 12
+p 2Q2 13
+p 2Q3 14
+p 2Q4 15
+p 2Q5 16
+p 2Q6 17
+p 2Q7 18
+p 2Q8 19
+p 3Q1 29
+p 3Q2 28
+p 3Q3 27
+p 3Q4 26
+p 3Q5 25
+p 3Q6 24
+p 3Q7 23
+p 3Q8 22
+p 4Q1 37
+p 4Q2 36
+p 4Q3 35
+p 4Q4 34
+p 4Q5 33
+p 4Q6 32
+p 4Q7 31
+p 4Q8 30
+p GND 20
+p VCC1 40
+p VCC2 21
+t PLCC44
+g 1
+p \STRB\ 42
+p S0 2
+p S1 43
+p \DATA\ 3
+p CLK 4
+p 1Q1 6
+p 1Q2 7
+p 1Q3 8
+p 1Q4 9
+p 1Q5 10
+p 1Q6 11
+p 1Q7 12
+p 1Q8 13
+p 2Q1 14
+p 2Q2 15
+p 2Q3 16
+p 2Q4 17
+p 2Q5 18
+p 2Q6 19
+p 2Q7 20
+p 2Q8 21
+p 3Q1 32
+p 3Q2 31
+p 3Q3 30
+p 3Q4 29
+p 3Q5 28
+p 3Q6 27
+p 3Q7 26
+p 3Q8 25
+p 4Q1 40
+p 4Q2 39
+p 4Q3 38
+p 4Q4 37
+p 4Q5 36
+p 4Q6 35
+p 4Q7 34
+p 4Q8 33
+p GND 22
+p VCC1 44
+p VCC2 24
+*package SN75500EFN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p \STRB\ 42
+p S0 2
+p S1 43
+p \DATA\ 3
+p CLK 4
+p 1Q1 6
+p 1Q2 7
+p 1Q3 8
+p 1Q4 9
+p 1Q5 10
+p 1Q6 11
+p 1Q7 12
+p 1Q8 13
+p 2Q1 14
+p 2Q2 15
+p 2Q3 16
+p 2Q4 17
+p 2Q5 18
+p 2Q6 19
+p 2Q7 20
+p 2Q8 21
+p 3Q1 32
+p 3Q2 31
+p 3Q3 30
+p 3Q4 29
+p 3Q5 28
+p 3Q6 27
+p 3Q7 26
+p 3Q8 25
+p 4Q1 40
+p 4Q2 39
+p 4Q3 38
+p 4Q4 37
+p 4Q5 36
+p 4Q6 35
+p 4Q7 34
+p 4Q8 33
+p GND 22
+p VCC1 44
+p VCC2 24
+*package SN75500EN
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \STRB\ 38
+p S0 1
+p S1 39
+p \DATA\ 2
+p CLK 3
+p 1Q1 4
+p 1Q2 5
+p 1Q3 6
+p 1Q4 7
+p 1Q5 8
+p 1Q6 9
+p 1Q7 10
+p 1Q8 11
+p 2Q1 12
+p 2Q2 13
+p 2Q3 14
+p 2Q4 15
+p 2Q5 16
+p 2Q6 17
+p 2Q7 18
+p 2Q8 19
+p 3Q1 29
+p 3Q2 28
+p 3Q3 27
+p 3Q4 26
+p 3Q5 25
+p 3Q6 24
+p 3Q7 23
+p 3Q8 22
+p 4Q1 37
+p 4Q2 36
+p 4Q3 35
+p 4Q4 34
+p 4Q5 33
+p 4Q6 32
+p 4Q7 31
+p 4Q8 30
+p GND 20
+p VCC1 40
+p VCC2 21
+*package SN75501
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \SUSTA\ 2
+p STR 3
+p DATA_IN 39
+p CLK 1
+p Q1 4
+p Q2 5
+p Q3 6
+p Q4 7
+p Q5 8
+p Q6 9
+p Q7 10
+p Q8 11
+p Q9 12
+p Q10 13
+p Q11 14
+p Q12 15
+p Q13 16
+p Q14 17
+p Q15 18
+p Q16 19
+p Q17 22
+p Q18 23
+p Q19 24
+p Q20 25
+p Q21 26
+p Q22 27
+p Q23 28
+p Q24 29
+p Q25 30
+p Q26 31
+p Q27 32
+p Q28 33
+p Q29 34
+p Q30 35
+p Q31 36
+p Q32 37
+p GND 20
+p VCC1 40
+p VCC2 21
+p SER_OUT 38
+t PLCC44
+g 1
+p \SUSTA\ 3
+p STR 4
+p DATA_IN 43
+p CLK 2
+p Q1 6
+p Q2 7
+p Q3 8
+p Q4 9
+p Q5 10
+p Q6 11
+p Q7 12
+p Q8 13
+p Q9 14
+p Q10 15
+p Q11 16
+p Q12 17
+p Q13 18
+p Q14 19
+p Q15 20
+p Q16 21
+p Q17 25
+p Q18 26
+p Q19 27
+p Q20 28
+p Q21 29
+p Q22 30
+p Q23 31
+p Q24 32
+p Q25 33
+p Q26 34
+p Q27 35
+p Q28 36
+p Q29 37
+p Q30 38
+p Q31 39
+p Q32 40
+p GND 22
+p VCC1 44
+p VCC2 24
+p SER_OUT 42
+*package SN75501EFN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p \SUSTA\ 3
+p STR 4
+p DATA_IN 43
+p CLK 2
+p Q1 6
+p Q2 7
+p Q3 8
+p Q4 9
+p Q5 10
+p Q6 11
+p Q7 12
+p Q8 13
+p Q9 14
+p Q10 15
+p Q11 16
+p Q12 17
+p Q13 18
+p Q14 19
+p Q15 20
+p Q16 21
+p Q17 25
+p Q18 26
+p Q19 27
+p Q20 28
+p Q21 29
+p Q22 30
+p Q23 31
+p Q24 32
+p Q25 33
+p Q26 34
+p Q27 35
+p Q28 36
+p Q29 37
+p Q30 38
+p Q31 39
+p Q32 40
+p GND 22
+p VCC1 44
+p VCC2 24
+p SER_OUT 42
+*package SN75501EN
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p \SUSTA\ 2
+p STR 3
+p DATA_IN 39
+p CLK 1
+p Q1 4
+p Q2 5
+p Q3 6
+p Q4 7
+p Q5 8
+p Q6 9
+p Q7 10
+p Q8 11
+p Q9 12
+p Q10 13
+p Q11 14
+p Q12 15
+p Q13 16
+p Q14 17
+p Q15 18
+p Q16 19
+p Q17 22
+p Q18 23
+p Q19 24
+p Q20 25
+p Q21 26
+p Q22 27
+p Q23 28
+p Q24 29
+p Q25 30
+p Q26 31
+p Q27 32
+p Q28 33
+p Q29 34
+p Q30 35
+p Q31 36
+p Q32 37
+p GND 20
+p VCC1 40
+p VCC2 21
+p SER_OUT 38
+*package SN75512
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p LAT_EN 8
+p \STRB\ 3
+p DA_IN 5
+p CLK 7
+p Q1 9
+p Q2 10
+p Q3 11
+p Q4 12
+p Q5 13
+p Q6 14
+p Q7 17
+p Q8 18
+p Q9 19
+p Q10 20
+p Q11 1
+p Q12 2
+p SER_OUT 4
+p VCC1 6
+p VCC2 16
+p GND 15
+*package SN75512AN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p LAT_EN 8
+p \STRB\ 3
+p DA_IN 5
+p CLK 7
+p Q1 9
+p Q2 10
+p Q3 11
+p Q4 12
+p Q5 13
+p Q6 14
+p Q7 17
+p Q8 18
+p Q9 19
+p Q10 20
+p Q11 1
+p Q12 2
+p SER_OUT 4
+p VCC1 6
+p VCC2 16
+p GND 15
+*package SN75512BN ako SN75512AN
+*package SN75512CN ako SN75512AN
+*package SN75518
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p LAT_EN 22
+p \STR\ 19
+p DA_IN 39
+p CLK 21
+p Q1 38
+p Q2 37
+p Q3 36
+p Q4 35
+p Q5 34
+p Q6 33
+p Q7 32
+p Q8 31
+p Q9 30
+p Q10 29
+p Q11 28
+p Q12 27
+p Q13 26
+p Q14 25
+p Q15 24
+p Q16 23
+p Q17 18
+p Q18 17
+p Q19 16
+p Q20 15
+p Q21 14
+p Q22 13
+p Q23 12
+p Q24 11
+p Q25 10
+p Q26 9
+p Q27 8
+p Q28 7
+p Q29 6
+p Q30 5
+p Q31 4
+p Q32 3
+p GND 20
+p VCC1 40
+p VCC2 1
+p SER_OUT 2
+t PLCC44
+g 1
+p LAT_EN 24
+p \STR\ 21
+p DA_IN 43
+p CLK 23
+p Q1 42
+p Q2 41
+p Q3 40
+p Q4 39
+p Q5 38
+p Q6 37
+p Q7 36
+p Q8 35
+p Q9 34
+p Q10 33
+p Q11 32
+p Q12 31
+p Q13 30
+p Q14 27
+p Q15 26
+p Q16 25
+p Q17 20
+p Q18 19
+p Q19 17
+p Q20 16
+p Q21 15
+p Q22 14
+p Q23 13
+p Q24 12
+p Q25 11
+p Q26 10
+p Q27 9
+p Q28 8
+p Q29 7
+p Q30 5
+p Q31 4
+p Q32 3
+p GND 22
+p VCC1 44
+p VCC2 1
+p SER_OUT 2
+*package SN75518FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p LAT_EN 24
+p \STR\ 21
+p DA_IN 43
+p CLK 23
+p Q1 42
+p Q2 41
+p Q3 40
+p Q4 39
+p Q5 38
+p Q6 37
+p Q7 36
+p Q8 35
+p Q9 34
+p Q10 33
+p Q11 32
+p Q12 31
+p Q13 30
+p Q14 27
+p Q15 26
+p Q16 25
+p Q17 20
+p Q18 19
+p Q19 17
+p Q20 16
+p Q21 15
+p Q22 14
+p Q23 13
+p Q24 12
+p Q25 11
+p Q26 10
+p Q27 9
+p Q28 8
+p Q29 7
+p Q30 5
+p Q31 4
+p Q32 3
+p GND 22
+p VCC1 44
+p VCC2 1
+p SER_OUT 2
+*package SN75518N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p LAT_EN 22
+p \STR\ 19
+p DA_IN 39
+p CLK 21
+p Q1 38
+p Q2 37
+p Q3 36
+p Q4 35
+p Q5 34
+p Q6 33
+p Q7 32
+p Q8 31
+p Q9 30
+p Q10 29
+p Q11 28
+p Q12 27
+p Q13 26
+p Q14 25
+p Q15 24
+p Q16 23
+p Q17 18
+p Q18 17
+p Q19 16
+p Q20 15
+p Q21 14
+p Q22 13
+p Q23 12
+p Q24 11
+p Q25 10
+p Q26 9
+p Q27 8
+p Q28 7
+p Q29 6
+p Q30 5
+p Q31 4
+p Q32 3
+p GND 20
+p VCC1 40
+p VCC2 1
+p SER_OUT 2
+*package SN75552
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p EN 19
+p \STR\ 23
+p DA_IN 24
+p CLK 20
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p SUB_COM 21
+p VCC 22
+p SER_OUT 18
+t PLCC44
+g 1
+p EN 23
+p \STR\ 27
+p DA_IN 28
+p CLK 24
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p SUB_COM 25
+p VCC 26
+p SER_OUT 18
+*package SN75552FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p EN 23
+p STR 27
+p DA_IN 28
+p CLK 24
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p SUB_COM 25
+p VCC 26
+p SER_OUT 18
+*package SN75552N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p EN 19
+p STR 23
+p DA_IN 24
+p CLK 20
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p SUB_COM 21
+p VCC 22
+p SER_OUT 18
+*package SN75553
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN75553FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN75553N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+*package SN75554
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 26
+p Q2 27
+p Q3 28
+p Q4 29
+p Q5 30
+p Q6 31
+p Q7 32
+p Q8 33
+p Q9 34
+p Q10 35
+p Q11 36
+p Q12 37
+p Q13 38
+p Q14 39
+p Q15 40
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 30
+p Q2 31
+p Q3 32
+p Q4 33
+p Q5 34
+p Q6 35
+p Q7 36
+p Q8 37
+p Q9 38
+p Q10 39
+p Q11 40
+p Q12 41
+p Q13 42
+p Q14 43
+p Q15 44
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN75554FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 30
+p Q2 31
+p Q3 32
+p Q4 33
+p Q5 34
+p Q6 35
+p Q7 36
+p Q8 37
+p Q9 38
+p Q10 39
+p Q11 40
+p Q12 41
+p Q13 42
+p Q14 43
+p Q15 44
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN75554N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 26
+p Q2 27
+p Q3 28
+p Q4 29
+p Q5 30
+p Q6 31
+p Q7 32
+p Q8 33
+p Q9 34
+p Q10 35
+p Q11 36
+p Q12 37
+p Q13 38
+p Q14 39
+p Q15 40
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+*package SN75555
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN75555FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 44
+p Q19 43
+p Q20 42
+p Q21 41
+p Q22 40
+p Q23 39
+p Q24 38
+p Q25 37
+p Q26 36
+p Q27 35
+p Q28 34
+p Q29 33
+p Q30 32
+p Q31 31
+p Q32 30
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN75555N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 17
+p Q2 16
+p Q3 15
+p Q4 14
+p Q5 13
+p Q6 12
+p Q7 11
+p Q8 10
+p Q9 9
+p Q10 8
+p Q11 7
+p Q12 6
+p Q13 5
+p Q14 4
+p Q15 3
+p Q16 2
+p Q17 1
+p Q18 40
+p Q19 39
+p Q20 38
+p Q21 37
+p Q22 36
+p Q23 35
+p Q24 34
+p Q25 33
+p Q26 32
+p Q27 31
+p Q28 30
+p Q29 29
+p Q30 28
+p Q31 27
+p Q32 26
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+*package SN75556
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 26
+p Q2 27
+p Q3 28
+p Q4 29
+p Q5 30
+p Q6 31
+p Q7 32
+p Q8 33
+p Q9 34
+p Q10 35
+p Q11 36
+p Q12 37
+p Q13 38
+p Q14 39
+p Q15 40
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 30
+p Q2 31
+p Q3 32
+p Q4 33
+p Q5 34
+p Q6 35
+p Q7 36
+p Q8 37
+p Q9 38
+p Q10 39
+p Q11 40
+p Q12 41
+p Q13 42
+p Q14 43
+p Q15 44
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN75556FN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p OUT_EN 28
+p LA_EN 26
+p DA_IN 27
+p CLK 22
+p Q1 30
+p Q2 31
+p Q3 32
+p Q4 33
+p Q5 34
+p Q6 35
+p Q7 36
+p Q8 37
+p Q9 38
+p Q10 39
+p Q11 40
+p Q12 41
+p Q13 42
+p Q14 43
+p Q15 44
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 23
+p VCC1 25
+p SER_OUT 18
+p VCC2 24
+*package SN75556N
+@types 1
+g 1
+@pinout
+t DIP40X
+g 1
+p OUT_EN 25
+p LA_EN 23
+p DA_IN 24
+p CLK 19
+p Q1 26
+p Q2 27
+p Q3 28
+p Q4 29
+p Q5 30
+p Q6 31
+p Q7 32
+p Q8 33
+p Q9 34
+p Q10 35
+p Q11 36
+p Q12 37
+p Q13 38
+p Q14 39
+p Q15 40
+p Q16 1
+p Q17 2
+p Q18 3
+p Q19 4
+p Q20 5
+p Q21 6
+p Q22 7
+p Q23 8
+p Q24 9
+p Q25 10
+p Q26 11
+p Q27 12
+p Q28 13
+p Q29 14
+p Q30 15
+p Q31 16
+p Q32 17
+p GND 20
+p VCC1 22
+p SER_OUT 18
+p VCC2 21
+*package SN75563
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p POS_W 25
+p DA_IN 26
+p \CLK\ 21
+p Q1 29
+p Q2 30
+p Q3 31
+p Q4 32
+p Q5 33
+p Q6 34
+p Q7 35
+p Q8 36
+p Q9 37
+p Q10 38
+p Q11 39
+p Q12 40
+p Q13 41
+p Q14 42
+p Q15 43
+p Q16 44
+p Q17 1
+p Q18 2
+p Q19 3
+p Q20 4
+p Q21 5
+p Q22 6
+p Q23 7
+p Q24 8
+p Q25 9
+p Q26 10
+p Q27 11
+p Q28 12
+p Q29 13
+p Q30 14
+p Q31 15
+p Q32 16
+p VSS1 22
+p VCC1 24
+p SER_OUT 19
+p VCC2 27
+p Q33 17
+p Q34 18
+p VSS2 23
+p VCC3 28
+p ENABLE 20
+*package SN75563AFN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p POS_W 36
+p DA_IN 37
+p \CLK\ 32
+p Q1 40
+p Q2 41
+p Q3 42
+p Q4 43
+p Q5 44
+p Q6 1
+p Q7 2
+p Q8 3
+p Q9 4
+p Q10 5
+p Q11 6
+p Q12 7
+p Q13 8
+p Q14 9
+p Q15 10
+p Q16 11
+p Q17 12
+p Q18 13
+p Q19 14
+p Q20 15
+p Q21 16
+p Q22 17
+p Q23 18
+p Q24 19
+p Q25 20
+p Q26 21
+p Q27 22
+p Q28 23
+p Q29 24
+p Q30 25
+p Q31 26
+p Q32 27
+p VSS1 33
+p VCC1 35
+p SER_OUT 30
+p VCC2 38
+p Q33 28
+p Q34 29
+p VCC3 39
+p ENABLE 31
+*package SN75564
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p ENABLE 20
+p DA_IN 26
+p \CLK\ 21
+p Q1 18
+p Q2 17
+p Q3 16
+p Q4 15
+p Q5 14
+p Q6 13
+p Q7 12
+p Q8 11
+p Q9 10
+p Q10 9
+p Q11 8
+p Q12 7
+p Q13 6
+p Q14 5
+p Q15 4
+p Q16 3
+p Q17 2
+p Q18 1
+p Q19 44
+p Q20 43
+p Q21 42
+p Q22 41
+p Q23 40
+p Q24 39
+p Q25 38
+p Q26 37
+p Q27 36
+p Q28 35
+p Q29 34
+p Q30 33
+p Q31 32
+p Q32 31
+p VSS1 22
+p VCC1 24
+p SER_OUT 19
+p VCC2 27
+p Q33 30
+p Q34 29
+p VSS2 23
+p VCC3 28
+p POS_W 25
+*package SN75564AFN
+@types 1
+g 1
+@pinout
+t PLCC44
+g 1
+p POS_W 36
+p DA_IN 37
+p \CLK\ 32
+p Q1 29
+p Q2 28
+p Q3 27
+p Q4 26
+p Q5 25
+p Q6 24
+p Q7 23
+p Q8 22
+p Q9 21
+p Q10 20
+p Q11 19
+p Q12 18
+p Q13 17
+p Q14 16
+p Q15 15
+p Q16 14
+p Q17 13
+p Q18 12
+p Q19 11
+p Q20 10
+p Q21 9
+p Q22 8
+p Q23 7
+p Q24 6
+p Q25 5
+p Q26 4
+p Q27 3
+p Q28 2
+p Q29 1
+p Q30 44
+p Q31 43
+p Q32 42
+p VSS1 33
+p VCC1 35
+p SER_OUT 30
+p VCC2 38
+p Q33 41
+p Q34 40
+p VCC3 39
+p ENABLE 31
+*package SN75608
+@types 1
+g 1
+@pinout
+t KV-15/MO-048AB
+g 1
+p 1A 4
+p 2A 12
+p TC 8
+p 1SOURCE 1
+p 2SOURCE 15
+p 1SINK 3
+p 2SINK 13
+p 1CAP 7
+p 2CAP 9
+p VCC1 14
+p VCC2 2
+p GND 5
+p VEE1 6
+p VEE2 10
+p VEE3 11
+*package SN75608KV
+@types 1
+g 1
+@pinout
+t KV-15/MO-048AB
+g 1
+p 1A 4
+p 2A 12
+p TC 8
+p 1SOURCE 1
+p 2SOURCE 15
+p 1SINK 3
+p 2SINK 13
+p 1CAP 7
+p 2CAP 9
+p VCC1 14
+p VCC2 2
+p GND 5
+p VEE1 6
+p VEE2 10
+p VEE3 11
+*package SN75ALS126
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 3
+p 1,2G 4
+p 2A 5
+p 3A 11
+p 3,4G 12
+p 4A 13
+p VCC 16
+p GND 8
+p \1F\ 2
+p 1Y 1
+p \2F\ 6
+p 2Y 7
+p \3F\ 10
+p 3Y 9
+p \4F\ 14
+p 4Y 15
+t DIP16
+g 1
+p 1A 3
+p 1,2G 4
+p 2A 5
+p 3A 11
+p 3,4G 12
+p 4A 13
+p VCC 16
+p GND 8
+p \1F\ 2
+p 1Y 1
+p \2F\ 6
+p 2Y 7
+p \3F\ 10
+p 3Y 9
+p \4F\ 14
+p 4Y 15
+*package SN75ALS126D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1A 3
+p 1,2G 4
+p 2A 5
+p 3A 11
+p 3,4G 12
+p 4A 13
+p VCC 16
+p GND 8
+p \1F\ 2
+p 1Y 1
+p \2F\ 6
+p 2Y 7
+p \3F\ 10
+p 3Y 9
+p \4F\ 14
+p 4Y 15
+*package SN75ALS126J
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p 1A 3
+p 1,2G 4
+p 2A 5
+p 3A 11
+p 3,4G 12
+p 4A 13
+p VCC 16
+p GND 8
+p \1F\ 2
+p 1Y 1
+p \2F\ 6
+p 2Y 7
+p \3F\ 10
+p 3Y 9
+p \4F\ 14
+p 4Y 15
+*package SN75ALS126N ako SN75ALS126J
+*package SN75ALS130
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1G 4
+p 1A 3
+p 2A 5
+p 3A 11
+p 4A 13
+p VCC 16
+p GND 8
+p \F\ 12
+p 1Y 1
+p \1W\ 2
+p \2W\ 6
+p 3Y 9
+p \3W\ 10
+p 4Y 15
+p \4W\ 14
+p 2Y 7
+t DIP16
+g 1
+p 1G 4
+p 1A 3
+p 2A 5
+p 3A 11
+p 4A 13
+p VCC 16
+p GND 8
+p \F\ 12
+p 1Y 1
+p \1W\ 2
+p \2W\ 6
+p 3Y 9
+p \3W\ 10
+p 4Y 15
+p \4W\ 14
+p 2Y 7
+*package SN75ALS130D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p 1G 4
+p 1A 3
+p 2A 5
+p 3A 11
+p 4A 13
+p VCC 16
+p GND 8
+p \F\ 12
+p 1Y 1
+p \1W\ 2
+p \2W\ 6
+p 3Y 9
+p \3W\ 10
+p 4Y 15
+p \4W\ 14
+p 2Y 7
+*package SN75ALS160
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+t DIP20
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75ALS161
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p DC 11
+p TE 1
+p ATN2 8
+p EOI2 7
+p VCC 20
+p GND 10
+p SRQ2 9
+p REN2 2
+p ATN1 13
+p EOI1 14
+p SRQ1 12
+p REN1 19
+p IFC1 18
+p DAV1 15
+p NDAC1 17
+p NRFD1 16
+p IFC2 3
+p DAV2 6
+p NRFD2 5
+p NDAC2 4
+t DIP20
+g 1
+p DC 11
+p TE 1
+p ATN2 8
+p EOI2 7
+p VCC 20
+p GND 10
+p SRQ2 9
+p REN2 2
+p ATN1 13
+p EOI1 14
+p SRQ1 12
+p REN1 19
+p IFC1 18
+p DAV1 15
+p NDAC1 17
+p NRFD1 16
+p IFC2 3
+p DAV2 6
+p NRFD2 5
+p NDAC2 4
+*package SN75ALS161DW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p DC 11
+p TE 1
+p ATN2 8
+p EOI2 7
+p VCC 20
+p GND 10
+p SRQ2 9
+p REN2 2
+p ATN1 13
+p EOI1 14
+p SRQ1 12
+p REN1 19
+p IFC1 18
+p DAV1 15
+p NDAC1 17
+p NRFD1 16
+p IFC2 3
+p DAV2 6
+p NRFD2 5
+p NDAC2 4
+*package SN75ALS161N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p DC 11
+p TE 1
+p ATN2 8
+p EOI2 7
+p VCC 20
+p GND 10
+p SRQ2 9
+p REN2 2
+p ATN1 13
+p EOI1 14
+p SRQ1 12
+p REN1 19
+p IFC1 18
+p DAV1 15
+p NDAC1 17
+p NRFD1 16
+p IFC2 3
+p DAV2 6
+p NRFD2 5
+p NDAC2 4
+*package SN75ALS162
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p DC 13
+p TE 2
+p ATN2 16
+p EOI2 17
+p VCC 24
+p GND 12
+p SRQ2 15
+p REN2 22
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 21
+p DAV2 18
+p NRFD2 19
+p NDAC2 20
+p SC 1
+t DIP22L
+g 1
+p DC 12
+p TE 2
+p ATN2 14
+p EOI2 15
+p VCC 22
+p GND 11
+p SRQ2 13
+p REN2 20
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 19
+p DAV2 16
+p NRFD2 17
+p NDAC2 18
+p SC 1
+*package SN75ALS162DW
+@types 1
+g 1
+@pinout
+t SO24W
+g 1
+p DC 13
+p TE 2
+p ATN2 16
+p EOI2 17
+p VCC 24
+p GND 12
+p SRQ2 15
+p REN2 22
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 21
+p DAV2 18
+p NRFD2 19
+p NDAC2 20
+p SC 1
+*package SN75ALS162N
+@types 1
+g 1
+@pinout
+t DIP22L
+g 1
+p DC 12
+p TE 2
+p ATN2 14
+p EOI2 15
+p VCC 22
+p GND 11
+p SRQ2 13
+p REN2 20
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 19
+p DAV2 16
+p NRFD2 17
+p NDAC2 18
+p SC 1
+*package SN75ALS163
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+t DIP20
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75ALS163DW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75ALS163DWR ako SN75ALS163DW
+*package SN75ALS163N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75ALS164
+@types 1
+g 1
+@pinout
+t DIP22L
+g 1
+p DC 12
+p TE 2
+p ATN2 14
+p EOI2 15
+p VCC 22
+p GND 11
+p SRQ2 13
+p REN2 20
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 19
+p DAV2 16
+p NRFD2 17
+p NDAC2 18
+p SC 1
+p ATN+EOI 21
+*package SN75ALS164N
+@types 1
+g 1
+@pinout
+t DIP22L
+g 1
+p DC 12
+p TE 2
+p ATN2 14
+p EOI2 15
+p VCC 22
+p GND 11
+p SRQ2 13
+p REN2 20
+p ATN1 9
+p EOI1 8
+p SRQ1 10
+p REN1 3
+p IFC1 4
+p DAV1 7
+p NDAC1 5
+p NRFD1 6
+p IFC2 19
+p DAV2 16
+p NRFD2 17
+p NDAC2 18
+p SC 1
+p ATN+EOI 21
+*package SN75ALS165
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+t DIP20
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75ALS165DW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75ALS165N
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p PE 11
+p TE 1
+p B1 2
+p B2 3
+p VCC 20
+p GND 10
+p B3 4
+p B4 5
+p D1 19
+p D2 18
+p D3 17
+p D4 16
+p D5 15
+p D6 14
+p D7 13
+p D8 12
+p B5 6
+p B6 7
+p B7 8
+p B8 9
+*package SN75ALS192
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p G 4
+p \G\ 12
+p 1A 1
+p 2A 7
+p 3A 9
+p 4A 15
+p 1Y 2
+p \1Z\ 3
+p 2Y 6
+p \2Z\ 5
+p 3Y 10
+p \3Z\ 11
+p 4Y 14
+p \4Z\ 13
+p GND 8
+p VCC 16
+t DIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 1
+p 2A 7
+p 3A 9
+p 4A 15
+p 1Y 2
+p \1Z\ 3
+p 2Y 6
+p \2Z\ 5
+p 3Y 10
+p \3Z\ 11
+p 4Y 14
+p \4Z\ 13
+p GND 8
+p VCC 16
+t LCC20
+g 1
+p G 5
+p \G\ 15
+p 1A 2
+p 2A 9
+p 3A 12
+p 4A 19
+p 1Y 3
+p \1Z\ 4
+p 2Y 8
+p \2Z\ 7
+p 3Y 13
+p \3Z\ 14
+p 4Y 18
+p \4Z\ 17
+p GND 10
+p VCC 20
+*package SN75ALS192D
+@types 1
+g 1
+@pinout
+t SO16
+g 1
+p G 4
+p \G\ 12
+p 1A 1
+p 2A 7
+p 3A 9
+p 4A 15
+p 1Y 2
+p \1Z\ 3
+p 2Y 6
+p \2Z\ 5
+p 3Y 10
+p \3Z\ 11
+p 4Y 14
+p \4Z\ 13
+p GND 8
+p VCC 16
+*package SN75ALS192FK
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p G 5
+p \G\ 15
+p 1A 2
+p 2A 9
+p 3A 12
+p 4A 19
+p 1Y 3
+p \1Z\ 4
+p 2Y 8
+p \2Z\ 7
+p 3Y 13
+p \3Z\ 14
+p 4Y 18
+p \4Z\ 17
+p GND 10
+p VCC 20
+*package SN75ALS192J
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 1
+p 2A 7
+p 3A 9
+p 4A 15
+p 1Y 2
+p \1Z\ 3
+p 2Y 6
+p \2Z\ 5
+p 3Y 10
+p \3Z\ 11
+p 4Y 14
+p \4Z\ 13
+p GND 8
+p VCC 16
+*package SN75ALS192N
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 1
+p 2A 7
+p 3A 9
+p 4A 15
+p 1Y 2
+p \1Z\ 3
+p 2Y 6
+p \2Z\ 5
+p 3Y 10
+p \3Z\ 11
+p 4Y 14
+p \4Z\ 13
+p GND 8
+p VCC 16
+*package SN75ALS193
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+*package SN75ALS193J
+@types 1
+g 1
+@pinout
+t CDIP16
+g 1
+p G 4
+p \G\ 12
+p 1A 2
+p 2A 6
+p 3A 10
+p 4A 14
+p 1Y 3
+p 2Y 5
+p 3Y 11
+p 4Y 13
+p GND 8
+p VCC 16
+p \1B\ 1
+p \2B\ 7
+p \3B\ 9
+p \4B\ 15
+*package TL4810
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p L_EN 8
+p \BLAN\ 14
+p DA_IN 15
+p CLK 4
+p Q1 13
+p Q2 12
+p Q3 11
+p Q4 10
+p Q5 9
+p Q6 3
+p Q7 2
+p Q8 1
+p Q9 20
+p Q10 19
+p SERIAL_OUT 17
+p VCC1 7
+p GND 5
+p VCC2 16
+t DIP18
+g 1
+p L_EN 7
+p \BLAN\ 13
+p DA_IN 14
+p CLK 4
+p Q1 12
+p Q2 11
+p Q3 10
+p Q4 9
+p Q5 8
+p Q6 3
+p Q7 2
+p Q8 1
+p Q9 18
+p Q10 17
+p SERIAL_OUT 16
+p VCC1 6
+p GND 5
+p VCC2 15
+*package TL4810AN
+@types 1
+g 1
+@pinout
+t DIP18
+g 1
+p L_EN 7
+p \BLAN\ 13
+p DA_IN 14
+p CLK 4
+p Q1 12
+p Q2 11
+p Q3 10
+p Q4 9
+p Q5 8
+p Q6 3
+p Q7 2
+p Q8 1
+p Q9 18
+p Q10 17
+p SERIAL_OUT 16
+p VCC1 6
+p GND 5
+p VCC2 15
+*package TL4810BDW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p L_EN 8
+p \BLAN\ 14
+p DA_IN 15
+p CLK 4
+p Q1 13
+p Q2 12
+p Q3 11
+p Q4 10
+p Q5 9
+p Q6 3
+p Q7 2
+p Q8 1
+p Q9 20
+p Q10 19
+p SERIAL_OUT 17
+p VCC1 7
+p GND 5
+p VCC2 16
+*package TL4810BIN ako TL4810AN
+*package TL4810IDW ako TL4810BDW
+*package TL4810IN ako TL4810AN
+*package TL5812
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p L_EN 16
+p \BLAN\ 13
+p DA_IN 27
+p CLK 15
+p Q1 26
+p Q2 25
+p Q3 24
+p Q4 23
+p Q5 22
+p Q6 21
+p Q7 20
+p Q8 19
+p Q9 18
+p Q10 17
+p SERIAL_OUT 2
+p VDD 28
+p VSS 14
+p VBB 1
+p Q11 12
+p Q12 11
+p Q13 10
+p Q14 9
+p Q15 8
+p Q16 7
+p Q17 6
+p Q18 5
+p Q19 4
+p Q20 3
+t PLCC28
+g 1
+p L_EN 16
+p \BLAN\ 13
+p DA_IN 27
+p CLK 15
+p Q1 26
+p Q2 25
+p Q3 24
+p Q4 23
+p Q5 22
+p Q6 21
+p Q7 20
+p Q8 19
+p Q9 18
+p Q10 17
+p SERIAL_OUT 2
+p VDD 28
+p VSS 14
+p VBB 1
+p Q11 12
+p Q12 11
+p Q13 10
+p Q14 9
+p Q15 8
+p Q16 7
+p Q17 6
+p Q18 5
+p Q19 4
+p Q20 3
+*package TL5812FN
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p L_EN 16
+p \BLAN\ 13
+p DA_IN 27
+p CLK 15
+p Q1 26
+p Q2 25
+p Q3 24
+p Q4 23
+p Q5 22
+p Q6 21
+p Q7 20
+p Q8 19
+p Q9 18
+p Q10 17
+p SERIAL_OUT 2
+p VDD 28
+p VSS 14
+p VBB 1
+p Q11 12
+p Q12 11
+p Q13 10
+p Q14 9
+p Q15 8
+p Q16 7
+p Q17 6
+p Q18 5
+p Q19 4
+p Q20 3
+*package TL5812IFN ako TL5812FN
+*package TL5812IN ako TL5812N
+*package TL5812N
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p L_EN 16
+p \BLAN\ 13
+p DA_IN 27
+p CLK 15
+p Q1 26
+p Q2 25
+p Q3 24
+p Q4 23
+p Q5 22
+p Q6 21
+p Q7 20
+p Q8 19
+p Q9 18
+p Q10 17
+p SERIAL_OUT 2
+p VDD 28
+p VSS 14
+p VBB 1
+p Q11 12
+p Q12 11
+p Q13 10
+p Q14 9
+p Q15 8
+p Q16 7
+p Q17 6
+p Q18 5
+p Q19 4
+p Q20 3
+*package TLC1540
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+t PLCC20,LCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1540CDW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1540CFK
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1540CFN
+@types 1
+g 1
+@pinout
+t PLCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1540CJ
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1540CN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1540IDW ako TLC1540CDW
+*package TLC1540IFK ako TLC1540CFK
+*package TLC1540IFN ako TLC1540CFN
+*package TLC1540IJ
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1540IN ako TLC1540CN
+*package TLC1541
+@types 1
+g 1
+@pinout
+t DIP20,SO20W
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+t PLCC20,LCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1541CFN
+@types 1
+g 1
+@pinout
+t PLCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1541CN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1541IDW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1541IFN ako TLC1541CFN
+*package TLC1541IN ako TLC1541CN
+*package TLC1541MFKB
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC1541MJB
+@types 1
+g 1
+@pinout
+t CDIP20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC532
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p R/\W\ 11
+p RS 13
+p \CS\ 14
+p \R\ 15
+p REF+ 28
+p REF- 1
+p A0 26
+p A2 25
+p A3 24
+p A4 23
+p A5 22
+p A10/D1 21
+p A11/D2 20
+p A12/D3 19
+p A13/D4 18
+p A14/D5 17
+p A15/D6 16
+p 2-1 3
+p 2-2 4
+p 2-3 5
+p 2-5 7
+p 2-6 8
+p 2-7 9
+p 2-4 6
+p 2-8 10
+p GND 2
+p VCC 27
+p CLK 12
+t PLCC28
+g 1
+p R/\W\ 11
+p RS 13
+p \CS\ 14
+p \R\ 15
+p REF+ 28
+p REF- 1
+p A0 26
+p A2 25
+p A3 24
+p A4 23
+p A5 22
+p A10/D1 21
+p A11/D2 20
+p A12/D3 19
+p A13/D4 18
+p A14/D5 17
+p A15/D6 16
+p 2-1 3
+p 2-2 4
+p 2-3 5
+p 2-5 7
+p 2-6 8
+p 2-7 9
+p 2-4 6
+p 2-8 10
+p GND 2
+p VCC 27
+p CLK 12
+*package TLC532AIFN
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p R/\W\ 11
+p RS 13
+p \CS\ 14
+p \R\ 15
+p REF+ 28
+p REF- 1
+p A0 26
+p A2 25
+p A3 24
+p A4 23
+p A5 22
+p A10/D1 21
+p A11/D2 20
+p A12/D3 19
+p A13/D4 18
+p A14/D5 17
+p A15/D6 16
+p 2-1 3
+p 2-2 4
+p 2-3 5
+p 2-5 7
+p 2-6 8
+p 2-7 9
+p 2-4 6
+p 2-8 10
+p GND 2
+p VCC 27
+p CLK 12
+*package TLC532AIN
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p R/\W\ 11
+p RS 13
+p \CS\ 14
+p \R\ 15
+p REF+ 28
+p REF- 1
+p A0 26
+p A2 25
+p A3 24
+p A4 23
+p A5 22
+p A10/D1 21
+p A11/D2 20
+p A12/D3 19
+p A13/D4 18
+p A14/D5 17
+p A15/D6 16
+p 2-1 3
+p 2-2 4
+p 2-3 5
+p 2-5 7
+p 2-6 8
+p 2-7 9
+p 2-4 6
+p 2-8 10
+p GND 2
+p VCC 27
+p CLK 12
+*package TLC533
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p R/\W\ 11
+p RS 13
+p \CS\ 14
+p \R\ 15
+p REF+ 28
+p REF- 1
+p A0 26
+p A2 25
+p A3 24
+p A4 23
+p A5 22
+p A10/D1 21
+p A11/D2 20
+p A12/D3 19
+p A13/D4 18
+p A14/D5 17
+p A15/D6 16
+p 2-1 3
+p 2-2 4
+p 2-3 5
+p 2-5 7
+p 2-6 8
+p 2-7 9
+p 2-4 6
+p 2-8 10
+p GND 2
+p VCC 27
+p CLK 12
+*package TLC533AIN
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p R/\W\ 11
+p RS 13
+p \CS\ 14
+p \R\ 15
+p REF+ 28
+p REF- 1
+p A0 26
+p A2 25
+p A3 24
+p A4 23
+p A5 22
+p A10/D1 21
+p A11/D2 20
+p A12/D3 19
+p A13/D4 18
+p A14/D5 17
+p A15/D6 16
+p 2-1 3
+p 2-2 4
+p 2-3 5
+p 2-5 7
+p 2-6 8
+p 2-7 9
+p 2-4 6
+p 2-8 10
+p GND 2
+p VCC 27
+p CLK 12
+*package TLC533AMN ako TLC533AIN
+*package TLC540
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+t PLCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC540IFN
+@types 1
+g 1
+@pinout
+t PLCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC540IN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC541
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+t PLCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+t SO20W
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+t LCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC541CFN ako TLC541IFN
+*package TLC541CN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC541IDW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC541IFN
+@types 1
+g 1
+@pinout
+t PLCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC541IN ako TLC541CN
+*package TLC541MFK
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p I/O_CLK 18
+p ADD_IN 17
+p \CS\ 15
+p REF+ 14
+p REF- 13
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 11
+p A10 12
+p SYS_CLK 19
+p D_OUT 16
+p GND 10
+p VCC 20
+*package TLC545
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p ADD_IN 25
+p \CS\ 23
+p REF+ 22
+p REF- 21
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 10
+p A10 11
+p A11 12
+p A12 13
+p A13 15
+p A14 16
+p A15 17
+p A16 18
+p A17 19
+p A18 20
+p D_OUT 24
+p GND 14
+p VCC 28
+p I/O_CLK 26
+p SYS_CLK 27
+t PLCC28
+g 1
+p ADD_IN 25
+p \CS\ 23
+p REF+ 22
+p REF- 21
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 10
+p A10 11
+p A11 12
+p A12 13
+p A13 15
+p A14 16
+p A15 17
+p A16 18
+p A17 19
+p A18 20
+p D_OUT 24
+p GND 14
+p VCC 28
+p I/O_CLK 26
+p SYS_CLK 27
+*package TLC545CN
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p ADD_IN 25
+p \CS\ 23
+p REF+ 22
+p REF- 21
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 10
+p A10 11
+p A11 12
+p A12 13
+p A13 15
+p A14 16
+p A15 17
+p A16 18
+p A17 19
+p A18 20
+p D_OUT 24
+p GND 14
+p VCC 28
+p I/O_CLK 26
+p SYS_CLK 27
+*package TLC545IN
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p ADD_IN 25
+p \CS\ 23
+p REF+ 22
+p REF- 21
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 10
+p A10 11
+p A11 12
+p A12 13
+p A13 15
+p A14 16
+p A15 17
+p A16 18
+p A17 19
+p A18 20
+p D_OUT 24
+p GND 14
+p VCC 28
+p I/O_CLK 26
+p SYS_CLK 27
+*package TLC546
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p ADD_IN 25
+p \CS\ 23
+p REF+ 22
+p REF- 21
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 10
+p A10 11
+p A11 12
+p A12 13
+p A13 15
+p A14 16
+p A15 17
+p A16 18
+p A17 19
+p A18 20
+p D_OUT 24
+p GND 14
+p VCC 28
+p I/O_CLK 26
+p SYS_CLK 27
+t PLCC28
+g 1
+p ADD_IN 25
+p \CS\ 23
+p REF+ 22
+p REF- 21
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 10
+p A10 11
+p A11 12
+p A12 13
+p A13 15
+p A14 16
+p A15 17
+p A16 18
+p A17 19
+p A18 20
+p D_OUT 24
+p GND 14
+p VCC 28
+p I/O_CLK 26
+p SYS_CLK 27
+*package TLC546IFN
+@types 1
+g 1
+@pinout
+t PLCC28
+g 1
+p ADD_IN 25
+p \CS\ 23
+p REF+ 22
+p REF- 21
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 10
+p A10 11
+p A11 12
+p A12 13
+p A13 15
+p A14 16
+p A15 17
+p A16 18
+p A17 19
+p A18 20
+p D_OUT 24
+p GND 14
+p VCC 28
+p I/O_CLK 26
+p SYS_CLK 27
+*package TLC546IN
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p ADD_IN 25
+p \CS\ 23
+p REF+ 22
+p REF- 21
+p A0 1
+p A1 2
+p A2 3
+p A3 4
+p A4 5
+p A5 6
+p A6 7
+p A7 8
+p A8 9
+p A9 10
+p A10 11
+p A11 12
+p A12 13
+p A13 15
+p A14 16
+p A15 17
+p A16 18
+p A17 19
+p A18 20
+p D_OUT 24
+p GND 14
+p VCC 28
+p I/O_CLK 26
+p SYS_CLK 27
+*package TLC7528
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p \DACA\/DACB 6
+p \WR\ 16
+p \CS\ 15
+p REFA 4
+p REFB 18
+p DB0 14
+p DB1 13
+p DB2 12
+p DB3 11
+p DB4 10
+p DB5 9
+p DB6 8
+p DB7 7
+p RFBA 3
+p RFBB 19
+p OUTA 2
+p OUTB 20
+p AGND 1
+p DGND 5
+p VDD 17
+t PLCC20
+g 1
+p \DACA\/DACB 6
+p \WR\ 16
+p \CS\ 15
+p REFA 4
+p REFB 18
+p DB0 14
+p DB1 13
+p DB2 12
+p DB3 11
+p DB4 10
+p DB5 9
+p DB6 8
+p DB7 7
+p RFBA 3
+p RFBB 19
+p OUTA 2
+p OUTB 20
+p AGND 1
+p DGND 5
+p VDD 17
+t LCC20
+g 1
+p \DACA\/DACB 6
+p \WR\ 16
+p \CS\ 15
+p REFA 4
+p REFB 18
+p DB0 14
+p DB1 13
+p DB2 12
+p DB3 11
+p DB4 10
+p DB5 9
+p DB6 8
+p DB7 7
+p RFBA 3
+p RFBB 19
+p OUTA 2
+p OUTB 20
+p AGND 1
+p DGND 5
+p VDD 17
+t SO20W
+g 1
+p \DACA\/DACB 6
+p \WR\ 16
+p \CS\ 15
+p REFA 4
+p REFB 18
+p DB0 14
+p DB1 13
+p DB2 12
+p DB3 11
+p DB4 10
+p DB5 9
+p DB6 8
+p DB7 7
+p RFBA 3
+p RFBB 19
+p OUTA 2
+p OUTB 20
+p AGND 1
+p DGND 5
+p VDD 17
+*package TLC7528BFN ako TLC7528CFN
+*package TLC7528BN ako TLC7528CN
+*package TLC7528CDW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p \DACA\/DACB 6
+p \WR\ 16
+p \CS\ 15
+p REFA 4
+p REFB 18
+p DB0 14
+p DB1 13
+p DB2 12
+p DB3 11
+p DB4 10
+p DB5 9
+p DB6 8
+p DB7 7
+p RFBA 3
+p RFBB 19
+p OUTA 2
+p OUTB 20
+p AGND 1
+p DGND 5
+p VDD 17
+*package TLC7528CFN
+@types 1
+g 1
+@pinout
+t PLCC20
+g 1
+p \DACA\/DACB 6
+p \WR\ 16
+p \CS\ 15
+p REFA 4
+p REFB 18
+p DB0 14
+p DB1 13
+p DB2 12
+p DB3 11
+p DB4 10
+p DB5 9
+p DB6 8
+p DB7 7
+p RFBA 3
+p RFBB 19
+p OUTA 2
+p OUTB 20
+p AGND 1
+p DGND 5
+p VDD 17
+*package TLC7528CN
+@types 1
+g 1
+@pinout
+t DIP20
+g 1
+p \DACA\/DACB 6
+p \WR\ 16
+p \CS\ 15
+p REFA 4
+p REFB 18
+p DB0 14
+p DB1 13
+p DB2 12
+p DB3 11
+p DB4 10
+p DB5 9
+p DB6 8
+p DB7 7
+p RFBA 3
+p RFBB 19
+p OUTA 2
+p OUTB 20
+p AGND 1
+p DGND 5
+p VDD 17
+*package TLC7528EDW ako TLC7528CDW
+*package TLC7528EN ako TLC7528CN
+*package TLC7528IDW ako TLC7528CDW
+*package TLC7528IFN ako TLC7528CFN
+*package TLC7528IN ako TLC7528CN
+*package TLC7528KDW ako TLC7528CDW
+*package TLC7528KFN ako TLC7528CFN
+*package TLC7528KN ako TLC7528CN
+*package TLC7528MFK
+@types 1
+g 1
+@pinout
+t LCC20
+g 1
+p \DACA\/DACB 6
+p \WR\ 16
+p \CS\ 15
+p REFA 4
+p REFB 18
+p DB0 14
+p DB1 13
+p DB2 12
+p DB3 11
+p DB4 10
+p DB5 9
+p DB6 8
+p DB7 7
+p RFBA 3
+p RFBB 19
+p OUTA 2
+p OUTB 20
+p AGND 1
+p DGND 5
+p VDD 17
+*package TSP5220
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p \R\ 28
+p \W\ 27
+p D0 1
+p D1 26
+p D2 24
+p D3 22
+p D4 19
+p D5 12
+p D6 13
+p D7 14
+p ADD1 2
+p ADD2 25
+p ADD4 23
+p ADD8/SER_IN 21
+p \INT\ 17
+p \RDY\ 18
+p ROMCLK 3
+p SYNC 7
+p M0 15
+p M1 16
+p SPK 8
+p SERI_OUT 9
+p REF 11
+p PROM_OUT 10
+p OSC 6
+p VSS 5
+p VDD 4
+p TEST 20
+*package TSP5220CN
+@types 1
+g 1
+@pinout
+t DIP28X
+g 1
+p \R\ 28
+p \W\ 27
+p D0 1
+p D1 26
+p D2 24
+p D3 22
+p D4 19
+p D5 12
+p D6 13
+p D7 14
+p ADD1 2
+p ADD2 25
+p ADD4 23
+p ADD8/SER_IN 21
+p \INT\ 17
+p \RDY\ 18
+p ROMCLK 3
+p SYNC 7
+p M0 15
+p M1 16
+p SPK 8
+p SERI_OUT 9
+p REF 11
+p PROM_OUT 10
+p OSC 6
+p VSS 5
+p VDD 4
+p TEST 20
+*package UA9636
+@types 1
+g 1
+@pinout
+t DIP8,SO8
+g 1
+p 1A 2
+p 2A 3
+p W-S 1
+p \1Y\ 7
+p \2Y\ 6
+p VCC+ 8
+p VCC- 5
+p GND 4
+*package UA9636ACD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p 2A 3
+p W-S 1
+p \1Y\ 7
+p \2Y\ 6
+p VCC+ 8
+p VCC- 5
+p GND 4
+*package UA9636ACP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p 2A 3
+p W-S 1
+p \1Y\ 7
+p \2Y\ 6
+p VCC+ 8
+p VCC- 5
+p GND 4
+*package UA9637
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+*package UA9637ACP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+*package UA9637AMJG
+@types 1
+g 1
+@pinout
+t CDIP8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+*package UA9637CJG
+@types 1
+g 1
+@pinout
+t CDIP8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+*package UA9638
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p 2A 3
+p 1Y 8
+p \1Z\ 7
+p 2Y 6
+p \2Z\ 5
+p VCC 1
+p GND 4
+t DIP8
+g 1
+p 1A 2
+p 2A 3
+p 1Y 8
+p \1Z\ 7
+p 2Y 6
+p \2Z\ 5
+p VCC 1
+p GND 4
+*package UA9638CD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1A 2
+p 2A 3
+p 1Y 8
+p \1Z\ 7
+p 2Y 6
+p \2Z\ 5
+p VCC 1
+p GND 4
+*package UA9638CP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p 2A 3
+p 1Y 8
+p \1Z\ 7
+p 2Y 6
+p \2Z\ 5
+p VCC 1
+p GND 4
+*package UA9639
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+t DIP8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+*package UA9639CD
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+*package UA9639CP
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+*package UA9639D
+@types 1
+g 1
+@pinout
+t SO8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+*package UA9639P
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 2
+p 2O 3
+p VCC 1
+p GND 4
+*package ULN2064
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p CLAMP1 1
+p CLAMP2 8
+p 1C 2
+p 2C 7
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package ULN2064NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p CLAMP1 1
+p CLAMP2 8
+p 1C 2
+p 2C 7
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package ULN2065
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p CLAMP1 1
+p CLAMP2 8
+p 1C 2
+p 2C 7
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package ULN2065NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p CLAMP1 1
+p CLAMP2 8
+p 1C 2
+p 2C 7
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package ULN2066
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p CLAMP1 1
+p CLAMP2 8
+p 1C 2
+p 2C 7
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package ULN2066NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p CLAMP1 1
+p CLAMP2 8
+p 1C 2
+p 2C 7
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package ULN2067
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p CLAMP1 1
+p CLAMP2 8
+p 1C 2
+p 2C 7
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package ULN2067NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p CLAMP1 1
+p CLAMP2 8
+p 1C 2
+p 2C 7
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+*package ULN2068
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 15
+p CLAMP1 1
+p CLAMP2 9
+p 1C 2
+p 2C 8
+p 3C 10
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p VCC 14
+*package ULN2068NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 15
+p CLAMP1 1
+p CLAMP2 9
+p 1C 2
+p 2C 8
+p 3C 10
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p VCC 14
+*package ULN2069
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 15
+p CLAMP1 1
+p CLAMP2 9
+p 1C 2
+p 2C 8
+p 3C 10
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p VCC 14
+*package ULN2069NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 15
+p CLAMP1 1
+p CLAMP2 9
+p 1C 2
+p 2C 8
+p 3C 10
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p VCC 14
+*package ULN2074
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p 1C 1
+p 2C 8
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p 1E 2
+p 2E 7
+p 3E 10
+p 4E 15
+*package ULN2074NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p 1C 1
+p 2C 8
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p 1E 2
+p 2E 7
+p 3E 10
+p 4E 15
+*package ULN2075
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p 1C 1
+p 2C 8
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p 1E 2
+p 2E 7
+p 3E 10
+p 4E 15
+*package ULN2075NE
+@types 1
+g 1
+@pinout
+t DIP16
+g 1
+p 1B 3
+p 2B 6
+p 3B 11
+p 4B 14
+p 1C 1
+p 2C 8
+p 3C 9
+p 4C 16
+p GND1 4
+p GND2 5
+p GND3 13
+p GND4 12
+p 1E 2
+p 2E 7
+p 3E 10
+p 4E 15
+*package 9636
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1A 2
+p 2A 3
+p W-S 1
+p \1Y\ 7
+p \2Y\ 6
+p VCC+ 8
+p VCC- 5
+p GND 4
+t SO8
+g 1
+p 1A 2
+p 2A 3
+p W-S 1
+p \1Y\ 7
+p \2Y\ 6
+p VCC+ 8
+p VCC- 5
+p GND 4
+*package 9637
+@types 1
+g 1
+@pinout
+t DIP8
+g 1
+p 1IN+ 8
+p 1IN- 7
+p 2IN+ 6
+p 2IN- 5
+p 1O 3
+p 2O 2
+p VCC 1
+p GND 4
+*package SN75172DW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p 1A 1
+p 1Y 2
+p 1Z 4
+p G 5
+p 2Z 6
+p 2Y 8
+p 2A 9
+p GND 10
+p 3A 11
+p 3Y 12
+p 3Z 14
+p \G\ 15
+p 4Z 16
+p 4Y 18
+p 4A 19
+p VCC 20
+*package SN75129DW
+@types 1
+g 1
+@pinout
+t SO20W
+g 1
+p 1A 2
+p 2A 3
+p 3A 4
+p 4A 5
+p 5A 6
+p 6A 7
+p 7A 8
+p VCC 20
+p GND 10
+p \1Y\ 19
+p \2Y\ 18
+p \3Y\ 17
+p \4Y\ 16
+p \5Y\ 15
+p \6Y\ 14
+p \7Y\ 13
+p \1S\ 1
+p \2S\ 11
+p 8A 9
+p \8Y\ 12

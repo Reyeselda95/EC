@@ -1,0 +1,17 @@
+
+UCLK STIM(1,1) $G_DPWR $G_DGND
++	CLOCK
++	IO_STM TIMESTEP=4.166u
++	0c	0
++	label=loop
++	+1c	1
++	+1c	0
++	+1c	goto loop -1 times
+
+URESET STIM(1,1) $G_DPWR $G_DGND
++	RESET
++	IO_STM
++	TIMESTEP=4.166u
++	0c	0
++	4.5c	1
+

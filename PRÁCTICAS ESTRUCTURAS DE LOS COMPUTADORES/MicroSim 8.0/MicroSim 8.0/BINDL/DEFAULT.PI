@@ -1,0 +1,58 @@
+" PLSyn Physical Information file
+
+" Optimization parmeters:
+
+{
+ MAX_SYMBOLS          20,
+ MAX_PTERMS           8,
+ POLARITY_CONTROL     TRUE,
+ MAX_XOR_PTERMS       0,
+ XOR_POLARITY_CONTROL FALSE
+};
+
+" The rest of this sample file shows how the .pi file can be used to direct
+" the partitioner to place specific logic into a mixture of PLDs and CPLDs
+" See the PLSyn manual for mor information.
+" 
+" ----------------------------------------------------------------------
+" 
+" {MAX_PTERMS 12}; "global optimization parameter to restrict node
+"                  "collapsing to equations of 12 terms or less
+" {FF_SYNTH OFF};  "do not use synthesized registers - this reduces the
+"                  "number of fitting options and can speed up partitioning
+" 
+" ----------------------------------------------------------------------
+" 
+" DEVICE
+"
+" " Place the specified signals into a generic 22V10 device...
+"
+"  TARGET 'TEMPLATE p22v10 dip-24-std';  "use the standard footprint
+" 
+"  INPUT out4;                "out4 from a PLD is used as input here
+"  in2:3, in3:4, in4:5;       "place signals on pins 3, 4, and 5
+"  out1:14, out2:15, out3:16; "place signal on pins 14, 15, and 16
+"
+" END DEVICE;
+" 
+" ----------------------------------------------------------------------
+" 
+" DEVICE
+"
+"  {MACH_UTILIZATION 80};  "reserve 20% for future use
+"  TARGET 'TEMPLATE mach110 jlcc-44-std';  "place group into a MACH110
+" 
+"  out1:2, out2:3, out3:4;  "place signals on pins 2, 3, and 4
+" 
+"  GROUP              "force out4..out6 to be placed into
+"   out4, out5, out6; "the same MACH block
+"  END GROUP;
+" 
+"  SECTION
+"   TARGET 'a';       "force out7..out8 into MACH block A
+"   out7:5, out8:6;   "and put onto pins 5 and 6
+"  END SECTION;
+" 
+" END DEVICE;
+" 
+" ------------------------------------------------------------------------------

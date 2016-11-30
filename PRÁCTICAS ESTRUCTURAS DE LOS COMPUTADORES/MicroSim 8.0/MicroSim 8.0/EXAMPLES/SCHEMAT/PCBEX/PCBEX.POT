@@ -1,0 +1,2111 @@
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 5.4x - September 1993
+* Wed Sep 15 15:16:35 1993
+
+
+** Analysis setup **
+.tran 5ns 120ns
+.OP 
+.INC pcbex.stm
+
+**** INCLUDING pcbex.stm ****
+UCLK STIM(1,1) $G_DPWR $G_DGND
++       CLK
++       IO_STM TIMESTEP=40n
++       0c      0
++       label=loop
++       1c      1
++       2c      0
++       3c      goto loop -1 times
+
+USL STIM(2,11) $G_DPWR $G_DGND
++       S/L_0 S/L_1
++       IO_STM
++       0s      11
++       80ns    10
+
+UOE STIM(1,1) $G_DPWR $G_DGND
++       OE_
++       IO_STM
++       0s      1
++       130ns   0
+
+URESET STIM(1,1) $G_DPWR $G_DGND
++       RESET
++       IO_STM
++       0s      0
++       80ns    1
+
+UOUT31_0 STIM(32, 11111111111111111111111111111111) $G_DPWR $G_DGND
++       OUT31 OUT30 OUT29 OUT28 OUT27 OUT26 OUT25 OUT24 
++       OUT23 OUT22 OUT21 OUT20 OUT19 OUT18 OUT17 OUT16 
++       OUT15 OUT14 OUT13 OUT12 OUT11 OUT10 OUT9 OUT8 
++       OUT7 OUT6 OUT5 OUT4 OUT3 OUT2 OUT1 OUT0
++       IO_STM
++       0s      10101010101010101010101010101010
++       130ns   ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+**** RESUMING PCBEX.PCR ****
+
+
+* From [SCHEMATICS NETLIST] section of msim.ini:
+.lib nom.lib
+
+.INC "pcbex.pnt"
+
+**** INCLUDING pcbex.pnt ****
+* Schematics Netlist *
+
+X_U1     CLK S/L_0 S/L_1 S/L_0 OE_ OE_ $N_0001 SERIAL_IN IN0 IN1 IN2 IN3 IN4 IN5
++  IN6 IN7 $N_0002 $N_0003 $G_DPWR $G_DGND 74LS323 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2     $$P002 S/L_0 $$P013 S/L_0 OE_ OE_ $N_0004 $N_0003 IN8 IN9 IN10 IN11 IN12
++  IN13 IN14 IN15 $N_0005 $N_0006 $G_DPWR $G_DGND 74LS323 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3     $$P004 S/L_0 $$P015 S/L_0 OE_ OE_ $N_0007 $N_0006 IN16 IN17 IN18 IN19 IN20
++  IN21 IN22 IN23 $N_0008 $N_0009 $G_DPWR $G_DGND 74LS323 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4     $$P005 S/L_0 $$P016 S/L_0 OE_ OE_ $N_0010 $N_0009 IN24 IN25 IN26 IN27 IN28
++  IN29 IN30 IN31 $N_0011 $N_0012 $G_DPWR $G_DGND 74LS323 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U19A   OE_ $N_0013 $G_DPWR $G_DGND 74LS04 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U5     $N_0014 $N_0015 $N_0016 $N_0017 $N_0018 $N_0019 $N_0020 $N_0021 OE_ OE_
++  OUT0 OUT1 OUT2 OUT3 OUT4 OUT5 OUT6 OUT7 $G_DPWR $G_DGND 74LS240 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U6     $N_0022 $N_0023 $N_0024 $N_0025 $N_0026 $N_0027 $N_0028 $N_0029 OE_ OE_
++  OUT8 OUT9 OUT10 OUT11 OUT12 OUT13 OUT14 OUT15 $G_DPWR $G_DGND 74LS240 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U7     $N_0030 $N_0031 $N_0032 $N_0033 $N_0034 $N_0035 $N_0036 $N_0037 OE_ OE_
++  OUT16 OUT17 OUT18 OUT19 OUT20 OUT21 OUT22 OUT23 $G_DPWR $G_DGND 74LS240 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U8     $N_0038 $N_0039 $N_0040 $N_0041 $N_0042 $N_0043 $N_0044 $N_0045 OE_ OE_
++  OUT24 OUT25 OUT26 OUT27 OUT28 OUT29 OUT30 OUT31 $G_DPWR $G_DGND 74LS240 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U9     OUT24 OUT25 OUT26 OUT27 OUT28 OUT29 OUT30 OUT31 $N_0013 $N_0013 IN24 IN25
++  $$P007 IN27 IN28 IN29 IN30 IN31 $G_DPWR $G_DGND 74LS240 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U10    OUT16 OUT17 OUT18 OUT19 OUT20 OUT21 OUT22 OUT23 $N_0013 $N_0013 IN16 IN17
++  IN18 IN19 IN20 IN21 $$P011 IN23 $G_DPWR $G_DGND 74LS240 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U11    OUT8 OUT9 OUT10 OUT11 OUT12 OUT13 OUT14 OUT15 $N_0013 $N_0013 IN8 IN9 IN10
++  IN11 IN12 IN13 IN14 IN15 $G_DPWR $G_DGND 74LS240 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U12    OUT0 OUT2 OUT1 OUT3 OUT4 OUT5 OUT6 OUT7 $N_0013 $N_0013 IN0 IN1 IN2 IN3
++  IN4 IN5 IN6 IN7 $G_DPWR $G_DGND 74LS240 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U13    OE_ LATCH_EN IN0 IN1 IN2 IN3 IN4 IN5 IN6 IN7 $N_0014 $N_0015 $N_0016 $N_0017
++  $N_0018 $N_0019 $N_0020 $N_0021 $G_DPWR $G_DGND 74LS373 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U14    OE_ LATCH_EN IN8 IN9 IN10 IN11 IN12 IN13 IN14 IN15 $N_0022 $N_0023 $N_0024
++  $N_0025 $N_0026 $N_0027 $N_0028 $N_0029 $G_DPWR $G_DGND 74LS373 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U15    OE_ LATCH_EN IN16 IN17 IN18 IN19 IN20 IN21 $$P010 IN23 $N_0030 $N_0031
+
++  $N_0032 $N_0033 $N_0034 $N_0035 $N_0036 $N_0037 $G_DPWR $G_DGND 74LS373 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U16    OE_ LATCH_EN IN24 IN25 $$P008 IN27 IN28 IN29 IN30 IN31 $N_0038 $N_0039
+
++  $N_0040 $N_0041 $N_0042 $N_0043 $N_0044 $N_0045 $G_DPWR $G_DGND 74LS373 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U20A   IN0 IN1 $N_0046 $G_DPWR $G_DGND 74S86 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U20B   IN10 IN20 $N_0047 $G_DPWR $G_DGND 74S86 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U20C   IN31 $N_0048 SERIAL_IN $G_DPWR $G_DGND 74S86 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U20D   $N_0046 $N_0047 $N_0048 $G_DPWR $G_DGND 74S86 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U17    $$P003 $N_0053 $N_0053 RESET S/L_0 $N_0049 $N_0050 $N_0051 $N_0052 $N_0054
++  $N_0055 $N_0056 $N_0057 $N_0058 $G_DPWR $G_DGND 74AS161 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U18    $N_0058 $N_0053 $N_0053 RESET S/L_0 $N_0059 $N_0060 $N_0061 $N_0062 $N_0063
++  $N_0064 $N_0065 $N_0066 $N_0067 $G_DPWR $G_DGND 74AS161 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U21A   $N_0053 $N_0068 LATCH_EN $G_DPWR $G_DGND 74LS00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U19B   $$P014 $N_0053 $G_DPWR $G_DGND 74LS04 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U19C   $N_0063 $N_0069 $G_DPWR $G_DGND 74LS04 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U22A   $N_0069 $N_0064 $N_0071 $N_0070 $G_DPWR $G_DGND 74LS10 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U19D   $N_0070 $N_0072 $G_DPWR $G_DGND 74LS04 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U19E   $N_0072 $N_0068 $G_DPWR $G_DGND 74LS04 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U19F   $N_0058 $N_0073 $G_DPWR $G_DGND 74LS04 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U23A   $N_0073 $N_0071 $G_DPWR $G_DGND 74LS04 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_R1     LATCH_EN $G_DPWR $G_DGND PULLUP_1k PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+
+** Polaris Parasitics **
+
+
+** Coupled Lines
+X_P_023 $$P017 $$P018 $$P019 $$P020 p/l2c
++ params: len=1.587E-002 l=5.451E-007 c=5.150E-011 r=1.904E+000 g=0.000E+000 lm=6.499E-008 cm=2.811E-012
+
+X_P_024 $$P021 $$P022 $$P023 $$P024 p/l2c
++ params: len=5.334E-002 l=5.686E-007 c=4.850E-011 r=1.904E+000 g=0.000E+000 lm=7.708E-008 cm=3.360E-012
+
+L_P_025_1 $$P025 $$P028 9.387E-009
+C_P_025 $$P028 0 1.475E-012
+R_P_025 $$P028 $$P027 6.288E-002
+L_P_025_2 $$P027 $$P026 9.387E-009
+L_P_026_1 $$P029 $$P032 9.380E-009
+C_P_026 $$P032 0 1.480E-012
+R_P_026 $$P032 $$P031 6.288E-002
+L_P_026_2 $$P031 $$P030 9.380E-009
+K__PT29T211 L_P_025_1 L_P_026_1 1.354E-001
+K__PT29T212 L_P_025_2 L_P_026_2 1.354E-001
+CK__PT29T21 $$P028 $$P032 1.090E-013
+
+L_P_027_1 $$P033 $$P036 9.387E-009
+C_P_027 $$P036 0 1.475E-012
+R_P_027 $$P036 $$P035 6.288E-002
+L_P_027_2 $$P035 $$P034 9.387E-009
+K__PT29T301 L_P_025_1 L_P_027_1 4.485E-002
+K__PT29T302 L_P_025_2 L_P_027_2 4.485E-002
+CK__PT29T30 $$P028 $$P036 1.160E-014
+
+K__PT21T301 L_P_026_1 L_P_027_1 1.354E-001
+K__PT21T302 L_P_026_2 L_P_027_2 1.354E-001
+CK__PT21T30 $$P032 $$P036 1.090E-013
+
+
+
+** Uncoupled Lines
+X_P_028 $$P037 $$P020 p/ts
++ params: len=9.398E-002 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_029 $$P029 $$P005 p/ls
++ params: len=5.080E-003 l=5.454E-007 c=5.455E-011 r=1.904E+000 g=0.000E+000
+X_P_030 $$P021 $$P017 p/ls
++ params: len=6.350E-004 l=5.454E-007 c=5.455E-011 r=1.904E+000 g=0.000E+000
+X_P_031 $$P037 $$P003 p/ls
++ params: len=2.540E-003 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_032 $$P018 $$P017 p/ls
++ params: len=1.270E-003 l=5.454E-007 c=5.455E-011 r=1.904E+000 g=0.000E+000
+X_P_033 IN26 $$P038 p/ls
++ params: len=1.270E-003 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_034 $$P008 $$P026 p/ls
++ params: len=1.270E-003 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_035 $$P038 $$P025 p/ls
++ params: len=7.620E-003 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_036 $$P010 $$P039 p/ls
++ params: len=6.350E-003 l=5.454E-007 c=5.455E-011 r=1.904E+000 g=0.000E+000
+X_P_037 $$P011 $$P040 p/ls
++ params: len=1.270E-003 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_038 $$P039 $$P040 p/ts
++ params: len=7.874E-002 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_039 $$P041 $$P042 p/ls
++ params: len=6.350E-003 l=5.454E-007 c=5.455E-011 r=1.904E+000 g=0.000E+000
+X_P_040 $$P014 $$P043 p/ls
++ params: len=1.270E-003 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_041 $$P042 $$P044 p/ls
++ params: len=6.350E-004 l=5.454E-007 c=5.455E-011 r=1.904E+000 g=0.000E+000
+X_P_042 $$P041 $$P022 p/ls
++ params: len=1.778E-002 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_043 $$P043 $$P044 p/ts
++ params: len=7.557E-002 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_044 $$P002 $$P023 p/ls
++ params: len=2.286E-002 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_045 $$P034 $$P007 p/ls
++ params: len=4.191E-002 l=5.669E-007 c=5.216E-011 r=1.904E+000 g=0.000E+000
+X_P_046 $$P038 $$P033 p/ls
++ params: len=1.016E-002 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_047 $$P019 $$P004 p/ls
++ params: len=1.143E-002 l=5.454E-007 c=5.455E-011 r=1.904E+000 g=0.000E+000
+X_P_048 CLK $$P021 p/ls
++ params: len=3.810E-002 l=5.454E-007 c=5.455E-011 r=1.904E+000 g=0.000E+000
+X_P_049 $$P010 IN22 p/ls
++ params: len=4.318E-002 l=5.670E-007 c=5.215E-011 r=1.904E+000 g=0.000E+000
+X_P_050 $$P042 $$P015 p/ls
++ params: len=2.032E-002 l=5.454E-007 c=5.455E-011 r=1.904E+000 g=0.000E+000
+X_P_051 S/L_1 $$P041 p/ls
++ params: len=3.937E-002 l=5.454E-007 c=5.455E-011 r=1.904E+000 g=0.000E+000
+X_P_052 $$P013 $$P024 p/ls
++ params: len=6.350E-003 l=5.691E-007 c=5.192E-011 r=1.904E+000 g=0.000E+000
+X_P_053 $$P030 $$P004 p/ls
++ params: len=2.540E-002 l=5.490E-007 c=5.415E-011 r=1.904E+000 g=0.000E+000
+X_P_054 $$P016 $$P015 p/ls
++ params: len=6.350E-002 l=5.596E-007 c=5.297E-011 r=1.904E+000 g=0.000E+000
+
+
+** Vias **
+C__PV_001 CLK 0 1E-012
+C__PV_002 $$P021 0 1E-012
+C__PV_003 $$P002 0 1E-012
+C__PV_004 $$P003 0 1E-012
+C__PV_005 $$P020 0 1E-012
+C__PV_006 $$P004 0 1E-012
+C__PV_007 $$P005 0 1E-012
+C__PV_008 $$P029 0 1E-012
+C__PV_009 $$P030 0 1E-012
+C__PV_010 IN26 0 1E-012
+C__PV_011 $$P034 0 1E-012
+C__PV_012 $$P007 0 1E-012
+C__PV_013 $$P008 0 1E-012
+C__PV_014 IN22 0 1E-012
+C__PV_015 $$P010 0 1E-012
+C__PV_016 $$P010 0 1E-012
+C__PV_017 $$P011 0 1E-012
+C__PV_018 $$P039 0 1E-012
+C__PV_019 S/L_1 0 1E-012
+C__PV_020 $$P041 0 1E-012
+C__PV_021 $$P013 0 1E-012
+C__PV_022 $$P014 0 1E-012
+C__PV_023 $$P044 0 1E-012
+C__PV_024 $$P015 0 1E-012
+C__PV_025 $$P016 0 1E-012
+C__PV_026 $$P016 0 1E-012
+
+
+** Dummy Resistors **
+R__PD_001 CLK 0 1E9
+R__PD_002 $$P002 0 1E9
+R__PD_003 $$P003 0 1E9
+R__PD_004 $$P004 0 1E9
+R__PD_005 $$P005 0 1E9
+R__PD_006 IN26 0 1E9
+R__PD_007 $$P007 0 1E9
+R__PD_008 $$P008 0 1E9
+R__PD_009 IN22 0 1E9
+R__PD_010 $$P010 0 1E9
+R__PD_011 $$P011 0 1E9
+R__PD_012 S/L_1 0 1E9
+R__PD_013 $$P013 0 1E9
+R__PD_014 $$P014 0 1E9
+R__PD_015 $$P015 0 1E9
+R__PD_016 $$P016 0 1E9
+
+**** RESUMING PCBEX.PCR ****
+.INC "pcbex.pas"
+
+**** INCLUDING pcbex.pas ****
+* Schematics Aliases *
+
+.ALIASES
+_   P1A1(pin1=OUT0 )
+_   P1A2(pin1=OUT1 )
+_   P1A3(pin1=OUT2 )
+_   P1A4(pin1=OUT3 )
+_   P1A5(pin1=OUT4 )
+_   P1A6(pin1=OUT5 )
+_   P1A7(pin1=OUT6 )
+_   P1A8(pin1=OUT7 )
+_   P1A9(pin1=OUT8 )
+_   P1A10(pin1=OUT9 )
+_   P1A11(pin1=OUT10 )
+_   P1A12(pin1=OUT11 )
+_   P1A13(pin1=OUT12 )
+_   P1A14(pin1=OUT13 )
+_   P1A15(pin1=OUT14 )
+_   P1A16(pin1=OUT15 )
+_   P1A17(pin1=OUT16 )
+_   P1A18(pin1=OUT17 )
+_   P1A19(pin1=OUT18 )
+_   P1A20(pin1=OUT19 )
+_   P1A21(pin1=OUT20 )
+_   P1A22(pin1=OUT21 )
+_   P1A23(pin1=OUT22 )
+_   P1A24(pin1=OUT23 )
+_   P1A25(pin1=OUT24 )
+_   P1A26(pin1=OUT25 )
+_   P1A27(pin1=OUT26 )
+_   P1A28(pin1=OUT27 )
+_   P1A29(pin1=OUT28 )
+_   P1A30(pin1=OUT29 )
+_   P1A31(pin1=OUT30 )
+_   P1B1(pin1=OUT31 )
+X_U1        U1(CLK=CLK CLRbar=S/L_0 S1=S/L_1 S0=S/L_0 Gbar1=OE_ Gbar2=OE_ SL=$N_0001
++  SR=SERIAL_IN A/QA=IN0 B/QB=IN1 C/QC=IN2 D/QD=IN3 E/QE=IN4 F/QF=IN5 G/QG=IN6 H/QH=IN7
++  QAP=$N_0002 QHP=$N_0003 PWR=$G_DPWR GND=$G_DGND )
+X_U2        U2(CLK=$$P002 CLRbar=S/L_0 S1=$$P013 S0=S/L_0 Gbar1=OE_ Gbar2=OE_ SL=$N_0004
++  SR=$N_0003 A/QA=IN8 B/QB=IN9 C/QC=IN10 D/QD=IN11 E/QE=IN12 F/QF=IN13 G/QG=IN14
++  H/QH=IN15 QAP=$N_0005 QHP=$N_0006 PWR=$G_DPWR GND=$G_DGND )
+X_U3        U3(CLK=$$P004 CLRbar=S/L_0 S1=$$P015 S0=S/L_0 Gbar1=OE_ Gbar2=OE_ SL=$N_0007
++  SR=$N_0006 A/QA=IN16 B/QB=IN17 C/QC=IN18 D/QD=IN19 E/QE=IN20 F/QF=IN21 G/QG=IN22
++  H/QH=IN23 QAP=$N_0008 QHP=$N_0009 PWR=$G_DPWR GND=$G_DGND )
+X_U4        U4(CLK=$$P005 CLRbar=S/L_0 S1=$$P016 S0=S/L_0 Gbar1=OE_ Gbar2=OE_ SL=$N_0010
++  SR=$N_0009 A/QA=IN24 B/QB=IN25 C/QC=IN26 D/QD=IN27 E/QE=IN28 F/QF=IN29 G/QG=IN30
++  H/QH=IN31 QAP=$N_0011 QHP=$N_0012 PWR=$G_DPWR GND=$G_DGND )
+X_U19A    U19A(A=OE_ Y=$N_0013 PWR=$G_DPWR GND=$G_DGND )
+X_U5        U5(1A1=$N_0014 1A2=$N_0015 1A3=$N_0016 1A4=$N_0017 2A1=$N_0018 2A2=$N_0019
++  2A3=$N_0020 2A4=$N_0021 1Gbar=OE_ 2Gbar=OE_ 1Y1=OUT0 1Y2=OUT1 1Y3=OUT2 1Y4=OUT3
++  2Y1=OUT4 2Y2=OUT5 2Y3=OUT6 2Y4=OUT7 PWR=$G_DPWR GND=$G_DGND )
+X_U6        U6(1A1=$N_0022 1A2=$N_0023 1A3=$N_0024 1A4=$N_0025 2A1=$N_0026 2A2=$N_0027
++  2A3=$N_0028 2A4=$N_0029 1Gbar=OE_ 2Gbar=OE_ 1Y1=OUT8 1Y2=OUT9 1Y3=OUT10 1Y4=OUT11
++  2Y1=OUT12 2Y2=OUT13 2Y3=OUT14 2Y4=OUT15 PWR=$G_DPWR GND=$G_DGND )
+X_U7        U7(1A1=$N_0030 1A2=$N_0031 1A3=$N_0032 1A4=$N_0033 2A1=$N_0034 2A2=$N_0035
++  2A3=$N_0036 2A4=$N_0037 1Gbar=OE_ 2Gbar=OE_ 1Y1=OUT16 1Y2=OUT17 1Y3=OUT18 1Y4=OUT19
++  2Y1=OUT20 2Y2=OUT21 2Y3=OUT22 2Y4=OUT23 PWR=$G_DPWR GND=$G_DGND )
+X_U8        U8(1A1=$N_0038 1A2=$N_0039 1A3=$N_0040 1A4=$N_0041 2A1=$N_0042 2A2=$N_0043
++  2A3=$N_0044 2A4=$N_0045 1Gbar=OE_ 2Gbar=OE_ 1Y1=OUT24 1Y2=OUT25 1Y3=OUT26 1Y4=OUT27
++  2Y1=OUT28 2Y2=OUT29 2Y3=OUT30 2Y4=OUT31 PWR=$G_DPWR GND=$G_DGND )
+X_U9        U9(1A1=OUT24 1A2=OUT25 1A3=OUT26 1A4=OUT27 2A1=OUT28 2A2=OUT29 2A3=OUT30
++  2A4=OUT31 1Gbar=$N_0013 2Gbar=$N_0013 1Y1=IN24 1Y2=IN25 1Y3=$$P007 1Y4=IN27 2Y1=IN28
++  2Y2=IN29 2Y3=IN30 2Y4=IN31 PWR=$G_DPWR GND=$G_DGND )
+X_U10      U10(1A1=OUT16 1A2=OUT17 1A3=OUT18 1A4=OUT19 2A1=OUT20 2A2=OUT21 2A3=OUT22
++  2A4=OUT23 1Gbar=$N_0013 2Gbar=$N_0013 1Y1=IN16 1Y2=IN17 1Y3=IN18 1Y4=IN19 2Y1=IN20
++  2Y2=IN21 2Y3=$$P011 2Y4=IN23 PWR=$G_DPWR GND=$G_DGND )
+X_U11      U11(1A1=OUT8 1A2=OUT9 1A3=OUT10 1A4=OUT11 2A1=OUT12 2A2=OUT13 2A3=OUT14
++  2A4=OUT15 1Gbar=$N_0013 2Gbar=$N_0013 1Y1=IN8 1Y2=IN9 1Y3=IN10 1Y4=IN11 2Y1=IN12
++  2Y2=IN13 2Y3=IN14 2Y4=IN15 PWR=$G_DPWR GND=$G_DGND )
+X_U12      U12(1A1=OUT0 1A2=OUT2 1A3=OUT1 1A4=OUT3 2A1=OUT4 2A2=OUT5 2A3=OUT6 2A4=OUT7
++  1Gbar=$N_0013 2Gbar=$N_0013 1Y1=IN0 1Y2=IN1 1Y3=IN2 1Y4=IN3 2Y1=IN4 2Y2=IN5 2Y3=IN6
++  2Y4=IN7 PWR=$G_DPWR GND=$G_DGND )
+X_U13      U13(OCbar=OE_ C=LATCH_EN 1D=IN0 2D=IN1 3D=IN2 4D=IN3 5D=IN4 6D=IN5 7D=IN6
++  8D=IN7 1Q=$N_0014 2Q=$N_0015 3Q=$N_0016 4Q=$N_0017 5Q=$N_0018 6Q=$N_0019 7Q=$N_0020
++  8Q=$N_0021 PWR=$G_DPWR GND=$G_DGND )
+X_U14      U14(OCbar=OE_ C=LATCH_EN 1D=IN8 2D=IN9 3D=IN10 4D=IN11 5D=IN12 6D=IN13
++  7D=IN14 8D=IN15 1Q=$N_0022 2Q=$N_0023 3Q=$N_0024 4Q=$N_0025 5Q=$N_0026 6Q=$N_0027
++  7Q=$N_0028 8Q=$N_0029 PWR=$G_DPWR GND=$G_DGND )
+X_U15      U15(OCbar=OE_ C=LATCH_EN 1D=IN16 2D=IN17 3D=IN18 4D=IN19 5D=IN20 6D=IN21
++  7D=$$P010 8D=IN23 1Q=$N_0030 2Q=$N_0031 3Q=$N_0032 4Q=$N_0033 5Q=$N_0034 6Q=$N_0035
++  7Q=$N_0036 8Q=$N_0037 PWR=$G_DPWR GND=$G_DGND )
+X_U16      U16(OCbar=OE_ C=LATCH_EN 1D=IN24 2D=IN25 3D=$$P008 4D=IN27 5D=IN28 6D=IN29
++  7D=IN30 8D=IN31 1Q=$N_0038 2Q=$N_0039 3Q=$N_0040 4Q=$N_0041 5Q=$N_0042 6Q=$N_0043
++  7Q=$N_0044 8Q=$N_0045 PWR=$G_DPWR GND=$G_DGND )
+X_U20A    U20A(A=IN0 B=IN1 Y=$N_0046 PWR=$G_DPWR GND=$G_DGND )
+X_U20B    U20B(A=IN10 B=IN20 Y=$N_0047 PWR=$G_DPWR GND=$G_DGND )
+X_U20C    U20C(A=IN31 B=$N_0048 Y=SERIAL_IN PWR=$G_DPWR GND=$G_DGND )
+X_U20D    U20D(A=$N_0046 B=$N_0047 Y=$N_0048 PWR=$G_DPWR GND=$G_DGND )
+X_U17      U17(CLK=$$P003 ENP=$N_0053 ENT=$N_0053 CLRbar=RESET LOADbar=S/L_0 A=$N_0049
++  B=$N_0050 C=$N_0051 D=$N_0052 QA=$N_0054 QB=$N_0055 QC=$N_0056 QD=$N_0057 RCO=$N_0058
++  PWR=$G_DPWR GND=$G_DGND )
+X_U18      U18(CLK=$N_0058 ENP=$N_0053 ENT=$N_0053 CLRbar=RESET LOADbar=S/L_0 A=$N_0059
++  B=$N_0060 C=$N_0061 D=$N_0062 QA=$N_0063 QB=$N_0064 QC=$N_0065 QD=$N_0066 RCO=$N_0067
++  PWR=$G_DPWR GND=$G_DGND )
+X_U21A    U21A(A=$N_0053 B=$N_0068 Y=LATCH_EN PWR=$G_DPWR GND=$G_DGND )
+X_U19B    U19B(A=$$P014 Y=$N_0053 PWR=$G_DPWR GND=$G_DGND )
+X_U19C    U19C(A=$N_0063 Y=$N_0069 PWR=$G_DPWR GND=$G_DGND )
+X_U22A    U22A(A=$N_0069 B=$N_0064 C=$N_0071 Y=$N_0070 PWR=$G_DPWR GND=$G_DGND )
+X_U19D    U19D(A=$N_0070 Y=$N_0072 PWR=$G_DPWR GND=$G_DGND )
+X_U19E    U19E(A=$N_0072 Y=$N_0068 PWR=$G_DPWR GND=$G_DGND )
+X_U19F    U19F(A=$N_0058 Y=$N_0073 PWR=$G_DPWR GND=$G_DGND )
+X_U23A    U23A(A=$N_0073 Y=$N_0071 PWR=$G_DPWR GND=$G_DGND )
+X_R1        R1(1=LATCH_EN 2=$G_DPWR )
+_    _(OUT0=OUT0)
+_    _(OUT1=OUT1)
+_    _(OUT2=OUT2)
+_    _(OUT3=OUT3)
+_    _(OUT4=OUT4)
+_    _(OUT5=OUT5)
+_    _(OUT6=OUT6)
+_    _(OUT7=OUT7)
+_    _(OUT8=OUT8)
+_    _(OUT9=OUT9)
+_    _(OUT10=OUT10)
+_    _(OUT11=OUT11)
+_    _(OUT12=OUT12)
+_    _(OUT13=OUT13)
+_    _(OUT14=OUT14)
+_    _(OUT15=OUT15)
+_    _(OUT16=OUT16)
+_    _(OUT17=OUT17)
+_    _(OUT18=OUT18)
+_    _(OUT19=OUT19)
+_    _(OUT20=OUT20)
+_    _(OUT21=OUT21)
+_    _(OUT22=OUT22)
+_    _(OUT23=OUT23)
+_    _(OUT24=OUT24)
+_    _(OUT25=OUT25)
+_    _(OUT26=OUT26)
+_    _(OUT27=OUT27)
+_    _(OUT28=OUT28)
+_    _(OUT29=OUT29)
+_    _(OUT30=OUT30)
+_    _(OUT31=OUT31)
+_    _(OE_=OE_)
+_    _(IN2=IN2)
+_    _(IN3=IN3)
+_    _(IN4=IN4)
+_    _(IN5=IN5)
+_    _(IN6=IN6)
+_    _(IN7=IN7)
+_    _(IN8=IN8)
+_    _(IN9=IN9)
+_    _(IN11=IN11)
+_    _(IN12=IN12)
+_    _(IN13=IN13)
+_    _(IN14=IN14)
+_    _(IN15=IN15)
+_    _(IN16=IN16)
+_    _(IN17=IN17)
+_    _(IN18=IN18)
+_    _(IN19=IN19)
+_    _(IN21=IN21)
+_    _(IN22=IN22)
+_    _(IN23=IN23)
+_    _(IN24=IN24)
+_    _(IN25=IN25)
+_    _(IN26=IN26)
+_    _(IN27=IN27)
+_    _(IN28=IN28)
+_    _(IN29=IN29)
+_    _(IN30=IN30)
+_    _(IN0=IN0)
+_    _(IN1=IN1)
+_    _(IN10=IN10)
+_    _(IN20=IN20)
+_    _(IN31=IN31)
+_    _(SERIAL_IN=SERIAL_IN)
+_    _(RESET=RESET)
+_    _(CLK=CLK)
+_    _(S/L_0=S/L_0)
+_    _(LATCH_EN=LATCH_EN)
+_    _(S/L_1=S/L_1)
+_    _($G_DGND=$G_DGND)
+_    _($G_DPWR=$G_DPWR)
+.ENDALIASES
+
+
+**** RESUMING PCBEX.PCR ****
+
+
+.probe
+
+
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node CLK
+*
+* Moving X_U1.ULS323LOG:IN1 from analog node CLK to new digital node CLK$AtoD
+X$CLK_AtoD1 CLK CLK$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving UCLK:OUT1 from analog node CLK to new digital node CLK$DtoA
+X$CLK_DtoA1 CLK$DtoA CLK $G_DPWR $G_DGND DtoA_STM
++       PARAMS: DRVH=   0      DRVL=   0      CAPACITANCE=   0     
+*
+* Analog/Digital interface for node IN22
+*
+* Moving X_U3.ULS323LOG:IN15 from analog node IN22 to new digital node IN22$AtoD
+X$IN22_AtoD1 IN22 IN22$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U3.ULS323DLY:OUT7 from analog node IN22 to new digital node IN22$DtoA
+X$IN22_DtoA1 IN22$DtoA IN22 $G_DPWR $G_DGND DtoA_LS
++       PARAMS: DRVH= 108    DRVL= 157    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node IN26
+*
+* Moving X_U4.ULS323LOG:IN11 from analog node IN26 to new digital node IN26$AtoD
+X$IN26_AtoD1 IN26 IN26$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U4.ULS323DLY:OUT3 from analog node IN26 to new digital node IN26$DtoA
+X$IN26_DtoA1 IN26$DtoA IN26 $G_DPWR $G_DGND DtoA_LS
++       PARAMS: DRVH= 108    DRVL= 157    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node S/L_1
+*
+* Moving X_U1.ULS323LOG:IN3 from analog node S/L_1 to new digital node S/L_1$AtoD
+X$S/L_1_AtoD1 S/L_1 S/L_1$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving USL:OUT1 from analog node S/L_1 to new digital node S/L_1$DtoA
+X$S/L_1_DtoA1 S/L_1$DtoA S/L_1 $G_DPWR $G_DGND DtoA_STM
++       PARAMS: DRVH=   0      DRVL=   0      CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P002
+*
+* Moving X_U2.ULS323LOG:IN1 from analog node $$P002 to new digital node $$P002$AtoD
+X$$$P002_AtoD1 $$P002 $$P002$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P003
+*
+* Moving X_U17.UAS161LOG:IN1 from analog node $$P003 to new digital node $$P003$AtoD
+X$$$P003_AtoD1 $$P003 $$P003$AtoD $G_DPWR $G_DGND AtoD_AS00
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P004
+*
+* Moving X_U3.ULS323LOG:IN1 from analog node $$P004 to new digital node $$P004$AtoD
+X$$$P004_AtoD1 $$P004 $$P004$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P005
+*
+* Moving X_U4.ULS323LOG:IN1 from analog node $$P005 to new digital node $$P005$AtoD
+X$$$P005_AtoD1 $$P005 $$P005$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P007
+*
+* Moving X_U9.U1:OUT3 from analog node $$P007 to new digital node $$P007$DtoA
+X$$$P007_DtoA1 $$P007$DtoA $$P007 $G_DPWR $G_DGND DtoA_LS
++       PARAMS: DRVH= 108    DRVL= 157    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P008
+*
+* Moving X_U16.U1:D3 from analog node $$P008 to new digital node $$P008$AtoD
+X$$$P008_AtoD1 $$P008 $$P008$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P010
+*
+* Moving X_U15.U1:D7 from analog node $$P010 to new digital node $$P010$AtoD
+X$$$P010_AtoD1 $$P010 $$P010$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P011
+*
+* Moving X_U10.U2:OUT3 from analog node $$P011 to new digital node $$P011$DtoA
+X$$$P011_DtoA1 $$P011$DtoA $$P011 $G_DPWR $G_DGND DtoA_LS
++       PARAMS: DRVH= 108    DRVL= 157    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P013
+*
+* Moving X_U2.ULS323LOG:IN3 from analog node $$P013 to new digital node $$P013$AtoD
+X$$$P013_AtoD1 $$P013 $$P013$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P014
+*
+* Moving X_U19B.U1:IN1 from analog node $$P014 to new digital node $$P014$AtoD
+X$$$P014_AtoD1 $$P014 $$P014$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P015
+*
+* Moving X_U3.ULS323LOG:IN3 from analog node $$P015 to new digital node $$P015$AtoD
+X$$$P015_AtoD1 $$P015 $$P015$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $$P016
+*
+* Moving X_U4.ULS323LOG:IN3 from analog node $$P016 to new digital node $$P016$AtoD
+X$$$P016_AtoD1 $$P016 $$P016$AtoD $G_DPWR $G_DGND AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+.END  ;(end of AtoD and DtoA interfaces) 
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D74SCLMP        D74             D74S            
+          IS   10.000000E-12  100.000000E-18    1.000000E-12 
+          RS    2              25              25            
+         CJO    2.000000E-12    2.000000E-12    2.000000E-12 
+          VJ     .7                              .7          
+
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     Digital Input MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DINSTM          DIN74LS         
+        FILE DSO_DTOA        DSO_DTOA        
+      FORMAT    6               6            
+    TIMESTEP  100.000000E-12  100.000000E-12 
+      S0NAME 0               0               
+       S0TSW  500.000000E-12    5.000000E-09 
+       S0RLO     .5             1            
+       S0RHI    1.000000E+03  100.000000E+03 
+      S1NAME 1               1               
+       S1TSW  500.000000E-12    4.500000E-09 
+       S1RLO    1.000000E+03  100.000000E+03 
+       S1RHI     .5             1            
+      S2NAME X               X               
+       S2TSW  500.000000E-12    4.500000E-09 
+       S2RLO     .429          30.9          
+       S2RHI    1.16          100            
+      S3NAME R               R               
+       S3TSW  500.000000E-12    4.500000E-09 
+       S3RLO     .429          30.9          
+       S3RHI    1.16          100            
+      S4NAME F               F               
+       S4TSW  500.000000E-12    4.500000E-09 
+       S4RLO     .429          30.9          
+       S4RHI    1.16          100            
+      S5NAME Z               Z               
+       S5TSW  500.000000E-12    4.500000E-09 
+       S5RLO    1.000000E+06  200.000000E+03 
+       S5RHI    1.000000E+06  200.000000E+03 
+
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO74AS00        DO74LS          
+        FILE DSO_ATOD        DSO_ATOD        
+      FORMAT    6               6            
+     CHGONLY    1               1            
+    TIMESTEP  100.000000E-12  100.000000E-12 
+      S0NAME X               X               
+       S0VHI    2               2            
+       S0VLO     .8              .8          
+      S1NAME 0               0               
+       S1VHI     .8              .8          
+       S1VLO   -1.5            -1.5          
+      S2NAME R               R               
+       S2VHI    1.55            1.2          
+       S2VLO     .8              .8          
+      S3NAME R               R               
+       S3VHI    2               2            
+       S3VLO    1.45            1.1          
+      S4NAME X               X               
+       S4VHI    2               2            
+       S4VLO     .8              .8          
+      S5NAME 1               1               
+       S5VHI    7               7            
+       S5VLO    2               2            
+      S6NAME F               F               
+       S6VHI    2               2            
+       S6VLO    1.45            1.1          
+      S7NAME F               F               
+       S7VHI    1.55            1.2          
+       S7VLO     .8              .8          
+
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D0_GATE         D_S86           D_LS00          D_LS10          
+      TPLHMN    0               2.800000E-09    3.600000E-09    3.600000E-09 
+      TPLHTY    0               7.000000E-09    9.000000E-09    9.000000E-09 
+      TPLHMX    0              10.500000E-09   15.000000E-09   15.000000E-09 
+      TPHLMN    0               2.600000E-09    4.000000E-09    4.000000E-09 
+      TPHLTY    0               6.500000E-09   10.000000E-09   10.000000E-09 
+      TPHLMX    0              10.000000E-09   15.000000E-09   15.000000E-09 
+
+
+               D_LS04          
+      TPLHMN    3.600000E-09 
+      TPLHTY    9.000000E-09 
+      TPLHMX   15.000000E-09 
+      TPHLMN    4.000000E-09 
+      TPHLTY   10.000000E-09 
+      TPHLMX   15.000000E-09 
+
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     Digital Tri Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_LS240         D_LS373_2       
+      TPLHMN    3.600000E-09    4.800000E-09 
+      TPLHTY    9.000000E-09   12.000000E-09 
+      TPLHMX   14.000000E-09   18.000000E-09 
+      TPHLMN    4.800000E-09    4.800000E-09 
+      TPHLTY   12.000000E-09   12.000000E-09 
+      TPHLMX   18.000000E-09   18.000000E-09 
+      TPZHMN    6.000000E-09    6.000000E-09 
+      TPZHTY   15.000000E-09   15.000000E-09 
+      TPZHMX   23.000000E-09   28.000000E-09 
+      TPZLMN    8.000000E-09   10.000000E-09 
+      TPZLTY   20.000000E-09   25.000000E-09 
+      TPZLMX   30.000000E-09   36.000000E-09 
+      TPLZMN    4.000000E-09    4.800000E-09 
+      TPLZTY   10.000000E-09   12.000000E-09 
+      TPLZMX   20.000000E-09   20.000000E-09 
+      TPHZMN    6.000000E-09    6.000000E-09 
+      TPHZTY   15.000000E-09   15.000000E-09 
+      TPHZMX   25.000000E-09   25.000000E-09 
+
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     Digital Edge Triggered FF MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D0_EFF          
+  TPCLKQLHMN    0            
+  TPCLKQLHTY    0            
+  TPCLKQLHMX    0            
+  TPCLKQHLMN    0            
+  TPCLKQHLTY    0            
+  TPCLKQHLMX    0            
+   TPPCQLHMN    0            
+   TPPCQLHTY    0            
+   TPPCQLHMX    0            
+   TPPCQHLMN    0            
+   TPPCQHLTY    0            
+   TPPCQHLMX    0            
+    TWCLKLMN    0            
+    TWCLKLTY    0            
+    TWCLKLMX    0            
+    TWCLKHMN    0            
+    TWCLKHTY    0            
+    TWCLKHMX    0            
+     TWPCLMN    0            
+     TWPCLTY    0            
+     TWPCLMX    0            
+   TSUDCLKMN    0            
+   TSUDCLKTY    0            
+   TSUDCLKMX    0            
+ TSUPCCLKHMN    0            
+ TSUPCCLKHTY    0            
+ TSUPCCLKHMX    0            
+    THDCLKMN    0            
+    THDCLKTY    0            
+    THDCLKMX    0            
+
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     Digital Gated FF MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_LS373_1       
+    TPDQLHMN    0            
+    TPDQLHTY    0            
+    TPDQLHMX    0            
+    TPDQHLMN    0            
+    TPDQHLTY    0            
+    TPDQHLMX    0            
+    TPGQLHMN    3.200000E-09 
+    TPGQLHTY    8.000000E-09 
+    TPGQLHMX   12.000000E-09 
+    TPGQHLMN    2.400000E-09 
+    TPGQHLTY    6.000000E-09 
+    TPGQHLMX   12.000000E-09 
+   TPPCQLHMN    0            
+   TPPCQLHTY    0            
+   TPPCQLHMX    0            
+   TPPCQHLMN    0            
+   TPPCQHLTY    0            
+   TPPCQHLMX    0            
+      TWGHMN   15.000000E-09 
+      TWGHTY   15.000000E-09 
+      TWGHMX   15.000000E-09 
+     TWPCLMN    0            
+     TWPCLTY    0            
+     TWPCLMX    0            
+     TSUDGMN    5.000000E-09 
+     TSUDGTY    5.000000E-09 
+     TSUDGMX    5.000000E-09 
+   TSUPCGHMN    0            
+   TSUPCGHTY    0            
+   TSUPCGHMX    0            
+      THDGMN   20.000000E-09 
+      THDGTY   20.000000E-09 
+      THDGMX   20.000000E-09 
+
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          IO_S            IO_AS00         IO_LS           
+        DRVL    0              60.6            19.8           157            
+        DRVH    0              72.7            19.9           108            
+       AtoD1                 AtoD_S          AtoD_AS00       AtoD_LS         
+       AtoD2                 AtoD_S_NX       AtoD_AS00_NX    AtoD_LS_NX      
+       AtoD3                 AtoD_S          AtoD_AS00       AtoD_LS         
+       AtoD4                 AtoD_S_NX       AtoD_AS00_NX    AtoD_LS_NX      
+       DtoA1 DtoA_STM        DtoA_S          DtoA_AS00       DtoA_LS         
+       DtoA2 DtoA_STM        DtoA_S          DtoA_AS00       DtoA_LS         
+       DtoA3 DtoA_STM        DtoA_S          DtoA_AS00       DtoA_LS         
+       DtoA4 DtoA_STM        DtoA_S          DtoA_AS00       DtoA_LS         
+    DIGPOWER DIGIFPWR        DIGIFPWR        DIGIFPWR        DIGIFPWR        
+      TSWHL1                  708.000000E-12  253.000000E-12    2.724000E-09 
+      TSWHL2                  712.000000E-12  229.000000E-12    2.724000E-09 
+      TSWHL3                  788.000000E-12  298.000000E-12    2.724000E-09 
+      TSWHL4                  795.000000E-12  276.000000E-12    2.724000E-09 
+      TSWLH1                  811.000000E-12  357.000000E-12    2.104000E-09 
+      TSWLH2                  807.000000E-12  382.000000E-12    2.104000E-09 
+      TSWLH3                  889.000000E-12  400.000000E-12    2.104000E-09 
+      TSWLH4                  887.000000E-12  426.000000E-12    2.104000E-09 
+
+
+               IO_PULLUP_1k    
+        DRVL    1.000000E+06 
+        DRVH    1.000000E+03 
+       DtoA1 PULLUP_DTOA     
+
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  CLK)     .0030  ( IN22)    3.4489  ( IN26)    3.4489  (S/L_1)    4.9975      
+
+($$P002)     .0031 ($$P003)     .0030 ($$P004)     .0031 ($$P005)     .0031     
+
+($$P007)    3.4489 ($$P008)    3.4489 ($$P010)    3.4489 ($$P011)    3.4489     
+
+($$P013)    4.9975 ($$P014)    4.9975 ($$P015)    4.9975 ($$P016)    4.9975     
+
+($$P017)     .0030 ($$P018)     .0030 ($$P019)     .0030 ($$P020)     .0030     
+
+($$P021)     .0030 ($$P022)    4.9975 ($$P023)     .0030 ($$P024)    4.9975     
+
+($$P025)    3.4489 ($$P026)    3.4489 ($$P027)    3.4489 ($$P028)    3.4489     
+
+($$P029)     .0031 ($$P030)     .0031 ($$P031)     .0031 ($$P032)     .0031     
+
+($$P033)    3.4489 ($$P034)    3.4489 ($$P035)    3.4489 ($$P036)    3.4489     
+
+($$P037)     .0030 ($$P038)    3.4489 ($$P039)    3.4489 ($$P040)    3.4489     
+
+($$P041)    4.9975 ($$P042)    4.9975 ($$P043)    4.9975 ($$P044)    4.9975     
+
+($G_DGND)    0.0000                   ($G_DPWR)    5.0000                       
+
+(X_P_023.1)     .0030                 (X_P_023.2)     .0030                     
+
+(X_P_023.3)     .0030                 (X_P_023.4)     .0030                     
+
+(X_P_024.1)     .0030                 (X_P_024.2)     .0030                     
+
+(X_P_024.3)    4.9975                 (X_P_024.4)    4.9975                     
+
+(X_P_029.1)     .0031                 (X_P_029.2)     .0031                     
+
+(X_P_030.1)     .0030                 (X_P_030.2)     .0030                     
+
+(X_P_031.1)     .0030                 (X_P_031.2)     .0030                     
+
+(X_P_032.1)     .0030                 (X_P_032.2)     .0030                     
+
+(X_P_033.1)    3.4489                 (X_P_033.2)    3.4489                     
+
+(X_P_034.1)    3.4489                 (X_P_034.2)    3.4489                     
+
+(X_P_035.1)    3.4489                 (X_P_035.2)    3.4489                     
+
+(X_P_036.1)    3.4489                 (X_P_036.2)    3.4489                     
+
+(X_P_037.1)    3.4489                 (X_P_037.2)    3.4489                     
+
+(X_P_039.1)    4.9975                 (X_P_039.2)    4.9975                     
+
+(X_P_040.1)    4.9975                 (X_P_040.2)    4.9975                     
+
+(X_P_041.1)    4.9975                 (X_P_041.2)    4.9975                     
+
+(X_P_042.1)    4.9975                 (X_P_042.2)    4.9975                     
+
+(X_P_044.1)     .0030                 (X_P_044.2)     .0030                     
+
+(X_P_045.1)    3.4489                 (X_P_045.2)    3.4489                     
+
+(X_P_046.1)    3.4489                 (X_P_046.2)    3.4489                     
+
+(X_P_047.1)     .0031                 (X_P_047.2)     .0031                     
+
+(X_P_048.1)     .0030                 (X_P_048.2)     .0030                     
+
+(X_P_049.1)    3.4489                 (X_P_049.2)    3.4489                     
+
+(X_P_050.1)    4.9975                 (X_P_050.2)    4.9975                     
+
+(X_P_051.1)    4.9975                 (X_P_051.2)    4.9975                     
+
+(X_P_052.1)    4.9975                 (X_P_052.2)    4.9975                     
+
+(X_P_053.1)     .0031                 (X_P_053.2)     .0031                     
+
+(X_P_054.1)    4.9975                 (X_P_054.2)    4.9975                     
+
+(X$$$P003_AtoD1.1)     .2332          (X$$$P003_AtoD1.2)     .1166              
+
+(X$$$P003_AtoD1.3)     .7016          (X$IN22_DtoA1.DGND_OL)     .1009          
+
+(X$IN22_DtoA1.DPWR_OH)    3.4500      (X$IN26_DtoA1.DGND_OL)     .1009          
+
+(X$IN26_DtoA1.DPWR_OH)    3.4500      (X$$$P007_DtoA1.DGND_OL)     .1014        
+
+(X$$$P007_DtoA1.DPWR_OH)    3.4490    (X$$$P011_DtoA1.DGND_OL)     .1014        
+
+(X$$$P011_DtoA1.DPWR_OH)    3.4490    
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(     IN0) : 1     (     IN1) : 1     (     IN2) : 0     (     IN3) : 0         
+
+(     IN4) : 1     (     IN5) : 0     (     IN6) : 1     (     IN7) : 0         
+
+(     IN8) : 1     (     IN9) : 0     (     OE_) : 1     (    IN10) : 1         
+
+(    IN11) : 0     (    IN12) : 1     (    IN13) : 0     (    IN14) : 1         
+
+(    IN15) : 0     (    IN16) : 1     (    IN17) : 0     (    IN18) : 1         
+
+(    IN19) : 0     (    IN20) : 1     (    IN21) : 0     (    IN23) : 0         
+
+(    IN24) : 1     (    IN25) : 0     (    IN27) : 0     (    IN28) : 1         
+
+(    IN29) : 0     (    IN30) : 1     (    IN31) : 0     (    OUT0) : 0         
+
+(    OUT1) : 1     (    OUT2) : 0     (    OUT3) : 1     (    OUT4) : 0         
+
+(    OUT5) : 1     (    OUT6) : 0     (    OUT7) : 1     (    OUT8) : 0         
+
+(    OUT9) : 1     (   $D_HI) : 1     (   $D_NC) : Z     (   OUT10) : 0         
+
+(   OUT11) : 1     (   OUT12) : 0     (   OUT13) : 1     (   OUT14) : 0         
+
+(   OUT15) : 1     (   OUT16) : 0     (   OUT17) : 1     (   OUT18) : 0         
+
+(   OUT19) : 1     (   OUT20) : 0     (   OUT21) : 1     (   OUT22) : 0         
+
+(   OUT23) : 1     (   OUT24) : 0     (   OUT25) : 1     (   OUT26) : 0         
+
+(   OUT27) : 1     (   OUT28) : 0     (   OUT29) : 1     (   OUT30) : 0         
+
+(   OUT31) : 1     (   RESET) : 0     (   S/L_0) : 1     ( $N_0001) : Z         
+
+( $N_0002) : X     ( $N_0003) : X     ( $N_0004) : Z     ( $N_0005) : X         
+
+( $N_0006) : X     ( $N_0007) : Z     ( $N_0008) : X     ( $N_0009) : X         
+
+( $N_0010) : Z     ( $N_0011) : X     ( $N_0012) : X     ( $N_0013) : 0         
+
+( $N_0014) : Z     ( $N_0015) : Z     ( $N_0016) : Z     ( $N_0017) : Z         
+
+( $N_0018) : Z     ( $N_0019) : Z     ( $N_0020) : Z     ( $N_0021) : Z         
+
+( $N_0022) : Z     ( $N_0023) : Z     ( $N_0024) : Z     ( $N_0025) : Z         
+
+( $N_0026) : Z     ( $N_0027) : Z     ( $N_0028) : Z     ( $N_0029) : Z         
+
+( $N_0030) : Z     ( $N_0031) : Z     ( $N_0032) : Z     ( $N_0033) : Z         
+
+( $N_0034) : Z     ( $N_0035) : Z     ( $N_0036) : Z     ( $N_0037) : Z         
+
+( $N_0038) : Z     ( $N_0039) : Z     ( $N_0040) : Z     ( $N_0041) : Z         
+
+( $N_0042) : Z     ( $N_0043) : Z     ( $N_0044) : Z     ( $N_0045) : Z         
+
+( $N_0046) : 0     ( $N_0047) : 0     ( $N_0048) : 0     ( $N_0049) : Z         
+
+( $N_0050) : Z     ( $N_0051) : Z     ( $N_0052) : Z     ( $N_0053) : 0         
+
+( $N_0054) : 0     ( $N_0055) : 0     ( $N_0056) : 0     ( $N_0057) : 0         
+
+( $N_0058) : 0     ( $N_0059) : Z     ( $N_0060) : Z     ( $N_0061) : Z         
+
+( $N_0062) : Z     ( $N_0063) : 0     ( $N_0064) : 0     ( $N_0065) : 0         
+
+( $N_0066) : 0     ( $N_0067) : 0     ( $N_0068) : 1     ( $N_0069) : 1         
+
+( $N_0070) : 1     ( $N_0071) : 0     ( $N_0072) : 0     ( $N_0073) : 1         
+
+( X_U1.OE) : 1     ( X_U1.S0) : 1     ( X_U1.S1) : 1     ( X_U1.SL) : X         
+
+( X_U1.SR) : 0     ( X_U17.A) : X     ( X_U17.B) : X     ( X_U17.C) : X         
+
+( X_U17.D) : X     ( X_U18.A) : X     ( X_U18.B) : X     ( X_U18.C) : X         
+
+( X_U18.D) : X     ( X_U2.OE) : 1     ( X_U2.S0) : 1     ( X_U2.S1) : 1         
+
+( X_U2.SL) : X     ( X_U2.SR) : X     ( X_U3.OE) : 1     ( X_U3.S0) : 1         
+
+( X_U3.S1) : 1     ( X_U3.SL) : X     ( X_U3.SR) : X     ( X_U4.OE) : 1         
+
+( X_U4.S0) : 1     ( X_U4.S1) : 1     ( X_U4.SL) : X     ( X_U4.SR) : X         
+
+( X_U5.G1) : 0     ( X_U5.G2) : 0     ( X_U6.G1) : 0     ( X_U6.G2) : 0         
+
+( X_U7.G1) : 0     ( X_U7.G2) : 0     ( X_U8.G1) : 0     ( X_U8.G2) : 0         
+
+( X_U9.G1) : 1     ( X_U9.G2) : 1     (CLK$AtoD) : 0     (CLK$DtoA) : 0         
+
+(LATCH_EN) : 1     (X_U1.CLK) : 0     (X_U1.D1A) : 1     (X_U1.D1B) : 1         
+
+(X_U1.D1C) : 0     (X_U1.D1D) : 0     (X_U1.D1E) : 1     (X_U1.D1F) : 0         
+
+(X_U1.D1G) : 1     (X_U1.D1H) : 0     (X_U10.G1) : 1     (X_U10.G2) : 1         
+
+(X_U11.G1) : 1     (X_U11.G2) : 1     (X_U12.G1) : 1     (X_U12.G2) : 1         
+
+(X_U13.OC) : 0     (X_U14.OC) : 0     (X_U15.OC) : 0     (X_U16.OC) : 0         
+
+(X_U17.DA) : 0     (X_U17.DB) : 0     (X_U17.DC) : 0     (X_U17.DD) : 0         
+
+(X_U17.QA) : 0     (X_U17.QB) : 0     (X_U17.QC) : 0     (X_U17.QD) : 0         
+
+(X_U18.DA) : 0     (X_U18.DB) : 0     (X_U18.DC) : 0     (X_U18.DD) : 0         
+
+(X_U18.QA) : 0     (X_U18.QB) : 0     (X_U18.QC) : 0     (X_U18.QD) : 0         
+
+(X_U2.CLK) : 0     (X_U2.D1A) : 1     (X_U2.D1B) : 0     (X_U2.D1C) : 1         
+
+(X_U2.D1D) : 0     (X_U2.D1E) : 1     (X_U2.D1F) : 0     (X_U2.D1G) : 1         
+
+(X_U2.D1H) : 0     (X_U3.CLK) : 0     (X_U3.D1A) : 1     (X_U3.D1B) : 0         
+
+(X_U3.D1C) : 1     (X_U3.D1D) : 0     (X_U3.D1E) : 1     (X_U3.D1F) : 0         
+
+(X_U3.D1G) : 1     (X_U3.D1H) : 0     (X_U4.CLK) : 0     (X_U4.D1A) : 1         
+
+(X_U4.D1B) : 0     (X_U4.D1C) : 1     (X_U4.D1D) : 0     (X_U4.D1E) : 1         
+
+(X_U4.D1F) : 0     (X_U4.D1G) : 1     (X_U4.D1H) : 0     (IN22$AtoD) : 1        
+
+(IN22$DtoA) : Z    (IN26$AtoD) : 1    (IN26$DtoA) : Z    (SERIAL_IN) : 0        
+
+(X_U1.A/QA) : 1    (X_U1.B/QB) : 1    (X_U1.C/QC) : 0    (X_U1.D/QD) : 0        
+
+(X_U1.E/QE) : 1    (X_U1.F/QF) : 0    (X_U1.G/QG) : 1    (X_U1.H/QH) : 0        
+
+(X_U13.1QI) : 1    (X_U13.2QI) : 1    (X_U13.3QI) : 0    (X_U13.4QI) : 0        
+
+(X_U13.5QI) : 1    (X_U13.6QI) : 0    (X_U13.7QI) : 1    (X_U13.8QI) : 0        
+
+(X_U14.1QI) : 1    (X_U14.2QI) : 0    (X_U14.3QI) : 1    (X_U14.4QI) : 0        
+
+(X_U14.5QI) : 1    (X_U14.6QI) : 0    (X_U14.7QI) : 1    (X_U14.8QI) : 0        
+
+(X_U15.1QI) : 1    (X_U15.2QI) : 0    (X_U15.3QI) : 1    (X_U15.4QI) : 0        
+
+(X_U15.5QI) : 1    (X_U15.6QI) : 0    (X_U15.7QI) : 1    (X_U15.8QI) : 0        
+
+(X_U16.1QI) : 1    (X_U16.2QI) : 0    (X_U16.3QI) : 1    (X_U16.4QI) : 0        
+
+(X_U16.5QI) : 1    (X_U16.6QI) : 0    (X_U16.7QI) : 1    (X_U16.8QI) : 0        
+
+(X_U17.CLK) : 0    (X_U17.ENP) : 0    (X_U17.ENT) : 0    (X_U17.IEN) : 0        
+
+(X_U17.RCO) : 0    (X_U18.CLK) : 0    (X_U18.ENP) : 0    (X_U18.ENT) : 0        
+
+(X_U18.IEN) : 0    (X_U18.RCO) : 0    (X_U2.A/QA) : 1    (X_U2.B/QB) : 0        
+
+(X_U2.C/QC) : 1    (X_U2.D/QD) : 0    (X_U2.E/QE) : 1    (X_U2.F/QF) : 0        
+
+(X_U2.G/QG) : 1    (X_U2.H/QH) : 0    (X_U3.A/QA) : 1    (X_U3.B/QB) : 0        
+
+(X_U3.C/QC) : 1    (X_U3.D/QD) : 0    (X_U3.E/QE) : 1    (X_U3.F/QF) : 0        
+
+(X_U3.G/QG) : 1    (X_U3.H/QH) : 0    (X_U4.A/QA) : 1    (X_U4.B/QB) : 0        
+
+(X_U4.C/QC) : 1    (X_U4.D/QD) : 0    (X_U4.E/QE) : 1    (X_U4.F/QF) : 0        
+
+(X_U4.G/QG) : 1    (X_U4.H/QH) : 0    (S/L_1$AtoD) : 1   (S/L_1$DtoA) : 1       
+
+(X_U1.G1BAR) : 1   (X_U1.G2BAR) : 1   (X_U1.LA/QA) : X   (X_U1.LB/QB) : X       
+
+(X_U1.LC/QC) : X   (X_U1.LD/QD) : X   (X_U1.LE/QE) : X   (X_U1.LF/QF) : X       
+
+(X_U1.LG/QG) : X   (X_U1.LH/QH) : X   (X_U2.G1BAR) : 1   (X_U2.G2BAR) : 1       
+
+(X_U2.LA/QA) : X   (X_U2.LB/QB) : X   (X_U2.LC/QC) : X   (X_U2.LD/QD) : X       
+
+(X_U2.LE/QE) : X   (X_U2.LF/QF) : X   (X_U2.LG/QG) : X   (X_U2.LH/QH) : X       
+
+(X_U3.G1BAR) : 1   (X_U3.G2BAR) : 1   (X_U3.LA/QA) : X   (X_U3.LB/QB) : X       
+
+(X_U3.LC/QC) : X   (X_U3.LD/QD) : X   (X_U3.LE/QE) : X   (X_U3.LF/QF) : X       
+
+(X_U3.LG/QG) : X   (X_U3.LH/QH) : X   (X_U4.G1BAR) : 1   (X_U4.G2BAR) : 1       
+
+(X_U4.LA/QA) : X   (X_U4.LB/QB) : X   (X_U4.LC/QC) : X   (X_U4.LD/QD) : X       
+
+(X_U4.LE/QE) : X   (X_U4.LF/QF) : X   (X_U4.LG/QG) : X   (X_U4.LH/QH) : X       
+
+($$P002$AtoD) : 0  ($$P003$AtoD) : 0  ($$P004$AtoD) : 0  ($$P005$AtoD) : 0      
+
+($$P007$DtoA) : 1  ($$P008$AtoD) : 1  ($$P010$AtoD) : 1  ($$P011$DtoA) : 1      
+
+($$P013$AtoD) : 1  ($$P014$AtoD) : 1  ($$P015$AtoD) : 1  ($$P016$AtoD) : 1      
+
+(X_U1.CLRBAR) : 1  (X_U2.CLRBAR) : 1  (X_U3.CLRBAR) : 1  (X_U4.CLRBAR) : 1      
+
+(X_U17.CLRBAR) : 0                    (X_U18.CLRBAR) : 0                        
+
+(X_U17.LOADBAR) : 1                   (X_U18.LOADBAR) : 1                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    X$DIGIFPWR.VDPWR  -1.015E-02
+    X$DIGIFPWR.VDGND  -5.046E-06
+
+    TOTAL POWER DISSIPATION   5.08E-02  WATTS
+
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** VOLTAGE-CONTROLLED CURRENT SOURCES
+
+
+NAME         X$IN22_DtoA1.G_OH       X$IN22_DtoA1.G_OL     
+I-SOURCE    -1.020E-08               1.674E-05            
+
+NAME         X$IN26_DtoA1.G_OH       X$IN26_DtoA1.G_OL     
+I-SOURCE    -1.021E-08               1.674E-05            
+
+NAME         X$$$P007_DtoA1.G_OH     X$$$P007_DtoA1.G_OL   
+I-SOURCE     5.020E-05               3.347E-05            
+
+NAME         X$$$P011_DtoA1.G_OH     X$$$P011_DtoA1.G_OL   
+I-SOURCE     5.020E-05               3.347E-05            
+
+NAME         X$CLK_AtoD1.X1.G_Clamp            
+I-SOURCE    -2.247E-04                        
+
+NAME         X$IN22_AtoD1.X1.G_Clamp           
+I-SOURCE     0.000E+00                        
+
+NAME         X$IN26_AtoD1.X1.G_Clamp           
+I-SOURCE     0.000E+00                        
+
+NAME         X$S/L_1_AtoD1.X1.G_Clamp          
+I-SOURCE     0.000E+00                        
+
+NAME         X$$$P002_AtoD1.X1.G_Clamp         
+I-SOURCE    -2.247E-04                        
+
+NAME         X$$$P004_AtoD1.X1.G_Clamp         
+I-SOURCE    -2.247E-04                        
+
+NAME         X$$$P005_AtoD1.X1.G_Clamp         
+I-SOURCE    -2.247E-04                        
+
+NAME         X$$$P008_AtoD1.X1.G_Clamp         
+I-SOURCE     0.000E+00                        
+
+NAME         X$$$P010_AtoD1.X1.G_Clamp         
+I-SOURCE     0.000E+00                        
+
+NAME         X$$$P013_AtoD1.X1.G_Clamp         
+I-SOURCE     0.000E+00                        
+
+NAME         X$$$P014_AtoD1.X1.G_Clamp         
+I-SOURCE     0.000E+00                        
+
+NAME         X$$$P015_AtoD1.X1.G_Clamp         
+I-SOURCE     0.000E+00                        
+
+NAME         X$$$P016_AtoD1.X1.G_Clamp         
+I-SOURCE     0.000E+00                        
+
+
+**** DIODES
+
+
+NAME         X$$$P003_AtoD1.D0       X$$$P003_AtoD1.D1     
+MODEL        D74SCLMP                D74                   
+ID          -1.11E-12                1.26E-13             
+VD          -3.04E-03                1.17E-01             
+REQ          2.90E+09                7.40E+11             
+CAP          2.00E-12                2.13E-12             
+
+NAME         X$$$P003_AtoD1.D2       X$$$P003_AtoD1.D3     
+MODEL        D74                     D74                   
+ID           1.26E-13                7.33E-09             
+VD           1.17E-01                4.68E-01             
+REQ          7.40E+11                3.53E+06             
+CAP          2.13E-12                2.74E-12             
+
+NAME         X$$$P003_AtoD1.D4       X$$$P003_AtoD1.D5     
+MODEL        D74                     D74S                  
+ID           5.12E-05                7.33E-09             
+VD           6.99E-01                2.30E-01             
+REQ          5.06E+02                3.53E+06             
+CAP          3.39E-12                2.44E-12             
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  CLK)     .0030  ( IN22)    3.4489  ( IN26)    3.4489  (S/L_1)    4.9975      
+
+($$P002)     .0031 ($$P003)     .0030 ($$P004)     .0031 ($$P005)     .0031     
+
+($$P007)    3.4489 ($$P008)    3.4489 ($$P010)    3.4489 ($$P011)    3.4489     
+
+($$P013)    4.9975 ($$P014)    4.9975 ($$P015)    4.9975 ($$P016)    4.9975     
+
+($$P017)     .0030 ($$P018)     .0030 ($$P019)     .0030 ($$P020)     .0030     
+
+($$P021)     .0030 ($$P022)    4.9975 ($$P023)     .0030 ($$P024)    4.9975     
+
+($$P025)    3.4489 ($$P026)    3.4489 ($$P027)    3.4489 ($$P028)    3.4489     
+
+($$P029)     .0031 ($$P030)     .0031 ($$P031)     .0031 ($$P032)     .0031     
+
+($$P033)    3.4489 ($$P034)    3.4489 ($$P035)    3.4489 ($$P036)    3.4489     
+
+($$P037)     .0030 ($$P038)    3.4489 ($$P039)    3.4489 ($$P040)    3.4489     
+
+($$P041)    4.9975 ($$P042)    4.9975 ($$P043)    4.9975 ($$P044)    4.9975     
+
+($G_DGND)    0.0000                   ($G_DPWR)    5.0000                       
+
+(X_P_023.1)     .0030                 (X_P_023.2)     .0030                     
+
+(X_P_023.3)     .0030                 (X_P_023.4)     .0030                     
+
+(X_P_024.1)     .0030                 (X_P_024.2)     .0030                     
+
+(X_P_024.3)    4.9975                 (X_P_024.4)    4.9975                     
+
+(X_P_029.1)     .0031                 (X_P_029.2)     .0031                     
+
+(X_P_030.1)     .0030                 (X_P_030.2)     .0030                     
+
+(X_P_031.1)     .0030                 (X_P_031.2)     .0030                     
+
+(X_P_032.1)     .0030                 (X_P_032.2)     .0030                     
+
+(X_P_033.1)    3.4489                 (X_P_033.2)    3.4489                     
+
+(X_P_034.1)    3.4489                 (X_P_034.2)    3.4489                     
+
+(X_P_035.1)    3.4489                 (X_P_035.2)    3.4489                     
+
+(X_P_036.1)    3.4489                 (X_P_036.2)    3.4489                     
+
+(X_P_037.1)    3.4489                 (X_P_037.2)    3.4489                     
+
+(X_P_039.1)    4.9975                 (X_P_039.2)    4.9975                     
+
+(X_P_040.1)    4.9975                 (X_P_040.2)    4.9975                     
+
+(X_P_041.1)    4.9975                 (X_P_041.2)    4.9975                     
+
+(X_P_042.1)    4.9975                 (X_P_042.2)    4.9975                     
+
+(X_P_044.1)     .0030                 (X_P_044.2)     .0030                     
+
+(X_P_045.1)    3.4489                 (X_P_045.2)    3.4489                     
+
+(X_P_046.1)    3.4489                 (X_P_046.2)    3.4489                     
+
+(X_P_047.1)     .0031                 (X_P_047.2)     .0031                     
+
+(X_P_048.1)     .0030                 (X_P_048.2)     .0030                     
+
+(X_P_049.1)    3.4489                 (X_P_049.2)    3.4489                     
+
+(X_P_050.1)    4.9975                 (X_P_050.2)    4.9975                     
+
+(X_P_051.1)    4.9975                 (X_P_051.2)    4.9975                     
+
+(X_P_052.1)    4.9975                 (X_P_052.2)    4.9975                     
+
+(X_P_053.1)     .0031                 (X_P_053.2)     .0031                     
+
+(X_P_054.1)    4.9975                 (X_P_054.2)    4.9975                     
+
+(X$$$P003_AtoD1.1)     .2332          (X$$$P003_AtoD1.2)     .1166              
+
+(X$$$P003_AtoD1.3)     .7016          (X$IN22_DtoA1.DGND_OL)     .1009          
+
+(X$IN22_DtoA1.DPWR_OH)    3.4500      (X$IN26_DtoA1.DGND_OL)     .1009          
+
+(X$IN26_DtoA1.DPWR_OH)    3.4500      (X$$$P007_DtoA1.DGND_OL)     .1014        
+
+(X$$$P007_DtoA1.DPWR_OH)    3.4490    (X$$$P011_DtoA1.DGND_OL)     .1014        
+
+(X$$$P011_DtoA1.DPWR_OH)    3.4490    
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(     IN0) : 1     (     IN1) : 1     (     IN2) : 0     (     IN3) : 0         
+
+(     IN4) : 1     (     IN5) : 0     (     IN6) : 1     (     IN7) : 0         
+
+(     IN8) : 1     (     IN9) : 0     (     OE_) : 1     (    IN10) : 1         
+
+(    IN11) : 0     (    IN12) : 1     (    IN13) : 0     (    IN14) : 1         
+
+(    IN15) : 0     (    IN16) : 1     (    IN17) : 0     (    IN18) : 1         
+
+(    IN19) : 0     (    IN20) : 1     (    IN21) : 0     (    IN23) : 0         
+
+(    IN24) : 1     (    IN25) : 0     (    IN27) : 0     (    IN28) : 1         
+
+(    IN29) : 0     (    IN30) : 1     (    IN31) : 0     (    OUT0) : 0         
+
+(    OUT1) : 1     (    OUT2) : 0     (    OUT3) : 1     (    OUT4) : 0         
+
+(    OUT5) : 1     (    OUT6) : 0     (    OUT7) : 1     (    OUT8) : 0         
+
+(    OUT9) : 1     (   $D_HI) : 1     (   $D_NC) : Z     (   OUT10) : 0         
+
+(   OUT11) : 1     (   OUT12) : 0     (   OUT13) : 1     (   OUT14) : 0         
+
+(   OUT15) : 1     (   OUT16) : 0     (   OUT17) : 1     (   OUT18) : 0         
+
+(   OUT19) : 1     (   OUT20) : 0     (   OUT21) : 1     (   OUT22) : 0         
+
+(   OUT23) : 1     (   OUT24) : 0     (   OUT25) : 1     (   OUT26) : 0         
+
+(   OUT27) : 1     (   OUT28) : 0     (   OUT29) : 1     (   OUT30) : 0         
+
+(   OUT31) : 1     (   RESET) : 0     (   S/L_0) : 1     ( $N_0001) : Z         
+
+( $N_0002) : X     ( $N_0003) : X     ( $N_0004) : Z     ( $N_0005) : X         
+
+( $N_0006) : X     ( $N_0007) : Z     ( $N_0008) : X     ( $N_0009) : X         
+
+( $N_0010) : Z     ( $N_0011) : X     ( $N_0012) : X     ( $N_0013) : 0         
+
+( $N_0014) : Z     ( $N_0015) : Z     ( $N_0016) : Z     ( $N_0017) : Z         
+
+( $N_0018) : Z     ( $N_0019) : Z     ( $N_0020) : Z     ( $N_0021) : Z         
+
+( $N_0022) : Z     ( $N_0023) : Z     ( $N_0024) : Z     ( $N_0025) : Z         
+
+( $N_0026) : Z     ( $N_0027) : Z     ( $N_0028) : Z     ( $N_0029) : Z         
+
+( $N_0030) : Z     ( $N_0031) : Z     ( $N_0032) : Z     ( $N_0033) : Z         
+
+( $N_0034) : Z     ( $N_0035) : Z     ( $N_0036) : Z     ( $N_0037) : Z         
+
+( $N_0038) : Z     ( $N_0039) : Z     ( $N_0040) : Z     ( $N_0041) : Z         
+
+( $N_0042) : Z     ( $N_0043) : Z     ( $N_0044) : Z     ( $N_0045) : Z         
+
+( $N_0046) : 0     ( $N_0047) : 0     ( $N_0048) : 0     ( $N_0049) : Z         
+
+( $N_0050) : Z     ( $N_0051) : Z     ( $N_0052) : Z     ( $N_0053) : 0         
+
+( $N_0054) : 0     ( $N_0055) : 0     ( $N_0056) : 0     ( $N_0057) : 0         
+
+( $N_0058) : 0     ( $N_0059) : Z     ( $N_0060) : Z     ( $N_0061) : Z         
+
+( $N_0062) : Z     ( $N_0063) : 0     ( $N_0064) : 0     ( $N_0065) : 0         
+
+( $N_0066) : 0     ( $N_0067) : 0     ( $N_0068) : 1     ( $N_0069) : 1         
+
+( $N_0070) : 1     ( $N_0071) : 0     ( $N_0072) : 0     ( $N_0073) : 1         
+
+( X_U1.OE) : 1     ( X_U1.S0) : 1     ( X_U1.S1) : 1     ( X_U1.SL) : X         
+
+( X_U1.SR) : 0     ( X_U17.A) : X     ( X_U17.B) : X     ( X_U17.C) : X         
+
+( X_U17.D) : X     ( X_U18.A) : X     ( X_U18.B) : X     ( X_U18.C) : X         
+
+( X_U18.D) : X     ( X_U2.OE) : 1     ( X_U2.S0) : 1     ( X_U2.S1) : 1         
+
+( X_U2.SL) : X     ( X_U2.SR) : X     ( X_U3.OE) : 1     ( X_U3.S0) : 1         
+
+( X_U3.S1) : 1     ( X_U3.SL) : X     ( X_U3.SR) : X     ( X_U4.OE) : 1         
+
+( X_U4.S0) : 1     ( X_U4.S1) : 1     ( X_U4.SL) : X     ( X_U4.SR) : X         
+
+( X_U5.G1) : 0     ( X_U5.G2) : 0     ( X_U6.G1) : 0     ( X_U6.G2) : 0         
+
+( X_U7.G1) : 0     ( X_U7.G2) : 0     ( X_U8.G1) : 0     ( X_U8.G2) : 0         
+
+( X_U9.G1) : 1     ( X_U9.G2) : 1     (CLK$AtoD) : 0     (CLK$DtoA) : 0         
+
+(LATCH_EN) : 1     (X_U1.CLK) : 0     (X_U1.D1A) : 1     (X_U1.D1B) : 1         
+
+(X_U1.D1C) : 0     (X_U1.D1D) : 0     (X_U1.D1E) : 1     (X_U1.D1F) : 0         
+
+(X_U1.D1G) : 1     (X_U1.D1H) : 0     (X_U10.G1) : 1     (X_U10.G2) : 1         
+
+(X_U11.G1) : 1     (X_U11.G2) : 1     (X_U12.G1) : 1     (X_U12.G2) : 1         
+
+(X_U13.OC) : 0     (X_U14.OC) : 0     (X_U15.OC) : 0     (X_U16.OC) : 0         
+
+(X_U17.DA) : 0     (X_U17.DB) : 0     (X_U17.DC) : 0     (X_U17.DD) : 0         
+
+(X_U17.QA) : 0     (X_U17.QB) : 0     (X_U17.QC) : 0     (X_U17.QD) : 0         
+
+(X_U18.DA) : 0     (X_U18.DB) : 0     (X_U18.DC) : 0     (X_U18.DD) : 0         
+
+(X_U18.QA) : 0     (X_U18.QB) : 0     (X_U18.QC) : 0     (X_U18.QD) : 0         
+
+(X_U2.CLK) : 0     (X_U2.D1A) : 1     (X_U2.D1B) : 0     (X_U2.D1C) : 1         
+
+(X_U2.D1D) : 0     (X_U2.D1E) : 1     (X_U2.D1F) : 0     (X_U2.D1G) : 1         
+
+(X_U2.D1H) : 0     (X_U3.CLK) : 0     (X_U3.D1A) : 1     (X_U3.D1B) : 0         
+
+(X_U3.D1C) : 1     (X_U3.D1D) : 0     (X_U3.D1E) : 1     (X_U3.D1F) : 0         
+
+(X_U3.D1G) : 1     (X_U3.D1H) : 0     (X_U4.CLK) : 0     (X_U4.D1A) : 1         
+
+(X_U4.D1B) : 0     (X_U4.D1C) : 1     (X_U4.D1D) : 0     (X_U4.D1E) : 1         
+
+(X_U4.D1F) : 0     (X_U4.D1G) : 1     (X_U4.D1H) : 0     (IN22$AtoD) : 1        
+
+(IN22$DtoA) : Z    (IN26$AtoD) : 1    (IN26$DtoA) : Z    (SERIAL_IN) : 0        
+
+(X_U1.A/QA) : 1    (X_U1.B/QB) : 1    (X_U1.C/QC) : 0    (X_U1.D/QD) : 0        
+
+(X_U1.E/QE) : 1    (X_U1.F/QF) : 0    (X_U1.G/QG) : 1    (X_U1.H/QH) : 0        
+
+(X_U13.1QI) : 1    (X_U13.2QI) : 1    (X_U13.3QI) : 0    (X_U13.4QI) : 0        
+
+(X_U13.5QI) : 1    (X_U13.6QI) : 0    (X_U13.7QI) : 1    (X_U13.8QI) : 0        
+
+(X_U14.1QI) : 1    (X_U14.2QI) : 0    (X_U14.3QI) : 1    (X_U14.4QI) : 0        
+
+(X_U14.5QI) : 1    (X_U14.6QI) : 0    (X_U14.7QI) : 1    (X_U14.8QI) : 0        
+
+(X_U15.1QI) : 1    (X_U15.2QI) : 0    (X_U15.3QI) : 1    (X_U15.4QI) : 0        
+
+(X_U15.5QI) : 1    (X_U15.6QI) : 0    (X_U15.7QI) : 1    (X_U15.8QI) : 0        
+
+(X_U16.1QI) : 1    (X_U16.2QI) : 0    (X_U16.3QI) : 1    (X_U16.4QI) : 0        
+
+(X_U16.5QI) : 1    (X_U16.6QI) : 0    (X_U16.7QI) : 1    (X_U16.8QI) : 0        
+
+(X_U17.CLK) : 0    (X_U17.ENP) : 0    (X_U17.ENT) : 0    (X_U17.IEN) : 0        
+
+(X_U17.RCO) : 0    (X_U18.CLK) : 0    (X_U18.ENP) : 0    (X_U18.ENT) : 0        
+
+(X_U18.IEN) : 0    (X_U18.RCO) : 0    (X_U2.A/QA) : 1    (X_U2.B/QB) : 0        
+
+(X_U2.C/QC) : 1    (X_U2.D/QD) : 0    (X_U2.E/QE) : 1    (X_U2.F/QF) : 0        
+
+(X_U2.G/QG) : 1    (X_U2.H/QH) : 0    (X_U3.A/QA) : 1    (X_U3.B/QB) : 0        
+
+(X_U3.C/QC) : 1    (X_U3.D/QD) : 0    (X_U3.E/QE) : 1    (X_U3.F/QF) : 0        
+
+(X_U3.G/QG) : 1    (X_U3.H/QH) : 0    (X_U4.A/QA) : 1    (X_U4.B/QB) : 0        
+
+(X_U4.C/QC) : 1    (X_U4.D/QD) : 0    (X_U4.E/QE) : 1    (X_U4.F/QF) : 0        
+
+(X_U4.G/QG) : 1    (X_U4.H/QH) : 0    (S/L_1$AtoD) : 1   (S/L_1$DtoA) : 1       
+
+(X_U1.G1BAR) : 1   (X_U1.G2BAR) : 1   (X_U1.LA/QA) : X   (X_U1.LB/QB) : X       
+
+(X_U1.LC/QC) : X   (X_U1.LD/QD) : X   (X_U1.LE/QE) : X   (X_U1.LF/QF) : X       
+
+(X_U1.LG/QG) : X   (X_U1.LH/QH) : X   (X_U2.G1BAR) : 1   (X_U2.G2BAR) : 1       
+
+(X_U2.LA/QA) : X   (X_U2.LB/QB) : X   (X_U2.LC/QC) : X   (X_U2.LD/QD) : X       
+
+(X_U2.LE/QE) : X   (X_U2.LF/QF) : X   (X_U2.LG/QG) : X   (X_U2.LH/QH) : X       
+
+(X_U3.G1BAR) : 1   (X_U3.G2BAR) : 1   (X_U3.LA/QA) : X   (X_U3.LB/QB) : X       
+
+(X_U3.LC/QC) : X   (X_U3.LD/QD) : X   (X_U3.LE/QE) : X   (X_U3.LF/QF) : X       
+
+(X_U3.LG/QG) : X   (X_U3.LH/QH) : X   (X_U4.G1BAR) : 1   (X_U4.G2BAR) : 1       
+
+(X_U4.LA/QA) : X   (X_U4.LB/QB) : X   (X_U4.LC/QC) : X   (X_U4.LD/QD) : X       
+
+(X_U4.LE/QE) : X   (X_U4.LF/QF) : X   (X_U4.LG/QG) : X   (X_U4.LH/QH) : X       
+
+($$P002$AtoD) : 0  ($$P003$AtoD) : 0  ($$P004$AtoD) : 0  ($$P005$AtoD) : 0      
+
+($$P007$DtoA) : 1  ($$P008$AtoD) : 1  ($$P010$AtoD) : 1  ($$P011$DtoA) : 1      
+
+($$P013$AtoD) : 1  ($$P014$AtoD) : 1  ($$P015$AtoD) : 1  ($$P016$AtoD) : 1      
+
+(X_U1.CLRBAR) : 1  (X_U2.CLRBAR) : 1  (X_U3.CLRBAR) : 1  (X_U4.CLRBAR) : 1      
+
+(X_U17.CLRBAR) : 0                    (X_U18.CLRBAR) : 0                        
+
+(X_U17.LOADBAR) : 1                   (X_U18.LOADBAR) : 1                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    X$DIGIFPWR.VDPWR  -1.015E-02
+    X$DIGIFPWR.VDGND  -5.046E-06
+
+    TOTAL POWER DISSIPATION   5.08E-02  WATTS
+
+
+**** 09/15/93 15:16:43 ******** PSpice 5.4a (Jul 1993) ******** ID# 10807 ****
+
+ * D:\MS54\pcbex.sch - with Parasitics
+
+
+ ****     SIMULATION ERRORS
+
+
+******************************************************************************
+
+
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  41.5000E-09
+  Device: X$$$P002_AtoD1.O0
+  Voltage V($$P002,$G_DGND)= 7.1197 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  41.8000E-09
+  Device: X$$$P005_AtoD1.O0
+  Voltage V($$P005,$G_DGND)= 7.1461 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  41.9000E-09
+  Device: X$$$P004_AtoD1.O0
+  Voltage V($$P004,$G_DGND)= 7.3479 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  42.2000E-09
+  Device: X$$$P003_AtoD1.O0
+  Voltage V($$P003,$G_DGND)= 8.0306 is beyond the ranges defined in model DO74AS00
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  42.8000E-09
+  Device: X$$$P002_AtoD1
+  Voltage V($$P002,$G_DGND)= 7.8538 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  44.6000E-09
+  Device: X_U2.ULS323CON
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U2.CLK, measured WIDTH was  3.60000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  44.6000E-09
+  Device: X_U17.UAS161CON
+  Minimum high WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  3.20000E-09
+
+
+DIGITAL WARNING:
+MAX-FREQUENCY Violation at time  45.0000E-09
+  Device: X_U2
+  Minimum Period is  50.0000E-09
+  NODE: X_U2.CLK, measured period was  4.00000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-LOW Violation at time  45.0000E-09
+  Device: X_U2
+  Minimum low WIDTH is  10.0000E-09
+  NODE: X_U2.CLK, measured WIDTH was  200.000E-12
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  45.3000E-09
+  Device: X_U3.ULS323CON
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U3.CLK, measured WIDTH was  4.50000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  45.3000E-09
+  Device: X_U4.ULS323CON
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  4.10000E-09
+
+
+DIGITAL WARNING:
+MAX-FREQUENCY Violation at time  46.2000E-09
+  Device: X_U17
+  Minimum Period is  13.3000E-09
+  NODE: X_U17.CLK, measured period was  4.80000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-LOW Violation at time  46.2000E-09
+  Device: X_U17
+  Minimum low WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  1.40000E-09
+
+
+DIGITAL WARNING:
+MAX-FREQUENCY Violation at time  46.3000E-09
+  Device: X_U4
+  Minimum Period is  50.0000E-09
+  NODE: X_U4.CLK, measured period was  5.10000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-LOW Violation at time  46.3000E-09
+  Device: X_U4
+  Minimum low WIDTH is  10.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  800.000E-12
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  47.3000E-09
+  Device: X$$$P003_AtoD1
+  Voltage V($$P003,$G_DGND)= 7.4042 is beyond the ranges defined in model DO74AS00
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  47.3000E-09
+  Device: X$$$P005_AtoD1
+  Voltage V($$P005,$G_DGND)= 7.7303 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  47.4000E-09
+  Device: X$$$P004_AtoD1
+  Voltage V($$P004,$G_DGND)= 7.6074 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  47.6000E-09
+  Device: X$$$P002_AtoD1
+  Voltage V($$P002,$G_DGND)= 7.8823 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  49.9000E-09
+  Device: X_U4
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  3.40000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  50.0000E-09
+  Device: X_U17
+  Minimum high WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  3.50000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  50.5000E-09
+  Device: X_U3
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U3.CLK, measured WIDTH was  4.30000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-LOW Violation at time  50.5000E-09
+  Device: X_U4
+  Minimum low WIDTH is  10.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  300.000E-12
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  51.0000E-09
+  Device: X_U2
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U2.CLK, measured WIDTH was  5.70000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-LOW Violation at time  51.4000E-09
+  Device: X_U17
+  Minimum low WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  1.20000E-09
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  52.4000E-09
+  Device: X$$$P002_AtoD1
+  Voltage V($$P002,$G_DGND)= 7.3133 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  52.4000E-09
+  Device: X$$$P003_AtoD1
+  Voltage V($$P003,$G_DGND)= 7.5148 is beyond the ranges defined in model DO74AS00
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  52.7000E-09
+  Device: X$$$P004_AtoD1
+  Voltage V($$P004,$G_DGND)= 7.1019 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  52.9000E-09
+  Device: X$$$P005_AtoD1
+  Voltage V($$P005,$G_DGND)= 7.1421 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  55.2000E-09
+  Device: X_U17
+  Minimum high WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  3.60000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  55.2000E-09
+  Device: X_U4
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  4.20000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  55.4000E-09
+  Device: X_U2
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U2.CLK, measured WIDTH was  3.70000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  55.5000E-09
+  Device: X_U3
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U3.CLK, measured WIDTH was  4.50000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-LOW Violation at time  55.7000E-09
+  Device: X_U4
+  Minimum low WIDTH is  10.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  100.000E-12
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  57.5000E-09
+  Device: X$$$P005_AtoD1
+  Voltage V($$P005,$G_DGND)= 7.2583 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  57.7000E-09
+  Device: X$$$P003_AtoD1
+  Voltage V($$P003,$G_DGND)= 7.2510 is beyond the ranges defined in model DO74AS00
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  57.8000E-09
+  Device: X$$$P004_AtoD1
+  Voltage V($$P004,$G_DGND)= 7.2779 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  58.6000E-09
+  Device: X$$$P002_AtoD1
+  Voltage V($$P002,$G_DGND)= 7.6368 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  60.3000E-09
+  Device: X_U17
+  Minimum high WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  3.40000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  60.5000E-09
+  Device: X_U2
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U2.CLK, measured WIDTH was  4.00000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  60.8000E-09
+  Device: X_U4
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  4.30000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  61.2000E-09
+  Device: X_U3
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U3.CLK, measured WIDTH was  4.90000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-LOW Violation at time  61.3000E-09
+  Device: X_U17
+  Minimum low WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  700.000E-12
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  62.7000E-09
+  Device: X$$$P003_AtoD1
+  Voltage V($$P003,$G_DGND)= 7.0412 is beyond the ranges defined in model DO74AS00
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  62.7000E-09
+  Device: X$$$P005_AtoD1
+  Voltage V($$P005,$G_DGND)= 7.1044 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  63.0000E-09
+  Device: X$$$P004_AtoD1
+  Voltage V($$P004,$G_DGND)= 7.1314 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  63.1000E-09
+  Device: X$$$P002_AtoD1
+  Voltage V($$P002,$G_DGND)= 7.1293 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  65.7000E-09
+  Device: X_U17
+  Minimum high WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  4.10000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  65.8000E-09
+  Device: X_U4
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  3.90000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-LOW Violation at time  66.8000E-09
+  Device: X_U17
+  Minimum low WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  800.000E-12
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  67.9000E-09
+  Device: X$$$P003_AtoD1
+  Voltage V($$P003,$G_DGND)= 7.2143 is beyond the ranges defined in model DO74AS00
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  68.2000E-09
+  Device: X$$$P002_AtoD1
+  Voltage V($$P002,$G_DGND)= 7.1060 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  68.5000E-09
+  Device: X$$$P004_AtoD1
+  Voltage V($$P004,$G_DGND)= 7.0859 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  68.5000E-09
+  Device: X$$$P005_AtoD1
+  Voltage V($$P005,$G_DGND)= 7.2941 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  70.8000E-09
+  Device: X_U4
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  4.20000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  71.2000E-09
+  Device: X_U17
+  Minimum high WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  4.20000E-09
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  73.3000E-09
+  Device: X$$$P003_AtoD1
+  Voltage V($$P003,$G_DGND)= 7.0207 is beyond the ranges defined in model DO74AS00
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  73.3000E-09
+  Device: X$$$P005_AtoD1
+  Voltage V($$P005,$G_DGND)= 7.1302 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  73.5000E-09
+  Device: X$$$P004_AtoD1
+  Voltage V($$P004,$G_DGND)= 7.0836 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  75.9000E-09
+  Device: X_U17
+  Minimum high WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  3.80000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  76.8000E-09
+  Device: X_U4
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  5.00000E-09
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  78.4000E-09
+  Device: X$$$P005_AtoD1
+  Voltage V($$P005,$G_DGND)= 7.0799 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  78.5000E-09
+  Device: X$$$P003_AtoD1
+  Voltage V($$P003,$G_DGND)= 7.1352 is beyond the ranges defined in model DO74AS00
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  78.7000E-09
+  Device: X$$$P004_AtoD1
+  Voltage V($$P004,$G_DGND)= 7.1527 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+DIGITAL INPUT VOLTAGE Hazard at time  79.1000E-09
+  Device: X$$$P002_AtoD1
+  Voltage V($$P002,$G_DGND)= 7.0690 is beyond the ranges defined in model DO74LS
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  80.9000E-09
+  Device: X_U3
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U3.CLK, measured WIDTH was  19.4000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  81.0000E-09
+  Device: X_U2
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U2.CLK, measured WIDTH was  20.0000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  81.2000E-09
+  Device: X_U17
+  Minimum high WIDTH is  6.70000E-09
+  NODE: X_U17.CLK, measured WIDTH was  4.20000E-09
+
+
+DIGITAL WARNING:
+WIDTH/MIN-HIGH Violation at time  81.2000E-09
+  Device: X_U4
+  Minimum high WIDTH is  30.0000E-09
+  NODE: X_U4.CLK, measured WIDTH was  4.00000E-09
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME          252.60
+

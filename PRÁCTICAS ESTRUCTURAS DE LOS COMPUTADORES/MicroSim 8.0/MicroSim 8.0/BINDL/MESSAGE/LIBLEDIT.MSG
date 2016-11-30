@@ -1,0 +1,14 @@
+#include "libdb3.msg"
+#include "libcst.msg"
+#include "libmutil.msg"
+
+>Ms Reading avail
+=Reading available file, '%s'.
+>Md read count
+=    %d...
+>Ms Writing avail
+=Writing available file, '%s'.
+>M Reading device lib
+=Reading device library.
+>M Saving device lib
+=Saving device library.

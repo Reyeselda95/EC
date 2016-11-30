@@ -1,0 +1,1464 @@
+(component ALTPRIMS
+  (cell DFF A_DFF
+        (functional_spec "DFF" PROCEDURE)
+	(interface
+	  (define OUTPUT pin Q
+		(property PinNumber 5)
+		(property NoConn ERROR)
+	  )
+	  (define INPUT pin D
+		(property PinNumber 1)
+		(property NoConn VCC)
+	  )
+	  (define INPUT pin CLK
+		(property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin CLRN
+		(property PinNumber 3)
+		(property NoConn GND)
+	  )
+          (define INPUT pin PRN
+		(property PinNumber 4)
+		(property NoConn GND)
+	  )
+	)
+  )
+  (cell DFFE A_DFFE
+        (functional_spec "DFFE" PROCEDURE)
+	(interface
+	  (define OUTPUT pin Q
+                (property PinNumber 6)
+		(property NoConn ERROR)
+	  )
+	  (define INPUT pin D
+		(property PinNumber 1)
+		(property NoConn VCC)
+	  )
+	  (define INPUT pin CLK
+		(property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin CLRN
+		(property PinNumber 3)
+		(property NoConn GND)
+	  )
+          (define INPUT pin PRN
+		(property PinNumber 4)
+		(property NoConn GND)
+	  )
+          (define INPUT pin ENA
+                (property PinNumber 5)
+		(property NoConn GND)
+	  )
+	)
+  )
+  (cell TRI A_TRI
+        (functional_spec "TRI" FUNCTION)
+	(interface
+          (define TRISTATE pin OUT
+		(property PinNumber 3)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin IN
+		(property PinNumber 1)
+		(property NoConn VCC)
+	  )
+	  (define INPUT pin OE
+		(property PinNumber 2)
+		(property NoConn VCC)
+          )
+	)
+  )
+  (cell NOT A_NOT
+	(functional_spec "/" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 2)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell DELAY A_DELAY
+	(functional_spec "" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 2)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell AND1 A_AND1
+	(functional_spec "" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 2)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+	)
+  )
+  (cell AND2 A_AND2
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 3)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell AND3 A_AND3
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 4)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell AND4 A_AND4
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 5)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell AND5 A_AND5
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 6)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND6 A_AND6
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 7)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND7 A_AND7
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 8)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND8 A_AND8
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 9)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND9 A_AND9
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 10)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND10 A_AND10
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 11)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND11 A_AND11
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 12)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "12"
+                (property PinNumber 11)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND12 A_AND12
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 13)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "12"
+                (property PinNumber 11)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "13"
+                (property PinNumber 12)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND13 A_AND13
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 14)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "12"
+                (property PinNumber 11)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "13"
+                (property PinNumber 12)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "14"
+                (property PinNumber 13)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND14 A_AND14
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 15)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "12"
+                (property PinNumber 11)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "13"
+                (property PinNumber 12)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "14"
+                (property PinNumber 13)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "15"
+                (property PinNumber 14)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND15 A_AND15
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 16)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "12"
+                (property PinNumber 11)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "13"
+                (property PinNumber 12)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "14"
+                (property PinNumber 13)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "15"
+                (property PinNumber 14)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "16"
+                (property PinNumber 15)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND16 A_AND16
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 17)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "12"
+                (property PinNumber 11)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "13"
+                (property PinNumber 12)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "14"
+                (property PinNumber 13)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "15"
+                (property PinNumber 14)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "16"
+                (property PinNumber 15)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "17"
+                (property PinNumber 16)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND17 A_AND17
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 18)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "12"
+                (property PinNumber 11)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "13"
+                (property PinNumber 12)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "14"
+                (property PinNumber 13)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "15"
+                (property PinNumber 14)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "16"
+                (property PinNumber 15)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "17"
+                (property PinNumber 16)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "18"
+                (property PinNumber 17)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND18 A_AND18
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 19)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "12"
+                (property PinNumber 11)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "13"
+                (property PinNumber 12)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "14"
+                (property PinNumber 13)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "15"
+                (property PinNumber 14)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "16"
+                (property PinNumber 15)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "17"
+                (property PinNumber 16)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "18"
+                (property PinNumber 17)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "19"
+                (property PinNumber 18)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND19 A_AND19
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 20)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "12"
+                (property PinNumber 11)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "13"
+                (property PinNumber 12)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "14"
+                (property PinNumber 13)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "15"
+                (property PinNumber 14)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "16"
+                (property PinNumber 15)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "17"
+                (property PinNumber 16)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "18"
+                (property PinNumber 17)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "19"
+                (property PinNumber 18)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "20"
+                (property PinNumber 19)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell AND20 A_AND20
+        (functional_spec "*" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 21)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "10"
+                (property PinNumber 9)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "11"
+                (property PinNumber 10)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "12"
+                (property PinNumber 11)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "13"
+                (property PinNumber 12)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "14"
+                (property PinNumber 13)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "15"
+                (property PinNumber 14)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "16"
+                (property PinNumber 15)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "17"
+                (property PinNumber 16)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "18"
+                (property PinNumber 17)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "19"
+                (property PinNumber 18)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "20"
+                (property PinNumber 19)
+                (property NoConn VCC)
+          )
+          (define INPUT pin "21"
+                (property PinNumber 20)
+                (property NoConn VCC)
+          )
+	)
+  )
+  (cell OR1 A_OR1
+	(functional_spec "" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 2)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+             )
+        )
+  )
+  (cell OR2 A_OR2
+        (functional_spec "+" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 3)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell OR3 A_OR3
+        (functional_spec "+" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 4)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell OR4 A_OR4
+        (functional_spec "+" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 5)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell OR5 A_OR5
+        (functional_spec "+" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 6)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell OR6 A_OR6
+        (functional_spec "+" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 7)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell OR7 A_OR7
+        (functional_spec "+" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 8)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell OR8 A_OR8
+        (functional_spec "+" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 9)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "4"
+                (property PinNumber 3)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "5"
+                (property PinNumber 4)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "6"
+                (property PinNumber 5)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "7"
+                (property PinNumber 6)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "8"
+                (property PinNumber 7)
+		(property NoConn VCC)
+	  )
+          (define INPUT pin "9"
+                (property PinNumber 8)
+		(property NoConn VCC)
+	  )
+	)
+  )
+  (cell XOR2 A_XOR2
+        (functional_spec "(+)" BUILTIN FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+                (property PinNumber 3)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "2"
+                (property PinNumber 1)
+		(property NoConn VCC)
+          )
+          (define INPUT pin "3"
+                (property PinNumber 2)
+		(property NoConn VCC)
+          )
+	)
+  )
+  (cell VCC
+	(functional_spec "fVCC" FUNCTION)
+	(interface
+	  (define OUTPUT pin X
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+  (cell GND
+	(functional_spec "fGND" FUNCTION)
+	(interface
+	  (define OUTPUT pin X
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+  (cell PORTIN
+	(property IOTYPE INPUT)
+	(functional_spec "PORTIN" BUILTIN PROCEDURE)
+	(interface
+	  (define OUTPUT pin X
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+  (cell PORTLIN
+	(property IOTYPE LOWTRUE_INPUT)
+	(functional_spec "PORTLIN" BUILTIN PROCEDURE)
+	(interface
+	  (define OUTPUT pin X
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+  (cell PORTLOUT
+	(property IOTYPE LOWTRUE_OUTPUT)
+	(functional_spec "PORTLOUT" BUILTIN PROCEDURE)
+	(interface
+	  (define INPUT pin X
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+  (cell PORTOUT
+	(property IOTYPE OUTPUT)
+	(functional_spec "PORTOUT" BUILTIN PROCEDURE)
+	(interface
+	  (define INPUT pin X
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+  (cell PORTLBI
+	(property IOTYPE LOWTRUE_BIPUT)
+	(functional_spec "PORTLBI" BUILTIN PROCEDURE)
+	(interface
+	  (define INPUT pin X
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+  (cell PORTBI
+	(property IOTYPE BIPUT)
+	(functional_spec "PORTBI" BUILTIN PROCEDURE)
+	(interface
+	  (define INPUT pin X
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+  (cell PORTLHID
+	(property IOTYPE HIDDEN)
+	(functional_spec "PORTNODE" FUNCTION)
+	(interface
+	  (define INPUT pin X
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+  (cell PORTHID
+	(property IOTYPE HIDDEN)
+	(functional_spec "PORTNODE" FUNCTION)
+	(interface
+	  (define INPUT pin X
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+  (cell NODE
+	(property IOTYPE NODE)
+	(functional_spec "PORTNODE" FUNCTION)
+	(interface
+          (define OUTPUT pin "1"
+		(property PinNumber 2)
+		(property NoConn ERROR)
+	  )
+          (define INPUT pin "0"
+		(property PinNumber 1)
+		(property NoConn ERROR)
+	  )
+	)
+  )
+)

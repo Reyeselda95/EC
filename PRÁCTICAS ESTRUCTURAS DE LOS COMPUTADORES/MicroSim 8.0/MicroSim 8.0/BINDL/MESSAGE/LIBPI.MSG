@@ -1,0 +1,333 @@
+"access.c
+>Es property needs number param
+=[26000] Property '%s' takes one numeric argument.
+&PROPERTY_NAME
+*The property takes one argument which may consist of a number.
+>Es property needs string param
+=[26001] Property '%s' takes one argument.
+&PROPERTY_NAME
+*The property takes one argument which may consist of either a number,
+*a word consisting of alphanumeric characters and '_', or a string (a
+*sequence of characters enclosed in single quotes).
+>Es property needs boolean param
+=[26002] Property '%s' takes argument 'TRUE' or 'FALSE'.
+&PROPERTY_NAME
+*The property takes one argument that can only be the word 'TRUE' or
+*the word 'FALSE'.
+>Es Target string too long
+=[26003] Target string '%s' too long.
+&TARGET_STRING
+*The target string cannot be more than 160 characters long.
+>Es Invalid target string
+=[26004] Syntax error in target string '%s'.
+&TARGET_STRING
+>Es Target token too long
+=[26005] Word '%s' in target string too long.
+&ARGUMENT
+*No individual word in the target string may be more than 80 characters long.
+
+"gram.c
+>E pi syntax error
+=[26006] Syntax error.
+*This is a syntax error that occurs in a context where the system
+*cannot determine a more helpful description of what is wrong.  It
+*indicates that a construct has not been legally constructed.  See
+*the manual for the proper syntax of each construct.
+>E pi yacc stack overflow
+=[26007] Nesting too deep.
+*This is caused by some construct or combination of constructs in the
+*source file being nested too deeply.  Make sure you have an END on
+*all constructs requiring ENDs.
+>E pi unexpected EOF
+=[26008] Unexpected end of file.
+*This means the end of a source file was encountered before a construct
+*that was being processing had terminated.  This is often caused by a
+*missing END on a construct requiring an END.
+>Es pi unknown symbol
+=[26009] Unknown symbol '%s'.
+*The symbol was not an INPUT, NODE or OUTPUT signal in the .src file.
+>F pi Out of memory
+=[26010] Out of memory.
+&*
+>W pi fixed group is obsolete, use DEVICE
+=[26011] The keywords 'FIXED GROUP' are obsolete.  Please replace this occurrence of 'FIXED GROUP' with the keyword 'DEVICE'.
+*The keywords 'FIXED GROUP' have been replaced with more descriptive
+*keywords.  The message above refers to FIXED GROUPs that appear outside
+*of other FIXED GROUPs.  These FIXED GROUPs provide PLFit with device-level
+*partitioning and fitting information.  Therefore, you should replace
+*the keywords 'FIXED GROUP' with the new keyword 'DEVICE' at the appropriate
+*places in the pi file, and replace the corresponding 'END GROUP' with
+*'END DEVICE'.
+>W pi use END DEVICE
+=[26012] This 'END GROUP' goes with the obsolete keywords 'FIXED GROUP'.  Please replace with 'END DEVICE'.
+*The keywords 'FIXED GROUP' have been replaced with more descriptive
+*keywords.  The message above refers to FIXED GROUPs that appear outside
+*of other FIXED GROUPs.  These FIXED GROUPs provide PLFit with device-level
+*partitioning and fitting information.  Therefore, you should replace
+*the keywords 'FIXED GROUP' with the new keyword 'DEVICE' at the appropriate
+*places in the pi file, and replace the corresponding 'END GROUP' with
+*'END DEVICE'.
+>W pi fixed group is obsolete, use SECTION
+=[26013] The keywords 'FIXED GROUP' are obsolete.  Please replace this occurrence of 'FIXED GROUP' with the keyword 'SECTION'.
+*The keywords 'FIXED GROUP' have been replaced with more descriptive
+*keywords.  The message above refers to FIXED GROUPs that appear inside
+*another FIXED GROUP.  These FIXED GROUPs provide PLFit with device
+*section-level partitioning and fitting information.  Therefore, you 
+*should replace the keywords 'FIXED GROUP' with the new keyword 
+*'SECTION' at the appropriate places in the pi file, and replace the
+*corresponding 'END GROUP' with 'END SECTION'.
+>W pi use END SECTION
+=[26014] This 'END GROUP' goes with the obsolete keywords 'FIXED GROUP'.  Please replace with 'END SECTION'.
+*The keywords 'FIXED GROUP' have been replaced with more descriptive
+*keywords.  The message above refers to FIXED GROUPs that appear inside
+*another FIXED GROUP.  These FIXED GROUPs provide PLFit with device
+*section-level partitioning and fitting information.  Therefore, you 
+*should replace the keywords 'FIXED GROUP' with the new keyword 
+*'SECTION' at the appropriate places in the pi file, and replace the
+*corresponding 'END GROUP' with 'END SECTION'.
+>E pi expecting GROUP to follow FIXED
+=[26015] Expecting the keyword 'GROUP' to follow the keyword 'FIXED'.
+>E pi expecting signal name
+=[26016] Expecting signal name.
+>E pi expecting array index
+=[26017] Expecting number after '['.
+>E pi expecting RBRACKET
+=[26018] Expecting ']'.
+>E pi expecting pin specifier
+=[26019] Expecting pin name or number.
+>E pi expecting number
+=[26020] Expecting number to follow '..'.
+>E pi expecting number or identifier
+=[26021] Expecting number or identifier to follow '-'.
+>E pi expecting fuse number or list of numbers
+=[26022] Expecting fuse number or list of numbers.
+>E pi expecting RCURLY
+=[26023] Expecting '}'.
+>E pi expecting property name
+=[26024] Expecting property name.
+>Es pi unknown property
+=[26025] Unrecognized property name '%s'.
+&PROPERTY_NAME
+>E pi expecting SEMICOLON
+=[26026] Expecting ';'.
+>E pi unquoted target name
+=[26027] Target string must be quoted with single quotes ('').
+>E pi expecting quoted target name
+=[26028] Expecting quoted target string.
+>E pi unquoted group name
+=[26029] The name must be quoted with single quotes ('').
+>E pi expecting quoted group name
+=[26030] Expecting quoted name.
+>E pi expecting identifier to follow DOT
+=[26031] Expecting identifier to follow '.'.
+>E pi expecting DOT
+=[26032] Expecting '.'.
+>E pi expecting procedure instance tag to follow DOT
+=[26033] Expecting procedure name or number tag to follow '.'.
+
+"init.c
+>Mss pi copying default pi file
+=Copying default .pi file '%s' to '%s'.
+&DEFAULT_PI_FILE_NAME PI_FILE_NAME
+*There is no physical information file for your specific design, so
+*the system will attempt to use a default physical information file.
+>Wss pi could not copy default pi file
+=[26035] Could not copy default pi file '%s' to file '%s'.
+&PI_FILE_NAME PI_FILE_NAME
+*The system attempted to use the default physical information file,
+*but was unable to copy the default pi file to a pi file for your
+*specific design.  Read permissions on the default pi file or write 
+*permissions on the current directory may have been denied.
+>Ws pi default pi file not found
+=[26036] Could not find default pi file '%s'.
+&PI_FILE_NAME
+*There is no physical information file for your specific design, so
+*the system attempted to use a default physical information file,
+*but was unable to find the file.
+>Fs pi errors in pi file
+=[26037] There were errors in '%s'.
+&PI_FILENAME
+*There were errors which must be corrected in the physical information file.
+
+"instance.c
+>E pi multiple signal pin assignment
+=[26038] Cannot assign multiple array or range signals to a single pin.
+*Only one signal can be assigned at a time to a pin.  A signal declared
+*as an array in the .src file implies multiple signal array elements
+*in the pi file, so a single symbol assigned to a pin may be an illegal 
+*assignment if the symbol is declared as an array.
+>Es pi pin reassignment
+=[26039] Pin %s already assigned.
+&PIN_NAME_OR_NUMBER
+*A signal was assigned to a pin that already had a signal assigned to it.
+
+"lex.c
+>Ed pi illegal character
+=[26040] Illegal character %d in source.
+& ASCII_VALUE
+*An illegal character appeared in the file.
+*Legal characters include all alphanumeric characters, spaces, tabs,
+*newlines, carriage returns, formfeeds, vertical tabs and the punctuation
+*characters indicated in the manual for building each operator.
+>W pi COMP_ON without COMP_OFF
+=[26041] Encountered COMP_ON without preceding COMP_OFF.
+>W pi EOF with unmatched COMP_OFF
+=[26042] Hit end of file with unmatched COMP_OFF.
+>E pi string missing right quote
+=[26043] Missing quote on string.
+*A string must be enclosed by a pair of single quotes ('), but one of
+*the quotes on either the left or right side of the string was missing.
+>E line too long
+=[26044] Line too long.
+*A single line in the physical information file may be no longer than
+*1024 characters.
+>Ed pi illegal digit
+=[26045] Illegal digit in base %d constant.
+&NUMERICAL_BASE
+*The digit is not a valid digit in the numerical base of the constant.
+
+"option.c
+>Es pi property appears twice
+=[26046] Property '%s' was given twice.
+*The same property can appear only once in a given context.  A context
+*can be one of the following PI file constructs:  a SIGNAL, a GROUP, 
+*a DEVICE, a SECTION, or the global level (outside any of the preceding
+*constructs).
+&PROPERTY_NAME
+>Ess pi conflict between properties
+=[26047] Conflict between properties '%s' and '%s'.
+&PROPERTY_NAME PROPERTY_NAME
+*The two properties' definitions or effects conflict, so the properties
+*cannot both be given on the same signal, in the same GROUP construct, in the
+*same DEVICE construct, in the same SECTION construct, or globally.
+*The context of conflict depends on the particular property.
+>Es pi not scope property
+=[26048] Property %s is not accepted globally or on a GROUP, DEVICE, or SECTION.
+&PROPERTY_NAME
+*The named property was given at the global level, in a GROUP construct, in a
+*DEVICE construct, or in a SECTION construct, but is not allowed to appear 
+*in these contexts.
+>Es pi not output property
+=[26049] Property %s is not accepted on output signals.
+&PROPERTY_NAME
+*The property may not be given on output signals.
+>Es pi not input property
+=[26050] Property %s is not accepted on input signals.
+&PROPERTY_NAME
+*The property may not be given on input signals.
+
+"property.c
+>Esd pi property argument number mismatch
+=[26051] Property '%s' takes %d argument(s).
+&PROPERTY_NAME NUM_ARGUMENTS
+*The property must be given with the correct number of arguments.
+
+"scope.c
+>E pi NAME in global scope
+=[26053] NAME is only allowed within a GROUP, DEVICE, or SECTION.
+>E pi TARGET in global scope
+=[26054] TARGET is only allowed within a DEVICE or SECTION.
+*Only DEVICEs or SECTIONs of devices may be targeted.
+>E pi multiple targets in scope
+=[26055] Multiple TARGET constructs in the same DEVICE or SECTION.
+*A DEVICE construct or SECTION construct may have only one TARGET construct.
+>E pi targeted subgroup of untargeted group
+=[26056] Targeted SECTIONS of an untargeted DEVICE are not allowed.
+*A DEVICE must be targeted toward a particular part via
+*the TARGET construct for SECTIONs in the DEVICE to
+*have a TARGET.
+>E pi multiple DEFAULT
+=[26057] No more than one DEFAULT construct per file is allowed.
+*Only one DEVICE construct or SECTION construct may be specified as the 
+*default.  All signals in the design that were not mentioned in the pi 
+*file will be placed into the default DEVICE or SECTION.
+>E pi inputs not allowed in global scope
+=[26058] Input signals are not allowed at the global level.
+*Input signals may only be given inside a GROUP or a DEVICE.
+>Es pi duplicate input instance without pin assign
+=[26059] Input signal '%s' may be given only once without a pin assignment.
+*An input signal without a pin assignment may appear only once per 
+*GROUP or DEVICE.
+>Es pi signal output reassignment
+=[26060] Signal '%s' already mentioned as an output in the .pi file.
+*A signal may be mentioned as an output in the .pi file only once.  A 
+*signal may be mentioned as an input in the .pi file multiple times.
+>Es pi input signal in output context
+=[26061] Signal '%s' is not an output signal.
+*The signal is not an output signal, but was marked as an output with OUTPUT.
+>E pi fuses in subgroup scope
+=[26062] BLOWN and INTACT are not allowed inside a SECTION.
+*Fuse assignments may appear in a DEVICE, but not in a SECTION
+*appearing inside the DEVICE.
+>E pi fuses with no target
+=[26063] Must specify TARGET in order to specify fuse assignments.
+*The target device must be known for fuse assignments to be meaningful.
+>E pi fuse list conflict
+=[26064] BLOWN and INTACT fuse lists overlap.
+*A fuse cannot be assigned to be both blown and intact.
+>E pi NO_CONNECT in subgroup scope
+=[26065] NO_CONNECT is not allowed inside a SECTION.
+*No-connect pin assignments may appear in a DEVICE, but not in 
+*a SECTION appearing inside the DEVICE.
+>E pi NO_CONNECT without target
+=[26066] Must specify TARGET in order to specify no-connect pin assignments.
+*The target of the DEVICE construct must be known for pin assignments 
+*to be meaningful.
+>E pi pin assignment in global scope
+=[26067] Pin assignments are not allowed at global level.
+*Pin assignments may only be given in a DEVICE and in SECTIONs of a device.
+>E pi pin assignment in unfixed group
+=[26068] Pin assignments are not allowed inside a GROUP.
+*Pin assignments may only be given in a DEVICE and in SECTIONs of a device.
+>E pi pin assignment without target
+=[26069] Must specify TARGET in order to specify pin assignments.
+*The target of the DEVICE construct must be known for no-connect pin 
+*assignments to be meaningful.
+
+"symbol.c
+>Es pi bad range ident
+=[26070] Signal name '%s' does not end with a number.
+*The signal is understood to be part of a range of signals, such as
+*'a1..a10', but its name does not end with a number.
+>Ess pi mismatched range ident bases
+=[26071] Signal range names '%s' and '%s' have different bases.
+*The non-numerical prefixes on the signal range names are different,
+*so cannot form a range.
+>Ed pi index out of range
+=[26072] Array index %d out of range.
+*Only elements within the range of the array declared in the .src file
+*may be referenced in the pi file.  An array declared without a left
+*bound will be zero-based (e.g. OUTPUT a[4] will have the elements
+*a[0], a[1], a[2], a[3]).  An array declared with left and right
+*bounds will have elements between and including the bounds (e.g.
+*OUTPUT a[1..4] will have the elements a[1], a[2], a[3], and a[4]).
+>Es pi symbol is not an array
+=[26073] Symbol '%s' is not an array.
+*A symbol not declared as an array in the .src file cannot be indexed
+*like an array.
+>Es pi unknown signal range element
+=[26074] Unknown signal '%s' in range.
+*The signal appeared as part of a range of signals in the pi
+*file, but was never declared in the .src file.
+>Es pi signal is virtual
+=[26075] Signal '%s' is virtual but used as a physical signal.
+*The signal was declared in the .src file as a virtual node signal but 
+*was used in the pi file outside of the virtual construct.
+>Es pi VIRTUAL on input
+=[26076] Signal '%s' is an input and can't be VIRTUAL.
+*Only node signals can be marked as virtual signals.
+>Es pi VIRTUAL signal is physical
+=[26077] Signal '%s' is physical but used as a virtual signal.
+*Only node signals can be marked as virtual signals.
+>Es pi VIRTUAL signal has assignment
+=[26078] Virtual signal '%s' was given a physical assignment.
+*Virtual signals cannot be used anywhere in the pi file except in the
+*virtual construct.
+
+"defltpi.c
+>Ms Using Default .pi file.
+=Using Default .pi file '%s'.
+&DEFAULT_PI_FILENAME
+>Ms pi Bad target string format
+=Incorrect target string formatting: '%s'.
+

@@ -1,0 +1,25 @@
+
+1. Controlador de E/S(indicar funciones)//
+3. Dispositivo de E/S (clasificacion)//
+4. Logica de control//
+5. Transductor//
+6. Senales de control y estado//
+7. Interfaz interna/externa de un controlador//
+9. Anomalias mecanicas, electricas y errores de secuencia//
+10. Puertos de controlador//
+11, 12, 13. Clasificacion(interrupcion, programa, acceso directo a memoria)(funcionamiento de las mismas)//
+14. E/S asignada o mapeada en memoria (memory-mapped)//
+15. E/S aislada//
+16, 17. Linea de peticion de interrupcion y reconocimiento de interrupcion (interrupt request/acknowledge)//
+18. Bit de mascara//
+19. Rutina de servicio//
+20. Contador de programa (PC)(Program Counter)//
+21. Identificacion por consulta de software o encuesta(polling)//
+22. Interrupciones vectorizadas//
+23. Interrupciones encadenadas o conexion en cadena (daisy chain)//
+24. Controlador de interrupciones(PIC)(Programmable Interrupt Controller)//
+25. Codificador de prioridad//
+26. Registro contador de palabras//
+27, 28, 29, 30. Metodos DMA(por rafaga, por robo de ciclos, DMA transparente, memoria multipuerto)//
+2. Procesador de E/S//
+8. canal de E/S(selector, multiplexor)//

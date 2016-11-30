@@ -1,0 +1,424 @@
+*version 7.1 414955065
+lib "d:\msim70\lib\xc4000\XC4000.slb" 1049113180
+lib "d:\msim70\lib\xblox\XBLOX.slb" 1026086760
+u 715
+U? 33
+? 4
+@libraries
+XC4000 [.slb]
+XBLOX [.slb]
+@analysis
+.TRAN 1 0 0 0
++0 3u
++1 3u
+.OP 0 
+.XILINX 4
+@targets
+@attributes
+a TITLE=
+a IMPL=XILINX
+a FAMILY=XC4000
+@translators
+a 0 u 13 0 0 0 hln 100 PCBOARDS=PCB
+a 0 u 13 0 0 0 hln 100 PSPICE=PSPICE
+a 0 u 13 0 0 0 hln 100 XILINX=XILINX
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 6470 
+@status
+n 0 96:07:16:16:02:43;840236563 e 
+u XILINX 96:07:16:13:32:52;840227572 e 0 
+s 2832 96:07:16:16:02:53;840236573 e 
+*page 1 0 2020 1520 iB
+@ports
+port 161 IF_OUT 1320 280 h
+a 1 xr 3 0 77 8 hcn 100 LABEL=OUT[15:0]
+@parts
+part 87 OSC4 810 620 h
+a 0 sp 11 0 60 20 hcn 200 PART=OSC4
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U12
+a 0 ap 9 0 120 0 hrn 100 REFDES=U12
+part 45 DATA_REG 850 500 h
+a 0 x 0 0 0 0 hln 100 IMPL=XBLOX
+a 0 sp 11 0 75 5 hct 120 PART=DATA_REG
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+a 0 ap 9 0 150 0 hrn 100 REFDES=U8
+part 573 FORCE 330 620 h
+a 0 x 0 0 0 0 hln 100 IMPL=XBLOX
+a 0 sp 11 0 80 5 hct 120 PART=FORCE
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 u 13 13 4 34 hln 100 VALUE=16#00#
+a 0 a 0 0 0 0 hln 100 PKGREF=U27
+a 0 ap 9 0 170 0 hrn 100 REFDES=U27
+part 574 COMPARE 360 580 h
+a 0 x 0 0 0 0 hln 100 IMPL=XBLOX
+a 0 sp 11 0 70 4 hct 120 PART=COMPARE
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U28
+a 0 ap 9 0 140 0 hrn 100 REFDES=U28
+part 62 DATA_REG 1020 500 h
+a 0 x 0 0 0 0 hln 100 IMPL=XBLOX
+a 0 sp 11 0 75 5 hct 120 PART=DATA_REG
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U10
+a 0 ap 9 0 150 0 hrn 100 REFDES=U10
+part 30 ADD_SUB 650 440 h
+a 0 x 0 0 0 0 hln 100 IMPL=XBLOX
+a 0 ap 9 0 94 72 hrn 100 REFDES=U5
+a 0 sp 11 0 77 2 hct 120 PART=ADD_SUB
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 5 FORCE 330 380 h
+a 0 x 0 0 0 0 hln 100 IMPL=XBLOX
+a 0 sp 11 0 80 5 hct 120 PART=FORCE
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+a 0 ap 9 0 170 0 hrn 100 REFDES=U4
+a 0 u 13 13 4 34 hln 100 VALUE=0
+part 3 COMPARE 360 340 h
+a 0 x 0 0 0 0 hln 100 IMPL=XBLOX
+a 0 sp 11 0 70 4 hct 120 PART=COMPARE
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+a 0 ap 9 0 140 0 hrn 100 REFDES=U2
+part 584 AND2 540 450 h
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U29
+a 0 ap 9 0 80 0 hrn 100 REFDES=U29
+a 0 sp 11 0 58 28 hlt 100 PART=AND2
+part 543 OBUF16 1200 280 h
+a 0 sp 11 0 35 20 hcn 200 PART=OBUF16
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U26
+a 0 ap 9 0 70 0 hrn 100 REFDES=U26
+part 539 BUS_IF16 1030 280 h
+a 0 sp 11 0 57 -2 hct 120 PART=BUS_IF16
+a 0 s 0 0 0 0 hln 100 PKGTYPE=
+a 0 a 0 0 0 0 hln 100 PKGREF=U25
+a 0 ap 9 0 120 0 hrn 100 REFDES=U25
+part 1 titleblk 1520 970 h
+a 1 x 13 0 180 60 hcn 200 PageTitle=Fibonacci Generator Using X-BLOX
+a 1 s 13 0 350 10 hcn 100 PageSize=B
+a 1 s 13 0 340 95 hrn 100 PageCount=1
+a 1 s 13 0 300 95 hrn 100 PageNO=1
+part 626 nodeMarker 1000 620 d
+a 0 a 0 0 4 22 hlb 100 LABEL=2
+part 677 nodeMarker 1320 280 h
+a 0 a 0 0 4 22 hlb 100 LABEL=3
+@conn
+w 384
+a 0 sr 0 0 490 626 hln 100 LABEL=CLOCK_IN
+s 810 620 830 620 90
+a 0 sr 3 0 848 614 hln 100 LABEL=CLOCK_IN
+s 830 620 830 580 92
+s 1000 620 830 620 101
+s 850 580 830 580 96
+s 1000 620 1000 580 103
+s 1000 580 1020 580 105
+w 37
+a 0 sr 0 0 0 0 hln 100 LABEL=A_IS_0
+s 500 340 540 340 36
+a 0 sr 3 0 499 336 hln 100 LABEL=A_IS_0
+s 540 340 540 450 586
+w 33
+a 0 sr 0 0 0 0 hln 100 LABEL=B_IS_0
+s 540 470 540 580 34
+a 0 sr 3 0 498 576 hln 100 LABEL=B_IS_0
+s 500 580 540 580 562
+w 39
+a 0 sr 0 0 622 425 hln 100 LABEL=BOTH_0
+s 620 460 650 460 42
+a 0 sr 3 0 606 456 hln 100 LABEL=BOTH_0
+b 47
+a 0 sr 0 0 0 0 hln 100 LABEL=FIB
+s 810 500 850 500 50
+a 0 sr 3 0 824 498 hln 100 LABEL=FIB
+b 566
+a 0 sr 0 0 340 827 hln 100 LABEL=B_ZERO
+s 330 620 360 620 565
+a 0 sr 3 0 326 615 hln 100 LABEL=B_ZERO
+b 11
+a 0 sr 0 0 154 476 hln 100 LABEL=DELAY_1
+s 150 480 650 480 18
+a 0 sr 3 0 154 476 hln 100 LABEL=DELAY_1
+s 1010 280 1010 500 69
+s 1000 500 1010 500 79
+s 1010 500 1020 500 482
+s 1010 280 1030 280 328
+s 150 280 150 480 16
+s 1010 280 310 280 14
+s 310 280 150 280 704
+s 310 340 310 280 12
+s 360 340 310 340 10
+b 9
+a 0 sr 0 0 520 586 hln 100 LABEL=A_ZERO
+s 330 380 360 380 8
+a 0 sr 3 0 330 376 hln 100 LABEL=A_ZERO
+b 351
+a 0 sr 0 0 1549 386 hln 100 LABEL=OUT[15:0]
+s 1320 280 1270 280 558
+a 0 sr 3 0 1269 276 hln 100 LABEL=OUT[15:0]
+b 554
+a 0 sr 0 0 1154 276 hln 100 LABEL=FIB_OUT[15:0]
+s 1200 280 1150 280 555
+a 0 sr 3 0 1154 276 hln 100 LABEL=FIB_OUT[15:0]
+b 560
+a 0 sr 0 0 155 736 hln 100 LABEL=DELAY_2
+s 150 520 320 520 28
+a 0 sr 3 0 155 736 hln 100 LABEL=DELAY_2
+s 1180 500 1180 740 578
+s 1170 500 1180 500 84
+s 150 740 150 520 582
+s 360 580 320 580 571
+s 320 520 650 520 696
+s 320 520 320 580 568
+s 1180 740 150 740 714
+@junction
+j 810 620
++ p 87 F8M
++ w 384
+j 830 620
++ w 384
++ w 384
+j 1000 620
++ p 626 pin1
++ w 384
+j 850 580
++ p 45 CLOCK
++ w 384
+j 1020 580
++ p 62 CLOCK
++ w 384
+j 540 450
++ p 584 I1
++ w 37
+j 500 340
++ p 3 A_EQ_B
++ w 37
+j 540 470
++ p 584 I0
++ w 33
+j 500 580
++ p 574 A_EQ_B
++ w 33
+j 650 460
++ p 30 C_IN
++ w 39
+j 620 460
++ p 584 O
++ w 39
+j 850 500
++ p 45 D_IN
++ b 47
+j 810 500
++ p 30 FUNC
++ b 47
+j 330 620
++ p 573 FORCE
++ b 566
+j 360 620
++ p 574 B
++ b 566
+j 1170 500
++ p 62 Q_OUT
++ b 560
+j 650 520
++ p 30 B
++ b 560
+j 320 520
++ b 560
++ b 560
+j 360 580
++ p 574 A
++ b 560
+j 1000 500
++ p 45 Q_OUT
++ b 11
+j 1010 500
++ b 11
++ b 11
+j 1020 500
++ p 62 D_IN
++ b 11
+j 1010 280
++ b 11
++ b 11
+j 1030 280
++ p 539 X
++ b 11
+j 650 480
++ p 30 A
++ b 11
+j 310 280
++ b 11
++ b 11
+j 360 340
++ p 3 A
++ b 11
+j 330 380
++ p 5 FORCE
++ b 9
+j 360 380
++ p 3 B
++ b 9
+j 1270 280
++ P 543 O[15:0]
+O[15]
+O[14]
+O[13]
+O[12]
+O[11]
+O[10]
+O[9]
+O[8]
+O[7]
+O[6]
+O[5]
+O[4]
+O[3]
+O[2]
+O[1]
+O[0]
++ b 351
+OUT[15]
+OUT[14]
+OUT[13]
+OUT[12]
+OUT[11]
+OUT[10]
+OUT[9]
+OUT[8]
+OUT[7]
+OUT[6]
+OUT[5]
+OUT[4]
+OUT[3]
+OUT[2]
+OUT[1]
+OUT[0]
+j 1320 280
++ S 161
+OUT[15]
+OUT[14]
+OUT[13]
+OUT[12]
+OUT[11]
+OUT[10]
+OUT[9]
+OUT[8]
+OUT[7]
+OUT[6]
+OUT[5]
+OUT[4]
+OUT[3]
+OUT[2]
+OUT[1]
+OUT[0]
++ b 351
+OUT[15]
+OUT[14]
+OUT[13]
+OUT[12]
+OUT[11]
+OUT[10]
+OUT[9]
+OUT[8]
+OUT[7]
+OUT[6]
+OUT[5]
+OUT[4]
+OUT[3]
+OUT[2]
+OUT[1]
+OUT[0]
+j 1320 280
++ p 677 pin1
++ b 351
+j 1320 280
++ s 161
++ p 677 pin1
+j 1200 280
++ P 543 I[15:0]
+I[15]
+I[14]
+I[13]
+I[12]
+I[11]
+I[10]
+I[9]
+I[8]
+I[7]
+I[6]
+I[5]
+I[4]
+I[3]
+I[2]
+I[1]
+I[0]
++ b 554
+FIB_OUT[15]
+FIB_OUT[14]
+FIB_OUT[13]
+FIB_OUT[12]
+FIB_OUT[11]
+FIB_OUT[10]
+FIB_OUT[9]
+FIB_OUT[8]
+FIB_OUT[7]
+FIB_OUT[6]
+FIB_OUT[5]
+FIB_OUT[4]
+FIB_OUT[3]
+FIB_OUT[2]
+FIB_OUT[1]
+FIB_OUT[0]
+j 1150 280
++ P 539 B[15:0]
+B[15]
+B[14]
+B[13]
+B[12]
+B[11]
+B[10]
+B[9]
+B[8]
+B[7]
+B[6]
+B[5]
+B[4]
+B[3]
+B[2]
+B[1]
+B[0]
++ b 554
+FIB_OUT[15]
+FIB_OUT[14]
+FIB_OUT[13]
+FIB_OUT[12]
+FIB_OUT[11]
+FIB_OUT[10]
+FIB_OUT[9]
+FIB_OUT[8]
+FIB_OUT[7]
+FIB_OUT[6]
+FIB_OUT[5]
+FIB_OUT[4]
+FIB_OUT[3]
+FIB_OUT[2]
+FIB_OUT[1]
+FIB_OUT[0]
+@attributes
+a 0 s 0 0 0 0 hln 100 PAGETITLE=
+a 0 s 0 0 0 0 hln 100 PAGENO=1
+a 0 s 0 0 0 0 hln 100 PAGESIZE=B
+a 0 s 0 0 0 0 hln 100 PAGECOUNT=1
+@text
+s 5 430 200 hln 400 Fibonacci Sequence Generator
+s 5 560 240 hln 400 Using X-BLOX

@@ -1,0 +1,136 @@
+#include "libmutil.msg"
+#include "libfb.msg"
+#include "libpi.msg"
+#include "libdb3.msg" 
+#include "libcst.msg"
+
+>Fs Could not locate device library.
+=[6000] Fs Could not locate device library '%s'.
+>Fs Could not open device library.
+=[6001] Fs Could not open device library '%s'.
+>Fs Couldn't open available file
+=[6002] Couldn't open available file %s
+&AVAILABLE_FILE_NAME
+>Fs Can't open manufacturer info database
+=[6003] Can't open manufacturer info database %s
+&DATABASE_NAME
+>F No devices match scan criteria
+=[6004] No devices match scan criteria...
+*The criteria you supply remove device architectures from consideration.  These
+*criteria, along with your authorization, combine to create an available list
+*of devices.  In this case, there are no devices available.
+>F usage
+=[6005] PLScan usage:  plscan design_name
+>Fs Can't open error file
+=[6006] Can't open error file %s
+&ERROR_FILE_NAME
+>F PLOpt has not been run
+=[6007] PLOpt has not been run
+>Fd Template Locking Limit Exceeded.
+=[6008] Maximum templates exceeded. Ensure no more than %d template(s) selected.
+*Some MINC products are limited to a certain number of device
+*architectures. You must not select more than the limit in the .cst file.
+
+>W .avl line skipped - Invalid format
+=[6009] Skipped - Invalid format
+>Ws .avl line skipped - Invalid status
+=[6010] Skipped - Invalid status '%s'
+&STATUS
+>Ws .avl line skipped - Invalid vendor
+=[6011] Skipped - Invalid manufacturer: %s
+&MANUFACTURER_NAME
+>Ws .avl line skipped - Invalid part number
+=[6012] Skipped - Invalid part number: %s
+&PART_NUMBER
+
+>Ms Bad target string format
+=Incorrect target string formatting: '%s'.
+
+>Mss Copying default cost file.
+=Copying default cost file '%s' to '%s'.
+>Ms Assuming .avl file.
+=Assuming '%s' as the available file.
+&DEFAULT_AVAILABLE_FILE
+
+>Ms plscan tick message
+=  %s.
+&*
+
+>M Scan not necessary: files up to date
+=Scan not necessary: files are up to date.
+
+>Ms Part for footprint not available
+=PI Footprint: '%s' not in .avl file or has been eliminated by constraints.
+&FOOTPRINT_NAME
+
+>Mss .pi device not in library.
+=PI target %s %s not in library ; please check spelling
+&STRING1 STRING2
+
+>Ms Invalid template in .pi file:
+=PI target template: '%s' is not a valid template name.
+&STRING
+
+>Ms Template not found in available file.
+=Template: '%s' in .pi file is not in .avl file or has been eliminated by constraints.
+&TEMPLATE_NAME
+
+>Mss Template/Footprint not found.
+=PI target Template: '%s' Footprint: '%s' is not in .avl file or has been eliminated by constraints.
+&TEMPLATE_NAME FOOTPRINT_NAME
+
+>Msss REJECT_MANUFACTURER
+=PI target %s %s rejected, manufacturer:'%s', check constraints.
+&STRING1 STRING2 MANUFACTURER_NAME
+
+>Msss REJECT_FAMILY
+=PI target %s %s rejected, family:'%s', check constraints.
+&STRING1 STRING2 FAMILY_NAME
+
+>Msss REJECT_PACKAGE
+=PI target %s %s rejected, package:'%s', check constraints.
+&STRING1 STRING2 PACKAGE_NAME
+
+>Msss REJECT_TEMPRANGE
+=PI target %s %s rejected, temp_range:'%s', check constraints.
+&STRING1 STRING2 TEMP_VALUE
+
+>Msss REJECT_TPD
+=PI target %s %s rejected, tpd = %s ns, check constraints.
+&STRING1 STRING2 TPD_VALUE
+
+>Msss REJECT_FMAX
+=PI target %s %s rejected, fmax = %s Mhz, check constraints.
+&STRING1 STRING2 FMAX_VALUE
+
+>Msss REJECT_ICC
+=PI target %s %s rejected, icc = %s ma, check constraints.
+&STRING1 STRING2 ICC_VALUE
+
+>Mssd REJECT_USER1
+=PI target %s %s rejected, user1 = '%d', check constraints.
+&STRING1 STRING2 USER1_VALUE
+
+>Mssd REJECT_USER2
+=PI target %s %s rejected, user2 = '%d', check constraints.
+&STRING1 STRING2 USER2_VALUE
+
+>Msss REJECT_PRICE
+=PI target %s %s rejected, price = %s, check constraints.
+&STRING1 STRING2 PRICE
+
+>Msss REJECT_TMPLT
+=PI target %s %s rejected, template: '%s', check constraints.
+&STRING1 STRING2 TEMPLATE_NAME
+
+>Msss REJECT_LOCK
+=PI target %s %s rejected, by lock: '%s', check constraints.
+&STRING1 STRING2 TEMPLATE_NAME
+
+
+>F PI target errors detected.
+=[6036] PI target error(s) detected.
+
+>W Please rerun PLOpt.
+=[6037] Optimization parameters have changed please rerun PLOpt.
+

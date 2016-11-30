@@ -1,0 +1,23 @@
+* D:\MS54\pcbex.sch - with Parasitics
+
+* Schematics Version 5.4x - September 1993
+* Wed Sep 15 15:16:35 1993
+
+
+** Analysis setup **
+.tran 5ns 120ns
+.OP 
+.INC pcbex.stm
+
+
+* From [SCHEMATICS NETLIST] section of msim.ini:
+.lib nom.lib
+
+.INC "pcbex.pnt"
+.INC "pcbex.pas"
+
+
+.probe
+
+
+.END

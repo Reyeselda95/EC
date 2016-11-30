@@ -1,0 +1,390 @@
+*version 6.3 3424619305
+u 343
+XC5200 98290312
+U? 10
+@libraries
+XC5200 [.slb]
+@analysis
+@targets
+@attributes
+a FAMILY=XC5200
+a IMPL=XILINX
+@translators
+@setup
+unconnectedPins 0
+connectViaLabel 1
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 5584 1
+@status
+*page 1 0 850 1100 iX
+@ports
+port 344 IF_OUT 770 340 h
+a 0 s 3 0 20 8 hln 50 LABEL=O[7:0]
+port 345 IF_IN 80 700 h
+a 0 s 3 0 10 8 hln 50 LABEL=I[7:0]
+port 346 IF_IN 80 720 h
+a 0 s 3 0 10 8 hln 80 LABEL=E
+@parts
+part 16 BUFT 390 640 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U1
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U1
+part 20 INV 230 720 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U2
+a 0 sp 11 0 30 14 hlt 100 PART=INV
+a 0 a 0 0 0 0 hln 100 PKGREF=U2
+part 21 BUFT 390 600 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U3
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U3
+part 22 BUFT 390 560 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U4
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U4
+part 23 BUFT 390 520 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U5
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U5
+part 24 BUFT 390 480 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U6
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U6
+part 25 BUFT 390 440 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U7
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U7
+part 26 BUFT 390 400 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U8
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U8
+part 27 BUFT 390 360 h
+a 0 sp 9 0 70 0 hrn 100 REFDES=U9
+a 0 sp 11 0 30 34 hlt 100 PART=BUFT
+a 0 a 0 0 0 0 hln 100 PKGREF=U9
+@conn
+b 37
+s 80 700 190 700 28
+a 0 s 3 0 80 690 hln 100 LABEL=I[7:0]
+s 190 700 190 660 29
+s 190 660 190 620 30
+s 190 620 190 580 31
+s 190 580 190 540 32
+s 190 540 190 500 33
+s 190 500 190 460 34
+s 190 460 190 420 35
+s 190 420 190 380 36
+w 39
+s 190 660 390 660 38
+a 0 s 3 0 200 660 hln 100 LABEL=I[7]
+s 190 660 190 660 40
+w 48
+s 190 620 390 620 47
+a 0 s 3 0 200 620 hln 100 LABEL=I[6]
+s 190 620 190 620 49
+w 57
+s 190 580 390 580 56
+a 0 s 3 0 200 580 hln 100 LABEL=I[5]
+s 190 580 190 580 58
+w 66
+s 190 540 390 540 65
+a 0 s 3 0 200 540 hln 100 LABEL=I[4]
+s 190 540 190 540 67
+w 75
+s 190 500 390 500 74
+a 0 s 3 0 200 500 hln 100 LABEL=I[3]
+s 190 500 190 500 76
+w 84
+s 190 460 390 460 83
+a 0 s 3 0 200 460 hln 100 LABEL=I[2]
+s 190 460 190 460 85
+w 93
+s 190 380 390 380 92
+a 0 s 3 0 200 380 hln 100 LABEL=I[0]
+s 190 380 190 380 94
+w 102
+s 190 420 390 420 101
+a 0 s 3 0 200 420 hln 100 LABEL=I[1]
+s 190 420 190 420 103
+b 119
+s 660 340 770 340 110
+a 0 s 3 0 700 330 hln 100 LABEL=O[7:0]
+s 660 380 660 340 118
+s 660 660 660 620 111
+s 660 620 660 580 112
+s 660 580 660 540 113
+s 660 540 660 500 114
+s 660 500 660 460 115
+s 660 460 660 420 116
+s 660 420 660 380 117
+w 122
+s 460 660 660 660 121
+a 0 s 3 0 620 660 hln 100 LABEL=O[7]
+s 660 660 660 660 123
+w 131
+s 460 620 660 620 130
+a 0 s 3 0 620 620 hln 100 LABEL=O[6]
+s 660 620 660 620 132
+w 140
+s 460 580 660 580 139
+a 0 s 3 0 620 580 hln 100 LABEL=O[5]
+s 660 580 660 580 141
+w 149
+s 460 540 660 540 148
+a 0 s 3 0 620 540 hln 100 LABEL=O[4]
+s 660 540 660 540 150
+w 158
+s 460 500 660 500 157
+a 0 s 3 0 620 500 hln 100 LABEL=O[3]
+s 660 500 660 500 159
+w 167
+s 460 460 660 460 166
+a 0 s 3 0 620 460 hln 100 LABEL=O[2]
+s 660 460 660 460 168
+w 176
+s 460 420 660 420 175
+a 0 s 3 0 620 420 hln 100 LABEL=O[1]
+s 660 420 660 420 177
+w 185
+s 460 380 660 380 184
+a 0 s 3 0 620 380 hln 100 LABEL=O[0]
+s 660 380 660 380 186
+w 210
+s 300 720 360 720 193
+a 0 s 3 0 320 720 hln 100 LABEL=T
+s 360 720 360 640 209
+s 360 640 360 600 194
+s 360 600 390 600 195
+s 360 600 360 560 196
+s 360 560 390 560 197
+s 360 560 360 520 198
+s 360 520 390 520 199
+s 360 520 360 480 200
+s 360 480 390 480 201
+s 360 480 360 440 202
+s 360 440 390 440 203
+s 360 440 360 400 204
+s 360 400 390 400 205
+s 360 400 360 360 206
+s 360 360 390 360 207
+s 360 640 390 640 208
+w 288
+s 80 720 230 720 287
+a 0 s 3 0 90 720 hln 100 LABEL=E
+@junction
+j 390 660
++ p 16 I
++ w 39
+j 390 620
++ p 21 I
++ w 48
+j 390 580
++ p 22 I
++ w 57
+j 390 540
++ p 23 I
++ w 66
+j 390 500
++ p 24 I
++ w 75
+j 390 460
++ p 25 I
++ w 84
+j 390 380
++ p 27 I
++ w 93
+j 390 420
++ p 26 I
++ w 102
+j 460 660
++ p 16 O
++ w 122
+j 460 620
++ p 21 O
++ w 131
+j 460 580
++ p 22 O
++ w 140
+j 460 540
++ p 23 O
++ w 149
+j 460 500
++ p 24 O
++ w 158
+j 460 460
++ p 25 O
++ w 167
+j 460 420
++ p 26 O
++ w 176
+j 460 380
++ p 27 O
++ w 185
+j 360 640
++ w 210
++ w 210
+j 360 600
++ w 210
++ w 210
+j 360 560
++ w 210
++ w 210
+j 360 520
++ w 210
++ w 210
+j 360 480
++ w 210
++ w 210
+j 360 440
++ w 210
++ w 210
+j 360 400
++ w 210
++ w 210
+j 390 640
++ p 16 T
++ w 210
+j 300 720
++ p 20 O
++ w 210
+j 390 600
++ p 21 T
++ w 210
+j 390 560
++ p 22 T
++ w 210
+j 390 520
++ p 23 T
++ w 210
+j 390 480
++ p 24 T
++ w 210
+j 390 440
++ p 25 T
++ w 210
+j 390 400
++ p 26 T
++ w 210
+j 390 360
++ p 27 T
++ w 210
+j 230 720
++ p 20 I
++ w 288
+j 190 660
++ b 37
+I[7]
++ w 39
+j 190 620
++ b 37
+I[6]
++ w 48
+j 190 580
++ b 37
+I[5]
++ w 57
+j 190 540
++ b 37
+I[4]
++ w 66
+j 190 500
++ b 37
+I[3]
++ w 75
+j 190 460
++ b 37
+I[2]
++ w 84
+j 190 380
++ b 37
+I[0]
++ w 93
+j 190 420
++ b 37
+I[1]
++ w 102
+j 660 660
++ b 119
+O[7]
++ w 122
+j 660 620
++ b 119
+O[6]
++ w 131
+j 660 580
++ b 119
+O[5]
++ w 140
+j 660 540
++ b 119
+O[4]
++ w 149
+j 660 500
++ b 119
+O[3]
++ w 158
+j 660 460
++ b 119
+O[2]
++ w 167
+j 660 420
++ b 119
+O[1]
++ w 176
+j 660 380
++ b 119
+O[0]
++ w 185
+j 770 340
++ S 344
+O[7]
+O[6]
+O[5]
+O[4]
+O[3]
+O[2]
+O[1]
+O[0]
++ b 119
+O[7]
+O[6]
+O[5]
+O[4]
+O[3]
+O[2]
+O[1]
+O[0]
+j 80 700
++ S 345
+I[7]
+I[6]
+I[5]
+I[4]
+I[3]
+I[2]
+I[1]
+I[0]
++ b 37
+I[7]
+I[6]
+I[5]
+I[4]
+I[3]
+I[2]
+I[1]
+I[0]
+j 80 720
++ s 346
++ w 288
+@attributes
+@text
+s 5 640 1050 hrn 100 23RD FEBRUARY 1993
+s 5 750 1000 hrn 100 XC5200 FAMILY BUFE8 MACRO
+s 5 700 1020 hrn 100 8-BIT 3-STATE BUFFER
+s 5 500 1030 hln 100 W/ AN ACTIVE HIGH ENABLE
+s 5 710 1050 hrn 100 1
+s 5 700 1070 hln 100 A
+s 5 30 1070 hln 100 COPYRIGHT (C) 1993, XILINX INC.
+s 5 30 1060 hln 100 DRAWN BY KS

@@ -1,0 +1,236 @@
+#include "libmutil.msg"
+
+"main.c
+>W XORSOFT obsolete
+=[7000] XORSOFT is obsolete and has been replaced by XOR.
+*The XORSOFT primitive is no longer needed now that exclusive-or
+*synthesis is supported.  If a device has a hardware exclusive-or
+*it will be used.  Otherwise, it will be synthesized.
+>W HIDDEN obsolete
+=[7001] PORTHID is obsolete and has been replaced by NODE.
+*The PORTHID primitive is no longer supported and will be replace
+*internally by the NODE primitive.  This primitive will not be
+*included in subsequent releases of the product.
+>M Not included in subsequent releases
+=  This part will not be included in PLDPRIMS in subsequent releases.
+>F usage
+=[7003] PLSchematic usage:  plsch design_name reader_flag
+>F LOCK NOT INSTALLED
+=[7004] Unable to validate product authorization.
+*The code which prevents unauthorized use of the product is not allowing
+*access to the product.  On a PC, either the hardware lock is not properly
+*installed or the authorization code given via auth.exe do not correspond
+*to the hardware lock and the product being run.  On a workstation, the
+*authorization codes given in the license.dat file do not correspond to the
+*host machine and the product being run.  See the Installation chapter of
+*the manual for more on software locking.
+>Fs Unable to load base component library
+=[7006] Unable to load base component library '%s'
+&LIBRARY_NAME
+*PLSchematic was unable to access the requested library file.  Check 
+*the file permissions.
+>Fs Unable to load extended component library
+=[7007] Unable to load extended component library '%s'
+&LIBRARY_NAME
+*PLSchematic was unable to access the requested library file.  Check 
+*the file permissions.
+>F Unable to load ORCAD TTL library
+=[7008] Unable to load OrCAD TTL library
+*PLSchematic was unable to access the ORCAD TTL libraries.  This is either
+*because they do not exist, they are not located in the MINC distribution
+*directory in the subdirectory orcadttl, or the environment variable,
+*MINC_PATH does not include the path to the MINC distribution directory.
+>Fs Undefined reader flag
+=[7009] Undefined reader flag specified - '%s'
+& NETLIST_READER
+>F netlist errors
+=[7010] Errors found in netlist unable to continue
+*This means that serious and/or fatal errors were encountered in the
+*input netlist.  Processing is discontinued and no output files will
+*be generated.
+>Wssd zzerror
+=[7011] '%s' in '%s' on line '%d'
+>Fs Design Errors Found
+=[7012] Schematic design error(s) found in '%s' - unable to continue.
+&INPUT_NETLIST
+*PLSchematic has a built-in rules checker to verify that the input
+*netlist is consistent.  If it is not the error is printed and 
+*processing is discontinued before the output files are generated.
+>F SYNOPSYS NO BASE
+=[7013] No base library allowed with Synopsys option.
+*Synopsys has it's own special base library, therefore, no explicit
+*base library can be used via the -BASE: option.
+"hdl_out.c
+>Fs Error opening source file
+=[7014] Error opening source file '%s'.
+&HDL_SOURCE_FILE
+*PLSchematic was unable to open the output source file.
+"rules.c
+>Wss input pin not connected
+=[7017] Input pin '%s' of instance '%s' is not connected.
+& PIN_NAME INSTANCE_NAME 
+*PLSchematic checks each component instance to verify that all
+*input pins are connected.  Each unconnected input pin is connected 
+*to either VCC or GND.  
+>Wss output pin not connected
+=[7018] Output pin '%s' of instance '%s' is not connected.
+& PIN_NAME INSTANCE_NAME 
+*PLSchematic checks each component instance to verify that all
+*output pins are connected.  The user is warned of this condition
+*and processing continues.
+>Wds input pin not connected
+=[7019] Input pin '%d' of instance '%s' is not connected.
+>Wds output pin not connected
+=[7020] Output pin '%d' of instance '%s' is not connected.
+>Ms default value
+=  Pin value defaulted to %s.
+&*
+>Wss instance not connected
+=[7022] Instance '%s' of type '%s' is not connected.
+& INSTANCE_NAME COMPONENT_TYPE
+*The named component instance is unconnected.  This will not affect
+*the final results since the equations for this device will be 
+*optimized out but is flagged because it is likely that the
+*user either inadvertently left the component or forgot to connect
+*it to the rest of the design.
+>Wss no input pins connected
+=[7023] No input pins connected to instance '%s' of type '%s'.
+& INSTANCE_NAME COMPONENT_TYPE
+*All of the input pins on the named instance are unconnected.
+*This will not affect
+*the final results since the equations for this device will be 
+*optimized out.
+>Wss no output pins connected
+=[7024] No output pins connected to instance '%s' of type '%s'.
+& INSTANCE_NAME COMPONENT_TYPE
+*All of the output pins on the named instance are unconnected.
+*This will not affect
+*the final results since the equations for this device will be 
+*optimized out.
+>E No nets
+=[7025] Design has no nets.
+>E no input ports
+=[7026] Design has no input ports defined.
+>E no output ports
+=[7027] Design has no output ports defined.
+>Es Output driven by more than one tristate/output
+=[7028] Output/Biput instance '%s' cannot be driven by more than one tri-state/output device.
+&INSTANCE_NAME
+*All output/biput ports are required to be driven by only one tri-state/output device.
+>Ws unconnected net
+=[7029] Net '%s' is unconnected.
+& NET_NAME
+>Es no inputs connected
+=[7030] Net '%s' does not drive any instance input pins.
+&NET_NAME
+>Es no outputs connected
+=[7031] Net '%s' is not driven by an instance output pin.
+&NET_NAME
+>Es multiple instance outputs
+=[7032] Net '%s' is driven by multiple instance output pins.
+&NET_NAME
+*A net can be driven by only one device output pin.
+"edif200.c
+>Es duplicate instances
+=[7033] More than one component with the label, %s found.
+>Fs Error opening rename
+=[7034] Cannot open EDIF rename file '%s'
+&RENAME_FILE
+>Fs Error opening edif
+=[7035] Cannot open EDIF 2.0.0 file '%s'
+&EDIF_FILE
+>F Left paren found
+=[7036] Left parenthesis found in expression
+>F Max string length
+=[7037] String length cannot exceed 1024 characters
+>F Max tokens
+=[7038] More than 20 tokens found
+&*
+>Fs Empty file
+=[7039] EDIF 2.0.0 file '%s' empty
+&EDIF_FILE
+>F Not EDIF
+=[7040] File does not begin with EDIF keyword
+>F Not EDIF200
+=[7041] File is not EDIF version 2.0.0
+>Fs No library construct
+=[7042] No library construct found in file '%s'
+&EDIF_FILE
+>Fs Multiple cell constructs
+=[7043] Multiple cell constructs found in file '%s'
+&EDIF_FILE
+>Fs Incomplete EDIF
+=[7044] EDIF 2.0.0 file '%s' is incomplete
+&EDIF_FILE
+>Fs Multiple interface constructs
+=[7045] Multiple interface constructs found in file '%s'
+&EDIF_FILE
+>F Interface not followed by PORT
+=[7046] Interface not followed by PORT keyword
+>F Invalid PORT syntax
+=[7047] Invalid PORT syntax
+>F Instance or net keyword found before contents
+=[7048] Instance or net keyword found before contents
+>F Instance keyword not followed by instance name
+=[7049] Instance keyword not followed by instance name
+>F Instance not followed by component name
+=[7050] Instance not followed by component name
+>F Joined or portref statement not preceded by net construct
+=[7051] Joined or portref statement not preceded by net construct
+>F Multiple port assignments for a single net
+=[7052] Multiple port assignments for a single net
+>F Net construct found before previous net complete
+=[7053] Net construct found before previous net complete
+>F Instance rename not followed by 2 instance names
+=[7054] Instance rename not followed by 2 instance names
+>F Unexpected EOF
+=[7055] Unexpected EOF
+>F Design construct not followed by CELLREF design name
+=[7056] Design construct not followed by CELLREF design name
+>F Multiple library constructs found with no design construct
+=[7057] Multiple library constructs found with no design construct
+>F Pin number must be preceded by an ampersand
+=[7058] Pin number must be preceded by an ampersand
+>F Pin number must be numeric
+=[7059] Pin number must be numeric
+"edif.y
+>F Arrays not supported
+=[7060] PLSch does not support arrays in EDIF 2.0.0.
+>Fss User defined component already declared.
+=[7061] User defined component '%s' previously declared in library '%s'.
+"mentor.c
+>F No Mentor Reader
+=[7062] This version of plsch has no Mentor schematic netlist reader.
+&*
+>Eds bad DFI status
+=[7063] Bad DFI status %d from %s.
+&*
+>E no instances
+=[7064] No instances found in design.
+&*
+>Es no properties
+=[7065] Instance %s has no properties.
+&*
+>Es no component property
+=[7066] Instance '%s' has no component property.
+&*
+>E no nets
+=[7067] Design has no nets.
+&*
+>Es no pins on net
+=[7068] Net '%s' has no pins attached.
+&*
+>Ess no instance for pin
+=[7069] Pin '%s' on net '%s' is not attached to an instance.
+&*
+"edif.y
+>Ms template name
+=%s...
+>Fs expecting switch value
+=[7071] Switch requires a string value, i.e., -%s:<string>.
+&SWITCH
+>Fs Illegal net name
+=[7072] Net name %s will generate an illegal MINC HDL symbol name.
+>Fs Illegal port name
+=[7073] Port name %s will generate an illegal MINC HDL symbol name.
+&*

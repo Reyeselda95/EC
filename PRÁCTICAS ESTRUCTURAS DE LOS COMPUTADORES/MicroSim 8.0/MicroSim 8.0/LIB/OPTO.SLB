@@ -1,0 +1,179 @@
+*version 8.0 3575490817
+@index
+symloc A4N25 0 1038
+symloc A4N25A:A4N25 1038 133
+symloc A4N26:A4N25 1171 130
+symloc A4N27:A4N25 1301 165
+symloc A4N28:A4N25 1466 165
+symloc H11A2:A4N25 1631 130
+symloc H11A3:A4N25 1761 130
+symloc H11A4:A4N25 1891 130
+symloc H11A520:A4N25 2021 136
+symloc MCT2:A4N25 2157 127
+symloc MCT2E:A4N25 2284 130
+symloc MOC1005:A4N25 2414 136
+symloc MOC1006:A4N25 2550 136
+symloc copyright 2686 575 b
+*symbol A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=A4N25
+a 0 sp 0 0 15 9 hln 100 MODEL=A4N25
+a 1 s 9 0 15 -2 hln 100 REFDES=U?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %1 %2 %4 %5 %6 @MODEL \n+ PARAMS: REL_CTR=@REL_CTR
+a 0 u 0 0 0 10 hlb 100 REL_CTR=1
+@pins
+p 0 13 12 hln 100 1 n 0 10 h
+a 0 s 0 0 5 8 hrn 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 13 32 hln 100 2 n 0 30 h
+a 0 s 0 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 -2 -10 hln 100 ERC=x
+p 0 28 38 hln 100 6 n 30 50 v
+a 0 s 0 0 25 52 hcn 100 PIN=6
+a 0 s 0 0 30 50 hln 100 ERC=x
+p 0 46 36 hln 100 4 n 50 50 v
+a 0 s 0 0 45 52 hcn 100 PIN=4
+a 0 s 0 0 48 48 hln 100 ERC=x
+p 0 57 12 hrn 100 5 n 70 10 u
+a 0 s 0 0 65 8 hln 100 PIN=5
+a 0 s 0 0 70 10 hln 100 ERC=x
+@graphics 70 50 0 10 10
+r 0 10 0 60 40
+v 0 23 23
+17 23
+;
+v 0 10 10
+20 10
+;
+v 0 20 30
+10 30
+;
+v 0 50 10
+60 10
+;
+v 0 20 10
+20 17
+;
+v 0 20 23
+20 30
+;
+v 0 20 23
+23 17
+17 17
+20 23
+;
+v 0 40 10
+40 30
+;
+v 0 50 10
+40 15
+;
+v 0 50 30
+40 25
+;
+v 0 41 28
+48 29
+43 24
+;
+v 0 40 19
+30 19
+;
+v 0 30 40
+30 19
+;
+v 0 50 40
+50 30
+;
+*symbol A4N25A ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=A4N25A
+a 0 sp 0 0 15 9 hln 100 MODEL=A4N25A
+*symbol A4N26 ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=A4N26
+a 0 sp 0 0 15 9 hln 100 MODEL=A4N26
+*symbol A4N27 ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=A4N27
+a 0 sp 0 0 15 9 hln 100 MODEL=A4N27
+a 0 u 0 0 0 10 hlb 100 REL_CTR=0.5
+*symbol A4N28 ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=A4N28
+a 0 sp 0 0 15 9 hln 100 MODEL=A4N28
+a 0 u 0 0 0 10 hlb 100 REL_CTR=0.5
+*symbol H11A2 ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=H11A2
+a 0 sp 0 0 15 9 hln 100 MODEL=H11A2
+*symbol H11A3 ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=H11A3
+a 0 sp 0 0 15 9 hln 100 MODEL=H11A3
+*symbol H11A4 ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=H11A4
+a 0 sp 0 0 15 9 hln 100 MODEL=H11A4
+*symbol H11A520 ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=H11A520
+a 0 sp 0 0 15 9 hln 100 MODEL=H11A520
+*symbol MCT2 ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=MCT2
+a 0 sp 0 0 15 9 hln 100 MODEL=MCT2
+*symbol MCT2E ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=MCT2E
+a 0 sp 0 0 15 9 hln 100 MODEL=MCT2E
+*symbol MOC1005 ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=MOC1005
+a 0 sp 0 0 15 9 hln 100 MODEL=MOC1005
+*symbol MOC1006 ako A4N25
+d Optocoupler
+@type p
+@attributes
+a 0 sp 11 0 15 9 hln 100 PART=MOC1006
+a 0 sp 0 0 15 9 hln 100 MODEL=MOC1006
+*symbol copyright b
+d Copyright
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+s 26 2 20 hln 100 The symbols in this library are for use with
+s 26 2 29 hln 100 the MicroSim Schematics program only.
+s 26 2 10 hln 100 Copyright 1991-1995, MicroSim Corporation.
+s 26 2 38 hln 100 Neither this library, nor any part of it,
+s 26 2 47 hln 100 may be copied without the express written
+s 26 2 57 hln 100 consent of MicroSim Corporation.
+r 0 0 0 230 60
